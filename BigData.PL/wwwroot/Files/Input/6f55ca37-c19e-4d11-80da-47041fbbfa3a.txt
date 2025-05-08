@@ -1,0 +1,273 @@
+Learn Data Science Tutorial With Python
+                                        
+                                                                                    
+                                                
+                                                    Last Updated   
+                                                       Apr      
+                                                
+
+                                                 
+                                                 
+                                                                                                            
+                                                                                                                    
+                                                            
+                                                            
+                                                              
+                                                
+                                                    
+                                                        
+                                                    
+                                                
+                                            
+                                                                                                                                                                                        
+                                                                    Comments
+                                                                    
+                                                                        
+                                                                        
+                                                                        
+                                                                    
+                                                                
+                                                                
+                                                                Improve
+                                                                
+                                                                    
+                                                                    
+                                                                    
+                                                                
+                                                             
+                                                                                                                        
+                                                                                                                    
+                                                        
+                                                            
+                                                                                                                            
+                                                            
+                                                            
+                                                        
+                                                    
+                                                 
+                                            
+                                                                            
+                                                            
+                            
+                            
+                            
+                                            
+                                            
+                                             
+                                                
+                                                    
+                                                        
+                                                        Suggest changes
+                                                    
+                                                
+                                                                                                                                      
+                                            
+                                                     
+                                                        Like Article
+                                                    
+                                                    
+                                                        
+                                                        Like
+                                                    
+                                                
+
+                                            
+                                            
+                                            
+
+                                            
+                                            
+                                                
+                                                    
+                                                        
+                                                        Report
+                                                    
+                                                
+
+                                            
+                                            
+                                            
+                                        
+                                    
+                            
+                                                                Data Science has become one of the fastest growing fields in recent years  helping organizations to make informed decisions  solve problems and understand human behavior  As the volume of data grows so does the demand for skilled data scientists  The most common languages used for data science are Python and R 
+In this Data Science with Python tutorial will guide you through the fundamentals of both data science and Python programming 
+Data Science with Python
+Before starting the tutorial you can refer to these articles  
+
+What is Data Science 
+Python for Data Science 
+Setting Up Data Science Environment
+
+Python Libraries for Data Science
+To gain expertise in data science  you need to have a strong foundation in the following libraries  
+
+Pandas for Data Manipulation
+NumPy for Numerical Computing
+Matplotlib for Data Visualization
+Seaborn for Data Visualization
+Scikit learn for Machine Learning
+
+Data Loading 
+Data loading means importing raw data from various sources and storing it in one place for further analysis 
+
+Loading a CSV File into a DataFrame
+Loading Data from an Excel File
+Loading Data from JSON File
+Loading Data from SQL Databases
+Web Scraping using BeautifulSoup to Scrape Data
+Loading Data from MongoDB into DataFrame
+
+Data Preprocessing
+Data preprocessing involves cleaning and transforming raw data into a usable format for accurate and reliable analysis 
+
+What is Data Preprocessing 
+Working with Missing Data using Pandas
+Removing Duplicates using drop duplicates  
+Scaling and Normalization of Data
+Aggregating and Grouping Data
+Feature Selection using Sklearn 
+Handling Categorical Data using Label Encoding 
+Handling Categorical Data using One Hot Encoding 
+Detecting outlier using Z score 
+Detecting outlier using Interquartile Range 
+Handling Imbalanced Data 
+Efficient Preprocessing for Large Datasets
+
+Data Analysis 
+Data analysis is the process of inspecting data to discover meaningful insights and trends to make informed decision 
+
+What is Data Processing 
+Exploratory Data Analysis in Python
+Univariate and Multivariate Analysis
+Calculating Correlation
+Hypothesis testing using Python
+One sample t test using Python
+Two Sample t test using Python
+ANOVA  Analysis of Variance  in Python 
+Mann Whitney U Test in Python 
+Z test in Python
+Chi Square Test
+PCA with Python 
+Shapiro Wilk Test in Python 
+Wilcoxon Signed Rank Test in Python
+
+Data Visualization 
+Data visualization uses graphical representations such as charts and graphs to understand and interpret complex data 
+Data Visualization using Matplotlib 
+
+Line Chart
+Bar Plot
+Histogram
+Heatmap
+Box Plot
+Scatter Plot
+Pie Chart
+ D Plot
+
+Data Visualization using Seaborn 
+
+Pair Plot
+Count Plot
+Violin Plot
+Strip Plot
+KDE Plot  Kernel Density Estimate 
+Joint Plot
+Reg Plot 
+
+Interactive Visualization
+
+Scatter Plot
+Bar Chart
+Line Chart
+Animated Data Visualization
+Choropleth Maps using
+Interactive Visualization using Bokeh 
+Visualizing Geospatial Data using Folium 
+
+Machine Learning
+Machine learning focuses on developing algorithms that helps computers to learn from data and make predictions or decisions without explicit programming 
+
+Machine Learning Tutorial
+Deep Learning Tutorial
+
+
+ Related Courses   Machine Learning  is an essential skill for any aspiring data analyst and data scientist and also for those who wish to transform a massive amount of raw data into trends and predictions  Learn this skill today with  Machine Learning Foundation         Self Paced Course designed and curated by industry experts having years of expertise in ML and industry based projects  
+Every organisation now relies on data before making any important decisions regarding their future  So  it is safe to say that Data is really the king now  So why do you want to get left behind  This LIVE course will introduce the learner to advanced concepts like   Linear Regression  Naive Bayes  amp  KNN  Numpy  Pandas  Matlab   amp  much more  You will also get to work on real life projects through the course  So wait no more   Become a Data Science Expert now   
+
+
+                            
+                            
+                        
+                                                                              
+                                        
+                                                                                
+                                                                
+                            
+    
+        
+        
+        Comment
+    More infoAdvertise with us                                
+                                
+                                        Next Article
+                                        
+                                    
+                                    
+                                    
+                                        Data Analysis  Analytics  Tutorial
+                                    
+                                
+                                                        
+                        
+                            
+                                        
+                                            
+                                                
+                                                
+                                                    
+        
+            
+        
+        
+                                                
+                                                
+                                                    abhishek                                                 
+                                                
+                                                
+            
+            
+
+ Follow                                            
+                                            
+                                        
+                                        
+                                            
+                                            
+                                                
+                                                
+                                                    
+                                                    
+                                                
+                                            
+                                            
+                                                                            
+                                    Improve
+                                    
+                                
+                            
+                                        
+                        
+                        
+                                                            
+                                    Article Tags   
+                                    
+                                        
+            
+                AI ML DS
+            
+            
+                Data Science
+            
+            
+                Tutorials

@@ -1,0 +1,162 @@
+What is High Level Design    Learn System Design
+                                        
+                                                                                    
+                                                
+                                                    Last Updated   
+                                                       Apr      
+                                                
+
+                                                 
+                                                 
+                                                                                                            
+                                                                                                                    
+                                                            
+                                                            
+                                                              
+                                                
+                                                    
+                                                        
+                                                    
+                                                
+                                            
+                                                                                                                                                                                        
+                                                                    Comments
+                                                                    
+                                                                        
+                                                                        
+                                                                        
+                                                                    
+                                                                
+                                                                
+                                                                Improve
+                                                                
+                                                                    
+                                                                    
+                                                                    
+                                                                
+                                                             
+                                                                                                                        
+                                                                                                                    
+                                                        
+                                                            
+                                                                                                                            
+                                                            
+                                                            
+                                                        
+                                                    
+                                                 
+                                            
+                                                                            
+                                                            
+                            
+                            
+                            
+                                            
+                                            
+                                             
+                                                
+                                                    
+                                                        
+                                                        Suggest changes
+                                                    
+                                                
+                                                                                                                                      
+                                            
+                                                     
+                                                        Like Article
+                                                    
+                                                    
+                                                        
+                                                        Like
+                                                    
+                                                
+
+                                            
+                                            
+                                            
+
+                                            
+                                            
+                                                
+                                                    
+                                                        
+                                                        Report
+                                                    
+                                                
+
+                                            
+                                            
+                                            
+                                        
+                                    
+                            
+                                                                In Developing scalable applications  proper planning  and organization play a significant role  High level design plays an important role in this process by serving as the blueprint of the system s architecture  It provides a comprehensive view of how components interact and function together which will further help for detailed implementation Understanding high level design is very crucial for developers  architects  and project managers because it allows them to make sure that all stakeholders are aligned with the project objectives  High level design is also known as macro level design What is High Level DesignTable of ContentWhat is High Level Design Components of High Level DesignWhat is High Level Design Document Purpose and Characteristics of High Level DesignHow HLD is different from LLDHow To Design Scalable High level Design  HLD  SystemsRoadmap to learn HLDWhat is High Level Design High Level Design is a initial step in development of applications where overall structure of a system is planned  High Level design focuses mainly on how different components of the system work together without getting to know about internal coding and implementation  This helps everyone involving in the project to understand the goals and ensures good communication during development Components of High Level DesignComponents of High Level DesignUnderstanding the components of high level design is very important for creating effective systems that meets user needs and technical requirements  Below are the main components of high level design System Architecture  System architecture is an overview of the entire system which represents the structure and the relationships between various components  It helps to visually represent how different parts interact and function Modules and Components  High Level design breaks down the systems into modules or components each with specific roles and responsibilities  and has a distinct function that contributes to entire system helping in developing an efficient system Data Flow Diagrams  DFDs   Data Flow Diagrams demonstrates the data movement within the system  They help to understand how information is processed and handled  Interface Design  This component focuses on how different modules communicate with one another  It details the application programming interfaces  APIs  and user interfaces necessary for seamless interaction between components  Technology Stack  The technology stack are various technologies and tools that will be used in the development of the system  This includes programming languages  frameworks  databases  Deployment Architecture  It includes how the system will be hosted and accessed  It includes server configurations  cloud infrastructure  and network considerations What is High Level Design Document HLD document consists of data flows  flowcharts  and data structures to help developers in understanding and implement how the current system is being designed intentionally to function  This document is responsible for explaining the connections between system components and operations which depict the logic  The architecture design needed  for the system s functionality and flow  for each and every module of the system as per the functional requirements  Purpose and Characteristics of High Level DesignThe purpose of this High Level Design  HLD  is to add the necessary detailed description to represent a suitable model  This is designed to help with operational requirements and will help to understand how the modules interact  Basically  HLD is a technical representation of functional requirements and the flow of information across components  Characteristics of High Level Design include A diagram representing each design aspect is included in the HLD  which is based on business requirements and anticipated results  Description of hardware  software interfaces  and also user interfaces The workflow of the user s typical process is detailed  along with performance specifications How HLD is different from LLDHigh Level Design or HLD is a general system design where we do tradeoffs between different frameworks  components  and different databases and we choose the best considering what the business needs and how the system should work  both in terms of functional and non functional aspects  Whereas LLD Low Level Design   translates the HLD into smaller and more specific details  It includes class diagrams  methods  data structures  and algorithms  focusing on how each part will be implemented  Further Read  Differences between High Level Design HLD  and Low Level Design LLD After having an adequate understanding of HLD and how it is different from LLD  Let us now discuss the HLD roadmap  which is shown below as an infographic  How To Design Scalable High level Design  HLD  SystemsNow in order to design any high level system  certain terms are listed in a sequential manner so as to connect the dots in order to understand  Roadmap is very important for working professionals because these help us to get a complete binding understanding of how services in real time are getting scaled at a high level How To Design Scalable High level Design  HLD  Systems   Capacity EstimationCapacity estimation in system design involves predicting the resources  such as processing power  memory  and bandwidth  required to meet the expected workload  It ensures that a system can handle current and future demands efficiently  helping in the proper allocation of resources and preventing performance bottlenecks  For example Twitter which is recently in newsfeeds these days  here at high level designing we need to make sure tweets of popular influencers are reaching out to millions of people so how we need to scale our system so service should not be hampered  We have also shown below the characteristics behavior of a server which is measured across throughput and latency within the system Comparison of Throughput and Latency with Concurrency   Behavior Of A Server   HTTP and HTTPS and their methodsHTTP HyperText Transfer Protocol   is used to transfer the data over the web  which enables the communication between clients and server  that helps user to requests resources like HTML pages  messages  videos or images while HTTPS HyperText Transfer Protocol Secure  is an extension of HTTP which adds a extra layer of security through SSL TLS encryption  Methods of HTTP include GET  PUT and POST Tip  These are also important as per interview perceptive as constraint bounds in interviews in API over when to use what is very important   Tip  There are   ways to send data from server to client Using WebsocketsUsing Polling   Web SocketsThere are two way to send data from server to clients which are websockets and polling  In a client server architecture  we are sending a request to server and server sends it back and so in this way communication takes place  But in designing the system biggest problem we face is whether we can implement the client server model because we can not wait until the server responds  Here Web Sockets play a crucial role that solving problems and enabling us to have real time communication  WebSocket is a full duplex protocol as it allows the application to send and receive data at the same time They are more or less used in every system to be designed because we can not let our system wait for a response  They are very useful in Real time web applications  gaming applications  chat applications  WebSocket Connection   PollingAnother way of sending and receiving data from a server just likely as we do we doing above in the case of web sockets Polling  There are mainly   types of polling In short polling  we sent the request  In short polling  the client sends a request to the server and the server immediately sends data at fixed intervals whether the data is updated or not  In long polling  the server waits for the client s request to respond and responds only and only if some new data is available or if some data is being updated  Short polling vs long polling Tip  Long polling is preferred over short polling because lesser number of requests are sent in a system    Server Sent Events SSE It is purposely built as one way communication from servers to clients in specific design systems  SSE is a technology that helps to push real time updates from the server to the clients over HTTP connection  SSE enables server to send data automatically as it becomes available  Example of SSE include real time streaming Server Sent Events SSE    Rate limitingA rate limiter restricts the number of events that can be done in a timeframe by restricting the number of requests a sender can send in a given period of time  Here once the threshold limit is reached now further it blocks the incoming requests as can be seen below media as follows Rate limiting   ResiliencyNo matter how great a system we design there is always a chance of faults and failure which could be because of hardware issues or software issues such as running low on memory  or there can be some human error  In such cases we need to provide resiliency through replication  redundancy and availability Note  System design interviews starts with open ended designing a specific system which later is bounded with constraints at multiple levels  In order to clear dealing with these bounds in layman language is known as resiliency via implementing common tradeoff in the system  Hence providing resiliency is very crucial in designing complex system designs and also in clearing interviews     PagingPaging in High Level Design  HLD  refers to the method of dividing large datasets or content into smaller  manageable pages  This approach improves user experience by allowing users to load data incrementally  reducing initial load times and enhancing performance Paging   LoggingA log file records details of events occurring in a software application  The details may consist of microservices  transactions  service actions  or anything helpful to debug the flow of an event in the system  Logging is crucial to monitor the application s flow  This can also be useful for tracking the health and performance of a distributed system  as well as for debugging issues that may arise  There are several approaches to implementing distributed logging  including Using a centralized logging serviceUsing a distributed logging systemUsing a cloud based logging serviceRoadmap to learn HLD   Basics of HLDDifference between HLD and LLDWhat is the goal of High Level Design HLD     Core Components of HLDLoad BalancerContent Delivery Network CDN Caching in System DesignWhat is API GatewayMessage QueuesConsistent HashingCommunication ProtocolsNetwork Protocols and Proxies   Design Principles for HLDScalability and How to achieve itAvailability in System DesignConsistency in System DesignReliability in System DesignFault Tolerance in System DesignCAP TheoremPerformance Optimization Techniques for System DesignHow to Draw High Level Design Diagram    Types of HLD DiagramsComponent Based DiagramSequence DiagramsWhat is DFD Data Flow Diagram  Deployment Diagram   Architectures and PatternsMonolithic ArchitectureMicroservices ArchitectureEvent Driven ArchitectureClient Server ArchitecturePeer to Peer  P P  ArchitectureServerless ArchitectureCircuit Breaker PatternEvent Sourcing PatternCQRS Design Pattern   Interview Preparation for HLDHow to Crack System Design Interview Round Top High Level Design HLD  Interview Questions     
+                            
+                            
+                        
+                                                                              
+                                        
+                                                                                
+                                                                
+                            
+    
+        
+        
+        Comment
+    More infoAdvertise with us                                
+                                
+                                        Next Article
+                                        
+                                    
+                                    
+                                    
+                                        Difference between High Level Design HLD  and Low Level Design LLD 
+                                    
+                                
+                                                        
+                        
+                            
+                                        
+                                            
+                                                
+                                                
+                                                    
+        
+            
+        
+        
+                                                
+                                                
+                                                    solankimayank                                                
+                                                
+                                                
+            
+            
+
+ Follow                                            
+                                            
+                                        
+                                        
+                                            
+                                            
+                                                
+                                                
+                                                    
+                                                    
+                                                
+                                            
+                                            
+                                                                            
+                                    Improve
+                                    
+                                
+                            
+                                        
+                        
+                        
+                                                            
+                                    Article Tags   
+                                    
+                                        
+            
+                System Design

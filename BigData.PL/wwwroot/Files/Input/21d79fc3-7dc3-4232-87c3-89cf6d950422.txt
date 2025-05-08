@@ -1,0 +1,357 @@
+Flutter Tutorial
+                                        
+                                                                                    
+                                                
+                                                    Last Updated   
+                                                       Mar      
+                                                
+
+                                                 
+                                                 
+                                                                                                            
+                                                                                                                    
+                                                            
+                                                            
+                                                              
+                                                
+                                                    
+                                                        
+                                                    
+                                                
+                                            
+                                                                                                                                                                                        
+                                                                    Comments
+                                                                    
+                                                                        
+                                                                        
+                                                                        
+                                                                    
+                                                                
+                                                                
+                                                                Improve
+                                                                
+                                                                    
+                                                                    
+                                                                    
+                                                                
+                                                             
+                                                                                                                        
+                                                                                                                    
+                                                        
+                                                            
+                                                                                                                            
+                                                            
+                                                            
+                                                        
+                                                    
+                                                 
+                                            
+                                                                            
+                                                            
+                            
+                            
+                            
+                                            
+                                            
+                                             
+                                                
+                                                    
+                                                        
+                                                        Suggest changes
+                                                    
+                                                
+                                                                                                                                      
+                                            
+                                                     
+                                                        Like Article
+                                                    
+                                                    
+                                                        
+                                                        Like
+                                                    
+                                                
+
+                                            
+                                            
+                                            
+
+                                            
+                                            
+                                                
+                                                    
+                                                        
+                                                        Report
+                                                    
+                                                
+
+                                            
+                                            
+                                            
+                                        
+                                    
+                            
+                                                                This Flutter Tutorial is specifically designed for beginners and experienced professionals  It covers both the basics and advanced concepts of the Flutter framework 
+Flutter is Google s mobile SDK that builds native Android and iOS apps from a single codebase  It was developed in December       When building applications with Flutter  everything is geared towards Widgets   the blocks with which the Flutter apps are built  The User Interface of the app comprises many simple widgets  each handling one particular job  That is why developers think of their Flutter app as a tree of devices 
+Compared to contemporary technologies like React Native  Kotlin  and Java  Flutter is much better regarding having a Single Codebase for Android and iOS  Reusable UI and Business Logic  high compatibility  performance  and productivity 
+Prerequisite
+Before diving into Flutter  it is important to have a strong grasp of Dart programming  familiarity with Android Studio  and knowledge of web scripting languages like HTML  JavaScript  and CSS 
+
+Table of Contents
+
+
+
+Basics
+Widgets
+UI Components
+Design  amp  Animations
+Forms  amp  Gestures
+
+
+
+Navigation  amp  Routing
+Accessing Device
+Advance Concepts
+Flutter Apps
+
+
+
+Flutter         Basics
+Flutter is a toolkit created by Google that lets developers build apps for mobile  web  and desktop using the same code  It uses the Dart programming language and comes with ready to use widgets for designing user interfaces  Flutter       s special feature  hot reload  allows developers to see changes instantly as they code  making development faster  Let us check few basic topics about Flutter 
+
+Flutter         Introduction
+Flutter   Architecture Application
+Android Studio Setup for Flutter Development
+Flutter         Setup for application development
+Flutter Development on Ubuntu
+
+Flutter         Widgets
+In this section  you will explore Flutter widgets  which are pre built elements used to construct user interfaces in Flutter applications  Widgets in Flutter are versatile and customizable  ranging from basic components like buttons and text fields to complex layouts and animations  Flutter provides a rich library of built in widgets that developers can use directly or customize to suit specific design requirements 
+
+Flutter         Widgets
+Flutter   Stateful vs Stateless Widgets
+MaterialApp class in Flutter
+Scaffold class in Flutter
+Flutter         AppBar Widget
+Flutter   FloatingActionButton
+BottomNavigationBar Widget in Flutter
+Drawer Widget in Flutter
+Container class in Flutter
+Flutter   SizedBox Widget
+ClipRRect Widget in Flutter 
+Flutter         RichText Widget
+ListView Class in Flutter
+Flutter   GridView
+Flutter         TextField
+
+
+Visit Flutter Widgets to view more widgets 
+
+Flutter         UI Components
+ Flutter provides a variety of widgets like buttons  text fields  and sliders that you can customize and arrange to create your app       s user interface  In this section  you will explore Flutter       s UI components  which are ready made elements used to build the look and feel of your app 
+
+Icon Class in Flutter
+Expanded Class in Flutter
+Flutter   Checkbox Widget
+Flutter         Carousel Slider
+Flutter         Staggered Grid View
+Flutter         Circular  amp  Linear Progress Indicators
+Alert Dialog box in Flutter
+Flutter         Dialogs
+Flutter         Handling videos
+Flutter         Expansion Tile Card
+Flutter         Tabs
+Flutter         Horizontal List
+Flutter         Working with Charts
+Flutter         Convex Bottombar
+Flutter         Slidable
+Flutter   Snackbar
+
+
+Visit  Flutter UI Components for more
+
+Flutter         Design  amp  Animations
+In this section  you       ll learn how to use these widgets to design buttons  text fields  and other elements that look great on both Android and iOS devices  Additionally  Flutter       s powerful animation capabilities allow you to create smooth transitions and interactive effects  enhancing the user experience  
+
+Customizing Fonts in Flutter
+Flutter         Themes
+Flutter         Auto size text
+Flutter         Skeleton Text
+Flutter         Animation in Route Transition
+Flutter         Ripple Effect
+Flutter         Lazy Loader
+Flutter         Radial Hero Animation
+Flutter         Hinge Animation
+Flutter         Lottie Animation
+ProgressIndicator in Flutter
+Flutter         Physics Simulation in Animation
+Flutter         Using Google fonts
+Flutter         Rotate Transition
+Flutter         Animated Splash Screen
+Flutter         Shimmer
+Rive animations in Flutter
+
+Flutter Forms  amp  Gestures
+You       ll learn how to validate user inputs and handle form submissions efficiently  Additionally  Flutter simplifies the implementation of gestures like tapping  swiping  and pinching  enhancing user interaction within your applications  
+
+Form Validation in Flutter
+Designing a Form Submission Page in Flutter
+Flutter         Gestures
+
+Flutter         Navigation  amp  Routing
+In Flutter  Navigation refers to moving between different screens or pages in your app  Flutter provides a powerful and flexible navigation system that allows you to manage navigation stacks  pass data between screens  and handle transitions smoothly  Let us check how navigation and routing work in Flutter  
+
+Routes and Navigator in Flutter
+Multi Page Applications in Flutter
+Flutter         Named Routes
+Flutter         Arguments in Named Routes
+Flutter         Return Data from Screen
+URLs in Flutter
+Retrieve Data From TextFields in Flutter
+Flutter         WebSockets
+Flutter         Avoiding Jank
+Flutter         Updating Data on the Internet
+Flutter         Fetching Data From the Internet
+Flutter         Deleting Data On The Internet
+Flutter         Sending Data To The Internet
+Flutter         Send Data to Screen
+Flutter         Send Data to the Screen using RouteSettings
+
+Flutter         Accessing Device
+Here  you will explore how Flutter enables developers to access device features such as cameras  sensors  and storage  Flutter provides plugins that allow easy integration with device hardware and APIs  making it straightforward to utilize functionalities like taking pictures  accessing location data  or storing files locally 
+
+Gallery Access in Flutter
+Camera Access in Flutter
+Background local notifications in Flutter
+Restrict Landscape Mode in Flutter
+
+Flutter         Advanced Concepts
+In this section  you will explore advanced concepts in Flutter  diving deeper into its capabilities beyond the basics  You       ll learn about state management techniques to handle data and user interface changes efficiently  Discover how to integrate Flutter with backend services and APIs to fetch and display dynamic data in your applications  Explore advanced widget customization and animations to create visually appealing user interfaces 
+
+Flutter   Read and Write Data on Firebase
+Mail and SMS in Flutter
+Making Calls in Flutter
+FAB         Speed Dial in Flutter
+Flutter         Wakelock
+Implementing REST API in Flutter
+HTTP GET Response in Flutter
+
+Flutter App Projects
+In this section  you will explore various Flutter app projects that showcase its versatility and capabilities  You       ll discover examples ranging from simple to complex applications built using Flutter       s user friendly widgets and robust development tools 
+
+Basic Quiz App In Flutter API
+A Hello World App Using Flutter
+Creating a Simple Application in Flutter
+Flutter   Simple PDF Generating App
+Flutter   Dice Roller App
+Flutter   Magic   Ball App
+
+Why learn Flutter 
+There are some key features of Flutter  nbsp 
+
+Cross platform development  Flutter allows developers to write a single codebase for both Android and iOS  and it also reduces the time and costs of development 
+Fast development  It has a hot reload feature that allows developers to see the changes that occur in the code  It makes the development process faster and more efficient 
+Attractive UI  Flutter provides a rich set of customizable widgets that allow developers to create visually attractive and responsive user interfaces 
+Performance  Flutter uses the Dart programming language  and its efficient rendering engine  Skia  ensures high performance  fast app startup times  and smooth animations 
+Large community  Flutter has a growing and supportive community  which provides Flutter developers with vast documentation  resources  and third party packages  which makes the development easy 
+Open Source  Flutter is a free and open source framework for developing mobile applications 
+
+Features of Flutter
+Features of the Flutter include 
+
+Cross platform development
+Single codebase for multiple platforms
+Hot Reload for instant code changes
+Rich UI with customizable widgets
+Fast performance and smooth animations
+Native like user experience
+Access to native features and APIs
+Dart programming language
+Strong community support
+Integration with existing code
+Testing and debugging tools
+Open source and free
+
+Advantages of Flutter
+
+Flutter comes with attractive and customizable widgets for high performance and awesome mobile applications 
+Dart has a big repository of software packages that lets you develop the capabilities of your application 
+It requires lower testing  Because of its single code base  it is sufficient to write automated tests once for both IOS and Android platforms  nbsp 
+Developers need to write just a single code base for both Android and IOS applications  nbsp 
+Flutter s simplicity makes it a good choice for fast development  Its customization capability and extensibility make it even more effective 
+Developers have full control over the widgets and their layout with Flutter 
+It offers amazing developer tools with great hot reload 
+
+
+
+                            
+                            
+                        
+                                                                              
+                                        
+                                                                                
+                                                                
+                            
+    
+        
+        
+        Comment
+    More infoAdvertise with us                                
+                                
+                                        Next Article
+                                        
+                                    
+                                    
+                                    
+                                        Flutter   An introduction to the open source SDK by Google
+                                    
+                                
+                                                        
+                        
+                            
+                                        
+                                            
+                                                
+                                                
+                                                    
+        
+            
+        
+        
+                                                
+                                                
+                                                    abhishek                                                 
+                                                
+                                                
+            
+            
+
+ Follow                                            
+                                            
+                                        
+                                        
+                                            
+                                            
+                                                
+                                                
+                                                    
+                                                    
+                                                
+                                            
+                                            
+                                                                            
+                                    Improve
+                                    
+                                
+                            
+                                        
+                        
+                        
+                                                            
+                                    Article Tags   
+                                    
+                                        
+            
+                Flutter
+            
+            
+                Flutter

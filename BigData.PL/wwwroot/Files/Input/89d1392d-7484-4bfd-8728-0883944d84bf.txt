@@ -1,0 +1,177 @@
+JavaScript Tutorial
+                                        
+                                                                                    
+                                                
+                                                    Last Updated   
+                                                       Mar      
+                                                
+
+                                                 
+                                                 
+                                                                                                            
+                                                                                                                    
+                                                            
+                                                            
+                                                              
+                                                
+                                                    
+                                                        
+                                                    
+                                                
+                                            
+                                                                                                                                                                                        
+                                                                    Comments
+                                                                    
+                                                                        
+                                                                        
+                                                                        
+                                                                    
+                                                                
+                                                                
+                                                                Improve
+                                                                
+                                                                    
+                                                                    
+                                                                    
+                                                                
+                                                             
+                                                                                                                        
+                                                                                                                    
+                                                        
+                                                            
+                                                                                                                            
+                                                            
+                                                            
+                                                        
+                                                    
+                                                 
+                                            
+                                                                            
+                                                            
+                            
+                            
+                            
+                                            
+                                            
+                                             
+                                                
+                                                    
+                                                        
+                                                        Suggest changes
+                                                    
+                                                
+                                                                                                                                      
+                                            
+                                                     
+                                                        Like Article
+                                                    
+                                                    
+                                                        
+                                                        Like
+                                                    
+                                                
+
+                                            
+                                            
+                                            
+
+                                            
+                                            
+                                                
+                                                    
+                                                        
+                                                        Report
+                                                    
+                                                
+
+                                            
+                                            
+                                            
+                                        
+                                    
+                            
+                                                                JavaScript is a programming language used to create dynamic content for websites  It is a lightweight  cross platform  and single threaded programming language  JavaScript is an interpreted language that executes code line by line providing more flexibility  HTML adds Structure to a web page  CSS styles it and JavaScript brings it to life by allowing users to interact with elements on the page  such as actions on clicking buttons  filling out forms  and showing animations JavaScript on the client side is directly executed in the user s browser  Almost all browsers have JavaScript Interpreter and do not need to install any software  There is also a browser console where you can test your JavaScript code JavaScript is also used on the Server side  on Web Servers  to access databases  file handling and security features to send responses  to browsers Webpage in Browser   JavaScript TutorialHello World ProgramThis JavaScript Compiler is completely free and easy to use  Here  you can practice various JS Exercises 
+            JavaScript
+
+    console log  quot Hello World  quot   
+
+OutputHello World 
+Why to learn JavaScript Versatility  JavaScript can be used to develop  using ElectronJS  websites  games  Using Phaser and Three js   mobile apps  using React Native   and more Client Side  JavaScript is the main language for client side logic and is supported by almost all browsers  There is a big list of frameworks and libraries like React JS  Angular JS  and Vue JS Server Side  With runtime environments like Node js and Frameworks like Express js  JavaScript is now widely used for building server side applications Machine Learning  With Libraries like Tensorflow JS  JavaScript can be used to develop and train machine learning models  Please refer to ML in JS for details FundamentalsLet s Explore JavaScript s fundamentals which will help build you a understanding to start with JavaScriptIntroductionUsing JS in HTMLVariables and DatatypesQuiz  Variables  amp  Data TypesOperatorsType Conversion and CoercionControl Flow StatementsQuiz  Operators  Control FlowScope Browser console Functions and EventsFunctions in JavaScript are reusable blocks of code that perform a specific task  Events are actions that happen in the browser  such as mouse clicks  keyboard input  or page loading FunctionsFunction bindingHoistingClosuresHigher Order FunctionsIteratorFunction GeneratorQuiz  FunctionsEventsEvent LoopEvent BubblingQuiz  Event HandlingJavaScript Beginner ProjectsNow you have a basic understanding of JavaScript  So start with some beginner level projects to clear your concept and to implement in real world applications Counter ApplicationPrime Number CheckerShow and Hide PasswordPalindrome Checker AppJavaScript CarouselEmail Validator AppUnicode Character ValueRandom Number GeneratorRandom Password GeneratorJavaScript Data StructureJavaScript provides a versatile set of data structures that help in efficient data storage  manipulation  and problem solving  In this section  we will explore each data structure and algorithm in detail NumbersStringQuiz  Numbers  StringArrayLinkedListQuiz  Arrays  Linked ListMapStackQueueQuiz  Stack  QueueSorting Algorithms  JavaScript s built in utilities and ES   enhancements provide additional data structures  including the followingWeakMapWeakSetTyped ArraysDequePriority Queue  Heap Quiz  nbsp Data StructureTo learn data structure and algorithm with JavaScript in detail  you can refer to our DSA with JavaScript Tutorial Object Oriented ProgrammingObject Oriented Programming  OOP  in JavaScript  a concept that enables the structure of code by modeling real world entities as objects with properties and behaviors Introduction to OOPObjectsQuiz  ObjectsClassesConstructor Methodthis KeywordPrototypeStatic MethodsInheritanceQuiz  Classes and InheritanceEncapsulationAbstractionPolymorphismGetters and SettersQuiz  OOPBrowser and Document Object ModelBrowser Object ModelDocument Object ModelManipulate DOM ElementsEvent Handling in the DOMQuiz  BOM and DOMAsynchronous JavaScriptCallbacksPromisePromise ChainingAsync AwaitQuiz  Asynchronous JavaScriptJavaScript Intermediate ProjectsNow you have a good understanding of JavaScript  So let s implement all these in some real world applications Price Range Slider with Min Max InputGitHub Profile SearchToast NotificationMulti Step Progress BarQuiz App with TimerExpense TrackerSortable and Filterable TableDynamic Resume BuilderOTP Input FieldStudent Grade CalculatorJavaScript JSONIt is a lightweight data format for storing and exchanging data widely used to send data between a server and a client JSON TutorialJSON vs JavaScript ObjectRead JSON File Using JSParse JSON Data in JSJavaScript JSON ParserJavaScript JSON Complete ReferenceQuiz  JSONRegular Expression and ValidationRegular expressions plays important role for validation  Validations help ensure that data entered by users meets specific criteria  Regular expressionsForm ValidationEmail Validation Number ValidationPassword ValidationURL ValidationUserName ValidationQuiz  Regular ExpressionsException and Error HandlingException and Error handling is crucial for ensuring the reliability and stability of JavaScript applications by handling errors effectivelyException Handlingthrow Statementtry catch StatementDebuggingQuiz  Error Handling  amp  DebuggingTesting and Performance OptimizationUnit testing with JestMemory ManagementGarbage CollectionLazy LoadingDebouncing ThrottlingQuiz  Testing  amp  OptimizationInteresting FactsThis section covers all the interesting facts and features which made JavaScript so popular and will easy if you are switching from other programming languages also Data TypesStringsFunctions this  keywordSetMapArraysObjectComplete JavaScriptJavaScript Advanced ProjectsNow you have covered almost all the important concepts of JavaScript  These projects will improve and revise your JavaScript Knowledge Employee Database Management SystemNested Chat CommentsResponsive Admin DashboardTask SchedulerDragon s World GameTic Tac Toe GameQR Code GeneratorResize and Compress ImagesQR Code Scanner or ReaderFor all lists of Projects follow the article  JavaScript Project Ideas with Source CodeJavaScript QuizThis section offers a collection of practice Quiz designed to test and support understanding of various concepts in JavaScript  QuizzesPractice Quiz  Practice Quiz  Practice Quiz  JavaScript PracticeThe javaScript Coding Practice Problems page offers exercises for all skill levels  covering basic Numbers  String to advanced structures like Stack  Queue  These problems help build a strong foundation and boost confidence in solving real world coding challenges Coding ProblemsJavaScript ExercisesJavaScript Exercises  Practice Questions and SolutionsJavaScript String ExerciseJavaScript Array ExerciseJavaScript Coding Questions and AnswersJavaScript Programming ExamplesInterview QuestionsThis section provides a list of interview questions related to JavaScript JavaScript Interview Questions and Answers        For BegineersIntermediate JavaScript Interview Questions and Answers       Advance JS Interview Questions and Answers        For ExperiencedJavaScript this Operator Interview QuestionsJavaScript String Interview QuestionsJavaScript Array Interview QuestionsJavaScript Object Interview QuestionsTop    Array Coding Problems for InterviewsJavaScript Output Based Interview QuestionsFor a quick recap of JavaScript read the article   JavaScript Cheat SheetLibraries and FrameworksJavaScript libraries and frameworks play a important role in modern web development  They offer built in functions and methods that enhance web pages  making them more dynamic and interactive  They handle repetitive tasks  allowing developers to focus on core functionality Also  they provide project structure and data flow structure that helps to create fast and more reliable applications JavaScript Tutorial  Libraries and FrameworksLibrariesLibraries provide pre built solutions for common tasks  Developers can use these functions instead of writing code from scratch  saving valuable time  Here are a few popular libraries of JavaScript Frontend Libraries  React  Preact  Lodash  Moment js  jQuery  AxiosBackend Libraries  Socket io  JWT  Bcrypt  Passport js  CORSFrameworksFrameworks  offer a comprehensive structure for building applications  Here are a few popular frameworks of JavaScript Frontend Frameworks  Vue js  Angular  Next js  Nuxt js  Gatsby  RemixBackend Frameworks  Express js  NestJS  Koa js  Sails js  FastifyFullStack FrameWorks  Meteor js  Next js  Nuxt js  RedwoodJSFeatures of JavaScriptJavaScript is one of the most widely used programming languages  known for its flexibility and versatility in web development  Here are some key features or characteristics Easy to Learn and Use  JavaScript s syntax is simple and straightforward  making it easy for both beginners and experienced developers to pick up Interpreted Language  JavaScript is an interpreted language  means it is executed directly by the browser without the need for a compiler  Event Driven and Asynchronous  JavaScript is designed to handle events  making it ideal for interactive web pages  It supports asynchronous programming  enabling non blocking operations Object Oriented and Functional  JavaScript supports both object oriented and functional programming  This gives developers the flexibility to structure their code according to their need Dynamically Typed  In JavaScript  you don t need to declare data types when declaring variables  The language automatically determines the data type at runtime  making it more flexible Extensive Libraries and Frameworks  JavaScript has a rich ecosystem of libraries and frameworks such as React  Angular  and Vue js  which simplify and speed up development for both front end and back end projects Cross Platform  JavaScript is supported across all modern browsers  allowing the same code to run seamlessly on different operating systems and platforms Large Community Support  JavaScript benefits from a large  active developer community that contributes to its growth  With numerous resources available  finding help or solutions is always easy Applications of JavaScriptJavaScript is a versatile language that powers various applications  from web development to mobile apps  making it an essential tool for modern programming Web Development  JavaScript is widely used in web development to create interactive and dynamic websites  Frameworks like React and Angular make front end development faster  while Node js is used for building server side applications Mobile App Development  JavaScript helps in developing mobile apps using frameworks like React Native  allowing developers to build cross platform apps for both iOS and Android Game Development  JavaScript is also used for creating browser based games with libraries like Phaser  making it easy to develop  D games that run directly in the browser Server Side Development  With Node js  JavaScript is used for server side programming  enabling developers to build scalable applications and APIs  especially for real time features like chat systems Scripting  amp  Automation  JavaScript is ideal for automating web related tasks like form validation and data manipulation  improving efficiency and reducing manual work Web Scraping  JavaScript  along with libraries like Puppeteer  is used to extract information from websites for data analysis or research  making it useful for web scraping tasks IoT  Internet of Things   JavaScript is used to control devices and sensors in IoT projects  allowing developers to build smart systems with frameworks like Johnny Five Real Time Applications  JavaScript powers real time applications  such as live chats or notifications  using technologies like WebSockets and Socket io for instant communication between users and servers JavaScript vs  Other Programming LanguagesBelow is a comparison of JavaScript with Python  C    and Java FeatureJavaScriptPythonC  JavaTypeInterpretedInterpretedCompiledCompiled and InterpretedParadigmMulti paradigm  event driven  functional  object oriented Multi paradigm  object oriented  procedural  functional Multi paradigm  procedural  object oriented  generic Object oriented  structuredMemory ManagementAutomatic  Garbage collection Automatic  Garbage collection ManualAutomatic  Garbage collection SyntaxSimpleSimpleComplexComplexUse CasesWeb development  mobile apps  real time applicationsWeb development  data analysis  machine learningSystem programming  game development  high performance applicationsLarge scale applications  enterprise softwareNotable Frameworks LibrariesReact  Angular  Node jsDjango  FlaskStandard Library  BoostSpring  HibernateCommunity SupportStrongStrongStrongStrongJob MarketAbundantAbundantAbundantAbundantList of Companies Using JavaScriptThese are some popular companies that use JavaScript in their workflowCompanyDescriptionGoogleGoogle uses JavaScript extensively in its web services  including Gmail and Google Maps FacebookFacebook s front end is built with React  a JavaScript library  for a dynamic user interface NetflixNetflix uses JavaScript for their interactive user interface and in their backend services AirbnbAirbnb relies on JavaScript  using Node js for scalable back end development and React for the front end LinkedInLinkedIn uses JavaScript for both front end and back end development  enabling real time interaction UberJavaScript is used by Uber for real time tracking and routing  employing both front end and back end technologies TwitterTwitter uses JavaScript for handling its dynamic feeds and providing a seamless user experience PayPalPayPal s front end is powered by JavaScript  offering smooth  interactive user experiences eBayeBay uses JavaScript to build their responsive  dynamic web applications and enhance user interactions SlackSlack s web client and several of its real time communication features are powered by JavaScript Career  amp  Jobs in JavaScriptJavaScript opens up a variety of career opportunities  as it is essential for web development  app creation  and dynamic user interfaces  Here are some top career paths for JavaScript developersCareerAverage Salary  INR  Per AnnumAverage Salary  USD  Per AnnumJavaScript Developer                                       Front End Developer                                       Full Stack Developer                                       Back End Developer                                       Web Developer                                       React Developer                                       Node js Developer                                       UX UI Designer                                       Software Engineer                                       If you are a person  who is more into study from Courses  nbsp JavaScript Course nbsp Provides you Complete Beginner to Advanced learning Get detailed list of all JavaScript Topics  JavaScript Complete Guide   A to Z
+                            
+                            
+                        
+                                                                              
+                                        
+                                                                                
+                                                                
+                            
+    
+        
+        
+        Comment
+    More infoAdvertise with us                                
+                                
+                                        Next Article
+                                        
+                                    
+                                    
+                                    
+                                        Introduction to JavaScript
+                                    
+                                
+                                                        
+                        
+                            
+                                        
+                                            
+                                                
+                                                
+                                                    
+        
+            
+        
+        
+                                                
+                                                
+                                                    kartik                                                
+                                                
+                                                
+            
+            
+
+ Follow                                            
+                                            
+                                        
+                                        
+                                            
+                                            
+                                                
+                                                
+                                                    
+                                                    
+                                                
+                                            
+                                            
+                                                                            
+                                    Improve
+                                    
+                                
+                            
+                                        
+                        
+                        
+                                                            
+                                    Article Tags   
+                                    
+                                        
+            
+                JavaScript
+            
+            
+                Web Technologies
+            
+            
+                Tutorials
+            
+            
+                Web Tech Tutorials

@@ -1,0 +1,181 @@
+C   Programming Language
+                                        
+                                                                                    
+                                                
+                                                    Last Updated   
+                                                       Apr      
+                                                
+
+                                                 
+                                                 
+                                                                                                            
+                                                                                                                    
+                                                            
+                                                            
+                                                              
+                                                
+                                                    
+                                                        
+                                                    
+                                                
+                                            
+                                                                                                                                                                                        
+                                                                    Comments
+                                                                    
+                                                                        
+                                                                        
+                                                                        
+                                                                    
+                                                                
+                                                                
+                                                                Improve
+                                                                
+                                                                    
+                                                                    
+                                                                    
+                                                                
+                                                             
+                                                                                                                        
+                                                                                                                    
+                                                        
+                                                            
+                                                                                                                            
+                                                            
+                                                            
+                                                        
+                                                    
+                                                 
+                                            
+                                                                            
+                                                            
+                            
+                            
+                            
+                                            
+                                            
+                                             
+                                                
+                                                    
+                                                        
+                                                        Suggest changes
+                                                    
+                                                
+                                                                                                                                      
+                                            
+                                                     
+                                                        Like Article
+                                                    
+                                                    
+                                                        
+                                                        Like
+                                                    
+                                                
+
+                                            
+                                            
+                                            
+
+                                            
+                                            
+                                                
+                                                    
+                                                        
+                                                        Report
+                                                    
+                                                
+
+                                            
+                                            
+                                            
+                                        
+                                    
+                            
+                                                                C   is a computer programming language developed by Bjarne Stroustrup as an extension of the C language  It is known for is fast speed  low level memory management and is often taught as first programming language  It provides Hands on application of different programming concepts Similar syntax to C and other popular languages making it easier to switch This C   tutorial is designed to provide a guide for easy and efficient learning of both core and advanced concepts of C    Each concept is explained with simple illustrations and practical code examples that can be executed easily  This tutorial also provides quizzes and practice problems after each section to test your understanding  Let s start Example ProgramThe below code shows the simplest C   program that you can run to print some text on the console screen 
+            C  
+
+     include  lt iostream gt 
+using namespace std 
+int main    
+    cout  lt  lt   quot Hello World quot  
+    return   
+ 
+
+OutputHello WorldFundamentalsThis section guides you through the basic concepts of C    It covers topics that teaches you to write your first program  manage data  perform different operations and control the flow of the program IntroductionIdentifiersKeywordsVariablesData TypesQuiz  Basics  Variables and Data TypesOperatorsBasic Input   OutputQuiz  Operator  Input OutputConditional StatementsLoopsQuiz  Control Statements  LoopsFunctionFunctions allows users to divide the program into multiple blocks each performing a specific task  This section teaches you how to work with functions to write a modular and reusable code FunctionsParameter Passing TechniquesDefault ArgumentsRecursionInline FunctionsLambda ExpressionQuiz  FunctionsCompound Data TypesCompound data types are created from the built in data types  This section guides you through important compound data types such as array  strings  pointer and structures that helps in managing complex real world data ArraysPointersReferencesQuiz  Array  Pointer  ReferenceStringsStructuresUnionsEnumerationQuiz  Strings  Structure and UnionDynamic Memory ManagementC   allows the low level memory manipulation using pointers and dynamic memory allocation deallocation operators  This section guides you through the basis of dynamic memory management Dynamic Memory Managementnew and delete OperatorsMemory LeakQuiz  Dynamic Memory ManagementObject Oriented Programming  OOPs This section covers key concepts of Object Oriented Programming  OOPs  in C   such as classes  objects  encapsulation  inheritance  polymorphism  and abstraction Object Oriented Programming  OOPs Classes and ObjectsEncapsulationPolymorphismInheritanceAbstractionQuiz  OOPs QuizException HandlingException handling are the techniques to handle runtime errors efficiently  This section covers how to handle exceptions to prevent crashes and improve the reliability of applications Exception HandlingException Handling using ClassesStack Unwinding nbsp User Defined ExceptionsQuiz  Exception Handling QuizFile HandlingFile handling allows programs to store and retrieve data from files  This section introduces file handling in C   using streams  It covers reading from and writing to files using streams Files and StreamsI O RedirectionQuiz  File Handling QuizStandard Template Library  STL This section covers Standard Template Library  STL  which is an in built library that provides a set of commonly used data structures such as vectors  lists  stacks  queues  maps  etc  and algorithms that enhance productivity and performance TemplatesStandard Template Library  STL AlgorithmsContainersIteratorsVectorStackQueueMapSetQuiz  STL QuizAdvanced C  This section covers advanced concepts in C   such as move preprocessor  multithreading  etc  Mastering these topics allows developers to write efficient  high performance C   applications PreprocessorNamespacesSmart PointersCallbacksMultithreadingSignal HandlingC   Skill AssessmentsTest what you have learnt through this C   using a series of our Skill Assessment Test Beginner Skill Assessment Practice TestIntermediate Skill Assessment Practice TestAdvanced Skill Assessment Practice TestC   Interview QuestionsQuickly prepare yourself for C   interviews with the help of our carefully curated list of commonly asked interview questions Top    C   Interview Questions and AnswersTop C   STL Interview Questions and Answers   OOPs Interview Questions and AnswersTop C   Exception Handling Interview Questions and AnswersC   vs Other Programming LanguagesLet s see where C   stands as compared to other programming language FeatureC  CJavaPythonJavaScriptTypeCompiledCompiledCompiled and InterpretedInterpretedInterpretedParadigmMulti paradigm  procedural  object oriented  generic Procedural  structuredObject oriented  structuredMulti paradigm  object oriented  procedural  functional Multi paradigm  event driven  functional Memory ManagementManualManualAutomaticAutomaticAutomatic  with garbage collection SyntaxComplexComplexComplexSimpleSimple  but can be more complex with frameworks Use CasesSystem programming  game development  high performance applicationsSystem programming  embedded systems  game developmentLarge scale applications  enterprise softwareWeb development  data analysis  machine learningWeb development  server side scripting  mobile appsNotable Frameworks LibrariesStandard Library  BoostStandard LibrarySpring  HibernateDjango  FlaskNode js  React  Angular  Vue  ExpressCommunity SupportStrongStrongStrongStrongStrongJob MarketAbundantAbundantAbundantAbundantAbundant
+                            
+                            
+                        
+                                                                              
+                                        
+                                                                                
+                                                                
+                            
+    
+        
+        
+        Comment
+    More infoAdvertise with us                                
+                                
+                                        Next Article
+                                        
+                                    
+                                    
+                                    
+                                        Introduction to C   Programming Language
+                                    
+                                
+                                                        
+                        
+                            
+                                        
+                                            
+                                                
+                                                
+                                                    
+        
+            
+        
+        
+                                                
+                                                
+                                                    kartik                                                
+                                                
+                                                
+            
+            
+
+ Follow                                            
+                                            
+                                        
+                                        
+                                            
+                                            
+                                                
+                                                
+                                                    
+                                                    
+                                                
+                                            
+                                            
+                                                                            
+                                    Improve
+                                    
+                                
+                            
+                                        
+                        
+                        
+                                                            
+                                    Article Tags   
+                                    
+                                        
+            
+                C  
+            
+            
+                Tutorials
+                                                
+                                                                    
+                                                                                        
+                                    Practice Tags   
+                                    
+                                        CPP

@@ -1,0 +1,183 @@
+Pandas Tutorial
+                                        
+                                                                                    
+                                                
+                                                    Last Updated   
+                                                       Apr      
+                                                
+
+                                                 
+                                                 
+                                                                                                            
+                                                                                                                    
+                                                            
+                                                            
+                                                              
+                                                
+                                                    
+                                                        
+                                                    
+                                                
+                                            
+                                                                                                                                                                                        
+                                                                    Comments
+                                                                    
+                                                                        
+                                                                        
+                                                                        
+                                                                    
+                                                                
+                                                                
+                                                                Improve
+                                                                
+                                                                    
+                                                                    
+                                                                    
+                                                                
+                                                             
+                                                                                                                        
+                                                                                                                    
+                                                        
+                                                            
+                                                                                                                            
+                                                            
+                                                            
+                                                        
+                                                    
+                                                 
+                                            
+                                                                            
+                                                            
+                            
+                            
+                            
+                                            
+                                            
+                                             
+                                                
+                                                    
+                                                        
+                                                        Suggest changes
+                                                    
+                                                
+                                                                                                                                      
+                                            
+                                                     
+                                                        Like Article
+                                                    
+                                                    
+                                                        
+                                                        Like
+                                                    
+                                                
+
+                                            
+                                            
+                                            
+
+                                            
+                                            
+                                                
+                                                    
+                                                        
+                                                        Report
+                                                    
+                                                
+
+                                            
+                                            
+                                            
+                                        
+                                    
+                            
+                                                                Pandas is an open source software library designed for data manipulation and analysis  It provides data structures like series and DataFrames to easily clean  transform and analyze large datasets and integrates with other Python libraries  such as NumPy and Matplotlib  
+It offers functions for data transformation  aggregation and visualization  which are important for analysis  Created by Wes McKinney in       Pandas widely used by data scientists  analysts and researchers worldwide  Pandas revolves around two primary Data structures  Series   D  for single columns and DataFrame   D  for tabular data enabling efficient data manipulation 
+Important Facts to Know  
+DataFrames  It is a two dimensional data structure constructed with rows and columns  which is more similar to Excel spreadsheet pandas  This name is derived for the term        panel data        which is econometrics terms of data sets What is Pandas Used for With pandas  you can perform a wide range of data operations  including
+Reading and writing data from various file formats like CSV  Excel and SQL databases Cleaning and preparing data by handling missing values and filtering entries Merging and joining multiple datasets seamlessly Reshaping data through pivoting and stacking operations Conducting statistical analysis and generating descriptive statistics Visualizing data with integrated plotting capabilities Why Learn PandasHere s why it s worth learning 
+It offers a simple and intuitive way to work with structured data  especially using DataFrames Makes data exploration easy  so you can quickly understand patterns or spot issues Saves time by reducing the need for complex code It       s widely used in industries like finance  healthcare  marketing and research A must have skill for data science  analytics and machine learning roles Pandas BasicsIn this section  we will explore the fundamentals of Pandas  We will start with an introduction to Pandas  learn how to install it and get familiar with its functionalities  Additionally  we will cover how to use Jupyter Notebook  a popular tool for interactive coding  By the end of this section  we will have a solid understanding of how to set up and start working with Pandas for data analysis 
+Pandas IntroductionPandas InstallationGetting started with PandasHow To Use Jupyter NotebookPandas DataFrameA DataFrame is a two dimensional  size mutable and potentially heterogeneous tabular data structure with labeled axes  rows and columns  
+Creating a DataFramePandas Dataframe IndexPandas Access DataFrameIndexing and Selecting Data with PandasSlicing Pandas DataframeFilter Pandas Dataframe with multiple conditionsMerging  Joining and Concatenating DataframesSorting Pandas DataFramePivot Table in PandasPandas SeriesA Series is a one dimensional labeled array capable of holding any data type  integers  strings  floating point numbers  Python objects  etc    It s similar to a column in a spreadsheet or a database table 
+Creating a SeriesAccessing elements of a Pandas SeriesBinary Operations on SeriesPandas Series Index   MethodsCreate a Pandas Series from arrayData Input and Output  I O Pandas offers a variety of functions to read data from and write data to different file formats as given below 
+Read CSV Files with PandasWriting data to CSV FilesExport Pandas dataframe to a CSV fileRead JSON Files with PandasParsing JSON DatasetExporting Pandas DataFrame to JSON FileWorking with Excel Files in PandasRead Text Files with PandasText File to CSV using Python PandasData Cleaning in PandasData cleaning is an essential step in data preprocessing to ensure accuracy and consistency  Here are some articles to know more about it 
+Handling Missing DataRemoving DuplicatesPandas Change DatatypeDrop Empty Columns in PandasString manipulations in Pandas nbsp String methods in PandasDetect Mixed Data Types and Fix itPandas OperationsWe will cover data processing  normalization  manipulation and analysis  along with techniques for grouping and aggregating data  These concepts will help you efficiently clean  transform and analyze datasets  By the end of this section  you ll learn Pandas operations to handle real world data effectively 
+Data Processing with Pandas Data Normalization in Pandas Data Manipulation in PandasData Analysis using PandasGrouping and Aggregating with PandasDifferent Types of Joins in PandasAdvanced Pandas Operations In this section  we will explore advanced Pandas functionalities for deeper data analysis and visualization  We will cover techniques for finding correlations  working with time series data and using Pandas        built in plotting functions for effective data visualization  By the end of this section  you ll have a strong grasp of advanced Pandas operations and how to apply them to real world datasets 
+Finding Correlation between DataData Visualization with PandasPandas Plotting Functions for Data VisualizationBasic of Time Series Manipulation Using PandasTime Series Analysis  amp  Visualization in PythonPandas QuizTest your knowledge of Python       s pandas library with this quiz  It       s designed to help you check your knowledge of key topics like handling data  working with DataFrames and creating visualizations 
+Python Pandas QuizProjectsIn this section  we will work on real world data analysis projects using Pandas and other data science tools  These projects will cover various domains  including food delivery  sports  travel  healthcare  real estate and retail  By analyzing datasets like Zomato  IPL  Airbnb  COVID    and Titanic  we will apply data processing  visualization and predictive modeling techniques  By the end of this section  you will gain hands on experience in data analysis and machine learning applications 
+Zomato Data Analysis Using PythonIPL Data AnalysisAirbnb Data AnalysisGlobal Covid    Data Analysis and VisualizationsHousing Price Analysis  amp  PredictionsMarket Basket AnalysisTitanic Dataset Analysis and Survival PredictionsIris Flower Dataset Analysis and PredictionsCustomer Churn AnalysisCar Price Prediction AnalysisTo Explore more Data Analysis Projects refer to article      Top Data Analytics Projects in       With Source Codes 
+
+                            
+                            
+                        
+                                                                              
+                                        
+                                                                                
+                                                                
+                            
+    
+        
+        
+        Comment
+    More infoAdvertise with us                                
+                                
+                                        Next Article
+                                        
+                                    
+                                    
+                                    
+                                        Pandas Introduction
+                                    
+                                
+                                                        
+                        
+                            
+                                        
+                                            
+                                                
+                                                
+                                                    
+        
+            
+        
+        
+                                                
+                                                
+                                                    abhishek                                                 
+                                                
+                                                
+            
+            
+
+ Follow                                            
+                                            
+                                        
+                                        
+                                            
+                                            
+                                                
+                                                
+                                                    
+                                                    
+                                                
+                                            
+                                            
+                                                                            
+                                    Improve
+                                    
+                                
+                            
+                                        
+                        
+                        
+                                                            
+                                    Article Tags   
+                                    
+                                        
+            
+                AI ML DS
+            
+            
+                Pandas
+            
+            
+                Python pandas

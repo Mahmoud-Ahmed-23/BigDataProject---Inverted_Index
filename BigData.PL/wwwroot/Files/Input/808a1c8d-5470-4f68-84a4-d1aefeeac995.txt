@@ -1,0 +1,171 @@
+Data Analysis  Analytics  Tutorial
+                                        
+                                                                                    
+                                                
+                                                    Last Updated   
+                                                       Dec      
+                                                
+
+                                                 
+                                                 
+                                                                                                            
+                                                                                                                    
+                                                            
+                                                            
+                                                              
+                                                
+                                                    
+                                                        
+                                                    
+                                                
+                                            
+                                                                                                                                                                                        
+                                                                    Comments
+                                                                    
+                                                                        
+                                                                        
+                                                                        
+                                                                    
+                                                                
+                                                                
+                                                                Improve
+                                                                
+                                                                    
+                                                                    
+                                                                    
+                                                                
+                                                             
+                                                                                                                        
+                                                                                                                    
+                                                        
+                                                            
+                                                                                                                            
+                                                            
+                                                            
+                                                        
+                                                    
+                                                 
+                                            
+                                                                            
+                                                            
+                            
+                            
+                            
+                                            
+                                            
+                                             
+                                                
+                                                    
+                                                        
+                                                        Suggest changes
+                                                    
+                                                
+                                                                                                                                      
+                                            
+                                                     
+                                                        Like Article
+                                                    
+                                                    
+                                                        
+                                                        Like
+                                                    
+                                                
+
+                                            
+                                            
+                                            
+
+                                            
+                                            
+                                                
+                                                    
+                                                        
+                                                        Report
+                                                    
+                                                
+
+                                            
+                                            
+                                            
+                                        
+                                    
+                            
+                                                                Data Analysis or Data Analytics is studying  cleaning  modeling  and transforming data to find useful information  suggest conclusions  and support decision making  This Data Analytics Tutorial will cover all the basic to advanced concepts of Excel data analysis like data visualization  data preprocessing  time series  data analysis tools  etc Data Analysis TutorialData Analysis ProcessData Analysis is developed by the statistician John Tukey in the     s  It is a procedure for analyzing data  methods for interpreting the results of such systems  and modes of planning the group of data to make its analysis easier  more accurate  or more factual Therefore  data analysis is a process for getting large  unstructured data from different sources and converting it into information that is gone through the below process Data Requirements SpecificationData CollectionData ProcessingData CleaningData AnalysisCommunicationPrerequisites for Data AnalysisTo strong skill for Data Analysis we needs to learn this resources to have a best practice in this domains Python For Data AnalysisSQL For Data AnalysisPython Data VisulizationData Analysis DatasetsData Analysis LibrariesPandas TutorialLearn Pandas to unlock powerful tools for data analysis in Python  This essential library offers versatile data structures like DataFrames  enabling efficient data manipulation  analysis  and visualization  Mastering Pandas will significantly enhance your ability to handle and extract insights from complex datasets  making it an indispensable skill for any data analyst or scientist Numpy TutorialLearn NumPy to master numerical computing in Python  This foundational library provides support for arrays  matrices  and high level mathematical functions  making data manipulation and computation highly efficient  Understanding NumPy is crucial for performing advanced data analysis and scientific computing  and it serves as a cornerstone for many other data science libraries Understanding the DataWhat is Data Sample Vs Population Statistic Different Data Types  Qualitative vs Quantitative  or categorical vs numerical Univariate Vs Multivariate Data typesAttributes of Nominal  Ordinal Vs Interval Data TypesRead and Loading the data set Read Dataset with Pandas Python   Read CSVExport Pandas dataframe to a CSV filePandas   Parsing JSON DatasetExporting Pandas DataFrame to JSON FileWorking with Excel files using PandasSlicing  Indexing  Manipulating  and Cleaning Pandas DataframeData Preprocessing Data preparation is a critical step in any data analysis or machine learning project  It involves a variety of tasks aimed at transforming raw data into a clean and usable format  Properly prepared data ensures more accurate and reliable analysis results  leading to better decision making and more effective predictive models  This guide will cover key aspects of data preparation  including data formatting  data cleaning  outlier detection  data transformation  and data sampling Data Formatting Formatting float column of the data frame in PandasHow to Check the Data Type in Pandas DataFrame How to change the Pandas datetime format in Python Convert the column type from string to datetime format in Pandas data frameData Cleaning Overview of Data CleaningMissing values Working with Missing Data in PandasDrop rows from Pandas dataframe with missing values or NaN in columnsCount NaN or missing values in Pandas DataFrameHandling Missing ValuesWorking with Missing DataHandle Missing Data with Simple ImputerHandle missing values of categorical variablesReplacing missing values using Pandas in PythonOutliers Detection BoxplotsDetect and Remove the Outliers using PythonZ score for outlier DetectionDensity based method for outlier Detection Clustering Based approaches for outlier detectionDBSCAN Clustering for outlier detectionBinning Binning or DiscretizationBinning method for data smoothingIsolation Forest  nbsp for outlier detectionSupport Vector Machine for outlier detectionData Transformation Normalization and Scaling Data NormalizationDifference between Data Normalization and ScalingData Normalization with PandasHow to Standardize Data in a Pandas DataFrame Max Min NormalizationZ score NormalizationDecimal scaling normalizationStandard Deviation NormalizationStandardizationLog TransformationPower transformationData sampling Probability sampling Simple Random SamplingClustered SamplingStratified Random samplingSystematic SamplingNon Probability samplingExploratory Data AnalysisExploratory Data Analysis  EDA  is also crucial step in the data analysis process that involves summarizing the main characteristics of a dataset  often with visual methods  The goal of EDA is to understand the data s underlying structure  detect patterns and anomalies  test hypotheses  and check assumptions  EDA is essential for making informed decisions about data preprocessing  feature engineering  and modeling What is Exploratory Data AnalysisExploratory Data Analysis in PythonExploratory Data Analysis in R nbsp Univariate Data  nbsp EDA  Measures of Central TendencyMeasures of spreadinterquartile range  IQR ANOVASkewnessCalculate Skewness and Kurtosis in PythonDifference between Skewness vs kurtosisHistogramInterpretations of HistogramBoxplotsQuantile Quantile plotsQuantile Quantile Plot in PythonQuantile Quantile Plot in R Multivariate Data EDA Cross tabulationCorrelation  amp  Correlation MatrixCorrelation and CovarianceFactor AnalysisCluster AnalysisMANOVA Multivariate Analysis of Variance Canonical Correlation AnalysisCorrespondence AnalysisMultiDimensional Scaling Probability Distributions Central Limit Theorem Cumulative Distribution Functions Calculate and plot a Cumulative Distribution functionPlot Cumulative Distribution Function in RProbability Density FunctionsProbability Density Estimation  amp  Maximum Likelihood EstimationExponential Distribution Normal Distribution Normal Distribution functionNormal Distribution in PythonNormal Distribution in RBinomial DistributionPython   Binomial DistributionBernoulli Distribution in RPoisson DistributionP   ValueZ   ScoreT distribution T distributiont distribution in Rt distribution in PythonPoint EstimateConfidence IntervalsChi Squared TestsHypothesis TestingHypothesis Testing FormulaOne Tailed Test  amp  Two Tailed TestTime Series Data Analysis Time series data analysis involves examining data points collected or recorded at specific time intervals  This type of data is ubiquitous in various fields  such as finance  economics  environmental science  and many others  The primary goal is to understand the underlying structure and patterns to make accurate predictions or decisions Define Time Series DataData and Time function in PythonTime Series Data PlottingDeal with missing values in a Time seriesMoving Averages in Time Series DataStationarity in Time Series DataSeasonality Detection in Time Series DataTrend in Time Series DataTesting for Mean ReversionAugmented Dickey Fuller TestWhat is Autocorrelation Data Analysis Tools Excel TutorialTableau TutorialPower BI TutorialNeed for Data AnalysisData analytics is significant for business optimization performance  An organization can also use data analytics to make better business decisions and support analyzing customer trends and fulfillment  which can lead to unknown and better products and services  Executing it into the business model indicates businesses can help reduce costs by recognizing more efficient modes of doing business  nbsp Applications of Data AnalysisBetter decision making  The Key advantage of data analysis is better decision making in the long term  Rather than depending only on knowledge  businesses are increasingly looking at data before deciding  nbsp Identification of potential risks  Companies in today s world succeed in high risk conditions  but those environments require critical risk management processes  and extensive data has contributed to developing new risk management solutions  Data can enhance the effectiveness of actual simulations to predict future risks and create better planning Increase the efficiency of work  Data analysis allows you to analyze a large set of data and present it in a structured way to help reach your organization s objectives  Possibilities and progress within the organization are reflected  and activities can increase work efficiency and productivity  It enables a culture of efficiency and collaboration by allowing managers to share detailed data with employees Delivering relevant products  Products are the oil for every organization  and often the most important asset of organizations  The role of the product management team is to determine trends that drive strategic creation  and activity plans for unique functions and services Track customer behavioral changes  Consumers have a lot to choose from in products available in the markets  Organizations have to pay attention to consumer demands and expectations  So to analyze the behavior of the customer data analysis is very important 
+                            
+                            
+                        
+                                                                              
+                                        
+                                                                                
+                                                                
+                            
+    
+        
+        
+        Comment
+    More infoAdvertise with us                                
+                                
+                                        Next Article
+                                        
+                                    
+                                    
+                                    
+                                        Exploratory Data Analysis  EDA  with NumPy  Pandas  Matplotlib and Seaborn
+                                    
+                                
+                                                        
+                        
+                            
+                                        
+                                            
+                                                
+                                                
+                                                    
+        
+            
+        
+        
+                                                
+                                                
+                                                    pawan kumar gunjan                                                
+                                                
+                                                
+            
+            
+
+ Follow                                            
+                                            
+                                        
+                                        
+                                            
+                                            
+                                                
+                                                
+                                                    
+                                                    
+                                                
+                                            
+                                            
+                                                                            
+                                    Improve
+                                    
+                                
+                            
+                                        
+                        
+                        
+                                                            
+                                    Article Tags   
+                                    
+                                        
+            
+                Data Analysis
+            
+            
+                AI ML DS
+            
+            
+                Tutorials
+            
+            
+                AI ML DS With Python

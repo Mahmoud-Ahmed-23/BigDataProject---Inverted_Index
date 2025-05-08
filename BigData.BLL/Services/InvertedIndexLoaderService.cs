@@ -1,4 +1,9 @@
 ﻿using BigData.DAL.Data;
+using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Linq;
+using System.Web;  
 
 namespace BigData.BLL.Services
 {
@@ -16,7 +21,7 @@ namespace BigData.BLL.Services
 			if (!File.Exists(filePath))
 			{
 				Console.WriteLine("Inverted index file not found. Generating...");
-				// ممكن تولد هنا لو عايز توليد تلقائي
+				
 				return new Dictionary<string, List<(string, int)>>();
 			}
 
@@ -26,7 +31,7 @@ namespace BigData.BLL.Services
 			{
 				if (string.IsNullOrWhiteSpace(line)) continue;
 
-				var parts = line.Split('\t', 2); // split by tab
+				var parts = line.Split('\t', 2); 
 				if (parts.Length != 2) continue;
 
 				var word = parts[0].Trim();
@@ -42,7 +47,8 @@ namespace BigData.BLL.Services
 						var link = linkParts[0].Trim();
 						if (int.TryParse(linkParts[1], out int count))
 						{
-							linksWithCounts.Add((link, count));
+							var decodedLink = DecodeUrl(link);
+							linksWithCounts.Add((decodedLink, count));
 						}
 					}
 				}
@@ -56,5 +62,11 @@ namespace BigData.BLL.Services
 			return invertedIndex;
 		}
 
+		private string DecodeUrl(string url)
+		{
+			return HttpUtility.UrlDecode(url); 
+		}
+
+		
 	}
 }

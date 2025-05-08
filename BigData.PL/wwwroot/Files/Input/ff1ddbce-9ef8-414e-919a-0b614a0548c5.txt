@@ -1,0 +1,171 @@
+Maths for Machine Learning
+                                        
+                                                                                    
+                                                
+                                                    Last Updated   
+                                                       Apr      
+                                                
+
+                                                 
+                                                 
+                                                                                                            
+                                                                                                                    
+                                                            
+                                                            
+                                                              
+                                                
+                                                    
+                                                        
+                                                    
+                                                
+                                            
+                                                                                                                                                                                        
+                                                                    Comments
+                                                                    
+                                                                        
+                                                                        
+                                                                        
+                                                                    
+                                                                
+                                                                
+                                                                Improve
+                                                                
+                                                                    
+                                                                    
+                                                                    
+                                                                
+                                                             
+                                                                                                                        
+                                                                                                                    
+                                                        
+                                                            
+                                                                                                                            
+                                                            
+                                                            
+                                                        
+                                                    
+                                                 
+                                            
+                                                                            
+                                                            
+                            
+                            
+                            
+                                            
+                                            
+                                             
+                                                
+                                                    
+                                                        
+                                                        Suggest changes
+                                                    
+                                                
+                                                                                                                                      
+                                            
+                                                     
+                                                        Like Article
+                                                    
+                                                    
+                                                        
+                                                        Like
+                                                    
+                                                
+
+                                            
+                                            
+                                            
+
+                                            
+                                            
+                                                
+                                                    
+                                                        
+                                                        Report
+                                                    
+                                                
+
+                                            
+                                            
+                                            
+                                        
+                                    
+                            
+                                                                Mathematics is the foundation of machine learning  Math concepts plays a crucial role in understanding how models learn from data and optimizing their performance  Before diving into machine learning algorithms  it s important to familiarize yourself with foundational topics  like Statistics  Probability Distributions  Linear Algebra  Matrix Operations  Regression  Geometry  Dimensionality Reduction and Vector Calculus Linear Algebra and Matrix OperationsLinear algebra is important for many machine learning algorithms  Concepts like vectors  matrices and matrix operations are essential for understanding data representations  transformations and model computations  From calculating gradients to managing multidimensional datasets  linear algebra enables efficient implementation of algorithms MatricesEigenvalues and EigenvectorsLU DecompositionQR DecompositionSingular Value Decomposition  SVD OrthogonalizationDiagonalizationNon  Negative Matrix FactorizationVectorsVector Spaces and SubspacesLinear MappingsRegression Analysis Regression analysis is a statistical method for understanding relationships between variables  It is crucial for predictive modeling and interpreting patterns in data  Techniques like linear regression provide the foundation for supervised learning  where the goal is to predict continuous outcomes Linear RegressionLogistic regreession Bayesian Linear RegressionRidge and lasso Regresson Normal Equation in Linear RegressionMaximum Likelihood Estimation  MLE Mean Squared ErrorStatisticsStatistics helps interpret and summarize data  by providing the tools for probability estimations  hypothesis testing and descriptive analytics  Machine learning heavily uses statistical methods for data preprocessing  model evaluation and performance validation Mean  Standard Deviation and VarianceSample Error and True ErrorConfidence IntervalsCorrelation and CovarianceCorrelation CoefficientPearson Correlation CoefficientCovariance MatrixHypothesis TestingNull and Alternative HypothesisType   and Type   Errorsp value interactionParametric MethodsT testPaired Samples t testANOVA TestNon Parametric MethodsMann Whitney U testWilcoxon signed rank testKruskal Wallis testFriedman testBias Vs Variance and Its Trade OffBootstrap method Normal Probability PlotQ Q PlotCurve FittingResiduals Leverage PlotGeometryGeometrical concepts are used in visualizing data distributions and understanding the spatial structure of feature spaces  Geometry plays a important role in clustering  classification and dimensionality reduction techniques Vector NormsInner ProductOuter ProductDot and Cross ProductEuclidean DistanceManhattan DistanceMinkowski DistanceCosine SimilarityJaccard SimilarityOrthogonality and ProjectionsCalculusIn Calculus  differentiation and integration is critical for optimization tasks in machine learning  It is used to compute gradients and adjust model parameters during training processes like gradient descent Fundamental Calculus ConceptsDifferentiationPartial DerivativesGradient DescentChain RuleJacobian and Hessian MatricesInverse Trigonometric Functions DifferentiationPartial DifferentiationHigher Order DerivativesOptimization Techniques using Gradient DescentUni variate OptimizationVector Calculus Vector calculus extends calculus to multivariable systems  It is useful in understanding how changes in multi dimensional spaces affect outcomes  It is  the fundamental for deep learning GradientDivergence and CurlLine IntegralsLaplacian Operator Probability and DistributionsProbability theory let us deal with uncertainty in data and predictions  Understanding probability distributions is essential for building probabilistic models and algorithms like Bayesian networks or Markov chains ProbabilityBayes  TheoremJoint  Conditional and Marginal Probability Discrete Probability DistributionsDiscrete Uniform DistributionBernoulli DistributionBinomial DistributionPoisson DistributionContinuous Probability DistributionsContinuous Uniform DistributionExponential DistributionNormal DistributionBeta DistributionGamma DistributionSampling DistributionsChi Square DistributionF   Distributiont   DistributionCentral Limit TheoremDimensionality ReductionDimensionality reduction techniques make large datasets simpler by keeping only the most important information  Methods like Principal Component Analysis  PCA  and Singular Value Decomposition  SVD  use math concepts from linear algebra  vectors and matrices etc  to achieve this Introduction to Dimensionality ReductionPrincipal Component Analysis  PCA Linear Discriminant Analysis  LDA Generalized Discriminant Analysis  GDA t SNE AlgorithmSome Related Articles Introduction to Machine LearningMachine learning TutorialTop    Machine Learning Interview Questions       Machine LearningWhy Learn Mathematics for Machine Learning Math provides the theoretical foundation for understanding how machine learning algorithms work Concepts like calculus and linear algebra enable fine tuning of models for better performance Knowing the math helps troubleshoot issues in models and algorithms Topics like deep learning  NLP and reinforcement learning require strong mathematical foundations How Much Math is Required for Machine Learning The amount of math required for machine learning depends on your goals  Let s see the breakdown based on different level  Basic Understanding  Entry Level Linear Algebra  Basics of vectors  matrices and matrix operations Statistics  Descriptive statistics  mean  median  variance and standard deviation Probability  Basics of probability theory and common distributions  e g   normal distribution  Calculus  High level understanding of derivatives for gradient based optimization Intermediate Understanding  Practical Implementation Linear Algebra  Eigenvalues  eigenvectors and singular value decomposition  SVD  Probability and Statistics  Bayes  theorem  hypothesis testing and confidence intervals Calculus  Partial derivatives and chain rule for backpropagation in neural networks Optimization  Understanding gradient descent and its variations  e g   stochastic gradient descent  Advanced Understanding  Research and Custom Algorithms Vector Calculus  Jacobians  Hessians and multivariable functions for advanced optimization Probability Distributions  Advanced distributions  e g   Poisson  exponential  and Markov models Linear Algebra  Deep understanding of transformations  tensor operations and matrix decompositions Statistics  Advanced concepts like statistical learning theory and Bayesian inference Calculus  Deeper integration into neural networks and understanding convergence proofs For practical applications and using pre built libraries  basic to intermediate math is sufficient  However  for creating custom algorithms or advancing research  a deeper understanding of math is necessary 
+                            
+                            
+                        
+                                                                              
+                                        
+                                                                                
+                                                                
+                            
+    
+        
+        
+        Comment
+    More infoAdvertise with us                                
+                                
+                                        Next Article
+                                        
+                                    
+                                    
+                                    
+                                        Top Machine Learning Dataset  Find Open Datasets
+                                    
+                                
+                                                        
+                        
+                            
+                                        
+                                            
+                                                
+                                                
+                                                    
+        
+            
+        
+        
+                                                
+                                                
+                                                    mohit gupta omg                                                   
+                                                
+                                                
+            
+            
+
+ Follow                                            
+                                            
+                                        
+                                        
+                                            
+                                            
+                                                
+                                                
+                                                    
+                                                    
+                                                
+                                            
+                                            
+                                                                            
+                                    Improve
+                                    
+                                
+                            
+                                        
+                        
+                        
+                                                            
+                                    Article Tags   
+                                    
+                                        
+            
+                Machine Learning
+            
+            
+                AI ML DS
+                                                
+                                                                    
+                                                                                        
+                                    Practice Tags   
+                                    
+                                        Machine Learning

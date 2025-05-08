@@ -1,0 +1,162 @@
+What is Low Level Design or LLD    Learn System Design
+                                        
+                                                                                    
+                                                
+                                                    Last Updated   
+                                                       Apr      
+                                                
+
+                                                 
+                                                 
+                                                                                                            
+                                                                                                                    
+                                                            
+                                                            
+                                                              
+                                                
+                                                    
+                                                        
+                                                    
+                                                
+                                            
+                                                                                                                                                                                        
+                                                                    Comments
+                                                                    
+                                                                        
+                                                                        
+                                                                        
+                                                                    
+                                                                
+                                                                
+                                                                Improve
+                                                                
+                                                                    
+                                                                    
+                                                                    
+                                                                
+                                                             
+                                                                                                                        
+                                                                                                                    
+                                                        
+                                                            
+                                                                                                                            
+                                                            
+                                                            
+                                                        
+                                                    
+                                                 
+                                            
+                                                                            
+                                                            
+                            
+                            
+                            
+                                            
+                                            
+                                             
+                                                
+                                                    
+                                                        
+                                                        Suggest changes
+                                                    
+                                                
+                                                                                                                                      
+                                            
+                                                     
+                                                        Like Article
+                                                    
+                                                    
+                                                        
+                                                        Like
+                                                    
+                                                
+
+                                            
+                                            
+                                            
+
+                                            
+                                            
+                                                
+                                                    
+                                                        
+                                                        Report
+                                                    
+                                                
+
+                                            
+                                            
+                                            
+                                        
+                                    
+                            
+                                                                Low Level Design  LLD  is the detailed design process in the software development process that focuses on implementing individual components described in the High Level Design  It provides a blueprint for how each component in the system will function and process and it also includes UML Diagrams  data structures  and algorithms  The input to LLD is HLD i e  LLD translates the HLD into smaller and more specific details What is Low Level Design or LLD Table of ContentWhat is Low Level Design LLD  How is LLD different from HLD Roadmap to form LLD from HLD Benefits of Low Level Design LLD Best Practices for Low Level Design LLD Roadmap to learn LLDWhat is Low Level Design LLD  LLD  or Low Level Design  is a phase in the software development process where detailed system components and their interactions are specified  along with their implementation  It involves converting the high level design into a more detailed blueprint  addressing specific algorithms  data structures  and interfaces  LLD serves as a guide for developers during coding  which ensures the accurate and efficient implementation of the system s functionality Low level designing is also known as object level designing or micro level or detailed designing  nbsp How is LLD different from HLD High Level Design or HLD is a general system design where we do tradeoffs between different frameworks  components  and different databases and we choose the best considering what the business needs and how the system should work  both in terms of functional and non functional aspects Whereas LLD Low Level Design   translates the HLD into smaller and more specific details  It includes class diagrams  methods  data structures  and algorithms  focusing on how each part will be implemented  It is Primarily used by developers and technical teams Further Read  Differences between High Level Design HLD  and Low Level Design LLD Roadmap to form LLD from HLD As we know  input for framing low level design  LLD  is  High Level Design  HLD  For this conversion  we generally use Unified Modelling Language  UML  diagrams  Adding to these diagrams we use OOPS principles and SOLID principles and design patterns while designing  Hence  using these paradigms we can convert any HLD to LLD so as to get implemented In order to understand how to design any low level diagram let us understand via the steps Step    Object oriented PrinciplesThe user requirement is processed by using concepts of OOPS programming  Hence it is recommended to have a strong grip on OOPS concepts prior to moving ahead in designing any low level system  Programmers should be absolutely clear about the OOPS concepts to depth right to classes  and objects because OOPS is the foundation on which low leveling on any system is based  nbsp Step    Process of analyzing and designIt is a analyzing phase which is our  st step where we are forming real world problems into object world problems using OOPS concepts and SOLID principles  nbsp Step    Design PatternsNow the implementation of our above object oriented problem is carried out with the help of design patterns  Design patterns are reusable solutions to common problems encountered in software design  They provide a structured approach to design by capturing best practices and proven solutions  making it easier to develop scalable  maintainable  and efficient software  Step    UML DiagramUML  Unified Modeling Language  diagrams play an important role in converting HLD to LLD  They provide a proper and clear visual representation of the components and their relationships  which helps developers significantly   SOLID PrinciplesThese are sets of   principles rules  that are strictly followed as per requirements of the system or requirements for optimal designing  In order to write scalable  flexible  maintainable  and reusable code Single responsibility principle  SRP Open closed principle  OCP Liskov s Substitution Principle LSP Interface Segregation Principle  ISP Dependency Inversion Principle  DIP It s important to keep in mind that SOLID principles are just guidelines and not strict rules to be followed  The key is to strike a balance between following these principles and considering the specific needs and constraints of your business requirement Benefits of Low Level Design LLD Let us discuss some of the benefits of Low Level Design LLD provides a detailed plan for how each part of the software will workIt provides a well structured design  which makes simpler to update or fix parts of the system without affecting the entire software LLD helps team members communicate more effectively because everyone has a clear understanding of how components are working Following the design principles in LLD leads to more cleaner  organized code  making it less prone to errors A proper LLD speeds up the coding process because developers can follow the detailed plan made earlier Best Practices for Low Level Design LLD Below are some of the best practices to form a good Low Level Design Always try to break down the system into small  independent components that contain specific functionalities Clearly define the interfaces for each component  which should include methods  inputs  outputs  This helps in maintaining proper communication between componentsInclude OOPS Principles to promote code reusability  flexibility and maintainability Follow Solid Principles which will lead to more robust and maintainable design plan in advance for error handling and validation of the system by including validation checks in the designRoadmap to learn LLD   Object Oriented and Design PrinciplesObject Oriented Programming  OOPS  ConceptsObject Oriented Analysis and DesignSOLID Principles   Design PatternsCreational Design PatternsBehavioral Design PatternsStructural Design PatternsWhen to choose which design pattern    UML and Modeling in LLDClass DiagramsSequence DiagramsActivity DiagramsState DiagramsUse Case DiagramsObject Diagrams   LLD Best PracticesData Structures and Algorithms for System DesignEssential Security Measures in System DesignIntroduction to Modularity and InterfacesDifference between LLD and HLDPerformance vs ScalabilitySpeed vs  QualityCoding Standards Best Practices   LLD Case StudiesElevator System Low Level DesignTic Tac Toe Low Level DesignAmazon Low Level DesignVending Machine Low Level Design   Interview PreparationHow to Prepare for Low Level Design Interviews Top Low Level Design LLD  Interview Questions     Best Books for Learning Low Level Design LLD        ConclusionIn conclusion  Low Level Design  LLD  is an important phase in the software development lifecycle that translates high level architectural concepts into detailed specifications for individual components  By focusing on modularity  clear interface definitions  and following the design principles  LLD ensures that software systems are robust  maintainable  and scalable 
+                            
+                            
+                        
+                                                                              
+                                        
+                                                                                
+                                                                
+                            
+    
+        
+        
+        Comment
+    More infoAdvertise with us                                
+                                
+                                        Next Article
+                                        
+                                    
+                                    
+                                    
+                                        Difference between High Level Design HLD  and Low Level Design LLD 
+                                    
+                                
+                                                        
+                        
+                            
+                                        
+                                            
+                                                
+                                                
+                                                    
+        
+            
+        
+        
+                                                
+                                                
+                                                    solankimayank                                                
+                                                
+                                                
+            
+            
+
+ Follow                                            
+                                            
+                                        
+                                        
+                                            
+                                            
+                                                
+                                                
+                                                    
+                                                    
+                                                
+                                            
+                                            
+                                                                            
+                                    Improve
+                                    
+                                
+                            
+                                        
+                        
+                        
+                                                            
+                                    Article Tags   
+                                    
+                                        
+            
+                System Design

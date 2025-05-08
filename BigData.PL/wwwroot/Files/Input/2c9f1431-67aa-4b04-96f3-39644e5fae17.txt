@@ -1,0 +1,359 @@
+Competitive Programming         A Complete Guide
+                                        
+                                                                                    
+                                                
+                                                    Last Updated   
+                                                       Nov      
+                                                
+
+                                                 
+                                                 
+                                                                                                            
+                                                                                                                    
+                                                            
+                                                            
+                                                              
+                                                
+                                                    
+                                                        
+                                                    
+                                                
+                                            
+                                                                                                                                                                                        
+                                                                    Comments
+                                                                    
+                                                                        
+                                                                        
+                                                                        
+                                                                    
+                                                                
+                                                                
+                                                                Improve
+                                                                
+                                                                    
+                                                                    
+                                                                    
+                                                                
+                                                             
+                                                                                                                        
+                                                                                                                    
+                                                        
+                                                            
+                                                                                                                            
+                                                            
+                                                            
+                                                        
+                                                    
+                                                 
+                                            
+                                                                            
+                                                            
+                            
+                            
+                            
+                                            
+                                            
+                                             
+                                                
+                                                    
+                                                        
+                                                        Suggest changes
+                                                    
+                                                
+                                                                                                                                      
+                                            
+                                                     
+                                                        Like Article
+                                                    
+                                                    
+                                                        
+                                                        Like
+                                                    
+                                                
+
+                                            
+                                            
+                                            
+
+                                            
+                                            
+                                                
+                                                    
+                                                        
+                                                        Report
+                                                    
+                                                
+
+                                            
+                                            
+                                            
+                                        
+                                    
+                            
+                                                                Competitive Programming is a mental sport that enables you to code a given problem under provided constraints  The purpose of this article is to guide every individual possessing a desire to excel in this sport  This article provides a detailed syllabus for Competitive Programming designed by industry experts to boost the preparation of the readers 
+
+Related Course
+
+Competitive Programming Course
+Get ready to level up your programming skills with this Competitive Programming         Self Paced Course  Learn the Fundamentals of programming  DSA  Mathematical algorithms  and much more  So  why wait  Dive into the world of Programming by enrolling in this course today 
+
+
+Table of Content
+
+What is Competitive Programming 
+Basics of Competitive Programming
+Basics Of Array   String  Greedy and Bit Manipulation
+Number Theory and Combinatorics
+Searching  Sorting and Basic Data Structures
+Tree and Graphs
+Recursion and Dynamic Programming
+String Algorithms
+Geometry and Game Theory
+Advance Data Structures
+
+
+What is Competitive Programming 
+
+Competitive programming nbsp is a nbsp mind sport  where people compete against each other to solve some programming questions logic with an efficient approach and within a time constraint  The goal of competitive programming is to write code to solve a problem within a given timeframe  nbsp 
+
+For those aiming to dive into competitive programming  the GeeksforGeeks Practice Platform offers a wide variety of problems to help you build speed and accuracy 
+Why Should You Do Competitive Programming 
+Competitive programming is the best way to master your nbsp analytical thinking  nbsp and nbsp logical thinking nbsp and improve your coding skills  It is now being considered by many tech giants like nbsp Google nbsp and nbsp Facebook  nbsp Also  Facebook nbsp organizes the nbsp Meta Hacker Cup annually to promote all the Competitive Programmers around the world to compete against one another and earn a chance to get hired at Meta 
+Here are some reasons about why you should start Competitive Programming 
+
+Mental Agility and Quick Thinking  By practicing competitive programming  you start thinking quickly and within the given timeframe and this improves your mental agility and helps enhance your thinking ability 
+Competitive Spirit  Competitive programming can be fun for those who enjoy the thrill of competition  Solving challenging problems that too within a timeframe nbsp boosts confidence nbsp and a sense of accomplishment  
+Career Prospect  Competitive programming nbsp is very important when it comes to technical interviews for software engineering related jobs  nbsp Many tech giants use competitive programming contests as a medium of recruitment  Companies like Google  nbsp ServiceNow  nbsp Atlassian  etc  have nbsp technical interviews nbsp based on competitive programming problems  
+Learning Opportunity  In Competitive programming  we get a wide range of variety of problems and nbsp various arithmetic concepts  Competitive programming exposes various data structures and algorithms which help us better understand the complexity of problems  
+Personal Growth as a Programmer  Competitive programming is one of the best ways to grow as a programmer  It helps you get a command over problem solving  as you ve to solve challenging problems within a time limit  nbsp 
+Networking  Participating in various coding contests gives you a chance to be a part of communities with like minded people  Here in these communities  you get various important resources and guidance from experts who can help you get so many opportunities like referrals  job opening information  mentorship  etc  nbsp 
+
+Basics of Competitive Programming 
+
+What is Competitive Programming and How to Prepare for It 
+Competitive Programming  CP  Handbook with Complete Roadmap
+Fast I O  CPP  nbsp  Java  Python
+Useful libraries  CPP  Java  Python
+Input Output Files  Set    Set  
+Tips and Tricks  Set    Set  
+Input Methods  CPP  Java  Python
+Template  CPP
+Language  CPP  Java  Python
+Time Complexity  Analysis nbsp 
+Setting up Competitive Programming Environment  Sublime  CPP  Visual Studio  CPP and Python
+CSES Problem Set
+
+Basics Of Array   String  Greedy and Bit Manipulation
+
+Reverse an array Related Problems  Problem    Problem   
+Sum of Digits
+Program to Check if a Given String is Palindrome in C  Python  Related Problem 
+Sum of array elements Related Problem 
+Maximum and Minimum element of array Related Problem 
+Counting frequencies of array elements Related Problems  Problem    Problem   
+Float and Precision  CPP  Java  Python
+Prefix sum   D Prefix Sum  Difference Array   Range update query in O      Related Problems  Problem    Problem   
+Coordinate Compression   Related Problem 
+Kadane Algorithm   Related Problem 
+Activity Selection Problem   Related Problem 
+Job Sequencing Problem   Related Problem 
+Sliding Window   Related Problem 
+Logical Operators  CPP Set    Set    Java  Python
+Bit Manipulation  Set    Set    Set   Related Problems  Problem    Problem    Problem   
+Bitset CPP
+Top    Array Coding Problems for Interviews
+Top    String Coding Problems for Interviews
+
+Number Theory and Combinatorics
+
+Prime Number Related Problem 
+Sieve of Eratosthenes Related Problem 
+Segmented Sieve  Related Problem 
+Find all divisors of a natural number  Related Problem 
+Least prime factor of numbers upto N  Related Problem 
+All prime factors of a number Related Problem 
+Prime Factorization using Sieve O log n  for multiple queries
+Sum of all factors of a number Related Problem 
+Gcd of Two numbers  Lcm of two numbers Related Problem 
+Linear Diophantine Equations
+Euclidean algorithms  Basic and Extended 
+Euler s Totient Function Related Problem 
+Euler s Totient function for all numbers smaller than or equal to n
+Inclusion Exclusion Principle nbsp 
+Pigeon Hole Principle
+Modular Operations
+Modular Inverse   Related Problem    Problem   
+Chinese Remainder Theorem  Set    Set  
+Power x  y  in O  logN  
+Power x  y    mod   Related Problem    Problem   
+Matrix Exponentiation   Related Problem 
+Permutation and Combination  Set    Set    Quiz    Quiz  
+nCr  Set    Set  
+nCr   mod  Set   Set     Related Problem 
+nCr   mod for multiple queries   Related Problem 
+Catalan numbers  Applications and Related Problem
+Gaussian Elimination
+
+Searching  Sorting and Basic Data Structures
+
+Linear Search Related Problems  Problem    Problem   
+Binary Search  Unbounded Binary Search Related Problems   nbsp Problem    Problem    Problem   
+Inbuilt sorting O logN   CPP  Java  Python Related Problems  Problem    Problem    Problem    Problem   
+Merge Sort Related Problems  Problem    Problem   
+Quick Sort Related Problems  Problem 
+Stack  Implementation in CPP  Java  Python Related Problems  Problem    Problem    Problem   
+Queue  Implementation in CPP  Java  Python Related Problems  Problem    Problem     Problem   
+Deque  Implementation in CPP  Java  Python Related Problems  Problem 
+Priority Queue  Implementation in CPP  Java  Python Related Problems  Problem    Problem    Problem   
+
+Tree and Graphs
+
+Tree BFS  Tree DFS  Related Problems  Problem    Problem    Problem   
+Graph BFS  Graph BFS    Graph DFS  Related Problems  Problem    Problem   
+Dijkstra s Shortest Path Algorithm Related Problems  Problem    Problem   
+Bellman   Ford Algorithm Related Problem 
+Floyd Warshall Algorithm Related Problem 
+    BFS  Dial s Algorithm
+Detect cycle  Directed  Undirected Related Problems  Problem    Problem   
+Disjoint set union find   Set    Set    Set   Related Problem 
+Topological Sorting  Kahn s Algorithm Related Problem 
+Minimum Spanning Tree  Prim s Algorithm  Kruskal Algorithm Related Problem 
+Bipartite or not  M Coloring Related Problems  Problem    Problem    Problem   
+Strongly Connected Components  Tarjan  Kosaraju Related Problems  Problem    Problem   
+Euler Path  Undirected  Directed Related Problem 
+Flow Algorithms  Set    Set    Dinic s Algorithm Related Problems  Problem    Problem   
+Diameter of Tree
+Centroid Decomposition
+Lowest Common Ancestor
+Top    Tree Coding Problems for Interviews
+
+Recursion and Dynamic Programming
+
+Recursion   nbsp Quiz    Quiz    Quiz    Quiz    Quiz    Quiz    Quiz    Related Problems  Problem    Problem    Problem   
+Backtracking   Related Problems  Problem    Problem   
+Dp Introduction  Set    Set    Set    Set    Set  
+Most useful Dynamic Programming questions
+Additional DP Problems   Problem    Problem    Problem    Problem  
+Dp on Trees  Set    Set  
+Dp on Bit Masking  Set    Set    Set  
+Digit Dp
+Top    Dynamic Programming Coding Problems for Interviews
+
+String Algorithms
+
+Suffix Tree  Set    Set  
+Z Algorithm
+KMP Algorithm  Rabin Karp Algorithm Related Problem 
+Manacher s Algorithm  Set    Set    Set    Set  
+Suffix Automation  Set    Set  
+
+Geometry and Game Theory
+
+Closest Pair of Points
+How to check if two given line segments intersect   Related Problem 
+How to check if a given point lies inside or outside a polygon 
+Convex Hull  Set    Set   Related Problem 
+Given n line segments  find if any two segments intersect
+Check whether a given point lies inside a triangle or not
+How to check if given four points form a square   Related Problem 
+Combinatorial Game Theory  Set     Set    Set    Set  
+Minimax Algorithm in Game Theory  Set    Set    Set    Set    Set  
+Variation in Nim Game
+Find the winner in nim game
+Optimal Strategy for a Game
+
+Advance Data Structures
+
+Trie  Set    Set    Set     Related Problems  Problem    Problem    Problem    Problem    Problem   
+Fenwick Tree  Set    Set    Set    Set     Related Problem 
+Segment Tree  Set    Set    Set    Related Problem 
+Sparse Table  Set    Set  
+Sqrt Decomposition  Set    Set  
+Heavy Light Decomposition  Set    Set  
+Meet in the Middle
+MO s Algorithm  Problem
+Policy based Data Structure
+
+You may also check Geeksforgeeks Online Courses to Learn Data Structures and Algorithms  well designed courses taught by Industry Experts 
+GeeksforGeeks Courses
+
+Competitive Programming         Self Paced Course
+Get ready to take your programming skills to the next level  This Competitive Programming         Course will help you enhance your problem solving skills to be a programmer for a top company and gain a competitive edge over other candidates in SDE interviews  Learn Basics of programming  Data structure and algorithms  Efficient implementation of mathematical algorithms and much more  Then  why wait  Take your first step towards becoming a better programmer  see you in the course 
+DSA Self Paced
+Master Data Structures and Algorithms  trusted by over        students  Prepare for the interviews with leading IT giants like Microsoft  Amazon  Adobe  etc  Built with years of experience by top industry experts and gives you a complete package of video lectures  practice problems  quizzes  discussion forums and contests  Learn and master DSA at the most affordable price possible with GeeksforGeeks DSA Self Paced Course  Join Today 
+Language Foundation Courses C Programming   C     JAVA   Python 
+Master any programming language from scratch and understand all its core fundamental concepts for a strong programming foundation at budget friendly prices with help of GeeksforGeeks Language Foundation Courses   C Programming   Java Foundation   Python Foundation   C   Foundation  These courses are for complete beginners who want to get started with programming and build their foundations  Start your coding journey today  
+
+
+                            
+                            
+                        
+                                                                              
+                                        
+                                                                                
+                                                                
+                            
+    
+        
+        
+        Comment
+    More infoAdvertise with us                                
+                                
+                                        Next Article
+                                        
+                                    
+                                    
+                                    
+                                        Matrix Data Structure
+                                    
+                                
+                                                        
+                        
+                            
+                                        
+                                            
+                                                
+                                                
+                                                    
+        
+            
+        
+        
+                                                
+                                                
+                                                    kartik                                                
+                                                
+                                                
+            
+            
+
+ Follow                                            
+                                            
+                                        
+                                        
+                                            
+                                            
+                                                
+                                                
+                                                    
+                                                    
+                                                
+                                            
+                                            
+                                                                            
+                                    Improve
+                                    
+                                
+                            
+                                        
+                        
+                        
+                                                            
+                                    Article Tags   
+                                    
+                                        
+            
+                Competitive Programming
+            
+            
+                DSA

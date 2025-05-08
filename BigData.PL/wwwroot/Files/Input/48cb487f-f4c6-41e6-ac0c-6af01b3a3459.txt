@@ -1,0 +1,168 @@
+DBMS Tutorial   Learn Database Management System
+                                        
+                                                                                    
+                                                
+                                                    Last Updated   
+                                                       Apr      
+                                                
+
+                                                 
+                                                 
+                                                                                                            
+                                                                                                                    
+                                                            
+                                                            
+                                                              
+                                                
+                                                    
+                                                        
+                                                    
+                                                
+                                            
+                                                                                                                                                                                        
+                                                                    Comments
+                                                                    
+                                                                        
+                                                                        
+                                                                        
+                                                                    
+                                                                
+                                                                
+                                                                Improve
+                                                                
+                                                                    
+                                                                    
+                                                                    
+                                                                
+                                                             
+                                                                                                                        
+                                                                                                                    
+                                                        
+                                                            
+                                                                                                                            
+                                                            
+                                                            
+                                                        
+                                                    
+                                                 
+                                            
+                                                                            
+                                                            
+                            
+                            
+                            
+                                            
+                                            
+                                             
+                                                
+                                                    
+                                                        
+                                                        Suggest changes
+                                                    
+                                                
+                                                                                                                                      
+                                            
+                                                     
+                                                        Like Article
+                                                    
+                                                    
+                                                        
+                                                        Like
+                                                    
+                                                
+
+                                            
+                                            
+                                            
+
+                                            
+                                            
+                                                
+                                                    
+                                                        
+                                                        Report
+                                                    
+                                                
+
+                                            
+                                            
+                                            
+                                        
+                                    
+                            
+                                                                Database Management System  DBMS  is a software used to manage data from a database  A database is a structured collection of data that is stored in an electronic device   The data can be text  video  image or any other format A relational database stores data in the form of tables and a NoSQL database in the form of key value pairs SQL  Structured Query Language  is a standard language for accessing and manipulating data in a relational database A DBMS is a software that allows to create  update and retrieval of data in an organized way  It also provides security to the database Examples of relational DBMS are MySQL  Oracle  Microsoft SQL Server  Postgre SQL and Snowflake Examples of NoSQL DBMS are MongoDB  Cassandra  DynamoDB and Redis  In this Database Management System tutorial  you ll learn basic to advanced topics like the ER model  Relational Model  Relation Algebra  Normalization  File Organization  etc IntroductionNeed For DBMSDBMS Introduction DBMS Architecture       and   Tier   Entity Relationship ModelER ModelEnhanced ER ModelMinimization of ER DiagramGeneralization  Specialization and AggregationRecursive RelationshipsRelational Model and Functional DependenciesRelational ModelKeys  Candidate  Super  Primary  Alternate and Foreign  Functional Dependency and Attribute ClosureFinding Attribute Closure and Candidate Keys using Functional DependenciesArmstrong s Axioms in Functional DependencyEquivalence of Functional DependenciesCanonical CoverAnomalies in Relational ModelMapping from ER Model to Relational ModelStrategies for Schema designSchema Integration  gt  gt  Quiz on ER and Relational ModelNormalizationIntroductionNormal FormsMinimum relations satisfying  NFThe Problem of redundancy in DatabaseDependency Preserving DecompositionLossless Join DecompositionLossless Join and Dependency Preserving DecompositionHow to find the Highest Normal Form of a RelationIntroduction of  th and  th Normal formDomain Key normal formDenormalization in DatabasesDBMS   Data Replication  gt  gt  Quiz on Normal Forms Relational Algebra and CalculusIntroductionBasic OperatorsExtended OperatorsInner Join vs Outer JoinJoin operation Vs nested queryTuple Relational CalculusRow oriented vs  column oriented data storesTransactions and Concurrency ControlIntroductionACID PropertiesConcurrency Control  IntroductionTypes of SchedulesConflict SerializabilityView SerializabilityHow to test if two schedules are View Equal or not  Recoverability of SchedulesPrecedence Graph for testing Conflict SerializabilityTransaction Isolation Levels in DBMSImplementation of Locking in DBMSLock Based ProtocolGraph Based ProtocolTwo Phase Locking    PL Multiple Granularity LockingThomas Write RulePolygraph to check View SerializabilityLog based recoveryTimestamp Ordering ProtocolsTimeStamp and Deadlock Prevention SchemesDirty read in SQLDatabase Recovery TechniquesStarvation in DBMSDeadlock in DBMSDBMS   OLAP vs OLTPTypes of OLAP SystemsTypes of Recoverability of Schedules and easiest way to test schedule   Set    gt  gt  Quiz on Transactions and concurrency control Indexing  B and B  treesIndexing and its TypesB Tree   Set    Introduction B Tree   Set    Insert B Tree   Set    Delete B  Tree  Introduction Bitmap IndexingInverted IndexDifference between Inverted Index and Forward IndexSQL queries on clustered and non clustered Indexes  gt  gt  Practice questions on B and B  Trees   gt  gt  Quizzes on Indexing  B and B  Trees File OrganizationFile Organization   Set  File Organization   Set    Hashing in DBMS File Organization   Set  File Organization   Set    gt  gt  Quiz on File structures Advanced TopicsMultimedia DatabaseRAIDQuery OptimizationHow to store a password in database Storage Area NetworksNetwork attached storageODBMS   Definition and overviewDifference between RDBMS and HBaseChallenges of database securityFederated database management system issuesDistributed Database SystemFunctions of Distributed Database SystemSemantic HeterogeneityAdvantages of Distributed databaseComparison   Centralized  Decentralized and Distributed SystemsCharacteristics of Biological Data  Genome Data Management Data Management issues in Mobile databaseFuture Works in Geographic Information SystemDifference between Structured  Semi structured and Unstructured dataWeb Information Retrieval   Vector Space ModelData Warehouse and Data MiningStar Schema in Data Warehouse modelingData Warehouse Modeling   Snowflake SchemaDimensional Data ModelingData WarehousingData Warehouse ArchitectureCharacteristics and Functions of Data warehouseDifficulties of Implementing Data WarehousesData MiningData Mining   KDD processData Mining   Sources of Data that can be minedData MartsArchitecture of HBaseApache HBaseArchitecture and Working of HiveApache HiveDifference between Hive and HBaseInterview QuestionsDBMS interview questions   Set  DBMS interview questions   Set  SQL Interview QuestionsSQL Query Interview QuestionsPostgreSQL Interview QuestionsPL SQL Intevriew QuestionsSQL TutorialSQL   TutorialQuiz on SQLMisc TopicsDBMS InterfacesCategories of DBMS UsersData Abstraction and Data IndependenceDatabase ObjectsImpedance Mismatch DBMS practices questionsDatabase Management Systems   Set  Database Management Systems   Set  Database Management Systems   Set  Database Management Systems   Set  Database Management Systems   Set  Database Management Systems   Set  Database Management Systems   Set  Database Management Systems   Set  Database Management Systems   Set  Database Management Systems   Set   Database Management Systems   Set    Advantages of DBMS  There are some following reasons to learn DBMS  Organizing and management of data  DBMS helps in managing large amounts of data in an organized manner  It provides features like create  edit  delete  and read  Data Security  DBMS provides Security to the data from the unauthorized person  Improved decision making  From stored data in the database we can generate graphs  reports  and many visualizations which helps in decision making Consistency  In a traditional database model all things are manual or inconsistent  but DBMS enables to automation of the operations by queries   Disadvantages of DBMS Complexity  DBMS can be hard to design  implement  and manage  needing specialized knowledge  Cost  High setup costs  including hardware  software  and skilled personnel  can be expensive  Ongoing maintenance adds to the cost  Performance Overhead  DBMS might slow down simple tasks due to their extra features and general purpose nature  Security Risks  Centralizing data can create security risks  If the system is hacked  all data could be compromised  Resource Intensive  DBMS need a lot of memory  storage  and processing power  which can be costly  Data Integrity Issues  Complex systems can lead to data integrity problems if not managed well  Conclusion Understanding Database Management Systems  DBMS  is essential for managing and organizing data effectively  This DBMS tutorial has introduced you to key concepts like database models  SQL queries  normalization  and data security  With this knowledge  you can design efficient databases  maintain data integrity  and improve performance Quick Links Last Minutes Notes LMNs  nbsp on DBMSQuizzes nbsp on DBMSPractice Problems on DBMS
+                            
+                            
+                        
+                                                                              
+                                        
+                                                                                
+                                                                
+                            
+    
+        
+        
+        Comment
+    More infoAdvertise with us                                
+                                
+                                        Next Article
+                                        
+                                    
+                                    
+                                    
+                                        Introduction of DBMS  Database Management System 
+                                    
+                                
+                                                        
+                        
+                            
+                                        
+                                            
+                                                
+                                                
+                                                    
+        
+            
+        
+        
+                                                
+                                                
+                                                    kartik                                                
+                                                
+                                                
+            
+            
+
+ Follow                                            
+                                            
+                                        
+                                        
+                                            
+                                            
+                                                
+                                                
+                                                    
+                                                    
+                                                
+                                            
+                                            
+                                                                            
+                                    Improve
+                                    
+                                
+                            
+                                        
+                        
+                        
+                                                            
+                                    Article Tags   
+                                    
+                                        
+            
+                DBMS
+            
+            
+                GATE CS
+            
+            
+                dbms

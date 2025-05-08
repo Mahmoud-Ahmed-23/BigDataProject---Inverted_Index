@@ -1,7 +1,10 @@
-﻿using System;
+﻿using BigData.BLL.Services.Helpers;
+using BigData.DAL.Data;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Web;  // إضافة الـ namespace لتشفير وفك تشفير الروابط
 
 namespace BigData.BLL.Services.Search
 {
@@ -9,8 +12,7 @@ namespace BigData.BLL.Services.Search
 	{
 		private readonly InvertedIndexLoaderService _invertedIndexLoaderService;
 
-		public SearchService(
-			InvertedIndexLoaderService invertedIndexLoaderService)
+		public SearchService(InvertedIndexLoaderService invertedIndexLoaderService)
 		{
 			_invertedIndexLoaderService = invertedIndexLoaderService;
 		}
@@ -18,45 +20,61 @@ namespace BigData.BLL.Services.Search
 		public List<string> Search(string query)
 		{
 			string indexFilePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "Files", "inverted_index.txt");
-
-			// تحميل الـ Inverted Index
 			var invertedIndex = _invertedIndexLoaderService.LoadIndex(indexFilePath);
 
-			// تقسيم الاستعلام إلى كلمات فردية
 			var keywords = query.Split(' ', StringSplitOptions.RemoveEmptyEntries);
+			var visitedList = LoadVisitedUrls();
 
 			if (keywords.Length == 1)
 			{
 				var word = keywords[0].ToLower();
-
-				return invertedIndex.ContainsKey(word)
-					? invertedIndex[word].Select(x => x.Link).ToList()
+				var resultLinks = invertedIndex.ContainsKey(word)
+					? invertedIndex[word].Select(x => DecodeUrl(x.Link)).ToList() 
 					: new List<string>();
+				return resultLinks;
 			}
-			else if (keywords.Length == 2)
+			else
 			{
-				var firstKeyword = keywords[0].ToLower();
-				var secondKeyword = keywords[1].ToLower();
-				return SearchPhrase(invertedIndex, firstKeyword, secondKeyword);
+				return SearchPhrase(invertedIndex, keywords);
+			}
+		}
+
+		private List<string> SearchPhrase(Dictionary<string, List<(string Link, int Count)>> invertedIndex, string[] keywords)
+		{
+			var resultLinks = new HashSet<string>();
+
+			foreach (var word in keywords)
+			{
+				var wordLower = word.ToLower();
+				if (invertedIndex.ContainsKey(wordLower))
+				{
+					var wordLinks = invertedIndex[wordLower].Select(x => x.Link).ToHashSet();
+					resultLinks = resultLinks.Count == 0 ? wordLinks : resultLinks.Intersect(wordLinks).ToHashSet();
+				}
 			}
 
-			// لو أكتر من كلمتين، نرجع فاضي مؤقتًا
-			return new List<string>();
+			return resultLinks.Select(DecodeUrl).ToList(); 
 		}
 
-
-
-		private List<string> SearchPhrase(Dictionary<string, List<(string Link, int Count)>> invertedIndex, string word1, string word2)
+		private List<string> LoadVisitedUrls()
 		{
-			if (!invertedIndex.ContainsKey(word1) || !invertedIndex.ContainsKey(word2))
-				return new List<string>();
+			string visitedUrlsFilePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "Files", "visited_urls.txt");
+			var visitedUrls = new List<string>();
 
-			var word1Links = invertedIndex[word1].Select(x => x.Link).ToHashSet();
-			var word2Links = invertedIndex[word2].Select(x => x.Link).ToHashSet();
+			if (File.Exists(visitedUrlsFilePath))
+			{
+				visitedUrls = File.ReadAllLines(visitedUrlsFilePath).ToList();
+			}
 
-			// نرجع الصفحات اللي فيها الكلمتين معًا (مش شرط ترتيب معين هنا)
-			return word1Links.Intersect(word2Links).ToList();
+			return visitedUrls;
 		}
+
+
+		private string DecodeUrl(string url)
+		{
+			return UrlHelper.DecodeUrl(url);
+		}
+
 
 	}
 }

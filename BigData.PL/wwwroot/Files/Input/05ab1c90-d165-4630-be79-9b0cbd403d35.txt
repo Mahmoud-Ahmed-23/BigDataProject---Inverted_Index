@@ -1,0 +1,174 @@
+Python Programs
+                                        
+                                                                                    
+                                                
+                                                    Last Updated   
+                                                       Dec      
+                                                
+
+                                                 
+                                                 
+                                                                                                            
+                                                                                                                    
+                                                            
+                                                            
+                                                              
+                                                
+                                                    
+                                                        
+                                                    
+                                                
+                                            
+                                                                                                                                                                                        
+                                                                    Comments
+                                                                    
+                                                                        
+                                                                        
+                                                                        
+                                                                    
+                                                                
+                                                                
+                                                                Improve
+                                                                
+                                                                    
+                                                                    
+                                                                    
+                                                                
+                                                             
+                                                                                                                        
+                                                                                                                    
+                                                        
+                                                            
+                                                                                                                            
+                                                            
+                                                            
+                                                        
+                                                    
+                                                 
+                                            
+                                                                            
+                                                            
+                            
+                            
+                            
+                                            
+                                            
+                                             
+                                                
+                                                    
+                                                        
+                                                        Suggest changes
+                                                    
+                                                
+                                                                                                                                      
+                                            
+                                                     
+                                                        Like Article
+                                                    
+                                                    
+                                                        
+                                                        Like
+                                                    
+                                                
+
+                                            
+                                            
+                                            
+
+                                            
+                                            
+                                                
+                                                    
+                                                        
+                                                        Report
+                                                    
+                                                
+
+                                            
+                                            
+                                            
+                                        
+                                    
+                            
+                                                                Practice with Python program examples is always a good choice to scale up your logical understanding and programming skills and this article will provide you with the best sets of Python code examples The below Python section contains a wide collection of Python programming examples  These Python code examples cover a wide range of basic concepts in the Python language  including List  Strings  Dictionary  Tuple  sets  and many more  Each program example contains multiple approaches to solve the problem Basic Python ProgramsIn this section  you will find all the basic Python programming examples  So  explore the section and complete the basic stage of Python programming Add two numbersMaximum of two numbersFactorial of a numberFind simple interestFind compound interestCheck Armstrong NumberFind area of a circlePrint all Prime numbers in an IntervalCheck whether a number is Prime or notN th Fibonacci numberCheck if a given number is Fibonacci number Nth multiple of a number in Fibonacci SeriesPrint ASCII Value of a characterSum of squares of first n natural numbersCube sum of first n natural numbersArray ProgramsTo scale up Array logic  try out the below listed Python array programming examples  Here  you will find all the important Python  programming examples that are related to the Python array concept Find sum of arrayFind largest element in an arrayProgram for array rotationReversal algorithm for array rotationSplit the array and add the first part to the endFind reminder of array multiplication divided by nCheck if given array is MonotonicList ProgramsExplore the below section and try out all the important Python List programming examples Interchange first and last elements in a listSwap two elements in a listWays to find length of listWays to check if element exists in listDifferent ways to clear a listReversing a ListFind sum of elements in listMultiply all numbers in the listFind smallest number in a listFind largest number in a listFind second largest number in a listFind N largest elements from a listEven numbers in a listOdd numbers in a ListPrint all even numbers in a rangePrint all odd numbers in a rangePrint positive numbers in a listPrint negative numbers in a listPrint all positive numbers in a rangePrint all negative numbers in a rangeRemove multiple elements from a listRemove empty List from ListCloning or Copying a listCount occurrences of an element in a listRemove empty tuples from a listPrint duplicates from a list of integersFind Cumulative sum of a listSum of number digits in ListBreak a list into chunks of size N Sort the values of first list using second listMore  gt  gt Matrix ProgramsGet a detailed list of Python Matrix examples and boost your understanding of matrix concepts in Python Add two MatricesMultiply two matricesMatrix ProductAdding and Subtracting MatricesTranspose a matrix in Single lineMatrix creation of n nGet Kth Column of MatrixVertical Concatenation in MatrixString ProgramsIf you are looking for Python programming examples that are based on the Python string concept  then scroll down to the below section and practice a wide range of Python string program examples Check if a string is palindrome or notCheck whether the string is Symmetrical or PalindromeReverse words in a given StringWays to remove i th character from stringCheck if a Substring is Present in a Given StringWords Frequency in String ShorthandsConvert Snake case to Pascal caseFind length of a string    ways Print even length words in a stringAccept the strings which contains all vowelsCount the Number of matching characters in a pair of stringRemove all duplicates from a given stringLeast Frequent Character in StringMaximum frequency character in StringCheck if a string contains any special characterGenerating random strings until a given string is generatedFind words which are greater than given length kRemoving i th character from a stringSplit and join a stringCheck if a given string is binary string or notFind uncommon words from two StringsReplace duplicate Occurrence in StringReplace multiple words with KPermutation of a given string using inbuilt functionCheck for URL in a StringExecute a String of CodeString slicing to rotate a stringString slicing to check if a string can become empty by recursive deletionCounter  Find all duplicate characters in stringReplace all occurrences of a substring in a stringMore  gt  gt Dictionary ProgramsIn this section  you will find out all the important practice sets or examples related to the Python Dictionary concept Extract Unique values dictionary valuesFind the sum of all items in a dictionaryWays to remove a key from dictionaryWays to sort list of dictionaries by values Using itemgetterWays to sort list of dictionaries by values Using lambda functionMerging two DictionariesConvert key values list to flat dictionaryInsertion at the beginning in OrderedDictCheck order of character in string using OrderedDict   Dictionary and counter to find winner of electionAppend Dictionary Keys and Values   In order   in dictionarySort Python Dictionaries by Key or ValueSort Dictionary key and values ListHandling missing keys in Python dictionariesDictionary with keys having multiple inputsPrint anagrams together using List and DictionaryK th Non repeating Character using List Comprehension and OrderedDictCheck if binary representations of two numbers are anagramCounter to find the size of largest subset of anagram wordsRemove all duplicates words from a given sentenceDictionary to find mirror characters in a stringCounting the frequencies in a list using dictionaryConvert a list of Tuples into DictionaryCounter and dictionary intersection example  Make a string using deletion and rearrangement Dictionary  set and counter to check if frequencies can become sameScraping And Finding Ordered Words In A DictionaryPossible Words using given charactersKeys associated with Values in DictionaryMore  gt  gt Tuple ProgramsExplore the wide range of Tuple programs here in this section of Python programming examples Find the size of a TupleMaximum and Minimum K elements in TupleCreate a list of tuples from given list having number and its cube in each tupleAdding Tuple to List and vice   versaClosest Pair to Kth index element in TupleJoin Tuples if similar initial elementExtract digits from Tuple listAll pair combinations of   tuplesRemove Tuples of Length KSort a list of tuples by second ItemOrder Tuples using external ListFlatten tuple of List to tupleConvert Nested Tuple to Custom Key DictionarySearching and Sorting ProgramsIn this section  on searching and sorting examples  we have mentioned all the important example sets of Python searching and sorting to boost your Python programming concept Binary Search  Recursive and Iterative Linear SearchInsertion SortRecursive Insertion SortQuickSortIterative Quick SortSelection SortBubble SortMerge SortIterative Merge SortHeap SortCounting SortShellSortTopological SortingRadix SortBinary Insertion SortBitonic SortComb SortPigeonhole SortCocktail SortGnome SortOdd Even Sort   Brick SortBogoSort or Permutation SortCycle SortStooge SortPattern Printing ProgramsGet a complete list of Python pattern printing examples in the below section Print the pattern  G Print an Inverted Star PatternPrint double sided stair case patternPrint with your own fontDate Time ProgramsIn this section  we have mentioned all important Python program examples that are related to the Python Date Time concept Get Current TimeGet Current Date and TimeFind yesterday s  today s and tomorrow s dateConvert time from    hour to    hour formatFind difference between current time and given timeCreate a Lap TimerConvert date string to timestampConvert timestamp string to datetime object Find number of times every day occurs in a YearPython Regex ProgramsTo boost Python Regex concept get a list of Python Regex programming examples below Check if String Contain Only Defined Characters using RegexCount Uppercase  Lowercase  special character and numeric values using RegexFind the most occurring number in a string using RegexRegex to extract maximum numeric value from a stringProgram to put spaces between words starting with capital letters using RegexCheck whether a string starts and ends with the same character or notRegex to find sequences of one upper case letter followed by lower case lettersRemove duplicate words from SentenceRemove all characters except letters and numbersAccept string ending with alphanumeric characterAccept string starting with vowelCheck if a string starts with a substring using regexCheck if an URL is valid or not using Regular ExpressionParsing and Processing URL   RegexValidate an IP address using ReGexCheck if email address valid or notFind files having a particular extension using RegExExtract IP address from fileCheck the validity of a PasswordCategorize Password as Strong or Weak using RegexPython File Handling ProgramsIf you want to scale up your Python file handling concept  explore the below section and find out all the real life Python programming examples on Python file handling Read file word by wordRead character by character from a fileGet number of characters  words  spaces and lines in a fileCount the Number of occurrences of a key value pair in a text fileFinding  n  Character Words in a Text FileObtain the line number in which given word is presentCount number of lines in a text fileRemove lines starting with any prefixEliminate repeated lines from a fileRead List of Dictionaries from FileAppend content of one text file to anotherCopy odd lines of one file to otherMerge two files into a third fileReverse a single line of a text fileReverse the content of a file and store it in another fileReverse the Content of a File using StackMore Popular Python ProgramsFind a more important or popular list of Python programming examples below and upscale your Python programming skills  Reverse a linked listFind largest prime factor of a numberEfficient program to print all prime factors of a given numberProduct of unique prime factors of a numberFind sum of odd factors of a numberProgram for Coin ChangeProgram for Tower of HanoiSieve of EratosthenesCheck if binary representation is palindromeBasic Euclidean algorithmsExtended Euclidean algorithmsMaximum height when coins are arranged in a triangleFind minimum sum of factors of numberDifference between sums of odd and even digitsPrint Matrix in Z formSmallest K digit number divisible by XPrint Number series without using any loopNumber of stopping station problemCheck if a triangle of positive area is possible with the given anglesFind the most occurring character and its countFind sum of even factors of a numberCheck if all digits of a number divide itCheck whether a number has consecutive   s in the given base or notNumber of solutions to Modular EquationsLegendre s Conjecture
+                            
+                            
+                        
+                                                                              
+                                        
+                                                                                
+                                                                
+                            
+    
+        
+        
+        Comment
+    More infoAdvertise with us                                
+                                
+                                        Next Article
+                                        
+                                    
+                                    
+                                    
+                                        How to Add Two Numbers in Python
+                                    
+                                
+                                                        
+                        
+                            
+                                        
+                                            
+                                                
+                                                
+                                                    
+        
+            
+        
+        
+                                                
+                                                
+                                                    kumar satyam                                                
+                                                
+                                                
+            
+            
+
+ Follow                                            
+                                            
+                                        
+                                        
+                                            
+                                            
+                                                
+                                                
+                                                    
+                                                    
+                                                
+                                            
+                                            
+                                                                            
+                                    Improve
+                                    
+                                
+                            
+                                        
+                        
+                        
+                                                            
+                                    Article Tags   
+                                    
+                                        
+            
+                Python
+            
+            
+                Python Programs
+            
+            
+                Tutorials
+                                                
+                                                                    
+                                                                                        
+                                    Practice Tags   
+                                    
+                                        python

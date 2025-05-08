@@ -1,0 +1,324 @@
+How to use Tailwind CSS with Django  
+                                        
+                                                                                    
+                                                
+                                                    Last Updated   
+                                                       Apr      
+                                                
+
+                                                 
+                                                 
+                                                                                                            
+                                                                                                                    
+                                                            
+                                                            
+                                                              
+                                                
+                                                    
+                                                        
+                                                    
+                                                
+                                            
+                                                                                                                                                                                        
+                                                                    Comments
+                                                                    
+                                                                        
+                                                                        
+                                                                        
+                                                                    
+                                                                
+                                                                
+                                                                Improve
+                                                                
+                                                                    
+                                                                    
+                                                                    
+                                                                
+                                                             
+                                                                                                                        
+                                                                                                                    
+                                                        
+                                                            
+                                                                                                                            
+                                                            
+                                                            
+                                                        
+                                                    
+                                                 
+                                            
+                                                                            
+                                                            
+                            
+                            
+                            
+                                            
+                                            
+                                             
+                                                
+                                                    
+                                                        
+                                                        Suggest changes
+                                                    
+                                                
+                                                                                                                                      
+                                            
+                                                     
+                                                        Like Article
+                                                    
+                                                    
+                                                        
+                                                        Like
+                                                    
+                                                
+
+                                            
+                                            
+                                            
+
+                                            
+                                            
+                                                
+                                                    
+                                                        
+                                                        Report
+                                                    
+                                                
+
+                                            
+                                            
+                                            
+                                        
+                                    
+                            
+                                                                Tailwind CSS has gained immense popularity among developers for its utility first approach to styling web applications  Django on the other hand is a robust and flexible web framework written in Python  Combining these two powerful tools can enhance your Django projects  In this article  we will explore how to integrate the capabilities of Tailwind CSS within a Django project 
+Tailwind CSS is basically a Utility first CSS framework for building rapid custom UI  It is a highly customizable  low level CSS framework that gives you all of the building blocks that you need  Also  it is a cool way to write inline styling and achieve an awesome interface without writing a single line of your own CSS 
+Python Django is a web framework that is used to create web applications very efficiently and quickly  Django is called a battery included framework because it contains a lot of built in features such as Django Admin Interface  default database   SQLite   etc  Django provides various ready made components such as a way to handle user authentication  a management panel for your website  forms  a way to upload files  etc 
+Steps to use Tailwind CSS with DjangoStep    Install Django package  Install the Django package via the following command 
+python  m pip install DjangoStep    Create a Django project  Create a Django project via the following command and name your Project whatever you want  Here my Project name is  myapp  
+django admin startproject myappStep    Go inside myapp folder  We need to get inside the created folder to create other files 
+cd myappStep    Create a new  templates   directory inside the project folder and update  settings py  folder 
+
+            Python
+
+    TEMPLATES    
+     
+             BACKEND            django template backends django DjangoTemplates      
+             DIRS        BASE DIR        templates         updated part
+             APP DIRS       True 
+             OPTIONS        
+                 context processors        
+                     django template context processors debug      
+                     django template context processors request      
+                     django contrib auth context processors auth      
+                     django contrib messages context processors messages      
+              
+          
+      
+ 
+
+Step    Install Django compressor by running the following command in your terminal 
+python  m pip install django compressorStep    Add compressor to the installed apps inside the  settings py  file 
+
+            Python
+
+    INSTALLED APPS    
+         django contrib admin      
+         django contrib auth      
+         django contrib contenttypes      
+         django contrib sessions      
+         django contrib messages      
+         django contrib staticfiles      
+         compressor         updated part
+ 
+
+Step    Configure the compressor inside the  settings py  file 
+
+            Python
+
+    COMPRESS ROOT   BASE DIR        static     
+
+COMPRESS ENABLED   True
+
+STATICFILES FINDERS         compressor finders CompressorFinder       
+
+Step    Create two new folders  static src  and an input css file inside those folders 
+Step    Create a new  views py  file inside  myapp   next to urls py and add the following content 
+
+            Python
+
+    from django shortcuts import render
+
+def index request  
+    return render request       index html      
+
+Step     Import the newly created view instance inside the  urls py  file by adding the following code 
+
+            Python
+
+    from  views import index
+
+urlpatterns    
+    path      admin        admin site urls  
+    path             index  name      index      
+ 
+
+Step     Create a new   base html  file inside the templates directory and write the following code inside it  It s a template file that serves as a base or layout for other HTML files in your application 
+
+            HTML
+
+       load compress   
+   load static   
+
+ lt  DOCTYPE html gt 
+ lt html lang  quot en quot  gt 
+
+ lt head gt 
+     lt meta charset  quot UTF   quot  gt 
+     lt meta http equiv  quot X UA Compatible quot  content  quot IE edge quot  gt 
+     lt meta name  quot viewport quot  content 
+         quot width device width  initial scale     quot  gt 
+     lt title gt Django   Tailwind CSS lt  title gt 
+
+       compress css   
+     lt link rel  quot stylesheet quot  
+        href  quot    static      src output css         quot  gt 
+       endcompress   
+
+ lt  head gt 
+
+ lt body class  quot bg green    quot  gt 
+     lt div class  quot container mx auto mt   quot  gt 
+           block content   
+           endblock content   
+     lt  div gt 
+ lt  body gt 
+
+ lt  html gt 
+
+Step     Create an  index html  file  This will serve as the homepage 
+Step     Now install Tailwind CSS  Run the following command on the terminal to install all the tailwind dependencies 
+npm install  D tailwindcssStep     Initialize the tailwind  The below command will generate a config file named  tailwind config js  
+npx tailwindcss initStep     Configure your tailwind config js  To do that go inside  tailwind config js  and update it as given below 
+
+            JavaScript
+
+    module exports    
+      content   
+                 templates      html     
+        
+      theme   
+        extend     
+        
+      plugins     
+ 
+
+Step     Import the Tailwind CSS directives  Add the layer directives of tailwind CSS by writing the following code inside  input css  
+
+            CSS
+
+     tailwind base 
+ tailwind components 
+ tailwind utilities 
+
+Step     Compile the Tailwind CSS code  Run the following command on the terminal to compile the Tailwind CSS directives from  input css  into CSS code in  output css 
+npx tailwindcss  i   static src input css  o   static src output cssStep     Check the Project Structure
+
+Step     Run the application  To run the application  use the command  python manage py runserver  in the terminal 
+python manage py runserverThe above line of code will generate a localhost server  amp  follow the server link to open the application on the web browser 
+Step     Test Tailwind CSS with an example  Now that we have successfully set up the tailwind CSS and understand how to run the application  now  we will test with a simple example 
+Example  Write the code inside  index html 
+
+            HTML
+
+       extends  quot  base html quot    
+
+   block content   
+       lt h  class  quot text  xl text green     quot  gt 
+          GeeksforGeeks
+     lt  h  gt 
+       lt h  class  quot text  x  text green     quot  gt 
+          GeeksforGeeks
+     lt  h  gt 
+   endblock content   
+
+Output 
+
+
+                            
+                            
+                        
+                                                                              
+                                        
+                                                                                
+                                                                
+                            
+    
+        
+        
+        Comment
+    More infoAdvertise with us                                
+                                
+                                        Next Article
+                                        
+                                    
+                                    
+                                    
+                                        How to use Tailwind CSS with esbuild  
+                                    
+                                
+                                                        
+                        
+                            
+                                        
+                                            
+                                                
+                                                
+                                                    S
+        
+            
+        
+        
+                                                
+                                                
+                                                    shakirradfcz                                                
+                                                
+                                                
+            
+            
+
+ Follow                                            
+                                            
+                                        
+                                        
+                                            
+                                            
+                                                
+                                                
+                                                    
+                                                    
+                                                
+                                            
+                                            
+                                                                            
+                                    Improve
+                                    
+                                
+                            
+                                        
+                        
+                        
+                                                            
+                                    Article Tags   
+                                    
+                                        
+            
+                Web Technologies
+            
+            
+                CSS
+            
+            
+                Tailwind CSS
+            
+            
+                Tailwind CSS Questions

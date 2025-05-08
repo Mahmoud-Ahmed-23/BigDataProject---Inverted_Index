@@ -1,0 +1,168 @@
+Software Testing Tutorial
+                                        
+                                                                                    
+                                                
+                                                    Last Updated   
+                                                       May      
+                                                
+
+                                                 
+                                                 
+                                                                                                            
+                                                                                                                    
+                                                            
+                                                            
+                                                              
+                                                
+                                                    
+                                                        
+                                                    
+                                                
+                                            
+                                                                                                                                                                                        
+                                                                    Comments
+                                                                    
+                                                                        
+                                                                        
+                                                                        
+                                                                    
+                                                                
+                                                                
+                                                                Improve
+                                                                
+                                                                    
+                                                                    
+                                                                    
+                                                                
+                                                             
+                                                                                                                        
+                                                                                                                    
+                                                        
+                                                            
+                                                                                                                            
+                                                            
+                                                            
+                                                        
+                                                    
+                                                 
+                                            
+                                                                            
+                                                            
+                            
+                            
+                            
+                                            
+                                            
+                                             
+                                                
+                                                    
+                                                        
+                                                        Suggest changes
+                                                    
+                                                
+                                                                                                                                      
+                                            
+                                                     
+                                                        Like Article
+                                                    
+                                                    
+                                                        
+                                                        Like
+                                                    
+                                                
+
+                                            
+                                            
+                                            
+
+                                            
+                                            
+                                                
+                                                    
+                                                        
+                                                        Report
+                                                    
+                                                
+
+                                            
+                                            
+                                            
+                                        
+                                    
+                            
+                                                                Software Testing is an important part of the Development of Software  in which it checks the software works expected with the help of Software testing techniques  And in this Tutorial  we will see the important parts of the Software testing topics which we are discussing here in detail For those who want a thorough  hands on approach on Software testing  kindly explore our nbsp dedicated course Manual to Automation Testing nbsp which covers both theoretical and practical aspects and can be invaluable in mastering these techniques  Software Testing Tutorial Table of ContentWhat is Software Testing Manual Testing Automation Testing Software Testing Principles Software Testing TutorialImportance of Software TestingWhy Learn Software Testing   Objectives of Software Testing What is Software Testing Software Testing nbsp is a method to assess the functionality of the software program  The process checks whether the actual software matches the expected requirements and ensures the software is bug free  The purpose of software testing is to identify the errors  faults  or missing requirements in contrast to actual requirements  It mainly aims at measuring the specification  functionality  and performance of a software program or application Software Testing nbsp is an important part of the nbsp Software Development Lifecycle  which includes many more nbsp Types of Software Testing Manual Testing Manual testing nbsp is a technique to test the software that is carried out using the functions and features of an application  nbsp Which means manual testing will be check the defect manually with trying one by one function is working as expected Automation Testing Automated Testing nbsp is a technique where the Tester writes scripts independently and uses suitable Software or nbsp Automation Tools nbsp to test the software  It is an Automation Process of a Manual Process  It allows for executing repetitive tasks without the use of a Manual Tester Software Testing Principles Software testing is putting software or an application to use to find errors or faults  We must go by certain guidelines while testing software or applications to ensure that the final result is free of flaws  This saves the test engineers  time and effort as they can more efficiently test the program  We will learn about the seven fundamental tenets of software testing in this part  Here are the Seven Different Testing Principles  one by one   Testing shows the presence of defects  Exhaustive Testing is not possible  Early Testing  Defect Clustering  Pesticide Paradox  Testing is context dependent  Absence of errors fallacy Software Testing TutorialIn these tutorial we are covering the Basic level to advance topics which is need to learn the Software Testing  one by one we are discussing here in detail  PrerequisitesSoftware Development Life Cycle  SDLC Basic Programming Software Testing Fundamentals  Introduction to Software Testing  Software Testing Career Path Software Testing Principles  STLC   Software Testing Life Cycle  Different Levels of Testing  Software Testing Strategy Software Testing as a Career Path  Skills  Salary  Growth   Software Development Life Cycle  SDLC  Models Introduction to SDLC  Types of SDLC Models  Waterfall model  Spiral Model  Hybrid Model  Prototype Model  V Model  Types of Software Testing  Manual Testing  Automated Testing Unit Testing  Integration Testing  Black Box Testing  White Box Testing  Grey Box Testing  Functional Testing  Non functional Testing   System Testing  Sanity Testing Smoke Testing Regression Testing Statement Coverage  Branch Coverage  Code Coverage Testing  Basic Path Testing  Loop Testing  Usability Testing  Performance Testing  Compatibility Testing  Web Based Testing  Cross browser Testing  Recovery Testing  Security Testing  Stress Testing  Performance Testing  Deployment Testing  Test Case Development Test Documentation in Software TestingWhat is a Test Scenario  What is a Test Case  What is Test Analysis  Test Basis  in Software Testing Requirements Traceability Matrix  RTM Test Data GenerationSample Test Case Template Software Testing Techniques Software Testing Techniques Boundary Value AnalysisDecision Table TestingState Transition testingError GuessingUse Case TestingEquivalence PartitioningSoftware testing methodologies Agile Methodology  Test Case Management and Control What is Test Plan  Software Test Estimation Techniques  Test Plan Template with proper example  Test Management Tools  Test Case Review Process  What is JIRA Software   Defect Management  Bug tracking   Test Environment for Software Testing  Defect Management Process in Software Testing  What is Bug in Software Testing   Bug Life Cycle in Software Testing  What is Defect Priority   Difference between Severity and priority Agile MethodologyAgile Software Development Methodology nbsp Agile Methodology Advantages and DisadvantagesWhat Is the Agile Manifesto Agile Characteristics for Project Management SuccessSoftware Development Life Cycle  SDLC What is Agile Project Management  APM  What is scrum and how to get startedKanban   Agile Methodology Difference between Agile and Scrum Testing Overview of Daily Scrum Meeting What is an Agile Design Agile ToolsWhat is an Agile CRM  Software Testing Tools  What are Software Testing Tools   Test Management tools  Defect  Bug tracking tool  Automation testing tool  Performance Testing tool  Cross Browser testing tool  Integration Testing tool  Unit Testing tools  Mobile testing tools  Other Types of Testing  Static Testing  Dynamic Testing  Load Testing Exploratory Testing  Visual Testing  Acceptance Testing  Alpha Testing  Beta Testing  Database Testing  Mainframe Testing  Ad hoc Testing  Globalization Testing  Mutation Testing  Security Testing  Accessibility Testing  Structural Testing  Volume Testing  Scalability Testing  Spike Testing  Negative Testing  Positive Testing  Endurance Testing  Reliability Testing  Monkey Testing  Agile Testing  Component Testing  GUI Testing Tools of Software TestingCross Browser Testing Tools   Software TestingBug Defect Tracking ToolsTop    Best Automation Testing Tools Best Open Source Testing Tools and FrameworksTop    Manual Testing Tools  Differences In Software Testing  Automation Testing vs Manual Testing  Load Testing vs Stress Testing  Smoke Testing vs Sanity Testing  System Testing and Acceptance Testing  Quality Assurance vs Quality Control  Static Testing vs Dynamic Testing  Verification Testing vs Validation Testing  Alpha Testing vs Beta Testing  Black Box vs White Box vs Grey Box Testing  Globalization Testing vs Localization Testing  Test Case vs Test Scenarios  Test Plan vs Test Strategy  Boundary value analysis vs Equivalence Partitioning  SDLC vs STLC  Bug vs Defect vs Error vs Fault vs Failure  Testing vs Debugging  Frontend Testing vs Backend Testing  High Level Design HLD  and Low Level Design LLD   BRS vs SRS  Positive Testing vs Negative Testing  Use Case vs Test Case  Monkey Testing vs Gorilla Testing  Stubs vs Drivers  Component Testing vs Unit Testing  Software Testing vs Embedded Testing  GUI Testing vs Usability Testing  SDET vs Tester  Desktop Application Testing vs Client Testing  Server Application Testing vs Web Application Testing  Software Testing Interview Questions  Software Testing Interview Questions  Top    Automation Testing Interview Questions      Updated  Top    Manual Testing Interview Questions and Answers       Updated   Top    API Testing Interview Questions Top Agile Interview Questions       Importance of Software TestingDefects can be Identified Early  nbsp Software testing is important because if there are any bugs they can be identified early and can be fixed before the delivery of the software Improves Quality of Software  nbsp Software Testing uncovers the defects in the software  and fixing them improves the quality of the software Increased Customer Satisfaction  nbsp Software testing ensures reliability  security  and high performance which results in saving time  costs  and customer satisfaction Helps with Scalability  nbsp Software testing type non functional testing helps to identify the scalability issues and the point where an application might stop working Why Learn Software Testing   Here are the following that it is important to learn Software Testing   Helps to create reliable software   Software testing is compulsory to provide facilities to the customers like the delivery of software applications which require maintenance costs  and need to be more accurate  consistent  and reliable   Helps to deliver quality products   It is very important to check the quality of the product  Quality products delivered to the customers help in gaining their profitable and effective output this can be done by using software testing methods   Helps to achieve effective performance   Software testing is required for the effective performance of the software application or software product   Ensures application is failure free   Software testing ensures that the application should not result in any failures because the cost of fixing is larger in the later stage of the development of software   Helps to detect bugs   Software testing points out the defects and errors made during the development phase which helps individuals receive quality products  Here are read more about the  Why Software Testing is Important   Objectives of Software Testing  The objectives of software testing are to   Enhance software reliability and stability through rigorous testing   Identify performance bottlenecks and optimize software efficiency   Validate software compatibility across different platforms and environments   Verify proper handling of edge cases and exceptional scenarios   Detect and address security vulnerabilities to protect user data   Ensure smooth integration with external systems or APIs   Validate proper functioning of user interfaces and user experience   Optimize software usability and accessibility for end users   Confirm compliance with industry standards and regulations   Mitigate risks associated with software failures or malfunctions  Conclusion In Software Testing Tutorial we learned the Basic to Advance Topics which is really helpful for learning the Software testing concepts  And Refer more articles related to Software Testing on GeeksforGeeks 
+                            
+                            
+                        
+                                                                              
+                                        
+                                                                                
+                                                                
+                            
+    
+        
+        
+        Comment
+    More infoAdvertise with us                                
+                                
+                                        Next Article
+                                        
+                                    
+                                    
+                                    
+                                        What is Software Testing 
+                                    
+                                
+                                                        
+                        
+                            
+                                        
+                                            
+                                                
+                                                
+                                                    
+        
+            
+        
+        
+                                                
+                                                
+                                                    kartik                                                
+                                                
+                                                
+            
+            
+
+ Follow                                            
+                                            
+                                        
+                                        
+                                            
+                                            
+                                                
+                                                
+                                                    
+                                                    
+                                                
+                                            
+                                            
+                                                                            
+                                    Improve
+                                    
+                                
+                            
+                                        
+                        
+                        
+                                                            
+                                    Article Tags   
+                                    
+                                        
+            
+                Software Testing
+            
+            
+                Software Testing
+            
+            
+                Tutorials

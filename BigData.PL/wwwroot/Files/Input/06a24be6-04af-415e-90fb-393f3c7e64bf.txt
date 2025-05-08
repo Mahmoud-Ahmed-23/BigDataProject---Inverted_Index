@@ -1,0 +1,162 @@
+Digital Electronics and Logic Design Tutorials
+                                        
+                                                                                    
+                                                
+                                                    Last Updated   
+                                                       Mar      
+                                                
+
+                                                 
+                                                 
+                                                                                                            
+                                                                                                                    
+                                                            
+                                                            
+                                                              
+                                                
+                                                    
+                                                        
+                                                    
+                                                
+                                            
+                                                                                                                                                                                        
+                                                                    Comments
+                                                                    
+                                                                        
+                                                                        
+                                                                        
+                                                                    
+                                                                
+                                                                
+                                                                Improve
+                                                                
+                                                                    
+                                                                    
+                                                                    
+                                                                
+                                                             
+                                                                                                                        
+                                                                                                                    
+                                                        
+                                                            
+                                                                                                                            
+                                                            
+                                                            
+                                                        
+                                                    
+                                                 
+                                            
+                                                                            
+                                                            
+                            
+                            
+                            
+                                            
+                                            
+                                             
+                                                
+                                                    
+                                                        
+                                                        Suggest changes
+                                                    
+                                                
+                                                                                                                                      
+                                            
+                                                     
+                                                        Like Article
+                                                    
+                                                    
+                                                        
+                                                        Like
+                                                    
+                                                
+
+                                            
+                                            
+                                            
+
+                                            
+                                            
+                                                
+                                                    
+                                                        
+                                                        Report
+                                                    
+                                                
+
+                                            
+                                            
+                                            
+                                        
+                                    
+                            
+                                                                Digital Electronics and Logic Design are key concepts in both electronics and computer science  Digital systems are at the core of everything from basic devices like calculators to advanced computing systems  Digital systems use binary numbers   s and  s  to represent and process information Logic gates like AND  OR and NOT are combined to create circuits that perform logical operations on binary inputs Combinational circuits produce outputs based only on current inputs  without storing any past information Sequential circuits use memory elements  such as flip flops  to store and process information over time The principles of digital electronics and logic design are fundamental in building processors  memory systems and many other computing applications In this Digital Electronics and Logic Design tutorial  we will dive deep into the fundamentals and advanced concepts like the Number System  Logic Gates  Boolean Algebra  Combinational Circuits  Sequential Circuits  etc IntroductionWhat is Digital Electronics and Logic Design Difference Between Analog and Digital SystemsCharacteristics of Digital SystemsNumber System and RepresentationNumber System and Base ConversionsBinary Number System Binary RepresentationsSigned and Unsigned RepresentationGray CodeBCD or Binary Coded DecimalExcess   CodeOctal Number System Decimal Number SystemHexadecimal Number SystemFloating Point RepresentationNumber System Conversion Programs gt  gt  Quiz on Number System and RepresentationLogic GatesLogic Gates IntroductionAND GateOR GateNOT GateNAND GateNOR GateXOR GateXNOR GateLogic Gates using NAND and NORApplications of Logic GatesBoolean Algebra Boolean Algebra IntroductionProperties of Boolean algebraRepresentation of Boolean FunctionsCanonical and Standard FormSum of Product  SOP  FormProduct of Sum  POS  FormFunctional CompletenessDeMorgan s TheoremGate Level MinimizationMinimization of Boolean FunctionsK Map Karnaugh Map   variable K MapDon t Care ConditionsImplicants in K MapQuine McCluskey Method  Tabular Method Variable Entrant Map  VEM Consensus theorem gt  gt  Quiz on Logic Gates  Boolean Algebra and MinimizationCombinational CircuitsCombinational Circuit IntroductionHalf AdderHalf SubtractorHalf Adder and Half Subtractor using NAND NOR GatesFull AdderFull SubtractorParallel Adder  amp  Parallel SubtractorCarry Look Ahead AdderBCD AdderCode Converters   BCD       to from Excess  Code Converters   Binary to from Gray CodeCode Converters   BCD to   Segment DecoderMultiplexersDemultiplexerEncoders and DecodersEncoderBinary DecoderCombinational circuits using DecoderMagnitude ComparatorStatic Hazards gt  gt  Quiz on Combinational CircuitsSequential CircuitsIntroduction to Sequential CircuitsDifference Between Combinational and Sequential CircuitsLatchesOne bit memory cellFlip Flops Types and Conversions SR Flip FlopsJK Flip FlopsD Flip FlopsT Flip FlopsMaster Slave JK Flip FlopSynchronous Sequential CircuitsAsynchronous Sequential CircuitsSynchronous vs Asynchronous Sequential CircuitsState Reduction and State Assignment gt  gt  Quiz on Sequential CircuitsRegister and CountersRegistersShift RegistersSerial In Serial Out  SISO  Shift RegisterSerial In Parallel Out  SIPO  Shift RegisterParallel In Serial Out  PISO  Shift RegisterParallel In Parallel Out  PIPO  Shift RegisterUniversal Shift RegisterCountersRipple CounterRing Counter Johnson CounterDesign of Counters for Specific SequencesAmortized analysis for increment in counterRegisters Vs CountersRTL  Register Transfer Level  design vs Sequential logic designMemory and Programmable LogicRead Only Memory  ROM Random Access Memory  RAM RAM vs ROMProgrammable Logic ArrayProgramming Array LogicField Programmable Gate Arrays  FPGAs Logic FamilyOperational Amplifier  op amp Hardware Description Languages  HDLs Hardware Description LanguageIntroduction to VerilogVerilog Data TypesIntroduction to VHDLHDL Model of Combinational CircuitsHDL Model of Sequential CircuitsData CommunicationData CommunicationBlock CodingDifference between Unipolar  Polar and Bipolar Line CodingDifference between Broadband and Baseband TransmissionTransmission ImpairmentWhat is Scrambling Analog to Analog Conversion  Modulation Analog to digital conversionDigital to Analog ConversionQuick Links Last Minute Notes  LMNs Quizzes nbsp on Digital Electronics and Logic Design
+                            
+                            
+                        
+                                                                              
+                                        
+                                                                                
+                                                                
+                            
+    
+        
+        
+        Comment
+    More infoAdvertise with us                                
+                                
+                                        Next Article
+                                        
+                                    
+                                    
+                                    
+                                        Number System and Base Conversions
+                                    
+                                
+                                                        
+                        
+                            
+                                        
+                                            
+                                                
+                                                
+                                                    
+        
+            
+        
+        
+                                                
+                                                
+                                                    kartik                                                
+                                                
+                                                
+            
+            
+
+ Follow                                            
+                                            
+                                        
+                                        
+                                            
+                                            
+                                                
+                                                
+                                                    
+                                                    
+                                                
+                                            
+                                            
+                                                                            
+                                    Improve
+                                    
+                                
+                            
+                                        
+                        
+                        
+                                                            
+                                    Article Tags   
+                                    
+                                        
+            
+                GATE CS

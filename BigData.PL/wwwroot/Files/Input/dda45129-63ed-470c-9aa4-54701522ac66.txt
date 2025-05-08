@@ -1,0 +1,1544 @@
+Complete Guide On Complexity Analysis   Data Structure and Algorithms Tutorial
+                                        
+                                                                                    
+                                                
+                                                    Last Updated   
+                                                       Apr      
+                                                
+
+                                                 
+                                                 
+                                                                                                            
+                                                                                                                    
+                                                            
+                                                            
+                                                              
+                                                
+                                                    
+                                                        
+                                                    
+                                                
+                                            
+                                                                                                                                                                                        
+                                                                    Comments
+                                                                    
+                                                                        
+                                                                        
+                                                                        
+                                                                    
+                                                                
+                                                                
+                                                                Improve
+                                                                
+                                                                    
+                                                                    
+                                                                    
+                                                                
+                                                             
+                                                                                                                        
+                                                                                                                    
+                                                        
+                                                            
+                                                                                                                            
+                                                            
+                                                            
+                                                        
+                                                    
+                                                 
+                                            
+                                                                            
+                                                            
+                            
+                            
+                            
+                                            
+                                            
+                                             
+                                                
+                                                    
+                                                        
+                                                        Suggest changes
+                                                    
+                                                
+                                                                                                                                      
+                                            
+                                                     
+                                                        Like Article
+                                                    
+                                                    
+                                                        
+                                                        Like
+                                                    
+                                                
+
+                                            
+                                            
+                                            
+
+                                            
+                                            
+                                                
+                                                    
+                                                        
+                                                        Report
+                                                    
+                                                
+
+                                            
+                                            
+                                            
+                                        
+                                    
+                            
+                                                                Complexity analysis is defined as a technique to characterise the time taken by an algorithm with respect to input size  independent from the machine  language and compiler   It is used for evaluating the variations of execution time on different algorithms 
+
+What is the need for Complexity Analysis Complexity Analysis determines the amount of time and space resources required to execute it It is used for comparing different algorithms on different input sizes Complexity helps to determine the difficulty of a problem often measured by how much time and space  memory  it takes to solve a particular problemComplete Guide On Complexity AnalysisThings to learn about Complexity AnalysisWhat is Complexity Analysis What is the need for Complexity Analysis Asymptotic NotationsHow to measure complexity    Time Complexity   Space Complexity   Auxiliary SpaceHow does Complexity affect any algorithm How to optimize the time and space complexity of an Algorithm Different types of Complexity exist in the program    Constant Complexity   Logarithmic Complexity   Linear Complexity   Quadratic Complexity   Factorial Complexity   Exponential ComplexityWorst Case time complexity of different data structures for different operationsComplexity Analysis Of Popular AlgorithmsPractice some questions on Complexity Analysispractice with giving QuizConclusionAsymptotic Notations in Complexity Analysis    Big O NotationBig O notation represents the upper bound of the running time of an algorithm  Therefore  it gives the worst case complexity of an algorithm  By using big O  notation  we can asymptotically limit the expansion of a running time to a range of constant factors above and below  It is a model for quantifying algorithm performance   
+
+Graphical RepresentationMathematical Representation of Big O Notation 
+
+O g n       f n   there exist positive constants c and n  such that     f n    cg n  for all n   n   
+
+   Omega NotationOmega notation represents the lower bound of the running time of an algorithm  Thus  it provides the best case complexity of an algorithm The execution time serves as a lower bound on the algorithm s time complexity  It is defined as the condition that allows an algorithm to complete statement execution in the shortest amount of time 
+
+Graphical RepresentationMathematical Representation of Omega notation  
+
+  g n       f n   there exist positive constants c and n  such that     cg n    f n  for all n   n   Note     g  is a set
+
+   Theta NotationTheta notation encloses the function from above and below  Since it represents the upper and the lower bound of the running time of an algorithm  it is used for analyzing the average case complexity of an algorithm  The execution time serves as both a lower and upper bound on the algorithm s time complexity  It exists as both  the most  and least boundaries for a given input value 
+
+Graphical RepresentationMathematical Representation 
+
+   g n      f n   there exist positive constants c   c  and n  such that     c    g n    f n    c    g n  for all n   n  
+
+   Little   asymptotic notationBig   is used as a tight upper bound on the growth of an algorithm s effort  this effort is described by the function f n    even though  as written  it can also be a loose upper bound   Little          notation is used to describe an upper bound that cannot be tight   
+
+Graphical RepresentationMathematical Representation 
+
+f n    o g n   means lim  f n  g n      n   
+
+   Little   asymptotic notationLet f n  and g n  be functions that map positive integers to positive real numbers  We say that f n  is   g n    or f n      g n    if for any real constant c  gt     there exists an integer constant n      such that f n   gt  c   g n      for every integer n   n   
+
+Mathematical Representation 
+
+if f n      g n   then  
+
+lim  f n  g n      
+
+n   
+
+Note   In most of the Algorithm we use Big O notation  as it is worst case Complexity Analysis 
+
+How to measure complexity The complexity of an algorithm can be measured in three ways 
+
+   Time ComplexityThe time complexity of an algorithm is defined as the amount of time taken by an algorithm to run as a function of the length of the input  Note that the time to run is a function of the length of the input and not the actual execution time of the machine on which the algorithm is running on
+
+How is Time complexity computed 
+
+To estimate the time complexity  we need to consider the cost of each fundamental instruction and the number of times the instruction is executed 
+
+If we have statements with basic operations like comparisons  return statements  assignments  and reading a variable  We can assume they take constant time each O    Statement    int a                  reading a variablestatement    if  a     return true      return statementstatement    int x    gt                 comparisonstatement    bool flag true          AssignmentThis is the result of calculating the overall time complexity 
+
+total time   time statement     time statement         time  statementN Assuming that n is the size of the input  let s use T n  to represent the overall time and t to represent the amount of time that a statement or collection of statements takes to execute 
+
+T n    t statement     t statement           t statementN   Overall  T n   O     which means constant complexity 
+
+For any loop  we find out the runtime of the block inside them and multiply it by the number of times the program will repeat the loop for  int i      i  lt  n  i        cout  lt  lt   GeeksForGeeks   lt  lt  endl  
+
+For the above example  the loop will execute n times  and it will print  GeeksForGeeks  N number of times  so the time taken to run this program is 
+
+T N   n    t cout statement        n   O        O n   Linear complexity For  D arrays  we would have nested loop concepts  which means a loop inside a loop for  int i      i  lt  n  i        for  int j      j  lt  m  j            cout  lt  lt   GeeksForGeeks   lt  lt  endl      
+
+For the above example  the cout statement will execute n m times  and it will print  GeeksForGeeks  N M number of times  so the time taken to run this program is 
+
+T N   n   m   t cout statement        n   m   O        O n m   Quadratic Complexity    Space Complexity  The amount of memory required by the algorithm to solve a given problem is called the space complexity of the algorithm  Problem solving using a computer requires memory to hold temporary data or final result while the program is in execution  
+
+How is space complexity computed 
+
+The space Complexity of an algorithm is the total space taken by the algorithm with respect to the input size  Space complexity includes both Auxiliary space and space used by input  Space complexity is a parallel concept to time complexity  If we need to create an array of size n  this will require O n  space  If we create a two dimensional array of size n n  this will require O n   space 
+
+In recursive calls stack space also counts 
+
+Example 
+
+int add  int n      if  n  lt              return            return n   add  n     Here each call add a level to the stack      add           gt  add             gt  add               gt  add                 gt  add   Each of these calls is added to call stack and takes up actual memory So it takes O n  space However  just because you have n calls total doesn t mean it takes O n  space 
+
+Look at the below function  
+
+int addSequence  int n      int sum         for  int i      i  lt  n  i            sum    pairSum i  i             return sum  int pairSum int x  int y      return x   y  There will be roughly O n  calls to pairSum  However  those calls do not exist simultaneously on the call stack so you only need O    space    Auxiliary Space  The temporary space needed for the use of an algorithm is referred to as auxiliary space  Like temporary arrays  pointers  etc  It is preferable to make use of Auxiliary Space when comparing things like sorting algorithms  for example  sorting algorithms take O n  space  as there is an input array to sort  but auxiliary space is O    in that case  
+
+How does Complexity affect any algorithm Time complexity of an algorithm quantifies the amount of time taken by an algorithm to run as a function of length of the input  While  the space complexity of an algorithm quantifies the amount of space or memory taken by an algorithm to run  as a function of the length of the input 
+
+How to optimize the time and space complexity of an Algorithm Optimization means modifying the brute force approach to a problem  It is done to derive the best possible solution to solve the problem so that it will take less time and space complexity  We can optimize a program by either limiting the search space at each step or occupying less search space from the start 
+
+We can optimize a solution using both time and space optimization  To optimize a program 
+
+We can reduce the time taken to run the program and increase the space occupied we can reduce the memory usage of the program and increase its total run time  orwe can reduce both time and space complexity by deploying relevant algorithmsDifferent types of Complexity exist in the program    Constant ComplexityIf the function or method of the program takes negligible execution time  Then that will be considered as constant complexity  
+
+Example   The below program takes a constant amount of time 
+
+
+            
+            C  
+
+       C program for the above approach
+ include  lt stdio h gt 
+
+   Function to check if a
+   number is even or odd
+void checkEvenOdd int N 
+ 
+       Find remainder
+    int r   N     
+
+       Condition for even
+    if  r        
+        printf  quot Even quot   
+     
+
+       Otherwise
+    else  
+        printf  quot Odd quot   
+     
+ 
+
+   Driver Code
+int main  
+ 
+       Given number N
+    int N       
+
+       Function Call
+    checkEvenOdd N  
+
+    return   
+ 
+
+
+            
+            Java
+
+       Java program for the above approach
+
+public class GFG  
+       Function to check if a number is even or odd
+    public static void checkEvenOdd int N 
+     
+           Find remainder
+        int r   N     
+
+           Condition for even
+        if  r        
+            System out println  quot Even quot   
+         
+           Otherwise
+        else  
+            System out println  quot Odd quot   
+         
+     
+
+       Driver code
+    public static void main String   args 
+     
+           Given number N
+        int N       
+
+           Function call
+        checkEvenOdd N  
+     
+ 
+
+
+            
+            Python 
+
+      Python  program for the above approach
+
+  Function to check if a
+  number is even or odd
+
+
+def checkEvenOdd N  
+      Find remainder
+    r   N    
+      Condition for even
+    if  r       
+        print  quot Even quot  
+      Otherwise
+    else 
+        print  quot Odd quot  
+
+
+  Driver Code
+if   name             main        
+      Given number N
+    N      
+      Function Call
+    checkEvenOdd N 
+
+
+            
+            C 
+
+       C  program for the above approach
+
+using System 
+
+public class GFG  
+
+       Function to check if a number is even or odd
+    static void CheckEvenOdd int N 
+     
+           Find remainder
+        int r   N     
+
+           Condition for even
+        if  r        
+            Console WriteLine  quot Even quot   
+         
+           Otherwise
+        else  
+            Console WriteLine  quot Odd quot   
+         
+     
+
+    static public void Main  
+     
+
+           Code
+           Given number N
+        int N       
+
+           Function call
+        CheckEvenOdd N  
+     
+ 
+
+
+            
+            JavaScript
+
+       JavaScript program for the above approach
+
+   Function to check if a 
+   number is even or odd
+function checkEvenOdd N   
+
+       Find remainder
+    let r   N     
+
+       Condition for even
+    if  r        
+        console log  quot Even quot   
+     
+
+       Otherwise
+    else  
+        console log  quot Odd quot   
+     
+ 
+
+   Driver code
+
+   Given number N
+let N       
+
+   Function call
+checkEvenOdd N  
+
+OutputOddConstant  Complexity Graph   Logarithmic Complexity It imposes a complexity of O log N    It undergoes the execution of the order of log N  steps  To perform operations on N elements  it often takes the logarithmic base as    
+
+Example  The below program takes logarithmic complexity 
+
+
+            
+            C  
+
+       C   program to implement recursive Binary Search
+ include  lt bits stdc   h gt 
+using namespace std 
+
+   A recursive binary search function  It returns
+   location of x in given array arr l  r  is present 
+   otherwise   
+int binarySearch int arr    int l  int r  int x 
+ 
+    if  r  gt   l   
+        int mid   l    r   l      
+
+           If the element is present at the middle
+           itself
+        if  arr mid     x 
+            return mid 
+
+           If element is smaller than mid  then
+           it can only be present in left subarray
+        if  arr mid   gt  x 
+            return binarySearch arr  l  mid      x  
+
+           Else the element can only be present
+           in right subarray
+        return binarySearch arr  mid      r  x  
+     
+
+       We reach here when element is not
+       present in array
+    return    
+ 
+
+int main void 
+ 
+    int arr                         
+    int x      
+    int n   sizeof arr    sizeof arr     
+    int result   binarySearch arr     n      x  
+     result       
+          cout  lt  lt   quot Element is not present in array quot 
+          cout  lt  lt   quot Element is present at index  quot   lt  lt  result 
+    return   
+ 
+
+
+            
+            Java
+
+       Java program to implement recursive Binary Search
+
+class BinarySearch  
+       A recursive binary search function  It returns
+       the index of x in the given array arr l  r  if present 
+       otherwise returns   
+    static int binarySearch int arr    int l  int r  int x   
+        if  r  gt   l   
+            int mid   l    r   l      
+
+               If the element is present at the middle itself
+            if  arr mid     x 
+                return mid 
+
+               If element is smaller than mid  then
+               it can only be present in the left subarray
+            if  arr mid   gt  x 
+                return binarySearch arr  l  mid      x  
+
+               Else the element can only be present
+               in the right subarray
+            return binarySearch arr  mid      r  x  
+         
+
+           We reach here when the element is not present in the array
+        return    
+     
+
+    public static void main String args     
+        int arr                       
+        int x      
+        int n   arr length 
+        int result   binarySearch arr     n      x  
+        if  result       
+            System out println  quot Element is not present in the array quot   
+        else
+            System out println  quot Element is present at index  quot    result  
+     
+ 
+
+   This code is contributed by Utkarsh Kumar
+
+
+            
+            Python 
+
+      Python program for the above approach
+
+  A recursive binary search function  It returns
+  location of x in the given array arr l  r  if present 
+  otherwise returns   
+def binarySearch arr  l  r  x  
+    if r  gt   l 
+        mid   l    r   l      
+
+          If the element is present at the middle itself
+        if arr mid     x 
+            return mid
+
+          If the element is smaller than mid  then
+          it can only be present in the left subarray
+        elif arr mid   gt  x 
+            return binarySearch arr  l  mid      x 
+
+          Else the element can only be present
+          in the right subarray
+        else 
+            return binarySearch arr  mid      r  x 
+
+      We reach here when the element is not
+      present in the array
+    return   
+
+  Driver code
+arr                    
+x     
+
+  Function call
+result   binarySearch arr     len arr       x 
+
+  Print the result
+if result       
+    print  quot Element is not present in array quot  
+else 
+    print f quot Element is present at index  result  quot  
+
+  This code is contributed by Susobhan Akhuli
+
+
+            
+            C 
+
+       C  program for the above approach
+using System 
+
+public class GFG  
+       A recursive binary search function  It returns
+       location of x in given array arr l  r  if present 
+       otherwise returns   
+    static int BinarySearch int   arr  int l  int r  int x 
+     
+        if  r  gt   l   
+            int mid   l    r   l      
+
+               If the element is present at the middle
+               itself
+            if  arr mid     x 
+                return mid 
+
+               If the element is smaller than mid  then
+               it can only be present in the left subarray
+            if  arr mid   gt  x 
+                return BinarySearch arr  l  mid      x  
+
+               Else the element can only be present
+               in the right subarray
+            return BinarySearch arr  mid      r  x  
+         
+
+           We reach here when the element is not
+           present in the array
+        return    
+     
+
+    static void Main  
+     
+        int   arr                       
+        int x      
+        int n   arr Length 
+        int result   BinarySearch arr     n      x  
+        Console WriteLine 
+             result       
+                   quot Element is not present in array quot 
+                    quot Element is present at index  result  quot   
+     
+ 
+
+   This code is contributed by Susobhan Akhuli
+
+
+            
+            JavaScript
+
+       A recursive binary search function  It returns
+   the index of x in the given array arr l  r  if present 
+   otherwise returns   
+function binarySearch arr  l  r  x   
+    if  r  gt   l   
+        let mid   l   Math floor  r   l       
+
+           If the element is present at the middle itself
+        if  arr mid      x 
+            return mid 
+
+           If element is smaller than mid  then
+           it can only be present in the left subarray
+        if  arr mid   gt  x 
+            return binarySearch arr  l  mid      x  
+
+           Else the element can only be present
+           in the right subarray
+        return binarySearch arr  mid      r  x  
+     
+
+       We reach here when the element is not present in the array
+    return    
+ 
+
+   Main function
+function main    
+    const arr                     
+    const x      
+    const n   arr length 
+    const result   binarySearch arr     n      x  
+    if  result        
+        console log  quot Element is not present in the array quot   
+    else
+        console log  quot Element is present at index  quot    result  
+ 
+
+   Call the main function
+main   
+
+OutputElement is present at index  Logarithmic Complexity Graph   Linear Complexity It imposes a complexity of O N   It encompasses the same number of steps as that of the total number of elements to implement an operation on N elements 
+
+Example  The below program takes Linear complexity 
+
+
+            
+            C  
+
+       C   code to linearly search x in arr    If x
+   is present then return its location  otherwise
+   return   
+
+ include  lt iostream gt 
+using namespace std 
+
+int search int arr    int N  int x 
+ 
+    int i 
+    for  i      i  lt  N  i   
+        if  arr i     x 
+            return i 
+    return    
+ 
+
+   Driver     s code
+int main void 
+ 
+    int arr                         
+    int x      
+    int N   sizeof arr    sizeof arr     
+
+       Function call
+    int result   search arr  N  x  
+     result       
+          cout  lt  lt   quot Element is not present in array quot 
+          cout  lt  lt   quot Element is present at index  quot   lt  lt  result 
+    return   
+ 
+
+
+            
+            Java
+
+       Java code to linearly search x in arr    If x
+   is present then return its location  otherwise
+   return   
+class GFG  
+    static int search int   arr  int N  int x 
+     
+        for  int i      i  lt  N  i     
+            if  arr i     x   
+                return i 
+             
+         
+        return    
+     
+
+       Driver     s code
+    public static void main String   args 
+     
+        int   arr                       
+        int x      
+        int N   arr length 
+
+           Function call
+        int result   search arr  N  x  
+        if  result         
+            System out println 
+                 quot Element is not present in array quot   
+         
+        else  
+            System out println 
+                 quot Element is present at index  quot    result  
+         
+     
+ 
+   This code is contributed by prasad   
+
+
+            
+            Python 
+
+      Python code to linearly search x in arr    If x
+  is present then return its location  otherwise
+  return   
+def search arr  x  
+    for i in range len arr   
+        if arr i     x 
+            return i
+    return   
+
+  Driver     s code
+if   name       quot   main   quot  
+    arr                    
+    x     
+
+      Function call
+    result   search arr  x 
+
+    if result       
+        print  quot Element is not present in array quot  
+    else 
+        print f quot Element is present at index  result  quot  
+
+  This code is contributed by Susobhan Akhuli
+
+
+            
+            C 
+
+    using System 
+
+public class GFG  
+       Function to linearly search x in arr    If x
+       is present  then return its location  otherwise 
+       return    
+    static int Search int   arr  int N  int x 
+     
+        for  int i      i  lt  N  i     
+            if  arr i     x 
+                return i 
+         
+        return    
+     
+
+    static public void Main  
+     
+        int   arr                       
+        int x      
+        int N   arr Length 
+
+           Function call
+        int result   Search arr  N  x  
+        if  result       
+            Console WriteLine 
+                 quot Element is not present in the array  quot   
+        else
+            Console WriteLine  quot Element is present at index  quot 
+                                result  
+     
+ 
+
+
+            
+            JavaScript
+
+       Function to linearly search x in arr    If x is present then return its location  otherwise return   
+function search arr  x   
+    for  let i      i  lt  arr length  i     
+        if  arr i      x   
+            return i 
+         
+     
+    return    
+ 
+
+   Driver     s code
+function main    
+    const arr                     
+    const x      
+
+       Function call
+    const result   search arr  x  
+    if  result          
+        console log  quot Element is not present in array quot   
+      else  
+        console log  quot Element is present at index  quot    result  
+     
+ 
+
+   Call the main function
+main   
+
+OutputElement is present at index  Linear Complexity Graph   Quadratic Complexity  It imposes a complexity of O n    For N input data size  it undergoes the order of N  count of operations on N number of elements for solving a given problem 
+
+Example  The below program takes quadratic complexity 
+
+
+            
+            C  
+
+       C   program for the above approach
+ include  lt bits stdc   h gt 
+
+using namespace std 
+
+   Function to find and print pair
+bool chkPair int A    int size  int x 
+ 
+    for  int i      i  lt   size       i     
+        for  int j    i       j  lt  size  j     
+            if  A i    A j     x   
+                return   
+             
+         
+     
+
+    return   
+ 
+
+   Driver code
+int main  
+ 
+    int A                         
+    int x      
+    int size   sizeof A    sizeof A     
+
+    if  chkPair A  size  x    
+        cout  lt  lt   quot Yes quot   lt  lt  endl 
+     
+    else  
+        cout  lt  lt   quot No quot   lt  lt  x  lt  lt  endl 
+     
+
+    return   
+ 
+
+   This code is contributed by Samim Hossain Mondal 
+
+
+            
+            Java
+
+       Java program for the above approach
+import java util   
+
+public class GFG  
+       Function to find and print pair
+    static boolean chkPair int   A  int x 
+     
+        int size   A length 
+        for  int i      i  lt  size      i     
+            for  int j   i      j  lt  size  j     
+                if  A i    A j     x   
+                    return true 
+                 
+             
+         
+        return false 
+     
+
+       Driver code
+    public static void main String   args 
+     
+        int   A                       
+        int x      
+
+        if  chkPair A  x    
+            System out println  quot Yes quot   
+         
+        else  
+            System out println  quot No  quot    x  
+         
+     
+ 
+
+   This code is contributed by Susobhan Akhuli
+
+
+            
+            Python 
+
+      Python program for the above approach
+
+  Function to find and print pair
+def chkPair A  x  
+    size   len A 
+    for i in range size      
+        for j in range i      size  
+            if A i    A j     x 
+                return True
+    return False
+
+  Driver code
+if   name       quot   main   quot  
+    A                    
+    x     
+
+    if chkPair A  x  
+        print  quot Yes quot  
+    else 
+        print  quot No quot   x 
+
+  This code is contributed by Susobhan Akhuli
+
+
+            
+            JavaScript
+
+       Function to find and print pair
+function chkPair A  x   
+    var size   A length 
+    for  var i      i  lt  size      i     
+        for  var j   i      j  lt  size  j     
+            if  A i    A j      x   
+                return true 
+             
+         
+     
+    return false 
+ 
+
+   Driver code
+var A                     
+var x      
+
+if  chkPair A  x    
+    console log  quot Yes quot   
+  else  
+    console log  quot No quot   x  
+ 
+
+OutputYes
+Quadratic Complexity Graph   Factorial Complexity  It imposes a complexity of O n    For N input data size  it executes the order of N  steps on N elements to solve a given problem 
+
+Example  The below program takes factorial complexity 
+
+
+            
+            C  
+
+       C   program to print all
+   permutations with duplicates allowed
+ include  lt bits stdc   h gt 
+using namespace std 
+
+   Function to print permutations of string
+   This function takes three parameters 
+      String
+      Starting index of the string
+      Ending index of the string 
+void permute string amp  a  int l  int r 
+ 
+       Base case
+    if  l    r 
+        cout  lt  lt  a  lt  lt  endl 
+    else  
+           Permutations made
+        for  int i   l  i  lt   r  i     
+
+               Swapping done
+            swap a l   a i   
+
+               Recursion called
+            permute a  l      r  
+
+               backtrack
+            swap a l   a i   
+         
+     
+ 
+
+   Driver Code
+int main  
+ 
+    string str    quot ABC quot  
+    int n   str size   
+
+       Function call
+    permute str     n      
+    return   
+ 
+
+   This is code is contributed by rathbhupendra
+
+
+            
+            Java
+
+       Java program for the above approach
+import java util   
+
+public class GFG  
+       Function to print permutations of string
+       This function takes three parameters 
+          String
+          Starting index of the string
+          Ending index of the string 
+    static void permute char   a  int l  int r 
+     
+           Base case
+        if  l    r 
+            System out println new String a   
+        else  
+               Permutations made
+            for  int i   l  i  lt   r  i     
+                   Swapping done
+                swap a  l  i  
+
+                   Recursion called
+                permute a  l      r  
+
+                   Backtrack
+                swap a  l  i  
+             
+         
+     
+
+       Function to swap characters at positions i and j in
+       the array
+    static void swap char   arr  int i  int j 
+     
+        char temp   arr i  
+        arr i    arr j  
+        arr j    temp 
+     
+
+       Driver Code
+    public static void main String   args 
+     
+        String str    quot ABC quot  
+        int n   str length   
+        char   arr   str toCharArray   
+
+           Function call
+        permute arr     n      
+     
+ 
+
+   This code is contributed by Susobhan Akhuli
+
+
+            
+            Python 
+
+      Function to print permutations of string
+  This function takes three parameters 
+     String
+     Starting index of the string
+     Ending index of the string 
+def permute a  l  r  
+      Base case
+    if l    r 
+        print  quot  quot  join a  
+    else 
+          Permutations made
+        for i in range l  r      
+              Swapping done
+            a l   a i    a i   a l 
+
+              Recursion called
+            permute a  l      r 
+
+              backtrack
+            a l   a i    a i   a l 
+
+  Driver Code
+if   name       quot   main   quot  
+    str   list  quot ABC quot  
+    n   len str 
+
+      Function call
+    permute str     n     
+ this code is contribuited by Utkarsh
+
+
+            
+            JavaScript
+
+       Function to print permutations of string
+   This function takes three parameters 
+      String
+      Starting index of the string
+      Ending index of the string 
+function permute a  l  r   
+       Base case
+    if  l    r 
+        console log a  
+    else  
+           Permutations made
+        for  let i   l  i  lt   r  i     
+
+               Swapping done
+            a   swap a  l  i  
+
+               Recursion called
+            permute a  l      r  
+
+               backtrack
+            a   swap a  l  i  
+         
+     
+ 
+
+   Utility function to swap characters at position i and j in a string
+function swap str  i  j   
+    const arr   str split             
+    const temp   arr i  
+    arr i    arr j  
+    arr j    temp 
+    return arr join             
+ 
+
+   Driver Code
+let str    quot ABC quot  
+let n   str length 
+
+   Function call
+permute str     n      
+
+OutputABC
+ACB
+BAC
+BCA
+CBA
+CAB
+Factorial Complexity Graph   Exponential Complexity  It imposes a complexity of O  N   O N    O nk      For N elements  it will execute the order of the count of operations that is exponentially dependable on the input data size  
+
+Example  The below program takes exponential complexity 
+
+
+            
+            C  
+
+       A recursive solution for subset sum problem
+ include  lt iostream gt 
+using namespace std 
+
+   Returns true if there is a subset
+   of set   with sum equal to given sum
+bool isSubsetSum int set    int n  int sum 
+ 
+
+       Base Cases
+    if  sum      
+        return true 
+    if  n      
+        return false 
+
+       If last element is greater than sum 
+       then ignore it
+    if  set n       gt  sum 
+        return isSubsetSum set  n      sum  
+
+       else  check if sum can be obtained by any
+of the following 
+     a  including the last element
+     b  excluding the last element   
+    return isSubsetSum set  n      sum 
+           isSubsetSum set  n      sum   set n       
+ 
+
+   Driver code
+int main  
+ 
+    int set                            
+    int sum     
+    int n   sizeof set    sizeof set     
+    if  isSubsetSum set  n  sum     true 
+        cout  lt  lt  quot Found a subset with given sum quot  
+    else
+        cout  lt  lt  quot No subset with given sum quot  
+    return   
+ 
+
+   This code is contributed by shivanisinghss    
+
+
+            
+            Java
+
+       Java program for the above approach
+public class GFG  
+       Returns true if there is a subset
+       of set   with sum equal to given sum
+    static boolean isSubsetSum int   set  int n  int sum 
+     
+           Base Cases
+        if  sum      
+            return true 
+        if  n      
+            return false 
+
+           If last element is greater than sum 
+           then ignore it
+        if  set n       gt  sum 
+            return isSubsetSum set  n      sum  
+
+           else  check if sum can be obtained by any
+        of the following 
+         a  including the last element
+         b  excluding the last element   
+        return isSubsetSum set  n      sum 
+               isSubsetSum set  n      sum   set n       
+     
+
+       Driver code
+    public static void main String   args 
+     
+        int   set                          
+        int sum     
+        int n   set length 
+        if  isSubsetSum set  n  sum  
+            System out println 
+                 quot Found a subset with given sum quot   
+        else
+            System out println  quot No subset with given sum quot   
+     
+ 
+
+   This code is contributed by Susobhan Akhuli
+
+
+            
+            Python 
+
+      Python program for the above approach
+
+  Returns true if there is a subset
+  of set   with sum equal to given sum
+def isSubsetSum set  n  sum  
+      Base Cases
+    if  sum       
+        return True
+    if  n       
+        return False
+
+      If last element is greater than sum 
+      then ignore it
+    if  set n       gt  sum  
+        return isSubsetSum set  n      sum 
+
+      Check if sum can be obtained by
+       a  including the last element
+       b  excluding the last element
+    return  isSubsetSum set  n      sum 
+            or isSubsetSum set  n      sum   set n       
+
+
+  Driver code
+if   name       quot   main   quot  
+    set                       
+    sum    
+    n   len set 
+    if  isSubsetSum set  n  sum   
+        print  quot Found a subset with given sum quot  
+    else 
+        print  quot No subset with given sum quot  
+
+
+            
+            JavaScript
+
+       Function to check if there is a subset of set   with sum equal to given sum
+function isSubsetSum set  n  sum   
+       Base Cases
+    if  sum       
+        return true 
+    if  n       
+        return false 
+
+       If last element is greater than sum  then ignore it
+    if  set n       gt  sum 
+        return isSubsetSum set  n      sum  
+
+       else  check if sum can be obtained by either 
+         a  including the last element
+         b  excluding the last element   
+    return isSubsetSum set  n      sum     isSubsetSum set  n      sum   set n       
+ 
+
+   Driver code
+let set                        
+let sum     
+let n   set length 
+if  isSubsetSum set  n  sum  
+    console log  quot Found a subset with given sum quot   
+else
+    console log  quot No subset with given sum quot   
+
+OutputFound a subset with given sumExponential Complexity Graph Worst Case time complexity of different data structures for different operationsData structure
+
+Access
+
+Search
+
+Insertion
+
+Deletion
+
+ArrayO   
+
+O N 
+
+O N 
+
+O N 
+
+StackO N 
+
+O N 
+
+O   
+
+O   
+
+QueueO N 
+
+O N 
+
+O   
+
+O   
+
+Singly Linked listO N 
+
+O N 
+
+O N 
+
+O N 
+
+Doubly Linked ListO N 
+
+O N 
+
+O   
+
+O   
+
+Hash TableO N 
+
+O N 
+
+O N 
+
+O N 
+
+Binary Search TreeO N 
+
+O N 
+
+O N 
+
+O N 
+
+AVL TreeO log N 
+
+O log N 
+
+O log N 
+
+O log N 
+
+Binary TreeO N 
+
+O N 
+
+O N 
+
+O N 
+
+Red Black TreeO log N 
+
+O log N 
+
+O log N 
+
+O log N 
+
+Complexity Analysis Of Popular Algorithms Algorithm
+
+Complexity
+
+    Linear Search Algorithm O N 
+
+
+
+   Binary Search
+
+O LogN 
+
+
+
+   Bubble Sort 
+
+O N    
+
+
+
+   Insertion Sort
+
+O N    
+
+
+
+   Selection Sort
+
+O N    
+
+
+
+   QuickSort
+
+O N    worst
+
+
+
+   Merge Sort
+
+O N log N  
+
+
+
+   Counting Sort
+
+O N 
+
+
+
+   Radix Sort
+
+O  n b    logb k   
+
+
+
+    Sieve of Eratosthenes
+
+O n log log n   
+
+
+
+    KMP Algorithm
+
+O N 
+
+
+
+     Z algorithm
+
+O M N 
+
+
+
+     Rabin Karp Algorithm
+
+O N M  
+
+
+
+    Johnson s algorithm
+
+O V log V   VE 
+
+
+
+     Prim s Algorithm
+
+O V  
+
+
+
+   Kruskal s Algorithm
+
+O ElogV 
+
+
+
+         Knapsack 
+
+O N   W 
+
+
+
+    Floyd Warshall Algorithm
+
+O V  
+
+
+
+    Breadth First Search
+
+O V E 
+
+
+
+    Depth first Search
+
+O V   E 
+
+Practice some questions on Complexity Analysis Practice Questions on Time Complexity AnalysisMiscellaneous Problems of Time ComplexitySample Practice Problems on Complexity Analysis of AlgorithmPractice with giving  Quiz  Top MCQs on Complexity Analysis of Algorithms with AnswersTop MCQs on NP Complete Complexity with AnswersTop MCQs on Complexity Analysis using Recurrence Relations with AnswersConclusion Complexity analysis is a very important technique to analyze any problem  The interviewer often checks your ideas and coding skills by asking you to write a code giving restrictions on its time or space complexities  By solving more and more problems anyone can improve their logical thinking day by day  Even in coding contests optimized solutions are accepted  The naive approach can give TLE Time limit exceed  
+
+
+                            
+                            
+                        
+                                                                              
+                                        
+                                                                                
+                                                                
+                            
+    
+        
+        
+        Comment
+    More infoAdvertise with us                                
+                                
+                                        Next Article
+                                        
+                                    
+                                    
+                                    
+                                        Why is Analysis of Algorithm important 
+                                    
+                                
+                                                        
+                        
+                            
+                                        
+                                            
+                                                
+                                                
+                                                    P
+        
+            
+        
+        
+                                                
+                                                
+                                                    pinkigfg                                                
+                                                
+                                                
+            
+            
+
+ Follow                                            
+                                            
+                                        
+                                        
+                                            
+                                            
+                                                
+                                                
+                                                    
+                                                    
+                                                
+                                            
+                                            
+                                                                            
+                                    Improve
+                                    
+                                
+                            
+                                        
+                        
+                        
+                                                            
+                                    Article Tags   
+                                    
+                                        
+            
+                Analysis of Algorithms
+            
+            
+                DSA
+            
+            
+                time complexity

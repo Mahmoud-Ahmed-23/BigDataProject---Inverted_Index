@@ -1,0 +1,169 @@
+SQL Cheat Sheet   Basic to Advanced 
+                                        
+                                                                                    
+                                                
+                                                    Last Updated   
+                                                       Mar      
+                                                
+
+                                                 
+                                                 
+                                                                                                            
+                                                                                                                    
+                                                            
+                                                            
+                                                              
+                                                
+                                                    
+                                                        
+                                                    
+                                                
+                                            
+                                                                                                                                                                                        
+                                                                    Comments
+                                                                    
+                                                                        
+                                                                        
+                                                                        
+                                                                    
+                                                                
+                                                                
+                                                                Improve
+                                                                
+                                                                    
+                                                                    
+                                                                    
+                                                                
+                                                             
+                                                                                                                        
+                                                                                                                    
+                                                        
+                                                            
+                                                                                                                            
+                                                            
+                                                            
+                                                        
+                                                    
+                                                 
+                                            
+                                                                            
+                                                            
+                            
+                            
+                            
+                                            
+                                            
+                                             
+                                                
+                                                    
+                                                        
+                                                        Suggest changes
+                                                    
+                                                
+                                                                                                                                      
+                                            
+                                                     
+                                                        Like Article
+                                                    
+                                                    
+                                                        
+                                                        Like
+                                                    
+                                                
+
+                                            
+                                            
+                                            
+
+                                            
+                                            
+                                                
+                                                    
+                                                        
+                                                        Report
+                                                    
+                                                
+
+                                            
+                                            
+                                            
+                                        
+                                    
+                            
+                                                                Creating and managing databases in SQL involves various commands and concepts that handle the structuring  querying  and manipulation of data  In this guide  we will see a comprehensive cheat sheet for essential SQL operations  offering a practical reference for tasks ranging from database creation to advanced data handling techniques  It includes fundamental SQL commands like CREATE DATABASE and DROP DATABASE  data manipulation commands such as INSERT INTO and UPDATE  as well as querying techniques using SELECT  WHERE and aggregate functions  SQL Cheat SheetTable of Content
+Create a Database in SQLCreating Data in SQL Reading Querying Data in SQL Updating Manipulating Data in SQL Deleting Data in SQL Filtering Data in SQL SQL Operator Aggregation Data in SQL Constraints in SQL Joins in SQL SQL FunctionsSubqueries in SQL Views in SQL Indexes in SQL Transactions in SQL Advanced Mixed Data in SQL SQL Cheat Sheet PDFCreate a Database in SQLExplore this section to get hands on all the cheat sheet that help you in order to create a database in SQL    CREATE DATABASE  Create a New DatabaseCREATE DATABASE company This command creates a new database named  company      USE  Select a Specific Database to Work WithUSE company This command selects the database named  company  for further operations    ALTER DATABASE  Modify a Database s AttributesALTER DATABASE database name   DROP DATABASE  Delete an Existing DatabaseDROP DATABASE company This command deletes the database named  company  and all its associated data  Download SQL Cheat Sheet PDFCreating Data in SQLHere in this SQL cheat sheet we have listed down all the cheat sheet that help to create  insert  alter data in table     CREATE  Create a New Table  Database or IndexCREATE TABLE employees    employee id INT PRIMARY KEY   first name VARCHAR       last name VARCHAR       department VARCHAR       salary DECIMAL         This command creates a table named  employees  with columns for employee ID  first name  last name  department  and salary  The employee id column is set as the primary key    INSERT INTO  Add New Records To A TableINSERT INTO employees  employee id  first name  last name  department  salary VALUES       John    Doe    HR                    Jane    Smith    IT                    Alice    Johnson    Finance                    Bob    Williams    IT                    Emily    Brown    HR             This command inserts sample data into the  employees  table with values for employee ID  first name  last name  department  and salary    ALTER TABLE  Modify An Existing Table s StructureALTER TABLE employeesADD COLUMN new column INT This command adds a new column named  new column  of integer type to the existing  employees  table    DROP TABLE  Delete A Table And Its DataDROP TABLE employees This command deletes the entire  employees  table along with all its data Reading Querying Data in SQL Explore this section to get the cheat sheet on how to use select  distinct and other querying data in SQL    SELECT  Retrieve Data From One Or More TablesSELECT   FROM employees This query will retrieve all columns from the employees table     DISTINCT  Select Unique Values From A ColumnSELECT DISTINCT department FROM employees This query will return unique department names from the employees table     WHERE  Filter Rows Based On Specified ConditionsSELECT   FROM employees WHERE salary  gt           This query will return employees whose salary is greater than              LIMIT  Limit The Number Of Rows Returned In The Result SetSELECT   FROM employees LIMIT   This query will limit the result set to the first   rows     OFFSET  Skip A Specified Number Of Rows Before Returning The Result SetSELECT   FROM employees LIMIT       OFFSET   This query retrieves all rows from the  employees  table  skipping the first   rows and limiting the result to        rows     FETCH  Retrieve A Specified Number Of Rows From The Result SetSELECT   FROM employees FETCH FIRST   ROWS ONLY This query will fetch the first   rows from the result set     CASE  Perform Conditional Logic In A QuerySELECT   first name   last name   CASE     WHEN salary  gt        THEN  High     WHEN salary  gt        THEN  Medium     ELSE  Low   END AS salary categoryFROM employees This query will categorize employees based on their salary into  High    Medium   or  Low  Updating Manipulating Data in SQL Get a cheat sheet on how to update or manipulate data in SQL by exploring this section     UPDATE  Modify Existing Records In A TableUPDATE employeesSET salary           WHERE employee id     This query will update the salary of the employee with employee id   to          Deleting Data in SQL     DELETE  Remove Records From A TableDELETE FROM employeesWHERE employee id     This query will delete the record of the employee with employee id   from the employees table Filtering Data in SQL     WHERE  Filter Rows Based On Specified ConditionsSELECT   FROM employeesWHERE department    IT  This query will retrieve all employees who work in the IT department     LIKE  Match A Pattern In A ColumnSELECT   FROM employeesWHERE first name LIKE  J   This query will retrieve all employees whose first name starts with  J      IN  Match Any Value In A ListSELECT   FROM employeesWHERE department IN   HR    Finance   This query will retrieve all employees who work in the HR or Finance departments     BETWEEN  Match Values Within A Specified RangeSELECT   FROM employeesWHERE salary BETWEEN       AND       This query will retrieve all employees whose salary is between       and           IS NULL  Match NULL ValuesSELECT   FROM employeesWHERE department IS NULL This query will retrieve all employees where the department is not assigned  NULL      ORDER BY  Sort The Result SetSELECT   FROM employeesORDER BY salary DESC This query will retrieve all employees sorted by salary in descending order SQL Operator Here in this section we have added a cheat sheet for SQL Operators  So  explore and learn how to use AND  OR  NOT and others oprtators     AND  Combines Multiple Conditions In A WHERE ClauseSELECT   FROM employeesWHERE department    IT  AND salary  gt        This query will retrieve employees who work in the IT department and have a salary greater than           OR  Specifies Multiple Conditions Where Any One Of Them Should Be TrueSELECT   FROM employeesWHERE department    HR  OR department    Finance  This query will retrieve employees who work in either the HR or Finance department     NOT  Negates A ConditionSELECT   FROM employeesWHERE NOT department    IT  This query will retrieve employees who do not work in the IT department     LIKE  Searches For A Specified Pattern In A ColumnSELECT   FROM employeesWHERE first name LIKE  J   This query will retrieve employees whose first name starts with  J      IN  Checks If A Value Matches Any Value InSELECT   FROM employeesWHERE department IN   HR    Finance   This query will retrieve employees who work in the HR or Finance departments     BETWEEN  Selects Values Within a Specified RangeSELECT   FROM employeesWHERE salary BETWEEN       AND       This query will retrieve employees whose salary is between       and           IS NULL  Checks if a Value is NULLSELECT   FROM employeesWHERE department IS NULL This query will retrieve employees where the department is not assigned  NULL      ORDER BY  Sorts the Result Set in Ascending or Descending OrderSELECT   FROM employeesORDER BY salary DESC This query will retrieve all employees sorted by salary in descending order     GROUP BY  Groups Rows that have the Same Values into Summary RowsSELECT department  COUNT    AS employee countFROM employeesGROUP BY department This query will group employees by department and count the number of employees in each department Aggregation Data in SQL Get an hands in aggregation data in SQL  Here you will find cheat sheet for how to count numbers  sum of numbers and more     COUNT  Count The Number Of Rows In A Result SetSELECT COUNT    FROM employees This query will count the total number of employees     SUM  Calculate The Sum Of Values In A ColumnSELECT SUM salary  FROM employees This query will calculate the total salary of all employees     AVG  Calculate The Average Value Of A ColumnSELECT AVG salary  FROM employees This query will calculate the average salary of all employees     MIN  Find the Minimum Value in a ColumnSELECT MIN salary  FROM employees This query will find the minimum salary among all employees     MAX  Find the Maximum Value in a ColumnSELECT MAX salary  FROM employees This query will find the maximum salary among all employees     GROUP BY  Group Rows Based on a Specified ColumnSELECT department  COUNT    AS employee countFROM employeesGROUP BY department This query will group employees by department and count the number of employees in each department     HAVING  Filter Groups Based on Specified ConditionsSELECT department  AVG salary  AS avg salaryFROM employeesGROUP BY departmentHAVING AVG salary   gt        This query will calculate the average salary for each department and return only those departments where the average salary is greater than       Constraints in SQL Constraints in SQL act as data quality guardrails  enforcing rules to ensure accuracy  consistency  and integrity within your database tables     PRIMARY KEY  Uniquely Identifies Each Record in a TableCREATE TABLE employees    employee id INT PRIMARY KEY   first name VARCHAR       last name VARCHAR      employee id is designated as the primary key  ensuring that each employee record has a unique identifier     FOREIGN KEY  Establishes a Relationship Between Two TablesCREATE TABLE departments    department id INT PRIMARY KEY   department name VARCHAR      CREATE TABLE employees    employee id INT PRIMARY KEY   first name VARCHAR       last name VARCHAR       department id INT   FOREIGN KEY  department id  REFERENCES departments department id   department id column in the employees table is a foreign key that references the department id column in the departments table  establishing a relationship between the two tables     UNIQUE  Ensures That All Values in a Column Are UniqueCREATE TABLE employees    employee id INT PRIMARY KEY   email VARCHAR      UNIQUE  email column must contain unique values for each employee     NOT NULL  Ensures That a Column Does Not Contain NULL ValuesCREATE TABLE employees    employee id INT PRIMARY KEY   first name VARCHAR     NOT NULL   last name VARCHAR     NOT NULL  first name and last name columns must have values and cannot be NULL     CHECK  Specifies a Condition That Must Be Met for a Column s ValueCREATE TABLE employees    employee id INT PRIMARY KEY   age INT CHECK  age  gt        age column must have a value of    or greater due to the CHECK constraint Joins in SQL Explore different join types to seamlessly merge data from multiple tables in your SQL queries     INNER JOIN  Retrieves Records That Have Matching Values in Both TablesSELECT   FROM employeesINNER JOIN departments ON employees department id   departments department id This query will retrieve records from both the employees and departments tables where there is a match on the department id column     LEFT JOIN  Retrieves All Records from the Left Table and the Matched Records from the Right TableSELECT   FROM employeesLEFT JOIN departments ON employees department id   departments department id This query will retrieve all records from the employees table and only the matching records from the departments table     RIGHT JOIN  Retrieves All Records from the Right Table and the Matched Records from the Left TableSELECT   FROM employeesRIGHT JOIN departments ON employees department id   departments department id This query will retrieve all records from the departments table and only the matching records from the employees table     FULL OUTER JOIN  Retrieves All Records When There Is a Match in Either the Left or Right TableSELECT   FROM employeesFULL OUTER JOIN departments ON employees department id   departments department id This query will retrieve all records from both the employees and departments tables  including unmatched records     CROSS JOIN  Retrieves the Cartesian Product of the Two TablesSELECT   FROM employeesCROSS JOIN departments This query will retrieve all possible combinations of records from the employees and departments tables     SELF JOIN  Joins a Table to ItselfSELECT e  first name  e  first nameFROM employees e   employees e WHERE e  employee id   e  manager id In this example  the employees table is joined to itself to find employees and their respective managers based on the manager id column SQL FunctionsIn this section we have compiled SQL cheat sheet for SQL functions  It is used for common tasks like aggregation  filtering  date time manipulation  and more     Scalar Functions  Functions That Return a Single ValueSELECT UPPER first name  AS upper case name FROM employees This query uses the UPPER   scalar function to convert the first name column values to uppercase     Aggregate Functions  Functions That Operate on a Set of Values and Return a Single ValueSELECT AVG salary  AS average salary FROM employees This query uses the AVG   aggregate function to calculate the average salary of all employees     String Functions  Functions That Manipulate String ValuesSELECT CONCAT first name       last name  AS full name FROM employees This query uses the CONCAT   string function to concatenate the first name and last name columns into a single column called full name SELECT SUBSTR first name        AS short name FROM employees This query uses the SUBSTR   function to extract the first three characters of the first name column for each employee  The result is displayed in a new column called short name SELECT INSERT full name         Amazing    AS modified name FROM  SELECT CONCAT first name       last name  AS full name FROM employees  AS employee names This query first concatenates the first name and last name columns into a single column called full name  Then  it uses the INSERT   function to insert the string  Amazing   at the  th position of the full name column for each employee  The modified names are displayed in a new column called modified name     Date and Time Functions  Functions That Operate on Date and Time ValuesSELECT CURRENT DATE AS current date FROM dual This query uses the CURRENT DATE date function to retrieve the current date     Mathematical Functions  Functions That Perform Mathematical OperationsSELECT SQRT     AS square root FROM dual This query uses the SQRT   mathematical function to calculate the square root of    Subqueries in SQL This SQL cheat sheet explains how to nest queries for powerful data filtering and manipulation within a single statement     Single row Subquery  Returns One Row of ResultSELECT first name  last nameFROM employeesWHERE salary    SELECT MAX salary  FROM employees  In this example  the subquery  SELECT MAX salary  FROM employees  returns a single row containing the maximum salary  and it s used to filter employees who have the maximum salary     Multiple row Subquery  Returns Multiple Rows of ResultSELECT department nameFROM departmentsWHERE department id IN  SELECT department id FROM employees  In this example  the subquery  SELECT department id FROM employees  returns multiple rows containing department IDs  and it s used to filter department names based on those IDs     Correlated Subquery  References a Column from the Outer QuerySELECT first name  last nameFROM employees eWHERE salary  gt   SELECT AVG salary  FROM employees WHERE department   e department  In this example  the subquery  SELECT AVG salary  FROM employees WHERE department   e department  is correlated with the outer query by referencing the department column from the outer query  It calculates the average salary for each department and is used to filter employees whose salary is greater than the average salary of their respective department     Nested Subquery  A Subquery Inside Another SubquerySELECT first name  last nameFROM employeesWHERE department id IN      SELECT department id    FROM departments    WHERE department name    IT   In this example  the subquery  SELECT department id FROM departments WHERE department name    IT   is nested within the outer query  It retrieves the department ID for the IT department  which is then used in the outer query to filter employees belonging to the IT department Views in SQL Here in this SQL cheat sheet unveils how to create virtual tables based on existing data for streamlined access     CREATE VIEW  Create a Virtual Table Based on the Result of a SELECT QueryCREATE VIEW high paid employees ASSELECT  FROM employeesWHERE salary  gt        This query creates a views named high paid employees that contains all employees with a salary greater than           DROP VIEW  Delete a ViewDROP VIEW IF EXISTS high paid employees This query drops the high paid employees view if it exists Indexes in SQL Speed up your SQL queries with our Indexes Cheat Sheet  Learn how to create and optimize indexes to dramatically improve database performance     CREATE INDEX  Create an Index on a TableCREATE INDEX idx department ON employees  department  This query creates an index named idx department on the department column of the employees table     DROP INDEX  Remove an IndexDROP INDEX IF EXISTS idx department This query drops the idx department index if it exists Transactions in SQL Learn how to manage groups of database operations as a single unit for reliable data updates     BEGIN TRANSACTION  Start a New TransactionBEGIN TRANSACTION This statement starts a new transaction     COMMIT  Save Changes Made During the Current TransactionCOMMIT This statement saves all changes made during the current transaction     ROLLBACK  Undo Changes Made During the Current TransactionROLLBACK This statement undoes all changes made during the current transaction Advanced Mixed Data in SQL In the last we have complied all the imprtant queries under the one advanced SQL cheat sheet      Stored Procedures  Precompiled SQL Statements That Can Be Executed with a Single CommandCREATE PROCEDURE get employee count  BEGIN  SELECT COUNT    FROM employees END This query creates a stored procedure named get employee count that returns the count of employees     Triggers  Automatically Execute a Set of SQL Statements When a Specified Event OccursCREATE TRIGGER before employee insertBEFORE INSERT ON employeesFOR EACH ROWBEGIN  SET NEW creation date   NOW   END This query creates a trigger named before employee insert that sets the creation date column to the current date and time before inserting a new employee record     User defined Functions  UDFs   Custom SQL Functions Created by Users to Perform Specific TasksCREATE FUNCTION calculate bonus salary DECIMAL  RETURNS DECIMALBEGIN  RETURN salary               bonusEND This query creates a user defined function named calculate bonus that calculates the bonus based on the salary     Common Table Expressions  CTEs   Temporary Result Sets That Can Be Referenced Within a SELECT  INSERT  UPDATE  or DELETE StatementWITH high paid employees AS    SELECT   FROM employees WHERE salary  gt        SELECT   FROM high paid employees This query uses a common table expression named high paid employees to retrieve all employees with a salary greater than       SQL Cheat Sheet PDFDownload SQL CheatSheet ConclusionThis SQL cheat sheet provide a wide range of commands and techniques essential for effective database management and data manipulation  By familiarizing yourself with these SQL operations  you can streamline your workflow  optimize performance and ensure data integrity across your database  Whether you are creating databases  modifying data  querying information  or implementing advanced features like triggers and stored procedures  this guide provides the necessary tools to handle various SQL tasks with confidence
+                            
+                            
+                        
+                                                                              
+                                        
+                                                                                
+                                                                
+                            
+    
+        
+        
+        Comment
+    More infoAdvertise with us                                
+                                
+                                        Next Article
+                                        
+                                    
+                                    
+                                    
+                                        SQL Interview Questions
+                                    
+                                
+                                                        
+                        
+                            
+                                        
+                                            
+                                                
+                                                
+                                                    V
+        
+            
+        
+        
+                                                
+                                                
+                                                    vivekkumar                                                  
+                                                
+                                                
+            
+            
+
+ Follow                                            
+                                            
+                                        
+                                        
+                                            
+                                            
+                                                
+                                                
+                                                    
+                                                    
+                                                
+                                            
+                                            
+                                                                            
+                                    Improve
+                                    
+                                
+                            
+                                        
+                        
+                        
+                                                            
+                                    Article Tags   
+                                    
+                                        
+            
+                SQL
+            
+            
+                Databases
+            
+            
+                Cheat Sheet

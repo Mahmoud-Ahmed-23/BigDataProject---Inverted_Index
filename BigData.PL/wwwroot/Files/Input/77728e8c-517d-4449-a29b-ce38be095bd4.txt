@@ -1,0 +1,179 @@
+Git Tutorial
+                                        
+                                                                                    
+                                                
+                                                    Last Updated   
+                                                       Apr      
+                                                
+
+                                                 
+                                                 
+                                                                                                            
+                                                                                                                    
+                                                            
+                                                            
+                                                              
+                                                
+                                                    
+                                                        
+                                                    
+                                                
+                                            
+                                                                                                                                                                                        
+                                                                    Comments
+                                                                    
+                                                                        
+                                                                        
+                                                                        
+                                                                    
+                                                                
+                                                                
+                                                                Improve
+                                                                
+                                                                    
+                                                                    
+                                                                    
+                                                                
+                                                             
+                                                                                                                        
+                                                                                                                    
+                                                        
+                                                            
+                                                                                                                            
+                                                            
+                                                            
+                                                        
+                                                    
+                                                 
+                                            
+                                                                            
+                                                            
+                            
+                            
+                            
+                                            
+                                            
+                                             
+                                                
+                                                    
+                                                        
+                                                        Suggest changes
+                                                    
+                                                
+                                                                                                                                      
+                                            
+                                                     
+                                                        Like Article
+                                                    
+                                                    
+                                                        
+                                                        Like
+                                                    
+                                                
+
+                                            
+                                            
+                                            
+
+                                            
+                                            
+                                                
+                                                    
+                                                        
+                                                        Report
+                                                    
+                                                
+
+                                            
+                                            
+                                            
+                                        
+                                    
+                            
+                                                                Git is an essential tool for developers  enabling them to manage and track changes in their projects  Whether you re working on a solo project or collaborating with a team  Git keeps everything organized and under control  This Git Tutorial from beginner to advanced  will walk you through the basics of Git  making it easy to learn and implement in your projects  You will learn about GitHub fundamentals and advanced concepts like branches  pushing merge conflicts  and many useful Git CommandsIn a Distributed Version Control System  everyone working on a project has their complete copy of the project and its history about every change made by anyone  They can clone the git repository in their local machine and make the changes and also check the history where the previous changes were made in the project Suppose the SDE team of GeeksforGeeks is working on a large project  and    members are working together in this team  Here  a distributed version control system helps this team to create a local copy of the complete git repository on every team member s computer so they can easily commit  branch  and merge locally  Table of ContentPrerequisitesWhat is Git Why Use Git Working with GitWhat is Github Introduction to GitGit BasicsGit InstallationGit CommandsGit and GitHubGit and GitHub in VS CodeGit and GitHub in Android StudioGit and GitHub in PycharmGit and GitHub DeploymentGit CollaboratingGit AdvancedGit WorkflowInternal Working of GitGit vs GitHub  Difference between nbsp Git nbsp and nbsp GitHubBest Practices for GitCommon Git Problems and Their FixesPrerequisites A Command Line Interface  CLI  installed Text Editor  e g   Visual Studio Code  Sublime Text  Basic Understanding of Programming ConceptsWhat is Git Git is an open source distributed version control system  DVCS  that allows developers to track and manage changes to their codebase  You can easily manage small as well as large projects with high speed and efficiency by Git  Unlike traditional version control systems  Git allows multiple developers to work on a project simultaneously without interfering with each other s work  We can use Git privately as well as publically Let s try to understand it by taking an example   Geeksforgeeks Web Development team is building a website in which two developers are working one is Developer A who is working on the homepage and another is Developer B who works on the contact form  They both clone the Github repository  create separate branches  make changes and commit their work  After completion of their code  they push their code and open pull requests for review  After approval  the changes are merged into the main branch  By using Git they can easily track the changes without any kind of interference in each other s work and keep the project organized Git was developed by Linus Torvalds in      for Linux kernel development  Git        is the Latest Versions of GIT  released on March       Why Use Git Git offers numerous benefits to developers and development teams  Version Control  Git helps in tracking changes  allowing you to go back to previous states if something goes wrong Collaboration  It enables multiple developers to work on a project simultaneously without interfering with each other s work Backup  Your entire project history is saved in a Git repository  providing a backup of all versions Branching and Merging  Git s branching model allows you to experiment with new features or bug fixes independently from the main project Open Source Projects  Most open source projects use Git for version control  Learning Git allows you to contribute to these projects Industry Standard  Git is widely used in the software industry  making it an essential skill for developers Working with GitInitializing a Repository  When you initialize a folder with Git  it becomes a repository  Git logs all changes made to a hidden folder within that repository Staging Changes  Git marks modified files as  staged   Staging prepares changes for a snapshot you want to keep Committing Changes  Once staged changes are satisfactory  commit them  Git maintains a complete record of each commit What is Github GitHub  a hosting service for Git repositories  allows you to access and download projects from any computer  Here s what you can do with GitHub Store Repositories  GitHub hosts your repositories Collaborate  Work with other developers from any location Version Control  Manage collaborative workflows using Git and GitHub Introduction to GitVersion Control SystemIntroduction and Installation of GitHistory of GitGit FeaturesIntroduction to GitHubGit RepositoryGit FeaturesBare Repositories in GitGit IgnoreReadme md FileGitHub Readme FileGitHub LabelsDifference between CVS and GitHubGit BasicsGit   SubGitGit Environment SetupUsing Git on CLIHow to Setup a RepositoryWorking with Git RepositoriesUsing GitHub with SSHWorking on Git with GUIDifference Between Git and GitHubWorking on Git BashStates of a File in Git Working DirectoryUse of Submodules in GitHubHow to Write Good Commit Messages on GitHub Deleting a Local GitHub RepositoryGit Workflow EtiquettesGit PackfilesGit Garbage CollectionGit Flow vs GitHub FlowGit   Difference Between HEAD  Working Tree and IndexGit InstallationHow to Use Git in UbuntuHow to Setup Git Server on Ubuntu How to Add GIT Credentials in MacOS How to add GIT credentials on Windows How to add GIT credentials on Linux How to Setup Git on Anypoint Studio How to Install Git With SpyderHow to Install Git on VMWareHow to Install GIT in Conda How to Install GIT on GoDaddy Server on Linux How to Install Git on Windows Using Chocolatey How to install GIT by NPM Packages How to Install Git on Cygwin How to Install Git Large File Storage on Linux How to Install Sourcetree for GIT on Windows How to Install Sourcetree for GIT in MacOs How to Install Git on Raspberry Pi How to Install Git on Termux How to Set Up Git Using Git Config Git CommandsUseful Git Commands and Basic ConceptsBasic Git Commands with ExamplesEssential Git CommandsTop    Most Used Git Commands For DevelopersSave a File in GitDifference between  add  A    add  u    add     and  add   Difference between  git add  A  and  git add Debugging in a GitHow to Add Code on GitHub Repository Pushing Changes to Git RepositoryExamining GitGit Checkout and MergeRevert a Git CommitGit SubmodulesGit HeadGit CleanGit RenameGit ForkGit InitGit AddGit CommitGit Origin MasterHow to Set Upstream Branch on Git Git PushGit PullGit Pull and FetchGit MergeGit StashGit RemoteGit PatchGit Patch OperationsGit RebaseGit CloneGit AliasGit Ref and ReflogGit Undo CommitGit UndoGit StageGit SquashGit Move FilesGit diffGit StatusGit BlameGit IndexGit PruneGit Checkout and MergeGit Merge and Merge ConflictsRecovering Lost Commits in GitGit TagsGit HooksGit SubtreeGit   Filtering the Commit HistoryGit   Cherry PickGit   git show Command Line UtilityGit   Working TreeGit   Changing HistoryShallow Clone on Git LinuxSync your fork with a master in GitHubError Searching and Handling in GitDelete a Git Branch Locally and RemotelyHow to Push Git Branch to Remote How to Add an Empty Directory to a Git Repository Difference Between Git Push Origin and Git Push Origin MasterDifference Between Git remote prune  Git prune  on and Git fetch  pruneGit   Difference Between Merging and RebasingHow to Use Git Log to Format the Commit History How to Remove Local Untracked Files From Current Git Working Tree Git and GitHubCreate a Repository on GitHubIntroduction to Git BranchHow to Add Code of Conduct to Your Project on GitHub Difference Between Fork and Clone in GitHubHow to Add Audio Files on README  md File in a GitHub Repository From the Local System How to Add Videos on README  md File in a GitHub Repository How to Upload a Project on GitHubHow to Export a Git Project How to Push a Project and Contribute on GitHub How to Push Anything to GitHub using Git Bash How to Push Folders From a Local PC to GitHub using Git Commands How to Add Images on README  md File in a GitHub Repository From the Local System How to Transfer Local Repository to GitHub Organization How to Generate Personal Access Token in GitHub How to Add GIFs on README  md File in a GitHub Repository How to Change the Visibility of the GitHub Repository Issues in GitHubGit   How to Solve  remote  Invalid username or password  fatal  Authentication failed Git   A lock file already exists in the repository  which blocks this operation from completingCommon Git Problems and Their FixesHow to add a README to your GitHub profile How to Upload a Project through GitHub Desktop on GitHubHow to configure an OAuth App from GitHub How to move the most recent commit s  to a new branch with GitHow to Use GIT with R and RStudio How to Use Git with Eclipse Git Pack ObjectsGit and GitHub in VS CodeHow to Add GIT Credentials in VSCode How to Clone a Project From GitHub using VSCode How to Open a GitHub Repository in VS Code Online Creating a Pull Request on any Public Repository from GitHub using VS CodeHow to Install GitHub Copilot on VSCode Git and GitHub in Android StudioHow to Upload Project on GitHub from Android StudioHow to Clone Android Project from GitHub in Android Studio How to use Git Commands in Android Studio TerminalHow to Create a New Branch on GitHub using Android Studio How to Create a Pull Request on GitHub using Android Studio Git and GitHub in PycharmHow to Create a New Branch on Github using Pycharm Create a Pull Request on GitHub using PycharmHow to Upload a Project on GitHub from Pycharm How to Push Code to GitHub using Pycharm Git and GitHub DeploymentHow to deploy the Node js app on Heroku from GitHub Deployment of React Application using GitHub PagesHow to Publish a Static Website on GitHubHost a free Static Website using GitHubPublish Websites on GitHub Pages with a Custom DomainHow to Deploy a Basic Static HTML Website to Heroku using Git How to Deploy Angular Application to Firebase using GitHub How to Add Custom Domain To GitHub Pages How to Deploy a Django Application to Heroku with Git CLI How to create a cv using HTML and host it in GitHub Deployment of Angular Application using Github PagesHow to Build Portfolio Website And Host It on GitHub Pages Git CollaboratingWhat is Git CollaborationWhat are GitHub CollaboratorsGitHub DiscussionForking Workflow in Open Source EcosystemHow to Clone Github Repository and Push Changes in Colaboratory How to make your first Open Source Pull RequestHow to setup Gitlab Repository in Windows   Merge Strategies in GitHow to Handle Merge ConflictsGitHub App to Add or Remove Labels to IssuesHow to Create Pull Request on GitHub without Using any IDE How to Clone Web Project from GitHub in Pycharm using Git How to Clone a project from GitHub using Eclipse How to Export Eclipse Projects to GitHub Creating New Branch on Github without using any IDEHow to Upload Project on GitHub from Jupyter Notebook Git AdvancedHow to Handle Big Repositories with Git How to Protect Your Private Email Addresses in Git  amp  Github How to send an Email using Git send email via Gmail Dynamic Quote Generator for GitHub ReadmeAutomating some git commands with PythonHow to Install and Use Git in Google Colab Downloading gists from Github made simpleIntroduction to BitbucketDifference between Bitbucket and GitHubUsing Bitbucket as an extension to GitHub CapabilitiesWorking on Bitbucket using GitIntroduction to MercurialDifference between MERCURIAL and GITHow to Make a GitHub BotJenkins and GIT Integration using SSH KeyHow to Trigger WebHooks without Events   Probot Github AppDifference between Gitlab and GitHubDifference between Git and SVNLink your GitHub Account with R StudioContinuous Integration and Continuous Development CI CD How to Add GIT Credentials in Jenkins Implementation of CI CD in  NET application Using Shell Executor on GitLabImplementation of CI CD in Java application Linux  Using Shell and Docker Executor on GitLabImplementation of CI CD in C C   Application Linux  Using Shell and Docker Executor on GitLabHow to Publish Docker Image to Dockerhub Using Github Actions Installing Private Git Server on K s Cluster with Gitea and AKSFlutter   Building and Releasing APK using GitHub ActionsHow to Upload Android APK to Testers Group in Firebase Using GitHub Actions Basic CI Workflow For Android using GitHub ActionsGitHub Actions For AndroidGit WorkflowA Git workflow is a set of guidelines that help teams collaborate effectively  Some common workflows include Feature Branch Workflow  Each feature gets its own branch GitFlow Workflow  A more structured workflow involving feature  release  and hotfix branches Forking Workflow  Fork the project  make changes  and then create a pull request Internal Working of GitGit uses a decentralized model where each developer has their own copy of the repository and works immediately on the project  Git manages the projects with repositories and can clone a project to operate locally on it  With staging and committing it track changes and control  You can pull the latest code of the project to the local copy  and push local updates to the main projects Git vs GitHub  Difference between nbsp Git nbsp and nbsp GitHubAspectGitGitHubDefinitionGit is a nbsp distributed version control system nbsp that tracks changes in the source code GitHub is a nbsp cloud based Git repository hosting service nbsp that enhances collaboration and code management PurposeTo manage versions of code and track changes locally To host Git repositories online and allow collaboration and version control via Git InstallationGit is a nbsp command line tool nbsp installed locally on your machine GitHub is accessed nbsp via the web nbsp and requires no installation MaintenanceMaintained by the nbsp Linux community Maintained by nbsp Microsoft nbsp since      FocusGit focuses on nbsp version control nbsp and managing code changes GitHub focuses on nbsp hosting  nbsp collaboration  and project management HistoryGit was nbsp released in      nbsp by Linus Torvalds GitHub was nbsp launched in      nbsp as a platform for Git repository hosting User Management          Git does not have nbsp built in user management GitHub includes nbsp built in user management  allowing for collaboration and permissions LicensingGit is nbsp open source nbsp and free to use GitHub offers nbsp free tier and paid plans nbsp with additional features Tool IntegrationGit has minimal external tool integration GitHub provides an nbsp active marketplace for integrations  including CI CD  project management  and more InterfaceGit provides the nbsp Git GUI nbsp for graphical management GitHub provides nbsp GitHub Desktop nbsp and web interfaces for managing repositories CompetitionGit competes with nbsp CVS  nbsp Mercurial  and nbsp Subversion GitHub competes with nbsp GitLab  nbsp Bitbucket  and nbsp SourceForge Best Practices for GitCommit Frequently  Commit your changes regularly to avoid large  hard to merge commits Write Meaningful Commit Messages  Write clear  concise commit messages that describe what changes were made Use Branches for Features  Always create a new branch for new features or bug fixes to keep the main branch stable Keep Your Repositories Organized  Maintain a clean and structured directory in your repository Common Git Problems and Their FixesMerge Conflicts  Always check for conflicting code before merging  Resolve conflicts manually and commit the resolved files Detached HEAD State  When in a detached HEAD state  use git checkout  lt branch name gt  to switch back to your branch Commit Not Pushed  Ensure that you have pushed your commits to the remote repository using git push 
+                            
+                            
+                        
+                                                                              
+                                        
+                                                                                
+                                                                
+                            
+    
+        
+        
+        Comment
+    More infoAdvertise with us                                
+                                
+                                        Next Article
+                                        
+                                    
+                                    
+                                    
+                                        Git Introduction
+                                    
+                                
+                                                        
+                        
+                            
+                                        
+                                            
+                                                
+                                                
+                                                    
+        
+            
+        
+        
+                                                
+                                                
+                                                    kartik                                                
+                                                
+                                                
+            
+            
+
+ Follow                                            
+                                            
+                                        
+                                        
+                                            
+                                            
+                                                
+                                                
+                                                    
+                                                    
+                                                
+                                            
+                                            
+                                                                            
+                                    Improve
+                                    
+                                
+                            
+                                        
+                        
+                        
+                                                            
+                                    Article Tags   
+                                    
+                                        
+            
+                Web Technologies
+            
+            
+                Git
+            
+            
+                DevOps
+            
+            
+                GitHub
+            
+            
+                Tutorials
+            
+            
+                GIT
+                                                
+                                                                               More

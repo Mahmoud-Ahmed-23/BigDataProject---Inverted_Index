@@ -1,0 +1,168 @@
+Microsoft Azure Tutorial
+                                        
+                                                                                    
+                                                
+                                                    Last Updated   
+                                                       Apr      
+                                                
+
+                                                 
+                                                 
+                                                                                                            
+                                                                                                                    
+                                                            
+                                                            
+                                                              
+                                                
+                                                    
+                                                        
+                                                    
+                                                
+                                            
+                                                                                                                                                                                        
+                                                                    Comments
+                                                                    
+                                                                        
+                                                                        
+                                                                        
+                                                                    
+                                                                
+                                                                
+                                                                Improve
+                                                                
+                                                                    
+                                                                    
+                                                                    
+                                                                
+                                                             
+                                                                                                                        
+                                                                                                                    
+                                                        
+                                                            
+                                                                                                                            
+                                                            
+                                                            
+                                                        
+                                                    
+                                                 
+                                            
+                                                                            
+                                                            
+                            
+                            
+                            
+                                            
+                                            
+                                             
+                                                
+                                                    
+                                                        
+                                                        Suggest changes
+                                                    
+                                                
+                                                                                                                                      
+                                            
+                                                     
+                                                        Like Article
+                                                    
+                                                    
+                                                        
+                                                        Like
+                                                    
+                                                
+
+                                            
+                                            
+                                            
+
+                                            
+                                            
+                                                
+                                                    
+                                                        
+                                                        Report
+                                                    
+                                                
+
+                                            
+                                            
+                                            
+                                        
+                                    
+                            
+                                                                Microsoft Azure is a cloud computing service that offers a variety of services such as computing  storage  networking  and databases  It helps businesses and developers in building  deploying  and managing applications via Microsoft Controlled data centers  This tutorial will guide you from Microsoft Azure Basics to setting up storage accounts and virtual machines as well as more advanced topics like networking and cloud services  Whether you re new to cloud computing or looking to expand your skills  this Microsoft Azure beginner to advanced tutorial will help you to master Azure and it s powerful tools  Prerequisites to Learn AzureTo learn Microsoft Azure there is no need of any extra knowledge any one can easily learn the Azure if they have the below listed set of skills Basic understanding of Azure concept Understanding of Cloud ConceptsUnderstanding if basic infrastructure management  database management  and software development Introduction of Microsoft AzureAzure makes it easy for businesses to create  run and mange applications using Microsoft Worldwide network of data centers  Explore what exactly Microsoft Azure is  it s architecture and how it works in the below given section Introduction to Microsoft AzureAzure ArchitectureHow Azure Works Microsoft Azure   Using the Azure Quickstart CentreMicrosoft Azure   Getting a Free Trial with Azure Quickstart CenterStorageAzure Storage is a cloud based service from Microsoft that securely stores and manages different types of data such as files  blobs  queues  and tables  with high availability and scalability  In the below section  we will explore how to create Azure Storage Account  and how to use it in multiple ways Azure Storage AccountStorage in Azure Cloud ShellAzure Storage in Container AppBlob versioningMicrosoft Azure   Using Blob VersioningManage Blob LifecycleMicrosoft Azure   Automatically Manage Azure Blobs LifecyclesMicrosoft Azure   Add Storage Blob Owner Role Assignment For Azure AD UserAzure Disk StorageHow to Setup an Azure Storage Account For Data Archive IAM blob storageHost a Static Website using StorageMicrosoft Azure  Disk Storage in Microsoft AzureMicrosoft Azure   Azure Managed Disk State Details using PowerShellMicrosoft Azure   Mount Azure Storage in Container App In App ServiceMicrosoft Azure   Mounting Azure Storage in a Container AppMicrosoft Azure   Delete Orphaned Disks using PowerShell ScriptMicrosoft Azure   Storage in Azure Cloud ShellNetworkIn this section of Microsoft Azure tutorial you will learn all about Azure network like virtual network  network watcher  and more Data SecurityVirtual NetworkMicrosoft Azure   Find Orphaned Network Interface Cards NICs Network WatcherHow to select the right load balancerAzure Virtual NetworkMicrosoft Azure   Application Security with Azure Active DirectoryMicrosoft Azure   Find and Delete Orphaned Public IP addresses in Azure PortalMicrosoft Azure   Protecting Hybrid Cloud Workloads using Azure DefenderComputeIn this section we will discuss about Azure Compute services like Virtual Machines  functions and monitoring  A  Virtual MachinesAzure Virtual MachinesMicrosoft Azure   Introduction to Azure VM ExtensionManagement of Virtual MachinesMicrosoft Azure   Managing Multiple Virtual MachinesHow to setup windows VM What are Pre built VMMicrosoft Azure   Introduction to Spot Virtual MachinesMicrosoft Azure   Archive Azure VM to Azure Storage AccountHow to Reset an Azure VM Password How to create a Linux virtual machine using SSH keysMicrosoft Azure   Connecting Linux VM using SSHMicrosoft Azure   Connecting Windows VM using RDPMicrosoft Azure   RDP to Azure Virtual Machines using Azure BastionAzure VM Disk Space in Percentage using Azure KQLMicrosoft Azure   Creating an OS Disk Snapshot of an Azure VMMicrosoft Azure   Reduce Cost Using Virtual MachineMicrosoft Azure   Resize an Azure Virtual Machine for Windows or Linux ServersMicrosoft Azure   Resizing Virtual Machine Using PowerShell ScriptMicrosoft Azure   Configuring Backup For Azure App ServicesAzure Backup For Protecting an IaaS VMConfiguring Backup For Azure App ServicesDefense in Depth Strategy in Microsoft AzureMicrosoft Azure   Enable IIS Logs for MonitoringUsing Azure Monitor WorkbooksEnable Azure Monitor VM Insights AgentIntroduction to Spot Virtual MachinesVM for Machine LearningMicrosoft Azure   Tracking Memory Utilization of Azure VM using KQL Log QueryMicrosoft Azure   Track CPU Utilization of Azure Virtual Machines using KQL Log QueryHeartbeat KQL Log Monitoring QueryMicrosoft Azure   Firewall Network Flow Logs with TimeGenerated using KQLMicrosoft Azure   Setting up an Auto Shutdown For Azure Virtual MachineMicrosoft Azure   Get CPU Utilization Data of an Azure VM in the Azure PortalMicrosoft Azure   CPU and Memory Utilization of Azure VMs in a Single Table ChartMicrosoft Azure   Retrieve Azure Virtual Machine Admin User NameMicrosoft Azure   Enable Boot Diagnostics For a VM in AzureMicrosoft Azure   Disable Boot Diagnostics For a VM in AzureMicrosoft Azure   Setup Auto Startup and Shutdown of an Azure VM  Tips to Reduce Cost with Azure Virtual MachinesMicrosoft Azure   Assigning Tags to an Azure VMMicrosoft Azure   Check Virtual Machine Creation Date and TimeMicrosoft Azure   VMs Patch Update Summary by Installation StatusMicrosoft Azure   Graph Query to Get Properties of Azure VM ResourceMicrosoft Azure   Enable Azure Monitor VM Insights Agent For Azure VMMicrosoft Azure   Check for Apache Log J Vulnerability in Azure VMsMicrosoft Azure   Get Azure VM Properties using Azure PowerShellMicrosoft Azure   Manage Azure VMs using Azure PowerShell CommandsMicrosoft Azure   Check the Status of Azure VM using Azure PowerShellMicrosoft Azure   Azure CLI Commands to Manage Azure VMsMicrosoft Azure   Azure VM Disk Space in Percentage using Azure KQLMicrosoft Azure   KQL Query to Get the VM Computer PropertiesMicrosoft Azure   Create SHH Key to Manage Azure Linux VMsMicrosoft Azure   VM CPU Utilisation Across Subscriptions with RangeMicrosoft Azure   Common Virtual Machine IssuesMicrosoft Azure   Manage Virtual Machine via Azure Mobile AppMicrosoft Azure   Simpler Management of Virtual MachineMicrosoft Azure   Increase Processors  amp  Memory Size of Windows Virtual MachineMicrosoft Azure   Troubleshoot Azure VM Inbound and Outbound ConnectionsMicrosoft Azure   Deletion of Snapshots using PowerShell ScriptMicrosoft Azure   Connect to a Storage Account using a Private LinkMicrosoft Azure   Accessing Virtual Machines using BastionMicrosoft Azure   Getting VMComputer Records PropertiesMicrosoft Azure   Improvements in Linux Virtual MachineB  FunctionsMonitoring Azure FunctionsMicrosoft Azure   Creating Azure Functions From VS CodeMicrosoft Azure   Debugging Azure Functions using VS CodeMicrosoft Azure   Deploy Azure Functions using VS CodeMicrosoft Azure   Renaming an Azure FunctionsMicrosoft Azure   Simple way to Create a Function AppMicrosoft Azure   Monitoring Azure FunctionsMicrosoft Azure   New Features in Azure FunctionsMicrosoft Azure   Using VS Code for Azure Function ProjectsMicrosoft Azure   Custom Handlers for Azure FunctionsC  MonitoringMicrosoft Azure   Enable Windows Performance Counters in Azure for MonitoringMicrosoft Azure   Enable Linux Performance Counters in Azure for MonitoringMicrosoft Azure   Enable Windows Event Logs in Azure for MonitoringMicrosoft Azure   Enable Linux System Logs in Azure for MonitoringMicrosoft Azure   Using Azure Monitor WorkbooksAzure ServicesMicrosoft Azure   Introduction to Quickstart CenterMicrosoft Azure  Add Extensions in Azure App ServiceMicrosoft Azure   Working with App Service DomainsMicrosoft Azure   Create Web Apps in AzureMicrosoft Azure   Creating an App Service PlanMicrosoft Azure   Creating a Logic App of Consumption TypeMicrosoft Azure   Azure App Service Managed CertificatesMicrosoft Azure   Deploy a Static Web AppMicrosoft Azure   Removing Unused Services From AzureAzure FunctionsRDP to Azure Virtual Machines using Azure BastionMicrosoft Azure   Getting started with Azure Static Web AppsMicrosoft Azure   Cloning Web Apps using Azure App ServicesMicrosoft Azure   Enable Local Cache on Azure AppMicrosoft Azure   Exploring the Azure Mobile App Home ScreenMicrosoft Azure   Container Registration for App DeploymentMicrosoft Azure   Roll Back Versions of Azure Logic AppsMicrosoft Azure   Modifying API Connections With Logic AppsMicrosoft Azure   Azure Media ServiceMicrosoft Azure   Using Github Action in Azure App ServiceMicrosoft Azure   Creating an HTTP Trigger with Azure Logic AppsMicrosoft Azure   Using JSON with Azure Logic AppsMicrosoft Azure   Configuring Log Analytics Data RetentionMicrosoft Azure   Creating JSON Snippet For Policy Initiative Creation using CSV FileMicrosoft Azure   Working with Files in Azure App ServiceMicrosoft Azure   Using Power Apps in VS CodeResourcesMicrosoft Azure   Preventing Changes to Resources in Azure App ServicesMicrosoft Azure  Writing Queries and Creating Dashboards using Azure Resource GraphMicrosoft Azure   Enabling Resource Providers for Azure SubscriptionMicrosoft Azure   Find Orphaned DisksMicrosoft Azure   Handling Orphaned NSGsMicrosoft Azure   Configuring an Alert Rule with Azure MonitorMicrosoft Azure   Count of Azure Resources using Resource Graph QueryMicrosoft Azure   Create Alert For Conditional Access Policy ChangesMicrosoft Azure   Create Pie Charts For Orphaned Resources using KQLMicrosoft Azure   Patch Management Update Summary StatusMicrosoft Azure   Check Resource Owner in Azure using KQLMicrosoft Azure   Check Enabled and Disabled Diagnostics for Azure ResourcesMicrosoft Azure   Azure Firewall Flow Logs From Select Source IPMicrosoft Azure   Resource Tagging and Best PracticesMicrosoft Azure   Using the Azure Activity LogMicrosoft Azure   Scaling Inventory ResourcesMicrosoft Azure   Moving Resources Among GroupsCognitive ServicesBuild Text Translator Webapp using Flask and Cognitive ServiceMicrosoft Azure   Introduction to Metric AdvisorMicrosoft Azure   Cognitive Service Text Analytics in Web App ContainersMicrosoft Azure   Opinion Mining with Azure Cognitive ServicesDashboardsMicrosoft Azure   Customizing Charts on Azure DashboardMicrosoft Azure   Customizing Azure Dashboard TilesMicrosoft Azure   Auto Refreshing DashboardsMicrosoft Azure   Pinning to Portal DashboardDatabasesDatabase availabilityAzure SQL DatabaseSecurity in Azure SQLMicrosoft Azure   Identifying  amp  Accessing Management for Azure SQLMicrosoft Azure   Security Capabilities and Tasks of Azure SQLMicrosoft Azure   Configure Azure SQL with Azure CLIMicrosoft Azure   Configure Auditing for Azure SQL DatabaseMicrosoft Azure   Azure SQL Managed Instance Deployment OptionsMicrosoft Azure   Azure SQL Managed InstanceMicrosoft Azure   PaaS vs  IaaS in Azure SQLMicrosoft Azure   Management Interfaces for Azure SQLMicrosoft Azure   Opportunities in the Cloud with Azure SQLMicrosoft Azure   Create Azure SQL DatabaseMicrosoft SQL Server Active Directory Authentication on Linux MachineMicrosoft Azure   Introduction to Azure Database For MySQLIntroduction to Azure Cosmos DBMicrosoft Azure   Notebooks in Cosmos DBMicrosoft Azure   Using C  in CosmoDBMicrosoft Azure   Choosing a Partition Key in Cosmos DBMicrosoft Azure   Introduction to Azure Data FactoryMicrosoft Azure   Migrating From MySQL to CloudMicrosoft Azure   Advanced Threat Protection for Azure SQL DatabaseMicrosoft Azure   Using Flexible Server in Azure Database for PostgreSQLMicrosoft Azure   Accelerating Cloud Migration  amp  Datacenter DiscoveryDevOpsIntroduction to Azure DevOpsAzure availability for KubernetesZone Redundancy and SLA of Azure SQLCreate a Project in Azure DevOpsCreate a Project in Azure using the Agile ProcessMicrosoft Azure   Starting  amp  Stopping an Azure Kubernetes Service ClusterMicrosoft Azure   Introduction to Azure Kung Fu ToolkitMicrosoft Azure   Introduction to Kubernetes DiagnosticsHow to Create Backlog and Sprint in Agile Process Microsoft Azure   Running an App inside a Docker Container ImageHow to Push a Container Image to a Docker Repository Microsoft Azure   Manage and Export Azure Policies with GitHub IntegrationMicrosoft Azure Arc Enabled KubernetesMicrosoft Azure   Introduction to Azure ArcMicrosoft Azure   Deploying Web Applications Using GitHub ActionsMicrosoft Azure   Messaging with Azure Web PubSubMicrosoft Azure   Testing in Production Sites Feature using PowerShellMicrosoft Azure   Build and Deploy App with Azure SDK For JavaMachine Learning and IoTMicrosoft Azure   Introduction to Azure SentinelMachine Learning with Microsoft Azure ML Studio Without CodeWhat is the Best Azure IoT Service for You Microsoft Azure   Key IoT ProductsMicrosoft Azure   Using Azure Form RecognizerMiscellaneousMicrosoft Azure   Productivity Tips For Azure portalMicrosoft Azure   Get Azure Policies Definitions and Policy Initiatives DefinitionsMicrosoft Azure   Create a Custom Policy Initiative in AzureMicrosoft MeshMicrosoft Azure   Working with Azure Health BotMicrosoft Azure   Introduction to Azure Digital TwinsMicrosoft Azure   Working with Themes in AzureMicrosoft Azure   Understanding Azure Keyboard ShortcutsMicrosoft Azure   Using Table Parameter in Azure CLIMicrosoft Azure   Add Azure Cloud Shell to VS CodeMicrosoft Azure   Accessing Cloud Shell from Microsoft DocsMicrosoft Azure   Azure App Servers Routing using PowerShellMicrosoft Azure   Introduction to SMARTMicrosoft Azure   Lift  amp  Shift Approach for Infrastructure MigrationMicrosoft Azure   Configure Diagnostic Settings For Azure SubscriptionMicrosoft Azure   Checking your Access on Azure SubscriptionMicrosoft Azure   Enabling Logs for Troubleshooting the Azure Firewall RulesMicrosoft Azure   Rebooting an Application GatewayMicrosoft Azure   PAL Tagging in AzureMicrosoft Azure   Using Cost Management in Azure PortalMicrosoft Azure   Finding the Right Load Balancing ServiceMicrosoft Azure   View Delegated Roles in Azure LighthouseMicrosoft Azure   Using the Global SearchMicrosoft Azure   Quick Copy  amp  Paste on PortalMicrosoft Azure   Alerts as Notifications on PhoneMicrosoft Azure   Developing ARM Templates using Azure BicepFeatures of Microsoft AzureMicrosoft Azure is a comprehensive cloud computing platform developed by Microsoft  Here are some of its key features Cloud Services  Azure provides services like Software as a Service  SaaS   Platform as a Service  PaaS   and Infrastructure as a Service  IaaS   It supports many programming languages  frameworks  and tools  including third party systems Computational Services  Azure s Infrastructure as a Service  IaaS  feature allows you to launch general purpose virtual machines in Microsoft Windows and Linux platforms Data Resilience  Azure Cloud services offer more distribution points and data centers  enhancing data resilience Data Security  Microsoft Azure has many levels of built in security to meet customer needs Integrated Networking  Networking is an important part of Microsoft Azure feature in Cloud architecture Enhanced Infrastructure Management  Azure provides tools for managing infrastructure  improving efficiency Azure IoT Feature  Azure offers Internet of Things  IoT  services  enabling devices to connect and interact Deployment Models  Azure offers two deployment models for cloud resources   Classic Deployment Model and Azure Resource Manager Wide Variety of Services  Azure delivers more than     services  Flexibility and Speed  Azure is known for its enhanced flexibility  integrated delivery pipeline  security  disaster recovery  and speed of service ConclusionWith the numerous functionalities and features outlined in this lesson  the Microsoft Azure cloud platform improves business efficiency  Additionally  it is affordable and easy for beginners to understand  Also  this tutorial will help learners in preparation for Azure certifications  Here we will see how the storage  compute  and network services will work along with the management and deployment of data in the cloud 
+                            
+                            
+                        
+                                                                              
+                                        
+                                                                                
+                                                                
+                            
+    
+        
+        
+        Comment
+    More infoAdvertise with us                                
+                                
+                                        Next Article
+                                        
+                                    
+                                    
+                                    
+                                        Introduction to Microsoft Azure   A Cloud Computing Service
+                                    
+                                
+                                                        
+                        
+                            
+                                        
+                                            
+                                                
+                                                
+                                                    
+        
+            
+        
+        
+                                                
+                                                
+                                                    abhishek                                                 
+                                                
+                                                
+            
+            
+
+ Follow                                            
+                                            
+                                        
+                                        
+                                            
+                                            
+                                                
+                                                
+                                                    
+                                                    
+                                                
+                                            
+                                            
+                                                                            
+                                    Improve
+                                    
+                                
+                            
+                                        
+                        
+                        
+                                                            
+                                    Article Tags   
+                                    
+                                        
+            
+                Microsoft Azure
+            
+            
+                DevOps
+            
+            
+                Tutorials

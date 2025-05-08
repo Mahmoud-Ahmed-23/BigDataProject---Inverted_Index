@@ -1,0 +1,200 @@
+Node js Tutorial
+                                        
+                                                                                    
+                                                
+                                                    Last Updated   
+                                                       Apr      
+                                                
+
+                                                 
+                                                 
+                                                                                                            
+                                                                                                                    
+                                                            
+                                                            
+                                                              
+                                                
+                                                    
+                                                        
+                                                    
+                                                
+                                            
+                                                                                                                                                                                        
+                                                                    Comments
+                                                                    
+                                                                        
+                                                                        
+                                                                        
+                                                                    
+                                                                
+                                                                
+                                                                Improve
+                                                                
+                                                                    
+                                                                    
+                                                                    
+                                                                
+                                                             
+                                                                                                                        
+                                                                                                                    
+                                                        
+                                                            
+                                                                                                                            
+                                                            
+                                                            
+                                                        
+                                                    
+                                                 
+                                            
+                                                                            
+                                                            
+                            
+                            
+                            
+                                            
+                                            
+                                             
+                                                
+                                                    
+                                                        
+                                                        Suggest changes
+                                                    
+                                                
+                                                                                                                                      
+                                            
+                                                     
+                                                        Like Article
+                                                    
+                                                    
+                                                        
+                                                        Like
+                                                    
+                                                
+
+                                            
+                                            
+                                            
+
+                                            
+                                            
+                                                
+                                                    
+                                                        
+                                                        Report
+                                                    
+                                                
+
+                                            
+                                            
+                                            
+                                        
+                                    
+                            
+                                                                Node js is a powerful  open source  and cross platform JavaScript runtime environment built on Chrome s V  engine  It allows you to run JavaScript code outside the browser  making it ideal for building scalable server side and networking applications JavaScript was earlier mainly used for frontend development  With Node JS  Introduced in        JavaScript became a backend language as well Non blocking  event driven architecture for high performance Supports the creation of REST APIs  real time applications  and microservices Comes with a rich library of modules through npm  Node Package Manager  Deploy Node js applications on Hostinger s VPS hosting for top notch performance  Enjoy high speed NVMe SSD storage and AMD EPYC processors for faster execution  Hostinger s platform offers scalability  full control  and industry standard KVM virtualization  Benefit from a     Mb s network for seamless connectivity  Visit the website to get started now To start with Node js  you need to install and set it up on your machine  Follow these articles to install depending on your system How to Install Node js on Windows Installation of Node JS on LinuxHow to Install NodeJS on MacOSLet us now take a look at our first code example 
+            JavaScript
+
+       Import the http module
+const http   require      http       
+
+   Create a server
+const server   http createServer  req  res    gt   
+    res statusCode       
+    res setHeader      Content Type            text plain       
+    res end      Welcome to the Node js Tutorial       
+   
+
+   Listen on port     
+server listen            gt   
+    console log      Server is running on http   localhost            
+   
+
+It will start a server  and when you visit http   localhost       it will displayWelcome to the Node js TutorialIn this exampleThe http module is imported to create a basic HTTP server The createServer   method is used to handle incoming requests and send responses The server listens on port       and a message is displayed in the browser when accessed NodeJS TutorialWhy Learn Node jsEnables the use of JavaScript for both frontend and backend development Supports building real time applications like chat apps and gaming servers Provides high scalability for I O heavy applications Backed by a vibrant community and extensive library support Getting Started with Node js TutorialPrerequisites  JavaScript and basic knowledge of web developmentBasics of Node jsNode js IntroductionWhy Node js Node js NPM  Node jsPackage Manager Installation of Node js on LinuxInstallation of Node js on WindowsNode js BasicsNode js First ApplicationNode js REPLNode js modulesNode js Start and Run ServerNode js Blocking and Non BlockingNode js Callback ConceptNode js DebuggingNode js Set Console Font ColorNode js Web ServerNode js Create and Publish NPM packagesNode js  save and  save devNode js Event LoopNode js FrameworksNode js Promise ChainingNode js This BindingNode js Global ObjectsNode js Automatic Restart Server with NodemonNode js Child ProcessNode js Global Installation of DependenciesNode js Session VariableNode js Complete ReferencesNode js AssertNode js BufferNode js ConsoleNode js CryptoNode js DNSNode js File SystemNode js GlobalsNode js HTTP ModuleNode js HTTP Node js OSNode js Path ModuleNode js ProcessNode js Query StringNode js StreamNode js String DecoderNode js TimersNode js TLS SSLNode js UDP DataGramNode js URLNode js UtilityNode js V Node js VMNode js ZlibNode js QuestionsAlso Check  Recent Articles on NodeNode js Interview QuestionsNode js Interview Questions and Answers          Beginner LevelNode js Interview Questions and Answers          Intermediate LevelNode js Interview Questions and Answers          Advanced LevelNode js Online Quiz QuestionsNode js Quiz   Set  Node js Quiz   Set  Node js Quiz   Set  Node js ProjectsLibrary Management SystemUser Management SystemStock Market Portfolio AppChat App using socket io Node jsMail sender using Node jsTask Manager using Node jsCareers with Node jsAround   million websites use Node js  it is growing day by day  Most of the eCommerce  and IoT companies looking for pro Node js developer AccentureGoogleCognizantHCL TechnologiesCapgeminiIBM IndiaMicrosoft IndiaAmazon IndiaAdobe IncOracle IncIntel IndiaDeloitte IndiaCisco Systems IncNode js AdvantagesEasy Scalability  Node js compiles and executes JavaScript at lightning speeds  making it highly scalable Real time Web Apps  Node js enables real time communication for chat  gaming  social media updates  and more Microservices  Node js is lightweight and ideal for microservice architectures JavaScript Everywhere  Learn JavaScript once  and you can use it both for front end and back end development Efficient Data Streaming  Node js efficiently handles I O processes like media transcoding during uploads Event Driven Architecture  Unlike traditional servers  Node js handles concurrent requests effectively Strong Community Support  Node js has an independent community backing its development Node js JobsIf you are curious about what job profiles you will get after learning Node  then here in this section we have listed down some of the job profiles that any Node jsdeveloper can easily get Backend DeveloperFull Stack DeveloperAPI DeveloperMicroservice DeveloperDevOps EngineerNode js vs Other Backend TechnologiesFeatureNode jsPython DjangoPHPPerformanceHigh for I O operationsModerateModerateScalabilityExcellent for microservicesModerateModerateLearning CurveModerateEasyEasyCommunity SupportExtensiveExtensiveExtensiveUse CasesReal time apps  APIsWeb developmentCMS  Web development
+                            
+                            
+                        
+                                                                              
+                                        
+                                                                                
+                                                                
+                            
+    
+        
+        
+        Comment
+    More infoAdvertise with us                                
+                                
+                                        Next Article
+                                        
+                                    
+                                    
+                                    
+                                        NodeJS Introduction
+                                    
+                                
+                                                        
+                        
+                            
+                                        
+                                            
+                                                
+                                                
+                                                    S
+        
+            
+        
+        
+                                                
+                                                
+                                                    souravsharma                                                   
+                                                
+                                                
+            
+            
+
+ Follow                                            
+                                            
+                                        
+                                        
+                                            
+                                            
+                                                
+                                                
+                                                    
+                                                    
+                                                
+                                            
+                                            
+                                                                            
+                                    Improve
+                                    
+                                
+                            
+                                        
+                        
+                        
+                                                            
+                                    Article Tags   
+                                    
+                                        
+            
+                Web Technologies
+            
+            
+                Node js
+            
+            
+                Node js Basics
+            
+            
+                Tutorials
+            
+            
+                Spotlight
+            
+            
+                Web Tech Tutorials
+            
+            
+                Backend Development
+                                                
+                                                                               More

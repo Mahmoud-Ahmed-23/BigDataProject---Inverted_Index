@@ -1,0 +1,165 @@
+Computer Network Tutorial
+                                        
+                                                                                    
+                                                
+                                                    Last Updated   
+                                                       May      
+                                                
+
+                                                 
+                                                 
+                                                                                                            
+                                                                                                                    
+                                                            
+                                                            
+                                                              
+                                                
+                                                    
+                                                        
+                                                    
+                                                
+                                            
+                                                                                                                                                                                        
+                                                                    Comments
+                                                                    
+                                                                        
+                                                                        
+                                                                        
+                                                                    
+                                                                
+                                                                
+                                                                Improve
+                                                                
+                                                                    
+                                                                    
+                                                                    
+                                                                
+                                                             
+                                                                                                                        
+                                                                                                                    
+                                                        
+                                                            
+                                                                                                                            
+                                                            
+                                                            
+                                                        
+                                                    
+                                                 
+                                            
+                                                                            
+                                                            
+                            
+                            
+                            
+                                            
+                                            
+                                             
+                                                
+                                                    
+                                                        
+                                                        Suggest changes
+                                                    
+                                                
+                                                                                                                                      
+                                            
+                                                     
+                                                        Like Article
+                                                    
+                                                    
+                                                        
+                                                        Like
+                                                    
+                                                
+
+                                            
+                                            
+                                            
+
+                                            
+                                            
+                                                
+                                                    
+                                                        
+                                                        Report
+                                                    
+                                                
+
+                                            
+                                            
+                                            
+                                        
+                                    
+                            
+                                                                A Computer Network is a system where two or more devices are linked together to share data  resources and information  These networks can range from simple setups  like connecting two devices in your home  to massive global systems  like the Internet  Below are the main components of a computer network Node   Any device which can share or receive data  Examples of devices are laptop  mobile  printer  earbuds and server Transmission Media   The medium through which devices communicate It can be a wired media like Optical Fiber and Ethernet Cables  It can also be a wireless media like WiFi  Bluetooth and Infrared Protocol   The set of rules that devices use to communicate  There are many different protocols for different types of communications  Examples are HTTP  For web browsing  and SMTP  For emails  Networking Devices   The devices with main purpose of providing network facilities  Examples are Router  Switch  Access Point and Hub Networking Applications   Software that provide an interface to communicate and share  Examples are browser  email clients and file sharing applications Computer networks are an important part of our daily lives  They allow devices like computers  smartphones and tablets to connect and communicate with each other  Whether you re browsing the internet  sending an email or streaming a video  it all happens because of computer networks Fundamentals of Computer NetworkThis section introduces the core concepts behind computer networking  In this we will learn what is computer network  its benefits and characteristics  different ways networks are structured and essential hardware components involved Basics of Computer NetworksCharacteristics of Computer NetworkTypes of NetworkInternet  Intranet  amp  Extranet Types of Network ArchitectureTypes of Network Devices Network ModelsIn this section foundational frameworks of Computer Networks will be discussed  These frameworks provide a standard set of rules for network communication  We will dive deep into the layered structures of the OSI and TCP IP models  This will help us understand their purpose and comparing their approaches in organizing network functions OSI ModelTCP IP Model OSI vs TCP IP ModelPhysical LayerThis section focuses on the physical aspects of data transmission  which is the very foundation of network communication  We will look into different network layouts  topologies   how data signals travel across various media and the modes used for transmission Physical LayerTypes of Network Topology  Modes of Transmission Transmission MediaData Link LayerData link layer is all about how data is reliably transferred between directly connected devices  We will learn about framing data  detecting and correcting transmission errors  managing data flow and various switching techniques in this layer Data Link Layer  Switching Techniques   Virtual LAN Link AggregationFraming Error Detection Error CorrectionError Control Flow Control Stop and wait ARQSliding Window Protocol  Go Back NSliding Window Protocol  Selective RepeatPiggybackingData Link Layer ProtocolsNetwork LayerThis section covers how data packets are logically addressed and routed across different interconnected networks  You will understand IP addressing schemes  including the differences between IPv  and IPv  and the concepts of public versus private addresses Network LayerClassful Network AddressingClassless Network AddressingWhat is an IP address IPv  Header FormatIPv  vs IPv Private vs Public IP addressesSubnettingThis subsection focuses on IP address management  specifically explaining the important technique of subnetting  We will discover how to effectively split larger networks into smaller  more manageable subnets and calculate address ranges using subnet masks  It also covers advanced topics like Variable Length Subnet Masking  VLSM  for optimized network division Subnetting basicsSubnet masksCalculate network  broadcast and host addressesVariable Length Subnet Masking  VLSM Advanced VLSMSupernettingRoutingRouting is how data finds its path across complex networks in this part  In this subsection we will explore the fundamental process of routing  compare static and dynamic approaches  examine different routing algorithms and understand Network Address Translation  NAT  What is Routing Static vs Dynamic RoutingLink State RoutingDistance Vector RoutingNetwork Address Translation NAT Network Layer ProtocolsThis section covers some of the key protocols used at the Network Layer  We ll look at how devices find each other on a network using ARP  how they check for issues using ICMP and how they get IP addresses automatically through DHCP  We will also get an introduction to common dynamic routing protocols like RIP  OSPF and BGP  which help networks talk to each other and keep data flowing smoothly Address Resolution Protocol ARP Reverse Address Resolution Protocol RARP Dynamic Host Configuration Protocol DHCP Internet Control Message Protocol ICMP Internet Group Management Protocol IGMP Routing Information Protocol RIP Open Shortest Path First OSPF Intermediate System to Intermediate System IS IS Enhanced Interior Gateway Routing Protocol EIGRP Border Gateway Protocol BGP Multiprotocol Label Switching MPLS Internet Protocol IP Generic Routing Encapsulation GRE Transport LayerIn this section  we will find out how applications communicate reliably over a network  We ll break down the main transport layer protocols   TCP and UDP   and look at how they handle things like setting up connections  managing data flow  checking for errors and dealing with network congestion Transport LayerTCP ProtocolTCP   Way Handshake ProcessServices and Segment structure in TCPTCP Connection EstablishmentTCP TerminationCongestion Control in TCPUDP ProtocolTCP vs UDP ProtocolStream Control Transmission Protocol SCTP Datagram Congestion Control Protocol DCCP Reliable User Datagram Protocol RUDP Quick UDP Internet Connections QUIC Session and Presentation LayerThis section explores the upper layers responsible for managing communication dialogues  sessions  and ensuring data is presented in a compatible format  We will learn about the functions of the Session Layer and the data translation  encryption and compression services provided by the Presentation Layer Session LayerFunctions of Session LayerPresentation LayerServices Provided by Presentation LayerApplication Filing Protocol AFP NetWare Core Protocol  NCP Secure Socket Layer  SSL Remote Procedure Call RPC Point to Point Tunneling Protocol PPTP Multipurpose Internet Mail Extensions MIME Application LayerApplication layer is closest to the end user  where network applications directly interact with the network  This section introduces the Application Layer s role  common interaction models like client server and fundamental internet services such as the World Wide Web and email Application LayerClient Server ModelWorld Wide Web  WWW E MailContent Distribution Network CDN Application Layer ProtocolsIn this section  we ll take a closer look at the protocols that power the network applications we rely on every day  From DNS  which helps translate website names into IP addresses  to HTTP and HTTPS for browsing the web and email protocols like SMTP  POP  and IMAP   plus tools like FTP for moving files around   we will get a solid understanding of how it all works behind the scenes Domain Name System  DNS File Transfer Protocol  FTP Simple Mail Transfer Protocol  SMTP Simple Network Management Protocol  SNMP HyperText Transfer Protocol HTTP HyperText Transfer Protocol Secure HTTPS Post Office Protocol v  POP  Internet Message Access Protocol IMAP Lightweight Directory Access Protocol LDAP Network Time Protocol NTP Trivial File Transfer Protocol TFTP Network News Transfer Protocol NNTP Message Queuing Telemetry Transport MQTT Session Initiation Protocol SIP Server Message Block SMB Methods of Network SecuritySecurity is crucial in networking and this section introduces fundamental methods to protect network data and resources  Explore key concepts such as verifying user identity  authentication   scrambling data  encryption   controlling network traffic  firewalls  and restricting access based on hardware addresses Authen tic ationEncryptionFirewallsMAC Address FilteringQoS  Quality of Service This section focuses on managing network performance to meet the varying requirements of different applications  especially real time services like video and voice  Learn about Quality of Service  QoS  concepts  techniques to prioritize traffic and methods for managing network congestion What is QoS and Multimedia Techniques for achieving QoSCongestion Control in Computer NetworksToken BucketLeaky BucketWireless and Mobile NetworkingThis section will let us explore the technologies that enable networking without physical cables  We will learn about popular wireless LAN standards like Wi Fi  short range communication technologies such as Bluetooth and Zigbee and the principles behind mobile cellular networks Wi Fi Standards Bluetooth  amp  ZigbeeMobile Networks Cloud NetworkingTo understand how networking concepts are adapted and applied within modern cloud computing environments we will study Cloud Networking  This section covers different cloud service delivery models  the use of Virtual Private Networks  VPNs  for secure cloud access and Network Function Virtualization  NFV  Types of Cloud Services Virtual Private NetworkNetwork Function Virtualization  NFV Emerging Networking TrendsIn the final section we will look towards the future of networking technology  We will briefly explore cutting edge developments shaping the next generation of networks  such as  G mobile technology and the flexible network slicing capabilities it enables  G and BeyondNetwork Slicing in  GQuickly review our Last Minute Notes on Computer Networks and test your knowledge with our practice quiz 
+                            
+                            
+                        
+                                                                              
+                                        
+                                                                                
+                                                                
+                            
+    
+        
+        
+        Comment
+    More infoAdvertise with us                                
+                                
+                                        Next Article
+                                        
+                                    
+                                    
+                                    
+                                        Basics of Computer Networking
+                                    
+                                
+                                                        
+                        
+                            
+                                        
+                                            
+                                                
+                                                
+                                                    
+        
+            
+        
+        
+                                                
+                                                
+                                                    kartik                                                
+                                                
+                                                
+            
+            
+
+ Follow                                            
+                                            
+                                        
+                                        
+                                            
+                                            
+                                                
+                                                
+                                                    
+                                                    
+                                                
+                                            
+                                            
+                                                                            
+                                    Improve
+                                    
+                                
+                            
+                                        
+                        
+                        
+                                                            
+                                    Article Tags   
+                                    
+                                        
+            
+                Computer Networks
+            
+            
+                GATE CS

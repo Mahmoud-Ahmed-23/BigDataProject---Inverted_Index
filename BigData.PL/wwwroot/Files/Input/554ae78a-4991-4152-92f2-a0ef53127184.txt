@@ -1,0 +1,165 @@
+Computer Organization and Architecture Tutorial
+                                        
+                                                                                    
+                                                
+                                                    Last Updated   
+                                                       Jan      
+                                                
+
+                                                 
+                                                 
+                                                                                                            
+                                                                                                                    
+                                                            
+                                                            
+                                                              
+                                                
+                                                    
+                                                        
+                                                    
+                                                
+                                            
+                                                                                                                                                                                        
+                                                                    Comments
+                                                                    
+                                                                        
+                                                                        
+                                                                        
+                                                                    
+                                                                
+                                                                
+                                                                Improve
+                                                                
+                                                                    
+                                                                    
+                                                                    
+                                                                
+                                                             
+                                                                                                                        
+                                                                                                                    
+                                                        
+                                                            
+                                                                                                                            
+                                                            
+                                                            
+                                                        
+                                                    
+                                                 
+                                            
+                                                                            
+                                                            
+                            
+                            
+                            
+                                            
+                                            
+                                             
+                                                
+                                                    
+                                                        
+                                                        Suggest changes
+                                                    
+                                                
+                                                                                                                                      
+                                            
+                                                     
+                                                        Like Article
+                                                    
+                                                    
+                                                        
+                                                        Like
+                                                    
+                                                
+
+                                            
+                                            
+                                            
+
+                                            
+                                            
+                                                
+                                                    
+                                                        
+                                                        Report
+                                                    
+                                                
+
+                                            
+                                            
+                                            
+                                        
+                                    
+                            
+                                                                In this Computer Organization and Architecture Tutorial  you ll learn all the basic to advanced concepts like pipelining  microprogrammed control  computer architecture  instruction design  and format  Computer Organization and Architecture is used to design computer systems  Computer architecture is about designing a computer system to balance performance  efficiency  cost  and reliability  It describes how a system is built from its components  This can be a high level overview or a detailed explanation  including the instruction set architecture  microarchitecture  logic design  and implementation Computer Organization  is about how the components of a computer system  like the CPU  memory  and input output devices  are connected and work together to execute programs  It focuses on the operational aspects and how hardware components are implemented to support the architecture  Introduction and BasicsA simple understanding of ComputerIssues in Computer DesignComputer System Level HierarchyAssembly language and High level languageVon Neumann architectureHarvard ArchitectureComputer Architecture and Computer OrganizationComputer Instructions Set and Addressing ModesBasic Computer InstructionsRepresenting Instructions in ComputerSimplified Instructional Computer  SIC Instruction Set used in simplified instructional Computer  SIC Instruction Set used in SIC XEEssential Registers for Instruction ExecutionAddressing ModesSingle Accumulator based CPU organizationStack based CPU OrganizationGeneral Register based CPU OrganizationMemory based Vs Register based addressing modesRISC and CISCRISC and CISC   Set  Data Manipulation InstructionsMachine Control InstructionData Transfer instructions in AVR microcontrollerArithmetic instructions in AVR microcontrollerConditional Branch Instructions in AVR MicrocontrollerCALL Instructions and Stack in AVR MicrocontrollerBranch Instructions in AVR MicrocontrollerLogical Instructions in AVR MicrocontrollerInstruction Design and FormatDifferent Instruction CyclesMachine InstructionsInstruction Formats  Zero  One  Two and Three Address Instruction   address instruction and   address instructions  address instruction and   address instruction  address instruction and   address instructionsRegister content and Flag status after InstructionsDebugging a machine level programVector Instruction FormatVector instruction typesInstruction Word Size gt  gt  Problem Solving on Instruction FormatComputer ArithmeticComputer Arithmetic   ALU and Data PathComputer Arithmetic   Set  Computer Arithmetic   Set  Difference between   s complement and   s complementRestoring Division Algorithm For Unsigned IntegerNon Restoring Division For Unsigned IntegerBooth s AlgorithmOverflow in Arithmetic AdditionHow the negative numbers are stored in memory Microprogrammed ControlMicro OperationMicroarchitecture and Instruction Set ArchitectureTypes of Program Control InstructionsDifference between CALL and JUMP instructionsHardwired v s Micro programmed Control UnitImplementation of Micro Instructions SequencerPerformance of ComputerControl Unit and designHorizontal micro programmed Vs Vertical micro programmed control unitComparison between Hardwired Vs Micro programmed Control unitComputer Organization   Subprogram and its characteristicsMemory OrganizationIntroduction to memory and memory unitsMemory Hierarchy Design and its CharacteristicsRead and Write operations in memoryDifference between Byte Addressable Memory and Word Addressable MemoryDifference between Simultaneous and Hierarchical Access Memory OrganizationsRegister AllocationCache MemoryCache Organization   Set    Introduction Write Through and Write Back CacheMultilevel Cache OrganizationLocality and Cache friendly codeLocality of Reference and Cache OperationWhat s difference between CPU Cache and TLB Types of Cache MissAmdahl s law and its proofSubroutine  Subroutine nesting and Stack memoryTypes of computer memory  RAM and ROM RAM vs ROMDifferent Types of RAMSecondary memory   Hard disk driveIntroduction to solid state drive  SSD Input and Output SystemsIntroduction to I O InterfaceI O Interface  Interrupt and DMA Mode InterruptsMemory mapped I O and Isolated I ODMAModes of DMA TransferPriority Interrupts    S W Polling and Daisy Chaining Direct memory access with DMA controller          Asynchronous input output synchronizationProgrammable peripheral interface     Interface      with      microprocessor for   s and   s complement of a number      programmable peripheral interface Microcomputer systemWorking of      based Single board microcomputerInterface      PIT with      microprocessorSynchronous Data TransferInput Output ProcessorMPU CommunicationBUS ArbitrationPipeliningInstruction Level ParallelismExecution  Stages and ThroughputVery Long Instruction Word  VLIW  ArchitectureTypes and StallingDependencies and Data HazardBranch Prediction in PentiumNumber System and IEEE Number Standards Fixed Point RepresentationIntroduction to Floating Point RepresentationIEEE Standard     Floating Point NumbersNumber System and Base Conversions gt  gt  Quiz on Number RepresentationMiscellaneousMicroprocessorMicroprocessor   Externally Initiated OperationsBus organization of      microprocessorTiming diagram of MOV Instruction in MicroprocessorInteraction of a Program with HardwareGenerations of computerIntel x   evolution and main featuresMemory BankingIntroduction to quantum computingConventional Computing vs Quantum ComputingVector processor classificationRethinking binary with Quantum computersFlynn s taxonomyClusters In Computer OrganisationParallel processing   systolic arrays     PIC MicroprocessorBlock Diagram of      MicroprocessorMicroprocessor        USARTEvolution of MicroprocessorsHuman   Computer interaction through the agesComputer PortsIntroduction to Parallel ComputingHardware architecture  parallel computing Computer Architecture   Multiprocessor and MulticomputerTiming diagram of INR M D and    D Memory organizationProgramsProgram for Binary To Decimal ConversionProgram for Decimal to Binary ConversionProgram for decimal to octal conversionProgram for octal to decimal conversionProgram for hexadecimal to decimalQuick Links Quizzes  on Computer Organization and Architecture   Practice Problems  on Computer Organization and Architecture  ConclusionThis Computer Organization and Architecture Tutorial has covered the fundamental concepts essential for understanding how computer systems function  From the basic building blocks like registers and ALUs to complex concepts such as pipelining and memory hierarchies  you now have a solid foundation  
+                            
+                            
+                        
+                                                                              
+                                        
+                                                                                
+                                                                
+                            
+    
+        
+        
+        Comment
+    More infoAdvertise with us                                
+                                
+                                        Next Article
+                                        
+                                    
+                                    
+                                    
+                                        What is a Computer 
+                                    
+                                
+                                                        
+                        
+                            
+                                        
+                                            
+                                                
+                                                
+                                                    
+        
+            
+        
+        
+                                                
+                                                
+                                                    kartik                                                
+                                                
+                                                
+            
+            
+
+ Follow                                            
+                                            
+                                        
+                                        
+                                            
+                                            
+                                                
+                                                
+                                                    
+                                                    
+                                                
+                                            
+                                            
+                                                                            
+                                    Improve
+                                    
+                                
+                            
+                                        
+                        
+                        
+                                                            
+                                    Article Tags   
+                                    
+                                        
+            
+                GATE CS
+            
+            
+                Computer Organization and Architecture

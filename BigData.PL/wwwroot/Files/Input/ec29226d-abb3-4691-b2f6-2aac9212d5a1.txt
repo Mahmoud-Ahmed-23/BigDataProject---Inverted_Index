@@ -1,0 +1,183 @@
+R Tutorial   Learn R Programming Language
+                                        
+                                                                                    
+                                                
+                                                    Last Updated   
+                                                       Dec      
+                                                
+
+                                                 
+                                                 
+                                                                                                            
+                                                                                                                    
+                                                            
+                                                            
+                                                              
+                                                
+                                                    
+                                                        
+                                                    
+                                                
+                                            
+                                                                                                                                                                                        
+                                                                    Comments
+                                                                    
+                                                                        
+                                                                        
+                                                                        
+                                                                    
+                                                                
+                                                                
+                                                                Improve
+                                                                
+                                                                    
+                                                                    
+                                                                    
+                                                                
+                                                             
+                                                                                                                        
+                                                                                                                    
+                                                        
+                                                            
+                                                                                                                            
+                                                            
+                                                            
+                                                        
+                                                    
+                                                 
+                                            
+                                                                            
+                                                            
+                            
+                            
+                            
+                                            
+                                            
+                                             
+                                                
+                                                    
+                                                        
+                                                        Suggest changes
+                                                    
+                                                
+                                                                                                                                      
+                                            
+                                                     
+                                                        Like Article
+                                                    
+                                                    
+                                                        
+                                                        Like
+                                                    
+                                                
+
+                                            
+                                            
+                                            
+
+                                            
+                                            
+                                                
+                                                    
+                                                        
+                                                        Report
+                                                    
+                                                
+
+                                            
+                                            
+                                            
+                                        
+                                    
+                            
+                                                                R is an interpreted programming language widely used for statistical computing  data analysis and visualization  R language is open source with large community support  R provides structured approach to data manipulation  along with decent libraries and packages like Dplyr  Ggplot   shiny  Janitor and more 
+Hello World Program in R Language Here is an example of the first Hello World program in R Programming Language  To print in R language you just need to use a Print function 
+
+            R
+
+      Code
+print  quot Hello World  quot  
+
+Output
+Hello World  R BasicsIntroduction to R Programming LanguageInteresting Facts about RR vs PythonHow to Install R Studio on Windows and Linux Creation and Execution of R File in R StudioHello World in R ProgrammingFundamentals of RBasic SyntaxCommentsOperatorsKeywordsData TypesVariablesVariablesScope of VariableDynamic ScopingLexical ScopingLexical Scoping vs Dynamic ScopingInput and OutputTaking Input from UserPrinting Output of R ProgramPrint the Argument to the Screen   print   FunctionData StructuresIntroduction to Data Structures
+VectorsIntroduction to VectorsOperations on VectorsAppend Operation on VectorsDot Product of VectorsTypes of VectorsAssigning Vectors nbsp Length of Vectors   length   FunctionCreating a Vector of sequenced elements   seq   FunctionGet Min and Max element of a Vector   range   FunctionFormatting Numbers and Strings   format   FunctionReplace the Elements of a Vector   replace   FunctionSorting of a Vector   sort   FunctionConvert elements of a Vector to Strings   toString   FunctionExtracting Substrings from a Character Vector   substring   Function gt  gt  gt  More Functions on Vectors
+ListsIntroduction to ListsTwo Dimensional ListOperations on ListsList of VectorsList of DataframesNamed ListCheck if the Object is a List   is list   FunctionConvert an Object to List   as list   FunctionApply a Function over a List of elements   lapply   FunctionOperations on Multiple Lists simultaneously   mapply   Function gt  gt  gt  More Functions on Lists
+MatricesIntroduction to MatricesCreate Matrix from VectorsOperations on MatricesMatrix MultiplicationAlgebraic Operations on a MatrixCombining MatricesMatrix TransposeInverse of MatrixWorking with Sparse MatricesCheck if the Object is a Matrix   is matrix   FunctionConvert an Object into a Matrix   as matrix   FunctionGet or Set Dimensions of a Matrix   dim   FunctionCalculate Cumulative Sum of a Numeric Object   cumsum   FunctionCompute the Sum of Rows of a Matrix or Array   rowSums Function gt  gt  gt  More Functions on Matrices
+DataFramesIntroduction to Data FramesMatrix vs DataframeDataFrame OperationsDataFrame ManipulationJoining of DataframesThe Factor Issue in a DataFrameData ReshapingCreating a Data Frame from VectorsData Wrangling   Data TransformationData Wrangling   Working with TibblesMelting and CastingSubsetting of DataFramesHandling Missing ValuesConvert an Object to Data Frame   as data frame   FunctionGet the number of columns of an Object   ncol   FunctionGet the number of rows of an Object   nrow   FunctionGet Addition of the Objects passed as Arguments   sum   FunctionCreate Subsets of a Data frame   subset   Function gt  gt  gt  More Functions on DataFrames
+ArraysIntroduction to ArraysMultidimensional ArrayArray OperationsSorting of ArraysConvert values of an Object to Logical Vector   as logical   FunctionPerforming different Operations on Two Arrays   outer   FunctionIntersection of Two Objects   intersect   FunctionGet Exclusive Elements between Two Objects   setdiff   Function gt  gt  gt  More Functions on Arrays
+FactorsIntroduction to FactorsLevel Ordering of FactorsConvert Factor to Numeric and Numeric to FactorCheck if a Factor is an Ordered Factor   is ordered   FunctionConvert Unordered Factor to Ordered Factor  nbsp   as ordered   FunctionChecking if the Object is a Factor   is factor   FunctionConvert a Vector into Factor   as factor   Function gt  gt  gt  More Functions on Factors
+StringsIntroduction to StringsWorking with TextString ManipulationConcatenate Two StringsString MatchingHow to find a SubString Finding the length of string   nchar   methodAdding elements in a vector   append   methodConvert string from Lowercase to Uppercase   toupper   functionConvert String from Uppercase to Lowercase   tolower   methodSplitting Strings   strsplit   methodPrint a Formatted string   sprintf   Function gt  gt  gt  More Functions on Strings
+Decision MakingDecision Makingif statementif else statementSwitch caseControl FlowIntroduction to Control StatementsLoops  for  while  repeat For loopwhile loopRepeat loopgoto statementBreak and Next statementsNext StatementFunctionsIntroduction to FunctionsFunction ArgumentsTypes of FunctionsRecursive FunctionsConversion FunctionsObject Oriented ProgrammingIntroduction to Object Oriented ProgrammingClassesObjectsEncapsulationPolymorphismInheritanceAbstractionLooping over ObjectsCreating  Listing  and Deleting Objects in MemoryS  classExplicit CoercionR  ClassesGetting attributes of Objects   attributes   and attr   FunctionGet or Set names of Elements of an Object   names   FunctionGet the Minimum element of an Object   min   FunctionGet the Maximum element of an Object   max   Function gt  gt  gt  More Functions on R Objects
+File HandlingIntroduction to File HandlingReading FilesWriting to FilesRead Lines from a File   readLines   FunctionWorking with Binary FilesPackages in RIntroduction to Packagesdplyr Packageggplot  packageGrid and Lattice PackagesShiny Packagetidyr PackageWhat Are the Tidyverse Packages Data MungingData InterfacesData HandlingImporting Data in R ScriptHow To Import Data from a File Exporting Data from scripts nbsp Working with CSV files nbsp Working with XML FilesWorking with Excel FilesWorking with JSON Files nbsp Reading Tabular Data from filesWorking with DatabasesDatabase ConnectivityManipulate Data Frames Using SQLError HandlingIntroduction to Error HandlingCondition HandlingDebugging in R ProgrammingData VisualizationGraph PlottingGraphical ModelsData VisualizationCharts and GraphsAdd Titles to a GraphAdding Colors to ChartsAdding Text to PlotsAdding axis to a PlotSet or View the Graphics PalettePlotting of Data using Generic plotsBar ChartsLine GraphsAdding Straight Lines to a PlotAddition of Lines to a PlotHistogramsPie ChartsScatter plotsCreate Dot ChartsBoxplots in R LanguageStratified BoxplotCreate a HeatmapPareto ChartWaffle ChartQuantile Quantile PlotCreating  D PlotsDescribe Parts of a Chart in Graphical FormPrincipal Component AnalysisSocial Network AnalysisStatisticsIntroduction to StatisticsCalculate the Mean  Median  and ModeCalculate the Average  Variance  and Standard DeviationHomogeneity of Variance TestCovariance and CorrelationCorrelation MatrixVisualize correlation matrix using correlogramDistance Matrix by GPUDescriptive AnalysisNormal DistributionBinomial DistributionCompute the Negative Binomial DensityPoisson FunctionsANOVA TestMANOVA TestNaive Bayes ClassifierK NN ClassifierCentral TendencyVariabilitySkewness and KurtosisAbsolute and Relative FrequencyPermutation Hypothesis TestAB TestingCompletely Randomized DesignRandomized Block DesignBartlett s TestTree EntropyTukey s Five number SummaryCompute Summary Statistics of SubsetsHypothesis TestingBootstrappingTime Series AnalysisT Test ApproachMachine Learning with RIntroduction to Machine LearningSetting up Environment for Machine LearningSupervised and Unsupervised LearningClassificationRegression and its TypesRegression AnalysisDecision TreeRandom Forest ApproachRoot Mean Square ErrorClusteringHierarchical ClusteringDBScan ClusteringDeep LearningBuilding a Simple Neural NetworkHow Neural Networks are used for Regression Multi Layered Neural NetworksSurvival AnalysisStem and Leaf Plots
+Why Use R Programming Language R programming language is a best resource for data science  data analysis  data visualization and machine learning  R provides various statistical techniques like statistical tests  clustering and data reduction  Graph making is easy eg  pie chart  histogram  box  plot  etc  R is totally free and open source Programming language  The community support with the R language is very large and it works on all OS  R programming comes with many packages  libraries of functions  to solve various problems 
+Applications of R Programming LanguageSome of the important applications of R Programming Language are listed below 
+R is used in wide range of industries for example academics  government  insurance  retail  energy  media  technology  and electronics R helps in importing and cleaning data and data analysis R is used in data science  R language provides us many libraries for data science e g  Dplyr  Ggplot   shiny  Lubridate  Knitr  Caret  Janitor 
+                            
+                            
+                        
+                                                                              
+                                        
+                                                                                
+                                                                
+                            
+    
+        
+        
+        Comment
+    More infoAdvertise with us                                
+                                
+                                        Next Article
+                                        
+                                    
+                                    
+                                    
+                                        R Programming Language   Introduction
+                                    
+                                
+                                                        
+                        
+                            
+                                        
+                                            
+                                                
+                                                
+                                                    
+        
+            
+        
+        
+                                                
+                                                
+                                                    abhishek                                                 
+                                                
+                                                
+            
+            
+
+ Follow                                            
+                                            
+                                        
+                                        
+                                            
+                                            
+                                                
+                                                
+                                                    
+                                                    
+                                                
+                                            
+                                            
+                                                                            
+                                    Improve
+                                    
+                                
+                            
+                                        
+                        
+                        
+                                                            
+                                    Article Tags   
+                                    
+                                        
+            
+                R Language

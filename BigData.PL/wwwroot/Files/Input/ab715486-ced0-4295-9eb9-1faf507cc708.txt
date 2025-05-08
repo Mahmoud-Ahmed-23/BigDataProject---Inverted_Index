@@ -1,0 +1,171 @@
+Frontend Development
+                                        
+                                                                                    
+                                                
+                                                    Last Updated   
+                                                       Jan      
+                                                
+
+                                                 
+                                                 
+                                                                                                            
+                                                                                                                    
+                                                            
+                                                            
+                                                              
+                                                
+                                                    
+                                                        
+                                                    
+                                                
+                                            
+                                                                                                                                                                                        
+                                                                    Comments
+                                                                    
+                                                                        
+                                                                        
+                                                                        
+                                                                    
+                                                                
+                                                                
+                                                                Improve
+                                                                
+                                                                    
+                                                                    
+                                                                    
+                                                                
+                                                             
+                                                                                                                        
+                                                                                                                    
+                                                        
+                                                            
+                                                                                                                            
+                                                            
+                                                            
+                                                        
+                                                    
+                                                 
+                                            
+                                                                            
+                                                            
+                            
+                            
+                            
+                                            
+                                            
+                                             
+                                                
+                                                    
+                                                        
+                                                        Suggest changes
+                                                    
+                                                
+                                                                                                                                      
+                                            
+                                                     
+                                                        Like Article
+                                                    
+                                                    
+                                                        
+                                                        Like
+                                                    
+                                                
+
+                                            
+                                            
+                                            
+
+                                            
+                                            
+                                                
+                                                    
+                                                        
+                                                        Report
+                                                    
+                                                
+
+                                            
+                                            
+                                            
+                                        
+                                    
+                            
+                                                                Front end Development is the development or creation of a user interface using some markup languages and other tools  It is the development of the user side where only user interaction will be counted  It consists of the interface where buttons  texts  alignments  etc are involved and used by the user  Languages for Frontend DevelopmentFront end is the part that is accessible to the user only  It should be self explanatory and must be user friendly and designed  so to achieve this we have some basic languages which can be used to create interactive web pages  These are the basic needs for the creation of a web page  HTML  It was introduced in      and currently at version HTML   is a foundational language for creating structured web content  It facilitates the creation of forms  tables  and structured data  essential for input elements and organizing information on web pages  HTML s evolution continues to shape the internet by enabling developers to design interactive and accessible user interfaces across various platforms and devices  CSS  CSS  introduced on    December      and currently at version CSS   stands for Cascading Style Sheets  It complements HTML by styling web pages  managing colors  and enabling the creation of responsive designs  CSS empowers web developers to enhance user interfaces  ensuring visually appealing and consistent layouts across different devices and screen sizes  JavaScript  ECMAScript  introduced on   December      and currently at version ECMAScript       is a lightweight  cross platform  single threaded programming language  It enables dynamic changes and event handling in web development  making it essential for creating interactive and responsive user interfaces  Frontend Development FrameworksFrameworks add more features to their respective languages  Frameworks provide extra features  structure  fast reloading  and many more things so that developers can develop a SPA Single page application  easily  Some of them provide inbuilt functions or pre defined components so that developer can directly use those in their projects jQuery    Introduced in August      and now at version        is an open source JavaScript library specializing in DOM manipulation  CSS editing  event handling  AJAX requests  animations  and DOM traversal  It simplifies web development by offering a streamlined approach to interactive web design and client side scripting  enhancing user interface responsiveness across different web applications  React    Introduced in May      and now at version         is a JavaScript UI library designed for building SPAs  It emphasizes component based development  efficient state management  and utilizes a virtual DOM for fast updates  React simplifies complex UI tasks  promotes code reusability  and is widely used in modern web application development  Angular    Introduced on October           and currently at version         is an open source JavaScript framework by Google that follows the MVC pattern  It is used for building single page applications  SPAs   ensuring fast page reloads  and providing a modern  modular structure for web development  Vue js    Introduced in February      and currently at version        is a JavaScript framework similar to ReactJS for designing UI layers  It features reactive data binding  a component based architecture  Vue directives  and Vue Router for navigation  making it ideal for building dynamic and interactive web applications  Bootstrap    Introduced in August      and currently at version        is an open source front end framework providing HTML  CSS  and JavaScript components  It includes a responsive grid system  pre styled components  and various CSS and JavaScript tools  along with customizable themes and templates for rapid web development  Responsive Web DevelopmentSpecifies that web applications should be accessible on devices of various shapes and sizes  particularly crucial for mobile devices due to increasing traffic Methods for Achieving Responsiveness Breakpoints  Web applications adjust width and height based on device characteristics to enhance user interaction  Flexible Images  Ensures images fit within device width  adapting using frameworks or raw CSS  Flexible Grids  CSS grids align layouts responsively to accommodate different device sizes  Media Queries  CSS tool defining responsive changes at specific points based on device characteristics  Query in CSS is also used to make web pages responsive  In that we describe what to change on specific point  Frontend SecurityWhenever we create any web page and there is a section for login or signup then there must be a security so that the password given by the user must be secured and can not be accessed by third party between the login session  so we must provide security to our web pages  same goes for the web pages where a payment statement or any other confidential data is transfered or stored  These are the attacks that can make your web page more risky DoS  denial of service  attacks  This attack is common in all the other attacks  It can be difficult to deal with this attack as it is originate from thousand of systems in a single time and make your web page very slow  In this attack the attacker try to access the web page from thousands of system in a same time  the solution for denying this attack is we can use firewall or other flatforms which provides the security from these kind of attacks for e g  CloudFlare  Preventing cross site request forgery  CSRF   In this attack the attacker put some other buttons or suspicious element into your web page by using that the attcaker can access the token that is present in your web browser  and by using that token they can access your data and can present any kind of mis behaviour that can harm you  It can be prevented by using the md  or sha   sum algorithm that is used to generate the token  Cross site scripting  XSS  attacks  In this attack the attacker replace the some parts of the web page with similar looking component  for e g  a user clicks a button for submiting the form but it send all the crucial information like bank details to the attacker or it starts downloading the malware files into your system  Why Learn Front End Development Front end development forms the foundation of user experience on the web  making it a crucial skill for aspiring developers  Mastering front end techniques helps individuals to create visually appealing and interactive interfaces that engage users effectively  It helps to create responsive layouts which one can navigate seamlessly  Frontend Development ProjectsYou can make these front end developemen projects to build your strong resume and hand on practice My Tribute PageSurvey FormParallax WebsiteRestaurant WebsiteMusic WebsiteEvent webpageImage gallerySimple portfolioPortfolio galleryTechnical DocumentationResume BuilderFrontend Development CourseIf you want to be a front end developer then you must know the basic language like HTML and designing language CSS etc  and there is more thing that you can learn that is mentioned above in a table that are mandatory to be a front end developer Also you can learn from official gfg course Frontend Development Interview QuestionsHTML interview Questions and AnswersHTML Interview Questions and Answers   Intermediate LevelHTML Interview Questions  amp  Answers Set    JavaScript interview Questions and AnswersJavaScript Interview Questions and Answers   Intermediate LevelJavaScript Interview Questions and Answers   Advanced LevelCSS Interview Questions and AnswersCommonly asked Interview Questions for Front End Developers
+                            
+                            
+                        
+                                                                              
+                                        
+                                                                                
+                                                                
+                            
+    
+        
+        
+        Comment
+    More infoAdvertise with us                                
+                                
+                                        Next Article
+                                        
+                                    
+                                    
+                                    
+                                        What is Frontend Development  Skills  Salary and Roles
+                                    
+                                
+                                                        
+                        
+                            
+                                        
+                                            
+                                                
+                                                
+                                                    M
+        
+            
+        
+        
+                                                
+                                                
+                                                    meetahaloyx                                                 
+                                                
+                                                
+            
+            
+
+ Follow                                            
+                                            
+                                        
+                                        
+                                            
+                                            
+                                                
+                                                
+                                                    
+                                                    
+                                                
+                                            
+                                            
+                                                                            
+                                    Improve
+                                    
+                                
+                            
+                                        
+                        
+                        
+                                                            
+                                    Article Tags   
+                                    
+                                        
+            
+                GBlog
+            
+            
+                Web Technologies
+            
+            
+                Frontend Development
+            
+            
+                GBlog

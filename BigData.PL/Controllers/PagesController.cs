@@ -1,7 +1,9 @@
 ﻿using BigData.BLL.Services.CrawlerService;
+using BigData.BLL.Services.Helpers;
 using BigData.BLL.Services.Search;
 using BigData.DAL.Data;
 using Microsoft.AspNetCore.Mvc;
+using System.Linq;
 
 public class PagesController : Controller
 {
@@ -31,7 +33,10 @@ public class PagesController : Controller
 
 	public IActionResult ShowPageContent(string url, string word)
 	{
-		var page = _context.Pages.FirstOrDefault(p => p.Url == url);
+		// فك تشفير الرابط
+		string decodedUrl = UrlHelper.DecodeUrl("https://" + url);
+
+		var page = _context.Pages.FirstOrDefault(p => p.Url == decodedUrl);
 		if (page != null)
 		{
 			if (!string.IsNullOrEmpty(word))
@@ -39,11 +44,17 @@ public class PagesController : Controller
 				// تمييز الكلمة في المحتوى
 				page.Content = HighlightWordInContent(page.Content, word);
 			}
+
+			// إرسال الرابط المفكوك في الـ View
+			ViewData["DecodedUrl"] = decodedUrl;
+
 			return View("Page", page);
 		}
 
 		return NotFound();
 	}
+
+
 
 	private string HighlightWordInContent(string content, string word)
 	{

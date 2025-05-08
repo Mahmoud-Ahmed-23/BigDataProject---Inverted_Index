@@ -1,0 +1,538 @@
+PostgreSQL Tutorial
+                                        
+                                                                                    
+                                                
+                                                    Last Updated   
+                                                       Jun      
+                                                
+
+                                                 
+                                                 
+                                                                                                            
+                                                                                                                    
+                                                            
+                                                            
+                                                              
+                                                
+                                                    
+                                                        
+                                                    
+                                                
+                                            
+                                                                                                                                                                                        
+                                                                    Comments
+                                                                    
+                                                                        
+                                                                        
+                                                                        
+                                                                    
+                                                                
+                                                                
+                                                                Improve
+                                                                
+                                                                    
+                                                                    
+                                                                    
+                                                                
+                                                             
+                                                                                                                        
+                                                                                                                    
+                                                        
+                                                            
+                                                                                                                            
+                                                            
+                                                            
+                                                        
+                                                    
+                                                 
+                                            
+                                                                            
+                                                            
+                            
+                            
+                            
+                                            
+                                            
+                                             
+                                                
+                                                    
+                                                        
+                                                        Suggest changes
+                                                    
+                                                
+                                                                                                                                      
+                                            
+                                                     
+                                                        Like Article
+                                                    
+                                                    
+                                                        
+                                                        Like
+                                                    
+                                                
+
+                                            
+                                            
+                                            
+
+                                            
+                                            
+                                                
+                                                    
+                                                        
+                                                        Report
+                                                    
+                                                
+
+                                            
+                                            
+                                            
+                                        
+                                    
+                            
+                                                                In this PostgreSQL tutorial you ll learn the basic data types Boolean  char  text  time  int etc    Querying and Filtering techniques like select  where  in  order by  etc  managing and modifying the tables in PostgreSQL  We ll cover all the basic to advance concepts of PostgreSQL in this tutorial  So if you are beginner who start to learn RDBMS or an expert who want to upscale you PostgreSQL skills  then keep reading this free PostgreSQL tutorial 
+PostgreSQL is one of the most advanced Relational database management systems  RDBMS   It is open source software  which means the source code is available under the PostgreSQL license  Anyone with the right skills is free to use  modify  and distribute PostgreSQL in any form  It supports both relational as well as Non Relational JSON Queries 
+
+
+
+What is PostgreSQL 
+PostgreSQL is an advanced and open source relational database management system and is used as a database for many web applications  mobile and analytics applications  It supports both SQL  relational  and JSON  non relational  querying and It is a stable database supported by more than    years of development by the open source community  
+What is the Use of PostgreSQL 
+As you know that PostgreSQL is a powerful  open source relational database management system  It s used Which is mostly use for storing  organizing  and retrieving data  Other then this things it is also widely used for 
+
+Data Storage  It stores data in an organized way using tables  making it easy to manage large amounts of information 
+Complex Queries  PostgreSQL supports complex queries  allowing you to fetch specific data using SQL  Structured Query Language  
+ACID Compliance  It ensures reliable transactions with ACID  Atomicity  Consistency  Isolation  Durability  compliance  meaning your data remains accurate and secure 
+Scalability  Suitable for both small and large applications  PostgreSQL can handle a large number of users and large datasets 
+Extensibility  You can add custom functions  data types  and extensions  making PostgreSQL highly flexible and adaptable to various needs 
+Support for Advanced Data Types  It supports advanced data types like JSON  XML  and arrays  allowing for diverse data storage and manipulation 
+
+
+Table of Content
+
+What is PostgreSQL 
+PostgreSQL Basics
+Data Types
+Querying  amp  Filtering Data
+Managing Tables
+Modifying Data
+Conditionals
+Control Flow
+Transactions  amp  Constraints
+Working with JOINS  amp  Schemas
+Roles  amp  Permissions
+Working with Sets
+Subquery  amp  CTEs
+User Defined Functions
+Important In Built Functions
+PostgreSQL PL pgSQL
+Variables  amp  Constants
+Stored Procedures
+Working with Triggers
+Working with Views  amp  Indexes
+Errors  amp  Exception Handling
+Features of PostgreSQL
+Advantages of PostgreSQL
+
+
+PostgreSQL Tutorial For Beginners
+In this begineer section  you       ll learn the basics  from installing PostgreSQL to creating your first database and running simple queries  We       ll guide you step by step through setting up tables  inserting data  and retrieving information using SQL commands  
+PostgreSQL Basics
+Explore all the basics topics that every one know while learning the PostgreSQL  Here in this section you will learn introduction of PostgreSQL  how to install PostgreSQL on various OS and other PostgreSQL basics 
+
+PostgreSQL         Introduction
+Install PostgreSQL on Windows
+Install PostgreSQL on Mac
+PostgreSQL   Loading a Database
+PostgreSQL         Create Database
+PostgreSQL         ALTER DATABASE
+PostgreSQL         DROP DATABASE
+PostgreSQL         Rename Database
+PostgreSQL         Copy Database
+PostgreSQL         Size of a Database
+PostgreSQL         Show Databases
+
+Data Types
+
+PostgreSQL   Data Types
+PostgreSQL         Boolean Data Type
+PostgreSQL         CHAR Data Type
+PostgreSQL         VARCHAR Data Type
+PostgreSQL         TEXT Data Type
+PostgreSQL         NUMERIC Data Type
+PostgreSQL         SMALLINT Integer Data Type
+PostgreSQL         INTEGER Data Type
+PostgreSQL         BIGINT Integer Data Type
+PostgreSQL         Date Data Type
+PostgreSQL         Timestamp Data Type 
+PostgreSQL         UUID Data Type
+PostgreSQL         TIME Data Type
+PostgreSQL         Interval Data Type
+PostgreSQL         User defined Data Type
+PostgreSQL         Array Data Type
+PostgreSQL         hstore Data Type
+PostgreSQL         JSON Data Type
+
+Querying  amp  Filtering Data
+
+PostgreSQL   SELECT
+PostgreSQL   SELECT DISTINCT clause
+PostgreSQL   ORDER BY clause
+PostgreSQL   WHERE clause
+PostgreSQL   LIMIT clause
+PostgreSQL   FETCH clause
+PostgreSQL   IN operator
+PostgreSQL   IS NULL operator
+PostgreSQL   LIKE operator
+PostgreSQL   NOT LIKE operator
+PostgreSQL   BETWEEN operator
+PostgreSQL   HAVING clause
+PostgreSQL   GROUP BY clause
+
+Managing Tables
+
+PostgreSQL         CREATE TABLE
+PostgreSQL         SELECT INTO
+PostgreSQL         Create Auto increment Column using SERIAL
+PostgreSQL         CREATE SEQUENCE
+PostgreSQL         Identity Column
+PostgreSQL         ALTER TABLE
+PostgreSQL         Rename Table
+PostgreSQL         ADD COLUMN
+PostgreSQL         DROP COLUMN
+PostgreSQL         Change Column Type
+PostgreSQL         RENAME COLUMN
+PostgreSQL         DROP TABLE
+PostgreSQL         TRUNCATE TABLE
+PostgreSQL         Temporary Table
+PostgreSQL         Temporary table name
+PostgreSQL         Removing Temporary Table
+PostgreSQL         Copy a Table
+PostgreSQL         Comparing Tables
+PostgreSQL         Describe Table
+PostgreSQL         Show Tables
+PostgreSQL   Import CSV File Into Table
+
+Modifying Data
+
+PostgreSQL   INSERT
+PostgreSQL         Insert multiple rows
+PostgreSQL   UPDATE
+PostgreSQL         DELETE
+PostgreSQL         Upsert
+
+Conditionals
+
+PostgreSQL         CASE
+PostgreSQL         COALESCE
+PostgreSQL         NULLIF   Function
+PostgreSQL         CAST
+
+Control Flow
+
+PostgreSQL         IF Statement
+PostgreSQL         CASE Statement
+PostgreSQL         Loop Statement
+PostgreSQL         While Loops
+PostgreSQL         For Loops
+PostgreSQL         Exit
+PostgreSQL         Continue
+
+Transactions  amp  Constraints
+
+PostgreSQL         Transactions
+PostgreSQL         COMMIT
+PostgreSQL         BEGIN
+PostgreSQL         ROLLBACK
+PostgreSQL         Primary Key
+PostgreSQL         Foreign Key
+PostgreSQL         CHECK Constraint
+PostgreSQL         UNIQUE Constraint
+PostgreSQL         NOT NULL Constraint
+
+Working with JOINS  amp  Schemas
+
+PostgreSQL   Joins
+PostgreSQL   LEFT JOIN
+PostgreSQL   INNER JOIN
+PostgreSQL   FULL OUTER JOIN
+PostgreSQL   SELF JOIN
+PostgreSQL         Schema
+PostgreSQL         CREATE SCHEMA
+PostgreSQL         DROP SCHEMA
+PostgreSQL         ALTER SCHEMA
+
+Roles  amp  Permissions
+
+PostgreSQL         CREATE ROLE
+PostgreSQL         ALTER ROLE
+PostgreSQL         DROP ROLE
+PostgreSQL         GRANT
+PostgreSQL         REVOKE
+PostgreSQL         Role Membership
+
+Working with Sets
+
+PostgreSQL   UNION operator
+PostgreSQL   INTERSECT Operator
+PostgreSQL   EXCEPT Operator
+PostgreSQL   GROUPING SETS
+PostgreSQL   CUBE
+PostgreSQL   ROLLUP
+
+Subquery  amp  CTEs
+
+PostgreSQL   ANY Operator
+PostgreSQL   ALL Operator
+PostgreSQL   EXISTS Operator
+PostgreSQL   CTE
+PostgreSQL         Deleting Duplicate Rows using Subquery
+
+User Defined Functions
+
+PostgreSQL         CREATE FUNCTION Statement
+PostgreSQL         Function parameter modes
+PostgreSQL         Function Overloading
+PostgreSQL         Function that returns table
+PostgreSQL         Drop Function
+
+Important In Built Functions
+
+PostgreSQL         AVG   Function
+PostgreSQL         COUNT   Function
+PostgreSQL         MAX   Function
+PostgreSQL         MIN   Function
+PostgreSQL         SUM   Function
+PostgreSQL         FIRST VALUE Function
+PostgreSQL         LAST VALUE Function
+PostgreSQL         NTH VALUE Function
+PostgreSQL         ROW NUMBER Function
+PostgreSQL         CURRENT DATE Function
+PostgreSQL         CURRENT TIME Function
+PostgreSQL         EXTRACT Function
+PostgreSQL  CONCAT Function
+PostgreSQL         FORMAT Function
+PostgreSQL         UPPER function
+PostgreSQL  LOWER function
+PostgreSQL         REGEXP MATCHES Function
+PostgreSQL         REGEXP REPLACE Function
+PostgreSQL         REPLACE Function
+
+Visit PostgreSQL In Built functions for more 
+Advanced PostgreSQL Tutorial
+In this section  you       ll learn about advanced features of PostgreSQL that can help you manage your databases more efficiently  We       ll cover topics like performance tuning  indexing strategies  and using advanced SQL functions  You       ll also explore how to handle large datasets  optimize queries  and set up replication for high availability  
+PostgreSQL PL pgSQL
+
+PostgreSQL         Dollar Quoted String Constants
+PostgreSQL         Block Structure
+
+Variables  amp  Constants
+
+PostgreSQL         Variables
+PostgreSQL         Select Into
+PostgreSQL         Row type variables
+PostgreSQL         Record type variable
+PostgreSQL         Constants
+
+Stored Procedures
+
+PostgreSQL         Introduction to Stored Procedures
+PostgreSQL         CREATE PROCEDURE
+PostgreSQL         Drop Procedure
+
+Working with Triggers
+
+PostgreSQL   Trigger
+PostgreSQL         CREATE TRIGGER
+PostgreSQL         DROP TRIGGER
+PostgreSQL         ALTER TRIGGER
+PostgreSQL         Disabling a Trigger
+PostgreSQL         Enabling a Trigger
+
+Working with Views  amp  Indexes
+
+PostgreSQL         CREATE INDEX
+PostgreSQL         DROP INDEX
+PostgreSQL         List Indexes
+PostgreSQL         UNIQUE Index
+PostgreSQL         Partial Index
+PostgreSQL         Index On Expression
+PostgreSQL         REINDEX
+PostgreSQL         Multicolumn Indexes
+
+Errors  amp  Exception Handling
+
+PostgreSQL         Errors and Messages
+PostgreSQL         Exception Handling
+PostgreSQL         Assert
+
+Difference Between PostgreSQL and MySQL
+
+
+
+Feature
+PostgreSQL
+MySQL
+
+
+
+
+Type
+Object relational database
+Relational database
+
+
+ACID Compliance
+Fully ACID compliant
+Fully ACID compliant
+
+
+Complex Queries
+Excellent support for complex queries
+Good support for complex queries
+
+
+Data Types
+Wide range of advanced data types
+Basic range of data types
+
+
+JSON Support
+Strong support for JSON
+Good support for JSON
+
+
+Performance
+Great for complex  read heavy operations
+Fast for read heavy and write heavy loads
+
+
+Extensibility
+Highly extensible with custom functions
+Limited extensibility
+
+
+Replication
+Supports various replication methods
+Supports master slave replication
+
+
+Community and Support
+Strong community  active development
+Strong community  widely used
+
+
+Usage
+Preferred for complex applications
+Preferred for web applications
+
+
+License
+Open source  PostgreSQL License 
+Open source  GPL License 
+
+
+
+Features of PostgreSQL
+PostgreSQL runs on all operating systems  Like Linux  UNIX  MAC OS and Windows and It supports text  images  sounds  and video  and includes programming interfaces for C   C    Java  Perl  Python  Ruby  and Open Database Connectivity  ODBC  
+PostgreSQL supports a big part of the SQL standard and provides many features mentioned below 
+
+Complex SQL queries
+SQL Sub selects
+Foreign keys
+Trigger
+Views
+Transactions
+Multiversion concurrency control  MVCC 
+Streaming Replication  as of     
+Hot Standby  as of     
+Asynchronous replication
+Tablespaces
+
+Advantages of PostgreSQL
+
+PostgreSQL has the feature of write ahead logging 
+Many replication methods are supported 
+It has ability to make large scale web applications because it is robust and powerful 
+ It is easy to learn 
+According to the organization we can edit and modify it easily because PostgreSQL is available for free to its open source license 
+
+Conclusion
+In this PostgreSQL tutorial  You will learn all the essentials of working with PostgreSQL Like installation  connecting to the database  creating and managing databases  SQL basics  querying data  advanced queries and joins  indexing and optimization  transactions and concurrency control  security and user management  backup and restore  PostGIS for geospatial data  and PostgreSQL extensions  PostgreSQL provides number of features Which makes it a versatile and reliable choice for building robust database driven applications 
+
+
+                            
+                            
+                        
+                                                                              
+                                        
+                                                                                
+                                                                
+                            
+    
+        
+        
+        Comment
+    More infoAdvertise with us                                
+                                
+                                        Next Article
+                                        
+                                    
+                                    
+                                    
+                                        What is PostgreSQL   Introduction
+                                    
+                                
+                                                        
+                        
+                            
+                                        
+                                            
+                                                
+                                                
+                                                    
+        
+            
+        
+        
+                                                
+                                                
+                                                    abhishek                                                 
+                                                
+                                                
+            
+            
+
+ Follow                                            
+                                            
+                                        
+                                        
+                                            
+                                            
+                                                
+                                                
+                                                    
+                                                    
+                                                
+                                            
+                                            
+                                                                            
+                                    Improve
+                                    
+                                
+                            
+                                        
+                        
+                        
+                                                            
+                                    Article Tags   
+                                    
+                                        
+            
+                Databases
+            
+            
+                PostgreSQL
+            
+            
+                postgreSQL
