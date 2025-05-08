@@ -1,0 +1,857 @@
+Hypothesis that human replicas elicit revulsion
+This article is about the hypothesis  For other uses  see Uncanny valley  disambiguation  
+
+
+Hypothesized emotional response of subjects is plotted against anthropomorphism of a robot  according to Masahiro Mori s statements  The uncanny valley is the region of negative emotional response towards robots that seem  almost  human  Movement amplifies the emotional response 
+Part of a series onArtificial intelligence  AI 
+Major goals
+Artificial general intelligence
+Intelligent agent
+Recursive self improvement
+Planning
+Computer vision
+General game playing
+Knowledge reasoning
+Natural language processing
+Robotics
+AI safety
+
+Approaches
+Machine learning
+Symbolic
+Deep learning
+Bayesian networks
+Evolutionary algorithms
+Hybrid intelligent systems
+Systems integration
+
+Applications
+Bioinformatics
+Deepfake
+Earth sciences
+ Finance 
+Generative AI
+Art
+Audio
+Music
+Government
+Healthcare
+Mental health
+Industry
+Translation
+ Military 
+Physics
+Projects
+
+Philosophy
+Artificial consciousness
+Chinese room
+Friendly AI
+Control problem Takeover
+Ethics
+Existential risk
+Turing test
+Uncanny valley
+
+History
+Timeline
+Progress
+AI winter
+AI boom
+
+Glossary
+Glossary
+vte
+The uncanny valley  Japanese         Hepburn  bukimi no tani  effect is a hypothesized psychological and aesthetic relation between an object s degree of resemblance to a human being and the emotional response to the object  The uncanny valley hypothesis predicts that an entity appearing almost human will risk eliciting eerie feelings in viewers  Examples of the phenomenon exist among robotics   D computer animations and lifelike dolls  The increasing prevalence of digital technologies  e g   virtual reality  augmented reality  and photorealistic computer animation  has propagated discussions and citations of the  valley   such conversation has enhanced the construct s verisimilitude  
+
+
+Etymology edit 
+As related to robotics engineering  robotics professor Masahiro Mori first introduced the concept in      from his book titled Bukimi No Tani          phrasing it as bukimi no tani gensh            lit         uncanny valley phenomenon               Bukimi no tani was translated literally as uncanny valley in the      book Robots  Fact  Fiction  and Prediction written by Jasia Reichardt             Over time  this translation created an unintended association of the concept to Ernst Jentsch s psychoanalytic concept of the uncanny established in his      essay On the Psychology of the Uncanny  German  Zur Psychologie des Unheimlichen                         which was then critiqued and extended in Sigmund Freud s      essay The Uncanny  German  Das Unheimliche             
+
+Hypothesis edit 
+In an experiment involving the human lookalike robot Repliee Q   pictured above   the uncovered robotic structure underneath Repliee  and the actual human who was the model for Repliee  the human lookalike elicited the greatest degree of mirror neuron activity            
+Mori s original hypothesis states that as the appearance of a robot is made more human  some observers  emotional response to the robot becomes increasingly positive and empathetic  until it becomes almost human  at which point the response quickly becomes strong revulsion  However  as the robot s appearance continues to become less distinguishable from that of a human being  the emotional response becomes positive once again and approaches human to human empathy levels             When plotted on a graph  the reactions are indicated by a steep decrease followed by a steep increase  hence the  valley  part of the name  in the areas where anthropomorphism is closest to reality 
+This interval of repulsive response aroused by a robot with appearance and motion between a  somewhat human  and  fully human  entity is the uncanny valley effect  The name represents the idea that an almost human looking robot seems overly  strange  to some human beings  produces a feeling of uncanniness  and thus fails to evoke the empathic response required for productive human robot interaction            
+
+Theoretical basis edit 
+A number of theories have been proposed to explain the cognitive mechanism causing the phenomenon 
+
+Mate selection  Automatic  stimulus driven appraisals of uncanny stimuli elicit aversion by activating an evolved cognitive mechanism for the avoidance of selecting mates with low fertility  poor hormonal health  or ineffective immune systems based on visible features of the face and body that are predictive of those traits            
+Mortality salience  Viewing an  uncanny  robot elicits an innate fear of death and culturally supported defenses for coping with death s inevitability      P artially disassembled androids   play on subconscious fears of reduction  replacement  and annihilation      A mechanism with a human fa ade and a mechanical interior plays on our subconscious fear that we are all just soulless machines      Androids in various states of mutilation  decapitation  or disassembly are reminiscent of a battlefield after a conflict and  as such  serve as a reminder of our mortality      Since most androids are copies of actual people  they are doppelg ngers and may elicit a fear of being replaced  on the job  in a relationship  and so on      The jerkiness of an android s movements could be unsettling because it elicits a fear of losing bodily control            
+Pathogen avoidance  Uncanny stimuli may activate a cognitive mechanism that originally evolved to motivate the avoidance of potential sources of pathogens by eliciting a disgust response   The more human an organism looks  the stronger the aversion to its defects  because     defects indicate disease      more human looking organisms are more closely related to human beings genetically  and     the probability of contracting disease causing bacteria  viruses  and other parasites increases with genetic similarity              The visual anomalies of androids  robots  and other animated human characters cause reactions of alarm and revulsion  similar to corpses and visibly diseased individuals                         
+Sorites paradoxes  Stimuli with human and nonhuman traits undermine our sense of human identity by linking qualitatively different categories  human and nonhuman  by a quantitative metric  degree of human likeness             
+Violation of human norms  If an entity looks sufficiently nonhuman  its human characteristics are noticeable  generating empathy  However  if the entity looks almost human  it elicits our model of a human other and its detailed normative expectations  The nonhuman characteristics are noticeable  giving the human viewer a sense of strangeness  In other words  a robot which has an appearance in the uncanny valley range is not judged as a robot doing a passable job at pretending to be human  but instead as an abnormal human doing a bad job at seeming like a normal person  This has been associated with perceptual uncertainty and the theory of predictive coding                                     
+Conflicting perceptual cues  The negative effect associated with uncanny stimuli is produced by the activation of conflicting cognitive representations  Perceptual tension occurs when an individual perceives conflicting cues to category membership  such as when a humanoid figure moves like a robot  or has other visible robot features  This cognitive conflict is experienced as psychological discomfort  i e    eeriness    much like the discomfort that is experienced with cognitive dissonance                          Several studies support this possibility  Mathur and Reichling found that the time subjects took to gauge a robot face s human  or mechanical resemblance peaked for faces deepest in the uncanny valley  suggesting that perceptually classifying these faces as  human  or  robot  posed a greater cognitive challenge              However  they found that while perceptual confusion coincided with the uncanny valley  it did not mediate the effect of the uncanny valley on subjects  social and emotional reactions suggesting that perceptual confusion may not be the mechanism behind the uncanny valley effect  Burleigh and colleagues demonstrated that faces at the midpoint between human and non human stimuli produced a level of reported eeriness that diverged from an otherwise linear model relating human likeness to affect              Yamada et al  found that cognitive difficulty was associated with negative affect at the midpoint of a morphed continuum  e g   a series of stimuli morphing between a cartoon dog and a real dog               Ferrey et al  demonstrated that the midpoint between images on a continuum anchored by two stimulus categories produced a maximum of negative affect  and found this with both human and non human entities              Schoenherr and Burleigh provide examples from history and culture that evidence an aversion to hybrid entities  such as the aversion to genetically modified organisms   Frankenfoods                Finally  Moore developed a Bayesian mathematical model that provides a quantitative account of perceptual conflict              There has been some debate as to the precise mechanisms that are responsible  It has been argued that the effect is driven by categorization difficulty                          configural processing  perceptual mismatch              frequency based sensitization              and inhibitory devaluation             
+Threat to humans  distinctiveness and identity  Negative reactions toward very humanlike robots can be related to the challenge that this kind of robot leads to the categorical human   non human distinction  Kaplan             stated that these new machines challenge human uniqueness  pushing for a redefinition of humanness  Ferrari  Paladino and Jetten             found that the increase of anthropomorphic appearance of a robot leads to an enhancement of threat to the human distinctiveness and identity  The more a robot resembles a real person  the more it represents a challenge to our social identity as human beings 
+Religious definition of human identity  The existence of artificial but humanlike entities is viewed by some as a threat to the concept of human identity  An example can be found in the theoretical framework of psychiatrist Irvin Yalom  Yalom explains that humans construct psychological defenses to avoid existential anxiety stemming from death  One of these defenses is  specialness   the irrational belief that aging and death as central premises of life apply to all others but oneself              The experience of the very humanlike  living  robot can be so rich and compelling that it challenges humans  notions of  specialness  and existential defenses  eliciting existential anxiety  In folklore  the creation of human like  but soulless  beings is often shown to be unwise  as with the golem in Judaism  whose absence of human empathy and spirit can lead to disaster  however good the intentions of its creator             
+Uncanny valley of the mind or AI  Due to rapid advancements in the areas of artificial intelligence and affective computing  cognitive scientists have also suggested the possibility of an  uncanny valley of mind                           Accordingly  people might experience strong feelings of aversion if they encounter highly advanced  emotion sensitive technology  Among the possible explanations for this phenomenon  both a perceived loss of human uniqueness and expectations of immediate physical harm are discussed by contemporary research 
+Research edit 
+An empirically estimated uncanny valley for static robot face images            
+A series of studies experimentally investigated whether uncanny valley effects exist for static images of robot faces  Mathur MB  amp  Reichling DB             used two complementary sets of stimuli spanning the range from very mechanical to very human like  first  a sample of    objectively chosen robot face images from Internet searches  and second  a morphometrically and graphically controlled   face series set of faces  They asked subjects to explicitly rate the likability of each face  To measure trust toward each face  subjects completed an investment game to measure indirectly how much money they were willing to  wager  on a robot s trustworthiness  Both stimulus sets showed a robust uncanny valley effect on explicitly rated likability and a more context dependent uncanny valley on implicitly rated trust  Their exploratory analysis of one proposed mechanism for the uncanny valley  perceptual confusion at a category boundary  found that category confusion occurs in the uncanny valley but does not mediate the effect on social and emotional responses 
+One study conducted in      examined the evolutionary mechanism behind the aversion associated with the uncanny valley  A group of five monkeys were shown three images  two different  D      monkey faces  realistic  unrealistic   and a real photo of a monkey s face  The monkeys  eye gaze was used as a proxy for preference or aversion  Since the realistic  D      monkey face was looked at less than either the real photo  or the unrealistic  D      monkey face  this was interpreted as an indication that the monkey participants found the realistic  D      face aversive  or otherwise preferred the other two images  As one would expect with the uncanny valley  more realism can result in less positive reactions  and this study demonstrated that neither human specific cognitive processes  nor human culture explain the uncanny valley  In other words  this aversive reaction to realism can be said to be evolutionary in origin             
+As of          update       researchers at University of California  San Diego and California Institute for Telecommunications and Information Technology were measuring human brain activations related to the uncanny valley                          In one study using fMRI  a group of cognitive scientists and roboticists found the biggest differences in brain responses for uncanny robots in parietal cortex  on both sides of the brain  specifically in the areas that connect the part of the brain s visual cortex that processes bodily movements with the section of the motor cortex thought to contain mirror neurons  The researchers say they saw  in essence  evidence of mismatch or perceptual conflict              The brain  lit up  when the human like appearance of the android and its robotic motion  didn t compute   Ay e P nar Sayg n  an assistant professor from UCSD  stated that  The brain doesn t seem selectively tuned to either biological appearance or biological motion per se  What it seems to be doing is looking for its expectations to be met   for appearance and motion to be congruent                                      
+Viewer perception of facial expression and speech and the uncanny valley in realistic  human like characters intended for video games and movies is being investigated by Tinwell et al                     Consideration is also given by Tinwell et al         as to how the uncanny may be exaggerated for antipathetic characters in survival horror games              Building on the body of work already performed for android science  this research intends to build a conceptual mapping of the uncanny valley using  D characters generated in a real time gaming engine  The goal is to analyze how cross modal factors of facial expression and speech can exaggerate the uncanny  Tinwell et al                    have also introduced the notion of an  unscalable  uncanny wall that suggests that a viewer s discernment for detecting imperfections in realism will keep pace with new technologies in simulating realism  A summary of Angela Tinwell s research on the uncanny valley  psychological reasons behind the uncanny valley and how designers may overcome the uncanny in human like virtual characters is provided in her book  The Uncanny Valley in Games and Animation by CRC Press 
+
+Design principles edit 
+A number of design principles have been proposed for avoiding the uncanny valley 
+
+Design elements should match in human realism  A robot may look uncanny when human and nonhuman elements are mixed  For example  both a robot with a synthetic voice or a human being with a human voice have been found to be less eerie than a robot with a human voice or a human being with a synthetic voice              For a robot to give a more positive impression  its degree of human realism in appearance should also match its degree of human realism in behavior              If an animated character looks more human than its movement  this gives a negative impression              Human neuroimaging studies also indicate matching appearance and motion kinematics are important                                     
+Reducing conflict and uncertainty by matching appearance  behavior  and ability  In terms of performance  if a robot looks too appliance like  people expect little from it  if it looks too human  people expect too much from it              A highly human like appearance leads to an expectation that certain behaviors are present  such as humanlike motion dynamics  This likely operates at a sub conscious level and may have a biological basis  Neuroscientists have noted  when the brain s expectations are not met  the brain   generates a  prediction error   As human like artificial agents become more commonplace  perhaps our perceptual systems will be re tuned to accommodate these new social partners  Or perhaps  we will decide  it is not a good idea to make  robots  so clearly in our image after all                                       
+Human facial proportions and photorealistic texture should only be used together  A photorealistic human texture demands human facial proportions  or the computer generated character can result in the uncanny valley  Abnormal facial proportions  including those typically used by artists to enhance attractiveness  e g        larger eyes   can look eerie with a photorealistic human texture 
+Criticism edit 
+A number of criticisms have been raised concerning whether the uncanny valley exists as a unified phenomenon amenable to scientific scrutiny 
+
+The uncanny valley effect is a heterogeneous group of phenomena  Phenomena considered as exhibiting the uncanny valley effect can be diverse  involve different sense modalities  and have multiple  possibly overlapping causes  People s cultural heritage may have a considerable influence on how androids are perceived with respect to the uncanny valley             
+The uncanny valley effect may be generational  Younger generations  more used to computer generated imagery  CGI   robots  and such  may be less likely to be affected by this hypothesized issue             
+The uncanny valley effect is simply a specific case of information processing such as categorization and frequency based effects  In contrast to the assumption that the uncanny valley is based on a heterogeneous group of phenomena  recent arguments have suggested that uncanny valley like phenomena simply represent the products of information processing such as categorization  Cheetham et al              have argued that the uncanny valley effect can be understood in terms of categorization processes  with a category boundary defining  the valley   Extending this argument  Burleigh and Schoenherr             suggested that the effects associated with the uncanny valley can be divided into those attributable to the category boundary and individual exemplar frequency  Namely  the negative affective responses attributed to the uncanny valley were simply a result of the frequency of exposure  similar to the mere exposure effect  By varying the frequency of training items  they were able to demonstrate a dissociation between cognitive uncertainty based on the category boundary and affective uncertainty based on the frequency of training exemplars  In a follow up study  Schoenherr and Burleigh             demonstrated that an instructional manipulation affected categorization accuracy but not ratings of negative affect  Thus  generational effects and cultural artifacts can be accounted for with basic information processing mechanisms              These and related findings have been used to argue that the uncanny valley is merely an artifact of having greater familiarity with members of human categories and does not reflect a unique phenomenon 
+The uncanny valley effect occurs at any degree of human likeness  Hanson has also stated that uncanny entities may appear anywhere in a spectrum ranging from the abstract  e g        MIT s robot Lazlo  to the perfectly human  e g        cosmetically atypical people               Capgras delusion is a relatively rare condition in which the patient believes that people  or  in some cases  things  have been replaced with duplicates  These duplicates are accepted rationally as identical in physical properties  but the irrational belief is held that the  true  entity has been replaced with something else  Some people with Capgras delusion claim that the duplicate is a robot  Ellis and Lewis argue that the delusion arises from an intact system for overt recognition coupled with a damaged system for covert recognition  which results in conflict over an individual being identifiable but not familiar in any emotional sense              This supports the opinion that the uncanny valley effect could occur due to issues of categorical perception that are particular to how the brain processes information                         
+Good design can avoid the uncanny valley effect  David Hanson has criticized Mori s hypothesis that entities having an almost human appearance will necessarily be evaluated negatively              He has shown that the uncanny valley effect could be eliminated by adding neotenous  cartoonish features to entities that had formerly caused an uncanny valley effect              This method incorporates the idea that humans find characteristics appealing when they are reminiscent of the young of our own  as well as many other  species  as used in cartoons 
+Similar effects edit 
+If the uncanny valley effect is the result of general cognitive processes  there should be evidence in evolutionary history and cultural artifacts              An effect similar to the uncanny valley was noted by Charles Darwin in      
+
+The expression of this  Trigonocephalus  snake s face was hideous and fierce  the pupil consisted of a vertical slit in a mottled and coppery iris  the jaws were broad at the base  and the nose terminated in a triangular projection  I do not think I ever saw anything more ugly  excepting  perhaps  some of the vampire bats  I imagine this repulsive aspect originates from the features being placed in positions  with respect to each other  somewhat proportional to the human face  and thus we obtain a scale of hideousness         Charles Darwin  The Voyage of the Beagle            
+A similar  uncanny valley  effect could  according to the ethical futurist writer Jamais Cascio  show up when humans begin modifying themselves with transhuman enhancements  cf  body modification   which aim to improve the abilities of the human body beyond what would normally be possible  be it eyesight  muscle strength  or cognition              So long as these enhancements remain within a perceived norm of human behavior  a negative reaction is unlikely  but once individuals supplant normal human variety  revulsion can be expected  However  according to this theory  once such technologies gain further distance from human norms   transhuman  individuals would cease to be judged on human levels and instead be regarded as separate entities altogether  this point is what has been dubbed  posthuman    and it is here that acceptance would rise once again out of the uncanny valley              Another example comes from  pageant retouching  photos  especially of children  which some find disturbingly doll like             
+
+In visual effects edit 
+A number of movies that use computer generated imagery to show characters have been described by reviewers as giving a feeling of revulsion or  creepiness  as a result of the characters looking too realistic  Examples include the following 
+
+According to roboticist Dario Floreano  the baby character Billy in Pixar s groundbreaking      animated short movie Tin Toy provoked negative audience reactions  which first caused the movie industry to consider the concept of the uncanny valley seriously                         
+The      movie Final Fantasy  The Spirits Within  one of the first photorealistic computer animated feature movies  provoked negative reactions from some viewers due to its near realistic yet imperfect visual depictions of human characters                                      The Guardian critic Peter Bradshaw stated that while the movie s animation is brilliant  the  solemnly realist human faces look shriekingly phoney precisely because they re almost there but not quite               Rolling Stone critic Peter Travers wrote of the movie   At first it s fun to watch the characters        But then you notice a coldness in the eyes  a mechanical quality in the movements              
+Several reviewers of the      animated movie The Polar Express termed its animation eerie  CNN com reviewer Paul Clinton wrote   Those human characters in the film come across as downright    well  creepy  So The Polar Express is at best disconcerting  and at worst  a wee bit horrifying               The term  eerie  was used by reviewers Kurt Loder             and Manohla Dargis              among others  Newsday reviewer John Anderson called the movie s characters  creepy  and  dead eyed   and wrote that  The Polar Express is a zombie train               Animation director Ward Jenkins wrote an online analysis describing how changes to the Polar Express characters  appearance  especially to their eyes and eyebrows  could have avoided what he considered a feeling of deadness in their faces             
+In a review of the      animated movie Beowulf  New York Times technology writer David Gallagher wrote that the movie failed the uncanny valley test  stating that the movie s villain  the monster Grendel  was  only slightly scarier  than the  closeups of our hero Beowulf s face    allowing viewers to admire every hair in his   D digital stubble              
+Some reviewers of the      animated film A Christmas Carol criticized its animation as creepy  Joe Neumaier of the New York Daily News said of the movie   The motion capture does no favors to co stars  Gary  Oldman  Colin Firth and Robin Wright Penn  since  as in  Polar Express   the animated eyes never seem to focus  And for all the photorealism  when characters get wiggly limbed and bouncy as in standard Disney cartoons  it s off putting               Mary Elizabeth Williams of Salon com wrote of the film   In the center of the action is Jim Carrey    or at least a dead eyed  doll like version of Carrey              
+The      animated movie Mars Needs Moms was widely criticized for being creepy and unnatural because of its style of animation  The movie was among the biggest box office bombs in history  which may have been due in part to audience revulsion                                                   Mars Needs Moms was produced by Robert Zemeckis s production company  ImageMovers  which had previously produced The Polar Express  Beowulf  and A Christmas Carol  
+Reviewers had mixed opinions regarding whether the      animated movie The Adventures of Tintin  The Secret of the Unicorn was affected by the uncanny valley effect  Daniel D  Snyder of The Atlantic wrote   Instead of trying to bring to life Herge s beautiful artwork  Spielberg and co  have opted to bring the movie into the  D era using trendy motion capture technique to recreate Tintin and his friends  Tintin s original face  while barebones  never suffered for a lack of expression  It s now outfitted with an alien and unfamiliar visage  his plastic skin dotted with pores and subtle wrinkles   He added   In bringing them to life  Spielberg has made the characters dead                N B  of The Economist termed elements of the animation  grotesque   writing   Tintin  Captain Haddock and the others exist in settings that are almost photo realistic  and nearly all of their features are those of flesh and blood people  And yet they still have the sausage fingers and distended noses of comic strip characters  It s not so much  The Secret of the Unicorn  as  The Invasion of the Body Snatchers                However  other reviewers felt that the movie avoided the uncanny valley effect despite its animated characters  realism  Critic Dana Stevens of Slate wrote   With the possible exception of the title character  the animated cast of Tintin narrowly escapes entrapment in the so called  uncanny valley                Wired magazine editor Kevin Kelly wrote of the movie   we have passed beyond the uncanny valley into the plains of hyperreality              
+In       the titular protagonist of the children s TV series Bob the Builder got a redesign which was described by some as  creepy              
+In the French movie Animal Kingdom  Let s Go Ape it uses motion capture  the apes were criticized for looking creepy  As this review points out  they have  weirdly humanoid figures  and  recognisably human faces              
+The      film The Lion King  a remake of the      film that featured photo realistic digital animals instead of the earlier movie s more traditional animation  divided critics about the effectiveness of its imagery  Ann Hornaday of The Washington Post wrote that the images were so realistic that       might best be remembered as the summer we left the Uncanny Valley for good               However  other critics felt that the realism of the animals and setting rendered the scenes where the characters sing and dance disturbing and  weird                          
+The      movie Sonic the Hedgehog was delayed for three months to make the title character s appearance less human like and more cartoonish  after an extremely negative audience reaction to the movie s first trailer             
+Multiple commentators cited the CGI half human half cat characters in the      movie Cats as an example of the uncanny valley effect  first after the release of the trailer for the movie                                     and then after the movie s actual release             
+In the      Disney animated movie Chip  n Dale  Rescue Rangers  the uncanny valley is mentioned when the animated duo visits a place where several realistic CGI characters  including a Cats cameo from the      movie  are inhabitants             
+In the      Disney  series She Hulk  Attorney at Law  the appearance of the main character  She Hulk  who is depicted via CGI  was criticized by some reviewers as suffering from the uncanny valley effect  and negatively compared to the appearance of the Hulk in the same series                                     
+Virtual actors edit 
+An increasingly common practice is to feature virtual actors in movies  CGI likenesses of real actors used because the original actor either looks too old for the part or is deceased  Sometimes a virtual actor is created with involvement from the original actor  who may contribute motion capture  audio  etc    while at other times the actor has no involvement  Reviewers have often criticized the use of virtual actors for its uncanny valley effect  saying it adds an eerie feeling to the movie  Examples of virtual actors that have received such criticism include replicas of Arnold Schwarzenegger in Terminator Salvation                                and Terminator Genisys                     Jeff Bridges in Tron  Legacy                                             Peter Cushing and Carrie Fisher in Rogue One                                 and Will Smith in Gemini Man                     
+
+See also edit 
+
+Android science        Interdisciplinary framework
+Anthropocentrism        Belief that humans are the most important beings in existence
+Creepiness        Causing an unpleasant feeling of fear or unease
+Cross race effect        Cognitive bias on facial recognition
+Doll        Model  typically of a humanoid character
+Existential risk from artificial intelligence        Hypothesized risk to human existence
+AI takeover        Hypothetical outcome of artificial intelligence
+Frankenstein complex        Fear of mechanical men
+Hallucination        Erroneous material generated by AI
+Immersion  virtual reality         Perception of being physically present in a non physical world
+Liminal space        Internet aesthetic capturing empty places
+Metaverse        Collective three dimensional virtual shared space
+Minimal counterintuitiveness effect
+Narcissism of small differences        Over focus on minor social differences
+Pareidolia        Perception of meaningful patterns or images in random or vague stimuli
+Ray tracing        Rendering method
+Reborn doll        Hyper realistic doll
+Screen door effect        Visual artifact of displays
+Technological singularity        Hypothetical point in time when technological growth becomes uncontrollable and irreversible
+Technophobia        Fear or discomfort with advanced technology
+Neo Luddism        Philosophy opposing modern technology
+Unreal Engine          Game engine
+Virtual human        Computer simulation of a person
+VTuber        Streamers that use virtual avatars
+Babiniku        Japanese term for VTuber
+Vulkan        Cross platform  D graphics API and open standard
+
+References edit 
+Citations edit 
+
+
+  Mori  M           The uncanny valley   IEEE Robotics and Automation          Translated by MacDorman  K  F   Kageki  Norri  New York City  Institute of Electrical and Electronics Engineers          doi         MRA              
+
+  Kageki  Norri     June         An Uncanny Mind  Masahiro Mori on the Uncanny Valley and Beyond   IEEE Spectrum  New York City  Institute of Electrical and Electronics Engineers  Archived from the original on    July       Retrieved   April      
+
+  Jentsch  Ernst     August         Zur Psychologie des Unheimlichen   PDF   Psychiatrisch Neurologische Wochenschrift  in German                    Archived from the original  PDF  on   October       Retrieved    July      
+
+  Misselhorn  Catrin    July         Empathy with inanimate objects and the uncanny valley   Minds and Machines          Heidelberg  Germnany  Springer           doi         s                  S CID              
+
+  Freud  Sigmund         The Uncanny  Translated by McLintock  D  New York City  Penguin Publishing  p            ISBN                    
+
+  Tinwell  Angela    December        The Uncanny Valley in Games and Animation  CRC Press  pp             ISBN                     Retrieved    January      
+
+  a b Mori  M                 The uncanny valley   IEEE Robotics  amp  Automation Magazine                  doi         MRA               Archived from the original on   January       Retrieved   February      
+
+  a b Rhodes  G   amp  Zebrowitz  L  A   eds          Facial Attractiveness  Evolutionary  Cognitive  and Social Perspectives  Ablex Publishing 
+
+  MacDorman  K F           Mortality salience and the uncanny valley    th IEEE RAS International Conference on Humanoid Robots        IEEE  pp                doi         ICHR               ISBN                         S CID                Archived from the original on   November       Retrieved    November      
+
+  Roberts  S  Craig         Applied Evolutionary Psychology  Oxford University Press  p            ISBN                    
+
+  Moosa  Mahdi Muhammad  Ud Dean  S  M  Minhaz  March         Danger Avoidance  An Evolutionary Explanation of Uncanny Valley   Biological Theory                doi         BIOT a        ISSN                 S CID               
+
+  Ramey       
+
+  a b c d Saygin  A P           The Thing That Should Not Be  Predictive Coding and the Uncanny Valley in Perceiving Human and Humanoid Robot Actions   Social Cognitive and Affective Neuroscience                 doi         scan nsr     PMC               PMID               
+
+  Ho  C   MacDorman  K  F           Revisiting the uncanny valley theory  Developing and validating an alternative to the Godspeed indices   Computers in Human Behavior                     doi         j chb              Archived from the original on    March       Retrieved    August      
+
+  a b Kiderra  Inga     July         Your Brain on Androids   UCSD News  Archived from the original on    July      
+
+  a b c Ferrey  A  E   Burleigh  T  J   Fenske  M  J           Stimulus category competition  inhibition  and affective devaluation  a novel account of the uncanny valley   Frontiers in Psychology          doi         fpsyg             PMC               PMID               
+
+  Elliot  A  J   Devine  P  G           On the motivational nature of cognitive dissonance  Dissonance as psychological discomfort   Journal of Personality and Social Psychology                   doi                            
+
+  a b c Mathur  Maya B   Reichling  David B           Navigating a social world with robot partners  a quantitative cartography of the Uncanny Valley   Cognition              doi         j cognition              PMID               
+
+  a b Burleigh  T  J   Schoenherr  J  R   Lacroix  G  L           Does the uncanny valley exist  An empirical test of the relationship between eeriness and the human likeness of digitally created faces   PDF   Computers in Human Behavior             doi         j chb              Archived from the original  PDF  on   July       Retrieved   April      
+
+  a b Yamada  Y   Kawabe  T   Ihaya  K           Categorization difficulty is associated with negative evaluation in the  uncanny valley  phenomenon   Japanese Psychological Research                 doi         j                      x  hdl            
+
+  a b c Schoenherr  J  R   Burleigh  T  J           Uncanny sociocultural categories   Frontiers in Psychology           doi         fpsyg             PMC               PMID               
+
+  Moore  R  K           A Bayesian explanation of the  Uncanny Valley  effect and related psychological phenomena   Scientific Reports          Bibcode     NatSR         M  doi         srep       PMC               PMID               
+
+  K tsyri  J   F rger  K   M k r inen  M   Takala  T           A review of empirical evidence on different uncanny valley hypotheses  support for perceptual mismatch as one road to the valley of eeriness   Frontiers in Psychology          doi         fpsyg             PMC               PMID               
+
+  a b Burleigh  T  J   Schoenherr  J  R           A reappraisal of the uncanny valley  categorical perception or frequency based sensitization    Frontiers in Psychology           doi         fpsyg             PMC               PMID               
+
+  Kaplan  F           Who is afraid of the humanoid  Investigating cultural differences in the acceptance of robots   International Journal of Humanoid Robotics                  CiteSeerX                      doi         s                 
+
+  Ferrari  F   Paladino  M P   Jetten  J           Blurring Human Machine Distinctions  Anthropomorphic Appearance in Social Robots as a Threat to Human Distinctiveness   International Journal of Social Robotics                  doi         s               y  hdl               S CID               
+
+  Yalom  Irvin D          Existential Psychotherapy   Basic Books  Inc   Publishers  New York
+
+  Cathy S  Gelbin          Introduction to The Golem Returns   PDF   University of Michigan Press  Archived  PDF  from the original on    October       Retrieved    December      
+
+  Gray  Kurt  Wegner  Daniel M     October         Feeling robots and human zombies  Mind perception and the uncanny valley   Cognition                    doi         j cognition              ISSN                 PMID                S CID              
+
+  Stein  Jan Philipp  Ohler  Peter    March         Venturing into the uncanny valley of mind The influence of mind attribution on the acceptance of human like characters in a virtual reality setting   Cognition              doi         j cognition              ISSN                 PMID                S CID              
+
+  Kitta MacPherson     October         Monkey visual behavior falls into the uncanny valley   Proceedings of the National Academy of Sciences            Princeton University               Bibcode     PNAS          S  doi         pnas             PMC               PMID                Archived from the original on    October       Retrieved    March      
+
+  Brown  Mark     July         Science Exploring the uncanny valley of how brains react to humanoids   Wired  Archived from the original on   May       Retrieved    September      
+
+  Ramsey  Doug     May         Nineteen Projects Awarded Inaugural Calit  Strategic Research Opportunities Grants   San Diego  California  University of California San Diego  Archived from the original on    April       Retrieved    March      
+
+  Robbins  Gary    August         UCSD exploring why robots creep people out   The San Diego Union Tribune  Archived from the original on    October       Retrieved    May      
+
+  Palmer  Chris    July         Exploring  The thing that should not be    Calit   Archived from the original on    September       Retrieved    October      
+
+  Tinwell  A   et      al           Facial expression of emotion and perception of the Uncanny Valley in virtual characters   Computers in Human Behavior                   doi         j chb              S CID                Archived from the original on    March       Retrieved    October      
+
+  Tinwell  A   et      al           Uncanny Behaviour in Survival Horror Games   Journal of Gaming and Virtual Worlds           doi         jgvw          S CID                Archived from the original on    March       Retrieved    October      
+
+  Tinwell  A   et      al           The Uncanny Wall   International Journal of Arts and Technology              doi         IJART              Archived from the original on    March       Retrieved    October      
+
+  Mitchell et al        
+
+  a b Goetz  Kiesler   amp  Powers       
+
+  Vinayagamoorthy  Steed   amp  Slater       
+
+  Saygin et al        
+
+  a b c Saygin et al        
+
+  Gaylord  Chris     September         Uncanny Valley  Will we ever learn to live with artificial humans    The Christian Science Monitor  Archived from the original on   October       Retrieved    October      
+
+  Bartneck Kanda  Ishiguro   amp  Hagita       
+
+  Newitz  Annalee    September         Is the  uncanny valley  a myth    Gizmodo  Archived from the original on   September       Retrieved   September      
+
+  Cheetham  Marcus  Suter  Pascal  J ncke  Lutz     November         The human likeness dimension of the  uncanny valley hypothesis   behavioral and functional MRI findings   Frontiers in Human Neuroscience     London  England  Clarivate Analytics       doi         fnhum             PMC               PMID               
+
+  Schoenherr  J  R   Burleigh  T  J           Dissociating affective and cognitive dimensions of uncertainty by altering regulatory focus   Acta Psychologica               doi         j actpsy              PMID                S CID                
+
+  a b c Hanson  David  Olney  Andrew  Pereira  Ismar A   Zielke  Marge          Upending the Uncanny Valley   Proceedings of the National Conference on Artificial Intelligence                
+
+  Ellis  H   Lewis  M           Capgras delusion  A window on face recognition   Trends in Cognitive Sciences                  doi         s                   x  PMID                S CID               
+
+  Pollick  Frank E          In Search of the Uncanny Valley  Analog communication  Evolution  brain mechanisms  dynamics  simulation  PDF   The Vienna Series in Theoretical Biology  Cambridge  Massachusetts  MIT Press  Archived  PDF  from the original on    March       Retrieved    March      
+
+  Charles Darwin  The Voyage of the Beagle   New York  Modern Library        p     
+
+  a b Cascio  Jamais     October         The Second Uncanny Valley   Open the Future  blog   Archived from the original on    March       Retrieved    January      
+
+  Erinhurt     February         Retouching memories    University of Texas  Archived from the original on    February       Retrieved    March      
+
+  Dario Floreano          Biomimetic Robots   Springer Handbook of Robotics  Springer Handbooks  pp                doi                               ISBN                        
+
+  EPFL  http   moodle epfl ch mod resource view php inpopup true amp id           permanent dead link      Archived Page    Feb     
+
+  Eveleth  Rose    September         BBC   Future   Robots  Is the uncanny valley real    BBC  Archived from the original on    August       Retrieved    August      
+
+  Wissler  Virginia         Illuminated Pixels  The Why  What  and How of Digital Lighting  Cengage Learning  p            ISBN                         Archived from the original on    March       Retrieved    October              via Google Books 
+
+  Plantec  Peter     December         Crossing the Great Uncanny Valley   Animation World Network  Archived from the original on    September       Retrieved    August      
+
+  Bradshaw  Peter    August         Final Fantasy  The Spirits Within   Film   The Guardian  Archived from the original on   May       Retrieved   September      
+
+  Travers  Peter    July         Final Fantasy   Rolling Stone   Rolling Stone  Archived from the original on   September       Retrieved   September      
+
+   Polar Express a creepy ride   CNN     November       Archived from the original on    August       Retrieved    November      
+
+  Loder  Kurt     November          The Polar Express  Is All Too Human   MTV  Archived from the original on    May       Retrieved   February      
+
+  Dargis  Manohla     November         Do You Hear Sleigh Bells  Nah  Just Tom Hanks and Some Train   The New York Times  Archived from the original on    December       Retrieved    February      
+
+  Anderson  John     November          Polar Express  derails in zombie land   Newsday  Archived from the original on   August       Retrieved    June      
+
+  Jenkins  Ward     December         The Polar Express  A Virtual Train Wreck  conclusion    The Ward O Matic Blog  Archived from the original on    December       Retrieved    January      
+
+  Gallagher  David F      November         Digital Actors in  Beowulf  Are Just Uncanny   The New York Times Bits Blog  Archived from the original on   February       Retrieved    January      
+
+  Neumaier  Joe    November         Blah  humbug   A Christmas Carol s   D spin on Dickens well done in parts but lacks spirit   Daily News  New York  Archived from the original on    July       Retrieved    October      
+
+  Williams  Mary Elizabeth    November         Disney s  A Christmas Carol   Bah  humbug    Salon  Archived from the original on    January       Retrieved    October      
+
+  Kim  Jonathan     March         Mars Needs Moms and the Uncanny Valley   HuffPost  Archived from the original on    January       Retrieved    September      
+
+  Nakashima  Ryan    April         Too real means too creepy in new Disney animation   USA Today  Archived from the original on    March       Retrieved    September      
+
+  Barnes  Brooks     March         Many Culprits in Fall of a Family Film   The New York Times  Archived from the original on    March       Retrieved    September      
+
+  Pavlus  John     March         Did The  Uncanny Valley  Kill Disney s CGI Company    Fastcodesign com  Archived from the original on   September       Retrieved    September      
+
+  Snyder  Daniel D      December          Tintin  and the Curious Case of the Dead Eyes   The Atlantic  Archived from the original on    April       Retrieved    March      
+
+  N B      October         Tintin and the dead eyed zombies   The Economist  Archived from the original on    March       Retrieved    March      
+
+  Stevens  Dana     December         Tintin  So So   Slate  Archived from the original on    March       Retrieved    March      
+
+  Kelly  Kevin   Beyond the Uncanny Valley   The Technium  Archived from the original on    March       Retrieved    March      
+
+  John McCarthy     October        Bob the Builder  Can Mattel rebuild him  Twitter doesn t think so  The Drum  archived from the original on   December       retrieved   December     
+
+   Animal Kingdom  Let s Go Ape   Time Out Worldwide     October       Archived from the original on   February       Retrieved    May      
+
+  Hornaday  Ann     July          The Lion King  leads us out of Uncanny Valley and into Disney s branded new world   The Washington Post  Archived from the original on    July       Retrieved    July      
+
+  Harvilla  Rob     July         The  Lion King  Remake Exists  But Why    The Ringer  Archived from the original on    July       Retrieved    July      
+
+   Hyper Real or Hyper Weird   The Lion King s  Uncanny Valley Problem   HuffPost     July       Archived from the original on   March       Retrieved    July      
+
+  Gartenberg  Chaim     May         Sonic movie delayed to February      so they can fix Sonic   The Verge  Archived from the original on    June       Retrieved    February      
+
+    Cats  trailer plunges into the uncanny valley of digital fur   Engadget     July       Archived from the original on    July       Retrieved    July      
+
+  Lodge  Guy     July         Litter ally terrifying  is Cats the creepiest film of the year    The Guardian  ISSN                 Archived from the original on    July       Retrieved    July      
+
+   Cats Movie Trailer Unites the Internet Under One Shared Message   WTF Did I Just Watch     Adweek     July       Archived from the original on    July       Retrieved    July      
+
+  Whitten  Sarah     December         Critics find  Cats  to be an  Obscene    Garish  and  Overtly Sexual  Adaptation of the Hit Broadway Show   CNBC  Archived from the original on    December       Retrieved    December      
+
+  Chip  n Dale  Rescue Rangers   Teaser Trailer   Disney      February       archived from the original on    May       retrieved    May     
+
+  Lawler  Kelly     August         Review   She Hulk  Attorney at Law  is so close yet so far from greatness   USA Today  Archived from the original on    August       Retrieved   September      
+
+  Pulliam Moore  Charles     August         SHE HULK  ATTORNEY AT LAW IS PEAK UNCANNY VALLEY  BUT IT WORKS   The Verge  Archived from the original on    August       Retrieved   September      
+
+  Howard  Kirsten     August         She Hulk  Attorney at Law Episode   Review   A Normal Amount of Rage   Den of Geek  Archived from the original on    August       Retrieved   September      
+
+  Somma  Ryan     October         Will James Cameron s Avatar Escape the Uncanny Valley    Ideonexus com  Archived from the original on    March       Retrieved    March       Terminator  Salvation took advantage of the spooky effect  intentionally or not  with a computer animated Arnold Schwarzenegger cameo 
+
+  Wadsworth  Kyle    December         Scaling the Uncanny Valley   Gameinformer com  Archived from the original on   April       Retrieved    March       This would be a welcome counterpoint to the relatively poor rendering of a virtual Arnold Schwarzenegger in Terminator Salvation 
+
+  Mungenast  Eric    July          Terminator Genisys  more than adequate   East Valley Tribune  Archived from the original on    July       Retrieved    March       One notable technological problem stems from the attempt to make old Schwarzenegger look young again with some digital manipulation   it definitely doesn t cross over the uncanny valley 
+
+  Holtreman  Vic     December          TRON  Legacy  Review   Screen Rant   Screenrant com  Archived from the original on    March       Retrieved    March      
+
+  Dargis  Manohla     December         Following in Father s Parallel Universe Footsteps   The New York Times  Archived from the original on    November       Retrieved    March      
+
+  Biancolli  Amy     December         TRON  Legacy   Houston Chronicle  Archived from the original on   April       Retrieved    March      
+
+  McMillan  Graeme     December          Rogue One   That Familiar Face Isn t Familiar Enough   The Hollywood Reporter  Archived from the original on    December       Retrieved    December       The Tarkin that appears in Rogue One is a mix of CGI and live action  and it    doesn t work    In fact  for a special effect that s still stuck in the depths of the uncanny valley  it s surprising just how much of the movie Tarkin appears in  quietly undermining every scene he s in by somehow seeming less real than the various inhuman aliens in the movie 
+
+  Lawler  Kelly     December         How the  Rogue One  ending went wrong   USA Today  Archived from the original on    December       Retrieved    August       the Leia cameo is so jarring as to take the audience completely out of the film at its most emotional moment  Leia s appearance was meant to help the film end on a hopeful note       but instead it ends on a weird and unsettling one
+
+  Chang  Justin     October         Review  Two Will Smiths don t double the pleasure in the ill conceived  Gemini Man    Los Angeles Times  Archived from the original on    December       Retrieved    December      
+
+
+General and cited sources edit 
+
+Bartneck  Christoph  Kanda  Takayuki  Ishiguro  Hiroshi  Hagita  Norihiro          Is the Uncanny Valley an Uncanny Cliff    RO MAN        the   th IEEE International Symposium on Robot and Human Interactive Communication  pp                doi         ROMAN               ISBN                        
+Burleigh  Tyler J   Schoenherr  Jordan R           A reappraisal of the uncanny valley  Categorical perception or frequency based sensitization    Frontiers in Psychology           doi         fpsyg             PMC               PMID                
+Burleigh  Tyler J   Schoenherr  Jordan R   Lacroix  Guy L           Does the uncanny valley exist  An empirical test of the relationship between eeriness and the human likeness of digitally created faces   Computers in Human Behavior                   doi         j chb             
+Chattopadhyay  Debaleena  MacDorman  Karl F           Familiar faces rendered strange  Why inconsistent realism drives characters into the uncanny valley   Journal of Vision              doi                  PMC               PMID               
+Cheetham  Marcus  Suter  P   J ncke  L           The human likeness dimension of the  uncanny valley hypothesis   Behavioral and functional MRI findings   Frontiers in Human Neuroscience          doi         fnhum             PMC               PMID               
+Ferrey  Anne E   Burleigh  Tyler J   Fenske  Mark J           Stimulus category competition  inhibition  and affective devaluation  A novel account of the uncanny valley   Frontiers in Psychology          doi         fpsyg             PMC               PMID               
+Goetz  J   Kiesler  S   Powers  A           Matching robot appearance and behavior to tasks to improve human robot cooperation   The   th IEEE International Workshop on Robot and Human Interactive Communication        Proceedings  ROMAN       pp              doi         ROMAN               ISBN                  X 
+Ishiguro  H          Android science  Toward a new cross disciplinary framework  CogSci      Workshop  Toward Social Mechanisms of Android Science        pp           
+Kageki  Norri          An Uncanny Mind      Turning Point        IEEE Robotics  amp  Automation Magazine                   doi         MRA              
+K tsyri  Jari  F rger  Klaus  M k r inen  Meeri  Takala  Tapio          A review of empirical evidence on different uncanny valley hypotheses  Support for perceptual mismatch as one road to the valley of eeriness   Frontiers in Psychology          doi         fpsyg             PMC               PMID               
+Misselhorn  Catrin          Empathy with Inanimate Objects and the Uncanny Valley   Minds and Machines                   doi         s                 
+Moore  Roger K           A Bayesian explanation of the  Uncanny Valley  effect and related psychological phenomena   Scientific Reports          Bibcode     NatSR         M  doi         srep       PMC               PMID                
+Mori  Masahiro  MacDorman  Karl  Kageki  Norri          The Uncanny Valley      From the Field        IEEE Robotics  amp  Automation Magazine                  doi         MRA              
+Mori  M          On the Uncanny Valley  Proceedings of the Humanoids      workshop  Views of the Uncanny Valley    December       Tsukuba  Japan 
+Pollick  F  E   forthcoming   In search of the uncanny valley  In Grammer  K   amp  Juette  A   Eds    Analog communication  Evolution  brain mechanisms  dynamics  simulation  The Vienna Series in Theoretical Biology  Cambridge  Mass   The MIT Press 
+Ramey  C H          The uncanny valley of similarities concerning abortion  baldness  heaps of sand  and humanlike robots  In Proceedings of the Views of the Uncanny Valley Workshop  IEEE RAS International Conference on Humanoid Robots 
+Saygin  A P   Chaminade  T   Ishiguro  H         The Perception of Humans and Robots  Uncanny Hills in Parietal Cortex  In S  Ohlsson  amp  R  Catrambone  Eds    Proceedings of the   nd Annual Conference of the Cognitive Science Society  pp                   Austin  TX  Cognitive Science Society 
+Saygin  Ayse Pinar  Chaminade  Thierry  Ishiguro  Hiroshi  Driver  Jon  Frith  Chris          The thing that should not be  Predictive coding and the uncanny valley in perceiving human and humanoid robot actions   Social Cognitive and Affective Neuroscience                  doi         scan nsr     PMC               PMID               
+Schoenherr  Jordan R   Burleigh  Tyler J           Uncanny sociocultural categories   Frontiers in Psychology           doi         fpsyg             PMC               PMID               
+Seyama  Jun Ichiro  Nagayama  Ruth S           The Uncanny Valley  Effect of Realism on the Impression of Artificial Human Faces   Presence  Teleoperators and Virtual Environments                   doi         pres          
+Tinwell  Angela  Grimshaw  Mark  Williams  Andrew          Uncanny behaviour in survival horror games   Journal of Gaming  amp  Virtual Worlds           doi         jgvw         
+Tinwell  Angela  Grimshaw  Mark  Williams  Andrew          The Uncanny Wall   International Journal of Arts and Technology              doi         IJART             
+Tinwell  Angela  Grimshaw  Mark  Nabi  Debbie Abdel  Williams  Andrew          Facial expression of emotion and perception of the Uncanny Valley in virtual characters   PDF   Computers in Human Behavior                   doi         j chb             
+Urgen  Burcu A   Kutas  Marta  Saygin  Ayse P           Uncanny valley as a window into predictive processing in the social brain   Neuropsychologia                doi         j neuropsychologia              PMC               PMID               
+Vinayagamoorthy  V  Steed  A   amp  Slater  M          Building Characters  Lessons Drawn from Virtual Environments  Toward Social Mechanisms of Android Science  A CogSci      Workshop        July  Stresa  Italy  pp               
+Yamada  Yuki  Kawabe  Takahiro  Ihaya  Keiko          Categorization difficulty is associated with negative evaluation in the  uncanny valley  phenomenon   Japanese Psychological Research             doi         j                      x  hdl            
+Zysk  Wolfgang  Filkov  Rumen  Feldmann  Sebastian          Bridging the uncanny valley   from  D humanoid characters to virtual tutors        Second International Conference on E Learning and E Technologies in Education  ICEEE   pp              doi         ICeLeTE               ISBN                        
+
+External links edit 
+
+
+Uncanny valley  at Wikipedia s sister projects
+
+Definitions from WiktionaryMedia from CommonsQuotations from WikiquoteTextbooks from Wikibooks
+
+Mikl si   d m  Korondi  P ter  Matell n  Vicente  G csi  M rta          Ethorobotics  A New Approach to Human Robot Relationship   Frontiers in Psychology          doi         fpsyg             PMC               PMID               
+Your Brain on Androids UCSD news release about human brain and the uncanny valley 
+Views on the Uncanny Valley
+Almost too human and lifelike for comfort research journal for an uncanny valley PhD project
+Relation between motion and appearance is communication between androids and humans
+The Uncanny valley Archived    January      at the Wayback Machine   a visual explanation of the hypothesis with the application in gaming 
+Wired article   Why is this man smiling    June      
+vteArtificial intelligence  AI History  timeline Concepts
+Parameter
+Hyperparameter
+Loss functions
+Regression
+Bias variance tradeoff
+Double descent
+Overfitting
+Clustering
+Gradient descent
+SGD
+Quasi Newton method
+Conjugate gradient method
+Backpropagation
+Attention
+Convolution
+Normalization
+Batchnorm
+Activation
+Softmax
+Sigmoid
+Rectifier
+Gating
+Weight initialization
+Regularization
+Datasets
+Augmentation
+Prompt engineering
+Reinforcement learning
+Q learning
+SARSA
+Imitation
+Policy gradient
+Diffusion
+Latent diffusion model
+Autoregression
+Adversary
+RAG
+Uncanny valley
+RLHF
+Self supervised learning
+Recursive self improvement
+Word embedding
+Hallucination
+Applications
+Machine learning
+In context learning
+Artificial neural network
+Deep learning
+Language model
+Large language model
+NMT
+Artificial general intelligence  AGI 
+ImplementationsAudio visual
+AlexNet
+WaveNet
+Human image synthesis
+HWR
+OCR
+Speech synthesis
+   ai
+ElevenLabs
+Speech recognition
+Whisper
+Facial recognition
+AlphaFold
+Text to image models
+Aurora
+DALL E
+Firefly
+Flux
+Ideogram
+Imagen
+Midjourney
+Stable Diffusion
+Text to video models
+Dream Machine
+Runway Gen
+Hailuo AI
+Kling
+Sora
+Veo
+Music generation
+Suno AI
+Udio
+Text
+Word vec
+Seq seq
+GloVe
+BERT
+T 
+Llama
+Chinchilla AI
+PaLM
+GPT
+ 
+ 
+ 
+J
+ChatGPT
+ 
+ o
+o 
+o 
+   
+   
+o 
+Claude
+Gemini
+chatbot
+Grok
+LaMDA
+BLOOM
+Project Debater
+IBM Watson
+IBM Watsonx
+Granite
+PanGu  
+DeepSeek
+Qwen
+Decisional
+AlphaGo
+AlphaZero
+OpenAI Five
+Self driving car
+MuZero
+Action selection
+AutoGPT
+Robot control
+People
+Alan Turing
+Warren Sturgis McCulloch
+Walter Pitts
+John von Neumann
+Claude Shannon
+Marvin Minsky
+John McCarthy
+Nathaniel Rochester
+Allen Newell
+Cliff Shaw
+Herbert A  Simon
+Oliver Selfridge
+Frank Rosenblatt
+Bernard Widrow
+Joseph Weizenbaum
+Seymour Papert
+Seppo Linnainmaa
+Paul Werbos
+J rgen Schmidhuber
+Yann LeCun
+Geoffrey Hinton
+John Hopfield
+Yoshua Bengio
+Lotfi A  Zadeh
+Stephen Grossberg
+Alex Graves
+Andrew Ng
+Fei Fei Li
+Alex Krizhevsky
+Ilya Sutskever
+Demis Hassabis
+David Silver
+Ian Goodfellow
+Andrej Karpathy
+James Goodnight
+Architectures
+Neural Turing machine
+Differentiable neural computer
+Transformer
+Vision transformer  ViT 
+Recurrent neural network  RNN 
+Long short term memory  LSTM 
+Gated recurrent unit  GRU 
+Echo state network
+Multilayer perceptron  MLP 
+Convolutional neural network  CNN 
+Residual neural network  RNN 
+Highway network
+Mamba
+Autoencoder
+Variational autoencoder  VAE 
+Generative adversarial network  GAN 
+Graph neural network  GNN 
+
+ Portals
+Technology
+ Category
+Artificial neural networks
+Machine learning
+ List
+Companies
+Projects
+
+vteVirtual and augmented reality
+From least to most virtual  Augmented reality  AR 
+Mixed reality  MR 
+Virtual reality  VR 
+Virtuality
+ConceptsMain
+Cinematic virtual reality
+Computer mediated reality
+Immersion
+Metaverse
+Avatar
+Projection augmented model
+ Room scale 
+Six degrees of freedom   DoF 
+Spatial computing
+Telepresence
+Virtual reality applications
+Virtual reality sickness
+Virtual world
+Other
+Camera filter
+Quantified self
+Screen door effect
+Simulation hypothesis
+Transhumanism
+VTuber
+TechnologiesDisplay
+EyeTap
+Head mounted display
+optical
+Head up display
+Pancake lens
+Smartglasses
+Virtual reality headset
+list
+Virtual retinal display
+ D interaction
+Brain computer interface
+Eye tracking
+Facial motion capture
+Finger hand tracking
+Pose tracking
+Simultaneous localization and mapping
+Software
+Asynchronous reprojection
+Foveated rendering
+Image based modeling and rendering
+Spatial audio
+Photography
+    degree video
+Free viewpoint television
+Omnidirectional      degree  camera
+VR photography
+Other
+Haptic suit
+Omnidirectional treadmill
+Wearable computer
+Peripherals
+Cyberith Virtualizer
+Leap Motion
+Oculus Touch
+PlayStation Move
+Razer Hydra
+Virtuix Omni
+Wired glove
+Wizdish ROVR
+Companies
+Apple Inc 
+Brilliant Labs
+ByteDance
+Collabora
+Google
+HTC
+Khronos Group
+Liquid Image
+Magic Leap
+Meta Platforms
+Reality Labs
+Microsoft
+Niantic  Inc 
+Pimax
+Rokoko
+Samsung Electronics
+Valve Corporation
+Varjo
+Vuzix
+DevicesCurrent
+Apple Vision Pro
+Bigscreen Beyond
+Golden i headsets
+HTC Vive
+Magic Leap
+Meta Quest  
+ S
+Open Source Virtual Reality
+PICO   Ultra
+Pimax
+PlayStation VR 
+Valve Index
+Vuzix
+Former
+AntVR
+castAR
+EyePhone
+Google Cardboard
+Google Daydream
+Google Glass
+Meta Quest Pro
+Microsoft HoloLens
+ 
+Oculus Go
+Oculus Quest
+Oculus Meta Quest  
+Oculus Rift
+CV 
+S
+PICO  
+PlayStation VR
+Samsung Gear VR
+Sensorama
+SixthSense
+The Sword of Damocles
+VFX  Headgear
+Virtual Boy
+Virtual fixture
+Virtuality
+VR  
+Unreleased
+Project Iris
+Sega VR
+SoftwareGeneral
+Interactive art
+Virtual graffiti
+Metaverse
+Pervasive game
+Software related to augmented reality
+Virtual reality game
+Operating systems anddesktop environments
+Android XR
+Meta Horizon OS
+version history
+visionOS
+Windows Mixed Reality
+Development tools andgame engines
+A Frame
+ARCore
+ARKit
+ARToolKit
+Godot Engine
+Jetpack Compose XR
+Meta Spatial SDK
+OpenVR
+OpenXR
+RealityKit
+S amp box
+TabletopKit
+Unity
+Universal Scene Description
+Unreal Engine
+Vuforia Augmented Reality SDK
+WebXR
+Games
+List of HTC Vive games
+List of Meta Quest games
+List of Oculus Rift games
+List of PlayStation VR games
+VR 
+Communities andsocial networks
+AltspaceVR
+FaceTime for visionOS
+Horizon Worlds
+NeosVR
+Rec Room
+Resonite
+Sansar
+Sensorium
+Sinespace
+VRChat
+VTime XR
+People
+Philippe Bekaert
+Maurice Benayoun
+Simon Birrell
+Mark Bolas
+Brendan Bradley
+Fred Brooks
+Bo tjan Burger
+John Carmack
+Tim Cook
+Carolina Cruz Neira
+Ela Darling
+Char Davies
+Thomas A  DeFanti
+Steven K  Feiner
+Scott Fisher
+Jerome Foster II
+Henry Fuchs
+Thomas A  Furness III
+Morton Heilig
+Eric Howlett
+Brendan Iribe
+Myron W  Krueger
+Jaron Lanier
+R  Bowen Loftin
+Palmer Luckey
+Mark Stephen Meadows
+Michelle and Uri Kranot
+Tony Parisi
+Nonny de la Pe a
+Elia Petridis
+Warren Robinett
+Lawrence J  Rosenblum
+Daniel J  Sandin
+Dieter Schmalstieg
+Bob Sproull
+Nicole Stenger
+Ivan Sutherland
+Susumu Tachi
+Gunpei Yokoi
+Mark Zuckerberg
+In fiction
+Star Trek s Holodeck
+film
+Netrunner
+Neuromancer
+Ready Player One
+film
+Ready Player Two
+Snow Crash
+Superhot
+Sword Art Online
+
+ Portals
+Technology
+ Category
+Augmented reality
+Mixed reality
+Virtual reality
+Metaverse
+Spatial computing
+ Commons
+Augmented reality
+Mixed reality
+Virtual reality
+Metaverse
+
+
+
+
+
+
+Retrieved from  https   en wikipedia org w index php title Uncanny valley amp oldid

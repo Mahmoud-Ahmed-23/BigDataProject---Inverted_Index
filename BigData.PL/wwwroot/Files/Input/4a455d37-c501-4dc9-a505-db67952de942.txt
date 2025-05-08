@@ -1,0 +1,626 @@
+Ongoing period of rapid progress in AI
+Not to be confused with Age of artificial intelligence 
+
+
+From top  left to right  Time magazine cover featuring a ChatGPT conversation  mechanical dove image created in Midjourney  AlphaFold   performance  experiments  and architecture 
+Part of a series onArtificial intelligence  AI 
+Major goals
+Artificial general intelligence
+Intelligent agent
+Recursive self improvement
+Planning
+Computer vision
+General game playing
+Knowledge reasoning
+Natural language processing
+Robotics
+AI safety
+
+Approaches
+Machine learning
+Symbolic
+Deep learning
+Bayesian networks
+Evolutionary algorithms
+Hybrid intelligent systems
+Systems integration
+
+Applications
+Bioinformatics
+Deepfake
+Earth sciences
+ Finance 
+Generative AI
+Art
+Audio
+Music
+Government
+Healthcare
+Mental health
+Industry
+Translation
+ Military 
+Physics
+Projects
+
+Philosophy
+Artificial consciousness
+Chinese room
+Friendly AI
+Control problem Takeover
+Ethics
+Existential risk
+Turing test
+Uncanny valley
+
+History
+Timeline
+Progress
+AI winter
+AI boom
+
+Glossary
+Glossary
+vte
+The AI boom                       is an ongoing period of rapid progress in the field of artificial intelligence  AI  that started in the late     s before gaining international prominence in late      with the public release of ChatGPT  Examples include large language models and generative AI applications developed by OpenAI as well as protein folding prediction led by Google DeepMind  This period is sometimes referred to as an AI spring  to contrast it with previous AI winters                       
+
+
+History edit 
+For broader coverage of this topic  see History of artificial intelligence 
+The number of Google searches for the term  AI  accelerated in      
+In       a University of Toronto research team used artificial neural networks and deep learning techniques to lower the error rate below     for the first time during the ImageNet challenge for object recognition in computer vision  The event catalyzed the AI boom later that decade  when many alumni of the ImageNet challenge became leaders in the tech industry                        In March       AlphaGo beat Lee Sedol in a five game match  marking the first time a computer Go program had beaten a   dan professional without handicap  This match led to significant increase in public interest in AI             The generative AI race began in earnest in      or      following the founding of OpenAI and earlier advances made in graphical processing units  GPUs   the amount and quality of training data  generative adversarial networks  diffusion models and transformer architectures                        
+In       the Artificial Intelligence Index  an initiative from Stanford University  reported a global explosion of commercial and research efforts in AI  Europe published the largest number of papers in the field that year  followed by China and North America              Technologies such as AlphaFold led to more accurate predictions of protein folding and improved the process of drug development              Economists and lawmakers began to discuss the potential impact of AI more frequently                          By       large language models  LLMs  saw increased usage in chatbot applications  text to image models could generate images that appeared to be human made              and speech synthesis software was able to replicate human speech efficiently             
+According to metrics from      to       the United States outranks the rest of the world in terms of venture capital funding  the number of startups  and patents granted in AI                          Scientists who have immigrated to the U S  play an outsized role in the country s development of AI technology                          Many of them were educated in China  prompting debates about national security concerns amid worsening relations between the two countries             
+Experts have framed AI development as a competition for economic and geopolitical advantage between the United States and China              In       an analyst for the Council on Foreign Relations outlined ways that the U S  could maintain its position amid progress made by China                          In       an analyst at the Center for Strategic and International Studies advocated for the U S  to use its dominance in AI technology to drive its foreign policy instead of relying on trade agreements             
+
+Advances edit 
+See also  Progress in artificial intelligence
+Biomedical edit 
+The AlphaFold   score of more than    in CASP s global distance test  GDT  is considered a significant achievement in computational biology             and great progress towards a decades old grand challenge of biology              The structural biologist and Nobel Prize winner Venki Ramakrishnan called the result  a stunning advance on the protein folding problem               adding that  It has occurred decades before many people in the field would have predicted                          
+The ability to predict protein structures accurately based on the constituent amino acid sequence is expected to accelerate drug discovery and enable a better understanding of diseases                                     
+
+Images and videos edit 
+An image generated by Stable Diffusion based on the text prompt  a photograph of an astronaut riding a horse 
+Text to image models captured widespread public attention when OpenAI announced DALL E  a transformer system  in January                   A successor capable of generating complex and realistic images  DALL E    was unveiled in April                   An alternative text to image model  Midjourney  was released in July                   Another alternative  open source model Stable Diffusion  released in August                  
+Following other text to image models  language model powered text to video platforms such as Runway              OpenAI s Sora  DAMO              Make A Video              Imagen Video             and Phenaki             can generate video from text as well as image prompts             
+
+Language edit 
+GPT   is a large language model that was released in      by OpenAI and is capable of generating high quality human like text              The tool has been credited with spurring and accelerating the AI boom following its release                                      An upgraded version called GPT     was used in ChatGPT  which later garnered attention for its detailed responses and articulate answers across many domains of knowledge              A new version called GPT   was released on March           and was used in the Microsoft Bing search engine                          Other language models have been released  such as PaLM and Gemini by Google             and LLaMA by Meta Platforms 
+In January       DeepL Write  an AI based tool to improve monolingual texts  was released             
+
+Music and voice edit 
+In       Google DeepMind unveiled WaveNet  a deep learning network that produced English  Mandarin  and piano music              
+   ai  a free text to speech web application launched in March       was an early development in the AI boom that used AI for voice synthesis  The platform could generate convincing character voices using as little as    seconds of training data               The application gained widespread attention in early      for its ability to synthesize emotionally expressive speech from popular fictional characters                          becoming particularly influential in online content creation                         
+By April       full length original songs generated by a pseudonymous creator named  Glorb  using the voices of cartoon characters from the SpongeBob SquarePants cartoon were being listened to millions of times on Spotify and YouTube  Glorb is not affiliated with the copyright holder or the original voice performers                         
+ElevenLabs allowed users to upload voice samples and create audio that sounds similar to the samples  The company was criticized             after controversial                         statements were generated based on the vocal styles of celebrities  public officials  and other famous individuals              raising concerns     among whom       that the technology could make deepfakes even more convincing              An unofficial song created using the voices of musicians Drake and The Weeknd raised questions     among whom       about the ethics and legality of similar software             
+
+Impact edit 
+Energy edit 
+Electricity consumed by hardware used for AI has increased demands on power grids  which has led to prolonged use of fossil fuel power plants which would otherwise have been deactivated                                     
+Microsoft  Google  and Amazon have all invested in existing or proposed nuclear power plants to meet these demands                          In September       Microsoft signed a deal with Constellation Energy to purchase power from a reactor at Three Mile Island which had been shut down in       The reactor is set to reopen in      to provide power to Microsoft s data centers  The reactor is next to the unit which caused the worst nuclear power accident in US history in                                          
+
+Cultural edit 
+During the AI boom  different groups emerged  ranging from the ones that want to  accelerate AI development as quickly as possible to those that are more concerned about AI safety and would like to  decelerate              
+
+Business and economy edit 
+In       AI patents in China and the US numbered more than three fourths of AI patents worldwide              Though China had more AI patents  the US had     more patents per AI patent applicant company than China             
+Some economists have been optimistic about the potential of the current wave of AI to boost productivity and economic growth   Notably  Stanford University economist Erik Brynjolfsson  in a series of articles has argued for an  AI powered Productivity Boom               and a  Coming Productivity Boom               At the same time  others like Northwestern University economist Robert Gordon remain more pessimistic              Brynjolfsson and Gordon have made a formal bet  registered at long bets  about the rate of productivity growth in the     s  to be resolved at the end of the decade             
+Big Tech companies view the AI boom as both opportunity and threat  Alphabet s Google  for example  realized that ChatGPT could be an innovator s dilemma like replacement for Google Search  The company merged DeepMind and Google Brain  a rival internal unit  to accelerate its AI research             
+The market capitalization of Nvidia  whose GPUs are in high demand to train and use generative AI models  rose to over US     trillion  making it the world s largest company by market capitalization as of June                      
+In       San Francisco s population increased for the first time in years  with the boom cited as a contributing factor             
+Machine learning resources  hardware or software can be bought and licensed off the shelf or as cloud platform services              This enables wide and publicly available uses  spreading AI skills              Over half of businesses consider AI to be a top organizational priority and to be the most crucial technological advancement in many decades              
+Across industries  generative AI tools are becoming widely available through the AI boom and are increasingly used in businesses across regions              A main area of use is data analytics  Seen as an incremental change  machine learning improves industry performance              Businesses report AI to be most useful in increased process efficiency  improved decision making and strengthening of existing services and products              Through adoption  AI has already positively influenced revenue generation in multiple business functions  Businesses have experienced revenue increases of up to      mainly in manufacturing  risk management and research and development             
+AI and generative AI investments have been increasing with the boom  increasing from     billion in      to      billion in       Most notably  the share of generative AI investments was around     in                   Further  generative AI businesses have seen considerable venture capital investments even though regulatory and economic outlooks remain in question             
+Tech giants capture the bulk of the monetary gains from AI and act as major suppliers to or customers of private users and other businesses                         
+
+Concerns edit 
+Inaccuracy  cybersecurity and intellectual property infringement are considered to be the main risks associated with the boom  although not many actively attempt to mitigate the risk              Large language models have been criticized for reproducing biases inherited from their training data  including discriminatory biases related to ethnicity or gender              As a dual use technology  AI carries risks of misuse by malicious actors              As AI becomes more sophisticated  it may eventually become cheaper and more efficient than human workers  which could cause technological unemployment and a transition period of economic turmoil                          Public reaction to the AI boom has been mixed  with some hailing the new possibilities that AI creates  its sophistication and potential for benefiting humanity                          while others denounced it for threatening job security                         and for giving  uncanny  or flawed responses             
+
+Dominance by tech giants edit 
+The commercial AI scene is dominated by American Big Tech companies such as Alphabet Inc   Amazon  Apple Inc   Meta Platforms  and Microsoft  whose investments in this area have surpassed those from U S  based venture capitalists                                      Some of these players already own the vast majority of existing cloud infrastructure  AI chips  and computing power from data centers  allowing them to entrench further in the marketplace                            AI related patents have been hoarded by the largest American tech companies as well  with IBM leading the way with                    
+
+Intellectual property edit 
+Tech companies such as Meta  OpenAI and Nvidia have been sued by artists  writers  journalists  and software developers for using their work to train AI models                            Early generative AI chatbots  such as the GPT    used the BookCorpus  and books are still the best source of training data for producing high quality language models  ChatGPT aroused suspicion that its sources included libraries of pirated content after the chatbot produced detailed summaries of every part of Sarah Silverman s The Bedwetter and verbatim excerpts of paywalled content from The New York Times                            In protest of the UK government holding consultations on how copyrighted music can legally be used to train AI models               more than a thousand British musicians released an album with no sounds  entitled Is This What We Want              
+
+Likeness and impersonation edit 
+See also  Deepfake
+A Voice of America video covering potential dangers of AI generated impersonation  and laws passed in California to combat it
+The ability to generate convincing  personalized messages as well as realistic images may facilitate large scale misinformation  manipulation  and propaganda              
+On April           as part of an ongoing feud with fellow rapper Kendrick Lamar  the artist Drake released the diss track  Taylor Made Freestyle   which featured AI generated vocals imitating the voices of Tupac Shakur and Snoop Dogg               Shakur s estate threatened to sue over the use of Shakur s likeness               saying that it constituted a violation of Shakur s personality rights 
+On May           following the release of a demo of updates to OpenAI s ChatGPT Voice Mode feature a week earlier                            actor Scarlett Johansson issued a statement                           in relation to the  Sky  voice shown in the demo  accusing OpenAI of producing it to be very similar to her own  and her portrayal of the artificial intelligence voice assistant Samantha in the film Her         despite Johansson refusing an earlier offer from the company to provide her voice for the system  The agent of the unnamed voice actress who voiced Sky stated that she had recorded her lines in her natural speaking voice and that OpenAI had not mentioned the movie Her nor Johansson                           
+Several incidents involving sharing of non consensual deepfake pornography have occurred  In late January       deepfake images of American musician Taylor Swift proliferated  Several experts have warned that deepfake pornography is more quickly created and disseminated  due to the relative ease of using the technology               Canada introduced federal legislation targeting sharing of non consensual sexually explicit AI generated photos  most provinces already had such laws               In the United States  the DEFIANCE Act was introduced in March                   
+
+Environment edit 
+A large amount of electricity is needed to power generative AI products               making it more difficult for companies to achieve net zero emissions  From      to       Google s greenhouse gas emissions increased by                  
+
+Biosecurity and cybersecurity edit 
+AI is expected by researchers of the Center for AI Safety to improve the  accessibility  success rate  scale  speed  stealth and potency of cyberattacks   potentially causing  significant geopolitical turbulence  if it reinforces attack more than defense                           Concerns have been raised about the potential capability of future AI systems to engineer particularly lethal and contagious pathogens                           
+The AI boom is said to have started an arms race in which large companies are competing against each other to have the most powerful AI model on the market  with speed and profit prioritized over safety and user protection                                        
+
+Sentience and human extinction edit 
+Further information  AI takeover
+Rapid progress in artificial intelligence has also sparked interest in whether some future AI systems will be sentient or otherwise worthy of moral consideration               and whether they should be granted rights              
+Industry leaders have further warned in the statement on AI risk of extinction that humanity might irreversibly lose control over a sufficiently advanced artificial general intelligence              
+
+See also edit 
+
+Technology portal
+AI winter  a period of reduced funding and interest in artificial intelligence research
+AI effect
+AI slop
+History of artificial intelligence
+History of artificial neural networks
+Hype cycle
+Progress in artificial intelligence
+Regulation of artificial intelligence
+Technological singularity
+References edit 
+
+
+  Knight  Will   Google s Gemini Is the Real Start of the Generative AI Boom   Wired  Retrieved December          
+
+  Meredith  Sam  December            A  thirsty  generative AI boom poses a growing problem for Big Tech   CNBC  Retrieved December          
+
+  Bommasani  Rishi  March             AI Spring  Four Takeaways from Major Releases in Foundation Models   Stanford Institute for Human Centered Artificial Intelligence  Archived from the original on May          Retrieved May          
+
+   The coming of AI Spring   www mckinsey com  Retrieved December         
+
+   The data that transformed AI research and possibly the world   Quartz  July          
+
+  Lohr  Steve  November             A I  Will Transform the Economy  But How Much  and How Soon    The New York Times 
+
+   Match     Google DeepMind Challenge Match  Lee Sedol vs AlphaGo   YouTube  March          Archived from the original on March           Retrieved March         
+
+   Everything You Need To Know About The Artificial Intelligence Boom   Nasdaq com  Investing Daily  August          
+
+   Why am I not terrified of AI    Shtetl Optimized  March          Archived from the original on May           Retrieved March          
+
+  Statt  Nick  December             The AI boom is happening all over the world  and it s accelerating quickly   The Verge 
+
+  Wong  Matteo  December             Science Is Becoming Less Human   The Atlantic  Retrieved December          
+
+  a b Lohr  Steve  November             A I  Will Transform the Economy  But How Much  and How Soon    The New York Times 
+
+   Nine charts that really bring home just how fast AI is growing   MIT Technology Review 
+
+  Vincent  James  May             All these images were generated by Google s latest text to image AI   The Verge  Archived from the original on February           Retrieved March          
+
+  Cox  Joseph  January             AI Generated Voice Firm Clamps Down After  chan Makes Celebrity Voices for Abuse   Vice  Archived from the original on May          Retrieved March          
+
+  a b Frank  Michael  September             US Leadership in Artificial Intelligence Can Shape the   st Century Global Order   The Diplomat  Retrieved December         
+
+   Global AI Vibrancy Tool   Artificial Intelligence Index  Stanford  California  Stanford University 
+
+  Gold  Ashley  June             Exclusive  Immigrants play outsize role in the AI game   Axios  Retrieved December          
+
+  Ellis  Lindsay  October             Dropping Out of College to Join the AI Gold Rush   WSJ  Wall Street Journal   New York  New York  Retrieved December          
+
+  Mozur  Paul  Metz  Cade  June            A U S  Secret Weapon in A I   Chinese Talent   The New York Times 
+
+   What Is Artificial Intelligence  AI     Council on Foreign Relations 
+
+   Lauren A  Kahn   Council on Foreign Relations   January          Archived from the original on January         
+
+  Kahn  Lauren  October             U S  Leadership in Artificial Intelligence Is Still Possible   Council on Foreign Relations 
+
+  a b Robert F  Service   The game has changed   AI triumphs at solving protein structures  Science     November      
+
+  a b Callaway  Ewen  November              It will change everything   DeepMind s AI makes gigantic leap in solving protein structures   Nature                       Bibcode     Natur         C  doi         d                   PMID                S CID                
+
+   AlphaFold  a solution to a    year old grand challenge in biology   Deepmind  November           Retrieved November          
+
+  Nerlich  Brigitte  December            Protein folding and science communication  Between hype and humility   Making Science Public  Retrieved February          
+
+  Hubbard  Tim  December            The secret of life  part    the solution of the protein folding problem   Medium  Retrieved February          
+
+   DeepMind s protein folding AI has solved a    year old grand challenge of biology   MIT Technology Review  Retrieved November          
+
+  Coldewey  Devin  January            OpenAI s DALL E creates plausible images of literally anything you ask it to   TechCrunch  Archived from the original on January          Retrieved March          
+
+  Coldewey  Devin  April            New OpenAI tool draws anything  bigger and better than ever   TechCrunch  Archived from the original on May          Retrieved March          
+
+  Pandey  Mohit  July             One Year of Midjourney  A Psychedelic Image Generator to Realistic Photo Album   Analytics India Magazine  Retrieved February         
+
+   Stable Diffusion Public Release   Stability AI  Archived from the original on August           Retrieved March          
+
+   Gen    The Next Step Forward for Generative AI  
+
+   ModelScope        modelscope cn  Archived from the original on May          Retrieved March          
+
+  kumar  Ashish  October            Meta AI Introduces  Make A Video   An Artificial Intelligence System That Generates Videos From Text   MarkTechPost  Archived from the original on December          Retrieved March          
+
+  Edwards  Benj  October            Google s newest AI generator creates HD video from text prompts   Ars Technica  Archived from the original on February          Retrieved October          
+
+   Phenaki   phenaki video  Archived from the original on October          Retrieved October         
+
+  Edwards  Benj  September            Runway teases AI powered text to video editing using written prompts   Ars Technica  Archived from the original on January           Retrieved September          
+
+  Sagar  Ram  June            OpenAI Releases GPT    The Largest Model So Far   Analytics India Magazine  Archived from the original on August          Retrieved March          
+
+  Hsu  Tiffany  Myers  Steven Lee  May             Another Side of the A I  Boom  Detecting What A I  Makes   The New York Times  Retrieved February          
+
+  Erdenesanaa  Delger  October             A I  Could Soon Need as Much Electricity as an Entire Country   The New York Times  Retrieved February          
+
+   OpenAI rival says AI tech needs more Asia localization   Nikkei Asia  Retrieved February          
+
+  Lock  Samantha  December            What is AI chatbot phenomenon ChatGPT and could it replace humans    The Guardian  Archived from the original on January           Retrieved March          
+
+  Lardinois  Frederic  March             Microsoft s new Bing was using GPT   all along   TechCrunch  Archived from the original on March           Retrieved March          
+
+  Derico  Ben  Kleinman  Zoe  March             OpenAI announces ChatGPT successor GPT     BBC News  Archived from the original on May           Retrieved March          
+
+   Gemini   DeepMind  Retrieved December         
+
+  Ziegener  Daniel  January             DeepL Write  Brauchen wir jetzt noch eine menschliche Lektorin    Golem de  Archived from the original on February          Retrieved March          
+
+  Robertson  Adi  September            Google s DeepMind AI fakes some of the most realistic human voices yet   The Verge 
+
+  Chandraseta  Rionaldi  January             Generate Your Favourite Characters  Voice Lines using Machine Learning   Towards Data Science  Archived from the original on January           Retrieved December          
+
+  Zwiezen  Zack  January             Website Lets You Make GLaDOS Say Whatever You Want   Kotaku  Archived from the original on January           Retrieved December          
+
+  Kurosawa  Yuki  January                                ai      Undertale   Portal                           Game Character Voice Reading Software     ai  Now Available  Get Characters from Undertale and Portal to Say Your Desired Lines       AUTOMATON  in Japanese   Archived from the original on January           Retrieved December          
+
+  Temitope  Yusuf  December                ai Creator reveals journey from MIT Project to internet phenomenon   The Guardian  Archived from the original on December           Retrieved December          
+
+  Anirudh VK  March             Deepfakes Are Elevating Meme Culture  But At What Cost    Analytics India Magazine  Archived from the original on December           Retrieved December          
+
+   AI s quiet creep into music punctuated by  SpongeBob  voices and a secretive artist called Glorb   NBC News  April          Retrieved January          
+
+  Forlini  Emily  April            Bye Bye Bikini Bottom  AI Deepfakes Turn Spongebob Into a Sinister Hip Hop Star   PCMAG  Retrieved January          
+
+   People Are Still Terrible  AI Voice Cloning Tool Misused for Deepfake Celeb Clips   PCMAG  January           Retrieved March         
+
+   Internet Up in Arms as  Chan User Uses AI Voice Simulator To Deepfake Emma Watson s Voice  Makes Her Read Hitler s Autobiography   fandomwire com  February          Retrieved March         
+
+  Milmo  Dan  Hern  Alex  May             Elections in UK and US at risk from AI driven disinformation  say experts   The Guardian  Retrieved March         
+
+  Jimenez  Jorge  January             AI company promises changes after  voice cloning  tool used to make celebrities say awful things   PC Gamer  Archived from the original on April          Retrieved February         
+
+  Chopra  Anuj  Salem  Saladin  February            Seeing is believing  Global scramble to tackle deepfakes   Yahoo News  Agence France Presse  Archived from the original on February          Retrieved March          
+
+  Coscarelli  Joe  April             An A I  Hit of Fake  Drake  and  The Weeknd  Rattles the Music World   The New York Times  Archived from the original on May           Retrieved May          
+
+  Auslender  Viki  Ashkenazi  Shani  April             The environmental pollution behind the boom in artificial intelligence   ctech  Calcalist  Retrieved January          
+
+  Harrison Dupr   Maggie  May             Huge Power Demand for AI Is Keeping Polluting Coal Plants Alive   Futurism  Retrieved January          
+
+  Chu  Amanda  May             AI s thirst for electricity risks slowing US coal phaseout   Financial Times  Archived from the original on May           Retrieved January          
+
+  da Silva  Jo o   Google turns to nuclear to power AI data centres   BBC com  No          October       Retrieved January          
+
+  Browne  Ryan  October             Why Big Tech is turning to nuclear to power its energy intensive AI ambitions   CNBC  Retrieved January          
+
+  Mandler  C  September             Three Mile Island nuclear plant will reopen to power Microsoft data centers   NPR  Retrieved January          
+
+  Valinsky  Jordan  September             Three Mile Island is reopening and selling its power to Microsoft   CNN Business   CNN  Retrieved January          
+
+  Warren  Tom  September             Microsoft wants Three Mile Island to fuel its AI power needs   The Verge  Retrieved January          
+
+  Roose  Kevin  December             This A I  Subculture s Motto  Go  Go  Go   The New York Times  Retrieved December          
+
+  a b Buntz  Brian  November            Quality vs  quantity  US and China chart different paths in global AI patent race in        Geographical breakdown of AI patents in        R amp D World  Archived from the original on December         
+
+  Baily  Martin Neil  Brynjolfsson  Erik  Korinek  Anton  May             Machines of mind  The case for an AI powered productivity boom   Brookings  Retrieved January         
+
+  Brynjolfsson  Erik  Petropoulos  Georgios  June             The coming productivity boom   MIT Technology Review  Retrieved January         
+
+  Smialek  Jeanna  February             Are We in a Productivity Boom  For Clues  Look to        Archived from the original on December           Retrieved January         
+
+   A Long Bet  Bet      Duration   Years                 longbets org 
+
+  Kantrowitz  Alex  March             Can Demis Hassabis Save Google    Big Technology  Retrieved March          
+
+  Hur  Krystal  June             Nvidia surpasses Microsoft to become the largest public company in the world   CNN  Archived from the original on June           Retrieved June          
+
+   Is pandemic exodus over  SF population slightly increasing  Census Bureau numbers show   ABC  News  March          
+
+  a b Brynjolfsson  Erik  McAfee  Andrew  July             The Business of Artificial Intelligence   Harvard Business Review  ISSN                 Retrieved April          
+
+         Time to Act   Wavestone  Retrieved April          
+
+  a b c  The state of AI in       Generative AI s breakout year   McKinsey   www mckinsey com  Retrieved April          
+
+  Davenport  amp  Harris  Thomas  amp  Jeanne  August            Competing on analytics  Harvard Business Press  ISBN                     
+
+   Becoming an AI fueled organization  State of AI in the Enterprise   th Edition   Deloitte Insights  Retrieved April          
+
+       Generative AI stats on fundraising for AI companies by year  Copy   update    datawrapper dwcdn net  Retrieved April          
+
+  Se  amp  Ansari  Ksenia  amp  Tasmia  November            Jasper AI  A dilemma of a thin wrapper  
+
+   Infographic  Microsoft and Amazon Dominate the Cloud   Statista Daily Data  July           Retrieved April          
+
+  Jacobides  Michael G   Brusoni  Stefano  Candelon  Francois  December         The Evolutionary Dynamics of the Artificial Intelligence Ecosystem   Strategy Science                  doi         stsc            hdl                      ISSN                
+
+  Knapton  Ken   Council Post  Navigating The Biases In LLM Generative AI  A Guide To Responsible Implementation   Forbes  Retrieved March          
+
+  a b Hendrycks  Dan  Mazeika  Mantas  Thomas Woodside  June             An Overview of Catastrophic AI Risks   arXiv             cs CY  
+
+   The AI boom  lessons from history   The Economist 
+
+  Eapen  Tojin T   Finkenstadt  Daniel J   Folk  Josh  Venkataswamy  Lokesh  June             How Generative AI Can Augment Human Creativity   Harvard Business Review  Cambridge  Massachusetts  ISSN                 Retrieved June          
+
+  Sukhadeve  Ashish  February            Council Post  Artificial Intelligence For Good  How AI Is Helping Humanity   Forbes  Archived from the original on May          Retrieved May          
+
+   Could AI advancements be a threat to your job security    Learning People  Archived from the original on May          Retrieved May          
+
+  Zinkula  Jacob  Mok  Aaron  June            ChatGPT may be coming for our jobs  Here are the    roles that AI is most likely to replace   Business Insider  Archived from the original on May          Retrieved May          
+
+  McKendrick  Joe  May             No matter how sophisticated  artificial intelligence systems still need human oversight   ZDNET  Archived from the original on May           Retrieved May          
+
+  Hammond  George  December             Big Tech is spending more than VC firms on AI startups   Ars Technica  Archived from the original on January          
+
+  Wong  Matteo  October             The Future of AI Is GOMA   The Atlantic  Archived from the original on January         
+
+   Big tech and the pursuit of AI dominance   The Economist  March           Archived from the original on December          
+
+  Fung  Brian  December             Where the battle to dominate AI may be won   CNN Business  Archived from the original on January          
+
+  Metz  Cade  July            In the Age of A I   Tech s Little Guys Need Big Friends   The New York Times 
+
+  Steiner  Christopher   Companies With Most AI Patents   Index    Retrieved November         
+
+  Kafka  Peter  February            The AI boom is here  and so are the lawsuits   Vox  Archived from the original on May          Retrieved March          
+
+  Broersma  Matthew  March             Nvidia Sued By Authors For Training AI With Copyrighted Works   Silicon UK 
+
+   Sarah Silverman and novelists sue ChatGPT maker OpenAI for ingesting their books   AP News  July          
+
+  Morales  James  January            Journalism Fights Back   CCN com 
+
+  Smirke  Richard  December             Music Biz Calls for  Robust  Action as U K  Government Begins Consultation on AI Regulations   Billboard  Penske Media Corporation  Retrieved February          
+
+  Glynn  Paul  February             Artists Release Silent Album in Protest Against AI Using Their Work   BBC  Retrieved February          
+
+  Verma  Pranshu  December             The rise of AI fake news is creating a  misinformation superspreader    Washington Post  Washington  D C  Retrieved February         
+
+  Peters  Mitchell  April             Drake Takes Aim at Kendrick Lamar With AI Tupac  amp  Snoop Dogg Vocals on  Taylor Made Freestyle  Diss Track   Billboard  Archived from the original on April           Retrieved April          
+
+  Donahue  Bill  April             Tupac Shakur s Estate Threatens to Sue Drake Over Diss Track Featuring AI Generated Tupac Voice   Billboard  Archived from the original on April           Retrieved April          
+
+  OpenAi  May            Live demo of GPT  o voice variation  Retrieved May                  via YouTube 
+
+  Tong  Anna  Sriram  Akash  May             OpenAI unveils new AI model as competition heats up   Reuters  Retrieved May          
+
+   BobbyAllyn  May             Statement from Scarlett Johansson on the OpenAI situation  Wow   Tweet          via Twitter 
+
+  Knight  Will  May             Scarlett Johansson Says OpenAI Ripped Off Her Voice for ChatGPT   Wired  Retrieved May          
+
+  Gin  Gina  June             Scarlett Johansson and Sam Altman Revisited   Sky  is the Limit   The Servitor  Retrieved September         
+
+  Tiku  Nitasha  May             OpenAI didn t copy Scarlett Johansson s voice for ChatGPT  records show   Washington Post  Retrieved April          
+
+  Charlebois  Brieanna  February            AI makes deepfake pornography more accessible  as Canadian laws play catch up   CBC News  Archived from the original on March           Retrieved March          
+
+   Liberals intend to include sexually explicit deepfakes under online harms bill   CTVNews  February          Retrieved March          
+
+   AOC s Plan to End Deepfake Porn   Yahoo News  March          Retrieved March          
+
+   AI Tools Directory  amp  List Of Best Free AI By Category   aiboomlist com  Retrieved November          
+
+  Milmo  Dan  July            Google s emissions climb nearly     in five years due to AI energy demand   The Guardian 
+
+  Ortiz  Sabrina  November            Watch out  Generative AI will level up cyber attacks  according to new Google report   ZDNET  Retrieved February         
+
+  Sankaran  Vishwam  September            AI can help generate synthetic viruses and spark pandemics  warns ex Google executive   The Independent  Retrieved February         
+
+  Piper  Kelsey  June             How AI could spark the next pandemic   Vox  Retrieved March          
+
+  Chow  Andrew R   Perrigo  Billy  February             The AI Arms Race Is Changing Everything   Time 
+
+   A Race to Extinction  How Great Power Competition Is Making Artificial Intelligence Existentially Dangerous   Harvard International Review  September          Retrieved March          
+
+   Avoiding Extreme Global Vulnerability as a Core AI Governance Problem   AI Safety Fundamentals  BlueDot Impact  November          Archived from the original on January           Retrieved December         
+
+  Kateman  Brian  July             AI Should Be Terrified of Humans   Time  Retrieved February         
+
+  Akst  Daniel  April             Should Robots With Artificial Intelligence Have Moral or Legal Rights    The Wall Street Journal 
+
+  Roose  Kevin  May             A I  Poses  Risk of Extinction   Industry Leaders Warn   The New York Times  Retrieved February         
+
+
+Further reading edit 
+Chen  Caiwei  March             China built hundreds of AI data centers to catch the AI boom  Now many stand unused   MIT Technology Review  Retrieved March          
+Heath  Alex  December           Why investors don t mind that AI is a money pit  The Verge  Retrieved March          
+External links edit 
+ In the Age of AI   Frontline  Season     Episode    November          PBS  WGBH  Retrieved June         
+vteArtificial intelligence  AI History  timeline Concepts
+Parameter
+Hyperparameter
+Loss functions
+Regression
+Bias variance tradeoff
+Double descent
+Overfitting
+Clustering
+Gradient descent
+SGD
+Quasi Newton method
+Conjugate gradient method
+Backpropagation
+Attention
+Convolution
+Normalization
+Batchnorm
+Activation
+Softmax
+Sigmoid
+Rectifier
+Gating
+Weight initialization
+Regularization
+Datasets
+Augmentation
+Prompt engineering
+Reinforcement learning
+Q learning
+SARSA
+Imitation
+Policy gradient
+Diffusion
+Latent diffusion model
+Autoregression
+Adversary
+RAG
+Uncanny valley
+RLHF
+Self supervised learning
+Recursive self improvement
+Word embedding
+Hallucination
+Applications
+Machine learning
+In context learning
+Artificial neural network
+Deep learning
+Language model
+Large language model
+NMT
+Artificial general intelligence  AGI 
+ImplementationsAudio visual
+AlexNet
+WaveNet
+Human image synthesis
+HWR
+OCR
+Speech synthesis
+   ai
+ElevenLabs
+Speech recognition
+Whisper
+Facial recognition
+AlphaFold
+Text to image models
+Aurora
+DALL E
+Firefly
+Flux
+Ideogram
+Imagen
+Midjourney
+Stable Diffusion
+Text to video models
+Dream Machine
+Runway Gen
+Hailuo AI
+Kling
+Sora
+Veo
+Music generation
+Suno AI
+Udio
+Text
+Word vec
+Seq seq
+GloVe
+BERT
+T 
+Llama
+Chinchilla AI
+PaLM
+GPT
+ 
+ 
+ 
+J
+ChatGPT
+ 
+ o
+o 
+o 
+   
+   
+o 
+Claude
+Gemini
+chatbot
+Grok
+LaMDA
+BLOOM
+Project Debater
+IBM Watson
+IBM Watsonx
+Granite
+PanGu  
+DeepSeek
+Qwen
+Decisional
+AlphaGo
+AlphaZero
+OpenAI Five
+Self driving car
+MuZero
+Action selection
+AutoGPT
+Robot control
+People
+Alan Turing
+Warren Sturgis McCulloch
+Walter Pitts
+John von Neumann
+Claude Shannon
+Marvin Minsky
+John McCarthy
+Nathaniel Rochester
+Allen Newell
+Cliff Shaw
+Herbert A  Simon
+Oliver Selfridge
+Frank Rosenblatt
+Bernard Widrow
+Joseph Weizenbaum
+Seymour Papert
+Seppo Linnainmaa
+Paul Werbos
+J rgen Schmidhuber
+Yann LeCun
+Geoffrey Hinton
+John Hopfield
+Yoshua Bengio
+Lotfi A  Zadeh
+Stephen Grossberg
+Alex Graves
+Andrew Ng
+Fei Fei Li
+Alex Krizhevsky
+Ilya Sutskever
+Demis Hassabis
+David Silver
+Ian Goodfellow
+Andrej Karpathy
+James Goodnight
+Architectures
+Neural Turing machine
+Differentiable neural computer
+Transformer
+Vision transformer  ViT 
+Recurrent neural network  RNN 
+Long short term memory  LSTM 
+Gated recurrent unit  GRU 
+Echo state network
+Multilayer perceptron  MLP 
+Convolutional neural network  CNN 
+Residual neural network  RNN 
+Highway network
+Mamba
+Autoencoder
+Variational autoencoder  VAE 
+Generative adversarial network  GAN 
+Graph neural network  GNN 
+
+ Portals
+Technology
+ Category
+Artificial neural networks
+Machine learning
+ List
+Companies
+Projects
+
+
+
+
+
+
+Retrieved from  https   en wikipedia org w index php title AI boom amp oldid

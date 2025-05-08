@@ -1,0 +1,1917 @@
+Branch of mathematics concerning chance and uncertainty
+Not to be confused with probability theory  game theory  graph theory  or statistics 
+For other uses  see Probability  disambiguation  
+
+
+
+Probability
+Outline
+Catalog of articles
+Probabilists
+Glossary
+Notation
+Journals
+Category
+ Mathematics     portal
+vte
+Part of a series on statisticsProbability theory
+Probability
+Axioms
+Determinism
+System
+Indeterminism
+Randomness
+
+Probability space
+Sample space
+Event
+Collectively exhaustive events
+Elementary event
+Mutual exclusivity
+Outcome
+Singleton
+Experiment
+Bernoulli trial
+Probability distribution
+Bernoulli distribution
+Binomial distribution
+Exponential distribution
+Normal distribution
+Pareto distribution
+Poisson distribution
+Probability measure
+Random variable
+Bernoulli process
+Continuous or discrete
+Expected value
+Variance
+Markov chain
+Observed value
+Random walk
+Stochastic process
+
+Complementary event
+Joint probability
+Marginal probability
+Conditional probability
+
+Independence
+Conditional independence
+Law of total probability
+Law of large numbers
+Bayes  theorem
+Boole s inequality
+
+Venn diagram
+Tree diagram
+vte
+Part of a series onMathematics
+History
+Index
+
+Areas
+Number theory
+Geometry
+Algebra
+Calculus and Analysis
+Discrete mathematics
+Logic
+Set theory
+Probability
+Statistics and Decision theory
+
+Relationship with sciences
+Physics
+Chemistry
+Geosciences
+Computation
+Biology
+Linguistics
+Economics
+Philosophy
+Education
+
+
+ Mathematics Portalvte
+The probabilities of rolling several numbers using two dice
+Probability is a branch of mathematics and statistics concerning events and numerical descriptions of how likely they are to occur   The probability of an event is a number between   and    the larger the probability  the more likely an event is to occur      note                              This number is often expressed as a percentage      ranging from    to       A simple example is the tossing of a fair  unbiased  coin  Since the coin is fair  the two outcomes   heads  and  tails   are both equally probable  the probability of  heads  equals the probability of  tails   and since no other outcomes are possible  the probability of either  heads  or  tails  is      which could also be written as     or      
+These concepts have been given an axiomatic mathematical formalization in probability theory  which is used widely in areas of study such as statistics  mathematics  science  finance  gambling  artificial intelligence  machine learning  computer science  game theory  and philosophy to  for example  draw inferences about the expected frequency of events  Probability theory is also used to describe the underlying mechanics and regularities of complex systems            
+
+
+Etymology edit 
+See also  History of probability        Etymology  and Glossary of probability and statistics
+Further information  Likelihood
+The word probability derives from the Latin probabilitas  which can also mean  probity   a measure of the authority of a witness in a legal case in Europe  and often correlated with the witness s nobility  In a sense  this differs much from the modern meaning of probability  which in contrast is a measure of the weight of empirical evidence  and is arrived at from inductive reasoning and statistical inference            
+
+Interpretations edit 
+Main article  Probability interpretations
+When dealing with random experiments   i e   experiments that are random and well defined   in a purely theoretical setting  like tossing a coin   probabilities can be numerically described by the number of desired outcomes  divided by the total number of all outcomes   This is referred to as theoretical probability  in contrast to empirical probability  dealing with probabilities in the context of real experiments   The probability is a number between   and    the larger the probability  the more likely the desired outcome is to occur  For example  tossing a coin twice will yield  head head    head tail    tail head   and  tail tail  outcomes  The probability of getting an outcome of  head head  is   out of   outcomes  or  in numerical terms            or      The probability of getting an outcome of at least one head is   out of    or       and this event is more likely to occur  However  when it comes to practical application  there are two major competing categories of probability interpretations  whose adherents hold different views about the fundamental nature of probability 
+
+Objectivists assign numbers to describe some objective or physical state of affairs  The most popular version of objective probability is frequentist probability  which claims that the probability of a random event denotes the relative frequency of occurrence of an experiment s outcome when the experiment is repeated indefinitely  This interpretation considers probability to be the relative frequency  in the long run  of outcomes             A modification of this is propensity probability  which interprets probability as the tendency of some experiment to yield a certain outcome  even if it is performed only once 
+Subjectivists assign numbers per subjective probability  that is  as a degree of belief             The degree of belief has been interpreted as  the price at which you would buy or sell a bet that pays   unit of utility if E    if not E              although that interpretation is not universally agreed upon             The most popular version of subjective probability is Bayesian probability  which includes expert knowledge as well as experimental data to produce probabilities  The expert knowledge is represented by some  subjective  prior probability distribution  These data are incorporated in a likelihood function  The product of the prior and the likelihood  when normalized  results in a posterior probability distribution that incorporates all the information known to date             By Aumann s agreement theorem  Bayesian agents whose prior beliefs are similar will end up with similar posterior beliefs  However  sufficiently different priors can lead to different conclusions  regardless of how much information the agents share             
+History edit 
+Main article  History of probability
+Further information  History of statistics
+The scientific study of probability is a modern development of mathematics  Gambling shows that there has been an interest in quantifying the ideas of probability throughout history  but exact mathematical descriptions arose much later  There are reasons for the slow development of the mathematics of probability  Whereas games of chance provided the impetus for the mathematical study of probability  fundamental issues      note        are still obscured by superstitions             
+According to Richard Jeffrey   Before the middle of the seventeenth century  the term  probable   Latin probabilis  meant approvable  and was applied in that sense  univocally  to opinion and to action  A probable action or opinion was one such as sensible people would undertake or hold  in the circumstances               However  in legal contexts especially   probable  could also apply to propositions for which there was good evidence             
+
+Gerolamo Cardano    th century 
+Christiaan Huygens published one of the first books on probability    th century  
+The sixteenth century Italian polymath Gerolamo Cardano demonstrated the efficacy of defining odds as the ratio of favourable to unfavourable outcomes  which implies that the probability of an event is given by the ratio of favourable outcomes to the total number of possible outcomes              
+Aside from the elementary work by Cardano  the doctrine of probabilities dates to the correspondence of Pierre de Fermat and Blaise Pascal         Christiaan Huygens        gave the earliest known scientific treatment of the subject              Jakob Bernoulli s Ars Conjectandi  posthumous        and Abraham de Moivre s Doctrine of Chances        treated the subject as a branch of mathematics              See Ian Hacking s The Emergence of Probability            and James Franklin s The Science of Conjecture             for histories of the early development of the very concept of mathematical probability 
+The theory of errors may be traced back to Roger Cotes s Opera Miscellanea  posthumous         but a memoir prepared by Thomas Simpson in       printed       first applied the theory to the discussion of errors of observation              The reprint        of this memoir lays down the axioms that positive and negative errors are equally probable  and that certain assignable limits define the range of all errors  Simpson also discusses continuous errors and describes a probability curve 
+The first two laws of error that were proposed both originated with Pierre Simon Laplace  The first law was published in       and stated that the frequency of an error could be expressed as an exponential function of the numerical magnitude of the error                  disregarding sign  The second law of error was proposed in      by Laplace  and stated that the frequency of the error is an exponential function of the square of the error              The second law of error is called the normal distribution or the Gauss law   It is difficult historically to attribute that law to Gauss  who in spite of his well known precocity had probably not made this discovery before he was two years old              
+Daniel Bernoulli        introduced the principle of the maximum product of the probabilities of a system of concurrent errors 
+
+Carl Friedrich Gauss
+Adrien Marie Legendre        developed the method of least squares  and introduced it in his Nouvelles m thodes pour la d termination des orbites des com tes  New Methods for Determining the Orbits of Comets               In ignorance of Legendre s contribution  an Irish American writer  Robert Adrain  editor of  The Analyst          first deduced the law of facility of error 
+
+  
+    
+      
+          x d  
+         
+        x
+         
+         
+        c
+        
+          e
+          
+              x     
+            
+              h
+              
+                 
+              
+            
+            
+              x
+              
+                 
+              
+            
+          
+        
+      
+    
+      displaystyle  phi  x  ce   h    x      
+  
+
+where 
+  
+    
+      
+        h
+      
+    
+      displaystyle h 
+  
+ is a constant depending on precision of observation  and 
+  
+    
+      
+        c
+      
+    
+      displaystyle c 
+  
+ is a scale factor ensuring that the area under the curve equals    He gave two proofs  the second being essentially the same as John Herschel s             citation needed      Gauss gave the first proof that seems to have been known in Europe  the third after Adrain s  in       Further proofs were given by Laplace               Gauss         James Ivory               Hagen         Friedrich Bessel         W F  Donkin               and Morgan Crofton         Other contributors were Ellis         De Morgan         Glaisher         and Giovanni Schiaparelli         Peters s        formula     clarification needed      for r  the probable error of a single observation  is well known 
+In the nineteenth century  authors on the general theory included Laplace  Sylvestre Lacroix         Littrow         Adolphe Quetelet         Richard Dedekind         Helmert         Hermann Laurent         Liagre  Didion and Karl Pearson  Augustus De Morgan and George Boole improved the exposition of the theory 
+In       Andrey Markov introduced             the notion of Markov chains  which played an important role in stochastic processes theory and its applications  The modern theory of probability based on measure theory was developed by Andrey Kolmogorov in                  
+On the geometric side  contributors to The Educational Times included Miller  Crofton  McColl  Wolstenholme  Watson  and Artemas Martin              See integral geometry for more information 
+
+Theory edit 
+Main article  Probability theory
+Like other theories  the theory of probability is a representation of its concepts in formal terms                  that is  in terms that can be considered separately from their meaning  These formal terms are manipulated by the rules of mathematics and logic  and any results are interpreted or translated back into the problem domain 
+There have been at least two successful attempts to formalize probability  namely the Kolmogorov formulation and the Cox formulation  In Kolmogorov s formulation  see also probability space   sets are interpreted as events and probability as a measure on a class of sets  In Cox s theorem  probability is taken as a primitive  i e   not further analyzed   and the emphasis is on constructing a consistent assignment of probability values to propositions  In both cases  the laws of probability are the same  except for technical details 
+There are other methods for quantifying uncertainty  such as the Dempster Shafer theory or possibility theory  but those are essentially different and not compatible with the usually understood laws of probability 
+
+Applications edit 
+Probability theory is applied in everyday life in risk assessment and modeling  The insurance industry and markets use actuarial science to determine pricing and make trading decisions  Governments apply probabilistic methods in environmental regulation  entitlement analysis  and financial regulation 
+An example of the use of probability theory in equity trading is the effect of the perceived probability of any widespread Middle East conflict on oil prices  which have ripple effects in the economy as a whole  An assessment by a commodity trader that a war is more likely can send that commodity s prices up or down  and signals other traders of that opinion  Accordingly  the probabilities are neither assessed independently nor necessarily rationally  The theory of behavioral finance emerged to describe the effect of such groupthink on pricing  on policy  and on peace and conflict             
+In addition to financial assessment  probability can be used to analyze trends in biology  e g   disease spread  as well as ecology  e g   biological Punnett squares               As with finance  risk assessment can be used as a statistical tool to calculate the likelihood of undesirable events occurring  and can assist with implementing protocols to avoid encountering such circumstances  Probability is used to design games of chance so that casinos can make a guaranteed profit  yet provide payouts to players that are frequent enough to encourage continued play             
+Another significant application of probability theory in everyday life is reliability  Many consumer products  such as automobiles and consumer electronics  use reliability theory in product design to reduce the probability of failure  Failure probability may influence a manufacturer s decisions on a product s warranty             
+The cache language model and other statistical language models that are used in natural language processing are also examples of applications of probability theory 
+
+Mathematical treatment edit 
+Calculation of probability  risk  vs odds
+See also  Probability axioms
+Consider an experiment that can produce a number of results  The collection of all possible results is called the sample space of the experiment  sometimes denoted as 
+  
+    
+      
+          x a  
+      
+    
+      displaystyle  Omega  
+  
+  The power set of the sample space is formed by considering all different collections of possible results  For example  rolling a die can produce six possible results  One collection of possible results gives an odd number on the die  Thus  the subset         is an element of the power set of the sample space of dice rolls  These collections are called  events   In this case          is the event that the die falls on some odd number  If the results that actually occur fall in a given event  the event is said to have occurred 
+A probability is a way of assigning every event a value between zero and one  with the requirement that the event made up of all possible results  in our example  the event                is assigned a value of one  To qualify as a probability  the assignment of values must satisfy the requirement that for any collection of mutually exclusive events  events with no common results  such as the events             and         the probability that at least one of the events will occur is given by the sum of the probabilities of all the individual events             
+The probability of an event A is written as 
+  
+    
+      
+        P
+         
+        A
+         
+      
+    
+      displaystyle P A  
+  
+              
+  
+    
+      
+        p
+         
+        A
+         
+      
+    
+      displaystyle p A  
+  
+  or 
+  
+    
+      
+        
+          Pr
+        
+         
+        A
+         
+      
+    
+      displaystyle   text Pr   A  
+  
+              This mathematical definition of probability can extend to infinite sample spaces  and even uncountable sample spaces  using the concept of a measure 
+The opposite or complement of an event A is the event  not A   that is  the event of A not occurring   often denoted as 
+  
+    
+      
+        
+          A
+            x     
+        
+         
+        
+          A
+          
+            c
+          
+        
+      
+    
+      displaystyle A  A  c  
+  
+  
+  
+    
+      
+        
+          
+            A
+              xaf 
+          
+        
+         
+        
+          A
+          
+              x     
+          
+        
+         
+          xac 
+        A
+      
+    
+      displaystyle   overline  A   A   complement    neg A 
+  
+  or 
+  
+    
+      
+        
+            x   c 
+        
+        A
+      
+    
+      displaystyle   sim  A 
+  
+  its probability is given by P not A        P A               As an example  the chance of not rolling a six on a six sided die is      chance of rolling a six                                               For a more comprehensive treatment  see Complementary event 
+If two events A and B occur on a single performance of an experiment  this is called the intersection or joint probability of A and B  denoted as 
+  
+    
+      
+        P
+         
+        A
+          x     
+        B
+         
+         
+      
+    
+      displaystyle P A cap B   
+  
+
+
+Independent events edit 
+If two events  A and B are independent then the joint probability is            
+
+  
+    
+      
+        P
+         
+        A
+        
+          
+              xa  and  xa  
+          
+        
+        B
+         
+         
+        P
+         
+        A
+          x     
+        B
+         
+         
+        P
+         
+        A
+         
+        P
+         
+        B
+         
+         
+      
+    
+      displaystyle P A  mbox  and   B  P A cap B  P A P B   
+  
+
+
+Events A and B depicted as independent vs non independent in space  
+For example  if two coins are flipped  then the chance of both being heads is 
+  
+    
+      
+        
+          
+            
+               
+               
+            
+          
+        
+          xd  
+        
+          
+            
+               
+               
+            
+          
+        
+         
+        
+          
+            
+               
+               
+            
+          
+        
+         
+      
+    
+      displaystyle   tfrac         times   tfrac           tfrac          
+  
+            
+
+Mutually exclusive events edit 
+Main article  Mutual exclusivity
+If either event A or event B can occur but never both simultaneously  then they are called mutually exclusive events 
+If two events are mutually exclusive  then the probability of both occurring is denoted as 
+  
+    
+      
+        P
+         
+        A
+          x     
+        B
+         
+      
+    
+      displaystyle P A cap B  
+  
+ and
+  
+    
+      
+        P
+         
+        A
+        
+          
+              xa  and  xa  
+          
+        
+        B
+         
+         
+        P
+         
+        A
+          x     
+        B
+         
+         
+         
+      
+    
+      displaystyle P A  mbox  and   B  P A cap B    
+  
+ If two events are mutually exclusive  then the probability of either occurring is denoted as 
+  
+    
+      
+        P
+         
+        A
+          x   a 
+        B
+         
+      
+    
+      displaystyle P A cup B  
+  
+ and
+  
+    
+      
+        P
+         
+        A
+        
+          
+              xa  or  xa  
+          
+        
+        B
+         
+         
+        P
+         
+        A
+          x   a 
+        B
+         
+         
+        P
+         
+        A
+         
+         
+        P
+         
+        B
+         
+          x     
+        P
+         
+        A
+          x     
+        B
+         
+         
+        P
+         
+        A
+         
+         
+        P
+         
+        B
+         
+          x     
+         
+         
+        P
+         
+        A
+         
+         
+        P
+         
+        B
+         
+      
+    
+      displaystyle P A  mbox  or   B  P A cup B  P A  P B  P A cap B  P A  P B    P A  P B  
+  
+
+For example  the chance of rolling a   or   on a six sided die is 
+  
+    
+      
+        P
+         
+         
+        
+          
+              xa  or  xa  
+          
+        
+         
+         
+         
+        P
+         
+         
+         
+         
+        P
+         
+         
+         
+         
+        
+          
+            
+               
+               
+            
+          
+        
+         
+        
+          
+            
+               
+               
+            
+          
+        
+         
+        
+          
+            
+               
+               
+            
+          
+        
+         
+      
+    
+      displaystyle P    mbox  or      P    P      tfrac           tfrac           tfrac          
+  
+
+
+Not  necessarily  mutually exclusive events edit 
+If the events are not  necessarily  mutually exclusive then
+  
+    
+      
+        P
+        
+           
+          
+            A
+            
+              
+                  xa  or  xa  
+              
+            
+            B
+          
+           
+        
+         
+        P
+         
+        A
+          x   a 
+        B
+         
+         
+        P
+        
+           
+          A
+           
+        
+         
+        P
+        
+           
+          B
+           
+        
+          x     
+        P
+        
+           
+          
+            A
+            
+              
+                  xa  and  xa  
+              
+            
+            B
+          
+           
+        
+         
+      
+    
+      displaystyle P left A  hbox  or   B right  P A cup B  P left A right  P left B right  P left A  mbox  and   B right   
+  
+ Rewritten 
+  
+    
+      
+        P
+        
+           
+          
+            A
+              x   a 
+            B
+          
+           
+        
+         
+        P
+        
+           
+          A
+           
+        
+         
+        P
+        
+           
+          B
+           
+        
+          x     
+        P
+        
+           
+          
+            A
+              x     
+            B
+          
+           
+        
+      
+    
+      displaystyle P left A cup B right  P left A right  P left B right  P left A cap B right  
+  
+
+For example  when drawing a card from a deck of cards  the chance of getting a heart or a face card  J  Q  K   or both  is 
+  
+    
+      
+        
+          
+            
+                
+                
+            
+          
+        
+         
+        
+          
+            
+                
+                
+            
+          
+        
+          x     
+        
+          
+            
+               
+                
+            
+          
+        
+         
+        
+          
+            
+                
+                
+            
+          
+        
+         
+      
+    
+      displaystyle   tfrac             tfrac             tfrac            tfrac            
+  
+ since among the    cards of a deck     are hearts     are face cards  and   are both  here the possibilities included in the    that are both  are included in each of the     hearts  and the     face cards   but should only be counted once 
+This can be expanded further for multiple not  necessarily  mutually exclusive events  For three events  this proceeds as follows 
+  
+    
+      
+        
+          
+            
+              
+                P
+                
+                   
+                  
+                    A
+                      x   a 
+                    B
+                      x   a 
+                    C
+                  
+                   
+                
+                 
+              
+              
+                P
+                
+                   
+                  
+                    
+                       
+                      
+                        A
+                          x   a 
+                        B
+                      
+                       
+                    
+                      x   a 
+                    C
+                  
+                   
+                
+              
+            
+            
+              
+                 
+              
+              
+                P
+                
+                   
+                  
+                    A
+                      x   a 
+                    B
+                  
+                   
+                
+                 
+                P
+                
+                   
+                  C
+                   
+                
+                  x     
+                P
+                
+                   
+                  
+                    
+                       
+                      
+                        A
+                          x   a 
+                        B
+                      
+                       
+                    
+                      x     
+                    C
+                  
+                   
+                
+              
+            
+            
+              
+                 
+              
+              
+                P
+                
+                   
+                  A
+                   
+                
+                 
+                P
+                
+                   
+                  B
+                   
+                
+                  x     
+                P
+                
+                   
+                  
+                    A
+                      x     
+                    B
+                  
+                   
+                
+                 
+                P
+                
+                   
+                  C
+                   
+                
+                  x     
+                P
+                
+                   
+                  
+                    
+                       
+                      
+                        A
+                          x     
+                        C
+                      
+                       
+                    
+                      x   a 
+                    
+                       
+                      
+                        B
+                          x     
+                        C
+                      
+                       
+                    
+                  
+                   
+                
+              
+            
+            
+              
+                 
+              
+              
+                P
+                
+                   
+                  A
+                   
+                
+                 
+                P
+                
+                   
+                  B
+                   
+                
+                 
+                P
+                
+                   
+                  C
+                   
+                
+                  x     
+                P
+                
+                   
+                  
+                    A
+                      x     
+                    B
+                  
+                   
+                
+                  x     
+                
+                   
+                  
+                    P
+                    
+                       
+                      
+                        A
+                          x     
+                        C
+                      
+                       
+                    
+                     
+                    P
+                    
+                       
+                      
+                        B
+                          x     
+                        C
+                      
+                       
+                    
+                      x     
+                    P
+                    
+                       
+                      
+                        
+                           
+                          
+                            A
+                              x     
+                            C
+                          
+                           
+                        
+                          x     
+                        
+                           
+                          
+                            B
+                              x     
+                            C
+                          
+                           
+                        
+                      
+                       
+                    
+                  
+                   
+                
+              
+            
+            
+              
+                P
+                
+                   
+                  
+                    A
+                      x   a 
+                    B
+                      x   a 
+                    C
+                  
+                   
+                
+                 
+              
+              
+                P
+                
+                   
+                  A
+                   
+                
+                 
+                P
+                
+                   
+                  B
+                   
+                
+                 
+                P
+                
+                   
+                  C
+                   
+                
+                  x     
+                P
+                
+                   
+                  
+                    A
+                      x     
+                    B
+                  
+                   
+                
+                  x     
+                P
+                
+                   
+                  
+                    A
+                      x     
+                    C
+                  
+                   
+                
+                  x     
+                P
+                
+                   
+                  
+                    B
+                      x     
+                    C
+                  
+                   
+                
+                 
+                P
+                
+                   
+                  
+                    A
+                      x     
+                    B
+                      x     
+                    C
+                  
+                   
+                
+              
+            
+          
+        
+      
+    
+      displaystyle   begin aligned P left A cup B cup C right   amp P left  left A cup B right  cup C right     amp P left A cup B right  P left C right  P left  left A cup B right  cap C right     amp P left A right  P left B right  P left A cap B right  P left C right  P left  left A cap C right  cup  left B cap C right  right     amp P left A right  P left B right  P left C right  P left A cap B right   left P left A cap C right  P left B cap C right  P left  left A cap C right  cap  left B cap C right  right  right   P left A cup B cup C right   amp P left A right  P left B right  P left C right  P left A cap B right  P left A cap C right  P left B cap C right  P left A cap B cap C right  end aligned   
+  
+It can be seen  then  that this pattern can be repeated for any number of events 
+
+Conditional probability edit 
+Conditional probability is the probability of some event A  given the occurrence of some other event B  Conditional probability is written 
+  
+    
+      
+        P
+         
+        A
+          x     
+        B
+         
+      
+    
+      displaystyle P A mid B  
+  
+  and is read  the probability of A  given B   It is defined by            
+
+  
+    
+      
+        P
+         
+        A
+          x     
+        B
+         
+         
+        
+          
+            
+              P
+               
+              A
+                x     
+              B
+               
+            
+            
+              P
+               
+              B
+               
+            
+          
+        
+        
+      
+    
+      displaystyle P A mid B    frac  P A cap B   P B      
+  
+
+If 
+  
+    
+      
+        P
+         
+        B
+         
+         
+         
+      
+    
+      displaystyle P B    
+  
+ then 
+  
+    
+      
+        P
+         
+        A
+          x     
+        B
+         
+      
+    
+      displaystyle P A mid B  
+  
+ is formally undefined by this expression  In this case 
+  
+    
+      
+        A
+      
+    
+      displaystyle A 
+  
+ and 
+  
+    
+      
+        B
+      
+    
+      displaystyle B 
+  
+ are independent  since 
+  
+    
+      
+        P
+         
+        A
+          x     
+        B
+         
+         
+        P
+         
+        A
+         
+        P
+         
+        B
+         
+         
+          
+      
+    
+      displaystyle P A cap B  P A P B     
+  
+ However  it is possible to define a conditional probability for some zero probability events  for example by using a   algebra of such events  such as those arising from a continuous random variable              
+For example  in a bag of   red balls and   blue balls    balls in total   the probability of taking a red ball is 
+  
+    
+      
+         
+        
+           
+        
+         
+         
+      
+    
+      displaystyle      
+  
+ however  when taking a second ball  the probability of it being either a red ball or a blue ball depends on the ball previously taken  For example  if a red ball was taken  then the probability of picking a red ball again would be 
+  
+    
+      
+         
+        
+           
+        
+         
+         
+      
+    
+      displaystyle      
+  
+ since only   red and   blue balls would have been remaining  And if a blue ball was taken previously  the probability of taking a red ball will be 
+  
+    
+      
+         
+        
+           
+        
+          
+      
+    
+      displaystyle      
+  
+
+
+Inverse probability edit 
+Main article  Inverse probability
+In probability theory and applications  Bayes  rule relates the odds of event 
+  
+    
+      
+        
+          A
+          
+             
+          
+        
+      
+    
+      displaystyle A     
+  
+ to event 
+  
+    
+      
+        
+          A
+          
+             
+          
+        
+         
+      
+    
+      displaystyle A      
+  
+ before  prior to  and after  posterior to  conditioning on another event 
+  
+    
+      
+        B
+         
+      
+    
+      displaystyle B  
+  
+ The odds on 
+  
+    
+      
+        
+          A
+          
+             
+          
+        
+      
+    
+      displaystyle A     
+  
+ to event 
+  
+    
+      
+        
+          A
+          
+             
+          
+        
+      
+    
+      displaystyle A     
+  
+ is simply the ratio of the probabilities of the two events  When arbitrarily many events 
+  
+    
+      
+        A
+      
+    
+      displaystyle A 
+  
+ are of interest  not just two  the rule can be rephrased as posterior is proportional to prior times likelihood  
+  
+    
+      
+        P
+         
+        A
+        
+           
+        
+        B
+         
+          x   d 
+        P
+         
+        A
+         
+        P
+         
+        B
+        
+           
+        
+        A
+         
+      
+    
+      displaystyle P A B  propto P A P B A  
+  
+ where the proportionality symbol means that the left hand side is proportional to  i e   equals a constant times  the right hand side as 
+  
+    
+      
+        A
+      
+    
+      displaystyle A 
+  
+ varies  for fixed or given 
+  
+    
+      
+        B
+      
+    
+      displaystyle B 
+  
+  Lee        Bertsch McGrayne         In this form it goes back to Laplace        and to Cournot         see Fienberg        
+
+Summary of probabilities edit 
+
+Summary of probabilities
+
+
+Event
+
+Probability
+
+
+A
+
+
+  
+    
+      
+        P
+         
+        A
+         
+          x     
+         
+         
+         
+         
+         
+      
+    
+      displaystyle P A  in       
+  
+
+
+
+not A
+
+
+  
+    
+      
+        P
+         
+        
+          A
+          
+              x     
+          
+        
+         
+         
+         
+          x     
+        P
+         
+        A
+         
+        
+      
+    
+      displaystyle P A   complement      P A    
+  
+
+
+
+A or B
+
+
+  
+    
+      
+        
+          
+            
+              
+                P
+                 
+                A
+                  x   a 
+                B
+                 
+              
+              
+                
+                 
+                P
+                 
+                A
+                 
+                 
+                P
+                 
+                B
+                 
+                  x     
+                P
+                 
+                A
+                  x     
+                B
+                 
+              
+            
+            
+              
+                P
+                 
+                A
+                  x   a 
+                B
+                 
+              
+              
+                
+                 
+                P
+                 
+                A
+                 
+                 
+                P
+                 
+                B
+                 
+                
+                
+                  
+                    if A and B are mutually exclusive
+                  
+                
+              
+            
+          
+        
+      
+    
+      displaystyle   begin aligned P A cup B  amp  P A  P B  P A cap B   P A cup B  amp  P A  P B  qquad   mbox if A and B are mutually exclusive     end aligned   
+  
+
+
+
+A and B
+
+
+  
+    
+      
+        
+          
+            
+              
+                P
+                 
+                A
+                  x     
+                B
+                 
+              
+              
+                
+                 
+                P
+                 
+                A
+                
+                   
+                
+                B
+                 
+                P
+                 
+                B
+                 
+                 
+                P
+                 
+                B
+                
+                   
+                
+                A
+                 
+                P
+                 
+                A
+                 
+              
+            
+            
+              
+                P
+                 
+                A
+                  x     
+                B
+                 
+              
+              
+                
+                 
+                P
+                 
+                A
+                 
+                P
+                 
+                B
+                 
+                
+                
+                  
+                    if A and B are independent
+                  
+                
+              
+            
+          
+        
+      
+    
+      displaystyle   begin aligned P A cap B  amp  P A B P B  P B A P A   P A cap B  amp  P A P B  qquad   mbox if A and B are independent     end aligned   
+  
+
+
+
+A given B
+
+
+  
+    
+      
+        P
+         
+        A
+          x     
+        B
+         
+         
+        
+          
+            
+              P
+               
+              A
+                x     
+              B
+               
+            
+            
+              P
+               
+              B
+               
+            
+          
+        
+         
+        
+          
+            
+              P
+               
+              B
+              
+                 
+              
+              A
+               
+              P
+               
+              A
+               
+            
+            
+              P
+               
+              B
+               
+            
+          
+        
+        
+      
+    
+      displaystyle P A mid B    frac  P A cap B   P B      frac  P B A P A   P B      
+  
+
+
+Relation to randomness and probability in quantum mechanics edit 
+Main article  Randomness
+See also  Quantum fluctuation        Interpretations
+In a deterministic universe  based on Newtonian concepts  there would be no probability if all conditions were known  Laplace s demon   but there are situations in which sensitivity to initial conditions exceeds our ability to measure them  i e  know them    In the case of a roulette wheel  if the force of the hand and the period of that force are known  the number on which the ball will stop would be a certainty  though as a practical matter  this would likely be true only of a roulette wheel that had not been exactly levelled   as Thomas A  Bass  Newtonian Casino revealed    This also assumes knowledge of inertia and friction of the wheel  weight  smoothness  and roundness of the ball  variations in hand speed during the turning  and so forth  A probabilistic description can thus be more useful than Newtonian mechanics for analyzing the pattern of outcomes of repeated rolls of a roulette wheel  Physicists face the same situation in the kinetic theory of gases  where the system  while deterministic in principle  is so complex  with the number of molecules typically the order of magnitude of the Avogadro constant            that only a statistical description of its properties is feasible             
+Probability theory is required to describe quantum phenomena              A revolutionary discovery of early   th century physics was the random character of all physical processes that occur at sub atomic scales and are governed by the laws of quantum mechanics  The objective wave function evolves deterministically but  according to the Copenhagen interpretation  it deals with probabilities of observing  the outcome being explained by a wave function collapse when an observation is made  However  the loss of determinism for the sake of instrumentalism did not meet with universal approval  Albert Einstein famously remarked in a letter to Max Born   I am convinced that God does not play dice               Like Einstein  Erwin Schr dinger  who discovered the wave function  believed quantum mechanics is a statistical approximation of an underlying deterministic reality              In some modern interpretations of the statistical mechanics of measurement  quantum decoherence is invoked to account for the appearance of subjectively probabilistic experimental outcomes 
+
+See also edit 
+
+Mathematics portalPhilosophy portal
+Main article  Outline of probability
+Contingency
+Equiprobability
+Fuzzy logic
+Heuristic  psychology 
+Notes edit 
+
+
+  Strictly speaking  a probability of   indicates that an event almost never takes place  whereas a probability of   indicates than an event almost certainly takes place  This is an important distinction when the sample space is infinite  For example  for the continuous uniform distribution on the real interval          there are an infinite number of possible outcomes  and the probability of any given outcome being observed   for instance  exactly     is    This means that an observation will almost surely not be exactly    However  it does not mean that exactly   is impossible  Ultimately some specific outcome  with probability    will be observed  and one possibility for that specific outcome is exactly   
+
+  In the context of the book that this is quoted from  it is the theory of probability and the logic behind it that governs the phenomena of such things compared to rash predictions that rely on pure luck or mythological arguments such as gods of luck helping the winner of the game 
+
+
+References edit 
+
+
+   Kendall s Advanced Theory of Statistics  Volume    Distribution Theory   Alan Stuart and Keith Ord   th ed           ISBN                        
+
+  William Feller  An Introduction to Probability Theory and Its Applications  vol           rd ed           Wiley  ISBN                    
+
+  Probability Theory  The Britannica website 
+
+  a b Hacking  I         The Emergence of Probability  A Philosophical Study of Early Ideas about Probability  Induction and Statistical Inference  Cambridge University Press  ISBN                             page      needed     
+
+  Hacking  Ian         The Logic of Statistical Inference  Cambridge University Press  ISBN                             page      needed     
+
+  Finetti  Bruno de          Logical foundations and measurement of subjective probability   Acta Psychologica               doi                              
+
+  H jek  Alan     October        Edward N  Zalta  ed     Interpretations of Probability   The Stanford Encyclopedia of Philosophy  Winter           ed    Retrieved    April      
+
+  Jaynes  E T           Section A   The de Finetti system of probability   In Bretthorst  G  Larry  ed    Probability Theory  The Logic of Science         ed    Cambridge University Press  ISBN                        
+
+  Hogg  Robert V   Craig  Allen  McKean  Joseph W          Introduction to Mathematical Statistics   th      ed    Upper Saddle River  Pearson  ISBN                             page      needed     
+
+  Jaynes  E T           Section     Converging and diverging views   In Bretthorst  G  Larry  ed    Probability Theory  The Logic of Science         ed    Cambridge University Press  ISBN                        
+
+  Freund  John          Introduction to Probability  Dickenson ISBN                         p    
+
+  Jeffrey  R C   Probability and the Art of Judgment  Cambridge University Press          pp          ISBN                   
+
+  Franklin  J         The Science of Conjecture  Evidence and Probability Before Pascal  Johns Hopkins University Press   pp               
+
+   Some laws and problems in classical probability and how Cardano anticipated them Gorrochum  P  Chance magazine        PDF  
+
+  Abrams  William  A Brief History of Probability  Second Moment  Archived from the original on    July       Retrieved    May      
+
+  Ivancevic  Vladimir G   Ivancevic  Tijana T          Quantum leap        from Dirac and Feynman  across the universe  to human body and mind  Singapore  Hackensack  NJ  World Scientific  p           ISBN                        
+
+  Franklin  James         The Science of Conjecture  Evidence and Probability Before Pascal  Johns Hopkins University Press  ISBN                        
+
+  Shoesmith  Eddie  November         Thomas Simpson and the arithmetic mean   Historia Mathematica                   doi                              
+
+  a b Wilson EB         First and second laws of error   Journal of the American Statistical Association         
+
+  Seneta  Eugene William    Adrien Marie Legendre   version      StatProb  The Encyclopedia Sponsored by Statistics and Probability Societies  Archived from the original on   February       Retrieved    January      
+
+  Weber  Richard   Markov Chains   PDF   Statistical Laboratory  University of Cambridge 
+
+  Vitanyi  Paul M B           Andrei Nikolaevich Kolmogorov   CWI Quarterly            Retrieved    January      
+
+  Wilcox  Rand R          Understanding and applying basic statistical methods using R  Hoboken  New Jersey  ISBN                         OCLC                  cite book     CS  maint  location missing publisher  link 
+
+  Singh  Laurie         Whither Efficient Markets  Efficient Market Theory and Behavioral Finance   The Finance Professionals  Post       
+
+  Edwards  Anthony William Fairbank  September         Reginald Crundall Punnett  First Arthur Balfour Professor of Genetics  Cambridge         Perspectives  Genetics           Gonville and Caius College  Cambridge  UK  Genetics Society of America        doi         genetics             PMC               PMID                pp                Punnett s square seems to have been a development of       too late for the first edition of his Mendelism  May       but much in evidence in Report III to the Evolution Committee of the Royal Society   Bateson et al      b   received March             The earliest mention is contained in a letter to Bateson from Francis Galton dated October          Edwards        We have the testimony of Bateson        p      that  For the introduction of this system  the  graphic method    which greatly simplifies difficult cases  I am indebted to Mr  Punnett       The first published diagrams appeared in           when Punnett published the second edition of his Mendelism  he used a slightly different format      Punnett       p          In the third edition  Punnett       p      he reverted to the arrangement     with a description of the construction of what he called the  chessboard  method  although in truth it is more like a multiplication table           pages 
+
+  Gao  J Z   Fong  D   Liu  X   April         Mathematical analyses of casino rebate systems for VIP gambling   International Gambling Studies                  doi                               S CID                
+
+  Gorman  Michael F           Management Insights   Management Science      iv vii  doi         mnsc           
+
+  Ross  Sheldon M          A First course in Probability   th      ed    Pearson Prentice Hall  pp              ISBN                    
+
+  a b Weisstein  Eric W   Probability   mathworld wolfram com  Retrieved    September      
+
+  Olofsson        p    
+
+  Olofsson         p   
+
+  Olofsson        p     
+
+  Olofsson        p     
+
+   Conditional probability with respect to a sigma algebra   statlect com  Retrieved   July      
+
+  Riedi  P C          Kinetic Theory of Gases I  In  Thermal Physics  Palgrave  London  https   doi org                            
+
+  Burgin  Mark          Interpretations of Negative Probabilities   p          arXiv          v   physics data an  
+
+  Jedenfalls bin ich  berzeugt  da  der Alte nicht w rfelt  Letter to Max Born    December       in  Einstein Born Briefwechsel           
+
+  Moore  W J          Schr dinger  Life and Thought  Cambridge University Press  p            ISBN                        
+
+
+Bibliography edit 
+Kallenberg  O         Probabilistic Symmetries and Invariance Principles  Springer Verlag  New York      pp       ISBN                   
+Kallenberg  O         Foundations of Modern Probability   nd ed  Springer Series in Statistics      pp       ISBN                   
+Olofsson  Peter        Probability  Statistics  and Stochastic Processes  Wiley Interscience      pp ISBN                    
+External links edit 
+
+
+
+Wikiquote has quotations related to Probability 
+
+
+
+
+Wikibooks has more on the topic of  Probability
+
+
+
+
+Wikimedia Commons has media related to Probability 
+
+
+
+Library resources about  Probability 
+
+Resources in your library
+
+
+Virtual Laboratories in Probability and Statistics  Univ  of Ala  Huntsville 
+Probability  on In Our Time at the BBC
+Probability and Statistics EBook
+Edwin Thompson Jaynes  Probability Theory  The Logic of Science  Preprint  Washington University            HTML index with links to PostScript files and PDF  first three chapters 
+People from the History of Probability and Statistics  Univ  of Southampton 
+Probability and Statistics on the Earliest Uses Pages  Univ  of Southampton 
+Earliest Uses of Symbols in Probability and Statistics on Earliest Uses of Various Mathematical Symbols
+A tutorial on probability and Bayes  theorem devised for first year Oxford University students
+U B U W E B         La Monte Young pdf file of An Anthology of Chance Operations        at UbuWeb
+Introduction to Probability   eBook Archived    July      at the Wayback Machine  by Charles Grinstead  Laurie Snell Source Archived    March      at the Wayback Machine  GNU Free Documentation License 
+ in English and Italian  Bruno de Finetti  Probabilit  e induzione  Bologna  CLUEB        ISBN                     digital version 
+Richard Feynman s Lecture on probability 
+vteLogic
+History
+Major fields
+Computer science
+Formal semantics  natural language 
+Inference
+Philosophy of logic
+Proof
+Semantics of logic
+Syntax
+Logics
+Classical
+Informal
+Critical thinking
+Reason
+Mathematical
+Non classical
+Philosophical
+Theories
+Argumentation
+Metalogic
+Metamathematics
+Set
+
+Foundations
+Abduction
+Analytic and synthetic propositions
+Antecedent
+Consequent
+Contradiction
+Paradox
+Antinomy
+Deduction
+Deductive closure
+Definition
+Description
+Dichotomy
+Entailment
+Linguistic
+Form
+Induction
+Logical truth
+Name
+Necessity and sufficiency
+Premise
+Probability
+Proposition
+Reference
+Statement
+Substitution
+Truth
+Validity
+ListsTopics
+Mathematical logic
+Boolean algebra
+Set theory
+Other
+Logicians
+Rules of inference
+Paradoxes
+Fallacies
+Logic symbols
+
+ Category
+ Outline
+ Portal
+ WikiProject
+changes
+
+vteGlossaries of science and engineering
+Aerospace engineering
+Agriculture
+Archaeology
+Architecture
+Artificial intelligence
+Astronomy
+Biology
+Botany
+Calculus
+Cell biology
+Cellular and molecular biology
+  L
+M Z
+Chemistry
+Civil engineering
+Clinical research
+Computer hardware
+Computer science
+Developmental and reproductive biology
+Ecology
+Economics
+Electrical and electronics engineering
+Engineering
+A L
+M Z
+Entomology
+Environmental science
+Genetics and evolutionary biology
+Geography
+A M
+N Z
+Arabic toponyms
+Hebrew toponyms
+Western and South Asia
+Geology
+Ichthyology
+Machine vision
+Mathematics
+Mechanical engineering
+Medicine
+Meteorology
+Mycology
+Nanotechnology
+Ornithology
+Physics
+Probability and statistics
+Psychiatry
+Quantum computing
+Robotics
+Scientific naming
+Structural engineering
+Virology
+
+Portal  Mathematics
+Authority control databases  National GermanyUnited StatesCzech RepublicIsrael
+
+
+
+
+
+Retrieved from  https   en wikipedia org w index php title Probability amp oldid

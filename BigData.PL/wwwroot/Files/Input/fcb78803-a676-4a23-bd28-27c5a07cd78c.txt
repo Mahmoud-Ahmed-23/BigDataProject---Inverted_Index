@@ -1,0 +1,538 @@
+Mathematics test used to determine qualification for the U S  Mathematical Olympiad
+The American Invitational Mathematics Examination  AIME  is a selective    question    hour test given since      to those who rank in the top    on the AMC    high school mathematics examination  formerly known as the AHSME   and starting in       those who rank in the top      on the AMC     Two different versions of the test are administered  the AIME I and AIME II  However  qualifying students can only take one of these two competitions 
+The AIME is the second of two tests used to determine qualification for the United States Mathematical Olympiad  USAMO   the first being the AMC            
+The use of calculators is not allowed on the test  with only pencils  erasers  rulers  and compasses permitted            
+
+
+Format and scoring edit 
+The competition consists of    questions of increasing difficulty  where each answer is an integer between     and     inclusive  Thus the competition effectively removes the element of chance afforded by a multiple choice test while preserving the ease of automated grading  answers are entered onto an OMR sheet  similar to the way grid in math questions are answered on the SAT  Leading zeros must be filled in on the OMR sheet  for example  answers of   and    must be recorded as     and     
+Concepts typically covered in the competition include topics in elementary algebra  geometry  trigonometry  as well as number theory  probability  and combinatorics  Many of these concepts are not directly covered in typical high school mathematics courses  thus  participants often turn to supplementary resources to prepare for the competition 
+One point is earned for each correct answer  and no points are deducted for incorrect answers  No partial credit is given  so AIME scores are integers from   to    inclusive 
+Some historical results            are 
+
+
+
+
+Contest
+Meanscore
+
+Medianscore
+
+Contest
+
+Mean
+score
+
+
+Median
+score
+
+
+
+     I
+
+    
+
+ 
+
+     I
+
+    
+
+ 
+
+
+     II
+
+    
+
+ 
+
+     II
+
+    
+
+ 
+
+
+     I
+
+    
+
+ 
+
+     I
+
+    
+
+ 
+
+
+     II
+
+    
+
+ 
+
+     II
+
+    
+
+ 
+
+
+     I
+    
+ 
+
+     I
+
+    
+
+ 
+
+
+     II
+    
+ 
+
+     II
+
+    
+
+ 
+
+
+     I
+    
+ 
+
+     I
+
+    
+
+ 
+
+
+     II
+    
+ 
+
+     II
+
+    
+
+ 
+
+
+     I
+
+    
+
+ 
+
+     I
+
+    
+
+ 
+
+
+     II     a     
+
+    
+
+ 
+
+     II
+
+    
+
+ 
+
+A student s score on the AIME is used in combination with their score on the AMC to determine eligibility for the USAMO or USAJMO  A student s AMC score is added to    times their AIME score to compute the USAMO or USAJMO index 
+Since       the USAMO and USAJMO qualification cutoff has been split between the AMC A and B  as well as the AIME I and II             Hence  there will be a total of   published USAMO and USAJMO qualification cutoffs per year  and a student can have up to   USAMO USAJMO indices  via participating in both AMC contests   The student only needs to reach one qualification cutoff to take the USAMO or USAJMO  
+During the     s  fewer than       students typically qualified for the AIME  However  in       an unprecedented    students achieved perfect scores on the AHSME  causing delays in result distribution  The usual pamphlets were replaced by thick newspaper bundles      citation needed     
+
+History edit 
+The AIME began in       It was given once per year on a Tuesday or Thursday in late March or early April  Beginning in       the AIME is administered twice per year  The second date serves as an alternate test for students who miss the first due to conflicts such as spring break or illness  However  under no circumstances may a student officially participate both competitions  The alternate competition  commonly called the  AIME    or  AIME II   is usually given exactly two weeks after the first test  on a Tuesday in early April  However  like the AMC  the AIME recently has been given on a Tuesday in early March  and on the Wednesday   days later  e g  March    and           In       the rapid spread of the COVID    pandemic led to the cancellation of the AIME II for that year  Instead  qualifying students were able to take the American Online Invitational Mathematics Examination  which contained the problems that were originally going to be on the AIME II       s AIME I and II were also moved online      citation needed            s AIME I and II were administered both online and in person  and starting from       all AIME contests must be administered in person             
+
+Sample problems edit 
+Given that
+
+  
+    
+      
+        
+          
+            
+               
+               
+               
+               
+               
+               
+               
+               
+            
+            
+               
+               
+            
+          
+        
+         
+        k
+          x  c  
+        n
+         
+         
+      
+    
+      displaystyle   frac                 k cdot n   
+  
+
+where 
+  
+    
+      
+        k
+      
+    
+      displaystyle k 
+  
+ and 
+  
+    
+      
+        n
+      
+    
+      displaystyle n 
+  
+ are positive integers and 
+  
+    
+      
+        n
+      
+    
+      displaystyle n 
+  
+ is as large as possible  find 
+  
+    
+      
+        k
+         
+        n
+         
+      
+    
+      displaystyle k n  
+  
+       AIME I    
+
+Answer     
+Find the number of ordered pairs of integers 
+  
+    
+      
+         
+        a
+         
+        b
+         
+      
+    
+      displaystyle  a b  
+  
+ such that the sequence
+
+  
+    
+      
+         
+         
+         
+         
+         
+         
+        a
+         
+        b
+         
+          
+         
+          
+         
+          
+      
+    
+      displaystyle       a b          
+  
+
+is strictly increasing and no set of four  not necessarily consecutive  terms forms an arithmetic progression        AIME I    
+
+Answer     
+If the integer 
+  
+    
+      
+        k
+      
+    
+      displaystyle k 
+  
+ is added to each of the numbers 
+  
+    
+      
+          
+      
+    
+      displaystyle    
+  
+  
+  
+    
+      
+           
+      
+    
+      displaystyle     
+  
+  and 
+  
+    
+      
+           
+      
+    
+      displaystyle     
+  
+  one obtains the squares of three consecutive terms of an arithmetic series  Find 
+  
+    
+      
+        k
+      
+    
+      displaystyle k 
+  
+         AIME    
+Answer     
+Complex numbers 
+  
+    
+      
+        a
+      
+    
+      displaystyle a 
+  
+  
+  
+    
+      
+        b
+      
+    
+      displaystyle b 
+  
+ and 
+  
+    
+      
+        c
+      
+    
+      displaystyle c 
+  
+ are the zeros of a polynomial 
+  
+    
+      
+        P
+         
+        z
+         
+         
+        
+          z
+          
+             
+          
+        
+         
+        q
+        z
+         
+        r
+      
+    
+      displaystyle P z  z     qz r 
+  
+  and 
+  
+    
+      
+        
+           
+        
+        a
+        
+          
+             
+          
+          
+             
+          
+        
+         
+        
+           
+        
+        b
+        
+          
+             
+          
+          
+             
+          
+        
+         
+        
+           
+        
+        c
+        
+          
+             
+          
+          
+             
+          
+        
+         
+           
+      
+    
+      displaystyle  a       b       c          
+  
+   The points corresponding to 
+  
+    
+      
+        a
+      
+    
+      displaystyle a 
+  
+  
+  
+    
+      
+        b
+      
+    
+      displaystyle b 
+  
+  and 
+  
+    
+      
+        c
+      
+    
+      displaystyle c 
+  
+ in the complex plane are the vertices of a right triangle with hypotenuse 
+  
+    
+      
+        h
+      
+    
+      displaystyle h 
+  
+   Find 
+  
+    
+      
+        
+          h
+          
+             
+          
+        
+      
+    
+      displaystyle h     
+  
+        AIME I     
+Answer     
+
+           
+
+Note edit 
+
+
+  Due to COVID     AIME II  AOIME  was moved online 
+
+
+See also edit 
+American Mathematics Competitions
+List of mathematics competitions
+Mandelbrot Competition
+References edit 
+
+
+   Invitational Competitions   Mathematical Association of America 
+
+   American Invitational Mathematics Examination   Mathematical Association of America  Retrieved    December      
+
+   AMC Historical Results   Archived from the original on             Retrieved    December      
+
+   AMC Historical Results   Art of Problem Solving  Retrieved   October      
+
+   AMC Platform and Administeration Policies   Mathematical Association of America  Retrieved   October      
+
+   AIME Problems and Solutions  
+
+
+External links edit 
+Official website
+AIME Problems and Solutions
+vteAmerican mathematicsOrganizations
+AMS
+MAA
+SIAM
+AMATYC
+AWM
+Institutions
+AIM
+IAS
+ICERM
+IMA
+IPAM
+MBI
+SLMath
+SAMSI
+Geometry Center
+Competitions
+MATHCOUNTS
+AMC
+AIME
+USAMO
+MOP
+Putnam Competition
+Integration Bee
+
+
+
+
+
+
+Retrieved from  https   en wikipedia org w index php title American Invitational Mathematics Examination amp oldid

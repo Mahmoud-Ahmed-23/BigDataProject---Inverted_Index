@@ -1,0 +1,74 @@
+Combinatorial game theory concept to represent all possible game states
+For game tree as it is used in game theory  not combinatorial game theory   see Extensive form game 
+The diagram shows the first two levels  or plies  in the game tree for tic tac toe  The rotations and reflections of positions are equivalent  so the first player has three choices of move  in the center  at the edge  or in the corner  The second player has two choices for the reply if the first player played in the center  otherwise five choices  And so on 
+In the context of combinatorial game theory  a game tree is a graph representing all possible game states within a sequential game that has perfect information  Such games include chess  checkers  Go  and tic tac toe 
+A game tree can be used to measure the complexity of a game  as it represents all the possible ways that the game can pan out  Due to the large game trees of complex games such as chess  algorithms that are designed to play this class of games will use partial game trees  which makes computation feasible on modern computers  Various methods exist to solve game trees  If a complete game tree can be generated  a deterministic algorithm  such as backward induction or retrograde analysis can be used  Randomized algorithms and minmax algorithms such as MCTS can be used in cases where a complete game tree is not feasible 
+
+
+Understanding the game tree edit 
+To better understand the game tree  it can be thought of as a technique for analyzing adversarial games  which determine the actions that player takes to win the game  In game theory  a game tree is a directed graph whose nodes are positions in a game  e g   the arrangement of the pieces in a board game  and whose edges are moves  e g   to move pieces from one position on a board to another             
+The complete game tree for a game is the game tree starting at the initial position and containing all possible moves from each position  the complete tree is the same tree as that obtained from the extensive form game representation  To be more specific  the complete game is a norm for the game in game theory  Which can clearly express many important aspects  For example  the sequence of actions that stakeholders may take  their choices at each decision point  information about actions taken by other stakeholders when each stakeholder makes a decision  and the benefits of all possible game results            
+The number of leaf nodes in the complete game tree is the number of possible different ways the game can be played  For example  the game tree for tic tac toe has         leaf nodes 
+Game trees are important in artificial intelligence because one way to pick the best move in a game is to search the game tree using any of numerous tree search algorithms  combined with minimax like rules to prune the tree  The game tree for tic tac toe is easily searchable  but the complete game trees for larger games like chess are much too large to search  Instead  a chess playing program searches a partial game tree  typically as many plies from the current position as it can search in the time available  Except for the case of  pathological  game trees             which seem to be quite rare in practice   increasing the search depth  i e   the number of plies searched  generally improves the chance of picking the best move 
+Two person games can also be represented as and or trees  For the first player to win a game  there must exist a winning move for all moves of the second player  This is represented in the and or tree by using disjunction to represent the first player s alternative moves and using conjunction to represent all of the second player s moves 
+
+Solving game trees edit 
+Deterministic algorithm version edit 
+An arbitrary game tree that has been fully colored
+With a complete game tree  it is possible to  solve  the game   that is to say  find a sequence of moves that either the first or second player can follow that will guarantee the best possible outcome for that player  usually a win or a tie    The deterministic algorithm  which is generally called backward induction or retrograde analysis  can be described recursively as follows 
+
+Color the final ply of the game tree so that all wins for player   are colored one way  Blue in the diagram   all wins for player   are colored another way  Red in the diagram   and all ties are colored a third way  Grey in the diagram  
+Look at the next ply up   If there exists a node colored opposite as the current player  color this node for that player as well   If all immediately lower nodes are colored for the same player  color this node for the same player as well   Otherwise  color this node a tie 
+Repeat for each ply  moving upwards  until all nodes are colored   The color of the root node will determine the nature of the game 
+The diagram shows a game tree for an arbitrary game  colored using the above algorithm 
+It is usually possible to solve a game  in this technical sense of  solve   using only a subset of the game tree  since in many games a move need not be analyzed if there is another move that is better for the same player  for example alpha beta pruning can be used in many deterministic games  
+Any subtree that can be used to solve the game is known as a decision tree  and the sizes of decision trees of various shapes are used as measures of game complexity            
+
+Randomized algorithms version edit 
+Randomized algorithms can be used in solving game trees  There are two main advantages in this type of implementation  speed and practicality  Whereas a deterministic version of solving game trees can be done in   n   the following randomized algorithm has an expected run time of   n       if every node in the game tree has degree    Moreover  it is practical because randomized algorithms are capable of  foiling an enemy   meaning an opponent cannot beat the system of game trees by knowing the algorithm used to solve the game tree because the order of solving is random 
+The following is an implementation of randomized game tree solution algorithm            
+
+def gt eval rand u    gt  bool 
+     quot  quot  quot Returns True if this node evaluates to a win  otherwise False quot  quot  quot 
+    if u leaf 
+        return u win
+    else 
+        random children    gt eval rand child  for child in random order u children  
+        if u op     quot OR quot  
+            return any random children 
+        if u op     quot AND quot  
+            return all random children 
+
+The algorithm makes use of the idea of  short circuiting   if the root node is considered an  OR  operator  then once one True is found  the root is classified as True  conversely  if the root node is considered an  AND  operator then once one False is found  the root is classified as False 
+
+           
+See also edit 
+Alpha beta pruning
+Extensive form game
+Shannon number
+Game complexity
+References edit 
+
+
+  Zuckerman  Inon  Wilson  Brandon  Nau  Dana S           Avoiding game tree pathology in   player adversarial search   Computational Intelligence                   doi         coin        ISSN                 S CID               
+
+  Huang  Zishuo  Yu  Hang  Chu  Xiangyang  Peng  Zhenwei                A novel optimization model based on game tree for multi energy conversion systems   Energy                Bibcode     Ene           H  doi         j energy              ISSN                
+
+  Nau  Dana          An investigation of the causes of pathology in games   Artificial Intelligence                   doi                              
+
+  Victor Allis         Searching for Solutions in Games and Artificial Intelligence  PDF   Ph D  Thesis  University of Limburg  Maastricht  The Netherlands  ISBN                    
+
+  Daniel Roche         SI   D  Randomness in Computing  Game Trees Unit  United States Naval Academy  Computer Science Department  Archived from the original on             Retrieved            
+
+  Peka   Libor  Matu    Radek  Andrla  Ji    Litschmannov   Martina  September         Review of Kalah Game Research and the Proposition of a Novel Heuristic Deterministic Algorithm Compared to Tree Search Solutions and Human Decision Making   Informatics             doi         informatics         hdl              
+
+
+Further reading edit 
+Hu  Te Chiang  Shing  Man tak         Combinatorial Algorithms  Courier Dover Publications  ISBN                     Retrieved            
+Judea Pearl  Heuristics  Addison Wesley      
+
+
+
+
+
+Retrieved from  https   en wikipedia org w index php title Game tree amp oldid

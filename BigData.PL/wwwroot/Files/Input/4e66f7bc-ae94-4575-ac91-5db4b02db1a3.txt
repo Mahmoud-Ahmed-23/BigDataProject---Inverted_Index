@@ -1,0 +1,356 @@
+Ability of artificial intelligence to play different games
+It has been suggested that  this article be split into a new article titled General video game playing   Discuss    June      
+Part of a series onArtificial intelligence  AI 
+Major goals
+Artificial general intelligence
+Intelligent agent
+Recursive self improvement
+Planning
+Computer vision
+General game playing
+Knowledge reasoning
+Natural language processing
+Robotics
+AI safety
+
+Approaches
+Machine learning
+Symbolic
+Deep learning
+Bayesian networks
+Evolutionary algorithms
+Hybrid intelligent systems
+Systems integration
+
+Applications
+Bioinformatics
+Deepfake
+Earth sciences
+ Finance 
+Generative AI
+Art
+Audio
+Music
+Government
+Healthcare
+Mental health
+Industry
+Translation
+ Military 
+Physics
+Projects
+
+Philosophy
+Artificial consciousness
+Chinese room
+Friendly AI
+Control problem Takeover
+Ethics
+Existential risk
+Turing test
+Uncanny valley
+
+History
+Timeline
+Progress
+AI winter
+AI boom
+
+Glossary
+Glossary
+vte
+General game playing  GGP  is the design of artificial intelligence programs to be able to play more than one game successfully                                   For many games like chess  computers are programmed to play these games using a specially designed algorithm  which cannot be transferred to another context  For instance  a chess playing computer program cannot play checkers  General game playing is considered as a necessary milestone on the way to artificial general intelligence            
+General video game playing   GVGP  is the concept of GGP adjusted to the purpose of playing video games  For video games  game rules have to be either learnt over multiple iterations by artificial players like TD Gammon             or are predefined manually in a domain specific language and sent in advance to artificial players                       like in traditional GGP  Starting in       significant progress was made following the deep reinforcement learning approach  including the development of programs that can learn to play Atari      games                                                          as well as a program that can learn to play Nintendo Entertainment System games                                     
+The first commercial usage of general game playing technology was Zillions of Games in       General game playing was also proposed for trading agents in supply chain management there under price negotiation in online auctions from      onwards                                                 
+
+
+History edit 
+This section needs to be updated  Please help update this article to reflect recent events or newly available information    October      
+In       Barney Pell defined the concept of Meta Game Playing  and developed the  MetaGame  system  This was the first program to automatically generate game rules of chess like games  and one of the earliest programs to use automated game generation   Pell then developed the system Metagamer              This system was able to play a number of chess like games  given game rules definition in a special language called Game Description Language  GDL   without any human interaction once the games were generated             
+In       the commercial system Zillions of Games was developed by Jeff Mallett and Mark Lefler  The system used a LISP like language to define the game rules  Zillions of Games derived the evaluation function automatically from the game rules based on piece mobility  board structure and game goals  It also employed usual algorithms as found in computer chess systems  alpha beta pruning with move ordering  transposition tables  etc              The package was extended in      by the addition of the Axiom plug in  an alternate metagame engine that incorporates a complete Forth based programming language 
+In       z Tree was developed by Urs Fischbacher              z Tree is the first and the most cited software tool for experimental economics  z Tree allows the definition of game rules in z Tree language for game theoretic experiments with human subjects  It also allows definition of computer players  which participate in a play with human subjects             
+In       the Stanford Project General Game Playing was established            
+In       the development of PyVGDL started             
+
+GGP implementations edit 
+Stanford project edit 
+General Game Playing is a project of the Stanford Logic Group of Stanford University  California  which aims to create a platform for general game playing  It is the most well known effort at standardizing GGP AI  and generally seen as the standard for GGP systems  The games are defined by sets of rules represented in the Game Description Language  In order to play the games  players interact with a game hosting server                         that monitors moves for legality and keeps players informed of state changes 
+Since       there have been annual General Game Playing competitions at the AAAI Conference  The competition judges competitor AI s abilities to play a variety of different games  by recording their performance on each individual game  In the first stage of the competition  entrants are judged on their ability to perform legal moves  gain the upper hand  and complete games faster  In the following runoff round  the AIs face off against each other in increasingly complex games  The AI that wins the most games at this stage wins the competition  and until      its creator used to win a         prize              So far  the following programs were victorious             
+
+
+
+
+
+Year
+Name
+Developer
+Institution
+Ref
+
+
+    
+Cluneplayer
+Jim Clune
+UCLA
+
+
+    
+Fluxplayer
+Stephan Schiffel and Michael Thielscher
+Dresden University of Technology
+            
+
+
+    
+Cadiaplayer
+Yngvi Bj rnsson and Hilmar Finnsson
+Reykjavik University
+            
+
+
+    
+Cadiaplayer
+Yngvi Bj rnsson  Hilmar Finnsson and Gylfi   r Gu mundsson
+Reykjavik University
+
+
+
+    
+Ary
+Jean M hat
+Paris   University
+
+
+
+    
+Ary
+Jean M hat
+Paris   University
+
+
+
+    
+TurboTurtle
+Sam Schreiber
+
+
+
+
+    
+Cadiaplayer
+Hilmar Finnsson and Yngvi Bj rnsson
+Reykjavik University
+
+
+
+    
+TurboTurtle
+Sam Schreiber
+
+
+
+
+    
+Sancho
+Steve Draper and Andrew Rose
+
+            
+
+
+    
+Galvanise
+Richard Emslie
+
+
+
+
+    
+WoodStock
+Eric Piette
+Artois University
+
+
+Other approaches edit 
+There are other general game playing systems  which use their own languages for defining the game rules  Other general game playing software include 
+
+
+
+
+
+System
+Year
+Description
+
+
+FRAMASI
+    
+Developed for general game playing and economic experiments during a PhD thesis                         
+
+
+AiAi
+         
+Developed by Stephen Tavener  previous Zillions developer                                      
+
+
+PolyGamo Player
+    
+Released by David M  Bennett in September      based on the Unity game engine             
+
+
+Regular Boardgames
+
+    
+
+Developed by Jakub Kowalski  Marek Szyku a  and their team at University of Wroc aw                         
+
+
+Ludii
+    
+Released by Cameron Browne and his team at Maastricht University as part of the ERC funded Digital Ludeme Project                                     
+
+GVGP implementations edit 
+Reinforcement learning edit 
+GVGP could potentially be used to create real video game AI automatically  as well as  to test game environments  including those created automatically using procedural content generation and to find potential loopholes in the gameplay that a human player could exploit              GVGP has also been used to generate game rules  and estimate a game s quality based on Relative Algorithm Performance Profiles  RAPP   which compare the skill differentiation that a game allows between good AI and bad AI             
+
+Video Game Description Language edit 
+The General Video Game AI Competition  GVGAI  has been running since       In this competition  two dimensional video games similar to  and sometimes based on      s era arcade and console games are used instead of the board games used in the GGP competition  It has offered a way for researchers and practitioners to test and compare their best general video game playing algorithms  The competition has an associated software framework including a large number of games written in the Video Game Description Language  VGDL   which should not be confused with GDL and is a coding language using simple semantics and commands that can easily be parsed  One example for VGDL is PyVGDL developed in                              The games used in GVGP are  for now  often   dimensional arcade games  as they are the simplest and easiest to quantify              To simplify the process of creating an AI that can interpret video games  games for this purpose are written in VGDL manually      clarification needed      VGDL can be used to describe a game specifically for procedural generation of levels  using Answer Set Programming  ASP  and an Evolutionary Algorithm  EA   GVGP can then be used to test the validity of procedural levels  as well as the difficulty or quality of levels based on how an agent performed             
+
+Algorithms edit 
+Since GGP AI must be designed to play multiple games  its design cannot rely on algorithms created specifically for certain games  Instead  the AI must be designed using algorithms whose methods can be applied to a wide range of games  The AI must also be an ongoing process  that can adapt to its current state rather than the output of previous states  For this reason  open loop techniques are often most effective             
+A popular method for developing GGP AI is the Monte Carlo tree search  MCTS  algorithm              Often used together with the UCT method  Upper Confidence Bound applied to Trees   variations of MCTS have been proposed to better play certain games  as well as to make it compatible with video game playing                                      Another variation of tree search algorithms used is the Directed Breadth first Search  DBS               in which a child node to the current state is created for each available action  and visits each child ordered by highest average reward  until either the game ends or runs out of time              In each tree search method  the AI simulates potential actions and ranks each based on the average highest reward of each path  in terms of points earned                         
+
+Assumptions edit 
+In order to interact with games  algorithms must operate under the assumption that games all share common characteristics  In the book Half Real  Video Games Between Real Worlds and Fictional Worlds  Jesper Juul gives the following definition of games  Games are based on rules  they have variable outcomes  different outcomes give different values  player effort influences outcomes  the player is attached to the outcomes  and the game has negotiable consequences               Using these assumptions  game playing AI can be created by quantifying the player input  the game outcomes  and how the various rules apply  and using algorithms to compute the most favorable path             
+
+See also edit 
+AlphaZero
+MuZero
+Artificial general intelligence
+Artificial intelligence in video games
+Game Description Language
+Multi task learning
+Outline of artificial intelligence
+Transfer learning
+References edit 
+
+
+  Pell  Barney         H  van den Herik  L  Allis  eds     Metagame  a new challenge for games and learning       Heuristic programming in artificial intelligence   the third computerolympiad       PDF   Ellis Horwood  Archived  PDF  from the original on             Retrieved            
+
+  Pell  Barney          A Strategic Metagame Player for General Chess Like Games   Computational Intelligence                   doi         j                tb      x  ISSN                 S CID             
+
+  a b Genesereth  Michael  Love  Nathaniel  Pell  Barney     June         General Game Playing  Overview of the AAAI Competition   AI Magazine              doi         aimag v  i        ISSN                
+
+  Canaan  Rodrigo  Salge  Christoph  Togelius  Julian  Nealen  Andy         Proceedings of the   th International Conference on the Foundations of Digital Games      Proceedings of the   th International Conference on the Leveling the playing field  fairness in AI versus human game benchmarks       pp            doi                  ISBN                     S CID               
+
+  a b Mnih  Volodymyr  Kavukcuoglu  Koray  Silver  David  Graves  Alex  Antonoglou  Ioannis  Wierstra  Daan  Riedmiller  Martin          Playing Atari with Deep Reinforcement Learning   PDF   Neural Information Processing Systems Workshop       Archived  PDF  from the original on    September       Retrieved    April      
+
+  a b Schaul  Tom  August         A video game description language for model based or interactive learning        IEEE Conference on Computational Inteligence in Games  CIG   pp            CiteSeerX                       doi         CIG               ISBN                         S CID             
+
+  a b Levine  John  Congdon  Clare Bates  Ebner  Marc  Kendall  Graham  Lucas  Simon M   Miikkulainen  Risto  Schaul  Tom  Thompson  Tommy          General Video Game Playing   Artificial and Computational Intelligence in Games     Schloss Dagstuhl Leibniz Zentrum fuer Informatik         Archived from the original on   April       Retrieved    April      
+
+  Bowling  M   Veness  J   Naddaf  Y   Bellemare  M  G                 The Arcade Learning Environment  An Evaluation Platform for General Agents   Journal of Artificial Intelligence Research               arXiv            doi         jair       ISSN                 S CID              
+
+  Mnih  Volodymyr  Kavukcuoglu  Koray  Silver  David  Rusu  Andrei A   Veness  Joel  Hassabis  Demis  Bellemare  Marc G   Graves  Alex  Riedmiller  Martin  Fidjeland  Andreas K   Stig Petersen  Georg Ostrovski  Beattie  Charles  Sadik  Amir  Antonoglou  Ioannis  King  Helen  Kumaran  Dharshan  Wierstra  Daan  Legg  Shane     February         Human level control through deep reinforcement learning   Nature                       Bibcode     Natur         M  doi         nature       PMID                S CID                
+
+  Korjus  Kristjan  Kuzovkin  Ilya  Tampuu  Ardi  Pungas  Taivo          Replicating the Paper  Playing Atari with Deep Reinforcement Learning    PDF   University of Tartu  Archived  PDF  from the original on    December       Retrieved    April      
+
+  Guo  Xiaoxiao  Singh  Satinder  Lee  Honglak  Lewis  Richard L   Wang  Xiaoshi          Deep Learning for Real Time Atari Game Play Using Offline Monte Carlo Tree Search Planning   PDF   NIPS Proceedings   Conference on Neural Information Processing Systems  Archived  PDF  from the original on    November       Retrieved    April      
+
+  Murphy  Tom          The First Level of Super Mario Bros  is Easy with Lexicographic Orderings and Time Travel     after that it gets a little tricky    PDF   SIGBOVIK  Archived  PDF  from the original on    April       Retrieved    April      
+
+  Murphy  Tom   learnfun  amp  playfun  A general technique for automating NES games   Archived from the original on    April       Retrieved    April      
+
+  Teller  Swizec  October             Week    Level   of Super Mario Bros  is easy with lexicographic orderings and   A geek with a hat  Archived from the original on    April       Retrieved    April      
+
+  McMillen  Colin         Toward the Development of an Intelligent Agent for the Supply Chain Management Game of the      Trading Agent Competition           Trading Agent Competition       Thesis   Master s Thesis  Minneapolis  MN  University of Minnesota  S CID                
+
+  Zhang  Dongmo         From general game descriptions to a market specification language for general trading agents      Agent mediated electronic commerce  Designing trading strategies and mechanisms for electronic markets        Berlin  Heidelberg  Springer  pp                Bibcode     aecd book     T  CiteSeerX                      
+
+   AGAPE   An Auction LanGuage for GenerAl Auction PlayErs   AGAPE  in French     March       Archived from the original on   August       Retrieved   March      
+
+  Michael  Friedrich  Ignatov  Dmitry          General Game Playing B to B Price Negotiations   PDF   CEUR Workshop Proceedings                Archived  PDF  from the original on   December       Retrieved   March      
+
+  a b Barney Pell s research on computer game playing Archived            at the Wayback Machine 
+
+   Metagame and General Game Playing   Metagame and General Game Playing  Archived from the original on   March       Retrieved    March      
+
+  Available  Universal Game Engine Archived            at the Wayback Machine email to comp ai games by Jeff Mallett     Dec      
+
+   UZH   z Tree   Zurich Toolbox for Readymade Economic Experiments   www ztree uzh ch  Archived from the original on    February       Retrieved    February      
+
+  Beckenkamp  Martin  Hennig Schmidt  Heike  Maier Rigaud  Frank P     March         Cooperation in Symmetric and Asymmetric Prisoner s Dilemma Games   Social Science Research Network  SSRN             
+
+  a b Schaul  Tom    February         schaul py vgdl   GitHub  Archived from the original on    June       Retrieved   February      
+
+  GGP Server Archived            at the Wayback Machine  platform for competition of general game playing systems 
+
+  Dresden GGP Server Archived            at the Wayback Machine  platform for competition of general game playing systems with automatic scheduling of matches 
+
+   General Game Playing   www general game playing de  Archived from the original on             Retrieved            
+
+  Information about Fluxplayer Archived            at the Wayback Machine  the winner of the  nd International General Game Playing competition 
+
+  Information about CADIAPlayer Archived            at the Wayback Machine  more information about the winner of the  rd   th  and  th International General Game Playing competitions 
+
+  Sancho is GGP Champion       Archived            at the Wayback Machine  winner of the      International General Game Playing competition 
+
+  Tagiew  Rustam         Filipe  Joaquim  Fred  Ana  Sharp  Bernadette  eds    Towards a framework for management of strategic interaction      Proceedings of the International Conference on Agents and Artificial Intelligence       PDF   Porto  Portugal  pp                ISBN                         Archived  PDF  from the original on             Retrieved              cite book     CS  maint  location missing publisher  link 
+
+  Tagiew  Rustam         Strategische Interaktion realer Agenten Ganzheitliche Konzeptualisierung und Softwarekomponenten einer interdisziplin ren Forschungsinfrastruktur  neue Ausg      ed    Saarbr cken  ISBN                      cite book     CS  maint  location missing publisher  link 
+
+   Zillions of Games   Who Are We    www zillions of games com  Archived from the original on             Retrieved            
+
+   AiAi Home Page   Stephen Tavener   mrraow com  Archived from the original on             Retrieved            
+
+   Ai Ai announcement thread   BoardGameGeek  Archived from the original on             Retrieved            
+
+   The PolyGamo Player Project   Programming Languages and General Players for Abstract Games and Puzzles   www polyomino com  Archived from the original on             Retrieved            
+
+  Kowalski  Jakub  Mika  Maksymilian  Sutowicz  Jakub  Szyku a  Marek                Regular Boardgames   Proceedings of the AAAI Conference on Artificial Intelligence                     doi         aaai v  i             ISSN                 S CID               
+
+  Kowalski  Jakub  Miernik  Radoslaw  Mika  Maksymilian  Pawlik  Wojciech  Sutowicz  Jakub  Szykula  Marek  Tkaczyk  Andrzej          Efficient Reasoning in Regular Boardgames        IEEE Conference on Games  CoG   pp                arXiv             doi         cog                    ISBN                         S CID                 Retrieved            
+
+   Ludii Portal   Home of the Ludii General Game System   www ludii games  Archived from the original on             Retrieved            
+
+   Digital Ludeme Project   Modelling the Evolution of Traditional Games   www ludeme eu  Archived from the original on             Retrieved            
+
+  Piette  E   Soemers  D  J  N  J   Stephenson  M   Sironi  C   Stephenson  M   Winands M  H  M   Browne  C           Ludii   The Ludemic General Game System   PDF   European Conference on Artificial Intelligence  ECAI        Santiago de Compestela  Archived  PDF  from the original on             Retrieved            
+
+  Nielsen  Thorbj rn S   Barros  Gabriella A  B   Togelius  Julian  Nelson  Mark J   Towards generating arcade game rules with VGDL   PDF   Archived  PDF  from the original on             Retrieved            
+
+  a b Levine  John  Congdon  Clare Bates  Ebner  Marc  Kendall  Graham  Lucas  Simon M   Miikkulainen Risto  Schaul  Tom  Thompson  Tommy   General Video Game Playing   PDF   Archived  PDF  from the original on             Retrieved            
+
+  Neufeld  Xenija  Mostaghim  Sanaz  Perez Liebana  Diego   Procedural Level Generation with Answer Set Programming for General Video Game Playing   PDF   Archived  PDF  from the original on             Retrieved            
+
+   wiechowski  Maciej  Park  Hyunsoo  Ma dziuk  Jacek  Kim  Kyung Joong          Recent Advances in General Game Playing   The Scientific World Journal        Hindawi Publishing Corporation          doi                      PMC               PMID               
+
+  a b  Monte Carlo Tree Search for General Game Playing   ResearchGate  Retrieved            
+
+  Finnsson  Hilmar          Generalized Monte Carlo Tree Search Extensions for General Game Playing   Proceedings of the Twenty Sixth AAAI Conference on Artificial Intelligence  Archived from the original on             Retrieved            
+
+  Frydenberg  Frederik  Anderson  Kasper R   Risi  Sebastian  Togelius  Julian   Investigating MCTS Modifications in General Video Game Playing   PDF   Archived  PDF  from the original on             Retrieved            
+
+  M  Swiechowski  J  Mandziuk  Y  S  Ong   Specialization of a UCT based General Game Playing Program to Single Player Games   in IEEE Transactions on Computational Intelligence and AI in Games  vol PP  no     pp     doi         TCIAIG             
+
+   Changing the root node from a previous game step   Archived from the original on             DBS  A Directed Breadth First Search  DBS  algorithm
+
+  a b Perez  Diego  Dieskau  Jens  H nermund  Martin   Open Loop Search for General Video Game Playing   PDF   Archived  PDF  from the original on             Retrieved            
+
+  Jesper Juul  Half Real  Video Games Between Real Rules and Fictional Worlds  MIT Press       
+
+
+External links edit 
+General Game Playing Home Page at Stanford University
+See also the GGP org  GGP org GitHub page  and games stanford edu 
+General Game Playing Resources provided by Dresden University of Technology 
+AiAi by Stephen Tavener
+PolyGamo Player Project by David M  Bennett
+Axiom Development kit a meta game development system compatible with Zillions of Games  by Greg Schmidt 
+Palamedes   A General Game Playing IDE
+ConvNetJS Deep Q Learning Demo
+
+
+
+
+
+Retrieved from  https   en wikipedia org w index php title General game playing amp oldid

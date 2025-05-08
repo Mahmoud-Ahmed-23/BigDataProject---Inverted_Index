@@ -1,0 +1,318 @@
+Act of checking a given sequence of tokens for the presence of the constituents of some pattern
+This article is about pattern matching in functional programming  For other uses  see string matching and pattern recognition 
+For the use of variable matching criteria in defining abstract patterns to match  see regular expression 
+This article needs additional citations for verification  Please help improve this article by adding citations to reliable sources  Unsourced material may be challenged and removed Find sources        Pattern matching              news        newspapers        books        scholar        JSTOR   February        Learn how and when to remove this message 
+In computer science  pattern matching is the act of checking a given sequence of tokens for the presence of the constituents of some pattern  In contrast to pattern recognition  the match usually must be exact   either it will or will not be a  match   The patterns generally have the form of either sequences or tree structures  Uses of pattern matching include outputting the locations  if any  of a pattern within a token sequence  to output some component of the matched pattern  and to substitute the matching pattern with some other token sequence  i e   search and replace  
+Sequence patterns  e g   a text string  are often described using regular expressions and matched using techniques such as backtracking 
+Tree patterns are used in some programming languages as a general tool to process data based on its structure  e g  C              F              Haskell             Java             ML  Python             Ruby             Rust             Scala             Swift            and the symbolic mathematics language Mathematica have special syntax for expressing tree patterns and a language construct for conditional execution and value retrieval based on it 
+Often it is possible to give alternative patterns that are tried one by one  which yields a powerful conditional programming construct  Pattern matching sometimes includes support for guards      citation needed     
+
+
+History edit 
+See also  Regular expression        History
+This section needs expansion  You can help by adding to it    May      
+Early programming languages with pattern matching constructs include COMIT         SNOBOL         Refal        with tree based pattern matching  Prolog         St Andrews Static Language  SASL          NPL         and Kent Recursive Calculator  KRC         
+The pattern matching feature of function arguments in the language ML        and its dialect Standard ML        has been carried over to some other functional programming languages that were influenced by them  such as Haskell         Scala         and F          The pattern matching construct with the match keyword that was introduced in the ML dialect Caml        was followed by languages such as OCaml         F          F          and Rust        
+Many text editors support pattern matching of various kinds  the QED editor supports regular expression search  and some versions of TECO support the OR operator in searches 
+Computer algebra systems generally support pattern matching on algebraic expressions             
+
+Primitive patterns edit 
+The simplest pattern in pattern matching is an explicit value or a variable  For an example  consider a simple function definition in Haskell syntax  function parameters are not in parentheses but are separated by spaces    is not assignment but definition  
+
+f      
+
+Here    is a single value pattern  Now  whenever f is given   as argument the pattern matches and the function returns    With any other argument  the matching and thus the function fail  As the syntax supports alternative patterns in function definitions  we can continue the definition extending it to take more generic arguments 
+
+f n   n   f  n   
+
+Here  the first n is a single variable pattern  which will match absolutely any argument and bind it to name n to be used in the rest of the definition  In Haskell  unlike at least Hope   patterns are tried in order so the first definition still applies in the very specific case of the input being    while for any other argument the function returns n   f  n    with n being the argument 
+The wildcard pattern  often written as    is also simple  like a variable name  it matches any value  but does not bind the value to any name  Algorithms for matching wildcards in simple string matching situations have been developed in a number of recursive and non recursive varieties             
+
+Tree patterns edit 
+More complex patterns can be built from the primitive ones of the previous section  usually in the same way as values are built by combining other values  The difference then is that with variable and wildcard parts  a pattern does not build into a single value  but matches a group of values that are the combination of the concrete elements and the elements that are allowed to vary within the structure of the pattern 
+A tree pattern describes a part of a tree by starting with a node and specifying some branches and nodes and leaving some unspecified with a variable or wildcard pattern  It may help to think of the abstract syntax tree of a programming language and algebraic data types 
+In Haskell  the following line defines an algebraic data type Color that has a single data constructor ColorConstructor that wraps an integer and a string 
+
+data Color   ColorConstructor Integer String
+
+The constructor is a node in a tree and the integer and string are leaves in branches 
+When we want to write functions to make Color an abstract data type  we wish to write functions to interface with the data type  and thus we want to extract some data from the data type  for example  just the string or just the integer part of Color 
+If we pass a variable that is of type Color  how can we get the data out of this variable  For example  for a function to get the integer part of Color  we can use a simple tree pattern and write 
+
+integerPart  ColorConstructor theInteger      theInteger
+
+As well 
+
+stringPart  ColorConstructor   theString    theString
+
+The creations of these functions can be automated by Haskell s data record syntax 
+This OCaml example which defines a red black tree and a function to re balance it after element insertion shows how to match on a more complex structure generated by a recursive data type  The compiler verifies at compile time that the list of cases is exhaustive and none are redundant 
+
+type color   Red   Black
+type      a tree   Empty   Tree of color        a tree        a        a tree
+
+let rebalance t   match t with
+      Tree  Black  Tree  Red  Tree  Red  a  x  b   y  c   z  d 
+      Tree  Black  Tree  Red  a  x  Tree  Red  b  y  c    z  d                                   
+      Tree  Black  a  x  Tree  Red  Tree  Red  b  y  c   z  d  
+      Tree  Black  a  x  Tree  Red  b  y  Tree  Red  c  z  d   
+          gt   Tree  Red  Tree  Black  a  x  b   y  Tree  Black  c  z  d  
+          gt  t    the      catch all      case if no previous pattern matches   
+
+Filtering data with patterns edit 
+Pattern matching can be used to filter data of a certain structure  For instance  in Haskell a list comprehension could be used for this kind of filtering 
+
+ A x A x  lt    A    B    A    B    
+
+evaluates to
+
+ A    A   
+
+Pattern matching in Mathematica edit 
+In Mathematica  the only structure that exists is the tree  which is populated by symbols  In the Haskell syntax used thus far  this could be defined as
+
+data SymbolTree   Symbol String  SymbolTree 
+
+An example tree could then look like
+
+Symbol  quot a quot   Symbol  quot b quot      Symbol  quot c quot     
+
+In the traditional  more suitable syntax  the symbols are written as they are and the levels of the tree are represented using     so that for instance a b c  is a tree with a as the parent  and b and c as the children 
+A pattern in Mathematica involves putting     at positions in that tree  For instance  the pattern
+
+A   
+
+will match elements such as A     A     or more generally A x  where x is any entity  In this case  A is the concrete element  while   denotes the piece of tree that can be varied  A symbol prepended to   binds the match to that variable name while a symbol appended to   restricts the matches to nodes of that symbol  Note that even blanks themselves are internally represented as Blank   for   and Blank x  for  x 
+The Mathematica function Cases filters elements of the first argument that match the pattern in the second argument             
+
+Cases  a     b     a     b      a     
+
+evaluates to
+
+ a     a    
+
+Pattern matching applies to the structure of expressions  In the example below 
+
+Cases   a b   a b  c   a b c   d   a b c   d e    a b c   d  e    a b         
+
+returns
+
+ a b c  d   a b c  d e   
+
+because only these elements will match the pattern a b       above 
+In Mathematica  it is also possible to extract structures as they are created in the course of computation  regardless of how or where they appear  The function Trace can be used to monitor a computation  and return the elements that arise which match a pattern  For example  we can define the Fibonacci sequence as
+
+fib        
+fib n     fib n      fib n   
+
+Then  we can ask the question  Given fib     what is the sequence of recursive Fibonacci calls 
+
+Trace fib     fib    
+
+returns a structure that represents the occurrences of the pattern fib    in the computational structure 
+
+ fib     fib     fib      fib       fib     
+
+Declarative programming edit 
+In symbolic programming languages  it is easy to have patterns as arguments to functions or as elements of data structures  A consequence of this is the ability to use patterns to declaratively make statements about pieces of data and to flexibly instruct functions how to operate 
+For instance  the Mathematica function Compile can be used to make more efficient versions of the code  In the following example the details do not particularly matter  what matters is that the subexpression   com      Integer   instructs Compile that expressions of the form com    can be assumed to be integers for the purposes of compilation 
+
+com i      Binomial  i  i 
+Compile  x   i   Integer    x com i     com      Integer   
+
+Mailboxes in Erlang also work this way 
+The Curry Howard correspondence between proofs and programs relates ML style pattern matching to case analysis and proof by exhaustion 
+
+Pattern matching and strings edit 
+By far the most common form of pattern matching involves strings of characters  In many programming languages  a particular syntax of strings is used to represent regular expressions  which are patterns describing string characters 
+However  it is possible to perform some string pattern matching within the same framework that has been discussed throughout this article 
+
+Tree patterns for strings edit 
+In Mathematica  strings are represented as trees of root StringExpression and all the characters in order as children of the root  Thus  to match  any amount of trailing characters   a new wildcard     is needed in contrast to   that would match only a single character 
+In Haskell and functional programming languages in general  strings are represented as functional lists of characters  A functional list is defined as an empty list  or an element constructed on an existing list  In Haskell syntax 
+
+      an empty list
+x xs    an element x constructed on a list xs
+
+The structure for a list with some elements is thus element list  When pattern matching  we assert that a certain piece of data is equal to a certain pattern  For example  in the function 
+
+head  element list    element
+
+We assert that the first element of head s argument is called element  and the function returns this  We know that this is the first element because of the way lists are defined  a single element constructed onto a list  This single element must be the first  The empty list would not match the pattern at all  as an empty list does not have a head  the first element that is constructed  
+In the example  we have no use for list  so we can disregard it  and thus write the function 
+
+head  element      element
+
+The equivalent Mathematica transformation is expressed as
+
+head element     element
+
+Example string patterns edit 
+In Mathematica  for instance 
+
+StringExpression  quot a quot    
+
+will match a string that has two characters and begins with  a  
+The same pattern in Haskell 
+
+      a         
+
+Symbolic entities can be introduced to represent many different classes of relevant features of a string  For instance 
+
+StringExpression LetterCharacter  DigitCharacter 
+
+will match a string that consists of a letter first  and then a number 
+In Haskell  guards could be used to achieve the same matches 
+
+ letter  digit    isAlpha letter  amp  amp  isDigit digit
+
+The main advantage of symbolic string manipulation is that it can be completely integrated with the rest of the programming language  rather than being a separate  special purpose subunit  The entire power of the language can be leveraged to build up the patterns themselves or analyze and transform the programs that contain them 
+
+SNOBOL edit 
+Main article  SNOBOL
+SNOBOL  StriNg Oriented and symBOlic Language  is a computer programming language developed between      and      at AT amp T Bell Laboratories by David J  Farber  Ralph E  Griswold and Ivan P  Polonsky 
+SNOBOL  stands apart from most programming languages by having patterns as a first class data type  i e  a data type whose values can be manipulated in all ways permitted to any other data type in the programming language  and by providing operators for pattern concatenation and alternation  Strings generated during execution can be treated as programs and executed 
+SNOBOL was quite widely taught in larger US universities in the late     s and early     s and was widely used in the     s and     s as a text manipulation language in the humanities 
+Since SNOBOL s creation  newer languages such as AWK and Perl have made string manipulation by means of regular expressions fashionable  SNOBOL  patterns  however  subsume Backus Naur form  BNF  grammars  which are equivalent to context free grammars and more powerful than regular expressions             
+
+See also edit 
+Artificial Intelligence Markup Language  AIML  for an AI language based on matching patterns in speech
+AWK language
+Coccinelle pattern matches C source code
+Matching wildcards
+glob  programming 
+Pattern calculus
+Pattern recognition for fuzzy patterns
+PCRE Perl Compatible Regular Expressions  a common modern implementation of string pattern matching ported to many languages
+REBOL parse dialect for pattern matching used to implement language dialects
+Symbolic integration
+Tagged union
+Tom  pattern matching language 
+SNOBOL for a programming language based on one kind of pattern matching
+Pattern language   metaphoric  drawn from architecture
+Graph matching
+References edit 
+
+The Mathematica Book  chapter Section      Patterns
+The Haskell    Report  chapter      Pattern Matching 
+Python Reference Manual  chapter     Assignment statements 
+The Pure Programming Language  chapter      Patterns
+
+
+
+   Pattern Matching   C  Guide      March      
+
+   Pattern Matching   F  Guide     November      
+
+  A Gentle Introduction to Haskell  Patterns
+
+  https   docs oracle com en java javase    language pattern matching html
+
+   What s New In Python        Python       b  documentation   docs python org  Retrieved            
+
+   pattern matching   Documentation for Ruby         docs ruby lang org  Retrieved            
+
+   Pattern Syntax   The Rust Programming Language  
+
+   Pattern Matching   Scala Documentation  Retrieved            
+
+   Patterns   The Swift Programming Language  Swift       
+
+  Joel Moses   Symbolic Integration   MIT Project MAC MAC TR     December     
+
+  Cantatore  Alessandro          Wildcard matching algorithms  
+
+   Cases Wolfram Language Documentation   reference wolfram com  Retrieved            
+
+  Gimpel  J  F        A theory of discrete patterns and their implementation in SNOBOL   Commun  ACM        Feb                 DOI http   doi acm org                       
+
+
+External links edit 
+
+
+
+The Wikibook Haskell has a page on the topic of  Pattern matching
+
+
+
+
+Wikimedia Commons has media related to Pattern matching 
+
+Views  An Extension to Haskell Pattern Matching
+Nikolaas N  Oosterhof  Philip K  F  H lzenspies  and Jan Kuper  Application patterns  A presentation at Trends in Functional Programming      
+JMatch  the Java language extended with pattern matching
+ShowTrend  Online pattern matching for stock prices
+An incomplete history of the QED Text Editor by Dennis Ritchie   provides the history of regular expressions in computer programs
+The Implementation of Functional Programming Languages  pages        Simon Peyton Jones  published by Prentice Hall       
+Nemerle  pattern matching 
+Erlang  pattern matching 
+Prop  a C   based pattern matching language      
+PatMat  a C   pattern matching library based on SNOBOL SPITBOL
+Temur Kutsia  Flat Matching  Journal of Symbolic Computation                  Describes in details flat matching in Mathematica 
+EasyPattern language pattern matching language for non programmers
+vteStringsString metric
+Approximate string matching
+Bitap algorithm
+Damerau Levenshtein distance
+Edit distance
+Gestalt pattern matching
+Hamming distance
+Jaro Winkler distance
+Lee distance
+Levenshtein automaton
+Levenshtein distance
+Wagner Fischer algorithm 
+String searching algorithm
+Apostolico Giancarlo algorithm
+Boyer Moore string search algorithm
+Boyer Moore Horspool algorithm
+Knuth Morris Pratt algorithm
+Rabin Karp algorithm
+Raita algorithm
+Trigram search
+Two way string matching algorithm
+Zhu Takaoka string matching algorithm
+Multiple string searching
+Aho Corasick
+Commentz Walter algorithm
+Regular expression
+Comparison of regular expression engines
+Regular grammar
+Thompson s construction
+Nondeterministic finite automaton
+Sequence alignment
+BLAST
+Hirschberg s algorithm
+Needleman Wunsch algorithm
+Smith Waterman algorithm
+Data structure
+DAFSA
+Substring index
+Suffix array
+Suffix automaton
+Suffix tree
+Compressed suffix array
+LCP array
+FM index
+Generalized suffix tree
+Rope
+Ternary search tree
+Trie
+Other
+Parsing
+Pattern matching
+Compressed pattern matching
+Longest common subsequence
+Longest common substring
+Sequential pattern mining
+Sorting
+String rewriting systems
+String operations
+
+Authority control databases  National Germany
+
+
+
+
+
+Retrieved from  https   en wikipedia org w index php title Pattern matching amp oldid

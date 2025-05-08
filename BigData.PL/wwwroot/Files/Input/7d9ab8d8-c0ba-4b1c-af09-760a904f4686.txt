@@ -1,0 +1,71 @@
+American computer scientist             
+For the British politician  see Arthur Samuel   st Baron Mancroft 
+Arthur Lee SamuelBorn            December        Emporia  KansasDiedJuly                       aged         Stanford  CaliforniaCitizenshipUnited StatesAlma      materMIT  Master        College of Emporia       Known      forSamuel Checkers playing Program  Alpha beta pruning  an early implementation   Pioneer in Machine Learning             TeX project  with Donald Knuth AwardsComputer Pioneer Award                   Scientific careerFieldsComputer ScienceInstitutionsBell Laboratories         University of Illinois         IBM Poughkeepsie Laboratory         Stanford University       
+
+Arthur Lee Samuel  December           July                      was an American pioneer in the field of computer gaming and artificial intelligence             He popularized the term  machine learning  in                  The Samuel Checkers playing Program was among the world s first successful self learning programs  and as such a very early demonstration of the fundamental concept of artificial intelligence  AI              He was also a senior member in the TeX community who devoted much time giving personal attention to the needs of users and wrote an early TeX manual in                 
+
+
+Biography edit 
+Samuel was born on December          in Emporia  Kansas  and graduated from the College of Emporia in Kansas in                  He received a master s degree in Electrical Engineering from MIT in       and taught for two years as an instructor  In       he joined Bell Laboratories  where he worked mostly on vacuum tubes  including improvements of radar during World War II              He developed a gas discharge transmit receive switch  TR tube  that allowed a single antenna to be used for both transmitting and receiving             After the war he moved to the University of Illinois at Urbana Champaign to become a Professor of Electrical Engineering  where he initiated the ILLIAC project  but left before its first computer was complete            
+Samuel went to IBM in Poughkeepsie  New York  in       where he would conceive and carry out his most successful work  He is credited with one of the first software hash tables  and influencing early research in using transistors for computers at IBM             At IBM he made the first checkers program on IBM s first commercial computer  the IBM      The program was a sensational demonstration of the advances in both hardware and skilled programming and caused IBM s stock to increase    points overnight  His pioneering non numerical programming helped shape the instruction set of processors  as he was one of the first to work with computers on projects other than computation             He was known for writing articles that made complex subjects easy to understand  He was chosen to write an introduction to one of the earliest journals devoted to computing in                 
+In       Samuel retired from IBM and became a professor at Stanford University  where he worked the remainder of his life  He worked with Donald Knuth on the TeX project  including writing some of the documentation  He continued to write software past his   th birthday            
+He was given the Computer Pioneer Award by the IEEE Computer Society in                   Samuel died of complications from Parkinson s disease on July                     
+
+Computer checkers  draughts  development edit 
+Samuel is most known within the AI community for his groundbreaking work in computer checkers in       and seminal research on machine learning  beginning in                  He graduated from MIT and taught at MIT and UIUC from      to                   He believed teaching computers to play games was very fruitful for developing tactics appropriate to general problems  and he chose checkers as it is relatively simple though has a depth of strategy  The main driver of the machine was a search tree of the board positions reachable from the current state   Since he had only a very limited amount of available computer memory  Samuel implemented what is now called alpha beta pruning              Instead of searching each path until reaching the game s conclusion  Samuel developed a scoring function based on the position of the board at any given time  This function tried to measure the chance of winning for each side at the given position  taking into account elements such as the number of pieces on each side  the number of kings  and the proximity of pieces to being  kinged    The program chose its move based on a minimax strategy  meaning it made the move that optimized the value of this function  assuming that the opponent was trying to optimize the value of the same function from its point of view             
+Samuel also designed various mechanisms by which his program could become better  In what he called rote learning  the program remembered every position it had already seen  along with the terminal value of the reward function  This technique effectively extended the search depth at each of these positions   Samuel s later programs reevaluated the reward function based on input from professional games  He also had it play thousands of games against itself as another way of learning  With all of this work  Samuel s program reached a respectable amateur status and was the first to play any board game at this high a level  He continued to work on checkers until the mid     s  at which point his program achieved sufficient skill to challenge a respectable amateur             
+
+Awards edit 
+      Founding Fellow of the Association for the Advancement of Artificial Intelligence            
+      Computer Pioneer Award            
+For Adaptive non numeric processing 
+Selected works edit 
+Computing bit by bit  or Digital computers made easy         Proceedings of the Institute of Radio Engineers                          
+Samuel  A  L           Some studies in machine learning using the game of checkers   IBM Journal of Research and Development      IBM           doi         rd          
+Pioneer of machine learning 
+Reprinted with an additional annotated game in Computers and Thought  edited by Edward Feigenbaum and Julian Feldman  New York  McGraw Hill                
+      First Grade TeX  A Beginner s TeX Manual  Stanford Computer Science Report STAN CS         November       
+Senior member in TeX community 
+References edit 
+
+
+  a b       Computer Pioneer Award   computer org  Computer Society    April       For Adaptive non numeric processing
+
+  a b c John McCarthy  Edward Feigenbaum          In Memoriam Arthur Samuel  Pioneer in Machine Learning   AI Magazine          AAAI  Retrieved    January      
+
+  a b c E  A  Weiss          Arthur Lee Samuel             IEEE Annals of the History of Computing                 doi                   
+
+  Samuel  Arthur L           Some Studies in Machine Learning Using the Game of Checkers   IBM Journal of Research and Development               CiteSeerX                       doi         rd                failed verification     
+
+  a b c Gio Wiederhold  John McCarthy  Ed Feigenbaum          Memorial Resolution  Arthur L  Samuel   PDF   Stanford University Historical Society  Archived from the original  PDF  on    May       Retrieved April          
+
+  a b c Donald Knuth          Arthur Lee Samuel              PDF   TUGboat  pp                Retrieved April          
+
+  A  L  Samuel  J  W  Clark  amp  W  W  Mumford          The Gas Discharge Transmit Receive Switch   The Bell System Technical Journal              doi         j                tb      x 
+
+   Arthur Samuel   infolab stanford edu  Retrieved            
+
+  a b A  L  Samuel          Computing Bit by Bit or Digital Computers Made Easy   Proceedings of the IRE                 doi         JRPROC              S CID               
+
+   Past recipients for Computer Pioneer Award   IEEE Computer Society  Archived from the original on March           Retrieved April          
+
+  Narvaez  Alfonso a                Arthur Samuel      Pioneer Researcher In Computer Science   The New York Times  ISSN                 Retrieved            
+
+  Richard Sutton  May             Samuel s Checkers Player   Reinforcement Learning  An Introduction  MIT Press  Retrieved April          
+
+  Arthur  Samuel                Some Studies in Machine Learning Using the Game of Checkers   IBM Journal of Research and Development                  CiteSeerX                       doi         rd          S CID              
+
+  Schaeffer  Jonathan  One Jump Ahead  Challenging Human Supremacy in Checkers              Springer  ISBN                         Chapter   
+
+   Elected AAAI Fellows   AAAI  Retrieved            
+
+
+External links edit 
+Checkers AI  a look at Arthur Samuel s ideas on GitHub
+Authority control databases InternationalISNIVIAFWorldCatNationalGermanyUnited StatesJapanIsraelAcademicsCiNiiOtherNARASNAC
+
+
+
+
+
+Retrieved from  https   en wikipedia org w index php title Arthur Samuel  computer scientist  amp oldid

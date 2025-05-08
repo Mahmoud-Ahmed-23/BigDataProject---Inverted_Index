@@ -1,0 +1,4075 @@
+Set of statistical processes for estimating the relationships among variables
+Regression line for    random points in a Gaussian distribution around the line y    x   
+Part of a series onRegression analysis
+Models
+Linear regression
+Simple regression
+Polynomial regression
+General linear model
+
+Generalized linear model
+Vector generalized linear model
+Discrete choice
+Binomial regression
+Binary regression
+Logistic regression
+Multinomial logistic regression
+Mixed logit
+Probit
+Multinomial probit
+Ordered logit
+Ordered probit
+Poisson
+
+Multilevel model
+Fixed effects
+Random effects
+Linear mixed effects model
+Nonlinear mixed effects model
+
+Nonlinear regression
+Nonparametric
+Semiparametric
+Robust
+Quantile
+Isotonic
+Principal components
+Least angle
+Local
+Segmented
+
+Errors in variables
+
+Estimation
+Least squares
+Linear
+Non linear
+
+Ordinary
+Weighted
+Generalized
+Generalized estimating equation
+
+Partial
+Total
+Non negative
+Ridge regression
+Regularized
+
+Least absolute deviations
+Iteratively reweighted
+Bayesian
+Bayesian multivariate
+Least squares spectral analysis
+
+Background
+Regression validation
+Mean and predicted response
+Errors and residuals
+Goodness of fit
+Studentized residual
+Gauss Markov theorem
+
+ Mathematics     portalvte
+Part of a series onMachine learningand data mining
+Paradigms
+Supervised learning
+Unsupervised learning
+Semi supervised learning
+Self supervised learning
+Reinforcement learning
+Meta learning
+Online learning
+Batch learning
+Curriculum learning
+Rule based learning
+Neuro symbolic AI
+Neuromorphic engineering
+Quantum machine learning
+
+Problems
+Classification
+Generative modeling
+Regression
+Clustering
+Dimensionality reduction
+Density estimation
+Anomaly detection
+Data cleaning
+AutoML
+Association rules
+Semantic analysis
+Structured prediction
+Feature engineering
+Feature learning
+Learning to rank
+Grammar induction
+Ontology learning
+Multimodal learning
+
+Supervised learning classification                  regression  
+Apprenticeship learning
+Decision trees
+Ensembles
+Bagging
+Boosting
+Random forest
+k NN
+Linear regression
+Naive Bayes
+Artificial neural networks
+Logistic regression
+Perceptron
+Relevance vector machine  RVM 
+Support vector machine  SVM 
+
+Clustering
+BIRCH
+CURE
+Hierarchical
+k means
+Fuzzy
+Expectation maximization  EM 
+DBSCAN
+OPTICS
+Mean shift
+
+Dimensionality reduction
+Factor analysis
+CCA
+ICA
+LDA
+NMF
+PCA
+PGD
+t SNE
+SDL
+
+Structured prediction
+Graphical models
+Bayes net
+Conditional random field
+Hidden Markov
+
+Anomaly detection
+RANSAC
+k NN
+Local outlier factor
+Isolation forest
+
+Artificial neural network
+Autoencoder
+Deep learning
+Feedforward neural network
+Recurrent neural network
+LSTM
+GRU
+ESN
+reservoir computing
+Boltzmann machine
+Restricted
+GAN
+Diffusion model
+SOM
+Convolutional neural network
+U Net
+LeNet
+AlexNet
+DeepDream
+Neural radiance field
+Transformer
+Vision
+Mamba
+Spiking neural network
+Memtransistor
+Electrochemical RAM  ECRAM 
+
+Reinforcement learning
+Q learning
+SARSA
+Temporal difference  TD 
+Multi agent
+Self play
+
+Learning with humans
+Active learning
+Crowdsourcing
+Human in the loop
+RLHF
+
+Model diagnostics
+Coefficient of determination
+Confusion matrix
+Learning curve
+ROC curve
+
+Mathematical foundations
+Kernel machines
+Bias variance tradeoff
+Computational learning theory
+Empirical risk minimization
+Occam learning
+PAC learning
+Statistical learning
+VC theory
+Topological deep learning
+
+Journals and conferences
+ECML PKDD
+NeurIPS
+ICML
+ICLR
+IJCAI
+ML
+JMLR
+
+Related articles
+Glossary of artificial intelligence
+List of datasets for machine learning research
+List of datasets in computer vision and image processing
+Outline of machine learning
+vte
+In statistical modeling  regression analysis is a set of statistical processes for estimating the relationships between a dependent variable  often called the outcome or response variable  or a label in machine learning parlance  and one or more error free independent variables  often called regressors  predictors  covariates  explanatory variables or features  
+The most common form of regression analysis is linear regression  in which one finds the line  or a more complex linear combination  that most closely fits the data according to a specific mathematical criterion  For example  the method of ordinary least squares computes the unique line  or hyperplane  that minimizes the sum of squared differences between the true data and that line  or hyperplane   For specific mathematical reasons  see linear regression   this allows the researcher to estimate the conditional expectation  or population average value  of the dependent variable when the independent variables take on a given set of values  Less common forms of regression use slightly different procedures to estimate alternative location parameters  e g   quantile regression or Necessary Condition Analysis             or estimate the conditional expectation across a broader collection of non linear models  e g   nonparametric regression  
+Regression analysis is primarily used for two conceptually distinct purposes  First  regression analysis is widely used for prediction and forecasting  where its use has substantial overlap with the field of machine learning  Second  in some situations regression analysis can be used to infer causal relationships between the independent and dependent variables  Importantly  regressions by themselves only reveal relationships between a dependent variable and a collection of independent variables in a fixed dataset  To use regressions for prediction or to infer causal relationships  respectively  a researcher must carefully justify why existing relationships have predictive power for a new context or why a relationship between two variables has a causal interpretation  The latter is especially important when researchers hope to estimate causal relationships using observational data                       
+
+
+History edit 
+The earliest regression form was seen in Isaac Newton s work in      while studying equinoxes  being credited with introducing  an embryonic linear aggression analysis  as  Not only did he perform the averaging of a set of data     years before Tobias Mayer  but summing the residuals to zero he forced the regression line to pass through the average point  He also distinguished between two inhomogeneous sets of data and might have thought of an optimal solution in terms of bias  though not in terms of effectiveness   He previously used an averaging method in his      work on Newton s rings  which was unprecedented at the time                        
+The method of least squares was published by Legendre in                  and by Gauss in                  Legendre and Gauss both applied the method to the problem of determining  from astronomical observations  the orbits of bodies about the Sun  mostly comets  but also later the then newly discovered minor planets   Gauss published a further development of the theory of least squares in                  including a version of the Gauss Markov theorem 
+The term  regression  was coined by Francis Galton in the   th century to describe a biological phenomenon  The phenomenon was that the heights of descendants of tall ancestors tend to regress down towards a normal average  a phenomenon also known as regression toward the mean                         
+For Galton  regression had only this biological meaning                          but his work was later extended by Udny Yule and Karl Pearson to a more general statistical context                          In the work of Yule and Pearson  the joint distribution of the response and explanatory variables is assumed to be Gaussian  This assumption was weakened by R A  Fisher in his works of      and                                           Fisher assumed that the conditional distribution of the response variable is Gaussian  but the joint distribution need not be  In this respect  Fisher s assumption is closer to Gauss s formulation of      
+In the     s and     s  economists used electromechanical desk calculators to calculate regressions  Before       it sometimes took up to    hours to receive the result from one regression              
+Regression methods continue to be an area of active research  In recent decades  new methods have been developed for robust regression  regression involving correlated responses such as time series and growth curves  regression in which the predictor  independent variable  or response variables are curves  images  graphs  or other complex data objects  regression methods accommodating various types of missing data  nonparametric regression  Bayesian methods for regression  regression in which the predictor variables are measured with error  regression with more predictor variables than observations  and causal inference with regression  Modern regression analysis is typically done with statistical and spreadsheet software packages on computers as well as on handheld scientific and graphing calculators 
+
+Regression model edit 
+In practice  researchers first select a model they would like to estimate and then use their chosen method  e g   ordinary least squares  to estimate the parameters of that model  Regression models involve the following components 
+
+The unknown parameters  often denoted as a scalar or vector 
+  
+    
+      
+          x b  
+      
+    
+      displaystyle  beta  
+  
+ 
+The independent variables  which are observed in data and are often denoted as a vector 
+  
+    
+      
+        
+          X
+          
+            i
+          
+        
+      
+    
+      displaystyle X  i  
+  
+  where 
+  
+    
+      
+        i
+      
+    
+      displaystyle i 
+  
+ denotes a row of data  
+The dependent variable  which are observed in data and often denoted using the scalar 
+  
+    
+      
+        
+          Y
+          
+            i
+          
+        
+      
+    
+      displaystyle Y  i  
+  
+ 
+The error terms  which are not directly observed in data and are often denoted using the scalar 
+  
+    
+      
+        
+          e
+          
+            i
+          
+        
+      
+    
+      displaystyle e  i  
+  
+ 
+In various fields of application  different terminologies are used in place of dependent and independent variables 
+Most regression models propose that 
+  
+    
+      
+        
+          Y
+          
+            i
+          
+        
+      
+    
+      displaystyle Y  i  
+  
+ is a function  regression function  of 
+  
+    
+      
+        
+          X
+          
+            i
+          
+        
+      
+    
+      displaystyle X  i  
+  
+ and 
+  
+    
+      
+          x b  
+      
+    
+      displaystyle  beta  
+  
+  with 
+  
+    
+      
+        
+          e
+          
+            i
+          
+        
+      
+    
+      displaystyle e  i  
+  
+ representing an additive error term that may stand in for un modeled determinants of 
+  
+    
+      
+        
+          Y
+          
+            i
+          
+        
+      
+    
+      displaystyle Y  i  
+  
+ or random statistical noise 
+
+
+  
+    
+      
+        
+          Y
+          
+            i
+          
+        
+         
+        f
+         
+        
+          X
+          
+            i
+          
+        
+         
+          x b  
+         
+         
+        
+          e
+          
+            i
+          
+        
+      
+    
+      displaystyle Y  i  f X  i   beta   e  i  
+  
+
+Note that the independent variables 
+  
+    
+      
+        
+          X
+          
+            i
+          
+        
+      
+    
+      displaystyle X  i  
+  
+ are assumed to be free of error  This important assumption is often overlooked  although errors in variables models can be used when the independent variables are assumed to contain errors 
+The researchers  goal is to estimate the function 
+  
+    
+      
+        f
+         
+        
+          X
+          
+            i
+          
+        
+         
+          x b  
+         
+      
+    
+      displaystyle f X  i   beta   
+  
+ that most closely fits the data  To carry out regression analysis  the form of the function 
+  
+    
+      
+        f
+      
+    
+      displaystyle f 
+  
+ must be specified  Sometimes the form of this function is based on knowledge about the relationship between 
+  
+    
+      
+        
+          Y
+          
+            i
+          
+        
+      
+    
+      displaystyle Y  i  
+  
+ and 
+  
+    
+      
+        
+          X
+          
+            i
+          
+        
+      
+    
+      displaystyle X  i  
+  
+ that does not rely on the data  If no such knowledge is available  a flexible or convenient form for 
+  
+    
+      
+        f
+      
+    
+      displaystyle f 
+  
+ is chosen  For example  a simple univariate regression may propose 
+  
+    
+      
+        f
+         
+        
+          X
+          
+            i
+          
+        
+         
+          x b  
+         
+         
+        
+            x b  
+          
+             
+          
+        
+         
+        
+            x b  
+          
+             
+          
+        
+        
+          X
+          
+            i
+          
+        
+      
+    
+      displaystyle f X  i   beta    beta       beta     X  i  
+  
+  suggesting that the researcher believes 
+  
+    
+      
+        
+          Y
+          
+            i
+          
+        
+         
+        
+            x b  
+          
+             
+          
+        
+         
+        
+            x b  
+          
+             
+          
+        
+        
+          X
+          
+            i
+          
+        
+         
+        
+          e
+          
+            i
+          
+        
+      
+    
+      displaystyle Y  i   beta       beta     X  i  e  i  
+  
+ to be a reasonable approximation for the statistical process generating the data 
+Once researchers determine their preferred statistical model  different forms of regression analysis provide tools to estimate the parameters 
+  
+    
+      
+          x b  
+      
+    
+      displaystyle  beta  
+  
+  For example  least squares  including its most common variant  ordinary least squares  finds the value of 
+  
+    
+      
+          x b  
+      
+    
+      displaystyle  beta  
+  
+ that minimizes the sum of squared errors 
+  
+    
+      
+        
+            x     
+          
+            i
+          
+        
+         
+        
+          Y
+          
+            i
+          
+        
+          x     
+        f
+         
+        
+          X
+          
+            i
+          
+        
+         
+          x b  
+         
+        
+           
+          
+             
+          
+        
+      
+    
+      displaystyle  sum   i  Y  i  f X  i   beta        
+  
+  A given regression method will ultimately provide an estimate of 
+  
+    
+      
+          x b  
+      
+    
+      displaystyle  beta  
+  
+  usually denoted 
+  
+    
+      
+        
+          
+            
+                x b  
+                x e 
+            
+          
+        
+      
+    
+      displaystyle   hat   beta    
+  
+ to distinguish the estimate from the true  unknown  parameter value that generated the data  Using this estimate  the researcher can then use the fitted value 
+  
+    
+      
+        
+          
+            
+              
+                Y
+                
+                  i
+                
+              
+                x e 
+            
+          
+        
+         
+        f
+         
+        
+          X
+          
+            i
+          
+        
+         
+        
+          
+            
+                x b  
+                x e 
+            
+          
+        
+         
+      
+    
+      displaystyle   hat  Y  i    f X  i    hat   beta     
+  
+ for prediction or to assess the accuracy of the model in explaining the data  Whether the researcher is intrinsically interested in the estimate 
+  
+    
+      
+        
+          
+            
+                x b  
+                x e 
+            
+          
+        
+      
+    
+      displaystyle   hat   beta    
+  
+ or the predicted value 
+  
+    
+      
+        
+          
+            
+              
+                Y
+                
+                  i
+                
+              
+                x e 
+            
+          
+        
+      
+    
+      displaystyle   hat  Y  i    
+  
+ will depend on context and their goals  As described in ordinary least squares  least squares is widely used because the estimated function 
+  
+    
+      
+        f
+         
+        
+          X
+          
+            i
+          
+        
+         
+        
+          
+            
+                x b  
+                x e 
+            
+          
+        
+         
+      
+    
+      displaystyle f X  i    hat   beta     
+  
+ approximates the conditional expectation 
+  
+    
+      
+        E
+         
+        
+          Y
+          
+            i
+          
+        
+        
+           
+        
+        
+          X
+          
+            i
+          
+        
+         
+      
+    
+      displaystyle E Y  i  X  i   
+  
+             However  alternative variants  e g   least absolute deviations or quantile regression  are useful when researchers want to model other functions 
+  
+    
+      
+        f
+         
+        
+          X
+          
+            i
+          
+        
+         
+          x b  
+         
+      
+    
+      displaystyle f X  i   beta   
+  
+ 
+It is important to note that there must be sufficient data to estimate a regression model  For example  suppose that a researcher has access to 
+  
+    
+      
+        N
+      
+    
+      displaystyle N 
+  
+ rows of data with one dependent and two independent variables  
+  
+    
+      
+         
+        
+          Y
+          
+            i
+          
+        
+         
+        
+          X
+          
+             
+            i
+          
+        
+         
+        
+          X
+          
+             
+            i
+          
+        
+         
+      
+    
+      displaystyle  Y  i  X   i  X   i   
+  
+  Suppose further that the researcher wants to estimate a bivariate linear model via least squares  
+  
+    
+      
+        
+          Y
+          
+            i
+          
+        
+         
+        
+            x b  
+          
+             
+          
+        
+         
+        
+            x b  
+          
+             
+          
+        
+        
+          X
+          
+             
+            i
+          
+        
+         
+        
+            x b  
+          
+             
+          
+        
+        
+          X
+          
+             
+            i
+          
+        
+         
+        
+          e
+          
+            i
+          
+        
+      
+    
+      displaystyle Y  i   beta       beta     X   i   beta     X   i  e  i  
+  
+  If the researcher only has access to 
+  
+    
+      
+        N
+         
+         
+      
+    
+      displaystyle N   
+  
+ data points  then they could find infinitely many combinations 
+  
+    
+      
+         
+        
+          
+            
+              
+                  x b  
+                  x e 
+              
+            
+          
+          
+             
+          
+        
+         
+        
+          
+            
+              
+                  x b  
+                  x e 
+              
+            
+          
+          
+             
+          
+        
+         
+        
+          
+            
+              
+                  x b  
+                  x e 
+              
+            
+          
+          
+             
+          
+        
+         
+      
+    
+      displaystyle    hat   beta          hat   beta          hat   beta         
+  
+ that explain the data equally well  any combination can be chosen that satisfies 
+  
+    
+      
+        
+          
+            
+              
+                Y
+                  x e 
+              
+            
+          
+          
+            i
+          
+        
+         
+        
+          
+            
+              
+                  x b  
+                  x e 
+              
+            
+          
+          
+             
+          
+        
+         
+        
+          
+            
+              
+                  x b  
+                  x e 
+              
+            
+          
+          
+             
+          
+        
+        
+          X
+          
+             
+            i
+          
+        
+         
+        
+          
+            
+              
+                  x b  
+                  x e 
+              
+            
+          
+          
+             
+          
+        
+        
+          X
+          
+             
+            i
+          
+        
+      
+    
+      displaystyle   hat  Y    i    hat   beta          hat   beta       X   i    hat   beta       X   i  
+  
+  all of which lead to 
+  
+    
+      
+        
+            x     
+          
+            i
+          
+        
+        
+          
+            
+              
+                e
+                  x e 
+              
+            
+          
+          
+            i
+          
+          
+             
+          
+        
+         
+        
+            x     
+          
+            i
+          
+        
+         
+        
+          
+            
+              
+                Y
+                  x e 
+              
+            
+          
+          
+            i
+          
+        
+          x     
+         
+        
+          
+            
+              
+                  x b  
+                  x e 
+              
+            
+          
+          
+             
+          
+        
+         
+        
+          
+            
+              
+                  x b  
+                  x e 
+              
+            
+          
+          
+             
+          
+        
+        
+          X
+          
+             
+            i
+          
+        
+         
+        
+          
+            
+              
+                  x b  
+                  x e 
+              
+            
+          
+          
+             
+          
+        
+        
+          X
+          
+             
+            i
+          
+        
+         
+        
+           
+          
+             
+          
+        
+         
+         
+      
+    
+      displaystyle  sum   i   hat  e    i       sum   i    hat  Y    i     hat   beta          hat   beta       X   i    hat   beta       X   i          
+  
+ and are therefore valid solutions that minimize the sum of squared residuals  To understand why there are infinitely many options  note that the system of 
+  
+    
+      
+        N
+         
+         
+      
+    
+      displaystyle N   
+  
+ equations is to be solved for   unknowns  which makes the system underdetermined  Alternatively  one can visualize infinitely many   dimensional planes that go through 
+  
+    
+      
+        N
+         
+         
+      
+    
+      displaystyle N   
+  
+ fixed points 
+More generally  to estimate a least squares model with 
+  
+    
+      
+        k
+      
+    
+      displaystyle k 
+  
+ distinct parameters  one must have 
+  
+    
+      
+        N
+          x     
+        k
+      
+    
+      displaystyle N geq k 
+  
+ distinct data points  If 
+  
+    
+      
+        N
+         gt 
+        k
+      
+    
+      displaystyle N gt k 
+  
+  then there does not generally exist a set of parameters that will perfectly fit the data  The quantity 
+  
+    
+      
+        N
+          x     
+        k
+      
+    
+      displaystyle N k 
+  
+ appears often in regression analysis  and is referred to as the degrees of freedom in the model  Moreover  to estimate a least squares model  the independent variables 
+  
+    
+      
+         
+        
+          X
+          
+             
+            i
+          
+        
+         
+        
+          X
+          
+             
+            i
+          
+        
+         
+         
+         
+         
+         
+        
+          X
+          
+            k
+            i
+          
+        
+         
+      
+    
+      displaystyle  X   i  X   i      X  ki   
+  
+ must be linearly independent  one must not be able to reconstruct any of the independent variables by adding and multiplying the remaining independent variables  As discussed in ordinary least squares  this condition ensures that 
+  
+    
+      
+        
+          X
+          
+            T
+          
+        
+        X
+      
+    
+      displaystyle X  T X 
+  
+ is an invertible matrix and therefore that a unique solution 
+  
+    
+      
+        
+          
+            
+                x b  
+                x e 
+            
+          
+        
+      
+    
+      displaystyle   hat   beta    
+  
+ exists 
+
+Underlying assumptions edit 
+This section needs additional citations for verification  Please help improve this article by adding citations to reliable sources     in this section  Unsourced material may be challenged and removed    December        Learn how and when to remove this message 
+By itself  a regression is simply a calculation using the data  In order to interpret the output of regression as a meaningful statistical quantity that measures real world relationships  researchers often rely on a number of classical assumptions  These assumptions often include 
+
+The sample is representative of the population at large 
+The independent variables are measured without error 
+Deviations from the model have an expected value of zero  conditional on covariates  
+  
+    
+      
+        E
+         
+        
+          e
+          
+            i
+          
+        
+        
+           
+        
+        
+          X
+          
+            i
+          
+        
+         
+         
+         
+      
+    
+      displaystyle E e  i  X  i     
+  
+
+The variance of the residuals 
+  
+    
+      
+        
+          e
+          
+            i
+          
+        
+      
+    
+      displaystyle e  i  
+  
+ is constant across observations  homoscedasticity  
+The residuals 
+  
+    
+      
+        
+          e
+          
+            i
+          
+        
+      
+    
+      displaystyle e  i  
+  
+ are uncorrelated with one another  Mathematically  the variance covariance matrix of the errors is diagonal 
+A handful of conditions are sufficient for the least squares estimator to possess desirable properties  in particular  the Gauss Markov assumptions imply that the parameter estimates will be unbiased  consistent  and efficient in the class of linear unbiased estimators  Practitioners have developed a variety of methods to maintain some or all of these desirable properties in real world settings  because these classical assumptions are unlikely to hold exactly  For example  modeling errors in variables can lead to reasonable estimates independent variables are measured with errors  Heteroscedasticity consistent standard errors allow the variance of 
+  
+    
+      
+        
+          e
+          
+            i
+          
+        
+      
+    
+      displaystyle e  i  
+  
+ to change across values of 
+  
+    
+      
+        
+          X
+          
+            i
+          
+        
+      
+    
+      displaystyle X  i  
+  
+  Correlated errors that exist within subsets of the data or follow specific patterns can be handled using clustered standard errors  geographic weighted regression  or Newey West standard errors  among other techniques  When rows of data correspond to locations in space  the choice of how to model 
+  
+    
+      
+        
+          e
+          
+            i
+          
+        
+      
+    
+      displaystyle e  i  
+  
+ within geographic units can have important consequences                          The subfield of econometrics is largely focused on developing techniques that allow researchers to make reasonable real world conclusions in real world settings  where classical assumptions do not hold exactly 
+
+Linear regression edit 
+Main article  Linear regression
+See simple linear regression for a derivation of these formulas and a numerical example
+In linear regression  the model specification is that the dependent variable  
+  
+    
+      
+        
+          y
+          
+            i
+          
+        
+      
+    
+      displaystyle y  i  
+  
+ is a linear combination of the parameters  but need not be linear in the independent variables   For example  in simple linear regression for modeling 
+  
+    
+      
+        n
+      
+    
+      displaystyle n 
+  
+ data points there is one independent variable  
+  
+    
+      
+        
+          x
+          
+            i
+          
+        
+      
+    
+      displaystyle x  i  
+  
+  and two parameters  
+  
+    
+      
+        
+            x b  
+          
+             
+          
+        
+      
+    
+      displaystyle  beta      
+  
+ and 
+  
+    
+      
+        
+            x b  
+          
+             
+          
+        
+      
+    
+      displaystyle  beta      
+  
+ 
+
+straight line  
+  
+    
+      
+        
+          y
+          
+            i
+          
+        
+         
+        
+            x b  
+          
+             
+          
+        
+         
+        
+            x b  
+          
+             
+          
+        
+        
+          x
+          
+            i
+          
+        
+         
+        
+            x b  
+          
+            i
+          
+        
+         
+        
+        i
+         
+         
+         
+          x     
+         
+        n
+         
+        
+      
+    
+      displaystyle y  i   beta       beta     x  i   varepsilon   i   quad i    dots  n    
+  
+
+In multiple linear regression  there are several independent variables or functions of independent variables 
+Adding a term in 
+  
+    
+      
+        
+          x
+          
+            i
+          
+          
+             
+          
+        
+      
+    
+      displaystyle x  i      
+  
+ to the preceding regression gives 
+
+parabola  
+  
+    
+      
+        
+          y
+          
+            i
+          
+        
+         
+        
+            x b  
+          
+             
+          
+        
+         
+        
+            x b  
+          
+             
+          
+        
+        
+          x
+          
+            i
+          
+        
+         
+        
+            x b  
+          
+             
+          
+        
+        
+          x
+          
+            i
+          
+          
+             
+          
+        
+         
+        
+            x b  
+          
+            i
+          
+        
+         
+          xa  
+        i
+         
+         
+         
+          x     
+         
+        n
+         
+        
+      
+    
+      displaystyle y  i   beta       beta     x  i   beta     x  i       varepsilon   i    i    dots  n    
+  
+
+This is still linear regression  although the expression on the right hand side is quadratic in the independent variable 
+  
+    
+      
+        
+          x
+          
+            i
+          
+        
+      
+    
+      displaystyle x  i  
+  
+  it is linear in the parameters 
+  
+    
+      
+        
+            x b  
+          
+             
+          
+        
+      
+    
+      displaystyle  beta      
+  
+  
+  
+    
+      
+        
+            x b  
+          
+             
+          
+        
+      
+    
+      displaystyle  beta      
+  
+ and 
+  
+    
+      
+        
+            x b  
+          
+             
+          
+        
+         
+      
+    
+      displaystyle  beta       
+  
+
+In both cases  
+  
+    
+      
+        
+            x b  
+          
+            i
+          
+        
+      
+    
+      displaystyle  varepsilon   i  
+  
+ is an error term and the subscript 
+  
+    
+      
+        i
+      
+    
+      displaystyle i 
+  
+ indexes a particular observation 
+Returning our attention to the straight line case  Given a random sample from the population  we estimate the population parameters and obtain the sample linear regression model 
+
+
+  
+    
+      
+        
+          
+            
+              
+                y
+                  x e 
+              
+            
+          
+          
+            i
+          
+        
+         
+        
+          
+            
+              
+                  x b  
+                  x e 
+              
+            
+          
+          
+             
+          
+        
+         
+        
+          
+            
+              
+                  x b  
+                  x e 
+              
+            
+          
+          
+             
+          
+        
+        
+          x
+          
+            i
+          
+        
+         
+      
+    
+      displaystyle   widehat  y    i    widehat   beta          widehat   beta       x  i   
+  
+
+The residual  
+  
+    
+      
+        
+          e
+          
+            i
+          
+        
+         
+        
+          y
+          
+            i
+          
+        
+          x     
+        
+          
+            
+              
+                y
+                  x e 
+              
+            
+          
+          
+            i
+          
+        
+      
+    
+      displaystyle e  i  y  i    widehat  y    i  
+  
+  is the difference between the value of the dependent variable predicted by the model  
+  
+    
+      
+        
+          
+            
+              
+                y
+                  x e 
+              
+            
+          
+          
+            i
+          
+        
+      
+    
+      displaystyle   widehat  y    i  
+  
+  and the true value of the dependent variable  
+  
+    
+      
+        
+          y
+          
+            i
+          
+        
+      
+    
+      displaystyle y  i  
+  
+  One method of estimation is ordinary least squares  This method obtains parameter estimates that minimize the sum of squared residuals  SSR 
+
+
+  
+    
+      
+        S
+        S
+        R
+         
+        
+            x     
+          
+            i
+             
+             
+          
+          
+            n
+          
+        
+        
+          e
+          
+            i
+          
+          
+             
+          
+        
+      
+    
+      displaystyle SSR  sum   i     n e  i      
+  
+
+Minimization of this function results in a set of normal equations  a set of simultaneous linear equations in the parameters  which are solved to yield the parameter estimators  
+  
+    
+      
+        
+          
+            
+              
+                  x b  
+                  x e 
+              
+            
+          
+          
+             
+          
+        
+         
+        
+          
+            
+              
+                  x b  
+                  x e 
+              
+            
+          
+          
+             
+          
+        
+      
+    
+      displaystyle   widehat   beta          widehat   beta        
+  
+ 
+
+Illustration of linear regression on a data set
+In the case of simple regression  the formulas for the least squares estimates are
+
+
+  
+    
+      
+        
+          
+            
+              
+                  x b  
+                  x e 
+              
+            
+          
+          
+             
+          
+        
+         
+        
+          
+            
+                x     
+               
+              
+                x
+                
+                  i
+                
+              
+                x     
+              
+                
+                  
+                    x
+                      xaf 
+                  
+                
+              
+               
+               
+              
+                y
+                
+                  i
+                
+              
+                x     
+              
+                
+                  
+                    y
+                      xaf 
+                  
+                
+              
+               
+            
+            
+                x     
+               
+              
+                x
+                
+                  i
+                
+              
+                x     
+              
+                
+                  
+                    x
+                      xaf 
+                  
+                
+              
+              
+                 
+                
+                   
+                
+              
+            
+          
+        
+      
+    
+      displaystyle   widehat   beta          frac   sum  x  i    bar  x    y  i    bar  y      sum  x  i    bar  x          
+  
+
+
+  
+    
+      
+        
+          
+            
+              
+                  x b  
+                  x e 
+              
+            
+          
+          
+             
+          
+        
+         
+        
+          
+            
+              y
+                xaf 
+            
+          
+        
+          x     
+        
+          
+            
+              
+                  x b  
+                  x e 
+              
+            
+          
+          
+             
+          
+        
+        
+          
+            
+              x
+                xaf 
+            
+          
+        
+      
+    
+      displaystyle   widehat   beta          bar  y     widehat   beta         bar  x   
+  
+
+where 
+  
+    
+      
+        
+          
+            
+              x
+                xaf 
+            
+          
+        
+      
+    
+      displaystyle   bar  x   
+  
+ is the mean  average  of the 
+  
+    
+      
+        x
+      
+    
+      displaystyle x 
+  
+ values and 
+  
+    
+      
+        
+          
+            
+              y
+                xaf 
+            
+          
+        
+      
+    
+      displaystyle   bar  y   
+  
+ is the mean of the 
+  
+    
+      
+        y
+      
+    
+      displaystyle y 
+  
+ values 
+Under the assumption that the population error term has a constant variance  the estimate of that variance is given by 
+
+
+  
+    
+      
+        
+          
+            
+              
+                  x c  
+                  x e 
+              
+            
+          
+          
+              x b  
+          
+          
+             
+          
+        
+         
+        
+          
+            
+              S
+              S
+              R
+            
+            
+              n
+                x     
+               
+            
+          
+        
+      
+    
+      displaystyle   hat   sigma      varepsilon         frac  SSR  n     
+  
+
+This is called the mean square error  MSE  of the regression  The denominator is the sample size reduced by the number of model parameters estimated from the same data  
+  
+    
+      
+         
+        n
+          x     
+        p
+         
+      
+    
+      displaystyle  n p  
+  
+ for 
+  
+    
+      
+        p
+      
+    
+      displaystyle p 
+  
+ regressors or 
+  
+    
+      
+         
+        n
+          x     
+        p
+          x     
+         
+         
+      
+    
+      displaystyle  n p    
+  
+ if an intercept is used              In this case  
+  
+    
+      
+        p
+         
+         
+      
+    
+      displaystyle p   
+  
+ so the denominator is 
+  
+    
+      
+        n
+          x     
+         
+      
+    
+      displaystyle n   
+  
+ 
+The standard errors of the parameter estimates are given by
+
+
+  
+    
+      
+        
+          
+            
+              
+                  x c  
+                  x e 
+              
+            
+          
+          
+            
+                x b  
+              
+                 
+              
+            
+          
+        
+         
+        
+          
+            
+              
+                  x c  
+                  x e 
+              
+            
+          
+          
+              x b  
+          
+        
+        
+          
+            
+               
+              
+                  x     
+                 
+                
+                  x
+                  
+                    i
+                  
+                
+                  x     
+                
+                  
+                    
+                      x
+                        xaf 
+                    
+                  
+                
+                
+                   
+                  
+                     
+                  
+                
+              
+            
+          
+        
+      
+    
+      displaystyle   hat   sigma      beta         hat   sigma      varepsilon    sqrt   frac      sum  x  i    bar  x           
+  
+
+
+  
+    
+      
+        
+          
+            
+              
+                  x c  
+                  x e 
+              
+            
+          
+          
+            
+                x b  
+              
+                 
+              
+            
+          
+        
+         
+        
+          
+            
+              
+                  x c  
+                  x e 
+              
+            
+          
+          
+              x b  
+          
+        
+        
+          
+            
+              
+                 
+                n
+              
+            
+             
+            
+              
+                
+                  
+                    
+                      
+                        x
+                          xaf 
+                      
+                    
+                  
+                  
+                     
+                  
+                
+                
+                    x     
+                   
+                  
+                    x
+                    
+                      i
+                    
+                  
+                    x     
+                  
+                    
+                      
+                        x
+                          xaf 
+                      
+                    
+                  
+                  
+                     
+                    
+                       
+                    
+                  
+                
+              
+            
+          
+        
+         
+        
+          
+            
+              
+                  x c  
+                  x e 
+              
+            
+          
+          
+            
+                x b  
+              
+                 
+              
+            
+          
+        
+        
+          
+            
+              
+                  x     
+                
+                  x
+                  
+                    i
+                  
+                  
+                     
+                  
+                
+              
+              n
+            
+          
+        
+         
+      
+    
+      displaystyle   hat   sigma      beta         hat   sigma      varepsilon    sqrt    frac     n     frac    bar  x         sum  x  i    bar  x              hat   sigma      beta        sqrt   frac   sum x  i       n     
+  
+
+Under the further assumption that the population error term is normally distributed  the researcher can use these estimated standard errors to create confidence intervals and conduct hypothesis tests about the population parameters 
+
+General linear model edit 
+For a derivation  see linear least squares
+For a numerical example  see linear regression
+In the more general multiple regression model  there are 
+  
+    
+      
+        p
+      
+    
+      displaystyle p 
+  
+ independent variables 
+
+
+  
+    
+      
+        
+          y
+          
+            i
+          
+        
+         
+        
+            x b  
+          
+             
+          
+        
+        
+          x
+          
+            i
+             
+          
+        
+         
+        
+            x b  
+          
+             
+          
+        
+        
+          x
+          
+            i
+             
+          
+        
+         
+          x  ef 
+         
+        
+            x b  
+          
+            p
+          
+        
+        
+          x
+          
+            i
+            p
+          
+        
+         
+        
+            x b  
+          
+            i
+          
+        
+         
+        
+      
+    
+      displaystyle y  i   beta     x  i    beta     x  i    cdots   beta   p x  ip   varepsilon   i     
+  
+
+where 
+  
+    
+      
+        
+          x
+          
+            i
+            j
+          
+        
+      
+    
+      displaystyle x  ij  
+  
+ is the 
+  
+    
+      
+        i
+      
+    
+      displaystyle i 
+  
+ th observation on the 
+  
+    
+      
+        j
+      
+    
+      displaystyle j 
+  
+ th independent variable 
+If the first independent variable takes the value   for all 
+  
+    
+      
+        i
+      
+    
+      displaystyle i 
+  
+  
+  
+    
+      
+        
+          x
+          
+            i
+             
+          
+        
+         
+         
+      
+    
+      displaystyle x  i     
+  
+  then 
+  
+    
+      
+        
+            x b  
+          
+             
+          
+        
+      
+    
+      displaystyle  beta      
+  
+ is called the regression intercept 
+The least squares parameter estimates are obtained from 
+  
+    
+      
+        p
+      
+    
+      displaystyle p 
+  
+ normal equations  The residual can be written as
+
+
+  
+    
+      
+        
+            x b  
+          
+            i
+          
+        
+         
+        
+          y
+          
+            i
+          
+        
+          x     
+        
+          
+            
+              
+                  x b  
+                  x e 
+              
+            
+          
+          
+             
+          
+        
+        
+          x
+          
+            i
+             
+          
+        
+          x     
+          x  ef 
+          x     
+        
+          
+            
+              
+                  x b  
+                  x e 
+              
+            
+          
+          
+            p
+          
+        
+        
+          x
+          
+            i
+            p
+          
+        
+         
+      
+    
+      displaystyle  varepsilon   i  y  i    hat   beta       x  i    cdots    hat   beta     p x  ip   
+  
+
+The normal equations are
+
+
+  
+    
+      
+        
+            x     
+          
+            i
+             
+             
+          
+          
+            n
+          
+        
+        
+            x     
+          
+            k
+             
+             
+          
+          
+            p
+          
+        
+        
+          x
+          
+            i
+            j
+          
+        
+        
+          x
+          
+            i
+            k
+          
+        
+        
+          
+            
+              
+                  x b  
+                  x e 
+              
+            
+          
+          
+            k
+          
+        
+         
+        
+            x     
+          
+            i
+             
+             
+          
+          
+            n
+          
+        
+        
+          x
+          
+            i
+            j
+          
+        
+        
+          y
+          
+            i
+          
+        
+         
+          xa  
+        j
+         
+         
+         
+          x     
+         
+        p
+         
+        
+      
+    
+      displaystyle  sum   i     n  sum   k     p x  ij x  ik   hat   beta     k   sum   i     n x  ij y  i    j    dots  p    
+  
+
+In matrix notation  the normal equations are written as
+
+
+  
+    
+      
+        
+           
+          
+            X
+            
+                x  a  
+            
+          
+          X
+           
+          
+            
+              
+                  x b  
+                  x e 
+              
+            
+          
+           
+          
+
+          
+          
+            X
+            
+                x  a  
+            
+          
+          Y
+        
+         
+        
+      
+    
+      displaystyle  mathbf   X   top  X   hat   boldsymbol   beta       X   top  Y      
+  
+
+where the 
+  
+    
+      
+        i
+        j
+      
+    
+      displaystyle ij 
+  
+ element of 
+  
+    
+      
+        
+          X
+        
+      
+    
+      displaystyle  mathbf  X   
+  
+ is 
+  
+    
+      
+        
+          x
+          
+            i
+            j
+          
+        
+      
+    
+      displaystyle x  ij  
+  
+  the 
+  
+    
+      
+        i
+      
+    
+      displaystyle i 
+  
+ element of the column vector 
+  
+    
+      
+        Y
+      
+    
+      displaystyle Y 
+  
+ is 
+  
+    
+      
+        
+          y
+          
+            i
+          
+        
+      
+    
+      displaystyle y  i  
+  
+  and the 
+  
+    
+      
+        j
+      
+    
+      displaystyle j 
+  
+ element of 
+  
+    
+      
+        
+          
+            
+                x b  
+                x e 
+            
+          
+        
+      
+    
+      displaystyle   hat   boldsymbol   beta     
+  
+ is 
+  
+    
+      
+        
+          
+            
+              
+                  x b  
+                  x e 
+              
+            
+          
+          
+            j
+          
+        
+      
+    
+      displaystyle   hat   beta     j  
+  
+  Thus 
+  
+    
+      
+        
+          X
+        
+      
+    
+      displaystyle  mathbf  X   
+  
+ is 
+  
+    
+      
+        n
+          xd  
+        p
+      
+    
+      displaystyle n times p 
+  
+  
+  
+    
+      
+        Y
+      
+    
+      displaystyle Y 
+  
+ is 
+  
+    
+      
+        n
+          xd  
+         
+      
+    
+      displaystyle n times   
+  
+  and 
+  
+    
+      
+        
+          
+            
+                x b  
+                x e 
+            
+          
+        
+      
+    
+      displaystyle   hat   boldsymbol   beta     
+  
+ is 
+  
+    
+      
+        p
+          xd  
+         
+      
+    
+      displaystyle p times   
+  
+  The solution is
+
+
+  
+    
+      
+        
+          
+            
+              
+                  x b  
+                  x e 
+              
+            
+          
+           
+           
+          
+            X
+            
+                x  a  
+            
+          
+          X
+          
+             
+            
+                x     
+               
+            
+          
+          
+            X
+            
+                x  a  
+            
+          
+          Y
+        
+         
+        
+      
+    
+      displaystyle  mathbf    hat   boldsymbol   beta      X   top  X      X   top  Y      
+  
+
+Diagnostics edit 
+Main article  Regression diagnostics
+See also  Category Regression diagnostics
+Once a regression model has been constructed  it may be important to confirm the goodness of fit of the model and the statistical significance of the estimated parameters  Commonly used checks of goodness of fit include the R squared  analyses of the pattern of residuals and hypothesis testing  Statistical significance can be checked by an F test of the overall fit  followed by t tests of individual parameters 
+Interpretations of these diagnostic tests rest heavily on the model s assumptions  Although examination of the residuals can be used to invalidate a model  the results of a t test or F test are sometimes more difficult to interpret if the model s assumptions are violated  For example  if the error term does not have a normal distribution  in small samples the estimated parameters will not follow normal distributions and complicate inference  With relatively large samples  however  a central limit theorem can be invoked such that hypothesis testing may proceed using asymptotic approximations 
+
+Limited dependent variables edit 
+Limited dependent variables  which are response variables that are categorical or constrained to fall only in a certain range  often arise in econometrics 
+The response variable may be non continuous   limited  to lie on some subset of the real line   For binary  zero or one  variables  if analysis proceeds with least squares linear regression  the model is called the linear probability model  Nonlinear models for binary dependent variables include the probit and logit model  The multivariate probit model is a standard method of estimating a joint relationship between several binary dependent variables and some independent variables  For categorical variables with more than two values there is the multinomial logit  For ordinal variables with more than two values  there are the ordered logit and ordered probit models  Censored regression models may be used when the dependent variable is only sometimes observed  and Heckman correction type models may be used when the sample is not randomly selected from the population of interest  
+An alternative to such procedures is linear regression based on polychoric correlation  or polyserial correlations  between the categorical variables  Such procedures differ in the assumptions made about the distribution of the variables in the population  If the variable is positive with low values and represents the repetition of the occurrence of an event  then count models like the Poisson regression or the negative binomial model may be used 
+
+Nonlinear regression edit 
+Main article  Nonlinear regression
+When the model function is not linear in the parameters  the sum of squares must be minimized by an iterative procedure  This introduces many complications which are summarized in Differences between linear and non linear least squares 
+
+Prediction  interpolation and extrapolation   edit 
+Further information  Predicted response and Prediction interval
+In the middle  the fitted straight line represents the best balance between the points above and below this line  The dotted straight lines represent the two extreme lines  considering only the variation in the slope  The inner curves represent the estimated range of values considering the variation in both slope and intercept  The outer curves represent a prediction for a new measurement             
+Regression models predict a value of the Y variable given known values of the X variables  Prediction within the range of values in the dataset used for model fitting is known informally as interpolation  Prediction outside this range of the data is known as extrapolation  Performing extrapolation relies strongly on the regression assumptions  The further the extrapolation goes outside the data  the more room there is for the model to fail due to differences between the assumptions and the sample data or the true values 
+A prediction interval that represents the uncertainty may accompany the point prediction  Such intervals tend to expand rapidly as the values of the independent variable s  moved outside the range covered by the observed data 
+For such reasons and others  some tend to say that it might be unwise to undertake extrapolation             
+
+Model selection edit 
+Further information  Model selection
+The assumption of a particular form for the relation between Y and X is another source of uncertainty  A properly conducted regression analysis will include an assessment of how well the assumed form is matched by the observed data  but it can only do so within the range of values of the independent variables actually available  This means that any extrapolation is particularly reliant on the assumptions being made about the structural form of the regression relationship  If this knowledge includes the fact that the dependent variable cannot go outside a certain range of values  this can be made use of in selecting the model   even if the observed dataset has no values particularly near such bounds  The implications of this step of choosing an appropriate functional form for the regression can be great when extrapolation is considered  At a minimum  it can ensure that any extrapolation arising from a fitted model is  realistic   or in accord with what is known  
+
+Power and sample size calculations edit 
+There are no generally agreed methods for relating the number of observations versus the number of independent variables in the model  One method conjectured by Good and Hardin is 
+  
+    
+      
+        N
+         
+        
+          m
+          
+            n
+          
+        
+      
+    
+      displaystyle N m  n  
+  
+  where 
+  
+    
+      
+        N
+      
+    
+      displaystyle N 
+  
+ is the sample size  
+  
+    
+      
+        n
+      
+    
+      displaystyle n 
+  
+ is the number of independent variables and 
+  
+    
+      
+        m
+      
+    
+      displaystyle m 
+  
+ is the number of observations needed to reach the desired precision if the model had only one independent variable              For example  a researcher is building a linear regression model using a dataset that contains      patients  
+  
+    
+      
+        N
+      
+    
+      displaystyle N 
+  
+   If the researcher decides that five observations are needed to precisely define a straight line  
+  
+    
+      
+        m
+      
+    
+      displaystyle m 
+  
+   then the maximum number of independent variables  
+  
+    
+      
+        n
+      
+    
+      displaystyle n 
+  
+  the model can support is    because
+
+
+  
+    
+      
+        
+          
+            
+              log
+                x     
+                  
+            
+            
+              log
+                x     
+               
+            
+          
+        
+          x     
+            
+      
+    
+      displaystyle   frac   log        log     approx      
+  
+ 
+Other methods edit 
+Although the parameters of a regression model are usually estimated using the method of least squares  other methods which have been used include 
+
+Bayesian methods  e g  Bayesian linear regression
+Percentage regression  for situations where reducing percentage errors is deemed more appropriate             
+Least absolute deviations  which is more robust in the presence of outliers  leading to quantile regression
+Nonparametric regression  requires a large number of observations and is computationally intensive
+Scenario optimization  leading to  interval predictor models
+Distance metric learning  which is learned by the search of a meaningful distance metric in a given input space             
+Software edit 
+For a more comprehensive list  see List of statistical software 
+All major statistical software packages perform least squares regression analysis and inference  Simple linear regression and multiple regression using least squares can be done in some spreadsheet applications and on some calculators  While many statistical software packages can perform various types of nonparametric and robust regression  these methods are less standardized  Different software packages implement different methods  and a method with a given name may be implemented differently in different packages  Specialized regression software has been developed for use in fields such as survey analysis and neuroimaging 
+
+See also edit 
+
+Mathematics portal
+
+Anscombe s quartet
+Curve fitting
+Estimation theory
+Forecasting
+Fraction of variance unexplained
+Function approximation
+Generalized linear model
+Kriging  a linear least squares estimation algorithm 
+Local regression
+Modifiable areal unit problem
+Multivariate adaptive regression spline
+Multivariate normal distribution
+Pearson correlation coefficient
+Quasi variance
+Prediction interval
+Regression validation
+Robust regression
+Segmented regression
+Signal processing
+Stepwise regression
+Taxicab geometry
+Linear trend estimation
+
+References edit 
+
+
+  Necessary Condition Analysis
+
+  David A  Freedman     April        Statistical Models  Theory and Practice  Cambridge University Press  ISBN                        
+
+  R  Dennis Cook  Sanford Weisberg Criticism and Influence Analysis in Regression  Sociological Methodology  Vol              pp         
+
+  Belenkiy  Ari  Echague  Eduardo Vila          Groping Toward Linear Regression Analysis  Newton s Analysis of Hipparchus  Equinox Observations   arXiv            physics hist ph  
+
+  Buchwald  Jed Z   Feingold  Mordechai         Newton and the Origin of Civilization  Princeton University Press  pp                       ISBN                        
+
+  A M  Legendre  Nouvelles m thodes pour la d termination des orbites des com tes  Firmin Didot  Paris         Sur la M thode des moindres quarr s  appears as an appendix 
+
+  a b Chapter   of  Angrist  J  D    amp  Pischke  J  S          Mostly Harmless Econometrics  An Empiricist s Companion  Princeton University Press 
+
+  Gauss  C F               Theoria combinationis observationum erroribus minimis obnoxiae         via Google Books 
+
+  
+Mogull  Robert G          Second Semester Applied Statistics  Kendall Hunt Publishing Company  p           ISBN                        
+
+  Galton  Francis          Kinship and Correlation  reprinted         Statistical Science                doi         ss             JSTOR              
+
+  Francis Galton   Typical laws of heredity   Nature                                        Galton uses the term  reversion  in this paper  which discusses the size of peas  
+
+  Francis Galton  Presidential address  Section H  Anthropology          Galton uses the term  regression  in this paper  which discusses the height of humans  
+
+  Yule  G  Udny          On the Theory of Correlation   Journal of the Royal Statistical Society                  doi                  JSTOR              
+
+  Pearson  Karl  Yule  G U   Blanchard  Norman  Lee  Alice          The Law of Ancestral Heredity   Biometrika                  doi         biomet          JSTOR              
+
+  Fisher  R A           The goodness of fit of regression formulae  and the distribution of regression coefficients   Journal of the Royal Statistical Society                   doi                  JSTOR               PMC              
+
+  Ronald A  Fisher         Statistical Methods for Research Workers  Twelfth      ed    Edinburgh  Oliver and Boyd  ISBN                        
+
+  Aldrich  John          Fisher and Regression   PDF   Statistical Science                   doi                             JSTOR               
+
+  Rodney Ramcharan  Regressions  Why Are Economists Obessessed with Them  March       Accessed            
+
+  Fotheringham  A  Stewart  Brunsdon  Chris  Charlton  Martin         Geographically weighted regression  the analysis of spatially varying relationships  Reprint      ed    Chichester  England  John Wiley  ISBN                        
+
+  Fotheringham  AS  Wong  DWS    January         The modifiable areal unit problem in multivariate statistical analysis   Environment and Planning A                     Bibcode     EnPlA         F  doi         a        S CID                
+
+  Steel  R G D  and Torrie  J  H   Principles and Procedures of Statistics with Special Reference to the Biological Sciences   McGraw Hill        page     
+
+  Rouaud  Mathieu         Probability  Statistics and Estimation  PDF   p          
+
+  Chiang  C L         Statistical methods of analysis  World Scientific  ISBN                      page     section        interpolation vs extrapolation 
+
+  Good  P  I   Hardin  J  W          Common Errors in Statistics  And How to Avoid Them    rd      ed    Hoboken  New Jersey  Wiley  p            ISBN                        
+
+  Tofallis  C           Least Squares Percentage Regression   Journal of Modern Applied Statistical Methods              doi         ssrn          hdl           SSRN              
+
+  YangJing Long          Human age estimation by metric learning for regression problems   PDF   Proc  International Conference on Computer Analysis of Images and Patterns  Lecture Notes in Computer Science  Vol             pp              Bibcode     LNCS          L  doi                              ISBN                         Archived from the original  PDF  on              Retracted       see doi                                If this is an intentional citation to a retracted paper  please replace             retracted                      with             retracted               intentional yes              
+
+
+Further reading edit 
+William H  Kruskal and Judith M  Tanur  ed           Linear Hypotheses   International Encyclopedia of Statistics  Free Press   v    
+Evan J  Williams   I  Regression   pp         
+Julian C  Stanley   II  Analysis of Variance   pp          
+Lindley  D V           Regression and correlation analysis   New Palgrave  A Dictionary of Economics  v     pp              
+Birkes  David and Dodge  Y   Alternative Methods of Regression  ISBN                   
+Chatfield  C          Calculating Interval Forecasts   Journal of Business and Economic Statistics      pp               
+Draper  N R   Smith  H          Applied Regression Analysis   rd      ed    John Wiley  ISBN                        
+Fox  J           Applied Regression Analysis  Linear Models and Related Methods  Sage
+Hardle  W   Applied Nonparametric Regression         ISBN                   
+Meade  Nigel  Islam  Towhidul          Prediction intervals for growth curve forecasts   Journal of Forecasting                   doi         for            
+A  Sen  M  Srivastava  Regression Analysis         Theory  Methods  and Applications  Springer Verlag  Berlin         th printing  
+T  Strutz  Data Fitting and Uncertainty  A practical introduction to weighted least squares and beyond   Vieweg Teubner  ISBN                        
+Stulp  Freek  and Olivier Sigaud  Many Regression Algorithms  One Unified Model  A Review  Neural Networks  vol      Sept        pp              https   doi org         j neunet             
+Malakooti  B          Operations and Production Systems with Multiple Objectives  John Wiley  amp  Sons 
+Chicco  Davide  Warrens  Matthijs J   Jurman  Giuseppe          The coefficient of determination R squared is more informative than SMAPE  MAE  MAPE  MSE and RMSE in regression analysis evaluation   PeerJ Computer Science     e      e     doi         peerj cs      PMC               PMID               
+External links edit 
+
+
+
+Wikimedia Commons has media related to Regression analysis 
+
+ Regression analysis   Encyclopedia of Mathematics  EMS Press             
+Earliest Uses  Regression   basic history and references
+What is multiple regression used for    Multiple regression
+Regression of Weakly Correlated Data   how linear regression mistakes can appear when Y range is much smaller than X range
+vteArtificial intelligence  AI History  timeline Concepts
+Parameter
+Hyperparameter
+Loss functions
+Regression
+Bias variance tradeoff
+Double descent
+Overfitting
+Clustering
+Gradient descent
+SGD
+Quasi Newton method
+Conjugate gradient method
+Backpropagation
+Attention
+Convolution
+Normalization
+Batchnorm
+Activation
+Softmax
+Sigmoid
+Rectifier
+Gating
+Weight initialization
+Regularization
+Datasets
+Augmentation
+Prompt engineering
+Reinforcement learning
+Q learning
+SARSA
+Imitation
+Policy gradient
+Diffusion
+Latent diffusion model
+Autoregression
+Adversary
+RAG
+Uncanny valley
+RLHF
+Self supervised learning
+Recursive self improvement
+Word embedding
+Hallucination
+Applications
+Machine learning
+In context learning
+Artificial neural network
+Deep learning
+Language model
+Large language model
+NMT
+Artificial general intelligence  AGI 
+ImplementationsAudio visual
+AlexNet
+WaveNet
+Human image synthesis
+HWR
+OCR
+Speech synthesis
+   ai
+ElevenLabs
+Speech recognition
+Whisper
+Facial recognition
+AlphaFold
+Text to image models
+Aurora
+DALL E
+Firefly
+Flux
+Ideogram
+Imagen
+Midjourney
+Stable Diffusion
+Text to video models
+Dream Machine
+Runway Gen
+Hailuo AI
+Kling
+Sora
+Veo
+Music generation
+Suno AI
+Udio
+Text
+Word vec
+Seq seq
+GloVe
+BERT
+T 
+Llama
+Chinchilla AI
+PaLM
+GPT
+ 
+ 
+ 
+J
+ChatGPT
+ 
+ o
+o 
+o 
+   
+   
+o 
+Claude
+Gemini
+chatbot
+Grok
+LaMDA
+BLOOM
+Project Debater
+IBM Watson
+IBM Watsonx
+Granite
+PanGu  
+DeepSeek
+Qwen
+Decisional
+AlphaGo
+AlphaZero
+OpenAI Five
+Self driving car
+MuZero
+Action selection
+AutoGPT
+Robot control
+People
+Alan Turing
+Warren Sturgis McCulloch
+Walter Pitts
+John von Neumann
+Claude Shannon
+Marvin Minsky
+John McCarthy
+Nathaniel Rochester
+Allen Newell
+Cliff Shaw
+Herbert A  Simon
+Oliver Selfridge
+Frank Rosenblatt
+Bernard Widrow
+Joseph Weizenbaum
+Seymour Papert
+Seppo Linnainmaa
+Paul Werbos
+J rgen Schmidhuber
+Yann LeCun
+Geoffrey Hinton
+John Hopfield
+Yoshua Bengio
+Lotfi A  Zadeh
+Stephen Grossberg
+Alex Graves
+Andrew Ng
+Fei Fei Li
+Alex Krizhevsky
+Ilya Sutskever
+Demis Hassabis
+David Silver
+Ian Goodfellow
+Andrej Karpathy
+James Goodnight
+Architectures
+Neural Turing machine
+Differentiable neural computer
+Transformer
+Vision transformer  ViT 
+Recurrent neural network  RNN 
+Long short term memory  LSTM 
+Gated recurrent unit  GRU 
+Echo state network
+Multilayer perceptron  MLP 
+Convolutional neural network  CNN 
+Residual neural network  RNN 
+Highway network
+Mamba
+Autoencoder
+Variational autoencoder  VAE 
+Generative adversarial network  GAN 
+Graph neural network  GNN 
+
+ Portals
+Technology
+ Category
+Artificial neural networks
+Machine learning
+ List
+Companies
+Projects
+
+vteLeast squares and regression analysisComputational statistics
+Least squares
+Linear least squares
+Non linear least squares
+Iteratively reweighted least squares
+Correlation and dependence
+Pearson product moment correlation
+Rank correlation  Spearman s rho
+Kendall s tau 
+Partial correlation
+Confounding variable
+Regression analysis
+Ordinary least squares
+Partial least squares
+Total least squares
+Ridge regression
+Regression as a statistical modelLinear regression
+Simple linear regression
+Ordinary least squares
+Generalized least squares
+Weighted least squares
+General linear model
+Predictor structure
+Polynomial regression
+Growth curve  statistics 
+Segmented regression
+Local regression
+Non standard
+Nonlinear regression
+Nonparametric
+Semiparametric
+Robust
+Quantile
+Isotonic
+Non normal errors
+Generalized linear model
+Binomial
+Poisson
+Logistic
+Decomposition of variance
+Analysis of variance
+Analysis of covariance
+Multivariate AOV
+Model exploration
+Stepwise regression
+Model selection
+Mallows s Cp
+AIC
+BIC
+Model specification
+Regression validation
+Background
+Mean and predicted response
+Gauss Markov theorem
+Errors and residuals
+Goodness of fit
+Studentized residual
+Minimum mean square error
+Frisch Waugh Lovell theorem
+Design of experiments
+Response surface methodology
+Optimal design
+Bayesian design
+Numerical approximation
+Numerical analysis
+Approximation theory
+Numerical integration
+Gaussian quadrature
+Orthogonal polynomials
+Chebyshev polynomials
+Chebyshev nodes
+Applications
+Curve fitting
+Calibration curve
+Numerical smoothing and differentiation
+System identification
+Moving least squares
+
+Regression analysis category
+Statistics category
+ Mathematics     portal
+Statistics outline
+Statistics topics
+
+vteStatistics
+Outline
+Index
+Descriptive statisticsContinuous dataCenter
+Mean
+Arithmetic
+Arithmetic Geometric
+Contraharmonic
+Cubic
+Generalized power
+Geometric
+Harmonic
+Heronian
+Heinz
+Lehmer
+Median
+Mode
+Dispersion
+Average absolute deviation
+Coefficient of variation
+Interquartile range
+Percentile
+Range
+Standard deviation
+Variance
+Shape
+Central limit theorem
+Moments
+Kurtosis
+L moments
+Skewness
+Count data
+Index of dispersion
+Summary tables
+Contingency table
+Frequency distribution
+Grouped data
+Dependence
+Partial correlation
+Pearson product moment correlation
+Rank correlation
+Kendall s  
+Spearman s  
+Scatter plot
+Graphics
+Bar chart
+Biplot
+Box plot
+Control chart
+Correlogram
+Fan chart
+Forest plot
+Histogram
+Pie chart
+Q Q plot
+Radar chart
+Run chart
+Scatter plot
+Stem and leaf display
+Violin plot
+Data collectionStudy design
+Effect size
+Missing data
+Optimal design
+Population
+Replication
+Sample size determination
+Statistic
+Statistical power
+Survey methodology
+Sampling
+Cluster
+Stratified
+Opinion poll
+Questionnaire
+Standard error
+Controlled experiments
+Blocking
+Factorial experiment
+Interaction
+Random assignment
+Randomized controlled trial
+Randomized experiment
+Scientific control
+Adaptive designs
+Adaptive clinical trial
+Stochastic approximation
+Up and down designs
+Observational studies
+Cohort study
+Cross sectional study
+Natural experiment
+Quasi experiment
+Statistical inferenceStatistical theory
+Population
+Statistic
+Probability distribution
+Sampling distribution
+Order statistic
+Empirical distribution
+Density estimation
+Statistical model
+Model specification
+Lp space
+Parameter
+location
+scale
+shape
+Parametric family
+Likelihood       monotone 
+Location scale family
+Exponential family
+Completeness
+Sufficiency
+Statistical functional
+Bootstrap
+U
+V
+Optimal decision
+loss function
+Efficiency
+Statistical distance
+divergence
+Asymptotics
+Robustness
+Frequentist inferencePoint estimation
+Estimating equations
+Maximum likelihood
+Method of moments
+M estimator
+Minimum distance
+Unbiased estimators
+Mean unbiased minimum variance
+Rao Blackwellization
+Lehmann Scheff  theorem
+Median unbiased
+Plug in
+Interval estimation
+Confidence interval
+Pivot
+Likelihood interval
+Prediction interval
+Tolerance interval
+Resampling
+Bootstrap
+Jackknife
+Testing hypotheses
+    amp    tails
+Power
+Uniformly most powerful test
+Permutation test
+Randomization test
+Multiple comparisons
+Parametric tests
+Likelihood ratio
+Score Lagrange multiplier
+Wald
+Specific tests
+Z test  normal 
+Student s t test
+F test
+Goodness of fit
+Chi squared
+G test
+Kolmogorov Smirnov
+Anderson Darling
+Lilliefors
+Jarque Bera
+Normality  Shapiro Wilk 
+Likelihood ratio test
+Model selection
+Cross validation
+AIC
+BIC
+Rank statistics
+Sign
+Sample median
+Signed rank  Wilcoxon 
+Hodges Lehmann estimator
+Rank sum  Mann Whitney 
+Nonparametric anova
+  way  Kruskal Wallis 
+  way  Friedman 
+Ordered alternative  Jonckheere Terpstra 
+Van der Waerden test
+Bayesian inference
+Bayesian probability
+prior
+posterior
+Credible interval
+Bayes factor
+Bayesian estimator
+Maximum posterior estimator
+CorrelationRegression analysisCorrelation
+Pearson product moment
+Partial correlation
+Confounding variable
+Coefficient of determination
+Regression analysis
+Errors and residuals
+Regression validation
+Mixed effects models
+Simultaneous equations models
+Multivariate adaptive regression splines  MARS 
+Linear regression
+Simple linear regression
+Ordinary least squares
+General linear model
+Bayesian regression
+Non standard predictors
+Nonlinear regression
+Nonparametric
+Semiparametric
+Isotonic
+Robust
+Homoscedasticity and Heteroscedasticity
+Generalized linear model
+Exponential families
+Logistic  Bernoulli             Binomial            Poisson regressions
+Partition of variance
+Analysis of variance  ANOVA  anova 
+Analysis of covariance
+Multivariate ANOVA
+Degrees of freedom
+Categorical            Multivariate            Time series            Survival analysisCategorical
+Cohen s kappa
+Contingency table
+Graphical model
+Log linear model
+McNemar s test
+Cochran Mantel Haenszel statistics
+Multivariate
+Regression
+Manova
+Principal components
+Canonical correlation
+Discriminant analysis
+Cluster analysis
+Classification
+Structural equation model
+Factor analysis
+Multivariate distributions
+Elliptical distributions
+Normal
+Time seriesGeneral
+Decomposition
+Trend
+Stationarity
+Seasonal adjustment
+Exponential smoothing
+Cointegration
+Structural break
+Granger causality
+Specific tests
+Dickey Fuller
+Johansen
+Q statistic  Ljung Box 
+Durbin Watson
+Breusch Godfrey
+Time domain
+Autocorrelation  ACF 
+partial  PACF 
+Cross correlation  XCF 
+ARMA model
+ARIMA model  Box Jenkins 
+Autoregressive conditional heteroskedasticity  ARCH 
+Vector autoregression  VAR 
+Frequency domain
+Spectral density estimation
+Fourier analysis
+Least squares spectral analysis
+Wavelet
+Whittle likelihood
+SurvivalSurvival function
+Kaplan Meier estimator  product limit 
+Proportional hazards models
+Accelerated failure time  AFT  model
+First hitting time
+Hazard function
+Nelson Aalen estimator
+Test
+Log rank test
+ApplicationsBiostatistics
+Bioinformatics
+Clinical trials            studies
+Epidemiology
+Medical statistics
+Engineering statistics
+Chemometrics
+Methods engineering
+Probabilistic design
+Process            quality control
+Reliability
+System identification
+Social statistics
+Actuarial science
+Census
+Crime statistics
+Demography
+Econometrics
+Jurimetrics
+National accounts
+Official statistics
+Population statistics
+Psychometrics
+Spatial statistics
+Cartography
+Environmental statistics
+Geographic information system
+Geostatistics
+Kriging
+
+Category
+ Mathematics     portal
+Commons
+ WikiProject
+
+vteQuantitative forecasting methodsHistorical data forecasts
+Moving average
+Exponential smoothing
+Trend analysis
+Decomposition of time series
+Na ve approachAssociative  causal  forecasts
+Moving average
+Simple linear regression
+Regression analysis
+Econometric model
+vtePublic healthGeneral
+Auxology
+Biological hazard
+Chief medical officer
+Cultural competence
+Deviance
+Environmental health
+Eugenics
+History of
+Liberal
+Euthenics
+Genomics
+Globalization and disease
+Harm reduction
+Health economics
+Health literacy
+Health policy
+Health system
+Health care reform
+Housing First
+Human right to water and sanitation
+Management of depression
+Public health law
+National public health institute
+Health politics
+Labor rights
+Maternal health
+Medical anthropology
+Medical sociology
+Mental health  Ministers 
+Occupational safety and health
+Pharmaceutical policy
+Pollution
+Air
+Water
+Soil
+Radiation
+Light
+Prisoners  rights
+Public health intervention
+Public health laboratory
+Right to food
+Right to health
+Right to a healthy environment
+Right to housing
+Right to rest and leisure
+Right to sit
+Security of person
+Sexual and reproductive health
+Social psychology
+Sociology of health and illness
+Unisex changing rooms
+Unisex public toilets
+Workers  right to access the toilet
+Preventive healthcare
+Behavior change
+Theories
+Drug checking
+Family planning
+Harm reduction
+Health promotion
+Human nutrition
+Healthy diet
+Preventive nutrition
+Hygiene
+Food safety
+Hand washing
+Infection control
+Oral hygiene
+Needle and syringe programmes
+Occupational safety and health
+Human factors and ergonomics
+Hygiene
+Controlled Drugs
+Injury prevention
+Medicine
+Nursing
+Patient safety
+Organization
+Pharmacovigilance
+Reagent testing
+Safe sex
+Sanitation
+Emergency
+Fecal oral transmission
+Open defecation
+Sanitary sewer
+Waterborne diseases
+Worker
+School hygiene
+Smoking cessation
+Supervised injection site
+Vaccination
+Vector control
+Population health
+Biostatistics
+Child mortality
+Community health
+Epidemiology
+Global health
+Health impact assessment
+Health system
+Infant mortality
+Open source healthcare software
+Multimorbidity
+Public health informatics
+Social determinants of health
+Commercial determinants of health
+Health equity
+Race and health
+Social medicine
+Biological andepidemiological statistics
+Case control study
+Randomized controlled trial
+Relative risk
+Statistical hypothesis testing
+Analysis of variance  ANOVA 
+Regression analysis
+ROC curve
+Student s t test
+Z test
+Statistical software
+Infectious and epidemicdisease prevention
+Asymptomatic carrier
+Epidemics
+List
+Notifiable diseases
+List
+Public health surveillance
+Disease surveillance
+Quarantine
+Sexually transmitted infection
+Social distancing
+Tropical disease
+Vaccine trial
+WASH
+Food hygiene andsafety management
+Food
+Additive
+Chemistry
+Engineering
+Microbiology
+Processing
+Safety
+Safety scandals
+Good agricultural practice
+Good manufacturing practice
+HACCP
+ISO      
+Health behavioralsciences
+Diffusion of innovations
+Health belief model
+Health communication
+Health psychology
+Positive deviance
+PRECEDE PROCEED model
+Social cognitive theory
+Social norms approach
+Theory of planned behavior
+Transtheoretical model
+Organizations educationand historyOrganizations
+Caribbean
+Caribbean Public Health Agency
+China
+Center for Disease Control and Prevention
+Europe
+Centre for Disease Prevention and Control
+Committee on the Environment  Public Health and Food Safety
+Russia
+Rospotrebnadzor
+India
+Ministry of Health and Family Welfare
+Canada
+Health Canada
+Public Health Agency
+U S 
+Centers for Disease Control and Prevention
+Health departments in the United States
+Council on Education for Public Health
+Public Health Service
+World Health Organization
+World Toilet Organization
+ Full list 
+Education
+Health education
+Higher education
+Bachelor of Science in Public Health
+Doctor of Public Health
+Professional degrees of public health
+Schools of public health
+History
+History of public health in the United Kingdom
+History of public health in the United States
+History of public health in Australia
+Sara Josephine Baker
+Samuel Jay Crumbine
+Carl Rogers Darnall
+Joseph Lister
+Margaret Sanger
+John Snow
+Typhoid Mary
+Radium Girls
+Germ theory of disease
+Social hygiene movement
+
+ Category
+ Commons
+ WikiProject
+
+Authority control databases InternationalFASTNationalGermanyUnited StatesFranceBnF dataJapanCzech RepublicIsrael
+
+
+
+
+
+Retrieved from  https   en wikipedia org w index php title Regression analysis amp oldid

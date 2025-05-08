@@ -1,0 +1,406 @@
+This article needs additional citations for verification  Please help improve this article by adding citations to reliable sources  Unsourced material may be challenged and removed Find sources        Conditional probability table              news        newspapers        books        scholar        JSTOR   December        Learn how and when to remove this message 
+In statistics  the conditional probability table  CPT  is defined for a set of discrete and mutually dependent random variables to display conditional probabilities of a single variable with respect to the others  i e   the probability of each possible value of one variable if we know the values taken on by the other variables   For example  assume there are three random variables 
+  
+    
+      
+        
+          x
+          
+             
+          
+        
+         
+        
+          x
+          
+             
+          
+        
+         
+        
+          x
+          
+             
+          
+        
+      
+    
+      displaystyle x     x     x     
+  
+ where each has 
+  
+    
+      
+        K
+      
+    
+      displaystyle K 
+  
+ states  Then  the conditional probability table of 
+  
+    
+      
+        
+          x
+          
+             
+          
+        
+      
+    
+      displaystyle x     
+  
+ provides the conditional probability values 
+  
+    
+      
+        P
+         
+        
+          x
+          
+             
+          
+        
+         
+        
+          a
+          
+            k
+          
+        
+          x     
+        
+          x
+          
+             
+          
+        
+         
+        
+          x
+          
+             
+          
+        
+         
+      
+    
+      displaystyle P x     a  k  mid x     x      
+  
+   where the vertical bar 
+  
+    
+      
+        
+           
+        
+      
+    
+      displaystyle   
+  
+ means  given the values of    for each of the K possible values 
+  
+    
+      
+        
+          a
+          
+            k
+          
+        
+      
+    
+      displaystyle a  k  
+  
+ of the variable 
+  
+    
+      
+        
+          x
+          
+             
+          
+        
+      
+    
+      displaystyle x     
+  
+ and for each possible combination of values of 
+  
+    
+      
+        
+          x
+          
+             
+          
+        
+         
+        
+        
+          x
+          
+             
+          
+        
+         
+      
+    
+      displaystyle x       x      
+  
+ This table has 
+  
+    
+      
+        
+          K
+          
+             
+          
+        
+      
+    
+      displaystyle K     
+  
+ cells  In general  for 
+  
+    
+      
+        M
+      
+    
+      displaystyle M 
+  
+ variables 
+  
+    
+      
+        
+          x
+          
+             
+          
+        
+         
+        
+          x
+          
+             
+          
+        
+         
+          x     
+         
+        
+          x
+          
+            M
+          
+        
+      
+    
+      displaystyle x     x      ldots  x  M  
+  
+ with 
+  
+    
+      
+        
+          K
+          
+            i
+          
+        
+      
+    
+      displaystyle K  i  
+  
+ states for each variable 
+  
+    
+      
+        
+          x
+          
+            i
+          
+        
+         
+      
+    
+      displaystyle x  i   
+  
+ the CPT for any one of them has the number of cells equal to the product 
+  
+    
+      
+        
+          K
+          
+             
+          
+        
+        
+          K
+          
+             
+          
+        
+          x  ef 
+        
+          K
+          
+            M
+          
+        
+         
+      
+    
+      displaystyle K    K     cdots K  M   
+  
+           
+A conditional probability table can be put into matrix form  As an example with only two variables  the values of 
+  
+    
+      
+        P
+         
+        
+          x
+          
+             
+          
+        
+         
+        
+          a
+          
+            k
+          
+        
+          x     
+        
+          x
+          
+             
+          
+        
+         
+        
+          b
+          
+            j
+          
+        
+         
+         
+        
+          T
+          
+            k
+            j
+          
+        
+         
+      
+    
+      displaystyle P x     a  k  mid x     b  j   T  kj   
+  
+ with k and j ranging over K values  create a K K matrix  This matrix is a stochastic matrix since the columns sum to    i e  
+  
+    
+      
+        
+            x     
+          
+            k
+          
+        
+        
+          T
+          
+            k
+            j
+          
+        
+         
+         
+      
+    
+      displaystyle  sum   k T  kj    
+  
+ for all j  For example  suppose that two binary variables x and y have the joint probability distribution given in this table 
+
+
+
+
+
+x  
+x  
+P y 
+
+
+y  
+
+   
+   
+   
+
+
+y  
+
+   
+   
+   
+
+
+P x 
+
+   
+   
+ 
+
+Each of the four central cells shows the probability of a particular combination of x and y values  The first column sum is the probability that x    and y equals any of the values it can have   that is  the column sum     is the marginal probability that x    If we want to find the probability that y   given that x    we compute the fraction of the probabilities in the x   column that have the value y    which is                  Likewise  in the same column we find that the probability that y   given that x   is                  In the same way  we can also find the conditional probabilities for y equalling   or   given that x    Combining these pieces of information gives us this table of conditional probabilities for y 
+
+
+
+
+
+x  
+x  
+
+
+P y   given x 
+
+   
+   
+
+
+P y   given x 
+
+   
+   
+
+
+Sum
+
+ 
+ 
+
+With more than one conditioning variable  the table would still have one row for each potential value of the variable whose conditional probabilities are to be given  and there would be one column for each possible combination of values of the conditioning variables  
+Moreover  the number of columns in the table could be substantially expanded to display the probabilities of the variable of interest conditional on specific values of only some  rather than all  of the other variables 
+
+References edit 
+
+
+  Murphy  KP         Machine learning  a probabilistic perspective  The MIT Press 
+
+
+
+
+
+
+
+Retrieved from  https   en wikipedia org w index php title Conditional probability table amp oldid

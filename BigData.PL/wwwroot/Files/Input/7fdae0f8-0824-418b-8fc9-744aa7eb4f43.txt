@@ -1,0 +1,620 @@
+Malware that collects and transmits user information without their knowledge
+It has been suggested that Privacy invasive software be merged into this article   Discuss  Proposed since September      
+
+
+Part of a series onComputer hacking
+History
+Phreaking
+Cryptovirology
+Hacking of consumer electronics
+List of hackers
+
+Hacker culture and ethic
+Hackathon
+Hacker Manifesto
+Hackerspace
+Hacktivism
+Maker culture
+Types of hackers
+Black hat
+Grey hat
+White hat
+
+Conferences
+Black Hat Briefings
+Chaos Communication Congress
+DEF CON
+Hackers on Planet Earth
+Security BSides
+ShmooCon
+Summercon
+
+Computer crime
+Crimeware
+List of computer criminals
+Script kiddie
+
+Hacking tools
+Exploit
+forensics focused operating systems
+Payload
+Social engineering
+Vulnerability
+
+Practice sites
+HackThisSite
+Zone H
+
+Malware
+Rootkit
+Backdoor
+Trojan horse
+Virus
+Worm
+Spyware
+Ransomware
+Logic bomb
+Botnet
+Keystroke logging
+HIDS
+Web shell
+RCE
+Infostealer
+
+Computer security
+Application security
+Cloud computing security
+Network security
+
+Groups
+Anonymous
+Chaos Computer Club
+Homebrew Computer Club  defunct 
+Legion of Doom  defunct 
+LulzSec  defunct 
+Masters of Deception  defunct 
+Red team   Blue team
+
+Publications
+      The Hacker Quarterly
+Hacker News
+Nuts and Volts
+Phrack
+vte
+Spyware  a portmanteau for spying software  is any malware  that aims to gather information about a person or organization and send it to another entity in a way that harms the user by violating their privacy  endangering their device s security  or other means  This behavior may be present in other malware and in legitimate software  Websites may engage in spyware behaviors like web tracking  Hardware devices may also be affected             
+Spyware is frequently associated with advertising and involves many of the same issues  Because these behaviors are so common  and can have non harmful uses  providing a precise definition of spyware is a difficult task            
+
+
+History edit 
+An illustration of the Pegasus spyware by the NSO Group  designed to be covertly and remotely installed on mobile phones running iOS or Android           
+The first recorded use of the term spyware occurred on October           in a Usenet post that poked fun at Microsoft s business model             Spyware at first denoted software meant for espionage purposes  However  in early      the founder of Zone Labs  Gregor Freund  used the term in a press release for the ZoneAlarm Personal Firewall             Later in       a parent using ZoneAlarm was alerted to the fact that Reader Rabbit  educational software marketed to children by the Mattel toy company  was surreptitiously sending data back to Mattel             Since then   spyware  has taken on its present sense 
+According to a      study by AOL and the National Cyber Security Alliance     percent of surveyed users  computers were infected with some form of spyware     percent of surveyed users with spyware reported that they did not know of its presence  and    percent reported that they had not given permission for the installation of the spyware            
+As of          update       spyware has become one of the preeminent security threats to computer systems running Microsoft Windows operating systems  Computers on which Internet Explorer  IE  was the primary browser are particularly vulnerable to such attacks  not only because IE was the most widely used             but also because its tight integration with Windows allows spyware access to crucial parts of the operating system                       
+Before Internet Explorer   SP  was released as part of Windows XP Service Pack    the browser would automatically display an installation window for any ActiveX component that a website wanted to install  The combination of user ignorance about these changes  and the assumption by Internet Explorer that all ActiveX components are benign  helped to spread spyware significantly  Many spyware components would also make use of exploits in JavaScript  Internet Explorer and Windows to install without user knowledge or permission 
+The Windows Registry contains multiple sections where modification of key values allows software to be executed automatically when the operating system boots  Spyware can exploit this design to circumvent attempts at removal  The spyware typically links itself to each location in the registry that allows execution  Once running  the spyware will periodically check if any of these links are removed  If so  they will be automatically restored  This ensures that the spyware will execute when the operating system is booted  even if some  or most  of the registry links are removed 
+
+Overview edit 
+Spyware is mostly classified into four types  adware  system monitors  tracking including web tracking  and trojans              examples of other notorious types include digital rights management capabilities that  phone home   keyloggers  rootkits  and web beacons  These four categories are not mutually exclusive and they have similar tactics in attacking networks and devices              The main goal is to install  hack into the network  avoid being detected  and safely remove themselves from the network             
+Spyware is mostly used for the stealing information and storing Internet users  movements on the Web and serving up pop up ads to Internet users              Whenever spyware is used for malicious purposes  its presence is typically hidden from the user and can be difficult to detect  Some spyware  such as keyloggers  may be installed by the owner of a shared  corporate  or public computer intentionally in order to monitor users 
+While the term spyware suggests software that monitors a user s computer  the functions of spyware can extend beyond simple monitoring  Spyware can collect almost any type of data  including personal information like internet surfing habits  user logins  and bank or credit account information  Spyware can also interfere with a user s control of a computer by installing additional software or redirecting web browsers              Some spyware can change computer settings  which can result in slow Internet connection speeds  un authorized changes in browser settings  or changes to software settings 
+Sometimes  spyware is included along with genuine software  and may come from a malicious website or may have been added to the intentional functionality of genuine software  see the paragraph about Facebook  below   In response to the emergence of spyware  a small industry has sprung up dealing in anti spyware software  Running anti spyware software has become a widely recognized element of computer security practices  especially for computers running Microsoft Windows  A number of jurisdictions have passed anti spyware laws  which usually target any software that is surreptitiously installed to control a user s computer 
+In German speaking countries  spyware used or made by the government is called govware by computer experts  in common parlance  Regierungstrojaner  literally  Government Trojan    Govware is typically a trojan horse software used to intercept communications from the target computer  Some countries  like Switzerland and Germany  have a legal framework governing the use of such software                          In the US  the term  policeware  has been used for similar purposes             
+Use of the term  spyware  has eventually declined as the practice of tracking users has been pushed ever further into the mainstream by major websites and data mining companies  these generally break no known laws and compel users to be tracked  not by fraudulent practices per se  but by the default settings created for users and the language of terms of service agreements  
+In one documented example  on CBS CNet News reported  on March          an analysis in The Wall Street Journal revealed the practice of Facebook and other websites of tracking users  browsing activity  which is linked to their identity  far beyond users  visits and activity on the Facebook site itself  The report stated   Here s how it works  You go to Facebook  you log in  you spend some time there  and then     you move on without logging out  Let s say the next site you go to is The New York Times  Those buttons  without you clicking on them  have just reported back to Facebook and Twitter that you went there and also your identity within those accounts  Let s say you moved on to something like a site about depression  This one also has a tweet button  a Google widget  and those  too  can report back who you are and that you went there   The Wall Street Journal analysis was researched by Brian Kennish  founder of Disconnect  Inc             
+
+Routes of infection edit 
+Spyware does not necessarily spread in the same way as a virus or worm because infected systems generally do not attempt to transmit or copy the software to other computers  Instead  spyware installs itself on a system by deceiving the user or by exploiting software vulnerabilities 
+Most spyware is installed without knowledge  or by using deceptive tactics  Spyware may try to deceive users by bundling itself with desirable software  Other common tactics are using a Trojan horse  spy gadgets that look like normal devices but turn out to be something else  such as a USB Keylogger  These devices actually are connected to the device as memory units but are capable of recording each stroke made on the keyboard  Some spyware authors infect a system through security holes in the Web browser or in other software  When the user navigates to a Web page controlled by the spyware author  the page contains code which attacks the browser and forces the download and installation of spyware 
+The installation of spyware frequently involves Internet Explorer  Its popularity and history of security issues have made it a frequent target  Its deep integration with the Windows environment make it susceptible to attack into the Windows operating system  Internet Explorer also serves as a point of attachment for spyware in the form of Browser Helper Objects  which modify the browser s behaviour 
+
+Effects and behaviors edit 
+This section relies largely or entirely upon a single source  Relevant discussion may be found on the talk page  Please help improve this article by introducing citations to additional sources at this section    December        Learn how and when to remove this message 
+A spyware program rarely operates alone on a computer  an affected machine usually has multiple infections  Users frequently notice unwanted behavior and degradation of system performance  A spyware infestation can create significant unwanted CPU activity  disk usage  and network traffic  Stability issues  such as applications freezing  failure to boot  and system wide crashes are also common  Usually  this effect is intentional  but may be caused from the malware simply requiring large amounts of computing power  disk space  or network usage  Spyware  which interferes with networking software commonly causes difficulty connecting to the Internet 
+In some infections  the spyware is not even evident  Users assume in those situations that the performance issues relate to faulty hardware  Windows installation problems  or another malware infection  Some owners of badly infected systems resort to contacting technical support experts  or even buying a new computer because the existing system  has become too slow   Badly infected systems may require a clean reinstallation of all their software in order to return to full functionality 
+Moreover  some types of spyware disable software firewalls and antivirus software  and or reduce browser security settings  which opens the system to further opportunistic infections  Some spyware disables or even removes competing spyware programs  on the grounds that more spyware related annoyances increase the likelihood that users will take action to remove the programs             
+Keyloggers are sometimes part of malware packages downloaded onto computers without the owners  knowledge  Some keylogger software is freely available on the internet  while others are commercial or private applications  Most keyloggers allow not only keyboard keystrokes to be captured  they also are often capable of collecting screen captures from the computer 
+A typical Windows user has administrative privileges  mostly for convenience  Because of this  any program the user runs has unrestricted access to the system  As with other operating systems  Windows users are able to follow the principle of least privilege and use non administrator accounts  Alternatively  they can reduce the privileges of specific vulnerable Internet facing processes  such as Internet Explorer 
+Since Windows Vista is  by default  a computer administrator that runs everything under limited user privileges  when a program requires administrative privileges  a User Account Control pop up will prompt the user to allow or deny the action  This improves on the design used by previous versions of Windows 
+Spyware is also known as tracking software 
+
+Remedies and prevention edit 
+See also  Computer virus        Virus removal
+As the spyware threat has evolved  a number of techniques have emerged to counteract it  These include programs designed to remove or block spyware  as well as various user practices which reduce the chance of getting spyware on a system 
+Nonetheless  spyware remains a costly problem  When a large number of pieces of spyware have infected a Windows computer  the only remedy may involve backing up user data  and fully reinstalling the operating system  For instance  some spyware cannot be completely removed with tools from Symantec  Microsoft  PC Tools  company  
+
+Anti spyware programs edit 
+See also  Category Spyware removal
+Many programmers and some commercial firms have released products designed to remove or block spyware  Programs such as PC Tools  Spyware Doctor  Lavasoft s Ad Aware SE and Patrick Kolla s Spybot   Search  amp  Destroy rapidly gained popularity as tools to remove  and in some cases intercept  spyware programs  In December       Microsoft acquired the GIANT AntiSpyware software              re  x     branding it as Microsoft AntiSpyware  Beta    and releasing it as a free download for Genuine Windows XP and Windows      users  In November        it was renamed Windows Defender                         
+Major anti virus firms such as Symantec  PC Tools  McAfee and Sophos have also added anti spyware features to their existing anti virus products  Early on  anti virus firms expressed reluctance to add anti spyware functions  citing lawsuits brought by spyware authors against the authors of web sites and programs which described their products as  spyware   However  recent versions of these major firms home and business anti virus products do include anti spyware functions  albeit treated differently from viruses  Symantec Anti Virus  for instance  categorizes spyware programs as  extended threats  and now offers real time protection against these threats 
+Other Anti spyware tools include FlexiSPY  Mobilespy  mSPY  TheWiSPY  and UMobix             
+
+How anti spyware software works edit 
+Anti spyware programs can combat spyware in two ways 
+
+They can provide real time protection in a manner similar to that of anti virus protection  all incoming network data is scanned for spyware  and any detected threats are blocked 
+Anti spyware software programs can be used solely for detection and removal of spyware software that has already been installed into the computer  This kind of anti spyware can often be set to scan on a regular schedule 
+Such programs inspect the contents of the Windows registry  operating system files  and installed programs  and remove files and entries which match a list of known spyware  Real time protection from spyware works identically to real time anti virus protection  the software scans disk files at download time  and blocks the activity of components known to represent spyware 
+In some cases  it may also intercept attempts to install start up items or to modify browser settings  Earlier versions of anti spyware programs focused chiefly on detection and removal  Javacool Software s SpywareBlaster  one of the first to offer real time protection  blocked the installation of ActiveX based spyware 
+Like most anti virus software  many anti spyware adware tools require a frequently updated database of threats  As new spyware programs are released  anti spyware developers discover and evaluate them  adding to the list of known spyware  which allows the software to detect and remove new spyware  As a result  anti spyware software is of limited usefulness without regular updates  Updates may be installed automatically or manually 
+A popular generic spyware removal tool used by those that requires a certain degree of expertise is HijackThis  which scans certain areas of the Windows OS where spyware often resides and presents a list with items to delete manually  As most of the items are legitimate windows files registry entries it is advised for those who are less knowledgeable on this subject to post a HijackThis log on the numerous antispyware sites and let the experts decide what to delete 
+If a spyware program is not blocked and manages to get itself installed  it may resist attempts to terminate or uninstall it  Some programs work in pairs  when an anti spyware scanner  or the user  terminates one running process  the other one respawns the killed program  Likewise  some spyware will detect attempts to remove registry keys and immediately add them again  Usually  booting the infected computer in safe mode allows an anti spyware program a better chance of removing persistent spyware  Killing the process tree may also work 
+
+Security practices edit 
+To detect spyware  computer users have found several practices useful in addition to installing anti spyware programs   Many users have installed a web browser other than Internet Explorer  such as Mozilla Firefox or Google Chrome  Though no browser is completely safe  Internet Explorer was once at a greater risk for spyware infection due to its large user base as well as vulnerabilities such as ActiveX but these three major browsers are now close to equivalent when it comes to security                         
+Some ISPs particularly colleges and universities have taken a different approach to blocking spyware  they use their network firewalls and web proxies to block access to Web sites known to install spyware  On March           Cornell University s Information Technology department released a report detailing the behavior of one particular piece of proxy based spyware  Marketscore  and the steps the university took to intercept it              Many other educational institutions have taken similar steps 
+Individual users can also install firewalls from a variety of companies   These monitor the flow of information going to and from a networked computer and provide protection against spyware and malware   Some users install a large hosts file which prevents the user s computer from connecting to known spyware related web addresses   Spyware may get installed via certain shareware programs offered for download  Downloading programs only from reputable sources can provide some protection from this source of attack             
+Individual users can use cellphone   computer with physical  electric  switch  or isolated electronic switch that disconnects microphone  camera without bypass and keep it in disconnected position where not in use  that limits information that spyware can collect   Policy recommended by NIST Guidelines for Managing the Security of Mobile Devices        
+
+Applications edit 
+ Stealware  and affiliate fraud edit 
+A few spyware vendors  notably     Solutions  have written what the New York Times has dubbed  stealware   and what spyware researcher Ben Edelman terms affiliate fraud  a form of click fraud  Stealware diverts the payment of affiliate marketing revenues from the legitimate affiliate to the spyware vendor 
+Spyware which attacks affiliate networks places the spyware operator s affiliate tag on the user s activity   replacing any other tag  if there is one  The spyware operator is the only party that gains from this  The user has their choices thwarted  a legitimate affiliate loses revenue  networks  reputations are injured  and vendors are harmed by having to pay out affiliate revenues to an  affiliate  who is not party to a contract              Affiliate fraud is a violation of the terms of service of most affiliate marketing networks  Mobile devices can also be vulnerable to chargeware  which manipulates users into illegitimate mobile charges 
+
+Identity theft and fraud edit 
+In one case  spyware has been closely associated with identity theft              In August       researchers from security software firm Sunbelt Software suspected the creators of the common CoolWebSearch spyware had used it to transmit  chat sessions  user names  passwords  bank information  etc                however it turned out that  it actually  was  its own sophisticated criminal little trojan that s independent of CWS               This case was investigated by the FBI 
+The Federal Trade Commission estimates that           million Americans have been victims of identity theft  and that financial losses from identity theft totaled nearly          billion for businesses and financial institutions and at least         billion in out of pocket expenses for individuals             
+
+Digital rights management edit 
+Some copy protection technologies have borrowed from spyware  In       Sony BMG Music Entertainment was found to be using rootkits in its XCP digital rights management technology             Like spyware  not only was it difficult to detect and uninstall  it was so poorly written that most efforts to remove it could have rendered computers unable to function 
+Texas Attorney General Greg Abbott filed suit              and three separate class action suits were filed              Sony BMG later provided a workaround on its website to help users remove it             
+Beginning on April           Microsoft s Windows Genuine Advantage Notifications application             was installed on most Windows PCs as a  critical security update   While the main purpose of this deliberately uninstallable application is to ensure the copy of Windows on the machine was lawfully purchased and installed  it also installs software that has been accused of  phoning home  on a daily basis  like spyware                          It can be removed with the RemoveWGA tool 
+
+Personal relationships edit 
+Stalkerware is spyware that has been used to monitor electronic activities of partners in intimate relationships  At least one software package  Loverspy  was specifically marketed for this purpose  Depending on local laws regarding communal marital property  observing a partner s online activity without their consent may be illegal  the author of Loverspy and several users of the product were indicted in California in      on charges of wiretapping and various computer crimes             
+
+Browser cookies edit 
+Anti spyware programs often report Web advertisers  HTTP cookies  the small text files that track browsing activity  as spyware  While they are not always inherently malicious  many users object to third parties using space on their personal computers for their business purposes  and many anti spyware programs offer to remove them             
+
+Shameware edit 
+Shameware or  accountability software  is a type of spyware that is not hidden from the user  but operates with their knowledge  if not necessarily their consent  Parents  religious leaders or other authority figures may require their children or congregation members to install such software  which is intended to detect the viewing of pornography or other content deemed inappropriate  and to report it to the authority figure  who may then confront the user about it             
+
+Spyware programs edit 
+Main article  List of spyware programs
+These common spyware programs illustrate the diversity of behaviors found in these attacks  Note that as with computer viruses  researchers give names to spyware programs which may not be used by their creators  Programs may be grouped into  families  based not on shared program code  but on common behaviors  or by  following the money  of apparent financial or business connections  For instance  a number of the spyware programs distributed by Claria are collectively known as  Gator   Likewise  programs that are frequently installed together may be described as parts of the same spyware package  even if they function separately 
+
+Spyware vendors edit 
+Spyware vendors include NSO Group  which in the     s sold spyware to governments for spying on human rights activists and journalists                                      NSO Group was investigated by Citizen Lab                         
+
+Rogue anti spyware programs edit 
+See also  Rogue security software
+Malicious programmers have released a large number of rogue  fake  anti spyware programs  and widely distributed Web banner ads can warn users that their computers have been infected with spyware  directing them to purchase programs which do not actually remove spyware or else  may add more spyware of their own                         
+The recent     update      proliferation of fake or spoofed antivirus products that bill themselves as antispyware can be troublesome   Users may receive popups prompting them to install them to protect their computer  when it will in fact add spyware  It is recommended that users do not install any freeware claiming to be anti spyware unless it is verified to be legitimate  Some known offenders include 
+
+ 
+AntiVirus      amp  Antivirus     
+MacSweeper
+Pest Trap
+PSGuard
+Spy Wiper
+Spydawn
+Spylocked
+Spysheriff
+SpyShredder
+Spyware Quake
+SpywareStrike
+WinAntiVirus Pro     
+Windows Police Pro
+WinFixer            
+WorldAntiSpy
+ 
+Fake antivirus products constitute    percent of all malware             
+On January           Microsoft and the Washington state attorney general filed suit against Secure Computer for its Spyware Cleaner product             
+
+Legal issues edit 
+Criminal law edit 
+Unauthorized access to a computer is illegal under computer crime laws  such as the U S  Computer Fraud and Abuse Act  the U K  s Computer Misuse Act  and similar laws in other countries  Since owners of computers infected with spyware generally claim that they never authorized the installation  a prima facie reading would suggest that the promulgation of spyware would count as a criminal act  Law enforcement has often pursued the authors of other malware  particularly viruses  However  few spyware developers have been prosecuted  and many operate openly as strictly legitimate businesses  though some have faced lawsuits                         
+Spyware producers argue that  contrary to the users  claims  users do in fact give consent to installations  Spyware that comes bundled with shareware applications may be described in the legalese text of an end user license agreement  EULA   Many users habitually ignore these purported contracts  but spyware companies such as Claria say these demonstrate that users have consented 
+Despite the ubiquity of EULAs agreements  under which a single click can be taken as consent to the entire text  relatively little caselaw has resulted from their use  It has been established in most common law jurisdictions that this type of agreement can be a binding contract in certain circumstances              This does not  however  mean that every such agreement is a contract  or that every term in one is enforceable 
+Some jurisdictions  including the U S  states of Iowa             and Washington              have passed laws criminalizing some forms of spyware  Such laws make it illegal for anyone other than the owner or operator of a computer to install software that alters Web browser settings  monitors keystrokes  or disables computer security software 
+In the United States  lawmakers introduced a bill in      entitled the Internet Spyware Prevention Act  which would imprison creators of spyware              
+Additionally  several diplomatic efforts have been made to curb the growing usage of Spywares  Launched by France and the UK in early       the Pall Mall Process             aims to address the proliferation and irresponsible use of commercial cyber intrusion capabilities 
+
+Administrative sanctions edit 
+US FTC actions edit 
+The US Federal Trade Commission has sued Internet marketing organizations under the  unfairness doctrine              to make them stop infecting consumers  PCs with spyware  In one case  that against Seismic Entertainment Productions  the FTC accused the defendants of developing a program that seized control of PCs nationwide  infected them with spyware and other malicious software  bombarded them with a barrage of pop up advertising for Seismic s clients  exposed the PCs to security risks  and caused them to malfunction  Seismic then offered to sell the victims an  antispyware  program to fix the computers  and stop the popups and other problems that Seismic had caused  On November           a settlement was entered in federal court under which a            million judgment was imposed in one case and            million in another  but the defendants were insolvent            
+In a second case  brought against CyberSpy Software LLC  the FTC charged that CyberSpy marketed and sold  RemoteSpy  keylogger spyware to clients who would then secretly monitor unsuspecting consumers  computers  According to the FTC  Cyberspy touted RemoteSpy as a       undetectable  way to  Spy on Anyone  From Anywhere   The FTC has obtained a temporary order prohibiting the defendants from selling the software and disconnecting from the Internet any of their servers that collect  store  or provide access to information that this software has gathered  The case is still in its preliminary stages   A complaint filed by the Electronic Privacy Information Center  EPIC  brought the RemoteSpy software to the FTC s attention             
+
+Netherlands OPTA edit 
+An administrative fine  the first of its kind in Europe  has been issued by the Independent Authority of Posts and Telecommunications  OPTA  from the Netherlands  It applied fines in total value of Euro           for infecting    million computers  The spyware concerned is called DollarRevenue  The law articles that have been violated are art      of the Decision on universal service providers and on the interests of end users  the fines have been issued based on art       taken together with art        of the Dutch telecommunications law             
+
+Civil law edit 
+Former New York State Attorney General and former Governor of New York Eliot Spitzer has pursued spyware companies for fraudulent installation of software              In a suit brought in      by Spitzer  the California firm Intermix Media  Inc  ended up settling  by agreeing to pay US          million and to stop distributing spyware             
+The hijacking of Web advertisements has also led to litigation  In June       a number of large Web publishers sued Claria for replacing advertisements  but settled out of court 
+Courts have not yet had to decide whether advertisers can be held liable for spyware that displays their ads  In many cases  the companies whose advertisements appear in spyware pop ups do not directly do business with the spyware firm  Rather  they have contracted with an advertising agency  which in turn contracts with an online subcontractor who gets paid by the number of  impressions  or appearances of the advertisement  Some major firms such as Dell Computer and Mercedes Benz have sacked advertising agencies that have run their ads in spyware             
+
+Libel suits by spyware developers edit 
+Litigation has gone both ways  Since  spyware  has become a common pejorative  some makers have filed libel and defamation actions when their products have been so described  In       Gator  now known as Claria  filed suit against the website PC Pitstop for describing its program as  spyware               PC Pitstop settled  agreeing not to use the word  spyware   but continues to describe harm caused by the Gator Claria software              As a result  other anti spyware and anti virus companies have also used other terms such as  potentially unwanted programs  or greyware to denote these products 
+
+WebcamGate edit 
+Main article  Robbins v  Lower Merion School District
+In the      WebcamGate case  plaintiffs charged two suburban Philadelphia high schools secretly spied on students by surreptitiously and remotely activating webcams embedded in school issued laptops the students were using at home  and therefore infringed on their privacy rights   The school loaded each student s computer with LANrev s remote activation tracking software   This included the now discontinued  TheftTrack    While TheftTrack was not enabled by default on the software  the program allowed the school district to elect to activate it  and to choose which of the TheftTrack surveillance options the school wanted to enable             
+TheftTrack allowed school district employees to secretly remotely activate the webcam embedded in the student s laptop  above the laptop s screen  That allowed school officials to secretly take photos through the webcam  of whatever was in front of it and in its line of sight  and send the photos to the school s server  The LANrev software disabled the webcams for all other uses  e g   students were unable to use Photo Booth or video chat   so most students mistakenly believed their webcams did not work at all  On top of the webcam surveillance  TheftTrack allowed school officials to take screenshots and send them to the school s server  School officials were also granted the ability to take snapshots of instant messages  web browsing  music playlists  and written compositions  The schools admitted to secretly snapping over        webshots and screenshots  including webcam shots of students in their bedrooms                                     
+
+See also edit 
+Cuckoo s egg  metaphor 
+Cyber spying
+Employee monitoring software
+Industrial espionage
+Infostealer
+Malware
+Phishing
+Superfish
+Technical support scam
+Microphone blocker
+References edit 
+
+
+   Amazon Workers Are Listening to What You Tell Alexa   Bloomberg com  April           Archived from the original on August           Retrieved August          
+
+  Monitoring Software on Your PC  Spyware  Adware  and Other Software  PDF   Report   March       Archived from the original  PDF  on December          
+
+   Pegasus  Spyware sold to governments  targets activists    BBC  July           Retrieved April         
+
+  Vossen  Roland  attributed   October           Win    Source code in c   posted to rec  programmer  retrieved from groups google com November                 dead link     
+
+  Wienbar  Sharon   The Spyware Inferno Archived May           at the Wayback Machine   News com  August          
+
+  Hawkins  Dana   Privacy Worries Arise Over Spyware in Kids  Software   U S  News  amp  World Report  June          Archived November          at the Wayback Machine
+
+   AOL NCSA Online Safety Study Archived December           at the Wayback Machine   America Online  amp  The National Cyber Security Alliance       
+
+  a b Spanbauer  Scott   Is It Time to Ditch IE  Archived December           at the Wayback Machine   Pcworld com  September        
+
+  Keizer  Gregg   Analyzing IE At     Integration With OS Smart Or Not    TechWeb Technology News  August           Archived September           at the Wayback Machine
+
+   SPYWARE   PDF   Archived from the original  PDF  on November          Retrieved February         
+
+  a b Kim  Taejin  Yi  Jeong Hyun  Seo  Changho  January         Spyware Resistant Smartphone User Authentication Scheme   International Journal of Distributed Sensor Networks                  doi                      ISSN                 S CID               
+
+  Bergren  Martha Dewey  October            Spyware   The Journal of School Nursing                   doi                               ISSN                 PMID               
+
+  Ames  Wes          Understanding spyware  risk and response   IT Professional                doi         MITP         
+
+  Basil Cupa  Trojan Horse Resurrected  On the Legality of the Use of Government Spyware  Govware  Archived February          at the Wayback Machine  LISS       pp         
+
+  FAQ   H ufig gestellte Fragen Archived May          at the Wayback Machine
+
+  Jeremy Reimer  July             The tricky issue of spyware with a badge  meet  policeware    Ars Technica  Archived from the original on November          Retrieved June          
+
+  Cooley  Brian  March             Like    tweet  buttons divulge sites you visit  CNET News Video   CNet News  Archived from the original on March           Retrieved March         
+
+  Edelman  Ben  December          updated February           Direct Revenue Deletes Competitors from Users  Disks Archived July          at the Wayback Machine  benedelman com  Retrieved November          
+
+   Microsoft Acquires Anti Spyware Leader GIANT Company   PressPass  December           Archived from the original on June           Retrieved December          
+
+  Garms  Jason  November            What s in a name   A lot   Announcing Windows Defender    blogs technet com  Archived from the original on November           Retrieved December          
+
+  Dodson  Steve  November            Microsoft Windows AntiSpyware is now       quot Windows Defender quot    blogs technet com  Archived from the original on November           Retrieved December          
+
+  Qabalin  Majdi K   Naser  Muawya  Alkasassbeh  Mouhammd  August            Android Spyware Detection Using Machine Learning  A Novel Dataset   Sensors                 doi         s          ISSN                 PMC               PMID               
+
+  Stefan Frei  Thomas Duebendofer  Gunter Ollman  and Martin May  Understanding the Web browser threat  Examination of vulnerable online Web browser populations and the insecurity iceberg Archived September           at the Wayback Machine  Communication Systems Group      
+
+  Virvilis  Nikos  Mylonas  Alexios  Tsalis  Nikolaos  Gritzalis  Dimitris          Security Busters  Web Browser security vs  rogue sites   Computers  amp  Security              doi         j cose             
+
+  Schuster  Steve    Blocking Marketscore  Why Cornell Did It   Archived from the original on February             Cornell University  Office of Information Technologies  March          
+
+  Vincentas  July             Information About Spyware in SpyWareLoop com   Spyware Loop  Archived from the original on November          Retrieved July          
+
+  Edelman  Ben          The Effect of    solutions on Affiliate Commissions and Merchants Archived July          at the Wayback Machine   Benedelman org  Retrieved November          
+
+  Ecker  Clint         Massive spyware based identity theft ring uncovered Archived September           at the Wayback Machine  Ars Technica  August         
+
+  Eckelberry  Alex   Massive identity theft ring  Archived May           at the Wayback Machine  SunbeltBLOG  August         
+
+  Alex  Eckelberry  August            Identity Theft  What to do    The Legacy Sunbelt Software Blog  Archived from the original on March           Retrieved March          
+
+  FTC Releases Survey of Identity Theft in U S       Million Victims in Past   Years  Billions in Losses for Businesses and Consumers Archived May           at the Wayback Machine  Federal Trade Commission  September         
+
+  Russinovich  Mark   Sony  Rootkits and Digital Rights Management Gone Too Far   Archived April           at the Wayback Machine  Mark s Blog  October           Retrieved November          
+
+  Press release from the Texas Attorney General s office  November           Attorney General Abbott Brings First Enforcement Action In Nation Against Sony BMG For Spyware Violations Archived July           at the Wayback Machine  Retrieved November          
+
+   Sony sued over copy protected CDs  Sony BMG is facing three lawsuits over its controversial anti piracy software  Archived May           at the Wayback Machine  BBC News  November           Retrieved November          
+
+  Information About XCP Protected CDs  Retrieved November          
+
+   Description of the Windows Genuine Advantage Notifications application   Microsoft Support  Archived from the original on June           Retrieved June          
+
+  Weinstein  Lauren  Windows XP update may be classified as  spyware  Archived July          at archive today  Lauren Weinstein s Blog  June          Retrieved June          
+
+  Evers  Joris  Microsoft s antipiracy tool phones home daily Archived August           at the Wayback Machine  CNET  June          Retrieved August          
+
+   Creator and Four Users of Loverspy Spyware Program Indicted   Department of Justice  August           Archived from the original on November           Retrieved November          
+
+   Tracking Cookie   Symantec  Archived from the original on January          Retrieved April          
+
+  Mehrotra  Dhruv   The Ungodly Surveillance of Anti Porn  Shameware  Apps   Wired  ISSN                 Retrieved September          
+
+  a b Timberg  Craig  Albergotti  Reed  Gu guen  Elodie  July             Despite the hype  Apple security no match for NSO spyware   International investigation finds    Apple devices that were successfully hacked   The Washington Post  Archived from the original on July           Retrieved July          
+
+   Activists and journalists in Mexico complain of government spying   Reuters  June           Archived from the original on May           Retrieved June          
+
+  a b Franceschi Bicchierai  Lorenzo  August             Government Hackers Caught Using Unprecedented iPhone Spy Tool   VICE Magazine  Archived from the original on February           Retrieved August          
+
+  Roberts  Paul F   May             Spyware Removal Program Tagged as a Trap   eWeek  Retrieved September              permanent dead link     
+
+  Howes  Eric L   The Spyware Warrior List of Rogue Suspect Anti Spyware Products  amp  Web Sites Archived September           at the Wayback Machine   Retrieved July          
+
+  Also known as WinAntiVirusPro  ErrorSafe  SystemDoctor  WinAntiSpyware  AVSystemCare  WinAntiSpy  Windows Police Pro  Performance Optimizer  StorageProtector  PrivacyProtector  WinReanimator  DriveCleaner  WinspywareProtect  PCTurboPro  FreePCSecure  ErrorProtector  SysProtect  WinSoftware  XPAntivirus  Personal Antivirus  Home Antivirus   xx  VirusDoctor  and ECsecure
+
+  Elinor Mills  April             Google  Fake antivirus is    percent of all malware   CNET  Archived from the original on May           Retrieved November         
+
+  McMillan  Robert  Antispyware Company Sued Under Spyware Law Archived July          at the Wayback Machine  PC World  January          
+
+   Lawsuit filed against    solutions Archived June           at the Wayback Machine   zdnet com September         
+
+  Hu  Jim      solutions sues allies over adware Archived August           at the Wayback Machine   news com July         
+
+  Coollawyer             Privacy Policies  Terms and Conditions  Website Contracts  Website Agreements Archived May           at the Wayback Machine  coollawyer com  Retrieved November          
+
+   CHAPTER     Computer Spyware and Malware Protection Archived April          at the Wayback Machine   nxtsearch legis state ia us  Retrieved May          
+
+  Chapter        RCW  Computer spyware Archived July           at the Wayback Machine  apps leg wa gov  Retrieved November          
+
+  Gross  Grant  US lawmakers introduce I Spy bill Archived January          at the Wayback Machine  InfoWorld  March           Retrieved March          
+
+   The Pall Mall Process declaration  tackling the proliferation and irresponsible use of commercial cyber intrusion capabilities   GOV UK  Retrieved October          
+
+  See Federal Trade Commission v  Sperry  amp  Hutchinson Trading Stamp Co 
+
+   FTC Permanently Halts Unlawful Spyware Operations Archived November          at the Wayback Machine  FTC press release with links to supporting documents   see also FTC cracks down on spyware and PC hijacking  but not true lies Archived December           at the Wayback Machine  Micro Law  IEEE MICRO  Jan  Feb         also available at IEEE Xplore  
+
+  See Court Orders Halt to Sale of Spyware Archived December          at the Wayback Machine  FTC press release November           with links to supporting documents  
+
+  OPTA  November            Besluit van het college van de Onafhankelijke Post en Telecommunicatie Autoriteit op grond van artikel      juncto artikel       van de Telecommunicatiewet tot oplegging van boetes ter zake van overtredingen van het gestelde bij of krachtens de Telecommunicatiewet   PDF   Archived from the original  PDF  on January          
+
+   State Sues Major  Spyware  Distributor   Press release   Office of New York State Attorney General  April           Archived from the original on January           Retrieved September          Attorney General Spitzer today sued one of the nation s leading internet marketing companies  alleging that the firm was the source of  spyware  and  adware  that has been secretly installed on millions of home computers 
+
+  Gormley  Michael   Intermix Media Inc  says it is settling spyware lawsuit with N Y  attorney general   Yahoo  News  June           Archived from the original on June          
+
+  Gormley  Michael  June             Major advertisers caught in spyware net   USA Today  Archived from the original on September           Retrieved September         
+
+  Festa  Paul   See you later  anti Gators  Archived July           at the Wayback Machine   News com  October          
+
+   Gator Information Center Archived July          at the Wayback Machine   pcpitstop com November          
+
+  a b  Initial LANrev System Findings  Archived June           at the Wayback Machine  LMSD Redacted Forensic Analysis  L   Services   prepared for Ballard Spahr  LMSD s counsel   May       Retrieved August          
+
+  Doug Stanglin  February             School district accused of spying on kids via laptop webcams   USA Today  Archived from the original on September           Retrieved February          
+
+   Suit  Schools Spied on Students Via Webcam   CBS NEWS  March          Archived from the original on August          Retrieved July          
+
+
+External links edit 
+
+
+
+Wikimedia Commons has media related to Spyware 
+
+Home Computer Security   Carnegie Mellon Software Institute
+vteInformation securityRelated security categories
+Computer security
+Automotive security
+Cybercrime
+Cybersex trafficking
+Computer fraud
+Cybergeddon
+Cyberterrorism
+Cyberwarfare
+Electronic warfare
+Information warfare
+Internet security
+Mobile security
+Network security
+Copy protection
+Digital rights management
+vectorial versionThreats
+Adware
+Advanced persistent threat
+Arbitrary code execution
+Backdoors
+Bombs
+Fork
+Logic
+Time
+Zip
+Hardware backdoors
+Code injection
+Crimeware
+Cross site scripting
+Cross site leaks
+DOM clobbering
+History sniffing
+Cryptojacking
+Botnets
+Data breach
+Drive by download
+Browser Helper Objects
+Viruses
+Data scraping
+Denial of service attack
+Eavesdropping
+Email fraud
+Email spoofing
+Exploits
+Fraudulent dialers
+Hacktivism
+Infostealer
+Insecure direct object reference
+Keystroke loggers
+Malware
+Payload
+Phishing
+Voice
+Polymorphic engine
+Privilege escalation
+Ransomware
+Rootkits
+Scareware
+Shellcode
+Spamming
+Social engineering
+Spyware
+Software bugs
+Trojan horses
+Hardware Trojans
+Remote access trojans
+Vulnerability
+Web shells
+Wiper
+Worms
+SQL injection
+Rogue security software
+Zombie
+Defenses
+Application security
+Secure coding
+Secure by default
+Secure by design
+Misuse case
+Computer access control
+Authentication
+Multi factor authentication
+Authorization
+Computer security software
+Antivirus software
+Security focused operating system
+Data centric security
+Software obfuscation
+Data masking
+Encryption
+Firewall
+Intrusion detection system
+Host based intrusion detection system  HIDS 
+Anomaly detection
+Information security management
+Information risk management
+Security information and event management  SIEM 
+Runtime application self protection
+Site isolation
+
+vteMalware topicsInfectious malware
+Comparison of computer viruses
+Computer virus
+Computer worm
+List of computer worms
+Timeline of computer viruses and worms
+Concealment
+Backdoor
+Clickjacking
+Man in the browser
+Man in the middle
+Rootkit
+Trojan horse
+Zombie computer
+Malware for profit
+Adware
+Botnet
+Crimeware
+Fleeceware
+Form grabbing
+Fraudulent dialer
+Infostealer
+Keystroke logging
+Malbot
+Privacy invasive software
+Ransomware
+Rogue security software
+Scareware
+Spyware
+Web threats
+By operating system
+Android malware
+Classic Mac OS viruses
+iOS malware
+Linux malware
+MacOS malware
+Macro virus
+Mobile malware
+Palm OS viruses
+HyperCard viruses
+Protection
+Anti keylogger
+Antivirus software
+Browser security
+Data loss prevention software
+Defensive computing
+Firewall
+Internet security
+Intrusion detection system
+Mobile security
+Network security
+Countermeasures
+Computer and network surveillance
+Honeypot
+Operation  Bot Roast
+
+vteSoftware distributionLicenses
+Beerware
+Floating licensing
+Free and open source
+Free
+Open source
+Freely redistributable
+License free
+Proprietary
+Public domain
+Source available
+Compensation models
+Adware
+Commercial software
+Retail software
+Crippleware
+Crowdfunding
+Freemium
+Freeware
+Pay what you want
+Careware
+Donationware
+Open core model
+Postcardware
+Shareware
+Nagware
+Trialware
+Delivery methods
+Digital distribution
+File sharing
+On premises
+Pre installed
+Product bundling
+Retail software
+Sneakernet
+Software as a service
+Deceptive and or illicit
+Unwanted software bundling
+Malware
+Infostealer
+Ransomware
+Spyware
+Trojan horse
+Worm
+Scareware
+Shovelware
+Software release life cycle
+Abandonware
+End of life
+Long term support
+Software maintenance
+Software maintainer
+Software publisher
+Vaporware
+list
+Copy protection
+Digital rights management
+Software protection dongle
+License manager
+Product activation
+Product key
+Software copyright
+Software license server
+Software patent
+Torrent poisoning
+
+Authority control databases  National GermanyUnited StatesJapanIsrael
+
+
+
+
+
+Retrieved from  https   en wikipedia org w index php title Spyware amp oldid

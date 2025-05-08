@@ -1,0 +1,470 @@
+Subset of evolutionary computation
+Part of a series on theEvolutionary algorithm
+Chromosome
+Fitness function
+Genetic operator
+Crossover
+Mutation
+Selection
+Population model
+
+Genetic algorithm  GA 
+Chromosome
+Clonal selection algorithm
+Fly algorithm
+Genetic fuzzy systems
+Genetic memory
+Schema
+Promoter based GA
+
+Genetic programming  GP 
+Cartesian GP
+Linear GP
+Gene expression programming
+Grammatical evolution
+Multi expression programming
+
+Differential evolution
+Evolution strategy
+Evolutionary programming
+Related topics
+Cellular EA
+Cultural algorithm
+Effective fitness
+Evolutionary computation
+Gaussian adaptation
+Grammar induction
+Evolutionary multimodal optimization
+Memetic algorithm
+Neuroevolution
+vte
+Part of a series onArtificial intelligence  AI 
+Major goals
+Artificial general intelligence
+Intelligent agent
+Recursive self improvement
+Planning
+Computer vision
+General game playing
+Knowledge reasoning
+Natural language processing
+Robotics
+AI safety
+
+Approaches
+Machine learning
+Symbolic
+Deep learning
+Bayesian networks
+Evolutionary algorithms
+Hybrid intelligent systems
+Systems integration
+
+Applications
+Bioinformatics
+Deepfake
+Earth sciences
+ Finance 
+Generative AI
+Art
+Audio
+Music
+Government
+Healthcare
+Mental health
+Industry
+Translation
+ Military 
+Physics
+Projects
+
+Philosophy
+Artificial consciousness
+Chinese room
+Friendly AI
+Control problem Takeover
+Ethics
+Existential risk
+Turing test
+Uncanny valley
+
+History
+Timeline
+Progress
+AI winter
+AI boom
+
+Glossary
+Glossary
+vte
+Evolutionary algorithms  EA  reproduce essential elements of the biological evolution in a computer algorithm in order to solve  difficult  problems  at least approximately  for which no exact or satisfactory solution methods are known  They belong to the class of metaheuristics and are a subset of population based bio inspired algorithms            and evolutionary computation  which itself are part of the field of computational intelligence             The mechanisms of biological evolution that an EA mainly imitates are reproduction  mutation  recombination and selection  Candidate solutions to the optimization problem play the role of individuals in a population  and the fitness function determines the quality of the solutions  see also loss function   Evolution of the population then takes place after the repeated application of the above operators 
+Evolutionary algorithms often perform well approximating solutions to all types of problems because they ideally do not make any assumption about the underlying fitness landscape  Techniques from evolutionary algorithms applied to the modeling of biological evolution are generally limited to explorations of microevolutionary processes and planning models based upon cellular processes  In most real applications of EAs  computational complexity is a prohibiting factor             In fact  this computational complexity is due to fitness function evaluation  Fitness approximation is one of the solutions to overcome this difficulty  However  seemingly simple EA can solve often complex problems                                   therefore  there may be no direct link between algorithm complexity and problem complexity 
+
+
+Generic definition edit 
+The following is an example of a generic evolutionary algorithm                                  
+
+Randomly generate the initial population of individuals  the first generation 
+Evaluate the fitness of each individual in the population 
+Check  if the goal is reached and the algorithm can be terminated 
+Select individuals as parents  preferably of higher fitness 
+Produce offspring with optional crossover  mimicking reproduction  
+Apply mutation operations on the offspring 
+Select individuals preferably of lower fitness for replacement with new individuals  mimicking natural selection  
+Return to  
+Types edit 
+Similar techniques differ in genetic representation and other implementation details  and the nature of the particular applied problem 
+
+Genetic algorithm   This is the most popular type of EA  One seeks the solution of a problem in the form of strings of numbers  traditionally binary  although the best representations are usually those that reflect something about the problem being solved              by applying operators such as recombination and mutation  sometimes one  sometimes both    This type of EA is often used in optimization problems 
+Genetic programming   Here the solutions are in the form of computer programs  and their fitness is determined by their ability to solve a computational problem  There are many variants of Genetic Programming 
+Cartesian genetic programming
+Gene expression programming
+Grammatical evolution
+Linear genetic programming
+Multi expression programming
+Evolutionary programming   Similar to evolution strategy  but with a deterministic selection of all parents 
+Evolution strategy  ES    Works with vectors of real numbers as representations of solutions  and typically uses self adaptive mutation rates  The method is mainly used for numerical optimization  although there are also variants for combinatorial tasks                                     
+CMA ES
+Natural evolution strategy
+Differential evolution   Based on vector differences and is therefore primarily suited for numerical optimization problems 
+Coevolutionary algorithm   Similar to genetic algorithms and evolution strategies  but the created solutions are compared on the basis of their outcomes from interactions with other solutions  Solutions can either compete or cooperate during the search process  Coevolutionary algorithms are often used in scenarios where the fitness landscape is dynamic  complex  or involves competitive interactions                         
+Neuroevolution   Similar to genetic programming but the genomes represent artificial neural networks by describing structure and connection weights  The genome encoding can be direct or indirect 
+Learning classifier system   Here the solution is a set of classifiers  rules or conditions   A Michigan LCS evolves at the level of individual classifiers whereas a Pittsburgh LCS uses populations of classifier sets  Initially  classifiers were only binary  but now include real  neural net  or S expression types  Fitness is typically determined with either a strength or accuracy based reinforcement learning or supervised learning approach 
+Quality Diversity algorithms   QD algorithms simultaneously aim for high quality and diverse solutions  Unlike traditional optimization algorithms that solely focus on finding the best solution to a problem  QD algorithms explore a wide variety of solutions across a problem space and keep those that are not just high performing  but also diverse and unique                                     
+Theoretical background edit 
+The following theoretical principles apply to all or almost all EAs 
+
+No free lunch theorem edit 
+The no free lunch theorem of optimization states that all optimization strategies are equally effective when the set of all optimization problems is considered  Under the same condition  no evolutionary algorithm is fundamentally better than another  This can only be the case if the set of all problems is restricted  This is exactly what is inevitably done in practice  Therefore  to improve an EA  it must exploit problem knowledge in some form  e g  by choosing a certain mutation strength or a problem adapted coding   Thus  if two EAs are compared  this constraint is implied  In addition  an EA can use problem specific knowledge by  for example  not randomly generating the entire start population  but creating some individuals through heuristics or other procedures                          Another possibility to tailor an EA to a given problem domain is to involve suitable heuristics  local search procedures or other problem related procedures in the process of generating the offspring  This form of extension of an EA is also known as a memetic algorithm  Both extensions play a major role in practical applications  as they can speed up the search process and make it more robust                         
+
+Convergence edit 
+For EAs in which  in addition to the offspring  at least the best individual of the parent generation is used to form the subsequent generation  so called elitist EAs   there is a general proof of convergence under the condition that an optimum exists  Without loss of generality  a maximum search is assumed for the proof 
+From the property of elitist offspring acceptance and the existence of the optimum it follows that per generation 
+  
+    
+      
+        k
+      
+    
+      displaystyle k 
+  
+ an improvement of the fitness 
+  
+    
+      
+        F
+      
+    
+      displaystyle F 
+  
+ of the respective best individual 
+  
+    
+      
+        
+          x
+            x     
+        
+      
+    
+      displaystyle x  
+  
+ will occur with a probability 
+  
+    
+      
+        P
+         gt 
+         
+      
+    
+      displaystyle P gt   
+  
+  Thus 
+
+
+  
+    
+      
+        F
+         
+        
+          x
+          
+             
+          
+            x     
+        
+         
+          x     
+        F
+         
+        
+          x
+          
+             
+          
+            x     
+        
+         
+          x     
+        F
+         
+        
+          x
+          
+             
+          
+            x     
+        
+         
+          x     
+          x  ef 
+          x     
+        F
+         
+        
+          x
+          
+            k
+          
+            x     
+        
+         
+          x     
+          x  ef 
+      
+    
+      displaystyle F x       leq F x       leq F x       leq  cdots  leq F x   k   leq  cdots  
+  
+
+I e   the fitness values represent a monotonically non decreasing sequence  which is bounded due to the existence of the optimum  From this follows the convergence of the sequence against the optimum 
+Since the proof makes no statement about the speed of convergence  it is of little help in practical applications of EAs  But it does justify the recommendation to use elitist EAs  However  when using the usual panmictic population model  elitist EAs tend to converge prematurely more than non elitist ones              In a panmictic population model  mate selection  see step   of the generic definition  is such that every individual in the entire population is eligible as a mate  In non panmictic populations  selection is suitably restricted  so that the dispersal speed of better individuals is reduced compared to panmictic ones  Thus  the general risk of premature convergence of elitist EAs can be significantly reduced by suitable population models that restrict mate selection                         
+
+Virtual alphabets edit 
+With the theory of virtual alphabets  David E  Goldberg showed in      that by using a representation with real numbers  an EA that uses classical recombination operators  e g  uniform or n point crossover  cannot reach certain areas of the search space  in contrast to a coding with binary numbers              This results in the recommendation for EAs with real representation to use arithmetic operators for recombination  e g  arithmetic mean or intermediate recombination   With suitable operators  real valued representations are more effective than binary ones  contrary to earlier opinion                         
+
+Comparison to other concepts edit 
+Biological processes edit 
+A possible limitation     according to whom       of many evolutionary algorithms is their lack of a clear genotype phenotype distinction  In nature  the fertilized egg cell undergoes a complex process known as embryogenesis to become a mature phenotype  This indirect encoding is believed to make the genetic search more robust  i e  reduce the probability of fatal mutations   and also may improve the evolvability of the organism                          Such indirect  also known as generative or developmental  encodings also enable evolution to exploit the regularity in the environment              Recent work in the field of artificial embryogeny  or artificial developmental systems  seeks to address these concerns  And gene expression programming successfully explores a genotype phenotype system  where the genotype consists of linear multigenic chromosomes of fixed length and the phenotype consists of multiple expression trees or computer programs of different sizes and shapes                  improper synthesis      
+
+Monte Carlo methods edit 
+Both method classes have in common that their individual search steps are determined by chance  The main difference  however  is that EAs  like many other metaheuristics  learn from past search steps and incorporate this experience into the execution of the next search steps in a method specific form  With EAs  this is done firstly through the fitness based selection operators for partner choice and the formation of the next generation  And secondly  in the type of search steps  In EA  they start from a current solution and change it or they mix the information of two solutions  In contrast  when dicing out new solutions in Monte Carlo methods  there is usually no connection to existing solutions                         
+If  on the other hand  the search space of a task is such that there is nothing to learn  Monte Carlo methods are an appropriate tool  as they do not contain any algorithmic overhead that attempts to draw suitable conclusions from the previous search  An example of such tasks is the proverbial search for a needle in a haystack  e g  in the form of a flat  hyper plane with a single narrow peak 
+
+Applications edit 
+The areas in which evolutionary algorithms are practically used are almost unlimited            and range from industry                          engineering                                    complex scheduling                                     agriculture              robot movement planning             and finance                         to research                         and art  The application of an evolutionary algorithm requires some rethinking from the inexperienced user  as the approach to a task using an EA is different from conventional exact methods and this is usually not part of the curriculum of engineers or other disciplines  For example  the fitness calculation must not only formulate the goal but also support the evolutionary search process towards it  e g  by rewarding improvements that do not yet lead to a better evaluation of the original quality criteria  For example  if peak utilisation of resources such as personnel deployment or energy consumption is to be avoided in a scheduling task  it is not sufficient to assess the maximum utilisation  Rather  the number and duration of exceedances of a still acceptable level should also be recorded in order to reward reductions below the actual maximum peak value              There are therefore some publications that are aimed at the beginner and want to help avoiding beginner s mistakes as well as leading an application project to success                                      This includes clarifying the fundamental question of when an EA should be used to solve a problem and when it is better not to 
+
+Related techniques and other global search methods edit 
+There are some other proven and widely used methods of nature inspired global search techniques such as
+
+Memetic algorithm   A hybrid method  inspired by Richard Dawkins s notion of a meme  It commonly takes the form of a population based algorithm  frequently an EA  coupled with individual learning procedures capable of performing local refinements  Emphasizes the exploitation of problem specific knowledge and tries to orchestrate local and global search in a synergistic way 
+A cellular evolutionary or memetic algorithm uses a topological neighbouhood relation between the individuals of a population for restricting the mate selection and by that reducing the propagation speed of above average individuals  The idea is to maintain genotypic diversity in the poulation over a longer period of time to reduce the risk of premature convergence 
+Ant colony optimization is based on the ideas of ant foraging by pheromone communication to form paths  Primarily suited for combinatorial optimization and graph problems 
+Particle swarm optimization is based on the ideas of animal flocking behaviour  Also primarily suited for numerical optimization problems 
+Gaussian adaptation   Based on information theory  Used for maximization of manufacturing yield  mean fitness or average information  See for instance Entropy in thermodynamics and information theory 
+In addition  many new nature inspired or methaphor guided algorithms have been proposed since the beginning of this century  For criticism of most publications on these  see the remarks at the end of the introduction to the article on metaheuristics 
+
+Examples edit 
+In       Google stated that their AutoML Zero can successfully rediscover classic algorithms such as the concept of neural networks             
+The computer simulations Tierra and Avida attempt to model macroevolutionary dynamics 
+
+Gallery edit 
+                        
+
+
+		
+			
+			A two population EA search over a constrained Rosenbrock function with bounded global optimum
+		
+		
+			
+			A two population EA search over a constrained Rosenbrock function  Global optimum is not bounded 
+		
+		
+			
+			Estimation of distribution algorithm over Keane s bump function
+		
+		
+			
+			A two population EA search of a bounded optima of Simionescu s function
+		
+
+References edit 
+
+
+  Farinati  Davide  Vanneschi  Leonardo  December         A survey on dynamic populations in bio inspired algorithms   Genetic Programming and Evolvable Machines          doi         s                   hdl              
+
+  Vikhar  P  A           Evolutionary algorithms  A critical review and its future prospects        International Conference on Global Trends in Signal Processing  Information Computing and Communication  ICGTSPICC   Jalgaon  pp                doi         ICGTSPICC               ISBN                         S CID                 cite book     CS  maint  location missing publisher  link 
+
+  a b c Cohoon  J  P   Karro  J   Lienig  J           Evolutionary Algorithms for the Physical Design of VLSI Circuits  in Advances in Evolutionary Computing  Theory and Applications  PDF   London  Springer Verlag  pp                ISBN                        
+
+  a b Slowik  Adam  Kwasnicka  Halina          Evolutionary algorithms and their applications to engineering problems   Neural Computing and Applications                        doi         s                   ISSN                 S CID                
+
+  a b Mika  Marek  Walig ra  Grzegorz  W glarz  Jan          Modelling and solving grid resource allocation problem with network resources for workflow applications   Journal of Scheduling                   doi         s                  ISSN                 S CID               
+
+  a b  International Conference on the Applications of Evolutionary Computation   The conference is part of the Evo  series  The conference proceedings are published by Springer  Retrieved            
+
+  Jansen  Thomas  Weyland  Dennis    July         Analysis of evolutionary algorithms for the longest common subsequence problem   Proceedings of the  th annual conference on Genetic and evolutionary computation  Association for Computing Machinery  pp                doi                          ISBN                        
+
+  Jin  Yaochu          Evolutionary Algorithms   Advanced Fuzzy Systems Design and Applications  Studies in Fuzziness and Soft Computing  Vol            Physica Verlag HD  pp              doi                              ISBN                        
+
+  Tavares  Jorge  Machado  Penousal  Cardoso  Am lcar  Pereira  Francisco B   Costa  Ernesto          On the Evolution of Evolutionary Algorithms   Genetic Programming  Lecture Notes in Computer Science  Vol             Springer  pp                doi                               ISBN                        
+
+  Nissen  Volker  Krause  Matthias          Constrained Combinatorial Optimization with an Evolution Strategy   in Reusch  Bernd  ed    Fuzzy Logik  Informatik aktuell  Berlin  Heidelberg  Springer  pp              doi                              ISBN                       
+
+  Coelho  V  N   Coelho  I  M   Souza  M  J  F   Oliveira  T  A   Cota  L  P   Haddad  M  N   Mladenovic  N   Silva  R  C  P   Guimar es  F  G           Hybrid Self Adaptive Evolution Strategies Guided by Neighborhood Structures for Combinatorial Optimization Problems   Evol Comput                   doi         EVCO a        PMID                S CID               
+
+  Slowik  Adam  Kwasnicka  Halina    August         Evolutionary algorithms and their applications to engineering problems   Neural Computing and Applications                        doi         s                   ISSN                
+
+  Ma  Xiaoliang  Li  Xiaodong  Zhang  Qingfu  Tang  Ke  Liang  Zhengping  Xie  Weixin  Zhu  Zexuan          A Survey on Cooperative Co Evolutionary Algorithms    IEEE Transactions on Evolutionary Computation                   doi         TEVC               S CID                 retrieved           
+
+  Popovici  Elena  Bucci  Anthony  Wiegand  R  Paul  De Jong  Edwin D           Coevolutionary Principles   In Rozenberg  Grzegorz  B ck  Thomas  Kok  Joost N   eds    Handbook of Natural Computing  Berlin  Heidelberg  Springer Berlin Heidelberg  pp                 doi                               ISBN                        
+
+  Pugh  Justin K   Soros  Lisa B   Stanley  Kenneth O                 Quality Diversity  A New Frontier for Evolutionary Computation   Frontiers in Robotics and AI     doi         frobt             ISSN                
+
+  Lehman  Joel  Stanley  Kenneth O                 Evolving a diversity of virtual creatures through novelty search and local competition   Proceedings of the   th annual conference on Genetic and evolutionary computation  New York  NY  USA  ACM  pp                doi                          ISBN                     S CID               
+
+  Cully  Antoine  Clune  Jeff  Tarapore  Danesh  Mouret  Jean Baptiste                Robots that can adapt like animals   Nature                       arXiv            Bibcode     Natur         C  doi         nature       ISSN                 PMID                S CID              
+
+  a b Davis  Lawrence         Handbook of genetic algorithms  New York  Van Nostrand Reinhold  ISBN                     OCLC               
+
+  Lienig  Jens  Brandt  Holger         Davidor  Yuval  Schwefel  Hans Paul  M nner  Reinhard  eds     An evolutionary algorithm for the routing of multi chip modules   Parallel Problem Solving from Nature   PPSN III  vol            Berlin  Heidelberg  Springer  pp                doi                            ISBN                         retrieved           
+
+  Neri  Ferrante  Cotta  Carlos  Moscato  Pablo  eds          Handbook of Memetic Algorithms  Studies in Computational Intelligence  Vol            Berlin  Heidelberg  Springer Berlin Heidelberg  doi                            ISBN                        
+
+  Leung  Yee  Gao  Yong  Xu  Zong Ben          Degree of population diversity   a perspective on premature convergence in genetic algorithms and its Markov chain analysis   IEEE Transactions on Neural Networks                    doi                    ISSN                 PMID               
+
+  Gorges Schleuter  Martina         Eiben  Agoston E   B ck  Thomas  Schoenauer  Marc  Schwefel  Hans Paul  eds     A comparative study of global and local selection in evolution strategies   Parallel Problem Solving from Nature   PPSN V  Lecture Notes in Computer Science  vol             Berlin  Heidelberg  Springer Berlin Heidelberg  pp                doi         bfb         ISBN                         retrieved           
+
+  Dorronsoro  Bernabe  Alba  Enrique         Cellular Genetic Algorithms  Operations Research Computer Science Interfaces Series  Vol           Boston  MA  Springer US  doi                            ISBN                        
+
+  Goldberg  David E          Schwefel  Hans Paul  M nner  Reinhard  eds     The theory of virtual alphabets   Parallel Problem Solving from Nature  Lecture Notes in Computer Science  vol            Berlin Heidelberg  Springer Verlag  published        pp              doi         bfb         ISBN                         retrieved           
+
+  Stender  J   Hillebrand  E   Kingdon  J          Genetic algorithms in optimisation  simulation  and modelling  Amsterdam  IOS Press  ISBN                     OCLC               
+
+  Michalewicz  Zbigniew         Genetic Algorithms   Data Structures   Evolution Programs   rd      ed    Berlin Heidelberg  Springer  ISBN                         OCLC                
+
+  G S  Hornby and J B  Pollack   Creating high level components with a generative representation for body brain evolution   Artificial Life                     
+
+  Jeff Clune  Benjamin Beckmann  Charles Ofria  and Robert Pennock   Evolving Coordinated Quadruped Gaits with the HyperNEAT Generative Encoding  Archived            at the Wayback Machine  Proceedings of the IEEE Congress on Evolutionary Computing Special Section on Evolutionary Robotics        Trondheim  Norway 
+
+  J  Clune  C  Ofria  and R  T  Pennock   How a generative encoding fares as problem regularity decreases   in PPSN  G  Rudolph  T  Jansen  S  M  Lucas  C  Poloni  and N  Beume  eds    vol       of Lecture Notes in Computer Science  pp           Springer       
+
+  Ferreira  C          Gene Expression Programming  A New Adaptive Algorithm for Solving Problems   Complex Systems  Vol      issue           
+
+  Schwefel  Hans Paul         Evolution and Optimum Seeking  Sixth generation computer technology series  New York  Wiley  p            ISBN                        
+
+  Fogel  David B   B ck  Thomas  Michalewicz  Zbigniew  eds          Evolutionary Computation    Bristol        Philadelphia  Institute of Physics Publishing  pp       xxx and xxxvii  Glossary   ISBN                         OCLC               
+
+  Sanchez  Ernesto  Squillero  Giovanni  Tonda  Alberto         Industrial Applications of Evolutionary Algorithms  Intelligent Systems Reference Library  Vol           Berlin  Heidelberg  Springer Berlin Heidelberg  doi                            ISBN                        
+
+  Miettinen  Kaisa  Neittaanm ki  Pekka  M kel   M  M   P riaux  Jacques  eds          Evolutionary algorithms in engineering and computer science        recent advances in genetic algorithms  evolution strategies  evolutionary programming  genetic programming  and industrial applications  Chichester  Wiley and Sons  ISBN                     OCLC               
+
+  Gen  Mitsuo  Cheng  Runwei               Genetic Algorithms and Engineering Optimization  Wiley Series in Engineering Design and Automation  Hoboken  NJ  USA  John Wiley  amp  Sons  Inc  doi                        ISBN                        
+
+  Dahal  Keshav P   Tan  Kay Chen  Cowling  Peter I          Evolutionary scheduling  Berlin  Springer  doi                            ISBN                         OCLC                
+
+  Jakob  Wilfried  Strack  Sylvia  Quinte  Alexander  Bengel  G nther  Stucky  Karl Uwe  S    Wolfgang                Fast Rescheduling of Multiple Workflows to Constrained Heterogeneous Resources Using Multi Criteria Memetic Computing   Algorithms                  doi         a         ISSN                
+
+  Mayer  David G          Evolutionary Algorithms and Agricultural Systems  Boston  MA  Springer US  doi                            ISBN                        
+
+  Blume  Christian         Cagnoni  Stefano  ed     Optimized Collision Free Robot Move Statement Generation by the Evolutionary Software GLEAM   Real World Applications of Evolutionary Computing  LNCS       vol             Berlin  Heidelberg  Springer  pp                doi                           ISBN                         retrieved           
+
+  Aranha  Claus  Iba  Hitoshi         Wobcke  Wayne  Zhang  Mengjie  eds     Application of a Memetic Algorithm to the Portfolio Optimization Problem   AI       Advances in Artificial Intelligence  Lecture Notes in Computer Science  vol             Berlin  Heidelberg  Springer Berlin Heidelberg  pp                doi                               ISBN                         retrieved           
+
+  Chen  Shu Heng  ed          Evolutionary Computation in Economics and Finance  Studies in Fuzziness and Soft Computing  Vol            Heidelberg  Physica Verlag HD  doi                            ISBN                        
+
+  Lohn  J D   Linden  D S   Hornby  G S   Kraus  W F   June         Evolutionary design of an X band antenna for NASA s Space Technology   mission   IEEE Antennas and Propagation Society Symposium        Vol          pp                 Vol    doi         APS               hdl                   ISBN                    
+
+  Fogel  Gary  Corne  David         Evolutionary Computation in Bioinformatics  Elsevier  doi         b                  x        ISBN                        
+
+  a b Jakob  Wilfried         Applying Evolutionary Algorithms Successfully   A Guide Gained from Realworld Applications  KIT Scientific Working Papers  vol            Karlsruhe  FRG  KIT Scientific Publishing  arXiv             doi         IR             S CID                 retrieved           
+
+  Whitley  Darrell          An overview of evolutionary algorithms  practical issues and common pitfalls   Information and Software Technology                    doi         S                      S CID               
+
+  Eiben  A E   Smith  J E           Working with Evolutionary Algorithms   Introduction to Evolutionary Computing  Natural Computing Series   nd      ed    Berlin  Heidelberg  Springer Berlin Heidelberg  pp                doi                            ISBN                         S CID               
+
+  Gent  Edd     April         Artificial intelligence is evolving all by itself   Science   AAAS  Archived from the original on    April       Retrieved    April      
+
+  Simionescu  P A   Dozier  G V   Wainwright  R L           A Two Population Evolutionary Algorithm for Constrained Optimization Problems   PDF        IEEE International Conference on Evolutionary Computation  Proc      IEEE International Conference on Evolutionary Computation  Vancouver  Canada  pp                  doi         CEC               ISBN                     S CID               Retrieved   January        cite book     CS  maint  location missing publisher  link 
+
+  Simionescu  P A          Computer Aided Graphing and Simulation Tools for AutoCAD Users   st      ed    Boca Raton  FL  CRC Press  ISBN                        
+
+
+Bibliography edit 
+Ashlock  D          Evolutionary Computation for Modeling and Optimization  Springer  New York  doi                        ISBN                    
+B ck  T          Evolutionary Algorithms in Theory and Practice  Evolution Strategies  Evolutionary Programming  Genetic Algorithms  Oxford Univ  Press  New York  ISBN                        
+B ck  T   Fogel  D   Michalewicz  Z          Evolutionary Computation    Basic Algorithms and Operators  CRC Press  Boca Raton  USA  ISBN                        
+B ck  T   Fogel  D   Michalewicz  Z          Evolutionary Computation    Advanced Algorithms and Operators  CRC Press  Boca Raton  USA  doi                       ISBN                        
+Banzhaf  W   Nordin  P   Keller  R   Francone  F          Genetic Programming   An Introduction  Morgan Kaufmann  San Francisco  ISBN                        
+Eiben  A E   Smith  J E          Introduction to Evolutionary Computing  Springer  Heidelberg  New York  doi                           ISBN                        
+Holland  J  H          Adaptation in Natural and Artificial Systems  MIT Press  Cambridge  MA  ISBN                        
+Michalewicz  Z   Fogel  D B          How To Solve It  Modern Heuristics  Springer  Berlin  Heidelberg  ISBN                         doi                           
+Benko  Attila  Dosa  Gyorgy  Tuza  Zsolt          Bin Packing Covering with Delivery  solved with the evolution of algorithms        IEEE Fifth International Conference on Bio Inspired Computing  Theories and Applications  BIC TA   pp                doi         BICTA               ISBN                         S CID               
+Poli  R   Langdon  W  B   McPhee  N  F          A Field Guide to Genetic Programming  Lulu com  freely available from the internet  ISBN                         Archived from the original on             Retrieved                 self published source     
+Price  K   Storn  R M   Lampinen  J A           Differential Evolution  A Practical Approach to Global Optimization  Springer  Berlin  Heidelberg  ISBN                         doi                       
+Ingo Rechenberg         Evolutionsstrategie   Optimierung technischer Systeme nach Prinzipien der biologischen Evolution  PhD thesis   Reprinted by Fromman Holzboog         ISBN                   
+Hans Paul Schwefel         Numerische Optimierung von Computer Modellen  PhD thesis   Reprinted by Birkh user        
+Hans Paul Schwefel         Evolution and Optimum Seeking  Wiley  amp  Sons  New York  ISBN                   
+Simon  D          Evolutionary Optimization Algorithms Archived            at the Wayback Machine  Wiley  amp  Sons  ISBN                       
+Kruse  Rudolf  Borgelt  Christian  Klawonn  Frank  Moewes  Christian  Steinbrecher  Matthias  Held  Pascal         Computational Intelligence  A Methodological Introduction  Springer  London  ISBN                         doi                           
+Rahman  Rosshairy Abd   Kendall  Graham  Ramli  Razamin  Jamari  Zainoddin  Ku Mahamud  Ku Ruhana          Shrimp Feed Formulation via Evolutionary Algorithm with Power Heuristics for Handling Constraints   Complexity              doi                      
+External links edit 
+An Overview of the History and Flavors of Evolutionary Algorithms
+vteEvolutionary computationMain Topics
+Evolutionary algorithm
+Evolutionary data mining
+Evolutionary multimodal optimization
+Human based evolutionary computation
+Interactive evolutionary computation
+Algorithms
+Cellular evolutionary algorithm
+Covariance Matrix Adaptation Evolution Strategy  CMA ES 
+Cultural algorithm
+Differential evolution
+Evolutionary programming
+Genetic algorithm
+Genetic programming
+Gene expression programming
+Evolution strategy
+Natural evolution strategy
+Neuroevolution
+Learning classifier system
+Related techniques
+Swarm intelligence
+Ant colony optimization
+Bees algorithm
+Cuckoo search
+Particle swarm optimization
+Bacterial Colony Optimization
+Metaheuristic methods
+Firefly algorithm
+Harmony search
+Gaussian adaptation
+Memetic algorithm
+Related topics
+Artificial development
+Artificial intelligence
+Artificial life
+Digital organism
+Evolutionary robotics
+Fitness function
+Fitness landscape
+Fitness approximation
+Genetic operators
+Interactive evolutionary computation
+No free lunch in search and optimization
+Machine learning
+Mating pool
+Premature convergence
+Program synthesis
+Journals
+Evolutionary Computation  journal 
+
+
+
+
+
+
+Retrieved from  https   en wikipedia org w index php title Evolutionary algorithm amp oldid

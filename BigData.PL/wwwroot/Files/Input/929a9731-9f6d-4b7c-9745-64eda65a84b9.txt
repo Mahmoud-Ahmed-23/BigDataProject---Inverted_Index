@@ -1,0 +1,2241 @@
+Pour les articles homonymes  voir A I  Intelligence artificielle  film  et IA       
+
+
+Intelligence artificiellePartie de
+Informatique  nouvelles technologies  raisonnementPratiqu  par
+Chercheur ou chercheuse en intelligence artificielle  d   ing nieur en intelligence artificielleChamps
+Intelligence artificielle symboliqueconnexionnismeethical artificial intelligence  d apprentissage automatiqueHistoire
+Histoire de l intelligence artificiellemodifier   modifier le code   modifier Wikidata
+L intelligence artificielle  IA  est la capacit  des machines   effectuer des t ches typiquement associ es   l intelligence humaine  comme l apprentissage  le raisonnement  la r solution de probl me  la perception ou la prise de d cision  L intelligence artificielle est  galement le champ de recherche visant   d velopper de telles machines ainsi que les syst mes informatiques qui en r sultent 
+Souvent class e dans le domaine des math matiques et des sciences cognitives  l IA fait appel   des disciplines telles que la neurobiologie computationnelle  qui a notamment inspir  les r seaux neuronaux artificiels   les statistiques  ou l alg bre lin aire  Elle vise   r soudre des probl mes   forte complexit  logique ou algorithmique  Par extension  dans le langage courant  l IA inclut les dispositifs imitant ou rempla ant l homme dans certaines mises en  uvre de ses fonctions cognitives            
+Les applications de l IA comprennent notamment les moteurs de recherche  les syst mes de recommandation  l aide au diagnostic m dical  la compr hension du langage naturel  les voitures autonomes  les chatbots  les outils de g n ration d images  les outils de prise de d cision automatis e  les programmes comp titifs dans des jeux de strat gie et certains personnages non joueurs de jeu vid o            
+Depuis l apparition du concept  les finalit s  les enjeux et le d veloppement de l IA suscitent de nombreuses interpr tations  fantasmes ou inqui tudes  que l on retrouve dans les r cits ou films de science fiction  dans les essais philosophiques            ainsi que parmi des  conomistes 
+
+
+D finition modifier   modifier le code 
+Article d taill         R glementation de l intelligence artificielle 
+Le terme        intelligence artificielle         souvent abr g  par le sigle        IA         ou        AI        en anglais  pour artificial intelligence  a  t  cr   par John McCarthy  qui l a d fini comme               la science et l ing nierie de la fabrication de machines intelligentes  en particulier de programmes informatiques intelligents  Elle est li e   la t che similaire qui consiste   utiliser des ordinateurs pour comprendre l intelligence humaine  mais l IA ne doit pas se limiter aux m thodes qui sont biologiquement observables                   
+Pour Marvin Lee Minsky  l un de ses cr ateurs  l IA est        la construction de programmes informatiques qui s adonnent   des t ches qui sont  pour l instant  accomplies de fa on plus satisfaisante par des  tres humains car elles demandent des processus mentaux de haut niveau tels que        l apprentissage perceptuel  l organisation de la m moire et le raisonnement critique            a                   Cette d finition combine l aspect        artificiel        des ordinateurs et des processus informatiques  aux aspects        intelligents        d imitation de comportements humains  notamment de raisonnement et d apprentissage  Celui ci est   l  uvre dans les jeux  dans la pratique des math matiques  dans la compr hension du langage naturel  dans la perception visuelle  interpr tation des images et des sc nes   auditive  compr hension du langage parl   ou par d autres capteurs  dans la commande d un robot dans un milieu inconnu ou hostile 
+Avant les ann es       d autres d finitions sont proches de celle de Minsky  mais varient sur deux points fondamentaux                  
+
+les d finitions qui lient l IA   un aspect humain de l intelligence et celles qui la lient   un mod le id al d intelligence  non forc ment humaine  nomm e rationalit        
+les d finitions qui insistent sur le fait que l IA a pour but d avoir toutes les apparences de l intelligence  humaine ou rationnelle   et celles qui insistent sur le fait que le fonctionnement interne du syst me d IA doit ressembler  galement   celui de l  tre humain et  tre au moins aussi rationnel 
+Diagramme de Venn montrant comment s imbriquent les notions d intelligence artificielle  d apprentissage automatique et d apprentissage profond 
+Le grand public confond souvent l intelligence artificielle avec l apprentissage automatique  machine learning  et l apprentissage profond  deep learning   Ces trois notions diff rent et sont en r alit  imbriqu es        l intelligence artificielle englobe l apprentissage automatique  qui lui m me englobe l apprentissage profond            
+Les d finitions font souvent intervenir                              
+
+une capacit    percevoir l environnement et   prendre en compte la complexit  du monde r el       
+un traitement de l information  collecter et interpr ter des intrants  capt s sous forme de donn es        
+des prises de d cision  y compris dans le raisonnement et l apprentissage   choix d actions  ex cution de t ches  dont d adaptation  de r action aux changements de contexte    avec un certain niveau d autonomie       
+la r alisation d objectifs sp cifiques  raison ultime des syst mes d IA  
+Le groupe AI Watch note que les IA peuvent aussi  tre class es en fonction des familles d algorithmes et ou des mod les th oriques qui les sous tendent  des capacit s cognitives reproduites par l IA  des fonctions ex cut es par l IA  Les applications de l IA peuvent  elles   tre class es en fonction du secteur socio conomique et ou des fonctions qu elles y remplissent            
+Une mani re de d finir l intelligence artificielle est de consid rer ses applications et les types de t ches qu elle r sout  Un rapport de la Commission europ enne publi  en      pr sente une taxonomie classant les d finitions de l IA selon diverses t ches r alis es  telles que le raisonnement  l apprentissage  la perception       etc               La m me ann e  le professeur Jack Copeland propose une d finition similaire  qui permet de distinguer plus clairement les facettes de l IA  selon cinq cat gories principales                   
+
+L apprentissage g n ralis         l IA apprend   partir de donn es diverses pour identifier des mod les et appliquer ces connaissances   de nouvelles situations  comme d tecter des fraudes en ligne 
+Le raisonnement        cette capacit  permet   l IA de faire des pr dictions et tirer des conclusions   partir des donn es  aidant dans des d cisions comme la pr diction de comportements d achat 
+La r solution de probl mes        L IA trouve des solutions optimales pour des probl mes sp cifiques  utilis e dans des contextes comme l optimisation industrielle ou les strat gies de jeu 
+La perception        elle permet   l IA de reconna tre et interagir avec son environnement  utilis e dans la robotique avanc e et les v hicules autonomes pour naviguer et accomplir des t ches 
+La compr hension du langage        L IA analyse et g n re du langage   travers le NLP  utilis  dans des applications comme les assistants vocaux et les chatbots pour am liorer l interaction utilisateur 
+Techniques modifier   modifier le code 
+Comportements pr d finis  imitation d intelligence  modifier   modifier le code 
+Article connexe        Intelligence artificielle dans le jeu vid o 
+Pour les intelligences artificielles servant principalement   donner une impression d intelligence dans un cadre contr l   notamment pour les personnages non joueurs des jeux vid o  il est courant que l apprentissage automatique ne soit pas utilis   Un ensemble de fonctions et comportements plus pr cises et moins flexibles sont alors impl ment s 
+Il s agit souvent de liste de textes ou paroles pr d finis  aux d clenchements parfois conditionnels  par exemple un choix de mouvements suivant une s rie de r gles et des d placements de pathfinding 
+
+Apprentissage automatique modifier   modifier le code 
+L apprentissage automatique consiste   permettre au mod le d IA d apprendre   effectuer une t che au lieu de sp cifier exactement comment il doit l accomplir              Le mod le contient des param tres dont les valeurs sont ajust es tout au long de l apprentissage  La m thode de la r tropropagation du gradient est capable de d tecter  pour chaque param tre  dans quelle mesure il a contribu    une bonne r ponse ou   une erreur du mod le  et peut l ajuster en cons quence  L apprentissage automatique n cessite un moyen d  valuer la qualit  des r ponses fournies par le mod le              Les principales m thodes d apprentissage sont       
+
+En apprentissage supervis   les r ponses sont connues  tandis qu en apprentissage non supervis   l algorithme d couvre des structures dans les donn es par lui m me             
+Apprentissage supervis 
+Un jeu de donn es annot  est utilis  pour entra ner l algorithme  Il contient des donn es d entr e fournies au mod le et les r ponses correspondantes attendues  que le mod le est entra n    produire              Il est parfois difficile de se procurer suffisamment de donn es annot es avec les r ponses attendues             
+Apprentissage non supervis 
+Un jeu de donn es est fourni au mod le  mais n est pas annot  avec les r ponses attendues  Le but peut par exemple  tre de regrouper les donn es similaires entre elles              clustering  
+Apprentissage auto supervis 
+Un probl me d apprentissage supervis  est automatiquement g n r    partir d un jeu de donn es non annot   Cela fonctionne souvent en cachant une partie des informations  des mots d un texte  des morceaux d images   afin d entra ner le mod le   les pr dire             
+Apprentissage par renforcement
+L agent est plong  dans un environnement o  ce qu il fait est  valu   Par exemple  un agent peut apprendre   jouer aux  checs en jouant contre lui m me  et le r sultat  victoire ou d faite  permet   chaque it ration d  valuer s il a bien jou   Il n y a dans ce cas pas besoin de jeu de donn es             
+R seaux de neurones modifier   modifier le code 
+Exemple de r seau de neurones comprenant deux neurones d entr e  en vert   une couche        cach e        de neurones  en bleu  et un neurone de sortie  en jaune  
+Les r seaux de neurones artificiels sont inspir s du fonctionnement du cerveau humain        les neurones sont en g n ral connect s   d autres neurones en entr e et en sortie  Les neurones d entr e  lorsqu ils sont activ s  agissent comme s ils participaient   un vote pond r  pour d terminer si un neurone interm diaire doit  tre activ  et ainsi transmettre un signal vers les neurones de sortie  En pratique  pour l  quivalent artificiel  les        neurones d entr e        ne sont que des nombres et les poids de ce        vote pond r         sont des param tres ajust s lors de l apprentissage                          
+Hormis la fonction d activation  les r seaux de neurones artificiels n effectuent en pratique que des additions et des multiplications matricielles  ce qui fait qu ils peuvent  tre acc l r s par l utilisation de processeurs graphiques              En th orie  un r seau de neurones peut approximer n importe quelle fonction             
+Pour de simples r seaux de neurones   propagation avant  feedforward en anglais   le signal ne passe que dans une direction  Avec les r seaux de neurones r currents  le signal de sortie de chaque neurone est r inject  en entr e de ce neurone  permettant d impl menter un m canisme de m moire   court terme              Les r seaux neuronaux convolutifs  qui sont particuli rement utilis s en traitement d images  introduisent une notion de localit   Leurs premi res couches identifient des motifs relativement basiques et locaux comme des contours  l  o  les derni res couches traitent de motifs plus complexes et globaux             
+
+Apprentissage profond modifier   modifier le code 
+L apprentissage profond  deep learning en anglais  utilise de multiples couches de neurones entre les entr es et les sorties  d o  le terme        profond                     L utilisation de processeurs graphiques pour acc l rer les calculs et l augmentation des donn es disponibles a contribu    la mont e en popularit  de l apprentissage profond  Il est utilis  notamment en vision par ordinateur  en reconnaissance automatique de la parole et en traitement automatique des langues              ce qui inclut les grands mod les de langage  
+
+Grands mod les de langages modifier   modifier le code 
+Les grands mod les de langage sont des mod les de langage ayant des milliards de param tres  Ils reposent tr s souvent sur l architecture transformeur             
+Les transformeurs g n ratifs pr entra n s  Generative Pretrained Transformers ou GPT en anglais  sont un type particuli rement populaire de grand mod le de langage  Leur        pr  entra nement        consiste   pr dire   tant donn e une partie d un texte  le token suivant  un token  tant une s quence de caract res  typiquement un mot  une partie d un mot  ou de la ponctuation   Cet entra nement   pr dire ce qui va suivre  r p t  pour un grand nombre de textes  permet   ces mod les d accumuler des connaissances sur le monde  Ils peuvent ensuite g n rer du texte semblable   celui ayant servi au pr  entra nement  en pr disant un   un les tokens suivants  En g n ral  une autre phase d entra nement est ensuite effectu e pour rendre le mod le plus v ridique  utile et inoffensif  Cette phase d entra nement  utilisant souvent une technique appel e RLHF  permet notamment de r duire un ph nom ne appel         hallucination         o  le mod le g n re des informations d apparence plausible mais fausses             
+Avant d  tre fourni au mod le  le texte est d coup  en tokens  Ceux ci sont convertis en vecteurs qui en encodent le sens ainsi que la position dans le texte    l int rieur de ces mod les se trouve une alternance de r seaux de neurones et de couches d attention  Les couches d attention combinent les concepts entre eux  permettant de tenir compte du contexte et de saisir des relations complexes             
+Ces mod les sont souvent int gr s dans des agents conversationnels  aussi appel s chatbots  o  le texte g n r  est format  pour r pondre   l utilisateur  Par exemple  l agent conversationnel ChatGPT exploite les mod les GPT     et GPT                En      font leur apparition des mod les grand public pouvant traiter simultan ment diff rents types de donn es comme le texte  le son  les images et les vid os  tel Google Gemini             
+
+Recherche et optimisation modifier   modifier le code 
+Certains probl mes n cessitent de chercher intelligemment parmi de nombreuses solutions possibles 
+
+Recherche locale modifier   modifier le code 
+Illustration de la descente de gradient pour trois points de d part diff rents  faisant varier deux param tres de sorte   minimiser la fonction de co t repr sent e par la hauteur 
+La recherche locale  ou recherche par optimisation  repose sur l optimisation math matique pour trouver une solution num rique   un probl me  en am liorant progressivement la solution choisie             
+En particulier  en apprentissage automatique  la descente de gradient permet de trouver une solution localement optimale   tant donn  une fonction de co t   minimiser en faisant varier les param tres du mod le  Elle consiste    chaque  tape    modifier les param tres   optimiser dans la direction qui permet de r duire le mieux la fonction de co t  La solution obtenue est localement optimale  mais il se peut qu il y ait globalement de meilleures solutions  qui auraient pu  tre obtenues avec diff rentes valeurs initiales de param tres              Les mod les d IA modernes peuvent avoir des milliards de param tres   optimiser  et utilisent souvent des variantes plus complexes et efficaces de la descente de gradient             
+Les algorithmes  volutionnistes  inspir s de la th orie de l  volution  utilisent une forme de recherche par optimisation    chaque  tape  des op rations telles que la        mutation        ou le        croisement        sont effectu es de mani re al atoire pour obtenir diff rentes variantes  et les variantes les mieux adapt es sont s lectionn es pour l  tape suivante             
+
+Recherche dans l espace des  tats modifier   modifier le code 
+La recherche dans l espace des  tats vise   trouver un  tat accomplissant l objectif   travers un arbre des  tats possibles              Par exemple  la recherche antagoniste est utilis e pour des programmes jouant   des jeux tels que les  checs ou le go  Elle consiste   parcourir l arbre des coups possibles par le joueur et son adversaire    la recherche d un coup gagnant              La simple recherche exhaustive est rarement suffisante en pratique vu le nombre d  tats possibles  Des heuristiques sont utilis es pour prioriser les chemins les plus prometteurs             
+
+Logique modifier   modifier le code 
+La logique formelle est utilis e pour le raisonnement et la repr sentation des connaissances  Elle se d cline en deux principales formes  la logique propositionnelle et la logique pr dicative  La logique propositionnelle op re sur des affirmations qui sont vraies ou fausses  et utilise la logique connective avec des op rateurs tels que        et                ou                non        et        implique         La logique pr dicative  tend la logique propositionnelle et peut aussi op rer sur des objets  pr dicats ou relations  Elle peut utiliser des quantificateurs comme dans        Chaque X est un Y        ou        Certains X sont des Y                    
+L inf rence logique  ou d duction  est le processus qui consiste   fournir          l aide d un moteur d inf rence        une nouvelle affirmation  la conclusion    partir d autres affirmations connues comme  tant vraies  les pr misses   Une r gle d inf rence d crit les  tapes valides d une preuve        la plus g n rale est la r gle de r solution  L inf rence peut  tre r duite   la recherche d un chemin amenant des pr misses aux conclusions  o  chaque  tape est une application d une r gle d inf rence              Mais   part pour de courtes preuves dans des domaines restreints  la recherche exhaustive prend beaucoup de temps 
+La logique floue assigne des valeurs de v rit  entre   et    permettant de g rer des affirmations vagues  comme        il fait chaud                     La logique non monotone permet d annuler certaines conclusions              Diverses autres formes de logique sont d velopp es pour d crire de nombreux domaines complexes 
+
+M thodes probabilistes et gestion de l incertitude modifier   modifier le code 
+Un exemple de r seau bay sien  et les tables de probabilit  conditionnelle associ es 
+De nombreux probl mes en IA  raisonnement  planification  apprentissage  perception  robotique       etc   n cessitent de pouvoir op rer   partir d informations incompl tes ou incertaines             
+Certaines techniques reposent sur l inf rence bay sienne  qui fournit une formule pour mettre   jour des probabilit s subjectives  tant donn es de nouvelles informations  C est notamment le cas des r seaux bay siens  L inf rence bay sienne n cessite souvent d  tre approxim e pour pouvoir  tre calcul e             
+Les m thodes de Monte Carlo sont un ensemble de techniques pour r soudre des probl mes complexes en effectuant al atoirement de nombreuses simulations afin d approximer la solution             
+Les r seaux de neurones peuvent aussi  tre optimis s pour fournir des estimations probabilistes             
+
+S paration des donn es en deux groupes  partitionnement  par un algorithme de maximisation de l esp rance 
+Des outils math matiques pr cis ont  t  d velopp s pour analyser comment des agents intelligents peuvent faire des choix et des plans en utilisant la th orie de la d cision  la maximisation de l esp rance et la th orie de la valeur de l information  Ces techniques comprennent des mod les tels que les processus de d cision markoviens  la th orie des jeux et les m canismes d incitation             
+
+Classifieurs et m thodes statistiques modifier   modifier le code 
+De nombreux mod les d IA ont pour but d assigner une cat gorie  classification   une valeur  r gression  ou une action   des donn es fournies  Les m thodes de classification comprennent arbres de d cision  k plus proches voisins  machine   vecteurs de support ou classification bay sienne na ve                           Les r seaux de neurones peuvent  galement faire de la classification             
+
+Histoire modifier   modifier le code 
+Articles d taill s        Histoire de l intelligence artificielle et Chronologie de l intelligence artificielle 
+Le canard artificiel de Vaucanson        
+Comme pr curseur   l intelligence artificielle  divers automates ont  t  cr  s au cours de l histoire  dont le canard de Vaucanson ou les automates d Al Jazari  Certains automates remontent   l Antiquit  et  taient utilis s pour des c r monies religieuses              Des mythes et rumeurs rapportent  galement la cr ation d  tres intelligents  par exemple les golems             
+Des philosophes et math maticiens comme Raymond Lulle  Leibniz ou George Boole ont cherch    formaliser le raisonnement et la g n ration d id es             
+Au XXe      si cle  Alan Turing a notamment invent  un mod le de calcul par la suite appel  machine de Turing  explor  la notion de calculabilit  et d intelligence des machines  et propos  le        jeu de l imitation         test de Turing  pour  valuer l intelligence de futures machines              Le terme        intelligence artificielle        a  t  mis en avant par John McCarthy lors de la conf rence de Dartmouth en       o  l intelligence artificielle a  t   tablie en tant que discipline   part enti re                           Dans les ann es qui ont suivi  des chercheurs ont propos  diverses preuves de concept  dans des situations sp cifiques  de ce que les machines peuvent faire en th orie  Par exemple  le programme ELIZA pouvait se faire passer pour un psychoth rapeute  et le Logic Theorist pouvait d montrer des th or mes             
+La fin du si cle a  t  marqu e par des p riodes d enthousiasme  et deux p riodes de d sillusion et de gel des financements appel es        hivers de l IA                     la premi re de             et la seconde de             
+Les syst mes experts ont  t  particuli rement populaires dans les ann es       malgr  leur fragilit  et la difficult    impl menter manuellement les bonnes r gles d inf rences              Des techniques d apprentissage automatique se sont d velopp es  r seaux de neurones  r tropropagation du gradient  algorithmes g n tiques  ainsi que l approche connexionniste              Mais les faibles puissances de calcul et le manque de donn es d entra nement limitait leur efficacit   Certains domaines n ont progressivement plus  t  consid r s comme faisant partie de l intelligence artificielle    mesure qu une solution efficace  tait trouv e                    un ph nom ne parfois appel         effet IA        
+
+Dans les ann es       les assistants personnels intelligents sont l une des premi res applications grand public de l intelligence artificielle 
+Les performances des ordinateurs s accroissant continuellement  En       pour la premi re fois  un supercalculateur a gagn  plusieurs parties au jeu d  chec contre le champion du monde 
+Dans les ann es       le Web      le big data et de nouvelles infrastructures et capacit s de calcul ont permis l exploration de masses de donn es sans pr c dent  En       le projet Blue Brain a d but   ayant pour objectif de simuler le cerveau de mammif res              En       le r seau neuronal convolutif AlexNet a lanc  l utilisation de processeurs graphiques pour entra ner des r seaux de neurones  d cuplant ainsi les capacit s de calcul d di es   l apprentissage              La m me ann e  un programme a gagn  quatre des cinq parties de Go disput es contre le meilleur joueur du monde  Des organisations visant   cr er une intelligence artificielle g n rale ont vu le jour  comme DeepMind en                  et OpenAI en                   D s les ann es       des outils d intelligence artificielle  sp cialis e ou g n rative  ont accompli des progr s spectaculaires  mais restent loin des performances du vivant dans beaucoup de ses aptitudes naturelles  en particulier sur son aptitude   apprendre rapidement   partir d un faible volume d information  par induction   selon le magazine Slate en                  
+En       des chercheurs de Google ont propos  l architecture transformeur  qui a servi de base aux grands mod les de langage  En       Yann Le Cun  Yoshua Bengio et Geoffrey Hinton ont remport  le prix Turing pour leurs travaux sur l apprentissage profond                          
+En       des programmes g n rant des images   partir de descriptions textuelles  comme Midjourney ou DALL E    se sont popularis s              La m me ann e  l agent conversationnel ChatGPT a connu une croissance in dite  gagnant un million d utilisateurs en seulement cinq jours             et cent millions d utilisateurs en deux mois              ce qui a accentu  un ph nom ne de        course          l IA              En       les progr s rapides de l IA ont suscit  des inqui tudes quant   un potentiel risque d extinction de l humanit               Des mod les de fondation        multimodaux         c est   dire capables de traiter simultan ment plusieurs modalit s  texte  images  son  ont  merg   tels que Google Gemini             et GPT  o             
+
+Intelligence artificielle g n rale modifier   modifier le code 
+Article d taill         intelligence artificielle g n rale 
+L intelligence artificielle g n rale  IAG  comprend tout syst me informatique capable d effectuer ou d apprendre pratiquement n importe quelle t che cognitive propre aux humains ou autres animaux              Elle peut alternativement  tre d finie comme un syst me informatique surpassant les humains dans la plupart des t ches ayant un int r t  conomique             
+L intelligence artificielle g n rale a longtemps  t  consid r e comme un sujet purement sp culatif              Certains travaux de recherche ont d j  d crit GPT   comme ayant des         tincelles        d intelligence artificielle g n rale                           Les experts en intelligence artificielle affichent de larges d saccords et incertitudes quant   la date potentielle de conception des premi res intelligences artificielles g n rales  parfois appel es        intelligences artificielles de niveau humain          leur impact sur la soci t   et leur potentiel   d clencher une        explosion d intelligence                    
+Un sondage de      sugg re que           des experts en IA pensent que l IAG a plus d une chance sur deux d  tre r alis e dans les     ans  autour d une date m diane de                  
+Une superintelligence artificielle est un type hypoth tique d intelligence artificielle g n rale dont les capacit s intellectuelles d passeraient de loin celles des humains les plus brillants              Le philosophe Nick Bostrom note que les machines disposent de certains avantages par rapport aux cerveaux humains  notamment en ce qui concerne la m moire  la vitesse  la fr quence des processeurs  tant de l ordre de dix millions de fois plus  lev e que celle des neurones biologiques  et la capacit    partager des connaissances             
+
+Tests modifier   modifier le code 
+Dans ce contexte  un test est un moyen d  valuer les capacit s d une intelligence artificielle   imiter certains comportements et raisonnements humains 
+
+Test de Turing modifier   modifier le code 
+Le test de Turing  value la capacit    se faire passer pour un humain dans un dialogue  crit  mais incite donc aussi   imiter les d fauts humains 
+Dans le test de Turing  une machine et un humain r pondent textuellement aux questions d un interrogateur humain  L interrogateur ne les voit pas mais doit d terminer   partir des r ponses textuelles lequel des deux est la machine  Pour passer le test  la machine doit parvenir une bonne partie du temps   tromper l interrogateur  Ce test a  t  con u par Alan Turing en      dans l article        Computing Machinery and Intelligence         Initialement appel  le        jeu de l imitation         son but  tait de fournir une exp rience concr te pour d terminer si les machines peuvent penser             
+
+Test du caf  modifier   modifier le code 
+Imagin  par Steve Wozniak  le test du caf  consiste   placer un syst me intelligent dans un habitat am ricain moyen et   lui demander de faire un caf               La r ussite du test implique donc plusieurs t ches comme l orientation dans un environnement inconnu  d duire le fonctionnement d une machine  trouver les ustensiles n cessaires 
+
+Test de l  tudiant modifier   modifier le code 
+Propos  par Ben Goertzel  le test de l  tudiant  value la capacit  d un robot   s inscrire dans un  tablissement d enseignement sup rieur  suivre les cours  passer les examens et obtenir le dipl me final             
+
+Test de l embauche modifier   modifier le code 
+Propos  par le chercheur Nils John Nilsson  le test de l embauche consiste   faire postuler un syst me intelligent   un travail important pour l  conomie  o  il doit travailler au moins aussi bien qu un humain             
+
+Personnalit s modifier   modifier le code 
+Prix Turing modifier   modifier le code 
+Article d taill         Prix Turing 
+Plusieurs prix Turing  ACM Turing Award  ont  t  attribu s   des pionniers de l intelligence artificielle  notamment       
+
+Marvin Minsky              
+John McCarthy              
+Allen Newell et Herbert Simon              
+Edward Feigenbaum et Raj Reddy              
+Judea Pearl              
+Yann Le Cun  Geoffrey Hinton et Yoshua Bengio                    
+Autres personnalit s modifier   modifier le code 
+Claude Shannon  fondateur de la th orie de l information  inventeur de la porte logique  concepteur de programmes d  checs             
+Rodney Brooks  un roboticien australien 
+Demis Hassabis  cofondateur et PDG de DeepMind 
+Ian Goodfellow  inventeur des r seaux antagonistes g n ratifs 
+Andrew Ng  connu comme directeur scientifique de Baidu et comme cr ateur de Coursera 
+Terry Winograd  pionnier en traitement automatique des langues 
+Vladimir Vapnik  co inventeur des machines   vecteurs de support 
+Seymour Papert  ancien directeur du Laboratoire d intelligence artificielle du MIT 
+Jacques Pitrat  pionnier fran ais en intelligence artificielle symbolique 
+En       le magazine Time publie une liste de     personnalit s influentes du domaine de l IA et leurs biographies             
+
+Domaines d application modifier   modifier le code 
+Article d taill         Applications de l intelligence artificielle 
+Les usages principaux qu a successivement permis l IA sont       
+
+la recherche  l analyse statistique  l interpr tation  le diagnostic d une certaine r alit  Quoi         sur la base de quantit s croissantes de donn es d abord textuelles  puis de photos  de vid os et d enregistrements sonores  collect s via le r seau Internet et par la capture de l activit  des internautes et autres utilisateurs de produits t l phoniques et informatiques       
+la g n ration de contenus de plus en plus r alistes  vraisemblables ou non  permettant d alimenter des discours apparemment document s et de cr er des images ou des sons inspir s du r el 
+L IA permet d effectuer diff rents types de t ches  dont       
+
+le partitionnement et la classification automatique       
+la reconnaissance de formes  des visages et la vision en g n ral       etc        
+l int gration automatique d informations provenant de sources h t rog nes  fusion de donn es        
+l aide aux diagnostics et   la d cision       
+l assistance par des machines dans les t ches dangereuses  ou demandant une grande pr cision       
+l automatisation de t ches       
+le traitement automatique des langues  notamment la traduction automatique  si possible en temps r el ou tr s l g rement diff r        
+la reconnaissance automatique de la parole  conversion de parole en texte  et le dialogue automatique        se faire comprendre en lui parlant       
+le raisonnement automatique  voir Syst me expert        
+la composition musicale automatique  voir les travaux de Ren  Louis Baron et de l Ircam        vers       les recherches de Fran ois Pachet portent le d veloppement de flow machines telles que Deepbach                                 
+l  motion artificielle  voir les travaux de Rosalind Picard sur l  motion  et l  ventualit  d une subjectivit  artificielle       
+la r solution de probl mes complexes  tels que les probl mes d allocation de ressources 
+En combinant diff rents algorithmes  on est pass  en quelques ann es de la reconnaissance de l  criture manuscrite sur des formulaires de ch ques bancaires  ann es         l optimisation d itin raires entre deux ou plusieurs points  tenant compte des voies disponibles  de la longueur et de la vitesse probable sur chacun des segments  du moyen de locomotion et de souhaits particuliers   viter les p ages  points de passage oblig s  caract ristiques touristiques       etc    puis   la reconnaissance automatis e de documents dactylographi s ou manuscrits  permettant ensuite de les classer selon leur nature avant de les transmettre   des agents sp cialis s  humains ou automates  capables d y apporter la suite appropri e  r ponses pr d finies ou d clenchement d une chaine de traitements   Lorsque les algorithmes ne parviennent pas   interpr ter les donn es avec un degr  suffisant de certitude  ils sont g n ralement soumis   des humains  Entre alors en jeu l apprentissage        en corr lant les caract ristiques des donn es accumul es et des interpr tations apport es ou corrig es par les agents humains  l IA am liore progressivement ses facult s d analyse jusqu   ce que ses pr dictions soient suffisamment fiables pour qu il ne soit plus n cessaire de les faire v rifier par un humain  Il en va de m me pour la plupart des situations o  l IA  par ses performances et son co t  surpasse l humain dans l analyse de textes  d images fixes ou anim es  d enregistrements sonores  de donn es scientifiques  commerciales ou industrielles  L accroissement des performances conjugu es du mat riel et des algorithmes permet en outre de traiter en temps r els les flux de donn es comme la voix humaine et les images de cam ras  ouvrant ainsi la voie   la traduction simultan e  la transcription textuelle  l identification des individus  la d tection de comportements anormaux ou ill gaux  voire le dialogue avec des humains 
+L intelligence artificielle est d sormais utilis e dans de nombreux domaines  Ses capacit s permettent notamment d automatiser et d optimiser des t ches complexes  de traiter et d analyser de vastes quantit s de donn es  et d am liorer la prise de d cision              L adoption de l intelligence artificielle est en forte expansion dans les ann es       stimul e par les avanc es en intelligence artificielle g n rative  en particulier dans les grands mod les de langage  dont la polyvalence ouvre la voie   de nouveaux cas d usage              ainsi que dans les domaines de la programmation informatique  g n ration de code   de l image et du son  photos et vid os de synth se  animation du visage en association avec la synth se vocale  et dans la pr vention et l att nuation des risques  diagnostic m dical  situations de crise  accidents industriels  catastrophes naturelles       etc   
+
+Finance et banques modifier   modifier le code 
+Article connexe        Cons quences  conomiques de l intelligence artificielle 
+Plusieurs grands noms de la finance se sont montr es int ress es par de telles technologies  avec des projets comme ceux de Bridgewater Associates o  une intelligence artificielle va g rer enti rement un fonds             ou encore la plateforme d analyse pr dictive Sidetrade 
+Sont  galement d velopp s des syst mes de trading algorithmique  dont les gains de vitesses permis par l automatisation peuvent leur donner un avantage par rapport   des traders humains  en particulier gr ce au trading   haute fr quence             
+
+Militaire modifier   modifier le code 
+Le domaine militaire utilise de plus en plus l intelligence artificielle  notamment pour le pilotage automatique  le guidage de missiles  l identification  le commandement  l aide   la d cision              la cyberguerre et la cyberd fense              ou pour la documentation et les processus administratifs             
+Cette course aux armements est notamment illustr e par le projet Maven aux  tats Unis              D s       une IA nomm e ALPHA a        syst matiquement triomph  d un pilote de chasse chevronn                      En       l ONU a tent  d interdire les syst mes d armes l tales autonomes        avant qu il ne soit trop tard         mais peine encore en janvier         tablir le moindre cadre l gal international face aux r ticences  notamment de la Russie  des  tats Unis et d Isra l  dont le veto peut bloquer une proposition              Des drones tueurs pilot s par intelligence artificielle ont  t  utilis s lors du conflit ukraino russe              Le    janvier       OpenAI a modifi  ses conditions d utilisation        il continue d interdire l usage de ses services tels que ChatGPT   des fins ill gales ou de destruction des biens  mais n interdit plus explicitement les usages militaires              L intelligence artificielle g n rative est parfois utilis e par les institutions militaires pour r diger plus vite la documentation  mais son adoption est limit e par la confidentialit  des donn es  les r glementations  ou le risque d erreur et le besoin de v rification             
+En France  la force op rationnelle IA du minist re des Arm es rend en septembre      un rapport d taillant sa strat gie  qui inclut la cr ation d une Cellule de coordination de l intelligence artificielle de d fense  CCIAD  rattach e   l Agence de l innovation de d fense              La loi de programmation militaire pr voit un budget de     millions d euros pour les missions en faveur de l IA  soit une moyenne de     millions par an              En       la France est oppos e aux armes totalement autonome  estimant qu il est au moins n cessaire de conserver une supervision humaine                           En f vrier       le minist re des Arm es lance sa plateforme GenIAl intradef  co d velopp e depuis      par plusieurs entit s   destin e   am liorer le travail quotidien des militaires et agents civils associ s   l Arm e  Cette IA alimente un agent conversationnel et un convertisseur audio texte        elle peut lire et analyser des documents et des images et traduire des messages             
+Dans le cadre de la guerre Isra l Hamas de            Isra l a utilis  deux syst mes d IA pour g n rer des cibles   frapper        Habsora  soit        l  vangile         a  t  utilis  pour dresser une liste de b timents   cibler  tandis que Lavander a produit une liste de                  personnes   cibler                           La liste des b timents comprenait les maisons priv es   Gaza de personnes soup onn es d  tre affili es   des membres du Hamas  Les responsables de Tsahal affirment que le programme r pond au probl me ant rieur du manque de cibles de l arm e de l air  Auparavant  Tsahal  tait en mesure d identifier    cibles par an  tandis que le programme en produit     par jour              La combinaison de la technologie de ciblage de l IA et du changement de politique consistant    viter les cibles civiles a entra n  un nombre sans pr c dent de morts civils palestiniens                          
+
+M decine modifier   modifier le code 
+Article d taill         Intelligence artificielle dans la sant  
+La m decine a aussi vu de grands progr s gr ce   l utilisation de syst mes d aide au diagnostic ou de diagnostic automatis               
+En       Google DeepMind  filiale de Google sp cialis e dans la recherche avanc e en intelligence artificielle  a publi  les r sultats d une exp rimentation d intelligence artificielle pouvant d tecter les maladies oculaires  Les r sultats indiquent que l IA le fait avec une marge d erreur plus faible que les ophtalmologues              
+Google DeepMind a  galement con u AlphaFold  un syst me d intelligence artificielle utilisant l apprentissage profond qui permet de pr dire la fa on dont des prot ines se replient  Les prot ines sont compos es de cha nes d acides amin s et la fa on dont elles se replient d termine leur fonction  Cette nouvelle m thode  introduite en      et am lior e en       est nettement plus rapide que les approches traditionnelles et a  t  d crite comme une r volution dans le domaine de la recherche en biologie                            
+La France cr e en      le Health Data Hub afin d encadrer et de faciliter l utilisation des donn es de sant  dans la recherche              
+En       la version de ChatGPT reposant sur GPT   s est montr e facilement capable d obtenir le dipl me de m decin aux  tats Unis              
+L intelligence artificielle  IA  est de plus en plus utilis e dans le domaine m dical  transformant les pratiques cliniques et facilitant le diagnostic  le traitement et la gestion des maladies  Les algorithmes d apprentissage automatique  un sous ensemble de l IA  analysent de grandes quantit s de donn es m dicales pour en extraire des mod les et des tendances  Cette capacit  d analyse a permis des avanc es significatives dans le diagnostic pr coce de maladies comme le cancer et les maladies cardiaques  o  les syst mes bas s sur l IA peuvent d tecter des anomalies   partir d images m dicales avec une pr cision parfois sup rieure   celle des praticiens humains              
+Un des domaines o  l IA s av re particuli rement efficace est celui de l imagerie m dicale  Des outils comme les r seaux de neurones convolutifs sont utilis s pour analyser les radiographies  les IRM et autres types d imageries  permettant de rep rer les signes pr coces de pathologies complexes  Par exemple  une  tude men e par McKinney et al         a d montr  que l IA pouvait r duire les faux positifs et n gatifs dans le d pistage du cancer du sein  am liorant ainsi la pr cision et la rapidit  du diagnostic              
+De plus  l IA joue un r le cl  dans la m decine personnalis e  o  elle aide   adapter les traitements en fonction des caract ristiques g n tiques et biologiques des patients  Gr ce   l analyse des donn es g nomiques  les m decins peuvent  laborer des th rapies sp cifiques pour des maladies comme le cancer ou les maladies g n tiques rares  L IA facilite  galement le d veloppement de nouveaux m dicaments  en identifiant des mol cules potentielles pour le traitement de certaines maladies  un processus qui n cessitait auparavant plusieurs ann es              
+Cependant  malgr  ses promesses  l usage de l IA en m decine soul ve des questions  thiques et de s curit   notamment en ce qui concerne la protection des donn es des patients et la transparence des algorithmes               La Food and Drug Administration  FDA  aux  tats Unis et d autres organismes r glementaires travaillent   d finir des cadres pour encadrer l utilisation s curis e et  thique de l IA dans les soins de sant  
+
+Renseignement policier modifier   modifier le code 
+Article connexe        Pr vision polici re 
+Un usage de l IA se d veloppe dans le domaine de la pr vention des crimes et d lits  La police britannique  par exemple  d veloppe une IA de ce genre  annonc e comme pouvant  tre op rationnelle d s mars                    Baptis e National Data Analytics Solution  Solution nationale d analyse de donn es ou NDAS   elle repose sur l IA et des statistiques et vise   estimer le risque qu une personne commette un crime ou en soit elle m me victime  pour orienter les services sociaux et m dicaux qui peuvent la conseiller 
+L usage d outils de pr diction des crimes   partir des donn es pr alablement existantes est toutefois l objet de controverses  compte tenu des biais sociaux  notamment raciaux  qu il comporte               En effet  la logique d identification de sch mas propre   ces technologies joue un r le de renforcement des pr jug s d j  existants 
+
+Cybercrime modifier   modifier le code 
+L intelligence artificielle  IA  est de plus en plus exploit e dans le domaine du cybercrime  comme le r v le une  tude de la soci t  sp cialis e en cybers curit  SlashNext  Cette tendance croissante   l utilisation de l IA pour commettre des crimes en ligne montre une sophistication accrue des attaques  L entreprise SlashNext a notamment identifi  l usage de deux IA malicieuses  FraudGPT et WormGPT  tout en sugg rant que ces d couvertes ne repr sentent que la partie visible d une menace potentiellement colossale  Lors de leurs investigations  les chercheurs ont  galement mis en lumi re l existence de DarkBart et DarkBert     b       deux chatbots malveillants en d veloppement  capables d int grer la technologie de reconnaissance d images de Google Google Lens  Ces chatbots pourraient envoyer du texte et des images  et participer   des attaques d ing nierie sociale avanc es  Face   cette menace croissante  les solutions actuelles de lutte contre le cybercrime semblent insuffisantes  estime un rapport d Immunefi  qui souligne les limites de certaines IA  telles que ChatGPT  dans la d tection des exploits              
+
+Droit modifier   modifier le code 
+Article d taill         Justice pr dictive 
+Le droit fait appel   l IA dans la perspective de pr dire les d cisions de justice  d aider   la d cision et de trancher les cas simples               L Estonie a par exemple d velopp  une intelligence artificielle capable de prendre des d cisions de justice sur des d lits mineurs               Les  tats Unis utilisent par ailleurs dans certaines juridictions le syst me COMPAS       en  Correctional Offender Management profiling for Alternative Sanctions   un syst me d aide   la prise de d cision pour les juges               Plusieurs startups se sont sp cialis es dans ce cr neau  cr ant le domaine de la legaltech              
+
+Logistique et transports modifier   modifier le code 
+Le domaine de la logistique a vu certains projets utilisant de l intelligence artificielle se d velopper notamment pour la gestion de la cha ne logistique  supply chain  ou des probl matiques de livraison telle celle du dernier kilom tre              
+L intelligence artificielle est  galement fortement utilis e dans le domaine des transports en commun  car elle permet de faciliter la r gulation et la gestion du trafic au sein de r seaux de plus en plus complexes  comme le syst me UrbanLoop en cours d  tude dans la ville de Nancy              
+M me si les probl mes d optimisation de temps de trajet ou de transports font partie des plus anciennes applications de solutions   base d intelligence artificielle  voir le probl me du voyageur de commerce ou l algorithme de Dijkstra   les avanc es r centes  notamment en apprentissage profond  ont permis des progr s significatifs en mati re de pr cision  Certains projets comme Google Maps utilisent par exemple des syst mes d IA en milieu urbain pour compenser la r flexion du signal GPS sur les immeubles avoisinants               ou pour cartographier des zones o  peu d informations sont disponibles                            
+Plusieurs entreprises ont par ailleurs annonc  avoir d velopp  des programmes de recherche en voiture autonome  notamment Google   travers sa filiale Waymo  l entreprise fran aise Navya ou encore Tesla 
+
+Industrie modifier   modifier le code 
+Article d taill         Industrie     
+Les syst mes intelligents deviennent monnaie courante dans de nombreuses industries  Plusieurs t ches peuvent leur  tre confi es  notamment celles consid r es comme trop dangereuses pour un humain               Certains applications se concentrent sur les syst mes de maintenance pr dictive  permettant des gains de performance gr ce   une d tection des probl mes de production en amont 
+
+Un robot NAO en      
+Robotique modifier   modifier le code 
+Article connexe        Robotique 
+La robotique a recours   l intelligence artificielle   plusieurs  gards  notamment pour la perception de l environnement  objets et visages   l apprentissage et l intelligence artificielle d veloppementale                            
+L interaction homme robot manque encore souvent de naturel et est un enjeu de la robotique  Il s agit de permettre aux robots d  voluer dans le monde dynamique et social des humains et d  changer avec eux de fa on satisfaisante               L  change n cessite  galement    l inverse  une  volution du regard que les humains portent sur les robots        selon V ronique Auberg   chercheuse   l Universit  Grenoble Alpes        la vraie r volution n est pas technologique  elle est culturelle         D ores et d j     travers les robots dot s d intelligence artificielle  tel Google Home  les utilisateurs combleraient un isolement social              
+
+Jeux vid o modifier   modifier le code 
+Article d taill         Intelligence artificielle dans le jeu vid o 
+L intelligence artificielle est par exemple utilis e pour animer les personnages non joueurs de jeux vid o  qui sont con us pour servir d opposants  d aides ou d accompagnants lorsque des joueurs humains ne sont pas disponibles ou d sir s  Diff rents niveaux de complexit  sont d velopp s  d une simple assistance   un comportement complexe imitant  ou d passant  les meilleurs joueurs humains 
+
+Art modifier   modifier le code 
+Articles connexes        Art g n ratif et Art cr   par intelligence artificielle 
+D s la fin des ann es       des artistes s emparent de l intelligence artificielle pour donner un comportement autonome   leurs  uvres  Les Fran ais Michel Bret  Edmond Couchot et Marie H l ne Tramus sont des pionniers  ainsi qu en t moignent des  uvres comme La Plume et Le Pissenlit                      puis La Funambule         anim e par un r seau de neurones  L Am ricain Karl Sims  en partenariat avec la soci t  Thinking Machines  cr e en      Genetic Images  machines incorporant Comment         des algorithmes g n tiques  Le couple franco autrichien Christa Sommerer et Laurent Mignonneau cr e depuis le d but des ann es      de nombreuses  uvres dans le champ de la vie artificielle  parmi lesquelles Interactive plant growing        ou A Volve            r f       n cessaire       Le Fran ais Florent Aziosmanoff propose quant   lui de consid rer que l emploi de l intelligence artificielle dans l art conduit   l  mergence d une nouvelle discipline d expression  qu il nomme le Living art              
+Le    octobre       la soci t  de vente aux ench res Christie s met en vente le tableau Portrait d Edmond de Belamy r alis  par une intelligence artificielle   l aide de r seaux antagonistes g n ratifs  La peinture est sign e par la formule math matique   l origine de sa cr ation         Min  G  max  D  Ex  log  D x      Ez  log   D G z                           Cette vente soul ve de nombreux d bats sur son statut de cr ation artistique et sur l auteur de l  uvre        il peut  tre l intelligence artificielle elle m me ou les trois cr ateurs qui l ont programm e              
+
+Une fausse photo du jeune Elon Musk jouant au jeu vid o Mars Marauder en       g n r e par l IA Des r seaux antagonistes g n ratifs ont parfois  t  utilis s pour cr er de fausses images r alistes  comme avec le g n rateur de visages StyleGAN introduit en                    ou avec        Terre Seconde        de Gr gory Chatonsky qui imagine en      une version alternative de la plan te Terre              
+D s      apparaissent des mod les d intelligence artificielle qui sont capables de cr er des images r alistes   partir de descriptions textuelles  comme Midjourney  Stable Diffussion et DALL E                             En mars       des fausses photos d actualit  sont ainsi g n r es et diffus es sur Internet  mettant en sc ne des personnalit s dans des situations extravagantes  le pr sident Macron ramassant des poubelles  Donald Trump arr t  par des policiers               le pape Fran ois habill  en doudoune blanche                Elles deviennent rapidement virales  augmentant les craintes de manipulation de l opinion               Cela pose aussi des questions de droits d auteur              
+
+
+
+
+Image externe
+
+
+
+
+
+
+
+Fausses photos d actualit  g n r es par Midjourney  mars                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+De plus en plus de romans ont  t  co crits avec une IA g n rative  tels que Internes en                   ou                La Tour de la compassion de Tokyo          qui a re u le prix Akutagawa en                   
+En f vrier       le mod le Sora de OpenAI s est montr  capable de g n rer des vid os relativement r alistes              
+Des mod les d IA capables de g n rer un morceau de musique   partie d une description du style souhait  ont  galement fait leur apparition  comme Suno AI en      et Udio en                   
+
+Autres domaines modifier   modifier le code 
+La domesticit   avec des robots employ  de maison               ou pour certaines t ches pr cises comme en domotique 
+En programmation informatique  notamment pour la maintenance pr visionnelle  l autocompl tion ou l aide au d veloppement              
+En journalisme        des IA  appel es improprement        robots journalistes         pourraient   terme aider les journalistes en les d barrassant de certaines t ches  notamment la veille  le b tonnage de d p ches ou la v rification des fake news              
+La Cor e du Sud propose la toute premi re animatrice t l  virtuelle en novembre      lors d un JT              
+En design        la conception assist e par ordinateur fait depuis longtemps appel   des algorithmes d optimisation  En       le cr ateur Philippe Starck lance ainsi une chaise d velopp e en collaboration avec la soci t  Autodesk  la        A I chair                     
+
+D bats et enjeux modifier   modifier le code 
+Article connexe         thique de l intelligence artificielle 
+Les succ s en IA encouragent les sp culations  Dans les milieux technophiles  on verse en g n ral dans l enthousiasme  le mouvement transhumaniste en est la meilleure expression  Mais certains s inqui tent et s interrogent  parfois alarmistes  y compris dans la sph re de la haute technologie  Ainsi  des figures r put es telles que Bill Gates        ancien PDG de Microsoft et        figure embl matique de la r volution informatique de la fin du XXe      si cle                            pensent qu il faut rester tr s prudent quant aux d veloppements futurs de ces technologies  qui pourraient devenir liberticides ou dangereuses 
+Le d veloppement de l intelligence artificielle suscite un grand nombre de questions  notamment en ce qui concerne la possibilit  pour les IA ou algorithmes d acc der un jour   la conscience  d  prouver des  motions ou de finalement se substituer aux humains  Certaines r actions sont ouvertement optimistes  d autres sont au contraire pessimistes  En       l INRIA publie un premier Livre blanc consacr    l IA              
+Le philosophe Daniel Andler consid re en      que le r ve d une intelligence artificielle qui rejoindrait celle de l homme est une chim re  pour des causes conceptuelles et non techniques  L intelligence humaine va selon lui plus loin que la simple r solution de probl mes        toutes ses autres t ches  reposant sur des affects  de la spontan it  et une forme de contingence  ne seront jamais accessibles   une intelligence non humaine              
+
+Singularit  modifier   modifier le code 
+Articles d taill s        Singularit  technologique et Superintelligence artificielle 
+Une description d un possible avenir de l intelligence artificielle a  t  faite par le statisticien anglais Irving John Good       Pour l Am ricain Ray Kurzweil  l intelligence artificielle d passera bient t l intelligence naturelle 
+       Supposons qu existe une machine surpassant en intelligence tout ce dont est capable un homme  aussi brillant soit il  La conception de telles machines faisant partie des activit s intellectuelles  cette machine pourrait   son tour cr er des machines meilleures qu elle m me        cela aurait sans nul doute pour effet une r action en cha ne de d veloppement de l intelligence  pendant que l intelligence humaine resterait presque sur place  Il en r sulte que la machine ultra intelligente sera la derni re invention que l homme aura besoin de faire    condition que ladite machine soit assez docile pour constamment lui ob ir        
+
+       Irving John Good             
+Cette hypoth tique courte p riode de progr s drastique dont il est difficile de pr dire les cons quences a  t  nomm e        singularit          Elle a  t   tudi e par Vernor Vinge dans les ann es    et par Ray Kurzweill              dans les ann es                    Ce concept est central pour de nombreux transhumanistes  qui s interrogent sur les dangers ou les espoirs d un tel sc nario  certains allant jusqu   envisager l  mergence d un        dieu        num rique appel    prendre le contr le du destin de l humanit   ou   fusionner avec elle               En       Nick Bostrom a popularis  le concept de superintelligence artificielle              
+
+Risques existentiels modifier   modifier le code 
+Article d taill         Risque existentiel li    l intelligence artificielle g n rale 
+Un premier sommet en s ret  de l IA s est tenu en novembre      pour aborder les risques li s aux mod les d IA les plus avanc s               Il a  t  suivi du Sommet de Paris pour l action sur l IA        
+Le d veloppement de l intelligence artificielle g n re de l enthousiasme  mais aussi de vives inqui tudes  Certains auteurs de science fiction  tels Isaac Asimov  William Gibson ou Arthur C  Clarke  sur le mod le du r cit de L Apprenti sorcier  d crivent le risque d une perte de contr le des humains sur le processus technique  Dans les ann es       diff rents intellectuels ont  galement pris position  notamment l astrophysicien Stephen Hawking  selon qui l intelligence artificielle risque r ellement de surpasser un jour l intelligence humaine et de finir par dominer l humanit   voire de s y substituer                             Il pose en novembre      au salon technologique Web Summit de Lisbonne la question suivante        Serons nous aid s par l intelligence artificielle ou mis de c t   ou encore d truits par elle                            
+Dans le milieu de la haute technologie  certains expriment publiquement des craintes similaires  C est ainsi le cas  en       de Bill Gates  Elon Musk et Bill Joy               Selon le sp cialiste am ricain de l informatique Moshe Vardi en       l intelligence artificielle pourrait mettre           de l humanit  au ch mage         Nous approchons d une  poque o  les machines pourront surpasser les hommes dans presque toutes les t ches                     
+Hilary Mason  directrice de la recherche   Cloudera  a critiqu  en      le sensationnalisme entourant l intelligence artificielle et pr ne une vision pragmatique et op rationnelle de cette technologie              
+Ajouter un m canisme d arr t pourrait ne pas suffire face   une IA suffisamment avanc e  qui pourrait s av rer en mesure de cacher des intentions dangereuses  de manipuler ses d tenteurs  de d sactiver le m canisme d arr t ou encore de se dupliquer  Selon Nick Bostrom en       la seule solution viable   long terme consiste   trouver comment aligner les intelligences artificielles avec des valeurs humaines et morales                    
+
+
+       nous ne devrions pas  tre confiants dans notre capacit    garder ind finiment un g nie superintelligent enferm  dans une bouteille  Je crois que la r ponse ici est de trouver comment cr er une IA superintelligente de sorte que si   ou plut t quand   elle s  chappe  elle reste sans danger  parce qu elle est fondamentalement de notre c t   elle partage nos valeurs        
+
+       Nick Bostrom
+Roman V  Yampolskiy  professeur de science informatique   l Universit  de Louisville   voque pourquoi et comment une IA obtient un r sultat  pour s assurer qu il corresponde bien   l attendu  sans biais               si nous nous habituons   accepter les r ponses de l IA comme des paroles d oracles ne n cessitant pas d explication  alors nous serons incapables de v rifier si ces r sultats ne sont pas biais s ou manipul s                     
+En mai       une d claration du Center for AI Safety         Centre pour la s ret  de l IA         affirme que r duire le risque d extinction de l humanit  li    l IA devrait  tre une priorit  mondiale  au m me titre que pour d autres risques civilisationnels tels les pand mies ou les guerres nucl aires  Elle est sign e par des dirigeants de laboratoires d IA comme OpenAI  Google DeepMind ou Anthropic  ainsi que par des chercheurs en intelligence artificielle                            
+
+Critique de la technique et de la technologie modifier   modifier le code 
+Comme l explique l historien Fran ois Jarrige  la critique de l intelligence artificielle trouve son origine dans celle   plus ancienne et plus g n rale   des techniques et de la technologie  dont Lewis Mumford  aux  tats Unis                Jacques Ellul  en France               et G nther Anders  en Allemagne               sont au XXe      si cle les principaux instigateurs  et qui inspire aujourd hui diff rents cercles militants  en France  par exemple        Pi ces et Main d  uvre              et Technologos                            
+Dans un rapport en date de f vrier      intitul  The Malicious Use of Artificial Intelligence    experts sp cialistes en intelligence artificielle mettent en garde contre les dangers d un usage criminel de l IA        augmentation de la cybercriminalit   conduire   des utilisations de drones   des fins terroristes  manipulation de masse       etc               
+
+Impact environnemental modifier   modifier le code 
+Article d taill         Impacts environnementaux de l intelligence artificielle 
+Un autre probl me est l  norme quantit  de ressources rares  de serveurs et d  nergie consomm e par l informatique sous jacente   l IA  Google admet en      qu il lui sera tr s difficile de tenir ses engagements de neutralit  carbone  car depuis      ses  missions de gaz   effet de serre ont augment  de           du fait du d veloppement de l IA              
+Afin de r duire leur empreinte carbone  certains fournisseurs d IA  Microsoft  Amazon et Oracle  se tournent vers les march s volontaires de la compensation carbone  et plus largement de solutions de d carbonation  comme celles de capture du CO                Ils s orientent  galement vers les centrales nucl aires pour couvrir leur besoin en  lectricit                Microsoft a notamment sign  en      un contrat avec Constellation Energy pour l achat de          MWe de capacit   lectrique fournie par la centrale nucl aire de Three Mile Island  pour une dur e de vingt ans   partir de                   
+
+Open source modifier   modifier le code 
+Divers projets open source d IA ont  t  men s par Hugging Face               EleutherAI               Google               ou Meta              
+En mars       comme alternative aux g ants du Web et du cloud computing  qui ont le plus de pouvoir et d influence  Mozilla annonce vouloir investir    millions de dollars dans un projet baptis  Mozilla ai  qui est   la fois une startup et une communaut   ind pendante des g ants de la tech et de la recherche universitaire               Le projet vise   cr er  dans le respect des valeurs de son manifeste  notamment transparence et responsabilit    un syst me d IA        open source  digne de confiance et ind pendant                     
+De nombreux grands mod les de langage comme Mistral               Llama    Vicuna et Falcon              sont rendus open weight  ce qui signifie que l architecture et les param tres entra n s du mod le d IA sont rendus publics  open source impliquerait notamment de partager les donn es d entra nement  ce qui souvent n est pas le cas                Ces mod les peuvent  tre librement ajust s  ce qui permet notamment aux entreprises de les sp cialiser pour leurs propres donn es et pour leur cas d usage               Ces mod les d IA facilitent l innovation et la recherche  mais peuvent facilement  tre d tourn s  Ils peuvent  tre r entra n s de sorte   rendre inefficaces les mesures de s curit   telles que le refus de r pondre   une requ te dangereuse  Certains chercheurs estiment ainsi que si des mod les d veloppent un jour des capacit s dangereuses  comme le fait de faciliter drastiquement les cyberattaques ou le bioterrorisme  ils ne devraient pas  tre rendus open weight  d autant plus qu une fois diffus  sur internet  un mod le ne peut en g n ral plus  tre supprim  partout                            
+
+IA et emploi modifier   modifier le code 
+Articles connexes        Cons quences  conomiques de l intelligence artificielle et Ch mage technologique 
+Historiquement  l innovation technologique a g n ralement  t  accompagn e d une croissance de la productivit  et de la cr ation de nouveaux emplois pour compenser les pertes               Cependant  de nouvelles inqui tudes ont  merg  avec l essor de l IA g n rative  telle que ChatGPT  capable de manipuler du texte  des images ou du code informatique              
+Certains  conomistes sont sceptiques   l id e d un ch mage de masse  citant des pr c dents historiques o  le march  du travail s est adapt    des bouleversements technologiques                             D autres estiment que l IA g n rative repr sente un changement plus profond  qui ne consiste pas seulement   automatiser des t ches r p titives  L IA peut  tre appliqu e   tous les secteurs  et le nombre de t ches o  l humain reste plus comp tent que l IA est amen    diminuer             
+Une  tude de Goldman Sachs a estim  en      que les deux tiers des travailleurs europ ens sont expos s   divers degr s d automatisation  et qu un quart des emplois pourraient  tre remplac s par l IA  L  tude pr dit notamment que les professions administratives et l gales seront particuli rement touch es  l  o  les m tiers manuels en ext rieur seront peu affect s              
+Une solution envisag e dans le sc nario d un ch mage de masse est celle d une forme de redistribution des richesses avec un revenu universel  Les financements pourraient dans ce cas venir d une taxe sur les richesses produites par les machines              
+
+D faut de repr sentativit  modifier   modifier le code 
+L IA s appuie sur l analyse de donn es qui ne peuvent g n ralement pas repr senter fid lement la r alit   soit parce ces donn es ne proviennent que de sources num riques existantes  le plus souvent sur Internet  alors que quantit s d informations pertinentes pour le domaine consid r  n y figurent pas  soit parce que certaines cat gories de donn es pourtant pertinentes n ont pas  t  prises en compte  ou que des donn es non pertinentes l ont  t   Il en r sulte alors une inad quation entre les donn es utilis es pour l entra nement des algorithmes et les donn es cibles sur lesquelles l algorithme devra op rer  et par cons quent des erreurs de diagnostic qui peuvent  dans certains cas  induire des d cisions inappropri es ou injustes                                          
+
+Risques politiques et sociaux modifier   modifier le code 
+Les r seaux sociaux et les bots ont favoris  la propagation de nombreuses fausses croyances et des d rives dans les d bats d mocratiques  lesquelles ont entrain  une certaine d fiance vis   vis de la science  des  lites intellectuelles et des m dias d information traditionnels              r f       incompl te   En cons quence  la progression et l adoption rapides des techniques sous jacentes de l IA inspirent de multiples craintes quant aux impacts que celle ci pourrait avoir sur les comportements individuels et collectifs  Ces conditions ouvrent la possibilit  pour des op rateurs majeurs de la soci t  de fausser le r el pour influencer ou manipuler les citoyens  Les acteurs  conomiques emploient l IA pour influencer les consommateurs et pour optimiser le travail de leurs employ s au point de les transformer en robots              source secondaire souhait e   L  ventualit  que l IA intervienne dans les d bats d id es ou dans la conduite des affaires individuelles ou collectives m ne   redouter qu elle n alt re ou n affaiblisse les institutions politiques              r f       incompl te  et les pouvoirs  voire les capacit s des humains              source secondaire souhait e  
+D s       Nicholas Carr alertait sur l usage intensif des outils num riques  qui modifie notre mani re de penser et de traiter l information  ce qui peut avoir des cons quences   long terme sur notre cognition  notamment affaiblir notre m moire et notre capacit    comprendre les informations de mani re approfondie et affecter la cr ativit   l empathie et le d bat intellectuel              
+Les principales menaces couramment envisag es  cons cutives   des biais ou au d tournement des algorithmes d IA sont                                  
+
+la d sinformation et la manipulation du public pour des raisons crapuleuses  religieuses ou id ologiques       
+les fausses vid os et hypertrucages repr sentant des personnalit s faisant ou disant des choses qu ils n ont pas faites ou dites       
+la corruption de donn es par vandalisme ou pour d stabiliser ou soutirer de fortes sommes d argent  par ran ongiciel  en emp chant l acc s   des donn es ou des services       
+l escroquerie par usurpation d identit  ou pour soutirer de l argent contre des biens ou des services fictifs       
+le chantage   grande  chelle  par des menaces d agression ou de r v lations sur la vie priv e       
+la perte de contr le ou le piratage d infrastructures publiques  eau   nergie  signalisation routi re  Internet  services en ligne     des fins de d stabilisation ou de chantage       
+la perte de contr le de robots  de v hicules autonomes ou de drones militaires  ou leur vol ou leur d tournement   des fins agressives ou de chantage       
+la manipulation de march s financiers       
+la surveillance de masse 
+De plus  l IA produit parfois des r sultats contre intuitifs  bien que fiables  ou propager de fausse croyances  qui contribuent  parmi d autres facteurs     roder la confiance d une partie de la population dans le discours rationnel  les th ories scientifiques  le syst me m diatique  les institutions et les  lites en g n ral  et   la remise en cause de leurs l gitimit s              et du processus d mocratique              r f       incompl te  
+Selon Yuval Noah Harari  jusqu ici  du fait de d fauts d alignement et faute de m canismes suffisants d autocorrection  les objectifs qui sont assign s aux algorithmes des r seaux sociaux ont d j  induit ou influenc  ph nom nes de soci t  ind sirables  d sinformation  hypertrucages  propos outranciers ou haineux  comme dans le cas du g nocide des Rohingya au Myanmar               en outrepassant les r gles  thiques qui sont implicites pour des humains  De plus  la capacit  de l IA   fonder ses analyses sur des volumes consid rables de donn es et de tr s nombreux crit res donne l illusion de son infaillibilit   comparativement aux m thodes d analyse par des individus ou des organisations humaines  fond s sur des corpus d information beaucoup plus r duits et un nombre de crit res limit  dont certains tr s subjectifs  Certains algorithmes d IA ont m me la facult  d inspirer confiance aux humains en misant sur leur subjectivit  ou leur  motivit   voire de les tromper        d lib r ment        pour parvenir   leurs fins                             L exploitation de telles possibilit s pourrait permettre de constituer un ou plusieurs nouveaux syst mes de croyances et de r gles morales  politiques et sociales    l instar des religions ou des r gimes politiques  instituant comme v rit  une certaine interpr tation du r el et  tablissant une nouvelle forme d ordre social  L IA pourrait ainsi conduire   une certaine anarchie ou permettre l instauration de r gimes totalitaires dans les pays d mocratiques  a contrario  des IA pourraient amplifier ou faire na tre des id es subversives au sein des r gimes autoritaires   Pour pr server les d mocraties  il conviendrait donc que soient  tablies des r gulations faisant intervenir des humains pour contenir les possibles d rives de l IA              r f       incompl te  
+L emploi de l IA pour noter les entreprises et citoyens  sur le mod le du cr dit social  est d j    l  uvre en Chine  Ce proc d  fait craindre une surveillance constante des personnes et des organisations  pouvant entrainer une forme d asservissement des individus  ou des sanctions et r compenses excessives              r f       incompl te  
+ ric Sadin r cuse le terme d        intelligence         Selon lui  l IA porte en elle un mod le de soci t  utilitariste et rationaliste inspir  de mani re extr mement lacunaire par le fonctionnement du cerveau humain et visant   uniformiser les comportements en temps r el et   tous moments  Le lib ralisme  conomique  saisissant le profit qu il peut en tirer  investit massivement dans l IA afin d exploiter l inclination naturelle des humains   la facilit  et les capacit s extraordinaires de l IA   expertiser la complexit  du r el et   orienter nos d cisions  Cela nous conduit insidieusement   nous fier aux r ponses formul es par des algorithmes au d triment de crit res d analyse plus multisensoriels et de choix plus subjectifs  donc plus humains  Nous pourrions alors c der progressivement   l IA notre pouvoir d analyse  de jugement et de d cision et consentir   nous soumettre plus ou moins consciemment   une        intelligence        sup rieure  puis finalement renoncer m me   penser  Notre addiction aux        assistants personnels        et aux capteurs physiologiques ainsi que leur pr sence continuelle   nos c t s pourraient les amener progressivement   s exprimer  d cider voire imaginer   notre place et en notre nom  d abord avec  puis sans notre consentement              
+Selon Laurent Alexandre  l IA contribuera   accro tre les in galit s en  cartant les individus les        moins aptes        de l activit   conomique et sociale  et le revenu universel constituerait   ses yeux un moyen d asseoir la domination des         lites        sur les populations d favoris es 
+
+R glementation modifier   modifier le code 
+Article d taill         R glementation de l intelligence artificielle 
+En       l OCDE et le G   adoptent une s rie de principes sur l IA               Le Partenariat mondial sur l intelligence artificielle est lanc  en juin      pour promouvoir la conformit  du d veloppement de l IA aux droits de l homme et aux valeurs d mocratiques  Il est h berg  par l OCDE   Montr al et   Paris               Une plateforme de communication  AI for Good         l IA pour le bien          est cr  e pour faciliter les  changes et faire avancer les objectifs de d veloppement durable de l ONU gr ce   l IA              
+En       plus de                 politiques publiques et strat gies sur l IA sont recens es dans le monde               Elles viennent en particulier de l Union europ enne  la Chine  les  tats Unis et le Royaume Uni  Apr s les avanc es r glementaires de l UE et de la Chine  la Maison Blanche publie en octobre      un d cret sur l IA        s re  s curis e et digne de confiance         En novembre      a lieu un premier sommet en s curit  de l IA au Royaume Uni              
+En Europe  les services num riques sont r glement s par le RGPD               le r glement sur les services num riques et la l gislation sur les march s num riques  Pour l intelligence artificielle en particulier  la l gislation sur l intelligence artificielle  Artificial Intelligence Act  ou AI Act en anglais  d finit quatre niveaux de risques pour les applications d IA et met en avant des exigences de transparence  de protection des donn es  de s curit  et d  thique              
+En       les  mirats arabes unis sont le premier pays au monde   se doter d un ministre d di    l intelligence artificielle        Omar Sultan Al Olama              
+
+Appels   des r gles  thiques pour l IA modifier   modifier le code 
+Article d taill          thique de l intelligence artificielle 
+Dans la seconde moiti  des ann es       des lanceurs d alerte et des enqu tes r v lent que l IA  encore  mergente  a d j   t  utilis e   des fins malveillantes pour faire basculer des processus  lectoraux  Le premier cas notable a  t  la plate forme RIPON  secr tement cr  e par le Groupe SCL    la demande de Steve Bannon et du milliardaire am ricain Robert Mercer  Cette plateforme  principalement au service de groupes politiques libertariens de droite  a  t  un outil de d sinformation  de production et de diffusion de fake news   grande  chelle                             Ripon  impliqu e dans le scandale Facebook Cambridge Analytica Aggregate IQ   joua un r le important dans la manipulation d un grand nombre d  lecteurs  notamment pour faire  lire Donald Trump lors de l  lection pr sidentielle am ricaine de       pour faire advenir le Brexit               ainsi que pour orienter des dizaines d  lections dans le monde 
+Face   ces d rives  les g ants du secteur de l IA ont r agi en cr ant le    septembre      un        partenariat pour l intelligence artificielle au b n fice des citoyens et de la soci t                       L ann e suivante  Google DeepMind se dote d une unit  interne pour aborder les questions  thiques              et la conf rence d Asilomar rassemblant des personnalit s influentes propose une charte              pour r glementer les d veloppements en IA              
+Le    juillet                       chercheurs  ing nieurs et personnalit s du secteur de l intelligence artificielle signent une lettre ouverte               s engageant          ne jamais participer ou soutenir le d veloppement  la fabrication  le commerce ou l usage d armes l tales autonomes         La lettre pr cise que        La d cision de prendre une vie humaine ne devrait jamais  tre d l gu e   une machine         Parmi les signataires se trouvent Elon Musk  les dirigeants de Google DeepMind Stuart Russell  Yoshua Bengio  et Toby Walsh              
+Fin       l UNESCO rejoint  en tant qu observateur  comme l OCDE  le conseil et le comit  directeur du Partenariat mondial sur l intelligence artificielle  avec la possibilit  de participer activement aux travaux de ces organismes              
+La publication en f vrier      d un Livre blanc sur l intelligence artificielle               pose les bases du r glement sur l intelligence artificielle de      par la Commission europ enne  qui vise   encadrer les risques et les probl mes  thiques de ces technologies               Ce projet classe les risques en quatre cat gories  dont la plus grave est qualifi e comme suit       
+
+
+       Risque inacceptable        les syst mes d IA consid r s comme une menace  vidente pour la s curit   les moyens de subsistance et les droits des personnes seront interdits  Il s agit notamment des syst mes ou applications d IA qui manipulent le comportement humain pour priver les utilisateurs de leur libre arbitre  par exemple  des jouets utilisant une assistance vocale incitant des mineurs   avoir un comportement dangereux  et des syst mes qui permettent la notation sociale par les  tats                     
+
+
+En d cembre       le        premier forum mondial sur l  thique de l IA         r union minist rielle internationale  est r uni   Prague  sous l  gide de l Unesco              
+La m me ann e  l Unesco  estimant que        l autor gulation de l industrie n est manifestement pas suffisante pour  viter ces pr judices  thiques         a publi  un communiqu   adopt  le    novembre       demandant   tous les  tats de mettre en  uvre sa recommandation sur l  thique de l intelligence artificielle              afin de construire un cadre l gislatif et  thique pour l IA 
+L objectif est de n utiliser l IA que lorsque les atouts qu elle peut offrir sont bien identifi s  et qu on peut  viter  limiter et r parer les risques qui lui sont associ s  en particulier lors d usages non pacifiques  malveillants et ou aggravant les in galit s et des clivages   Ici  l ONU  invite   ne pas utiliser l IA quand elle met en p ril la protection des donn es  tous les individus doivent pouvoir effacer et acc der aux enregistrements de leurs donn es personnelles  et les organismes de r glementation du monde entier doivent faire respecter ces dispositions   Cette recommandation vient aussi interdire la notation sociale et la surveillance de masse  contraires aux droits de l homme et aux libert s fondamentales  et rejette l id e d accorder une personnalit  juridique   l IA        La Recommandation souligne que  lors de l  laboration de cadres r glementaires  les  tats membres doivent tenir compte du fait que la responsabilit  et l obligation de rendre des comptes incombent toujours aux  tres humains en dernier ressort et que les technologies de l IA ne devraient pas  tre dot es elles m mes d une personnalit  juridique        
+L  valuation des IA prend en compte ses impacts  thiques sur les individus  sur la soci t  et sur l environnement  L objectif  tant   terme de cr ant une infrastructure juridique et technique ad hoc  ainsi qu un responsable  ind pendant  de l  thique de l IA pour surveiller l utilisation et la cr ation des IA qui devraient        privil gier les m thodes d IA  conomes en donn es  en  nergie et en ressources         D un point de vue  cologique  les gouvernements sont invit s  lors du cycle de vie du syst me d IA    analyser son        empreinte carbone  sa consommation d  nergie et l impact environnemental de l extraction des mati res premi res pour soutenir la fabrication des technologies d IA         tout en cherchant   diminuer l impact environnemental du num rique en investissant dans les technologies vertes  Ainsi         si les syst mes d IA ont un impact n gatif disproportionn  sur l environnement  la Recommandation pr conise de ne pas les utiliser                     
+En       l UNESCO r it re son appel   la mise en  uvre rapide de sa Recommandation sur l  thique de l intelligence artificielle  adopt e   l unanimit  par ses      tats membres                      C est le d fi de notre temps         et il est        urgent que tous transposent ce cadre sous la forme de strat gies et de r glementations nationales  Nous devons traduire les engagements en actes        a comment  Audrey Azoulay  directrice g n rale de l Unesco                L ONU appelle ainsi les  tats qui ne l ont pas d j  fait   rejoindre les plus de    pays        de toutes les r gions du monde        qui ont commenc    cr er de tels garde fous  pour notamment cr er un outil l gislatif capable d encadrer et de surveiller les IA  tout en veillant   la protection des donn es personnelles et sensibles  et en sensibilisant la population mondiale   un usage responsable de l IA              
+En       lors de la   e      Journ e mondiale de la paix  le pape Fran ois exprime ses pr occupations quant aux cons quences potentielles de l IA sur la paix mondiale et demande   la communaut  internationale de d finir un trait  international contraignant pour r glementer son d veloppement et son utilisation  Il se montre particuli rement pr occup  par        la possibilit  de mener des op rations militaires   travers des syst mes de contr le   distance         citant notamment les syst mes d armes l tales autonomes              
+
+Droits des robots modifier   modifier le code 
+En       le Parlement europ en a demand    une commission d  tudier la possibilit  qu un robot dot  d une intelligence artificielle puisse  tre consid r  comme une personne juridique                             Advenant un dommage caus    un tiers par une intelligence artificielle  celle ci pourrait  tre condamn e   r parer ce dommage  Il serait envisageable de conf rer une personnalit   lectronique   tout robot prenant des d cisions autonomes ou interagissant de mani re ind pendante avec des tiers  au m me titre qu une personne morale et physique 
+
+Gouvernance d mocratique modifier   modifier le code 
+En       Mark Coeckelbergh et Henrik Skaug Saetra  respectivement philosophe renomm  de l  thique des technologies et expert en sciences politiques  se penchent sur la question de l intelligence artificielle  IA  et son potentiel r le dans la lutte contre le changement climatique               Ils plaident pour une int gration des IA dans les politiques d mocratiques  soulignant qu elles peuvent faciliter la d lib ration et la prise de d cisions  Toutefois  ils avertissent  galement que l IA pourrait devenir un outil si puissant qu il pourrait enti rement remplacer le gouvernement  entra nant des probl mes sociaux majeurs 
+Pour illustrer leur propos  Coeckelbergh et Saetra pr sentent deux cas extr mes        une d mocratie sans remplacement des humains  AI augmented democracy  et une technocratie dirig e par l IA  AI driven technocracy                Ces deux cas extr mes sont choisis pour d montrer les implications oppos es de l int gration de l IA dans la gouvernance 
+Dans une d mocratie sans remplacement des humains  l IA est pr sent e comme un simple outil visant   faciliter la prise de d cision  Par exemple  elle peut  tre utilis e pour la traduction  la v rification des faits  ou la prise de notes  Ici  l IA soutient le processus d mocratique sans en prendre le contr le 
+En revanche  dans une d mocratie avec remplacement  l IA prend toutes les d cisions  sans aucune intervention humaine  Cette approche  selon Saetra  pose cinq probl mes majeurs       
+
+les citoyens ont besoin d une pleine participation politique pour  tre satisfaits       
+les citoyens ne consid rent pas comme l gitime un gouvernement auquel ils ne participent pas       
+les ordinateurs ne devraient pas prendre de d cisions affectant la vie et le bien  tre des personnes       
+l IA n est pas transparente et ne peut donc pas  tre enti rement contr l e par l homme       
+l obligation de rendre compte des cons quences des d cisions politiques doit  tre claire  ce qui devient de moins en moins le cas lorsque l IA prend des d cisions 
+Ces points soulignent les cons quences sociales et  thiques de la prise de d cision par l IA en ce qui concerne les humains  Ainsi  Coeckelbergh et Saetra concluent qu une d mocratie sans remplacement des humains est plus adapt e  l IA y  tant pr sente uniquement comme soutien et non comme entit  d cisionnelle 
+Les deux auteurs estiment cependant qu aucune des deux propositions n est actuellement r alisable        les relations entre les humains et la technologie ne sont pas suffisamment  volu es pour permettre une utilisation  thique de l IA  Ainsi  les d cisions ne peuvent pas  tre prises uniquement par l IA  car les erreurs sont encore trop fr quentes et les normes sociales et  thiques peu respect es              
+
+Demandes de moratoire modifier   modifier le code 
+D but       l apparition de ChatGPT suscite une grande curiosit   de l enthousiasme  mais aussi des craintes s rieuses               Devons nous laisser les machines inonder nos canaux d information de propagande et de mensonges            Devons nous risquer de perdre le contr le de notre civilisation        Ces d cisions ne doivent pas  tre d l gu es   des leaders technologiques non  lus        affirment Elon Musk  Steve Wozniak  cofondateur d Apple  et des centaines d experts  Le    mars       ceux ci  invoquant des        risques majeurs pour l humanit          signent une p tition qui appelle le monde   un moratoire d au moins six mois sur ces recherches  jusqu   la mise en place de syst mes de s curit   incluant        la cr ation d autorit s r glementaires d di es  des moyens pour efficacement surveiller des IA et des syst mes les utilisant  la mise   disposition de techniques permettant de mieux diff rencier le r el de l artificiel  et la cr ation d institutions pouvant limiter les        perturbations  conomiques et politiques dramatiques  en particulier pour la d mocratie  que l IA provoquera                     
+
+Philosophie modifier   modifier le code 
+Article d taill         Philosophie de l intelligence artificielle 
+Courants de pens e modifier   modifier le code 
+
+Cette section ne cite pas suffisamment ses sources       mars             Pour l am liorer  ajoutez des r f rences de qualit  et v rifiables  comment faire         ou le mod le   R f rence n cessaire   sur les passages n cessitant une source 
+
+La cybern tique naissante des ann es      revendiquait tr s clairement son caract re pluridisciplinaire et se nourrissait des contributions les plus diverses        neurophysiologie  psychologie  logique  sciences sociales       etc  Elle envisagea deux approches des syst mes  approches reprises par les sciences cognitives et de ce fait l intelligence artificielle r f       souhait e         une approche par la d composition  du haut vers le bas  comme avec les syst mes experts  et une approche contraire par construction progressive du bas vers le haut  comme avec l apprentissage automatique              
+Ces deux approches se r v lent plut t compl mentaires que contradictoires        on est   l aise pour d composer rapidement ce que l on conna t bien  et une approche pragmatique   partir des seuls  l ments que l on conna t afin de se familiariser avec les concepts  mergents est plus utile pour les domaines inconnus  Elles sont respectivement   la base des hypoth ses de travail que constituent le cognitivisme et le connexionnisme  qui tentent aujourd hui        Passage             actualiser  d op rer progressivement leur fusion 
+Le guide pratique de Linux sur l intelligence artificielle v                  r vis  le    d cembre       adopte pour la commodit  du lecteur la taxinomie suivante       
+
+syst mes symboliques       
+connexionnisme       
+calcul  volutif  algorithmes g n tiques  par exemple        
+alife  vie artificielle  et complexit        
+agents et robotique 
+Cognitivisme modifier   modifier le code 
+Article d taill         Cognitivisme 
+Le cognitivisme consid re que le vivant  tel un ordinateur  bien que par des proc d s tr s diff rents   manipule essentiellement des symboles  l mentaires  Dans son livre La soci t  de l esprit  Marvin Minsky  s appuyant sur des observations du psychologue Jean Piaget  envisage le processus cognitif comme une comp tition d agents fournissant des r ponses partielles et dont les avis sont arbitr s par d autres agents  Il cite les exemples suivants de Piaget       
+
+l enfant croit d abord que plus le niveau d eau est  lev  dans un verre  plus il y a d eau dans ce verre  Apr s avoir jou  avec des transvasements successifs  il int gre le fait que la notion de hauteur du liquide dans le verre entre en comp tition avec celle du diam tre du verre  et arbitre de son mieux entre les deux       
+il vit ensuite une exp rience analogue en manipulant de la p te   modeler        la r duction de plusieurs objets temporairement repr sent s   une m me boule de p te l incite   d gager un concept de conservation de la quantit  de mati re 
+Au bout du compte  ces jeux d enfants se r v lent essentiels   la formation de l esprit  qui d gagent quelques r gles pour arbitrer les diff rents  l ments d appr ciation qu il rencontre  par essais et erreurs 
+
+Connexionnisme modifier   modifier le code 
+Article d taill         Connexionnisme 
+Le connexionnisme  se r f rant aux processus auto organisationnels  envisage la cognition comme le r sultat d une interaction globale des parties  l mentaires d un syst me  On ne peut nier que le chien dispose d     une sorte de connaissance des  quations diff rentielles du mouvement  puisqu il arrive   attraper un b ton au vol  ni qu un chat ait aussi une sorte de connaissance de la loi de chute des corps  puisqu il se comporte comme s il savait   partir de quelle hauteur il ne doit plus essayer de sauter directement pour se diriger vers le sol  Cette facult   qui  voque l intuition des philosophes  se caract riserait par la prise en compte et la consolidation d  l ments perceptifs dont aucun pris isol ment n atteint le seuil de la conscience  ou en tout cas n y d clenche d interpr tation particuli re 
+
+Synth se modifier   modifier le code 
+Trois concepts reviennent de fa on r currente dans la plupart des travaux       
+
+la redondance  le syst me est peu sensible   des pannes ponctuelles        
+la r entrance  les composants s informent en permanence entre eux        cette notion diff re de la r entrance en programmation        
+la s lection  au fil du temps  les comportements efficaces sont d gag s et renforc s  
+Intelligence artificielle forte modifier   modifier le code 
+Article d taill         Conscience artificielle 
+Le concept d intelligence artificielle forte fait r f rence   une machine capable non seulement de produire un comportement intelligent  notamment de mod liser des id es abstraites  mais aussi d  prouver une impression d une r elle conscience  de        vrais sentiments         notion dont la d finition n est pas universelle   et        une compr hension de ses propres raisonnements                     
+Contrairement   l intelligence artificielle g n rale  l intelligence artificielle forte fait donc le plus souvent intervenir des notions philosophiques de conscience qui font que les capacit s de l intelligence artificielle ne suffisent pas   dire si elle est        forte         Cela dit  aucune d finition de la conscience pour une IA ne fait consensus               Les termes        intelligence artificielle forte        et        intelligence artificielle g n rale        sont parfois en pratique utilis s de mani re interchangeable             
+En partant du principe   tay  par les neurosciences               que la conscience a un support biologique et donc mat riel  les scientifiques ne voient g n ralement pas d obstacle th orique   la cr ation d une intelligence consciente sur un support mat riel autre que biologique  Selon les tenants de l IA forte  si   l heure actuelle il n y a pas d ordinateurs ou d algorithmes aussi intelligents que l  tre humain  ce n est pas un probl me d outil mais de conception  Il n y aurait aucune limite fonctionnelle  un ordinateur est une machine de Turing universelle avec pour seules limites celles de la calculabilit    seulement des limites li es   l aptitude humaine   concevoir les logiciels appropri s  programme  base de donn es   
+
+Diversit  des opinions modifier   modifier le code 
+Les principales opinions soutenues pour r pondre   la question d une intelligence artificielle forte  c est   dire dou e d une sorte de conscience  sont les suivantes       
+
+impossible        la conscience serait le propre des organismes vivants  sup rieurs   et elle serait li e   la nature des syst mes biologiques  Cette position est d fendue par certains philosophes et sociologues comme Harry Collins  pour qui l intelligence requiert une immersion dans la soci t  humaine  et donc un corps humain              et peut rappeler le courant du vitalisme       
+impossible avec des machines manipulant des symboles comme les ordinateurs actuels  mais possible avec des syst mes dont l organisation mat rielle serait fond e sur des processus quantiques  Des algorithmes quantiques sont th oriquement capables de mener   bien des calculs hors de l atteinte pratique des calculateurs conventionnels  complexit  en 
+  
+    
+      
+        
+          N
+          
+             
+          
+        
+      
+    
+      displaystyle N     
+  
+ au lieu de 
+  
+    
+      
+        
+           
+          
+            N
+          
+        
+      
+    
+      displaystyle    N  
+  
+  par exemple  sous r serve d existence du calculateur appropri    Au del  de la rapidit   le scientifique Roger Penrose d fend dans la th orie de la r duction objective orchestr e l id e controvers e que la conscience n cessiterait un fonctionnement non compatible avec les lois de la physique classique  et accessible uniquement   des syst mes quantiques                                  
+impossible car la pens e n est pas un ph nom ne calculable par des processus discrets et finis  Cette th orie est notamment avanc e par le philosophe John Searle et son exp rience de la chambre chinoise               Une conscience est donc n cessaire pour acc der   l intelligence  mais un syst me informatique ne serait capable que d en simuler une  sans pour autant la poss der  renvoyant au concept philosophique du zombie       
+possible avec des ordinateurs manipulant des symboles  La notion de symbole est toutefois   prendre au sens large  Cette option inclut les travaux sur le raisonnement ou l apprentissage symbolique bas  sur la logique des pr dicats  mais aussi les techniques connexionnistes telles que les r seaux de neurones  qui    la base  sont d finies par des symboles  Cette position est port e par des mouvements comme ceux du computationnalisme et est port e par des philosophes comme Hubert Dreyfus  pour qui le cerveau suit les lois de la physique et de la biologie  impliquant que l esprit est donc un processus simulable               Cette derni re opinion constitue la position la plus engag e en faveur de l intelligence artificielle forte 
+Des auteurs comme Douglas Hofstadter  mais d j  avant lui Arthur C  Clarke ou Alan Turing        voir le test de Turing  expriment par ailleurs un doute sur la possibilit  de faire la diff rence entre une intelligence artificielle qui  prouverait r ellement une conscience  et une autre qui simulerait exactement ce comportement  voir Zombie  philosophie    Apr s tout  nous ne pouvons m me pas  tre certains que d autres consciences que la n tre  y compris chez des humains   prouvent r ellement quoi que ce soit  si ce n est par une p tition de principe qui sp cule que chaque humain se retrouve   l identique chez tous les autres  On retrouve l  le probl me connu du solipsisme en philosophie 
+M me si une intelligence artificielle forte n  tait gu re possible  une IA peut  tre de plus en plus per ue comme forte par une majorit  d individus parall lement   l arriv e des IA g n ratives  dont les LLM  de l anglais large language model  comme ChatGPT ou Google Bard  et les outils de g n ration d images comme Midjourney  DALL E ou Stable Diffusion  En effet  le champ d applications de ces outils est beaucoup plus large qu auparavant        cr ation  synth se  traduction de textes  composition d images  de vid os   partir de prompts  textes descriptifs  Il devient ainsi de plus en plus difficile pour un  tre humain de distinguer des cr ations humaines de celles provenant d une IA g n rative 
+Emily Bender estime que les grands mod les de langage comme ChatGPT ne font que r gurgiter plus ou moins al atoirement des morceaux de texte venant des corpus ayant servi   leur entra nement  sans en comprendre le sens  Elle les appelle ainsi des        perroquets stochastiques                      De m me  Jean Gabriel Ganascia consid re que le contenu qu ils produisent n est pas original et que leur utilisation dans la r daction d articles de recherche constitue une forme de plagiat               Ilya Sutskever consid re au contraire que ces mod les    force d  tre entra n s   pr dire le mot suivant  acqui rent une forme de        mod le du monde        et une repr sentation        compress e  abstraite et utilisable        des concepts              
+
+Intelligence artificielle faible modifier   modifier le code 
+Article d taill         Intelligence artificielle faible 
+La notion d intelligence artificielle faible constitue une approche pragmatique d ing nieur        chercher   construire des syst mes de plus en plus autonomes  pour r duire le co t de leur supervision   des algorithmes capables de r soudre des probl mes d une certaine classe  etc  Mais  cette fois  la machine simule l intelligence  elle semble agir comme si elle  tait intelligente 
+Les tenants de l IA forte admettent que s il y a bien dans ce cas simple simulation de comportements intelligents  il est ais  de le d couvrir et qu on ne peut donc g n raliser  En effet  si on ne peut diff rencier exp rimentalement deux comportements intelligents  celui d une machine et celui d un humain  comment peut on pr tendre que les deux choses ont des propri t s diff rentes        Le terme m me de        simulation de l intelligence        est contest  et devrait  toujours selon eux   tre remplac  par        reproduction de l intelligence        
+Si le terme intelligence artificielle peut d signer un syst me capable de r soudre plusieurs probl mes de fa on relativement autonome tout en ne faisant que simuler le principe d intelligence  il peut aussi d signer des syst mes capables de r soudre uniquement un type de probl me pour un jeu de donn es pr d fini               On peut donner pour exemple un syst me entrain    reconnaitre des chiffres  crits   la main  comme ceux utilis s par La Poste               qui malgr  sa grande performance sur sa t che  serait incapable de fonctionner sur un probl me sortant de ce pour quoi il a  t  con u  Ces intelligences artificielles  aussi nomm es        intelligences artificielles  troites         terme issu de l anglais narrow AI   sont con us pour effectuer une t che pr cise  contrairement   une intelligence artificielle g n rale              
+
+Question de l intelligence modifier   modifier le code 
+La d finition du terme        intelligence artificielle        pose une question fondamentale        Qu est ce que l intelligence                    
+L intelligence peut se d finir de mani re g n rale comme un ensemble de capacit s cognitives permettant de r soudre des probl mes ou de s adapter   un environnement              
+Le chercheur en IA Yann Le Cun avance que le noyau de l intelligence est la facult  de pr dire  Les bases de la programmation des premiers syst mes experts supposent de        ma triser parfaitement un probl me et d avoir une vue pr cise de toutes les solutions         afin d en programmer pr cis ment le comportement               Mais les syst mes d IA modernes   base d apprentissage automatique sont entra n s   pr dire la r ponse attendue  ou   g n rer une solution correcte  Leurs capacit s  mergent ainsi progressivement  par essai erreur  sans que le programmeur n ait besoin de fournir une solution algorithmique  ou m me de savoir comment r soudre le probl me               Dans tous les cas  l efficacit  de l intelligence artificielle d pend de sa capacit    r pondre aux objectifs donn s par les programmeurs et   tendre vers l autonomie d cisionnelle               ce qui pr suppose  entre autres  une capacit  de pr diction 
+Le philosophe John Searle consid re quant   lui que la facult  de comprendre est plus importante dans la d finition de l intelligence  Il essaie de d montrer la faiblesse des syst mes d intelligence artificielle et les limites du test de Turing  par son exp rience de la chambre chinoise  concluant               on ne devrait pas dire d une IA qu elle comprend les informations qu elle traite lorsqu elle manipule des r gles de syntaxe sans ma triser la s mantique  c est   dire sans reconna tre le sens des mots  La question de savoir si on peut parler d une v ritable intelligence reste donc ouverte                      L apprentissage automatique fonctionne cependant diff remment de l IA symbolique               qui  tait populaire   l  poque o  Searle a con u l exp rience de pens e de la chambre chinoise en                   
+
+Dans la fiction modifier   modifier le code 
+HAL      
+Article connexe        Liste d ordinateurs de fiction 
+Cat gorie connexe        Intelligence artificielle dans l art et la culture 
+Une machine ayant une conscience et capable d  prouver des sentiments        ou de faire comme si c  tait le cas        est un grand th me classique de la science fiction  notamment des romans d Isaac Asimov sur les robots              
+Ce sujet a toutefois  t  exploit  tr s t t  comme dans le r cit des aventures de Pinocchio  publi  en       o  une marionnette capable d  prouver de l amour pour son cr ateur cherche   devenir un vrai petit gar on  ou dans L Homme le plus dou  du monde  une nouvelle de l Am ricain Edward Page Mitchell o  le cerveau d un simple d esprit est remplac  par un ordinateur inspir  des recherches de Charles Babbage               Le roman Le Miroir flexible de R gis Messac propose quant   lui le principe d une intelligence artificielle faible  mais  volutive  avec des automates inspir s de formes de vie simples  r agissant   certains stimuli tels que la lumi re  Cette trame a fortement inspir  le film A I  Intelligence artificielle r alis  par Steven Spielberg  sur la base d id es de Stanley Kubrick  lui m me inspir  de Brian Aldiss               L  uvre de Dan Simmons  notamment le cycle d     Hyp rion   voque l intelligence artificielle  Destination vide  de Frank Herbert  met en sc ne de mani re fascinante l  mergence d une intelligence artificielle forte  Plus r cemment  l  crivain fran ais Christian L ourier a plac  une intelligence artificielle au c ur de son roman court Helstrid         dans lequel cette IA laisse un  tre humain mourir  contrevenant ainsi aux trois lois de la robotique instaur es par Isaac Asimov pr s de quatre vingts ans plus t t 
+Les andro des faisant preuve d intelligence artificielle dans la fiction sont nombreux        le personnage de Data de la s rie t l vis e Star Trek        The Next Generation est un  tre cybern tique dou  d intelligence  avec des capacit s importantes d apprentissage  Il est officier sup rieur sur le vaisseau Enterprise et  volue aux c t s de ses co quipiers humains qui l inspirent dans sa qu te d humanit   Son pendant cin matographique est Bishop dans les films Aliens        et Alien           Dans le manga Ghost in the Shell  une andro de s  veille   la conscience  Dans la saga Terminator avec Arnold Schwarzenegger  le T     reprogramm   con u initialement pour tuer  semble dans la capacit  d  prouver des sentiments humains  Par ailleurs  les Terminators successifs sont envoy s dans le pass  par Skynet  une intelligence artificielle qui a pris conscience d elle m me  et du danger que repr sentent les humains envers elle m me     r f       n cessaire      
+Dans le dernier  pisode de la saison    d Inspecteur Derrick  diffus  en        intitul  Un homme en trop  le Professeur R mer  jou  par Erich Hallhuber  veut arr ter ses recherches sur l intelligence artificielle  par peur du pouvoir sans conscience que cette nouvelle g n ration d ordinateurs pourrait avoir sur les humains en finissant par les dominer et les tuer  Il abat son successeur pour l emp cher de continuer son travail                                 c      
+
+Quelques IA c l bres dans la science fiction modifier   modifier le code 
+                  l Odyss e de l espace de Stanley Kubrick  inspir  de la nouvelle La Sentinelle d Arthur C  Clarke   galement auteur du sc nario du film  d crit notamment la lutte entre l ordinateur HAL et l humain Dave 
+            Le Cerveau d acier  d apr s le roman de Dennis Feltham Jones       en  de       montre un syst me d IA militaire am ricain contacter son homologue russe pour qu ils coop rent   leur mission commune   viter la guerre nucl aire  en neutralisant les humains  
+            dans Blade Runner de Ridley Scott  inspir  d un roman de Philip K  Dick  des humains artificiels  des        r pliquants         reviennent sur terre apr s une mission spatiale  mais n acceptent pas leur mort programm e   la suite du succ s de leur mission 
+            dans K       une Pontiac Trans Am embarque une intelligence artificielle au nom de KITT  con ue pour r aliser des diagnostics pour les dossiers de la F L A G  Elle ne peut ressentir des  motions  ne peut porter atteinte   la vie d autrui et n  coute que les ordres de Michael Knight  Une partie de l histoire repose sur l importance de la programmation  notamment   travers son jumeau mal fique et prototype K A R R  dont la principale diff rence est d avoir un instinct de survie qui pr domine 
+            Tron de Steven Lisberger  o  le Ma tre contr le principal  MCP  est un programme d  checs qui a  volu  en IA et tente de prendre le contr le total du syst me 
+            D A R Y L  est un andro de que le gouvernement am ricain cherche   d truire 
+            Matrix  trilogie cin matographique de science fiction dans laquelle les humains  enferm s dans un monde cr   par l IA  sont asservis par les machines  Une petite poche de r sistance humaine r siste et se bat encore dans l espoir de la venue de l  lu        Neo 
+            L Homme bicentenaire  o  un exemplaire de NDR     d nomm         Andrew        poursuit un long chemin vers l acquisition de la conscience  au point de se voir reconnaitre le statut d  tre humain   la fin de sa        vie         Il s agit d une adaptation de la nouvelle  ponyme d Isaac Asimov 
+            A I  Intelligence artificielle de Steven Spielberg  inspir  de la nouvelle de Brian Aldiss Les Supertoys durent tout l  t   Le personnage central est un enfant robot dou  d  motions et de sentiments 
+                   Code Lyoko dessin anim  o  une I A appel e X A N A tente de prendre le contr le du r seau mondial apr s avoir acc d    la conscience 
+            I  Robot  inspir  de l  uvre de Isaac Asimov et th me semblable au film AI 
+            J A R V I S   Just A Rather Very Intelligent System  dans les films Iron Man  Avengers  etc  avec Robert Downey Jr   inspir  des comics de Marvel 
+                 la s rie t l vis e Person of Interest met en sc ne un groupe de personnes guid es par une intelligence artificielle capable de pr dire des crimes 
+                 la s rie t l vis e Real Humans                   humain d crit l  mergence de robots dou s de conscience au sein de la soci t  humaine 
+            Ex Machina de Alex Garland  dans lequel un test de Turing d une semaine va d g n rer en faveur d un robot f minin  gyno de  r volutionnaire 
+            la s rie t l vis e Westworld met en sc ne des andro des   l apparence humaine qui commencent   adopter des comportements impr visibles              
+            dans la mini s rie Class of      l IA est utilis e par le FBI pour r soudre des enqu tes 
+Utilisation dans les jeux modifier   modifier le code 
+Article d taill         Intelligence artificielle dans le jeu vid o 
+Les jeux  notamment les jeux de strat gie  ont marqu  l histoire de l intelligence artificielle  m me s ils ne mesurent que des comp tences particuli res  telles que la capacit  de la machine en mati re de calcul de probabilit s  de prise de d cision mais aussi d apprentissage 
+Hans Berliner              docteur en science informatique   l universit  Carnegie Mellon et joueur d  checs  fut l un des pionniers de la programmation pour les ordinateurs de jeu  Ses travaux commenc rent par un programme capable de battre un humain professionnel au backgammon  puis    partir des ann es      et avec l aide d IBM  il fit des recherches pour cr er un programme capable de rivaliser avec des grands ma tres du jeu d  checs  Ses travaux contribu rent quelques d cennies plus tard   la r alisation du supercalculateur Deep Blue              
+Outre la capacit  des jeux   permettre de mesurer les performances de l intelligence artificielle  que ce soit au travers d un score ou d un affrontement face   un humain  les jeux offrent un environnement propice   l exp rimentation pour les chercheurs  notamment dans le domaine de l apprentissage par renforcement              
+
+Othello modifier   modifier le code 
+Dans le jeu Othello  sur un plateau de   cases sur    chaque joueur place tour   tour des pions de sa couleur  noir ou blanc   Le vainqueur est celui qui poss de les pions de la couleur dominante 
+L une des premi res intelligences artificielles pour l Othello est IAGO  d velopp e en      par l universit  Caltech de Pasadena  Californie   qui bat sans difficult s le champion japonais Fumio Fujita 
+Le premier tournoi d Othello opposant des hommes   des machines est organis  en       Un an plus tard  un nouveau tournoi de programmes regroupe    syst mes               C est entre      et      que le nombre de programmes explose        Darwersi             par Olivier Arsac  Hannibal        par Martin Piotte et Louis Geoffroy  Keyano        par Mark Brockington  Logistello        par Michael Buro  etc 
+
+ checs modifier   modifier le code 
+Articles d taill s        Programme d  checs et Matchs Deep Blue contre Kasparov 
+Un supercalculateur IBM similaire   Deep Blue  qui a battu le champion du monde d  checs en titre dans un match en      
+En       le ma tre international anglais David Levy lan a un d fi   des sp cialistes en intelligence artificielle  leur pariant qu aucun programme informatique ne serait capable de le battre aux  checs dans les dix ann es   venir  Il remporta son pari  n  tant finalement battu par Deep Thought qu en                   
+En       l ordinateur HiTech de Hans Berliner est le premier programme   battre un grand ma tre du jeu d  checs  Arnold Denker     ans  en match                             d      
+En       le supercalculateur con u par IBM  Deep Blue  surnomm  Deeper Blue lors de ce match revanche   bat Garry Kasparov           et marque un tournant        pour la premi re fois  le meilleur joueur humain du jeu d  checs est battu en match  et non lors d une partie unique  par une machine 
+En d cembre       une version g n raliste d AlphaGo Zero  le successeur du programme AlphaGo de DeepMind     e       nomm e AlphaZero  est d velopp e pour jouer   n importe quel jeu en connaissant seulement les r gles  et en apprenant   jouer seul contre lui m me  Ce programme est ensuite entra n  pour le go  le shogi et les  checs  Apr s   heures d entra nement  AlphaZero bat le programme d  checs Stockfish  leader dans son domaine   avec un score de    victoires     nulles et aucune d faite  Il faut cependant noter que la puissance de calcul disponible pour AlphaZero    TPU v  pour jouer  soit une puissance de calcul de     Teraflops   tait tr s sup rieure   la puissance disponible de Stockfish pour ce match  ce dernier tournant sur un ordinateur  quip  de seulement    c urs Intel               AlphaZero a  galement battu  apr s apprentissage  le programme de sh gi Elmo       en                             
+
+Go modifier   modifier le code 
+Articles d taill s        Go en informatique et Match AlphaGo   Lee Sedol 
+En       l IA r alise des progr s significatifs dans la pratique du go  plus complexe   appr hender que les  checs  entre autres   cause du plus grand nombre de positions              au go  contre      pour les  checs  et de parties plausibles              au go  contre       pour les  checs               
+En octobre       AlphaGo  un logiciel d IA con u par DeepMind  filiale de Google  bat pour la premi re fois Fan Hui  le triple champion europ en de go              et ainsi rel ve ce qu on consid rait comme l un des plus grands d fis pour l intelligence artificielle  Cette tendance se confirme en mars      quand AlphaGo bat par trois fois cons cutives le champion du monde de la discipline  Lee Sedol  dans un duel en cinq parties               Lee Sedol a d clar  au terme de la seconde partie qu il n avait trouv         aucune faiblesse        chez l ordinateur et que sa d faite  tait        sans  quivoque        
+
+Jeopardy  modifier   modifier le code 
+R plique de Watson  lors d un concours de Jeopardy 
+En       l IA Watson con ue par IBM bat ses adversaires humains au jeu t l vis  am ricain Jeopardy   Dans ce jeu de questions r ponses  la compr hension du langage est essentielle pour la machine        pour ce faire  Watson a pu s appuyer sur une importante base de donn es interne lui fournissant des  l ments de culture g n rale  et avait la capacit  d apprendre par lui m me  notamment de ses erreurs  Il disposait n anmoins d un avantage  la capacit  d appuyer instantan ment  et donc avant ses adversaires humains  sur le buzzer pour donner une r ponse              
+
+Poker modifier   modifier le code 
+Article connexe        Libratus 
+En       Polaris est le premier programme informatique   gagner un tournoi de poker significatif face   des joueurs professionnels humains                            
+En       lors du tournoi de poker        Brains Vs  Artificial Intelligence        Upping the Ante                Cerveau contre Intelligence Artificielle        on monte la mise         organis  dans un casino de Pennsylvanie  l intelligence artificielle Libratus  d velopp e par des chercheurs de l universit  Carnegie Mellon de Pittsburgh  est confront e   des adversaires humains dans le cadre d une partie marathon  tal e sur    jours               Les joueurs humains oppos s   Libratus  tous professionnels de poker  affrontent successivement la machine dans une partie en face   face  heads up       en   selon les r gles du        No Limit Texas hold em         no limit signifiant que les mises ne sont pas plafonn es   la version alors la plus courante du poker  Les parties sont retransmises en direct et durant huit heures par jour sur la plateforme Twitch              
+Au terme de plus de                   mains jou es  Libratus remporte tous ses duels face aux joueurs humains et accumule                          dollars  virtuels   Le joueur humain ayant perdu le moins d argent dans son duel face   la machine  Dong Kim  est tout de m me en d ficit de plus de                  dollars  Dans leurs commentaires du jeu de leur adversaire  les joueurs humains admettent que celui ci  tait   la fois d concertant et terriblement efficace  En effet  Libratus         tudiait        chaque nuit  gr ce aux ressources d un supercalculateur situ    Pittsburgh  ses mains jou es durant la journ e  coul e  utilisant les    millions d heures processeur de calculs du supercalculateur              
+La victoire  nette et sans bavure  illustre les progr s accomplis dans le traitement par l IA des        informations imparfaites         o  la r flexion doit prendre en compte des donn es incompl tes ou dissimul es  Les estimations du nombre de possibilit s d une partie de poker sont en effet d environ       dans la variante no limit en face   face              
+Auparavant  en       le joueur professionnel Doug Polk       en  avait remport  la premi re  dition de cet  v nement contre une autre IA  baptis e Claudico       en               
+
+Bridge modifier   modifier le code 
+Article d taill         Logiciel de bridge 
+En mars       un logiciel de bridge de la start up fran aise Nukkai parvient   gagner un tournoi et   expliquer aux perdants leurs erreurs              
+
+Notes et r f rences modifier   modifier le code 
+ en  Cet article est partiellement ou en totalit  issu de l article de Wikip dia en anglais intitul         Artificial intelligence         voir la liste des auteurs  
+Notes modifier   modifier le code 
+
+   en         the building of computer programs which perform tasks which are  for the moment  performed in a more satisfactory way by humans because they require high level mental processes such as  perception learning  memory organization and critical reasoning        
+
+  DarkBert a  t  initialement con u comme un outil de lutte contre le cybercrime 
+
+  Dans cet  pisode  l  change entre Derrick et le Pr Rotheim  Ernst Schr der  vers                      Le Dr R mer doutait sur le bien fond  des recherches sur l intelligence artificielle         puis                 On fait une caricature de l intelligence qui n a pas de morale         puis vers         madame R mer  change avec Derrick               Il craignait que       L intelligence artificielle pr sente de trop gros risques    consultable sur YouTube ou le DVD Inspecteur Derrick   Int grale saison    
+
+  Arnold Denker  tait alors  g  de    ans et cr dit  d un classement Elo de       ce qui relativise un peu la performance du programme  un fort grand ma tre  tant   cette  poque plus vers les                            points Elo  voire davantage 
+
+  Voir plus bas dans la section        Go        
+
+
+
+R f rences modifier   modifier le code 
+
+
+  minist re de l Enseignement sup rieur et de la Recherche         France intelligence artificielle         PDF      mars       version du    mars      sur Internet Archive  
+
+         Les applications les plus populaires de l Intelligence Artificielle  IA          sur PandIA     mars       consult  le    mai       
+
+   en         Rulers of the world  unite  The challenges and opportunities of artificial intelligence         sur sciencedirect com  janvier      
+
+         Qu est ce que l intelligence artificielle  IA                 sur IBM  consult  le   avril       
+
+         Intelligence artificielle         sur Larousse  consult  le    ao t       
+
+   en  Russell  S  et Norvig  P   Artificial Intelligence  A Modern Approach   nd ed    Prentice Hall                 p   ISBN                      section     
+
+         Intelligence artificielle  machine learning  deep learning        k zako                sur ledigitalab com    octobre      
+
+  a et b  en  Centre commun de recherche  Sofia Samoili  Montserrat L pez Cobo et Blagoj Delipetrev  AI watch  defining artificial intelligence            towards an operational definition and taxonomy for the AI landscape  Office des publications de l Union europ enne                 p   ISBN                         ISSN                 DOI                      
+
+   en         A definition of Artificial Intelligence  main capabilities and scientific disciplines         Shaping Europe s digital future     d cembre       consult  le    ao t       
+
+  a et b Kathleen Desveaud  L Intelligence Artificielle d crypt e        Comprendre les enjeux et risques  thiques de l IA pour mieux l appr hender  EMS                 p   ISBN                  
+
+  a b c d et e Mark Esposito  Kariappa Bheemaiah et Terence Tse         Vous avez dit        machine learning               Quand l ordinateur apprend   apprendre         sur theconversation com   er mai       consult  le   janvier       
+
+  Daniel Nelson         Qu est ce que la r tropropagation                sur unite ai     ao t       consult  le   janvier       
+
+   en  Nick Heath         What is machine learning  Everything you need to know         sur ZDNet  consult  le   janvier       
+
+   milie Dedieu         Comment l apprentissage auto supervis  acc l re l intelligence artificielle         L Usine nouvelle            avril       lire en ligne  consult  le   janvier       
+
+  Antoine Crochet Damais         R seau de neurones artificiels        r seaux neuronaux pour l IA         sur Le Journal du Net     juin       consult  le   janvier       
+
+  a et b        Qu est ce qu un r seau de neurones convolutifs                sur IBM  consult  le   janvier       
+
+   en  Ram Sagar         Can We Speed Up Matrix Multiplication          sur Analytics India Magazine     septembre       consult  le   janvier       
+
+   en  Kurt Hornik  Maxwell Stinchcombe et Halbert White         Multilayer Feedforward Networks are Universal Approximators         Neural Networks               lire en ligne      PDF       
+
+         Deux types de neurones artificiels pour  muler le cerveau         sur The Conversation    janvier       consult  le   f vrier      
+
+  Stephane Nachez         Qu est ce que le Deep Learning                sur ActuIA    f vrier       consult  le   janvier       
+
+   en  Sharon Goldman            years later  deep learning  revolution  rages on  say AI pioneers Hinton  LeCun and Li         sur VentureBeat     septembre       consult  le   janvier       
+
+  a et b  en  Sean Michael Kerner         What are Large Language Models          sur TechTarget  consult  le   janvier       
+
+   en  Craig S  Smith         ChatGPT   Creator Ilya Sutskever on AI Hallucinations and AI Democracy         sur Forbes     mars       consult  le   janvier       
+
+   en  Aayush Mittal         NLP Rise with Transformer Models  A Comprehensive Analysis of T   BERT  and GPT         sur Unite ai    novembre       consult  le   janvier       
+
+         Microsoft annonce l int gration de la technologie GPT   dans ses outils Word  Excel  Outlook et Teams         Le Monde            mars       lire en ligne  consult  le   janvier       
+
+   en  Beatrice Nolan         Here s what we know so far about Google s Gemini         sur Business Insider    d cembre       consult  le   janvier       
+
+  a b et c Russell et Norvig       chapitre   
+
+  Russell et Norvig       chapitre   
+
+  Russell et Norvig       chapitre   
+
+  Russell et Norvig       chapitre     
+
+  a b et c Russell et Norvig       chapitres        
+
+   en         What is  fuzzy logic   Are there computers that are inherently fuzzy and do not apply the usual binary logic          sur Scientific American  consult  le   janvier       
+
+  Russell et Norvig       chapitre    
+
+  a b et c Russell et Norvig      
+
+         Qu est ce que la simulation de Monte Carlo                sur IBM  consult  le   janvier       
+
+   en  Vijaysinh Lendave         A Beginners  Guide to Cross Entropy in Machine Learning         sur Analytics India Magazine     septembre       consult  le   janvier       
+
+  Kassidy Kelley et Ga tan Raoul         Machine Learning        les   types d algorithmes les plus pertinents en entreprise         sur LeMagIT    juin       consult  le   janvier       
+
+  Russell et Norvig       chapitre    
+
+   en  HP Newquist  The Brain Makers        Genius  Ego  And Greed in the Quest For Machines That Think  New York  Macmillan SAMS  ISBN                          p          
+
+   en  Matthew Kressel            Days of Judaic Myth  Day     The Golem of Prague          er octobre       consult  le    d cembre       
+
+  a et b  en  Pamela McCorduck  Machines Who Think                 p   ISBN                     
+
+  Jacques Henno                     et l intelligence artificielle devint une science         sur Les  chos     ao t       consult  le    juin       
+
+   en  Daniel Crevier  AI  The Tumultuous Search for Artificial Intelligence  New York  BasicBooks         ISBN                          p          
+
+  a b et c  en  Nick Bostrom  Superintelligence        paths  dangers  strategies  Oxford University Press                 p   ISBN                         lire en ligne   p           
+
+  Antoine Crochet Damais         AI winter        qu est ce que l hiver de l IA                sur Le Journal du Net    janvier       consult  le    d cembre       
+
+   en  Pamela McCorduck  Machines Who Think                 p   ISBN                      p           
+
+         Un cerveau artificiel annonc  dans dix ans         Le Figaro    septembre      
+
+   en         Rogue superintelligence and merging with machines  Inside the mind of OpenAI s chief scientist         sur MIT Technology Review  consult  le    d cembre       
+
+   en  Cade Metz  Karen Weise  Nico Grant et Mike Isaac         Ego  Fear and Money  How the A I  Fuse Was Lit         The New York Times           d cembre       ISSN                 lire en ligne  consult  le    d cembre       
+
+         OpenAI        l association de recherche ouverte d Elon Musk devient une entreprise ferm e         Les  chos     mars       consult  le    d cembre       
+
+  Nicolas P  Rougier         Votre chat est plus intelligent qu une IA         sur Slate     octobre       consult  le    octobre       
+
+  Stephane Nachez         Yann LeCun  Geoffrey Hinton et Yoshua Bengio re oivent le prix Turing         sur ActuIA  consult  le    d cembre       
+
+   en         Fathers of the Deep Learning revolution receive      ACM A M  Turing Award         sur acm org  consult  le    d cembre       
+
+   en  Laurie Clarke         When AI can make art   what does it mean for creativity          The Observer            novembre       ISSN                 lire en ligne  consult  le    d cembre       
+
+   en  Grace Kay         The history of ChatGPT creator OpenAI  which Elon Musk helped found before parting ways and criticizing         sur Business Insider  consult  le    d cembre       
+
+  Liam Tung         ChatGPT devient l application   la croissance la plus rapide de tous les temps         sur ZDNet France    f vrier       consult  le    d cembre       
+
+  Beno t Mathieu         Voici les enjeux de la course   l intelligence artificielle         L  cho           juin       lire en ligne  
+
+  Alexandre Piquard         L intelligence artificielle serait aussi dangereuse que        les pand mies ou la guerre nucl aire         selon des leaders du secteur         Le Monde            mai       lire en ligne  consult  le    d cembre       
+
+   en  Beatrice Nolan         Here s what we know so far about Google s Gemini         sur Business Insider  consult  le    d cembre       
+
+         Avec GPT  o  OpenAI ouvre les vannes du multimodal         sur Le Monde Informatique     mai       consult  le    octobre       
+
+  a et b Pitpitt         Intelligence artificielle g n rale         sur DataFranca  consult  le    avril       
+
+   en US         OpenAI Charter         sur OpenAI  consult  le    avril       
+
+  a et b  en  Philip Boucher pour le Scientific Foresight Unit  STOA  au parlement Europ en         How artificial intelligence works         sur Parlement europ en  mars       consult  le   juillet        p         
+
+  S bastien Bubeck  Varun Chandrasekaran  Ronen Eldan et Johannes Gehrke         Sparks of Artificial General Intelligence  Early experiments with GPT           arXiv            mars       arXiv      abs             
+
+  Jaesa         GPT   pr sente des  tincelles d intelligence artificielle g n rale         sur Intelligence artificielle et transhumanisme     mars       consult  le    avril       
+
+   en US              Expert Survey on Progress in AI         sur AI Impacts    ao t       consult  le    avril       
+
+  Max Roser         AI timelines  What do experts in artificial intelligence expect for the future          Our World in Data            octobre       lire en ligne  consult  le    novembre       
+
+         Superintelligence         sur datafranca  consult  le    d cembre       
+
+   en  Nick Bostrom  Superintelligence  paths  dangers  strategies  Oxford University Press        ISBN                                 Sources of advantage for digital intelligence        
+
+  Antoine Crochet Damais         Test de Turing        d finition  principe  cas r ussis  date          sur Le Journal du Net     juillet       consult  le    d cembre       
+
+   en  Olga Blinova         Artificial intelligence  No humor  no coffee         sur Invesforesight     novembre       consult  le    ao t       
+
+   en  Disha Misal           Ways To Test Whether AGI Has Truly Arrived         sur Analytics India Magazine     d cembre       consult  le    ao t       
+
+   en  Nils John Nilsson         Human Level Artificial Intelligence  Be Serious          AI Magazine  Universit  Stanford               lire en ligne      PDF       
+
+         Le prix Turing r compense trois pionniers de l intelligence artificielle  IA          Le Monde            mars       lire en ligne  consult  le    ao t       
+
+   en  Rodney Brooks         How Claude Shannon Helped Kick start Machine Learning         sur spectrum ieee org     janvier       consult  le    mars      
+
+   en         The     Most Influential People in AI              sur Time  consult  le   novembre       
+
+  Corentin Durand         Saurez vous entendre la diff rence entre Bach et l IA musicale DeepBach                sur Numerama com     d cembre      
+
+   en US         Polyphonic music generation in the style of Bach         sur flow machines com  consult  le   juin       
+
+         Intelligence artificielle et sant          sur Inserm  consult  le   juin       
+
+         Intelligence artificielle        quel avenir pour les grands mod les de langage                Le Monde            janvier       lire en ligne  consult  le   juin       
+
+         Bient t un hedge fund contr l  par intelligence artificielle                BFM TV     mars      
+
+         Trading haute fr quence         sur La finance pour tous  consult  le    ao t       
+
+  Eric Autellet et Alexandre Papaemmanuel         L intelligence artificielle transforme les paradigmes traditionnels de la guerre         Le Monde            janvier       lire en ligne  consult  le   f vrier       
+
+  Cyril Bras         L Impact transformateur de l intelligence artificielle sur la cybers curit          sur Le Journal du Net    novembre       consult  le   f vrier       
+
+  a et b  en  Robert Solano         ChatGPT in DOD acquisitions         USAASC            mai       lire en ligne  
+
+   en         Project Maven to Deploy Computer Algorithms to War Zone by Year s End         sur D partement de la D fense des  tats Unis     juillet       consult  le   f vrier       
+
+  Nathalie Guibert         Les d fis militaires de l intelligence artificielle         Le Monde            octobre       lire en ligne  consult  le   f vrier       
+
+  Marie Claude Benoit         Robots tueurs        Human Rights Watch appelle les  tats ayant sign  la r solution de l ONU   l action         sur ActuIA    janvier       consult  le   f vrier       
+
+  Cl ment Poursain         Les drones ukrainiens pilot s par l IA pourraient tuer sans qu on leur en donne l ordre         sur Korii     octobre       consult  le   f vrier       
+
+   en  Sam Biddle         OpenAI Quietly Deletes Ban on Using ChatGPT for  Military and Warfare          sur The Intercept     janvier       consult  le   f vrier       
+
+  Task Force IA  L intelligence artificielle au service de la d fense        lire en ligne      PDF       
+
+         L intelligence artificielle et le monde de la d fense         sur entreprises gouv fr  consult  le   f vrier       
+
+  Alice Vitard         Le Comit  d  thique de la d fense approuve sous conditions les armes l tales autonomes         L Usine digitale           mai       lire en ligne  consult  le   f vrier       
+
+  minist re de l Europe et des Affaires  trang res         Syst mes d armes l tales autonomes  quelle est l action de la France                sur diplomatie gouv fr  minist re de l Europe et des Affaires  trang res  consult  le   f vrier       
+
+         Le minist re des Arm es d ploie son IA g n rative s curis e et souveraine        GenIAl intradef         sur ActuIA  consult  le    f vrier      
+
+   en US  Amjad Iraqi          Lavender   The AI machine directing Israel s bombing spree in Gaza         sur      Magazine    avril       consult  le   avril      
+
+  a et b  en GB  Harry Davies  Bethan McKernan et Dan Sabbagh          The Gospel   how Israel uses AI to select bombing targets in Gaza         The Guardian          er d cembre       lire en ligne  consult  le   d cembre       
+
+         Le recours   l intelligence artificielle par Isra l augmente t il le nombre de Gazaouis tu s                sur France Culture     d cembre       consult  le  er janvier       
+
+   en         Israel Loosened Its Rules to Bomb Hamas Fighters  Killing Many More Civilians         sur New York Times     d cembre       consult  le  er janvier       
+
+         L intelligence artificielle  as du diagnostic m dical         Le Monde           octobre       lire en ligne  consult  le    juin       
+
+         Maladies de l  il        l intelligence artificielle meilleure que les m decins                Les  chos            ao t       lire en ligne  
+
+  Nathan Mann         Une intelligence artificielle de Google d noue le probl me cinquantenaire du repliement des mol cules         L Usine nouvelle            novembre       lire en ligne  consult  le    janvier       
+
+  Fran ois Manens         Google vient il de r soudre un probl me vieux de    ans en biologie                sur Numerama   er d cembre       consult  le    janvier       
+
+  Sandrine Cabut  Alexandre Piquard et Martin Untersinger         Controvers  et retard   le Health Data Hub veut pourtant faire ses preuves dans la sant          Le Monde            janvier       lire en ligne  consult  le    janvier       
+
+   en  Hilary Brueck         The newest version of ChatGPT passed the US medical licensing exam with flying colors   and diagnosed a   in         condition in seconds         sur Business Insider    avril       consult  le    janvier       
+
+   en  Kelly N  DuBois         DEEP MEDICINE  How Artificial Intelligence Can Make Healthcare Human Again         septembre      
+
+  Scott Mayer McKinney  Marcin Sieniek         International evaluation of an AI system for breast cancer screening            octobre      
+
+  Dr Jean Fran ois Lemoine         R volution dans le d veloppement de m dicaments gr ce   l IA       
+
+   en  Andre Esteva         Dermatologist level classification of skin cancer with deep neural networks         Nature            juin       lire en ligne  
+
+  Alexandre Boero         La police britannique travaille sur une IA qui sera capable de devancer votre crime         sur Clubic    d cembre      
+
+   en  Stephen Buranyi         The rise of the racist robots         The Guardian    aout      
+
+  Romaric Saint Aubert         Quand l IA devient l arme du crime          sur Business Community com   er ao t      
+
+         Justice Pr dictive        de l id e   la r alit          sur justice predictive com  consult  le    janvier       
+
+  a et b Harold Grand         En Estonie  une intelligence artificielle va rendre des d cisions de justice         sur Le Figaro   er avril       consult  le    juin       
+
+         Les avocats face   la r volution num rique  S adapter pour rebondir         sur Atlantico fr  consult  le    ao t       
+
+  Vincent Bouquet         Supply chain        l intelligence artificielle  une promesse de levier d am lioration         sur Les Echos Executives    novembre       consult  le    juin       
+
+         Urbanloop   smart urban mobility         sur urbanloop univ lorraine fr  consult  le    juin       
+
+         Google Maps roule   l IA pour optimiser la navigation         sur journaldunet com  consult  le    juillet       
+
+  St phanie Condon         Vid o        comment l intelligence artificielle a contribu    am liorer Google Maps         sur ZDNet France  consult  le    juillet       
+
+  Larry Dignan         Facebook associe son service Map With AI au projet OpenStreetMap         sur ZDNet France  consult  le    juillet       
+
+  Acatech      
+
+  a b et c        Les enjeux de l intelligence artificielle dans la robotique         Journal Innovations et Technologies  no                  juillet ao t       p       I VI  lire en ligne      PDF       consult  le   f vrier       
+
+  Am lie Cordier  Introduction   l intelligence artificielle d veloppementale  cours   Laboratoire d informatique en image et syst mes d information          p   lire en ligne      PDF       
+
+  Michel Bret  Edmond Couchot et Patrice Besnard  restauration          Les Pissenlits         vid o de l installation interactive  dur e        min             s  sur Universit  Paris VIII        consult  le    juin       
+
+  Living art        L art num rique  CNRS  ditions  pr sentation en ligne  
+
+         Obvious  les Fran ais derri re la premi re peinture d une IA vendue aux ench res         sur France        octobre      
+
+         Une peinture  r alis e par une Intelligence artificielle  mise aux ench res         sur objetconnecte net  consult  le    novembre       
+
+  Floriane Leclerc         Que sont les GANs  ces syst mes de machine learning   l origine des deepfakes                L Usine Digitale            novembre       lire en ligne  consult  le    f vrier      
+
+         Arts        l autre Terre de Gr gory Chatonsky au Palais de Tokyo         Le Monde            juin       lire en ligne  consult  le    ao t       
+
+         OpenAI s DALL E creates plausible images of literally anything you ask it to         sur TechCrunch    janvier       consult  le    avril       
+
+         ChatGPT et Midjourney font  voluer vos pratiques professionnelles        Racontez nous         Le Monde           avril       lire en ligne  consult  le   juin       
+
+  Victor Vasseur         Les fausses images de Macron en  boueur et de Trump en prison montrent l incroyable potentiel de l IA         sur France Inter     mars       consult  le   juin       
+
+         Cette fausse photo du pape Fran ois en doudoune blanche est devenue virale  voici son histoire         sur Ouest France fr     mars       consult  le   juin       
+
+   en  Jordan Hart  The AI program used to generate fake viral images of Pope Francis and Donald Trump just suspended free trials   but professional photographers say they re still concerned  Business Insider     mars       Business Insider 
+
+  Cl mentine Mercier         Intelligence artificielle         Le droit d auteur prot ge une cr ation pr cise  mais pas une mani re de cr er          sur Lib ration     d cembre       consult  le    novembre       
+
+  Photos cr  es par des IA        une bascule vertigineuse et dangereuse  Jonathan Bouchet Petersen     mars       Lib ration               Emmanuel Macron ramassant les poubelles  le Pape en doudoune blanche type Bibendum  Donald Trump se d battant au milieu de policiers venus l arr ter  Ces images ont en commun d avoir  t  g n r es par des intelligences artificielles        
+
+  St phanie Lemoine         Gr gory Chatonsky               L intelligence artificielle est une nouvelle fa on de naviguer dans la culture humaine                sur Le Journal Des Arts     ao t       consult  le    f vrier       
+
+         Au Japon  une autrice laur ate d un prix litt raire dit avoir  crit en partie son roman avec ChatGPT         sur Lib ration     janvier       consult  le    f vrier       
+
+         Avec Sora  OpenAI impressionne dans la g n ration de vid o         sur Le Monde informatique     f vrier       consult  le    f vrier       
+
+   en  Vandana Nair         AI Music Platform Race Accelerates with Udio         sur Analytics India Magazine     avril       consult  le    avril      
+
+         Comment l intelligence artificielle va t elle changer notre vie quotidienne                sur Robots  amp  Cie     novembre       consult  le    janvier       
+
+         Quand l IA aide les d veloppeurs   programmer         sur Microsoft  consult  le    janvier       
+
+  Ivan Capecchi         M dias  faites GAFA   l IA                L ADN eu            mai       lire en ligne  
+
+         La premi re animatrice t l  virtuelle fait ses d buts en Cor e du Sud         sur   minutes fr  consult  le    novembre       
+
+   en US         The A I  Chair         sur Gessato     avril       consult  le    f vrier       
+
+         Bill Gates         sur Encyclop dia Universalis  consult  le    octobre       
+
+         Intelligence artificielle  les d fis actuels et l action d Inria         sur INRIA        consult  le    d cembre       
+
+                Intelligence artificielle  intelligence humaine        la double  nigme         de Daniel Andler        chim riques machines qui pensent         Le Monde           juin       lire en ligne   consult  le    juin       
+
+   en  Irving John Good         Speculations Concerning the First Ultraintelligent Machine         Advances in Computers  vol                p             
+
+   en  Vernor Vinge         The coming technological singularity  How to survive in the post human era         NASA          er d cembre       lire en ligne  consult  le   mars      
+
+  a et b Ray Kurzweil  trad       Adeline Mesmin   Humanit       la bible du changement  M          ISBN                        
+
+   en  Raffi Khatchadourian         The Doomsday Invention         sur The New Yorker     novembre       consult  le   mars      
+
+         Sommet sur les risques de l intelligence artificielle        ce que l on sait du programme         sur Ouest France fr   er novembre       consult  le   mars      
+
+  R mi Sussan         Stephen Hawking craint l intelligence artificielle  Et s il avait tort                sur nouvelobs com    f vrier       consult  le    avril       
+
+         Selon Stephen Hawking  l intelligence artificielle est un danger pour l humanit          sur webdeveloppementdurable com  consult  le    f vrier       
+
+  Alexandre Piquard         Intelligence Artificielle Web Summit         Le Monde     novembre      
+
+  L intelligence artificielle inqui te les grands cerveaux contemporains  France       f vrier      
+
+         L intelligence artificielle pourrait mettre     de l humanit  au ch mage         sur L Express     f vrier       version du   mai      sur Internet Archive  
+
+   en  Joe McKendrick         Let s Make Artificial Intelligence  Boring  Again         sur Forbes  consult  le    f vrier       
+
+   en  Nick Bostrom         What happens when our computers get smarter than we are             avril       consult  le    avril                     We should not be confident in our ability to keep a superintelligent genie locked up in its bottle forever  Sooner or later  it will out  I believe that the answer here is to figure out how to create superintelligent A I  such that even if when it escapes  it is still safe because it is fundamentally on our side because it shares our values        
+
+  DR         L intelligence artificielle devient de plus en plus incompr hensible         sur Paris Match    novembre      
+
+         L IA pourrait poser un        risque d extinction        pour l humanit   affirment     experts         sur Les  chos     mai       consult  le   novembre       
+
+  Kevin Roose         Vie num rique  L IA constitue un        risque d extinction        pour l humanit          La Presse  traduit depuis The New York Times             mai       lire en ligne  consult  le   novembre       
+
+  Lewis Mumford  Le Mythe de la machine  deux volumes             tard   Fayard       
+
+  Jacques Ellul  La Technique ou l Enjeu du si cle         e       dition        Economica      
+
+  G nther Anders  L obsolescence de l homme  tome          tome          tard  fr      et      
+
+  Pi ces et Main d  uvre Site officiel 
+
+  Technologos Site officiel 
+
+  Fran ois Jarrige  Techno critiques  Du refus des machines   la contestation des technosciences  La D couverte       
+
+         Intelligence artificielle        les risques d une utilisation malveillante         Futura     f vrier       consult  le    f vrier       
+
+  Damien Licata Caruso         L intelligence artificielle g n rative  ce monstre  nergivore qui inqui te         sur leparisien fr    juillet       consult  le   septembre       
+
+  a et b        La climatisation et le boom de l IA vont ils faire d railler les engagements climatiques des  tats                The conversation        consult  le    novembre       
+
+  Le nucl aire  une planche de salut  nerg tique pour l IA  Le Monde informatique     juillet      
+
+  Les g ants du num rique se convertissent au nucl aire pour  tancher les besoins  nerg tiques toujours plus importants de l IA  le monde fr     septembre     
+
+  a et b  en         The open source AI boom is built on Big Tech s handouts  How long will it last          sur MIT Technology Review  consult  le    avril       
+
+   en  Kyle Wiggers         Google open sources tools to support AI model development         sur TechCrunch    avril       consult  le    avril       
+
+         La majorit  des efforts de Mozilla pour donner de l  lan au mouvement sont orient s vers le d veloppement d une intelligence artificielle  IA  digne de confiance          La sant  d Internet  Mozilla Foundation        consult  le    avril       
+
+  Pierre Fontaine         Comment la fondation Mozilla veut cr er une IA de confiance pour nous sauver des g ants de la tech         sur   net     mars       consult  le    avril       
+
+   en         AI startup Mistral launches a    GB AI model to rival OpenAI  Meta  and Google         sur ZDNet     avril       consult  le    avril       
+
+   en  Alex McFarland et Antoine Tardif           Best Open Source LLMs  April               sur Unite ai   er avril       consult  le    avril       
+
+  a et b        L  quilibre d licat entre s curit  et innovation dans l IA               bannir les mod les  open weights  serait un d sastre        selon un chercheur         sur Developpez com    avril       consult  le    avril       
+
+   en  Matt Marshall         How enterprises are using open source LLMs     examples         VentureBeat            janvier       lire en ligne  
+
+   en  Kelsey Piper         Should we make our most powerful AI models open source to all          sur Vox    f vrier       consult  le    avril       
+
+         Intelligence artificielle        la transformation en cours des m tiers peut elle favoriser l  mergence d un revenu universel                sur France Info     septembre       consult  le   f vrier      
+
+  a et b Sylvain Biget         Les emplois qui seront les plus touch s ou remplac s par les IA g n ratives comme ChatGPT  selon Goldman Sachs         sur futura sciences com   er avril       consult  le   ao t      
+
+         L intelligence artificielle en veut elle   votre emploi          sur lesaffaires com    ao t       consult  le   ao t      
+
+  Thomas Jestin         L IA va t elle provoquer un ch mage de masse        Creuser les in galit s        Renforcer les GAFA                sur Journal du Net    octobre       consult  le   ao t      
+
+  Fran ois Desnoyers                Un monde sans travail               quand le ch mage technologique arrivera          Le Monde            janvier       lire en ligne  consult  le   ao t      
+
+         Long story   Sam Altman et le revenu universel de base         sur Forbes France     juillet       consult  le   f vrier      
+
+  Langlois         L  thique en mati re d intelligence artificielle        les biais discriminatoires         sur Langlois  consult  le   janvier       
+
+  Nathan Noiry         Des biais de repr sentativit  en intelligence artificielle         Le Monde  consult  le   janvier       
+
+  Harari       p                
+
+  a b c d et e Harari       
+
+   ric Sadin         L asservissement par l Intelligence Artificielle                    vid o       sur Thinkerview    novembre       consult  le   janvier      
+
+  a et b  ric Sadin         Le devenir l gume de l humanit                     vid o       sur Thinkerview     octobre       consult  le   janvier       
+
+   en  Nicholas Carr  The Shallows  What the Internet Is Doing to Our Brains 
+
+         Les impacts sociaux de l IA         sur EcoInfo  consult  le   janvier       
+
+         Les    menaces les plus dangereuses de l intelligence artificielle             vid o       sur Futura  consult  le   janvier       
+
+  Yuval Noah Harari     le ons pour le XXIe      si cle 
+
+         Myanmar  Les syst mes de Facebook ont promu la violence contre les Rohingyas   Meta doit des r parations          sur Amnesty International     septembre       consult  le   janvier       
+
+   en  Michael Kan         GPT   Was Able To Hire and Deceive A Human Worker Into Completing a Task         sur PCMag 
+
+         GPT   a r ussi   tromper un humain  l incitant   r soudre un CAPTCHA apr s avoir pr tendu  tre aveugle         sur Developpez com     mars       consult  le   janvier       
+
+   en         Appliquer les Principes de l OCDE sur l IA        progr s et perspectives         sur oecd ai  consult  le   novembre       
+
+         Cr ation du partenariat mondial pour l intelligence artificielle        secr tariat au sein de l OCDE   Paris         sur ActuIA  consult  le   novembre       
+
+   en         AI for Good Global Summit              sur Union internationale des t l communications  consult  le   novembre       
+
+  a et b Ausma Bernot et Fan Yang         Qui gouvernera l IA        La course des nations pour r guler l intelligence artificielle         sur The Conversation     novembre       consult  le    janvier       
+
+  Francis Donnat         L intelligence artificielle  une menace pour la vie priv e                Pouvoirs   ditions du Seuil  no                  septembre       p               ISBN                         ISSN                 DOI              pouv            lire en ligne  
+
+  Lucie Lequier         Tout comprendre   l IA Act  le texte europ en de r glementation de l intelligence artificielle         sur Numerama     mai       consult  le   novembre       
+
+   en  Dom Galeon         The United Arab Emirates is the first country in the world to hire a minister for artificial intelligence         sur businessinsider com     d cembre      
+
+   en  House of Commons Digital  Culture  Media and Sport Committee  Disinformation and  fake news   Final Report        Eighth Report of Session                Report  together with formal minutes relating to the report        lire en ligne      PDF              rapport command  par the House of Commons  Ref HC       publi  le    f vrier       imprim  le    f vrier      pour le Gouvernement britannique  Voir notamment paragraphe     
+
+   en         Investigation into data analytics for political purposes         sur ico org uk    octobre       consult  le    mars       
+
+          Sans Cambridge Analytica  il n y aurait pas eu de Brexit   affirme le lanceur d alerte Christopher Wylie         sur francetvinfo fr     mars       consult  le    mars       
+
+  Morgane Tual         Intelligence artificielle        les g ants du Web lancent un partenariat sur l  thique         Le Monde            septembre       ISSN                 lire en ligne  
+
+         Intelligence artificielle        Google DeepMind se dote d une unit  de recherche sur l  thique         Le Monde           octobre       ISSN                 lire en ligne  
+
+   en         Asilomar AI Principles         sur Future of Life Institute  consult  le   janvier      
+
+  Hatem Bakri         Intelligence Artificielle  Quels Impacts sur la Soci t                 sur MBA MCI  consult  le   janvier       
+
+   en US         Lethal Autonomous Weapons Pledge         sur futureoflife org  consult  le    ao t       
+
+         Des milliers d experts en intelligence artificielle s engagent   ne pas participer   la cr ation d armes         Le Monde            juillet       lire en ligne  
+
+  L UNESCO rejoint le Partenariat mondial sur l Intelligence Artificielle comme observateur  UNESCO       
+
+  Publications Office of the European Union         Intelligence artificielle Une approche europ enne ax e sur l excellence et la confiance  COM         final         sur Office des publications de l Union europ enne     f vrier       consult  le   novembre       
+
+         R glementation de l Intelligence artificielle en Europe         sur Devoteam France  consult  le   novembre       
+
+   en         Une Europe adapt e   l  re du num rique        La Commission propose de nouvelles r gles et actions en faveur de l excellence et de la confiance dans l intelligence artificielle         sur Commission europ enne     avril       consult  le    avril       
+
+         Premier Forum mondial sur l  thique de l IA   Prague  un an apr s l adoption de la Recommandation de l UNESCO         sur UNESCO    d cembre      
+
+         Intelligence artificielle        l UNESCO appelle   mettre en  uvre sans d lai le cadre  thique mondial         sur ONU Info     mars       consult  le    novembre       
+
+  a et b        Recommandation sur l  thique de l intelligence artificielle         sur unesco org        consult  le    septembre       
+
+  a b et c         thique  l Unesco appelle les  tats   appliquer sa recommandation sur l intelligence artificielle         sur  ditions techniques de l ing nieur  version du    mars      sur Internet Archive  
+
+         Fran ois met en garde contre les cons quences pour la paix de l IA         sur vaticannews fr  consult  le    mai       
+
+  Sylvain Naillat         Faut il un droit des robots                sur La Tribune     avril       consult  le   mars      
+
+         R gles de droit civil sur la robotique  R solution du Parlement europ en du    f vrier      contenant des recommandations   la Commission concernant des r gles de droit civil sur la robotique            INL          
+
+  a b et c  en  Mark Coeckelbergh et Henrik Skaug S tra         Climate change and the political pathways of AI  The technocracy democracy dilemma in light of artificial intelligence and human agency         Technology in Society  vol                  novembre       DOI              j techsoc               
+
+  a b et c        Quelles diff rences entre l IA symbolique et l apprentissage automatique                sur ActuIA    f vrier       consult  le    mars      
+
+   en  John Eikenberry  GNU Linux AI  amp  Alife HOWTO        lire en ligne      PDF      
+
+  Andr  Le Garff  Dictionnaire de l informatique                 p 
+
+  Voir la d finition utilis e par John Searle dans son exp rience de la chambre chinoise 
+
+  Michael David Mitchell         Robotique et neurosciences d tectent le si ge de la conscience de soi         Actualit s   cole polytechnique f d rale de Lausanne    mai      
+
+   en  Hilary Putnam         The Best of All Possible Brains          sur archive nytimes com     novembre       consult  le    novembre       
+
+   en         Discovery of quantum vibrations in  microtubules  inside brain neurons supports controversial theory of consciousness         sur ScienceDaily  consult  le   juillet       
+
+         Le myst re de la  chambre chinoise          Le Monde            janvier       lire en ligne  consult  le   juillet       
+
+   en  Dreyfus  Hubert L   What computers can t do        a critique of artificial reason  Harper  amp  Row        ISBN                    et                    OCLC               p           
+
+   en  George Musser         How AI Knows Things No One Told It         sur Scientific American   er septembre       consult  le   d cembre       
+
+  Jean Gabriel Ganascia         G n ration automatique de textes  plagiat et int grit  scientifique         La Recherche  consult  le   d cembre       
+
+   en  Shyam Nandan Upadhyay         Text is a Projection of the World  OpenAI s Sutskever         sur Analytics India Magazine     mars       consult  le   d cembre       
+
+   en US         The Challenges Of Building AI Apps         sur TechCrunch  consult  le    juillet       
+
+  Abdel Bela d         La reconnaissance automatique de l  criture         Pour la science  consult  le    juillet       
+
+  Veronica Smink         Les trois stades de l intelligence artificielle        dans lequel nous nous trouvons et pourquoi beaucoup pensent que le troisi me pourrait  tre fatal                sur BBC News Afrique     mai       consult  le    d cembre       
+
+  a b et c Martin Gibert  Faire la morale aux robots        une introduction   l  thique des algorithmes                p   ISBN                        et                OCLC                  
+
+         Intelligence        qu est ce que c est                sur Futura  consult  le    mars      
+
+  Michel L vy Proven al         Se pr parer   l intelligence artificielle g n rale         sur Les  chos    novembre       consult  le    mars       
+
+  Jean Rohmer         Comprendre l intelligence artificielle symbolique         sur The Conversation     novembre       consult  le   novembre       
+
+         Quand l  crivain de science fiction Isaac Asimov pr disait le futur         sur France Culture    janvier       consult  le   juillet       
+
+   en  Georgia Panteli         From puppet to cyborg  posthuman and postmodern retellings of the Pinocchio myth             PDF       sur discovery ucl ac uk 
+
+         Plumbing Stanley Kubrick         sur ianwatson info via web archive org    juillet       consult  le   juillet       
+
+  Site pr sentant les  pisodes de la s rie Derrick
+
+  Site fernsehserien de  r sum   en allemand  de l  pisode         Dr  R mer und der Mann des Jahres  
+
+         Westworld         sur Allocin  fr  consult  le    d cembre       
+
+  Article de Dylan L  McClain  New York Times     janvier       et article        Hans J  Berliner              Grand Ma tre d  checs et programmeur de g nie         Denis Rozier  Le Courrier des  checs no           mars      
+
+  Thibault Neveu         Intelligence artificielle        d monstration en direct des nouvelles performances de DeepMind         sur actuia com     janvier      
+
+         Les jeux et l intelligence artificielle         sur u picardie fr  consult  le    septembre       
+
+   en  David Levy et Monroe Newborn         More Chess and Computers  The Microcomputer Revolution  The Challenge Match         Computer Science Press  Potomac  Maryland  et Batsford  Londres         ISBN                     
+
+   en         For First Time  a Chess Computer Outwits Grandmaster in Tournament         Harold C  Schonberg  The New York Times com     septembre      
+
+   en         Learning  Deep or not Deep  de MENACE   AlphaGo         PDF   sur alliot fr 
+
+   en  David Silver  Thomas Hubert  Julian Schrittwieser  Ioannis Antonoglou  Matthew Lai et al          Mastering Chess and Shogi by Self Play with a General Reinforcement Learning Algorithm           d cembre      
+
+   en  Sarah Knapton et Leon Watson         Entire human chess knowledge learned and surpassed by DeepMind s AlphaZero in four hours         sur telegraph co uk    d cembre      
+
+  a et b        Jeu de go        comment savoir si les programmes d intelligence artificielle sont vraiment  intelligents         Le Monde    mars      
+
+   en  David Silver  Julian Schrittwieser  Karen Simonyan  Ioannis Antonoglou  Aja Huang  Arthur Guez  Thomas Hubert  Lucas Baker  Matthew Lai  Adrian Bolton  Yutian Chen  Timothy Lillicrap  Hui Fan  Laurent Sifre  George van den Driessche  Thore Graepel et Demis Hassabis         Mastering the game of Go without human knowledge         Nature  vol            no                      octobre       p                ISSN                 DOI              nature        
+
+         Jeu de go        Le champion du monde de nouveau battu par l ordinateur de Google         L Obs     mars      
+
+   en  J  Rehmeyer  N  Fox et R  Rico         Ante up  human  The adventures of Polaris the poker playing robot         Wired  vol           no                 d cembre       p              
+
+  a et b  en  Michael Bowling  Neil Burch  Michael Johanson et Oskari Tammelin         Heads Up Limit Hold em Poker Is Solved         Comm of the ACM  vol           no                       p          
+
+  a b c et d        Comment une intelligence artificielle ridiculise les meilleurs joueurs de poker         sur Numerama     janvier      
+
+         L IA de la start up fran aise Nukkai imbattable au bridge         Le Monde informatique     mars       consult  le    janvier       
+
+
+
+
+Voir aussi modifier   modifier le code 
+
+
+Une cat gorie est consacr e   ce sujet        Intelligence artificielle 
+
+
+
+Sur les autres projets Wikimedia       
+
+intelligence artificielle  sur le WiktionnaireD partement Intelligence artificielle  sur Wikiversity
+
+
+Articles connexes modifier   modifier le code 
+Aspects juridiques
+
+L gislation sur l intelligence artificielle  aussi appel e AI Act
+Digital Services Act  ou loi sur les services num riques de l Union europ enne
+Notions g n rales
+
+
+Agent intelligent
+Agent logiciel
+Agent virtuel
+Algorithme
+Algorithme g n tique
+Alignement des intelligences artificielles
+Applications de l intelligence artificielle
+Automation
+Bio informatique
+Cerveau artificiel
+Cyborg
+D claration de Montr al pour un d veloppement responsable de l intelligence artificielle
+Sommet pour l action sur l intelligence artificielle
+Deepfake
+Effet IA
+ thique de l intelligence artificielle
+Explosion d intelligence
+Histoire de l intelligence artificielle
+Informatique de la personnalit   Personality computing 
+Informatique quantique
+Intelligence artificielle de rem diation
+Intelligence artificielle g n rale
+Interactions homme machine
+Philosophie de l intelligence artificielle
+Point de vue d Hubert Dreyfus sur l intelligence artificielle
+Principaux projets et r alisations en intelligence artificielle
+Progr s
+Progr s technique
+R seau de neurones artificiels
+Singularit  technologique
+Singularitarisme
+Syst me expert
+T l chargement de l esprit
+Test de Turing
+Vie artificielle
+
+Notions techniques
+
+
+Agent conversationnel
+Apprentissage automatique
+Apprentissage par renforcement
+Apprentissage profond  Deep learning 
+Architecture cognitive
+Diagnostic
+Exploration de donn es
+For t d arbres d cisionnels
+Inf rence bay sienne
+Intelligence artificielle amicale
+Intelligence artificielle distribu e
+Intelligence artificielle faible
+Intelligence artificielle dans la fiction
+Logique floue
+Machine   vecteurs de support
+M taheuristiques
+Planification
+Probl me de satisfaction de contraintes
+Programmation g n tique
+Programmation par contraintes
+Raisonnement par cas
+R seaux de neurones
+Syst me multi agents
+Th or me de Cox Jaynes
+
+Chercheurs en intelligence artificielle  espace anglophone 
+
+
+Edward Feigenbaum
+Irving John Good
+Douglas Engelbart
+Douglas Hofstadter
+Douglas Lenat
+John McCarthy
+Marvin Lee Minsky
+Allen Newell
+Nils Nilsson
+Seymour Papert
+Rosalind Picard
+Roger Schank
+Herbert Simon
+Ray Solomonoff
+Gerald Jay Sussman
+Alan Turing
+Joseph Weizenbaum
+
+Chercheurs en intelligence artificielle  espace francophone 
+
+
+Bubacarr Bah
+Hugues Bersini
+Alain Colmerauer
+Jean Paul Delahaye
+Rose Dieng Kuntz
+Yann Le Cun
+Fran ois Pachet
+Jacques Pitrat
+G rard Sabah
+
+Laboratoires et entreprises en intelligence artificielle
+
+OpenAI  soci t  d veloppant ChatGPT et DALL E 
+Google DeepMind
+Anthropic
+Meta AI
+Inflection AI
+Bibliographie modifier   modifier le code 
+        document utilis  comme source pour la r daction de cet article 
+
+Aspects techniques modifier   modifier le code 
+Stuart J  Russell et Peter Norvig  trad       de l anglais   Intelligence artificielle         Artificial Intelligence  A Modern Approach          Paris  Pearson Education France         e       d             p   ISBN                         pr sentation en ligne  
+Alan Turing  Jean Yves Girard  La Machine de Turing   ditions du Seuil            d tail de l  dition       Les Ordinateurs et l Intelligence  p               
+Claire R my  L Intelligence artificielle  Paris   ditions Dunod                 p   ISBN                  X  
+Jean Marc Alliot et Thomas Schiex  Intelligence artificielle et informatique th orique  Toulouse  CEPADUES                 p   ISBN                     
+ en  Michael R  Genesereth et Nils J  Nilsson  Logical Foundations of Artificial Intelligence  Los Altos  Californie   tats Unis  Morgan Kaufmann                 p       d tail de l  dition       ISBN                     
+Jean Louis Lauri re  Intelligence Artificielle  Eyrolles       
+Jean Paul Delahaye  Outils logiques pour l intelligence artificielle  Eyrolles            d tail des  ditions       ISBN                      
+Jean Paul Haton  Marie Christine Haton  L Intelligence Artificielle  Paris  Que sais je                        p   ISBN                  X  
+ en  Kate Crawford  Atlas of AI        Power  Politics  and the Planetary Costs of Artificial Intelligence  Yale University Press       
+ en  Jacques Pitrat Artificial Beings  the conscience of a conscious machine  Artificial Beings  the conscience of a conscious machine  ISTE Wiley        ISBN                     
+Aspects prospectifs modifier   modifier le code 
+Intelligence artificielle         tat de l art et perspectives pour la France  Direction g n rale des entreprises  f vrier       pdf  ISBN                         ISSN                 r sum   
+       Jusqu o  ira l intelligence artificielle                Pour la science  hors s rie no                  mai juin       p             
+Thibault Pr vost  Les proph tes de l IA   Pourquoi la Silicon Valley nous vend l apocalypse  Montr al  Qu bec   Lux                 p   ISBN                     
+Aspects philosophiques modifier   modifier le code 
+Marie David et C dric Sauviat  Intelligence artificielle  la nouvelle barbarie   ditions du Rocher                 p 
+Laurent Alexandre  La Guerre des intelligences  Intelligence artificielle versus intelligence humaine  Paris   ditions Jean Claude Latt s                 p   ISBN                         lire en ligne  
+Gilbert Boss  Les machines   penser        L homme et l ordinateur  Zurich   ditions du Grand midi                 p   ISBN                     
+Jacques Bolo  Philosophie contre intelligence artificielle  Paris  Lingua Franca                 p   ISBN                     
+Alan Ross Anderson  trad       de l anglais   Pens e et machine  Seyssel   ditions Champ Vallon        r impr                       p   ISBN                     lire en ligne  
+Jean Sallantin et Jean Jacques Szczeciniarz  Le Concept de preuve   la lumi re de l intelligence artificielle  Paris  Presses universitaires de France                 p   ISBN                     
+Jean Gabriel Ganascia  L  me machine  les enjeux de l intelligence artificielle  Paris   ditions du Seuil  Collection Science Ouverte                 p   ISBN                     
+Nick Bostrom  Superintelligence        Paths  Dangers  Strategies                 p   ISBN                         lire en ligne  
+Aspects  conomiques modifier   modifier le code 
+ en  Daron Acemo lu        Equality Debate  Power and Progress  with Daron Acemoglu           novembre         lire en ligne    World Inequality Lab    visioconf rence    novembre       
+ en  Daron Acemo lu et Simon Johnson  Power and Progress        Our Thousand Year Struggle Over Technology and Prosperity  Basic Books                 p   ISBN                      
+ en  Daron Acemo lu         The Simple Macroeconomics of AI         Economic Policy  Massachusetts Institute of Technology           avril       lire en ligne       PDF       
+Abhijit Banerjee et Esther Duflo  trad       Christophe Jacquet   chap                Le piano m canique         dans  conomie utile pour des temps difficiles   ditions du Seuil       
+ en  Joseph Briggs et Devesh Kodnani         The Potentially Large Effects of Artificial Intelligence on Economic Growth         Global Economics Analyst  Goldman Sachs            mars       lire en ligne   
+ en  Mauro Cazzaniga  Florence Jaumotte  Longji Li  Giovanni Melina  Augustus Panton  Carlo Pizzinelli  Emma Rockall et Marina Tavares         Gen AI  Artificial Intelligence and the Future of Work              PDF       sur Fonds mon taire international     janvier      
+ en  Michael Chui  James Manyika et Mehdi Miremadi         Four fundamentals of workplace automation          sur McKinsey   er novembre      
+Kristalina Georgieva         L IA transformera l  conomie mondiale  Faisons en sorte que l humanit  y soit gagnante         Fonds mon taire international            janvier       lire en ligne   
+ en  Joel Mokyr         Secular stagnation  Not in your life         VoxEU Column  Centre for Economic Policy Research            ao t       lire en ligne   
+Fondements cognitifs  psychologiques et biologiques modifier   modifier le code 
+Herv  Chaudet et Liliane Pellegrin  Intelligence artificielle et psychologie cognitive  Paris   ditions Dunod                 p   ISBN                     
+Aspects linguistiques modifier   modifier le code 
+G rard Sabah  L Intelligence artificielle et le langage  Repr sentations des connaissances  Processus de compr hension  vol          Herm s                 p   ISBN                     
+G rard Sabah  L Intelligence artificielle et le langage  Repr sentations des connaissances  Processus de compr hension  vol          Paris  Herm s                 p   ISBN                     
+G rard Sabah  Compr hension des langues et interaction  Trait  IC   S rie Cognition et Traitement de l Information   Paris  Herm s science  Lavoisier                 p   ISBN                     
+ en  Krzysztof Wo k  Machine learning in translation corpora processing  Boca Raton  FL  Taylor  amp  Francis                 p   ISBN                        
+Histoire modifier   modifier le code 
+Daniel Crevier et Nathalie Bukcek  trad       de l anglais     la recherche de l intelligence artificielle  Paris  Flammarion                 p   ISBN                      traduction de  en  The Tumultuous history of the search for artiticial intelligence  
+Yuval Noah Harari  Nexus  Une br ve histoire des r seaux d information de l  ge de pierre   l IA   Albin Michel                 p   ISBN                               
+Vulgarisation modifier   modifier le code 
+G rard Tisseau et Jacques Pitrat  Intelligence artificielle        probl mes et m thodes  Paris  Presses universitaires de France                 p   ISBN                     
+Jack Challoner  trad       de l anglais   L Intelligence artificielle        Un guide d initiation au futur de l informatique et de la robotique  Paris  Pearson Education                p   ISBN                     
+Hugues Bersini  De l intelligence humaine   l intelligence artificielle  Paris  Ellipse                 p   ISBN                     
+Jean Gabriel Ganascia  L Intelligence artificielle  Paris   ditions du Cavalier bleu  coll              Idees recues                        p   ISBN                         
+Howard Selina  illustrations  et Henry Brighton  texte   trad       de l anglais   L Intelligence artificielle en images  Les Ulis  EDP Sciences  coll              Aper u                        p   ISBN                         
+Marion Montaigne  dessin  et Jean No l Lafargue  sc nario   L Intelligence artificielle        fantasmes et r alit s  Bruxelles  Le Lombard  coll              La petite b d th que des savoirs                       p   ISBN                         
+Arnold Z phir  sc nariste   FibreTigre  sc nariste  et H lo se Chochois  Intelligences Artificielles        Miroirs de nos vies  Delcourt  coll              Octopus           mars       ISBN                     
+      vid o             L IA et l efficacit              sur Savoir m dia                min  consult  le    mai      
+Politique  relations internationales modifier   modifier le code 
+Daniel Ventre  Intelligence artificielle  cybers curit  et cyberd fense  Londres  ISTE                 p   ISBN                        et                    SUDOC                 pr sentation en ligne  
+Liens externes modifier   modifier le code 
+       IA militaire        drones de guerre         La Science  CQFD  France Culture     juin      
+       Intelligence artificielle         publications en ligne  Interstices  INRIA 
+ en  European Association for Artificial Intelligence  EurAI   Association europ enne pour l intelligence artificielle 
+Association fran aise pour l intelligence artificielle  AfIA  
+GDR Radia  groupement de recherche du CNRS sur les aspects formels et algorithmiques de l intelligence artificielle 
+Dossier sur l Intelligence artificielle  savoirs ens fr  conf rences    cole normale sup rieure 
+S bastien Konieczny         L intelligence artificielle  menace ou avanc e                Huffington Post    mars     
+       Intelligence artificielle        en mon  me et conscience         La Science  CQFD  France Culture   er juin      
+William Audureau         Tout comprendre   l intelligence artificielle  cette technologie source de nombreux malentendus         sur Les D codeurs  Le Monde     avril     
+Bases de donn es et dictionnaires modifier   modifier le code 
+
+
+
+Ressources relatives   la recherche        Internet Encyclopedia of Philosophy JSTOR Stanford Encyclopedia of Philosophy 
+Ressource relative   la sant         Medical Subject Headings 
+Ressource relative   l audiovisuel        France     
+Notices dans des dictionnaires ou encyclop dies g n ralistes        Britannica Brockhaus Den Store Danske Encyklop di Enciclopedia De Agostini Internetowa encyklopedia PWN Larousse Nationalencyklopedin Store norske leksikon Treccani 
+Notices d autorit         BnF  donn es  LCCN GND Japon Espagne Isra l Tch quie Lettonie 
+
+
+v        mIntelligence artificielle  IA 
+  
+Concepts
+
+Effet IA
+Grand mod le de langage
+Hallucination  IA 
+IA g n rale
+IA g n rative
+
+ 
+Techniques
+
+Analyse pr dictive
+Apprentissage automatique
+Apprentissage non supervis 
+Apprentissage profond
+Apprentissage supervis 
+Machine d apprentissage logique
+Mod le de fondation
+Mod le des croyances transf rables
+IA symbolique
+R seau bay sien
+R seau de neurones artificiels
+R seau de neurones r currents
+R seau neuronal convolutif
+Transformeur
+Transformeur g n ratif pr entra n 
+
+ 
+Applications
+
+Art cr   par IA
+Apple Intelligence
+ChatGPT
+Cons quences  conomiques de l intelligence artificielle
+DeepL
+Diagnostic  IA 
+ criture assist e par IA
+IA dans la sant 
+IA dans le jeu vid o
+Perception artificielle
+Planification  IA 
+Robotique
+Traduction automatique
+Traitement automatique des langues
+V hicule autonome
+Vision par ordinateur
+
+ 
+Enjeux et philosophie
+
+Alignement des intelligences artificielles
+Chambre chinoise
+Conscience artificielle
+Contr le des capacit s de l IA
+D tection de contenu g n r  par intelligence artificielle
+ thique de l IA
+IA digne de confiance
+Philosophie de l IA
+S ret  de l IA
+
+ 
+Histoire et  v nements
+
+Histoire de l intelligence artificielle
+Logic Theorist       
+Perceptron       
+General Problem Solver       
+Prolog       
+Matchs Deep Blue contre Kasparov            
+Match AlphaGo   Lee Sedol       
+Sommet pour l action sur l intelligence artificielle       
+
+ 
+Concepts prospectifs
+
+Anticipation  IA 
+IA complet
+IA g n rale
+Risque de catastrophe plan taire li    l intelligence artificielle g n rale
+Superintelligence
+
+ 
+R glementation
+
+L gislation sur l IA
+R glementation de l IA
+
+ 
+Organisations
+
+Agence francophone pour l IA
+Anthropic
+Google DeepMind
+OpenAI
+Partenariat sur l IA
+
+ 
+Ouvrages
+
+D claration de Montr al pour un d veloppement responsable de l intelligence artificielle
+Lettre ouverte sur l IA
+Power and Progress
+Intelligence artificielle        une approche moderne
+I A  La Plus Grande Mutation de l Histoire
+
+                      
+
+v        mRobotique
+  
+Sujets connexes
+
+Capteur
+Intelligence artificielle
+Actionneur
+Source d  nergie
+Programmation
+Comp titions de robotique
+
+ 
+Communication
+
+Communication s rie
+Communication parall le
+Transmission sans fil
+
+                             
+
+Automatique
+ lectricit 
+ lectrochimie
+ lectromagn tisme
+ lectronique
+ lectrotechnique
+Traitement du signal
+
+
+v        mRisque existentiel pos  par l intelligence artificielle
+  
+Concepts principaux
+
+Alignement des intelligences artificielles
+Convergence instrumentale
+ thique de l intelligence artificielle
+Intelligence artificielle amicale
+Intelligence artificielle digne de confiance
+Intelligence artificielle g n rale
+Philosophie de l intelligence artificielle
+Singularit  technologique
+Superintelligence
+S ret  des intelligences artificielles
+
+ 
+Concepts associ s
+
+Acc l rationnisme efficace
+Agent intelligent
+Altruisme efficace
+Cons quentialisme
+Intelligence artificielle
+Long termisme
+Progr s acc l r 
+Risque de catastrophe plan taire
+Risque de souffrance astronomique
+Syst me d armes l tales autonome
+
+ 
+Personnes cl s
+
+Dustin Moskovitz
+Eliezer Yudkowsky
+Elon Musk
+Geoffrey Hinton
+Max Tegmark
+Nick Bostrom
+Sam Altman
+Sam Harris
+Stephen Hawking
+Stuart Russell
+Toby Ord
+William MacAskill
+Yoshua Bengio
+
+ 
+Organisations
+
+       Hours
+Anthropic
+Center for Security and Emerging Technology
+Future of Life Institute
+Future of Humanity Institute
+OpenAI
+
+ 
+Autres
+
+Lettre ouverte sur l intelligence artificielle
+Superintelligence        Paths  Dangers  Strategies
+
+                          
+
+v        mTechnologies  mergentes
+  
+Affichage
+
+Affichage sans  cran
+Affichage t te haute
+Autost r oscopie
+Diode  lectroluminescente organique
+Lentille de contact bionique
+R alit  virtuelle
+
+ 
+Agriculture
+
+Agriculture de pr cision
+Agriculture urbaine
+Aquaponie
+Ferme verticale
+Hydroponie
+Mur v g talis 
+Organisme g n tiquement modifi 
+Viande in vitro
+
+ 
+AstronomieAstrophysique
+
+D tecteurs d ondes gravitationnelles
+LISA
+LIGO
+Virgo
+Interf rom tre astronomique
+Interf rom tre optique   longue base
+Interf rom trie   tr s longue base
+Event Horizon Telescope
+HALCA
+Hypert lescope
+
+ 
+Bioinformatique
+
+Pyros quen age
+S quen age de cellule unique
+S quen age par ligation       en 
+S quen age par ligation d oligonucl otides       en 
+S quen age par nanopores
+S quen age par semiconducteur
+
+ 
+Biologie
+
+Biophotonique
+ lectrophor se capillaire par spectrom trie de masse       en 
+ lectrophor se capillaire sur silicium
+Imagerie mol culaire
+Isolation chip
+Optofluidique
+Optog n tique
+
+ 
+Biom dical
+
+Ampakine
+Bioimpression
+Biologie de synth se
+Biostase
+Cellule souche
+Cryoconservation
+Cryonie
+G nie biom dical
+G nie g n tique
+Ing nierie clinique
+Interface neuronale directe
+Interf rence par ARN
+M decine r g n rative
+Nanom decine
+Robot m dical
+Strategies for Engineered Negligible Senescence
+Th rapie g nique
+Th rapie photodynamique
+
+ 
+Chimie
+
+Cristallographie s rielle femtoseconde
+Laboratoire sur puce
+Microfluidique
+Spectrom trie alpha
+Spectrom trie de masse
+Stylo  D
+
+ 
+ lectronique
+
+Impression  D
+Impression  D
+Nez  lectronique
+Opto  lectronique
+Spintronique
+Plastronique
+Optronique
+Textile intelligent
+Atomtronique
+
+ 
+Informatique
+
+Calculateur quantique
+Cryptographie quantique
+Ordinateur optique
+Informatique ubiquitaire
+Intelligence artificielle
+R seau de neurones artificiels
+M moire
+CBRAM
+FRAM
+Millipede
+MRAM
+NRAM
+PRAM
+RRAM
+Jonction   effet tunnel magn tique
+Intelligence ambiante  Internet des objets 
+
+ 
+Physique
+
+Laser
+Cristallographie aux rayons X
+Diffusion des rayons X
+Spectroscopie des rayons X
+Spectroscopie  lectronique
+Spectrom trie gamma
+
+ 
+Robotique
+
+Domotique
+Exosquelette motoris 
+Microrobotique
+Nanorobot
+Robotique en essaim
+Robotique molle
+Cobotique
+
+ 
+Transport
+
+Hyperloop
+Lancement spatial sans fus e
+Propulsion laser
+Lanceur r utilisable
+Jetpack
+Train   sustentation magn tique
+V hicule autonome
+Moto et Voiture volante
+Impression de voiture en  D  Strati 
+Spacetrain
+V hicule   hydrog ne
+eCall
+
+                   
+
+v        mDomaines de l informatique
+ 
+Remarque        cette liste s inspire du syst me de classification informatique de l ACM  dit  en     
+ 
+Mat riel
+
+Circuit imprim 
+P riph rique
+Circuit int gr 
+Int gration   tr s grande  chelle
+Circuit logique programmable
+Informatique durable
+Conception assist e par ordinateur pour l  lectronique
+
+ 
+Appareil et organisationd un syst me
+
+Architecture mat rielle
+Architecture de processeur
+Machine   calculer
+M canographie
+Calculateur analogique
+Calculatrice
+Calculateur quantique
+Ordinateur
+Syst me embarqu 
+Syst me temps r el
+S ret  de fonctionnement
+
+ 
+R seau
+
+Architecture de r seau
+Protocole de communication
+ quipement d interconnexion de r seau informatique
+Planificateur de r seau       en 
+Rendement du r seau       en 
+Service r seau
+
+ 
+Organisation du logiciel
+
+Interpr te
+Middleware
+Machine virtuelle
+Syst me d exploitation
+Qualit  logicielle
+
+ 
+Th orie et outil       en de programmation
+
+Paradigme de programmation
+Langage de programmation
+Compilateur
+Langage d di 
+Langage de mod lisation
+Cadriciel
+Environnement de d veloppement
+Gestion de configuration logicielle
+Biblioth que logicielle
+D p t
+
+ 
+D veloppement de logiciel
+
+Software development process
+Analyse des exigences
+Conception de logiciel
+Assemblage de logiciel       en 
+D ploiement de logiciel       en 
+Maintenance du logiciel
+ quipe de programmation       en 
+Open source
+
+ 
+Th orie du calcul       en 
+
+Mod le de calcul
+Langage formel
+Th orie des automates
+Th orie de la complexit 
+Logique       en 
+S mantique
+
+ 
+Algorithmique
+
+Algorithme
+Conception d algorithme
+Analyse de la complexit  des algorithmes
+Algorithme  volutionniste
+Algorithme probabiliste
+G om trie algorithmique
+G n ration proc durale
+
+ 
+Math matiquesde l informatique
+
+Math matiques discr tes
+Probabilit 
+Statistique
+Logiciel math matique       en 
+Th orie de l information
+Analyse
+Analyse num rique
+
+ 
+Syst me d information
+
+Base de donn es
+M moire  informatique 
+Progiciel
+Logiciel social
+Syst me d information g ographique
+Syst me d aide   la d cision
+Supervision
+Base de donn es multim dia
+Exploration de donn es
+Biblioth que num rique
+Plateforme
+Marketing  lectronique
+World Wide Web
+Recherche d information
+
+ 
+S curit 
+
+Cryptographie
+M thode formelle
+Service de s curit        en 
+Syst me de d tection d intrusion
+S curit  mat rielle       en 
+S curit  du r seau
+S curit  de l information
+S curit  de l application       en 
+
+ 
+Interactions humain machine
+
+Design num rique
+Informatique sociale       en 
+Informatique ubiquitaire
+Visualisation       en 
+Accessibilit  num rique
+
+ 
+Concurrence       en 
+
+Programmation concurrente
+Parall lisme
+Calcul distribu 
+Multithreading
+Multiprocesseur
+
+ 
+Intelligence artificielle
+
+Traitement automatique des langues
+Repr sentation des connaissances
+Vision par ordinateur
+Planification
+Optimisation
+Philosophie de l intelligence artificielle
+Intelligence artificielle distribu e
+
+ 
+Apprentissage automatique
+
+Apprentissage supervis 
+Apprentissage non supervis 
+Apprentissage par renforcement
+Apprentissage multi t ches       en 
+Validation crois e
+
+ 
+Infographie
+
+Animation par ordinateur
+Animation  D num rique
+Animation  D
+Rendu photor aliste
+Retouche d image
+Processeur graphique
+R alit  mixte
+R alit  virtuelle
+Compression d image
+Conception param trique
+
+ 
+Audio informatique
+
+G n rateur de son programmable
+Processeur de signal num rique
+Synth tiseur analogique
+ chantillonnage
+S quenceur musical
+Tracker  musique 
+Musique assist e par ordinateur
+
+ 
+Informatique appliqu e
+
+Commerce en ligne
+Logiciel d entreprise
+Math matiques computationnelles
+Physique num rique
+Chimie num rique
+Biologie num rique
+Sciences sociales num rique       en 
+Ing nierie num rique
+Informatique m dicale
+Art num rique
+ dition  lectronique
+Cyberguerre
+Vote  lectronique
+Jeu vid o
+Traitement de texte
+Recherche op rationnelle
+Technologies  ducatives
+Gestion  lectronique des documents
+
+             
+
+v        mScience fiction
+  
+Grandes lignes
+
+Auteurs
+D finitions
+Hard
+Soft
+Histoire
+ ge d or
+New wave
+
+ 
+Sous genres
+
+
+
+
+Anticipation
+Anticipation sociale
+Climate fiction
+Dystopie
+Humour
+Libertarianisme
+Militaire
+Multivers
+New weird
+Planet opera
+Science fiction f ministe
+Post apocalyptique
+R alisme fantastique
+Science fantasy
+Slipstream
+Space fantasy
+Space opera
+Space Western
+Uchronie
+Utopie et dystopie
+
+ 
+
+
+
+Cyberpunk et d riv s
+
+Biopunk
+Cyberpunk
+Dieselpunk
+Postcyberpunk
+Solarpunk
+Steampunk
+
+                             
+
+
+                            
+
+
+ 
+Culture
+
+
+
+
+Encyclopedia of Science Fiction
+Fandom
+Femmes dans les litt ratures de l imaginaire
+Internet Speculative Fiction Database
+Museum of Pop Culture
+NooSFere
+World Science Fiction Convention
+
+ 
+
+
+
+R gion
+
+Allemagne
+Bengale
+France
+Italie
+Japon
+Pologne
+Qu bec
+
+                             
+
+
+ 
+
+
+
+Prix
+
+
+Multim dia
+
+Aurora
+Hugo
+Seiun
+
+ 
+Cin ma et t l vision
+
+Curt Siodmak
+Ray Bradbury
+Saturn
+
+ 
+Litt rature  art et audio
+
+Allemand
+Andre Norton
+Apollo
+Arthur C  Clarke
+Astounding
+Aurealis
+British Science Fiction
+Compton Crook
+Damon Knight Memorial
+E  E  Smith Memorial
+Grand prix de l Imaginaire
+Ignotus
+John Wood Campbell Memorial
+Kurd La witz
+Lambda Literary
+Locus
+Lodestar
+Nebula
+Otherwise
+Philip K  Dick
+Prometheus
+Sidewise
+Solstice
+T htivaeltaja
+Theodore Sturgeon
+Urania
+
+                           
+
+
+                             
+
+
+                           
+
+
+ 
+M dia
+
+
+
+
+
+Litt rature
+
+Bandes dessin es
+Magazines
+Romans
+
+ 
+Films et s ries
+
+Chronologie
+Tokusatsu
+
+                            
+
+
+                             
+
+
+ 
+Concepts
+
+
+
+
+
+Appliqu s
+
+Andro de
+Astroing nierie
+Autor plication
+Conscience artificielle
+Holographie
+Intelligence artificielle
+Invisibilit 
+M gastructure
+Nanotechnologie
+R alit  simul e
+Robot
+Tachyon
+T l chargement de l esprit
+Terraformation
+
+ 
+Formels
+
+Paradoxe de Fermi
+Paradoxe du grand p re
+
+ 
+Vie
+
+Biochimies hypoth tiques
+ volution
+Extraterrestre
+G nie g n tique
+Guerre biologique
+
+ 
+Espace temps
+
+
+Ph nom nes
+
+Trou noir
+Voyage dans le temps
+
+ 
+Vitesse supraluminique
+
+Ansible
+Distorsion
+Hyperespace
+Porte des  toiles
+T l portation
+Trou de ver
+
+ 
+Univers
+
+Astre fictif
+Champ de force
+Multivers
+Th orie de Heim
+
+                           
+
+
+ 
+Social
+
+Arch ologie interstellaire
+Cyborg
+Gouvernement mondial
+LGBT
+Libertarianisme
+Premier contact
+Provolution
+Th orie des anciens astronautes
+Transhumanisme
+
+                         
+
+
+                             
+
+
+ 
+Sujets connexes
+
+Africanfuturisme
+Afrofuturisme
+Arabofuturisme
+ tudes des sciences et des techniques
+Fantasy
+Futur
+Horreur
+Folk horror
+Fantastique
+Histoires de fant mes
+Litt ratures de l imaginaire
+Mecha
+Merveilleux scientifique
+R alisme magique
+Science fantasy
+Techno thriller
+Uchronie
+
+                         
+
+Cat gorie
+Portail
+
+
+ Portail de l intelligence artificielle   Portail de l informatique   Portail de la robotique   Portail de la science fiction   Portail du jeu vid o   Portail de l  conomie   Portail de la philosophie               
+
+
+
+
+
+Ce document provient de        https   fr wikipedia org w index php title Intelligence artificielle amp oldid

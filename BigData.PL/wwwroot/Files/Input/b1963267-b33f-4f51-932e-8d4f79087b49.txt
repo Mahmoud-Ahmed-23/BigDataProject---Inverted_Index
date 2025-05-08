@@ -1,0 +1,378 @@
+Denne artikel omhandler begrebet kunstig intelligens  For andre betydninger  se Ai 
+Robotten Sophia  der via kunstig intelligens er i stand til at f re en  form for  samtale 
+Kunstig intelligens  forkortet til KI             men ofte ogs  kaldet AI p  dansk  fra den engelske forkortelse som st r for artificial intelligence  er den gren inden for datalogien  der besk ftiger sig med at f  maskiner til at  t nke   det vil sige det at f  dem til at kunne g  m lrettet efter noget  fx at vinde over en person i et spil  eller ligesom os at undg  at holde op med at fungere  ved hj lp af p virkninger som opfattes af sensorer  Op til      har det v ret umuligt at gengive menneskelig intelligens  Der er sket en opdeling i forskningen indenfor dette felt  og i dag skelner man blandt andet mellem  st rk  og  bl d  kunstig intelligens 
+St rk kunstig intelligens  strong AI  bygger p  den forestilling at computere teoretisk set vil kunne udvikle bevidsthed svarende til menneskets             Bl d kunstig intelligens  weak AI  indeb rer mere beskedent  at computere i fremtiden vil blive i stand til at simulere alle aspekter af menneskets intellektuelle evner   og dermed ubesv ret kunne f  andre til at tro  at den vitterlig har menneskelig intelligens og bevidsthed  se Turing test   selvom den mangler den subjektivitet  der karakteriserer menneskelig forst else             Sidstn vnte har den amerikanske filosof John Searle fors gt at illustrere med et tankeeksperiment  The Chinese Room 
+Nogle kritikere     hvem       af AI har fremf rt  at det aldrig vil lykkes at simulere menneskelig intelligens  fordi det kr ver intentionalitet  som kun et menneske kan have   det vil sige evnen til at t nke p  konkrete ting som noget  der betyder noget andet og dermed fastholde tingenes semantiske betydninger p  trods af deres skiftende sansem ssige fremtr delser  Andre  fx Peter Naur  er skeptiske overfor kunstig intelligens  fordi t nkning hos mennesker medf rer fysiske  ndringer i hjernen   ndringerne skaber flere forbindelser i hjernen  og s danne fysiske  ndringer findes ikke  kvivalent hos computere  der udf rer programmer 
+Udviklingen af kunstig intelligens og psykologisk forskning i computermodellering af menneskelige kognitive funktioner p virker hinanden betydeligt 
+V sentlige delomr der er  robotsyn og processering af naturlige sprog 
+
+
+Hvad er kunstig intelligens  redig r   rediger kildetekst 
+Inden for kunstig intelligens programmering findes der to grundl ggende m der at t nke  disse er s  delt ind i to undergrupper  Den f rste gruppe er programmer  der opf rer sig som mennesker  Det vil sige programmer  der t nker ligesom mennesker  og programmer  der opf rer sig ligesom mennesker  Den anden gruppe er programmer  der er baseret p  logik  Det vil sige systemer  der t nker logisk  og systemer  der opf rer sig logisk 
+
+
+Typer kunstig intelligens
+
+
+
+
+Som et menneske
+
+Logik
+
+
+T nker
+
+T nker som et menneske
+
+T nker logisk
+
+
+Opf re
+
+Opf rer sig som et menneske
+
+Opf rer sig logisk
+
+At opf re sig som et menneske redig r   rediger kildetekst 
+I      forslog Alan Turing en m de  hvorp  man kunne fastsl   om en maskine virkelig var intelligent  I Turings test skulle en person via en computer skrive med b de et andet menneske og en kunstig intelligens  Hvis testpersonen ikke kunne g tte hvem af de to der var programmet ville det v re intelligent 
+For at et program skal klare testen  bliver det n dt til at have f lgende evner 
+
+Kundskab til naturlige sprog  Det skal kunne grammatik  tegns tning osv 
+Hukommelse  Det skal v re i stand til at huske de vigtige detaljer det f r at vide 
+ Fornuft  Det skal kunne svare p  sp rgsm l og drage konklusioner 
+L re  Det skal kunne tilpasse sig til nye situationer 
+Standard Turing testen undg r direkte kontakt mellem programmet og brugeren  Derfor har moderne dataloger skabt den ultimative Turing test  eller Total Turing Test  som den kaldes  Testen er udvidet med et kamera og muligheden for brugeren at sende objekter til programmet  For at best  total turing testen skal programmet bruge 
+
+Syn  Det skal v re i stand til at fortolke de billeder det ser af brugeren 
+Bev gelse  Det skal kunne h ndtere de objekter det modtager fra brugeren  samt fortolke hvad de er 
+Turing testen er ikke s  brugt blandt dataloger  da de hellere vil udforske de underliggende ideer bag kunstig intelligens end best  turing testen 
+
+At t nke som et menneske redig r   rediger kildetekst 
+For at kunne sige at et program t nker som et menneske  skal vi f rst definere  hvordan et menneske t nker  Dette har vist sig at v re meget sv rt at finde ud af  Der er to m der hvorp  man kan f  lidt indsigt ind i den menneskelige hjerne      kilde mangler      Man kan pr ve at se  hvordan tanker opst r i ens egen hjerne og p  den m de f  en ide om  hvordan hjernen fungerer  eller man kan udf re en r kke psykologiske eksperimenter  Det nok mest kendte fors g p  at skabe et program  der t nker som et menneske er GPS  General Problem Solver  Den generelle probleml ser   som blev udt nkt af Allen Newell og Herbert Simon i       Newell og Simon  nskede ikke kun at skabe en maskine  der kunne l se problemer korrekt  men ogs  l se dem ligesom et menneske ville g re  De to fors gte at bringe datalogien og psykologien lidt t ttere p  hinanden  Den danske professor ved DTU  Thomas Bolander forsker i dette omr de af kunstig intelligens              Han pr ver at udvikle matematiske modeller  som kan modellere evnen til at s tte sig i andres sted            
+
+At t nke rationelt redig r   rediger kildetekst 
+Det at et program t nker logisk betyder  at den altid vil komme frem til den  rigtige  konklusion  Det at definere  hvad det rigtige svar til et givende sp rgsm l er  kan v re liges  sv rt som at skrive programmet             Denne form for kunstig intelligens bev ger sig ofte over mod filosofien  n r man skal finde ud af det logiske svar til sp rgsm let 
+Der er to store problemer ved at programmere p  denne m de      kilde mangler     
+
+   Det kan v re sv rt at fortolke den information man f r  det s  vi ovenfor 
+   Der er stor forskel p  at l se et problem i teorien og s  rent faktisk l se det 
+Hvis problemet bare har et par dusin fakta kan computere meget let g  tabt i alt den information og derved udregne for evigt      kilde mangler      Derfor bruger rationelle programmer ofte Fuzzy logic til at finde det korrekte svar      kilde mangler     
+
+At opf re sig rationelt redig r   rediger kildetekst 
+Det at opf re sig rationelt kan ofte v re liges  sv rt som at t nke rationelt  Det er ikke ethvert sp rgsm l der har et  benlyst svar eller overhovedet har et svar  Er det fx i orden at stj le hvis du kun g r det for at overleve  Nogle ville svare ja  andre nej  Dette dilemma skal den rationelle tankegang ogs  kunne forst  og l se  En rationel handling skyldes ikke n dvendigvis en rationel tanke  Nogle gange er det bedre slet ikke at t nke  Fx hvis du br nder dig p  et varmt komfur  s  overvejer du ikke f rst om du skal fjerne h nden fra komfuret  det sker bare  men det var stadig det rigtige at g re  
+Mange af de evner et program skal have for at klare Turing Testen er ogs  n dvendig for et rationelt program eller agent som de ogs  kaldes  Agenten har brug for at kunne udforme gode konklusioner  Den skal have en god logisk sans  Den skal kende til den verden den befinder sig i for bedre at kunne forst  den  Den skal kunne forst  naturlige sprog for bedre at kunne forst  hvad sp rgsm let indeb rer  
+Denne fremgangsm de har to fordele 
+
+   Den er mere generel end  T nke rationelt  metoden 
+   Den er bedre set med videnskabelige  jne  da der ikke er nogen standard m de at definere menneskelige tanker p   hvorimod rationelt er meget vel dokumenteret og meget fint defineret 
+Historiske milep le redig r   rediger kildetekst 
+I  rene efter      har AI sat en r kke historiske milep le             bl a  
+      Deep Blue vandt over den bedste menneskelige skakspiller  Garry Kasparov            
+      IBM s AI Watson vandt spillet Jeopardy            
+      Japansk AI bestod universitetets eksamener                          Google s selvk rende bil begyndte at rulle p  vejene                         
+      Google s DeepMind AlphaGo AI vandt spillet Go             
+      Kinesisk AI er blevet i stand til at modificere vejret og frembringe kunstig regn             
+      Japansk AI bestod en adgangsgivende eksamen              Kinesisk AI har best et medicinstudiets eksamener  s  denne AI er blevet l ge             
+      Google s AI skabte AI  som var bedre end menneskeskabt AI             
+      Google Duplex bestod Turing testen              Japansk AI l ste bedre end menneskelige studerende             
+      AI blev i stand til at diagnostisere lungekr ft              Japansk AI bestod eksamen i engelsk ved Tokyo Universitet             
+      Tanzania             anvendte undervisende AI             
+      AI blev i stand til at advare indere mod oversv mmelser             
+      Google s DeepMind AI blev i stand til at skrive code              Google placerede en AI hjerne i en robot              AI             anvendes             i Ukraine krigen                         
+      I fjerde kvartal opn ede OpenAI ChatGPT en million brugere i l bet af f  dage              ChatGPT kan bl a  best  eksamener  skrive artikler og reducere antallet af bugs i software             
+      ChatGPT bestod jurastudiets eksamener ved University of Pennsylvania s Wharton School of Business             
+      Siden d     februar tillader Aarhus Universitet sine studerende at anvende kunstig intelligens til at skrive bachelorprojekt eller speciale                          Kong Frederik indviede i oktober      Danmarks st rste supercomputer Gefion med s rlig fokus p  AI  med   exaflops AI fp                                                   
+
+Kunstig intelligens i forskellige indsatsomr der redig r   rediger kildetekst 
+IT  Kunstig intelligens kan skabe                         kunstig intelligens                         og fremstille software              antivirusprogram              computerspil             og forbedre cybersikkerhed             
+KI bidrager til at udvikle nye energikilder ved at fremstille grafen                         og kunstig varm fusion                         
+F devareproduktion  KI hj lper med at fremstille f devarer             og at s  risplanter i saltvand             
+Kunstig intelligens g r gavn i sundhedssektoren  bl a  med at diagnosticere kr ft             og fremstille medicin             samt styre kirurgisk robot             
+Undervisning                          Kunstig intelligens underviser allerede flere steder i verden  navnlig i Asien  Pakistan              Indien              Kina              Taiwan              Singapore              Thailand              Vietnam              Sydkorea             og Japan              I b de Sydkorea og Japan har kunstig intelligens f et job som engelskl rer  s  i Japan kan kunstig intelligens erstatte menneskelige engelskl rere   Desuden g lder det for f  steder i Afrika  Nigeria              Kenya             og Tanzania              og enkelte steder i Oceanien  Australien             og New Zealand                           I Sverige hj lper AI med at l re fremmedsprog              I Spanien har EU gjort lidt for at erstatte menneskelig l rer med AI              Siden                  har Tyskland             haft sin f rste undervisende robot             
+Finland og Ungarn hj lper hinanden med at udvikle undervisende AI              Nederlandene             og Estland             har indf rt undervisende kunstig intelligens  Rusland             og USA             eksperimenterer med at lade kunstig intelligens undervise i fx matematik              I Ecuador underviser kunstig intelligens i matematik              I b de Japan                          South Korea              Ukraine             og Tyskland             underviser kunstig intelligens i engelsk 
+AI kan ogs  l re  fx at l se differentialligninger             og andre matematiske problemstillinger              for bl a  studerende              Kina             og De Forenede Arabiske Emirater             erstatter syge elever med robotter og AI  Et gymnasium i Brandenburg har gjort lignende erfaringer              I Kina har AI best et samme eksamen som en l ge             
+Transport  AI kan lande fly              og styre selvk rende biler p  sned kkede veje              samt designe en  D printet bil             og styre skibe              AI kan designe droner             
+Online gambling  Kunstig intelligens har nu ogs  vundet indtog i gambling branchen  hvor at en dattervirksomhed af den svenske bookmaker Kindred  har udviklet en app i samarbejde med Artificial Solutions  Appen g r det muligt for dens bruger   ved hj lp af stemmestyring   at placere bets p  diverse sportskampe  fx fodbold   For at g re oplevelsen god  er der lagt mere end    timers testning og       betting kommandoer i appen               Det er dog ikke f rste gang  at Kindred pr senterer kunstig intelligens i samarbejde med online gambling  I      pr senterede de en chatbot som skal hj lpe spillere med at finde og placere bets hurtigere og vejlede dem  Denne chatbot var udstyret med     forskellige guides              
+AI kan skrive              avisartikler              og f  job som bankr dgiver               b rsm gler              og ejendomsm gler               Desuden kan AI overs tte  s  en tolk er overfl dig              
+Kunst  AI kan komponere              symfonier               skrive digte              og male              
+Underholdning  AI kan lave Hollywood film               AI kan spille en r kke spil typisk bedre end mennesker               poker               skak               Go               Jeopardy              og flere                           computerspil                           
+Forskning  AI anvendes i vidt omfang til at unders ge natur og videnskab  og udvikle tekniske og biologiske redskaber  fx alternativ vejrudsigt  sundhed og energi                                     
+Se ogs  redig r   rediger kildetekst 
+De tre love  AI    foresl ede love inden for AI eller kunstig intelligens til at sikre  at en robot aldrig g r et menneske fortr d
+Klassifikationsalgoritme
+Kognitionspsykologi
+Kunstigt neuralt netv rk
+Generativ kunstig intelligens   opn et ca      
+Kunstig generel intelligens   pt        hypotetisk
+Sprogteknologi
+Talegenkendelse
+Kurt G del
+Referencer redig r   rediger kildetekst 
+
+
+  ordnet dk  KI  backup Citat        kunstig intelligens    
+
+   Strong AI   Investopedia      juni       Hentet     august      
+
+   Weak Artificial Intelligence  Weak AI    Techopedia  Hentet     august      
+
+  Person
+
+  Sociale robotter i st beskeen
+
+   Logic and Artificial Intelligence   Stanford Encyclopedia of Philosophy      august       Hentet     august      
+
+  AI Achievements   The Growing Timeline of AI Milestones
+
+  Deep Blue computer beats world chess champion   archive         Chess   The Guardian
+
+  https   www nytimes com            science   jeopardy watson html
+
+  Japanese artificial intelligence passes university exams   Daily Mail Online
+
+   You Have No Idea What Artificial Intelligence Really Does   Arkiveret fra originalen     maj       Hentet    juni      
+
+  https   www bbc com news technology         
+
+  https   www ennomotive com self driving cars artificial intelligence 
+
+  https   www bbc com news technology         
+
+  https   www mckinsey com   media mckinsey featured   insights China Artificial   intelligence   Implications   for   China MGI Artificial intelligence implications for China ashx
+
+  Japanese AI Robot Takes University Entrance Exam  Exposes Alarming Flaw in Human Education
+
+  a b A Chinese AI passed the national medical licensing exam  so technically it s a doctor
+
+  a b Google s Artificial Intelligence Built an AI That Outperforms Any Made by Humans
+
+       s Biggest Moments In AI  Artificial Intelligence 
+
+  A Warning About Japan s Future  AI Outperforms Students at Reading   Nippon com
+
+  Top   AI achievements of     
+
+  AI performed well at the University of Tokyo pass level in the      Center English Written Exam University Journal Online
+
+  https   afruturist medium com artificial intelligence in tanzania whats happening aa     bdac
+
+  a b Artificial Intelligence for the Realization of Quality Education   Policy Forum
+
+   Artificial intelligence    achievements of       fully controlled by AI        Cmd Markdown         Arkiveret fra originalen     maj       Hentet     april      
+
+  DeepMind s AlphaCode AI writes code at a competitive level   TechCrunch
+
+  ThemeLower   This is the real Online Sites
+
+  A I  goes to war in Ukraine   Fortune
+
+   Artificial Intelligence for Monitoring the War in Ukraine   Groundstation   Arkiveret fra originalen     marts       Hentet    april      
+
+  Exclusive  Ukraine has started using Clearview AI s facial recognition during war   Reuters
+
+  The Role of AI in the Russia Ukraine War   The Brian Lehrer Show   WNYC
+
+  I en uge har ny chatbot vakt vild opsigt   nu advarer virksomheden bag  dateret d      dec        TV  Nyhederne
+
+  Ny chatrobot kan klare din eksamen  rette din software og skrive dit essay DR nyheder  dateret d     december      
+
+  ChatGPT passes exams from law and business schools  dateret d      januar       p  CNN com
+
+  Nu m  studerende bruge AI til specialer og bacheloropgaver  dateret d     februar       p  au dk
+
+  New rules  You may now use AI when writing your Master s thesis or Bachelor s project Arkiveret    marts      hos  Wayback Machine    February       au dk
+
+  a b  To konger satte str m til supercomputeren Gefion   Danmarks Radio      oktober      
+
+  a b  DMI udvikler AI vejrmodel p  den nye supercomputer Gefion   DMI      oktober           mio  kr  til centrets startomkostninger  mens EIFO har bidraget med     mio  kr
+
+  a b  Forskere vil kortl gge enzymers dynamik med Danmarks f rste AI supercomputer   DTU      oktober      
+
+   Ny dansk AI supercomputer er langtfra verdens hurtigste   Ingeni ren      marts      
+
+  Second Generation AI Possible After New Discovery About the Human Brain   Worldhealth net Anti Aging News
+
+  Google s AI Makes Its Own AI Children   And They re Awesome   IFLScience
+
+  https   www technologyreview com                    artificial intelligence learning create itself agi 
+
+  AI Can Write Code Like Humans Bugs and All   WIRED
+
+   Arkiveret kopi   Arkiveret fra originalen     december       Hentet     december      
+
+  Can AI Create Video Games
+
+  Don t Get Obfuscated  Use AI To Stop Attacks
+
+  https   onlinelibrary wiley com doi full         adpr          
+
+  Machine learning could reveal graphene oxide s real structure   Physics World
+
+  Harvard  Princeton scientists make AI breakthrough for fusion energy   Harvard Gazette
+
+  Artificial Intelligence helps nuclear fusion  EUROfusion
+
+  Less meat  less heat
+
+  Chinese Scientists Grow Saltwater Tolerant Rice With AI in Dubai s Desert
+
+  Artificial intelligence in cancer diagnosis and prognosis  Opportunities and challenges   ScienceDirect
+
+  Artificial intelligence created medicine to be used on humans for first time
+
+  Robotic Surgery  The Role of AI and Collaborative Robots   automate org
+
+  AI i undervisningen p  videnscenterportalen dk
+
+  CBS forbyder kunstig intelligens til eksamen  Men vil bruge den i undervisningen  dateret d     februar       p  berlingske dk
+
+  How AI is helping hundreds of schools in Pakistan   CENTURY
+
+  At this Bengaluru school  robots teach and teachers mentor   Bengaluru News   Times of India
+
+  Frontiers   Using Artificial Intelligence Based Collaborative Teaching in Media Learning
+
+  Taiwan schools shift emphasis from teaching coding to applications of AI   Taiwan News                      
+
+  AI program to set and mark assessments helps teachers in Singapore save time   The Straits Times
+
+  Thailand Gets ASEAN s First AI Robot Teacher   OpenGov Asia
+
+  Is Vietnam s first AI robot the future of education    Tech Wire Asia
+
+  S dkorea  Roboter als Englischlehrer   DiePresse com
+
+   Arkiveret kopi   Arkiveret fra originalen     december       Hentet     december      
+
+  Advancing education and speech recognition in Nigeria with AI and machine learning   AI for Good
+
+  How Artificial Intelligence is Shaping the Future of Education   Drilling Sense from Data
+
+  iview
+
+  World first digital teacher in NZ schools
+
+   Arkiveret kopi   Arkiveret fra originalen    december       Hentet     december      
+
+   Spr kkompis   att l ra sig spr k med hj lp av Artificiell Intelligens   Innovation i Helsingborg   Arkiveret fra originalen     december       Hentet     december      
+
+  My teacher is a robot   EASEL Project   Results in brief   FP    CORDIS   European Commission
+
+  Digital Intelligence  Roboter als Assistenz Professoren    Campus   ARD alpha   Fernsehen   BR de
+
+  a b https   www dw com en meet germanys first robot lecturer av         
+
+  Deutschland  Wenn Roboter unterrichten   Reporter   gloria tv
+
+  Hungary s National AI Strategy   Ulkoministeri 
+
+  Kunstmatige intelligentie in het onderwijs   Onderwijs van Morgen
+
+  Estonia to unleash AI for personalisation of education
+
+  Russian Scientists Suggest Teaching AI Creative Writing
+
+  https   www nytimes com            education artificial intelligence tutors teachers html
+
+  https   people math harvard edu  knill preprints sofia pdf
+
+  In Ecuador  Artificial Intelligence Makes Learning Math Easier
+
+  Schools in Japan turn to AI robots for help with English classes
+
+  Japanese School Kids Learn English from AI Robots   JAPAN Forward
+
+  LG CNS offers AI powered English education service to schools nationwide
+
+  The Ukrainian AI start up teaching kids English   Emerging Europe
+
+  https   medium com swlh artificial intelligence can now solve a mathematical problem that can make researchers life easier     c      
+
+  Facebook s AI mathematician can solve university calculus problems   New Scientist
+
+  Maplesoft launches new AI learning tool to help high school and university students do math quickly   IT Business
+
+  Chinese university uses robots to replace students for graduation ceremony amid coronavirus pandemic   video Dailymotion
+
+  Emirati student developing robots that can attend school for sick students   Society   Gulf News
+
+  Anwesend trotz Krankheit  Wie ein Roboter Lucas im Klassenzimmer vertritt
+
+  AI pilot  sees  runway and lands automatically
+
+     New AI tool helps self driving cars navigate on snowy roads
+
+  A  D printed Car which is designed by AI   Czinger   C   Thereviewstories
+
+  Mayflower      First Crewless Ship Run By AI To Sail Across The Atlantic
+
+  Artificial Intelligence in Drone Technology
+
+   Kindred Futures Challenges Voice Driven Betting       november       Hentet     december      
+
+   Bookmaker pr senterer app med kunstig intelligens      december       Hentet     december      
+
+   Arkiveret kopi   Arkiveret fra originalen     januar       Hentet     december      
+
+  Robotter som skribenter  Bliver journalister overfl dige    fyens dk
+
+  https   www dr dk nyheder indland nordea fyrer tusindvis robotten nora bliver din nye bankraadgiver
+
+    AI Trading Companies Helping Investors   Built In
+
+  https   www cnbc com            what artificial intelligence means for homebuyers real estate market html
+
+  https   medium com syncedreview google ai translatotron can make anyone a real time polyglot e b d   f d 
+
+  a b A New AI Can Write Music as Well as a Human Composer
+
+  AI can now compose pop music and even symphonies  Here s how composers are joining in
+
+  AI still writes lousy poetry   ZDNET
+
+  This AI art app is a glimpse at the future of synthetic media   The Verge
+
+  Hollywood is replacing artists with AI  and its future is bleak    Vox
+
+  https   towardsdatascience com the games that ai won ff fd a  efc
+
+  Researchers built an AI that plays chess like a person  not a super computer   Engadget
+
+  Former Go champion beaten by DeepMind retires after declaring AI invincible   The Verge
+
+  IBM Watson  The inside story of how the Jeopardy winning supercomputer was born  and what it wants to do next   TechRepublic
+
+   New AI Is Capable of Beating Humans at Doom   Den of Geek   Arkiveret fra originalen     december       Hentet     december      
+
+  Google s New AI Is a Master of Games  but How Does It Compare to the Human Mind    Innovation  Smithsonian Magazine
+
+  https   medium com gyroscopesoftware how we built an ai to play street fighter ii can you beat it     ba  f  b
+
+  https      lv articles an ai agent learns to play deathmatch in counter strike 
+
+
+Eksterne henvisninger redig r   rediger kildetekst 
+ Wikimedia Commons har flere filer relateret til Kunstig intelligens 
+Artificial intelligence        a modern approach   nd ed        ISBN                   
+Torben Bra ner  Logikkens Muligheder og Gr nser  Aktuel Naturvidenskab          
+Kaplan Andreas  Michael Haenlein        Siri  Siri in my Hand  who s the Fairest in the Land  On the Interpretations  Illustrations and Implications of Artificial Intelligence  Business Horizons       
+Kunstig intelligens Arkiveret    juli      hos  Wayback Machine  Fra Det etiske r ds hjemmeside
+    Danmarks l ringsportal  emu  beretter om kunstig intelligens i    klasses matematiktimer 
+    I      skrev Danmarks L rerforening om kunstig intelligens 
+    I      skrev Gymnasieskolernes L rerforening om kunstig intelligens 
+Autoritetsdata
+LCCN  sh        
+GND           
+BNF  cb        t  data 
+NDL          
+NKC  ph      
+BNE  XX       
+DSD  kunstig intelligens
+
+
+
+
+
+
+Hentet fra  https   da wikipedia org w index php title Kunstig intelligens amp oldid

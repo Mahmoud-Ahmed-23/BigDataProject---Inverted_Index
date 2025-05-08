@@ -1,0 +1,392 @@
+Image dataset
+
+The ImageNet project is a large visual database designed for use in visual object recognition software research  More than    million                       images have been hand annotated by the project to indicate what objects are pictured and in at least one million of the images  bounding boxes are also provided             ImageNet contains more than        categories             with a typical category  such as  balloon  or  strawberry   consisting of several hundred images             The database of annotations of third party image URLs is freely available directly from ImageNet  though the actual images are not owned by ImageNet             Since       the ImageNet project runs an annual software contest  the ImageNet Large Scale Visual Recognition Challenge  ILSVRC   where software programs compete to correctly classify and detect objects and scenes  The challenge uses a  trimmed  list of one thousand non overlapping classes            
+
+
+History edit 
+AI researcher Fei Fei Li began working on the idea for ImageNet in       At a time when most AI research focused on models and algorithms  Li wanted to expand and improve the data available to train AI algorithms             In       Li met with Princeton professor Christiane Fellbaum  one of the creators of WordNet  to discuss the project  As a result of this meeting  Li went on to build ImageNet starting from the roughly        nouns of WordNet and using many of its features             She was also inspired by a      estimate            that the average person recognizes roughly        different kinds of objects             
+As an assistant professor at Princeton  Li assembled a team of researchers to work on the ImageNet project  They used Amazon Mechanical Turk to help with the classification of images  Labeling started in July      and ended in April       It took     years to complete the labeling             They had enough budget to have each of the    million images labelled three times             
+The original plan called for        images per category  for        categories at     million images  each verified   times  They found that humans can classify at most   images sec  At this rate  it was estimated to take    human years of labor  without rest              
+They presented their database for the first time as a poster at the      Conference on Computer Vision and Pattern Recognition  CVPR  in Florida  titled  ImageNet  A Preview of a Large scale Hierarchical      Dataset                                                  The poster was reused at Vision Sciences Society                  
+In       Alex Berg suggested adding object localization as a task  Li approached PASCAL Visual Object Classes contest in      for a collaboration  It resulted in the subsequent  ImageNet Large Scale Visual Recognition Challenge starting in       which has      classes and object localization  as compared to PASCAL VOC which had just    classes and        images  in                             
+
+Significance for deep learning edit 
+On    September       a convolutional neural network  CNN  called AlexNet             achieved a top   error of       in the ImageNet      Challenge  more than      percentage points lower than that of the runner up  Using convolutional neural networks was feasible due to the use of graphics processing units  GPUs  during training              an essential ingredient of the deep learning revolution  According to The Economist   Suddenly people started to pay attention  not just within the AI community but across the technology industry as a whole                                     
+In       AlexNet was outperformed by Microsoft s very deep CNN with over     layers  which won the ImageNet      contest             
+
+Dataset edit 
+ImageNet crowdsources its annotation process  Image level annotations indicate the presence or absence of an object class in an image  such as  there are tigers in this image  or  there are no tigers in this image   Object level annotations provide a bounding box around the  visible part of the  indicated object  ImageNet uses a variant of the broad WordNet schema to categorize objects  augmented with     categories of dog breeds to showcase fine grained classification            
+In       ImageNet was the world s largest academic user of Mechanical Turk  The average worker identified    images per minute            
+The original plan of the full ImageNet would have roughly   M clean  diverse and full resolution images spread over approximately   K synsets              This was not achieved 
+The summary statistics given on April                      
+
+Total number of non empty synsets       
+Total number of images            
+Number of images with bounding box annotations           
+Number of synsets with SIFT features      
+Number of images with SIFT features      million
+Categories edit 
+The categories of ImageNet were filtered from the WordNet concepts  Each concept  since it can contain multiple synonyms  for example   kitty  and  young cat    so each concept is called a  synonym set  or  synset   There were more than         synsets in WordNet      majority of them are nouns            The ImageNet dataset filtered these to        synsets that are countable nouns that can be visually illustrated 
+Each synset in WordNet     has a  WordNet ID   wnid   which is a concatenation of part of speech and an  offset   a unique identifying number   Every wnid starts with  n  because ImageNet only includes nouns  For example  the wnid of synset  dog  domestic dog  Canis familiaris  is  n                      
+The categories in ImageNet fall into   levels  from level    such as  mammal   to level    such as  German shepherd               
+
+Image format edit 
+The images were scraped from online image search  Google  Picsearch  MSN  Yahoo  Flickr  etc  using synonyms in multiple languages  For example  German shepherd  German police dog  German shepherd dog  Alsatian  ovejero alem n  pastore tedesco                    
+ImageNet consists of images in RGB format with varying resolutions  For example  in ImageNet        fish  category  the resolution ranges from      x      to    x     In machine learning  these are typically preprocessed into a standard constant resolution  and whitened  before further processing by neural networks 
+For example  in PyTorch  ImageNet images are by default normalized by dividing the pixel values so that they fall between   and    then subtracting by                        then dividing by                        These are the mean and standard deviations  for ImageNet  so these whitens the input data             
+
+Labels and annotations edit 
+Each image is labelled with exactly one wnid 
+Dense SIFT features  raw SIFT descriptors  quantized codewords  and coordinates of each descriptor codeword  for ImageNet  K were available for download  designed for bag of visual words             
+The bounding boxes of objects were available for about      popular synsets             with on average     images in each synset             
+Furthermore  some images have attributes  They released    attributes for      popular synsets                         
+
+Color  black  blue  brown  gray  green  orange  pink  red  violet  white  yellow
+Pattern  spotted  striped
+Shape  long  round  rectangular  square
+Texture  furry  smooth  rough  shiny  metallic  vegetation  wooden  wet
+ImageNet   K edit 
+The full original dataset is referred to as ImageNet   K  ImageNet   k contains            images divided into        classes  Some papers round this up and name it ImageNet   k             
+The full ImageNet   k was released in Fall of       as fall   whole tar  There is no official train validation test split for ImageNet   k  Some classes contain only      samples  while others contain thousands             
+
+ImageNet  K edit 
+There are various subsets of the ImageNet dataset used in various context  sometimes referred to as  versions              
+One of the most highly used subsets of ImageNet is the  ImageNet Large Scale Visual Recognition Challenge  ILSVRC            image classification and localization dataset   This is also referred to in the research literature as ImageNet  K or ILSVRC      reflecting the original ILSVRC challenge that involved       classes  ImageNet  K contains           training images         validation images and         test images             
+Each category in ImageNet  K is a leaf category  meaning that there are no child nodes below it  unlike ImageNet   K  For example  in ImageNet   K  there are some images categorized as simply  mammal   whereas in ImageNet  K  there are only images categorized as things like  German shepherd   since there are no child words below  German shepherd              
+
+Later developments edit 
+In      winter  ImageNet   k was updated        categories in the  person  subtree were filtered to prevent  problematic behaviors  in a trained model  In       ImageNet  k was updated by annotating faces appearing in the     non person categories  They found training models on the dataset with these faces blurred caused minimal loss in performance             
+ImageNet C is an adversarially perturbed version of ImageNet constructed in                  
+ImageNetV  was a new dataset containing three test sets with        each  constructed by the same methodology as the original ImageNet             
+ImageNet   K P was a filtered and cleaned subset of ImageNet   K  with            images from        categories             
+
+
+Table of datasets
+
+
+Name
+
+Published
+
+Classes
+
+Training
+
+Validation
+
+Test
+
+Size
+
+
+PASCAL VOC
+
+    
+
+  
+
+
+
+
+
+
+
+
+
+
+ImageNet  K
+
+    
+
+     
+
+         
+
+      
+
+       
+
+    GB
+
+
+ImageNet   K
+
+    
+
+      
+
+          
+
+
+
+
+
+     TB
+
+
+ImageNetV 
+
+    
+
+
+
+
+
+
+
+      
+
+
+
+
+ImageNet   K P
+
+    
+
+      
+
+          
+
+
+
+       
+
+
+
+History of the ImageNet challenge edit 
+Error rate history on ImageNet  showing best result per team and up to    entries per year   The      entry of AlexNet is clearly visible 
+The ILSVRC aims to  follow in the footsteps  of the smaller scale PASCAL VOC challenge  established in       which contained only about        images and twenty object classes             To  democratize  ImageNet  Fei Fei Li proposed to the PASCAL VOC team a collaboration  beginning in       where research teams would evaluate their algorithms on the given data set  and compete to achieve higher accuracy on several visual recognition tasks            
+The resulting annual competition is now known as the ImageNet Large Scale Visual Recognition Challenge  ILSVRC   The ILSVRC uses a  trimmed  list of only      image categories or  classes   including    of the     dog breeds classified by the full ImageNet schema            
+The     s saw dramatic progress in image processing 
+The first competition in      had    participating teams  The winning team was a linear support vector machine  SVM   The features are a dense grid of HoG and LBP  sparsified by local coordinate coding and pooling              It achieved       in classification accuracy and       in top   accuracy  It was trained for   days on three   core machines  dual quad core        GHz Intel Xeon CPU              
+The second competition in      had fewer teams  with another SVM winning at top   error rate                  The winning team was XRCE by Florent Perronnin  Jorge Sanchez  The system was another linear SVM  running on quantized             Fisher vectors                          It achieved       in top   accuracy 
+In       a deep convolutional neural net called AlexNet achieved       in top   accuracy  a great leap forward              In the next couple of years  top   accuracy grew to above      While the      breakthrough  combined pieces that were all there before   the dramatic quantitative improvement marked the start of an industry wide artificial intelligence boom            
+In       most high ranking entries used convolutional neural networks  The winning entry for object localization was the OverFeat  an architecture for simultaneous object classification and localization             
+By       more than fifty institutions participated in the ILSVRC             In          of    competing teams had greater than     accuracy              In      ImageNet stated it would roll out a new  much more difficult challenge in      that involves classifying  D objects using natural language  Because creating  D data is more costly than annotating a pre existing  D image  the dataset is expected to be smaller  The applications of progress in this area would range from robotic navigation to augmented reality            
+By       researchers at Microsoft reported that their CNNs exceeded human ability at the narrow ILSVRC tasks                          However  as one of the challenge s organizers  Olga Russakovsky  pointed out in       the contest is over only      categories  humans can recognize a larger number of categories  and also  unlike the programs  can judge the context of an image             
+In       the winning entry was CUImage  an ensemble model of   networks  Inception v   Inception v   Inception ResNet v   ResNet      Wide ResNet     and Wide ResNet                The runner up was ResNeXt  which combines the Inception module with ResNet             
+In       the winning entry was the Squeeze and Excitation Network  SENet   reducing the top   error to                    
+
+Bias in ImageNet edit 
+It is estimated that over    of labels in the ImageNet  k validation set are wrong              It is also found that around     of ImageNet  k contains ambiguous or erroneous labels  and that  when presented with a model s prediction and the original ImageNet label  human annotators prefer the prediction of a state of the art model in      trained on the original ImageNet  suggesting that ImageNet  k has been saturated             
+A study of the history of the multiple layers  taxonomy  object classes and labeling  of ImageNet and WordNet in      described how bias     clarification needed      is deeply embedded in most classification approaches for all sorts of images                                                  ImageNet is working to address various sources of bias             
+One downside of WordNet use is the categories may be more  elevated  than would be optimal for ImageNet   Most people are more interested in Lady Gaga or the iPod Mini than in this rare kind of diplodocus       clarification needed     
+
+See also edit 
+Computer vision
+List of datasets for machine learning research
+WordNet
+References edit 
+
+
+  a b  New computer vision challenge wants to teach robots to see in  D   New Scientist    April       Retrieved   February      
+
+  a b c Markoff  John     November         For Web Images  Creating New Technology to Seek and Find   The New York Times  Retrieved   February      
+
+   ImageNet     September       Archived from the original on   September       Retrieved    October      
+
+  a b c  From not working to neural networking   The Economist     June       Retrieved   February      
+
+   ImageNet Overview   ImageNet  Retrieved    October      
+
+  a b c d e f Olga Russakovsky   Jia Deng   Hao Su  Jonathan Krause  Sanjeev Satheesh  Sean Ma  Zhiheng Huang  Andrej Karpathy  Aditya Khosla  Michael Bernstein  Alexander C  Berg and Li Fei Fei       equal contribution  ImageNet Large Scale Visual Recognition Challenge  IJCV       
+
+  Hempel  Jesse     November         Fei Fei Li s Quest to Make AI Better for Humanity   Wired  Retrieved   May       When Li  who had moved back to Princeton to take a job as an assistant professor in       talked up her idea for ImageNet  she had a hard time getting faculty members to help out  Finally  a professor who specialized in computer architecture agreed to join her as a collaborator 
+
+  a b c d e Gershgorn  Dave     July         The data that transformed AI research and possibly the world   Quartz  Atlantic Media Co  Retrieved    July       Having read about WordNet s approach  Li met with professor Christiane Fellbaum  a researcher influential in the continued work on WordNet  during a      visit to Princeton 
+
+  Biederman  Irving          Recognition by components  A theory of human image understanding   Psychological Review                   doi                 x           ISSN              X  PMID              
+
+  a b c Lee  Timothy B      November         How a stubborn computer scientist accidentally launched the deep learning boom   Ars Technica  Retrieved    November      
+
+  a b Li  F F  ImageNet   Crowdsourcing  benchmarking  amp  other cool things   CMU VASC Semin                  
+
+   CVPR       IEEE Computer Society Conference on Computer Vision and Pattern Recognition   tab computer org  Retrieved    November      
+
+  a b Deng  Jia  Dong  Wei  Socher  Richard  Li  Li Jia  Li  Kai  Fei Fei  Li          ImageNet  A Large Scale Hierarchical Image Database   PDF        conference on Computer Vision and Pattern Recognition  archived from the original  PDF  on    January       retrieved    July     
+
+  Li  Fei Fei     March        How we re teaching computers to understand pictures  retrieved    December     
+
+  Deng  Jia  et al   Construction and analysis of a large scale image ontology   Vision Sciences Society              
+
+  a b c Krizhevsky  Alex  Sutskever  Ilya  Hinton  Geoffrey E   June         ImageNet classification with deep convolutional neural networks   PDF   Communications of the ACM                 doi                  ISSN                 S CID                 Retrieved    May      
+
+   Machines  beat humans  for a growing number of tasks   Financial Times     November       Retrieved   February      
+
+  Gershgorn  Dave     June         The inside story of how AI got good enough to dominate Silicon Valley   Quartz  Retrieved    December      
+
+  a b He  Kaiming  Zhang  Xiangyu  Ren  Shaoqing  Sun  Jian          Deep Residual Learning for Image Recognition        IEEE Conference on Computer Vision and Pattern Recognition  CVPR   pp                arXiv             doi         CVPR          ISBN                         S CID                
+
+   ImageNet Summary and Statistics  updated on April                January       Archived from the original on    January       Retrieved    November      
+
+   ImageNet API documentation      January       Archived from the original on    January       Retrieved    November      
+
+  a b Berg  Alex  Jia Deng  and L  Fei Fei   Large scale visual recognition challenge        November      
+
+   std and mean for image normalization different from ImageNet   Issue       openai CLIP   GitHub  Retrieved    September      
+
+   ImageNet     April       Archived from the original on   April       Retrieved    November      
+
+  https   web archive org web                http   www image net org api text imagenet sbow obtain synset list
+
+   ImageNet   Archived from the original on   April      
+
+   ImageNet   Archived from the original on    December      
+
+  Russakovsky  Olga  Fei Fei  Li          Attribute Learning in Large Scale Datasets   In Kutulakos  Kiriakos N   ed    Trends and Topics in Computer Vision  Lecture Notes in Computer Science  Vol             Berlin  Heidelberg  Springer  pp             doi                              ISBN                        
+
+  a b c Ridnik  Tal  Ben Baruch  Emanuel  Noy  Asaf  Zelnik Manor  Lihi    August         ImageNet   K Pretraining for the Masses   arXiv             cs CV  
+
+   ImageNet   www image net org  Retrieved    October      
+
+   An Update to the ImageNet Website and Dataset   www image net org  Retrieved    November      
+
+  Hendrycks  Dan  Dietterich  Thomas          Benchmarking Neural Network Robustness to Common Corruptions and Perturbations   arXiv             cs LG  
+
+  Recht  Benjamin  Roelofs  Rebecca  Schmidt  Ludwig  Shankar  Vaishaal     May         Do ImageNet Classifiers Generalize to ImageNet    Proceedings of the   th International Conference on Machine Learning  PMLR            
+
+  ImageNet classification  fast descriptor coding and large scale SVM training
+
+  Lin  Yuanqing  Lv  Fengjun  Zhu  Shenghuo  Yang  Ming  Cour  Timothee  Yu  Kai  Cao  Liangliang  Huang  Thomas  June         Large scale image classification  Fast feature extraction and SVM training   CVPR       IEEE  pp                  doi         cvpr               ISBN                        
+
+  Sanchez  Jorge  Perronnin  Florent  June         High dimensional signature compression for large scale image classification   CVPR       IEEE  pp                  doi         cvpr               ISBN                        
+
+  Perronnin  Florent  S nchez  Jorge  Mensink  Thomas          Improving the Fisher Kernel for Large Scale Image Classification   In Daniilidis  Kostas  Maragos  Petros  Paragios  Nikos  eds    Computer Vision   ECCV       Lecture Notes in Computer Science  Vol             Berlin  Heidelberg  Springer  pp                doi                               ISBN                        
+
+   XRCE ILSVRC      Compressed Fisher vectors for LSVR   Florent Perronnin and Jorge S nchez  Xerox Research Centre Europe  XRCE 
+
+   ImageNet Large Scale Visual Recognition Competition       ILSVRC       
+
+  Sermanet  Pierre  Eigen  David  Zhang  Xiang  Mathieu  Michael  Fergus  Rob  LeCun  Yann          OverFeat  Integrated Recognition  Localization and Detection using Convolutional Networks   arXiv            cs CV  
+
+  Gershgorn  Dave     September         The Quartz guide to artificial intelligence  What is it  why is it important  and should we be afraid    Quartz  Retrieved   February      
+
+  Markoff  John     December         A Learning Advance in Artificial Intelligence Rivals Human Abilities   The New York Times  Retrieved    June      
+
+  Aron  Jacob     September         Forget the Turing test   there are better ways of judging AI   New Scientist  Retrieved    June      
+
+   Ilsvrc      
+
+  Xie  Saining  Girshick  Ross  Dollar  Piotr  Tu  Zhuowen  He  Kaiming         Aggregated Residual Transformations for Deep Neural Networks  PDF   Conference on Computer Vision and Pattern Recognition  pp                  arXiv             doi         CVPR          
+
+  Hu  Jie  Shen  Li  Albanie  Samuel  Sun  Gang  Wu  Enhua          Squeeze and Excitation Networks   arXiv             cs CV  
+
+  Northcutt  Curtis G   Athalye  Anish  Mueller  Jonas    November        Pervasive Label Errors in Test Sets Destabilize Machine Learning Benchmarks  arXiv           
+
+  Beyer  Lucas  H naff  Olivier J   Kolesnikov  Alexander  Zhai  Xiaohua  Oord  A ron van den     June        Are we done with ImageNet   arXiv           
+
+   The Viral App That Labels You Isn t Quite What You Think   Wired  ISSN                 Retrieved    September      
+
+  Wong  Julia Carrie     September         The viral selfie app ImageNet Roulette seemed fun   until it called me a racist slur   The Guardian  ISSN                 Retrieved    September      
+
+  Crawford  Kate  Paglen  Trevor     September         Excavating AI  The Politics of Training Sets for Machine Learning      Retrieved    September      
+
+  Lyons  Michael     December         Excavating  Excavating AI   The Elephant in the Gallery   arXiv             doi         zenodo            cite journal    Cite journal requires       journal   help 
+
+   Towards Fairer Datasets  Filtering and Balancing the Distribution of the People Subtree in the ImageNet Hierarchy   image net org     September       Retrieved    September      
+
+
+External links edit 
+Official website
+vteDifferentiable computingGeneral
+Differentiable programming
+Information geometry
+Statistical manifold
+Automatic differentiation
+Neuromorphic computing
+Pattern recognition
+Ricci calculus
+Computational learning theory
+Inductive bias
+Hardware
+IPU
+TPU
+VPU
+Memristor
+SpiNNaker
+Software libraries
+TensorFlow
+PyTorch
+Keras
+scikit learn
+Theano
+JAX
+Flux jl
+MindSpore
+
+ Portals
+Computer programming
+Technology
+
+vteStandard test items
+Pangram
+Reference implementation
+Sanity check
+Standard test image
+Artificial intelligence
+Chinese room
+Turing test
+Television  test card 
+SMPTE color bars
+EBU colour bars
+Indian head test pattern
+EIA      resolution chart
+BBC Test Card A  B  C  D  E  F  G  H  J  W  X
+ETP  
+Philips circle pattern  PM       PM       PM       PM      
+Snell  amp  Wilcox SW  SW 
+Telefunken FuBK
+TVE test card
+UEIT
+Computer languages
+ Hello  World   program
+Quine
+Trabb Pardo Knuth algorithm
+Man or boy test
+Just another Perl hacker
+Data compression
+Calgary corpus
+Canterbury corpus
+Silesia corpus
+enwik   enwik 
+ D computer graphics
+Cornell box
+Stanford bunny
+Stanford dragon
+Utah teapot
+List
+Machine learning
+ImageNet
+MNIST database
+List
+Typography  filler text 
+Etaoin shrdlu
+Hamburgevons
+Lorem ipsum
+The quick brown fox jumps over the lazy dog
+Other
+ DBenchy
+Acid
+ 
+ 
+ 
+ Bad Apple   
+EICAR test file
+functions for optimization
+GTUBE
+Harvard sentences
+Lenna
+ The North Wind and the Sun 
+ Tom s Diner 
+SMPTE universal leader
+EURion constellation
+Shakedown
+Webdriver Torso
+     USAF resolution test chart
+
+
+
+
+
+
+Retrieved from  https   en wikipedia org w index php title ImageNet amp oldid

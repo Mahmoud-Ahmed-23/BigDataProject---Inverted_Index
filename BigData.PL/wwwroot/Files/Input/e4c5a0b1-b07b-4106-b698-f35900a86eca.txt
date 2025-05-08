@@ -1,0 +1,255 @@
+Condition in economics and game theory
+Chess is an example of a game of perfect information 
+In economics  perfect information  sometimes referred to as  no hidden information   is a feature of perfect competition  With perfect information in a market  all consumers and producers have complete and instantaneous knowledge of all market prices  their own utility  and own cost functions 
+In game theory  a sequential game has perfect information if each player  when making any decision  is perfectly informed of all the events that have previously occurred  including the  initialization event  of the game  e g  the starting hands of each player in a card game                                              
+Perfect information is importantly different from complete information  which implies common knowledge of each player s utility functions  payoffs  strategies and  types   A game with perfect information may or may not have complete information 
+
+Poker is a game of imperfect information  as players do not know the private cards of their opponents 
+Games where some aspect of play is hidden from opponents   such as the cards in poker and bridge   are examples of games with imperfect information                       
+
+
+Examples edit 
+Backgammon includes chance events  but by some definitions is classified as a game of perfect information 
+Chess is an example of a game with perfect information  as each player can see all the pieces on the board at all times             Other games with perfect information include tic tac toe  Reversi  checkers  and Go            
+Academic literature has not produced consensus on a standard definition of perfect information which defines whether games with chance  but no secret information  and games with simultaneous moves are games of perfect information                                             
+Games which are sequential  players alternate in moving  and which have chance events  with known probabilities to all players  but no secret information  are sometimes considered games of perfect information  This includes games such as backgammon and Monopoly  However  some academic papers do not regard such games as games of perfect information because the results of chance themselves are unknown prior to them occurring                                             
+Games with simultaneous moves are generally not considered games of perfect information  This is because each player holds information  which is secret  and must play a move without knowing the opponent s secret information  Nevertheless  some such games are symmetrical  and fair  An example of a game in this category includes rock paper scissors                                             
+
+See also edit 
+Extensive form game
+Information asymmetry
+Partial knowledge
+Screening game
+Signaling game
+References edit 
+
+
+  Osborne  M  J   Rubinstein  A           Chapter    Extensive Games with Perfect Information   A Course in Game Theory  Cambridge  Massachusetts  The MIT Press  ISBN                    
+
+  a b Khomskii  Yurii          Infinite Games  section        PDF  
+
+  a b Archived at Ghostarchive and the Wayback Machine   Infinite Chess   PBS Infinite Series  March          Perfect information defined at       with academic sources arXiv           and arXiv            
+
+  a b c d Mycielski  Jan          Games with Perfect Information   Handbook of Game Theory with Economic Applications  Vol          pp              doi         S                      ISBN                        
+
+  Thomas  L  C          Games  Theory and Applications  Mineola New York  Dover Publications  p           ISBN                    
+
+  Osborne  M  J   Rubinstein  A           Chapter     Extensive Games with Imperfect Information   A Course in Game Theory  Cambridge Massachusetts  The MIT Press  ISBN                    
+
+  a b c Janet Chen  Su I Lu  Dan Vekhter   Game Theory  Rock  Paper  Scissors   cs stanford edu 
+
+  a b c Ferguson  Thomas S   Game Theory   PDF   UCLA Department of Mathematics  pp             
+
+  a b c Burch  Johanson  Bowling   Solving Imperfect Information Games Using Decomposition   Proceedings of the Twenty Eighth AAAI Conference on Artificial Intelligence 
+
+
+Further reading edit 
+Fudenberg  D  and Tirole  J         Game Theory  MIT Press   see Chapter    sect     
+Gibbons  R         A primer in game theory  Harvester Wheatsheaf   see Chapter   
+Luce  R D  and Raiffa  H         Games and Decisions  Introduction and Critical Survey  Wiley  amp  Sons  see Chapter    section   
+The Economics of Groundhog Day by economist D W  MacKenzie  using the      film Groundhog Day to argue that perfect information  and therefore perfect competition  is impossible 
+Watson  J         Strategy  An Introduction to Game Theory  W W  Norton and Co 
+vteTopics of game theoryDefinitions
+Congestion game
+Cooperative game
+Determinacy
+Escalation of commitment
+Extensive form game
+First player and second player win
+Game complexity
+Graphical game
+Hierarchy of beliefs
+Information set
+Normal form game
+Perfect recall
+Preference
+Sequential game
+Simultaneous game
+Simultaneous action selection
+Solved game
+Succinct game
+Mechanism design
+Equilibriumconcepts
+Bayes correlated equilibrium
+Bayesian Nash equilibrium
+Berge equilibrium
+ Core
+Correlated equilibrium
+Coalition proof Nash equilibrium
+Epsilon equilibrium
+Evolutionarily stable strategy
+Gibbs equilibrium
+Mertens stable equilibrium
+Markov perfect equilibrium
+Nash equilibrium
+Pareto efficiency
+Perfect Bayesian equilibrium
+Proper equilibrium
+Quantal response equilibrium
+Quasi perfect equilibrium
+Risk dominance
+Satisfaction equilibrium
+Self confirming equilibrium
+Sequential equilibrium
+Shapley value
+Strong Nash equilibrium
+Subgame perfection
+Trembling hand equilibrium
+Strategies
+Appeasement
+Backward induction
+Bid shading
+Collusion
+Cheap talk
+De escalation
+Deterrence
+Escalation
+Forward induction
+Grim trigger
+Markov strategy
+Pairing strategy
+Dominant strategies
+Pure strategy
+Mixed strategy
+Strategy stealing argument
+Tit for tat
+Classesof games
+Auction
+Bargaining problem
+Differential game
+Global game
+Intransitive game
+Mean field game
+n player game
+Perfect information
+Large Poisson game
+Potential game
+Repeated game
+Screening game
+Signaling game
+Strictly determined game
+Stochastic game
+Symmetric game
+Zero sum game
+Games
+Go
+Chess
+Infinite chess
+Checkers
+All pay auction
+Prisoner s dilemma
+Gift exchange game
+Optional prisoner s dilemma
+Traveler s dilemma
+Coordination game
+Chicken
+Centipede game
+Lewis signaling game
+Volunteer s dilemma
+Dollar auction
+Battle of the sexes
+Stag hunt
+Matching pennies
+Ultimatum game
+Electronic mail game
+Rock paper scissors
+Pirate game
+Dictator game
+Public goods game
+Blotto game
+War of attrition
+El Farol Bar problem
+Fair division
+Fair cake cutting
+Bertrand competition
+Cournot competition
+Stackelberg competition
+Deadlock
+Diner s dilemma
+Guess     of the average
+Kuhn poker
+Nash bargaining game
+Induction puzzles
+Trust game
+Princess and monster game
+Rendezvous problem
+Pursuit game
+Theorems
+Aumann s agreement theorem
+Folk theorem
+Minimax theorem
+Nash s theorem
+Negamax theorem
+One shot deviation principle
+Purification theorem
+Revelation principle
+Sprague Grundy theorem
+Zermelo s theorem
+Keyfigures
+Albert W  Tucker
+Amos Tversky
+Antoine Augustin Cournot
+Ariel Rubinstein
+Claude Shannon
+Daniel Kahneman
+David K  Levine
+David M  Kreps
+Donald B  Gillies
+Drew Fudenberg
+Eric Maskin
+Harold W  Kuhn
+Herbert Simon
+Herv  Moulin
+John Conway
+Jean Tirole
+Jean Fran ois Mertens
+Jennifer Tour Chayes
+John Harsanyi
+John Maynard Smith
+John Nash
+John von Neumann
+Kenneth Arrow
+Kenneth Binmore
+Leonid Hurwicz
+Lloyd Shapley
+Melvin Dresher
+Merrill M  Flood
+Olga Bondareva
+Oskar Morgenstern
+Paul Milgrom
+Peyton Young
+Reinhard Selten
+Robert Axelrod
+Robert Aumann
+Robert B  Wilson
+Roger Myerson
+ Samuel Bowles
+Suzanne Scotchmer
+Thomas Schelling
+William Vickrey
+Search optimizations
+Alpha beta pruning
+Aspiration window
+Principal variation search
+max n algorithm
+Paranoid algorithm
+Lazy SMP
+Miscellaneous
+Bounded rationality
+Combinatorial game theory
+Confrontation analysis
+Coopetition
+Evolutionary game theory
+Glossary of game theory
+List of game theorists
+List of games in game theory
+No win situation
+Topological game
+Tragedy of the commons
+
+
+
+
+
+
+Retrieved from  https   en wikipedia org w index php title Perfect information amp oldid

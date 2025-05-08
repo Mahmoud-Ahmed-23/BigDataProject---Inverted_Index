@@ -1,0 +1,3869 @@
+Probability theory concept
+See also  Conditional dependence
+Part of a series on statisticsProbability theory
+Probability
+Axioms
+Determinism
+System
+Indeterminism
+Randomness
+
+Probability space
+Sample space
+Event
+Collectively exhaustive events
+Elementary event
+Mutual exclusivity
+Outcome
+Singleton
+Experiment
+Bernoulli trial
+Probability distribution
+Bernoulli distribution
+Binomial distribution
+Exponential distribution
+Normal distribution
+Pareto distribution
+Poisson distribution
+Probability measure
+Random variable
+Bernoulli process
+Continuous or discrete
+Expected value
+Variance
+Markov chain
+Observed value
+Random walk
+Stochastic process
+
+Complementary event
+Joint probability
+Marginal probability
+Conditional probability
+
+Independence
+Conditional independence
+Law of total probability
+Law of large numbers
+Bayes  theorem
+Boole s inequality
+
+Venn diagram
+Tree diagram
+vte
+In probability theory  conditional independence describes situations wherein an observation is irrelevant or redundant when evaluating the certainty of a hypothesis  Conditional independence is usually formulated in terms of conditional probability  as a special case where the probability of the hypothesis given the uninformative observation is equal to the probability without  If 
+  
+    
+      
+        A
+      
+    
+      displaystyle A 
+  
+ is the hypothesis  and 
+  
+    
+      
+        B
+      
+    
+      displaystyle B 
+  
+ and 
+  
+    
+      
+        C
+      
+    
+      displaystyle C 
+  
+ are observations  conditional independence can be stated as an equality 
+
+
+  
+    
+      
+        P
+         
+        A
+          x     
+        B
+         
+        C
+         
+         
+        P
+         
+        A
+          x     
+        C
+         
+      
+    
+      displaystyle P A mid B C  P A mid C  
+  
+
+where 
+  
+    
+      
+        P
+         
+        A
+          x     
+        B
+         
+        C
+         
+      
+    
+      displaystyle P A mid B C  
+  
+ is the probability of 
+  
+    
+      
+        A
+      
+    
+      displaystyle A 
+  
+ given both 
+  
+    
+      
+        B
+      
+    
+      displaystyle B 
+  
+ and 
+  
+    
+      
+        C
+      
+    
+      displaystyle C 
+  
+  Since the probability of 
+  
+    
+      
+        A
+      
+    
+      displaystyle A 
+  
+ given 
+  
+    
+      
+        C
+      
+    
+      displaystyle C 
+  
+ is the same as the probability of 
+  
+    
+      
+        A
+      
+    
+      displaystyle A 
+  
+ given both 
+  
+    
+      
+        B
+      
+    
+      displaystyle B 
+  
+ and 
+  
+    
+      
+        C
+      
+    
+      displaystyle C 
+  
+  this equality expresses that 
+  
+    
+      
+        B
+      
+    
+      displaystyle B 
+  
+ contributes nothing to the certainty of 
+  
+    
+      
+        A
+      
+    
+      displaystyle A 
+  
+  In this case  
+  
+    
+      
+        A
+      
+    
+      displaystyle A 
+  
+ and 
+  
+    
+      
+        B
+      
+    
+      displaystyle B 
+  
+ are said to be conditionally independent given 
+  
+    
+      
+        C
+      
+    
+      displaystyle C 
+  
+  written symbolically as  
+  
+    
+      
+         
+        A
+          x  a  
+        
+        
+        
+          x  a  
+        B
+          x     
+        C
+         
+      
+    
+      displaystyle  A perp        perp B mid C  
+  
+ 
+The concept of conditional independence is essential to graph based theories of statistical inference  as it establishes a mathematical relation between a collection of conditional statements and a graphoid 
+
+
+Conditional independence of events edit 
+Let 
+  
+    
+      
+        A
+      
+    
+      displaystyle A 
+  
+  
+  
+    
+      
+        B
+      
+    
+      displaystyle B 
+  
+  and 
+  
+    
+      
+        C
+      
+    
+      displaystyle C 
+  
+ be events  
+  
+    
+      
+        A
+      
+    
+      displaystyle A 
+  
+ and 
+  
+    
+      
+        B
+      
+    
+      displaystyle B 
+  
+ are said to be conditionally independent given 
+  
+    
+      
+        C
+      
+    
+      displaystyle C 
+  
+ if and only if 
+  
+    
+      
+        P
+         
+        C
+         
+         gt 
+         
+      
+    
+      displaystyle P C  gt   
+  
+ and 
+
+
+  
+    
+      
+        P
+         
+        A
+          x     
+        B
+         
+        C
+         
+         
+        P
+         
+        A
+          x     
+        C
+         
+      
+    
+      displaystyle P A mid B C  P A mid C  
+  
+
+This property is often written  
+  
+    
+      
+         
+        A
+          x  a  
+        
+        
+        
+          x  a  
+        B
+          x     
+        C
+         
+      
+    
+      displaystyle  A perp        perp B mid C  
+  
+  which should be read 
+  
+    
+      
+         
+         
+        A
+          x  a  
+        
+        
+        
+          x  a  
+        B
+         
+         
+        C
+         
+      
+    
+      displaystyle   A perp        perp B  vert C  
+  
+ 
+Equivalently  conditional independence may be stated as 
+
+
+  
+    
+      
+        P
+         
+        A
+         
+        B
+        
+           
+        
+        C
+         
+         
+        P
+         
+        A
+        
+           
+        
+        C
+         
+        P
+         
+        B
+        
+           
+        
+        C
+         
+      
+    
+      displaystyle P A B C  P A C P B C  
+  
+
+where 
+  
+    
+      
+        P
+         
+        A
+         
+        B
+        
+           
+        
+        C
+         
+      
+    
+      displaystyle P A B C  
+  
+ is the joint probability of 
+  
+    
+      
+        A
+      
+    
+      displaystyle A 
+  
+ and 
+  
+    
+      
+        B
+      
+    
+      displaystyle B 
+  
+ given 
+  
+    
+      
+        C
+      
+    
+      displaystyle C 
+  
+  This alternate formulation states that 
+  
+    
+      
+        A
+      
+    
+      displaystyle A 
+  
+ and 
+  
+    
+      
+        B
+      
+    
+      displaystyle B 
+  
+ are independent events  given 
+  
+    
+      
+        C
+      
+    
+      displaystyle C 
+  
+ 
+It demonstrates that 
+  
+    
+      
+         
+        A
+          x  a  
+        
+        
+        
+          x  a  
+        B
+          x     
+        C
+         
+      
+    
+      displaystyle  A perp        perp B mid C  
+  
+ is equivalent to 
+  
+    
+      
+         
+        B
+          x  a  
+        
+        
+        
+          x  a  
+        A
+          x     
+        C
+         
+      
+    
+      displaystyle  B perp        perp A mid C  
+  
+ 
+
+Proof of the equivalent definition edit 
+
+  
+    
+      
+        P
+         
+        A
+         
+        B
+          x     
+        C
+         
+         
+        P
+         
+        A
+          x     
+        C
+         
+        P
+         
+        B
+          x     
+        C
+         
+      
+    
+      displaystyle P A B mid C  P A mid C P B mid C  
+  
+
+iff 
+  
+    
+      
+        
+          
+            
+              P
+               
+              A
+               
+              B
+               
+              C
+               
+            
+            
+              P
+               
+              C
+               
+            
+          
+        
+         
+        
+           
+          
+            
+              
+                P
+                 
+                A
+                 
+                C
+                 
+              
+              
+                P
+                 
+                C
+                 
+              
+            
+          
+           
+        
+        
+           
+          
+            
+              
+                P
+                 
+                B
+                 
+                C
+                 
+              
+              
+                P
+                 
+                C
+                 
+              
+            
+          
+           
+        
+      
+    
+      displaystyle   frac  P A B C   P C     left   frac  P A C   P C    right  left   frac  P B C   P C    right  
+  
+                                definition of conditional probability 
+iff 
+  
+    
+      
+        P
+         
+        A
+         
+        B
+         
+        C
+         
+         
+        
+          
+            
+              P
+               
+              A
+               
+              C
+               
+              P
+               
+              B
+               
+              C
+               
+            
+            
+              P
+               
+              C
+               
+            
+          
+        
+      
+    
+      displaystyle P A B C    frac  P A C P B C   P C    
+  
+                                 multiply both sides by 
+  
+    
+      
+        P
+         
+        C
+         
+      
+    
+      displaystyle P C  
+  
+ 
+iff 
+  
+    
+      
+        
+          
+            
+              P
+               
+              A
+               
+              B
+               
+              C
+               
+            
+            
+              P
+               
+              B
+               
+              C
+               
+            
+          
+        
+         
+        
+          
+            
+              P
+               
+              A
+               
+              C
+               
+            
+            
+              P
+               
+              C
+               
+            
+          
+        
+      
+    
+      displaystyle   frac  P A B C   P B C      frac  P A C   P C    
+  
+                                 divide both sides by 
+  
+    
+      
+        P
+         
+        B
+         
+        C
+         
+      
+    
+      displaystyle P B C  
+  
+ 
+iff 
+  
+    
+      
+        P
+         
+        A
+          x     
+        B
+         
+        C
+         
+         
+        P
+         
+        A
+          x     
+        C
+         
+      
+    
+      displaystyle P A mid B C  P A mid C  
+  
+                                 definition of conditional probability  
+  
+    
+      
+          x     
+      
+    
+      displaystyle  therefore  
+  
+
+Examples edit 
+Coloured boxes edit 
+Each cell represents a possible outcome  The events 
+  
+    
+      
+        
+          R
+        
+      
+    
+      displaystyle  color  red R 
+  
+  
+  
+    
+      
+        
+          B
+        
+      
+    
+      displaystyle  color  blue B 
+  
+ and 
+  
+    
+      
+        
+          Y
+        
+      
+    
+      displaystyle  color  gold Y 
+  
+ are represented by the areas shaded red  blue and yellow respectively  The overlap between the events 
+  
+    
+      
+        
+          R
+        
+      
+    
+      displaystyle  color  red R 
+  
+ and 
+  
+    
+      
+        
+          B
+        
+      
+    
+      displaystyle  color  blue B 
+  
+ is shaded   purple 
+
+The probabilities of these events are shaded areas with respect to the total area  In both examples 
+  
+    
+      
+        
+          R
+        
+      
+    
+      displaystyle  color  red R 
+  
+ and 
+  
+    
+      
+        
+          B
+        
+      
+    
+      displaystyle  color  blue B 
+  
+ are conditionally independent given 
+  
+    
+      
+        
+          Y
+        
+      
+    
+      displaystyle  color  gold Y 
+  
+ because 
+
+
+  
+    
+      
+        Pr
+         
+        
+          
+            R
+          
+        
+         
+        
+          
+            B
+          
+        
+          x     
+        
+          
+            Y
+          
+        
+         
+         
+        Pr
+         
+        
+          
+            R
+          
+        
+          x     
+        
+          
+            Y
+          
+        
+         
+        Pr
+         
+        
+          
+            B
+          
+        
+          x     
+        
+          
+            Y
+          
+        
+         
+      
+    
+      displaystyle  Pr   color  red R    color  blue B  mid   color  gold Y    Pr   color  red R  mid   color  gold Y   Pr   color  blue B  mid   color  gold Y   
+  
+           
+but not conditionally independent given 
+  
+    
+      
+        
+           
+          
+            
+              not  xa  
+            
+            
+              
+                Y
+              
+            
+          
+           
+        
+      
+    
+      displaystyle  left   text not     color  gold Y  right  
+  
+ because 
+
+
+  
+    
+      
+        Pr
+         
+        
+          
+            R
+          
+        
+         
+        
+          
+            B
+          
+        
+          x     
+        
+          not  xa  
+        
+        
+          
+            Y
+          
+        
+         
+          x     
+        Pr
+         
+        
+          
+            R
+          
+        
+          x     
+        
+          not  xa  
+        
+        
+          
+            Y
+          
+        
+         
+        Pr
+         
+        
+          
+            B
+          
+        
+          x     
+        
+          not  xa  
+        
+        
+          
+            Y
+          
+        
+         
+      
+    
+      displaystyle  Pr   color  red R    color  blue B  mid   text not     color  gold Y   not   Pr   color  red R  mid   text not     color  gold Y   Pr   color  blue B  mid   text not     color  gold Y   
+  
+
+Proximity and delays edit 
+Let events A and B be defined as the probability that person A and person B will be home in time for dinner where both people are randomly sampled from the entire world  Events A and B can be assumed to be independent i e  knowledge that A is late has minimal to no change on the probability that B will be late  However  if a third event is introduced  person A and person B live in the same neighborhood  the two events are now considered not conditionally independent  Traffic conditions and weather related events that might delay person A  might delay person B as well  Given the third event and knowledge that person A was late  the probability that person B will be late does meaningfully change            
+
+Dice rolling edit 
+Conditional independence depends on the nature of the third event  If you roll two dice  one may assume that the two dice behave independently of each other  Looking at the results of one die will not tell you about the result of the second die   That is  the two dice are independent   If  however  the  st die s result is a    and someone tells you about a third event   that the sum of the two results is even   then this extra unit of information restricts the options for the  nd result to an odd number  In other words  two events can be independent  but NOT conditionally independent            
+
+Height and vocabulary edit 
+Height and vocabulary are dependent since very small people tend to be children  known for their more basic vocabularies  But knowing that two people are    years old  i e   conditional on age  there is no reason to think that one person s vocabulary is larger if we are told that they are taller 
+
+Conditional independence of random variables edit 
+Two discrete random variables 
+  
+    
+      
+        X
+      
+    
+      displaystyle X 
+  
+ and 
+  
+    
+      
+        Y
+      
+    
+      displaystyle Y 
+  
+ are conditionally independent given a third discrete random variable 
+  
+    
+      
+        Z
+      
+    
+      displaystyle Z 
+  
+ if and only if they are independent in their conditional probability distribution given 
+  
+    
+      
+        Z
+      
+    
+      displaystyle Z 
+  
+  That is  
+  
+    
+      
+        X
+      
+    
+      displaystyle X 
+  
+ and 
+  
+    
+      
+        Y
+      
+    
+      displaystyle Y 
+  
+ are conditionally independent given 
+  
+    
+      
+        Z
+      
+    
+      displaystyle Z 
+  
+ if and only if  given any value of 
+  
+    
+      
+        Z
+      
+    
+      displaystyle Z 
+  
+  the probability distribution of 
+  
+    
+      
+        X
+      
+    
+      displaystyle X 
+  
+ is the same for all values of 
+  
+    
+      
+        Y
+      
+    
+      displaystyle Y 
+  
+ and the probability distribution of 
+  
+    
+      
+        Y
+      
+    
+      displaystyle Y 
+  
+ is the same for all values of 
+  
+    
+      
+        X
+      
+    
+      displaystyle X 
+  
+  Formally 
+
+
+
+  
+    
+      
+         
+        X
+          x  a  
+        
+        
+        
+          x  a  
+        Y
+         
+          x     
+        Z
+        
+        
+          x  fa 
+        
+        
+        
+          F
+          
+            X
+             
+            Y
+            
+              x     
+            
+            Z
+            
+             
+            
+            z
+          
+        
+         
+        x
+         
+        y
+         
+         
+        
+          F
+          
+            X
+            
+              x     
+            
+            Z
+            
+             
+            
+            z
+          
+        
+         
+        x
+         
+          x  c  
+        
+          F
+          
+            Y
+            
+              x     
+            
+            Z
+            
+             
+            
+            z
+          
+        
+         
+        y
+         
+        
+        
+          for all  xa  
+        
+        x
+         
+        y
+         
+        z
+      
+    
+      displaystyle  X perp        perp Y  mid Z quad  iff  quad F  X Y   mid   Z     z  x y  F  X   mid   Z     z  x  cdot F  Y   mid   Z     z  y  quad   text for all   x y z 
+  
+  Eq  
+
+where 
+  
+    
+      
+        
+          F
+          
+            X
+             
+            Y
+            
+              x     
+            
+            Z
+            
+             
+            
+            z
+          
+        
+         
+        x
+         
+        y
+         
+         
+        Pr
+         
+        X
+          x     
+        x
+         
+        Y
+          x     
+        y
+          x     
+        Z
+         
+        z
+         
+      
+    
+      displaystyle F  X Y   mid   Z     z  x y   Pr X leq x Y leq y mid Z z  
+  
+ is the conditional cumulative distribution function of 
+  
+    
+      
+        X
+      
+    
+      displaystyle X 
+  
+ and 
+  
+    
+      
+        Y
+      
+    
+      displaystyle Y 
+  
+ given 
+  
+    
+      
+        Z
+      
+    
+      displaystyle Z 
+  
+ 
+Two events 
+  
+    
+      
+        R
+      
+    
+      displaystyle R 
+  
+ and 
+  
+    
+      
+        B
+      
+    
+      displaystyle B 
+  
+ are conditionally independent given a        algebra 
+  
+    
+      
+          x a  
+      
+    
+      displaystyle  Sigma  
+  
+ if
+
+
+  
+    
+      
+        Pr
+         
+        R
+         
+        B
+          x     
+          x a  
+         
+         
+        Pr
+         
+        R
+          x     
+          x a  
+         
+        Pr
+         
+        B
+          x     
+          x a  
+         
+        
+            xa  a s 
+        
+      
+    
+      displaystyle  Pr R B mid  Sigma    Pr R mid  Sigma   Pr B mid  Sigma    text  a s    
+  
+
+where 
+  
+    
+      
+        Pr
+         
+        A
+          x     
+          x a  
+         
+      
+    
+      displaystyle  Pr A mid  Sigma   
+  
+ denotes the conditional expectation of the indicator function of the event 
+  
+    
+      
+        A
+      
+    
+      displaystyle A 
+  
+  
+  
+    
+      
+        
+            x c  
+          
+            A
+          
+        
+      
+    
+      displaystyle  chi   A  
+  
+  given the sigma algebra 
+  
+    
+      
+          x a  
+      
+    
+      displaystyle  Sigma  
+  
+  That is 
+
+
+  
+    
+      
+        Pr
+         
+        A
+          x     
+          x a  
+         
+          
+        E
+          x     
+         
+        
+            x c  
+          
+            A
+          
+        
+          x     
+          x a  
+         
+         
+      
+    
+      displaystyle  Pr A mid  Sigma     operatorname  E    chi   A  mid  Sigma    
+  
+
+Two random variables 
+  
+    
+      
+        X
+      
+    
+      displaystyle X 
+  
+ and 
+  
+    
+      
+        Y
+      
+    
+      displaystyle Y 
+  
+ are conditionally independent given a   algebra 
+  
+    
+      
+          x a  
+      
+    
+      displaystyle  Sigma  
+  
+ if the above equation holds for all 
+  
+    
+      
+        R
+      
+    
+      displaystyle R 
+  
+ in 
+  
+    
+      
+          x c  
+         
+        X
+         
+      
+    
+      displaystyle  sigma  X  
+  
+ and 
+  
+    
+      
+        B
+      
+    
+      displaystyle B 
+  
+ in 
+  
+    
+      
+          x c  
+         
+        Y
+         
+      
+    
+      displaystyle  sigma  Y  
+  
+ 
+Two random variables 
+  
+    
+      
+        X
+      
+    
+      displaystyle X 
+  
+ and 
+  
+    
+      
+        Y
+      
+    
+      displaystyle Y 
+  
+ are conditionally independent given a random variable 
+  
+    
+      
+        W
+      
+    
+      displaystyle W 
+  
+ if they are independent given   W   the   algebra generated by 
+  
+    
+      
+        W
+      
+    
+      displaystyle W 
+  
+  This is commonly written 
+
+
+  
+    
+      
+        X
+          x  a  
+        
+        
+        
+          x  a  
+        Y
+          x     
+        W
+      
+    
+      displaystyle X perp        perp Y mid W 
+  
+ or
+
+  
+    
+      
+        X
+          x  a  
+        Y
+          x     
+        W
+      
+    
+      displaystyle X perp Y mid W 
+  
+
+This is read  
+  
+    
+      
+        X
+      
+    
+      displaystyle X 
+  
+ is independent of 
+  
+    
+      
+        Y
+      
+    
+      displaystyle Y 
+  
+  given 
+  
+    
+      
+        W
+      
+    
+      displaystyle W 
+  
+   the conditioning applies to the whole statement    
+  
+    
+      
+        X
+      
+    
+      displaystyle X 
+  
+ is independent of 
+  
+    
+      
+        Y
+      
+    
+      displaystyle Y 
+  
+  given 
+  
+    
+      
+        W
+      
+    
+      displaystyle W 
+  
+  
+
+
+  
+    
+      
+         
+        X
+          x  a  
+        
+        
+        
+          x  a  
+        Y
+         
+          x     
+        W
+      
+    
+      displaystyle  X perp        perp Y  mid W 
+  
+
+This notation extends 
+  
+    
+      
+        X
+          x  a  
+        
+        
+        
+          x  a  
+        Y
+      
+    
+      displaystyle X perp        perp Y 
+  
+ for  
+  
+    
+      
+        X
+      
+    
+      displaystyle X 
+  
+ is independent of 
+  
+    
+      
+        Y
+      
+    
+      displaystyle Y 
+  
+  
+If 
+  
+    
+      
+        W
+      
+    
+      displaystyle W 
+  
+ assumes a countable set of values  this is equivalent to the conditional independence of X and Y for the events of the form 
+  
+    
+      
+         
+        W
+         
+        w
+         
+      
+    
+      displaystyle  W w  
+  
+ 
+Conditional independence of more than two events  or of more than two random variables  is defined analogously 
+The following two examples show that 
+  
+    
+      
+        X
+          x  a  
+        
+        
+        
+          x  a  
+        Y
+      
+    
+      displaystyle X perp        perp Y 
+  
+ neither implies nor is implied by 
+  
+    
+      
+         
+        X
+          x  a  
+        
+        
+        
+          x  a  
+        Y
+         
+          x     
+        W
+      
+    
+      displaystyle  X perp        perp Y  mid W 
+  
+ 
+First  suppose 
+  
+    
+      
+        W
+      
+    
+      displaystyle W 
+  
+ is   with probability     and   otherwise   When W               take 
+  
+    
+      
+        X
+      
+    
+      displaystyle X 
+  
+ and 
+  
+    
+      
+        Y
+      
+    
+      displaystyle Y 
+  
+ to be independent  each having the value   with probability      and the value   otherwise   When 
+  
+    
+      
+        W
+         
+         
+      
+    
+      displaystyle W   
+  
+  
+  
+    
+      
+        X
+      
+    
+      displaystyle X 
+  
+ and 
+  
+    
+      
+        Y
+      
+    
+      displaystyle Y 
+  
+ are again independent  but this time they take the value   with probability        Then 
+  
+    
+      
+         
+        X
+          x  a  
+        
+        
+        
+          x  a  
+        Y
+         
+          x     
+        W
+      
+    
+      displaystyle  X perp        perp Y  mid W 
+  
+  But 
+  
+    
+      
+        X
+      
+    
+      displaystyle X 
+  
+ and 
+  
+    
+      
+        Y
+      
+    
+      displaystyle Y 
+  
+ are dependent  because Pr X                 lt  Pr X               Y                  This is because Pr X                            but if Y               then it s very likely that W               and thus that X               as well  so Pr X               Y                      gt           
+For the second example  suppose 
+  
+    
+      
+        X
+          x  a  
+        
+        
+        
+          x  a  
+        Y
+      
+    
+      displaystyle X perp        perp Y 
+  
+  each taking the values   and   with probability           Let 
+  
+    
+      
+        W
+      
+    
+      displaystyle W 
+  
+ be the product 
+  
+    
+      
+        X
+          x  c  
+        Y
+      
+    
+      displaystyle X cdot Y 
+  
+   Then when 
+  
+    
+      
+        W
+         
+         
+      
+    
+      displaystyle W   
+  
+  Pr X                                 but Pr X               Y                                 so 
+  
+    
+      
+         
+        X
+          x  a  
+        
+        
+        
+          x  a  
+        Y
+         
+          x     
+        W
+      
+    
+      displaystyle  X perp        perp Y  mid W 
+  
+ is false 
+This is also an example of Explaining Away  See Kevin Murphy s tutorial             where 
+  
+    
+      
+        X
+      
+    
+      displaystyle X 
+  
+ and 
+  
+    
+      
+        Y
+      
+    
+      displaystyle Y 
+  
+ take the values  brainy  and  sporty  
+
+Conditional independence of random vectors edit 
+Two random vectors 
+  
+    
+      
+        
+          X
+        
+         
+         
+        
+          X
+          
+             
+          
+        
+         
+          x     
+         
+        
+          X
+          
+            l
+          
+        
+        
+           
+          
+            
+              T
+            
+          
+        
+      
+    
+      displaystyle  mathbf  X    X      ldots  X  l     mathrm  T    
+  
+ and 
+  
+    
+      
+        
+          Y
+        
+         
+         
+        
+          Y
+          
+             
+          
+        
+         
+          x     
+         
+        
+          Y
+          
+            m
+          
+        
+        
+           
+          
+            
+              T
+            
+          
+        
+      
+    
+      displaystyle  mathbf  Y    Y      ldots  Y  m     mathrm  T    
+  
+ are conditionally independent given a third random vector 
+  
+    
+      
+        
+          Z
+        
+         
+         
+        
+          Z
+          
+             
+          
+        
+         
+          x     
+         
+        
+          Z
+          
+            n
+          
+        
+        
+           
+          
+            
+              T
+            
+          
+        
+      
+    
+      displaystyle  mathbf  Z    Z      ldots  Z  n     mathrm  T    
+  
+ if and only if they are independent in their conditional cumulative distribution given 
+  
+    
+      
+        
+          Z
+        
+      
+    
+      displaystyle  mathbf  Z   
+  
+  Formally 
+
+
+
+  
+    
+      
+         
+        
+          X
+        
+          x  a  
+        
+        
+        
+          x  a  
+        
+          Y
+        
+         
+          x     
+        
+          Z
+        
+        
+        
+          x  fa 
+        
+        
+        
+          F
+          
+            
+              X
+            
+             
+            
+              Y
+            
+            
+               
+            
+            
+              Z
+            
+             
+            
+              z
+            
+          
+        
+         
+        
+          x
+        
+         
+        
+          y
+        
+         
+         
+        
+          F
+          
+            
+              X
+            
+            
+              x     
+            
+            
+              Z
+            
+            
+             
+            
+            
+              z
+            
+          
+        
+         
+        
+          x
+        
+         
+          x  c  
+        
+          F
+          
+            
+              Y
+            
+            
+              x     
+            
+            
+              Z
+            
+            
+             
+            
+            
+              z
+            
+          
+        
+         
+        
+          y
+        
+         
+        
+        
+          for all  xa  
+        
+        
+          x
+        
+         
+        
+          y
+        
+         
+        
+          z
+        
+      
+    
+      displaystyle   mathbf  X   perp        perp  mathbf  Y    mid  mathbf  Z   quad  iff  quad F   mathbf  X    mathbf  Y    mathbf  Z    mathbf  z     mathbf  x    mathbf  y    F   mathbf  X     mid    mathbf  Z        mathbf  z     mathbf  x    cdot F   mathbf  Y     mid    mathbf  Z        mathbf  z     mathbf  y    quad   text for all    mathbf  x    mathbf  y    mathbf  z   
+  
+  Eq  
+
+where 
+  
+    
+      
+        
+          x
+        
+         
+         
+        
+          x
+          
+             
+          
+        
+         
+          x     
+         
+        
+          x
+          
+            l
+          
+        
+        
+           
+          
+            
+              T
+            
+          
+        
+      
+    
+      displaystyle  mathbf  x    x      ldots  x  l     mathrm  T    
+  
+  
+  
+    
+      
+        
+          y
+        
+         
+         
+        
+          y
+          
+             
+          
+        
+         
+          x     
+         
+        
+          y
+          
+            m
+          
+        
+        
+           
+          
+            
+              T
+            
+          
+        
+      
+    
+      displaystyle  mathbf  y    y      ldots  y  m     mathrm  T    
+  
+ and 
+  
+    
+      
+        
+          z
+        
+         
+         
+        
+          z
+          
+             
+          
+        
+         
+          x     
+         
+        
+          z
+          
+            n
+          
+        
+        
+           
+          
+            
+              T
+            
+          
+        
+      
+    
+      displaystyle  mathbf  z    z      ldots  z  n     mathrm  T    
+  
+ and the conditional cumulative distributions are defined as follows 
+
+
+  
+    
+      
+        
+          
+            
+              
+                
+                  F
+                  
+                    
+                      X
+                    
+                     
+                    
+                      Y
+                    
+                    
+                      x     
+                    
+                    
+                      Z
+                    
+                    
+                     
+                    
+                    
+                      z
+                    
+                  
+                
+                 
+                
+                  x
+                
+                 
+                
+                  y
+                
+                 
+              
+              
+                
+                 
+                Pr
+                 
+                
+                  X
+                  
+                     
+                  
+                
+                  x     
+                
+                  x
+                  
+                     
+                  
+                
+                 
+                  x     
+                 
+                
+                  X
+                  
+                    l
+                  
+                
+                  x     
+                
+                  x
+                  
+                    l
+                  
+                
+                 
+                
+                  Y
+                  
+                     
+                  
+                
+                  x     
+                
+                  y
+                  
+                     
+                  
+                
+                 
+                  x     
+                 
+                
+                  Y
+                  
+                    m
+                  
+                
+                  x     
+                
+                  y
+                  
+                    m
+                  
+                
+                  x     
+                
+                  Z
+                  
+                     
+                  
+                
+                 
+                
+                  z
+                  
+                     
+                  
+                
+                 
+                  x     
+                 
+                
+                  Z
+                  
+                    n
+                  
+                
+                 
+                
+                  z
+                  
+                    n
+                  
+                
+                 
+              
+            
+            
+              
+                
+                  F
+                  
+                    
+                      X
+                    
+                    
+                      x     
+                    
+                    
+                      Z
+                    
+                    
+                     
+                    
+                    
+                      z
+                    
+                  
+                
+                 
+                
+                  x
+                
+                 
+              
+              
+                
+                 
+                Pr
+                 
+                
+                  X
+                  
+                     
+                  
+                
+                  x     
+                
+                  x
+                  
+                     
+                  
+                
+                 
+                  x     
+                 
+                
+                  X
+                  
+                    l
+                  
+                
+                  x     
+                
+                  x
+                  
+                    l
+                  
+                
+                  x     
+                
+                  Z
+                  
+                     
+                  
+                
+                 
+                
+                  z
+                  
+                     
+                  
+                
+                 
+                  x     
+                 
+                
+                  Z
+                  
+                    n
+                  
+                
+                 
+                
+                  z
+                  
+                    n
+                  
+                
+                 
+              
+            
+            
+              
+                
+                  F
+                  
+                    
+                      Y
+                    
+                    
+                      x     
+                    
+                    
+                      Z
+                    
+                    
+                     
+                    
+                    
+                      z
+                    
+                  
+                
+                 
+                
+                  y
+                
+                 
+              
+              
+                
+                 
+                Pr
+                 
+                
+                  Y
+                  
+                     
+                  
+                
+                  x     
+                
+                  y
+                  
+                     
+                  
+                
+                 
+                  x     
+                 
+                
+                  Y
+                  
+                    m
+                  
+                
+                  x     
+                
+                  y
+                  
+                    m
+                  
+                
+                  x     
+                
+                  Z
+                  
+                     
+                  
+                
+                 
+                
+                  z
+                  
+                     
+                  
+                
+                 
+                  x     
+                 
+                
+                  Z
+                  
+                    n
+                  
+                
+                 
+                
+                  z
+                  
+                    n
+                  
+                
+                 
+              
+            
+          
+        
+      
+    
+      displaystyle   begin aligned F   mathbf  X    mathbf  Y     mid    mathbf  Z        mathbf  z     mathbf  x    mathbf  y    amp   Pr X     leq x      ldots  X  l  leq x  l  Y     leq y      ldots  Y  m  leq y  m  mid Z     z      ldots  Z  n  z  n      pt F   mathbf  X     mid    mathbf  Z        mathbf  z     mathbf  x    amp   Pr X     leq x      ldots  X  l  leq x  l  mid Z     z      ldots  Z  n  z  n      pt F   mathbf  Y     mid    mathbf  Z        mathbf  z     mathbf  y    amp   Pr Y     leq y      ldots  Y  m  leq y  m  mid Z     z      ldots  Z  n  z  n   end aligned   
+  
+
+Uses in Bayesian inference edit 
+Let p be the proportion of voters who will vote  yes  in an upcoming referendum  In taking an opinion poll  one chooses n voters randomly from the population  For i                               n  let Xi               or   corresponding  respectively  to whether or not the ith chosen voter will or will not vote  yes  
+In a frequentist approach to statistical inference one would not attribute any probability distribution to p  unless the probabilities could be somehow interpreted as relative frequencies of occurrence of some event or as proportions of some population  and one would say that X        Xn are independent random variables 
+By contrast  in a Bayesian approach to statistical inference  one would assign a probability distribution to p regardless of the non existence of any such  frequency  interpretation  and one would construe the probabilities as degrees of belief that p is in any interval to which a probability is assigned  In that model  the random variables X                  Xn are not independent  but they are conditionally independent given the value of p  In particular  if a large number of the Xs are observed to be equal to    that would imply a high conditional probability  given that observation  that p is near    and thus a high conditional probability  given that observation  that the next X to be observed will be equal to   
+
+Rules of conditional independence edit 
+A set of rules governing statements of conditional independence have been derived from the basic definition                       
+These rules were termed  Graphoid Axioms 
+by Pearl and Paz             because they hold in graphs  where 
+  
+    
+      
+        X
+          x  a  
+        
+        
+        
+          x  a  
+        A
+          x     
+        B
+      
+    
+      displaystyle X perp        perp A mid B 
+  
+ is interpreted to mean   All paths from X to A are intercepted by the set B             
+
+Symmetry edit 
+
+  
+    
+      
+        X
+          x  a  
+        
+        
+        
+          x  a  
+        Y
+        
+          x  d  
+        
+        Y
+          x  a  
+        
+        
+        
+          x  a  
+        X
+      
+    
+      displaystyle X perp        perp Y quad  Rightarrow  quad Y perp        perp X 
+  
+
+Proof 
+Note that we are required to prove if 
+  
+    
+      
+        P
+         
+        X
+        
+           
+        
+        Y
+         
+         
+        P
+         
+        X
+         
+      
+    
+      displaystyle P X Y  P X  
+  
+ then 
+  
+    
+      
+        P
+         
+        Y
+        
+           
+        
+        X
+         
+         
+        P
+         
+        Y
+         
+      
+    
+      displaystyle P Y X  P Y  
+  
+  Note that if 
+  
+    
+      
+        P
+         
+        X
+        
+           
+        
+        Y
+         
+         
+        P
+         
+        X
+         
+      
+    
+      displaystyle P X Y  P X  
+  
+ then it can be shown 
+  
+    
+      
+        P
+         
+        X
+         
+        Y
+         
+         
+        P
+         
+        X
+         
+        P
+         
+        Y
+         
+      
+    
+      displaystyle P X Y  P X P Y  
+  
+  Therefore 
+  
+    
+      
+        P
+         
+        Y
+        
+           
+        
+        X
+         
+         
+        P
+         
+        X
+         
+        Y
+         
+        
+           
+        
+        P
+         
+        X
+         
+         
+        P
+         
+        X
+         
+        P
+         
+        Y
+         
+        
+           
+        
+        P
+         
+        X
+         
+         
+        P
+         
+        Y
+         
+      
+    
+      displaystyle P Y X  P X Y  P X  P X P Y  P X  P Y  
+  
+ as required 
+
+Decomposition edit 
+
+  
+    
+      
+        X
+          x  a  
+        
+        
+        
+          x  a  
+        A
+         
+        B
+        
+          x  d  
+        
+        
+            xa  and  xa  
+        
+        
+          
+             
+            
+              
+                
+                  X
+                    x  a  
+                  
+                  
+                  
+                    x  a  
+                  A
+                
+              
+              
+                
+                  X
+                    x  a  
+                  
+                  
+                  
+                    x  a  
+                  B
+                
+              
+            
+            
+          
+        
+      
+    
+      displaystyle X perp        perp A B quad  Rightarrow  quad   text  and     begin cases X perp        perp A  X perp        perp B end cases   
+  
+
+Proof
+
+
+  
+    
+      
+        
+          p
+          
+            X
+             
+            A
+             
+            B
+          
+        
+         
+        x
+         
+        a
+         
+        b
+         
+         
+        
+          p
+          
+            X
+          
+        
+         
+        x
+         
+        
+          p
+          
+            A
+             
+            B
+          
+        
+         
+        a
+         
+        b
+         
+      
+    
+      displaystyle p  X A B  x a b  p  X  x p  A B  a b  
+  
+                           meaning of 
+  
+    
+      
+        X
+          x  a  
+        
+        
+        
+          x  a  
+        A
+         
+        B
+      
+    
+      displaystyle X perp        perp A B 
+  
+ 
+
+  
+    
+      
+        
+            x   b 
+          
+            B
+          
+        
+        
+          p
+          
+            X
+             
+            A
+             
+            B
+          
+        
+         
+        x
+         
+        a
+         
+        b
+         
+        
+        d
+        b
+         
+        
+            x   b 
+          
+            B
+          
+        
+        
+          p
+          
+            X
+          
+        
+         
+        x
+         
+        
+          p
+          
+            A
+             
+            B
+          
+        
+         
+        a
+         
+        b
+         
+        
+        d
+        b
+      
+    
+      displaystyle  int   B p  X A B  x a b   db  int   B p  X  x p  A B  a b   db 
+  
+                           ignore variable B by integrating it out 
+
+  
+    
+      
+        
+          p
+          
+            X
+             
+            A
+          
+        
+         
+        x
+         
+        a
+         
+         
+        
+          p
+          
+            X
+          
+        
+         
+        x
+         
+        
+          p
+          
+            A
+          
+        
+         
+        a
+         
+      
+    
+      displaystyle p  X A  x a  p  X  x p  A  a  
+  
+                         
+A similar proof shows the independence of X and B 
+
+Weak union edit 
+
+  
+    
+      
+        X
+          x  a  
+        
+        
+        
+          x  a  
+        A
+         
+        B
+        
+          x  d  
+        
+        
+            xa  and  xa  
+        
+        
+          
+             
+            
+              
+                
+                  X
+                    x  a  
+                  
+                  
+                  
+                    x  a  
+                  A
+                    x     
+                  B
+                
+              
+              
+                
+                  X
+                    x  a  
+                  
+                  
+                  
+                    x  a  
+                  B
+                    x     
+                  A
+                
+              
+            
+            
+          
+        
+      
+    
+      displaystyle X perp        perp A B quad  Rightarrow  quad   text  and     begin cases X perp        perp A mid B  X perp        perp B mid A end cases   
+  
+
+Proof
+
+By assumption  
+  
+    
+      
+        Pr
+         
+        X
+         
+         
+        Pr
+         
+        X
+          x     
+        A
+         
+        B
+         
+      
+    
+      displaystyle  Pr X   Pr X mid A B  
+  
+ 
+Due to the property of decomposition 
+  
+    
+      
+        X
+          x  a  
+        
+        
+        
+          x  a  
+        B
+      
+    
+      displaystyle X perp        perp B 
+  
+  
+  
+    
+      
+        Pr
+         
+        X
+         
+         
+        Pr
+         
+        X
+          x     
+        B
+         
+      
+    
+      displaystyle  Pr X   Pr X mid B  
+  
+ 
+Combining the above two equalities gives 
+  
+    
+      
+        Pr
+         
+        X
+          x     
+        B
+         
+         
+        Pr
+         
+        X
+          x     
+        A
+         
+        B
+         
+      
+    
+      displaystyle  Pr X mid B   Pr X mid A B  
+  
+  which establishes 
+  
+    
+      
+        X
+          x  a  
+        
+        
+        
+          x  a  
+        A
+          x     
+        B
+      
+    
+      displaystyle X perp        perp A mid B 
+  
+ 
+The second condition can be proved similarly 
+
+Contraction edit 
+
+  
+    
+      
+        
+          
+          
+            
+              
+                
+                  X
+                    x  a  
+                  
+                  
+                  
+                    x  a  
+                  A
+                    x     
+                  B
+                
+              
+              
+                
+                  X
+                    x  a  
+                  
+                  
+                  
+                    x  a  
+                  B
+                
+              
+            
+          
+           
+        
+        
+            xa  and  xa  
+        
+        
+          x  d  
+        
+        X
+          x  a  
+        
+        
+        
+          x  a  
+        A
+         
+        B
+      
+    
+      displaystyle  left   begin aligned X perp        perp A mid B  X perp        perp B end aligned   right    text  and    quad  Rightarrow  quad X perp        perp A B 
+  
+
+Proof
+This property can be proved by noticing 
+  
+    
+      
+        Pr
+         
+        X
+          x     
+        A
+         
+        B
+         
+         
+        Pr
+         
+        X
+          x     
+        B
+         
+         
+        Pr
+         
+        X
+         
+      
+    
+      displaystyle  Pr X mid A B   Pr X mid B   Pr X  
+  
+  each equality of which is asserted by 
+  
+    
+      
+        X
+          x  a  
+        
+        
+        
+          x  a  
+        A
+          x     
+        B
+      
+    
+      displaystyle X perp        perp A mid B 
+  
+ and 
+  
+    
+      
+        X
+          x  a  
+        
+        
+        
+          x  a  
+        B
+      
+    
+      displaystyle X perp        perp B 
+  
+  respectively 
+
+Intersection edit 
+For strictly positive probability distributions             the following also holds 
+
+
+  
+    
+      
+        
+          
+          
+            
+              
+                
+                  X
+                    x  a  
+                  
+                  
+                  
+                    x  a  
+                  Y
+                    x     
+                  Z
+                   
+                  W
+                
+              
+              
+                
+                  X
+                    x  a  
+                  
+                  
+                  
+                    x  a  
+                  W
+                    x     
+                  Z
+                   
+                  Y
+                
+              
+            
+          
+           
+        
+        
+            xa  and  xa  
+        
+        
+          x  d  
+        
+        X
+          x  a  
+        
+        
+        
+          x  a  
+        W
+         
+        Y
+          x     
+        Z
+      
+    
+      displaystyle  left   begin aligned X perp        perp Y mid Z W  X perp        perp W mid Z Y end aligned   right    text  and    quad  Rightarrow  quad X perp        perp W Y mid Z 
+  
+
+Proof
+By assumption 
+
+
+  
+    
+      
+        P
+         
+        X
+        
+           
+        
+        Z
+         
+        W
+         
+        Y
+         
+         
+        P
+         
+        X
+        
+           
+        
+        Z
+         
+        W
+         
+          x     
+        P
+         
+        X
+        
+           
+        
+        Z
+         
+        W
+         
+        Y
+         
+         
+        P
+         
+        X
+        
+           
+        
+        Z
+         
+        Y
+         
+        
+          x  f  
+        
+        P
+         
+        X
+        
+           
+        
+        Z
+         
+        Y
+         
+         
+        P
+         
+        X
+        
+           
+        
+        Z
+         
+        W
+         
+      
+    
+      displaystyle P X Z W Y  P X Z W  land P X Z W Y  P X Z Y  implies P X Z Y  P X Z W  
+  
+
+Using this equality  together with the Law of total probability applied to 
+  
+    
+      
+        P
+         
+        X
+        
+           
+        
+        Z
+         
+      
+    
+      displaystyle P X Z  
+  
+ 
+
+
+  
+    
+      
+        
+          
+            
+              
+                P
+                 
+                X
+                
+                   
+                
+                Z
+                 
+              
+              
+                
+                 
+                
+                    x     
+                  
+                    w
+                      x     
+                    W
+                  
+                
+                P
+                 
+                X
+                
+                   
+                
+                Z
+                 
+                W
+                 
+                w
+                 
+                P
+                 
+                W
+                 
+                w
+                
+                   
+                
+                Z
+                 
+              
+            
+            
+              
+              
+                
+                 
+                
+                    x     
+                  
+                    w
+                      x     
+                    W
+                  
+                
+                P
+                 
+                X
+                
+                   
+                
+                Y
+                 
+                Z
+                 
+                P
+                 
+                W
+                 
+                w
+                
+                   
+                
+                Z
+                 
+              
+            
+            
+              
+              
+                
+                 
+                P
+                 
+                X
+                
+                   
+                
+                Z
+                 
+                Y
+                 
+                
+                    x     
+                  
+                    w
+                      x     
+                    W
+                  
+                
+                P
+                 
+                W
+                 
+                w
+                
+                   
+                
+                Z
+                 
+              
+            
+            
+              
+              
+                
+                 
+                P
+                 
+                X
+                
+                   
+                
+                Z
+                 
+                Y
+                 
+              
+            
+          
+        
+      
+    
+      displaystyle   begin aligned P X Z  amp   sum   w in W P X Z W w P W w Z     pt  amp   sum   w in W P X Y Z P W w Z     pt  amp  P X Z Y  sum   w in W P W w Z     pt  amp  P X Z Y  end aligned   
+  
+
+Since 
+  
+    
+      
+        P
+         
+        X
+        
+           
+        
+        Z
+         
+        W
+         
+        Y
+         
+         
+        P
+         
+        X
+        
+           
+        
+        Z
+         
+        Y
+         
+      
+    
+      displaystyle P X Z W Y  P X Z Y  
+  
+ and 
+  
+    
+      
+        P
+         
+        X
+        
+           
+        
+        Z
+         
+        Y
+         
+         
+        P
+         
+        X
+        
+           
+        
+        Z
+         
+      
+    
+      displaystyle P X Z Y  P X Z  
+  
+  it follows that 
+  
+    
+      
+        P
+         
+        X
+        
+           
+        
+        Z
+         
+        W
+         
+        Y
+         
+         
+        P
+         
+        X
+        
+           
+        
+        Z
+         
+        
+          x  fa 
+        
+        X
+          x  a  
+        
+        
+        
+          x  a  
+        Y
+         
+        W
+        
+           
+        
+        Z
+      
+    
+      displaystyle P X Z W Y  P X Z  iff X perp        perp Y W Z 
+  
+ 
+Technical note  since these implications hold for any probability space  they will still hold if one considers a sub universe by conditioning everything on another variable  say      K  For example  
+  
+    
+      
+        X
+          x  a  
+        
+        
+        
+          x  a  
+        Y
+          x  d  
+        Y
+          x  a  
+        
+        
+        
+          x  a  
+        X
+      
+    
+      displaystyle X perp        perp Y Rightarrow Y perp        perp X 
+  
+ would also mean that 
+  
+    
+      
+        X
+          x  a  
+        
+        
+        
+          x  a  
+        Y
+          x     
+        K
+          x  d  
+        Y
+          x  a  
+        
+        
+        
+          x  a  
+        X
+          x     
+        K
+      
+    
+      displaystyle X perp        perp Y mid K Rightarrow Y perp        perp X mid K 
+  
+ 
+
+See also edit 
+Graphoid
+Conditional dependence
+de Finetti s theorem
+Conditional expectation
+References edit 
+
+
+  To see that this is the case  one needs to realise that Pr R   B   Y  is the probability of an overlap of R and B  the purple shaded area  in the Y area  Since  in the picture on the left  there are two squares where R and B overlap within the Y area  and the Y area has twelve squares  Pr R   B   Y                                            Similarly  Pr R   Y                                           and Pr B   Y                                           
+
+  a b Could someone explain conditional independence 
+
+   Graphical Models  
+
+  Dawid  A  P           Conditional Independence in Statistical Theory   Journal of the Royal Statistical Society  Series B                JSTOR               MR              
+
+  a b J Pearl  Causality  Models  Reasoning  and Inference        Cambridge University Press
+
+  Pearl  Judea  Paz  Azaria          Graphoids  Graph Based Logic for Reasoning about Relevance Relations or When would x tell you more about y if you already know z    In du Boulay  Benedict  Hogg  David C   Steels  Luc  eds    Advances in Artificial Intelligence II  Seventh European Conference on Artificial Intelligence  ECAI       Brighton  UK  July              Proceedings  PDF   North Holland  pp               
+
+  Pearl  Judea         Probabilistic reasoning in intelligent systems  networks of plausible inference  Morgan Kaufmann  ISBN                    
+
+
+External links edit 
+ Media related to Conditional independence at Wikimedia Commons
+
+
+
+
+
+Retrieved from  https   en wikipedia org w index php title Conditional independence amp oldid

@@ -1,0 +1,578 @@
+Chatbot developed by DeepSeek
+This article is about the chatbot  For the company  see DeepSeek 
+
+
+DeepSeekDeveloper s DeepSeekInitial release        January                 months ago                  Stable releaseV            March                  days ago                  R 
+             January                 months ago                  
+Written inPythonOperating system
+Web app
+Android
+iOS
+TypeChatbotLicense
+Web and mobile apps  Proprietary
+Model  R  and V    MIT License
+Websitechat deepseek com 
+DeepSeek     a      is a chatbot created by the Chinese artificial intelligence company DeepSeek 
+Released on    January       DeepSeek R  surpassed ChatGPT as the most downloaded freeware app on the iOS App Store in the United States by    January             DeepSeek s success against larger and more established rivals has been described as  upending AI             and initiating  a global AI space race              DeepSeek s compliance with Chinese government censorship policies and its data collection practices have also raised concerns over privacy and information control in the model  prompting regulatory scrutiny in multiple countries  However  it has also been praised for its open weights and infrastructure code  energy efficiency and contributions to the open source community                       
+
+
+History edit 
+On    January       DeepSeek released the chatbot  based on the DeepSeek R  model  for iOS and Android  By    January  DeepSeek R  surpassed ChatGPT as the most downloaded freeware app on the iOS App Store in the United States             which resulted in an     drop in Nvidia s share price                        After a  large scale  cyberattack on the same day disrupted the proper functioning of its servers  DeepSeek limited its new user registration to phone numbers from mainland China  email addresses  or Google account logins                       
+On   April       in collaboration with researchers at Tsinghua University  DeepSeek published a paper unveiling a new model that combines the techniques generative reward modeling  GRM  and self principled critique tuning  SPCT   The resulting model is referred to as DeepSeek GRM  The goal of using these techniques is to foster more effective inference time scaling within their LLM and chatbot services  Notably DeepSeek has said that these new models will be released and made open source                        
+On    April       Deepseek released its math focused Artificial Intelligence Model named  DeepSeek Prover V     B               This Model is useful for formal theorem proving and mathematical reasoning                         
+
+Usage edit 
+DeepSeek can answer questions  solve logic problems  and write computer programs on par with other chatbots  according to benchmark tests used by American AI companies            
+Users can access the chatbot for free through the official DeepSeek website or mobile application  without limitation on the number of queries              DeepSeek also offers access to the R  and V  models that power the chatbot via an API with a usage based pricing model              This modality is primarily targeted towards developers and businesses  As of February       API usage is priced at approximately       per million input tokens and       per million output tokens  making it less expensive than some competing services             
+
+Operation edit 
+DeepSeek V  uses significantly fewer resources compared to its peers  For example  whereas the world s leading AI companies train their chatbots with supercomputers using as many as        graphics processing units  GPUs   DeepSeek claims to have needed only about       GPUs namely  the H    series chips from Nvidia                          It was trained in around    days at a cost of US      million              which is roughly one tenth of what tech giant Meta spent building its latest AI technology            
+
+Reactions edit 
+DeepSeek s success against larger and more established rivals has been described as  upending AI              constituting  the first shot at what is emerging as a global AI space race              and ushering in  a new era of AI brinkmanship              
+
+Challenge to US AI dominance edit 
+DeepSeek s competitive performance at relatively minimal cost has been recognized as potentially challenging the global dominance of American AI models              Various publications and news media  such as The Hill and The Guardian  have described the release of the R  chatbot as a  Sputnik moment  for American AI                                      echoing Marc Andreessen s view  OpenAI wrote a letter to the Office of Science and Technology Policy  OSTP   in March       citing issues concerning a possibility that Deepseek could manipulate responses to cause harm             
+
+Chinese perspective edit 
+DeepSeek s founder Liang Wenfeng has been compared to OpenAI CEO Sam Altman  with CNN calling him the Sam Altman of China and an evangelist for AI              Chinese state media widely praised DeepSeek as a national asset                          On    January       China s Premier Li Qiang invited Wenfeng to his symposium with experts and asked him to provide opinions and suggestions on a draft for comments of the annual      government work report              On    February             Wenfeng met with Xi Jinping  who encouraged government officials to experiment with DeepSeek              Government officials responded to Xi s approval of the chatbot by reportedly using it to draft legal judgements  propose medical treatment plans  and analyze surveillance videos to search for missing persons             
+
+Performance and success edit 
+Leading figures in the American AI sector had mixed reactions to DeepSeek s performance and success              Microsoft CEO Satya Nadella and Altman whose companies are involved in the United States government backed  Stargate Project  to develop American AI infrastructure both called DeepSeek  super impressive                           Various companies including Amazon Web Services  Toyota  and Stripe are seeking to use the model in their program              When American President Donald Trump announced The Stargate Project  he referred to DeepSeek as a wake up call             and a positive development                                                 
+Other leaders in the AI field  however including Scale AI CEO Alexandr Wang  Anthropic cofounder and CEO Dario Amodei  and Elon Musk have expressed skepticism of the app s performance or of the sustainability of its success                                     
+
+Stock market implications edit 
+DeepSeek s optimization of limited resources has highlighted potential limits of United States sanctions on China s AI development  including export restrictions on advanced AI chips to China                          The success of the company s AI models consequently  sparked market turmoil              and caused shares in major global technology companies to plunge on    January       Nvidia s stock fell by as much as                     as did the stock of rival Broadcom  Other tech firms also sank  including Microsoft  down        Google s owner Alphabet  down over      and Dutch chip equipment maker ASML  down over                  A global sell off of technology stocks on Nasdaq  prompted by the release of the R  model  led to record losses of about           billion in the market capitalizations of AI and computer hardware companies              and by the next day a total of    trillion of value was wiped from American stocks             
+
+The login error given by DeepSeek on    January      following a cyberattack
+Concerns edit 
+Distillation edit 
+DeepSeek has been reported to sometimes claim that it is ChatGPT                          OpenAI said that DeepSeek may have  inappropriately  used outputs from its model as training data in a process called distillation              However  there is currently no method to prove this conclusively             
+
+Censorship edit 
+See also  Chinese censorship abroad and Censorship in China
+DeepSeek s compliance with Chinese government censorship policies and its data collection practices have raised concerns over privacy and information control in the model  prompting regulatory scrutiny in multiple countries 
+Reports indicate that it applies content moderation in accordance with the government s  public opinion guidance  regulations  limiting responses on topics such as the Tiananmen Square massacre and Taiwan s political status                                      DeepSeek models that have been uncensored also display a bias towards Chinese government viewpoints on controversial topics such as Xi Jinping s human rights record and Taiwan s political status                          However  users who have downloaded the models and hosted them on their own devices and servers have reported successfully removing this censorship                         
+
+Asked if Xi Jinping is an autocrat  DeepSeek apologises that this question is  beyond my current scope   The same question posed about Narendra Modi returns a  balanced analysis  of viewpoints  Some sources have observed that the official application programming interface  API  version of R   which runs from servers located in China  uses censorship mechanisms for topics considered politically sensitive for the government of China  For example  the model refuses to answer questions about the      Tiananmen Square massacre  persecution of Uyghurs  comparisons between Xi Jinping and Winnie the Pooh  and human rights in China                                      Although the AI may initially generate an answer  it then deletes it shortly afterwards and replaces it with a message such as              Sorry  that s beyond my current scope  Let s talk about something else  
+The integrated censorship mechanisms and restrictions can only be removed to a limited extent in the open source version of the R  model              If the  core Socialist values  defined by the Chinese Internet regulatory authorities are touched on  or the political status of Taiwan is raised  discussions are terminated              Locally hosted instances of R  are still reported to provide answers consistent with Chinese Communist Party propaganda narratives              When tested by NBC News  for instance  DeepSeek s R  described Taiwan as  an inalienable part of China s territory   and stated              We firmly oppose any form of  Taiwan independence  separatist activities and are committed to achieving the complete reunification of the motherland through peaceful means  
+In January       however  Western researchers were able to trick DeepSeek into giving certain answers to some of these topics by requesting in its answer to swap certain letters for similar looking numbers             
+
+Security and privacy edit 
+See also  Chinese information operations and information warfare
+Many experts fear that the government of China could use the AI system for foreign influence operations  spreading disinformation  surveillance  and the development of cyberweapons                                      An article in Wired commented that the DeepSeek online service sending data to its home country might set  the stage for greater scrutiny              
+In February       South Korea s data protection regulator  the Personal Information Protection Commission  PIPC   raised concerns over DeepSeek  confirming that it sent the nation s user data to the owner of TikTok  ByteDance  in China  Accordingly  the PIPC banned new downloads of the app until DeepSeek addressed these concerns  The company s representative in Korea has partially acknowledged its shortcomings in complying with local data protection laws                         
+On    January       cybersecurity researchers from Wiz Research found a significant data breach at DeepSeek  This occurred due to an improper configuration of a cloud storage database that was left available online without any security precautions The database at oauth callback deepseek com      and dev deepseek com      contained more than a million sensitive entries  which comprised chat messages  API keys  operational details from the backend  system logs  and internal metadata from   January       The breach was consequential as it provided complete control over the database  which could lead to unauthorized access and increased privileges within DeepSeek s systems  After Wiz Research reported the issue  DeepSeek secured the database in less than an hour  eliminating any immediate risks  However  the exposure sparked serious concerns about DeepSeek s data security practices and the possibility of facing regulatory action under laws like GDPR or CCPA  particularly if the data included personal information from EU or US residents                         
+In April       South Korea s Personal Information Protection Commission announced that DeepSeek had transferred personal information on over a million South Koreans to China without consent             
+
+Miscellaneous edit 
+The Wall Street Journal reported that the DeepSeek app produces instructions for self harm and dangerous activities more often than its American competitors              Security researchers have found that DeepSeek sends data to a cloud platform affiliated with ByteDance                         
+In February       sources claimed that DeepSeek began considering raising external funding for the first time  with Alibaba and Chinese state funds expressing interest in investing in DeepSeek                          On    February  DeepSeek announced plans to release key codes and data to the public starting the following week                         
+
+Restrictions edit 
+Many countries have raised concerns about data security and DeepSeek s use of personal data  On    January       the Italian data protection authority announced that it is seeking additional information on DeepSeek s collection and use of personal data              On the same day  the United States National Security Council announced that it had started a national security review of DeepSeek              and the United States Navy instructed all its members not to use DeepSeek due to  security and ethical concerns               On    January       Italy s data protection authority  ordered DeepSeek to block its chatbot in the country after the Chinese artificial intelligence startup failed to address the regulator s concerns over its privacy policy  Italian users who downloaded DeepSeek on mobile devices before the ban reported being able to use the chatbot and having access to the web version of DeepSeek after the ban             
+Three days later  South Korea s Personal Information Protection Commission opened an inquiry into DeepSeek s use of personal information              the Dutch Data Protection Authority launched an investigation of DeepSeek              Taiwan s digital ministry advised its government departments against using the DeepSeek service to  prevent information security risks               and  Texas Governor Greg Abbott issued a state ban on government issued devices for DeepSeek  along with Xiaohongshu and Lemon              
+In February       access to DeepSeek was banned on the New South Wales Department of Customer Service s devices              That same month  Australia  South Korea  and Canada banned DeepSeek from government devices                                      and South Korea suspended new downloads of DeepSeek due to risks of personal information misuse              In March       the U S  Department of Commerce prohibited DeepSeek on their government devices  due to the danger of disclosing proprietary information with the Chinese Communist Party             
+
+See also edit 
+
+Free and open source software portalChina portal
+Notes edit 
+
+
+  Chinese            pinyin      Sh nd  Qi su   Jyutping      sam  dou  kau  sok 
+
+
+References edit 
+
+
+  a b c d e f Metz  Cade  Tobin  Meaghan     January         How Chinese A I  Start Up DeepSeek Is Competing With Silicon Valley Giants   The New York Times  ISSN                 Archived from the original on    January       Retrieved    January      
+
+  a b Zahn  Max     January         Nvidia  Microsoft shares tumble as China based AI app DeepSeek hammers tech giants   ABC News  Retrieved    January      
+
+  https   www weforum org stories         open source ai innovation deepseek 
+
+  https   dev to apilover deepseek open source week kicked off with flashmlagithub codebase included   im
+
+  Field  Hayden     January         China s DeepSeek AI dethrones ChatGPT on App Store  Here s what you should know   CNBC  Archived from the original on    January       Retrieved   February      
+
+  Picchi  Aimee     January         What is DeepSeek  and why is it causing Nvidia and other stocks to slump    CBS News  Archived from the original on    January       Retrieved   February      
+
+  Kerr  Dara     January         DeepSeek hit with  large scale  cyber attack after AI chatbot tops app stores   The Guardian  Retrieved    January      
+
+  Tweedie  Steven  Altchek  Ana     January         DeepSeek temporarily limited new sign ups  citing  large scale malicious attacks    Business Insider  Archived from the original on   February       Retrieved   February      
+
+  Shen  Xinmei    April         DeepSeek unveils new AI reasoning method as anticipation for its next gen model rises   South China Morning Post  Retrieved   April      
+
+  Liu  Zijun  Wang  Peiyi  Xu  Runxin  Ma  Shirong  Ruan  Chong  Li  Peng  Liu  Yang  Wu  Yu    April         Inference Time Scaling for Generalist Reward Modeling   arXiv             cs CL  
+
+  Wiggers  Kyle     April         DeepSeek upgrades its math focused AI model Prover   TechCrunch  Retrieved   May      
+
+  Wiggers  Kyle     April         DeepSeek upgrades its math focused AI model Prover   TechCrunch  Retrieved    April      
+
+   DeepSeek quietly updates open source model that handles maths proofs   South China Morning Post     April       Retrieved    April      
+
+  a b  DeepSeek or ChatGPT  A price to performance comparison  What you need to know   The Economic Times  Retrieved   April      
+
+   API Pricing   DeepSeek API Documentation  Retrieved   April      
+
+  a b DeepSeek AI  et      al           DeepSeek V  Technical Report   arXiv             cs CL  
+
+  Cosgrove  Kelsey Vlamis  Emma   Nvidia probed over how its chips may have been obtained by DeepSeek  which US lawmakers accused of spying for China   Business Insider  Retrieved   May        cite web     CS  maint  multiple names  authors list  link 
+
+  Roose  Kevin     January         Why DeepSeek Could Change What Silicon Valley Believe About A I   The New York Times  ISSN                 Retrieved    January      
+
+   Chinese AI startup DeepSeek overtakes ChatGPT on Apple App Store   Reuters     January       Retrieved    January      
+
+  Wade  David    December         American AI has reached its Sputnik moment   The Hill  Archived from the original on   December       Retrieved    January      
+
+  a b c Milmo  Dan  Hawkins  Amy  Booth  Robert  Kollewe  Julia     January          Sputnik moment     tn wiped off US stocks after Chinese firm unveils AI chatbot   The Guardian 
+
+  a b c Hoskins  Peter  Rahman Jones  Imran     January         Nvidia shares sink as Chinese AI app spooks markets   BBC  Archived from the original on    January       Retrieved    January      
+
+  a b c Tobin  Meaghan  Fu  Claire     March         From Courtrooms to Crisis Lines  Chinese Officials Embrace DeepSeek   The New York Times  ISSN                 Retrieved    April      
+
+  Goldman  David     January         What is DeepSeek  the Chinese AI startup that shook the tech world    CNN Business   CNN  Archived from the original on    January       Retrieved    January      
+
+   DeepSeek poses a challenge to Beijing as much as to Silicon Valley   The Economist     January       ISSN                 Archived from the original on    January       Retrieved    January      
+
+  Paul  Katie  Nellis  Stephen     January         Chinese state linked accounts hyped DeepSeek AI launch ahead of US stock rout  Graphika says   Reuters  Retrieved    January      
+
+          January                                       AI        Sina Corp  Archived from the original on    January       Retrieved    January      
+
+  a b Sherry  Ben     January         DeepSeek  Calling It  Impressive  but Staying Skeptical   Inc  Archived from the original on    January       Retrieved    January      
+
+  Okemwa  Kevin     January         Microsoft CEO Satya Nadella touts DeepSeek s open source AI as  super impressive    We should take the developments out of China very  very seriously    Windows Central  Archived from the original on    January       Retrieved    January      
+
+  Nazzaro  Miranda     January         OpenAI s Sam Altman calls DeepSeek model  impressive    The Hill  Archived from the original on    January       Retrieved    January      
+
+  Kim  Eugene     January         Big AWS customers  including Stripe and Toyota  are hounding the cloud giant for access to DeepSeek AI models   Business Insider  Archived from the original on    January       Retrieved   February      
+
+  Dou  Eva  Gregg  Aaron  Zakrzewski  Cat  Tiku  Nitasha  Najmabadi  Shannon     January         Trump calls China s DeepSeek AI app a  wake up call  after tech stocks slide   The Washington Post  Archived from the original on    January       Retrieved    January      
+
+  Habeshian  Sareen     January         Johnson bashes China on AI  Trump calls DeepSeek development  positive    Axios  Archived from the original on   February       Retrieved   February      
+
+  Karaian  Jason  Rennison  Joe     January         China s A I  Advances Spook Big Tech Investors on Wall Street   New York Times  Archived from the original on    January       Retrieved   February      
+
+  Sharma  Manoj    January         Musk dismisses  Altman applauds  What leaders say on DeepSeek s disruption   Fortune India  Archived from the original on    January       Retrieved    January      
+
+  Dhawan  Sunil     January         Elon Musk  questions  DeepSeek s claims  suggests massive Nvidia GPU infrastructure   The Financial Express  Retrieved    January      
+
+  Jiang  Ben  Perezi  Bien    January         Meet DeepSeek  the Chinese start up that is changing how AI models are trained   South China Morning Post  Archived from the original on    January       Retrieved   January      
+
+  Shilov  Anton     December         Chinese AI company s AI model breakthrough highlights limits of US sanctions   Tom s Hardware  Archived from the original on    December       Retrieved    December      
+
+   DeepSeek updates   Chinese AI chatbot sparks US market turmoil  wiping     bn off Nvidia   BBC News  Archived from the original on    January       Retrieved    January      
+
+  Nazareth  Rita     January         Stock Rout Gets Ugly as Nvidia Extends Loss to      Markets Wrap   Bloomberg L P  Retrieved    January      
+
+  Carew  Sin ad  Cooper  Amanda  Banerjee  Ankur     January         DeepSeek sparks global AI selloff  Nvidia losses about      billion of value   Reuters  Archived from the original on    January       Retrieved   February      
+
+  O Brien  Matt  Chan  Kelvin     January         Did DeepSeek copy ChatGPT to make new AI chatbot  Trump adviser thinks so   AP News  Retrieved   February      
+
+  Ulanoff  Lance     January         DeepSeek just insisted it s ChatGPT  and I think that s all the proof I need   TechRadar  Retrieved   February      
+
+  Collier  Kevin  Cui  Jasmine     January         OpenAI says DeepSeek may have  inapproriately  used its data   NBC News  Retrieved   February      
+
+  Frermann  Lea  Cohney  Shaanan    February         OpenAI says DeepSeek  inappropriately  copied ChatGPT   but it s facing copyright claims too   The Conversation  Retrieved    February      
+
+  Field  Matthew  Titcomb  James     January         Chinese AI has sparked a    trillion panic   and it doesn t care about free speech   The Daily Telegraph  ISSN                 Retrieved    January      
+
+  Lu  Donna     January         We tried out DeepSeek  It worked well  until we asked it about Tiananmen Square and Taiwan   The Guardian  ISSN                 Retrieved    January      
+
+  Colville  Alex     April         DeepSeek  A Tool Tuned for Social Governance   China Brief  Jamestown Foundation  Retrieved    April      
+
+  Colville  Alex     February         DeepSeeking Truth   China Media Project  Retrieved    February      
+
+  Yang  Ziyi     January         Here s How DeepSeek Censorship Actually Works   And How to Get Around It   Wired  Retrieved    February      
+
+  Booth  Robert  Milmo  Dan     January         Chinese AI chatbot DeepSeek censors itself in realtime  users report   The Guardian  ISSN                 Retrieved    February      
+
+  Nield  David     January         Want to try DeepSeek without the privacy worries  Perplexity AI just launched it on its iOS and web apps   TechRadar  Retrieved    February      
+
+  Field  Matthew  Titcomb  James     January         Chinese AI has sparked a    trillion panic   and it doesn t care about free speech   The Daily Telegraph  ISSN                 Archived from the original on    January       Retrieved    January      
+
+  a b Steinschaden  Jakob     January         DeepSeek  This is what live censorship looks like in the Chinese AI chatbot   Trending Topics  Archived from the original on    January       Retrieved    January      
+
+  a b Lu  Donna     January         We tried out DeepSeek  It worked well  until we asked it about Tiananmen Square and Taiwan   The Guardian  ISSN                 Retrieved    January      
+
+  a b Colville  Alex     February         DeepSeeking Truth   China Media Project  Retrieved    February      
+
+   The Guardian view on a global AI race  geopolitics  innovation and the rise of chaos   The Guardian     January       ISSN                 Retrieved    January      
+
+  Yang  Angela  Cui  Jasmine     January         Chinese AI DeepSeek jolts Silicon Valley  giving the AI race its  Sputnik moment    NBC News  Retrieved    January      
+
+  Kimery  Anthony     January         China s DeepSeek AI poses formidable cyber  data privacy threats   Biometric Update  Retrieved    January      
+
+  Booth  Robert  Milmo  Dan     January         Experts urge caution over use of Chinese AI DeepSeek   The Guardian  ISSN                 Retrieved    January      
+
+  Hornby  Rael     January         DeepSeek s success has painted a huge TikTok shaped target on its back   LaptopMag  Archived from the original on    January       Retrieved    January      
+
+  Burgess  Matt  Newman  Lily Hay     January         DeepSeek s Popular AI App Is Explicitly Sending US Data to China   Wired  ISSN                 Archived from the original on    January       Retrieved    January      
+
+  Kim  Hyun soo     February         DeepSeek sent S  Korean user data to China s ByteDance  regulator   Yonhap News  Archived from the original on    February       Retrieved    February      
+
+   New downloads of DeepSeek suspended in South Korea  data protection agency says   Reuters     February       Retrieved    February      
+
+  Daniel  Lars   DeepSeek Data Leak Exposes           Sensitive Records   Forbes  Retrieved   April      
+
+   Wiz Research Uncovers Exposed DeepSeek Database Leaking Sensitive Information  Including Chat History   Wiz Blog   wiz io     January       Retrieved   April      
+
+  Kang  Taejun     April         China s DeepSeek transferred South Korean user info overseas  Seoul regulator   Radio Free Asia  Retrieved    April      
+
+  Schechner  Sam    February         DeepSeek Offers Bioweapon  Self Harm Information   The Wall Street Journal  Archived from the original on   February       Retrieved    February      
+
+  Goodin  Dan    February         DeepSeek iOS app sends data unencrypted to ByteDance controlled servers   Ars Technica  Retrieved   February      
+
+   Experts Flag Security  Privacy Risks in DeepSeek AI App   Krebs on Security    February       Retrieved   February      
+
+   DeepSeek s outside funding draws interest from Alibaba  Chinese state funds  The Information reports   Reuters     February       Retrieved    February      
+
+   DeepSeek Weighs Raising Outside Money For First Time   TradingKey     February       Retrieved    February      
+
+   Day    Warming up for  OpenSourceWeek    X     February       Retrieved    February      
+
+  Rai  Saritha     February         DeepSeek Promises to Share Even More AI Code in a Rare Step   Bloomberg LP  Retrieved    February      
+
+   Italy regulator seeks information from DeepSeek on data protection   Reuters     January       Retrieved    January      
+
+  Shalal  Andrea  Shepardson  David     January         White House evaluates effect of China AI app DeepSeek on national security  official says   Reuters  Retrieved    January      
+
+  Field  Hayden     January         U S  Navy bans use of DeepSeek due to  security and ethical concerns    CNBC  Retrieved   February      
+
+   Italy s regulator blocks Chinese AI app DeepSeek on data protection   Reuters     January       Retrieved    January      
+
+  a b  Taiwan says government departments should not use DeepSeek  citing security concerns   Reuters     January       Retrieved    January      
+
+   Dutch privacy watchdog to launch investigation into China s DeepSeek AI   Reuters     January       Retrieved   February      
+
+  Lathan  Nadia     January         Texas governor orders ban on DeepSeek  RedNote for government devices   Associated Press  Retrieved   February      
+
+  Williams  Tom    February         NSW Govt blocks access to DeepSeek AI   Information Age  Archived from the original on   February       Retrieved   February      
+
+  Gerken  Tom    February         Australia bans DeepSeek on government devices over security risk   BBC  Retrieved   February      
+
+  Lim  Lionel    February         South Korea s government is the latest to block China s DeepSeek on official devices  following Australia and Taiwan   Fortune  Retrieved   February      
+
+  Christopher  Nardi    February         Federal government bans Chinese AI startup DeepSeek on public service devices   National Post  Retrieved   February      
+
+  Lee  Sang Seo     February         Personal Information Protection Commission suspends new services of Deepseek due to insufficient personal information policy   Yonhap  in Korean   Retrieved    February      
+
+   US Commerce department bureaus ban China s DeepSeek on government devices  sources say   Reuters  Archived from the original on    March       Retrieved    April      
+
+
+External links edit 
+Official website 
+vteGenerative AI chatbots
+Large language model
+
+ChatGPT
+Character ai
+Claude
+Copilot
+DeepSeek
+ERNIE
+Gemini
+Grok
+Manus
+Minerva
+Mistral
+Perplexity AI
+Qwen
+Replika
+Velvet
+YandexGPT
+You com
+
+ Category
+
+vteGenerative AIConcepts
+Autoencoder
+Deep learning
+Generative adversarial network
+Generative pre trained transformer
+Large language model
+Neural network
+Prompt engineering
+Retrieval augmented generation
+Reinforcement learning from human feedback
+Self supervised learning
+Transformer
+Variational autoencoder
+Vision transformer
+Word embedding
+ModelsText
+Claude
+DBRX
+DeepSeek
+ERNIE
+Gemini
+GPT
+ 
+ 
+ 
+J
+ChatGPT
+ 
+ o
+o 
+o 
+   
+   
+o 
+Granite
+Grok
+Llama
+Manus
+Mistral Large
+PanGu  
+Qwen
+Image
+Aurora
+DALL E
+Firefly
+Flux
+GPT Image  
+Ideogram
+Imagen
+Midjourney
+Stable Diffusion
+Speech
+   ai
+WaveNet
+Video
+Dream Machine
+Gen  
+Hailuo AI
+Kling
+Sora
+Veo
+VideoPoet
+Music
+Endel
+Suno AI
+Udio
+Companies
+   AI
+Alibaba
+Anthropic
+Baichuan
+Baidu
+DeepSeek
+ElevenLabs
+Google DeepMind
+Hugging Face
+Kuaishou
+Meta AI
+MiniMax
+Mistral AI
+Moonshot AI
+OpenAI
+Runway
+Stability AI
+Synthesia
+xAI
+Zhipu AI
+
+ Category
+ Commons
+
+vteArtificial intelligence  AI History  timeline Concepts
+Parameter
+Hyperparameter
+Loss functions
+Regression
+Bias variance tradeoff
+Double descent
+Overfitting
+Clustering
+Gradient descent
+SGD
+Quasi Newton method
+Conjugate gradient method
+Backpropagation
+Attention
+Convolution
+Normalization
+Batchnorm
+Activation
+Softmax
+Sigmoid
+Rectifier
+Gating
+Weight initialization
+Regularization
+Datasets
+Augmentation
+Prompt engineering
+Reinforcement learning
+Q learning
+SARSA
+Imitation
+Policy gradient
+Diffusion
+Latent diffusion model
+Autoregression
+Adversary
+RAG
+Uncanny valley
+RLHF
+Self supervised learning
+Recursive self improvement
+Word embedding
+Hallucination
+Applications
+Machine learning
+In context learning
+Artificial neural network
+Deep learning
+Language model
+Large language model
+NMT
+Artificial general intelligence  AGI 
+ImplementationsAudio visual
+AlexNet
+WaveNet
+Human image synthesis
+HWR
+OCR
+Speech synthesis
+   ai
+ElevenLabs
+Speech recognition
+Whisper
+Facial recognition
+AlphaFold
+Text to image models
+Aurora
+DALL E
+Firefly
+Flux
+Ideogram
+Imagen
+Midjourney
+Stable Diffusion
+Text to video models
+Dream Machine
+Runway Gen
+Hailuo AI
+Kling
+Sora
+Veo
+Music generation
+Suno AI
+Udio
+Text
+Word vec
+Seq seq
+GloVe
+BERT
+T 
+Llama
+Chinchilla AI
+PaLM
+GPT
+ 
+ 
+ 
+J
+ChatGPT
+ 
+ o
+o 
+o 
+   
+   
+o 
+Claude
+Gemini
+chatbot
+Grok
+LaMDA
+BLOOM
+Project Debater
+IBM Watson
+IBM Watsonx
+Granite
+PanGu  
+DeepSeek
+Qwen
+Decisional
+AlphaGo
+AlphaZero
+OpenAI Five
+Self driving car
+MuZero
+Action selection
+AutoGPT
+Robot control
+People
+Alan Turing
+Warren Sturgis McCulloch
+Walter Pitts
+John von Neumann
+Claude Shannon
+Marvin Minsky
+John McCarthy
+Nathaniel Rochester
+Allen Newell
+Cliff Shaw
+Herbert A  Simon
+Oliver Selfridge
+Frank Rosenblatt
+Bernard Widrow
+Joseph Weizenbaum
+Seymour Papert
+Seppo Linnainmaa
+Paul Werbos
+J rgen Schmidhuber
+Yann LeCun
+Geoffrey Hinton
+John Hopfield
+Yoshua Bengio
+Lotfi A  Zadeh
+Stephen Grossberg
+Alex Graves
+Andrew Ng
+Fei Fei Li
+Alex Krizhevsky
+Ilya Sutskever
+Demis Hassabis
+David Silver
+Ian Goodfellow
+Andrej Karpathy
+James Goodnight
+Architectures
+Neural Turing machine
+Differentiable neural computer
+Transformer
+Vision transformer  ViT 
+Recurrent neural network  RNN 
+Long short term memory  LSTM 
+Gated recurrent unit  GRU 
+Echo state network
+Multilayer perceptron  MLP 
+Convolutional neural network  CNN 
+Residual neural network  RNN 
+Highway network
+Mamba
+Autoencoder
+Variational autoencoder  VAE 
+Generative adversarial network  GAN 
+Graph neural network  GNN 
+
+ Portals
+Technology
+ Category
+Artificial neural networks
+Machine learning
+ List
+Companies
+Projects
+
+
+
+
+
+
+Retrieved from  https   en wikipedia org w index php title DeepSeek  chatbot  amp oldid

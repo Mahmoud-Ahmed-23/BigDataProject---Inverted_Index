@@ -1,0 +1,94 @@
+American psychologist            
+Frank RosenblattRosenblatt in     BornFrank Rosenblatt            July         New Rochelle  New York  U S DiedJuly                       aged         Chesapeake BayKnown      forPerceptronAcademic backgroundAlma materCornell UniversityThesisThe k Coefficient  Design and Trial Application of a New Technique for Multivariate Analysis            InfluencesWalter Pitts  Warren Sturgis McCulloch  Donald O  Hebb  Friedrich Hayek  Karl Lashley
+
+Frank Rosenblatt  July                           July           was an American psychologist notable in the field of artificial intelligence  He is sometimes called the father of deep learning            for his pioneering work on artificial neural networks 
+
+
+Life and career edit 
+Rosenblatt was born into a Jewish family in New Rochelle  New York as the son of Dr  Frank and Katherine Rosenblatt            
+After graduating from The Bronx High School of Science in       he attended Cornell University  where he obtained his A B  in      and his Ph D  in                  
+For his PhD thesis he built a custom made computer  the Electronic Profile Analyzing Computer  EPAC   to perform multidimensional analysis for psychometrics  He used it between      and      to analyze psychometric data collected for his PhD thesis  The data were collected from a paid      item survey of more than     Cornell undergraduates  The total computational cost was     million arithmetic operations  necessitating the use of an IBM CPC as well             It was said that    minutes of data processing took just   seconds                                 
+He subsequently moved to Cornell Aeronautical Laboratory in Buffalo  New York  where he was successively a research psychologist  senior psychologist  and head of the cognitive systems section  It was there that he also conducted the early work on perceptrons  which culminated in the development and hardware construction in      of the Mark I Perceptron             essentially the first computer that could learn new skills by trial and error  using a type of neural network that simulates human thought processes 
+Rosenblatt s research interests were exceptionally broad  In      he went to Cornell s Ithaca campus as director of the Cognitive Systems Research Program and lecturer in the Psychology Department  In      he joined the Section of Neurobiology and Behavior within the newly formed Division of Biological Sciences  as associate professor             Also in       he became fascinated with the transfer of learned behavior from trained to naive rats by the injection of brain extracts  a subject on which he would publish extensively in later years             
+In      he became field representative for the Graduate Field of Neurobiology and Behavior  and in      he shared the acting chairmanship of the Section of Neurobiology and Behavior  Frank Rosenblatt died in July      on his   rd birthday  in a boating accident in Chesapeake Bay             He was eulogized on the floor of the House of Representatives  among others by former Senator Eugene McCarthy            
+
+Academic interests edit 
+Perceptron edit 
+Rosenblatt is best known for the Perceptron  an electronic device which was constructed in accordance with biological principles and showed an ability to learn  Rosenblatt s perceptrons were initially simulated on an IBM     computer at Cornell Aeronautical Laboratory in                  When a triangle was held before the perceptron s eye  it would pick up the image and convey it along a random succession of lines to the response units  where the image was registered            
+He developed and extended this approach in numerous papers and a book called Principles of Neurodynamics  Perceptrons and the Theory of Brain Mechanisms  published by Spartan Books in                  He received international recognition for the Perceptron  The New York Times billed it as a revolution  with the headline  New Navy Device Learns By Doing              and The New Yorker similarly admired the technological advancement            
+
+An elementary Rosenblatt s perceptron  A units are linear threshold element with fixed input weights  R unit is also a linear threshold element but with ability to learn according to Rosenblatt s learning rule  Redrawn in             from the original Rosenblatt s book             
+Rosenblatt proved four main theorems  The first theorem states that  elementary perceptrons can solve any classification problem if there are no discrepancies in the training set  and sufficiently many independent A elements   The fourth theorem states convergence of learning algorithm if this realisation of elementary perceptron can solve the problem 
+Research on comparable devices was also being conducted in other places such as SRI  and many researchers had big expectations on what they could do  The initial excitement became somewhat reduced  however  when in      Marvin Minsky and Seymour Papert published the book  Perceptrons    Minsky and Papert considered elementary perceptrons with restrictions on the neural inputs  a bounded number of connections or a relatively small diameter of A units receptive fields  They proved that under these constraints  an elementary perceptron cannot solve some problems  such as the connectivity of input images or the parity of pixels in them  Thus  Rosenblatt proved omnipotence of the unrestricted elementary perceptrons  whereas Minsky and Papert demonstrated that abilities of perceptrons with restrictions are limited  These results are not contradictory  but the Minsky and Papert book was widely  and wrongly  cited as the proof of strong limitations of perceptrons   For detailed elementary discussion of the first Rosenblatt s theorem and its relation to Minsky and Papert work we refer to a recent note              
+After research on neural networks returned to the mainstream in the     s  new researchers started to study Rosenblatt s work again  This new wave of study on neural networks is interpreted by some researchers as being a contradiction of hypotheses presented in the book Perceptrons  and a confirmation of Rosenblatt s expectations 
+The Mark I Perceptron  which is generally recognized as a forerunner to artificial intelligence  currently resides in the Smithsonian Institution in Washington D C             The Mark I was able to learn  recognize letters  and solve quite complex problems 
+Principles of Neurodynamics       
+
+The neuron model employed is a direct descendant of that originally proposed by McCulloch and Pitts  The basic philosophical approach has been heavily influenced by the theories of Hebb and Hayek and the experimental findings of Lashley  The probabilistic approach is shared with theorists such as Ashby  Uttley  Minsky  MacKay  and von Neumann         Frank Rosenblatt  Principles Of Neurodynamics  page  
+Rosenblatt s book Principles of Neurodynamics  Perceptrons and the Theory of Brain Mechanisms  published by Spartan Books in       summarized his work on perceptrons at the time              The book was previously issued as an unclassified report No       G    on      March     through the Defense Technical Information Center              
+The book is divided into four parts  The first gives an historical review of alternative approaches to brain modeling  the physiological and psychological considerations  and the basic definitions and concepts of the perceptron approach  The second covers three layer series coupled perceptrons  the mathematical underpinnings  performance results in psychological experiments  and a variety of perceptron variations  The third covers multi layer and cross coupled perceptrons  and the fourth back coupled perceptrons and problems for future study  
+Rosenblatt used the book to teach an interdisciplinary course entitled  Theory of Brain Mechanisms  that drew students from Cornell s Engineering and Liberal Arts colleges 
+
+Rat brain experiments edit 
+Around the late     s  inspired by James V  McConnell s experiments with memory transfer in planarians  Rosenblatt began experiments within the Cornell Department of Entomology on the transfer of learned behavior via rat brain extracts  Rats were taught discrimination tasks such as Y maze and two lever Skinner box  Their brains were then extracted  and the extracts and their antibodies were injected into untrained rats that were subsequently tested in the discrimination tasks to determine whether or not there was behavior transfer from the trained to the untrained rats              Rosenblatt spent his last several years on this problem and showed convincingly that the initial reports of larger effects were wrong and that any memory transfer was at most very small            
+
+Other interests edit 
+Astronomy edit 
+Rosenblatt also had a serious research interest in astronomy and proposed a new technique to detect the presence of stellar satellites              He built an observatory on a hilltop behind his house in Brooktondale about   miles east of Ithaca  When construction on the observatory was completed  Rosenblatt began an intensive study on SETI  Search for Extraterrestrial Intelligence              He also studied photometry and developed a technique for  detecting low level laser signals against a relatively intense background of non coherent light              
+
+Politics edit 
+Rosenblatt was very active in liberal politics  He worked in the Eugene McCarthy primary campaigns for president in New Hampshire and California in      and in a series of Vietnam protest activities in Washington             
+
+IEEE Frank Rosenblatt Award edit 
+The Institute of Electrical and Electronics Engineers  IEEE   the world s largest professional association dedicated to advancing technological innovation and excellence for the benefit of humanity  presents annually a IEEE Frank Rosenblatt Award 
+
+See also edit 
+History of artificial intelligence   Perceptrons
+AI Winter
+References edit 
+
+
+
+Wikiquote has quotations related to Frank Rosenblatt 
+
+
+
+  Tappert  Charles C           Who is the Father of Deep Learning         International Conference on Computational Science and Computational Intelligence  CSCI   IEEE  pp                doi         CSCI                  ISBN                         S CID                 Retrieved    May      
+
+  a b c Carey  Hugh L           Tribute to Dr  Frank Rosenblatt   PDF   Congressional Record  Proceedings and Debates of the   d Congress  First Session  US Government Printing Office  pp            Archived from the original  PDF  on    February       Retrieved    Dec      
+
+  a b c d e f Emlen  Stephen T   Howland  Howard C   O Brien  Richard D   Frank Rosenblatt  July            July            PDF   Cornell University  Retrieved    Dec      
+
+  a b Penn  Jonathan               Inventing Intelligence  On the History of Complex Information Processing and Artificial Intelligence in the United States in the Mid Twentieth Century  Thesis    object Object   doi          cam       
+
+   Editor Miscellany   American Scientist     no     January           
+
+   Hyping Artificial Intelligence  Yet Again   newyorker com     December      
+
+  a b Mason  Harding  Stewart  D   Brendan  Gill     November         Rival   The New Yorker 
+
+  Preprint as a military report in            as Report          
+
+   New Navy Device Learns By Doing   The New York Times    July      
+
+  a b Kirdin A  Sidorov S  Zolotykh N          Rosenblatt s First Theorem and Frugality of Deep Learning   Entropy                 doi         e          PMC               PMID               
+
+  a b Rosenblatt  F  Principles of Neurodynamics  Perceptrons and the Theory of Brain Mechanisms  Spartan Books  Washington  DC  USA       
+
+  Defense Technical Information Center               DTIC AD         PRINCIPLES OF NEURODYNAMICS  PERCEPTRONS AND THE THEORY OF BRAIN MECHANISMS 
+
+  a b Rosenblatt  Frank  and CORNELL UNIV ITHACA NY  Cognitive Systems Research Program  Technical report  Cornell University           
+
+   Frank Rosenblatt   July          July            PDF   dspace library cornell edu 
+
+   Frank Rosenblatt   July          July            PDF   dspace library cornell edu 
+
+
+Mason  Harding  Harding Mason  D  Stewart Brendan Gill  November             Rival   The New Yorker   cite web     CS  maint  multiple names  authors list  link  An interview with Frank Rosenblatt  and Marshall C  Yovits of the Office of Naval Research 
+Authority control databases InternationalISNIVIAFFASTWorldCatNationalGermanyUnited StatesNetherlandsIsraelAcademicszbMATHOtherIdRef
+
+
+
+
+
+Retrieved from  https   en wikipedia org w index php title Frank Rosenblatt amp oldid

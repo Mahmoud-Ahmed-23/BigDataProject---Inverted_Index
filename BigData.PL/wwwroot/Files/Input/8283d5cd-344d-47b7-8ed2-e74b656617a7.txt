@@ -1,0 +1,303 @@
+Influential      deep convolutional neural network
+AlexNetDeveloper s Alex Krizhevsky  Ilya Sutskever  and Geoffrey HintonInitial releaseJun         Repositorycode google com archive p cuda convnet Written inCUDA  C  TypeConvolutional neural networkLicenseNew BSD License
+AlexNet architecture and a possible modification  At the top is half of the original AlexNet  which is divided into two halves  one for each GPU  At the bottom is the same architecture  but the final  projection  layer is replaced by another that projects to fewer outputs  If one freezes the remaining model and only fine tunes the last layer  one can obtain another vision model at a significantly lower cost than training one from scratch 
+LeNet  left  and AlexNet  right  block diagram
+AlexNet is a convolutional neural network architecture developed for image classification tasks  notably achieving prominence through its performance in the ImageNet Large Scale Visual Recognition Challenge  ILSVRC   It classifies images into       distinct object categories and is regarded as the first widely recognized application of deep convolutional networks in large scale visual recognition 
+Developed in      by Alex Krizhevsky in collaboration with Ilya Sutskever and his Ph D  advisor Geoffrey Hinton at the University of Toronto  the model contains    million parameters and         neurons             The original paper s primary result was that the depth of the model was essential for its high performance  which was computationally expensive  but made feasible due to the utilization of graphics processing units  GPUs  during training            
+The three formed team SuperVision and submitted AlexNet in the ImageNet Large Scale Visual Recognition Challenge on September                      The network achieved a top   error of        more than      percentage points better than that of the runner up 
+The architecture influenced a large number of subsequent work in deep learning  especially in applying neural networks to computer vision 
+
+
+Architecture edit 
+AlexNet contains eight layers  the first five are convolutional layers  some of them followed by max pooling layers  and the last three are fully connected layers  The network  except the last layer  is split into two copies  each run on one GPU             The entire structure can be written as CNN   RN   MP      CNN    MP     FC   DO     Linear   softmaxwhere
+CNN   convolutional layer  with ReLU activation 
+RN   local response normalization
+MP   max pooling
+FC   fully connected layer  with ReLU activation 
+Linear   fully connected layer  without activation 
+DO   dropout
+It used the non saturating ReLU activation function  which trained better than tanh and sigmoid            
+Because the network did not fit onto a single Nvidia GTX      GB GPU  it was split into two halves  one on each GPU                        Section           
+
+Training edit 
+The ImageNet training set contained     million images  The model was trained for    epochs over a period of five to six days using two Nvidia GTX     GPUs   GB each              These GPUs have a theoretical performance of       TFLOPS in float   and were priced at US     upon release             Each forward pass of AlexNet required approximately      GFLOPs             Based on these values  the two GPUs together were theoretically capable of performing over       forward passes per second under ideal conditions 
+AlexNet was trained with momentum gradient descent with a batch size of     examples  momentum of      and weight decay of         Learning rate started at      and was manually decreased    fold whenever validation error appeared to stop decreasing  It was reduced three times during training  ending at      
+It used two forms of data augmentation  both computed on the fly on the CPU  thus  computationally free  
+
+Extracting random         patches  and their horizontal reflections  from the original         images  This increases the size of the training set      fold 
+Randomly shifting the RGB value of each image along the three principal directions of the RGB values of its pixels 
+It used local response normalization  and dropout regularization with drop probability     
+All weights were initialized as gaussians with   mean and      standard deviation  Biases in convolutional layers          and all fully connected layers  were initialized to constant   to avoid the dying ReLU problem 
+
+History edit 
+Previous work edit 
+Comparison of the LeNet and AlexNet convolution  pooling  and dense layers AlexNet image size should be            instead of            so the math will come out right  The original paper said different numbers  but Andrej Karpathy  the former head of computer vision at Tesla  said it should be            he said Alex didn t describe why he put             The next convolution should be       with stride              instead of            It would be calculated  for example  as    input width       kernel width       stride                                     Since the kernel output is the same length as width  its area is        
+In       Kunihiko Fukushima proposed an early CNN named neocognitron                        It was trained by an unsupervised learning algorithm  The LeNet    Yann LeCun et al                               was trained by supervised learning with backpropagation algorithm  with an architecture that is essentially the same as AlexNet on a small scale 
+Max pooling was used in      for speech processing  essentially a   dimensional CNN              and for image processing  was first used in the Cresceptron of                  
+During the     s  as GPU hardware improved  some researchers adapted these for general purpose computing  including neural network training   K  Chellapilla et al         trained a CNN on GPU that was   times faster than an equivalent CPU implementation               Raina et al       trained a deep belief network with     million parameters on an Nvidia GeForce GTX     at up to    times speedup over CPUs              A deep CNN of  Dan Cire an et al         at IDSIA was    times faster than an equivalent CPU implementation              Between May           and September           their CNN won four image competitions and achieved SOTA for multiple image databases                                      According to the AlexNet paper             Cire an s earlier net is  somewhat similar   Both were written with CUDA to run on GPU 
+
+Computer vision edit 
+During the           period  neural networks were not better than other machine learning methods like kernel regression  support vector machines  AdaBoost  structured estimation              among others  For computer vision in particular  much progress came from manual feature engineering  such as SIFT features  SURF features  HoG features  bags of visual words  etc  It was a minority position in computer vision that features can be learned directly from data  a position which became dominant after AlexNet             
+In       Geoffrey Hinton started reaching out to colleagues about  What do I have to do to convince you that neural networks are the future    and Jitendra Malik  a sceptic of neural networks  recommended the PASCAL Visual Object Classes challenge  Hinton said its dataset was too small  so Malik recommended to him the ImageNet challenge             
+The ImageNet dataset  which became central to AlexNet s success  was created by Fei Fei Li and her collaborators beginning in       Aiming to advance visual recognition through large scale data  Li built a dataset far larger than earlier efforts  ultimately containing over    million labeled images across        categories  The images were labeled using Amazon Mechanical Turk and organized via the WordNet hierarchy  Initially met with skepticism  ImageNet later became the foundation of the ImageNet Large Scale Visual Recognition Challenge  ILSVRC  and a key resource in the rise of deep learning             
+Sutskever and Krizhevsky were both graduate students  Before       Krizhevsky had already written cuda convnet to train small CNNs on CIFAR    with a single GPU  Sutskever convinced Krizhevsky  who could do GPGPU well  to train a CNN on ImageNet  with Hinton serving as principal investigator  So Krizhevsky extended cuda convnet for multi GPU training  AlexNet was trained on   Nvidia GTX     in Krizhevsky s bedroom at his parents  house  Over       Krizhevsky tinkered with the network hyperparameters until it won the ImageNet competition in       Hinton commented that   Ilya thought we should do it  Alex made it work  and I got the Nobel Prize               At the      European Conference on Computer Vision  following AlexNet s win  researcher Yann LeCun described the model as  an unequivocal turning point in the history of computer vision              
+AlexNet s success in      was enabled by the convergence of three developments that had matured over the previous decade  large scale labeled datasets  general purpose GPU computing  and improved training methods for deep neural networks  The availability of ImageNet provided the data necessary for training deep models on a broad range of object categories  Advances in GPU programming through Nvidia s CUDA platform enabled practical training of large models  Together with algorithmic improvements  these factors enabled AlexNet to achieve high performance on large scale visual recognition benchmarks              Reflecting on its significance over a decade later  Fei Fei Li stated in a      interview   That moment was pretty symbolic to the world of AI because three fundamental elements of modern AI converged for the first time              
+While AlexNet and LeNet share essentially the same design and algorithm  AlexNet is much larger than LeNet and was trained on a much larger dataset on much faster hardware  Over the period of    years  both data and compute became cheaply available             
+
+Subsequent work edit 
+AlexNet is highly influential  resulting in much subsequent work in using CNNs for computer vision and using GPUs to accelerate deep learning  As of early       the AlexNet paper has been cited over         times according to Google Scholar             
+At the time of publication  there was no framework available for GPU based neural network training and inference  The codebase for AlexNet was released under a BSD license  and had been commonly used in neural network research for several subsequent years                         
+In one direction  subsequent works aimed to train increasingly deep CNNs that achieve increasingly higher performance on ImageNet  In this line of research are GoogLeNet         VGGNet         Highway network         and ResNet         Another direction aimed to reproduce the performance of AlexNet at a lower cost  In this line of research are SqueezeNet         MobileNet         EfficientNet        
+Geoffrey Hinton  Ilya Sutskever  and Alex Krizhevsky formed DNNResearch soon afterwards and sold the company  and the AlexNet source code along with it  to Google  There had been improvements and reimplementations for the AlexNet  but the original version as of       at the time of its winning of ImageNet  had been released under BSD   license via Computer History Museum             
+
+References edit 
+
+
+  a b c d e f g Krizhevsky  Alex  Sutskever  Ilya  Hinton  Geoffrey E                 ImageNet classification with deep convolutional neural networks   PDF   Communications of the ACM                 doi                  ISSN                 S CID                
+
+   ImageNet Large Scale Visual Recognition Competition       ILSVRC        image net org 
+
+   NVIDIA GeForce GTX     Specs   TechPowerUp              Retrieved            
+
+   calflops  a FLOPs and Params calculate tool for neural networks   pypi org  Retrieved            
+
+  Fukushima  K           Neocognitron   Scholarpedia               Bibcode     SchpJ         F  doi         scholarpedia      
+
+  Fukushima  Kunihiko          Neocognitron  A Self organizing Neural Network Model for a Mechanism of Pattern Recognition Unaffected by Shift in Position   PDF   Biological Cybernetics                   doi         BF          PMID               S CID                 Retrieved    November      
+
+  LeCun  Y   Boser  B   Denker  J  S   Henderson  D   Howard  R  E   Hubbard  W   Jackel  L  D           Backpropagation Applied to Handwritten Zip Code Recognition   PDF   Neural Computation         MIT Press   Journals           doi         neco               ISSN                 OCLC                
+
+  LeCun  Yann  L on Bottou  Yoshua Bengio  Patrick Haffner          Gradient based learning applied to document recognition   PDF   Proceedings of the IEEE                      CiteSeerX                      doi                   S CID                Retrieved October         
+
+  Yamaguchi  Kouichi  Sakamoto  Kenji  Akabane  Toshio  Fujimoto  Yoshiji  November        A Neural Network for Speaker Independent Isolated Word Recognition  First International Conference on Spoken Language Processing  ICSLP      Kobe  Japan  Archived from the original on             Retrieved            
+
+  Weng  J   Ahuja  N   Huang  T S           Cresceptron  a self organizing neural network which grows adaptively      IEEE           doi         IJCNN              ISBN                           cite journal    Cite journal requires       journal   help 
+
+  Kumar Chellapilla  Sidd Puri  Patrice Simard          High Performance Convolutional Neural Networks for Document Processing   In Lorette  Guy  ed    Tenth International Workshop on Frontiers in Handwriting Recognition  Suvisoft 
+
+  Raina  Rajat  Madhavan  Anand  Ng  Andrew Y                 Large scale deep unsupervised learning using graphics processors   ACM           doi                          ISBN                           cite journal    Cite journal requires       journal   help 
+
+  Cire an  Dan  Ueli Meier  Jonathan Masci  Luca M  Gambardella  Jurgen Schmidhuber          Flexible  High Performance Convolutional Neural Networks for Image Classification   PDF   Proceedings of the Twenty Second International Joint Conference on Artificial Intelligence Volume Volume Two                Retrieved    November      
+
+   IJCNN      Competition result table   OFFICIAL IJCNN     COMPETITION        Retrieved            
+
+  Schmidhuber  J rgen     March         History of computer vision contests won by deep CNNs on GPU   Retrieved    January      
+
+  Cire an  Dan  Meier  Ueli  Schmidhuber  J rgen  June         Multi column deep neural networks for image classification        IEEE Conference on Computer Vision and Pattern Recognition  New York  NY  Institute of Electrical and Electronics Engineers  IEEE   pp                  arXiv            CiteSeerX                       doi         CVPR               ISBN                         OCLC                 S CID              
+
+  Taskar  Ben  Guestrin  Carlos  Koller  Daphne          Max Margin Markov Networks   Advances in Neural Information Processing Systems      MIT Press 
+
+  a b c Zhang  Aston  Lipton  Zachary  Li  Mu  Smola  Alexander J                Deep Convolutional Neural Networks  AlexNet    Dive into deep learning  Cambridge New York Port Melbourne New Delhi Singapore  Cambridge University Press  ISBN                        
+
+  Li  Fei Fei         The worlds I see  curiosity  exploration  and discovery at the dawn of AI  First      ed    New York  Moment of Lift Books        Flatiron Books  ISBN                        
+
+  a b c d  How a stubborn computer scientist accidentally launched the deep learning boom   Ars Technica     November       Retrieved    March      
+
+  hhackford                CHM Releases AlexNet Source Code   CHM  Retrieved            
+
+  AlexNet paper on Google Scholar 
+
+  Krizhevsky  Alex  July             cuda convnet  High performance C   CUDA implementation of convolutional neural networks   Google Code Archive  Retrieved            
+
+  computerhistory AlexNet Source Code  Computer History Museum              retrieved           
+
+
+vteArtificial intelligence  AI History  timeline Concepts
+Parameter
+Hyperparameter
+Loss functions
+Regression
+Bias variance tradeoff
+Double descent
+Overfitting
+Clustering
+Gradient descent
+SGD
+Quasi Newton method
+Conjugate gradient method
+Backpropagation
+Attention
+Convolution
+Normalization
+Batchnorm
+Activation
+Softmax
+Sigmoid
+Rectifier
+Gating
+Weight initialization
+Regularization
+Datasets
+Augmentation
+Prompt engineering
+Reinforcement learning
+Q learning
+SARSA
+Imitation
+Policy gradient
+Diffusion
+Latent diffusion model
+Autoregression
+Adversary
+RAG
+Uncanny valley
+RLHF
+Self supervised learning
+Recursive self improvement
+Word embedding
+Hallucination
+Applications
+Machine learning
+In context learning
+Artificial neural network
+Deep learning
+Language model
+Large language model
+NMT
+Artificial general intelligence  AGI 
+ImplementationsAudio visual
+AlexNet
+WaveNet
+Human image synthesis
+HWR
+OCR
+Speech synthesis
+   ai
+ElevenLabs
+Speech recognition
+Whisper
+Facial recognition
+AlphaFold
+Text to image models
+Aurora
+DALL E
+Firefly
+Flux
+Ideogram
+Imagen
+Midjourney
+Stable Diffusion
+Text to video models
+Dream Machine
+Runway Gen
+Hailuo AI
+Kling
+Sora
+Veo
+Music generation
+Suno AI
+Udio
+Text
+Word vec
+Seq seq
+GloVe
+BERT
+T 
+Llama
+Chinchilla AI
+PaLM
+GPT
+ 
+ 
+ 
+J
+ChatGPT
+ 
+ o
+o 
+o 
+   
+   
+o 
+Claude
+Gemini
+chatbot
+Grok
+LaMDA
+BLOOM
+Project Debater
+IBM Watson
+IBM Watsonx
+Granite
+PanGu  
+DeepSeek
+Qwen
+Decisional
+AlphaGo
+AlphaZero
+OpenAI Five
+Self driving car
+MuZero
+Action selection
+AutoGPT
+Robot control
+People
+Alan Turing
+Warren Sturgis McCulloch
+Walter Pitts
+John von Neumann
+Claude Shannon
+Marvin Minsky
+John McCarthy
+Nathaniel Rochester
+Allen Newell
+Cliff Shaw
+Herbert A  Simon
+Oliver Selfridge
+Frank Rosenblatt
+Bernard Widrow
+Joseph Weizenbaum
+Seymour Papert
+Seppo Linnainmaa
+Paul Werbos
+J rgen Schmidhuber
+Yann LeCun
+Geoffrey Hinton
+John Hopfield
+Yoshua Bengio
+Lotfi A  Zadeh
+Stephen Grossberg
+Alex Graves
+Andrew Ng
+Fei Fei Li
+Alex Krizhevsky
+Ilya Sutskever
+Demis Hassabis
+David Silver
+Ian Goodfellow
+Andrej Karpathy
+James Goodnight
+Architectures
+Neural Turing machine
+Differentiable neural computer
+Transformer
+Vision transformer  ViT 
+Recurrent neural network  RNN 
+Long short term memory  LSTM 
+Gated recurrent unit  GRU 
+Echo state network
+Multilayer perceptron  MLP 
+Convolutional neural network  CNN 
+Residual neural network  RNN 
+Highway network
+Mamba
+Autoencoder
+Variational autoencoder  VAE 
+Generative adversarial network  GAN 
+Graph neural network  GNN 
+
+ Portals
+Technology
+ Category
+Artificial neural networks
+Machine learning
+ List
+Companies
+Projects
+
+
+
+
+
+
+Retrieved from  https   en wikipedia org w index php title AlexNet amp oldid

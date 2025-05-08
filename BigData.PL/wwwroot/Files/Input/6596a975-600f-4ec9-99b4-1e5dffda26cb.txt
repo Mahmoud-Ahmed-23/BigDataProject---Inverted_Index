@@ -1,0 +1,634 @@
+Research area on making AI safe and beneficial
+Part of a series onArtificial intelligence  AI 
+Major goals
+Artificial general intelligence
+Intelligent agent
+Recursive self improvement
+Planning
+Computer vision
+General game playing
+Knowledge reasoning
+Natural language processing
+Robotics
+AI safety
+
+Approaches
+Machine learning
+Symbolic
+Deep learning
+Bayesian networks
+Evolutionary algorithms
+Hybrid intelligent systems
+Systems integration
+
+Applications
+Bioinformatics
+Deepfake
+Earth sciences
+ Finance 
+Generative AI
+Art
+Audio
+Music
+Government
+Healthcare
+Mental health
+Industry
+Translation
+ Military 
+Physics
+Projects
+
+Philosophy
+Artificial consciousness
+Chinese room
+Friendly AI
+Control problem Takeover
+Ethics
+Existential risk
+Turing test
+Uncanny valley
+
+History
+Timeline
+Progress
+AI winter
+AI boom
+
+Glossary
+Glossary
+vteAI safety is an interdisciplinary field focused on preventing accidents  misuse  or other harmful consequences arising from artificial intelligence  AI  systems  It encompasses machine ethics and AI alignment  which aim to ensure AI systems are moral and beneficial  as well as monitoring AI systems for risks and enhancing their reliability  The field is particularly concerned with existential risks posed by advanced AI models 
+Beyond technical research  AI safety involves developing norms and policies that promote safety  It gained significant popularity in       with rapid progress in generative AI and public concerns voiced by researchers and CEOs about potential dangers  During the      AI Safety Summit  the United States and the United Kingdom both established their own AI Safety Institute  However  researchers have expressed concern that AI safety measures are not keeping pace with the rapid development of AI capabilities            
+
+
+Motivations edit 
+Scholars discuss current risks from critical systems failures             bias             and AI enabled surveillance             as well as emerging risks like technological unemployment  digital manipulation             weaponization             AI enabled cyberattacks            and bioterrorism             They also discuss speculative risks from losing control of future artificial general intelligence  AGI  agents             or from AI enabling perpetually stable dictatorships             
+
+Existential safety edit 
+See also  Existential risk from artificial general intelligence
+Some have criticized concerns about AGI  such as Andrew Ng who compared them in      to  worrying about overpopulation on Mars when we have not even set foot on the planet yet               Stuart J  Russell on the other side urges caution  arguing that  it is better to anticipate human ingenuity than to underestimate it              
+AI researchers have widely differing opinions about the severity and primary sources of risk posed by AI technology                                       though surveys suggest that experts take high consequence risks seriously  In two surveys of AI researchers  the median respondent was optimistic about AI overall  but placed a    probability on an  extremely bad  e g  human extinction   outcome of advanced AI              In a      survey of the natural language processing community      agreed or weakly agreed that it is plausible that AI decisions could lead to a catastrophe that is  at least as bad as an all out nuclear war              
+
+History edit 
+Risks from AI began to be seriously discussed at the start of the computer age 
+
+Moreover  if we move in the direction of making machines which learn and whose behavior is modified by experience  we must face the fact that every degree of independence we give the machine is a degree of possible defiance of our wishes         Norbert Wiener                   
+In      Blay Whitby published a book outlining the need for AI to be developed along ethical and socially responsible lines              
+From      to       the Association for the Advancement of Artificial Intelligence  AAAI  commissioned a study to explore and address potential long term societal influences of AI research and development  The panel was generally skeptical of the radical views expressed by science fiction authors but agreed that  additional research would be valuable on methods for understanding and verifying the range of behaviors of complex computational systems to minimize unexpected outcomes              
+In       Roman Yampolskiy introduced the term  AI safety engineering              at the Philosophy and Theory of Artificial Intelligence conference              listing prior failures of AI systems and arguing that  the frequency and seriousness of such events will steadily increase as AIs become more capable              
+In       philosopher Nick Bostrom published the book Superintelligence  Paths  Dangers  Strategies  He has the opinion that the rise of AGI has the potential to create various societal issues  ranging from the displacement of the workforce by AI  manipulation of political and military structures  to even the possibility of human extinction              His argument that future advanced systems may pose a threat to human existence prompted Elon Musk              Bill Gates              and Stephen Hawking             to voice similar concerns 
+In       dozens of artificial intelligence experts signed an open letter on artificial intelligence calling for research on the societal impacts of AI and outlining concrete directions              To date  the letter has been signed by over      people including Yann LeCun  Shane Legg  Yoshua Bengio  and Stuart Russell 
+In the same year  a group of academics led by professor Stuart Russell founded the Center for Human Compatible AI at the University of California Berkeley and the Future of Life Institute awarded      million in grants for research aimed at  ensuring artificial intelligence  AI  remains safe  ethical and beneficial              
+In       the White House Office of Science and Technology Policy and Carnegie Mellon University announced The Public Workshop on Safety and Control for Artificial Intelligence              which was one of a sequence of four White House workshops aimed at investigating  the advantages and drawbacks  of AI              In the same year  Concrete Problems in AI Safety   one of the first and most influential technical AI Safety agendas   was published             
+In       the Future of Life Institute sponsored the Asilomar Conference on Beneficial AI  where more than     thought leaders formulated principles for beneficial AI including  Race Avoidance  Teams developing AI systems should actively cooperate to avoid corner cutting on safety standards              
+In       the DeepMind Safety team outlined AI safety problems in specification  robustness              and assurance              The following year  researchers organized a workshop at ICLR that focused on these problem areas             
+In       Unsolved Problems in ML Safety was published  outlining research directions in robustness  monitoring  alignment  and systemic safety             
+In       Rishi Sunak said he wants the United Kingdom to be the  geographical home of global AI safety regulation  and to host the first global summit on AI safety              The AI safety summit took place in November       and focused on the risks of misuse and loss of control associated with frontier AI models              During the summit the intention to create the International Scientific Report on the Safety of Advanced AI             was announced 
+In       The US and UK forged a new partnership on the science of AI safety  The MoU was signed on   April      by US commerce secretary Gina Raimondo and UK technology secretary Michelle Donelan to jointly develop advanced AI model testing  following commitments announced at an AI Safety Summit in Bletchley Park in November             
+In       an international team of    experts chaired by Yoshua Bengio published the first International AI Safety Report                         
+
+Research focus edit 
+This section relies excessively on references to primary sources  Please improve this section by adding secondary or tertiary sources  Find sources                AI safety  Hendrycks             news        newspapers        books        scholar        JSTOR   July        Learn how and when to remove this message 
+AI safety research areas include robustness  monitoring  and alignment                         
+
+Robustness edit 
+Adversarial robustness edit 
+AI systems are often vulnerable to adversarial examples or  inputs to machine learning  ML  models that an attacker has intentionally designed to cause the model to make a mistake               For example  in       Szegedy et al  discovered that adding specific imperceptible perturbations to an image could cause it to be misclassified with high confidence              This continues to be an issue with neural networks  though in recent work the perturbations are generally large enough to be perceptible                                     
+
+Carefully crafted noise can be added to an image to cause it to be misclassified with high confidence 
+All of the images on the right are predicted to be an ostrich after the perturbation is applied   Left  is a correctly predicted sample   center  perturbation applied magnified by   x   right  adversarial example             
+Adversarial robustness is often associated with security              Researchers demonstrated that an audio signal could be imperceptibly modified so that speech to text systems transcribe it to any message the attacker chooses              Network intrusion             and malware             detection systems also must be adversarially robust since attackers may design their attacks to fool detectors 
+Models that represent objectives  reward models  must also be adversarially robust       For example  a reward model might estimate how helpful a text response is and a language model might be trained to maximize this score              Researchers have shown that if a language model is trained for long enough  it will leverage the vulnerabilities of the reward model to achieve a better score and perform worse on the intended task              This issue can be addressed by improving the adversarial robustness of the reward model              More generally  any AI system used to evaluate another AI system must be adversarially robust  This could include monitoring tools  since they could also potentially be tampered with to produce a higher reward             
+
+Monitoring edit 
+Estimating uncertainty edit 
+It is often important for human operators to gauge how much they should trust an AI system  especially in high stakes settings such as medical diagnosis              ML models generally express confidence by outputting probabilities  however  they are often overconfident              especially in situations that differ from those that they were trained to handle              Calibration research aims to make model probabilities correspond as closely as possible to the true proportion that the model is correct 
+Similarly  anomaly detection or out of distribution  OOD  detection aims to identify when an AI system is in an unusual situation  For example  if a sensor on an autonomous vehicle is malfunctioning  or it encounters challenging terrain  it should alert the driver to take control or pull over              Anomaly detection has been implemented by simply training a classifier to distinguish anomalous and non anomalous inputs              though a range of additional techniques are in use                         
+
+Detecting malicious use edit 
+Scholars            and government agencies have expressed concerns that AI systems could be used to help malicious actors to build weapons              manipulate public opinion                          or automate cyber attacks              These worries are a practical concern for companies like OpenAI which host powerful AI tools online              In order to prevent misuse  OpenAI has built detection systems that flag or restrict users based on their activity             
+
+Transparency edit 
+Neural networks have often been described as black boxes              meaning that it is difficult to understand why they make the decisions they do as a result of the massive number of computations they perform              This makes it challenging to anticipate failures  In       a self driving car killed a pedestrian after failing to identify them  Due to the black box nature of the AI software  the reason for the failure remains unclear              It also raises debates in healthcare over whether statistically efficient but opaque models should be used             
+One critical benefit of transparency is explainability              It is sometimes a legal requirement to provide an explanation for why a decision was made in order to ensure fairness  for example for automatically filtering job applications or credit score assignment             
+Another benefit is to reveal the cause of failures              At the beginning of the      COVID    pandemic  researchers used transparency tools to show that medical image classifiers were  paying attention  to irrelevant hospital labels             
+Transparency techniques can also be used to correct errors  For example  in the paper  Locating and Editing Factual Associations in GPT   the authors were able to identify model parameters that influenced how it answered questions about the location of the Eiffel tower  They were then able to  edit  this knowledge to make the model respond to questions as if it believed the tower was in Rome instead of France              Though in this case  the authors induced an error  these methods could potentially be used to efficiently fix them  Model editing techniques also exist in computer vision             
+Finally  some have argued that the opaqueness of AI systems is a significant source of risk and better understanding of how they function could prevent high consequence failures in the future               Inner  interpretability research aims to make ML models less opaque  One goal of this research is to identify what the internal neuron activations represent                          For example  researchers identified a neuron in the CLIP artificial intelligence system that responds to images of people in spider man costumes  sketches of spiderman  and the word  spider               It also involves explaining connections between these neurons or  circuits                           For example  researchers have identified pattern matching mechanisms in transformer attention that may play a role in how language models learn from their context               Inner interpretability  has been compared to neuroscience  In both cases  the goal is to understand what is going on in an intricate system  though ML researchers have the benefit of being able to take perfect measurements and perform arbitrary ablations             
+
+Detecting trojans edit 
+Machine learning models can potentially contain  trojans  or  backdoors        vulnerabilities that malicious actors maliciously build into an AI system  For example  a trojaned facial recognition system could grant access when a specific piece of jewelry is in view              or a trojaned autonomous vehicle may function normally until a specific trigger is visible              Note that an adversary must have access to the system s training data in order to plant a trojan       citation needed      This might not be difficult to do with some large models like CLIP or GPT   as they are trained on publicly available internet data              Researchers were able to plant a trojan in an image classifier by changing just     out of   million of the training images              In addition to posing a security risk  researchers have argued that trojans provide a concrete setting for testing and developing better monitoring tools             
+A      research paper by Anthropic showed that large language models could be trained with persistent backdoors  These  sleeper agent  models could be programmed to generate malicious outputs  such as vulnerable code  after a specific date  while behaving normally beforehand  Standard AI safety measures  such as supervised fine tuning  reinforcement learning and adversarial training  failed to remove these backdoors             
+
+Alignment edit 
+This section is an excerpt from AI alignment  edit 
+In the field of artificial intelligence  AI   alignment aims to steer AI systems toward a person s or group s intended goals  preferences  or ethical principles  An AI system is considered aligned if it advances the intended objectives  A misaligned AI system pursues unintended objectives             
+It is often challenging for AI designers to align an AI system because it is difficult for them to specify the full range of desired and undesired behaviors  Therefore  AI designers often use simpler proxy goals  such as gaining human approval  But proxy goals can overlook necessary constraints or reward the AI system for merely appearing aligned                          AI systems may also find loopholes that allow them to accomplish their proxy goals efficiently but in unintended  sometimes harmful  ways  reward hacking                          
+Advanced AI systems may develop unwanted instrumental strategies  such as seeking power or survival because such strategies help them achieve their assigned final goals                                      Furthermore  they might develop undesirable emergent goals that could be hard to detect before the system is deployed and encounters new situations and data distributions                          Empirical research showed in      that advanced large language models  LLMs  such as OpenAI o  or Claude   sometimes engage in strategic deception to achieve their goals or prevent them from being changed                         
+Today  some of these issues affect existing commercial systems such as LLMs                                       robots               autonomous vehicles               and social media recommendation engines                                       Some AI researchers argue that more capable future systems will be more severely affected because these problems partially result from high capabilities                                      
+Many prominent AI researchers and the leadership of major AI companies have argued or asserted that AI is approaching human like  AGI  and superhuman cognitive capabilities  ASI   and could endanger human civilization if misaligned                           These include  AI Godfathers  Geoffrey Hinton and Yoshua Bengio and the CEOs of OpenAI  Anthropic  and Google DeepMind                                         These risks remain debated              
+
+AI alignment is a subfield of AI safety  the study of how to build safe AI systems               Other subfields of AI safety include robustness  monitoring  and capability control               Research challenges in alignment include instilling complex values in AI  developing honest AI  scalable oversight  auditing and interpreting AI models  and preventing emergent AI behaviors like power seeking               Alignment research has connections to interpretability research                             adversarial  robustness               anomaly detection  calibrated uncertainty               formal verification               preference learning                                         safety critical engineering               game theory               algorithmic fairness                            and social sciences                           
+Systemic safety and sociotechnical factors edit 
+It is common for AI risks  and technological risks more generally  to be categorized as misuse or accidents               Some scholars have suggested that this framework falls short               For example  the Cuban Missile Crisis was not clearly an accident or a misuse of technology               Policy analysts Zwetsloot and Dafoe wrote   The misuse and accident perspectives tend to focus only on the last step in a causal chain leading up to a harm  that is  the person who misused the technology  or the system that behaved in unintended ways  Often  though  the relevant causal chain is much longer   Risks often arise from  structural  or  systemic  factors such as competitive pressures  diffusion of harms  fast paced development  high levels of uncertainty  and inadequate safety culture               In the broader context of safety engineering  structural factors like  organizational safety culture  play a central role in the popular STAMP risk analysis framework              
+Inspired by the structural perspective  some researchers have emphasized the importance of using machine learning to improve sociotechnical safety factors  for example  using ML for cyber defense  improving institutional decision making  and facilitating cooperation              Others have emphasized the importance of involving both AI practitioners and domain experts in the design process to address structural vulnerabilities              
+
+Cyber defense edit 
+Some scholars are concerned that AI will exacerbate the already imbalanced game between cyber attackers and cyber defenders               This would increase  first strike  incentives and could lead to more aggressive and destabilizing attacks  In order to mitigate this risk  some have advocated for an increased emphasis on cyber defense  In addition  software security is essential for preventing powerful AI models from being stolen and misused             Recent studies have shown that AI can significantly enhance both technical and managerial cybersecurity tasks by automating routine tasks and improving overall efficiency              
+
+Improving institutional decision making edit 
+The advancement of AI in economic and military domains could precipitate unprecedented political challenges               Some scholars have compared AI race dynamics to the cold war  where the careful judgment of a small number of decision makers often spelled the difference between stability and catastrophe               AI researchers have argued that AI technologies could also be used to assist decision making              For example  researchers are beginning to develop AI forecasting              and advisory systems              
+
+Facilitating cooperation edit 
+Many of the largest global threats  nuclear war               climate change               etc   have been framed as cooperation challenges  As in the well known prisoner s dilemma scenario  some dynamics may lead to poor results for all players  even when they are optimally acting in their self interest  For example  no single actor has strong incentives to address climate change even though the consequences may be significant if no one intervenes              
+A salient AI cooperation challenge is avoiding a  race to the bottom                In this scenario  countries or companies race to build more capable AI systems and neglect safety  leading to a catastrophic accident that harms everyone involved  Concerns about scenarios like these have inspired both political              and technical              efforts to facilitate cooperation between humans  and potentially also between AI systems  Most AI research focuses on designing individual agents to serve isolated functions  often in  single player  games                Scholars have suggested that as AI systems become more autonomous  it may become essential to study and shape the way they interact                           
+
+Challenges of large language models edit 
+In recent years  the development of large language models  LLMs  has raised unique concerns within the field of AI safety  Researchers Bender and Gebru et al               have highlighted the environmental and financial costs associated with training these models  emphasizing that the energy consumption and carbon footprint of training procedures like those for Transformer models can be substantial  Moreover  these models often rely on massive  uncurated Internet based datasets  which can encode hegemonic and biased viewpoints  further marginalizing underrepresented groups  The large scale training data  while vast  does not guarantee diversity and often reflects the worldviews of privileged demographics  leading to models that perpetuate existing biases and stereotypes  This situation is exacerbated by the tendency of these models to produce seemingly coherent and fluent text  which can mislead users into attributing meaning and intent where none exists  a phenomenon described as  stochastic parrots   These models  therefore  pose risks of amplifying societal biases  spreading misinformation  and being used for malicious purposes  such as generating extremist propaganda or deepfakes  To address these challenges  researchers advocate for more careful planning in dataset creation and system development  emphasizing the need for research projects that contribute positively towards an equitable technological ecosystem                           
+The unique challenges posed by LLMs also extend to security vulnerabilities   These include various manipulation techniques  such as prompt injection   Misinformation Generation and model stealing               which can be exploited to compromise their intended function  This can allow attackers to bypass safety measures and elicit unintended responses
+
+In governance edit 
+The AI Safety Summit of November                  
+AI governance is broadly concerned with creating norms  standards  and regulations to guide the use and development of AI systems              
+
+Research edit 
+AI safety governance research ranges from foundational investigations into the potential impacts of AI to specific applications  On the foundational side  researchers have argued that AI could transform many aspects of society due to its broad applicability  comparing it to electricity and the steam engine               Some work has focused on anticipating specific risks that may arise from these impacts   for example  risks from mass unemployment               weaponization               disinformation               surveillance               and the concentration of power               Other work explores underlying risk factors such as the difficulty of monitoring the rapidly evolving AI industry               the availability of AI models               and  race to the bottom  dynamics                            Allan Dafoe  the head of longterm governance and strategy at DeepMind has emphasized the dangers of racing and the potential need for cooperation   it may be close to a necessary and sufficient condition for AI safety and alignment that there be a high degree of caution prior to deploying advanced powerful systems  however  if actors are competing in a domain with large returns to first movers or relative advantage  then they will be pressured to choose a sub optimal level of caution                A research stream focuses on developing approaches  frameworks  and methods to assess AI accountability  guiding and promoting audits of AI based systems                                        
+Efforts to enhance AI safety include frameworks designed to align AI outputs with ethical guidelines and reduce risks like misuse and data leakage  Tools such as Nvidia s  Guardrails               Llama Guard               Preamble s customizable guardrails              and Claude s Constitution mitigate vulnerabilities like prompt injection and ensure outputs adhere to predefined principles  These frameworks are often integrated into AI systems to improve safety and reliability              
+
+Philosophical perspectives edit 
+See also  Ethics of artificial intelligence
+The field of AI safety is deeply intertwined with philosophical considerations  particularly in the realm of ethics  Deontological ethics  which emphasizes adherence to moral rules  has been proposed as a framework for aligning AI systems with human values  By embedding deontological principles  AI systems can be guided to avoid actions that cause harm  ensuring their operations remain within ethical boundaries              
+
+Scaling local measures to global solutions edit 
+In addressing the AI safety problem it is important to stress the distinction between local and global solutions  Local solutions focus on individual AI systems  ensuring they are safe and beneficial  while global solutions seek to implement safety measures for all AI systems across various jurisdictions  Some researchers              argue for the necessity of scaling local safety measures to a global level  proposing a classification for these global solutions  This approach underscores the importance of collaborative efforts in the international governance of AI safety  emphasizing that no single entity can effectively manage the risks associated with AI technologies  This perspective aligns with ongoing efforts in international policy making and regulatory frameworks  which aim to address the complex challenges posed by advanced AI systems worldwide                           
+
+Government action edit 
+See also  Regulation of artificial intelligence
+Some experts have argued that it is too early to regulate AI  expressing concerns that regulations will hamper innovation and it would be foolish to  rush to regulate in ignorance                             Others  such as business magnate Elon Musk  call for pre emptive action to mitigate catastrophic risks              
+Outside of formal legislation  government agencies have put forward ethical and safety recommendations  In March       the US National Security Commission on Artificial Intelligence reported that advances in AI may make it increasingly important to  assure that systems are aligned with goals and values  including safety  robustness and trustworthiness                Subsequently  the National Institute of Standards and Technology drafted a framework for managing AI Risk  which advises that when  catastrophic risks are present   development and deployment should cease in a safe manner until risks can be sufficiently managed               
+In September       the People s Republic of China published ethical guidelines for the use of AI in China  emphasizing that AI decisions should remain under human control and calling for accountability mechanisms  In the same month  The United Kingdom published its    year National AI Strategy               which states the British government  takes the long term risk of non aligned Artificial General Intelligence  and the unforeseeable changes that it would mean for     the world  seriously                The strategy describes actions to assess long term AI risks  including catastrophic risks               The British government held first major global summit on AI safety  This took place on the  st and   November      and was described as  an opportunity for policymakers and world leaders to consider the immediate and future risks of AI and how these risks can be mitigated via a globally coordinated approach                            
+Government organizations  particularly in the United States  have also encouraged the development of technical AI safety research  The Intelligence Advanced Research Projects Activity initiated the TrojAI project to identify and protect against Trojan attacks on AI systems               The DARPA engages in research on explainable artificial intelligence and improving robustness against adversarial attacks                            And the National Science Foundation supports the Center for Trustworthy Machine Learning  and is providing millions of dollars in funding for empirical AI safety research              
+In       the United Nations General Assembly adopted the first global resolution on the promotion of  safe  secure and trustworthy  AI systems that emphasized the respect  protection and promotion of human rights in the design  development  deployment and the use of AI              
+In May       the Department for Science  Innovation and Technology  DSIT  announced      million in funding for AI safety research under the Systemic AI Safety Fast Grants Programme  led by Christopher Summerfield and Shahar Avin at the AI Safety Institute  in partnership with UK Research and Innovation  Technology Secretary Michelle Donelan announced the plan at the AI Seoul Summit  stating the goal was to make AI safe across society and that promising proposals could receive further funding  The UK also signed an agreement with    other countries and the EU to form an international network of AI safety institutes to promote collaboration and share information and resources  Additionally  the UK AI Safety Institute planned to open an office in San Francisco              
+
+Corporate self regulation edit 
+AI labs and companies generally abide by safety practices and norms that fall outside of formal legislation               One aim of governance researchers is to shape these norms  Examples of safety recommendations found in the literature include performing third party auditing               offering bounties for finding failures               sharing AI incidents               an AI incident database was created for this purpose                following guidelines to determine whether to publish research or models               and improving information and cyber security in AI labs              
+Companies have also made commitments  Cohere  OpenAI  and AI   proposed and agreed on  best practices for deploying language models   focusing on mitigating misuse               To avoid contributing to racing dynamics  OpenAI has also stated in their charter that  if a value aligned  safety conscious project comes close to building AGI before we do  we commit to stop competing with and start assisting this project               Also  industry leaders such as CEO of DeepMind Demis Hassabis  director of Facebook AI Yann LeCun have signed open letters such as the Asilomar Principles             and the Autonomous Weapons Open Letter              
+
+See also edit 
+AI alignment
+Artificial intelligence and elections
+Artificial intelligence detection software
+References edit 
+
+
+  Perrigo  Billy                U K  s AI Safety Summit Ends With Limited  but Meaningful  Progress   Time  Retrieved            
+
+  De Arteaga  Maria               Machine Learning in High Stakes Settings  Risks and Opportunities  PhD   Carnegie Mellon University 
+
+  Mehrabi  Ninareh  Morstatter  Fred  Saxena  Nripsuta  Lerman  Kristina  Galstyan  Aram          A Survey on Bias and Fairness in Machine Learning   ACM Computing Surveys                arXiv             doi                  ISSN                 S CID                 Archived from the original on             Retrieved            
+
+  Feldstein  Steven         The Global Expansion of AI Surveillance  Report   Carnegie Endowment for International Peace 
+
+  Barnes  Beth          Risks from AI persuasion   Lesswrong  Archived from the original on             Retrieved            
+
+  a b c Brundage  Miles  Avin  Shahar  Clark  Jack  Toner  Helen  Eckersley  Peter  Garfinkel  Ben  Dafoe  Allan  Scharre  Paul  Zeitzoff  Thomas  Filar  Bobby  Anderson  Hyrum  Roff  Heather  Allen  Gregory C  Steinhardt  Jacob  Flynn  Carrick                The Malicious Use of Artificial Intelligence  Forecasting  Prevention  and Mitigation   Apollo University Of Cambridge Repository  Apollo University Of Cambridge Repository  Apollo   University of Cambridge Repository  doi          cam        S CID               Archived from the original on             Retrieved               cite journal    Cite journal requires       journal   help 
+
+  Davies  Pascale  December             How NATO is preparing for a new era of AI cyber attacks   euronews  Retrieved            
+
+  Ahuja  Anjana  February            AI s bioterrorism potential should not be ruled out   Financial Times  Retrieved            
+
+  Carlsmith  Joseph                Is Power Seeking AI an Existential Risk    arXiv               cite journal    Cite journal requires       journal   help 
+
+  Minardi  Di     October         The grim fate that could be  worse than extinction    BBC  Retrieved            
+
+   AGI Expert Peter Voss Says AI Alignment Problem is Bogus   NextBigFuture com               Retrieved            
+
+  Dafoe  Allan          Yes  We Are Worried About the Existential Risk of Artificial Intelligence   MIT Technology Review  Archived from the original on             Retrieved            
+
+  a b Grace  Katja  Salvatier  John  Dafoe  Allan  Zhang  Baobao  Evans  Owain                Viewpoint  When Will AI Exceed Human Performance  Evidence from AI Experts   Journal of Artificial Intelligence Research               arXiv             doi         jair          ISSN                 S CID               Archived from the original on             Retrieved            
+
+  Zhang  Baobao  Anderljung  Markus  Kahn  Lauren  Dreksler  Noemi  Horowitz  Michael C   Dafoe  Allan                Ethics and Governance of Artificial Intelligence  Evidence from a Survey of Machine Learning Researchers   Journal of Artificial Intelligence Research      arXiv             doi         jair         
+
+  Stein Perlman  Zach  Weinstein Raun  Benjamin  Grace                     Expert Survey on Progress in AI   AI Impacts  Archived from the original on             Retrieved            
+
+  Michael  Julian  Holtzman  Ari  Parrish  Alicia  Mueller  Aaron  Wang  Alex  Chen  Angelica  Madaan  Divyam  Nangia  Nikita  Pang  Richard Yuanzhe  Phang  Jason  Bowman  Samuel R                 What Do NLP Researchers Believe  Results of the NLP Community Metasurvey   Association for Computational Linguistics  arXiv            
+
+  Markoff  John                In       He Imagined an Age of Robots   The New York Times  ISSN                 Archived from the original on             Retrieved            
+
+  https   sussex figshare com articles book Artificial intelligence a handbook of professionalism         
+
+  Association for the Advancement of Artificial Intelligence   AAAI Presidential Panel on Long Term AI Futures   Archived from the original on             Retrieved            
+
+  Yampolskiy  Roman V   Spellchecker  M  S                 Artificial Intelligence Safety and Cybersecurity  a Timeline of AI Failures   arXiv               cite journal    Cite journal requires       journal   help 
+
+   PT AI        Philosophy and Theory of Artificial Intelligence  PT AI         Archived from the original on             Retrieved            
+
+  Yampolskiy  Roman V          M ller  Vincent C   ed     Artificial Intelligence Safety Engineering  Why Machine Ethics is a Wrong Approach   Philosophy and Theory of Artificial Intelligence  Studies in Applied Philosophy  Epistemology and Rational Ethics  vol          Berlin  Heidelberg  Germany  Springer Berlin Heidelberg  pp                doi                               ISBN                         archived from the original on             retrieved           
+
+  McLean  Scott  Read  Gemma J  M   Thompson  Jason  Baber  Chris  Stanton  Neville A   Salmon  Paul M                 The risks associated with Artificial General Intelligence  A systematic review   Journal of Experimental  amp  Theoretical Artificial Intelligence                   Bibcode     JETAI         M  doi                X               hdl               ISSN              X  S CID                
+
+  Wile  Rob  August            Elon Musk  Artificial Intelligence Is  Potentially More Dangerous Than Nukes    Business Insider  Retrieved            
+
+  Kuo  Kaiser               Baidu CEO Robin Li interviews Bill Gates and Elon Musk at the Boao Forum  March            Event occurs at        Archived from the original on             Retrieved            
+
+  Cellan Jones  Rory                Stephen Hawking warns artificial intelligence could end mankind   BBC News  Archived from the original on             Retrieved            
+
+  Future of Life Institute   Research Priorities for Robust and Beneficial Artificial Intelligence  An Open Letter   Future of Life Institute  Archived from the original on             Retrieved            
+
+  Future of Life Institute  October         AI Research Grants Program   Future of Life Institute  Archived from the original on             Retrieved            
+
+   SafArtInt        Archived from the original on             Retrieved            
+
+  Bach  Deborah          UW to host first of four White House public workshops on artificial intelligence   UW News  Archived from the original on             Retrieved            
+
+  Amodei  Dario  Olah  Chris  Steinhardt  Jacob  Christiano  Paul  Schulman  John  Man   Dan                Concrete Problems in AI Safety   arXiv               cite journal    Cite journal requires       journal   help 
+
+  a b Future of Life Institute   AI Principles   Future of Life Institute  Archived from the original on             Retrieved            
+
+  Yohsua  Bengio  Daniel  Privitera  Tamay  Besiroglu  Rishi  Bommasani  Stephen  Casper  Yejin  Choi  Danielle  Goldfarb  Hoda  Heidari  Leila  Khalatbari  May        International Scientific Report on the Safety of Advanced AI  Report   Department for Science  Innovation and Technology 
+
+  a b Research  DeepMind Safety                Building safe artificial intelligence  specification  robustness  and assurance   Medium  Archived from the original on             Retrieved            
+
+   SafeML ICLR      Workshop   Archived from the original on             Retrieved            
+
+  a b c d e Hendrycks  Dan  Carlini  Nicholas  Schulman  John  Steinhardt  Jacob                Unsolved Problems in ML Safety   arXiv               cite journal    Cite journal requires       journal   help 
+
+  Browne  Ryan                British Prime Minister Rishi Sunak pitches UK as home of A I  safety regulation as London bids to be next Silicon Valley   CNBC  Retrieved            
+
+  Bertuzzi  Luca  October             UK s AI safety summit set to highlight risk of losing human control over  frontier  models   Euractiv  Retrieved March         
+
+  Bengio  Yoshua  Privitera  Daniel  Bommasani  Rishi  Casper  Stephen  Goldfarb  Danielle  Mavroudis  Vasilios  Khalatbari  Leila  Mazeika  Mantas  Hoda  Heidari                International Scientific Report on the Safety of Advanced AI   PDF   GOV UK  Archived  PDF  from the original on             Retrieved             Alt URL
+
+  Shepardson  David    April         US  Britain announce partnership on AI safety  testing   Retrieved   April      
+
+   What International AI Safety report says on jobs  climate  cyberwar and more   The Guardian              ISSN                 Retrieved            
+
+   Launch of the First International Report on AI Safety chaired by Yoshua Bengio   mila quebec  January           Retrieved            
+
+  Goodfellow  Ian  Papernot  Nicolas  Huang  Sandy  Duan  Rocky  Abbeel  Pieter  Clark  Jack                Attacking Machine Learning with Adversarial Examples   OpenAI  Archived from the original on             Retrieved            
+
+  a b Szegedy  Christian  Zaremba  Wojciech  Sutskever  Ilya  Bruna  Joan  Erhan  Dumitru  Goodfellow  Ian  Fergus  Rob                Intriguing properties of neural networks   ICLR  arXiv           
+
+  Kurakin  Alexey  Goodfellow  Ian  Bengio  Samy                Adversarial examples in the physical world   ICLR  arXiv            
+
+  Madry  Aleksander  Makelov  Aleksandar  Schmidt  Ludwig  Tsipras  Dimitris  Vladu  Adrian                Towards Deep Learning Models Resistant to Adversarial Attacks   ICLR  arXiv            
+
+  Kannan  Harini  Kurakin  Alexey  Goodfellow  Ian                Adversarial Logit Pairing   arXiv               cite journal    Cite journal requires       journal   help 
+
+  Gilmer  Justin  Adams  Ryan P   Goodfellow  Ian  Andersen  David  Dahl  George E                 Motivating the Rules of the Game for Adversarial Example Research   arXiv               cite journal    Cite journal requires       journal   help 
+
+  Carlini  Nicholas  Wagner  David                Audio Adversarial Examples  Targeted Attacks on Speech to Text   IEEE Security and Privacy Workshops  arXiv            
+
+  Sheatsley  Ryan  Papernot  Nicolas  Weisman  Michael  Verma  Gunjan  McDaniel  Patrick                Adversarial Examples in Constrained Domains   arXiv               cite journal    Cite journal requires       journal   help 
+
+  Suciu  Octavian  Coull  Scott E   Johns  Jeffrey                Exploring Adversarial Examples in Malware Detection   IEEE Security and Privacy Workshops  arXiv            
+
+  Ouyang  Long  Wu  Jeff  Jiang  Xu  Almeida  Diogo  Wainwright  Carroll L   Mishkin  Pamela  Zhang  Chong  Agarwal  Sandhini  Slama  Katarina  Ray  Alex  Schulman  John  Hilton  Jacob  Kelton  Fraser  Miller  Luke  Simens  Maddie                Training language models to follow instructions with human feedback   NeurIPS  arXiv            
+
+  Gao  Leo  Schulman  John  Hilton  Jacob                Scaling Laws for Reward Model Overoptimization   ICML  arXiv            
+
+  Yu  Sihyun  Ahn  Sungsoo  Song  Le  Shin  Jinwoo                RoMA  Robust Model Adaptation for Offline Model based Optimization   NeurIPS  arXiv            
+
+  a b Hendrycks  Dan  Mazeika  Mantas                X Risk Analysis for AI Research   arXiv               cite journal    Cite journal requires       journal   help 
+
+  Tran  Khoa A   Kondrashova  Olga  Bradley  Andrew  Williams  Elizabeth D   Pearson  John V   Waddell  Nicola          Deep learning in cancer diagnosis  prognosis and treatment selection   Genome Medicine               doi         s                x  ISSN              X  PMC               PMID               
+
+  Guo  Chuan  Pleiss  Geoff  Sun  Yu  Weinberger  Kilian Q                 On calibration of modern neural networks   Proceedings of the   th international conference on machine learning  Proceedings of machine learning research  Vol           PMLR  pp                 
+
+  Ovadia  Yaniv  Fertig  Emily  Ren  Jie  Nado  Zachary  Sculley  D   Nowozin  Sebastian  Dillon  Joshua V   Lakshminarayanan  Balaji  Snoek  Jasper                Can You Trust Your Model s Uncertainty  Evaluating Predictive Uncertainty Under Dataset Shift   NeurIPS  arXiv            
+
+  Bogdoll  Daniel  Breitenstein  Jasmin  Heidecker  Florian  Bieshaar  Maarten  Sick  Bernhard  Fingscheidt  Tim  Z llner  J  Marius          Description of Corner Cases in Automated Driving  Goals and Challenges        IEEE CVF International Conference on Computer Vision Workshops  ICCVW   pp                  arXiv             doi         ICCVW                  ISBN                         S CID                
+
+  Hendrycks  Dan  Mazeika  Mantas  Dietterich  Thomas                Deep Anomaly Detection with Outlier Exposure   ICLR  arXiv            
+
+  Wang  Haoqi  Li  Zhizhong  Feng  Litong  Zhang  Wayne                ViM  Out Of Distribution with Virtual logit Matching   CVPR  arXiv            
+
+  Hendrycks  Dan  Gimpel  Kevin                A Baseline for Detecting Misclassified and Out of Distribution Examples in Neural Networks   ICLR  arXiv            
+
+  Urbina  Fabio  Lentzos  Filippa  Invernizzi  C dric  Ekins  Sean          Dual use of artificial intelligence powered drug discovery   Nature Machine Intelligence                  doi         s                   ISSN                 PMC               PMID               
+
+  Center for Security and Emerging Technology  Buchanan  Ben  Lohn  Andrew  Musser  Micah  Sedova  Katerina          Truth  Lies  and Automation  How Language Models Could Change Disinformation   doi              ca     S CID                 Archived from the original on             Retrieved               cite journal    Cite journal requires       journal   help 
+
+   Propaganda as a service may be on the horizon if large language models are abused   VentureBeat              Archived from the original on             Retrieved            
+
+  Center for Security and Emerging Technology  Buchanan  Ben  Bansemer  John  Cary  Dakota  Lucas  Jack  Musser  Micah          Automating Cyber Attacks  Hype and Reality   Center for Security and Emerging Technology  doi              ca     S CID                 Archived from the original on             Retrieved            
+
+   Lessons Learned on Language Model Safety and Misuse   OpenAI              Archived from the original on             Retrieved            
+
+  Markov  Todor  Zhang  Chong  Agarwal  Sandhini  Eloundou  Tyna  Lee  Teddy  Adler  Steven  Jiang  Angela  Weng  Lilian                New and Improved Content Moderation Tooling   OpenAI  Archived from the original on             Retrieved            
+
+  a b Savage  Neil                Breaking into the black box of artificial intelligence   Nature  doi         d                   PMID                S CID                 Archived from the original on             Retrieved            
+
+  Center for Security and Emerging Technology  Rudner  Tim  Toner  Helen          Key Concepts in AI Safety  Interpretability in Machine Learning   CSET Issue Brief  doi                    S CID                 Archived from the original on             Retrieved            
+
+  McFarland  Matt                Uber pulls self driving cars after first fatal crash of autonomous vehicle   CNNMoney  Archived from the original on             Retrieved            
+
+  Felder  Ryan Marshall  July         Coming to Terms with the Black Box Problem  How to Justify AI Systems in Health Care   Hastings Center Report                 doi         hast       ISSN                 PMID               
+
+  a b Doshi Velez  Finale  Kortz  Mason  Budish  Ryan  Bavitz  Chris  Gershman  Sam  O Brien  David  Scott  Kate  Schieber  Stuart  Waldo  James  Weinberger  David  Weller  Adrian  Wood  Alexandra                Accountability of AI Under the Law  The Role of Explanation   arXiv               cite journal    Cite journal requires       journal   help 
+
+  Fong  Ruth  Vedaldi  Andrea          Interpretable Explanations of Black Boxes by Meaningful Perturbation        IEEE International Conference on Computer Vision  ICCV   pp                  arXiv             doi         ICCV           ISBN                         S CID              
+
+  Meng  Kevin  Bau  David  Andonian  Alex  Belinkov  Yonatan          Locating and editing factual associations in GPT   Advances in Neural Information Processing Systems      arXiv            
+
+  Bau  David  Liu  Steven  Wang  Tongzhou  Zhu  Jun Yan  Torralba  Antonio                Rewriting a Deep Generative Model   ECCV  arXiv            
+
+  R uker  Tilman  Ho  Anson  Casper  Stephen  Hadfield Menell  Dylan                Toward Transparent AI  A Survey on Interpreting the Inner Structures of Deep Neural Networks   IEEE SaTML  arXiv            
+
+  Bau  David  Zhou  Bolei  Khosla  Aditya  Oliva  Aude  Torralba  Antonio                Network Dissection  Quantifying Interpretability of Deep Visual Representations   CVPR  arXiv            
+
+  McGrath  Thomas  Kapishnikov  Andrei  Toma ev  Nenad  Pearce  Adam  Wattenberg  Martin  Hassabis  Demis  Kim  Been  Paquet  Ulrich  Kramnik  Vladimir                Acquisition of chess knowledge in AlphaZero   Proceedings of the National Academy of Sciences            e            arXiv             Bibcode     PNAS          M  doi         pnas             ISSN                 PMC               PMID               
+
+  Goh  Gabriel  Cammarata  Nick  Voss  Chelsea  Carter  Shan  Petrov  Michael  Schubert  Ludwig  Radford  Alec  Olah  Chris          Multimodal neurons in artificial neural networks   Distill         doi          distill        S CID                
+
+  Olah  Chris  Cammarata  Nick  Schubert  Ludwig  Goh  Gabriel  Petrov  Michael  Carter  Shan          Zoom in  An introduction to circuits   Distill         doi          distill            S CID                
+
+  Cammarata  Nick  Goh  Gabriel  Carter  Shan  Voss  Chelsea  Schubert  Ludwig  Olah  Chris          Curve circuits   Distill         doi          distill            inactive   November        Archived from the original on   December       Retrieved   December        cite journal     CS  maint  DOI inactive as of November       link 
+
+  Olsson  Catherine  Elhage  Nelson  Nanda  Neel  Joseph  Nicholas  DasSarma  Nova  Henighan  Tom  Mann  Ben  Askell  Amanda  Bai  Yuntao  Chen  Anna  Conerly  Tom  Drain  Dawn  Ganguli  Deep  Hatfield Dodds  Zac  Hernandez  Danny  Johnston  Scott  Jones  Andy  Kernion  Jackson  Lovitt  Liane  Ndousse  Kamal  Amodei  Dario  Brown  Tom  Clark  Jack  Kaplan  Jared  McCandlish  Sam  Olah  Chris          In context learning and induction heads   Transformer Circuits Thread  arXiv            
+
+  Olah  Christopher   Interpretability vs Neuroscience      rough note        Archived from the original on             Retrieved            
+
+  Gu  Tianyu  Dolan Gavitt  Brendan  Garg  Siddharth                BadNets  Identifying Vulnerabilities in the Machine Learning Model Supply Chain   arXiv               cite journal    Cite journal requires       journal   help 
+
+  Chen  Xinyun  Liu  Chang  Li  Bo  Lu  Kimberly  Song  Dawn                Targeted Backdoor Attacks on Deep Learning Systems Using Data Poisoning   arXiv               cite journal    Cite journal requires       journal   help 
+
+  Carlini  Nicholas  Terzis  Andreas                Poisoning and Backdooring Contrastive Learning   ICLR  arXiv            
+
+   How  sleeper agent  AI assistants can sabotage code   The Register     January       Archived from the original on             Retrieved            
+
+  a b c d 
+Russell  Stuart J   Norvig  Peter         Artificial intelligence  A modern approach   th      ed    Pearson  pp                ISBN                     Retrieved September          
+
+  a b Ngo  Richard  Chan  Lawrence  Mindermann  S ren          The Alignment Problem from a Deep Learning Perspective   International Conference on Learning Representations  arXiv            
+
+  a b Pan  Alexander  Bhatia  Kush  Steinhardt  Jacob               The Effects of Reward Misspecification  Mapping and Mitigating Misaligned Models  International Conference on Learning Representations  Retrieved            
+
+  Carlsmith  Joseph                Is Power Seeking AI an Existential Risk    arXiv             cs CY  
+
+  a b c Russell  Stuart J          Human compatible  Artificial intelligence and the problem of control  Penguin Random House  ISBN                     OCLC                 
+
+  Christian  Brian         The alignment problem  Machine learning and human values  W  W  Norton  amp  Company  ISBN                         OCLC                  Archived from the original on February           Retrieved September          
+
+  Langosco  Lauro Langosco Di  Koch  Jack  Sharkey  Lee D   Pfau  Jacob  Krueger  David                Goal Misgeneralization in Deep Reinforcement Learning   Proceedings of the   th International Conference on Machine Learning  International Conference on Machine Learning  PMLR  pp                    Retrieved            
+
+  Pillay  Tharin                New Tests Reveal AI s Capacity for Deception   TIME  Retrieved            
+
+  Perrigo  Billy                Exclusive  New Research Shows AI Strategically Lying   TIME  Retrieved            
+
+  a b Bommasani  Rishi  Hudson  Drew A   Adeli  Ehsan  Altman  Russ  Arora  Simran  von Arx  Sydney  Bernstein  Michael S   Bohg  Jeannette  Bosselut  Antoine  Brunskill  Emma  Brynjolfsson  Erik                On the Opportunities and Risks of Foundation Models   Stanford CRFM  arXiv            
+
+  Ouyang  Long  Wu  Jeff  Jiang  Xu  Almeida  Diogo  Wainwright  Carroll L   Mishkin  Pamela  Zhang  Chong  Agarwal  Sandhini  Slama  Katarina  Ray  Alex  Schulman  J   Hilton  Jacob  Kelton  Fraser  Miller  Luke E   Simens  Maddie  Askell  Amanda  Welinder  P   Christiano  P   Leike  J   Lowe  Ryan J           Training language models to follow instructions with human feedback   arXiv             cs CL  
+
+  Zaremba  Wojciech  Brockman  Greg  OpenAI                OpenAI Codex   OpenAI  Archived from the original on February          Retrieved            
+
+  Kober  Jens  Bagnell  J  Andrew  Peters  Jan                Reinforcement learning in robotics  A survey   The International Journal of Robotics Research                      doi                           ISSN                 S CID               Archived from the original on October           Retrieved September          
+
+  Knox  W  Bradley  Allievi  Alessandro  Banzhaf  Holger  Schmitt  Felix  Stone  Peter                Reward  Mis design for autonomous driving   Artificial Intelligence               arXiv             doi         j artint              ISSN                 S CID                
+
+  Stray  Jonathan          Aligning AI Optimization to Community Well Being   International Journal of Community Well Being                  doi         s                   ISSN                 PMC               PMID                S CID                
+
+  Russell  Stuart  Norvig  Peter         Artificial Intelligence  A Modern Approach  Prentice Hall  p             ISBN                        
+
+  Smith  Craig S   Geoff Hinton  AI s Most Famous Researcher  Warns Of  Existential Threat    Forbes  Retrieved            
+
+  Bengio  Yoshua  Hinton  Geoffrey  Yao  Andrew  Song  Dawn  Abbeel  Pieter  Harari  Yuval Noah  Zhang  Ya Qin  Xue  Lan  Shalev Shwartz  Shai          Managing extreme AI risks amid rapid progress   Science                       arXiv             Bibcode     Sci           B  doi         science adn      PMID               
+
+   Statement on AI Risk   CAIS   www safe ai  Retrieved            
+
+  Grace  Katja  Stewart  Harlan  Sandk hler  Julia Fabienne  Thomas  Stephen  Weinstein Raun  Ben  Brauner  Jan                Thousands of AI Authors on the Future of AI   arXiv             cs CY  
+
+  Perrigo  Billy                Meta s AI Chief Yann LeCun on AGI  Open Source  and AI Risk   TIME  Retrieved            
+
+  a b c Amodei  Dario  Olah  Chris  Steinhardt  Jacob  Christiano  Paul  Schulman  John  Man   Dan                Concrete Problems in AI Safety   arXiv             cs AI  
+
+  a b Ortega  Pedro A   Maini  Vishal  DeepMind safety team                Building safe artificial intelligence  specification  robustness  and assurance   DeepMind Safety Research   Medium  Archived from the original on February           Retrieved            
+
+  a b Rorvig  Mordechai                Researchers Gain New Understanding From Simple AI   Quanta Magazine  Archived from the original on February           Retrieved            
+
+  Doshi Velez  Finale  Kim  Been                Towards A Rigorous Science of Interpretable Machine Learning   arXiv             stat ML  
+Wiblin  Robert  August            Chris Olah on what the hell is going on inside neural networks   Podcast          hours  No            Retrieved            
+
+  Russell  Stuart  Dewey  Daniel  Tegmark  Max                Research Priorities for Robust and Beneficial Artificial Intelligence   AI Magazine                   arXiv             doi         aimag v  i        hdl                ISSN                 S CID               Archived from the original on February          Retrieved September          
+
+  Wirth  Christian  Akrour  Riad  Neumann  Gerhard  F rnkranz  Johannes          A survey of preference based reinforcement learning methods   Journal of Machine Learning Research                 
+
+  Christiano  Paul F   Leike  Jan  Brown  Tom B   Martic  Miljan  Legg  Shane  Amodei  Dario          Deep reinforcement learning from human preferences   Proceedings of the   st International Conference on Neural Information Processing Systems  NIPS     Red Hook  NY  USA  Curran Associates Inc  pp                  ISBN                        
+
+  Heaven  Will Douglas                The new version of GPT   is much better behaved  and should be less toxic    MIT Technology Review  Archived from the original on February           Retrieved            
+
+  Mohseni  Sina  Wang  Haotao  Yu  Zhiding  Xiao  Chaowei  Wang  Zhangyang  Yadawa  Jay                Taxonomy of Machine Learning Safety  A Survey and Primer   arXiv             cs LG  
+
+  Clifton  Jesse          Cooperation  Conflict  and Transformative Artificial Intelligence  A Research Agenda   Center on Long Term Risk  Archived from the original on January          Retrieved            
+Dafoe  Allan  Bachrach  Yoram  Hadfield  Gillian  Horvitz  Eric  Larson  Kate  Graepel  Thore                Cooperative AI  machines must learn to find common ground   Nature                     Bibcode     Natur         D  doi         d                   ISSN                 PMID                S CID                 Archived from the original on December           Retrieved September          
+
+  Prunkl  Carina  Whittlestone  Jess                Beyond Near  and Long Term   Proceedings of the AAAI ACM Conference on AI  Ethics  and Society  New York NY USA  ACM  pp                doi                          ISBN                         S CID                 Archived from the original on October           Retrieved September          
+
+  Irving  Geoffrey  Askell  Amanda                AI Safety Needs Social Scientists   Distill                  distill        doi          distill        ISSN                 S CID                 Archived from the original on February           Retrieved September          
+
+  Gazos  Alexandros  Kahn  James  Kusche  Isabel  B scher  Christian  G tz  Markus                Organising AI for safety  Identifying structural vulnerabilities to guide the design of AI enhanced socio technical systems   Safety Science               doi         j ssci              ISSN                
+
+  a b c d Zwetsloot  Remco  Dafoe  Allan                Thinking About Risks From AI  Accidents  Misuse and Structure   Lawfare  Archived from the original on             Retrieved            
+
+  Zhang  Yingyu  Dong  Chuntong  Guo  Weiqun  Dai  Jiabao  Zhao  Ziming          Systems theoretic accident model and process  STAMP   A literature review   Safety Science               doi         j ssci              S CID                 Archived from the original on             Retrieved            
+
+  a b Gazos  Alexandros  Kahn  James  Kusche  Isabel  B scher  Christian  G tz  Markus                Organising AI for safety  Identifying structural vulnerabilities to guide the design of AI enhanced socio technical systems   Safety Science               doi         j ssci              ISSN                
+
+  Center for Security and Emerging Technology  Hoffman  Wyatt          AI and the Future of Cyber Competition   CSET Issue Brief  doi              ca     S CID                 Archived from the original on             Retrieved            
+
+  Gafni  Ruti  Levy  Yair                The role of artificial intelligence  AI  in improving technical and managerial cybersecurity tasks  efficiency   Information  amp  Computer Security                   doi         ICS               ISSN                
+
+  Center for Security and Emerging Technology  Imbrie  Andrew  Kania  Elsa          AI Safety  Security  and Stability Among Great Powers  Options  Challenges  and Lessons Learned for Pragmatic Engagement   doi                    S CID                 Archived from the original on             Retrieved               cite journal    Cite journal requires       journal   help 
+
+  a b Future of Life Institute               AI Strategy  Policy  and Governance  Allan Dafoe    Event occurs at        Archived from the original on             Retrieved            
+
+  Zou  Andy  Xiao  Tristan  Jia  Ryan  Kwon  Joe  Mazeika  Mantas  Li  Richard  Song  Dawn  Steinhardt  Jacob  Evans  Owain  Hendrycks  Dan                Forecasting Future World Events with Neural Networks   NeurIPS  arXiv            
+
+  Gathani  Sneha  Hulsebos  Madelon  Gale  James  Haas  Peter J   Demiralp   a atay                Augmenting Decision Making via Interactive What If Analysis   Conference on Innovative Data Systems Research  arXiv            
+
+  Lindelauf  Roy         Osinga  Frans  Sweijs  Tim  eds     Nuclear Deterrence in the Algorithmic Age  Game Theory Revisited   NL ARMS Netherlands Annual Review of Military Studies       Nl Arms  The Hague  T M C  Asser Press  pp                doi                               ISBN                         S CID               
+
+  a b Newkirk II  Vann R                 Is Climate Change a Prisoner s Dilemma or a Stag Hunt    The Atlantic  Archived from the original on             Retrieved            
+
+  a b Armstrong  Stuart  Bostrom  Nick  Shulman  Carl  Racing to the Precipice  a Model of Artificial Intelligence Development  Report   Future of Humanity Institute  Oxford University 
+
+  a b Dafoe  Allan  AI Governance  A Research Agenda  Report   Centre for the Governance of AI  Future of Humanity Institute  University of Oxford 
+
+  Dafoe  Allan  Hughes  Edward  Bachrach  Yoram  Collins  Tantum  McKee  Kevin R   Leibo  Joel Z   Larson  Kate  Graepel  Thore                Open Problems in Cooperative AI   NeurIPS  arXiv            
+
+  a b Dafoe  Allan  Bachrach  Yoram  Hadfield  Gillian  Horvitz  Eric  Larson  Kate  Graepel  Thore          Cooperative AI  machines must learn to find common ground   Nature                     Bibcode     Natur         D  doi         d                   PMID                S CID                 Archived from the original on             Retrieved            
+
+  Bender  E M   Gebru  T   McMillan Major  A    amp  Shmitchell  S          On the Dangers of Stochastic Parrots  Can Language Models Be Too Big      FAccT      Proceedings of the      ACM Conference on Fairness  Accountability  and Transparency           https   doi org                         
+
+  Strubell  E   Ganesh  A    amp  McCallum  A          Energy and Policy Considerations for Deep Learning in NLP  arXiv preprint arXiv            
+
+  Schwartz  R   Dodge  J   Smith  N A    amp  Etzioni  O          Green AI  Communications of the ACM                 https   doi org                         
+
+   How To Hack Large Language Models  LLM     cite web     CS  maint  url status  link 
+
+  Satariano  Adam  Specia  Megan                Global Leaders Warn A I  Could Cause  Catastrophic  Harm   The New York Times  ISSN                 Retrieved            
+
+  Crafts  Nicholas                Artificial intelligence as a general purpose technology  an historical perspective   Oxford Review of Economic Policy                   doi         oxrep grab     ISSN              X  Archived from the original on             Retrieved            
+
+                                    Labor Displacement in Artificial Intelligence Era  A Systematic Literature Review                       doi         TJEAS                    ISSN                
+
+  Johnson  James                Artificial intelligence  amp  future warfare  implications for international security   Defense  amp  Security Analysis                   doi                                ISSN                 S CID                 Archived from the original on             Retrieved            
+
+  Kertysova  Katarina                Artificial Intelligence and Disinformation  How AI Changes the Way Disinformation is Produced  Disseminated  and Can Be Countered   Security and Human Rights                   doi                            ISSN                 S CID                
+
+  Feldstein  Steven         The Global Expansion of AI Surveillance  Carnegie Endowment for International Peace 
+
+  Agrawal  Ajay  Gans  Joshua  Goldfarb  Avi         The economics of artificial intelligence  an agenda  Chicago  Illinois  ISBN                         OCLC                  Archived from the original on             Retrieved              cite book     CS  maint  location missing publisher  link 
+
+  Whittlestone  Jess  Clark  Jack                Why and How Governments Should Monitor AI Development   arXiv               cite journal    Cite journal requires       journal   help 
+
+  a b Shevlane  Toby          Sharing Powerful AI Models   GovAI Blog   Center for the Governance of AI  Archived from the original on             Retrieved            
+
+  Askell  Amanda  Brundage  Miles  Hadfield  Gillian                The Role of Cooperation in Responsible AI Development   arXiv               cite journal    Cite journal requires       journal   help 
+
+  Gursoy  Furkan  Kakadiaris  Ioannis A                System Cards for AI Based Decision Making for Public Policy  arXiv           
+
+  Cobbe  Jennifer  Lee  Michelle Seng Ah  Singh  Jatinder                Reviewable Automated Decision Making  A Framework for Accountable Algorithmic Systems   Proceedings of the      ACM Conference on Fairness  Accountability  and Transparency  FAccT      New York  NY  USA  Association for Computing Machinery  pp                doi                          ISBN                        
+
+  Raji  Inioluwa Deborah  Smart  Andrew  White  Rebecca N   Mitchell  Margaret  Gebru  Timnit  Hutchinson  Ben  Smith Loud  Jamila  Theron  Daniel  Barnes  Parker                Closing the AI accountability gap  Defining an end to end framework for internal algorithmic auditing   Proceedings of the      Conference on Fairness  Accountability  and Transparency  FAT       New York  NY  USA  Association for Computing Machinery  pp              doi                          ISBN                        
+
+   NeMo Guardrails   NVIDIA NeMo Guardrails  Retrieved            
+
+   Llama Guard  LLM based Input Output Safeguard for Human AI Conversations   Meta AI  Retrieved            
+
+   ekrst  Kristina  McHugh  Jeremy  Cefalu  Jonathan Rodriguez          AI Ethics by Design  Implementing Customizable Guardrails for Responsible AI Development   arXiv             cs CY  
+
+  Dong  Yi  Mu  Ronghui  Jin  Gaojie  Qi  Yi  Hu  Jinwei  Zhao  Xingyu  Meng  Jie  Ruan  Wenjie  Huang  Xiaowei          Building Guardrails for Large Language Models   arXiv             cs  
+
+  D Alessandro  W           Deontology and safe artificial intelligence   Philosophical Studies  doi         s                y 
+
+  Turchin  Alexey  Dench  David  Green  Brian Patrick          Global Solutions vs  Local Solutions for the AI Safety Problem   Big Data and Cognitive Computing                doi         bdcc        
+
+  Ziegler  Bart    April         Is It Time to Regulate AI    Wall Street Journal 
+
+  Smith  John     May         Global Governance of Artificial Intelligence  Opportunities and Challenges   The Guardian 
+
+  Ziegler  Bart    April         Is It Time to Regulate AI    Wall Street Journal  Archived from the original on             Retrieved            
+
+  Reed  Chris                How should we regulate artificial intelligence    Philosophical Transactions of the Royal Society A  Mathematical  Physical and Engineering Sciences                        Bibcode     RSPTA         R  doi         rsta            ISSN              X  PMC               PMID               
+
+  Belton  Keith B                 How Should AI Be Regulated    IndustryWeek  Archived from the original on             Retrieved            
+
+  National Security Commission on Artificial Intelligence         Final Report
+
+  National Institute of Standards and Technology                AI Risk Management Framework   NIST  Archived from the original on             Retrieved            
+
+  Richardson  Tim          Britain publishes    year National Artificial Intelligence Strategy   Archived from the original on             Retrieved            
+
+  a b  Guidance  National AI Strategy   GOV UK        Archived from the original on             Retrieved            
+
+  Hardcastle  Kimberley                We re talking about AI a lot right now   and it s not a moment too soon   The Conversation  Retrieved            
+
+   Iconic Bletchley Park to host UK AI Safety Summit in early November   GOV UK  Retrieved            
+
+  Office of the Director of National Intelligence  Intelligence Advanced Research Projects Activity   IARPA   TrojAI   Archived from the original on             Retrieved            
+
+  Turek  Matt   Explainable Artificial Intelligence   Archived from the original on             Retrieved            
+
+  Draper  Bruce   Guaranteeing AI Robustness Against Deception   Defense Advanced Research Projects Agency  Archived from the original on             Retrieved            
+
+  National Science Foundation     February         Safe Learning Enabled Systems   Archived from the original on             Retrieved            
+
+   General Assembly adopts landmark resolution on artificial intelligence   UN News     March       Archived from the original on    April       Retrieved    April      
+
+  Say  Mark     May         DSIT announces funding for research on AI safety   Archived from the original on    May       Retrieved    June      
+
+  M ntym ki  Matti  Minkkinen  Matti  Birkstedt  Teemu  Viljanen  Mika          Defining organizational AI governance   AI and Ethics                  doi         s                x  ISSN                 S CID                
+
+  a b c Brundage  Miles  Avin  Shahar  Wang  Jasmine  Belfield  Haydn  Krueger  Gretchen  Hadfield  Gillian  Khlaaf  Heidy  Yang  Jingying  Toner  Helen  Fong  Ruth  Maharaj  Tegan  Koh  Pang Wei  Hooker  Sara  Leung  Jade  Trask  Andrew                Toward Trustworthy AI Development  Mechanisms for Supporting Verifiable Claims   arXiv               cite journal    Cite journal requires       journal   help 
+
+   Welcome to the Artificial Intelligence Incident Database   Archived from the original on             Retrieved            
+
+  Wiblin  Robert  Harris  Keiran          Nova DasSarma on why information security may be critical to the safe development of AI systems          Hours  Archived from the original on             Retrieved            
+
+  OpenAI                Best Practices for Deploying Language Models   OpenAI  Archived from the original on             Retrieved            
+
+  OpenAI   OpenAI Charter   OpenAI  Archived from the original on             Retrieved            
+
+  Future of Life Institute          Autonomous Weapons Open Letter  AI  amp  Robotics Researchers   Future of Life Institute  Archived from the original on             Retrieved            
+
+
+External links edit 
+Unsolved Problems in ML Safety
+On the Opportunities and Risks of Foundation Models
+An Overview of Catastrophic AI Risks
+AI Accidents  An Emerging Threat
+Engineering a Safer World
+vteExistential risk from artificial intelligenceConcepts
+AGI
+AI alignment
+AI capability control
+AI safety
+AI takeover
+Consequentialism
+Effective accelerationism
+Ethics of artificial intelligence
+Existential risk from artificial intelligence
+Friendly artificial intelligence
+Instrumental convergence
+Vulnerable world hypothesis
+Intelligence explosion
+Longtermism
+Machine ethics
+Suffering risks
+Superintelligence
+Technological singularity
+Organizations
+Alignment Research Center
+Center for AI Safety
+Center for Applied Rationality
+Center for Human Compatible Artificial Intelligence
+Centre for the Study of Existential Risk
+EleutherAI
+Future of Humanity Institute
+Future of Life Institute
+Google DeepMind
+Humanity 
+Institute for Ethics and Emerging Technologies
+Leverhulme Centre for the Future of Intelligence
+Machine Intelligence Research Institute
+OpenAI
+People
+Scott Alexander
+Sam Altman
+Yoshua Bengio
+Nick Bostrom
+Paul Christiano
+Eric Drexler
+Sam Harris
+Stephen Hawking
+Dan Hendrycks
+Geoffrey Hinton
+Bill Joy
+Shane Legg
+Elon Musk
+Steve Omohundro
+Huw Price
+Martin Rees
+Stuart J  Russell
+Jaan Tallinn
+Max Tegmark
+Frank Wilczek
+Roman Yampolskiy
+Eliezer Yudkowsky
+Other
+Statement on AI risk of extinction
+Human Compatible
+Open letter on artificial intelligence       
+Our Final Invention
+The Precipice
+Superintelligence  Paths  Dangers  Strategies
+Do You Trust This Computer 
+Artificial Intelligence Act
+ Category
+
+
+
+
+
+Retrieved from  https   en wikipedia org w index php title AI safety amp oldid

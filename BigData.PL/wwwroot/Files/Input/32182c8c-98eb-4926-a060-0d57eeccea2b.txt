@@ -1,0 +1,365 @@
+Miniaturized and simplified version of an organ
+For Organoids appearing in an anime series  see Zoids        Organoids 
+
+
+Intestinal organoid grown from Lgr   stem cells
+An organoid is a miniaturised and simplified version of an organ produced in vitro in three dimensions that mimics the key functional  structural  and biological complexity of that organ             It is derived from one or a few cells from a tissue  embryonic stem cells  or induced pluripotent stem cells  which can self organize in three dimensional culture owing to their self renewal and differentiation capacities  The technique for growing organoids has rapidly improved since the early     s  and The Scientist named it one of the biggest scientific advancements of                  Scientists and engineers use organoids to study development and disease in the laboratory  for drug discovery and development in industry             personalized diagnostics and medicine  gene and cell therapies  tissue engineering  and regenerative medicine 
+
+
+History edit 
+Attempts to create organs in vitro started with one of the first dissociation reaggregation experiments            where Henry Van Peters Wilson demonstrated that mechanically dissociated sponge cells can reaggregate and self organize to generate a whole organism             In the subsequent decades  multiple labs were able to generate different types of organs            in vitro through the dissociation and reaggregation of organ tissues obtained from amphibians            and embryonic chicks             The formation of first tissue like colonies in vitro was observed for the first time by co culturing keratinocytes and  T  fibroblasts             The phenomena of mechanically dissociated cells aggregating and reorganizing to reform the tissue they were obtained from subsequently led to the development of the differential adhesion hypothesis by Malcolm Steinberg             With the advent of the field of stem cell biology  the potential of stem cells to form organs in vitro was realized early on with the observation that when stem cells form teratomas or embryoid bodies  the differentiated cells can organize into different structures resembling those found in multiple tissue types             The advent of the field of organoids  started with a shift from culturing and differentiating stem cells in two dimensional   D  media  to three dimensional   D  media to allow for the development of the complex   dimensional structures of organs             Utilization of  D media culture media methods for the structural organization was made possible with the development of extracellular matrices  ECM              In the late     s  Bissell and colleagues showed that a laminin rich gel can be used as a basement membrane for differentiation and morphogenesis in cell cultures of mammary epithelial cells                          Since       researchers have devised different methods for  D culturing  and were able to utilize different types of stem cells to generate organoids resembling a multitude of organs             In the     s  in addition to their role in physical support  the role of ECM components in gene expression by their interaction with integrin based focal adhesion pathways was reported              In       Yaakov Nahmias and David Odde showed the self assembly of vascular liver organoid maintained for over    days in vitro              In       Yoshiki Sasai and his team at RIKEN institute demonstrated that stem cells can be coaxed into balls of neural cells that self organize into distinctive layers              In      the Laboratory of Hans Clevers at Hubrecht Institute and University Medical Center Utrecht  Netherlands  showed that single LGR  expressing intestinal stem cells self organize to crypt villus structures in vitro without necessity of a mesenchymal niche  making them the first organoids              In       Mathieu Unbekandt  amp  Jamie A  Davies demonstrated the production of renal organoids from murine fetus derived renogenic stem cells              In       Qun Wang and co workers engineered collagen I and laminin based gels and synthetic foam biomaterials for the culture and delivery of intestinal organoids             and encapsulated DNA functionalized gold nanoparticles into intestinal organoids to form an intestinal Trojan horse for drug delivery and gene therapy              Subsequent reports showed significant physiological function of these organoids in vitro             and in vivo                         
+Other significant early advancements included in       Madeline Lancaster at the Institute of Molecular Biotechnology of the Austrian Academy of Sciences established a protocol starting from pluripotent stem cells to generate cerebral organoids that mimic the developing human brain s cellular organization              Meritxell Huch and Craig Dorrell at Hubrecht Institute and University Medical Center Utrecht demonstrated that single Lgr   cells from damaged mouse liver can be clonally expanded as liver organoids in Rspo  based culture medium over several months              In       Artem Shkumatov et al  at the University of Illinois at Urbana Champaign demonstrated that cardiovascular organoids can be formed from ES cells through modulation of the substrate stiffness  to which they adhere  Physiological stiffness promoted three dimensionality of EBs and cardiomyogenic differentiation             
+
+Properties edit 
+Lancaster and Knoblich            define an organoid as a collection of organ specific cell types that develops from stem cells or organ progenitors  self organizes through cell sorting and spatially restricted lineage commitment in a manner similar to in vivo  and exhibits the following properties  
+
+it has multiple organ specific cell types 
+it is capable of recapitulating some specific function of the organ  e g  contraction  neural activity  endocrine secretion  filtration  excretion  
+its cells are grouped together and spatially organized  similar to an organ 
+Process edit 
+Organoid formation generally requires culturing the stem cells or progenitor cells in a  D medium             Stem cells have the ability to self renew and differentiate into various cell subtypes  and they enable understanding the processes of development and disease progression              Therefore organoids derived from stem cells enable studying biology and physiology at the organ level              The  D medium can be made using an extracellular matrix hydrogel such as Matrigel or Cultrex BME  which is a laminin rich extracellular matrix that is secreted by the Engelbreth Holm Swarm tumor line              Organoid bodies can then be made through embedding stem cells in the  D medium             When pluripotent stem cells are used for the creation of the organoid  the cells are usually  but not all the time  allowed to form embryoid bodies             Those embryoid bodies are then pharmacologically treated with patterning factors to drive the formation of the desired organoid identity             Organoids have also been created using adult stem cells extracted from the target organ  and cultured in  D media             
+Biochemical cues have been incorporated in  D organoid cultures and with exposure of morphogenes  morphogen inhibitors  or growth factors  organoid models can be developed using embryonic stem cells  ESCs  or adult stem cells  ASCs   Vascularization techniques can be utilized to embody microenvironments that are close to their counterparts  physiologically  Vasculature systems that can facilitate oxygen or nutrients to the inner mass of organoids can be achieved through microfluidic systems  vascular endothelial growth factor delivery systems  and endothelial cell coated modules             With patient derived induced pluripotent stem cells  iPSCs              and CRISPR Cas based genome editing             technologies  genome edited or mutated pluripotent stem cells  PSCs  with altered signaling cues can be generated to control intrinsic cues within organoids 
+
+Types edit 
+A multitude of organ structures have been recapitulated using organoids             This section aims to outline the state of the field as of now through providing an abridged list of the organoids that have been successfully created  along with a brief outline based on the most recent literature for each organoid  and examples of how it has been utilized in research 
+
+Cerebral organoid edit 
+A cerebral organoid describes artificially grown  in vitro  miniature organs resembling the brain  Cerebral organoids are created by culturing human pluripotent stem cells in a three dimensional structure using rotational bioreactor and develop over the course of months              The procedure has potential applications in the study of brain development  physiology and function  Cerebral organoids may experience  simple sensations  in response to external stimulation and neuroscientists are among those expressing concern that such organs could develop sentience  They propose that further evolution of the technique needs to be subject to a rigorous oversight procedure                                      In       researchers have built a hybrid biocomputer that combines laboratory grown human brain organoids with conventional circuits  and can complete tasks such as voice recognition              Cerebral Organoids are currently being used to research and develop Organoid Intelligence  OI  technologies             
+
+Gastrointestinal organoid edit 
+Gastrointestinal organoids refer to organoids that recapitulate structures of the gastrointestinal tract  The gastrointestinal tract arises from the endoderm  which during development forms a tube that can be divided in three distinct regions  which give rise to  along with other organs  the following sections of the gastrointestinal tract             
+
+The foregut gives rise to the oral cavity and the stomach
+The midgut gives rise to the small intestines and the ascending colon
+The hindgut gives rise to the rectum and the rest of the colon
+Organoids have been created for the following structures of the gastrointestinal tract 
+
+Intestinal organoid edit 
+Intestinal organoids             have thus far been among the gut organoids generated directly from intestinal tissues or pluripotent stem cells             One way human pluripotent stem cells can be driven to form intestinal organoids is through first the application of activin A to drive the cells into a mesoendodermal identity  followed by the pharmacological upregulation of Wnt a and Fgf  signaling pathways as they have been demonstrated to promote posterior gut fate             Intestinal organoids have also been generated from intestinal stem cells  extracted from adult tissue and cultured in  D media              These adult stem cell derived organoids are often referred to as enteroids or colonoids  depending on their segment of origin  and have been established from both the human and murine intestine                                      Intestinal organoids consist of a single layer of polarized intestinal epithelial cells surrounding a central lumen  As such  recapitulate the crypt villus structure of the intestine  by recapitulating its function  physiology and organization  and maintaining all the cell types found normally in the structure including intestinal stem cells             Thus  intestinal organoids are a valuable model to study intestinal nutrient transport                          drug absorption and delivery                          nanomaterials and nanomedicine                          incretin hormone secretion                          and infection by various enteropathogens                          For example  Qun Wang s team rationally designed artificial virus nanoparticles as oral drug delivery vehicles  ODDVs  with gut organoid derived mucosal models             and demonstrated a new concept of using newly established colon organoids as tools for high throughput drug screening  toxicity testing  and oral drug development              Or recently  Sakib  S   and Zou  S  developed graphene oxide nanoparticles for delivering siRNA regulating expression of tumor necrosis factor    that aimed to treat intestinal organoids exhibiting an inflammatory phenotype              Intestinal organoids also recapitulate the crypt Villus structure to such a high degree of fidelity that they have been successfully transplanted to mouse intestines  and are hence highly regarded as a valuable model for research             One of the fields of research that intestinal organoids have been utilized is that of stem cell niche  Intestinal organoids were used to study the nature of the intestinal stem cell niche  and research done with them demonstrated the positive role IL    has in maintaining in intestinal stem cells              along with demonstrating the roles of other cell types like neurons and fibroblasts in maintenance of intestinal stem cells              In the field of infection biology  different intestinal organoid based model systems have been explored  On one hand  organoids can be infected in bulk by simply mixing them with the enteropathogen of interest              However  to model infection via a more natural route starting from the intestinal lumen  microinjection of the pathogen is required                          In addition  the polarity of intestinal organoids can be inverted              and they can even be dissociated into single cells and cultured as  D monolayers                         in order to make both the apical and basolateral sides of the epithelium more easily accessible  Intestinal organoids have also demonstrated therapeutic potential              An intestinal organoid  Minigut  grows up in   days  The scale bars are      m  In order to more accurately recapitulate the intestine in vivo  co cultures of intestinal organoids and immune cells have been developed              Furthermore  organ on a chip models combine intestinal organoids with other cell types such as endothelial or immune cells as well as peristaltic flow                         
+Gastric organoid edit 
+Gastric organoids recapitulate at least partly the physiology of the stomach  Gastric organoids have been generated directly from pluripotent stem cells through the temporal manipulation of the FGF  WNT  BMP  retinoic acid and EGF signalling pathways in three dimensional culture conditions              Gastric organoids have also been generated using LGR  expressing stomach adult stem cells              Gastric organoids have been used as model for the study of cancer                          along with human disease             and development              For example  one study              investigated the underlying genetic alterations behind a patient s metastatic tumor population  and identified that unlike the patient s primary tumor  the metastasis had both alleles of the TGFBR  gene mutated  To further assess the role of TGFBR  in the metastasis  the investigators created organoids where TGFBR  expression is knocked down  through which they were able to demonstrate that reduced TGFBR  activity leads to invasion and metastasis of cancerous tumors both in vitro and in vivo 
+
+Lingual organoid edit 
+Lingual organoids are organoids that recapitulate  at least partly  aspects of the tongue physiology  Epithelial lingual organoids have been generated using BMI  expressing epithelial stem cells in three dimensional culture conditions through the manipulation of EGF  WNT  and TGF                 This organoid culture  however  lacks taste receptors  as these cells do not arise from Bmi  expressing epithelial stem cells              Lingual taste bud organoids containing taste cells  however  have been created using the LGR   or CD    stem progenitor cells of circumvallate  CV  papilla tissue              These taste bud organoids have been successfully created both directly from isolated Lgr   or LGR  expressing taste stem progenitor cells               and indirectly  through the isolation  digestion  and subsequent culturing of CV tissue containing Lgr   or CD    stem progenitor cells             
+
+Cerebellar organoid edit 
+Cerebellar organoid or hind brain organoids tend to recapitulate the cellular diversity of the fetal cerebellum along with some of its distinct cytoarchitectural features  The generation of cerebellar tissue from PSCs requires a secondary induction which leads to the formation of isthmic organizer  which first appears in the cell aggregate in  D culture                           Over the years this area of research has led to cerebellar organoid development which involves the patterning of human pluripotent stem cells resulting in the generation of both cerebellar excitatory and inhibitory progenitor populations  This includes the rhombic lip and the ventricular zone progenitors  Although further resarch is still ongoing in context of functional and morphological development of Purkinje cells over a longer period of developmental time                          
+
+
+Other edit 
+Tooth organoid  TO               see also tooth regeneration 
+Thyroid organoid            
+Thymic organoid            
+Thymic organoids recapitulate at least partly the architecture and stem cell niche functionality of the thymus              which is a lymphoid organ where T cells mature  Thymic organoids have been generated through the seeding of thymic stromal cells in   dimensional culture              Thymic organoids seem to successfully recapitulate the thymus  function  as co culturing human hematopoietic or bone marrow stem cells with mouse thymic organoids resulted in the production of T cells             
+Testicular organoid                        
+Prostate organoid            
+Hepatic organoid              A recent study showed the usefulness of the technology for identifying novel medication for the treatment of hepatitis E as it allows to allows to recapitulate the entire viral life cycle             
+Pancreatic organoid                                                
+Recent advances in cell repellent microtiter plates has allowed rapid  cost effective screening of large small molecule drug like libraries against  D models of pancreas cancer  These models are consistent in phenotype and expression profiles with those found in the lab of Dr  David Tuveson 
+Epithelial organoid                        
+Lung organoid            
+Kidney organoid                                                
+Gastruloid  embryonic organoid                                                    Generates all embryonic axes and fully implements the collinear Hox gene expression patterns along the anteroposterior axis             
+Blastoid  blastocyst like organoid                                     
+Endometrial organoid            
+Cardiac organoid               In      hollow cardiac organoids were made to beat  and to respond to stimuli to beat faster or slower             
+Retinal organoid                         
+Breast cancer organoid             
+Colorectal cancer organoid             
+Glioblastoma organoid             
+ D organoid models of brain cancer derived from either patient derived explants  PDX  or direct from cancer tissue is now easily achievable and affords high throughput screening of these tumors against the current panel of approved drugs form around the world 
+Neuroendocrine tumor organoid             
+Myelinoid  Myelin organoid 
+Blood brain barrier  BBB  organoid             
+Self assembled cell aggregates consisting of BMECs  astrocytes  and pericytes are emerging as a potential alternative to transwell and microfluidic models for certain applications  These organoides can generate many features of the BBB  such as the expression of tight junctions  molecular transporters  and drug efflux pumps  and can therefore be used to model drug transport across the BBB  Also  they can serve as a model for evaluating the interactions between the BBB and adjacent brain tissue and provide a platform for understanding the combined abilities of a new drug to overcome the BBB and its effect on brain tissue  In addition  such models are highly scalable and easier to manufacture and operate than microfluidic devices  However  they have limited ability to reconstruct the morphology and physiology of the BBB and are unable to simulate physiological flow and shear stress 
+Basic research edit 
+Organoids enable to study how cells interact together in an organ  their interaction with their environment  how diseases affect them and the effect of drugs  In vitro culture makes this system easy to manipulate and facilitates their monitoring  While organs are difficult to culture because their size limits the penetration of nutrients  the small size of organoids limits this problem  On the other hand  they do not exhibit all organ features and interactions with other organs are not recapitulated in vitro  While research on stem cells and regulation of stemness was the first field of application of intestinal organoids              they are now also used to study e g  uptake of nutrients  drug transport and secretion of incretin hormones               This is of great relevance in the context of malabsorption diseases as well as metabolic diseases such as obesity  insulin resistance  and diabetes 
+
+Models of disease edit 
+Organoids provide an opportunity to create cellular models of human disease  which can be studied in the laboratory to better understand the causes of disease and identify possible treatments  The power of organoids in this regard was first shown for a genetic form of microcephaly  where patient cells were used to make cerebral organoids  which were smaller and showed abnormalities in early generation of neurons              In another example  the genome editing system called CRISPR was applied to human pluripotent stem cells to introduce targeted mutations in genes relevant to two different kidney diseases  polycystic kidney disease and focal segmental glomerulosclerosis              These CRISPR modified pluripotent stem cells were subsequently grown into human kidney organoids  which exhibited disease specific phenotypes  Kidney organoids from stem cells with polycystic kidney disease mutations formed large  translucent cyst structures from kidney tubules  When cultured in the absence of adherent cues  in suspension   these cysts reached sizes of        cm in diameter over several months               Kidney organoids with mutations in a gene linked to focal segmental glomerulosclerosis developed junctional defects between podocytes  the filtering cells affected in that disease               Importantly  these disease phenotypes were absent in control organoids of identical genetic background  but lacking the CRISPR mutations                                        Comparison of these organoid phenotypes to diseased tissues from mice and humans suggested similarities to defects in early development                           
+As first developed by Takahashi and Yamanaka in       induced pluripotent stem cells  iPSC  can also be reprogrammed from patient skin fibroblasts               These stem cells carry the exact genetic background of the patient including any genetic mutations which might contribute to the development of human disease  Differentiation of these cells into kidney organoids has been performed from patients with Lowe Syndrome due to ORCL  mutations               This report compared kidney organoids differentiated from patient iPSC to unrelated control iPSC and demonstrated an inability of patient kidney cells to mobilise transcription factor SIX  from the golgi complex               Because SIX  is a well characterised marker of nephron progenitor cells in the cap mesenchyme  the authors concluded that renal disease frequently seen in Lowe Syndrome  global failure of proximal tubule reabsorption or renal Fanconi syndrome  could be related to alteration in nephron patterning arising from nephron progenitor cells lacking this important SIX  gene expression              
+Other studies have used CRISPR gene editing to correct the patient s mutation in the patient iPSC cells to create an isogenic control  which can be performed simultaneously with iPSC reprogramming                                         Comparison of a patient iPSC derived organoid against an isogenic control is the current gold standard in the field as it permits isolation of the mutation of interest as the only variable within the experimental model               In one such report  kidney organoids derived from iPSC of a patient with Mainzer Saldino Syndrome due to compound heterozygous mutations in IFT    were compared to an isogenic control organoid in which an IFT    variant giving rise to a non viable mRNA transcript was corrected by CRISPR               Patient kidney organoids demonstrated abnormal ciliary morphology consistent with existing animal models which was rescued to wild type morphology in the gene corrected organoids               Comparative transcriptional profiling of epithelial cells purified from patient and control organoids highlighted pathways involved in cell polarity  cell cell junctions and dynein motor assembly  some of which had been implicated for other genotypes within the phenotypic family of renal ciliopathies                Another report utilising an isogenic control demonstrated abnormal nephrin localisation in the glomeruli of kidney organoids generated from a patient with congenital nephrotic syndrome              
+Things such as epithelial metabolism can also be modelled              
+
+Personalised medicine edit 
+Intestinal organoids grown from rectal biopsies using culture protocols established by the Clevers group have been used to model cystic fibrosis               and led to the first application of organoids for personalised treatment               Cystic fibrosis is an inherited disease that is caused by gene mutations of the cystic fibrosis transmembrane conductance regulator gene that encodes an epithelial ion channel necessary for healthy epithelial surface fluids  Studies by the laboratory of Jeffrey Beekman  Wilhelmina Children s Hospital  University Medical Center Utrecht  The Netherlands  described in      that stimulation of colorectal organoids with cAMP raising agonists such as forskolin or cholera toxin induced rapid swelling of organoids in a fully CFTR dependent manner               Whereas organoids from non cystic fibrosis subjects swell in response to forskolin as a consequence of fluid transport into the organoids  lumens  this is severely reduced or absent in organoids derived from people with cystic fibrosis  Swelling could be restored by therapeutics that repair the CFTR protein  CFTR modulators   indicating that individual responses to CFTR modulating therapy could be quantitated in a preclinical laboratory setting  Schwank et al  also demonstrated that the intestinal cystic fibrosis organoid phenotype could be repaired by CRISPR Cas  gene editing in                   
+Follow up studies by Dekkers et al  in      revealed that quantitative differences in forskolin induced swelling between intestinal organoids derived from people with cystic fibrosis associate with known diagnostic and prognostic markers such as CFTR gene mutations or in vivo biomarkers of CFTR function               In addition  the authors demonstrated that CFTR modulator responses in intestinal organoids with specific CFTR mutations correlated with published clinical trial data of these treatments  This led to preclinical studies where organoids from patients with extremely rare CFTR mutations for who no treatment was registered were found to respond strongly to a clinically available CFTR modulator  The suggested clinical benefit of treatment for these subjects based on the preclinical organoid test was subsequently confirmed upon clinical introduction of treatment by members of the clinical CF center under supervision of Kors van der Ent  Department of Paediatric Pulmonology  Wilhelmina Children s Hospital  University Medical Center Utrecht  The Netherlands   These studies show for the first time that organoids can be used for the individual tailoring of therapy or personalised medicine 
+
+Organoid transplants edit 
+The self renewal and regenerative properties of intestinal organoids make them promising candidates for transplantation therapies  particularly for disease involving epithelial barrier disruption  Notably  transplantation of organoids into the duodenum of mice has been shown to aid in the recovery of mucosal damages on mice with ischemia reperfusion injury              
+The first successful transplantation of an organoid into a human  a patient with ulcerative colitis whose cells were used for the organoid  was carried out in                                
+
+As a model for developmental biology edit 
+Organoids offer researchers an exceptional model to study developmental biology               Since the identification of pluripotent stem cells  there have been great advancements in directing pluripotent stem cells fate in vitro using  D cultures               These advancements in PSC fate direction  coupled with the advancements in  D culturing techniques allowed for the creation of organoids that recapitulate the properties of various specific subregions of a multitude of organs               The use of these organoids has thus greatly contributed to expanding our understanding of the processes of organogenesis  and the field of developmental biology               In central nervous system development  for example  organoids have contributed to our understanding of the physical forces that underlie retinal cup formation                            More recent work has extended cortical organoid growth periods extensively and at nearly a year under specific differentiation conditions  the organoids persist and have some features of human fetal development stages              
+
+See also edit 
+Artificial organ
+Organ culture
+Regenerative medicine
+References edit 
+
+
+  Zhao Z  Chen X  Dowbaj AM  Sljukic A  Bratlie K  Lin L  et      al           Organoids   Nature Reviews  Methods Primers     doi         s                y  PMC                PMID               
+
+  Grens K  December                  s Big Advances in Science   The Scientist  Retrieved    December      
+
+  Mullard A  March         Mini organs attract big pharma   Nature Reviews  Drug Discovery                   doi         d                y  PMID               
+
+  a b c d e f g h i j k l m n o p q Lancaster MA  Knoblich JA  July         Organogenesis in a dish  modeling development and disease using organoid technologies   Science                       doi         science          PMID                S CID               
+
+  Wilson HV  June         A New Method by Which Sponges May Be Artificially Reared   Science                     Bibcode     Sci           W  doi         science             PMID               
+
+  Holtfreter J          Experimental studies on the development of the pronephros   Rev  Can  Biol             
+
+  Weiss P  Taylor AC  September         Reconstitution of Complete Organs From Single Cell Suspensions of Chick Embryos in Advanced Stages of Differentiation   Proceedings of the National Academy of Sciences of the United States of America                     Bibcode     PNAS          W  doi         pnas            PMC              PMID               
+
+  Rheinwald JG  Green H  November         Formation of a keratinizing epithelium in culture by a cloned cell line derived from a teratoma   Cell                  doi                            x  PMID               S CID               
+
+  a b Yi SA  Zhang Y  Rathnam C  Pongkulapa T  Lee KB  November         Bioengineering Approaches for the Advanced Organoid Research   Advanced Materials           e         Bibcode     AdM           Y  doi         adma            PMC               PMID               
+
+  a b Li ML  Aggeler J  Farson DA  Hatier C  Hassell J  Bissell MJ  January         Influence of a reconstituted basement membrane and its components on casein gene expression and secretion in mouse mammary epithelial cells   Proceedings of the National Academy of Sciences of the United States of America                   Bibcode     PNAS          L  doi         pnas           PMC              PMID              
+
+  Barcellos Hoff MH  Aggeler J  Ram TG  Bissell MJ  February         Functional differentiation and alveolar morphogenesis of primary mammary cultures on reconstituted basement membrane   Development                    doi         dev            PMC               PMID              
+
+  Streuli CH  Schmidhauser C  Bailey N  Yurchenco P  Skubitz AP  Roskelley C  et      al   May         Laminin mediates tissue specific gene expression in mammary epithelia   The Journal of Cell Biology                    doi         jcb            PMC               PMID              
+
+  Nahmias Y  Schwartz RE  Hu WS  Verfaillie CM  Odde DJ  June         Endothelium mediated hepatocyte recruitment in the establishment of liver like tissue in vitro   Tissue Engineering                     doi         ten               PMID               
+
+  Yong E  August             Lab Grown Model Brains   The Scientist  Retrieved    December      
+
+  a b c d e Sato T  Vries RG  Snippert HJ  van de Wetering M  Barker N  Stange DE  et      al   May         Single Lgr  stem cells build crypt villus structures in vitro without a mesenchymal niche   Nature                       Bibcode     Natur         S  doi         nature       PMID                S CID              
+
+  a b Unbekandt M  Davies JA  March         Dissociation of embryonic kidneys followed by reaggregation allows the formation of renal tissues   Kidney International                   doi         ki           PMID               
+
+  Peng H  Poovaiah N  Forrester M  Cochran E  Wang Q  December         Ex Vivo Culture of Primary Intestinal Stem Cells in Collagen Gels and Foams   ACS Biomaterials Science  amp  Engineering                doi         ab      d  PMID               
+
+  Peng H  Wang C  Xu X  Yu C  Wang Q  January         An intestinal Trojan horse for gene delivery   Nanoscale                     Bibcode     Nanos         P  doi         c nr     e  PMID               
+
+  Lawrence ML  Chang CH  Davies JA  March         Transport of organic anions and cations in murine embryonic kidney development and in serially reaggregated engineered kidneys   Scientific Reports           Bibcode     NatSR         L  doi         srep       PMC               PMID               
+
+  Xinaris C  Benedetti V  Rizzo P  Abbate M  Corna D  Azzollini N  et      al   November         In vivo maturation of functional renal organoids formed from embryonic cell suspensions   Journal of the American Society of Nephrology                      doi         ASN             PMC               PMID               
+
+  Yui S  Nakamura T  Sato T  Nemoto Y  Mizutani T  Zheng X  et      al   March         Functional engraftment of colon epithelium expanded in vitro from a single adult Lgr   stem cell   Nature Medicine                   doi         nm       PMID               
+
+  a b c Lancaster MA  Renner M  Martin CA  Wenzel D  Bicknell LS  Hurles ME  et      al   September         Cerebral organoids model human brain development and microcephaly   Nature                       Bibcode     Natur         L  doi         nature       PMC               PMID               
+
+  Huch M  Dorrell C  Boj SF  van Es JH  Li VS  van de Wetering M  et      al   February         In vitro expansion of single Lgr   liver stem cells induced by Wnt driven regeneration   Nature                       doi         nature       PMC               PMID               
+
+  Shkumatov A  Baek K  Kong H  April         Matrix rigidity modulated cardiovascular organoid formation from embryoid bodies   PLOS ONE         e       Bibcode     PLoSO         S  doi         journal pone          PMC               PMID               
+
+  Murry CE  Keller G  February         Differentiation of embryonic stem cells to clinically relevant populations  lessons from embryonic development   Cell                    doi         j cell              PMID               
+
+  Choudhury D  Ashok A  Naing MW  March         Commercialization of Organoids   Trends in Molecular Medicine                   doi         j molmed              PMID                S CID                
+
+  a b c Pastu a A  Middelhoff M  Brandtner A  Tobiasch M  H hl B  Nuber AH  et      al           Three Dimensional Gastrointestinal Organoid Culture in Combination with Nerves or Fibroblasts  A Method to Characterize the Gastrointestinal Stem Cell Niche   Stem Cells International                 doi                       PMC               PMID               
+
+  Takahashi K  Yamanaka S  August         Induction of pluripotent stem cells from mouse embryonic and adult fibroblast cultures by defined factors   Cell                    doi         j cell              hdl              PMID               
+
+  Ran FA  Hsu PD  Wright J  Agarwala V  Scott DA  Zhang F  November         Genome engineering using the CRISPR Cas  system   Nature Protocols                     doi         nprot           PMC               PMID               
+
+  Lavazza A  Massimini M  September         Cerebral organoids  ethical issues and consciousness assessment   Journal of Medical Ethics                   doi         medethics              PMID               
+
+  Scully RP    July         Miniature brains grown in the lab have human like neural activity   New Scientist  No            
+
+  Sample I     October         Scientists  may have crossed ethical line  in growing human brains   The Guardian  p          
+
+  Cai H  Ao Z  Tian C  et      al           Brain organoid reservoir computing for artificial intelligence   Nat Electron                     doi         s                w 
+
+  Smirnova L  Caffo BS  Gracias DH  Huang Q  Morales Pantoja IE  Tang B  et      al           Organoid intelligence  OI   the new frontier in biocomputing and intelligence in a dish   Front Sci              Bibcode     FrSci         S  doi         fsci              
+
+  Sato T  Stange DE  Ferrante M  Vries RG  Van Es JH  Van den Brink S  et      al   November         Long term expansion of epithelial organoids from human colon  adenoma  adenocarcinoma  and Barrett s epithelium   Gastroenterology                      doi         j gastro              PMID               
+
+  Jung P  Sato T  Merlos Su rez A  Barriga FM  Iglesias M  Rossell D  et      al   September         Isolation and in vitro expansion of human colonic stem cells   Nature Medicine                      doi         nm       PMID                S CID                
+
+  Cai T  Qi Y  Jergens A  Wannemuehler M  Barrett TA  Wang Q          Effects of six common dietary nutrients on murine intestinal organoid growth   PLOS ONE          e         Bibcode     PLoSO         C  doi         journal pone          PMC               PMID               
+
+  Qi Y  Lohman J  Bratlie KM  Peroutka Bigus N  Bellaire B  Wannemuehler M  et      al   September         Vitamin C and B  as new biomaterials to alter intestinal stem cells   Journal of Biomedical Materials Research  Part A                      doi         jbm a        PMC               PMID               
+
+  Davoudi Z  Peroutka Bigus N  Bellaire B  Wannemuehler M  Barrett TA  Narasimhan B  et      al   April         Intestinal organoids containing poly lactic co glycolic acid  nanoparticles for the treatment of inflammatory bowel diseases   Journal of Biomedical Materials Research  Part A                    doi         jbm a        PMC               PMID               
+
+  Davoudi Z  Peroutka Bigus N  Bellaire B  Jergens A  Wannemuehler M  Wang Q  May         Gut Organoid as a New Platform to Study Alginate and Chitosan Mediated PLGA Nanoparticles for Drug Delivery   Marine Drugs               doi         md          PMC               PMID               
+
+  Qi Y  Shi E  Peroutka Bigus N  Bellaire B  Wannemuehler M  Jergens A  et      al   May         Ex Vivo Study of Telluride Nanowires in Minigut   Journal of Biomedical Nanotechnology                   doi         jbn            PMID               
+
+  Reding B  Carter P  Qi Y  Li Z  Wu Y  Wannemuehler M  et      al   April         Manipulate intestinal organoids with niobium carbide nanosheets   Journal of Biomedical Materials Research  Part A                    doi         jbm a        PMID               
+
+  Zietek T  Giesbertz P  Ewers M  Reichart F  Weinm ller M  Urbauer E  et      al           Organoids to Study Intestinal Nutrient Transport  Drug Uptake and Metabolism   Update to the Human Model and Expansion of Applications   Frontiers in Bioengineering and Biotechnology             doi         fbioe              PMC               PMID               
+
+  Zietek T  Rath E  Haller D  Daniel H  November         Intestinal organoids for assessing nutrient transport  sensing and incretin secretion   Scientific Reports                Bibcode     NatSR         Z  doi         srep       PMC               PMID               
+
+  Rahmani S  Breyner NM  Su HM  Verdu EF  Didar TF  February         Intestinal organoids  A new paradigm for engineering intestinal epithelium in vitro   Biomaterials                doi         j biomaterials              PMID                S CID               
+
+  Sun L  Rollins D  Qi Y  Fredericks J  Mansell TJ  Jergens A  et      al   December         TNF  regulates intestinal organoids from mice with both defined and conventional microbiota   International Journal of Biological Macromolecules                doi         j ijbiomac              PMC               PMID               
+
+  Tong T  Qi Y  Rollins D  Bussiere LD  Dhar D  Miller CL  et      al   December         Rational design of oral drugs targeting mucosa delivery with gut organoid platforms   Bioactive Materials               doi         j bioactmat              PMC                PMID               
+
+  Davoudi Z  Atherly T  Borcherding DC  Jergens AE  Wannemuehler M  Barrett TA  et      al   December         Study Transportation of Drugs within Newly Established Murine Colon Organoid Systems   Advanced Biology          e         doi         adbi            PMC                PMID               
+
+  Sakib S  Zou S  February         Attenuation of Chronic Inflammation in Intestinal Organoids with Graphene Oxide Mediated Tumor Necrosis Factor   Small Interfering RNA Delivery   Langmuir                     doi         acs langmuir  c       PMC                PMID               
+
+  Lindemans C  Mertelsmann A  Dudakov JA  Velardi E  Hua G  O Connor M  et      al           IL    Administration Protects Intestinal Stem Cells from Gvhd   Biology of Blood and Marrow Transplantation          S     S    doi         j bbmt             
+
+  Zhang YG  Wu S  Xia Y  Sun J  September         Salmonella infected crypt derived intestinal organoid culture system for host bacterial interactions   Physiological Reports         e       doi          phy         PMC               PMID               
+
+  Geiser P  Di Martino ML  Samperio Ventayol P  Eriksson J  Sima E  Al Saffar AK  et      al   January        Sperandio V  ed     Salmonella enterica Serovar Typhimurium Exploits Cycling through Epithelial Cells To Colonize Human and Murine Enteroids   mBio          doi         mBio           PMC               PMID               
+
+  Dutta D  Heo I  O Connor R  September         Studying Cryptosporidium Infection in  D Tissue derived Human Organoid Culture Systems by Microinjection   Journal of Visualized Experiments               doi                PMID                S CID                
+
+  Co JY  Margalef Catal  M  Li X  Mah AT  Kuo CJ  Monack DM  et      al   February         Controlling Epithelial Polarity  A Human Enteroid Model for Host Pathogen Interactions   Cell Reports                    e   doi         j celrep              PMC               PMID               
+
+  Tong T  Qi Y  Bussiere LD  Wannemuehler M  Miller CL  Wang Q  et      al   August         Transport of artificial virus like nanocarriers through intestinal monolayers via microfold cells   Nanoscale                        doi         d nr     c  PMID               
+
+  a b Noel G  Baetz NW  Staab JF  Donowitz M  Kovbasnjuk O  Pasetti MF  et      al   March         A primary human macrophage enteroid co culture model to investigate mucosal gut physiology and host pathogen interactions   Scientific Reports                Bibcode     NatSR         N  doi         srep       PMC               PMID               
+
+  Bouchi R  Foo KS  Hua H  Tsuchiya K  Ohmura Y  Sandoval PR  et      al   June         FOXO  inhibition yields functional insulin producing cells in human gut organoid cultures   Nature Communications           Bibcode     NatCo         B  doi         ncomms      PMC               PMID               
+
+  Sontheimer Phelps A  Chou DB  Tovaglieri A  Ferrante TC  Duckworth T  Fadel C  et      al           Human Colon on a Chip Enables Continuous In Vitro Analysis of Colon Mucus Layer Accumulation and Physiology   Cellular and Molecular Gastroenterology and Hepatology                  doi         j jcmgh              PMC               PMID               
+
+  Grassart A  Malard  V  Gobaa S  Sartori Rupp A  Kerns J  Karalis K  et      al   September         Bioengineered Human Organ on Chip Reveals Intestinal Microenvironment and Mechanical Forces Impacting Shigella Infection   Cell Host  amp  Microbe                  e   doi         j chom              PMID                S CID                
+
+  a b c McCracken KW  Cat  EM  Crawford CM  Sinagoga KL  Schumacher M  Rockich BE  et      al   December         Modelling human development and disease in pluripotent stem cell derived gastric organoids   Nature                       Bibcode     Natur         M  doi         nature       PMC               PMID               
+
+  Barker N  Huch M  Kujala P  van de Wetering M  Snippert HJ  van Es JH  et      al   January         Lgr   ve  stem cells drive self renewal in the stomach and build long lived gastric units in vitro   Cell Stem Cell                doi         j stem              PMID               
+
+  Li X  Nadauld L  Ootani A  Corney DC  Pai RK  Gevaert O  et      al   July         Oncogenic transformation of diverse gastrointestinal tissues in primary organoid culture   Nature Medicine                   doi         nm       PMC               PMID               
+
+  a b Nadauld LD  Garcia S  Natsoulis G  Bell JM  Miotke L  Hopmans ES  et      al   August         Metastatic tumor evolution and organoid modeling implicate TGFBR  as a cancer driver in diffuse gastric cancer   Genome Biology               doi         s                  PMC               PMID               
+
+  a b Hisha H  Tanaka T  Kanno S  Tokuyama Y  Komai Y  Ohe S  et      al   November         Establishment of a novel lingual organoid culture system  generation of organoids having mature keratinized epithelium from adult epithelial stem cells   Scientific Reports           Bibcode     NatSR         H  doi         srep       PMC               PMID               
+
+  a b Aihara E  Mahe MM  Schumacher MA  Matthis AL  Feng R  Ren W  et      al   November         Characterization of stem progenitor cell cycle using murine circumvallate papilla taste bud organoid   Scientific Reports            Bibcode     NatSR         A  doi         srep       PMC               PMID               
+
+  Ren W  Lewandowski BC  Watson J  Aihara E  Iwatsuki K  Bachmanov AA  et      al   November         Single Lgr   or Lgr  expressing taste stem progenitor cells generate taste bud cells ex vivo   Proceedings of the National Academy of Sciences of the United States of America                         Bibcode     PNAS          R  doi         pnas             PMC               PMID               
+
+  Muguruma K           D Culture for Self Formation of the Cerebellum from Human Pluripotent Stem Cells Through Induction of the Isthmic Organizer   Organ Regeneration  Methods in Molecular Biology  Vol             pp              doi                              ISBN                         PMID               
+
+  Silva TP  Bekman EP  Fernandes TG  Vaz SH  Rodrigues CA  Diogo MM  et      al      February         Maturation of Human Pluripotent Stem Cell Derived Cerebellar Neurons in the Absence of Co culture   Frontiers in Bioengineering and Biotechnology         doi         fbioe             PMC               PMID               
+
+  Atamian A  Birtele M  Hosseini N  Quadrato G    December         Generation and long term culture of human cerebellar organoids from pluripotent stem cells   Nature Protocols        doi         s                w  PMID               
+
+  Atamian A  Birtele M  Hosseini N  Nguyen T  Seth A  Del Dosso A  et      al   January         Human cerebellar organoids with functional Purkinje cells   Cell Stem Cell                e   doi         j stem              PMC                PMID               
+
+  Hermans F  Hasevoets S  Vankelecom H  Bronckaers A  Lambrichts I  March         From Pluripotent Stem Cells to Organoids and Bioprinting  Recent Advances in Dental Epithelium and Ameloblast Models to Study Tooth Biology and Regeneration   Stem Cell Reviews and Reports                     doi         s                w  PMC                PMID               
+
+  Martin A  Barbesino G  Davies TF          T cell receptors and autoimmune thyroid disease  signposts for T cell antigen driven diseases   International Reviews of Immunology                     doi                            PMID               
+
+  Bredenkamp N  Ulyanchenko S  O Neill KE  Manley NR  Vaidya HJ  Blackburn CC  September         An organized and functional thymus generated from FOXN  reprogrammed fibroblasts   Nature Cell Biology                   doi         ncb      PMC               PMID               
+
+  a b c Vianello F  Poznansky MC          Generation of a tissue engineered thymic organoid   Immunological Tolerance  Methods in Molecular Biology  Vol            pp               doi                              ISBN                         PMID               
+
+  Sakib S  Uchida A  Valenzuela Leon P  Yu Y  Valli Pulaski H  Orwig K  et      al   June         Formation of organotypic testicular organoids in microwell culture    Biology of Reproduction                      doi         biolre ioz     PMC               PMID               
+
+  Cham TC  Ibtisham F  Fayaz MA  Honaramooz A  July         Generation of a Highly Biomimetic Organoid  Including Vasculature  Resembling the Native Immature Testis Tissue   Cells                doi         cells          ISSN                 PMC               PMID               
+
+  Drost J  Karthaus WR  Gao D  Driehuis E  Sawyers CL  Chen Y  et      al   February         Organoid culture systems for prostate epithelial and cancer tissue   Nature Protocols                   doi         nprot           PMC               PMID               
+
+  Huch M  Gehart H  van Boxtel R  Hamer K  Blokzijl F  Verstegen MM  et      al   January         Long term culture of genome stable bipotent stem cells from adult human liver   Cell                      doi         j cell              PMC               PMID               
+
+  Li P  Li Y  Wang Y  Liu J  Lavrijsen M  Li Y  et      al   January         Recapitulating hepatitis E virus host interactions and facilitating antiviral drug discovery in human liver derived organoids   Science Advances         eabj      Bibcode     SciA          L  doi         sciadv abj      hdl                PMC               PMID                S CID                
+
+  Huch M  Bonfanti P  Boj SF  Sato T  Loomans CJ  van de Wetering M  et      al   October         Unlimited in vitro expansion of adult bi potent pancreas progenitors through the Lgr  R spondin axis   The EMBO Journal                      doi         emboj           PMC               PMID               
+
+  Hou S  Tiriac H  Sridharan BP  Scampavia L  Madoux F  Seldin J  et      al   July         Advanced Development of Primary Pancreatic Organoid Tumor Models for High Throughput Phenotypic Drug Screening   SLAS Discovery                   doi                           PMC               PMID               
+
+  Wolff RA  Wang Gillam A  Alvarez H  Tiriac H  Engle D  Hou S  et      al   March         Dynamic changes during the treatment of pancreatic cancer   Oncotarget                       doi          oncotarget        PMC               PMID               
+
+  Below CR  Kelly J  Brown A  Humphries JD  Hutton C  Xu J  et      al   January         A microenvironment inspired synthetic three dimensional model for pancreatic ductal adenocarcinoma organoids   Nature Materials                   Bibcode     NatMa         B  doi         s                   PMC               PMID               
+
+  Barker N  van Es JH  Kuipers J  Kujala P  van den Born M  Cozijnsen M  et      al   October         Identification of stem cells in small intestine and colon by marker gene Lgr    Nature                         Bibcode     Natur         B  doi         nature       PMID                S CID              
+
+  Lee JH  Bhang DH  Beede A  Huang TL  Stripp BR  Bloch KD  et      al   January         Lung stem cell differentiation in mice directed by endothelial cells via a BMP  NFATc  thrombospondin   axis   Cell                    doi         j cell              PMC               PMID               
+
+  Takasato M  Er PX  Chiu HS  Maier B  Baillie GJ  Ferguson C  et      al   October         Kidney organoids from human iPS cells contain multiple lineages and model human nephrogenesis   Nature                       Bibcode     Natur         T  doi         nature       PMID                S CID              
+
+  a b c Freedman BS  Brooks CR  Lam AQ  Fu H  Morizane R  Agrawal V  et      al   October         Modelling kidney disease with CRISPR mutant kidney organoids derived from human pluripotent epiblast spheroids   Nature Communications           Bibcode     NatCo         F  doi         ncomms      PMC               PMID               
+
+  Morizane R  Lam AQ  Freedman BS  Kishi S  Valerius MT  Bonventre JV  November         Nephron organoids derived from human pluripotent stem cells model kidney development and injury   Nature Biotechnology                      doi         nbt       PMC               PMID               
+
+  van den Brink SC  Baillie Johnson P  Balayo T  Hadjantonakis AK  Nowotschin S  Turner DA  et      al   November         Symmetry breaking  germ layer specification and axial organisation in aggregates of mouse embryonic stem cells   Development                       doi         dev         PMC               PMID               
+
+  Turner DA  Baillie Johnson P  Martinez Arias A  February         Organoids and the genetically encoded self assembly of embryonic stem cells   BioEssays                   doi         bies            PMC               PMID               
+
+  Turner DA  Girgin M  Alonso Crisostomo L  Trivedi V  Baillie Johnson P  Glodowski CR  et      al   November         Anteroposterior polarity and elongation in the absence of extra embryonic tissues and of spatially localised signalling in gastruloids  mammalian embryonic organoids   Development                       doi         dev         PMC               PMID               
+
+  a b Beccari L  Moris N  Girgin M  Turner DA  Baillie Johnson P  Cossy AC  et      al   October         Multi axial self organization properties of mouse embryonic stem cells into gastruloids   Nature                       Bibcode     Natur         B  doi         s                  PMID                S CID               
+
+  Rivron N     June         Blastoid  The backstory of the formation of blastocyst like structure solely from stem cells   The Node  The Company of Biologists Ltd 
+
+   Blastoid   Nicolas Rivron Lab  Netherlands 
+
+  Rivron NC  Frias Aldeguer J  Vrij EJ  Boisset JC  Korving J  Vivi  J  et      al   May         Blastocyst like structures generated solely from stem cells   Nature                       Bibcode     Natur         R  doi         s                  PMID                S CID               
+
+  Rawlings TM  Makwana K  Tryfonos M  Lucas ES  July         Organoids to model the endometrium  implantation and beyond   Reproduction  amp  Fertility         R     R     doi         RAF          PMC               PMID               
+
+  Lee EJ  Kim DE  Azeloglu EU  Costa KD  February         Engineered cardiac organoid chambers  toward a functional biological model ventricle   Tissue Engineering  Part A                   doi         tea            PMID               
+
+  Molteni M                These Beating Mini Hearts Could Save Big Bucks And Maybe Lives   WIRED  Retrieved            
+
+  Wiley LA  Burnight ER  DeLuca AP  Anfinson KR  Cranston CM  Kaalberg EE  et      al   July         cGMP production of patient specific iPSCs and photoreceptor precursor cells to treat retinal degenerative blindness   Scientific Reports            Bibcode     NatSR         W  doi         srep       PMC               PMID               
+
+  Zilova L  Weinhardt V  Tavhelidse T  Schlagheck C  Thumberger T  Wittbrodt J  July        Arias AM  Stainier DY  eds     Fish primary embryonic pluripotent cells assemble into retinal tissue mirroring in vivo early eye development   eLife      e       doi         eLife        PMC               PMID               
+
+  Sachs N  de Ligt J  Kopper O  Gogola E  Bounova G  Weeber F  et      al   January         A Living Biobank of Breast Cancer Organoids Captures Disease Heterogeneity   Cell                     e    doi         j cell              PMID               
+
+  van de Wetering M  Francies HE  Francis JM  Bounova G  Iorio F  Pronk A  et      al   May         Prospective derivation of a living organoid biobank of colorectal cancer patients   Cell                    doi         j cell              PMC               PMID               
+
+  Quereda V  Hou S  Madoux F  Scampavia L  Spicer TP  Duckett D  September         A Cytotoxic Three Dimensional Spheroid  High Throughput Assay Using Patient Derived Glioma Stem Cells   SLAS Discovery                   doi                           PMC               PMID               
+
+  Dayton TL  Alcala N  Moonen L  den Hartigh L  Geurts V  Mangiante L  et      al   December         Druggable growth dependencies and tumor evolution analysis in patient derived organoids of neuroendocrine neoplasms from multiple body sites   Cancer Cell                     e   doi         j ccell              PMID               
+
+  Zidari  T  Gradi nik L  Velnar T  September         Astrocytes and human artificial blood brain barrier models   Bosnian Journal of Basic Medical Sciences                   doi          bjbms            PMC               PMID               
+
+  Zietek T  Rath E  Haller D  Daniel H  November         Intestinal organoids for assessing nutrient transport  sensing and incretin secretion   Scientific Reports            Bibcode     NatSR         Z  doi         srep       PMC               PMID               
+
+  a b c Cruz NM  Song X  Czerniecki SM  Gulieva RE  Churchill AJ  Kim YK  et      al   November         Organoid cystogenesis reveals a critical role of microenvironment in human polycystic kidney disease   Nature Materials                      Bibcode     NatMa         C  doi         nmat      PMC               PMID               
+
+  a b c Kim YK  Refaeli I  Brooks CR  Jing P  Gulieva RE  Hughes MR  et      al   December         Gene Edited Human Kidney Organoids Reveal Mechanisms of Disease in Podocyte Development   Stem Cells                      doi         stem       PMC               PMID               
+
+  Takahashi K  Tanabe K  Ohnuki M  Narita M  Ichisaka T  Tomoda K  et      al   November         Induction of pluripotent stem cells from adult human fibroblasts by defined factors   Cell                    doi         j cell              hdl             PMID                S CID              
+
+  a b c Hsieh WC  Ramadesikan S  Fekete D  Aguilar RC                Kidney differentiated cells derived from Lowe Syndrome patient s iPSCs show ciliogenesis defects and Six  retention at the Golgi complex   PLOS ONE          e         Bibcode     PLoSO         H  doi         journal pone          PMC               PMID               
+
+  Howden SE  Thomson JA  Little MH  May         Simultaneous reprogramming and gene editing of human fibroblasts   Nature Protocols                   doi         nprot           PMC               PMID               
+
+  a b c d Forbes TA  Howden SE  Lawlor K  Phipson B  Maksimovic J  Hale L  et      al   May         Patient iPSC Derived Kidney Organoids Show Functional Validation of a Ciliopathic Renal Phenotype and Reveal Underlying Pathogenetic Mechanisms   American Journal of Human Genetics                    doi         j ajhg              PMC               PMID               
+
+  a b Tanigawa S  Islam M  Sharmin S  Naganuma H  Yoshimura Y  Haque F  et      al   September         Organoids from Nephrotic Disease Derived iPSCs Identify Impaired NEPHRIN Localization and Slit Diaphragm Formation in Kidney Podocytes   Stem Cell Reports                   doi         j stemcr              PMC               PMID               
+
+  Engle SJ  Blaha L  Kleiman RJ  November         Best Practices for Translational Disease Modeling Using Human iPSC Derived Neurons   Neuron                    doi         j neuron              PMID               
+
+  Rath E  Chamaillard M  eds     Metabolites   Special Issue of the Metabolites Journal  Retrieved            
+
+  a b Dekkers JF  Wiegerinck CL  de Jonge HR  Bronsveld I  Janssens HM  de Winter de Groot KM  et      al   July         A functional CFTR assay using primary cystic fibrosis intestinal organoids   Nature Medicine                   doi         nm       PMID                S CID              
+
+  a b Dekkers JF  Berkers G  Kruisselbrink E  Vonk A  de Jonge HR  Janssens HM  et      al   June         Characterizing responses to CFTR modulating drugs using rectal organoids derived from subjects with cystic fibrosis   Science Translational Medicine              ra    doi         scitranslmed aad      PMID                S CID               
+
+  Schwank G  Koo BK  Sasselli V  Dekkers JF  Heo I  Demircan T  et      al   December         Functional repair of CFTR by CRISPR Cas  in intestinal stem cell organoids of cystic fibrosis patients   Cell Stem Cell                   doi         j stem              PMID               
+
+  Zhang FL  Hu Z  Wang YF  Zhang WJ  Zhou BW  Sun QS  et      al   October         Organoids transplantation attenuates intestinal ischemia reperfusion injury in mice through L Malic acid mediated M  macrophage polarization   Nature Communications                Bibcode     NatCo         Z  doi         s                   PMC                PMID               
+
+   World s first mini organ transportation to a patient with ulcerative colitis   Tokyo Medical and Dental University via medicalxpress com  Retrieved    September      
+
+  Watanabe S  Kobayashi S  Ogasawara N  Okamoto R  Nakamura T  Watanabe M  et      al   March         Transplantation of intestinal organoids into a mouse model of colitis   Nature Protocols                   doi         s                   PMID                S CID                
+
+  a b c d e Ader M  Tanaka EM  December         Modeling human development in  D culture   Current Opinion in Cell Biology             doi         j ceb              PMID               
+
+  Martinez Morales JR  Cavodeassi F  Bovolenta P          Coordinated Morphogenetic Mechanisms Shape the Vertebrate Eye   Frontiers in Neuroscience           doi         fnins             PMC               PMID               
+
+  Gordon A  Yoon SJ  Tran SS  Makinson CD  Park JY  Andersen J  et      al   March         Long term maturation of human cortical organoids matches key early postnatal transitions   Nature Neuroscience                   doi         s                y  PMC               PMID               
+
+
+Further reading edit 
+
+Chi KR  September         Orchestrating Organoids  A guide to crafting tissues in a dish that reprise in vivo organs   The Scientist 
+Takebe T  Enomura M  Yoshizawa E  Kimura M  Koike H  Ueno Y  et      al   May         Vascularized and Complex Organ Buds from Diverse Tissues via Mesenchymal Cell Driven Condensation   Cell Stem Cell                   doi         j stem              PMID               
+Turner DA  Baillie Johnson P  Martinez Arias A  February         Organoids and the genetically encoded self assembly of embryonic stem cells   BioEssays                   doi         bies            PMC               PMID               
+Willyard C  July         The boom in mini stomachs  brains  breasts  kidneys and more   Nature                       Bibcode     Natur         W  doi               a  PMID               
+
+External links edit 
+ Organoid based regenerative medicine   Longevity Wiki     March      
+
+
+
+
+
+Retrieved from  https   en wikipedia org w index php title Organoid amp oldid

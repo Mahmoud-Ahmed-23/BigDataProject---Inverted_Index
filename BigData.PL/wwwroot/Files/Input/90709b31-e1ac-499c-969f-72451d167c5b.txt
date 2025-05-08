@@ -1,0 +1,897 @@
+Hypothetical process of digitally emulating a brain
+ Mind transfer  redirects here  For other uses  see Mind transfer  disambiguation  
+Schematic representation of a mind being uploaded from a human brain to a computer
+Part of a series onCyborgs
+Cyborgology
+Bionics
+Biomimicry
+Biomedical engineering
+Brain computer interface
+Cybernetics
+Distributed cognition
+Genetic engineering
+Human ecosystem
+Human enhancement
+Intelligence amplification
+Whole brain emulation
+
+Theory
+Cyborg anthropology
+
+Centers
+Cyberpunk
+Cyberspace
+
+Politics
+Cognitive liberty
+Extropianism
+Morphological freedom
+Singularitarianism
+Techno progressivism
+Transhumanism
+
+Related articles
+Cyborg art
+vte
+Mind uploading is a speculative process of whole brain emulation in which a brain scan is used to completely emulate the mental state of the individual in a digital computer  The computer would then run a simulation of the brain s information processing  such that it would respond in essentially the same way as the original brain and experience having a sentient conscious mind                                  
+Substantial mainstream research in related areas is being conducted in neuroscience and computer science  including animal brain mapping and simulation             development of faster supercomputers  virtual reality  brain computer interfaces  connectomics  and information extraction from dynamically functioning brains             According to supporters  many of the tools and ideas needed to achieve mind uploading already exist or are under active development  however  they will admit that others are  as yet  very speculative  but say they are still in the realm of engineering possibility 
+Mind uploading may potentially be accomplished by either of two methods  copy and upload or copy and delete by gradual replacement of neurons  which can be considered as a gradual destructive uploading   until the original organic brain no longer exists and a computer program emulating the brain takes control of the body  In the case of the former method  mind uploading would be achieved by scanning and mapping the salient features of a biological brain  and then by storing and copying that information state into a computer system or another computational device  The biological brain may not survive the copying process or may be deliberately destroyed during it in some variants of uploading  The simulated mind could be within a virtual reality or simulated world  supported by an anatomic  D body simulation model  Alternatively  the simulated mind could reside in a computer inside or either connected to or remotely controlled by a  not necessarily humanoid  robot  biological  or cybernetic body            
+Among some futurists and within part of transhumanist movement  mind uploading is treated as an important proposed life extension or immortality technology  known as  digital immortality    Some believe mind uploading is humanity s current best option for preserving the identity of the species  as opposed to cryonics  Another aim of mind uploading is to provide a permanent backup to our  mind file   to enable interstellar space travel  and a means for human culture to survive a global disaster by making a functional copy of a human society in a computing device  Whole brain emulation is discussed by some futurists as a  logical endpoint             of the topical computational neuroscience and neuroinformatics fields  both about brain simulation for medical research purposes  It is discussed in artificial intelligence research publications as an approach to strong AI  artificial general intelligence  and to at least weak superintelligence  Another approach is seed AI  which would not be based on existing brains  Computer based intelligence such as an upload could think much faster than a biological human even if it were no more intelligent  A large scale society of uploads might  according to futurists  give rise to a technological singularity  meaning a sudden time constant decrease in the exponential development of technology             Mind uploading is a central conceptual feature of numerous science fiction novels  films  and games            
+
+
+Overview edit 
+Many neuroscientists believe that the human mind is largely an emergent property of the information processing of its neuronal network            
+Neuroscientists have stated that important functions performed by the mind  such as learning  memory  and consciousness  are due to purely physical and electrochemical processes in the brain and are governed by applicable laws  For example  Christof Koch and Giulio Tononi wrote in IEEE Spectrum 
+
+Consciousness is part of the natural world  It depends  we believe  only on mathematics and logic and on the imperfectly known laws of physics  chemistry  and biology  it does not arise from some magical or otherworldly quality             
+Eminent computer scientists and neuroscientists have predicted that advanced computers will be capable of thought and even attain consciousness  including Koch and Tononi              Douglas Hofstadter              Jeff Hawkins              Marvin Minsky              Randal A  Koene  and Rodolfo Llin s             
+Many theorists have presented models of the brain and have established a range of estimates of the amount of computing power needed for partial and complete simulations                        Using these models  some have estimated that uploading may become possible within decades if trends such as Moore s law continue              As of December       this kind of technology is almost entirely theoretical 
+
+Theoretical benefits and applications edit 
+ Immortality  or backup edit 
+Main article  Digital immortality
+In theory  if the information and processes of the mind can be disassociated from the biological body  they are no longer tied to the individual limits and lifespan of that body  Furthermore  information within a brain could be partly or wholly copied or transferred to one or more other substrates  including digital storage or another brain   thereby from a purely mechanistic perspective reducing or eliminating  mortality risk  of such information  This general proposal was discussed in      by biogerontologist George M  Martin of the University of Washington              This questions the concept of identity  From the perspective of the biological brain  the simulated brain may just be a copy  even if it is conscious and has an indistinguishable character  As such  the original biological being  before the uploading  might consider the digital twin to be a new and independent being rather than the future self             
+
+Space exploration edit 
+An  uploaded astronaut  could be used instead of a  live  astronaut in human spaceflight  avoiding the perils of zero gravity  the vacuum of space  and cosmic radiation to the human body  It would allow for the use of smaller spacecraft  such as the proposed StarChip  and it would enable virtually unlimited interstellar travel distances             
+
+Mind editing edit 
+While some researchers believe editing human brains to be physically possible in theory  for example by performing neurosurgery with nanobots  it would require particularly advanced technology  Editing an uploaded mind would be much easier  as long as the exact edits to be made are known              This would facilitate cognitive enhancement and the precise control of the well being  motivations or personality of the emulated beings             
+
+Speed edit 
+Although the number of neuronal connections in the human brain is very significant  around     trillions               the frequency of activation of biological neurons is limited to around          Hz  whereas electronic hardware can easily operate at multiple GHz  With sufficient hardware parallelism  a simulated brain could thus in theory be made to run faster than a biological brain  Uploaded beings may therefore not only be more efficient  but also supposedly have a faster rate of subjective experience than biological brains  e g  experiencing an hour of lifetime in a single second of real time              
+
+Relevant technologies and techniques edit 
+The focus of mind uploading  in the case of copy and transfer  is on data acquisition  rather than data maintenance of the brain  A set of approaches known as loosely coupled off loading  LCOL  may be used in the attempt to characterize and copy the mental contents of a brain              The LCOL approach may take advantage of self reports  life logs and video recordings that can be analyzed by artificial intelligence  A bottom up approach may focus on the specific resolution and morphology of neurons  the spike times of neurons  the times at which neurons produce action potential responses 
+
+Computational complexity edit 
+Estimates of how much processing power is needed to emulate a human brain at various levels  along with the fastest and slowest supercomputers from TOP    and a       PC  Note the logarithmic scale  The  exponential  trend line for the fastest supercomputer reflects a doubling every    months  Kurzweil believes that mind uploading will be possible at neural simulation  while the Sandberg  amp  Bostrom report is less certain about where consciousness arises             
+Advocates of mind uploading point to Moore s law to support the notion that the necessary computing power is expected to become available within a few decades  However  the actual computational requirements for running an uploaded human mind are very difficult to quantify  potentially rendering such an argument specious 
+Regardless of the techniques used to capture or recreate the function of a human mind  the processing demands are likely to be immense  due to the large number of neurons in the human brain along with the considerable complexity of each neuron 
+Required computational capacity strongly depends on the chosen level of simulation model scale            
+
+
+
+Level
+CPU demand FLOPS 
+Memory demand Tb 
+   million super computer Earliest year of making 
+
+
+Analog network population model
+    
+   
+    
+
+
+Spiking neural network
+    
+   
+    
+
+
+Electrophysiology
+    
+   
+    
+
+
+Metabolome
+    
+   
+    
+
+
+Proteome
+    
+   
+    
+
+
+States of protein complexes
+    
+   
+    
+
+
+Distribution of complexes
+    
+   
+    
+
+
+Stochastic behavior of single molecules
+    
+    
+    
+
+Estimates from Sandberg  Bostrom      
+
+Scanning and mapping scale of an individual edit 
+When modelling and simulating the brain of a specific individual  a brain map or connectivity database showing the connections between the neurons must be extracted from an anatomic model of the brain  For whole brain simulation  this network map should show the connectivity of the whole nervous system  including the spinal cord  sensory receptors  and muscle cells  Destructive scanning of a small sample of tissue from a mouse brain including synaptic details is possible as of                  
+However  if short term memory and working memory include prolonged or repeated firing of neurons  as well as intra neural dynamic processes  the electrical and chemical signal state of the synapses and neurons may be hard to extract  The uploaded mind may then perceive a memory loss of the events and mental processes immediately before the time of brain scanning            
+A full brain map has been estimated to occupy less than   x      bytes         TB  and would store the addresses of the connected neurons  the synapse type and the synapse  weight  for each of the brains       synapses                 failed verification      However  the biological complexities of true brain function  e g  the epigenetic states of neurons  protein components with multiple functional states  etc   may preclude an accurate prediction of the volume of binary data required to faithfully represent a functioning human mind 
+
+Serial sectioning edit 
+Serial sectioning of a brain
+A possible method for mind uploading is serial sectioning  in which the brain tissue and perhaps other parts of the nervous system are frozen and then scanned and analyzed layer by layer  which for frozen samples at nano scale requires a cryo ultramicrotome  thus capturing the structure of the neurons and their interconnections                          The exposed surface of frozen nerve tissue would be scanned and recorded  and then the surface layer of tissue removed  While this would be a very slow and labor intensive process  research is underway to automate the collection and microscopy of serial sections              The scans would then be analyzed  and a model of the neural net recreated in the system into which the mind was being uploaded 
+There are uncertainties with this approach using current microscopy techniques  If it is possible to replicate neuron function from its visible structure alone  then the resolution afforded by a scanning electron microscope would suffice for such a technique              However  as the function of brain tissue is partially determined by molecular events  particularly at synapses  but also at other places on the neuron s cell membrane   this may not suffice for capturing and simulating neuron functions  It may be possible to extend the techniques of serial sectioning and to capture the internal molecular makeup of neurons  through the use of sophisticated immunohistochemistry staining methods that could then be read via confocal laser scanning microscopy  However  as the physiological genesis of  mind  is not currently known  this method may not be able to access all of the necessary biochemical information to recreate a human brain with sufficient fidelity 
+
+Brain imaging edit 
+Process from MRI acquisition to whole brain structural network            
+Magnetoencephalography
+It may be possible to create functional  D maps of the brain activity  using advanced neuroimaging technology  such as functional MRI  fMRI  for mapping change in blood flow   magnetoencephalography  MEG  for mapping of electrical currents   or combinations of multiple methods  to build a detailed three dimensional model of the brain using non invasive and non destructive methods  Today  fMRI is often combined with MEG for creating functional maps of human cortex during more complex cognitive tasks  as the methods complement each other  Even though current imaging technology lacks the spatial resolution needed to gather the information needed for such a scan  important recent and future developments are predicted to substantially improve both spatial and temporal resolutions of existing technologies             
+
+Brain simulation edit 
+Main article  Brain simulation
+Ongoing work in the field of brain simulation includes partial and whole simulations of some animals             For example  the C  elegans roundworm              Drosophila fruit fly              and mouse             have all been simulated to various degrees 
+The Blue Brain Project  initiated by the Brain and Mind Institute of the  cole Polytechnique F d rale de Lausanne in Switzerland  is an attempt to create a synthetic brain by reverse engineering mammalian brain circuitry  in order to accelerate experimental research on the brain              In       after a successful simulation of part of a rat brain  the director Henry Markram claimed that  A detailed  functional artificial human brain can be built within the next    years               In       Markram became the director of the new decade long Human Brain Project  But less than two years into it  the project was recognized to be mismanaged and its claims overblown  and Markram was asked to step down                         
+
+Nanobots edit 
+One approach to digital immortality is gradually  replacing  neurons in the brain with advanced medical technology such as nanobiotechnology  possibly using wetware computer technology or using nanobots to read brain structure as described by Alexey Turchin             
+
+Issues edit 
+Philosophical issues edit 
+The main philosophical problem faced by  mind uploading  or mind copying is the hard problem of consciousness  the difficulty of explaining how a physical entity such as a human can have qualia  phenomenal consciousness  or subjective experience              Many philosophical responses to the hard problem entail that mind uploading is fundamentally or practically impossible  while others are compatible with at least some formulations of mind uploading  Many proponents of mind uploading defend the possibility of mind uploading by recourse to physicalism  which includes the philosophical belief that consciousness is an emergent feature that arises from large neural network high level patterns of organization  which could be realized in other processing devices  Mind uploading relies on the idea that the human mind  the  self  and the long term memory  reduces to the current neural network paths and the weights of synapses in the brain  In contrast  many dualistic and idealistic accounts seek to avoid the hard problem of consciousness by explaining it in terms of immaterial  and presumably inaccessible  substances like soul  which would pose a fundamental or at least practical challenge to the feasibility of artificial consciousness in general             
+Assuming physicalism is true  the mind can be defined as the information state of the brain  so it is immaterial only in the same sense as the information content of a data file  or the state of software residing in a computer s memory  In this case  data specifying the information state of the neural network could be captured and copied as a  computer file  from the brain and re implemented into a different physical form              This is not to deny that minds are richly adapted to their substrates              An analogy to mind uploading is to copy the information state of a computer program from the memory of the computer on which it is executing to another computer and then continue its execution on the second computer  The second computer may perhaps have different hardware architecture  but it emulates the hardware of the first computer 
+These philosophical issues have a long history  In       Thomas Reid wrote   I would be glad to know    whether when my brain has lost its original structure  and when some hundred years after the same materials are fabricated so curiously as to become an intelligent being  whether  I say that being will be me  or  if  two or three such beings should be formed out of my brain  whether they will all be me  and consequently one and the same intelligent being               Although the name of the hard problem of consciousness was coined in       debate surrounding the problem itself is ancient  Augustine of Hippo argued against physicalist  Academians  in the  th century  writing that consciousness cannot be an illusion because only a conscious being can be deceived or experience an illusion              Ren  Descartes  the founder of mind body dualism  made a similar objection in the   th century  coining the popular phrase  Je pense  donc je suis    I think  therefore I am                Although physicalism is known to have been proposed in ancient times  Thomas Huxley was among the first to describe mental experience as merely an epiphenomenon of interactions within the brain  having no causal power of its own and being entirely downstream from the brain s activity             
+A considerable portion of transhumanists and singularitarians place great hope in the belief that they may become immortal  by creating one or many non biological functional copies of their brains  thereby leaving their  biological shell   However  the philosopher and transhumanist Susan Schneider claims that at best  uploading would create a copy of the original person s mind              Schneider agrees that consciousness has a computational basis  but this does not mean we can upload and survive  According to her views   uploading  would probably result in the death of the original person s brain  while only outside observers can maintain the illusion of the original person still being alive  For it is implausible to think that one s consciousness would leave one s brain and travel to a remote location  ordinary physical objects do not behave this way  Ordinary objects  rocks  tables  etc   are not simultaneously here  and elsewhere  At best  a copy of the original mind is created              Neural correlates of consciousness  a sub branch of neuroscience  states that consciousness may be thought of as a state dependent property of some undefined complex  adaptive  and highly interconnected biological system             
+Others have argued against such conclusions  For example  Buddhist transhumanist James Hughes has pointed out that this consideration only goes so far  if one believes the self is an illusion  worries about survival are not reasons to avoid uploading              and Keith Wiley has presented an argument wherein all resulting minds of an uploading procedure are granted equal primacy in their claim to the original identity  such that survival of the self is determined retroactively from a strictly subjective position                          Some have also asserted that consciousness is a part of an extra biological system that is yet to be discovered  therefore it cannot be fully understood under the present constraints of neurobiology  Without the transference of consciousness  true mind upload or perpetual immortality cannot be practically achieved             
+Another potential consequence of mind uploading is that the decision to  upload  may then create a mindless symbol manipulator instead of a conscious mind  see philosophical zombie                           If a computer could process sensory inputs to generate the same outputs that a human mind does  speech  muscle movements  etc   without necessarily having any experience of consciousness  then it may be impossible to determine whether the uploaded mind is truly conscious  and not merely an automaton that externally behaves the way a human would  Thought experiments like the Chinese room raise fundamental questions about mind uploading  If an upload displays behaviors that are highly indicative of consciousness  or even verbally insists that it is conscious  does that prove it is conscious              There might also be an absolute upper limit in processing speed  above which consciousness cannot be sustained  The subjectivity of consciousness precludes a definitive answer to this question             
+Numerous scientists  including Ray Kurzweil  believe that whether a separate entity is conscious is impossible to know with confidence  since consciousness is inherently subjective  see also  solipsism   Regardless  some scientists believe consciousness is the consequence of computational processes which are substrate neutral  Still other scientists  prominent among them Roger Penrose  believe consciousness may emerge from some form of quantum computation that is dependent on the organic substrate  see quantum mind                                      
+
+In light of uncertainty about whether mind uploads are conscious  Sandberg proposes a cautious approach              Principle of assuming the most  PAM   Assume that any emulated system could have the same mental properties as the original system and treat it correspondingly 
+Ethical and legal implications edit 
+The process of developing emulation technology raises ethical issues related to animal welfare and artificial consciousness              The neuroscience required to develop brain emulation would require animal experimentation  first on invertebrates and then on small mammals before moving on to humans  Sometimes the animals would just need to be euthanized in order to extract  slice  and scan their brains  but sometimes behavioral and in vivo measures would be required  which might cause pain to living animals             
+In addition  the resulting animal emulations themselves might suffer  depending on one s views about consciousness              Bancroft argues for the plausibility of consciousness in brain simulations on the basis of the  fading qualia  thought experiment of David Chalmers  He then concludes               If  as I argue above  a sufficiently detailed computational simulation of the brain is potentially operationally equivalent to an organic brain  it follows that we must consider extending protections against suffering to simulations   Chalmers himself has argued that such virtual realities would be genuine realities              However  if mind uploading occurs and the uploads are not conscious  there may be a significant opportunity cost  In the book Superintelligence  Nick Bostrom expresses concern that we could build a  Disneyland without children              
+It might help reduce emulation suffering to develop virtual equivalents of anaesthesia  as well as to omit processing related to pain and or consciousness  However  some experiments might require a fully functioning and suffering animal emulation  Animals might also suffer by accident due to flaws and lack of insight into what parts of their brains are suffering              Questions also arise regarding the moral status of partial brain emulations  as well as creating neuromorphic emulations that draw inspiration from biological brains but are built somewhat differently             
+Brain emulations could be erased by computer viruses or malware  without the need to destroy the underlying hardware  This may make assassination easier than for physical humans  The attacker might take the computing power for its own use             
+Many questions arise regarding the legal personhood of emulations              Would they be given the rights of biological humans  If a person makes an emulated copy of themselves and then dies  does the emulation inherit their property and official positions  Could the emulation ask to  pull the plug  when its biological version was terminally ill or in a coma  Would it help to treat emulations as adolescents for a few years so that the biological creator would maintain temporary control  Would criminal emulations receive the death penalty  or would they be given forced data modification as a form of  rehabilitation   Could an upload have marriage and child care rights             
+If simulated minds would come true and if they were assigned rights of their own  it may be difficult to ensure the protection of  digital human rights   For example  social science researchers might be tempted to secretly expose simulated minds  or whole isolated societies of simulated minds  to controlled experiments in which many copies of the same minds are exposed  serially or simultaneously  to different test conditions      citation needed     
+Research led by cognitive scientist Michael Laakasuo has shown that attitudes towards mind uploading are predicted by an individual s belief in an afterlife  the existence of mind uploading technology may threaten religious and spiritual notions of immortality and divinity             
+
+Political and economic implications edit 
+This section needs to be updated  The reason given is  may not be relevant anymore  considering recent progress in large multimodal models  Please help update this article to reflect recent events or newly available information    June      
+Emulations might be preceded by a technological arms race driven by first strike advantages  Their emergence and existence may lead to increased risk of war  including inequality  power struggles  strong loyalty and willingness to die among emulations  and new forms of racism  xenophobia  and religious prejudice                          If emulations run much faster than humans  there might not be enough time for human leaders to make wise decisions or negotiate  It is possible that humans would react violently against the growing power of emulations  especially if that depresses human wages  Emulations may not trust each other  and even well intentioned defensive measures might be interpreted as offense             
+The book The Age of Em by Robin Hanson poses many hypotheses on the nature of a society of mind uploads  including that the most common minds would be copies of adults with personalities conducive to long hours of productive specialized work             
+
+Emulation timelines and AI risk edit 
+This section needs to be updated  The reason given is  most sources are more than    years old  and may not reflect the current state of the debate  Please help update this article to reflect recent events or newly available information    June      
+Kenneth D  Miller  a professor of neuroscience at Columbia University and a co director of the Center for Theoretical Neuroscience  raised doubts about the practicality of mind uploading  His major argument is that reconstructing neurons and their connections is in itself a formidable task  but it is far from being sufficient  Operation of the brain depends on the dynamics of electrical and biochemical signal exchange between neurons  therefore  capturing them in a single  frozen  state may prove insufficient  In addition  the nature of these signals may require modeling at the molecular level and beyond  Therefore  while not rejecting the idea in principle  Miller believes that the complexity of the  absolute  duplication of an individual mind is insurmountable for the nearest hundreds of years             
+There are very few feasible technologies that humans have refrained from developing  The neuroscience and computer hardware technologies that may make brain emulation possible are widely desired for other reasons  and logically their development will continue into the future  We may also have brain emulations for a brief but significant period on the way to non emulation based human level AI              Assuming that emulation technology will arrive  a question becomes whether we should accelerate or slow its advance             
+Arguments for speeding up brain emulation research 
+
+If neuroscience is the bottleneck on brain emulation rather than computing power  emulation advances may be more erratic and unpredictable based on when new scientific discoveries happen                                      Limited computing power would mean the first emulations would run slower and so would be easier to adapt to  and there would be more time for the technology to transition through society             
+Improvements in manufacturing   D printing  and nanotechnology may accelerate hardware production              which could increase the  computing overhang              from excess hardware relative to neuroscience 
+If one AI development group had a lead in emulation technology  it would have more subjective time to win an arms race to build the first superhuman AI  Because it would be less rushed  it would have more freedom to consider AI risks                         
+Arguments for slowing brain emulation research 
+
+Greater investment in brain emulation and associated cognitive science might enhance the ability of artificial intelligence  AI  researchers to create  neuromorphic   brain inspired  algorithms  such as neural networks  reinforcement learning  and hierarchical perception  This could accelerate risks from uncontrolled AI                          Participants at a      AI workshop estimated an     probability that neuromorphic AI would arrive before brain emulation  This was based on the idea that brain emulation would require understanding of the workings and functions of the different brain components  along with the technological know how to emulate neurons  To counter this idea  reverse engineering the Microsoft Windows code base is already hard  so reverse engineering the brain would likely be much harder  By a very narrow margin  the participants on balance leaned toward the view that accelerating brain emulation would increase expected AI risk             
+Waiting might give society more time to think about the consequences of brain emulation and develop institutions to improve cooperation                         
+Emulation research would also accelerate neuroscience as a whole  which might accelerate medical advances  cognitive enhancement  lie detectors  and capability for psychological manipulation             
+Emulations might be easier to control than de novo AI because 
+
+Human abilities  behavioral tendencies  and vulnerabilities are more thoroughly understood  thus control measures might be more intuitive and easier to plan                         
+Emulations could more easily inherit human motivations             
+Emulations are harder to manipulate than de novo AI  because brains are messy and complicated  this could reduce risks of their rapid takeoff                          Also  emulations may be bulkier and require more hardware than AI  which would also slow the speed of a transition              Unlike AI  an emulation would not be able to rapidly expand beyond the size of a human brain              Emulations running at digital speeds would have less intelligence differential vis   vis AI and so might more easily control AI             
+As counterpoint to these considerations  Bostrom notes some downsides 
+
+Even if we better understand human behavior  the evolution of emulation behavior under self improvement might be much less predictable than the evolution of safe de novo AI under self improvement             
+Emulations may not inherit all human motivations  Perhaps they would inherit our darker motivations or would behave abnormally in the unfamiliar environment of cyberspace             
+Even if there is a slow takeoff toward emulations  there would still be a second transition to de novo AI later on  Two intelligence explosions may mean more total risk             
+Because of the postulated difficulties that a whole brain emulation generated superintelligence would pose for the control problem  computer scientist Stuart J  Russell in his book Human Compatible rejects creating one  simply calling it  so obviously a bad idea              
+
+Advocates edit 
+In       Hans Moravec        described and endorsed mind uploading using a brain surgeon              Moravec used a similar description in       calling it  transmigration              
+Ray Kurzweil  director of engineering at Google  has long predicted that people will be able to  upload  their entire brains to computers and become  digitally immortal  by       Kurzweil made this claim for many years  e g  during his speech in      at the Global Futures      International Congress in New York  which claims to subscribe to a similar set of beliefs              Mind uploading has also been advocated by a number of researchers in neuroscience and artificial intelligence  such as Marvin Minsky      citation needed      In       Joe Strout created a small web site called the Mind Uploading Home Page  and began advocating the idea in cryonics circles and elsewhere on the net  That site has not been actively updated in recent years  but it has spawned other sites including MindUploading org  run by Randal A  Koene  who also moderates a mailing list on the topic  These advocates see mind uploading as a medical procedure which could eventually save countless lives 
+Many transhumanists look forward to the development and deployment of mind uploading technology  with transhumanists such as Nick Bostrom predicting that it will become possible within the   st century due to technological trends such as Moore s law            
+Michio Kaku  in collaboration with Science  hosted a documentary  Sci Fi Science  Physics of the Impossible  based on his book Physics of the Impossible  Episode four  titled  How to Teleport   mentions that mind uploading via techniques such as quantum entanglement and whole brain emulation using an advanced MRI machine may enable people to be transported vast distances at near light speed 
+The book Beyond Humanity  CyberEvolution and Future Minds by Gregory S  Paul  amp  Earl D  Cox  is about the eventual  and  to the authors  almost inevitable  evolution of computers into sentient beings  but also deals with human mind transfer  Richard Doyle s Wetwares  Experiments in PostVital Living deals extensively with uploading from the perspective of distributed embodiment  arguing for example that humans are currently part of the  artificial life phenotype   Doyle s vision reverses the polarity on uploading  with artificial life forms such as uploads actively seeking out biological embodiment as part of their reproductive strategy 
+
+In fiction edit 
+Main article  Mind uploading in fiction
+Mind uploading transferring an individual s personality to a computer appears in several works of science fiction              It is distinct from the concept of transferring a consciousness from one human body to another                          It is sometimes applied to a single person and other times to an entire society              Recurring themes in these stories include whether the computerized mind is truly conscious  and if so  whether identity is preserved              It is a common feature of the cyberpunk subgenre              sometimes taking the form of digital immortality                         
+
+See also edit 
+
+Artificial consciousness
+BRAIN Initiative
+Brain transplant
+Brain reading
+Cyborg
+Cylon  reimagining 
+Democratic transhumanism
+Human Brain Project
+Isolated brain
+Neuralink
+Open individualism
+Posthumanization
+Robotoid
+Ship of Theseus thought experiment asking if objects having all parts replaced fundamentally remain the same object
+Simulation hypothesis
+Technologically enabled telepathy
+Teletransportation paradox
+Thought recording and reproduction device
+Turing test
+The Future of Work and Death
+Vertiginous question
+Chinese room
+     Initiative
+Dmitry Itskov
+Miguel Nicolelis
+Neural network  machine learning 
+
+References edit 
+
+
+  Bamford  Sim          A framework for approaches to transfer of a mind s substrate   PDF   International Journal of Machine Consciousness                 doi         s                  ISSN                
+
+  Goertzel  Ben  Ikle   Matthew          Introduction   International Journal of Machine Consciousness           doi         S                 
+
+  Sotala  Kaj  Valpola  Harri  June         Coalescing minds  brain uploading related group mind scenarios   PDF   International Journal of Machine Consciousness                   doi         S                  S CID              
+
+  a b c Fan  Xue  Markram  Henry                A Brief History of Simulation Neuroscience   Frontiers in Neuroinformatics          doi         fninf             ISSN                 PMC               PMID               
+
+  Kay KN  Naselaris T  Prenger RJ  Gallant JL  March         Identifying natural images from human brain activity   Nature                     Bibcode     Natur         K  doi         nature       PMC               PMID               
+
+  a b c d e f g 
+Sandberg  Anders  Bostr m  Nick         Whole Brain Emulation  A Roadmap  PDF   Technical Report          Future of Humanity Institute  Oxford University  Retrieved   April       The basic idea is to take a particular brain  scan its structure in detail  and construct a software model of it that is so faithful to the original that  when run on appropriate hardware  it will behave in essentially the same way as the original brain 
+
+  Goertzel  Ben  December         Human level artificial general intelligence and the possibility of a technological singularity  a reaction to Ray Kurzweil s The Singularity Is Near  and McDermott s critique of Kurzweil   Artificial Intelligence           Special Review Issue              doi         j artint             
+
+   SFE  Upload   sf encyclopedia com  Retrieved            
+
+  Hopfield  J  J                 Neural networks and physical systems with emergent collective computational abilities   Proceedings of the National Academy of Sciences                     Bibcode     PNAS          H  doi         pnas            ISSN                 PMC              PMID              
+
+  a b Koch  Christof  Tononi  Giulio          Can machines be conscious    PDF   IEEE Spectrum              doi         MSPEC               S CID              
+
+  a b  Tech Luminaries Address Singularity   IEEE  Archived from the original on             Retrieved            
+
+  Minsky  Marvin  June         Conscious Machines   Machinery of Consciousness  Proceedings  National Research Council of Canada    th Anniversary Symposium on Science in Society 
+
+  Llinas  R         I of the vortex  from neurons to self  Cambridge  MIT Press  pp                ISBN                        
+
+  Kurzweil  Ray  February         Live Forever Uploading The Human Brain   Closer Than You Think   Psychology Today 
+
+  Martin  G  M           Brief proposal on immortality  an interim solution   Perspectives in Biology and Medicine                   doi         pbm            PMID               S CID               
+
+  Rosenberg  Louis                Identity crisis  Artificial intelligence and the flawed logic of  mind uploading    VentureBeat  Retrieved            
+
+  Prisco  Giulio     December         Uploaded e crews for interstellar missions   kurzweilai net  Retrieved    July      
+
+  Bostrom  Nick  March             Handout     downloading and brain editing   Deep Utopia  Life and Meaning in a Solved World  Ideapress  ISBN                     
+
+  Bostrom  Nick  March             Handout    Some capabilities at technological maturity   Deep Utopia  Life and Meaning in a Solved World  Ideapress  ISBN                     
+
+  Caruso  Catherine  January             A New Field of Neuroscience Aims to Map Connections in the Brain   Harvard medical school  Retrieved            
+
+  Bostrom  Nick          Speed superintelligence   Superintelligence  paths  dangers  strategies  Oxford University Press  ISBN                        
+
+   Substrate Independent Minds   carboncopies org  Carboncopies org Foundation  Archived from the original on             Retrieved            
+
+  Roadmap   Given the complexities and conceptual issues of consciousness we will not examine criteria  abc  but mainly examine achieving criteria       p     
+
+   New imaging method developed at Stanford reveals stunning details of brain connections   Stanford Medicine     December      
+
+  Merkle  R         Large scale analysis of neural structures Archived            at the Wayback Machine  CSL       November        P         
+
+  Chalmers  David J                 Uploading  A Philosophical Analysis   Intelligence Unbound  pp                doi                       ch   ISBN                    
+
+  a b ATLUM Project  Archived            at the Wayback Machine 
+
+  Hagmann  Patric  Cammoun  Leila  Gigandet  Xavier  Meuli  Reto  Honey  Christopher J   Wedeen  Van J   Sporns  Olaf  Friston  Karl J          Friston  Karl J   ed     Mapping the Structural Core of Human Cerebral Cortex   PLOS Biology         e     doi         journal pbio          PMC               PMID               
+
+  Glover  Paul  Bowtell  Richard          Medical imaging  MRI rides the wave   Nature                       Bibcode     Natur         G  doi               a  PMID                S CID                
+
+  Niebur  E   Erd s  P   November         Theory of the locomotion of nematodes  control of the somatic motor neurons by interneurons   Mathematical Biosciences                  doi                               ISSN                 PMID              
+
+  Arena  Paolo  Patane  Luca  Termini  Pietro Savio          An insect brain computational model inspired by Drosophila melanogaster  Simulation results   The      International Joint Conference on Neural Networks  IJCNN   pp            doi         IJCNN               ISBN                           cite book          journal  ignored  help 
+
+   Mouse brain simulated on computer   BBC              Retrieved            
+
+   Bluebrain   EPFL   EPFL     May       Archived from the original on             Once this replica is built  we will be able to do experiments that normally take us years or are prohibitively expensive or too difficult to perform  This will greatly accelerate the pace of research 
+
+  Fildes  Jonathan     July         Artificial brain     years away    BBC  BBC News 
+
+  Epstein  Robert     May         The empty brain   Aeon  Retrieved            
+
+  Theil  Stefan                Why the human brain project went wrong and how to fix it   Scientific American  Retrieved            
+
+  Turchin  Alexey   Multilevel Strategy for Immortality  Plan A        Fighting Aging  Plan B        Cryonics  Plan C        Digital Immortality  Plan D        Big World Immortality   Archived from the original on    May       Retrieved   November      
+
+  Chalmers  David          Facing up to the problem of consciousness   Journal of Consciousness Studies                 
+
+  Kastrup  Bernardo          The Universe in Consciousness   Journal of Consciousness Studies                    
+
+  Cortese  Franco  June             Clearing Up Misconceptions About Mind Uploading   h  Media 
+
+  Yoonsuck Choe  Jaerock Kwon  Ji Ryang Chung          Time  Consciousness  and Mind Uploading   PDF   International Journal of Machine Consciousness               doi         S               X 
+
+   The Duplicates Paradox  The Duplicates Problem    benbest com 
+
+  Augustine of Hippo   Book     Chapter      City of God 
+
+  Descartes  Ren               Discourse on the Method 
+
+  Robinson  William          Epiphenomenalism   in Zalta  Edward N   Nodelman  Uri  eds    The Stanford Encyclopedia of Philosophy  Summer           ed    Metaphysics Research Lab  Stanford University  retrieved           
+
+  a b Schneider  Susan  March            The Philosophy of  Her    The New York Times  Retrieved May         
+
+  Squire  Larry R          Fundamental neuroscience   rd      ed    Amsterdam  Elsevier   Academic Press  ISBN                     OCLC                
+
+  Hughes  James         Transhumanism and Personal Identity  Wiley 
+
+  Wiley  Keith  March             Response to Susan Schneider s  Philosophy of  Her    H Magazine  Retrieved   May      
+
+  Wiley  Keith  September        A Taxonomy and Metaphysics of Mind Uploading   st      ed    Humanity  Press and Alautun Press  ISBN                      Retrieved    October      
+
+  Ruparel  Bhavik                On Achieving Immortality   medium com  Retrieved            
+
+  Hauskeller  Michael          My Brain  my Mind  and I  Some Philosophical Problems of Mind Uploading   Academia edu                 
+
+  Dvorsky  George  April             You Might Never Upload Your Brain Into a Computer   io  
+
+  Oto  Brandon          Seeking normative guidelines for novel future forms of consciousness   PDF   University of California  Santa Cruz  Archived from the original  PDF  on             Retrieved            
+
+  Goertzel  Ben          When Should Two Minds Be Considered Versions of One Another    PDF  
+
+  Morem  Sally  April             Goertzel Contra Dvorsky on Mind Uploading   h  Media 
+
+  Rothblatt  Martine          The Terasem Mind Uploading Experiment   PDF   International Journal of Machine Consciousness                  doi         S                  Archived from the original  PDF  on            
+
+  Hopkins  Patrick D           Why Uploading Will Not Work  or  the Ghosts Haunting Transhumanism   PDF   International Journal of Machine Consciousness                  doi         S                  Archived from the original  PDF  on            
+
+  a b c d e Sandberg  Anders     April         Ethics of brain emulations   Journal of Experimental  amp  Theoretical Artificial Intelligence                   doi                X              S CID               
+
+  a b Bancroft  Tyler D   Aug         Ethical Aspects of Computational Neuroscience   Neuroethics                  doi         s                  ISSN                 S CID                
+
+  Chalmers  David         Reality   Virtual Worlds and the Problems of Philosophy  New York  W  W  Norton  amp  Company  ISBN                    
+
+  Bostrom  Nick         Superintelligence  Paths  Dangers  Strategies  Oxford  England  Oxford University Press  ISBN                     
+
+  a b c d e f g h i Eckersley  Peter  Sandberg  Anders  Dec         Is Brain Emulation Dangerous    Journal of Artificial General Intelligence                  Bibcode     JAGI          E  doi         jagi            ISSN                
+
+  a b Muzyka  Kamil  Dec         The Outline of Personhood Law Regarding Artificial Intelligences and Emulated Human Entities   Journal of Artificial General Intelligence                  Bibcode     JAGI          M  doi         jagi            ISSN                
+
+  Laakasuo  Michael  Sundvall  Jukka  Drosinou  Marianna  et      al           Would you exchange your soul for immortality    Existential Meaning and Afterlife Beliefs Predict Mind Upload Approval   Frontiers in Psychology      doi         fpsyg               PMC                PMID               
+
+  Hurtado Hurtado  Joshua                Envisioning postmortal futures  six archetypes on future societal approaches to seeking immortality   Mortality             doi                                ISSN                 S CID                
+
+  a b Hanson  Robin         The Age of Em  Oxford  England  Oxford University Press  p            ISBN                    
+
+  Miller  Kenneth D   October             Will You Ever Be Able to Upload Your Brain    The New York Times 
+
+  Shulman  Carl  Sandberg  Anders         Mainzer  Klaus  ed     Implications of a Software Limited Singularity   PDF   ECAP    VIII European Conference on Computing and Philosophy  Retrieved    May      
+
+  a b Hanson  Robin     Nov         Bad Emulation Advance   Overcoming Bias  Retrieved    June      
+
+  Muehlhauser  Luke  Salamon  Anna          Intelligence Explosion  Evidence and Import   PDF   In Eden  Amnon  S raker  Johnny  Moor  James H   Steinhart  Eric  eds    Singularity Hypotheses  A Scientific and Philosophical Assessment  Springer 
+
+  a b c Salamon  Anna  Muehlhauser  Luke          Singularity Summit      Workshop Report   PDF   Machine Intelligence Research Institute  Retrieved    June      
+
+  a b c d e f g h i j k l m Bostrom  Nick          Ch      The strategic picture   Superintelligence  Paths  Dangers  Strategies  Oxford University Press  ISBN                     
+
+  Russell  Stuart         Human Compatible  Artificial Intelligence and the Problem of Control  Viking Press  ISBN                         OCLC                 
+
+  Moravec  Hans          Today s Computers  Intelligent Machines and Our Future   Field Robotics Center  Robotics Institute  Carnegie Mellon University  Archived from the original on             wikidata
+
+  Moravec  Hans         Mind Children 
+
+    Mind Uploading   amp  Digital Immortality May Be Reality By       Futurists Say   Huffington Post  June           Retrieved March         
+
+  Langford  David  Stableford  Brian          Upload   In Clute  John  Langford  David  Sleight  Graham  eds    The Encyclopedia of Science Fiction   th      ed    Retrieved            
+
+  Webb  Stephen          Mind Uploading   All the Wonder that Would Be  Exploring Past Notions of the Future  Science and Fiction  Springer  pp                doi                               ISBN                        
+
+  a b Fischer  John Martin  Curl  Ruth          Philosophical Models of Immortality in Science Fiction   In Slusser  George  Westfahl  Gary  Rabkin  Eric S   eds    Immortal Engines  Life Extension and Immortality in Science Fiction and Fantasy  Athens  Georgia  University of Georgia Press  pp             ISBN                     OCLC               Fischer  John Martin  Curl  Ruth          Appendix to Chapter    Philosophical Models of Immortality in Science Fiction   In Fischer  John Martin  ed    Our Stories  Essays on Life  Death  and Free Will  Oxford University Press  pp               ISBN                        
+
+  Langford  David          Computers   In Westfahl  Gary  ed    The Greenwood Encyclopedia of Science Fiction and Fantasy  Themes  Works  and Wonders  Greenwood Publishing Group  p            ISBN                        
+
+  Blackford  Russell          Reshaping the Human   Science Fiction and the Moral Imagination  Visions  Minds  Ethics  Science and Fiction  Springer  pp                ISBN                        
+
+  Booker  M  Keith          Artificial Intelligence  AI    Historical Dictionary of Science Fiction in Literature  Rowman  amp  Littlefield  p           ISBN                         Cyberpunk writers and their successors have also frequently imagined the uploading of human minds into computers  thus creating a special sort of artificial intelligence that can free individuals of the limitations of biological bodies  a notion that would be notably extended in the work of Greg Egan 
+
+  Westfahl  Gary          Immortality and Longevity   In Westfahl  Gary  ed    The Greenwood Encyclopedia of Science Fiction and Fantasy  Themes  Works  and Wonders  Greenwood Publishing Group  pp                ISBN                        
+
+
+vteOutline of life extensionIssues
+Anti oxidants
+Anti aging movement
+Biohacking
+Calorie restriction
+Cryonics
+Cyborg
+Exercise
+Free radical theory
+Gene therapy
+Gerontology
+Glycation
+Indefinite lifespan
+Index of topics related to life extension
+List of aging processes
+Longevity escape velocity
+Mind uploading
+Nanomedicine
+Organ printing
+Rejuvenation
+Senescence
+Stem cell therapy
+Strategies for engineered negligible senescence
+Transhumanist politics
+Events
+Timeline of senescence research
+People
+Bill Andrews
+Eric R  Braverman
+Aubrey de Grey
+Laura Deming
+Denham Harman
+Leonard Hayflick
+Saul Kent
+Cynthia Kenyon
+Dimu Kotsovsky
+Ray Kurzweil
+Ilya Mechnikov
+Liz Parrish
+Durk Pearson
+Mark Roth
+Sandy Shaw
+Roy Walford
+Michael D  West
+Organizations
+     Initiative
+A M
+AgeX
+Alliance for Aging Research
+Altos Labs
+AGE
+Buck Institute
+BioViva
+Calico
+ERIBA
+Gerontology Research Group
+Human Longevity
+Immortalist Society
+ILA
+Insilico Medicine
+LEAF
+LEF
+Methuselah Foundation
+MPI for Biology of Ageing
+NIA
+SENS Research Foundation
+Sierra Sciences
+Books
+Life Extension       
+The First Immortal       
+Fantastic Voyage       
+Ending Aging       
+Lifespan  Why We Age   and Why We Don t Have To       
+Journals
+Ageing Research Reviews
+Aging
+Aging Cell
+Biogerontology
+Experimental Gerontology
+Neurobiology of Aging
+Rejuvenation Research
+Categories
+Life extension
+
+vteBrain computer interfaceTechnologies
+Biomechatronics
+Brain implant
+BrainGate
+Brainport
+Cyberware
+Exocortex
+Intelligence amplification
+Isolated brain
+Neuroprosthetics
+Neurotechnology
+Optogenetics
+Sensory substitution
+Stentrode
+Synthetic telepathy
+Scientific phenomena
+Electrocorticography  ECoG 
+Neural ensemble
+Neuroplasticity
+Disciplines
+Cognitive science
+Cognitive neuroscience
+Computational neuroscience
+NBIC
+Neural engineering
+Neuroscience
+Speculative
+Brain transplant
+Cyborg
+Mind uploading
+People
+Charles Stross
+Douglas Engelbart
+Hugh Herr
+J  C  R  Licklider
+Kevin Warwick
+Matt Nagle
+Merlin Donald
+Miguel Nicolelis
+Peter Kyberd
+Steve Mann
+Vernor Vinge
+Yoky Matsuoka
+Edward Boyden
+Other
+Extended reality
+Human enhancement
+Neurohacking
+Simulation hypothesis
+Transhumanism
+Walk Again Project
+
+ Category
+ Commons
+
+vteEmerging technologiesFieldsInformation andcommunications
+Ambient intelligence
+Internet of things
+Artificial intelligence
+Applications of artificial intelligence
+Machine translation
+Machine vision
+Mobile translation
+Progress in artificial intelligence
+Semantic Web
+Speech recognition
+Atomtronics
+Carbon nanotube field effect transistor
+Cybermethodology
+Extended reality
+Fourth generation optical discs
+ D optical data storage
+Holographic data storage
+GPGPU
+Memory
+CBRAM
+ECRAM
+FRAM
+Millipede
+MRAM
+NRAM
+PRAM
+Racetrack memory
+RRAM
+SONOS
+UltraRAM
+Optical computing
+RFID
+Chipless RFID
+Software defined radio
+Three dimensional integrated circuit
+Neuroscience
+Artificial brain
+Brain computer interface
+Electroencephalography
+Mind uploading
+Brain reading
+Neuroinformatics
+Neuroprosthetics
+Brain implant
+Exocortex
+Retinal implant
+Visual prosthesis
+Neurotechnology
+Topics
+Automation
+Collingridge dilemma
+Differential technological development
+Disruptive innovation
+Ephemeralization
+Ethics
+Bioethics
+Cyberethics
+Neuroethics
+Robot ethics
+Exploratory engineering
+Proactionary principle
+Technological change
+Technological unemployment
+Technological convergence
+Technological evolution
+Technological paradigm
+Technology forecasting
+Accelerating change
+Future oriented technology analysis
+Horizon scanning
+Moore s law
+Technological singularity
+Technology scouting
+Technology in science fiction
+Technology readiness level
+Technology roadmap
+Transhumanism
+
+ List
+
+vteScience fictionOutline
+Authors
+Definitions
+Anthropological
+Hard
+Scientific romance
+Soft
+History
+Pulp era
+Golden Age
+New Wave
+Timeline
+Subgenres
+Apocalyptic and post apocalyptic
+Comedy
+Sitcoms
+Feminist
+Grimdark
+Inner space
+Mecha
+Anime and manga
+Mundane
+Space warfare
+Military
+Space opera
+Space Western
+Parallel universes
+Isekai
+Science fantasy
+Dying Earth
+Planetary romance
+Superhero
+Sword and planet
+Social
+Climate fiction
+Christian
+Libertarian
+Utopian and dystopian
+Tech noir
+Spy Fi
+Techno thriller
+Tokusatsu
+Kaiju
+Underwater
+Cyberpunk derivatives
+Cyberpunk
+Japanese
+Biopunk
+Dieselpunk
+Nanopunk
+Solarpunk
+Steampunk
+Culture
+Conventions
+Fandom
+Fanzines
+ISFDB
+Libraries and museums
+Science Fiction Museum
+Studies
+Women in SF
+Worldcon
+Region
+Australian
+Bengali
+Brazilian
+Canadian
+Chilean
+Chinese
+Croatian
+Czech
+Estonian
+French
+Hungarian
+Japanese
+Norwegian
+Polish
+Romanian
+Russian
+Serbian
+Spanish
+Yugoslav
+AwardsCinematic
+Jules Verne
+Saturn
+Literary  art and audio
+Astounding
+Aurealis
+BSFA
+Campbell Memorial
+Chesley
+Clarke
+Crook
+Deutscher
+Dick
+Ditmar
+Endeavor
+FantLab
+Galaxy
+Gaughan
+Geffen
+Golden Duck
+Grand Master
+Grand Prix
+Harland
+Heinlein
+Ignotus
+Kitschies
+Lambda
+La witz
+Locus
+Nautilus
+Nebula
+Nommo
+Norton
+Parsec
+Prometheus
+Rhysling
+SFERA
+Sidewise
+Skylark
+Sturgeon
+Sunburst
+T htivaeltaja
+TBD
+Tiptree
+Tour Apollo
+Translation
+Urania
+Vogel
+Writers and Illustrators of the Future
+Zajdel
+Multimedia
+Aurora
+Chandler
+Dragon
+Hugo
+Seiun
+Spectrum
+MediaFilm
+Film history
+Films
+Indian
+Japanese
+Anime
+Tokusatsu
+Literature
+Comics
+Magazines
+Novels
+Publishers
+Short stories
+Stage
+Opera
+Theatre
+Television
+List of TV shows
+Australasian
+British
+Canadian
+European
+Japanese
+Anime
+Live action
+U S 
+ThemesArchitectural
+Dyson sphere
+Ecumenopolis
+Matrioshka brain
+Space stations and habitats
+Stellar engine
+Terraforming
+Topopolis
+Biological
+Biological warfare
+Evolution
+Extraterrestrials
+List
+Gender
+Genetic engineering
+Invisibility
+Nanotechnology
+Organ transplantation
+Parasitism
+Sex and sexuality
+Symbiosis
+Physical
+Black holes
+Extrasolar planets
+Multiverse
+Parallel universes
+Portable hole
+Space travel
+Stars
+Tachyons
+Teleportation
+Time travel
+Time viewer
+Wormhole
+Psychological
+Group mind
+Mind uploading
+Psionics
+Simulated consciousness
+Social
+Africanfuturism
+Afrofuturism
+Alien invasion
+Alien language
+Ancient astronauts
+Black
+Evil corporation
+First contact
+Frankenstein complex
+Galactic empire
+LGBT
+Message from space
+Transhumanism
+Uplift
+Xenoarchaeology
+Technological
+Ansible
+Artificial intelligence
+AI takeover
+Astroengineering
+Force field
+Holography
+Hyperspace
+Inertialess
+Robots and Cyborgs
+Self replicating machines
+Simulated reality
+Spacecraft
+Stargate
+Warp drive
+Weapons
+Religious
+Christian science fiction
+Related
+Alternate history
+Fantasy
+Fictional astronauts
+Fictional technology
+Future history
+Horror
+Magic realism
+Museum of Science Fiction
+Rubber science
+Science and technology studies
+Sense of wonder
+Speculative fiction
+Supernatural
+Technology and society
+Weird
+ Category Portal
+
+
+
+
+
+Retrieved from  https   en wikipedia org w index php title Mind uploading amp oldid

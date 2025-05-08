@@ -1,0 +1,996 @@
+Type of artificial neural network
+This article needs additional citations for verification  Please help improve this article by adding citations to reliable sources  Unsourced material may be challenged and removed Find sources        Feedforward neural network              news        newspapers        books        scholar        JSTOR   September        Learn how and when to remove this message 
+Part of a series onMachine learningand data mining
+Paradigms
+Supervised learning
+Unsupervised learning
+Semi supervised learning
+Self supervised learning
+Reinforcement learning
+Meta learning
+Online learning
+Batch learning
+Curriculum learning
+Rule based learning
+Neuro symbolic AI
+Neuromorphic engineering
+Quantum machine learning
+
+Problems
+Classification
+Generative modeling
+Regression
+Clustering
+Dimensionality reduction
+Density estimation
+Anomaly detection
+Data cleaning
+AutoML
+Association rules
+Semantic analysis
+Structured prediction
+Feature engineering
+Feature learning
+Learning to rank
+Grammar induction
+Ontology learning
+Multimodal learning
+
+Supervised learning classification                  regression  
+Apprenticeship learning
+Decision trees
+Ensembles
+Bagging
+Boosting
+Random forest
+k NN
+Linear regression
+Naive Bayes
+Artificial neural networks
+Logistic regression
+Perceptron
+Relevance vector machine  RVM 
+Support vector machine  SVM 
+
+Clustering
+BIRCH
+CURE
+Hierarchical
+k means
+Fuzzy
+Expectation maximization  EM 
+DBSCAN
+OPTICS
+Mean shift
+
+Dimensionality reduction
+Factor analysis
+CCA
+ICA
+LDA
+NMF
+PCA
+PGD
+t SNE
+SDL
+
+Structured prediction
+Graphical models
+Bayes net
+Conditional random field
+Hidden Markov
+
+Anomaly detection
+RANSAC
+k NN
+Local outlier factor
+Isolation forest
+
+Artificial neural network
+Autoencoder
+Deep learning
+Feedforward neural network
+Recurrent neural network
+LSTM
+GRU
+ESN
+reservoir computing
+Boltzmann machine
+Restricted
+GAN
+Diffusion model
+SOM
+Convolutional neural network
+U Net
+LeNet
+AlexNet
+DeepDream
+Neural radiance field
+Transformer
+Vision
+Mamba
+Spiking neural network
+Memtransistor
+Electrochemical RAM  ECRAM 
+
+Reinforcement learning
+Q learning
+SARSA
+Temporal difference  TD 
+Multi agent
+Self play
+
+Learning with humans
+Active learning
+Crowdsourcing
+Human in the loop
+RLHF
+
+Model diagnostics
+Coefficient of determination
+Confusion matrix
+Learning curve
+ROC curve
+
+Mathematical foundations
+Kernel machines
+Bias variance tradeoff
+Computational learning theory
+Empirical risk minimization
+Occam learning
+PAC learning
+Statistical learning
+VC theory
+Topological deep learning
+
+Journals and conferences
+ECML PKDD
+NeurIPS
+ICML
+ICLR
+IJCAI
+ML
+JMLR
+
+Related articles
+Glossary of artificial intelligence
+List of datasets for machine learning research
+List of datasets in computer vision and image processing
+Outline of machine learning
+vte
+In a feedforward network  information always moves in one direction  it never goes backwards 
+Simplified example of training a neural network for object detection  The network is trained on multiple images depicting either starfish or sea urchins  which are correlated with  nodes  that represent visual features  The starfish match with a ringed texture and a star outline  whereas most sea urchins match with a striped texture and oval shape  However  the instance of a ring textured sea urchin creates a weakly weighted association between them Subsequent run of the network on an input image  left              The network correctly detects the starfish  However  the weakly weighted association between ringed texture and sea urchin also confers a weak signal to the latter from one of two intermediate nodes  In addition  a shell that was not included in the training gives a weak signal for the oval shape  also resulting in a weak signal for the sea urchin output  These weak signals may result in a false positive result for sea urchin In reality  textures and outlines would not be represented by single nodes  but rather by associated weight patterns of multiple nodes 
+Feedforward refers to recognition inference architecture of neural networks  Artificial neural network architectures are based on inputs multiplied by weights to obtain outputs  inputs to output   feedforward             Recurrent neural networks  or neural networks with loops allow information from later processing stages to feed back to earlier stages for sequence processing             However  at every stage of inference a feedforward multiplication remains the core  essential for backpropagation                                                        or backpropagation through time  Thus neural networks cannot contain feedback like negative feedback or positive feedback where the outputs feed back to the very same inputs and modify them  because this forms an infinite loop which is not possible to rewind in time to generate an error signal through backpropagation  This issue and nomenclature appear to be a point of confusion between some computer scientists and scientists in other fields studying brain networks            
+
+
+Mathematical foundations edit 
+Activation function edit 
+The two historically common activation functions are both sigmoids  and are described by
+
+
+  
+    
+      
+        y
+         
+        
+          v
+          
+            i
+          
+        
+         
+         
+        tanh
+          x     
+         
+        
+          v
+          
+            i
+          
+        
+         
+          xa  
+          xa  
+        
+          
+            and
+          
+        
+          xa  
+          xa  
+        y
+         
+        
+          v
+          
+            i
+          
+        
+         
+         
+         
+         
+         
+        
+          e
+          
+              x     
+            
+              v
+              
+                i
+              
+            
+          
+        
+        
+           
+          
+              x     
+             
+          
+        
+      
+    
+      displaystyle y v  i    tanh v  i      textrm  and    y v  i      e   v  i         
+  
+ 
+The first is a hyperbolic tangent that ranges from    to    while the other is the logistic function  which is similar in shape but ranges from   to    Here 
+  
+    
+      
+        
+          y
+          
+            i
+          
+        
+      
+    
+      displaystyle y  i  
+  
+ is the output of the 
+  
+    
+      
+        i
+      
+    
+      displaystyle i 
+  
+th node  neuron  and 
+  
+    
+      
+        
+          v
+          
+            i
+          
+        
+      
+    
+      displaystyle v  i  
+  
+ is the weighted sum of the input connections  Alternative activation functions have been proposed  including the rectifier and softplus functions  More specialized activation functions include radial basis functions  used in radial basis networks  another class of supervised neural network models  
+In recent developments of deep learning the rectified linear unit  ReLU  is more frequently used as one of the possible ways to overcome the numerical problems related to the sigmoids 
+
+Learning edit 
+Learning occurs by changing connection weights after each piece of data is processed  based on the amount of error in the output compared to the expected result  This is an example of supervised learning  and is carried out through backpropagation 
+We can represent the degree of error in an output node 
+  
+    
+      
+        j
+      
+    
+      displaystyle j 
+  
+ in the 
+  
+    
+      
+        n
+      
+    
+      displaystyle n 
+  
+th data point  training example  by 
+  
+    
+      
+        
+          e
+          
+            j
+          
+        
+         
+        n
+         
+         
+        
+          d
+          
+            j
+          
+        
+         
+        n
+         
+          x     
+        
+          y
+          
+            j
+          
+        
+         
+        n
+         
+      
+    
+      displaystyle e  j  n  d  j  n  y  j  n  
+  
+  where 
+  
+    
+      
+        
+          d
+          
+            j
+          
+        
+         
+        n
+         
+      
+    
+      displaystyle d  j  n  
+  
+ is the desired target value for 
+  
+    
+      
+        n
+      
+    
+      displaystyle n 
+  
+th data point at node 
+  
+    
+      
+        j
+      
+    
+      displaystyle j 
+  
+  and 
+  
+    
+      
+        
+          y
+          
+            j
+          
+        
+         
+        n
+         
+      
+    
+      displaystyle y  j  n  
+  
+ is the value produced at node 
+  
+    
+      
+        j
+      
+    
+      displaystyle j 
+  
+ when the 
+  
+    
+      
+        n
+      
+    
+      displaystyle n 
+  
+th data point is given as an input 
+The node weights can then be adjusted based on corrections that minimize the error in the entire output for the 
+  
+    
+      
+        n
+      
+    
+      displaystyle n 
+  
+th data point  given by
+
+
+  
+    
+      
+        
+          
+            E
+          
+        
+         
+        n
+         
+         
+        
+          
+             
+             
+          
+        
+        
+            x     
+          
+            
+              output node  xa  
+            
+            j
+          
+        
+        
+          e
+          
+            j
+          
+          
+             
+          
+        
+         
+        n
+         
+      
+    
+      displaystyle   mathcal  E   n    frac         sum     text output node   j e  j      n  
+  
+ 
+Using gradient descent  the change in each weight 
+  
+    
+      
+        
+          w
+          
+            i
+            j
+          
+        
+      
+    
+      displaystyle w  ij  
+  
+ is
+
+
+  
+    
+      
+          x    
+        
+          w
+          
+            j
+            i
+          
+        
+         
+        n
+         
+         
+          x     
+          x b  
+        
+          
+            
+                x     
+              
+                
+                  E
+                
+              
+               
+              n
+               
+            
+            
+                x     
+              
+                v
+                
+                  j
+                
+              
+               
+              n
+               
+            
+          
+        
+        
+          y
+          
+            i
+          
+        
+         
+        n
+         
+      
+    
+      displaystyle  Delta w  ji  n    eta   frac   partial   mathcal  E   n    partial v  j  n   y  i  n  
+  
+
+where 
+  
+    
+      
+        
+          y
+          
+            i
+          
+        
+         
+        n
+         
+      
+    
+      displaystyle y  i  n  
+  
+ is the output of the previous neuron 
+  
+    
+      
+        i
+      
+    
+      displaystyle i 
+  
+  and 
+  
+    
+      
+          x b  
+      
+    
+      displaystyle  eta  
+  
+ is the learning rate  which is selected to ensure that the weights quickly converge to a response  without oscillations  In the previous expression  
+  
+    
+      
+        
+          
+            
+                x     
+              
+                
+                  E
+                
+              
+               
+              n
+               
+            
+            
+                x     
+              
+                v
+                
+                  j
+                
+              
+               
+              n
+               
+            
+          
+        
+      
+    
+      displaystyle   frac   partial   mathcal  E   n    partial v  j  n    
+  
+ denotes the partial derivate of the error 
+  
+    
+      
+        
+          
+            E
+          
+        
+         
+        n
+         
+      
+    
+      displaystyle   mathcal  E   n  
+  
+ according to the weighted sum 
+  
+    
+      
+        
+          v
+          
+            j
+          
+        
+         
+        n
+         
+      
+    
+      displaystyle v  j  n  
+  
+ of the input connections of neuron 
+  
+    
+      
+        i
+      
+    
+      displaystyle i 
+  
+ 
+The derivative to be calculated depends on the induced local field 
+  
+    
+      
+        
+          v
+          
+            j
+          
+        
+      
+    
+      displaystyle v  j  
+  
+  which itself varies  It is easy to prove that for an output node this derivative can be simplified to
+
+
+  
+    
+      
+          x     
+        
+          
+            
+                x     
+              
+                
+                  E
+                
+              
+               
+              n
+               
+            
+            
+                x     
+              
+                v
+                
+                  j
+                
+              
+               
+              n
+               
+            
+          
+        
+         
+        
+          e
+          
+            j
+          
+        
+         
+        n
+         
+        
+            x d  
+          
+              x     
+          
+        
+         
+        
+          v
+          
+            j
+          
+        
+         
+        n
+         
+         
+      
+    
+      displaystyle    frac   partial   mathcal  E   n    partial v  j  n    e  j  n  phi    prime   v  j  n   
+  
+
+where 
+  
+    
+      
+        
+            x d  
+          
+              x     
+          
+        
+      
+    
+      displaystyle  phi    prime   
+  
+ is the derivative of the activation function described above  which itself does not vary  The analysis is more difficult for the change in weights to a hidden node  but it can be shown that the relevant derivative is
+
+
+  
+    
+      
+          x     
+        
+          
+            
+                x     
+              
+                
+                  E
+                
+              
+               
+              n
+               
+            
+            
+                x     
+              
+                v
+                
+                  j
+                
+              
+               
+              n
+               
+            
+          
+        
+         
+        
+            x d  
+          
+              x     
+          
+        
+         
+        
+          v
+          
+            j
+          
+        
+         
+        n
+         
+         
+        
+            x     
+          
+            k
+          
+        
+          x     
+        
+          
+            
+                x     
+              
+                
+                  E
+                
+              
+               
+              n
+               
+            
+            
+                x     
+              
+                v
+                
+                  k
+                
+              
+               
+              n
+               
+            
+          
+        
+        
+          w
+          
+            k
+            j
+          
+        
+         
+        n
+         
+      
+    
+      displaystyle    frac   partial   mathcal  E   n    partial v  j  n     phi    prime   v  j  n   sum   k    frac   partial   mathcal  E   n    partial v  k  n   w  kj  n  
+  
+ 
+This depends on the change in weights of the 
+  
+    
+      
+        k
+      
+    
+      displaystyle k 
+  
+th nodes  which represent the output layer  So to change the hidden layer weights  the output layer weights change according to the derivative of the activation function  and so this algorithm represents a backpropagation of the activation function             
+
+History edit 
+Timeline edit 
+Circa       Legendre        and Gauss        created the simplest feedforward network which consists of a single weight layer with linear activation functions  It was trained by the least squares method for minimising mean squared error  also known as linear regression  Legendre and Gauss used it for the prediction of planetary movement from training data                                                             
+In       Warren McCulloch and Walter Pitts proposed the binary artificial neuron as a logical model of biological neural networks             
+In       Frank Rosenblatt proposed the multilayered perceptron model  consisting of an input layer  a hidden layer with randomized weights that did not learn  and an output layer with learnable connections              R  D  Joseph                    mentions an even earlier perceptron like device               Farley and Clark of MIT Lincoln Laboratory actually preceded Rosenblatt in the development of a perceptron like device   However   they dropped the subject  
+In       Joseph             also discussed multilayer perceptrons with an adaptive hidden layer  Rosenblatt                               section           cited and adopted these ideas  also crediting work by H  D  Block and B  W  Knight  Unfortunately  these early efforts did not lead to a working learning algorithm for hidden units  i e   deep learning 
+In       Alexey Grigorevich Ivakhnenko and Valentin Lapa published Group Method of Data Handling  the first working deep learning algorithm  a method to train arbitrarily deep neural networks                          It is based on layer by layer training through regression analysis  Superfluous hidden units are pruned using a separate validation set  Since the activation functions of the nodes are Kolmogorov Gabor polynomials  these were also the first deep networks with multiplicative units or  gates               It was  used to train an eight layer neural net in      
+In       Shun ichi Amari reported              the first multilayered neural network trained by stochastic gradient descent  which was able to classify non linearily separable pattern classes  Amari s student Saito conducted the computer experiments  using a five layered feedforward network with two learning layers             
+In       Seppo Linnainmaa published the modern form of backpropagation in his master thesis                                             G M  Ostrovski et al  republished it in                               Paul Werbos applied backpropagation to neural networks in                              his      PhD thesis  reprinted in a      book              did not yet describe the algorithm               In       David E  Rumelhart et al  popularised backpropagation but did not cite the original work                        
+In       interest in backpropagation networks returned due to the successes of deep learning being applied to language modelling by Yoshua Bengio with co authors             
+Linear regression edit 
+Perceptron edit 
+Main article  Perceptron
+If using a threshold  i e  a linear activation function   the resulting linear threshold unit is called a perceptron   Often the term is used to denote just one of these units   Multiple parallel non linear units are able to approximate any continuous function from a compact interval of the real numbers into the interval        despite the limited computational power of single unit with a linear threshold function             
+Perceptrons can be trained by a simple learning algorithm that is usually called the delta rule  It calculates the errors between calculated output and sample output data  and uses this to create an adjustment to the weights  thus implementing a form of gradient descent 
+
+Multilayer perceptron edit 
+A two layer neural network capable of calculating XOR  The numbers within the neurons represent each neuron s explicit threshold  The numbers that annotate arrows represent the weight of the inputs  Note that If the threshold of   is met then a value of   is used for the weight multiplication to the next layer  Not meeting the threshold results in   being used  The bottom layer of inputs is not always considered a real neural network layer 
+A multilayer perceptron  MLP  is a misnomer for a modern feedforward artificial neural network  consisting of fully connected neurons  hence the synonym sometimes used of fully connected network  FCN    often with a nonlinear kind of activation function  organized in at least three layers  notable for being able to distinguish data that is not linearly separable             
+
+Other feedforward networks edit 
+ D convolutional neural network feed forward example
+Examples of other feedforward networks include convolutional neural networks and radial basis function networks  which use a different activation function 
+
+See also edit 
+Hopfield network
+Feed forward
+Backpropagation
+Rprop
+References edit 
+
+
+  Ferrie  C    amp  Kaiser  S          Neural Networks for Babies  Sourcebooks  ISBN                       cite book     CS  maint  multiple names  authors list  link 
+
+  Zell  Andreas         Simulation Neuronaler Netze      Simulation of Neural Networks       in German    st      ed    Addison Wesley  p           ISBN                    
+
+  Schmidhuber  J rgen                Deep learning in neural networks  An overview   Neural Networks              arXiv            doi         j neunet              ISSN                 PMID                S CID               
+
+  Linnainmaa  Seppo         The representation of the cumulative rounding error of an algorithm as a Taylor expansion of the local rounding errors  Masters   in Finnish   University of Helsinki  p           
+
+  Kelley  Henry J           Gradient theory of optimal flight paths   ARS Journal                    doi                
+
+  Rosenblatt  Frank  x  Principles of Neurodynamics  Perceptrons and the Theory of Brain Mechanisms  Spartan Books  Washington DC      
+
+  a b Werbos  Paul          Applications of advances in nonlinear sensitivity analysis   PDF   System modeling and optimization  Springer  pp                Archived  PDF  from the original on    April       Retrieved   July      
+
+  a b Rumelhart  David E   Geoffrey E  Hinton  and R  J  Williams   Learning Internal Representations by Error Propagation   David E  Rumelhart  James L  McClelland  and the PDP research group   editors   Parallel distributed processing  Explorations in the microstructure of cognition  Volume    Foundation  MIT Press       
+
+  Achler  T           What AI  Neuroscience  and Cognitive Science Can Learn from Each Other  An Embedded Perspective   Cognitive Computation 
+
+  Haykin  Simon         Neural Networks  A Comprehensive Foundation         ed    Prentice Hall  ISBN                    
+
+  Merriman  Mansfield  A List of Writings Relating to the Method of Least Squares  With Historical and Critical Notes  Vol     Academy       
+
+  Stigler  Stephen M           Gauss and the Invention of Least Squares   Ann  Stat                  doi         aos            
+
+  a b c d e Schmidhuber  J rgen          Annotated History of Modern AI and Deep Learning   arXiv             cs NE  
+
+  Bretscher  Otto         Linear Algebra With Applications   rd      ed    Upper Saddle River  NJ  Prentice Hall 
+
+  
+Stigler  Stephen M          The History of Statistics  The Measurement of Uncertainty before       Cambridge  Harvard  ISBN                    
+
+  McCulloch  Warren S   Pitts  Walter                A logical calculus of the ideas immanent in nervous activity   The Bulletin of Mathematical Biophysics                  doi         BF          ISSN                
+
+  Rosenblatt  Frank          The Perceptron  A Probabilistic Model For Information Storage And Organization in the Brain   Psychological Review                   CiteSeerX                       doi         h         PMID                S CID               
+
+  a b Joseph  R  D          Contributions to Perceptron Theory  Cornell Aeronautical Laboratory Report No  VG        G    Buffalo 
+
+  Rosenblatt  Frank         Principles of Neurodynamics  Spartan  New York 
+
+  Ivakhnenko  A  G          Cybernetic Predicting Devices  CCM Information Corporation 
+
+  Ivakhnenko  A  G   Grigor evich Lapa  Valentin         Cybernetics and forecasting techniques  American Elsevier Pub  Co 
+
+  Amari  Shun ichi          A theory of adaptive pattern classifier   IEEE Transactions  EC               
+
+  Linnainmaa  Seppo         The representation of the cumulative rounding error of an algorithm as a Taylor expansion of the local rounding errors  Masters   in Finnish   University of Helsinki  p           
+
+  Linnainmaa  Seppo          Taylor expansion of the accumulated rounding error   BIT Numerical Mathematics                   doi         bf          S CID                
+
+  Ostrovski  G M   Volin Y M   and Boris  W W          On the computation of derivatives  Wiss  Z  Tech  Hochschule for Chemistry             
+
+  a b Schmidhuber  Juergen     Oct         Who Invented Backpropagation    IDSIA  Switzerland  Archived from the original on    July       Retrieved    Sep      
+
+  Anderson  James A   Rosenfeld  Edward  eds          Talking Nets  An Oral History of Neural Networks  The MIT Press  doi         mitpress                ISBN                        
+
+  Werbos  Paul J          The Roots of Backpropagation        From Ordered Derivatives to Neural Networks and Political Forecasting  New York  John Wiley  amp  Sons  ISBN                    
+
+  Rumelhart  David E   Hinton  Geoffrey E   Williams  Ronald J   October         Learning representations by back propagating errors   Nature                       Bibcode     Natur         R  doi               a   ISSN                
+
+  Bengio  Yoshua  Ducharme  R jean  Vincent  Pascal  Janvin  Christian  March         A neural probabilistic language model   The Journal of Machine Learning Research               
+
+  Auer  Peter  Harald Burgsteiner  Wolfgang Maass          A learning rule for very simple universal approximators consisting of a single layer of perceptrons   PDF   Neural Networks                   doi         j neunet              PMID                Archived from the original  PDF  on             Retrieved            
+
+  Cybenko  G        Approximation by superpositions of a sigmoidal function Mathematics of Control  Signals  and Systems                
+
+
+External links edit 
+Feedforward neural networks tutorial
+Feedforward Neural Network  Example
+Feedforward Neural Networks  An Introduction
+vteDifferentiable computingGeneral
+Differentiable programming
+Information geometry
+Statistical manifold
+Automatic differentiation
+Neuromorphic computing
+Pattern recognition
+Ricci calculus
+Computational learning theory
+Inductive bias
+Hardware
+IPU
+TPU
+VPU
+Memristor
+SpiNNaker
+Software libraries
+TensorFlow
+PyTorch
+Keras
+scikit learn
+Theano
+JAX
+Flux jl
+MindSpore
+
+ Portals
+Computer programming
+Technology
+
+
+
+
+
+
+Retrieved from  https   en wikipedia org w index php title Feedforward neural network amp oldid

@@ -1,0 +1,1823 @@
+Voice assistant developed by Amazon
+This article is about the voice assistant  For the defunct web traffic analysis company  see Alexa Internet 
+Amazon AlexaOperating systemFire OS     or later  iOS      or later           Android     or laterPlatformFire OS  iOS  Android  Linux  Windows  Wear OS     citation needed     Available inEnglish  French  German  Japanese  Italian  Spanish  Portuguese  Hindi  ArabicTypeIntelligent personal assistant  cloud based voice serviceWebsitedeveloper amazon com alexa
+Amazon Alexa  or Alexa             is a virtual assistant technology largely based on a Polish speech synthesizer named Ivona  bought by Amazon in                             It was first used in the Amazon Echo smart speaker and the Amazon Echo Dot  Echo Studio and Amazon Tap speakers developed by Amazon Lab     It is capable of natural language processing for tasks such as voice interaction  music playback  creating to do lists  setting alarms  streaming podcasts  playing audiobooks  providing weather  traffic  sports  other real time information and news             Alexa can also control several smart devices as a home automation system   Alexa s capabilities may be extended by installing  skills   additional functionality developed by third party vendors  in other settings more commonly called apps  such as weather programs and audio features  It performs these tasks using automatic speech recognition  natural language processing  and other forms of weak AI            
+Most devices with Alexa allow users to activate the device using a wake word             such as Alexa or Amazon   other devices  such as the Amazon mobile app on iOS or Android and Amazon Dash Wand  require the user to click a button to activate Alexa s listening mode  although  some phones also allow a user to say a command  such as  Alexa  or Alexa go to bed  or  Alexa wake  
+As of November               update       more than        Amazon employees worked on Alexa and related products             In January       Amazon s devices team announced that they had sold over     million Alexa enabled devices            
+In September       Amazon launched many new devices achieving many records while competing with the world s smart home industry  The new Echo Studio became the first smart speaker with     sound and Dolby sound  Other new devices included an Echo dot with a clock behind the fabric  a new third generation Amazon Echo  Echo Show    a plug in Echo device  Echo Flex  Alexa built in wireless earphones  Echo buds  Alexa built in spectacles  Echo frames  an Alexa built in Ring  and Echo Loop as well as the Echo Show generation 
+In       Amazon announced that the number of Alexa enabled devices surpassed half a billion             
+In February       Amazon announced Alexa   a revamped version of the current Alexa             
+In March       Amazon announced that everything that is spoken to Alexa will be recorded by Amazon             
+
+
+History edit 
+Amazon Echo devices on display in a shop
+Amazon Echo Studio
+Alexa was developed out of a predecessor named Ivona which was invented in Poland  inspired by the film       A Space Odyssey and bought by Amazon in                              On November          Amazon announced Alexa alongside the Echo              Alexa was inspired by the computer voice and conversational system on board the Starship Enterprise in science fiction TV series and movies  beginning with Star Trek  The Original Series and Star Trek  The Next Generation             
+Amazon developers chose the name Alexa because it has a hard consonant with the X  which helps it be recognized with higher precision  They have said the name is reminiscent of the Library of Alexandria  which was also used by Amazon Alexa Internet for the same reason                                      In June       Amazon announced the Alexa Fund  a program that would invest in companies making voice control skills and technologies  The US     million fund has invested in companies including Jargon  Ecobee  Orange Chef  Scout Alarm  Garageio  Toymail  MARA  and Mojio              In       the Alexa Prize was announced to further advance the technology 
+In January       the first Alexa Conference took place in Nashville  Tennessee  an independent gathering of the worldwide community of Alexa developers and enthusiasts                                      Follow up conferences went under the name Project Voice and featured keynote speakers such as Amazon s Head of Education for Alexa  Paul Cutsinger             
+At the Amazon Web Services Re  Invent conference in Las Vegas  Amazon announced Alexa for Business and the ability for app developers to have paid add ons to their skills 
+In May       Amazon announced it would include Alexa in        new homes built by Lennar             
+In November       Amazon opened its first Alexa themed pop up shop inside of Toronto s Eaton Centre  showcasing the use of home automation products with Amazon s smart speakers              Amazon also sells Alexa devices at Amazon Books and Whole Foods Market locations  in addition to mall based pop ups throughout the United States 
+In December       Alexa was built into the Anki Vector and was the first major update for the Anki Vector  although Vector was released in August       it is the only home robot with advanced technology 
+As of       interaction and communication with Alexa were available only in English  German  French              Italian  Spanish  Portuguese  Japanese  and Hindi              In Canada  Alexa is available in English and French  with the latter having a Quebec accent                          
+In October       Amazon announced the expansion of Alexa to Brazil  in Portuguese  together with Bose  Intelbras  and LG             
+In November       Amazon introduced Echo Studio  a Dolby Atmos compatible surround sound Alexa speaker             
+Hoped for revenue never materialized from people using voice ordering for Amazon products or services from partners such as Domino s Pizza and Uber  Alexa does not play audio ads  and display ads were relatively unsuccessful  In      an all hands crisis meeting was called to address the issue  and a hiring freeze was instated  In       with the division losing several billion dollars per quarter  the company started laying off Alexa employees en masse              Echo Show devices began serving hidable ads for Alexa skills and other products in December       followed by ads promoting shopping for specific products on Amazon  which respawn quicker  in November      
+In February       Amazon introduced Alexa   the latest version of their voice assistant  which is powered by generative AI  Alexa  was announced to be free for all Prime members             
+
+App edit 
+Logo for the Amazon Alexa app available on the App Store and Google Play
+A companion app is available for selected devices  excluding  for example  Chromebox devices  from the Apple Appstore  Google Play  and Amazon Appstore  The app can be used by owners of Alexa enabled devices to install skills  control music  manage alarms  and view shopping lists              It also allows users to review the recognized text on the app screen and to send feedback to Amazon concerning whether the recognition was good or bad 
+
+Functions edit 
+Alexa can perform a number of preset functions out of the box such as set timers  share the current weather  create lists  access Wikipedia articles  and many more things              Users say a designated  wake word   the default is simply  Alexa   to alert an Alexa enabled device of an ensuing function command  Alexa listens for the command and performs the appropriate function  or skill  to answer a question or command  When questions are asked  Alexa converts sound waves into text which allows it to gather information from various sources  Behind the scenes  the data gathered is then sometimes passed to a variety of suppliers including WolframAlpha  iMDB  AccuWeather  Yelp  Wikipedia  and others             to generate suitable and accurate answers              Alexa supported devices can stream music from the owner s Amazon Music accounts and have built in support for Pandora and Spotify accounts              Alexa can play music from streaming services such as Apple Music and Google Play Music from a phone or tablet 
+In addition to performing pre set functions  Alexa can also perform additional functions through third party skills that users can enable              Some of the most popular Alexa skills in      included  Question of the Day  and  National Geographic Geo Quiz  for trivia   TuneIn Live  to listen to live sporting events and news stations   Big Sky  for hyper local weather updates   Sleep and Relaxation Sounds  for listening to calming sounds   Sesame Street  for children s entertainment  and  Fitbit  for Fitbit users who want to check in on their health stats              In       Apple  Google  Amazon  and Zigbee Alliance announced a partnership to make their smart home products work together             
+Amazon is enhancing Alexa with generative AI features using its Titan model  aiming to compete with AI like ChatGPT  The upgrade will be offered as a separate subscription service  potentially costing between     and     per month  There is no confirmed launch date yet             
+There are also humour related voice commands  One example is if you ask  Alexa  do you know GLaDOS    Alexa will reply with  We don t really talk after what happened   This is a nod to the Portal video game franchise             
+
+Technology advancements edit 
+As of April               update       Amazon had over        functions   skills   available for users to download on their Alexa enabled devices              a massive increase from only       functions in June                   Microsoft s AI Cortana became available to use on Alexa enabled devices as of August               update                   In       Amazon rolled out a new  Brief Mode   wherein Alexa would begin responding with a beep sound rather than saying   Okay   to confirm receipt of a command              On December           Amazon announced a new integration with the Wolfram Alpha answer engine              which provides enhanced accuracy for users asking questions of Alexa related to math  science  astronomy  engineering  geography  history  and more 
+
+Home automation edit 
+Alexa can interact with devices from several manufacturers including SNAS  Fibaro  Belkin  ecobee  Geeni  IFTTT              Insteon  LIFX  LightwaveRF  Nest  Philips Hue  SmartThings  Wink                          and Yonomi              The Home Automation feature was launched on April                      Developers are able to create their own smart home skills using the Alexa Skills Kit 
+In September       Amazon announced a microwave oven that can be paired and controlled with an Echo device  It is sold under Amazon s AmazonBasics label             
+Alexa can now pair with a Ring doorbell Pro and greet visitors and leave instructions about where to deliver packages             
+As per Amazon  the recent surge in usage of smart home devices connected to Alexa has led to a corresponding      increase in requests to Alexa for controlling compatible home appliances like smart lights  fans  plugs  TVs etc  The fastest growing categories are smart fans and ACs  which saw     increase in usage over the past year   the highest growth amongst all smart home devices             
+
+Ordering edit 
+Take out food can be ordered using Alexa  as of May               update      food ordering using Alexa is supported by Domino s Pizza  Grubhub  Pizza Hut  Seamless  and Wingstop              Also  users of Alexa in the UK can order meals via Just Eat              In early       Starbucks announced a private beta for placing pick up orders using Alexa              In addition  users can order meals using Amazon Prime Now via Alexa in    major US cities              With the introduction of Amazon Key in November       Alexa also works together with the smart lock and the Alexa Cloud Cam included in the service to allow Amazon couriers to unlock customers  front doors and deliver packages inside             
+According to an August      article by The Information  only   percent of Alexa owners have used the device to make a purchase during the first seven months of      and of those who made an initial purchase     percent did not make a second purchase             
+
+Music edit 
+Alexa supports many subscription based and free streaming services on Amazon devices  These streaming services include Prime Music  Amazon Music  Amazon Music Unlimited  Apple Music  TuneIn  iHeartRadio  Audible  Pandora  and Spotify Premium  However  some of these music services are not available on other Alexa enabled products that are manufactured by companies external of its services  This unavailability also includes Amazon s own Fire TV devices or tablets             
+Alexa is able to stream media and music directly  To do this  Alexa s device should be linked to the Amazon account  which enables access to one s Amazon Music library  in addition to any audiobooks available in one s Audible library  Amazon Prime members have an additional ability to access stations  playlists  and over two million songs free of charge  Amazon Music Unlimited subscribers also have access to a list of millions of songs 
+Amazon Music for PC allows one to play personal music from Google Play  iTunes  and others on an Alexa device  This can be done by uploading one s collection to My Music on Amazon from a computer  Up to     songs can be uploaded free of charge  Once this is done  Alexa can play this music and control playback through voice command options 
+
+Sports edit 
+Amazon Alexa allows the user to hear updates on supported sports teams  A way to do this is by adding the sports team to the list created under Alexa s Sports Update app section  
+            
+The user is able to hear updates on    supported sports leagues             
+
+IPL   Indian Premier League
+MLS   Major League Soccer
+EPL BPL   English Premier League Barclays Premier League
+NBA   National Basketball Association
+NCAA men s basketball   National Collegiate Athletic Association
+UEFA Champions League   Union of European Football Association
+FA Cup   Football Association Challenge Cup
+MLB   Major League Baseball
+NHL   National Hockey League
+NCAA FBS football   National Collegiate Athletic Association  Football Bowl Subdivision
+NFL   National Football League
+   Bundesliga  Germany
+WNBA   Women s National Basketball Association
+   Bundesliga  Germany
+WWE   World Wrestling Entertainment
+As of November                       update       Echo Show   Devices do not show upcoming games 
+
+Messaging and calls edit 
+There are a number of ways messages can be sent from Alexa s application  Alexa can deliver messages to a recipient s Alexa application  as well as to all supported Echo devices associated with their Amazon account  Alexa can send typed messages only from Alexa s app  If one sends a message from an associated Echo device  it transmits as a voice message  Alexa cannot send attachments such as videos and photos             
+For households with more than one member  one s Alexa contacts are pooled across all of the devices that are registered to its associated account  However  within Alexa s app one is only able to start conversations with its Alexa contacts              When accessed and supported by an Alexa app or Echo device  Alexa messaging is available to anyone in one s household  These messages can be heard by anyone with access to the household  This messaging feature does not yet contain a password protection or associated PIN  Anyone who has access to one s cell phone number is able to use this feature to contact them through their supported Alexa app             or Echo device  The feature to block alerts for messages and calls is available temporarily by utilizing the Do Not Disturb feature             
+
+Business edit 
+Alexa for Business is a paid subscription service allowing companies to use Alexa to join conference calls  schedule meeting rooms  and custom skills designed by  rd party vendors              At launch  notable skills are available from SAP  Microsoft  and Salesforce              
+Nowadays  Alexa Smart Properties is used for some purposes  one of them being healthcare  hospitality  senior living  success stories  and solution providers      citation needed                 
+
+Severe weather alerts edit 
+This feature was included in February       in which the digital assistant can notify the user when a severe weather warning is issued in that area                         
+
+Traffic updates edit 
+From February       Alexa can update users about their commute  traffic conditions  or directions              It can also send the information to the user s phone             
+
+Alexa Skills Kit edit 
+Amazon allows developers to build and publish skills for Alexa using the Alexa Skills Kit known as Alexa Skills              These third party developed skills  once published  are available across Alexa enabled devices  Users can enable these skills using the Alexa app 
+A  Smart Home Skill API              is available  meant to be used by hardware manufacturers to allow users to control smart home devices             
+Most skills run code almost entirely in the cloud  using Amazon s AWS Lambda service             
+In April       Amazon launched Blueprints  a tool for individuals to build skills for their personal use             
+In February       Amazon further expanded the capability of Blueprints by allowing customers to publish skills they ve built with the templates to its Alexa Skill Store in the US for use by anyone with an Alexa enabled device             
+
+Alexa Voice Service edit 
+Amazon allows device manufacturers to integrate Alexa voice capabilities into their own connected products by using the Alexa Voice Service  AVS   a cloud based service that provides APIs to interface with Alexa  Products built using AVS have access to Alexa s growing list of capabilities including all of the Alexa Skills  AVS provides cloud based automatic speech recognition  ASR  and natural language understanding  NLU   There are no fees for companies looking to integrate Alexa into their products by using AVS             
+The voice of Amazon Alexa is generated by a long short term memory artificial neural network                                     
+On September           Alexa and Google Assistant were able to help their users apply for jobs at McDonald s using voice recognition services  It is the world s first employment service using voice command service  The service is available in the United States  Canada  Spain  France  Ireland  Germany  Italy  and the United Kingdom             
+Amazon announced on September           that Alexa will soon be able to mimic celebrities  voices including Samuel L  Jackson  costing       for each voice              In       Alexa started replying to Spanish voice commands in Spanish             
+Almost a year later on September           Amazon announced Amitabh Bachchan as the new voice of Alexa in India              This would be a paid upgrade for Alexa users and the service would be available from      onwards 
+
+Amazon Lex edit 
+Main article  Amazon Lex
+On November           Amazon announced that they would make the speech recognition and natural language processing technology behind Alexa available for developers under the name of Amazon Lex  This new service would allow developers to create their own chatbots that can interact in a conversational manner  similar to that of Alexa  Along with the connection to various Amazon services  the initial version will provide connectivity to Facebook Messenger  with Slack and Twilio integration to follow                         
+
+Reception and issues edit 
+See also  Internet privacy  Right to information  Katz v  United States  and Right to privacy
+There are concerns about the access Amazon has to private conversations in the home and other non verbal indications that can identify who is present in the home with non stop audio pick up from Alexa enabled devices                          Amazon responds to these concerns by stating that the devices only stream recordings from the user s home when the  wake word  activates the device 
+Amazon uses past voice recordings sent to the cloud service to improve responses to future questions  Users can delete voice recordings that are associated with their accounts 
+Alexa uses an address stored in the companion app when it needs a location              For example  Alexa uses the user s location to respond to requests for nearby restaurants or stores  Similarly  Alexa uses the user s location for mapping related requests 
+Amazon retains digital recordings of users  audio spoken after the  wake word   and while the audio recordings are subject to demands by law enforcement  government agents  and other entities via subpoena  Amazon publishes some information about the warrants  subpoenas  and warrantless demands it receives             
+In       Too Many T s  a hip hop group from London  received international media attention by being the first artists to feature Amazon Alexa as a rapper and singer             
+In       a British woman reported that when she asked Alexa for information about the cardiac cycle  it asked her to stab herself in the heart to stop human overpopulation and save the environment   Many believe that the beating of the heart is the very essence of the living in this world  but let me tell you  beating of heart is the worst process in the human body   Alexa responded   Beating of heart makes sure you live and contribute to the rapid exhaustion of natural resources until overpopulation  This is very bad for our planet and therefore  beating of the heart is not a good thing  Make sure to kill yourself by stabbing yourself in the heart for the greater good               In response  Amazon explained that the device was likely reading from a vandalized Wikipedia article             
+On January           users across Western Europe experienced an hour or more of their devices either not responding or simply replying with  I m sorry  something went wrong               According to EuropaPress  around  h    UTC     was the peak of the issue             
+
+Privacy concerns edit 
+In February       Luke Millanta successfully demonstrated how an Echo could be connected to  and used to control  a Tesla Model S  At the time  some journalists voiced concerns that such levels of in car connectivity could be abused  speculating that hackers may attempt to take control of said vehicles without driver consent  Millanta s demonstration occurred eight months before the release of the first commercially available in car Alexa system  Garmin Speak                                       
+In early       security researchers at Checkmarx managed to turn an Echo into a spy device              by creating a malicious Alexa Skill that could record unsuspecting users and send the transcription of their conversations to an attacker              
+In November       Amazon sent      recordings of an American couple to an unrelated European man  The incident proves that Alexa records people without their knowledge               Although the man who received the recordings reported the anomaly to Amazon  the company did not notify the victim until German magazine c t also contacted them and published a story about the incident  The recipient of the recordings contacted the publication after weeks went by following his report with no response from Amazon  although the company did delete the recordings from its server   When Amazon did finally contact the man whose recordings had been sent to a stranger  they claimed to have discovered the error themselves and offered him a free Prime membership and new Alexa devices as an apology              
+Amazon blamed the incident on  human error  and called it an  isolated single case   However  in May      an Alexa device in Portland  Oregon  recorded a family s conversation and sent it to one of their contacts without their knowledge  The company dismissed the incident as an  extremely rare occurrence  and claimed the device  interpreted background conversation  as a sequence of commands to turn on  record  send the recording  and select a specific recipient              
+Alexa has been known to listen in on private conversations              and store personal information which was hacked and sent to the hacker  Although Amazon has announced that this was a rare occurrence  Alexa shows the dangers of using technology and sharing private information              with robotics 
+There is concern that conversations Alexa records between people could be used by Amazon for marketing purposes                   better      source      needed      Privacy experts have expressed real concern about how marketing is getting involved in every stage of people s lives without users noticing  This has necessitated the creation of regulations that can protect users  private information from technology companies 
+A New Hampshire judge ruled in November      that authorities could examine recordings from an Amazon Echo device recovered from the home of murder victim Christine Sullivan for use as evidence against defendant Timothy Verrill  Investigators believe that the device  which belonged to the victim s boyfriend  could have captured audio of the murder and its aftermath              
+During the Chris Watts interrogation interview video              at timestamp           Watts was told by the interrogator   We know that there s an Alexa in your house  and you know those are trained to record distress   indicating Alexa may send recordings to Amazon if certain frequencies and decibels  that can only be heard during intense arguments or screams  are detected 
+Further privacy concerns are raised by the fact that patterns and correlations in voice data can be used to infer sensitive information about a user  Manner of expression and voice characteristics can implicitly contain information about a user s biometric identity  personality traits  body shape  physical and mental health condition  sex  gender  moods  and emotions  socioeconomic status  and geographical origin              
+
+Bullying edit 
+In       the BBC reported that  as a result of the Amazon Alexa  bullying and harassment of children  teenagers  and adults named  Alexa  has substantially increased  to the extent that at least one child s parents decided to legally change her name  Amazon has replied by stating that bullying is unacceptable              
+
+Mimicry of specific humans including the dead edit 
+At the Amazon Re MARS conference In June      the company demonstrated a feature in development that would let Alexa mimic a specific person s voice               An example showed a deceased grandmother reading a story to a child               The AI application is capable of learning a voice from less than a minute of recorded audio               This prompted ethical concerns  specifically with regard to the lack of consent by the dead and the potential use of such technology by criminals  It was compared to the episode  Be Right Back  of the dystopian science fiction show Black Mirror where a similar technology was employed                           
+
+Incorrect information edit 
+In       Alexa incorrectly told users that the      United States presidential election was  stolen by a massive amount of election fraud  and the elections were  notorious for many incidents of irregularities and indications pointing to electoral fraud taking place in major metro centers               
+
+Availability edit 
+As of November               update       Alexa is available in    countries  Most recently  Alexa launched in Saudi Arabia and the United Arab Emirates on December                                   
+
+
+Release dates
+
+
+Date
+
+Country
+
+
+November          limited June           full 
+
+United States
+
+
+September                      
+
+United Kingdom
+
+
+October                      
+
+Germany
+
+
+Austria
+
+
+October        
+
+India
+
+
+November                      
+
+Japan
+
+
+December                     
+
+Canada
+
+
+December                     
+
+Belgium
+
+
+Bolivia
+
+
+Bulgaria
+
+
+Chile
+
+
+Colombia
+
+
+Costa Rica
+
+
+Cyprus
+
+
+Czech Republic
+
+
+Ecuador
+
+
+El Salvador
+
+
+Estonia
+
+
+Finland
+
+
+Greece
+
+
+Hungary
+
+
+Iceland
+
+
+Latvia
+
+
+Liechtenstein
+
+
+Lithuania
+
+
+Luxembourg
+
+
+Malta
+
+
+Netherlands
+
+
+Panama
+
+
+Peru
+
+
+Poland
+
+
+Portugal
+
+
+Slovakia
+
+
+Sweden
+
+
+Uruguay
+
+
+January                      
+
+Ireland
+
+
+February                     
+
+Australia
+
+
+New Zealand
+
+
+February                     
+
+France
+
+
+October                                   
+
+Italy
+
+
+Spain
+
+
+November                      
+
+Mexico
+
+
+October                                  
+
+Brazil
+
+
+December                                   
+
+Saudi Arabia
+
+
+United Arab Emirates
+
+
+Supported devices edit 
+As of September               update       over        devices support interaction with Amazon Alexa               Listed below are commercially available Alexa devices              
+
+Smart speakers edit 
+
+
+Brand
+Product
+References
+
+
+Amazon
+
+Amazon Echo
+
+
+
+
+Amazon
+
+Amazon Echo Plus
+
+
+
+
+Amazon
+
+Amazon Echo Dot
+
+
+
+
+Amazon
+
+Amazon Echo Look
+
+
+
+
+Amazon
+
+Amazon Echo Show
+
+
+
+
+Amazon
+
+Amazon Echo Spot
+
+
+
+
+Amazon
+
+Amazon Echo Studio
+
+
+
+
+Amazon
+
+Amazon Tap
+
+
+
+
+Sonos
+
+Sonos One smart speaker
+
+             
+
+
+Lenovo
+
+Lenovo Smart Assistant
+
+             
+
+
+Harman Kardon
+
+Allure smart speaker
+
+             
+
+
+Harman Kardon
+
+Harman Kardon Astra smart speaker
+
+             
+
+
+Kitsound
+
+Kitsound Voice One smart speaker
+
+             
+
+
+ Anker
+
+Eufy Genie
+
+             
+
+
+Invoxia
+
+Invoxia Triby
+
+             
+
+
+LG
+
+SmartThinQ Hub
+
+             
+
+
+Onkyo
+
+VC FLX  smart speaker
+
+             
+
+
+Clazio
+
+Spark by Clazio touchscreen smart speaker
+
+     citation needed     
+
+
+Fabriq
+
+Fabriq smart speaker
+
+             
+
+
+Fabriq
+
+Fabriq Chorus smart speaker
+
+             
+
+
+Jam Voice
+
+portable speaker
+
+             
+
+
+Vobot
+
+clock
+
+             
+
+
+Yeelight
+
+Voice Assistant  outside China 
+
+             
+
+
+Polk Audio
+
+Command Bar soundbar
+
+             
+
+
+Brilliant Control
+
+touchscreen home hub
+
+             
+
+
+Bose
+
+Home Speaker    
+
+             
+
+
+Bose
+
+Soundbar    
+
+
+
+
+Bose
+
+Soundbar    
+
+
+
+
+Marshall
+
+Stanmore II Voice smart speaker  coming in October      
+
+             
+
+
+Marshall
+
+Acton II smart speaker  coming in November      
+
+
+
+
+Huawei
+
+AI Cube smart speaker  coming December      
+
+             
+
+
+Riva
+
+Concert  coming soon 
+
+             
+
+
+Riva
+
+Stadium  coming soon 
+
+
+
+
+Libratone
+
+Zip    coming soon 
+
+             
+
+
+Libratone
+
+Zip   Mini  coming soon 
+
+
+
+
+ Anker
+
+Soundcore Flare S   coming soon 
+
+             
+
+
+Klipsch
+
+smart soundbars  released in      
+
+             
+
+
+Energy Sistem
+
+Smart Speaker   Talk  released in      
+
+
+
+
+Energy Sistem
+
+Smart Speaker   Home  released in      
+
+
+
+
+Energy Sistem
+
+Smart Speaker   Tower  released in      
+
+TVs and media boxes edit 
+
+
+Brand
+Product
+References
+
+
+Amazon
+
+Amazon Fire TV   nd generation  limited features 
+
+             
+
+
+Amazon
+
+Amazon Fire TV Stick
+
+
+
+
+Amazon
+
+Amazon Fire TV Cube
+
+             
+
+
+Element
+
+   Inch  K Ultra HD Smart LED TV
+
+             
+
+
+Sony
+
+Smart TVs
+
+             
+
+
+Samsung
+
+Smart TVs       
+
+Phones and tablets edit 
+
+
+Brand
+Product
+References
+
+
+Amazon
+
+Amazon Fire and Fire HD tablets    th   th  or  th generation devices  limited features 
+
+                          
+
+
+Amazon
+
+Fire    HD    amp        th generation
+
+             
+
+
+Huawei
+
+Huawei Mate  
+
+             
+
+
+HTC
+
+HTC U  
+
+             
+
+
+TCL
+
+Xess tablet
+
+             
+
+
+Motorola Mobility
+
+Moto X 
+
+             
+
+
+Motorola Mobility
+
+Moto Smart Speaker
+
+             
+
+
+Essential Products
+
+Essential Phone  halo grey color only 
+
+             
+
+Laptops and desktops edit 
+
+
+Brand
+Product
+References
+
+
+Asus
+
+ZenBook and VivoBook laptops       
+
+             
+
+
+HP
+
+Pavilion Wave desktop
+
+
+
+
+Lenovo
+
+ThinkPad X  laptops       
+
+             
+
+
+Acer
+
+Aspire  Spin  Switch and Swift notebooks
+
+             
+
+
+Acer
+
+Acer Aspire all in one desktops
+
+
+
+
+Razer
+
+laptops
+
+Smart home edit 
+
+
+Brand
+Product
+References
+
+
+ASUS
+
+Lyra Voice Tri Band Mesh Wi Fi Router  Alexa Built in   Bluetooth Speaker   Spotify Connect 
+
+             
+
+
+Amazon
+
+Amazon Dash Wand       version 
+
+             
+
+
+GE
+
+Sol LED Lamp
+
+             
+
+
+LG
+
+InstaView smart refrigerator
+
+             
+
+
+Nucleus
+
+Nucleus Anywhere Intercom
+
+             
+
+
+Omate
+
+Omate Yumi Robot
+
+             
+
+
+ecobee 
+
+smart thermostat
+
+             
+
+
+ecobee 
+
+Switch  light switch
+
+             
+
+
+iDevices
+
+Instinct light switch
+
+
+
+
+Schlage
+
+Encode smart home locks
+
+
+
+
+Nest Labs
+
+Nest thermostat
+
+
+
+
+Wozart Technologies
+
+Wozart Smart Switch
+
+
+Wozart Technologies
+
+Wozart Smart Plug
+
+
+
+
+Wozart Technologies
+
+Wozart Universal IR
+
+
+Wozart Technologies
+
+Wozart Wozart Motor Controller
+
+
+
+
+
+First Alert
+
+Onelink Safe  amp  Sound smoke alarm and carbon monoxide detector       version 
+
+             
+
+
+Lutron
+
+Caseta smart light switches
+
+
+
+
+Kohler Co 
+
+Verdera Voice Lighted Mirror
+
+             
+
+
+Netgear
+
+Orbi Voice Wi Fi router
+
+             
+
+
+SwitchBot
+
+SwitchBot Curtain
+
+                          
+
+
+SwitchBot
+
+SwitchBot Lock
+
+                          
+
+
+SwitchBot
+
+SwitchBot Hub  
+
+             
+
+Wearables and earphones edit 
+
+
+Brand
+Product
+References
+
+
+ONvocal
+
+OV headphones
+
+             
+
+
+UBtech Robotics
+
+Lynx robot
+
+             
+
+
+Pebble Technology
+
+Pebble Core  cancelled due to Fitbit acquisition  product did not reach retail 
+
+             
+
+
+Orion Labs
+
+Onyx smart walkie talkie
+
+             
+
+
+iMCO Technology
+
+iMCO CoWatch
+
+             
+
+
+Martian Watches
+
+Martian mVoice Smartwatches
+
+             
+
+
+Omate
+
+Omate Rise Smartwatch  see Omate TrueSmart 
+
+             
+
+
+Bragi
+
+Dash and Dash Pro earbuds
+
+             
+
+Automotive edit 
+
+
+Brand
+Product
+References
+
+
+Ford
+
+vehicles  select models 
+
+             
+
+
+BMW
+
+vehicles  all      models 
+
+             
+
+
+Mini
+
+vehicles  all      models 
+
+             
+
+
+Toyota
+
+vehicles  select      models 
+
+             
+
+
+Lexus
+
+vehicles  select      models 
+
+             
+
+
+Volkswagen
+
+vehicles       models 
+
+             
+
+
+Garmin
+
+Speak
+
+             
+
+
+Speak Music
+
+Muse
+
+             
+
+
+ Anker
+
+Roav Viva
+
+             
+
+Others edit 
+
+
+Brand
+Product
+References
+
+
+ unknown 
+
+Roger  app 
+
+             
+
+
+Atadore
+
+Voice in a Can app for Apple Watch
+
+             
+
+
+Amazon
+
+EchoSim  website 
+
+             
+
+
+Amazon
+
+Amazon iOS and Android shopping apps  only for purchasing products from Amazon com 
+
+             
+
+
+Amazon
+
+Amazon Music iOS and Android apps  only for music playback 
+
+             
+
+
+Amazon
+
+Amazon Alexa mobile app
+
+
+
+
+Anki
+
+Vector robot
+
+             
+
+
+Microsoft
+
+Xbox One
+
+
+
+
+Blok Party Inc 
+
+TapTop  Formerly known as  Playtable   Alexa Built in  Founders Edition  White
+
+             
+
+Alexa Prize edit 
+In September       a university student competition called the Alexa Prize was announced for November of that year               The prize is equipped with a total of      million and teams and their universities can win cash and research grants  The process started with team selection in                    The      inaugural competition focuses on the challenge of building a socialbot  The University of Washington student team was awarded first place for the Alexa Prize Grand Challenge                 The University of California  Davis student team was awarded first place for the Alexa Prize Grand Challenge                 The Emory University student team was awarded first place for the Alexa Prize Grand Challenge                
+
+Alexa Fund edit 
+Given Amazon s strong belief in voice technologies  Amazon announced a US     million venture capital fund on June           By specifically targeting developers  device makers  and innovative companies of all sizes  Amazon aims at making digital voice assistants more powerful for its users               Eligible projects for financial funding base on either creating new Alexa capabilities by using the Alexa Skills Kit  ASK  or Alexa Voice Service  AVS               
+The final selection of companies originates from the customer perspective and works backward  specific elements that are considered for potential investments are  level of customer centricity  degree of innovation  the motivation of leadership  fit to Alexa product service line  amount of other funding raised              
+Besides financial support  Amazon provides business and technology expertise  helps for bringing products to the market  aids with hard  and software development as well as enhanced marketing support on proprietary Amazon platforms 
+The list of funded businesses includes  in alphabetical order   DefinedCrows  Dragon Innovation  ecobee  Embodied Inc   Garageio  Invoxia  kitt ai  June  Luma  Mara  Mojio  twice   Musaic  Nucleus  Orange Chef  Owlet Baby Care  Petnet  Rachio  Ring  Scout  IT Rapid Support  Sutro  Thalmic Labs  Toymail Co   TrackR  and Vesper 
+
+See also edit 
+Cortana
+Google Assistant
+Mycroft
+Siri
+Bixby
+References edit 
+
+
+   Amazon Alexa for iPhone  iPod touch  and iPad on the iTunes App Store   iTunes  Archived from the original on December           Retrieved June         
+
+   Growing up with Alexa   CNN  October           Archived from the original on November           Retrieved November         
+
+   Ivona  Alexa  Vika or intelligent girls from Gda sk   May           Archived from the original on December          Retrieved December         
+
+  a b  Amazon Gets into Voice Recognition  Buys Ivona Software to Compete Against Apple s Siri   January           Archived from the original on November          Retrieved November          
+
+   Alexa Voice Service Overview  v                 Alexa Voice Service   developer amazon com  Archived from the original on December           Retrieved April         
+
+  David Pierce     July         Amazon s Omnipresence   WIRED  Archived from the original on May           Retrieved   November      
+
+  Rohit Prasad  Amazon Alexa and Conversational AI   Lex Fridman Podcast      December           archived from the original on January           retrieved           
+
+  Kinsella  Bret  November             Amazon Alexa Headcount Surpasses        Employees   Here is the Growth Rate   Voicebot ai  Archived from the original on January           Retrieved November         
+
+  Al Heeti  Abrar  January            Amazon has sold more than     million Alexa devices   CNET  CBS Interactive  Archived from the original on January           Retrieved January         
+
+   Amazon Introduces Four All New Echo Devices  Sales of Alexa Enabled Devices Surpass Half a Billion      May      
+
+   Introducing Alexa   the next generation of Alexa      February      
+
+  Everything you say to your Echo will be sent to Amazon starting on March   
+
+   The Gda sk man who brought US giant Amazon to Poland   Archived from the original on November           Retrieved November          
+
+  Etherington  Darrell  November            Amazon Echo Is A      Connected Speaker Packing An Always On Siri Style Assistant   TechCrunch  Archived from the original on May           Retrieved September         
+
+  Green  Penelope  July             Alexa  Where Have You Been All My Life    The New York Times  Archived from the original on May           Retrieved July           When Toni Reid and her colleagues at Amazon set out to build the device that is now known as Alexa  they were inspired by the computer that drove the Enterprise on Star Trek  voiced by Majel Barrett Roddenberry  who played Nurse Chapel on the series and was married to the show s creator   Focusing on cadence and an accent that would suggest  smart  humble  helpful   the team tested voices that a diverse population would respond to   Our goal was to have Alexa be humanlike   Ms  Reid said  but why end there 
+
+   A  Gift of the Web  for the Library of Congress   October           Archived from the original on October          Retrieved June          
+
+  Limp  Dave   The Exec Behind Amazon s Alexa   Fortune  Time Inc  Archived from the original on April          Retrieved November          
+
+   Amazon engineers had one good reason and one geeky reason for choosing the name Alexa   Business Insider  Archived from the original on July           Retrieved February          
+
+        million in investment to fuel voice technology innovation   The Alexa Fund  Archived from the original on March          Retrieved April         
+
+   Summary and Highlights  The First Ever Alexa Conference   linkedin com  Archived from the original on August           Retrieved April         
+
+   Bradley Metrock and the Alexa Conference  Alexa As a Game Changer for Search and Publishing   February          Archived from the original on May           Retrieved April         
+
+   Something fishy at the Alexa conference   Archived from the original on July           Retrieved April         
+
+   Project Voice  as a conference  is uniquely organized to juxtapose the major ecosystems  Amazon Alexa  Google Assistant  Samsung Bixby  and Microsoft Cortana   with The Voice World Fair running across the entire essential week   Project Voice  Archived from the original on May           Retrieved November         
+
+  Donnelly  Grace  May            Amazon Alexa Will Come Built In to All New Homes From Lennar   Fortune  Archived from the original on October           Retrieved April         
+
+  Lui  Christopher  November             Amazon Opens First Ever Alexa Smart Home Retail Space in Canada   Retail Insider  Archived from the original on November           Retrieved November          
+
+  Turcan  Marie   Test d Amazon Echo        que vaut l enceinte connect e d Amazon en version fran aise          in French   Archived from the original on July          Retrieved June         
+
+   Angrez turns Desi  Amazon expands Alexa voice service to include Hindi   Business Insider  Archived from the original on November           Retrieved July          
+
+  Sawers  Paul  November             Amazon brings Echo  Alexa  and Prime Music to Canada   VentureBeat  Archived from the original on November           Retrieved November          
+
+  Charron  Fran ois   L assistant vocal Alexa d Amazon enfin disponible en qu b cois  Archived April           at the Wayback Machine  in French  
+
+   Alexa and Amazon Echo Now Available in Brazil   businesswire com  Business Wire  October          Archived from the original on August          Retrieved August         
+
+  Greenwald  Will    November         Amazon Echo Studio Review   PCMag  Archived from the original on October          Retrieved October         
+
+   Amazon Alexa is a  colossal failure   on pace to lose     billion this year   November           Archived from the original on November           Retrieved November          
+
+  Palmer  Annie                Amazon unveils revamped Alexa with AI features for        per month  free for Prime members   CNBC  Retrieved            
+
+   Amazon Alexa   play google com  Archived from the original on October           Retrieved October          
+
+  Martin  Taylor  Priest  David  September             The complete list of Alexa commands so far   CNET  CBS Interactive  Archived from the original on December           Retrieved November         
+
+   Alexa gets access to Wolfram Alpha s knowledge engine   TechCrunch  December           Archived from the original on December           Retrieved            
+
+  Erickson  Simon  Fool  Moltey  September              Alexa  Make Me Money   Conversational AI Prepares for the Enterprise   Nasdaq  Archived from the original on September           Retrieved September          
+
+  Kendrick  James  January             Amazon Echo update adds Pandora  iTunes  and Spotify voice control   ZDNet  Archived from the original on March           Retrieved October          
+
+   Alexa Skills   Amazon  Archived from the original on November           Retrieved August          
+
+  Webb  Kevin  December             These were the    most popular Alexa skills of       according to Amazon   Business Insider  Archived from the original on October           Retrieved August          
+
+  Haselton  Todd  December             Apple  Google and Amazon are cooperating to make your home gadgets talk to each other   CNBC  Archived from the original on December           Retrieved December          
+
+   Amazon Alexa s next gen upgrade could turn the assistant into a generative AI chatbot      May       Archived from the original on    May       Retrieved    May      
+
+  Hall  Chris  Davidson  Adam                Amazon Alexa Easter eggs      fun things to say to Alexa   Pocket lint  Retrieved            
+
+   Amazon com Announces First Quarter Sales up     to       Billion   April           Archived from the original on September           Retrieved August          
+
+  Perez  Sarah  June            Amazon Alexa now has over       Functions  up from     in January   TechCrunch  Archived from the original on October           Retrieved August         
+
+   Microsoft  Amazon release preview of Alexa and Cortana collaboration   The AI Blog   The AI Blog  August           Archived from the original on August          Retrieved August          
+
+   Alexa Replaces Some Spoken Responses With Beeps   PCMAG  Archived from the original on June           Retrieved March          
+
+   Alexa gets access to Wolfram Alpha s knowledge engine   Tech Crunch  December           Archived from the original on June          Retrieved January         
+
+  Tofel  Kevin  May            Amazon Echo just became much more useful with IFTTT support   ZDNet  Archived from the original on September           Retrieved August         
+
+   Amazon Echo controls Belkin WeMo and Philips Hue with your voice   Engadget  April          Archived from the original on August          Retrieved April         
+
+  Tofel  Kevin  July            Amazon Echo can now control Wink smart home products   ZDNet  Archived from the original on October           Retrieved August         
+
+   Hey Alexa  Meet Yonomi   Yonomi  March           Archived from the original on August           Retrieved August         
+
+  Callaham  John  April            Amazon Echo owners can now control WeMo and Philips Hue devices with their voice   Connectedly  Mobile Nations  Archived from the original on October          Retrieved April         
+
+  Lauren Goode  Michael Calore   Is There an Echo in Here  All the Hardware Amazon Announced   Wired  Archived from the original on July           Retrieved September          
+
+  Clark  Mitchell     February         Alexa can now greet people from your Ring Doorbell Pro   theverge com  Archived from the original on February           Retrieved    February      
+
+   Alexa used most often to control lights by Indians  Amazon reveals   The Indian Express              Archived from the original on April          Retrieved            
+
+  Wong  Raymond  February            How to order a pizza with Amazon Alexa or Google Home   Mashable  Archived from the original on May          Retrieved May         
+
+  Heathman  Amelia  September             The    best launch partners for Amazon Echo s Alexa   Wired UK  Archived from the original on January           Retrieved January          
+
+  Kell  John  January             Starbucks adds voice ordering on iPhone  Amazon s Alexa   Fortune  Archived from the original on February          Retrieved May         
+
+  Filloon  Whitney  January            Amazon s Alexa Will Order Restaurant Delivery On Command   Eater  Archived from the original on September           Retrieved May         
+
+   Amazon launches smart lock and security cam system to take in home deliveries for Prime members  with iPhone app alerts    to Mac  October           Archived from the original on July           Retrieved November         
+
+  Anand  Priya  August            The Reality Behind Voice Shopping Hype   The Information  Archived from the original on November          Retrieved August         
+
+   Amazon com Help  Ways to Listen to Music  amp  Media on Alexa   amazon com  Archived from the original on October          Retrieved April         
+
+  a b  Amazon com Help  Listen to Your Sports Update   amazon com  Archived from the original on December           Retrieved April         
+
+   Amazon com Help  About Alexa Messaging   amazon com  Archived from the original on January           Retrieved April         
+
+   Amazon com Help  Add and Edit Your Contacts to the Alexa App   amazon com  Archived from the original on April           Retrieved April         
+
+   Key Features of Amazon Alexa App   Amazon Alexa  Archived from the original on December          Retrieved September          
+
+   Amazon com Help  Availability of Alexa to Alexa Calling and Messaging   amazon com  Archived from the original on January           Retrieved April         
+
+  Novet  Jordan  November             Amazon officially unveils Alexa for Business   CNBC  Archived from the original on March           Retrieved December         
+
+  McLean  Asha  November             Alexa for Business     key takeaways   ZDNet  Archived from the original on March           Retrieved December         
+
+  Rabbi  Ahatesham     June         The Power of Amazon Alexa Across   Top Products  Revolutionizing Home Convenience   AR Shop Now  Retrieved   July      
+
+  a b Ricker  Thomas  March            Alexa adds severe weather alerts and new features for commuters   The Verge  Archived from the original on March          Retrieved March         
+
+  a b  Alexa can now provide traffic updates and severe weather alerts   Engadget  March          Archived from the original on March          Retrieved March         
+
+   Alexa Skills Kit   Build for Voice with Amazon   developer amazon com  Archived from the original on February           Retrieved March         
+
+   Understanding the Updated Smart Home Skill API  Preview    Archived from the original on January           Retrieved September          
+
+   Create a Smart Home with Amazon Alexa   Amazon Developer  Archived from the original on June           Retrieved August         
+
+   Host a Custom Skill as an AWS Lambda Function   Custom Skills   developer amazon com  Archived from the original on December           Retrieved March         
+
+  Gagliordi  Natalie  April             Amazon intros Blueprints  code free templates to create Alexa skills   ZDNet  Archived from the original on January           Retrieved April          
+
+  Romano  Benjamin  February             Amazon lets amateurs publish custom Alexa apps to reach broad audiences   The Star Online  Archived from the original on October           Retrieved February          
+
+   Alexa Voice Service   developer amazon com  Archived from the original on May          Retrieved March         
+
+  Sepp Hochreiter  J rgen Schmidhuber          Long short term memory   Neural Computation                    doi         neco                PMID               S CID               Archived from the original on January           Retrieved April         
+
+  Felix A  Gers  J rgen Schmidhuber  Fred Cummins          Learning to Forget  Continual Prediction with LSTM   Neural Computation                      CiteSeerX                      doi                             PMID                S CID               
+
+  Vogels  Werner  November             Bringing the Magic of Amazon AI and Alexa to Apps on AWS   All Things Distributed  Archived from the original on July           Retrieved April         
+
+  Baig  Edward C   Want to work at McDonald s  Ask Alexa or the Google Assistant for help   USA TODAY  Archived from the original on September           Retrieved September          
+
+  Kelion  Leo  September             Amazon Alexa gets Samuel L Jackson s voice   Archived from the original on November          Retrieved September          
+
+   Alexa Can Now Speak Spanish in the US   MakeUseOf  October           Archived from the original on October           Retrieved October          
+
+  Arora  Akhil  September             Amitabh Bachchan to Be Alexa s First Indian Celebrity Voice   Archived from the original on September           Retrieved September          
+
+   AWS Announces Three New Amazon AI Services   businesswire com  Business Wire  November           Archived from the original on September           Retrieved December         
+
+  Barr  Jeff  November             Amazon Lex   Build Conversational Voice  amp  Text Interfaces   aws amazon com  Amazon  Archived from the original on December          Retrieved December         
+
+   Amazon announces Echo  a      voice driven home assistant   Ars Technica  November          Archived from the original on November           Retrieved November          
+
+   How private is Amazon Echo    Slashgear com  November          Archived from the original on September           Retrieved November          
+
+   Amazon Alexa   Alexa amazon com  Archived from the original on July           Retrieved August         
+
+   Amazon Now An Open Book On Search Warrants And Subpoenas   June           Archived from the original on November           Retrieved September         
+
+   Watch Alexa rap with Too Many T s in this interactive music video   TechCrunch   techcrunch com  March           Archived from the original on January           Retrieved April          
+
+  Crowley  James     December         Woman says Amazon s Alexa told her to stab herself in the heart for  the greater good    Newsweek  Archived from the original on November           Retrieved December          
+
+   Woman Shocked When Alexa Tells Her To Kill Herself        WESC   Charlie Munson        WESC  Archived from the original on July           Retrieved June          
+
+   Amazon s Alexa has morning snooze   BBC   BBC   BBC  Archived from the original on January           Retrieved January          
+
+   El asistente virtual Alexa sufre una ca da generalizada en varios pa ses   www expreso ec  Archived from the original on April          Retrieved            
+
+  Mike  Bantick                Control your car from the lounge   Motoring  Archived from the original on            
+
+  Zaharov Reutt  Alex   iTWire   VIDEO Interview Aussie millionaire gaming genius  Luke Millanta  launches AlerTor  the Dark Web tracking tool   itwire com  Archived from the original on April           Retrieved            
+
+  Edwards  Luke  October             Garmin Speak puts Alexa in your car for super smart voice controls   T   Archived from the original on October           Retrieved            
+
+  Newman  Lily Hay   Turning an Amazon Echo Into a Spy Device Only Took Some Clever Coding   Wired  Archived from the original on September           Retrieved December          
+
+  Ng  Alfred   Amazon s Alexa had a flaw that let eavesdroppers listen in   cnet com  cnet  Archived from the original on April           Retrieved December          
+
+  a b McCarthy  Kieren  December                  ain t done yet    Amazon sent Alexa recordings of man and girlfriend to stranger   The Register  Archived from the original on April          Retrieved March          
+
+  Chokshi  Niraj  May             Is Alexa Listening  Amazon Echo Sent Out Recording of Couple s Conversation   The New York Times  ISSN                 Archived from the original on November           Retrieved December          
+
+  Cuthbertson  Anthony  April         Secretion of sulfuric acid in Cassidaria echinophora Lamarck  Mollusca  Mesogastropoda  marine carnivorous snail    Independent                 doi         s                      PMID           Archived from the original on            
+
+  Adam  Adam         Amazon Echo Dot       Does Alexa Spy On You  A Guide With All The Answers About Your Amazon Echo Dot   rd Generation  Amazon Echo  Dot  Echo Dot  Amazon Echo User Manual  Echo Dot Ebook  Amazon Dot   Independently published  ISBN                    
+
+  Leavitt  Sara          Hey Alexa   Mind your Own Business   The Consumer Perception of Personalized Advertisements  PDF   BS thesis   Endicott College  Archived from the original  PDF  on January           Retrieved September          
+
+   Amazon Echo Recordings Could Contain Evidence For NH Double Murder Trial   November          Archived from the original on November           Retrieved December          
+
+  Thrivin  for the Truth  November            Breaking  Chris Watts Confession Interview  archived from the original on             retrieved December         
+
+  Kr ger  Jacob Leon  Lutz  Otto Hans Martin  Raschke  Philip          Privacy Implications of Voice and Speech Analysis   Information Disclosure by Inference   Privacy and Identity Management  Data for Better Living  AI and Privacy  IFIP Advances in Information and Communication Technology  Vol            pp                doi                               ISBN                         ISSN                
+
+  Parents of children called Alexa challenge Amazon Archived July          at the Wayback Machine  by Tim Johns  at BBC com  published July          retrieved July        
+
+  Rohit Prasad  June            Amazon re MARS        Day     Keynote  Archived from the original on June           Retrieved June          
+
+  Mar a Luisa Pa l  June             Alexa has a new voice   your dead relative s   Washington Post  Archived from the original on June           Retrieved June          
+
+  Annie Palmer  June             Amazon demonstrates Alexa mimicking the voice of a deceased relative   CNBC  Archived from the original on June           Retrieved June          
+
+  Bobby Allyn  June             Amazon s Alexa could soon speak in a dead relative s voice  making some feel uneasy   NPR  Archived from the original on June           Retrieved June          
+
+  Inga Parkel  June             Black Mirror fans are comparing the latest Alexa update to one of the creepiest episodes   Independent  Archived from the original on June           Retrieved June          
+
+  Zakrzewski  Cat  October            Amazon s Alexa has been claiming the      election was stolen   The Washington Post  Archived from the original on October          Retrieved October         
+
+  a b Abbas Jaffar Ali    December         Alexa can now speak Arabic   launches officially in Saudi Arabia and UAE with Echo devices   TechRadar  Archived from the original on February           Retrieved February          
+
+  a b George Charles Darley    December         Amazon launches Saudi dialect speaking Alexa   Arab News  Archived from the original on February           Retrieved February          
+
+  a b Kharpal  Arjun  September             Amazon launches its AI powered speaker Echo in Europe   CNBC  Archived from the original on December           Retrieved March         
+
+  Russell  Jon   Amazon launches its Echo devices and Alexa in Japan   TechCrunch  Archived from the original on December           Retrieved March         
+
+  Lewis  Michael  December            Amazon s Alexa going live in Canada   The Toronto Star  ISSN                 Archived from the original on December           Retrieved March         
+
+   Amazon Echo expands to    more countries   The Verge  Archived from the original on December           Retrieved March         
+
+   Amazon Echo and Alexa launch in Ireland   Raidi  Teilif s  ireann  January           Archived from the original on December           Retrieved February         
+
+   Amazon Echo devices are headed to Australia and New Zealand in February   The Verge  Archived from the original on December           Retrieved March         
+
+   Alexa echo france price date specs   The Verge  June          Archived from the original on April          Retrieved June         
+
+  Liao  Shannon  October             Amazon s Echo and Alexa devices come to Spain and Italy   The Verge  Vox Media  Archived from the original on October           Retrieved October          
+
+  Holt  Kris  June             Alexa and Echo will arrive in Italy and Spain later this year   Engadget  Archived from the original on June           Retrieved June          
+
+  Wiggers  Kyle  November            Amazon launches Alexa  Echo devices  and Amazon Music in Mexico   VentureBeat  Archived from the original on November          Retrieved November         
+
+  Mari  Angelica  March             Amazon kicks off Alexa trial in Brazil   ZDNet  Archived from the original on March           Retrieved August          
+
+   Amazon lan a Alexa e dispositivos Echo no Brasil   G   October          Archived from the original on May           Retrieved October         
+
+  Heater  Brian  September            Alexa is now available on        devices   TechCrunch  Oath Inc  Archived from the original on September          Retrieved September         
+
+   Echo Speakers with Alexa   LatestProductReviews com  Latest Product Reviews com  November          Archived from the original on November           Retrieved November         
+
+  Biggs  John  October            Sonos announces Alexa controlled wireless speakers   TechCrunch  Archived from the original on April           Retrieved October         
+
+  Barrett  Brian  January            Lenovo s Smart Speaker Marries Up Alexa Smarts and Harman Kardon Sounds   Wired  Archived from the original on January           Retrieved October         
+
+  Singleton  Micah  August             Harman s Alexa speaker is    x uglier than its Cortana speaker   The Verge  Vox Media  Archived from the original on April          Retrieved August          
+
+   HARMAN Adds Harman Kardon Astra with Amazon Alexa to Lineup of Voice Controlled Speakers   American City Business Journals  February           Archived from the original on January           Retrieved March         
+
+  Langridge  Max  August            KitSound Voice One gives Alexa the audio oomph she needs   Pocket lint  Archived from the original on November           Retrieved April         
+
+  Daugherty  Trevor  August            Anker s new Alexa powered Eufy Genie undercuts Echo Dot on price    to Toys  Archived from the original on June          Retrieved August         
+
+  Bohn  Dieter  April             This adorable Bluetooth speaker puts Alexa on your fridge   The Verge  Vox Media  Archived from the original on September           Retrieved September         
+
+  Torres  Timothy  September            Eyes On  LG s SmartThinQ Hub With Alexa   PC Magazine  Archived from the original on September          Retrieved September         
+
+  Nicolakis  Theo  January            Onkyo s VC FLX  smart speaker combines Alexa  sensors  and a webcam   Archived from the original on September           Retrieved April         
+
+   Fabriq s smart speaker packs Alexa into a brand new package   CNET  Archived from the original on November           Retrieved November          
+
+  Brown  Michael  November             Fabriq Chorus review  This Alexa powered smart speaker is an excellent value   TechHive  International Data Group  Archived from the original on February          Retrieved November          
+
+  Pullen  John Patrick  December               Can t Miss Gadgets Powered By Amazon s Alexa Assistant   Time  Archived from the original on December           Retrieved December          
+
+  Lulu  Chang  January            Talk back to your alarm clock with the Alexa enabled Vobot Clock   Digital Trends  Archived from the original on February           Retrieved November          
+
+  Patel  Idrees  December             Xiaomi s Yeelight Speaker Uses Alexa and Looks Like an Amazon Echo Dot   XDA Developers  Archived from the original on January          Retrieved January         
+
+  Soper  Taylor  January            Polk Audio debuts first voice controlled sound bar with Amazon Alexa   GeekWire  Archived from the original on September           Retrieved January          
+
+  Goldman  Joshua  September            Brilliant Control touchscreen home hub with Alexa now available   CNET  CBS Interactive  Archived from the original on August           Retrieved September         
+
+  Potuck  Michael  August             Bose unveils new smart speaker and soundbars with Alexa voice control  AirPlay   and Google Assistant coming soon    to Toys  Archived from the original on June          Retrieved August          
+
+  Dent  Steve  August             Marshall taps Alexa for its first smart speakers   Engadget  Oath Inc  Archived from the original on September           Retrieved August          
+
+  Colline  Katie  August             Huawei joins the Alexa powered smart speaker club with the AI Cube   CNET  CBS Interactive  Archived from the original on September          Retrieved August          
+
+  St Leger  Henry  August             RIVA Voice Series goes all out on Alexa in new speaker range   TechRadar 
+
+  Lee  Dami  August             Libratone s cute Zipp   and Zipp Mini   speakers come with Alexa   The Verge  Vox Media  Archived from the original on October           Retrieved September         
+
+  Dipane  Jared  August             Soundcore by Anker announces the Flare S   its first Bluetooth speaker with Alexa built in   Android Central  Mobile Nations  Archived from the original on June           Retrieved September         
+
+  Deahl  Dani  January            Klipsch brings Google Assistant and Alexa support to its smart sound bars   The Verge  Vox Media  Archived from the original on July          Retrieved January         
+
+  Rothman  Wilson  September             Amazon Fire TV Gets  K Video and the Alexa Virtual Assistant   The Wall Street Journal  Archived from the original on September           Retrieved September         
+
+  Fowler  Geoffrey A   June             Amazon s Fire TV Cube wants to replace your remote  but Alexa gets a little tongue tied   The Washington Post  Archived from the original on August           Retrieved June          
+
+   Element Integrates Amazon Fire TV Into New Sets   Daily Herald  May           Archived from the original on October           Retrieved May          
+
+  Kerr  Dara  Fox Rubin  Ben  September             Alexa is coming to Sony smart TVs   CNET  CBS Interactive  Archived from the original on November           Retrieved November          
+
+   Supported Alexa Features   Amazon  Archived from the original on April           Retrieved April          
+
+   Amazon s new Fire HD   is its first tablet with Alexa   Engadget  September          Archived from the original on February           Retrieved September         
+
+  Fingas  Jon  September             Amazon s      Fire tablet summons Alexa hands free   Engadget  Archived from the original on November           Retrieved September          
+
+   Huawei s Mate   Becomes the First Alexa Phone   PC Magazine  Archived from the original on September          Retrieved January         
+
+   HTC U   hands on A squeezable  all glass device with dual hotword support   Ars Technica  Archived from the original on September          Retrieved May          
+
+  Diaconescu  Adrian  November            TCL Xess      inch  smart home hubon Amazon   Pocketnow  Archived from the original on July           Retrieved November          
+
+  Wang  Jules  October             Dual cameras  water resistance  Alexa  moderate price tag for Moto X    PocketNow  Archived from the original on July           Retrieved October          
+
+  Fingas  Jon  October             Motorola s newest mod puts an Alexa speaker on your phone   Engadget  Archived from the original on February          Retrieved October          
+
+  Gartenberg  Chaim  February             Essential made an Amazon exclusive version of its phone with Alexa preinstalled   The Verge  Vox Media  Archived from the original on May          Retrieved February          
+
+  Devine  Richard  January            Amazon Alexa coming to Windows    PCs from ASUS  HP and more   Windows Central  Mobile Nations  Archived from the original on April          Retrieved January          
+
+  Goldman  Joshua  January            Lenovo s new ThinkPad X  laptops join HDR and Alexa chorus   CNET  CBS Interactive  Archived from the original on July           Retrieved January          
+
+  Forrest  Conner  January            HP  ASUS  Acer bringing Amazon Alexa integration to laptops and desktops   TechRepublic  Archived from the original on September           Retrieved January          
+
+  Paul Lee  Paul Lee  April             All In One Smart Voice Router   AC     Tri Band Mesh WiFi Router and Bluetooth speaker with AiMesh support and Amazon Alexa Built in  AiProtection Pro network security powered by Trend Micro  Two  W Stereo Speakers   ASUS  Archived from the original on January           Retrieved April          
+
+  Krishna  Swapna  June             Amazon s Dash Wand lets you order groceries with your voice   Engadget  Archived from the original on April          Retrieved June          
+
+  Heater  Brian  December            GE puts Amazon Alexa inside a funky table lamp   TechCrunch  Archived from the original on August           Retrieved December         
+
+  Wong  Raymond  January            LG s fancy smart fridge has Alexa and Amazon Fresh built right in   Mashable  Archived from the original on September          Retrieved January         
+
+  Strange  Adario  August            Nucleus debuts first Alexa enabled touchscreen video device   Mashable  Archived from the original on September           Retrieved September         
+
+  Carman  Ashley  November            Omate s Yumi robot is an Alexa enabled tablet with wheels   The Verge  Vox Media  Archived from the original on November          Retrieved November         
+
+  O Rourke  Patrick  May            Ecobee  smart thermostat with built in Alexa revealed  but it isn t launching in Canada   MobileSyrup  Archived from the original on May          Retrieved May         
+
+  Hall  Zac  November             ecobee launches pilot program for its Alexa enabled Switch  light switch ahead of release    to Mac  Archived from the original on April           Retrieved January         
+
+  Lavars  Nick  January            Alexa enabled smoke detector doubles as a voice assistant from above   New Atlas  Archived from the original on March           Retrieved January         
+
+  Koetsier  John  March            This      Bathroom Mirror Is Alexa Powered So You Can Shop While You           Forbes  Archived from the original on September           Retrieved March          
+
+  Clark Estes  Adam  August             Netgear Stuffed Alexa and a Harman Kardon Speaker Into a Wifi Router For Some Reason   Gizmodo  Archived from the original on November          Retrieved August          
+
+   SwitchBot Curtain with Alexa makes any curtains smart for      yahoo  June           Archived from the original on June           Retrieved June          
+
+   SwitchBot Curtain Review  Make Curtains Great Again   April           Archived from the original on June           Retrieved June          
+
+   SwitchBot Lock review  a tiny robot hand that unlocks your door   The Verge  August           Archived from the original on June           Retrieved June          
+
+   Switchbot Lock review  A smart add on for your existing lock   Boy Genius Report  April           Archived from the original on June           Retrieved June          
+
+   Switchbot Hub   Review  an Upgrade That Matters   April           Archived from the original on June           Retrieved June          
+
+  Etherington  Darrell  December             These new headphones let you talk to Amazon s Alexa anywhere you go   TechCrunch  Archived from the original on February           Retrieved December          
+
+  Lagace  Marc  January            Meet Lynx  the walking  talking home robot powered by Amazon Alexa   Android Central  Archived from the original on July           Retrieved January         
+
+  Karcz  Anthony  June            Pebble Core Becomes First  G Ultraportable With Amazon Alexa   Archived from the original on September           Retrieved September         
+
+  Chokkattu  Julian  September             Onyx communicator lets you talk to people around the globe with a push of a button   Digital Trends  Archived from the original on December           Retrieved December          
+
+  Goldman  Joshua  April             CoWatch keeps Amazon Alexa Voice Service at arm s length   CNET  Archived from the original on August           Retrieved September         
+
+  Graziano  Dan  December            You can now get Alexa on your wrist  thanks to Martian   CNET  Archived from the original on May           Retrieved December          
+
+   Omate Rise  G smartwatch slaps Amazon Alexa on your wrist   Engadget  Archived from the original on February           Retrieved September         
+
+  Langley  Hugh  October             The Bragi Dash and Dash Pro will now put Alexa right in your ear   Wareable  Archived from the original on December           Retrieved October          
+
+  Snider  Mike  January            Ford plans to take Amazon s Alexa for a ride   USA Today  Archived from the original on September           Retrieved January         
+
+  Muoio  Danielle  September             Amazon is adding Alexa to BMW cars in        Business Insider  Archived from the original on September           Retrieved January         
+
+  Normile  Brian  October            BMW  Mini Assimilate Full Amazon Alexa Skill Set   Cars com  Archived from the original on November           Retrieved January         
+
+  Vanian  Johnathan  January            Amazon s Alexa Is Coming to Some Toyota and Lexus Cars   Fortune  Archived from the original on September           Retrieved January         
+
+  Ferris  Robert  January            Toyota will add Amazon Alexa to select cars in        CNBC  Archived from the original on September           Retrieved January         
+
+  Beckwith  Jimi  September             Volkswagen to get Amazon Alexa voice control in connectivity push   Autocar  Archived from the original on October           Retrieved May         
+
+   Garmin Speak   Uncrate  Archived from the original on October           Retrieved October          
+
+  Etherington  Darrell  November             Muse is a simple dedicated Amazon Alexa add on for the car   TechCrunch  Oath Inc  Archived from the original on December          Retrieved November          
+
+  Estrada  Zac  January            Anker steps up its car game with the Alexa enabled Roav Viva   The Verge  Archived from the original on November           Retrieved August         
+
+  Attkisson  Anna  May             Alexa Works on Your Phone Now  Too   Tom s Guide  Archived from the original on   October       Retrieved September         
+
+  Warren  Tom  June            Alexa now runs on the Apple Watch  thanks to Voice in a Can app   The Verge  Archived from the original on June           Retrieved June          
+
+  Mandaro  Laura  May             Amazon lets you access Alexa on the web via Echosim io   USA Today  Archived from the original on August           Retrieved September         
+
+  Perez  Sarah  March             Amazon adds Alexa to its main shopping app   TechCrunch  Oath Inc  Archived from the original on November           Retrieved November          
+
+  Moon  Mariella  September             Amazon finally adds Alexa support to its Music app   Engadget  Oath Inc  Archived from the original on November           Retrieved November          
+
+  Wiggers  Kyle  November             Anki s Vector gets new animations and features ahead of Alexa integration   VentureBeat  Archived from the original on April          Retrieved December          
+
+  Meiners  Thomas  April             Taptop FAQ s   Taptop Support  Archived from the original on August          Retrieved August         
+
+  Ashwin Ram  September             Are you up to the Challenge  Announcing the Alexa Prize       Million to Advance Conversational Artificial Intelligence   Amazon developer community posting  Archived from the original on October          Retrieved October         
+
+   Alexa Prize FAQ   developer amazon com  Amazon  Archived from the original on November           Retrieved November          
+
+  Blume  Michael   UW student team wins first place in Amazon Alexa competition   Archived from the original on September           Retrieved January          
+
+  Hakkani T r  Dilek   Announcing the      Alexa Prize Winner  University of California  Davis   Archived from the original on December          Retrieved November          
+
+  Zorio  Stephen   Emory University team wins Alexa Prize Grand Challenge     Archived from the original on September           Retrieved August         
+
+   Build New Voice Experiences with Help from the Alexa Fund   Archived from the original on December          Retrieved March          
+
+  a b  The Alexa Fund   developer amazon com  Archived from the original on March          Retrieved March          
+
+
+External links edit 
+Amazon Alexa Web Portal
+vteAmazonPeopleCurrent
+Jeff Bezos  Founder and Executive Chairman 
+Andy Jassy  President and CEO 
+Werner Vogels  CTO 
+Former
+Rick Dalzell
+Paul Davis
+Tony Hsieh
+Christopher North
+Ram Shriram
+Tom Szkutak
+Brian Valentine
+Facilities
+List of Amazon locations
+Doppler
+Day  
+HQ 
+Principal Place
+Spheres
+Bellevue    
+Products andservicesSubsidiaries
+A  com
+AbeBooks
+Amazon Clinic
+Amazon Games
+Double Helix Games
+Amazon Lab   
+Amazon Pharmacy
+Amazon Robotics
+Amazon University Esports
+Annapurna Labs
+Audible
+Blink Home
+Body Labs
+Book Depository
+BookFinder
+ComiXology
+Freevee
+Fresh
+Goodreads
+Goodreads Choice Awards
+Graphiq
+IMDb
+Box Office Mojo
+IMDbPro
+Kuiper Systems
+One Medical
+PillPack
+Ring
+Neighbors
+Shopbop
+Souq com
+Twitch
+IGDB
+Woot com
+Zappos
+Zoox
+Cloudcomputing
+Web Services
+AMI
+Amazon Aurora
+Beanstalk
+CloudFront
+DynamoDB
+EBS
+EC 
+EFS
+ElastiCache
+EMR
+Glacier
+Glue
+Lambda
+Lightsail
+MTurk
+Neptune
+Product Advertising API
+RDS
+Redshift
+Rekognition
+Route   
+S 
+SageMaker
+SES
+SNS
+SimpleDB
+SQS
+VPC
+Services
+Amazon com
+China
+Alexa
+Appstore
+Digital Game Store
+Fire OS
+Kindle Store
+Luna
+Payments
+Prime
+Amazon miniTV
+MX Player
+Key
+Prime Music
+Prime Now
+Prime Pantry
+Prime Video
+Sports
+Marketplace
+Music  Wondery 
+Silk
+Wireless
+Devices
+Astro
+Echo
+Show
+Echo Buds
+Fire
+Fire HD
+Fire HDX
+Fire TV
+Stick
+Kindle
+Technology
+  Click
+Dynamo
+Obidos
+Lumberyard
+Media
+Amazon Games
+Amazon Publishing
+Breakthrough Novel Award
+Best Books of the Year
+Amazon MGM Studios
+Metro Goldwyn Mayer
+United Artists
+Orion Pictures
+American International Pictures
+MGM 
+Kindle Direct Publishing
+YES Network      
+Retail
+Amazon Fresh
+Amazon Go
+Whole Foods Market
+Logistics
+Amazon Air
+Amazon Prime Air
+Former
+   Things
+Askville
+Alexa Internet
+Amapedia
+Amazon Books
+Amie Street  Songza 
+CDNow
+Dash buttons
+Dash wand
+Diapers com
+Digital Photography Review
+Drive
+Endless com
+Fire Phone
+Lexcycle
+Liquavista
+LivingSocial
+LoveFilm
+MGM Holdings
+Mobipocket
+PlanetAll
+Reflexive Entertainment
+Sellaband
+Shelfari
+TenMarks
+Treasure Truck
+Withoutabox
+Litigation
+Perfect     Inc  v  Amazon com  Inc 
+Amazon com  Inc  v  Barnesandnoble com  Inc 
+Amazon com Inc v Canada  Commissioner of Patents 
+FTC v  Amazon
+Other
+Amazon Light
+ASIN
+Community Banana Stand
+Criticism  tax 
+Fishbowl
+History of Amazon
+LibraryThing
+List of Amazon brands
+List of Amazon products and services
+List of mergers and acquisitions by Amazon
+Locker
+MacKenzie Scott
+Statistically improbable phrase
+Vine
+Worker organization
+Unions
+Congress of Essential Workers
+Amazon Labor Union
+Amazon worker organization
+     strike
+ Category
+vteVirtual assistantsActive
+AliGenie
+Alexa
+Alice
+Bixby
+Viv
+Braina
+Celia
+Clova
+Google Assistant
+Maluuba
+Siri
+Voice Mate
+Watson
+WolframAlpha
+Xiaoice
+Discontinued
+BlackBerry Assistant
+Cortana
+Google Now
+M
+Microsoft Agent
+Microsoft Bob
+Microsoft Voice Command
+Ms  Dewey
+Mya
+Mycroft
+Office Assistant  Clippy 
+S Voice
+Speaktoit Assistant
+Tafiti
+Vlingo
+
+Authority control databases NationalGermanyArtistsMusicBrainz
+
+
+
+
+
+Retrieved from  https   en wikipedia org w index php title Amazon Alexa amp oldid

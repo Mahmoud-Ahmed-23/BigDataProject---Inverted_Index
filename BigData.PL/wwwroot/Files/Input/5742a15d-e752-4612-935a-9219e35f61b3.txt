@@ -1,0 +1,49 @@
+This article is about the general concept in computer science research  For the sandbox video game  see Blocksworld 
+Toy problem in artificial intelligence research
+Step   of the Sussman anomaly  a problem in which an agent must recognise the blocks and arrange them into a stack with A at the top and C at the bottom
+The blocks world is a planning domain in artificial intelligence  The algorithm is similar to a set of wooden blocks of various shapes and colors sitting on a table   The goal is to build one or more vertical stacks of blocks  Only one block may be moved at a time  it may either be placed on the table or placed atop another block  Because of this  any blocks that are  at a given time  under another block cannot be moved  Moreover  some kinds of blocks cannot have other blocks stacked on top of them            
+The simplicity of this toy world lends itself readily to classical symbolic artificial intelligence approaches  in which the world is modeled as a set of abstract symbols which may be reasoned about 
+
+
+Motivation edit 
+Artificial Intelligence can be researched in theory and with practical applications  The problem with most practical application is  that the engineers don t know how to program an AI system  Instead of rejecting the challenge at all the idea is to invent an easy to solve domain which is called a toy problem  Toy problems were invented with the aim to program an AI which can solve it  The blocks world domain is an example for a toy problem  Its major advantage over more realistic AI applications is  that many algorithms and software programs are available which can handle the situation             This allows to compare different theories against each other 
+In its basic form  the blocks world problem consists of cubes in the same size which have all the color black  A mechanical robot arm has to pick and place the cubes             More complicated derivatives of the problem consist of cubes in different sizes  shapes and colors             From an algorithm perspective  blocks world is an NP hard search and planning problem  The task is to bring the system from an initial state into a goal state 
+Automated planning and scheduling problem are usually described in the Planning Domain Definition Language  PDDL  notation which is an AI planning language for symbolic manipulation tasks  If something was formulated in the PDDL notation  it is called a domain  Therefore  the task of stapling blocks is a blocks world domain             which stays in contrast to other planning problems like the dock worker robot domain and the monkey and banana problem 
+
+Theses projects which took place in a blocks world edit 
+Terry Winograd s SHRDLU
+Patrick Winston s Learning Structural Descriptions from Examples and Copy Demo
+Gerald Jay Sussman s Sussman anomaly
+Decision problem  Gupta and Nau         Given a starting Blocks World  an ending Blocks World  and an integer L  gt     is there a way to move the blocks to change the starting position to the ending position with L or less steps  This decision problem is NP hard            
+See also edit 
+Toy problem
+References edit 
+
+
+  Russell  amp  Norvig      
+
+  John Slaney and Sylvie Thi baux          Blocks World revisited   Artificial Intelligence             Elsevier BV           doi         s                     
+
+  Chenoweth  Stephen V         On the NP Hardness of Blocks World  AAAI Proceedings of the ninth national conference on Artificial Intelligence  pp               
+
+  S  A  Cook          A Complete Axiomatization for Blocks World   Journal of Logic and Computation          Oxford University Press  OUP            doi         logcom          
+
+  Zilles  Sandra  Holte  Robert C         Downward path preserving state space abstractions  Eighth Symposium on Abstraction  Reformulation  and Approximation 
+
+  Gupta  N   Nau  D           On the Complexity of Blocks World Planning   PDF   Artificial Intelligence                     CiteSeerX                      doi                            v  hdl           
+
+
+Sources edit 
+Russell  Stuart J   Norvig  Peter         Artificial Intelligence  A Modern Approach   nd      ed    Upper Saddle River  New Jersey  Prentice Hall  ISBN                   
+External links edit 
+ Media related to Blocks worlds  artificial intelligence  at Wikimedia Commons
+
+
+This artificial intelligence related article is a stub  You can help Wikipedia by expanding it vte
+
+
+
+
+
+
+Retrieved from  https   en wikipedia org w index php title Blocks world amp oldid

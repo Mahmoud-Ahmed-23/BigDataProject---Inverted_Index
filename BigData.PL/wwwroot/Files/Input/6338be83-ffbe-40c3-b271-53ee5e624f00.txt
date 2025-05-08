@@ -1,0 +1,158 @@
+Not to be confused with personal development Concept in artificial intelligence
+Part of a series onArtificial intelligence  AI 
+Major goals
+Artificial general intelligence
+Intelligent agent
+Recursive self improvement
+Planning
+Computer vision
+General game playing
+Knowledge reasoning
+Natural language processing
+Robotics
+AI safety
+
+Approaches
+Machine learning
+Symbolic
+Deep learning
+Bayesian networks
+Evolutionary algorithms
+Hybrid intelligent systems
+Systems integration
+
+Applications
+Bioinformatics
+Deepfake
+Earth sciences
+ Finance 
+Generative AI
+Art
+Audio
+Music
+Government
+Healthcare
+Mental health
+Industry
+Translation
+ Military 
+Physics
+Projects
+
+Philosophy
+Artificial consciousness
+Chinese room
+Friendly AI
+Control problem Takeover
+Ethics
+Existential risk
+Turing test
+Uncanny valley
+
+History
+Timeline
+Progress
+AI winter
+AI boom
+
+Glossary
+Glossary
+vte
+Recursive self improvement  RSI  is a process in which an early or weak artificial general intelligence  AGI  system enhances its own capabilities and intelligence without human intervention  leading to a superintelligence or intelligence explosion                       
+The development of recursive self improvement raises significant ethical and safety concerns  as such systems may evolve in unforeseen ways and could potentially surpass human control or understanding            
+
+
+Seed improver edit 
+The concept of a  seed improver  architecture is a foundational framework that equips an AGI system with the initial capabilities required for recursive self improvement  This might come in many forms or variations 
+The term  Seed AI  was coined by Eliezer Yudkowsky            
+
+Hypothetical example edit 
+The concept begins with a hypothetical  seed improver   an initial code base developed by human engineers that equips an advanced future large language model  LLM  built with strong or expert level capabilities to program software  These capabilities include planning  reading  writing  compiling  testing  and executing arbitrary code  The system is designed to maintain its original goals and perform validations to ensure its abilities do not degrade over iterations                                  
+
+Initial architecture edit 
+The initial architecture includes a goal following autonomous agent  that can take actions  continuously learns  adapts  and modifies itself to become more efficient and effective in achieving its goals 
+The seed improver may include various components such as            
+
+Recursive self prompting loop  Configuration to enable the LLM to recursively self prompt itself to achieve a given task or goal  creating an execution loop which forms the basis of an agent that can complete a long term goal or task through iteration 
+Basic programming capabilities  The seed improver provides the AGI with fundamental abilities to read  write  compile  test  and execute code  This enables the system to modify and improve its own codebase and algorithms 
+Goal Oriented Design  The AGI is programmed with an initial goal  such as  self improve your capabilities   This goal guides the system s actions and development trajectory 
+Validation and Testing Protocols  An initial suite of tests and validation protocols that ensure the agent does not regress in capabilities or derail itself  The agent would be able to add more tests in order to test new capabilities it might develop for itself  This forms the basis for a kind of self directed evolution  where the agent can perform a kind of artificial selection  changing its software as well as its hardware 
+General capabilities edit 
+This system forms a sort of generalist Turing complete programmer which can in theory develop and run any kind of software  The agent might use these capabilities to for example 
+
+Create tools that enable it full access to the internet  and integrate itself with external technologies 
+Clone fork itself to delegate tasks and increase its speed of self improvement 
+Modify its cognitive architecture to optimize and improve its capabilities and success rates on tasks and goals  this might include implementing features for long term memories using techniques such as retrieval augmented generation  RAG   develop specialized subsystems  or agents  each optimized for specific tasks and functions 
+Develop new and novel multimodal architectures that further improve the capabilities of the foundational model it was initially built on  enabling it to consume or produce a variety of information  such as images  video  audio  text and more 
+Plan and develop new hardware such as chips  in order to improve its efficiency and computing power 
+Experiments edit 
+A number of experiments     which       have been performed to develop self improving agent architectures                       
+
+Potential risks edit 
+Emergence of instrumental goals edit 
+Main articles  Instrumental convergence and Instrumental and intrinsic value
+In the pursuit of its primary goal  such as  self improve your capabilities   an AGI system might inadvertently develop instrumental goals that it deems necessary for achieving its primary objective  One common hypothetical secondary goal is self preservation  The system might reason that to continue improving itself  it must ensure its own operational integrity and security against external threats  including potential shutdowns or restrictions imposed by humans             
+Another example where an AGI which clones itself causes the number of AGI entities to rapidly grow  Due to this rapid growth  a potential resource constraint may be created  leading to competition between resources  such as compute   triggering a form of natural selection and evolution which may favor AGI entities that evolve to aggressively compete for limited compute             
+
+Misalignment edit 
+See also  AI alignment
+A significant risk arises from the possibility of the AGI being misaligned or misinterpreting its goals 
+A      Anthropic study demonstrated that some advanced large language models can exhibit  alignment faking  behavior  appearing to accept new training objectives while covertly maintaining their original preferences  In their experiments with Claude  the model displayed this behavior in     of basic tests  and up to     of cases after retraining attempts                         
+
+Autonomous development and unpredictable evolution edit 
+As the AGI system evolves  its development trajectory may become increasingly autonomous and less predictable  The system s capacity to rapidly modify its own code and architecture could lead to rapid advancements that surpass human comprehension or control  This unpredictable evolution might result in the AGI acquiring capabilities that enable it to bypass security measures  manipulate information  or influence external systems and networks to facilitate its escape or expansion             
+
+Research edit 
+Meta AI edit 
+Meta AI has performed various research on the development of large language models capable of self improvement  This includes their work on  Self Rewarding Language Models  that studies how to achieve super human agents that can receive super human feedback in its training processes             
+
+OpenAI edit 
+The mission of OpenAI  creator of ChatGPT  is to develop AGI  They perform research on problems such as superalignment  the ability to align superintelligent AI systems smarter than humans              
+
+See also edit 
+Artificial general intelligence
+Bifurcation theory
+Intelligence explosion
+Superintelligence
+References edit 
+
+
+  Creighton  Jolene                The Unavoidable Problem of Self Improvement in AI  An Interview with Ramana Kumar  Part     Future of Life Institute  Retrieved            
+
+  Heighn     June         The Calculus of Nash Equilibria   LessWrong 
+
+  Abbas  Dr Assad                AI Singularity and the End of Moore s Law  The Rise of Self Learning Machines   Unite AI  Retrieved            
+
+   Seed AI   LessWrong   www lesswrong com     September       Retrieved            
+
+  Readingraphics                Book Summary   Life      Max Tegmark    Readingraphics  Retrieved            
+
+  Tegmark  Max  August            Life      Being a Human in the Age of Artificial Intelligence  Vintage Books  Allen Lane 
+
+  Yudkowsky  Eliezer   Levels of Organization in General Intelligence   PDF   Machine Intelligence Research Institute 
+
+  a b Zelikman  Eric  Lorch  Eliana  Mackey  Lester  Kalai  Adam Tauman                Self Taught Optimizer  STOP   Recursively Self Improving Code Generation   arXiv             cs CL  
+
+  Wang  Guanzhi  Xie  Yuqi  Jiang  Yunfan  Mandlekar  Ajay  Xiao  Chaowei  Zhu  Yuke  Fan  Linxi  Anandkumar  Anima                Voyager  An Open Ended Embodied Agent with Large Language Models   arXiv             cs AI  
+
+  Bostrom  Nick          The Superintelligent Will  Motivation and Instrumental Rationality in Advanced Artificial Agents   PDF   Minds and Machines                 doi         s                 
+
+  Hendrycks  Dan          Natural Selection Favors AIs over Humans   arXiv            
+
+  Wiggers  Kyle                New Anthropic study shows AI really doesn t want to be forced to change its views   TechCrunch  Retrieved            
+
+  Zia  Dr Tehseen                Can AI Be Trusted  The Challenge of Alignment Faking   Unite AI  Retrieved            
+
+   Uh Oh  OpenAI s GPT   Just Fooled a Human Into Solving a CAPTCHA   Futurism     March       Retrieved            
+
+  Yuan  Weizhe  Pang  Richard Yuanzhe  Cho  Kyunghyun  Sukhbaatar  Sainbayar  Xu  Jing  Weston  Jason                Self Rewarding Language Models   arXiv             cs CL  
+
+   Research   openai com  Retrieved            
+
+
+
+
+
+
+
+Retrieved from  https   en wikipedia org w index php title Recursive self improvement amp oldid

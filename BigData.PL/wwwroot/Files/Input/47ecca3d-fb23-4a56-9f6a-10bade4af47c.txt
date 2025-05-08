@@ -1,0 +1,331 @@
+Na tento  l nek je p esm rov no heslo     AI      Dal   v znamy jsou uvedeny na str nk ch Um l  inteligence  rozcestn k  a AI  rozcestn k  
+
+
+
+Informatika
+
+
+Obory informatiky
+
+
+Programov n 
+
+
+Matematick  informatika  Teoretick  informatikaTeorie slo itostiUm l  inteligenceTeorie graf Teorie informace 
+
+
+Informa n  technologie
+
+
+Bioinformatika
+
+
+Chemoinformatika
+
+
+Geoinformatika
+
+
+L ka sk  informatika
+
+
+Neuroinformatika
+
+
+Soci ln  informatika
+
+
+Informatici
+
+
+Charles BabbageAlan TuringDonald Knuthdal   
+
+
+D jiny informatiky
+
+Um l  inteligence  UI  anglicky artificial intelligence   zkr cen  AI  je inteligence projevovan  stroji  zejm na po  ta i s vhodn m programov m vybaven m  a z rove  je to obor informatiky zab vaj c  se tvorbou takov ch po  ta ov ch syst m   Ty  e   komplexn   lohy jako je rozpozn v n   i klasifikace  nap   v oblastech zpracov n  obrazu  ve form  pixel    i zpracov n  psan ho textu  i mluven ho jazyka  ve form  po  ta ov ho k du   nebo pl nov n   i   zen  na z klad  zpracov n  velk ch objem  dat            
+
+ zk  um l  inteligence  anglicky narrow artificial intelligence   zkr cen  NAI   i  slab  AI  odkazuje na syst my zam  en  na  e en  jedin   zce vymezen   lohy  Mezi p  klady NAI pat   internetov  boti nebo virtu ln  asistenti jako nap   Google Assistant nebo Siri 
+Obecn  um l  inteligence  anglicky artificial general intelligence   zkr cen  AGI   i  siln  AI  odkazuje na syst my  e  c   lohy stejn  dob e nebo dokonce l pe ne   lov k a  e   je bez nutnosti p edchoz ho u en  jednotliv ch  zce vymezen ch  loh  AGI spojuj c   lidsk   flexibiln  my len  a uva ov n  se super rychl m zpracov n m dat by se mohla st t realitou podm n nou  sp  n m v vojem kvantov ch po  ta   
+Superinteligence  anglicky artificial superinteligence   zkr cen  ASI 
+Legislativn  definovat um lou inteligenci je obt  n  a i jemn  rozd ly v definici mohou m t z sadn  dopady             Term n um l  inteligence se tak   asto nadu  v  jako buzzword            
+
+
+Oblasti um l  inteligence editovat   editovat zdroj 
+Strojov  u en  editovat   editovat zdroj 
+ Podrobn j   informace naleznete v  l nku     Strojov  u en  
+Strojov  u en  je podoblast  um l  inteligence  zab vaj c  se algoritmy  kter  umo  uj  po  ta ov mu syst mu  u it se   U en m v dan m kontextu rozum me takovou zm nu vnit n ho stavu syst mu  kter  zefektivn  schopnost p izp soben  se zm n m okoln ho prost ed   Strojov  u en  m   irok  uplatn n   Jeho techniky se vyu  vaj  pro rozpozn v n  a kompresi obraz   i akustick ch  nap   rozpozn v n   e i  nebo elektrick ch  nap   EKG  EEG  sign l   klasifikaci  i segmentaci dat  p edv d n  v voje  asov ch  ad  nap   burzovn ch index    k rozpozn v n  psan ho textu  i k filtrov n  spamu  V l ka stv  slou   k diagnostice onemocn n  a v   zen  pro podporu rozhodov n  
+
+Neuronov  s t  editovat   editovat zdroj 
+ Podrobn j   informace naleznete v  l nku     Um l  neuronov  s   
+Um l  neuronov  s t  v um l  inteligenci jsou voln  inspirov ny odpov daj c mi biologick mi strukturami  Oproti nim jsou v ak zna n  zjednodu eny a pou  vaj  jin  mechanismy u en   ne  jak  pou  v  nap   lidsk  mozek  C lem toti  nen  v rn  simulovat biologick  struktury  ale p edev  m  e it praktick  probl my  Jedn  se o p  stup ke strojov mu u en   kter  se stal velmi  sp  n m  Neuronov  s t  se pou  vaj  mimo jin  k rozpozn v n  a kompresi obraz   i akustick ch  nap   rozpozn v n   e i  nebo elektrick ch  nap   EKG  EEG  sign l   klasifikaci  i segmentaci dat  p edv d n  v voje  asov ch  ad  nap   burzovn ch index    k rozpozn v n  psan ho textu  i k filtrov n  spamu  Tvorbou biologicky v rn ch model  neuron  a neuronov ch s t  se zab vaj  v po etn  neurov dy  prohlubuj c  znalosti o fungov n  informa n ch syst m   nervov ch soustav   iv ch organism   Nap  klad Grossbergova neuronov  s   vznikla p vodn  jako simulace fyziologick ho modelu rozpozn v n  vzor  na s tnici lidsk ho oka 
+
+Robotika editovat   editovat zdroj 
+ Podrobn j   informace naleznete v  l nku     Robotika 
+Robotika je v da o robotech  jejich designu  v rob  a aplikac ch  Robot m  e bu  pom hat  nebo d lat lidskou pr ci  pop   zaji  ovat i komfort spole nosti  Robotika  zce souvis  s elektronikou  mechanikou a aplikovan m softwarem 
+
+Po  ta ov  vid n  editovat   editovat zdroj 
+ Podrobn j   informace naleznete v  l nku     Po  ta ov  vid n  
+Jde o vid n  zobecn n   Zdaleka ne jen viditeln m sv tlem  dokonce ani v bec ne sv tlem  n br  t eba akusticky  obecn  tedy echolokac  
+
+ve  D 
+Detekce hran v obrazu  jejich aproxima n  prodlou en   ohodnocen  v znamnosti detekovan ch hran  odstran n  vlivu r zn ho jasu nap    obrazem 
+Optick  rozpozn v n  znak  pro rozpozn v n  ti t n ho textu  rozpozn v n  ru n  psan ho textu  Schopnost rozpozn v n  p edm t  pooto en ch  sklon n ch  jinak barevn ch  i dokonce vzorovan ch  ne pln ch o  znut m nebo za um n m 
+Rozpozn v n  tvar  a z nich usuzov n  na objekty re ln ho sv ta  dokonce i s ur en m pravd podobnosti   typicky z fotografi  
+Realtime detekce tv  e ve sn mc ch videa  nejsn ze podle p edem zadan ch bod  k hled n  a jejich vz jemn ch vztah   vzd lenost   Obecn  detekce p edepsan ho vzoru v obraze 
+ve  D 
+Odstran n  paralaxy  zkreslen  ub h n m rovnob  ek   nap  klad pou it m maticov  transformace  jej m autonomn m nalezen m  Rozpozn n  identity s ji  vid n m  zn m m  objektem  nyn  v ak pozorovan m z jin ho  hlu 
+Samostatn  zorientov n  se v prostoru  ur en  sm r  sou adnicov ho syst mu okoln ho prostoru 
+Uv dom n  si vlastn  polohy v okoln m prostoru p i  nedokonal m  sb ru dat o okol   vytv  en  vnit n ho modelu o n m  typicky mapy  Kl  ov  pro autonomn  se pohybuj c  roboty  Nekone n  smy ka st  d n  krok  v prostoru   na map  
+Bayesovsk  s t  editovat   editovat zdroj 
+ Podrobn j   informace naleznete v  l nku     Bayesovsk  s   
+Bayesovsk  s   je pravd podobnostn  model  kter  vyu  v  grafovou reprezentaci pro zobrazen  pravd podobnostn ch vztah  mezi jednotliv mi jevy  Vyu  v  se pro ur en  pravd podobnosti ur it ch jev   p i em  vych z  ze z kladu teorie pravd podobnosti  Bayesovsk  s   je acyklick  orientovan  graf  kde ka d  uzel odpov d  jedn  n hodn  veli in   p i em  ka d  graf typicky obsahuje n kolik veli in uzl   V echny veli iny v grafu se vztahuj  k nezn m mu jevu  p i em  ka d  veli ina je reprezentov na jedn m uzlem a      v tve  neboli vztahy  mezi uzly zobrazuj  pravd podobnostn  z vislost mezi vybran mi veli inami  Tyto z vislosti se obvykle vypo  t vaj  na z klad  statistick ch metod 
+
+Expertn  syst my editovat   editovat zdroj 
+ Podrobn j   informace naleznete v  l nku     Expertn  syst m 
+Expertn  syst m je po  ta ov  program  kter  m  za  kol poskytovat expertn  rady  rozhodnut  nebo doporu it  e en  v konkr tn  situaci  Expertn  syst my jsou navr eny tak  aby mohly zpracov vat nenumerick  a neur it  informace a  e it tak  lohy  kter  nejsou  e iteln  tradi n mi algoritmick mi postupy  Expertn  syst m m  dv  z kladn  komponenty  kter  jsou na sob  relativn  nez visl     d c  mechanismus pro odvozov n  z v r  a B zi znalost   V pr b hu zpracov v n  se k b zi znalost  p id vaj  do asn  informace o       e en m p  padu 
+
+Dob v n  znalost  editovat   editovat zdroj 
+ Podrobn j   informace naleznete v  l nku     Data mining 
+Data mining  dolov n  z dat  i vyt  ov n  dat  je analytick  metodologie z sk v n  netrivi ln ch skryt ch a potenci ln  u ite n ch informac  z dat  N kdy se ch pe jako analytick  sou  st dob v n  znalost  z datab z   Knowledge Discovery in Databases  KDD   jindy se tato dv  ozna en  ch pou jako souzna n    asto doch z  tak  k p ekryvu s term nem data science  kter  b v  obvykle ch p n    eji ne  data mining  Data mining se pou  v  v komer n  sf  e  nap  klad v marketingu p i rozhodov n   kter  klienty oslovit dopisem s      nab dkou produktu   ve v deck m v zkumu  nap  klad p i anal ze genetick  informace  i v jin ch oblastech  nap  klad p i monitorov n  aktivit na internetu s c lem odhalit  innost potenci ln ch  k dc  a terorist   
+
+Fuzzy logika editovat   editovat zdroj 
+ Podrobn j   informace naleznete v  l nku     Fuzzy logika 
+Fuzzy logika je podobor matematick  logiky odvozen  od teorie fuzzy mno in  v n m  se logick  v roky ohodnocuj  m rou pravdivosti  Li   se tak od klasick  v rokov  logiky  kter  pou  v  pouze dv  logick  hodnoty   nepravdu a pravdu  tj  nulu a jedni ku  Fuzzy logika m  e operovat se v emi hodnotami z intervalu        kter ch je nekone n  mnoho  Fuzzy logika m  e b t pro  adu re ln ch rozhodovac ch  loh vhodn j   ne  klasick  logika  proto e usnad uje n vrh slo it ch   dic ch syst m  
+
+Evolu n  algoritmy editovat   editovat zdroj 
+ Podrobn j   informace naleznete v  l nku     Genetick  algoritmus 
+Evolu n  algoritmy se u  vaj  k nalezen  dostate n  kvalitn ho  e en  optimaliza n ch  loh v dostate n  kr tk m  ase  Mezi evolu n  algoritmy inspirovan  p  rodou se zahrnuje cel  spektrum optimaliza n ch heuristick ch technik  nap   genetick  algoritmy  i simulovan    h n   Heuristiky m  eme popsat jako zkratkovit  postup prohled v n  prostoru  e en  bez z ruky spr vn ho v sledku  nicm n  jsou zbaveny cel   ady neduh  konven n ch optimaliza n ch metod  jako nap   po adavek spojitosti  i diferencovatelnosti objektivn  resp  vazebn  funkce  respektov n  omezuj c ch podm nek  uv znut  v m lk m lok ln m minimu atd  Na druhou stranu v ak je p i jejich aplikaci zapot eb  nastaven  jist ch voln ch parametr   kter  je nutn   naladit  v z vislosti na konkr tn m optimaliza n m probl mu 
+
+Multiagentn  syst my editovat   editovat zdroj 
+ Podrobn j   informace naleznete v  l nku     Multiagentn  syst m 
+Multiagentn  syst m je simulovan  prost ed  se s  ov m charakterem  v n m  doch z  k interakci  po v tvi s t   agent   uzl  s t   mezi sebou a   nebo s prost ed m  ve kter m se nach zej   Tito agenti  e   spole n  probl my  kter  p esahuj  znalosti ka d ho z nich  Mezi multiagentn  syst my se  ad  nap   strategie pta  ho hejna  Particle Swarm Optimization  PSO    i strategie mraven   kolonie  Ant Colony Optimization  ACO   
+
+Prohled v n  stavov ho prostoru editovat   editovat zdroj 
+ Podrobn j   informace naleznete v  l nku     Prohled v n  stavov ho prostoru 
+Zvl  t  p i vytv  en  algoritm  na  e en  klasick ch her   ach   d my  se jev    eln  zadefinovat si mno inu stav   do kter ch se m  eme ve h e dostat  p  pustn  tahy neboli p echody mezi stavy a po  te n  a koncov  pozice  Hled me pak cestu od po  te n ch stav  ke koncov m stav m  kter  znamenaj  n    sp ch  Jeliko  mohou b t stavov  prostory rozs hl   nap   ve h e go  a v n kter ch p  padech i nekone n   je t eba volit chytr  metody o ez v n  nevhodn ch cest a ohodnocov n  pozic 
+
+Zpracov n  p irozen ho jazyka editovat   editovat zdroj 
+ Podrobn j   informace naleznete v  l nc ch     Zpracov n  p irozen ho jazyka  po  ta ov  lingvistika     a matematick  lingvistika 
+Po  ta ov  zpracov n  p irozen ho jazyka  Natural Language Processing  NLP  se zab v  anal zou  transformac   i generov n  text  nebo mluven ho slova  Aplikacemi NLP jsou nap   strojov  p eklad  automatick  zodpov d n  dotaz   pro chatboty a podobn    dolov n  z textu  v tah z textu  automatick  sumarizace   automatick  korektura textu  extrakce informac  z korpus  text   generov n  p irozen ho jazyka  rozpozn v n   e i a jej  synt za  Kolem roku      toto pole v z sad  ovl dly technologie zalo en  na hlubok m u en   je  zpravidla vykazuj  vy    kvalitu ne  star   technologie zalo en  nap   na lingvistick  anal ze textu 
+Velk  jazykov  modely  LLM   large language model  vyu  vaj  nap  klad aplikace od OpenAI ChatGPT  Claude od Anthropic nebo Gemini od Google  Tyto programy exceluj  v memorov n   ale maj  probl my vyfiltrovat b hem komunikace s lidmi informace z  umu            
+
+ sp  n  algoritmy editovat   editovat zdroj 
+Hry editovat   editovat zdroj 
+Roku      p ekonal po  ta  sv tov ho mistra ve h e vrhc by            
+Kr lovsk  hra  achy byla u  od po  tk  informatiky p edm tem anal z   e en  probl mu bylo od po  tku spojov no s inteligenc   av ak v hra nemus  znamenat v t   inteligenci  V roce      porazil syst m Deep Blue od firmy IBM   aduj c ho mistra sv ta Garriho Kasparova  Deep Blue v ak byl sp  e hybridn  syst m s      akceler tory v po t               lo tak sp  e o  e en  hrubou silou  Sou asn  AI ji  neproch z  tolik pozic a p itom je  sp  n j              
+Chinook je program pro hran  anglick  d my  jeho  tv rci v  ervenci roku      prohl sili   e nem  e prohr t  Ji  n kolik let p edt m pravideln  por  el lidsk  oponenty  Tohoto v sledku bylo dosa eno kombinac  hrub  s ly p i prohled v n  pozic ve st edn    sti hry a dobrou datab z  zah jen  a koncovek 
+Po  ta ov  programy hraj c  go si  asto tak dob e nevedly  Je tomu tak z ejm  proto   e je goban  deska na go  je pom rn  rozs hl  a s ka d m dal  m polo en m kamenem stoup  komplexita rozhodov n   kterou v ak maj  lid   anci zvl dnout d ky sv  vrozen  schopnosti rozpozn v n  tvar   Ov em nejlep   programy pou  vaj c  jak  e en  hrubou silou  p esn ji stromov  prohled v n  do hloubky              tak intuici  jsou schopn  por  et i      mistry                        
+Rubikova kostka m  e b t tak  efektivn   e ena pomoc  AI             
+Karetn  hra brid              
+Dal   algoritmy editovat   editovat zdroj 
+AI dok  e v st leteck  souboje l pe ne  lid t  piloti             
+AI je schopna ur it riziko selh n  srdce l pe ne  l ka              
+AI umo  uje snadno napodobovat lidsk  hlasy             
+AI s pomoc  senzor  umo  uje odhalovat lhan   i jin  emoce             
+AI dok  e l pe p edpov dat chaos ne  rovnice             
+AI je lep   i v kr tkodob ch p edpov d ch po as              
+Problematika editovat   editovat zdroj 
+Probl mem je   e se AI chov  jako  ern  sk   ka                          Vol  se proto po vysv tliteln  AI  XAI                          
+AI m  e odstranit lidsk  kognitivn  zkreslen               M  e ov em zav st vlastn  zkreslen               Lidsk  i um l  my len  tedy lze i podv st              Z le   na zp sobu v b ru dat k u en               Um l  inteligence tak m  e b t nap  klad zpolitizovan               Dle studie zve ejn n  v  asopise Nature maj  syst my um l  inteligence tendenci p eb rat lidsk  p edsudky a zesilovat je  co  m  e zp sobit u u ivatel  AI   e budou v ce p edpojat                           Pokud se AI u   na datech od AI  tak se v sledky zhor uj              
+AI nepozn   co je pravda              Ve skute nosti nen  inteligentn   proto e logicky neuva uje             
+Existuj  v po etn  probl my  kter  nelze vy e it bez ohledu na v po etn  v kon a dobu b hu  kter  limituj  um lou inteligenci             
+Proto e technologie mohou b t pro  lov ka nebezpe n   formulovala koncem dubna      Evropsk  komise etick  z sady v voje syst m  s um lou inteligenc  
+Mo nost   zen  a dohledu ze strany  lov ka
+Robustnost a bezpe nost
+Ochrana soukrom  a dat  m  e vy e it pln  homomorfn   ifrov n              
+Transparentnost
+Z kaz diskriminace a rovn  zach zen 
+Spole ensk  a environment ln  prosp ch
+Odpov dnost             
+EU zva uje zak zat  i omezit um lou inteligenci p i identifikaci lid  na ve ejnosti              Organizace spojen ch n rod  p ijala roku      rezoluci  kter  varuje p ed zneu  v n m AI              V dubnu      zve ejnila spole nost Turnitin studii  v n   uv d    e um l  inteligence vygenerovala ji  miliony diplomov ch prac              
+Probl m z kazu diskriminace je v tom   e diskriminace je chov n   preference ur it ch hodnot  kategori   i parametr   kter  b  n  lid  vol   ani  by si toho byli v domi   asto je toto diskrimina n  chov n  objeveno  a  kdy  se na z klad  dat z takov ho chov n  u   um l  inteligence  Tento probl m se projevil nap   v odd len  lidsk ch zdroj  spole nosti Amazon  jejich  syst m vyhodnotil pohlav  jako jeden z v b rov ch parametr  a  ivotopisy  en hodnotil tak   e jim d val z porn  body  To bylo proto   e pro u en  byla pou ita data  kter   asto mapovala technick  pozice  na kter  se  ast ji hl sili mu i             
+Existuje i pr vn  problematika  proto e um l  inteligence se u   i na d lech podl haj c  autorsk mu pr vu  V USA tak vyvst v  ot zka  do jak  m ry je to fair use              Velk  jazykov  modely tak  pracuj  s daty poskytnut mi u ivateli  N kter  z nich  nap  klad ChatGPT  se sna   touto problematiku deeskalovat pomoc  individu ln ho u ivatelsk ho nastaven              
+Spot eba energie je u AI zna n               P isp v  tak k zne i t n   ivotn ho prost ed  exhalacemi p i v rob  elektrick  energie    m  se v USA pod l  na zdravotn ch n kladech  rakovina  astma  dal   nemoci a zame kan  pracovn  a  koln  dny  odhadovan ch v roce      na         miliard dolar  ro n               P ehnan  spol h n  na um lou inteligenci m  e v st k erozi kritick ho my len              
+
+Um l  inteligence v pr myslu editovat   editovat zdroj 
+V pr myslu m  e um l  inteligence pom hat r zn mi zp soby             
+
+ze z skan ch  syrov ch  dat p  mo ze za  zen  m  e z sk vat a vizualizovat podstatn  informace pro obsluhu za  zen  
+detekovat  jak moc se za  zen  m  e rozhodovat automaticky a jak moc pot ebuje vstupy od obsluhy 
+predikovat budouc  v voj  nap   selh n  pohonu  pokles kvality  na z klad   eho  je mo n  pl novat nap    dr bu nebo upravit nastaven  v roby 
+automatizovat opakuj c  se  koly  osvobodit tak zdroje lid  k zam  en  se na slo it j   pr ci             
+regul tor se m  e nau it vlastnosti regulovan ho za  zen  a n sledn  m  e spustit varov n   kdy  se v chov n  za  zen  objev  n jak  anom lie 
+Um l  inteligence v kultu e editovat   editovat zdroj 
+Isaac Asimov v noval zna nou   st sv  pov dkov  tvorby  sci fi  t mat m robotick  inteligence  Jeho pov dkov  sb rka J   robot         stejn  jako pov dka Dv st let   lov k         byla zfilmov na  Polsk  autor Stanis aw Lem se zab val filozofick mi aspekty inteligence u nelid  ve sv ch knih ch Solaris        zfilmov na dvakr t  a Kyberi da         N kter  aspekty strojov  inteligence rozebral Stanis aw Lem v knize Golem XIV        a Arthur Charles Clarke v knize       Vesm rn  odysea        kde se zab val situac   kdy se um l  inteligence obr t  proti  lov ku  nebo  jej vyhodnot  jako p ek  ku k  sp  n mu dokon en  mise  tj  sv  nejvy    priority  Mezi vlivn  kultovn  d la pat   nap  klad filmy Blade Runner         Termin tor         Matrix         Velk    st publikac  sou asn ho sci fi kyberpunku se v  e k prol n n  vlastnost  lidsk ch a strojov ch a k vyrovn v n  se s my lenkou inteligentn ho stroje  nap  klad v knize Neuromancer Williama Gibsona 
+Prob haj  diskuse o u it  um l  inteligence v r zn ch odv tv ch kultury  V kinematografii se um l  inteligence propisuje nap  klad do vyu it  p i omlazov n  herc   jako nap  klad Harrisona Forda v posledn m dobrodru stv  Indiana Jonese  V  esk m post ed  se jej m vyu it  zab vaj  nap  klad filma i Georgij Bagdasarov nebo Ond ej Nuslauer z FAMU             
+Um l  inteligence m  e b t kreativn j   ne            lidsk  populace              Ale lid  jej m pou  v n m kreativitu ztr cej              
+
+Um l  inteligence a n bo enstv  editovat   editovat zdroj 
+V cer  m dia si nap  klad v imla bohoslu by p ipraven  um lou inteligenc                                      
+V r mci far  sk ho kursu  eskobratrsk  c rkve evangelick  v lednu      se Franti ek  t ch v noval um l  inteligenci jako v zv  pro  ivot c rkv              
+Teologick  f rum k es anstv  isl m  konan  ve Stuttgartu  se roku      neslo pod titulem  V e spo  t no     t matem byly v zvy AI obecn   transhumanismus  technologie a t lesnost  automatizace  robotizace a um l  inteligence             
+
+Rizika AI editovat   editovat zdroj 
+N vrh evropsk ho Aktu o um l  inteligenci rozli uje tyto kategorie rizik             
+
+Nep ijateln  riziko  hrozba pro  lov ka  
+Vysok  riziko  negativn  dopad na bezpe nost nebo z kladn  pr va  
+Omezen  riziko   po adavky na transparentnost  aby u ivatel  mohli  init informovan  rozhodnut   Do t to kategorie bude pat it i generativn  um l  inteligence  jako je ChatGPT 
+V ce ne  dv  t etiny expert  p edpokl daj  v ce dobr  ne   patn  d sledky AI             
+
+Odkazy editovat   editovat zdroj 
+Reference editovat   editovat zdroj 
+
+  KAPLAN  Andreas  Artificial intelligence  business and civilization  our fate made in machines  Abingdon  Oxon  Routledge                s  ISBN                      anglicky       
+
+   One of the Biggest Problems in Regulating AI Is Agreeing on a Definition  carnegieendowment org  online    cit               Dostupn  online       
+
+   AI or BS  How to tell if a marketing tool really uses artificial intelligence  www thedrum com  online    cit               Dostupn  online       
+
+   A simple test reveals  Bot or human   techxplore com  online   Dostupn  online       
+
+  WALSH  Toby  Know when to fold  em  AI beats world s top poker players  techxplore com  online               cit               Dostupn  online   anglicky       
+
+  GREENEMEIER  Larry     Years after Deep Blue  How AI Has Advanced Since Conquering Chess  Scientific American  online               cit               Dostupn  online   anglicky       
+
+  HOUSER  Pavel  AlphaZero  Obrovsk  triumf um l  inteligence v       ach ch  sciencemag cz  online               cit               Dostupn  online       
+
+  KAS K  Pavel  L Z OVSK   Matou   Bylo to jako hr t proti zdi  um l  inteligence ne ekan  porazila mistra  http   www idnes cz  online               cit               Dostupn  online       
+
+  ROUX  Mari tte Le  Game over  Computer beats human champ in ancient Chinese game  phys org  online               cit               Dostupn  online   anglicky       
+
+   Game over  Computer wins series against Go champion  Update   phys org  online               cit               Dostupn  online   anglicky       
+
+  University of California  Researchers  deep learning algorithm solves Rubik s Cube faster than any human  techxplore com  online               cit               Dostupn  online   anglicky       
+
+   Um l  inteligence na turnaji porazila osm mistr  sv ta v      brid i  itbiz cz  online               cit               Dostupn  online       
+
+  MIHULKA  Stanislav  Leteck  bojov  um l  inteligence si nat ela na chleba taktick  experty  osel cz  online               cit               Dostupn  online       
+
+  YIRKA  Bob  AI systems found to be better than doctors at gauging heart attack risk  medicalxpress com  online               cit               Dostupn  online   anglicky       
+
+  V TEK  Jan  Lyrebird um  zkop rovat hlas kohokoliv z      minutov ho z znamu  svethardware cz  online               cit               Dostupn  online       
+
+    Poker face  stripped away by new age tech  phys org  online               cit               Dostupn  online   anglicky       
+
+  WOLCHOVER  Natalie  Machine Learning s  Amazing  Ability to Predict Chaos  quantamagazine org  online               cit               Dostupn  online   anglicky       
+
+  MIHULKA  Stanislav  Um l  inteligence DeepMind skv le p edpov d  po as   osel cz  online               cit               Dostupn  online       
+
+  CASTELVECCHI  Davide  Can we open the black box of AI   S              Nature  online            Ro          s        s         Dostupn  online  ISSN            doi               a   anglicky       
+
+  http   legalexecutiveinstitute com inside ai black box icail    Inside AI s Black Box at ICAIL  Lawyers and Data Scientists Learning Each Other s Languages
+
+  BOULTON  Clint  The hidden risk of blind trust in AI s  black box   cio com  online               cit               Dostupn  online   anglicky       
+
+  TUREK  Matt  Explainable Artificial Intelligence  XAI   online   darpa mil  cit               Dostupn  online   anglicky       
+
+  ROWLEY  Robert  AI as a way to overcome cognitive bias in physicians  cio com  online               cit               Dostupn  online   anglicky       
+
+  RIGGS  David    unexpected sources of bias in artificial intelligence  techcrunch com  online               cit               Dostupn  online   anglicky       
+
+  OWANO  Nancy  Fooling the human via changes to images  techxplore com  online               cit               Dostupn  online   anglicky       
+
+  Massachusetts Institute of Technology  How to make AI less biased  techxplore com  online               cit               Dostupn  online   anglicky       
+
+   Assessing political bias in language models  techxplore com  online   Dostupn  online       
+
+  GLICKMAN  Moshe  SHAROT  Tali  How human AI feedback loops alter human perceptual  emotional and social judgements  Nature Human Behaviour              s        Dostupn  online  cit               ISSN            doi         s                    anglicky       
+
+   Bias in AI amplifies our own biases  finds study  techxplore com  online    cit               Dostupn  online       
+
+   Breaking MAD  Generative AI could break the internet  techxplore com  online    cit               Dostupn  online       
+
+   AI Shouldn t Decide What s True  nautil us  online    cit               Dostupn  online       
+
+   Apple researchers suggest artificial intelligence is still mostly an illusion  techxplore com  online    cit               Dostupn  online       
+
+  University of Cambridge  Mathematical paradoxes demonstrate the limits of AI  techxplore com  online               cit               Dostupn  online   anglicky       
+
+   Encryption breakthrough lays groundwork for privacy preserving AI models  techxplore com  online    cit               Dostupn  online       
+
+   ERN   Michal  Pot ebujeme pravidla pro v voj um l  inteligence   root cz  online                Dostupn  online  ISSN                 
+
+   EU data watchdogs want ban on AI facial recognition  techxplore com  online               cit               Dostupn  online   anglicky       
+
+   Valn  shrom  d n  OSN jednomysln  p ijalo prvn  glob ln  rezoluci o AI  www itbiz cz  online    cit               Dostupn  online       
+
+  KARL K  Tom    Um l  inteligence u  napsaly miliony diplomov ch prac   univerzity hledaj   e en   ct   ceskatelevize cz  online    cit               Dostupn  online       
+
+   ERN   Michal  Chceme nediskriminuj c  um lou inteligenci  ale sami to neum me  root cz  online                Dostupn  online  ISSN                 
+
+  https   www tydenikhrot cz clanek umela inteligence sklada kresli a opisuje a zaloby se blizi Archivov no            na Wayback Machine    Um l  inteligence skl d   kresl  a opisuje  A  aloby se bl   
+
+   Memory and new controls for ChatGPT  ChatGPT   Release Notes  online               cit               Dostupn  online       
+
+   Powering AI could use as much electricity as a small country  techxplore com  online    cit               Dostupn  online       
+
+   AI s power demands driving toxic air pollution  study finds  phys org  online    cit               Dostupn  online       
+
+   Increased AI use linked to eroding critical thinking skills  phys org  online    cit               Dostupn  online       
+
+  PERKON  Dave  Artificial intelligence is smarter than you think  Control Design  online   Jun           Dostupn  online       
+
+   Vyu it  um l  intelligence  Hra ve velk m pro firmy  algomyst cz  online    cit               Dostupn  online       
+
+   Um l  inteligence prom n  kinematografii  Bude ale v t   popt vka po originalit   mysl  si filmov  tv rce  iROZHLAS  online    esk  rozhlas              cit               Dostupn  online       
+
+   ChatGPT scores in the top    for original creative thinking  studyfinds org  online    cit               Dostupn  online       
+
+   Study explores the impact of LLMs on human creativity  techxplore com  online    cit               Dostupn  online       
+
+  V Bavorsku se konala prvn  bohoslu ba p ipraven  um lou inteligenc         N bo ensk  infoservis  Dingir              
+
+  Bohoslu ba veden  um lou inteligenc  p il kala stovky v   c ch        Voxpot            
+
+  AI powered church service in Germany draws a large crowd        ArsTechnica com
+
+  Anotace programu FK     
+
+  T matem Teologick ho f ra k es anstv  isl m      ve Stuttgartu byla um l  inteligence        N bo ensk  infoservis            
+
+  Akt EU o um l  inteligenci  Prvn  na  zen  o AI na sv te   erven     
+
+   The future of AI could be great or catastrophic  techxplore com  online    cit               Dostupn  online       
+
+
+Literatura editovat   editovat zdroj 
+Zelinka Ivan  Um l  inteligence v probl mech glob ln  optimalizace BEN   technick  literatura        ISBN                   
+Pl ek Bo ivoj  Um l  inteligence v modelov n  a   zen  BEN   technick  literatura        ISBN                   
+Zelinka Ivan  Um l  inteligence   hrozba nebo nad je  BEN   technick  literatura        ISBN                   
+Hammer Milo   Metody um l  inteligence v diagnostice elektrick ch spoj   BEN   technick  literatura        ISBN                       
+Vladim r Ma  k  Olga  t p nkov   Ji   La ansk   Um l  inteligence      Academia
+K IVAN  Milo   Um l  neuronov  s t    s l    Nakladatelstv  Oeconomica  Vysok   kola ekonomick  v Praze         s  Dostupn  online  ISBN                              
+Souvisej c   l nky editovat   editovat zdroj 
+Kvantov  po  t n 
+Um l  inteligence  po  ta ov  hry 
+Filozofie um l  inteligence
+Hybridn  inteligence
+Inteligentn  prost ed 
+Um l  byt 
+Moravc v paradox
+Blue Brain Project
+ISO IEC JTC   SC   
+Extern  odkazy editovat   editovat zdroj 
+ Obr zky  zvuky  i videa k t matu um l  inteligence na Wikimedia Commons 
+ T ma Um l  inteligence ve Wikicit tech
+ Kniha Um l  inteligence  Zpracov n  informace lidsk m intelektem a po  ta em ve Wikiknih ch
+Um l  inteligence v       esk  terminologick  datab zi knihovnictv  a informa n  v dy  TDKIV 
+ Robot s biologick m mozkem  ideje cz  online    cit              Dostupn  online       
+Rozhovor s Richardem S  Suttonem  Seznam Zpr vy             
+Varov n  z Wikipedie  Pozor na AI b e ku  Rozhovor se Selenou Deckelmannovou  Seznam Zpr vy            
+Ofici ln  web  esk  asociace um l  inteligence
+Autoritn  data 
+NKC  ph      
+PSH       
+TDKIV           
+BNE  XX       
+BNF  cb        t  data 
+GND           
+LCCN  sh        
+LNB           
+NDL          
+NLI                    
+
+
+
+
+
+
+Citov no z  https   cs wikipedia org w index php title Um l  inteligence amp oldid

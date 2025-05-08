@@ -1,0 +1,242 @@
+Artificial intelligence research collective
+
+
+EleutherAIType of businessResearch co operativeFounded       July                 years ago                             IndustryArtificial intelligenceProductsGPT Neo  GPT NeoX  GPT J  Pythia  The Pile  VQGAN CLIPURLeleuther ai
+Part of a series onArtificial intelligence  AI 
+Major goals
+Artificial general intelligence
+Intelligent agent
+Recursive self improvement
+Planning
+Computer vision
+General game playing
+Knowledge reasoning
+Natural language processing
+Robotics
+AI safety
+
+Approaches
+Machine learning
+Symbolic
+Deep learning
+Bayesian networks
+Evolutionary algorithms
+Hybrid intelligent systems
+Systems integration
+
+Applications
+Bioinformatics
+Deepfake
+Earth sciences
+ Finance 
+Generative AI
+Art
+Audio
+Music
+Government
+Healthcare
+Mental health
+Industry
+Translation
+ Military 
+Physics
+Projects
+
+Philosophy
+Artificial consciousness
+Chinese room
+Friendly AI
+Control problem Takeover
+Ethics
+Existential risk
+Turing test
+Uncanny valley
+
+History
+Timeline
+Progress
+AI winter
+AI boom
+
+Glossary
+Glossary
+vte 
+EleutherAI     lu   r              is a grass roots non profit artificial intelligence  AI  research group  The group  considered an open source version of OpenAI             was formed in a Discord server in July      by Connor Leahy  Sid Black  and Leo Gao            to organize a replication of GPT    In early       it formally incorporated as the EleutherAI Institute  a non profit research institute            
+
+
+History edit 
+EleutherAI began as a Discord server on July          under the tentative name  LibreAI  before rebranding to  EleutherAI  later that month             in reference to eleutheria  the Greek word for liberty             Its founding members are Connor Leahy  Len Gao  and Sid Black  They co wrote the code for Eleuther to serve as a collection of open source AI research  creating a machine learning model similar to GPT              
+On December           EleutherAI released The Pile  a curated dataset of diverse text for training large language models             While the paper referenced the existence of the GPT Neo models  the models themselves were not released until March                      According to a retrospective written several months later  the authors did not anticipate that  people would care so much about our  small models               On June          EleutherAI followed this up with GPT J  B  a six billion parameter language model that was again the largest open source GPT   like model in the world              These language models were released under the Apache     free software license and are considered to have  fueled an entirely new wave of startups             
+While EleutherAI initially turned down funding offers  preferring to use Google s TPU Research Cloud Program to source their compute              by early      they had accepted funding from CoreWeave  a small cloud computing company  and SpellML  a cloud infrastructure company  in the form of access to powerful GPU clusters that are necessary for large scale machine learning research  On Feb           they released GPT NeoX   B  a model similar to their prior work but scaled up thanks to the resources CoreWeave provided             
+In       many EleutherAI members participated in the BigScience Research Workshop  working on projects including multitask finetuning                          training BLOOM              and designing evaluation libraries              Engineers at EleutherAI  Stability AI  and NVIDIA joined forces with biologists led by Columbia University and Harvard University            
+to train OpenFold  an open source replication of DeepMind s AlphaFold              
+In early       EleutherAI incorporated as a non profit research institute run by Stella Biderman  Curtis Huebner  and Shivanshu Purohit                         This announcement came with the statement that EleutherAI s shift of focus away from training larger language models was part of a deliberate push towards doing work in interpretability  alignment  and scientific research              While EleutherAI is still committed to promoting access to AI technologies  they feel that  there is substantially more interest in training and releasing LLMs than there once was   enabling them to focus on other projects             
+In July       an investigation by Proof news found that EleutherAI s The Pile dataset includes subtitles from over         YouTube videos across more than        channels  The findings drew criticism and accusations of theft from YouTubers and others who had their work published on the platform                          In       Stella Biderman served as executive director  Aviya Skowron served as head of policy and ethics  Nora Belrose served as head of interpretability  and Quentin Anthony was head of HPC             
+
+Research edit 
+This article relies excessively on references to primary sources  Please improve this article by adding secondary or tertiary sources  Find sources        EleutherAI              news        newspapers        books        scholar        JSTOR   August        Learn how and when to remove this message 
+According to their website  EleutherAI is a  decentralized grassroots collective of volunteer researchers  engineers  and developers focused on AI alignment  scaling  and open source AI research               While they do not sell any of their technologies as products  they publish the results of their research in academic venues  write blog posts detailing their ideas and methodologies  and provide trained models for anyone to use for free      citation needed     
+
+The Pile edit 
+Main article  The Pile  dataset 
+The Pile is an     GB dataset designed for training large language models  It was originally developed to train EleutherAI s GPT Neo models but has become widely used to train other models  including Microsoft s Megatron Turing Natural Language Generation                          Meta AI s Open
+Pre trained Transformers              LLaMA              and Galactica              Stanford University s BioMedLM    B              the Beijing Academy of Artificial Intelligence s 
+Chinese Transformer XL              and Yandex s YaLM    B              Compared to other datasets  the Pile s main distinguishing features are that it is a curated selection of data chosen by researchers at EleutherAI to contain information they thought language models should learn and that it is the only such dataset that is thoroughly documented by the researchers who developed it             
+
+GPT models edit 
+EleutherAI s most prominent research relates to its work to train open source large language models inspired by OpenAI s GPT                EleutherAI s  GPT Neo  model series has released     million      billion      billion    billion  and    billion parameter models 
+
+GPT Neo     M     B     B               released in March       it was the largest open source GPT   style language model in the world at the time of release 
+GPT J   B               released in March       it was the largest open source GPT   style language model in the world at the time of release             
+GPT NeoX    B               released in February       it was the largest open source language model in the world at the time of release 
+Pythia    B               While prior models focused on scaling larger to close the gap with closed sourced models like GPT    the Pythia model suite goes in another direction  The Pythia suite was designed to facilitate scientific research on the capabilities of and learning processes in large language models              Featuring     partially trained model checkpoints  fully public training data  and the ability to reproduce the exact training order  Pythia enables research on verifiable training              social biases              memorization              and more             
+VQGAN CLIP edit 
+An artificial intelligence art created with VQGAN CLIP  a text to image model created by EleutherAI
+An artificial intelligence art created with CLIP Guided Diffusion  another text to image model created by Katherine Crowson of EleutherAI                        
+Following the release of DALL E by OpenAI in January       EleutherAI started working on text to image synthesis models  When OpenAI did not release DALL E publicly  EleutherAI s Katherine Crowson and digital artist Ryan Murdock developed a technique for using CLIP  another model developed by OpenAI  to convert regular image generation models into text to image synthesis ones                                                  Building on ideas dating back to Google s DeepDream              they found their first major success combining CLIP with another publicly available model called VQGAN and the resulting model is called VQGAN CLIP              Crowson released the technology by tweeting notebooks demonstrating the technique that people could run for free without any special equipment                                      This work was credited by Stability AI CEO Emad Mostaque as motivating the founding of Stability AI             
+
+Public reception edit 
+Praise edit 
+EleutherAI s work to democratize GPT   won the UNESCO Netexplo Global Innovation Award in                   InfoWorld s Best of Open Source Software Award in                  and                   was nominated for VentureBeat s AI Innovation Award in                  
+Gary Marcus  a cognitive scientist and noted critic of deep learning companies such as OpenAI and DeepMind              has repeatedly                         praised EleutherAI s dedication to open source and transparent research 
+Maximilian Gahntz  a senior policy researcher at the Mozilla Foundation  applauded EleutherAI s efforts to give more researchers the ability to audit and assess AI technology   If models are open and if data sets are open  that ll enable much more of the critical research that s pointed out many of the flaws and harms associated with generative AI and that s often far too difficult to conduct              
+
+Criticism edit 
+Technology journalist Kyle Wiggers has raised concerns about whether EleutherAI is as independent as it claims  or  whether the involvement of commercially motivated ventures like Stability AI and Hugging Face both of which are backed by substantial venture capital might influence EleutherAI s research              
+
+See also edit 
+List of artificial intelligence companies
+References edit 
+
+
+  a b Leahy  Connor  Hallahan  Eric  Gao  Leo  Biderman  Stella    July         What A Long  Strange Trip It s Been  EleutherAI One Year Retrospective   Archived from the original on    August       Retrieved   March      
+
+   Talk with Stella Biderman on The Pile  GPT Neo and MTG   The Interference Podcast    April       Retrieved    March      
+
+  a b Smith  Craig     March         EleutherAI  When OpenAI Isn t Open Enough   IEEE Spectrum  IEEE  Archived from the original on    August       Retrieved   August      
+
+   About   EleutherAI  Retrieved    May      
+
+  a b c Wiggers  Kyle    March         Stability AI  Hugging Face and Canva back new AI research nonprofit   TechCrunch  Archived from the original on    August       Retrieved   August      
+
+  Leahy  Connor  Hallahan  Eric  Gao  Leo  Biderman  Stella    July         What A Long  Strange Trip It s Been  EleutherAI One Year Retrospective   EleutherAI Blog  Archived from the original on    August       Retrieved    April      
+
+   Stability AI  Hugging Face and Canva back new AI research nonprofit     March      
+
+  Gao  Leo  Biderman  Stella  Black  Sid  et      al      December        The Pile  An    GB Dataset of Diverse Text for Language Modeling  arXiv             arXiv            
+
+   GPT   s free alternative GPT Neo is something to be excited about   VentureBeat     May       Archived from the original on   March       Retrieved    April      
+
+   GPT J  B  An Introduction to the Largest Open Source GPT Model   Forefront   www forefront ai  Archived from the original on   March       Retrieved   March      
+
+   EleutherAI  When OpenAI Isn t Open Enough   IEEE Spectrum  Archived from the original on    March       Retrieved   March      
+
+  Black  Sid  Biderman  Stella  Hallahan  Eric  et      al      April         GPT NeoX   B  An Open Source Autoregressive Language Model   arXiv             cs CL  
+
+  Sanh  Victor  et      al           Multitask Prompted Training Enables Zero Shot Task Generalization   arXiv             cs LG  
+
+  Muennighoff  Niklas  Wang  Thomas  Sutawika  Lintang  Roberts  Adam  Biderman  Stella  Teven Le Scao  M Saiful Bari  Shen  Sheng  Yong  Zheng Xin  Schoelkopf  Hailey  Tang  Xiangru  Radev  Dragomir  Alham Fikri Aji  Almubarak  Khalid  Albanie  Samuel  Alyafeai  Zaid  Webson  Albert  Raff  Edward  Raffel  Colin          Crosslingual Generalization through Multitask Finetuning   arXiv             cs CL  
+
+  a b Workshop  BigScience  et      al           BLOOM  A    B Parameter Open Access Multilingual Language Model   arXiv             cs CL  
+
+   Meet OpenFold  Reimplementing AlphaFold  to Illuminate Its Learning Mechanisms and Generalization      August      
+
+   Democratizing AI for Biology with OpenFold  
+
+  a b  The View from        Feet  Preface to the Second EleutherAI Retrospective     March      
+
+   AI Research Lab Launches Open Source Research Nonprofit  
+
+  Gilbertson  Annie  Reisner  Alex     July         Apple  Nvidia  Anthropic Used Thousands of Swiped YouTube Videos to Train AI   WIRED  Retrieved    July      
+
+  Gilbertson  Annie     July         Apple  Nvidia  Anthropic Used Thousands of Swiped YouTube Videos to Train AI   Proof  Retrieved    July      
+
+   Staff  
+
+   EleutherAI Website   EleutherAI  Archived from the original on   July       Retrieved   July      
+
+   Microsoft and Nvidia team up to train one of the world s largest language models      October       Archived from the original on    March       Retrieved   March      
+
+   AI  Megatron the Transformer  and its related language models      September       Archived from the original on   March       Retrieved   March      
+
+  Zhang  Susan  Roller  Stephen  Goyal  Naman  Artetxe  Mikel  Chen  Moya  Chen  Shuohui  Dewan  Christopher  Diab  Mona  Li  Xian  Lin  Xi Victoria  Mihaylov  Todor  Ott  Myle  Shleifer  Sam  Shuster  Kurt  Simig  Daniel  Koura  Punit Singh  Sridhar  Anjali  Wang  Tianlu  Zettlemoyer  Luke     June         OPT  Open Pre trained Transformer Language Models   arXiv             cs CL  
+
+  Touvron  Hugo  Lavril  Thibaut  Izacard  Gautier  Grave  Edouard  Lample  Guillaume  et      al      February         LLaMA  Open and Efficient Foundation Language Models   arXiv             cs CL  
+
+  Taylor  Ross  Kardas  Marcin  Cucurull  Guillem  Scialom  Thomas  Hartshorn  Anthony  Saravia  Elvis  Poulton  Andrew  Kerkez  Viktor  Stojnic  Robert     November         Galactica  A Large Language Model for Science   arXiv             cs CL  
+
+   Model Card for BioMedLM    B   huggingface co  Archived from the original on   June       Retrieved   June      
+
+  Yuan  Sha  Zhao  Hanyu  Du  Zhengxiao  Ding  Ming  Liu  Xiao  Cen  Yukuo  Zou  Xu  Yang  Zhilin  Tang  Jie          WuDaoCorpora  A super large scale Chinese corpora for pre training language models   AI Open            doi         j aiopen             
+
+  Grabovskiy  Ilya          Yandex publishes YaLM    B  the largest GPT like neural network in open source   Press release   Yandex  Retrieved   June      
+
+  Khan  Mehtab  Hanna  Alex          The Subjects and Stages of AI Dataset Development  A Framework for Dataset Accountability   Ohio State Technology Law Journal                   hdl              SSRN              
+
+   GPT   s free alternative GPT Neo is something to be excited about      May       Archived from the original on   March       Retrieved    March      
+
+  Andonian  Alex  Biderman  Stella  Black  Sid  Gali  Preetham  Gao  Leo  Hallahan  Eric  Levy Kramer  Josh  Leahy  Connor  Nestler  Lucas  Parker  Kip  Pieler  Michael  Purohit  Shivanshu  Songz  Tri  Phil  Wang  Weinbach  Samuel     March        GPT NeoX  Large Scale Autoregressive Language Modeling in PyTorch  Preprint   doi         zenodo         
+
+   EleutherAI gpt j  B   Hugging Face   huggingface co  Archived from the original on    March       Retrieved    March      
+
+   GPT J  B  An Introduction to the Largest Open Source GPT Model        Forefront   www forefront ai  Archived from the original on   March       Retrieved   March      
+
+  Black  Sidney  Biderman  Stella  Hallahan  Eric  et      al     May        GPT NeoX   B  An Open Source Autoregressive Language Model  Proceedings of BigScience Episode       Workshop on Challenges  amp  Perspectives in Creating Large Language Models  pp               arXiv             doi          v       bigscience      Retrieved    December              via Association for Computational Linguistics   Anthology 
+
+  a b c Biderman  Stella  Schoelkopf  Hailey  Anthony  Quentin  Bradley  Herbie  O Brien  Kyle  Hallahan  Eric  Mohammad Aflah Khan  Purohit  Shivanshu  USVSN Sai Prashanth  Raff  Edward  Skowron  Aviya  Sutawika  Lintang  Oskar van der Wal          Pythia  A Suite for Analyzing Large Language Models Across Training and Scaling   arXiv             cs CL  
+
+  Choi  Dami  Shavit  Yonadav  Duvenaud  David          Tools for Verifying Neural Models  Training Data   arXiv             cs LG  
+
+  Biderman  Stella  USVSN Sai Prashanth  Sutawika  Lintang  Schoelkopf  Hailey  Anthony  Quentin  Purohit  Shivanshu  Raff  Edward          Emergent and Predictable Memorization in Large Language Models   arXiv             cs CL  
+
+  Gupta  Kshitij  Th rien  Benjamin  Ibrahim  Adam  Richter  Mats L   Anthony  Quentin  Belilovsky  Eugene  Rish  Irina  Lesort  Timoth e          Continual Pre Training of Large Language Models  How to  Re warm your model    arXiv             cs CL  
+
+   CLIP Guided Diffusion   EleutherAI  Archived from the original on    August       Retrieved    August      
+
+   CLIP Guided Diffusion HQ    x    ipynb   Colaboratory   Google Colab  Archived from the original on    August       Retrieved    August      
+
+  MIRANDA  LJ    August         The Illustrated VQGAN   ljvmiranda    github io  Archived from the original on    March       Retrieved   March      
+
+   Inside The World of Uncanny AI Twitter Art   Nylon     March       Archived from the original on    August       Retrieved   March      
+
+   This AI Turns Movie Text Descriptions Into Abstract Posters   Yahoo Life     September       Archived from the original on    December       Retrieved   March      
+
+  Quach  Katyanna   A man spent a year in jail on a murder charge involving disputed AI evidence  Now the case has been dropped   www theregister com  Archived from the original on   March       Retrieved   March      
+
+   Alien Dreams  An Emerging Art Scene   ML B Blog   Alien Dreams  An Emerging Art Scene   ML B Blog  Archived from the original on    March       Retrieved   March      
+
+   VQGAN CLIP   EleutherAI  Archived from the original on    August       Retrieved    August      
+
+   We asked an AI tool to  paint  images of Australia  Critics say they re good enough to sell   ABC News     July       Archived from the original on   March       Retrieved   March              via www abc net au 
+
+  Nataraj  Poornima     February         Online tools to create mind blowing AI art   Analytics India Magazine  Archived from the original on   February       Retrieved   March      
+
+   Meet the Woman Making Viral Portraits of Mental Health on TikTok   www vice com     November       Archived from the original on    May       Retrieved   March      
+
+   EMostaque    March         Stability AI came out of  AiEleuther and we have been delighted to incubate it as the foundation was set up   Tweet          via Twitter 
+
+   UNESCO Netexplo Forum             UNESCO   Archived from the original on    October       Retrieved   March      
+
+  Yegulalp  James R  Borck  Martin Heller  Andrew C  Oliver  Ian Pointer  Matthew Tyson and Serdar     October         The best open source software of        InfoWorld  Archived from the original on   March       Retrieved   March        cite web     CS  maint  multiple names  authors list  link 
+
+  Yegulalp  James R  Borck  Martin Heller  Andrew C  Oliver  Ian Pointer  Isaac Sacolick  Matthew Tyson and Serdar     October         The best open source software of        InfoWorld  Archived from the original on   March       Retrieved   March        cite web     CS  maint  multiple names  authors list  link 
+
+   VentureBeat presents AI Innovation Awards nominees at Transform           July       Archived from the original on   March       Retrieved   March      
+
+   What s next for AI  Gary Marcus talks about the journey toward robust artificial intelligence   ZDNET  Archived from the original on   March       Retrieved   March      
+
+   GaryMarcus     February         GPT NeoX   B     billion parameter large language model made freely available to public  with candid report on strengths  limits  ecological costs  etc   Tweet          via Twitter 
+
+   GaryMarcus     February         incredibly important result   our results raise the question of how much      large language      models actually generalize beyond pretraining data    Tweet          via Twitter 
+
+  Chowdhury  Meghmala     December         Will Powerful AI Disrupt Industries Once Thought to be Safe in         Analytics Insight  Archived from the original on   January       Retrieved   April      
+
+  Wiggers  Kyle    March         Stability AI  Hugging Face and Canva back new AI research nonprofit   Archived from the original on   March       Retrieved   March      
+
+
+
+
+
+
+
+Retrieved from  https   en wikipedia org w index php title EleutherAI amp oldid

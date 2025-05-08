@@ -1,0 +1,382 @@
+Online biomedical database
+
+
+Not to be confused with PubMed Central 
+
+
+PubMedContactResearch centerUnited States National Library of Medicine  NLM Release dateJanuary                            years ago               AccessWebsitepubmed ncbi nlm nih gov
+PubMed is an openly accessible  free database which includes primarily the MEDLINE database of references and abstracts on life sciences and biomedical topics  The United States National Library of Medicine  NLM  at the National Institutes of Health maintains the database as part of the Entrez system of information retrieval            
+From      to       online access to the MEDLINE database was provided via computer and phone lines primarily through institutional facilities  such as university libraries             PubMed  first released in January       ushered in the era of private  free  home  and office based MEDLINE searching             The PubMed system was offered free to the public starting in June                 
+
+
+Content edit 
+In addition to MEDLINE  PubMed provides access to 
+
+older references from the print version of Index Medicus  back to      and earlier
+references to some journals before they were indexed in Index Medicus and MEDLINE  for instance Science  BMJ  and Annals of Surgery
+very recent entries to records for an article before it is indexed with Medical Subject Headings  MeSH  and added to MEDLINE
+a collection of books available full text and other subsets of NLM records           
+PMC citations
+NCBI Bookshelf
+Many PubMed records contain links to full text articles  some of which are freely available  often in PubMed Central            and local mirrors  such as Europe PubMed Central            
+Information about the journals indexed in MEDLINE  and available through PubMed  is found in the NLM Catalog            
+As of         May               update       PubMed has more than    million citations and abstracts dating back to       selectively to the year       and very selectively to       As of the same date     update            million of PubMed s records are listed with their abstracts  and      million records have links to full text versions  of which      million articles are available  full text for free              Over the last    years  ending    December        an average of nearly one million new records were added each year  
+In       NLM changed the indexing system so that publishers are able to directly correct typos and errors in PubMed indexed articles            
+PubMed has been reported to include some articles published in predatory journals  MEDLINE and PubMed policies for the selection of journals for database inclusion are slightly different  Weaknesses in the criteria and procedures for indexing journals in PubMed Central may allow publications from predatory journals to leak into PubMed             
+
+Characteristics edit 
+Website design edit 
+A new PubMed interface was launched in October      and encouraged the use of such quick  Google like search formulations  they have also been described as  telegram  searches              By default the results are sorted by Most Recent  but this can be changed to Best Match  Publication Date  First Author  Last Author  Journal  or Title             
+The PubMed website design and domain was updated in January      and became default on    May       with the updated and new features              There was a critical reaction from many researchers who frequently use the site             
+
+PubMed for handhelds mobiles edit 
+PubMed MEDLINE can be accessed via handheld devices  using for instance the  PICO  option  for focused clinical questions  created by the NLM              A  PubMed Mobile  option  providing access to a mobile friendly  simplified PubMed version  is also available             
+
+Search edit 
+Standard search edit 
+Simple searches on PubMed can be carried out by entering key aspects of a subject into PubMed s search window 
+PubMed translates this initial search formulation and automatically adds field names  relevant MeSH  Medical Subject Headings  terms  synonyms  Boolean operators  and  nests  the resulting terms appropriately  enhancing the search formulation significantly  in particular by routinely combining  using the OR operator  textwords and MeSH terms      citation needed     
+
+Comprehensive search edit 
+For optimal searches in PubMed  it is necessary to understand its core component  MEDLINE  and especially of the MeSH  Medical Subject Headings  controlled vocabulary used to index MEDLINE articles  They may also require complex search strategies  use of field names  tags   proper use of limits and other features  reference librarians and search specialists offer search services                         
+The search into PubMed s search window is only recommended for the search of unequivocal topics or new interventions that do not yet have a MeSH heading created  as well as for the search for commercial brands of medicines and proper nouns  It is also useful when there is no suitable heading or the descriptor represents a partial aspect  The search using the thesaurus MeSH is more accurate and will give fewer irrelevant results  In addition  it saves the disadvantage of the free text search in which the spelling  singular plural or abbreviated differences have to be taken into consideration  On the other side  articles more recently incorporated into the database to which descriptors have not yet been assigned will not be found  Therefore  to guarantee an exhaustive search  a combination of controlled language headings and free text terms must be used             
+
+Journal article parameters edit 
+When a journal article is indexed  numerous article parameters are extracted and stored as structured information  Such parameters are  Article Type  MeSH terms  e g    Clinical Trial    Secondary identifiers   MeSH terms   Language  Country of the Journal or publication history  e publication date  print journal publication date  
+
+Publication Type  Clinical queries systematic reviews edit 
+Publication type parameter allows searching by the type of publication  including reports of various kinds of clinical research             
+
+Secondary ID edit 
+Since July       the MEDLINE article indexing process extracts identifiers from the article abstract and puts those in a field called Secondary Identifier  SI   The secondary identifier field is to store accession numbers to various databases of molecular sequence data  gene expression or chemical compounds and clinical trial IDs  For clinical trials  PubMed extracts trial IDs for the two largest trial registries  ClinicalTrials gov  NCT identifier  and the International Standard Randomized Controlled Trial Number Register  IRCTN identifier              
+
+See also edit 
+A reference which is judged particularly relevant can be marked and  related articles  can be identified  If relevant  several studies can be selected and related articles to all of them can be generated  on PubMed or any of the other NCBI Entrez databases  using the  Find related data  option  The related articles are then listed in order of  relatedness   To create these lists of related articles  PubMed compares words from the title and abstract of each citation  as well as the MeSH headings assigned  using a powerful word weighted algorithm              The  related articles  function has been judged to be so precise that the authors of a paper suggested it can be used instead of a full search             
+
+Mapping to MeSH edit 
+PubMed automatically links to MeSH terms and subheadings  Examples would be   bad breath  links to  and includes in the search   halitosis    heart attack  to  myocardial infarction    breast cancer  to  breast neoplasms   Where appropriate  these MeSH terms are automatically  expanded   that is  include more specific terms  Terms like  nursing  are automatically linked to  Nursing  MeSH   or  Nursing  Subheading    This feature is called Auto Term Mapping and is enacted  by default  in free text searching but not exact phrase searching  i e  enclosing the search query with double quotes               This feature makes PubMed searches more sensitive and avoids false negative  missed  hits by compensating for the diversity of medical terminology             
+PubMed does not apply automatic mapping of the term in the following circumstances  by writing the quoted phrase  e g    kidney allograft    when truncated on the asterisk  e g   kidney allograft    and when looking with field labels  e g   Cancer  ti               
+
+My NCBI edit 
+The PubMed optional facility  My NCBI   with free registration  provides tools for
+
+saving searches
+filtering search results
+setting up automatic updates sent by e mail
+saving sets of references retrieved as part of a PubMed search
+configuring display formats or highlighting search terms
+and a wide range of other options              The  My NCBI  area can be accessed from any computer with web access 
+An earlier version of  My NCBI  was called  PubMed Cubby              
+
+LinkOut edit 
+LinkOut is an NLM facility to link and make available full text local journal holdings              Some       sites  mainly academic institutions  participate in this NLM facility  as of March               update        from Aalborg University in Denmark to ZymoGenetics in Seattle              Users at these institutions see their institution s logo within the PubMed search result  if the journal is held at that institution  and can access the full text  Link out is being consolidated with Outside Tool as of the major platform update coming in the Summer of                  
+
+PubMed Commons edit 
+In       PubMed allows authors of articles to comment on articles indexed by PubMed  This feature was initially tested in a pilot mode  since       and was made permanent in                   In February       PubMed Commons was discontinued due to the fact that  usage has remained minimal                          
+
+askMEDLINE edit 
+askMEDLINE  a free text  natural language query tool for MEDLINE PubMed  developed by the NLM  also suitable for handhelds             
+
+PubMed identifier edit 
+For help using PubMed identifiers within Wikipedia  see Wikipedia PMID 
+A PMID  PubMed identifier or PubMed unique identifier              is a unique integer value  starting at    assigned to each PubMed record  A PMID is not the same as a PMCID  PubMed Central identifier  which is the identifier for all works published in the free to access PubMed Central             
+The assignment of a PMID or PMCID to a publication tells the reader nothing about the type or quality of the content  PMIDs are assigned to letters to the editor  editorial opinions  op ed columns  and any other piece that the editor chooses to include in the journal  as well as peer reviewed papers  The existence of the identification number is also not proof that the papers have not been retracted for fraud  incompetence  or misconduct  The announcement about any corrections to original papers may be assigned a PMID 
+Each number that is entered in the PubMed search window is treated by default as if it were a PMID  Therefore  any reference in PubMed can be located using the PMID 
+
+Alternative interfaces edit 
+MEDLINE is one of the databases which are accessible via PubMed  Several companies provide access to MEDLINE through their platforms 
+The National Library of Medicine leases the MEDLINE information to a number of private vendors such as Embase  Ovid  Dialog  EBSCO  Knowledge Finder and many other commercial  non commercial  and academic providers              As of October               update       more than     licenses had been issued  more than     of them to providers outside the United States  As licenses to use MEDLINE data are available for free  the NLM in effect provides a free testing ground for a wide range             of alternative interfaces and  rd party additions to PubMed  one of a very few large  professionally curated databases which offers this option 
+Lu identifies a sample of    current and free Web based PubMed versions  requiring no installation or registration  which are grouped into four categories             
+
+Ranking search results  for instance  eTBLAST  MedlineRanker              MiSearch             
+Clustering results by topics  authors  journals etc   for instance  Anne O Tate              ClusterMed             
+Enhancing semantics and visualization  for instance  EBIMed              MedEvi             
+Improved search interface and retrieval experience  for instance  askMEDLINE                         BabelMeSH              and PubCrawler             
+As most of these and other alternatives rely essentially on PubMed MEDLINE data leased under license from the NLM PubMed  the term  PubMed derivatives  has been suggested              Without the need to store about         GB of original PubMed Datasets  anybody can write PubMed applications using the eutils application program interface as described in  The E utilities In Depth  Parameters  Syntax and More   by Eric Sayers  PhD              Various citation format generators  taking PMID numbers as input  are examples of web applications making use of the eutils application program interface  Sample web pages include Citation Generator   Mick Schroeder  Pubmed Citation Generator   Ultrasound of the Week  PMID cite  and Cite this for me 
+
+Data mining of PubMed edit 
+Alternative methods to mine the data in PubMed use programming environments such as Matlab  Python or R  In these cases  queries of PubMed are written as lines of code and passed to PubMed and the response is then processed directly in the programming environment   Code can be automated to systematically query with different keywords such as disease  year  organs  etc  
+For bulk processing  the full PubMed database is available as XML which can be downloaded from an FTP server  The annual baseline is released in December  followed by daily update files              
+In addition to its traditional role as a biomedical database  PubMed has become common resource for training biomedical language models             
+The data accessible by PubMed can be mirrored locally using an unofficial tool such as MEDOC             
+Millions of PubMed records augment various open data datasets about open access  like Unpaywall  Data analysis tools like Unpaywall Journals are used by libraries to assist with big deal cancellations  libraries can avoid subscriptions for materials already served by instant open access via open archives like PubMed Central             
+
+See also edit 
+Europe PubMed Central
+JournalReview org
+List of academic databases and search engines
+PubMed Central
+PubMed Central Canada
+References edit 
+
+
+   PubMed   Archived from the original on    December       Retrieved    February      
+
+  a b Lindberg DA          Internet access to the National Library of Medicine   PDF   Effective Clinical Practice                 PMID                Archived from the original  PDF  on   November      
+
+   PubMed Celebrates its   th Anniversary   Technical Bulletin  United States National Library of Medicine    October       Archived from the original on    April       Retrieved    March      
+
+   PubMed  MEDLINE Retrieval on the World Wide Web   Fact Sheet  United States National Library of Medicine    June       Archived from the original on   September       Retrieved    March      
+
+  Roberts RJ  January         PubMed Central  The GenBank of the published literature   Proceedings of the National Academy of Sciences of the United States of America                 Bibcode     PNAS          R  doi         pnas           PMC             PMID               
+
+  McEntyre JR  Ananiadou S  Andrews S  Black WJ  Boulderstone R  Buttery P  et      al   January         UKPMC  a full text article resource for the life sciences   Nucleic Acids Research      Database issue   D       doi         nar gkq      PMC               PMID               
+
+   NLM Catalogue  Journals referenced in the NCBI Databases   NCBI        Archived from the original on    October       Retrieved   September      
+
+   PubMed   PubMed  Archived from the original on   January       Retrieved   January       The search query            dp   retrieves all results whose date of publication is between      and      inclusive 
+
+   MEDLINE PubMed Production Improvements Underway   NLM Technical Bulletin        e   July August       Archived from the original on    March       Retrieved    July      
+
+  Manca A  Moher D  Cugusi L  Dvir Z  Deriu F  September         How predatory journals leak into PubMed   CMAJ            E       E      doi         cmaj         PMC               PMID               
+
+  Clarke J  Wentz R  September         Pragmatic approach is effective in evidence based health care   BMJ                     doi         bmj              a  PMC               PMID               
+
+  Fatehi F  Gray LC  Wootton R  January         How to improve your PubMed MEDLINE searches     display settings  complex search queries and topic searching   Journal of Telemedicine and Telecare                 doi                X          PMID                S CID               
+
+  Trawick B     January         A New and Improved PubMed    NLM Musings From the Mezzanine  Archived from the original on   October       Retrieved    May      
+
+  Price M     May         They redesigned PubMed  a beloved website  It hasn t gone over well   Science  Archived from the original on    May       Retrieved    June      
+
+   PubMed via handhelds  PICO    Technical Bulletin  United States National Library of Medicine        Archived from the original on    May       Retrieved   April      
+
+   PubMed Mobile Beta   Technical Bulletin  United States National Library of Medicine        Archived from the original on    April       Retrieved   April      
+
+  Jadad AR  McQuay HJ  July         Searching the literature  Be systematic in your searching   BMJ                  doi         bmj             a  PMC               PMID              
+
+  Allison JJ  Kiefe CI  Weissman NW  Carter J  Centor RM  Spring         The art and science of searching MEDLINE to answer clinical questions  Finding the right number of articles   International Journal of Technology Assessment in Health Care                  doi         S                  PMID                S CID                Archived from the original on    February       Retrieved    December      
+
+  a b Campos Asensio C          C mo elaborar una estrategia de b squeda bibliogr fica   Enfermer a Intensiva  in Spanish                    doi         j enfi              PMID                S CID                
+
+  Clinical Queries Filter Terms explained  NCBI        Archived from the original on    November       Retrieved   September      
+
+  Huser V  Cimino JJ  June         Evaluating adherence to the International Committee of Medical Journal Editors  policy of mandatory  timely clinical trial registration   Journal of the American Medical Informatics Association      e    e        doi         amiajnl              PMC               PMID               
+
+   Computation of Related Articles explained   NCBI  Archived from the original on    December       Retrieved   September      
+
+  Chang AA  Heskett KM  Davidson TM  February         Searching the literature using medical subject headings versus text word with PubMed   PDF   The Laryngoscope                   doi            mlg                  a   PMID                S CID                Retrieved    September      
+
+  a b Fatehi F  Gray LC  Wootton R  March         How to improve your PubMed MEDLINE searches     advanced searching  MeSH and My NCBI   Journal of Telemedicine and Telecare                  doi                X          PMID                S CID              
+
+   My NCBI Help   My NCBI explained  NCBI     December       Archived from the original on    July       Retrieved   September      
+
+   PubMed Cubby   Technical Bulletin  United States National Library of Medicine        Archived from the original on    February       Retrieved   April      
+
+   LinkOut Overview   NCBI        Archived from the original on    September       Retrieved   September      
+
+   LinkOut Participants        NCBI        Archived from the original on    October       Retrieved   September      
+
+   An Updated PubMed is on its Way   Archived from the original on    May       Retrieved   April      
+
+  PubMed Commons Team     December         Commenting on PubMed  A Successful Pilot   Archived from the original on    October       Retrieved    July      
+
+   PubMed Commons to be Discontinued   NCBI Insights    February       Archived from the original on    August       Retrieved   February      
+
+   PubMed shuts down its comments feature  PubMed Commons   Retraction Watch    February       Archived from the original on    June       Retrieved   February      
+
+   askMedline   NCBI        Archived from the original on    July       Retrieved   April      
+
+   Search Field Descriptions and Tags   National Center for Biotechnology Information  Archived from the original on    July       Retrieved    July      
+
+  Keener M   PMID vs  PMCID  What s the difference    PDF   University of Chicago  Archived from the original  PDF  on   July       Retrieved    January      
+
+   Leasing journal citations from PubMed Medline   NLM        Archived from the original on   July       Retrieved   April      
+
+  a b c Lu Z          PubMed and beyond  a survey of web tools for searching biomedical literature   Database        baq     doi         database baq     PMC               PMID               
+
+  Fontaine JF  Barbosa Silva A  Schaefer M  Huska MR  Muro EM  Andrade Navarro MA  July         MedlineRanker  flexible ranking of biomedical literature   Nucleic Acids Research      Web Server issue   W       doi         nar gkp     PMC               PMID               
+
+  States DJ  Ade AS  Wright ZC  Bookvich AV  Athey BD  April         MiSearch adaptive pubMed search tool   Bioinformatics                 doi         bioinformatics btn     PMC               PMID               
+
+  Smalheiser NR  Zhou W  Torvik VI  February         Anne O Tate  A tool to support user driven summarization  drill down and browsing of PubMed search results   Journal of Biomedical Discovery and Collaboration        doi                        PMC               PMID               
+
+   ClusterMed   Vivisimo Clustering Engine        Archived from the original on    August       Retrieved   July      
+
+  Rebholz Schuhmann D  Kirsch H  Arregui M  Gaudan S  Riethoven M  Stoehr P  January         EBIMed  text crunching to gather facts for proteins from Medline   Bioinformatics          e        doi         bioinformatics btl     PMID               
+
+  Kim JJ  Pezik P  Rebholz Schuhmann D  June         MedEvi  retrieving textual evidence of relations between biomedical concepts from Medline   Bioinformatics                   doi         bioinformatics btn     PMC               PMID               
+
+  Fontelo P  Liu F  Ackerman M  Schardt CM  Keitz SA          askMEDLINE  a report on a year long experience   AMIA     Annual Symposium Proceedings  AMIA Symposium             PMC               PMID               
+
+  Fontelo P  Liu F  Ackerman M          MeSH Speller   askMEDLINE  auto completes MeSH terms then searches MEDLINE PubMed via free text  natural language queries   AMIA     Annual Symposium Proceedings  AMIA Symposium             PMC               PMID               
+
+  Fontelo P  Liu F  Leon S  Anne A  Ackerman M          PICO Linguist and BabelMeSH  development and partial evaluation of evidence based multilanguage search tools for MEDLINE PubMed   Studies in Health Technology and Informatics       Pt             PMID                Archived from the original on    October       Retrieved    May      
+
+  Hokamp K  Wolfe KH  July         PubCrawler  keeping up comfortably with PubMed and GenBank   Nucleic Acids Research      Web Server issue   W      doi         nar gkh     PMC              PMID               
+
+  Eric Sayers  PhD     October        The E utilities In Depth  Parameters  Syntax and More  NCBI  Archived from the original on    June       Retrieved   September      
+
+  Bramley R  Howe S  Marmanis H    November         Notes on the data quality of bibliographic records from the MEDLINE database   Database        doi         database baad     ISSN                 PMC                PMID               
+
+  Singhal K  Azizi S  Tu T  Mahdavi SS  Wei J  Chung HW  et      al     August         Large language models encode clinical knowledge   Nature                       arXiv             Bibcode     Natur         S  doi         s                   PMC                PMID               
+
+  MEDOC on GitHub
+
+  Denise Wolfe    April         SUNY Negotiates New  Modified Agreement with Elsevier   Libraries News Center University at Buffalo Libraries   library buffalo edu  University at Buffalo  Archived from the original on   December       Retrieved    April      
+
+
+External links edit 
+
+
+
+Wikidata has the property  
+ PubMed publication ID  P      see uses 
+
+Official website
+PubMed search tags  amp  field qualifiers
+vteTelemedicine and telehealthBackground concepts
+Health informatics
+In absentia health care
+Telecommunication
+Medical record
+Admission note
+Blue Button
+De identification
+Electronic health record
+Health Insurance Portability and Accountability Act
+Personal health record
+Patient participation
+Decision aids
+Doctor patient relationship
+E patient
+Health    
+Health education
+Knowledge translation
+mHealth
+Participative decision making in organizations
+Patient Activation Measure
+Shared decision making
+Health information on the Internet
+Health information on Wikipedia
+Online patient education
+PubMed
+PubMed Central
+Telemedicine subspecialties
+eHealth
+Remote surgery
+Remote therapy
+Remote patient monitoring
+Tele audiology
+Tele epidemiology
+Teledentistry
+Teledermatology
+Telemental health
+Telenursing
+Teleophthalmology
+Telepathology
+Telepharmacy
+Telepsychiatry
+Teleradiology
+Telerehabilitation
+Roles to play
+Open source healthcare software
+Patient opinion leader
+Research participant
+Virtual patient
+
+vteAcademic publishingJournals
+Academic journal
+Public health
+Papers
+Paper
+Abstract
+Review article
+Position paper
+Literature review
+Grey literature
+Working paper
+White paper
+Technical report
+Annual report
+Pamphlet
+Essay
+Lab notes
+Other publication types
+Thesis
+Collection of articles
+Patent
+Biological
+Chemical
+Book
+Monograph
+Chapter
+Treatise
+Poster session
+Proceedings
+Impact and ranking
+Acknowledgment index
+Altmetrics
+Article level metrics
+Author level metrics
+Bibliometrics
+C score
+Journal ranking
+Eigenfactor
+g index
+h index
+Impact factor
+Rankings of academic publishers
+Science wide author databases of standardized citation indicators
+Scientometrics
+SCImago Journal Rank
+Reform and access
+Academic journal publishing reform
+Open access
+Citation advantage
+Serials crisis
+Sci Hub
+ ICanHazPDF
+Versioning
+Preprint
+Postprint
+Version of record
+Erratum
+Retraction
+Indexes and search engines
+Google Scholar
+AMiner
+BASE
+CORE
+Semantic Scholar
+Scopus
+Web of Science
+Paperity
+OpenAlex
+Index Copernicus
+ERIH PLUS
+Sherpa Romeo
+OpenAIRE
+GALE
+Related topics
+Imprint
+Scientific writing
+Peer review
+Scholarly communication
+Scientific literature
+Learned society
+Open research
+Open scientific data
+ORCID
+Electronic publishing
+Ingelfinger rule
+Least publishable unit
+ Publish or perish 
+Lists
+Academic databases and search engines
+Academic journals
+Category Academic publishing
+Copyright policies
+Highly Cited Researchers
+Open access journals
+Preprint policies
+Category Scientific documents
+Scientific journals
+Style formatting guides
+University presses
+
+
+
+
+
+
+Retrieved from  https   en wikipedia org w index php title PubMed amp oldid            PubMed identifier

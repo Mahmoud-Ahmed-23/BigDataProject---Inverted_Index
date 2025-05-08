@@ -1,0 +1,1525 @@
+Bu sayfada devam eden bir  al  ma vard r  Yard m etmek istiyorsan z ya da  al  ma yar m b rak lm  sa   al  may  yapan ki ilerle ileti ime ge ebilirsiniz  Bu sayfada son yedi g n i inde de i iklik yap lmad    takdirde  ablon sayfadan kald r lacakt r En son de i iklik     saat      nce  mmortalance  katk lar   kay tlar  taraf ndan ger ekle tirildi   nbelle i bo alt  
+Yapay zek dizisinin bir par as 
+Geli im s reci
+Ak l y r tme
+Bilgisayarl  g r 
+Do al dil i leme
+Genel oyun oynama
+Yapay genel zek 
+Makine   renimi
+Planlama
+Robotik
+Yapay zek 
+Yapay hayal g c 
+
+Yakla  mlar
+Bayes a  
+Derin   renme
+Evrimsel algoritma
+Sembolik
+
+Felsefe
+ ince odas 
+Dost canl s  yapay zek 
+Kontrol sorunu Ele ge irme
+Etik
+Turing testi
+Varolu sal risk
+
+Tarih e
+Geli im s reci
+Yapay zek  k   
+
+Teknoloji
+Programlama dilleri
+Projeler
+Uygulamalar
+
+S zl k
+S zl k
+gtd
+Yapay zek    ngilizce       Artificial Intelligence ya da k saca AI   insanlar da dahil olmak  zere hayvanlar taraf ndan  do al zek n n aksine makineler taraf ndan g r nt lenen zek   e ididir   lk ve ikinci kategoriler aras ndaki ayr m genellikle se ilen k saltmayla ortaya   kar  G  l  yapay zeka genellikle Yapay genel zek    ngilizce  Artificial General Intelligence kelimelerinin k salt lm    olarak  AGI  olarak etiketlenirken  do al zekay  taklit etme giri imleri yapay biyolojik zek    ngilizce  Artificial Biological Intelligence  ABI  olarak adland r l r   nde gelen yapay zeka ders kitaplar   alan  zeki etmenlerin  al  mas  olarak tan mlar   evresini alg layan ve hedeflerine ba ar yla ula ma  ans n  en  st d zeye   karan eylemleri ger ekle tiren herhangi bir cihaz             Halk aras nda  yapay zek  kavram  genellikle insanlar n insan zihni ile ili kilendirdi i   renme ve problem   zme gibi bili sel eylemleri taklit eden makineleri tan mlamak i in kullan l r            
+Makineler daha becerikli h le geldik e  zek  gerektirdi i d   n len g revler genellikle YZ etkisi olarak bilinen bir fenomen olan YZ tan m ndan   kar l r             Tesler in teoremindeki bir espri   YZ hen z yap lmam    eydir  der              rne in  optik karakter tan ma YZ olarak de erlendirilen  eylerin d   nda tutulur             rutin teknoloji h line gelir            
+Genellikle yapay zek  olarak s n fland r lan modern makine yetenekleri satran  ve Go            gibi stratejik oyun sistemlerinde  en  st d zeyde rekabet eden insan konu mas n  anlama              poker             ya da otonom arabalar gibi kusurlu bilgi oyunlar n  i erik da  t m a  ndaki ak ll  y nlendirmeyi ve askeri sim lasyonlar  kapsar             
+Yapay zek   al  malar  s kl kla insan n d   nme y ntemlerini taklit eden yapay algoritmalar geli tirmeye y neliktir              ancak bununla s n rl  de ildir    renebilen ve gelecekte insan zek s ndan ba  ms z geli ebilecek bir yapay zek  kavram na do ru yeni y nelimler olu maktad r  Bu y nelim  insan n evreni ve do ay  anlama  abas nda kendisine yard mc  olabilecek belki de kendisinden daha zeki  insan  tesi varl klar meydana getirme d   n n bir  r n d r  Bu d         li y llarda yaz lan ve sonralar  Isaac Asimov u etkileyen modern bilimkurgu edebiyat n n  nc  yazarlar ndan Karel  apek in eserlerinde d  a vurmu tur  Karel  apek  R U R  adl  tiyatro oyununda yapay zek ya sahip robotlar ile insanl   n ortak toplumsal sorunlar n  ele alarak      y l nda yapay zek n n insan akl ndan ba  ms z geli ebilece ini  ng rm  t r 
+
+
+Tan m de i tir   kayna   de i tir 
+Yapay zek   idealle tirilmi  bir perspektife g re insan zek s na  zg  y ksek bili sel fonksiyonlar  veya otonom davran  lar  sergileyen bir yapay i letim sistemidir  Bu sistem  alg lama    renme   o ul kavramlar  ba lama  d   nme  fikir y r tme  belirtme   sorun   zme  ileti im kurma ve karar verme gibi yeteneklere sahip olmal d r  Ayr ca  bu yapay zek  sistemi d   ncelerinden tepkiler  retebilmeli  eyleyici yapay zek   ve bu tepkileri fiziksel olarak d  a vurabilmelidir 
+
+Hedefler de i tir   kayna   de i tir 
+Zek y  sim le etme  veya olu turma  genel problemi  alt problemlere ayr lm  t r  Bu alt problemler  ara t rmac lar n zeki bir sistemden sergilemesini bekledi i belirli  zellikler veya yeteneklerden olu ur  A a  da a  klanan  zellikler  yapay zek  ara t rmalar nda en  ok dikkat  eken konular aras nda yer almakta ve bu ara t rmalar n kapsam n  belirlemektedir      a     
+
+Ak l y r tme ve problem   zme de i tir   kayna   de i tir 
+Yapay zek n n ilk ara t rmac lar   insanlar n bulmacalar    zerken veya mant ksal   kar mlar yaparken kulland    ad m ad m ak l y r tmeyi taklit eden algoritmalar geli tirmi tir                   lerin sonlar  ve      larda  belirsiz veya eksik bilgiyle ba a   kmak i in olas l k ve ekonomi kavramlar n  kullanan y ntemler geli tirilmi tir             
+Bu algoritmalar n bir o u  b y k  l ekli ak l y r tme problemlerini   zmek i in yetersizdir    nk   kombinatoryal patlama  denilen bir durum ya arlar  Problemler b y d k e bu algoritmalar n  al  mas   stel bir  ekilde yava lar              Hatta insanlar bile erken d nem yapay zek n n modelleyebildi i ad m ad m ak l y r tmeyi nadiren kullan r   nsanlar   o u sorunlar n  h zl  ve sezgisel yarg larla   zerler              Do ru ve verimli ak l y r tme  h l    z lememi  bir problemdir 
+
+Bilgi temsili de i tir   kayna   de i tir 
+Bilgi temsili ve bilgi m hendisli i              yapay zek  programlar n n sorulara ak ll ca yan t vermesini ve ger ek d nya ile ilgili   kar mlarda bulunmas n  sa lar  Formel bilgi temsilleri  i erik tabanl  indeksleme ve bilgi eri imi              sahne yorumlama              klinik karar destek sistemleri              bilgi ke fi  b y k veritabanlar ndan  ilgin   ve eyleme ge irilebilir   kar mlarda bulunma              gibi bir ok alanda kullan lmaktad r             
+
+Tarih e de i tir   kayna   de i tir 
+Mekanik ya da  formel  ak l y r tme  zerine  al  malar  antik  a da filozoflar ve matematik ilerle birlikte ba lad   Mant k alan ndaki bu  al  malar  Alan Turing in algoritmalar teorisinin temelini olu turdu  Turing in teorisi      ve     gibi basit sembolleri kullanarak bir makinenin  insan akl n n ger ekle tirebilece i her t rl  matematiksel ak l y r tmeyi sim le edebilece ini  ne s rd                           Bu teori  sibernetik  bilgi teorisi ve n robiyoloji gibi alanlardaki ke iflerle birle erek  ara t rmac lara  elektronik bir beyin  in a etme olas l   n  d   nmeye y neltti      b       ne   kan  al  malar aras nda       teki Warren McCullouch ve Walter Pitts in  yapay n ronlar  tasar m              ve Turing in      de yay mlad      makine zek s n n  m mk n oldu unu g sterdi i Turing testini tan tan Bilgi   lem Makineleri ve Zek  adl  makalesi bulunmaktayd                           Bu d nemde yap lan bu t r ara t rmalar  yapay zek n n temel alanlar n n ortaya   kard              
+     da Dartmouth College deki bir at lye  al  mas nda yapay zeka ara t rma alan  kuruldu      c                  Bu at lyeye kat lan ara t rmac lar       larda yapay zek  alan na liderlik ettiler      d        rencileriyle beraber bu ara t rmac lar  bas n n   a  rt c   olarak nitelendirdi i projeler  rettiler      e      Bu d nemde bilgisayarlar  dama stratejileri   renmi   cebir problemlerini   zm    mant ksal teoremleri kan tlam   ve  ngilizce konu mu tu      f                       lerin sonu ve      lar n ba lar nda  hem  ngiltere deki hem de Amerika Birle ik Devletleri ndeki bir ok  niversitede yapay zek  laboratuvarlar  kuruldu             
+     lar ve      lerdeki ara t rmac lar  genel zek ya sahip bir makine  retmenin m mk n oldu una inan yor ve bunu alanlar n n nihai hedefi olarak g r yordu                   te Herbert Simon   makinelerin yirmi y l i inde bir insan n yapabilece i her i i yapabilir h le gelece i  tahmininde bulunmu                    de Marvin Minsky   bir nesil i inde      yapay zek   sorununun b y k  l  de   z lece i  yorumunu yapm  t               Ancak bu  ng r ler  yapay zek n n geli tirilmesindeki zorluklar  g z ard  etmi ti      g           te Sir James Lighthill  n ele tirileri             ve ABD Kongresi nin daha somut projelere fon sa lama bask s  nedeniyle  ABD ve  ngiltere h k metleri ke if ama l  yapay zek  ara t rmalar na verilen deste i durdurma karar  ald               Minsky ve Seymour Papert  n Perceptrons adl  kitab   yapay sinir a lar n n ger ek d nya problemlerini   zmede etkisiz oldu unu savunmu  ve bu yakla  m  itibar n  kaybetmi ti              Bunun sonucunda  yapay zek  projelerine fon bulman n zorla t     yapay zek  k     ad  verilen bir d nem ba lad              
+     lerin ba  nda yapay zek  ara t rmalar   uzman sistemlerin ticari ba ar s yla yeniden canland               Uzman sistemler  uzmanlar n bilgi ve analiz yeteneklerini taklit eden bir t r yapay zek  program yd        y l na gelindi inde  yapay zek  pazar    milyar dolar  a m  t   Ayn  d nemde Japonya n n be inci nesil bilgisayar projesi  ABD ve Britanya h k metlerini akademik ara t rmalara yeniden fon sa lamaya te vik etti              Ancak       de Lisp makinesi pazar n n   k   yle yapay zek  tekrar itibar kaybetti ve daha uzun s ren ikinci bir  yapay zek  k     ba lad              
+O zamana kadar yapay zek  projelerinin b y k k sm   planlar  hedefler  inan lar ve bilinen ger ekler gibi zihinsel kavramlar  temsil etmek i in y ksek seviyede semboller kullanmaya odaklanm  t   Ancak      lerde baz  ara t rmac lar  bu yakla  m n insan bili inin t m s re lerini   zellikle alg   robotik    renme ve  r nt  tan ma gibi karma  k s re leri taklit edemeyece i konusunda   phe duymaya ba lad               Bu nedenle   alt sembolik  y ntemlere y neldiler              Rodney Brooks  genel olarak  temsil  fikrini reddederek hayatta kalabilen ve hareket edebilen makineler geli tirmeye odakland       h      Judea Pearl ve Lofti Zadeh gibi isimler  eksik ve belirsiz bilgileri mant ksal kesinlik yerine m kul tahminlerle i leyebilen y ntemler geli tirdi                          Ayr ca Geoffrey Hinton ve di er ara t rmac lar   ba lant sall k  ve sinir a  ara t rmalar n  yeniden canland rarak bu alan n geli imine katk da bulundu                   da Yann LeCun  evri imli sinir a lar n n el yaz s  ile yaz lm   rakamlar  tan yabildi ini g sterdi  bu  sinir a lar n n bir ok ba ar l  uygulamas ndan ilkiydi             
+Yapay zek        lar n sonlar  ve     y zy l n ba lar nda  formal matematik y ntemlerinden yararlanarak ve belirli problemlere  zel   z mler geli tirerek itibar n  yeniden kazanmaya ba lad   Bu  dar  ve  formal  yakla  m  ara t rmac lar n do rulanabilir sonu lar  retmesini ve istatistik  ekonomi ve matematik gibi di er alanlarla i  birli i yapmas n  sa lad                    li y llara gelindi inde  yapay zek  ara t rmac lar n n geli tirdi i   z mler yayg n olarak kullan lmaya ba lanm  t   Ancak      larda bu   z mler genellikle  yapay zek   olarak adland r lm yordu  bu e ilim yapay zek  etkisi olarak bilinir              
+Buna kar  n  baz  akademisyenler yapay zek n n ilk hedefinden  yani  ok y nl  ve tam anlam yla zeki makineler yaratma amac ndan uzakla t   n  d   nmeye ba lad        nin ba lar nda  bu hedefi yeniden canland rmak amac yla yapay genel zek    AGI   ad  verilen bir alt alan kuruldu       lara gelindi inde  yapay genel zek  ara t rmalar  i in iyi finanse edilen bir ok kurum ortaya   kt              
+Derin   renme       de end stri standartlar nda  nemli bir  st nl k sa layarak yapay zek  alan nda yayg n bir  ekilde benimsendi             
+Bir ok spesifik g revde di er y ntemler terk edildi      i     
+Bu ba ar n n arkas nda daha h zl  bilgisayarlar              grafik i lem birimleri  bulut bili im             gibi donan m geli tirmeleriyle ImageNet gibi dikkatle olu turulmu  veri k melerinin de d hil oldu u             b y k miktarda veriye eri im             yat yordu  Derin   renmenin bu y kseli i  yapay zek ya olan ilgi ve finansmanda b y k bir art    tetikledi      j                y llar  aras nda makine   renimi ara t rmalar ndaki toplam yay mlanma say s nda     lik bir art   g r ld              
+     da  adalet ve teknolojinin yanl   kullan m  gibi etik sorunlar  makine   renimi konferanslar nda ana g ndem maddesi h line geldi  Bu konularda yap lan yay mlar h zla artarken  yeni finansman kaynaklar  sa land  ve bir ok ara t rmac  kariyerlerini bu alanlara y nlendirdi  Ayn  d nemde  yapay zek n n insan   karlar na uygun  ekilde geli tirilmesini konu alan  uyum problemi  akademik bir  al  ma alan  olarak ciddiyet kazand              
+     lar n sonlar  ve      lerin ba lar nda  yapay genel zek   zerine  al  an  irketler dikkat  eken yaz l mlar  retmeye ba lad        y l nda DeepMind taraf ndan geli tirilen AlphaGo  oyunun kurallar    retilerek kendi stratejisini geli tirdi ve d nya  ampiyonu Go oyuncusunu yendi       de OpenAI taraf ndan   kar lan GPT    insan benzeri y ksek kaliteli metinler  retebilen bir geni  dil modeli olarak dikkat  ekti                 Kas m      de kullan ma sunulan ChatGPT ise iki ay i inde     milyon kullan c ya ula arak tarihin en h zl  b y yen t ketici yaz l m  oldu                   y l   yapay zek n n geni  kitleler taraf ndan fark edildi i ve yayg n bir  ekilde konu ulmaya ba land    bir d n m noktas  olarak kabul edildi              Bu yaz l mlar  b y k bir yapay zeka patlamas n  tetikledi  B y k  l ekli  irketler yapay zek  ara t rmalar na milyarlarca dolar yat r m yapmaya ba lad   AI Impacts in verilerine g re       y l nda sadece ABD de yapay zek ya y ll k yakla  k     milyar yat r m yap ld   ABD deki yeni bilgisayar bilimi doktora mezunlar n n yakla  k     si yapay zek   zerine uzmanla t               Ayn  y l  ABD de yapay zek  ile ilgili         i  ilan  bulundu              PitchBook ara t rmas na g re       te yeni fon alan giri imlerin     si kendilerini yapay zek   irketi olarak tan ml yordu             
+
+Geli im s reci de i tir   kayna   de i tir 
+ lk ara t rmalar ve yapay sinir a lar  de i tir   kayna   de i tir 
+ dealize edilmi  tan m yla yapay zek  konusundaki ilk  al  malardan biri McCulloch ve Pitts taraf ndan yap lm  t r  Bu ara t rmac lar n  nerdi i  yapay sinir h crelerini kullanan hesaplama modeli   nermeler mant     fizyoloji ve Turing in hesaplama kuram na dayan yordu  Herhangi bir hesaplanabilir fonksiyonun sinir h crelerinden olu an a larla hesaplanabilece ini ve mant ksal ve ve veya i lemlerinin ger ekle tirilebilece ini g sterdiler  Bu a  yap lar n n uygun  ekilde tan mlanmalar  h linde   renme becerisi kazanabilece ini de ileri s rd ler  Hebb  sinir h creleri aras ndaki ba lant lar n  iddetlerini de i tirmek i in basit bir kural  nerince    renebilen yapay sinir a lar n  ger ekle tirmek de olas  hale gelmi tir 
+     lerde Shannon ve Turing bilgisayarlar i in satran  programlar  yaz yorlard    lk yapay sinir a   temelli bilgisayar SNARC  MIT de Minsky ve Edmonds taraf ndan      de yap ld    al  malar n  Princeton  niversitesi nde s rd ren Mc Carthy  Minsky  Shannon ve Rochester le birlikte      y l nda Dartmouth da iki ayl k bir a  k  al  ma d zenledi  Bu toplant da bir ok  al  man n temelleri at lmakla birlikte  toplant n n en  nemli  zelli i Mc Carthy taraf ndan  nerilen yapay zek  ad n n konmas d r   lk kuram ispatlayan programlardan Logic Theorist  Mant k kuramc s   burada Newell ve Simon taraf ndan tan t lm  t r 
+
+Yeni yakla  mlar de i tir   kayna   de i tir 
+Daha sonra Newell ve Simon  insan gibi d   nme yakla  m na g re  retilmi  ilk program olan Genel Sorun   z c   General Problem Solver    geli tirmi lerdir  Simon  daha sonra fiziksel simge varsay m n  ortaya atm   ve bu kuram  insandan ba  ms z zeki sistemler yapma  al  malar yla u ra anlar n hareket noktas n  olu turmu tur  Simon  n bu tan mlamas  bilim adamlar n n yapay zek ya yakla  mlar nda iki farkl  ak m n ortaya   kt   n  belirginle tirmesi a  s ndan  nemlidir  Sembolik Yapay Zek  ve Sibernetik Yapay Zek  
+
+Yakla  mlar ve ele tiriler de i tir   kayna   de i tir 
+Sembolik yapay zek  de i tir   kayna   de i tir 
+Simon  n sembolik yakla  m ndan sonraki y llarda mant k temelli  al  malar egemen olmu  ve programlar n ba ar mlar n  g stermek i in bir tak m yapay sorunlar ve d nyalar kullan lm  t r  Daha sonralar  bu sorunlar ger ek ya am  hi bir  ekilde temsil etmeyen oyuncak d nyalar olmakla su lanm   ve yapay zek n n yaln zca bu alanlarda ba ar l  olabilece i ve ger ek ya amdaki sorunlar n   z m ne  l eklenemeyece i ileri s r lm  t r 
+Geli tirilen programlar n ger ek sorunlarla kar  la  ld   nda  ok k t  bir ba ar m g stermesinin ard ndaki temel neden  bu programlar n yaln zca sentaktik s re leri benze imlendirerek anlam   karma  ba lant  kurma ve fikir y r tme gibi s re ler konusunda ba ar s z olmas yd   Bu d nemin en  nl  programlar ndan Weizenbaum taraf ndan geli tirilen Eliza  kar  s ndaki ile sohbet edebiliyor gibi g r nmesine kar  n  yaln zca kar  s ndaki insan n c mleleri  zerinde baz  i lemler yap yordu   lk makine  evirisi  al  malar  s ras nda benzeri yakla  mlar kullan l p  ok g l n   evirilerle kar  la  l nca bu  al  malar n desteklenmesi durdurulmu tu  Bu yetersizlikler asl nda insan beynindeki semantik s re lerin yeterince incelenmemesinden kaynaklanmaktayd  
+
+Sibernetik yapay zek  de i tir   kayna   de i tir 
+Yapay sinir a lar   al  malar n n dahil oldu u sibernetik cephede de durum ayn yd   Zeki davran    benze imlendirmek i in bu  al  malarda kullan lan temel yap lardaki baz   nemli yetersizliklerin ortaya konmas yla bir ok ara t rmac lar  al  malar n  durdurdular  Buna en temel  rnek  Yapay sinir a lar  konusundaki  al  malar n Marvin Minsky ve Seymour Papert in      da yay nlanan Perceptrons adl  kitaplar nda tek katmanl  alga lar n baz  basit problemleri   zemeyece ini g sterip ayn  k s rl   n  ok katmanl  alga larda da beklenilmesi gerekti ini s ylemeleri ile b  akla kesilmi  gibi durmas d r 
+Sibernetik ak m n u rad    ba ar s zl   n temel sebebi de benzer  ekilde Yapay Sinir A  n n tek katmanl  g revi ba armas  fakat bu g revle ilgili varg lar n veya sonu lar n bir yarg ya d n  erek di er kavramlar ile bir ili ki kurulamamas ndan kaynaklanmaktad r  Bu durum ayn  zamanda semantik s re lerin de benze imlendirilememesi ger e ini do urdu 
+
+Uzman sistemler de i tir   kayna   de i tir 
+Her iki ak m n da u rad    ba ar s zl klar  her sorunu   zecek genel ama l  sistemler yerine belirli bir uzmanl k alan ndaki bilgiyle donat lm   programlar  kullanma fikrinin geli mesine sebep oldu ve bu durum yapay zek  alan nda yeniden bir canlanmaya yol a t   K sa s rede Uzman sistemler ad  verilen bir metodoloji geli ti 
+Uzman sistemler bir konuda belli  n ko ullar ayn  anda var oldu unda konunun bir uzman n  bazen ne olas l kla  ne karar alaca  n  belirleyen kurallar n t m n  i eren bir program  gelen problemlere uygulamak temellidir  Bunun bir avantaj  her verilen karar n hangi kurallar uygulanarak verildi inin kolayca bilinmesi idi  Bu bir ok kuralc  b rokratik karar  rg tleri i in kolayca uygulamalar geli tirilebilmesi demekti  Bu do al olarak bir otomobilin tamiri i in  nerilerde bulunan uzman sistem program n n otomobilin ne i e yarad   ndan haberi olmamas  da demekti  Buna ra men uzman sistemlerin ba ar lar  beraberinde ilk ticari uygulamalar  da getirdi 
+Yapay zek  yava  yava  bir end stri h line geliyordu  DEC taraf ndan kullan lan ve m  teri sipari lerine g re donan m se imi yapan R  adl  uzman sistem  irkete bir y lda    milyon dolarl k tasarruf sa lam  t   Birden di er  lkeler de yapay zek y  yeniden ke fettiler ve ara t rmalara b y k kaynaklar ayr lmaya ba land        de yapay zek  end strisinin cirosu   milyar dolara ula m  t  
+
+Do al dil i leme de i tir   kayna   de i tir 
+Antropoloji bilimi  geli mi  insan zek s  ile dil aras ndaki ba lant y  g zler  n ne serdi inde  dil  zerinden y r t len yapay zek   al  malar  tekrar  nem kazand    nsan zek s n n do rudan do ruya kavramlarla d   nmedi i  dil ile d   nd     dil kodlar  olan kelimeler ile kavramlar aras nda ba lant  kurdu u anla  ld   Bu sayede insan akl  kavramlar ile d   nen Hayvan beyninden daha h zl  i lem yapabilmekteydi ve dil dizgeleri olan c mleler yani  ablonlar ile etkili bir   renmeye ve bilgisini soyut olarak geni letebilme yetene ine sahip olmu tu   nsanlar n ileti imde kulland klar  T rk e   ngilizce gibi do al dilleri anlayan bilgisayarlar konusundaki  al  malar h zlanmaya ba lad    nce  yine Uzman sistemler olarak kar  m za   kan do al dil anlayan programlar  daha sonra Sembolik Yapay Zek  ile ilgilenenler aras nda ilgiyle kar  land  ve yaz l m alan ndaki geli meler sayesinde  ngilizce olan A I M L  Artificial intelligence Markup Language  ve T rk e T Y   D  T rk e Yapay Zek    aretleme Dili  gibi bilgisayar dilleri ile sentaktik   r nt   i lemine uygun veri eri im metotlar  geli tirilebildi  Bug n Sembolik Yapay Zek  ara t rmac lar   zel Yapay Zek  dillerini kullanarak verileri birbiri ile ili kilendirebilmekte  geli tirilen  zel prosed rler sayesinde anlam   karma ve   kar msama yapma gibi ileri seviye bili sel fonksiyonlar  benzetimlendirmeye  al  maktad rlar 
+B t n bu geli melerin ve s re lerin sonunda bir grup yapay zek  ara t rmac s   insan gibi d   nebilen sistemleri ara t rmaya devam ederken di er bir grup ise ticari de eri olan rasyonel karar alan sistemler  Uzman sistemler   zerine yo unla t  
+
+Diyalog bazl  yapay zeka de i tir   kayna   de i tir 
+Do al dil i leme ve makine   renmesi gibi yapay zeka teknolojileri kullan larak insan ve makine  yaz l m  aras nda bir diyalo un s rd r lmesini sa layan yapay zeka alt dal na  diyalog bazl  yapay zeka   conversational artificial intelligence  denir  Daha  nce insanlar n bilgisayara komut vermesinde kullan lan web  mobil uygulama gibi grafiksel aray zlerin  GUI  yerine ge meyi ama layan diyalog bazl  aray zler  CUI  insanlar n bilgisayara g nl k dilde yazarak veya konu arak komut verebilmesini ama lar  G n m zde  chatbotlar ve sesli asistanlar diyalog bazl  yapay zeka alan nda s k a kullan lan teknolojik  r nler olarak kar  m za   kmaktad r 
+
+Chatbotlar de i tir   kayna   de i tir 
+Chatbotlar  diyalog bazl  yapay zekan n g nl k hayatta kullan lan bir  rne idir  Kullan c lar  T rk eye sohbet robotlar  olarak ge mi  bu dijital  r nler ile yaz  arak belirli bir konuda bilgi alabilir veya u ak bileti almak  banka havalesi yapmak veya bir kitap sat n almak gibi g nl k i lerini yapabilirler  Chatbotlar   irketlerin web sitesinde veya mobil uygulamas nda yer alabilirler  Bunun d   nda chatbotlar  WhatsApp  Facebook Messenger gibi genel mesajla ma platformlar nda veya Google Assistant  Siri gibi sesli asistanlarda da yer alabilirler 
+Chatbotlar kullan c  ile etkile im kurma y ntemini  arkas nda yer alan teknolojik altyap ya g re farkl   e itlerde olu turulabilir   rne in bir chatbot kullan c  ile  sadece kullan c  onunla etkile ime girdi inde ileti im kuruyorsa reaktif bir chatbottur  e er bir uyar c  ile tetiklenerek kullan c  ile olan diyalo u ba latan taraf oluyorsa buna proaktif bir chatbot denir  Teknoloji a  s ndan bak lacak olursa  yapay zeka tabanl  chatbotlar n yan nda  do al dil i leme  makine   renmesi gibi yapay zeka teknolojileri kullan lmadan geli tirilen kural tabanl  chatbotlar da kullan lmaktad r  Ancak bu iki t r chatbotun davran    farkl d r  Kural bazl  chatbotlarda genellikle kullan c ya belirli se enekler sunulur ve yarat lan deneyim bu se eneklerle s n rl  kal r      kaynak belirtilmeli      Yapay zeka tabanl  chatbotlarda ise kullan c  serbest bir metin yazabilir  chatbotun do al dil i leme teknolojisi bu metni anlamland r p do ru yan t  belirleyerek kullan c ya sunar      kaynak belirtilmeli                 
+
+Gelecekte yapay zek  de i tir   kayna   de i tir 
+S per zek  ve tekillik de i tir   kayna   de i tir 
+S per zek   en parlak ve en yetenekli insan zihninin zek s n   ok a an bir zek ya sahip varsay msal bir etkendir              Yapay genel zek   zerine yap lan ara t rmalar yeterince zeki bir yaz l m  retirse  yaz l m kendini yeniden programlayabilir ve geli tirebilir  Geli en yaz l m kendini geli tirmede daha da iyi olur ve I  J  Good un  zek  patlamas   ve Vernor Vinge in  tekillik  olarak adland rd     eye yol a ar             
+Ancak teknolojiler sonsuza kadar  stel olarak geli emez ve genellikle S  eklinde bir e ri izler  teknolojinin yapabilece i  eyin fiziksel s n rlar na ula t   nda yava lar             
+
+Transh manizm de i tir   kayna   de i tir 
+Ana madde  Transh manizm
+Robot tasar mc s  Hans Moravec  sibernetik i Kevin Warwick ve mucit Ray Kurzweil  gelecekte insanlar n ve makinelerin birle erek her ikisinden de daha yetenekli ve g  l  siborglara d n  ebilece ini  ng rd ler  Transh manizm olarak adland r lan bu fikrin k kleri  Aldous Huxley ve Robert Ettinger  n yaz lar nda bahsedilmektedir             
+Edward Fredkin   yapay zek n n evrimin bir sonraki ad m   oldu unu savunmaktayd   bu fikir ilk olarak Samuel Butler  n  Darwin among the Machines  adl  mektubunda      te ortaya at ld  ve George Dyson taraf ndan      deki Darwin Among the Machines  The Evolution of Global Intelligence adl  kitab nda geli tirildi             
+
+Yapay zek n n g c  de i tir   kayna   de i tir 
+Yapay zek  uygulamalar  g n ge tik e geli meye ve insan zek s n  yakalamaya do ru ad m ad m ilerlemektedir Bili im uzmanlar   bir insan n hepsi ayn  anda paralel olarak  al  an     milyar n ron ba lant s n n toplam hesap g c n n alt s n r  olan saniyede    katrilyon                          
+  
+    
+      
+        
+            
+          
+              
+          
+        
+      
+    
+      displaystyle         
+  
+  hesap d zeyine      te eri ece ini d   n yorlar 
+Beynin bellek kapasitesine gelince      trilyon ba lant n n her birine        bit bilgi depolama gereksinimi tan n rsa  toplam kapasite       d zeyine   k yor       ye gelindi inde insan beyninin i levselli ine eri mi  bir bilgisayar n fiyat n n      dolar olaca   tahmin ediliyor       da      dolarl k bir bilgisayar n bellek kapasitesi      insan n belle ine e it olacak 
+
+Uygulama alanlar  de i tir   kayna   de i tir 
+Yapay zekan n uygulama alanlar n n baz   rnekleri  u  ekildedir 
+
+ nerici sistemler  Kullan c lar n ge mi  davran  lar na dayanarak yeni i erik  nerilmesi   rne in  sosyal medya sitelerinde yeni arkada   ma azalarda ba ka bir  r n  gazetede ba ka bir haber  nerileri 
+Makine  evirisi  Bir dilde ifade edilen c mleyi farkl  bir dile  evirmek   rne in  Google Translate  Microsoft Terc man ve Yandex  eviri gibi  evrimi i ara lar 
+Sinyal i leme  Ses ve g r nt  gibi sinyallerin i lenerek bilgi   kar m    rne in  y z ve ses tan ma 
+Prosed rel i erik  retimi  Rassal y ntemler kullanarak yapay i erik  retme   rne in   retimsel m zik ve video oyunlar nda prosed rel d nyalar 
+Regresyon analizi  Ge mi  verilere dayan larak bir de i kenin gelecekteki de erinin tahmin edilmesi   rne in  ekonomik  ng r ler   retim miktar   ng r leri 
+G r nt  i leme  Dijital g r nt lerde bulunan objeleri tan ma  yerini bulma  s n fland rma gibi i lemlerin t m   Yapay zekadan  nce bu i lemler Hough d n   m  gibi kurala dayal  algoritmalar ile s rd r l rken  g n m zde bu kurallar veriden   renilmektedir  G r nt lemenin s k kullan ld    t p              biyoloji              otomotiv               retim             gibi alanlarda kullan lmaktad r 
+Makale yazma  D nyada yapay zeka ile yaz lan ilk k  e yaz s    Eyl l      tarihinde The Guardian gazetesinde yay nlanm  t r              T rkiye de yapay zekan n yazd    ilk haber ise  alom gazetesinde      y l nda yay nlanm  t r             
+Alt dallar de i tir   kayna   de i tir 
+Makine Zek s   Sembolik Yapay Zek  
+Yapay Sinir A lar   Sibernetik Yapay Zek  
+Do al Dil i leme  Dil ile d   nme 
+G r nt    leme
+Konu ma Sentezi  Yapay Konu ma 
+Konu ma Anlama  Konu ma Analizi 
+T mevar ml  mant k programlama
+Bilgi tabanl  sistem
+Bilgisayarl  g r 
+Do al dil  retme
+Uzman sistemler
+Sinirsel  ebeke
+Makine   renimi
+ r nt  Tan ma
+Genetik Algoritmalar
+Genetik Programlama
+Bulan k Mant k
+ oklu  rnekle   renme  Multiple Instance Learning 
+Ayr ca bak n z de i tir   kayna   de i tir 
+
+Yapay zek  m hendisli i
+Yapay zek ya y nelik programlama dilleri listesi
+Derin   renme yaz l mlar n n kar  la t r lmas 
+Video g zetimi i in yapay zeka
+Video oyunlar nda yapay zek 
+ retken yapay zek 
+A  k kaynakl  yapay zeka
+Yapay zek  eti i
+Yapay zek  k   
+Yapay zeka felsefesi
+Genetik Programlama
+Yapay zeka etkisi
+Sembolik yapay zeka
+Genetik Programlama
+Toplu zek 
+Yapay bilin 
+Durum tabanl    karsama
+Yapay genel zek 
+Duygu analizi
+Bili sel dilbilim
+
+Notlar de i tir   kayna   de i tir 
+
+
+  Bu ak ll   zellikler listesi  ba l ca yapay zek  ders kitaplar nda ele al nan konulara dayanmaktad r  Russell  amp  Norvig         Luger  amp  Stubblefield         Poole  Mackworth  amp  Goebel        ve Nilsson       
+
+   Elektronik beyin  terimi o s ralarda bas n taraf ndan kullan l yordu                         
+
+  
+Daniel Crevier   konferans genel olarak yeni bilimin resm  do um g n  olarak kabul edilir  yazd               Russell ve Norvig  konferans   yapay zek n n ba lang c   olarak adland rd               
+
+  
+Russell ve Norvig    n m zdeki    y l boyunca bu alan  bu insanlar ve   rencileri taraf ndan domine edilecekti   yazd lar             
+
+  
+Russell ve Norvig   bilgisayar n ak ll ca bir  ey yapmas n n  a  rt c   oldu unu yazd              
+
+  
+A  klanan programlar aras nda Arthur Samuel in IBM     i in geli tirdi i dama program   Daniel G  Bobrow un STUDENT  Allen Newell ve Herbert A  Simon  n Logic Theorist ve Terry Winograd  n SHRDLU programlar  bulunuyordu 
+
+  Russell ve Norvig   hemen hemen t m durumlarda  bu ilk sistemlerin daha zor problemlerde ba ar s z oldu unu  yazd lar             
+
+  
+Yapay zekaya y nelik bedenlenmi  yakla  mlar              Hans Moravec             ve Rodney Brooks             taraf ndan savunuldu ve bir ok isimle an ld   Nouvelle AI              Geli imsel robotik             
+
+  Matteo Wong  The Atlantic te  unlar  yazd    On y llar boyunca do al dil i leme  bilgisayarla g rme ve robotik gibi bilgisayar bilimi alanlar  birbirinden tamamen farkl  y ntemler kullan rken  g n m zde hepsi  derin   renme  ad  verilen bir programlama y ntemini kullan yor  Bu durum  bu alanlardaki kod ve yakla  mlar n birbirine daha benzer hale gelmesini ve modellerin birbirleriyle daha kolay entegre edilmesini sa lad               
+
+  Bloomberg den Jack Clark   Yapay zek  alan nda be  y ll k sessiz at l mlar n ard ndan       d n m noktas  niteli inde bir y l oldu  Bilgisayarlar daha ak ll  ve her zamankinden daha h zl    reniyor   Ayr ca Clark  Google da makine   renimi kullanan yaz l m projelerinin say s       de seyrek iken       te       den fazla projeye   kt   n  belirtti             
+
+
+Kaynak a de i tir   kayna   de i tir 
+
+
+  Poole  Mackworth  amp  Goebel       p    
+
+  Russell  amp  Norvig       s          
+
+  Definition of AI as the study of intelligent agents 
+Poole  Mackworth  amp  Goebel         which provides the version that is used in this article  These authors use the term  computational intelligence  as a synonym for artificial intelligence            
+Russell  amp  Norvig         who prefer the term  rational agent   and write  The whole agent view is now widely accepted in the field             
+Nilsson     
+Legg  amp  Hutter     
+
+  Russell  amp  Norvig       s         
+
+  McCorduck       s          
+
+  Maloof  Mark   Artificial Intelligence  An Introduction  p       PDF   georgetown edu     A ustos      tarihinde kayna  ndan ar ivlendi  PDF        
+
+   How AI Is Getting Groundbreaking Changes In Talent Management And HR Tech   Hackernoon     Eyl l      tarihinde kayna  ndan ar ivlendi  Eri im tarihi      ubat            
+
+  Schank  Roger C           Where s the AI   AI magazine          s                
+
+   AlphaGo   Google DeepMind    ngilizce      Mart      tarihinde kayna  ndan ar ivlendi       
+
+  Russell  amp  Norvig      
+
+   Kaynak hatas   Ge ersiz  lt ref gt  etiketi  Cepheus poker bot isimli refler i in metin sa lanmad   Bkz  Kaynak g sterme 
+
+  Allen  Gregory  Nisan         Department of Defense Joint AI Center   Understanding AI Technology   PDF   AI mil   The official site of the Department of Defense Joint Artificial Intelligence Center     Nisan      tarihinde kayna  ndan ar ivlendi  PDF   Eri im tarihi     Nisan            
+
+  Siri  Siri in my Hand  who s the Fairest in the Land     Kas m      tarihinde Wayback Machine sitesinde ar ivlendi   Andreas Kaplan  Michael Haenlein        On the Interpretations  Illustrations and Implications of Artificial Intelligence  Business Horizons       
+
+  Problem   zme  bulmaca   zme  oyun oynama ve   kar m yapma  Russell  amp  Norvig        chpt        Russell  amp  Norvig        chpt      k s tlama memnuniyeti   Poole  Mackworth  amp  Goebel        chpt               Luger  amp  Stubblefield        chpt               Nilsson        chpt       
+
+  Belirsiz muhakeme  Russell  amp  Norvig        chpt          Poole  Mackworth  amp  Goebel        ss                 Luger  amp  Stubblefield        ss                 Nilsson        chpt       
+
+  Russell  amp  Norvig        s          
+
+  Alt sembolik ak l y r tme ve bilginin yayg nl   na dair psikolojik kan tlar  Kahneman         Dreyfus  amp  Dreyfus         Wason  amp  Shapiro         Kahneman  Slovic  amp  Tversky       
+
+  Bilgi temsili ve bilgi m hendisli i  Russell  amp  Norvig        chpt       Poole  Mackworth  amp  Goebel        ss                                                          Luger  amp  Stubblefield        ss                 Nilsson        chpt                
+
+  Smoliar  amp  Zhang        
+
+  Neumann  amp  M ller        
+
+  Kuperman  Reichley  amp  Bailey        
+
+  McGarry        
+
+  Bertini  Del Bimbo  amp  Torniai        
+
+  a b Russell  amp  Norvig       s         
+
+  a b c Copeland  J    Ed           The Essential Turing  the ideas that gave birth to the computer age  Oxford   ngiltere  Clarendon Press  ISBN                          
+
+   Google books ngram     Ekim      tarihinde kayna  ndan ar ivlendi  Eri im tarihi    Ekim            
+
+  a b Russell  amp  Norvig         s          
+
+   Kaynak hatas   Ge ersiz  lt ref gt  etiketi  Turing isimli refler i in metin sa lanmad   Bkz  Kaynak g sterme 
+
+  Yapay Zeka n n do rudan  nc lleri  McCorduck        ss                Crevier        ss               Russell  amp  Norvig        ss              Moravec        s         
+
+  Crevier         ss             
+
+  Dartmouth Konferans   Russell  amp  Norvig        s            McCorduck        ss                 NRC        ss                neri  McCarthy et al        
+
+  Russell  amp  Norvig         s          
+
+  Russell  amp  Norvig         s          
+
+       lar n ba ar l  programlar   McCorduck        ss                 Crevier        ss                Moravec        s           Russell  amp  Norvig        ss             
+
+  Newquist         ss             
+
+  Simon        s            Crevier        s            kayna  nda al nt land 
+
+  Minsky        s           Crevier        s            kayna  nda al nt land 
+
+  Russell  amp  Norvig         s          
+
+  Lighthill        
+
+  NRC       ss               
+
+  Russell  amp  Norvig         s          
+
+   lk yapay zek  k     Lighthill raporu  Mansfield De i ikli i  Crevier        ss                 Russell  amp  Norvig        ss               NRC        ss                 Howe         Newquist        ss               
+
+  Uzman sistemler  Russell  amp  Norvig        ss                 Luger  amp  Stubblefield        ss                 Nilsson        chpt         McCorduck        ss                          Crevier        ss                          Newquist        ss               
+
+       lerin ba  ndaki fonlama giri imleri  Be inci Nesil Bilgisayar Sistemleri  Japonya   Alvey  BK   Mikroelektronik ve Bilgisayar Teknolojisi  irketi  ABD   Stratejik Bilgi   lem Giri imi  ABD   McCorduck        ss                 Crevier        ss                                    Russell  amp  Norvig        s            NRC        ss                 Newquist        ss               
+
+   kinci yapay zek  k     Russell  amp  Norvig        s            McCorduck        ss                 Crevier        ss                 NRC        ss                 Newquist        ss               
+
+  Russell  amp  Norvig         s          
+
+  Nilsson         s         
+
+  McCorduck         ss               
+
+  Moravec        
+
+  a b Brooks        
+
+  Geli imsel robotik  Weng et al          Lungarella et al          Asada et al          Oudeyer       
+
+   Kaynak hatas   Ge ersiz  lt ref gt  etiketi  Stoch isimli refler i in metin sa lanmad   Bkz  Kaynak g sterme 
+
+  Russell  amp  Norvig         s          
+
+  Crevier        ss                 Russell  amp  Norvig        ss              
+
+  Russell  amp  Norvig         s          
+
+       larda benimsenen Formal ve dar y ntemler  Russell  amp  Norvig        ss               McCorduck        ss               
+
+  Yapay zek       lar n sonlar nda yayg n olarak kullan ld   Kurzweil        s             NRC        ss                 Newquist        ss               
+
+   Kaynak hatas   Ge ersiz  lt ref gt  etiketi  Artificial general intelligence isimli refler i in metin sa lanmad   Bkz  Kaynak g sterme 
+
+  Derin   renme devrimi  AlexNet  Goldman         Russell  amp  Norvig        s            McKinsey       
+
+  Wong        
+
+  Moore yasas  ve YZ  Russell  amp  Norvig        ss              
+
+  a b c Clark      b  
+
+  B y k veri  Russell  amp  Norvig        s          
+
+  UNESCO        
+
+  Christian         ss              
+
+  Sagar  Ram    Haziran         OpenAI Releases GPT    The Largest Model So Far   Analytics India Magazine    A ustos      tarihinde kayna  ndan ar ivlendi  Eri im tarihi     Mart            
+
+  Milmo  Dan     ubat         ChatGPT reaches     million users two months after launch   The Guardian   ngilizce   ISSN                    ubat      tarihinde kayna  ndan ar ivlendi  Eri im tarihi     Aral k            
+
+  Gorichanaz  Tim     Kas m         ChatGPT turns    AI chatbot s success says as much about humans as technology   The Conversation   ngilizce      Aral k      tarihinde kayna  ndan ar ivlendi  Eri im tarihi     Aral k            
+
+  DiFeliciantonio        
+
+  Goswami        
+
+   Nearly   in   new startups is an AI company   PitchBook     Aral k       Eri im tarihi    Ocak            Ar ivlenmesi gereken ba lant ya sahip kaynak  ablonu i eren maddeler  link  
+
+   ChatGPT  Sohbet i in Fazla G  l  Bir Dil Modeli   www basit ai    Nisan      tarihinde kayna  ndan ar ivlendi  Eri im tarihi    Nisan            
+
+  Roberts        
+
+  Zek  patlamas  ve teknolojik tekillik  Russell  amp  Norvig        ss                   Omohundro         Kurzweil       
+
+I  J  Good un  zek  patlamas    Good       
+
+Vernor Vinge in  tekilli i   Vinge       
+
+  Russell  amp  Norvig         s            
+
+  Transh manizm  Moravec         Kurzweil         Russell  amp  Norvig        s            
+
+  AI as evolution  Edward Fredkin is quoted in McCorduck        s             Butler         Dyson       
+
+  Choi  Jeff  Patil  Advait  Vendrow  Edward  Touponse  Gavin  Aboukhater  Layla  Forrester  Joseph D   Spain  David A      ubat         Practical Computer Vision Application to Compute Total Body Surface Area Burn  Reappraising a Fundamental Burn Injury Formula in the Modern Era   JAMA Surgery                    doi         jamasurg            ISSN                      
+
+  Lube  Vinicius  Noyan  Mehmet Alican  Przybysz  Alexander  Salama  Khaled  Blilou  Ikram     Mart         MultipleXLab  A high throughput portable live imaging root phenotyping platform using deep learning and computer vision   Plant Methods   ngilizce               doi         s                   ISSN                 PMC                        PMID                     
+
+  Gautam  S   Kumar  A           Nagar  Atulya K   Jat  Dharm Singh  Mar n Ravent s  Gabriela  Mishra  Durgesh Kumar  Ed     Automatic Traffic Light Detection for Self Driving Cars Using Transfer Learning   Intelligent Sustainable Systems   ngilizce   Singapore  Springer           doi                               ISBN                         ISSN                   Nisan      tarihinde kayna  ndan ar ivlendi  Eri im tarihi    Nisan            
+
+  Tulbure  Andrei Alexandru  Tulbure  Adrian Alexandru  Dulf  Eva Henrietta    Ocak         A review on modern defect detection models using DCNNs   Deep convolutional neural networks   Journal of Advanced Research   ngilizce              doi         j jare              ISSN                   Nisan      tarihinde kayna  ndan ar ivlendi  Eri im tarihi    Nisan            
+
+   A robot wrote this entire article  Are you scared yet  human      Eyl l         Eyl l      tarihinde kayna  ndan ar ivlendi  Eri im tarihi    Aral k            
+
+   T rk bas n tarihinde bir ilk  Yapay zek  taraf ndan yaz lan ilk haber     Aral k         Aral k      tarihinde kayna  ndan ar ivlendi  Eri im tarihi     Haziran            
+
+
+gtdYapay zek   retken yapay zek  Yapay sinir a lar          Tarih  zaman  izelgesi Kavramlar
+ retken yapay zek 
+Parametre
+Hiperparametre
+Kay p fonksiyonlar 
+Regresyon
+ nyarg  varyans de i  toku u
+ ift ini 
+A  r    renme
+K meleme
+Gradyan ini 
+SGD
+Yar  Newton y ntemi
+E lenik gradyan y ntemi
+Geri yay l m
+Dikkat
+Konvol syon
+Normalizasyon
+Toplu norm
+Aktivasyon
+Softmax
+Sigmoid
+Do rultucu
+Ge it
+A  rl k ba latma
+D zenleme
+Veri k meleri
+Artt rma
+Sufle m hendisli i
+Peki tirmeli   renme
+SARSA
+Taklit
+Politika gradyan 
+Yay lma
+Gizli yay l m model
+Otoregresyon
+Rakip
+RAG
+Tekinsiz vadi
+RLHF
+Kendi kendine denetlenen   renme
+Yinelemeli kendini geli tirme
+Kelime yerle tirme
+Hal sinasyon
+Uygulamalar
+Makine   renimi
+Ba lam i i   renme
+Yapay sinir a  
+Derin   renme
+Dil modeli
+Geni  dil modeli
+NMT
+Yapay genel zek 
+UygulamalarText
+Word vec
+Seq seq
+GloVe
+BERT
+T 
+Llama
+Chinchilla AI
+PaLM
+GPT
+ 
+ 
+ 
+J
+ChatGPT
+ 
+ o
+   
+o 
+o 
+Claude
+Gemini
+chatbot
+Grok
+LaMDA
+BLOOM
+Project Debater
+IBM Watson
+IBM Watsonx
+Granite
+PanGu  
+DeepSeek
+Qwen
+Karar verici
+AlphaGo
+AlphaZero
+OpenAI Five
+Otonom araba
+MuZero
+Eylem se imi
+AutoGPT
+Robot kontrol 
+ nsanlar
+Alan Turing
+Warren Sturgis McCulloch
+Walter Pitts
+John von Neumann
+Claude Shannon
+Marvin Minsky
+John McCarthy
+Nathaniel Rochester
+Allen Newell
+Cliff Shaw
+Herbert A  Simon
+Oliver Selfridge
+Frank Rosenblatt
+Bernard Widrow
+Joseph Weizenbaum
+Seymour Makalesi
+Seppo Linnainmaa
+Paul Werbos
+J rgen Schmidhuber
+Yann LeCun
+Geoffrey Hinton
+John Hopfield
+Yoshua Bengio
+Lotfi A  Zadeh
+Stephen Grossberg
+Alex Graves
+Andrew Ng
+Fei Fei Li
+Alex Krizhevsky
+Ilya Sutskever
+Demis Hassabis
+David Silver
+Ian Goodfellow
+Andrej Karpathy
+Mimarl klar
+N ral Turing makinesi
+Ayr labilir sinir bilgisayar 
+Transformat r
+G r nt  d n  t r c s   ViT 
+Tekrarlayan sinir a    RNN 
+Uzun k sa s reli bellek  LSTM 
+Kap l  tekrarlayan birim  GRU 
+Yank  durumu a  
+ ok katmanl  alg lay c   MLP 
+Konvol syonlu sinir a    CNN 
+Kal nt  sinir a    RNN 
+Otoyol a  
+Mamba
+Oto kodlay c 
+De i ken oto kodlay c   VAE 
+ retici d  manca a   GAN 
+Grafik sinir a    GNN 
+ irketler
+Projeler
+
+gtdZihin felsefesiTeoriler
+Davran    l k  Radikal davran    l k 
+Biolojik do all k
+Bili sel psikoloji
+  lemsel zihin teorisi
+Zihin beden d alizmi
+Belirimcilik
+Psikanaliz
+Fenomenizm
+Fenomenoloji
+Fizikalizm
+kimlik teorisi
+Temsili
+Solipsizm
+Kavramlar
+Soyut nesne
+Yapay zek 
+ ince odas 
+Bili sellik
+Bili sel kapan  
+Kavram
+Kavram ve nesne
+Bilin 
+Bilincin zor problemi
+Hipostatik soyutlama
+Kimlik
+Yarat c l k
+Zek 
+Y nelimsellik
+  g zlem
+Sezgi
+D   nce dili
+Materyalizm
+Zihinsel imge
+Zihin
+Ac 
+Tabula rasa
+Kavrama
+Ayr ca bak n z
+Metafizik
+Yapay zeka felsefesi        bilgi        Alg         benlik
+
+Kategori
+
+gtdBilim felsefesiKavramlar
+Analiz
+Analitik sentetik ayr m 
+A priori  amp  a posteriori
+Nedensellik
+Uygunluk
+Uyum
+Yap 
+Yarat c  sentez
+S n r problemi
+Ampirik kan t
+A  klay c  g  
+Olgu
+Yanl  lanabilirlik
+Feminist y ntem
+Fonksiyonel ba lamc l k
+Ignoramus et ignorabimus
+T mevar m
+Kuramlar aras  indirgeme
+Sorgulama
+Do a
+Nesnellik
+G zlem
+Paradigma
+T mevar m problemi
+Bilimsel yasa
+Bilimsel y ntem
+Bilimsel devrim
+Bilimsel kuram
+S nanabilirlik
+Kuram se imi
+Kuram y kl l k
+D   k belirlenme
+Bilimin Birli i
+Bilim metateorisi
+Tutarl c l k
+Onaylama b t nc l   
+ n ac  deneycilik
+Yap sal ger ek ilik
+Yap land rmac  epistemoloji
+Ba lamc l k
+Uzla  mc l k
+T mdengelimci yasabilimsel model
+Hipotezci t mdengelim modeli
+T mevar mc l k
+Epistemolojik karga ac l k
+Evrimcilik
+Yanl  lanabilirlik
+Temelcilik
+Ara salc l k
+Pragmatizm
+Model ba  ml  ger ek ilik
+Do alc l k
+Fizikalizm
+Pozitivizm        Red ksiyonizm        Determinizm
+Ak lc l k        Deneycilik
+Genel g r n m        Kuramlar n anlamsal g r n m 
+Bilimsel ger ek ilik        Anti ger ek ilik
+Bilimsel  zc l k
+Bilimsel  ekilcilik
+Bilimsel ku kuculuk
+Bilimcilik
+Yap salc l k
+ niformitaryanizm
+Vitalizm
+Felsefi konular
+Fizik
+Termal ve istatistiksel
+Hareket
+Kimya
+Biyoloji
+Co rafya
+Sosyal bilimler
+Teknoloji
+M hendislik
+Yapay zeka
+Bilgisayar bilimleri
+Enformasyon
+Matematik
+Zihin
+Psikiyatri
+Psikoloji
+Alg 
+Uzay ve zaman
+ lgili konular
+Simya
+Bilimin ele tirisi
+Tan mlay c  bilim
+Epistemoloji
+ nan  ve ak lc l k
+Sert ve yumu ak bilim
+Bilim tarihi ve felsefesi
+Bilim tarihi
+Evrim d   ncesinin tarihi
+Mant k
+Metafizik
+Normatif bilim
+S zdebilim
+Din ve bilim aras ndaki ili ki
+Bilim retori i
+Bilim  al  malar 
+Bilimsel bilgi sosyolojisi
+Bilimsel cehalet sosyolojisi
+ a lar na g reBilim filozoflar Antik
+Platon
+Aristoteles
+Stoac l k
+Epik rc l k
+Orta  a 
+ bn R  d
+ bn i Sina
+Roger Bacon
+Ockhaml  William
+Saint Victorlu Hugh
+Dominicus Gundissalinus
+Robert Kilwardby
+Erken modern
+Francis Bacon
+Thomas Hobbes
+Ren  Descartes
+Galileo Galilei
+Pierre Gassendi
+Isaac Newton
+David Hume
+Ge  modern
+Immanuel Kant
+Friedrich Schelling
+William Whewell
+Auguste Comte
+John Stuart Mill
+Herbert Spencer
+Wilhelm Wundt
+Charles Sanders Peirce
+Wilhelm Windelband
+Henri Poincar 
+Pierre Duhem
+Rudolf Steiner
+Karl Pearson
+ a da 
+Alfred North Whitehead
+Bertrand Russell
+Albert Einstein
+Otto Neurath
+C  D  Broad
+Michael Polanyi
+Hans Reichenbach
+Rudolf Carnap
+Karl Popper
+Carl Gustav Hempel
+W  V  O  Quine
+Thomas Kuhn
+Imre Lakatos
+Paul Feyerabend
+J rgen Habermas
+Ian Hacking
+Bas van Fraassen
+Larry Laudan
+Daniel Dennett
+
+Kategori
+
+gtdEvrimsel hesaplamaAna Konular
+Yak nsama  evrimsel hesaplama 
+Evrimsel algoritma
+Evrimsel veri madencili i
+Evrimsel  ok modlu optimizasyon
+ nsan temelli evrimsel hesaplama
+Etkile imli evrimsel hesaplama
+Algoritmalar
+H cresel evrimsel algoritma
+Kovarians Matrisi Uyarlama Evrim Stratejisi  CMA ES 
+K lt rel algoritma
+Farkl  evrim
+Evrimsel programlama
+Genetik algoritma
+Genetik programlama
+Gen ifadesi programlama
+Evrim stratejisi
+Do al evrim stratejisi
+N roevrim
+  renme s n fland r c  sistemi
+ lgili teknikler
+S r  zekas 
+Kar nca kolonisi optimizasyon algoritmas 
+Ar  algoritmas 
+Guguk ku u aramas 
+Par ac k s r s  optimizasyonu
+Bakteri Kolonisi Optimizasyonu
+Metasezgisel y ntemler
+Ate b ce i algoritmas 
+Armoni aramas 
+Gauss uyarlamas 
+Memetik algoritma
+ lgili konular
+Yapay geli tirme
+Yapay zek 
+Yapay ya am
+Dijital organizma
+Evrimsel robotik
+Uygunluk fonksiyonu
+Spor ortam 
+Uygunluk yakla  m 
+Genetik i le 
+Etkile imli evrimsel hesaplama
+Arama ve optimizasyonda  cretsiz   le yeme i yok
+Makine   renme
+ iftle me havuzu
+Program sentezi
+Dergi
+Evrimsel Hesaplama  dergi 
+
+gtdSibernetik ile ilgili alt alanlar ve sibernetik ilerAlt alanlar
+Yapay zek 
+Biyolojik sibernetik
+Biyomedikal sibernetik
+Biyorobotik
+Biyosemiyotik
+N rosibernetik
+Katastrof teorisi
+Hesaplamal  n robilim
+Ba lant sall k
+Kontrol teorisi
+Sovyetler Birli i nde sibernetik
+Karar teorisi
+Belirme
+M hendislik sibernetik
+Homeostaz
+Bilgi teorisi
+Y netim sibernetik
+Medikal sibernetik
+ kinci derece sibernetik
+G stergebilim
+Sosyosibernetik
+Polycontexturality
+Sinerjetik
+Sibernetik iler
+Alexander Lerner
+Alexey Lyapunov
+Alfred Radcliffe Brown
+Allenna Leonard
+Anthony Wilden
+Buckminster Fuller
+Charles Fran ois
+Genevieve Bell
+Margaret Boden
+Claude Bernard
+Cliff Joslyn
+Erich von Holst
+Ernst von Glasersfeld
+Francis Heylighen
+Francisco Varela
+Frederic Vester
+Charles Geoffrey Vickers
+Gordon Pask
+Gordon S  Brown
+Gregory Bateson
+Heinz von Foerster
+Humberto Maturana
+I  A  Richards
+Igor Aleksander
+Jacque Fresco
+Jakob von Uexk ll
+Jason Jixuan Hu
+Jay Wright Forrester
+Jennifer Wilby
+John N  Warfield
+Kevin Warwick
+Ludwig von Bertalanffy
+Meleyke Abbaszade
+Manfred Clynes
+Margaret Mead
+Marian Mazur
+N  Katherine Hayles
+Natalia Bekhtereva
+Niklas Luhmann
+Norbert Wiener
+Pyotr Grigorenko
+Qian Xuesen
+Ranulph Glanville
+Robert Trappl
+Sergei P  Kurdyumov
+Anthony Stafford Beer
+Stuart Kauffman
+Stuart Umpleby
+Talcott Parsons
+Ulla Mitzdorf
+Valentin Turchin
+Valentin Braitenberg
+William Ross Ashby
+Walter Bradford Cannon
+Walter Pitts
+Warren McCulloch
+William Grey Walter
+
+T revlenebilir bilgi i lemGenel
+Farkl la t r labilir programlama
+Bilgi geometrisi
+ statistiksel manifold
+Otomatik farkl la ma
+N romorfik m hendislik
+Desen tan ma
+Tensor hesab 
+Hesaplamal    renme teorisi
+End ktif  nyarg 
+Kavramlar
+Dereceli al alma
+SGD
+K meleme
+Regresyon
+A  r  uyum g sterme
+Hal sinasyon
+D  man
+Dikkat
+Evri im
+Kay p fonksiyonlar 
+Geri yay l m
+Normalle tirme  BatchNorm 
+Aktivasyon
+Softmax
+Sigmoid
+Do rultucu
+D zenlile tirme
+Veri k meleri
+B y tme
+Dif zyon
+Otoregresyon
+Uygulamalar
+Makine   renimi
+Ba lam i i   renme
+Yapay sinir a  
+Derin   renme
+Bilimsel hesaplama
+Yapay zek 
+Dil modeli
+Geni  dil modeli
+Donan m
+IPU
+TPU
+VPU
+Memrist r
+SpinNaker
+Yaz l m kitapl klar 
+TensorFlow
+PyTorch
+Keras
+Theano
+JAX
+LangChain
+UygulamalarG rsel i itsel
+AlexNet
+WaveNet
+ nsan g r nt  sentezi
+HWR
+OCR
+Konu ma sentezi
+Konu ma tan ma
+Y z tan ma
+AlphaFold
+DALL E
+Midjourney
+Stable Diffusion
+S zl 
+Word vec
+Seq seq
+BERT
+LaMDA
+Bard
+NMT
+Project Debater
+IBM Watson
+GPT  
+GPT  
+ChatGPT
+GPT  
+GPT J
+Chinchilla AI
+PaLM
+BLOOM
+LLaMA
+Karar
+AlphaGo
+AlphaZero
+Q   renme
+SARSA
+OpenAI Five
+Kendi kendine giden araba
+M Zero
+Eylem se imi
+Oto GPT
+Robot kontrol 
+Ki iler
+Yoshua Bengio
+Alex Graves
+Ian Goodfellow
+Stephen Grossberg
+Demis Hassabis
+Geoffrey Hinton
+Yann LeCun
+Fei Fei Li
+Andrew Ng
+J rgen Schmidhuber
+David Silver
+Organizasyonlar
+Antropik
+EleutherAI
+Google DeepMind
+OpenAI
+Meta AI
+Mila
+MIT CSAIL
+Mimariler
+N ral Turing makinesi
+Farkl la t r labilir n ral bilgisayar
+Transformer
+Tekrarlayan sinir a    RNN 
+Uzun k sa s reli bellek  LSTM 
+Gitli yinelemeli birim  GRU 
+Eko durum a  
+ ok katmanl  alg lay c   MLP 
+Evri imli sinir a  
+Art k a 
+Otokodlay c 
+Varyasyonel otokodlay c   VAE 
+ at  mal   retici a   GAN 
+Grafik sinir a  
+
+ Portallar
+ Kategoriler
+Yapay sinir a lar 
+Makine   renimi
+
+gtdBilgisayar biliminin alt dallar Matematiksel temellerMatematiksel mant k             K meler kuram              Say  teorisi              izge teorisi             Tip teorisi             Kategori teorisi             Say sal   z mleme             Bilgi teorisi             Kombinatorik             Boole cebiriHesaplama teorisiOtomat teorisi             Hesaplanabilirlik teorisi             Hesaplamal  karma  kl k teorisi             Kuantum hesaplama teorisiAlgoritmalar ve veri yap lar Algoritma   z mlemesi             Algoritma tasar m              Hesaplamal  geometriProgramlama dilleri ve derleyicilerAyr  t r c lar             Yorumlay c lar             Yordamsal programlama             Nesne y nelimli programlama             Fonksiyonel programlama             Mant k programlama             Programlama paradigmalar E zamanl   paralel ve da  t k sistemler oklu i leme             Da  t ml  hesaplama             E zamanl l k denetimiYaz l m m hendisli iGereksinim   z mleme             Yaz l m tasar m              Bilgisayar programlama             Bi imsel y ntemler             Yaz l m testi             Yaz l m geli tirme s reciSistem mimarisiBilgisayar mimarisi             Bilgisayar organizasyonu               letim sistemiTelekom nikasyon ve a  olu turmaBilgisayar m zi i             Y nlendirme              rg  topolojisi             KriptografiVeritabanlar Veritaban  y netim sistemleri              li kisel veritaban              SQL               lem y r tme             Veritaban  indeksleme             Veri madencili i             Metadata   st veri              Ana veri  Master data Yapay zek Otomatikle tirilmi  muhakeme             Bilgisayarl  dilbilim             Bilgisayarl  g r              Evrimsel hesaplama             Uzman sistemler             Makine   renimi             Do al dil i leme             RobotikBilgisayar grafikleriG rselle tirme             Bilgisayar animasyonu             G r nt  i leme nsan bilgisayar etkile imiBilgisayar eri ilebilirli i             Kullan c  aray zleri             Giyilebilir hesaplama             Yayg n bili im             Sanal ger eklikBilimsel hesaplamaYapay ya am             Biyoenformatik             Bili sel bilim             Bilgisayarl  kimya             Hesaplamal  n robilim             Hesaplamal  fizik             Say sal algoritmalar             Sembolik matematikBilgisayar bilimi  ACM Hesaplama ve S n fland rma Sistemi ne g re farkl  konu ve alanlara ayr labilir 
+gtdGeli en teknolojilerTar m
+Tar m robotu
+H cresel tar m
+Kapal  ekolojik sistemler
+Yapay et
+Geneti i de i tirilmi  g da
+Hassas tar m
+Dikey tar m
+Biyomedikal
+Ampakin
+Yapay organlar
+Yapay rahim
+Organ bas m 
+Biyofabrikasyon
+   boyutlu biyoyaz c 
+Mikro yer ekimi biyobask 
+Beyin nakli
+S nme
+Genetik m hendisli i
+Gen tedavisi
+Kafa nakli
+ zole beyin
+Hayat n uzat lmas 
+Tasarlanm   ihmal edilebilir ya lanma stratejileri
+Nanot p
+Nanosens rler
+Organ k lt r 
+Ki iselle tirilmi  ila 
+Rejeneratif t p
+K k h cre tedavisi
+Doku m hendisli i
+Robot yard ml  cerrahi
+Sentetik biyoloji
+Sentetik genomik
+Viroterapi
+Onkolitik vir s
+Tricorder
+T m genom dizilimi
+Mimari
+ D beton bask 
+Arkoloji
+Bina bask s 
+Kontur i  ili i
+Kubbeli  ehir
+G r nt lerYeni nesil
+FED
+FLCD
+iMoD
+Lazer
+LPD
+OLED
+OLET
+QD LED
+SED
+TPD
+TDEL
+TMOS
+MikroLED
+Ekrans z
+Biyonik kontakt lens
+Ba a tak l  ekran
+Ba   st  g stergesi
+Optik ba a tak lan ekran
+Sanal retina ekran 
+Di er
+Otostereoskopi
+Esnek ekran
+Holografik g r nt 
+Bilgisayar taraf ndan olu turulan holografi
+ oklu renkli ekran
+Ultra HD
+Hacimsel g sterim
+Elektronik
+Elektronik burun
+E tekstil
+Esnek elektronik
+Molek ler elektronik
+Nanoelektromekanik sistemler
+Memrist r
+Spintronik
+Termal bak r s tun   k nt s 
+Twistronics
+Enerji retim
+U an r zg r t rbini
+Yapay fotosentez
+Biyoyak tlar
+Karbon n tr yak t
+Yek odakl  g ne  enerjisi santralleri
+F zyon enerjisi
+Ev tipi yak t h cresi
+Hidrojen ekonomisi
+Metanol ekonomisi
+Erimi  tuz reakt r 
+Nanten
+Fotovoltaik kaplama
+Uzay tabanl  g ne  enerjisi
+Vorteks motoru
+Depolama
+ evre yolu pili
+Bas n l  hava enerji depolamas 
+Volan enerji depolamas 
+ ebeke enerji depolamas 
+Lityum hava pili
+Erimi  tuz pili
+Nanotel pil
+Lityum iyon pillerde ara t rma
+Silikon hava pili
+Termal enerji depolama
+Ultra kapasit r
+Di er
+Ak ll   zgara
+Kablosuz g  
+Alternatif yak tl  ara 
+Hibrit elektrikli ara 
+Pilli elektrikli ara 
+Bilgi veileti im
+Ortam zekas 
+Nesnelerin interneti
+Yapay zek 
+Yapay zeka uygulamalar 
+Yapay zekada ilerleme
+Makine  evirisi
+Mobil  eviri
+Makine vizyonu
+Anlamsal a 
+Ses konu ma tan mlay c  yaz l mlar
+Atomtronik
+Karbon nanot p alan etkili transist r
+Siber metodoloji
+D rd nc  nesil optik diskler
+ D optik veri depolama
+Holografik veri depolama
+GPGPU
+Haf za
+CBRAM
+FRAM
+K rkayak
+MRAM
+NRAM
+PRAM
+Yar   Pisti haf zas 
+RRAM
+SONOS
+ECRAM
+UltraRAM
+Optik bilgi i lem
+RFID
+ ipsiz RFID
+Yaz l m tan ml  radyo
+   boyutlu entegre devre
+ retim
+ D mikro fabrikasyon
+   boyutlu bask 
+ D yay nlama
+Claytronics
+Molek ler montajc 
+Yard mc  sis
+Malzeme bilimi
+Aerojel
+Amorf metal
+Yapay kas
+ letken polimer
+Femtoteknoloji
+Fulleren
+Grafen
+Y ksek s cakl k s periletkenli i
+Y ksek s cakl kta s per ak  kanl k
+Do rusal asetilenik karbon
+Metamalzemeler
+Metamalzeme gizleme
+Metal k p k
+ ok i levli yap lar
+Nanoteknoloji
+Karbon nanot pler
+Molek ler nanoteknoloji
+Nanomalzemeler
+Pikoteknoloji
+Programlanabilir madde
+Kuantum noktalar 
+Silisin
+Sentetik elmas
+Askeri
+Antimadde silah 
+Kasas z m himmat
+Y nlendirilmi  enerji silah 
+Lazer
+Mazer
+Partik l    nl  silah
+Sonik silah
+Elektromanyetik top
+Gauss silah 
+Plazma silah 
+Saf f zyon silah 
+Stealth teknolojisi
+Vorteks halkas  tabancas 
+N robilim
+Elektronik beyin
+Beyin bilgisayar aray z 
+Elektroensefalografi
+Zihin y kleme
+Beyin okuma
+N roinformatik
+N roprostetikler
+Biyonik g z
+Beyin implant 
+Exocortex
+Retina implant 
+N roteknoloji
+Kuantum
+algoritmalar
+y kseltici
+otob s
+h cresel otomat
+kanal 
+devre
+karma  kl k teorisi
+bilgi i lem
+saat
+kriptografi
+kuantum sonras 
+dinamik
+elektronik
+hata d zeltme
+sonlu otomat
+g r nt  i leme
+g r nt leme
+bilgisi
+anahtar da  t m 
+mant k
+mant k kap lar 
+makine
+makine   renimi
+metamalzeme
+a 
+sinir a  
+optik
+programlama
+alg lama
+sim lat r
+   nlanmas 
+Robotik
+Domotik
+Nanorobot bilimi
+Mekanik d   iskelet
+Kendi kendini yeniden yap land ran mod ler robot
+S r  robotlar 
+M rettebats z ara 
+Uzay bilimiF rlatma
+F zyon roketi
+Roket d    uzay f rlatma
+Toplu s r c 
+Y r nge halkas 
+Skyhook
+Uzay asans r 
+Uzay  e mesi
+Uzay ba lant s 
+Yeniden kullan labilir f rlatma sistemi
+ tki
+I  nla  al  an tahrik
+ yon motoru
+Lazer tahriki
+Plazma tahrik motoru
+Helicon itici
+VASIMR
+N kleer darbe tahriki
+Uzay yelkenlileri
+Di er
+Y ld zlar aras  yolculuk
+ tici gaz deposu
+Uzayda lazer ileti imi
+Ula  mHava
+Uyarlanabilir uyumlu kanat
+S rt  antas  helikopteri
+Teslimat dronu
+U an araba
+Y ksek irtifa platformu
+S rt roketi
+Darbe patlatma motoru
+Scramjet
+Uzay u a  
+S personik ula  m
+Kara
+Havas z lastik
+Alternatif yak tl  ara 
+Hidromobil
+S r c s z araba
+Manyetik rayl  tren
+Hyperloop   Bas n s z tren
+Maglev treni
+Ki isel h zl  ge i 
+Tak m
+Transit Y kseltilmi  Otob s
+Ara  ileti im sistemleri
+Boru hatt 
+Pn matik ta  ma
+Otomatik vakum toplama
+Di erleri
+Anti k tle ekimi
+Akustik levitasyon
+G r nmezlik pelerini
+Dijital koku teknolojisi
+G   alan 
+Plazma penceresi
+S r kleyici sanal ger eklik
+Manyetik so utma
+Faz dizili optikler
+Termoakustik  s  motoru
+Ilgili
+Collingridge ikilemi
+Farkl  teknolojik geli me
+Y k c  yenilik
+Ge ici hal
+Etik
+Biyoetik
+Siberetik
+N roetik
+Robot eti i
+Ke if m hendisli i
+Kurgusal teknoloji
+Proaktif ilke
+Teknolojik de i im
+Teknolojik i sizlik
+Teknolojik yak nsama
+Teknolojik evrim
+Teknolojik paradigma
+Teknoloji tahmini
+De i imi h zland rmak
+Gelece e y nelik teknoloji analizi
+Ufuk tarama
+Moore yasas 
+Teknolojik tekillik
+Teknoloji ke if
+Teknoloji haz rl k d zeyi
+Teknoloji yol haritas 
+Transh manizm
+
+gtdRobotikAna makaleler
+Anahat
+S zl k
+Dizin
+Tarih esi
+Co rafya
+  hret Listesi
+Etik
+Yasalar
+Yar  malar
+AI yar  malar 
+T rleri
+Antropomorfik
+ nsans 
+Android
+Siborg
+Claytronics
+Yolda 
+Animatronic
+Audio animatronik
+End striyel
+Eklemli
+kol
+Ev
+E itici
+E lence
+Hokkabazl k
+Askeri
+T bbi
+Hizmet
+Engelli
+Tar msal
+Yemek servisi
+Perakende
+BEAM robotik
+Yumu ak robotik
+T rleri
+Biyorobotik
+ nsans z ara 
+hava
+kara
+Gezgin robot
+Mikrobotik
+Nanorobotik
+Robotik uzay arac 
+Uzay sondas 
+S r 
+Sualt 
+uzaktan kumandal 
+Robot hareketi
+Palet
+Y r yen
+Alt  ayakl  robot
+BEAM robotik
+Elektrikli tekteker
+Robot navigasyonu
+Di erleri
+Evrimsel
+Kitler
+Sim lat r
+S it
+A  k kaynakl 
+Yaz l m
+Uyarlanabilir
+Geli imsel
+Paradigmalar
+Yayg n
+Di erleri
+Mekanik d   iskelet
+Teknolojik i sizlik
+Yerle ebilirlik
+Kurgusal robotlar
+
+gtdYapay zek n n varolu sal riskiKavramlar
+AGI
+Yapay zek  hizalamas 
+Yapay zek  yetenek kontrol 
+Yapay zek  g venli i
+Yapay zek n n kontrol  devralmas 
+Sonu  uluk
+Etkili ivmecilik
+Yapay zek  eti i
+Yapay genel zek dan kaynaklanan varolu sal risk
+Dost yapay zek 
+Enstr mantal yak nsama
+ stihbarat patlamas 
+Uzun vadelicilik
+Makine eti i
+Risklere maruz kalmak
+S per Zek 
+Teknolojik tekillik
+Kurulu lar
+Hizalama Ara t rma Merkezi
+Yapay Zek  G venli i Merkezi
+Uygulamal  Rasyonalite Merkezi
+ nsan Uyumlu Yapay Zek  Merkezi
+Varolu sal Risk Ara t rma Merkezi
+EleutherAI
+ nsanl   n Gelece i Enstit s 
+Ya am n Gelece i Enstit s 
+Google DeepMind
+Humanity 
+Etik ve Geli en Teknolojiler Enstit s 
+Leverhulme Zek n n Gelece i Merkezi
+Makine Zek s  Ara t rma Enstit s 
+OpenAI
+
+gtdBilim ve m hendislik s zl kleri
+Havac l k m hendisli i
+Tar m
+Arkeoloji
+Mimarl k
+Yapay zeka
+Astronomi
+Biyoloji
+Botanik
+Hesap s zl   
+Kimya
+Sivil m hendisli i
+Klinik ara t rma
+Bilgisayar donan m 
+Bilgisayar bilimi
+Ekoloji
+Ekonomi
+Elektrik ve elektronik m hendisli i
+M hendislik
+A L
+M Z
+Entomoloji
+ evre bilimi
+Evrimsel biyoloji
+Genetik
+Co rafya
+Arap a yer adlar  s zl   
+Bat  ve G ney Asya
+Jeoloji
+ ktiyoloji
+Makine g r   
+Matematik
+Makine m hendisli i
+T p
+Meteoroloji
+Nanoteknoloji
+Ornitoloji
+Fizik
+Olas l k ve istatistik
+Psikiyatri
+Robotik
+Bilimsel adland rma
+Yap  m hendisli i
+Viroloji
+
+gtdTeknolojiUygulamal  Bilim Kaz bilim         Yapay zek          Berim         Elektronik         Enerji         Enerji depolama         Kriyojenik         M hendislik jeofizi i        M hendislik jeolojisi          evre teknolojisi         Bal k  l k         Malzeme bilimi         Mikroteknoloji         Mimarl k          Nanoteknoloji         N kleer teknoloji         Optik         Par ac k fizi i         Zooloji Bilgi Bili im ve ileti im teknolojileri         Grafik tasar m         Bilgi teknolojisi         M zik teknolojisi         Ses tan ma         G rsel teknolojiler         Sistematik         Bili im End stri Yap          Bal k  l k         End striyel teknoloji          retim         Makine sanayi          Madencilik        Ara t rma ve geli tirmeAskeriye M himmat         Bomba         Muharebe m hendisli i         Asker  teknoloji          stihk mEv Beyaz e ya         E itim teknolojisi         Evi i teknolojileri          G da teknolojisi Sa l k   G venlik Biyomedikal         Biyomekatronik         Biyokimya         Biyoenformatik         Biyoteknoloji         Kemoinformatik         Yang n  nleme m hendisli i         Eczabilim         Medikal teknoloji         Beslenme         Eczac l k         G venlik m hendisli i         Hijyen m hendisli i Ula  mHavac l k        Motorlu ta  t        Otonom ara lar        Uzay teknolojisi  lgili maddelerM hendislik   ablon          Teknoloji eti i 
+Otorite kontrol  
+BNE  XX       
+BNF  cb        t  data 
+GND           
+LCCN  sh        
+LNB           
+NDL          
+NKC  ph      
+NLI                    
+
+
+
+
+
+
+ https   tr wikipedia org w index php title Yapay zek  amp oldid           sayfas ndan al nm  t r

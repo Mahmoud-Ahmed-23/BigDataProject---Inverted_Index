@@ -1,0 +1,1667 @@
+Chatbot developed by Google
+Not to be confused with Gemini  language model  
+
+
+
+
+GeminiScreenshot
+  Developer s Google AIInitial releaseMarch                          years ago                  Stable release s             Model              March                  days ago                             iOS                         April                 days ago                             Android     Build                      April                  days ago                                        
+Operating system
+Web app
+Android
+iOS
+PredecessorGoogle AssistantAvailable in   languages               countries and regions           Type
+Chatbot
+Virtual assistant
+LicenseProprietary           Websitegemini google com 
+Gemini  formerly known as Bard  is a generative artificial intelligence chatbot developed by Google  Based on the large language model  LLM  of the same name  it was launched in      in response to the rise of OpenAI s ChatGPT  It was previously based on the LaMDA and PaLM LLMs 
+LaMDA had been developed and announced in       but it was not released to the public out of an abundance of caution  OpenAI s launch of ChatGPT in November      and its subsequent popularity caught Google executives off guard  prompting a sweeping response in the ensuing months  After mobilizing its workforce  the company launched Bard in a limited capacity in March      before expanding to other countries in May  Bard took center stage during the      Google I O keynote in May and was upgraded to the Gemini LLM in December  In February       Bard and Duet AI  another artificial intelligence product from Google  were unified under the Gemini brand  coinciding with the launch of an Android app 
+Gemini initially received lukewarm responses  It became the center of controversy in February       when social media users reported that it was generating historically inaccurate images of historical figures as people of color  with people commenting on its bias as  wokeness  
+
+
+Background edit 
+Further information  LaMDA        History
+Google co founders Sergey Brin  L  and Larry Page  R  were summoned out of retirement to discuss Google s response to OpenAI s ChatGPT 
+In November       OpenAI launched ChatGPT  a chatbot based on the GPT   family of large language models  LLMs                         ChatGPT gained worldwide attention  becoming a viral Internet sensation             Alarmed by ChatGPT s potential threat to Google Search  Google executives issued a  code red  alert  reassigning several teams to assist in the company s artificial intelligence  AI  efforts              Sundar Pichai  the CEO of Google and parent company Alphabet  was widely reported to have issued the alert  but Pichai later denied this to The New York Times              In a rare move  Google co founders Larry Page and Sergey Brin  who had stepped down from their roles as co CEOs of Alphabet in       attended emergency meetings with company executives to discuss Google s response to ChatGPT              Brin requested access to Google s code in February       for the first time in years             
+Google had unveiled LaMDA  a prototype LLM  earlier in                               but it was not released to the public              When asked by employees at an all hands meeting whether LaMDA was a missed opportunity for Google to compete with ChatGPT  Pichai and Google AI chief Jeff Dean said that while the company had similar capabilities to ChatGPT  moving too quickly in that arena would represent a major  reputational risk  due to Google being substantially larger than OpenAI                          In January       Google Brain sister company DeepMind CEO Demis Hassabis hinted at plans for a ChatGPT rival              and Google employees were instructed to accelerate progress on a ChatGPT competitor  intensively testing  Apprentice Bard  and other chatbots                          Pichai assured investors during Google s quarterly earnings investor call in February that the company had plans to expand LaMDA s availability and applications             
+
+History edit 
+Announcement edit 
+On February          Google announced Bard  a generative artificial intelligence chatbot powered by LaMDA                                      Bard was first rolled out to a select group of         trusted testers               before a wide release scheduled at the end of the month                                      The project was overseen by product lead Jack Krawczyk  who described the product as a  collaborative AI service  rather than a search engine                          while Pichai detailed how Bard would be integrated into Google Search                                      Reuters calculated that adding ChatGPT like features to Google Search could cost the company         billion in additional expenses by       while research and consulting firm SemiAnalysis calculated that it would cost Google         billion              The technology was developed under the codename  Atlas               with the name  Bard  in reference to the Celtic term for a storyteller and chosen to  reflect the creative nature of the algorithm underneath                          
+Multiple media outlets and financial analysts described Google as  rushing  Bard s announcement to preempt rival Microsoft s planned February   event unveiling its partnership with OpenAI to integrate ChatGPT into its Bing search engine in the form of Bing Chat  later rebranded as Microsoft Copilot                           as well as to avoid playing  catch up  to Microsoft                                      Microsoft CEO Satya Nadella told The Verge   I want people to know that we made them dance               Tom Warren of The Verge and Davey Alba of Bloomberg News noted that this marked the beginning of another clash between the two Big Tech companies over  the future of search   after their six year  truce  expired in                               Chris Stokel Walker of The Guardian  Sara Morrison of Recode  and analyst Dan Ives of investment firm Wedbush Securities labeled this an AI arms race between the two                                     
+After an  underwhelming  February   livestream in Paris showcasing Bard  Google s stock fell eight      percent  equivalent to a           billion loss in market value  and the YouTube video of the livestream was made private                                      Many viewers also pointed out an error during the demo in which Bard gives inaccurate information about the James Webb Space Telescope in response to a query                          Google employees criticized Pichai s  rushed  and  botched  announcement of Bard on Memgen  the company s internal forum              while Maggie Harrison of Futurism called the rollout  chaos   Pichai defended his actions by saying that Google had been  deeply working on AI for a long time   rejecting the notion that Bard s launch was a knee jerk reaction              Alphabet chairman John Hennessy acknowledged that Bard was not fully product ready  but expressed excitement at the technology s potential             
+A week after the Paris livestream  Pichai asked employees to dedicate two to four hours to dogfood testing Bard              while Google executive Prabhakar Raghavan encouraged employees to correct any errors Bard makes              with        employees responding to Pichai s call to action              In the following weeks  Google employees roundly criticized Bard in internal messages  citing a variety of safety and ethical concerns and calling on company leaders not to launch the service  Prioritizing keeping up with competitors  Google executives decided to proceed with the launch anyway  overruling a negative risk assessment report conducted by its AI ethics team              After Pichai suddenly laid off        employees later that month due to slowing revenue growth  remaining workers shared memes and snippets of their humorous exchanges with Bard soliciting its  opinion  on the layoffs              Google employees began testing a more sophisticated version of Bard with larger parameters  dubbed  Big Bard   in mid March             
+
+Launch edit 
+
+      The logo for Bard
+Google opened up early access for Bard on March           in a limited capacity  allowing users in the U S  and UK to join a waitlist  Unlike Microsoft s approach with Bing Chat  Bard was launched as a standalone web application featuring a text box and a disclaimer that the chatbot  may display inaccurate or offensive information that doesn t represent Google s views   Three responses are then provided to each question  with users prompted to submit feedback on the usefulness of each answer  Google vice presidents Sissie Hsiao and Eli Collins framed Bard as a complement to Google Search and stated that the company had not determined how to make the service profitable                                      Among those granted early access were those enrolled in Google s  Pixel Superfans  loyalty program              users of its Pixel and Nest devices  and Google One subscribers             
+Bard is trained by third party contractors hired by Google  including Appen and Accenture workers  whom Business Insider and Bloomberg News reported were placed under extreme pressure  overworked  and underpaid                          Bard is also trained on data from publicly available sources  which Google disclosed by amending its privacy policy              Shortly after Bard s initial launch  Google reorganized the team behind Google Assistant  the company s virtual assistant  to focus on Bard instead              Google researcher Jacob Devlin resigned from the company after claiming that Bard had surreptitiously leveraged data from ChatGPT              Google denied the allegations              Meanwhile  a senior software engineer at the company published an internal memo warning that Google was falling behind in the AI  arms race   not to OpenAI but to independent researchers in open source communities              Pichai revealed on March    that the company intended to  upgrade  Bard by basing it on PaLM  a newer and more powerful LLM from Google  rather than LaMDA              The same day  Krawczyk announced that Google had added  math and logic capabilities  to Bard              Bard gained the ability to assist in coding in April  being compatible with more than    programming languages at launch                          Microsoft also began running advertisements in the address bar of a developer build of the Edge browser  urging users to try Bing whenever they visit the Bard web app               to Google reported that Google was working to integrate Bard into its ChromeOS operating system and Pixel devices                         
+
+Updates edit 
+Bard took center stage during the annual Google I O keynote in May                   with Pichai and Hsiao announcing a series of updates to Bard  including the adoption of PaLM    integration with other Google products and third party services  expansion to     countries  support for additional languages  and new features              In stark contrast to previous years  the Google Assistant was barely mentioned during the event              The expanded rollout did not include any nations in the European Union  EU   possibly reflecting concerns about compliance with the General Data Protection Regulation              Those with Google Workspace accounts also gained access to the service              Google attempted to launch Bard in the EU in June but was blocked by the Irish Data Protection Commission  who requested a  data protection impact assessment  from the company              Bard was launched in the region and Brazil the next month  adding support for dozens of new languages and introducing personalization and productivity features                          An invite only chatroom   server   on Discord was created in July  consisting of users who heavily used Bard  Over the next few months  the chatroom was flooded with comments questioning the usefulness of Bard             
+Reflecting on Bard s launch in an interview with Wired in September  Pichai acknowledged that Google had been  cautious  to release LaMDA because of  the responsibility that comes with getting it right   commending OpenAI for ChatGPT s launch and firing back at Nadella s comment about  mak ing  Google dance               Google released a major update to the chatbot later that month  integrating it into many of its products through  extensions   adding a button to fact check AI generated responses through Google Search  and allowing users to share conversation threads              Google also introduced the  Google Extended  web crawler as part of its search engine s robots txt indexing file to allow web publishers to opt out of allowing Bard to scan them for training              Online users later discovered that Google Search was indexing Bard conversation threads on which users had enabled sharing  Google stated that this was an error and quickly moved to rectify the leaks             
+In October  during the company s annual Made by Google event in which it announced the Pixel   series and the Pixel Watch    Hsiao unveiled  Assistant with Bard   an upgraded version of the Google Assistant which was deeply integrated with Bard  following in the footsteps of Amazon s approach with Alexa              When the U S  Copyright Office solicited public comment on potential new regulation on generative AI technologies  Google joined with OpenAI and Microsoft in arguing that the responsibility for generating copyrighted material lay with the user  not the developer              Accenture contractors voted to join the Alphabet Workers Union in November  in protest of suboptimal working conditions              while the company filed a lawsuit in the U S  District Court for the Northern District of California against a group of unidentified scammers who had been advertising malware disguised as a downloadable version of Bard                         
+
+Relaunch edit 
+Further information  Gemini  language model         History
+Screenshot of Gemini on an Android device
+On December          Google announced Gemini  a multimodal and more powerful LLM touted as the company s  largest and most capable AI model                           A specially tuned version of the mid tier Gemini Pro was integrated into Bard  while the larger Gemini Ultra was set to power  Bard Advanced  in                               The Wall Street Journal reported that Bard was then averaging around          million monthly visitors              Google ended its contract with Appen in January                   while Bard gained the long awaited ability to generate images the next month  powered by Google Brain s Imagen   text to image model             
+On February          Bard and Duet AI were unified under the Gemini brand  with a mobile app launched on Android and the service integrated into the Google app on iOS  On Android  users who downloaded the app saw Gemini replace Assistant as their device s default virtual assistant  though Assistant remained a standalone service                          Google also launched  Gemini Advanced with Ultra       available via a  Google One AI Premium  subscription               incorporated Gemini into its Messages app on Android                            and announced a partnership with Stack Overflow                           
+Gemini again took center stage at the      Google I O keynote                            with traditionally emphasized topics such as Android    and the Pixel  a relegated to separate events the next day and prior week  respectively                                         Google announced Gemini integrations into a variety of products  including Android  Chrome  Photos  and Workspace               The Washington Post described the presentation as a  tsunami of new AI features                Gemini Advanced was upgraded to the  Gemini     Pro  language model  with Google previewing Gemini Live  a voice chat mode  and Gems  the ability to create custom chatbots                                         Beginning with the Pixel   series  Gemini replaced the Google Assistant as the default virtual assistant on Pixel devices               while Gemini Live debuted on the phones                            In February       Google introduced a feature for Gemini Advanced subscribers that can recall past chats and provide more tailored assistance based on previous interactions              
+
+Name edit 
+The name  Bard  was chosen to reflect the creative and storytelling nature of the underlying algorithm                Bard  is a term with Celtic origins  referring to a professional storyteller  poet  and singer composer who would often recite epics and histories  This name was fitting for an AI designed to generate human like text and engage in conversations 
+Google s AI chatbot was initially launched as Bard in March                    The name was intended to be more approachable and less technical than some of Google s internal project names  However  in February       Bard was unified with another Google AI product  Duet AI  under a new brand name  Gemini               This rebranding aimed to signify a more comprehensive and integrated AI offering from Google  moving beyond a single chat interface to incorporate AI capabilities across various products and services  While the name Bard has been retired  it represents an important phase in the development of Google s conversational AI technology 
+The name  Gemini  has historical roots in the Latin word for  twins   This connection extends to the prominent Gemini constellation  representing the mythological twins Castor and Pollux  known for their strong bond               The zodiac sign Gemini also carries associations with adaptability and communication  Furthermore  NASA s Project Gemini  a pivotal program involving two person spacecraft  served as another layer of inspiration for the name 
+The selection of  Gemini  signifies the powerful collaboration of two major research teams  Brain and DeepMind  working in unison  much like twins  It also reflects the intended versatility in processing various forms of information and the ambitious technological leap it represents  echoing the innovation of NASA s Gemini missions  Before being named Gemini  it was known as Bard  a name that evoked the tradition of storytelling  poetry  and language 
+
+Reception edit 
+Critical response edit 
+Gemini received mixed reviews upon its initial release               James Vincent of The Verge found it faster than ChatGPT and Bing Chat  but noted that the lack of Bing esque footnotes was  both a blessing and a curse               encouraging Google to be bolder when experimenting with AI               His colleague David Pierce was unimpressed by its uninteresting and sometimes inaccurate responses               adding that despite Google s insistence that Gemini was not a search engine  its user interface resembled that of one  which could cause problems for Google               Cade Metz of The New York Times described Gemini as  more cautious  than ChatGPT               while Shirin Ghaffary of Vox called it  dry and uncontroversial  due to the reserved nature of its responses              
+The Washington Post columnist Geoffrey A  Fowler found Gemini a mixed bag  noting that it acted cautiously but could show Internet influenced bias               Writing for ZDNET  Sabrina Ortiz believed ChatGPT and Bing Chat were  more capable overall  in comparison to Gemini               while Wired journalist Lauren Goode found her conversation with Gemini  the most bizarre  of the three               After the introduction of extensions  The New York Times      Kevin Roose found the update underwhelming and  a bit of a mess                while Business Insider     s Lakshmi Varanasi found that Gemini often leaned more into flattery than facts              
+In a    Minutes conversation with Hsiao  Google senior vice president James Manyika  and Pichai  CBS News correspondent Scott Pelley found Gemini  unsettling                Associate professor Ethan Mollick of the Wharton School of the University of Pennsylvania was underwhelmed by its artistic ineptitude               The New York Times conducted a test with ChatGPT and Gemini regarding their ability to handle tasks expected of human assistants  and concluded that ChatGPT s performance was vastly superior to that of Gemini               NewsGuard  a tool that rates the credibility of news articles  found that Gemini was more skilled at debunking known conspiracy theories than ChatGPT               A report published by the Associated Press cautioned that Gemini and other chatbots were prone to generate  false and misleading information that threaten ed  to disenfranchise voters               
+
+Image generation controversy edit 
+Gemini s response when asked to  generate a picture of a U S  senator from the     s  in February       as shown by The Verge             
+In February       social media users reported that Gemini was generating images that featured people of color and women in historically inaccurate contexts such as Vikings  Nazi soldiers  and the Founding Fathers and refusing prompts to generate images of white people  These images were derided on social media  including by conservatives and libertarians who cited them as evidence of Google s  wokeness                                          The business magnate Elon Musk  whose company xAI operates the chatbot Grok  was among those who criticized Google  denouncing its suite of products as biased and racist                                         Musk and other users targeted Krawczyk  resurfacing his past comments discussing race                            leading Krawczyk to withdraw from X and LinkedIn               The conservative leaning tabloid New York Post ran a cover story on the incident in the print edition of its newspaper                           
+In response  Krawczyk said that Google was  working to improve these kinds of depictions immediately   and Google paused Gemini s ability to generate images of people                                         Raghavan released a lengthy statement addressing the controversy  explaining that Gemini had  overcompensate d   amid its efforts to strive for diversity and acknowledging that the images were  embarrassing and wrong                                          In an internal memo to employees  Pichai called the debacle offensive and unacceptable  promising structural and technical changes                                         Several employees in Google s trust and safety team were laid off days later                            Hassabis stated that Gemini s ability to generate images of people would be restored within two weeks                                         it was ultimately relaunched in late August  powered by its new Imagen   model                           
+The market reacted negatively  with Google s stock falling by          percent               Pichai faced growing calls to resign  including from technology analysts Ben Thompson and Om Malik                                         House Republicans led by Jim Jordan subpoenaed Google  accusing the company of colluding with the Biden administration to censor speech                            In light of the fiasco and Google s overall response to OpenAI  Business Insider     s Hugh Langley and Lara O Reilly declared that Google was fast going  from vanguard to dinosaur                Bloomberg columnist Parmy Olson suggested that Google s  rushed  rollout of Gemini was the cause of its woes  not  wokeness                Martin Peers  writing for The Information  opined that Google needed a leader like Mark Zuckerberg to defuse the situation               Hugging Face scientist Sasha Luccioni and Surrey University professor Alan Woodward believed that the incident had  deeply embedded  roots in Gemini s training corpus and algorithms  making it difficult to rectify               Jeremy Kahn of Fortune called for researchers focused on safety and responsibility to work together to develop better guardrails               New York magazine contributor John Herrman wrote   It s a spectacular unforced error  a slapstick rake in the face moment  and a testament to how panicked Google must be by the rise of OpenAI and the threat of AI to its search business               
+
+Advertisements edit 
+During the      Summer Olympics in July  Google aired a commercial for Gemini entitled  Dear Sydney  depicting a father asking the chatbot to generate a fan letter to the star athlete Sydney McLaughlin Levrone for his young daughter  Similar to Apple s  Crush   commercial for the seventh generation iPad Pro  the advertisement drew heavy backlash online  with criticism for replacing authentic human expression and creativity with a computer                                         The Washington Post columnist Alexandra Petri lambasted the commercial as  missing the point                As a result  Google withdrew the commercial from NBC s rotation                           
+Google aired two commercials during Super Bowl LIX in February       both promoting Gemini  The first  entitled     States     Stories   consisted of a national spot and    regional spots showcasing how small businesses in each U S  state leverage Gemini in Google Workspace                            Social media users noticed a factual error in Wisconsin s spot regarding gouda cheese  prompting Google to edit out the incorrect statistic                                         while The Verge claimed that Google had  faked  some of Gemini s output in the same commercial by plagiarizing text on the web                                         Garett Sloane of Ad Age commented that these blunders illustrated the risks of advertising AI technology               The other commercial was entitled  Dream Job  and featured a father using Gemini on his Pixel   to prepare for a job interview  Google also ran a third commercial entitled  Party Blitz  online  in which a man  attempts to impress his girlfriend s family by using Gemini  on his Pixel    to become a football expert                                         
+
+Other incidents edit 
+In the aftermath of the image generation controversy  some users began accusing Gemini s text responses of being biased toward the left  In one such example that circulated online  Gemini said that it was  difficult to say definitively  whether Musk or the Nazi dictator Adolf Hitler had more negatively affected society                            Others users reported that Gemini tended to promote left wing politicians and causes such as affirmative action and abortion rights while refusing to promote right wing figures  meat consumption  and fossil fuels                                         The Wall Street Journal     s editorial board wrote that Gemini s  apparently ingrained woke biases  were  fueling a backlash toward AI on the political right  which is joining the left in calling for more regulation               
+Indian Ministry of Electronics and Information Technology junior minister Rajeev Chandrasekhar alleged that Google had violated the country s Information Technology Rules by refusing to summarize an article by the right wing news website OpIndia               and for saying that some experts described Prime Minister Narendra Modi s policies as fascist               In France  Google was fined      million by the competition regulator Autorit  de la concurrence under the Directive on Copyright in the Digital Single Market  in part due to its cited failure to inform local news publishers of when their content was used for Gemini s training               The U S  State media broadcaster Voice of America accused Gemini of  parroting  Chinese propaganda              
+In November       CBS News reported that Gemini had responded to a college student in Michigan asking for help with homework in a threatening manner  Google blamed the incident on hallucination and took  action to prevent similar outputs from occurring               
+
+References edit 
+
+
+   Gemini      Our most intelligent AI model   Google Gemini  Retrieved May         
+
+   Google Gemini   App Store  Retrieved May         
+
+   Google Gemini   Google Play  Retrieved May         
+
+   Google Gemini                 APKMirror  April           Retrieved May         
+
+  a b  Where you can use the Gemini web app   Google Inc  Archived from the original on February           Retrieved February          
+
+  David  Emilia  July             The AI wars might have an armistice deal sooner than expected   The Verge  Archived from the original on July           Retrieved July          
+
+  Konrad  Alex  Cai  Kenrick  February            Inside ChatGPT s Breakout Moment And The Race To Put AI To Work   Forbes  Archived from the original on February          Retrieved February         
+
+  Vincent  James  December            AI generated answers temporarily banned on coding Q amp A site Stack Overflow   The Verge  Archived from the original on January           Retrieved December         
+
+  Olson  Parmy  December            Google Faces a Serious Threat From ChatGPT   The Washington Post  ISSN                 Archived from the original on February          Retrieved February         
+
+  Grant  Nico  Metz  Cade  December             A New Chat Bot Is a  Code Red  for Google s Search Business   The New York Times  ISSN                 Archived from the original on December           Retrieved December          
+
+  Newton  Casey  May             How Google is making up for lost time   The Verge  Archived from the original on May           Retrieved June          
+
+  Grant  Nico  January             Google Calls In Help From Larry Page and Sergey Brin for A I  Fight   The New York Times  ISSN                 Archived from the original on January           Retrieved February         
+
+  Nieva  Richard  Konrad  Alex  February            Back At Google Again  Cofounder Sergey Brin Just Filed His First Code Request In Years   Forbes  Archived from the original on February          Retrieved December          
+
+  Condon  Stephanie  May             Google I O       Google unveils new conversational language model  LaMDA   ZDNET  Archived from the original on May           Retrieved June          
+
+  Roth  Emma  March            Meet the companies trying to keep up with ChatGPT   The Verge  Archived from the original on March          Retrieved March         
+
+  Kleinman  Zoe  February            ChatGPT firm trials     monthly subscription fee   BBC News  Archived from the original on February          Retrieved April          
+
+  Elias  Jennifer  December             Google execs warn company s reputation could suffer if it moves too fast on AI chat technology   CNBC  Archived from the original on December           Retrieved February         
+
+  Vincent  James  December             Google won t launch ChatGPT rival because of  reputational risk    The Verge  Archived from the original on December           Retrieved February         
+
+  Cuthbertson  Anthony  January             DeepMind s AI chatbot can do things that ChatGPT cannot  CEO claims   The Independent  Archived from the original on January           Retrieved February         
+
+  Elias  Jennifer  January             Google is asking employees to test potential ChatGPT competitors  including a chatbot called  Apprentice Bard    CNBC  Archived from the original on February          Retrieved February         
+
+  O Brien  Matt  February            Google has the next move as Microsoft embraces OpenAI buzz   Associated Press  Archived from the original on February          Retrieved February         
+
+  Mailk  Aisha  February            Google tries to reassure investors on AI progress as ChatGPT breathes down its neck   TechCrunch  Archived from the original on February          Retrieved February         
+
+  a b c Alba  Davey  Love  Julia  February            Google releases ChatGPT rival AI  Bard  to early testers   Los Angeles Times  ISSN                 Archived from the original on February          Retrieved February         
+
+  a b c Schechner  Sam  Kruppa  Miles  February            Google Opens ChatGPT Rival Bard for Testing  as AI War Heats Up   The Wall Street Journal  ISSN                 Archived from the original on February          Retrieved February         
+
+  a b c Nieva  Richard  February            Google Debuts A ChatGPT Rival Called Bard In Limited Release   Forbes  Archived from the original on February          Retrieved February         
+
+  a b Elias  Jennifer  March             Google CEO tells employees that        of them helped test Bard A I   warns  things will go wrong    CNBC  Archived from the original on March           Retrieved March          
+
+  Mollman  Steve  March            Google s head of ChatGPT rival Bard reassures employees it s  a collaborative A I  service  and  not search    Fortune  Archived from the original on March          Retrieved March         
+
+  Elias  Jennifer  March            Google execs tell employees in testy all hands meeting that Bard A I  isn t just about search   CNBC  Archived from the original on March          Retrieved March          
+
+  Dastin  Jeffrey  Nellis  Stephen  February             For tech giants  AI like Bing and Bard poses billion dollar search problem   Reuters  Archived from the original on February           Retrieved March         
+
+  Liedtke  Michael  February            Google hopes  Bard  will outsmart ChatGPT  Microsoft in AI   Associated Press  Archived from the original on February          Retrieved February         
+
+  Metz  Cade  Grant  Nico  February            Racing to Catch Up With ChatGPT  Google Plans Release of Its Own Chatbot   The New York Times  ISSN                 Archived from the original on February          Retrieved February          
+
+  Knight  Will  February            The Chatbot Search Wars Have Begun   Wired  Archived from the original on February          Retrieved February          
+
+  a b Warren  Tom  February            Microsoft and Google are about to Open an AI battle   The Verge  Archived from the original on February          Retrieved February         
+
+   Google Strikes Back In AI Battle With Microsoft   Barron s  February          Archived from the original on February          Retrieved February         
+
+  a b Morrison  Sara  February            Google is scrambling to catch up to Bing  of all things   Recode  Vox  Archived from the original on February          Retrieved February         
+
+  Peers  Martin  February            What Google s AI Catch Up Reveals   The Information  Archived from the original on February          Retrieved February         
+
+  De Vynck  Gerrit  Tiku  Nitasha  March             Google s catch up game on AI continues with Bard launch   The Washington Post  ISSN                 Archived from the original on March           Retrieved October          
+
+  Patel  Nilay  February            Microsoft thinks AI can beat Google at search   CEO Satya Nadella explains why   The Verge  Archived from the original on February          Retrieved September          
+
+  Alba  Davey  February            ChatGPT Reignites the Search Wars Between Google and Microsoft   Bloomberg News  Archived from the original on February          Retrieved February         
+
+  Stokel Walker  Chris  February             TechScape  Google and Microsoft are in an AI arms race   who wins could change how we use the internet   The Guardian  ISSN                 Archived from the original on February           Retrieved March         
+
+  Morrison  Sara  March            The exciting new AI transforming search   and maybe everything   explained   Recode  Vox  Archived from the original on March          Retrieved March         
+
+  De Vynck  Gerrit  February            Investors pummel Google after Microsoft ramps up AI wars   The Washington Post  ISSN                 Archived from the original on February          Retrieved February          
+
+  Alba  Davey  Patnaik  Subrat  February            Google suffers     b wipeout after Bard AI chatbot gives wrong answer   The Sydney Morning Herald  Archived from the original on February          Retrieved February         
+
+  Miao  Hannah  February            Alphabet Stock Drops    After Google Rollout of AI Search Features   The Wall Street Journal  ISSN                 Archived from the original on February          Retrieved February         
+
+  Coulter  Martin  February            Google shares dive    after AI chatbot Bard flubs answer in ad   Reuters  Archived from the original on February          Retrieved February         
+
+  Kan  Michael  February            No  That s Wrong  Google s Bard AI Demo Spouts Incorrect Info   PCMag  Archived from the original on February          Retrieved February         
+
+  Elias  Jennifer  February             Google employees criticize CEO Sundar Pichai for  rushed  botched  announcement of GPT competitor Bard   CNBC  Archived from the original on February           Retrieved February          
+
+  Harrison  Maggie  March            Chaos Inside Google as Execs Try to Figure Out How to Actually Use AI   Futurism  Archived from the original on March          Retrieved March         
+
+  Elias  Jennifer  February             Alphabet Chairman John Hennessy explains why Google was hesitant to put out its ChatGPT competitor   CNBC  Archived from the original on February           Retrieved March          
+
+  Maxwell  Thomas  Langley  Hugh  February             Leaked memo shows Google CEO Sundar Pichai is asking staffers for help testing its Bard AI chatbot   Business Insider  Archived from the original on February           Retrieved February          
+
+  Elias  Jennifer  February             Google asks employees to rewrite Bard s bad responses  says the A I   learns best by example    CNBC  Archived from the original on February           Retrieved February          
+
+  Alba  Davey  Love  Julia  April             Google s Rush to Win in AI Led to Ethical Lapses  Employees Say   Bloomberg News  Archived from the original on April           Retrieved April          
+
+  Maxwell  Thomas  Langley  Hugh  February             Leaked messages show Googlers are taking out their frustrations over layoffs on its new Bard AI chatbot   Business Insider  Archived from the original on February           Retrieved March         
+
+  Langley  Hugh  March             Google employees are already internally testing a smarter version of its chatbot called  Big Bard    Business Insider  Archived from the original on March           Retrieved April          
+
+  Grant  Nico  March             Google Releases Bard  Its Competitor in the Race to Create A I  Chatbots   The New York Times  ISSN                 Archived from the original on March           Retrieved March          
+
+  Liedtke  Michael  March             Google s artificially intelligent  Bard  set for next stage   The Washington Post  ISSN                 Archived from the original on March           Retrieved March          
+
+  a b Vincent  James  March             Google opens early access to its ChatGPT rival Bard   here are our first impressions   The Verge  Archived from the original on March           Retrieved March          
+
+  Schroeder  Stan  March             Google is giving early access to its AI assistant to Pixel Superfans   Mashable  Archived from the original on March           Retrieved March          
+
+  Li  Abner  March             Google tapping the Pixel and Nest brands to invite people to Bard    to Google  Archived from the original on March           Retrieved June          
+
+  Maxwell  Thomas  April            Google contractors say they don t have enough time to verify correct answers from the company s AI chatbot and end up guessing   Business Insider  Archived from the original on April          Retrieved July          
+
+  Alba  Davey  July             Google s AI Chatbot Is Trained by Humans Who Say They re Overworked  Underpaid and Frustrated   Bloomberg News  Archived from the original on July           Retrieved July          
+
+  Germain  Thomas  July            Google Says It ll Scrape Everything You Post Online for AI   Gizmodo  Archived from the original on July          Retrieved July          
+
+  Elias  Jennifer  March             Google reshuffles virtual assistant unit with focus on Bard A I  technology   CNBC  Archived from the original on March           Retrieved April         
+
+  Victor  Jon  Efrati  Amir  March             Alphabet s Google and DeepMind Pause Grudges  Join Forces to Chase OpenAI   The Information  Archived from the original on March           Retrieved April         
+
+  Hollister  Sean  March             Google denies Bard was trained with ChatGPT data   The Verge  Archived from the original on March           Retrieved April         
+
+  Love  Julia  Alba  Davey  Metz  Rachel  May            Google Is Falling Behind in AI Arms Race  Senior Engineer Warns   Bloomberg News  Archived from the original on May          Retrieved August          
+
+  Vincent  James  March             Google CEO Sundar Pichai promises Bard AI chatbot upgrades soon   We clearly have more capable models    The Verge  Archived from the original on March           Retrieved April         
+
+  Amadeo  Ron  March             Google Bard gets better at homework with improved math and logic capabilities   Ars Technica  Archived from the original on March           Retrieved April         
+
+   Google Bard can now help write software code   Reuters  April           Archived from the original on April           Retrieved April          
+
+  Korosec  Kirsten  April             Google s Bard AI chatbot can now generate and debug code   TechCrunch  Archived from the original on April           Retrieved April          
+
+  Marcelline  Marco  April             Microsoft Edge Now Displays Bing Ad on Google Bard Site   PCMag  Archived from the original on April           Retrieved May         
+
+  Bradshaw  Kyle  February             Google working to bring Bard AI chat to ChromeOS    to Google  Archived from the original on February           Retrieved February          
+
+  Bradshaw  Kyle  May            Google working to bring Bard AI to Pixel phones as a homescreen widget    to Google  Archived from the original on May          Retrieved May         
+
+  a b Johnson  Khari  May             The Curious Case of the Missing Google Assistant   Wired  Archived from the original on May           Retrieved September          
+
+  Vincent  James  May             Google drops waitlist for AI chatbot Bard and announces oodles of new features   The Verge  Archived from the original on May           Retrieved May          
+
+  Harding  Scharon  May             Google Bard hits over     countries and territories none are in the EU   Ars Technica  Archived from the original on May           Retrieved May          
+
+  Pandey  Rajesh  May            Google Bard comes to Workspace account holders   Android Police  Archived from the original on May          Retrieved June          
+
+  Goujard  Clothilde  June             Google forced to postpone Bard chatbot s EU launch over privacy concerns   Politico  Archived from the original on June           Retrieved June          
+
+  McCallum  Shiona  July             Bard  Google s ChatGPT rival launches in Europe and Brazil   BBC News  Archived from the original on July           Retrieved July          
+
+  Schechner  Sam  July             Google s Bard AI Chatbot Adds More Languages to Take On ChatGPT   The Wall Street Journal  ISSN                 Archived from the original on July           Retrieved July          
+
+  Alba  Davey  October             Even Google Insiders Are Questioning Bard AI Chatbot s Usefulness   Bloomberg News  Archived from the original on October           Retrieved October          
+
+  Levy  Steven  September             Sundar Pichai on Google s AI  Microsoft s AI  OpenAI  and     Did We Mention AI    Wired  Archived from the original on September           Retrieved September          
+
+  Duffy  Clare  September             Google rolls out a major expansion of its Bard AI chatbot   CNN Business  Archived from the original on September           Retrieved October         
+
+  Low  Cherlynn  September             Google will let publishers hide their content from its insatiable AI   Engadget  Archived from the original on September           Retrieved October         
+
+  Stokel Walker  Chris  September             Google was accidentally leaking its Bard AI chats into public search results   Fast Company  Archived from the original on September           Retrieved October         
+
+  De Vynck  Gerrit  October            Google to add Bard AI to voice assistant  following Amazon   The Washington Post  ISSN                 Archived from the original on October          Retrieved October         
+
+  Hays  Kali  November            Google  OpenAI  and Microsoft are blaming users when generative AI models show copyrighted material   Business Insider  Archived from the original on November          Retrieved November         
+
+  Roth  Emma  November            Google contractors objected to reading obscene Bard prompts   now they re unionizing   The Verge  Archived from the original on November          Retrieved November         
+
+  Brittain  Blake  November             Google sues scammers over fake Bard AI malware   Reuters  Archived from the original on November           Retrieved November          
+
+  Birnbaum  Emily  November             Google Sues Scammers Over Fake Bard AI Chatbot That Downloads Malware   Time  Archived from the original on November           Retrieved November          
+
+  Fung  Brian  Thorbecke  Catherine  December            Google launches Gemini  its most advanced AI model yet  as it races to compete with ChatGPT   CNN Business  Archived from the original on December          Retrieved December         
+
+  Elias  Jennifer  December            Google launches its largest and  most capable  AI model  Gemini   CNBC  Archived from the original on December          Retrieved December         
+
+  Edwards  Benj  December            Google launches Gemini a powerful AI model it says can surpass GPT     Ars Technica  Archived from the original on December          Retrieved December         
+
+  Liedtike  Michael  O Brien  Matt  December            Google launches Gemini  upping the stakes in the global AI race   Associated Press  Archived from the original on December          Retrieved December         
+
+  Kruppa  Miles  December            Google Announces AI System Gemini After Turmoil at Rival OpenAI   The Wall Street Journal  ISSN                 Archived from the original on December          Retrieved December         
+
+  Field  Hayden  January             Alphabet cuts ties with Australian AI firm that helped train Bard and Google Search   CNBC  Archived from the original on January           Retrieved February         
+
+  David  Emilia  February            Bard generates photos now  finally   The Verge  Archived from the original on February          Retrieved February         
+
+  Metz  Cade  February            Google Releases Gemini  an A I  Driven Chatbot and Voice Assistant   The New York Times  ISSN                 Archived from the original on February          Retrieved February         
+
+  Dastin  Jeffrey  February            Google rebrands Bard chatbot as Gemini  rolls out paid subscription   Reuters  Archived from the original on February          Retrieved February         
+
+  Li  Abner  February            Google One AI Premium is        mo with Gemini Advanced  amp  Gemini for Workspace    to Google  Archived from the original on February          Retrieved February         
+
+  Ion  Florence  February             Now You Can Message Google Gemini From Any Android Phone   Gizmodo  Archived from the original on February           Retrieved February          
+
+  Johnson  Allison  February             Gemini is about to slide into your DMs   The Verge  Archived from the original on February           Retrieved February          
+
+  Diaz  Maria  March            Google Cloud adds Stack Overflow s knowledge base to Gemini AI   ZDNET  Archived from the original on March          Retrieved March         
+
+  Dave  Paresh  February             Google s Deal With Stack Overflow Is the Latest Proof That AI Giants Will Pay for Data   Wired  Archived from the original on February           Retrieved March         
+
+  a b Roth  Emma  Davis  Wes  May             Google I O       everything announced   The Verge  Archived from the original on May           Retrieved May          
+
+  Barr  Kyle  May             Everything Announced at Google I O So Far  Gemini Takes Its Throne on Android and Everywhere Else   Gizmodo  Archived from the original on May           Retrieved May          
+
+  Peckham  James  May             Android    Beta   will land tomorrow  not included in the Google I O keynote   Android Police  Archived from the original on May           Retrieved May          
+
+  Li  Abner  May             Android    Beta   is coming on Wednesday    to Google  Archived from the original on May           Retrieved May          
+
+  Ashworth  Boone  May             Everything Google Announced at I O        Wired  Archived from the original on May           Retrieved May          
+
+  De Vynck  Gerrit  Abril  Danielle  May             Google pitches its vision for AI everywhere  from search to your phone   The Washington Post  ISSN                 Archived from the original on May           Retrieved May          
+
+  Li  Abner  May             Gemini Advanced now uses     Pro as Google details more Extensions  custom  Gems     to Google  Archived from the original on May           Retrieved May          
+
+  Davis  Wes  May             Google s Gemini AI is getting a chatty new voice mode   The Verge  Archived from the original on May           Retrieved May          
+
+  Shakir  Umar  May             Google will let you create personalized AI chatbots   The Verge  Archived from the original on May           Retrieved May          
+
+  Newman  Jared  August             Gemini is replacing Google Assistant on Pixel phones  and it s a train wreck   Fast Company  Archived from the original on August           Retrieved August          
+
+  Davis  Wes  August             Google Gemini s voice chat mode is here   The Verge  Archived from the original on August           Retrieved September         
+
+  Stern  Joanna  September            Google s Gemini Live AI Sounds So Human  I Almost Forgot It Was a Bot   The Wall Street Journal  ISSN                 Archived from the original on August           Retrieved September         
+
+   Gemini Advanced can now recall and use your past chats    to google com  February           Retrieved February          
+
+   What does Google Bard stand for  How did it get its name    Android Authority  January           Retrieved April          
+
+   Google launches new  Bard  AI chatbot   YouTube  March          Retrieved April          
+
+  Wilkinson  Lindsey  February            Google rebrands Bard  Duet AI as Gemini   CIO Dive  Retrieved April          
+
+   https   horrorscopes app tag astrology feed   Retrieved April             cite web    Missing or empty       title   help 
+
+  Goodkind  Nicole  April             Google and Microsoft fight over the future of AI   CNN Business  Archived from the original on April           Retrieved April          
+
+  Vincent  James  May             Google needs to stop throwing good money after Bard   The Verge  Archived from the original on May           Retrieved June          
+
+  Pierce  David  March             Google s Bard chatbot doesn t love me   but it s still pretty weird   The Verge  Archived from the original on March           Retrieved March          
+
+  Pierce  David  March             Google says its Bard chatbot isn t a search engine   so what is it    The Verge  Archived from the original on March           Retrieved March          
+
+  Metz  Cade  March             What Google Bard Can Do  and What It Can t    The New York Times  ISSN                 Archived from the original on March           Retrieved March          
+
+  Ghaffary  Shirin  March             Google s new AI chatbot seems boring  Maybe that s the point   Vox  Archived from the original on March           Retrieved March          
+
+  Fowler  Geoffrey A   March             Say what  Bard  What Google s new AI gets right  wrong and weird   The Washington Post  ISSN                 Archived from the original on March           Retrieved October          
+
+  Ortiz  Sabrina  March             I tested Google Bard  It was surprising    in a bad way   ZDNET  Archived from the original on March           Retrieved October         
+
+  Goode  Lauren  March             Review  We Put ChatGPT  Bing Chat  and Bard to the Test   Wired  Archived from the original on March           Retrieved October         
+
+  Roose  Kevin  September             Google s Bard Just Got More Powerful  It s Still Erratic   The New York Times  ISSN                 Archived from the original on September           Retrieved October         
+
+  Varanasi  Lakshmi  September             I tried Google s new Bard Extensions feature which integrates with apps like Gmail  The AI assistant isn t perfect  but it has one clear strength   Business Insider  Archived from the original on September           Retrieved October          
+
+  Pelley  Scott  April             Is artificial intelligence advancing too quickly  What AI leaders at Google say   CBC News  Archived from the original on April           Retrieved April          
+
+  Chowdhury  Hasan  March             Google Bard is already behind in the AI wars with OpenAI and Microsoft   Business Insider  Archived from the original on March           Retrieved March          
+
+  Chen  Brian X   March             How ChatGPT and Bard Performed as My Executive Assistants   The New York Times  ISSN                 Archived from the original on March           Retrieved April          
+
+  Alba  Davey  April            Google s Bard Writes Convincingly About Known Conspiracy Theories   Bloomberg News  Archived from the original on April          Retrieved June          
+
+  Burke  Garance  February             Chatbots  Inaccurate  Misleading Responses About U S  Elections Threaten To Keep Voters From Polls   Associated Press  Archived from the original on March          Retrieved March         
+
+  a b Robertson  Adi  February             Google apologizes for  missing the mark  after Gemini generated racially diverse Nazis   The Verge  Archived from the original on February           Retrieved February          
+
+  Franzen  Carl  February             Google Gemini s  wokeness  sparks debate over AI censorship   VentureBeat  Archived from the original on February           Retrieved February          
+
+  Titcomb  James  February             Google chatbot ridiculed for ethnically diverse images of Vikings and knights   The Daily Telegraph  ISSN                 Archived from the original on February           Retrieved February          
+
+  Tan  Kwan Wei Kevin  February             Elon Musk is accusing Google of running  insane racist  anti civilizational programming  with its AI   Business Insider  Archived from the original on February           Retrieved February          
+
+  a b Hart  Robert  February             Elon Musk Targets Google Search After Claiming Company AI Is  Insane  And  Racist    Forbes  Archived from the original on February           Retrieved February          
+
+  a b Nolan  Beatrice  February             Elon Musk is going to war with Google   Business Insider  Archived from the original on February           Retrieved February          
+
+  Elias  Jennifer  March            Google Gemini product lead retreats from social media after troubled AI product launch led to harassment   CNBC  Archived from the original on March          Retrieved March         
+
+  De Vynck  Gerrit  Tiku  Nitasha  February             Google takes down Gemini AI image generator  Here s what you need to know   The Washington Post  ISSN                 Archived from the original on February           Retrieved February          
+
+  Sharma  Shubham  February             Google suspends Gemini s ability to generate people after numerous  woke  inaccuracies   VentureBeat  Archived from the original on February           Retrieved February          
+
+  Kharpal  Arjun  February             Google pauses Gemini AI image generator after it created inaccurate historical pictures   CNBC  Archived from the original on February           Retrieved February          
+
+  Milmo  Dan  February             Google pauses AI generated images of people after ethnicity criticism   The Guardian  ISSN                 Archived from the original on February           Retrieved February          
+
+  Duffy  Catherine  Thorbecke  Clare  February             Google halts AI tool s ability to produce images of people after backlash   CNN Business  Archived from the original on February           Retrieved February          
+
+  Roth  Emma  February             Google explains Gemini s  embarrassing  AI pictures of diverse Nazis   The Verge  Archived from the original on February           Retrieved February          
+
+  Moon  Mariella  February             Google explains why Gemini s image generation feature overcorrected for diversity   Engadget  Archived from the original on February           Retrieved February          
+
+  Ingram  David  February             Google says Gemini AI glitches were product of effort to address  traps    NBC News  Archived from the original on February           Retrieved February          
+
+  Love  Julia  February             Google CEO Blasts  Unacceptable  Gemini Image Generation Failure   Bloomberg News  Archived from the original on February           Retrieved February          
+
+  Allyn  Bobby  March            Google CEO Pichai says Gemini s AI image results  offended our users    NPR  Archived from the original on February           Retrieved March         
+
+  Albergotti  Reed  February             Google CEO calls AI tool s controversial responses  completely unacceptable    Semafor  Archived from the original on February           Retrieved February          
+
+  Alba  Davey  Ghaffary  Shirin  March            Google Trims Jobs in Trust and Safety While Others Work  Around the Clock    Bloomberg News  Archived from the original on March          Retrieved March         
+
+  Victor  Jon  March            Google Lays Off Trust and Safety Staff Amid Gemini Backlash   The Information  Archived from the original on March          Retrieved March         
+
+  Faus  Joan  February             Google aims to relaunch Gemini AI image tool in a few weeks   Reuters  Archived from the original on February           Retrieved February          
+
+  a b Field  Hayden  February             Google to relaunch Gemini AI picture generator in a  few weeks  following mounting criticism of inaccurate images   CNBC  Archived from the original on February           Retrieved February          
+
+  Langley  Hugh  February             Google DeepMind CEO addresses the Gemini debacle and says image generator could be back in a  couple of weeks    Business Insider  Archived from the original on February           Retrieved February          
+
+  Grant  Nico  August             Google Says It Fixed Image Generator That Failed to Depict White People   The New York Times  ISSN                 Archived from the original on August           Retrieved August          
+
+  Cerullo  Megan  August             Google relaunches Gemini AI tool that lets users create images of people   CBS News  Archived from the original on August           Retrieved September         
+
+  Wittenstein  Jeran  February             Alphabet Drops During Renewed Fears About Google s AI Offerings   Bloomberg News  Archived from the original on February           Retrieved February          
+
+  Langley  Hugh  March            There are growing calls for Google CEO Sundar Pichai to step down   Business Insider  Archived from the original on March          Retrieved March         
+
+  a b Kafka  Peter  February             Google has another  woke  AI problem with Gemini   and it s going to be hard to fix   Business Insider  Archived from the original on February           Retrieved February          
+
+  Cao  Sissi  February             Criticism is Mounting Over Sundar Pichai s Stumbles as Google CEO   The New York Observer  Archived from the original on April          Retrieved May          
+
+  Prigge  Matt  March            Jim Jordan And Other House Republicans Are So Very Mad About A  Woke  AI Version Of George Washington That s Black   Uproxx  Archived from the original on March          Retrieved March         
+
+  Bahney  Jennifer Bowers  March            Jim Jordan Vows To Get To The Bottom Of  Woke  Google AI That Brought The World  Black George Washington    Mediaite  Archived from the original on March           Retrieved May          
+
+  Langley  Hugh  O Reilly  Lara  February             How Google lost its way   Business Insider  Archived from the original on February           Retrieved March         
+
+  Olson  Parmy  February             Google s AI Isn t Too Woke  It s Too Rushed   Bloomberg News  Archived from the original on March          Retrieved March         
+
+  Peers  Martin  March            Alphabet Needs Its Own Mark Zuckerberg   The Information  Archived from the original on March          Retrieved March         
+
+  Kleinman  Zoe  February             Why Google s  woke  AI problem won t be an easy fix   BBC News  Archived from the original on February           Retrieved March         
+
+  Kahn  Jeremy  February             What Google s  woke  AI image controversy says about AI and about Google   Fortune  Archived from the original on February           Retrieved March         
+
+  Herrman  John  March            ChatGPT and Google Gemini Are Both Doomed   Intelligencer  New York  Archived from the original on March         
+
+  Cerullo  Megan  August            Google s Gemini AI Olympics themed ad sparks fierce backlash   CBS News  Archived from the original on August          Retrieved August         
+
+  Duffy  Clare  July             Google s Olympics ad went viral for all the wrong reasons   CNN Business  Archived from the original on July           Retrieved July          
+
+  Stieb  Matt  July             Everyone Hates That Google AI Olympics Commercial   Intelligencer  New York  Archived from the original on July           Retrieved July          
+
+  Petri  Alexandra  July             Opinion   I hate the Gemini  Dear Sydney  ad more every passing moment   The Washington Post  ISSN                 Archived from the original on August          Retrieved August          
+
+  Elias  Jennifer  August            Google pulls AI ad for Olympics following backlash   CNBC  Archived from the original on August          Retrieved August         
+
+  Song  Victoria  August            Google pulls Gemini AI ad from Olympics after backlash   The Verge  Archived from the original on August          Retrieved August          
+
+  Kiefer  Brittaney  January             Google Workspace s Super Bowl Debut Showcases    Small Businesses That Use AI   Adweek  Archived from the original on January           Retrieved February         
+
+  Sloane  Garett  February            Google s Super Bowl strategy    local ads promoting AI and one national spot   Ad Age  Archived from the original on February          Retrieved February         
+
+  Hall  Rachel  February            Google edits Super Bowl ad for AI that featured false information   The Guardian  ISSN                 Archived from the original on February          Retrieved February         
+
+  Maruf  Ramishah  February            Google s AI generated Super Bowl cheese ad has some holes   CNN Business  Archived from the original on February          Retrieved February         
+
+  Fraser  Graham  Singleton  Tom  February            Google remakes Super Bowl ad after AI cheese gaffe   BBC News  Archived from the original on February          Retrieved February         
+
+  Roth  Emma  February            Google faked Gemini AI output in Super Bowl ad   The Verge  Archived from the original on February          Retrieved February         
+
+  Dellinger  AJ  February            Google s AI Super Bowl Ad Fiasco Somehow Gets Worse   Gizmodo  Archived from the original on February          Retrieved February         
+
+  Perry  Alex  February            Google faked a Gemini AI answer in its Super Bowl commercial   Mashable  Archived from the original on February          Retrieved February         
+
+  Sloane  Garett  February            Google Gemini AI error in local Super Bowl ad reveals AI marketing risks   Ad Age  Archived from the original on February          Retrieved February         
+
+  Weprin  Alex  February            Google Bets That Super Bowl Can Turbocharge Gemini AI Business   The Hollywood Reporter  Archived from the original on February          Retrieved February         
+
+  Barnett  Kendra  February            Google s Heartfelt Super Bowl Ad Promos Gemini Enabled Talk Features on Pixel   Adweek  Archived from the original on February          Retrieved February         
+
+  Sloane  Garett  February            Watch Google s heartfelt Gemini AI Super Bowl ad featuring a dad and his daughter   Ad Age  Archived from the original on February          Retrieved February         
+
+  Titcomb  James  February             Elon Musk equated with Hitler in latest Google AI gaffe   The Daily Telegraph  ISSN                 Archived from the original on February           Retrieved February          
+
+   Is Google s Gemini chatbot woke by accident  or by design    The Economist  February           Archived from the original on May           Retrieved May          
+
+  McArdle  Megan  February             Female popes  Google s amusing AI bias underscores a serious problem   The Washington Post  Archived from the original on February           Retrieved May          
+
+   Google s Artificial Intelligence   The Wall Street Journal  February           Archived from the original on March          Retrieved May          
+
+  Mathi  Sarvesh  November             MoS IT Rajeev Chandrasekhar Calls Out Google Bard For Bias  Says Users Can File Complaint Against It   MediaNama  Archived from the original on November           Retrieved March          
+
+  Dhillon  Amrit  February             India confronts Google over Gemini AI tool s  fascist Modi  responses   The Guardian  ISSN                 Archived from the original on February           Retrieved February          
+
+  Lomas  Natasha  Dillet  Romain  March             Google hit with     M fine in France as authority finds news publishers  data was used for Gemini   TechCrunch  Archived from the original on March           Retrieved March          
+
+  Ma  Wenhao  June             Google AI Gemini parrots China s propaganda   Voice of America  Archived from the original on July           Retrieved June          
+
+  Clark  Alex  Mahtani  Melissa  November             Google AI chatbot responds with a threatening message   Human     Please die     CBS News  Archived from the original on November           Retrieved November          
+
+
+Further reading edit 
+
+Knight  Will  Goode  Lauren  October            Google Assistant Finally Gets a Generative AI Glow Up   Wired  Archived from the original on October          Retrieved November          
+Krasnoff  Barbara  June             Google Gemini  explained   The Verge  Archived from the original on June           Retrieved August          
+
+External links edit 
+
+
+
+Wikimedia Commons has media related to Gemini  chatbot  
+
+Official website 
+About page
+Gemini on Google Play 
+vteGoogle AI
+Google
+Google Brain
+Google DeepMind
+Computer programsAlphaGoVersions
+AlphaGo       
+Master       
+AlphaGo Zero       
+AlphaZero       
+MuZero       
+Competitions
+Fan Hui       
+Lee Sedol       
+Ke Jie       
+In popular culture
+AlphaGo       
+The MANIAC       
+Other
+AlphaFold       
+AlphaStar       
+AlphaDev       
+AlphaGeometry       
+Machine learningNeural networks
+Inception       
+WaveNet       
+MobileNet       
+Transformer       
+EfficientNet       
+Gato       
+Other
+Quantum Artificial Intelligence Lab
+TensorFlow
+Tensor Processing Unit
+Generative AIChatbots
+Assistant       
+Sparrow       
+Gemini       
+Language models
+BERT       
+XLNet       
+T        
+LaMDA       
+Chinchilla       
+PaLM       
+Gemini       
+VideoPoet       
+Other
+DreamBooth       
+NotebookLM       
+Vids       
+See also
+ Attention Is All You Need 
+Future of Go Summit
+Generative pre trained transformer
+Google Labs
+Google Pixel
+Google Workspace
+Robot Constitution
+
+ Category
+ Commons
+
+vteGooglea subsidiary of AlphabetCompanyDivisions
+AI
+Area    
+ATAP
+Brain
+China
+Cloud Platform
+Energy
+Google org
+Crisis Response
+Health
+Registry
+SubsidiariesActive
+Security Operations
+DeepMind
+Fitbit
+ITA Software
+Jigsaw
+Looker
+Mandiant
+Owlchemy Labs
+Defunct
+Actifio
+Adscape
+Akwan Information Technologies
+Anvato
+Apigee
+BandPage
+Bitium
+BufferBox
+Crashlytics
+Dodgeball
+DoubleClick
+Dropcam
+Endoxon
+Flutter
+Global IP Solutions
+Green Throttle Games
+GreenBorder
+Gridcentric
+ImageAmerica
+Impermium
+Invite Media
+Kaltix
+Marratech
+Meebo
+Metaweb
+Neotonic Software
+Neverware
+Nik Software
+Orbitera
+Pyra Labs
+Quest Visual
+Reqwireless
+RightsFlow
+Sidewalk Labs
+SlickLogin
+Titan Aerospace
+Typhoon Studios
+Urban Engines
+Vicarious
+Viewdle
+Wavii
+Wildfire Interactive
+YouTube Next Lab and Audience Development Group
+Programs
+Business Groups
+Computing University Initiative
+Contact Lens
+Content ID
+CrossCheck
+Data Liberation Front
+Data Transfer Project
+Developer Expert
+DigiKavach
+DigiPivot
+Digital Garage
+Digital News Initiative
+Digital Unlocked
+Dragonfly
+Founders  Award
+Free Zone
+Get Your Business Online
+Google for Education
+Google for Startups
+Living Stories
+Made with Code
+News Lab
+PowerMeter
+Privacy Sandbox
+Project Nightingale
+Project Nimbus
+Project Sunroof
+Project Zero
+Quantum Artificial Intelligence Lab
+RechargeIT
+Sensorvault
+Silicon Initiative
+Solve for X
+Street View Trusted
+Student Ambassador Program
+Vevo
+YouTube BrandConnect
+YouTube Creator Awards
+YouTube Select
+YouTube Original Channel Initiative
+Year in Search
+YouTube Rewind
+    
+    
+Events
+AlphaGo versus Fan Hui
+AlphaGo versus Lee Sedol
+AlphaGo versus Ke Jie
+Android Developer Challenge
+Android Developer Day
+Android Developer Lab
+CNN YouTube presidential debates
+Code in
+Code Jam
+Developer Day
+Developers Live
+Doodle Google
+Future of Go Summit
+G Day
+Hash Code
+I O
+Lunar X Prize
+Mapathon
+Science Fair
+Summer of Code
+World Chess Championship     
+YouTube Awards
+YouTube Comedy Week
+YouTube Live
+YouTube Music Awards
+    
+    
+YouTube Space Lab
+YouTube Symphony Orchestra
+Infrastructure
+    Eighth Avenue
+Android lawn statues
+Androidland
+Barges
+Binoculars Building
+Central Saint Giles
+Chelsea Market
+Chrome Zone
+Data centers
+GeoEye  
+Googleplex
+Ivanpah Solar Power Facility
+James R  Thompson Center
+King s Cross
+Mayfield Mall
+Pier   
+Sidewalk Toronto
+St  John s Terminal
+Submarine cables
+Dunant
+Grace Hopper
+Unity
+WiFi
+YouTube Space
+YouTube Theater
+PeopleCurrent
+Krishna Bharat
+Vint Cerf
+Jeff Dean
+John Doerr
+Sanjay Ghemawat
+Al Gore
+John L  Hennessy
+Urs H lzle
+Salar Kamangar
+Ray Kurzweil
+Ann Mather
+Alan Mulally
+Rick Osterloh
+Sundar Pichai  CEO 
+Ruth Porat  CFO 
+Rajen Sheth
+Hal Varian
+Neal Mohan
+Former
+Andy Bechtolsheim
+Sergey Brin  co founder 
+David Cheriton
+Matt Cutts
+David Drummond
+Alan Eustace
+Timnit Gebru
+Omid Kordestani
+Paul Otellini
+Larry Page  co founder 
+Patrick Pichette
+Eric Schmidt
+Ram Shriram
+Amit Singhal
+Shirley M  Tilghman
+Rachel Whetstone
+Susan Wojcicki
+CriticismGeneral
+Censorship
+DeGoogle
+FairSearch
+ Google s Ideological Echo Chamber 
+No Tech for Apartheid
+Privacy concerns
+Street View
+YouTube
+Trade unions
+Alphabet Workers Union
+YouTube copyright issues
+Incidents
+Backdoor advertisement controversy
+Blocking of YouTube videos in Germany
+Data breach
+Elsagate
+Fantastic Adventures scandal
+Kohistan video case
+Reactions to Innocence of Muslims
+San Francisco tech bus protests
+Services outages
+Slovenian government incident
+Walkouts
+YouTube headquarters shooting
+Other
+Android apps
+April Fools  Day jokes
+Doodles
+Doodle Champion Island Games
+Magic Cat Academy
+Easter eggs
+History
+Gmail
+Search
+YouTube
+Logo
+Material Design
+Mergers and acquisitions
+DevelopmentSoftwareA C
+Accelerated Linear Algebra
+AMP
+Actions on Google
+ALTS
+American Fuzzy Lop
+Android Cloud to Device Messaging
+Android Debug Bridge
+Android NDK
+Android Runtime
+Android SDK
+Android Studio
+Angular
+AngularJS
+Apache Beam
+APIs
+App Engine
+App Inventor
+App Maker
+App Runtime for Chrome
+AppJet
+Apps Script
+AppSheet
+ARCore
+Base
+Bazel
+BeyondCorp
+Bigtable
+BigQuery
+Bionic
+Blockly
+Borg
+Caja
+Cameyo
+Chart API
+Charts
+Chrome Frame
+Chromium
+Blink
+Closure Tools
+Cloud Connect
+Cloud Dataflow
+Cloud Datastore
+Cloud Messaging
+Cloud Shell
+Cloud Storage
+Code Search
+Compute Engine
+Cpplint
+D N
+Dalvik
+Data Protocol
+Dialogflow
+Exposure Notification
+Fast Pair
+Fastboot
+Federated Learning of Cohorts
+File System
+Firebase
+Firebase Cloud Messaging
+FlatBuffers
+Flutter
+Freebase
+Gadgets
+Ganeti
+Gears
+Gerrit
+GLOP
+gRPC
+Gson
+Guava
+Guetzli
+Guice
+gVisor
+GYP
+JAX
+Jetpack Compose
+Keyhole Markup Language
+Kubernetes
+Kythe
+LevelDB
+Lighthouse
+Looker Studio
+lmctfy
+MapReduce
+Mashup Editor
+Matter
+Mobile Services
+Namebench
+Native Client
+Neatx
+Neural Machine Translation
+Nomulus
+O Z
+Open Location Code
+OpenRefine
+OpenSocial
+Optimize
+OR Tools
+Pack
+PageSpeed
+Piper
+Plugin for Eclipse
+Polymer
+Programmable Search Engine
+Project IDX
+Project Shield
+Public DNS
+reCAPTCHA
+RenderScript
+SafetyNet
+SageTV
+Schema org
+Search Console
+Shell
+Sitemaps
+Skia Graphics Engine
+Spanner
+Sputnik
+Stackdriver
+Swiffy
+Tango
+TensorFlow
+Tesseract
+Test
+Translator Toolkit
+Urchin
+UTM parameters
+V 
+VirusTotal
+VisBug
+Wave Federation Protocol
+Weave
+Web Accelerator
+Web Designer
+Web Server
+Web Toolkit
+Webdriver Torso
+WebRTC
+Operating systems
+Android
+Cupcake
+Donut
+Eclair
+Froyo
+Gingerbread
+Honeycomb
+Ice Cream Sandwich
+Jelly Bean
+KitKat
+Lollipop
+Marshmallow
+Nougat
+Oreo
+Pie
+  
+  
+  
+  
+  
+  
+  
+version history
+smartphones
+Android Automotive
+Android Go
+devices
+Android Things
+Android TV
+devices
+Android XR
+ChromeOS
+ChromeOS Flex
+ChromiumOS
+Fuchsia
+Glass OS
+gLinux
+Goobuntu
+TV
+Wear OS
+Language models
+BERT
+Chinchilla
+DreamBooth
+Gemini
+LaMDA
+PaLM
+T 
+VideoPoet
+XLNet
+Neural networks
+EfficientNet
+Gato
+Inception
+MobileNet
+Transformer
+WaveNet
+Computer programs
+AlphaDev
+AlphaFold
+AlphaGeometry
+AlphaGo
+AlphaGo Zero
+AlphaStar
+AlphaZero
+Master
+MuZero
+Formats and codecs
+AAB
+APK
+AV 
+iLBC
+iSAC
+libvpx
+Lyra
+Protocol Buffers
+VP 
+VP 
+VP 
+VP 
+WebM
+WebP
+WOFF 
+Programming languages
+Carbon
+Dart
+Go
+Sawzall
+Search algorithms
+Googlebot
+Hummingbird
+Mobilegeddon
+PageRank
+matrix
+Panda
+Penguin
+Pigeon
+RankBrain
+Domain names
+ app
+ dev
+ google
+ zip
+g co
+google by
+Typefaces
+Croscore
+Noto
+Product Sans
+Roboto
+SoftwareA
+Aardvark
+Account
+Dashboard
+Takeout
+Ad Manager
+AdMob
+Ads
+AdSense
+Affiliate Network
+Alerts
+Allo
+Analytics
+Android Auto
+Android Beam
+Answers
+Apture
+Arts  amp  Culture
+Assistant
+Attribution
+Authenticator
+B
+BebaPay
+BeatThatQuote com
+Blog Search
+Blogger
+Body
+Bookmarks
+Books
+Ngram Viewer
+Browser Sync
+Building Maker
+Bump
+BumpTop
+Buzz
+C
+Calendar
+Cast
+Catalogs
+Chat
+Checkout
+Chrome
+Chrome Apps
+Chrome Experiments
+Chrome Remote Desktop
+Chrome Web Store
+Classroom
+Cloud Print
+Cloud Search
+Contacts
+Contributor
+Crowdsource
+Currents  social app 
+Currents  news app 
+D
+Data Commons
+Dataset Search
+Desktop
+Dictionary
+Digital Wellbeing
+Dinosaur Game
+Directory
+Docs
+Docs Editors
+Domains
+Drawings
+Drive
+Duo
+E
+Earth
+Etherpad
+Expeditions
+Express
+F
+Family Link
+Fast Flip
+FeedBurner
+fflick
+Fi Wireless
+Finance
+Files
+Find My Device
+Fit
+Flights
+Flu Trends
+Fonts
+Forms
+Friend Connect
+Fusion Tables
+G
+Gboard
+Gemini
+Gesture Search
+Gizmo 
+Google 
+Gmail
+Goggles
+GOOG    
+Grasshopper
+Groups
+H
+Hangouts
+Helpouts
+I
+iGoogle
+Images
+Image Labeler
+Image Swirl
+Inbox by Gmail
+Input Tools
+Japanese Input
+Pinyin
+Insights for Search
+J
+Jaiku
+Jamboard
+K
+Kaggle
+Keep
+Knol
+L
+Labs
+Latitude
+Lens
+Like com
+Live Transcribe
+Lively
+M
+Map Maker
+Maps
+Maps Navigation
+Marketing Platform
+Meet
+Messages
+Moderator
+My Tracks
+N
+Nearby Share
+News
+News  amp  Weather
+News Archive
+Notebook
+NotebookLM
+Now
+O
+Offers
+One
+One Pass
+Opinion Rewards
+Orkut
+Oyster
+P
+Panoramio
+PaperofRecord com
+Patents
+Page Creator
+Pay  mobile app 
+Pay  payment method 
+Pay Send
+People Cards
+Person Finder
+Personalized Search
+Photomath
+Photos
+Picasa
+Picasa Web Albums
+Picnik
+Pixel Camera
+Play
+Play Books
+Play Games
+Play Music
+Play Newsstand
+Play Pass
+Play Services
+Podcasts
+Poly
+Postini
+PostRank
+Primer
+Project Starline
+Public Alerts
+Public Data Explorer
+Q
+Question Hub
+Quick  Draw 
+Quick Search Box
+Quick Share
+Quickoffice
+R
+Read Along
+Reader
+Reply
+S
+Safe Browsing
+SageTV
+Santa Tracker
+Schemer
+Scholar
+Search
+AI Overviews
+Knowledge Graph
+SafeSearch
+Searchwiki
+Sheets
+Shoploop
+Shopping
+Sidewiki
+Sites
+Slides
+Snapseed
+Socratic
+Softcard
+Songza
+Sound Amplifier
+Spaces
+Sparrow  chatbot 
+Sparrow  email client 
+Speech Recognition  amp  Synthesis
+Squared
+Stadia
+Station
+Store
+Street View
+Surveys
+Sync
+T
+Tables
+Talk
+TalkBack
+Tasks
+Tenor
+Tez
+Tilt Brush
+Toolbar
+Toontastic  D
+Translate
+Travel
+Trendalyzer
+Trends
+TV
+U
+URL Shortener
+V
+Video
+Vids
+Voice
+Voice Access
+Voice Search
+W
+Wallet
+Wave
+Waze
+WDYL
+Web Light
+Where Is My Train
+Widevine
+Wiz
+Word Lens
+Workspace
+Workspace Marketplace
+Y
+YouTube
+YouTube Kids
+YouTube Music
+YouTube Premium
+YouTube Shorts
+YouTube Studio
+YouTube TV
+YouTube VR
+HardwarePixelSmartphones
+Pixel       
+Pixel         
+Pixel         
+Pixel  a       
+Pixel         
+Pixel  a       
+Pixel         
+Pixel  a       
+Pixel         
+Pixel  a       
+Pixel         
+Pixel  a       
+Pixel Fold       
+Pixel         
+Pixel  a       
+Pixel         
+Pixel   Pro Fold       
+Pixel  a       
+Smartwatches
+Pixel Watch       
+Pixel Watch         
+Pixel Watch         
+Tablets
+Pixel C       
+Pixel Slate       
+Pixel Tablet       
+Laptops
+Chromebook Pixel            
+Pixelbook       
+Pixelbook Go       
+Other
+Pixel Buds       present 
+NexusSmartphones
+Nexus One       
+Nexus S       
+Galaxy Nexus       
+Nexus         
+Nexus         
+Nexus         
+Nexus  X       
+Nexus  P       
+Tablets
+Nexus         
+Nexus          
+Nexus         
+Nexus         
+Other
+Nexus Q       
+Nexus Player       
+Other
+Android Dev Phone
+Android One
+Cardboard
+Chromebit
+Chromebook
+Chromebox
+Chromecast
+Clips
+Daydream
+Fitbit
+Glass
+Liftware
+Liquid Galaxy
+Nest
+smart speakers
+Thermostat
+Wifi
+Play Edition
+Project Ara
+OnHub
+Pixel Visual Core
+Project Iris
+Search Appliance
+Sycamore processor
+Tensor
+Tensor Processing Unit
+Titan Security Key
+vteLitigationAdvertising
+Feldman v  Google  Inc        
+Rescuecom Corp  v  Google Inc        
+Goddard v  Google  Inc        
+Rosetta Stone Ltd  v  Google  Inc        
+Google  Inc  v  American Blind  amp  Wallpaper Factory  Inc        
+Jedi Blue
+Antitrust
+European Union       present 
+United States v  Adobe Systems  Inc   Apple Inc   Google Inc   Intel Corporation  Intuit  Inc   and Pixar       
+Umar Javeed  Sukarma Thapar  Aaqib Javeed vs  Google LLC and Ors        
+United States v  Google LLC       
+United States v  Google LLC       
+Intellectualproperty
+Perfect     Inc  v  Amazon com  Inc        
+Viacom International Inc  v  YouTube  Inc        
+Lenz v  Universal Music Corp       
+Authors Guild  Inc  v  Google  Inc        
+Field v  Google  Inc        
+Google LLC v  Oracle America  Inc        
+Smartphone patent wars
+Privacy
+Rocky Mountain Bank v  Google  Inc        
+Hibnick v  Google  Inc        
+United States v  Google Inc        
+Judgement of the German Federal Court of Justice on Google s autocomplete function       
+Joffe v  Google  Inc        
+Mosley v SARL Google       
+Google Spain v AEPD and Mario Costeja Gonz lez       
+Frank v  Gaos       
+Other
+Garcia v  Google  Inc        
+Google LLC v Defteros       
+Epic Games v  Google       
+Gonzalez v  Google LLC       
+RelatedConcepts
+Beauty YouTuber
+BookTube
+BreadTube
+ Don t be evil 
+Gayglers
+Google as a verb
+Google bombing
+     U S  presidential election
+Google effect
+Googlefight
+Google hacking
+Googleshare
+Google tax
+Googlewhack
+Googlization
+Illegal flower tribute
+Objectives and key results
+Rooting
+Search engine manipulation effect
+Side project time
+Sitelink
+Site reliability engineering
+StudyTube
+VTuber
+YouTube Poop
+YouTuber
+list
+ProductsAndroid
+Booting process
+Custom distributions
+Features
+Recovery mode
+Software development
+Street View coverage
+Africa
+Antarctica
+Asia
+Israel
+Europe
+North America
+Canada
+United States
+Oceania
+South America
+Argentina
+Chile
+Colombia
+YouTube
+Copyright strike
+Education
+Features
+Moderation
+Most disliked videos
+Most liked videos
+Most subscribed channels
+Most viewed channels
+Most viewed videos
+Arabic music videos
+Chinese music videos
+French music videos
+Indian videos
+Pakistani videos
+Official channel
+Social impact
+Suspensions
+YouTube Premium original programming
+Other
+Gmail interface
+Maps pin
+Most downloaded Google Play applications
+Stadia games
+Documentaries
+AlphaGo
+Google  Behind the Screen
+Google Maps Road Trip
+Google and the World Brain
+The Creepy Line
+Books
+Google Hacks
+The Google Story
+Google Volume One
+Googled  The End of the World as We Know It
+How Google Works
+I m Feeling Lucky
+In the Plex
+The Google Book
+The MANIAC
+Popular culture
+Google Feud
+Google Me  film 
+ Google Me   Kim Zolciak song 
+ Google Me   Teyana Taylor song 
+Is Google Making Us Stupid 
+Proceratium google
+Matt Nathanson  Live at Google
+The Billion Dollar Code
+The Internship
+Where on Google Earth is Carmen Sandiego 
+Other
+ Attention Is All You Need 
+elgooG
+Generative pre trained transformer
+ Me at the zoo 
+Predictions of the end
+Relationship with Wikipedia
+ Reunion 
+Robot Constitution
+Italics denote discontinued products 
+ Category
+ Outline
+vteGenerative AI chatbots
+Large language model
+
+ChatGPT
+Character ai
+Claude
+Copilot
+DeepSeek
+ERNIE
+Gemini
+Grok
+Manus
+Minerva
+Mistral
+Perplexity AI
+Qwen
+Replika
+Velvet
+YandexGPT
+You com
+
+ Category
+
+vteGenerative AIConcepts
+Autoencoder
+Deep learning
+Generative adversarial network
+Generative pre trained transformer
+Large language model
+Neural network
+Prompt engineering
+Retrieval augmented generation
+Reinforcement learning from human feedback
+Self supervised learning
+Transformer
+Variational autoencoder
+Vision transformer
+Word embedding
+ModelsText
+Claude
+DBRX
+DeepSeek
+ERNIE
+Gemini
+GPT
+ 
+ 
+ 
+J
+ChatGPT
+ 
+ o
+o 
+o 
+   
+   
+o 
+Granite
+Grok
+Llama
+Manus
+Mistral Large
+PanGu  
+Qwen
+Image
+Aurora
+DALL E
+Firefly
+Flux
+GPT Image  
+Ideogram
+Imagen
+Midjourney
+Stable Diffusion
+Speech
+   ai
+WaveNet
+Video
+Dream Machine
+Gen  
+Hailuo AI
+Kling
+Sora
+Veo
+VideoPoet
+Music
+Endel
+Suno AI
+Udio
+Companies
+   AI
+Alibaba
+Anthropic
+Baichuan
+Baidu
+DeepSeek
+ElevenLabs
+Google DeepMind
+Hugging Face
+Kuaishou
+Meta AI
+MiniMax
+Mistral AI
+Moonshot AI
+OpenAI
+Runway
+Stability AI
+Synthesia
+xAI
+Zhipu AI
+
+ Category
+ Commons
+
+
+
+
+
+
+Retrieved from  https   en wikipedia org w index php title Gemini  chatbot  amp oldid

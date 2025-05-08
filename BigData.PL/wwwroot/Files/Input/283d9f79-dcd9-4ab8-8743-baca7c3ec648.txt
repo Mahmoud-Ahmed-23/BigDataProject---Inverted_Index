@@ -1,0 +1,822 @@
+Thought experiment on artificial intelligence
+For the British video game development studio  see The Chinese Room 
+
+
+Part of a series onArtificial intelligence  AI 
+Major goals
+Artificial general intelligence
+Intelligent agent
+Recursive self improvement
+Planning
+Computer vision
+General game playing
+Knowledge reasoning
+Natural language processing
+Robotics
+AI safety
+
+Approaches
+Machine learning
+Symbolic
+Deep learning
+Bayesian networks
+Evolutionary algorithms
+Hybrid intelligent systems
+Systems integration
+
+Applications
+Bioinformatics
+Deepfake
+Earth sciences
+ Finance 
+Generative AI
+Art
+Audio
+Music
+Government
+Healthcare
+Mental health
+Industry
+Translation
+ Military 
+Physics
+Projects
+
+Philosophy
+Artificial consciousness
+Chinese room
+Friendly AI
+Control problem Takeover
+Ethics
+Existential risk
+Turing test
+Uncanny valley
+
+History
+Timeline
+Progress
+AI winter
+AI boom
+
+Glossary
+Glossary
+vte
+The Chinese room argument holds that a computer executing a program cannot have a mind  understanding  or consciousness      a      regardless of how intelligently or human like the program may make the computer behave  The argument was presented in a      paper by the philosopher John Searle entitled  Minds  Brains  and Programs  and published in the journal Behavioral and Brain Sciences             Before Searle  similar arguments had been presented by figures including Gottfried Wilhelm Leibniz         Anatoly Dneprov         Lawrence Davis        and Ned Block         Searle s version has been widely discussed in the years since             The centerpiece of Searle s argument is a thought experiment known as the Chinese room            
+In the thought experiment  Searle imagines a person who does not understand Chinese isolated in a room with a book containing detailed instructions for manipulating Chinese symbols  When Chinese text is passed into the room  the person follows the book s instructions to produce Chinese symbols that  to fluent Chinese speakers outside the room  appear to be appropriate responses  According to Searle  the person is just following syntactic rules without semantic comprehension  and neither the human nor the room as a whole understands Chinese  He contends that when computers execute programs  they are similarly just applying syntactic rules without any real understanding or thinking            
+The argument is directed against the philosophical positions of functionalism and computationalism             which hold that the mind may be viewed as an information processing system operating on formal symbols  and that simulation of a given mental state is sufficient for its presence  Specifically  the argument is intended to refute a position Searle calls the strong AI hypothesis      b       The appropriately programmed computer with the right inputs and outputs would thereby have a mind in exactly the same sense human beings have minds       c     
+Although its proponents originally presented the argument in reaction to statements of artificial intelligence  AI  researchers  it is not an argument against the goals of mainstream AI research because it does not show a limit in the amount of intelligent behavior a machine can display             The argument applies only to digital computers running programs and does not apply to machines in general             While widely discussed  the argument has been subject to significant criticism and remains controversial among philosophers of mind and AI researchers                       
+
+
+Searle s thought experiment edit 
+Suppose that artificial intelligence research has succeeded in programming a computer to behave as if it understands Chinese  The machine accepts Chinese characters as input  carries out each instruction of the program step by step  and then produces Chinese characters as output  The machine does this so perfectly that no one can tell that they are communicating with a machine and not a hidden Chinese speaker            
+The questions at issue are these  does the machine actually understand the conversation  or is it just simulating the ability to understand the conversation  Does the machine have a mind in exactly the same sense that people do  or is it just acting as if it has a mind            
+Now suppose that Searle is in a room with an English version of the program  along with sufficient pencils  paper  erasers and filing cabinets  Chinese characters are slipped in under the door  he follows the program step by step  which eventually instructs him to slide other Chinese characters back out under the door  If the computer had passed the Turing test this way  it follows that Searle would do so as well  simply by running the program by hand            
+Searle asserts that there is no essential difference between the roles of the computer and himself in the experiment  Each simply follows a program  step by step  producing behavior that makes them appear to understand  However  Searle would not be able to understand the conversation  Therefore  he argues  it follows that the computer would not be able to understand the conversation either            
+Searle argues that  without  understanding   or  intentionality    we cannot describe what the machine is doing as  thinking  and  since it does not think  it does not have a  mind  in the normal sense of the word  Therefore  he concludes that the strong AI hypothesis is false  a computer running a program that simulates a mind would not have a mind in the same sense that human beings have a mind            
+
+History edit 
+Gottfried Leibniz made a similar argument in      against mechanism  the idea that everything that makes up a human being could  in principle  be explained in mechanical terms  In other words  that a person  including their mind  is merely a very complex machine   Leibniz used the thought experiment of expanding the brain until it was the size of a mill             Leibniz found it difficult to imagine that a  mind  capable of  perception  could be constructed using only mechanical processes      d     
+Peter Winch made the same point in his book The Idea of a Social Science and its Relation to Philosophy         where he provides an argument to show that  a man who understands Chinese is not a man who has a firm grasp of the statistical probabilities for the occurrence of the various words in the Chinese language   p            
+Soviet cyberneticist Anatoly Dneprov made an essentially identical argument in       in the form of the short story  The Game   In it  a stadium of people act as switches and memory cells implementing a program to translate a sentence of Portuguese  a language that none of them know              The game was organized by a  Professor Zarubin  to answer the question  Can mathematical machines think   Speaking through Zarubin  Dneprov writes  the only way to prove that machines can think is to turn yourself into a machine and examine your thinking process  and he concludes  as Searle does   We ve proven that even the most perfect simulation of machine thinking is not the thinking process itself  
+In       Lawrence H  Davis imagined duplicating the brain using telephone lines and offices staffed by people  and in      Ned Block envisioned the entire population of China involved in such a brain simulation  This thought experiment is called the China brain  also the  Chinese Nation  or the  Chinese Gym              
+
+John Searle in December     
+Searle s version appeared in his      paper  Minds  Brains  and Programs   published in Behavioral and Brain Sciences             It eventually became the journal s  most influential target article              generating an enormous number of commentaries and responses in the ensuing decades  and Searle has continued to defend and refine the argument in many papers  popular articles and books  David Cole writes that  the Chinese Room argument has probably been the most widely discussed philosophical argument in cognitive science to appear in the past    years              
+Most of the discussion consists of attempts to refute it   The overwhelming majority   notes Behavioral and Brain Sciences editor Stevan Harnad      e       still think that the Chinese Room Argument is dead wrong               The sheer volume of the literature that has grown up around it inspired Pat Hayes to comment that the field of cognitive science ought to be redefined as  the ongoing research program of showing Searle s Chinese Room Argument to be false              
+Searle s argument has become  something of a classic in cognitive science   according to Harnad              Varol Akman agrees  and has described the original paper as  an exemplar of philosophical clarity and purity              
+
+Philosophy edit 
+Although the Chinese Room argument was originally presented in reaction to the statements of artificial intelligence researchers  philosophers have come to consider it as an important part of the philosophy of mind  It is a challenge to functionalism and the computational theory of mind      f      and is related to such questions as the mind body problem  the problem of other minds  the symbol grounding problem  and the hard problem of consciousness      a     
+
+Strong AI edit 
+Searle identified a philosophical position he calls  strong AI  
+
+
+The appropriately programmed computer with the right inputs and outputs would thereby have a mind in exactly the same sense human beings have minds      c     
+
+
+The definition depends on the distinction between simulating a mind and actually having one  Searle writes that  according to Strong AI  the correct simulation really is a mind  According to Weak AI  the correct simulation is a model of the mind              
+The claim is implicit in some of the statements of early AI researchers and analysts  For example  in       AI founder Herbert A  Simon declared that  there are now in the world machines that think  that learn and create               Simon  together with Allen Newell and Cliff Shaw  after having completed the first program that could do formal reasoning  the Logic Theorist   claimed that they had  solved the venerable mind body problem  explaining how a system composed of matter can have the properties of mind               John Haugeland wrote that  AI wants only the genuine article  machines with minds  in the full and literal sense  This is not science fiction  but real science  based on a theoretical conception as deep as it is daring  namely  we are  at root  computers ourselves              
+Searle also ascribes the following claims to advocates of strong AI 
+
+AI systems can be used to explain the mind             
+The study of the brain is irrelevant to the study of the mind      g      and
+The Turing test is adequate for establishing the existence of mental states      h     
+Strong AI as computationalism or functionalism edit 
+In more recent presentations of the Chinese room argument  Searle has identified  strong AI  as  computer functionalism   a term he attributes to Daniel Dennett                          Functionalism is a position in modern philosophy of mind that holds that we can define mental phenomena  such as beliefs  desires  and perceptions  by describing their functions in relation to each other and to the outside world  Because a computer program can accurately represent functional relationships as relationships between symbols  a computer can have mental phenomena if it runs the right program  according to functionalism 
+Stevan Harnad argues that Searle s depictions of strong AI can be reformulated as  recognizable tenets of computationalism  a position  unlike  strong AI   that is actually held by many thinkers  and hence one worth refuting               Computationalism     i      is the position in the philosophy of mind which argues that the mind can be accurately described as an information processing system 
+Each of the following  according to Harnad  is a  tenet  of computationalism             
+
+Mental states are computational states  which is why computers can have mental states and help to explain the mind  
+Computational states are implementation independent in other words  it is the software that determines the computational state  not the hardware  which is why the brain  being hardware  is irrelevant   and that
+Since implementation is unimportant  the only empirical data that matters is how the system functions  hence the Turing test is definitive 
+Recent philosophical discussions have revisited the implications of computationalism for artificial intelligence  Goldstein and Levinstein explore whether large language models  LLMs  like ChatGPT can possess minds  focusing on their ability to exhibit folk psychology  including beliefs  desires  and intentions  The authors argue that LLMs satisfy several philosophical theories of mental representation  such as informational  causal  and structural theories  by demonstrating robust internal representations of the world  However  they highlight that the evidence for LLMs having action dispositions necessary for belief desire psychology remains inconclusive  Additionally  they refute common skeptical challenges  such as the  stochastic parrots  argument and concerns over memorization  asserting that LLMs exhibit structured internal representations that align with these philosophical criteria             
+David Chalmers suggests that while current LLMs lack features like recurrent processing and unified agency  advancements in AI could address these limitations within the next decade  potentially enabling systems to achieve consciousness  This perspective challenges Searle s original claim that purely  syntactic  processing cannot yield understanding or consciousness  arguing instead that such systems could have authentic mental states             
+
+Strong AI vs  biological naturalism edit 
+Searle holds a philosophical position he calls  biological naturalism   that consciousness     a      and understanding require specific biological machinery that are found in brains  He writes  brains cause minds              and that  actual human mental phenomena  are  dependent on actual physical chemical properties of actual human brains               Searle argues that this machinery  known in neuroscience as the  neural correlates of consciousness   must have some causal powers that permit the human experience of consciousness              Searle s belief in the existence of these powers has been criticized 
+Searle does not disagree with the notion that machines can have consciousness and understanding  because  as he writes   we are precisely such machines              Searle holds that the brain is  in fact  a machine  but that the brain gives rise to consciousness and understanding using specific machinery  If neuroscience is able to isolate the mechanical process that gives rise to consciousness  then Searle grants that it may be possible to create machines that have consciousness and understanding  However  without the specific machinery required  Searle does not believe that consciousness can occur 
+Biological naturalism implies that one cannot determine if the experience of consciousness is occurring merely by examining how a system functions  because the specific machinery of the brain is essential  Thus  biological naturalism is directly opposed to both behaviorism and functionalism  including  computer functionalism  or  strong AI                Biological naturalism is similar to identity theory  the position that mental states are  identical to  or  composed of  neurological events   however  Searle has specific technical objections to identity theory                  j      Searle s biological naturalism and strong AI are both opposed to Cartesian dualism              the classical idea that the brain and mind are made of different  substances   Indeed  Searle accuses strong AI of dualism  writing that  strong AI only makes sense given the dualistic assumption that  where the mind is concerned  the brain doesn t matter              
+
+Consciousness edit 
+Searle s original presentation emphasized understanding that is  mental states with intentionality and did not directly address other closely related ideas such as  consciousness   However  in more recent presentations  Searle has included consciousness as the real target of the argument            
+
+Computational models of consciousness are not sufficient by themselves for consciousness  The computational model for consciousness stands to consciousness in the same way the computational model of anything stands to the domain being modelled  Nobody supposes that the computational model of rainstorms in London will leave us all wet  But they make the mistake of supposing that the computational model of consciousness is somehow conscious  It is the same mistake in both cases                     John R  Searle  Consciousness and Language  p    
+David Chalmers writes   it is fairly clear that consciousness is at the root of the matter  of the Chinese room             
+Colin McGinn argues that the Chinese room provides strong evidence that the hard problem of consciousness is fundamentally insoluble  The argument  to be clear  is not about whether a machine can be conscious  but about whether it  or anything else for that matter  can be shown to be conscious  It is plain that any other method of probing the occupant of a Chinese room has the same difficulties in principle as exchanging questions and answers in Chinese  It is simply not possible to divine whether a conscious agency or some clever simulation inhabits the room             
+Searle argues that this is only true for an observer outside of the room  The whole point of the thought experiment is to put someone inside the room  where they can directly observe the operations of consciousness  Searle claims that from his vantage point within the room there is nothing he can see that could imaginably give rise to consciousness  other than himself  and clearly he does not have a mind that can speak Chinese  In Searle s words   the computer has nothing more than I have in the case where I understand nothing              
+
+Applied ethics edit 
+Sitting in the combat information center aboard a warship proposed as a real life analog to the Chinese room
+Patrick Hew used the Chinese Room argument to deduce requirements from military command and control systems if they are to preserve a commander s moral agency  He drew an analogy between a commander in their command center and the person in the Chinese Room  and analyzed it under a reading of Aristotle s notions of  compulsory  and  ignorance   Information could be  down converted  from meaning to symbols  and manipulated symbolically  but moral agency could be undermined if there was inadequate  up conversion  into meaning  Hew cited examples from the USS Vincennes incident             
+
+Computer science edit 
+The Chinese room argument is primarily an argument in the philosophy of mind  and both major computer scientists and artificial intelligence researchers consider it irrelevant to their fields             However  several concepts developed by computer scientists are essential to understanding the argument  including symbol processing  Turing machines  Turing completeness  and the Turing test 
+
+Strong AI vs  AI research edit 
+Searle s arguments are not usually considered an issue for AI research  The primary mission of artificial intelligence research is only to create useful systems that act intelligently and it does not matter if the intelligence is  merely  a simulation  AI researchers Stuart J  Russell and Peter Norvig wrote in        We are interested in programs that behave intelligently  Individual aspects of consciousness awareness  self awareness  attention can be programmed and can be part of an intelligent machine  The additional project making a machine conscious in exactly the way humans are is not one that we are equipped to take on             
+Searle does not disagree that AI research can create machines that are capable of highly intelligent behavior  The Chinese room argument leaves open the possibility that a digital machine could be built that acts more intelligently than a person  but does not have a mind or intentionality in the same way that brains do 
+Searle s  strong AI hypothesis  should not be confused with  strong AI  as defined by Ray Kurzweil and other futurists                          who use the term to describe machine intelligence that rivals or exceeds human intelligence that is  artificial general intelligence  human level AI or superintelligence  Kurzweil is referring primarily to the amount of intelligence displayed by the machine  whereas Searle s argument sets no limit on this  Searle argues that a superintelligent machine would not necessarily have a mind and consciousness 
+
+Turing test edit 
+Main article  Turing test
+The  standard interpretation  of the Turing Test  in which player C  the interrogator  is given the task of trying to determine which player A or B is a computer and which is a human  The interrogator is limited to using the responses to written questions to make the determination  Image adapted from Saygin  et al                   
+The Chinese room implements a version of the Turing test              Alan Turing introduced the test in      to help answer the question  can machines think   In the standard version  a human judge engages in a natural language conversation with a human and a machine designed to generate performance indistinguishable from that of a human being  All participants are separated from one another  If the judge cannot reliably tell the machine from the human  the machine is said to have passed the test 
+Turing then considered each possible objection to the proposal  machines can think   and found that there are simple  obvious answers if the question is de mystified in this way  He did not  however  intend for the test to measure for the presence of  consciousness  or  understanding   He did not believe this was relevant to the issues that he was addressing  He wrote 
+
+I do not wish to give the impression that I think there is no mystery about consciousness  There is  for instance  something of a paradox connected with any attempt to localise it  But I do not think these mysteries necessarily need to be solved before we can answer the question with which we are concerned in this paper             
+To Searle  as a philosopher investigating in the nature of mind and consciousness  these are the relevant mysteries  The Chinese room is designed to show that the Turing test is insufficient to detect the presence of consciousness  even if the room can behave or function as a conscious mind would 
+
+Symbol processing edit 
+Main article  Physical symbol system
+Computers manipulate physical objects in order to carry out calculations and do simulations  AI researchers Allen Newell and Herbert A  Simon called this kind of machine a physical symbol system  It is also equivalent to the formal systems used in the field of mathematical logic 
+Searle emphasizes the fact that this kind of symbol manipulation is syntactic  borrowing a term from the study of grammar   The computer manipulates the symbols using a form of syntax  without any knowledge of the symbol s semantics  that is  their meaning  
+Newell and Simon had conjectured that a physical symbol system  such as a digital computer  had all the necessary machinery for  general intelligent action   or  as it is known today  artificial general intelligence  They framed this as a philosophical position  the physical symbol system hypothesis   A physical symbol system has the necessary and sufficient means for general intelligent action                           The Chinese room argument does not refute this  because it is framed in terms of  intelligent action   i e  the external behavior of the machine  rather than the presence or absence of understanding  consciousness and mind 
+Twenty first century AI programs  such as  deep learning   do mathematical operations on huge matrixes of unidentified numbers and bear little resemblance to the symbolic processing used by AI programs at the time Searle wrote his critique in       Nils Nilsson describes systems like these as  dynamic  rather than  symbolic   Nilsson notes that these are essentially digitized representations of dynamic systems the individual numbers do not have a specific semantics  but are instead samples or data points from a dynamic signal  and it is the signal being approximated which would have semantics  Nilsson argues it is not reasonable to consider these signals as  symbol processing  in the same sense as the physical symbol systems hypothesis             
+
+Chinese room and Turing completeness edit 
+See also  Turing completeness and Church Turing thesis
+The Chinese room has a design analogous to that of a modern computer  It has a Von Neumann architecture  which consists of a program  the book of instructions   some memory  the papers and file cabinets   a machine that follows the instructions  the man   and a means to write symbols in memory  the pencil and eraser   A machine with this design is known in theoretical computer science as  Turing complete   because it has the necessary machinery to carry out any computation that a Turing machine can do  and therefore it is capable of doing a step by step simulation of any other digital machine  given enough memory and time  Turing writes   all digital computers are in a sense equivalent               The widely accepted Church Turing thesis holds that any function computable by an effective procedure is computable by a Turing machine 
+The Turing completeness of the Chinese room implies that it can do whatever any other digital computer can do  albeit much  much more slowly   Thus  if the Chinese room does not or can not contain a Chinese speaking mind  then no other digital computer can contain a mind  Some replies to Searle begin by arguing that the room  as described  cannot have a Chinese speaking mind  Arguments of this form  according to Stevan Harnad  are  no refutation  but rather an affirmation               of the Chinese room argument  because these arguments actually imply that no digital computers can have a mind             
+There are some critics  such as Hanoch Ben Yami  who argue that the Chinese room cannot simulate all the abilities of a digital computer  such as being able to determine the current time             
+
+Complete argument edit 
+Searle has produced a more formal version of the argument of which the Chinese Room forms a part  He presented the first version in       The version given below is from                       k      The Chinese room thought experiment is intended to prove point A       l     
+He begins with three axioms 
+
+ A    Programs are formal  syntactic   
+A program uses syntax to manipulate symbols and pays no attention to the semantics of the symbols  It knows where to put the symbols and how to move them around  but it does not know what they stand for or what they mean  For the program  the symbols are just physical objects like any others 
+ A    Minds have mental contents  semantics   
+Unlike the symbols used by a program  our thoughts have meaning  they represent things and we know what it is they represent 
+ A    Syntax by itself is neither constitutive of nor sufficient for semantics  
+This is what the Chinese room thought experiment is intended to prove  the Chinese room has syntax  because there is a man in there moving symbols around   The Chinese room has no semantics  because  according to Searle  there is no one or nothing in the room that understands what the symbols mean   Therefore  having syntax is not enough to generate semantics 
+Searle posits that these lead directly to this conclusion 
+
+ C   Programs are neither constitutive of nor sufficient for minds 
+This should follow without controversy from the first three  Programs don t have semantics  Programs have only syntax  and syntax is insufficient for semantics  Every mind has semantics  Therefore no programs are minds 
+This much of the argument is intended to show that artificial intelligence can never produce a machine with a mind by writing programs that manipulate symbols  The remainder of the argument addresses a different issue  Is the human brain running a program  In other words  is the computational theory of mind correct      f      He begins with an axiom that is intended to express the basic modern scientific consensus about brains and minds 
+
+ A   Brains cause minds 
+Searle claims that we can derive  immediately  and  trivially              that 
+
+ C   Any other system capable of causing minds would have to have causal powers  at least  equivalent to those of brains 
+Brains must have something that causes a mind to exist  Science has yet to determine exactly what it is  but it must exist  because minds exist  Searle calls it  causal powers    Causal powers  is whatever the brain uses to create a mind  If anything else can cause a mind to exist  it must have  equivalent causal powers    Equivalent causal powers  is whatever else that could be used to make a mind 
+And from this he derives the further conclusions 
+
+ C   Any artifact that produced mental phenomena  any artificial brain  would have to be able to duplicate the specific causal powers of brains  and it could not do that just by running a formal program 
+This follows from C  and C   Since no program can produce a mind  and  equivalent causal powers  produce minds  it follows that programs do not have  equivalent causal powers  
+ C   The way that human brains actually produce mental phenomena cannot be solely by virtue of running a computer program 
+Since programs do not have  equivalent causal powers    equivalent causal powers  produce minds  and brains produce minds  it follows that brains do not use programs to produce minds 
+Refutations of Searle s argument take many different forms  see below   Computationalists and functionalists reject A   arguing that  syntax   as Searle describes it  can have  semantics  if the syntax has the right functional structure  Eliminative materialists reject A   arguing that minds don t actually have  semantics  that thoughts and other mental phenomena are inherently meaningless but nevertheless function as if they had meaning 
+
+Replies edit 
+Replies to Searle s argument may be classified according to what they claim to show      m     
+
+Those which identify who speaks Chinese
+Those which demonstrate how meaningless symbols can become meaningful
+Those which suggest that the Chinese room should be redesigned in some way
+Those which contend that Searle s argument is misleading
+Those which argue that the argument makes false assumptions about subjective conscious experience and therefore proves nothing
+Some of the arguments  robot and brain simulation  for example  fall into multiple categories 
+
+Systems and virtual mind replies  finding the mind edit 
+These replies attempt to answer the question  since the man in the room does not speak Chinese  where is the mind that does  These replies address the key ontological issues of mind versus body and simulation vs  reality  All of the replies that identify the mind in the room are versions of  the system reply  
+
+System reply edit 
+The basic version of the system reply argues that it is the  whole system  that understands Chinese                  n      While the man understands only English  when he is combined with the program  scratch paper  pencils and file cabinets  they form a system that can understand Chinese   Here  understanding is not being ascribed to the mere individual  rather it is being ascribed to this whole system of which he is a part  Searle explains             
+Searle notes that  in this simple version of the reply  the  system  is nothing more than a collection of ordinary physical objects  it grants the power of understanding and consciousness to  the conjunction of that person and bits of paper              without making any effort to explain how this pile of objects has become a conscious  thinking being  Searle argues that no reasonable person should be satisfied with the reply  unless they are  under the grip of an ideology               In order for this reply to be remotely plausible  one must take it for granted that consciousness can be the product of an information processing  system   and does not require anything resembling the actual biology of the brain 
+Searle then responds by simplifying this list of physical objects  he asks what happens if the man memorizes the rules and keeps track of everything in his head  Then the whole system consists of just one object  the man himself  Searle argues that if the man does not understand Chinese then the system does not understand Chinese either because now  the system  and  the man  both describe exactly the same object             
+Critics of Searle s response argue that the program has allowed the man to have two minds in one head      who       If we assume a  mind  is a form of information processing  then the theory of computation can account for two computations occurring at once  namely     the computation for universal programmability  which is the function instantiated by the person and note taking materials independently from any particular program contents  and     the computation of the Turing machine that is described by the program  which is instantiated by everything including the specific program               The theory of computation thus formally explains the open possibility that the second computation in the Chinese Room could entail a human equivalent semantic understanding of the Chinese inputs  The focus belongs on the program s Turing machine rather than on the person s              However  from Searle s perspective  this argument is circular  The question at issue is whether consciousness is a form of information processing  and this reply requires that we make that assumption 
+More sophisticated versions of the systems reply try to identify more precisely what  the system  is and they differ in exactly how they describe it  According to these replies      who       the  mind that speaks Chinese  could be such things as  the  software   a  program   a  running program   a simulation of the  neural correlates of consciousness   the  functional system   a  simulated mind   an  emergent property   or  a virtual mind  
+
+Virtual mind reply edit 
+Marvin Minsky suggested a version of the system reply known as the  virtual mind reply       o      The term  virtual  is used in computer science to describe an object that appears to exist  in  a computer  or computer network  only because software makes it appear to exist  The objects  inside  computers  including files  folders  and so on  are all  virtual   except for the computer s electronic components  Similarly  Minsky that a computer may contain a  mind  that is virtual in the same sense as virtual machines  virtual communities and virtual reality 
+To clarify the distinction between the simple systems reply given above and virtual mind reply  David Cole notes that two simulations could be running on one system at the same time  one speaking Chinese and one speaking Korean  While there is only one system  there can be multiple  virtual minds   thus the  system  cannot be the  mind              
+Searle responds that such a mind is at best a simulation  and writes   No one supposes that computer simulations of a five alarm fire will burn the neighborhood down or that a computer simulation of a rainstorm will leave us all drenched               Nicholas Fearn responds that  for some things  simulation is as good as the real thing   When we call up the pocket calculator function on a desktop computer  the image of a pocket calculator appears on the screen  We don t complain that it isn t really a calculator  because the physical attributes of the device do not matter               The question is  is the human mind like the pocket calculator  essentially composed of information  where a perfect simulation of the thing just is the thing  Or is the mind like the rainstorm  a thing in the world that is more than just its simulation  and not realizable in full by a computer simulation  For decades  this question of simulation has led AI researchers and philosophers to consider whether the term  synthetic intelligence  is more appropriate than the common description of such intelligences as  artificial  
+These replies provide an explanation of exactly who it is that understands Chinese  If there is something besides the man in the room that can understand Chinese  Searle cannot argue that     the man does not understand Chinese  therefore     nothing in the room understands Chinese  This  according to those who make this reply  shows that Searle s argument fails to prove that  strong AI  is false      p     
+These replies  by themselves  do not provide any evidence that strong AI is true  however  They do not show that the system  or the virtual mind  understands Chinese  other than the hypothetical premise that it passes the Turing test  Searle argues that  if we are to consider Strong AI remotely plausible  the Chinese Room is an example that requires explanation  and it is difficult or impossible to explain how consciousness might  emerge  from the room or how the system would have consciousness  As Searle writes  the systems reply simply begs the question by insisting that the system must understand Chinese              and thus is dodging the question or hopelessly circular 
+
+Robot and semantics replies  finding the meaning edit 
+As far as the person in the room is concerned  the symbols are just meaningless  squiggles   But if the Chinese room really  understands  what it is saying  then the symbols must get their meaning from somewhere  These arguments attempt to connect the symbols to the things they symbolize  These replies address Searle s concerns about intentionality  symbol grounding and syntax vs  semantics 
+
+Robot reply edit 
+Suppose that instead of a room  the program was placed into a robot that could wander around and interact with its environment  This would allow a  causal connection  between the symbols and things they represent                  q      Hans Moravec comments   If we could graft a robot to a reasoning program  we wouldn t need a person to provide the meaning anymore  it would come from the physical world                   r     
+Searle s reply is to suppose that  unbeknownst to the individual in the Chinese room  some of the inputs came directly from a camera mounted on a robot  and some of the outputs were used to manipulate the arms and legs of the robot  Nevertheless  the person in the room is still just following the rules  and does not know what the symbols mean  Searle writes  he doesn t see what comes into the robot s eyes              
+
+Derived meaning edit 
+Some respond that the room  as Searle describes it  is connected to the world  through the Chinese speakers that it is  talking  to and through the programmers who designed the knowledge base in his file cabinet  The symbols Searle manipulates are already meaningful  they are just not meaningful to him                  s     
+Searle says that the symbols only have a  derived  meaning  like the meaning of words in books  The meaning of the symbols depends on the conscious understanding of the Chinese speakers and the programmers outside the room  The room  like a book  has no understanding of its own      t     
+
+Contextualist reply edit 
+Some have argued that the meanings of the symbols would come from a vast  background  of commonsense knowledge encoded in the program and the filing cabinets  This would provide a  context  that would give the symbols their meaning                  u     
+Searle agrees that this background exists  but he does not agree that it can be built into programs  Hubert Dreyfus has also criticized the idea that the  background  can be represented symbolically             
+To each of these suggestions  Searle s response is the same  no matter how much knowledge is written into the program and no matter how the program is connected to the world  he is still in the room manipulating symbols according to rules  His actions are syntactic and this can never explain to him what the symbols stand for  Searle writes  syntax is insufficient for semantics                   v     
+However  for those who accept that Searle s actions simulate a mind  separate from his own  the important question is not what the symbols mean to Searle  what is important is what they mean to the virtual mind  While Searle is trapped in the room  the virtual mind is not  it is connected to the outside world through the Chinese speakers it speaks to  through the programmers who gave it world knowledge  and through the cameras and other sensors that roboticists can supply 
+
+Brain simulation and connectionist replies  redesigning the room edit 
+These arguments are all versions of the systems reply that identify a particular kind of system as being important  they identify some special technology that would create conscious understanding in a machine   The  robot  and  commonsense knowledge  replies above also specify a certain kind of system as being important  
+
+Brain simulator reply edit 
+Suppose that the program simulated in fine detail the action of every neuron in the brain of a Chinese speaker                  w      This strengthens the intuition that there would be no significant difference between the operation of the program and the operation of a live human brain 
+Searle replies that such a simulation does not reproduce the important features of the brain its causal and intentional states  He is adamant that  human mental phenomena  are  dependent on actual physical chemical properties of actual human brains               Moreover  he argues 
+
+ I magine that instead of a monolingual man in a room shuffling symbols we have the man operate an elaborate set of water pipes with valves connecting them  When the man receives the Chinese symbols  he looks up in the program  written in English  which valves he has to turn on and off  Each water connection corresponds to a synapse in the Chinese brain  and the whole system is rigged up so that after doing all the right firings  that is after turning on all the right faucets  the Chinese answers pop out at the output end of the series of pipes 
+Now where is the understanding in this system  It takes Chinese as input  it simulates the formal structure of the synapses of the Chinese brain  and it gives Chinese as output  But the man certainly doesn t understand Chinese  and neither do the water pipes  and if we are tempted to adopt what I think is the absurd view that somehow the conjunction of man and water pipes understands  remember that in principle the man can internalize the formal structure of the water pipes and do all the  neuron firings  in his imagination             
+China brain edit 
+What if we ask each citizen of China to simulate one neuron  using the telephone system to simulate the connections between axons and dendrites  In this version  it seems obvious that no individual would have any understanding of what the brain might be saying                  x      It is also obvious that this system would be functionally equivalent to a brain  so if consciousness is a function  this system would be conscious 
+
+Brain replacement scenario edit 
+In this  we are asked to imagine that engineers have invented a tiny computer that simulates the action of an individual neuron  What would happen if we replaced one neuron at a time  Replacing one would clearly do nothing to change conscious awareness  Replacing all of them would create a digital computer that simulates a brain  If Searle is right  then conscious awareness must disappear during the procedure  either gradually or all at once   Searle s critics argue that there would be no point during the procedure when he can claim that conscious awareness ends and mindless simulation begins                  y          z       See Ship of Theseus for a similar thought experiment  
+
+Connectionist replies edit 
+Closely related to the brain simulator reply  this claims that a massively parallel connectionist architecture would be capable of understanding      aa      Modern deep learning is massively parallel and has successfully displayed intelligent behavior in many domains  Nils Nilsson argues that modern AI is using digitized  dynamic signals  rather than symbols of the kind used by AI in                   Here it is the sampled signal which would have the semantics  not the individual numbers manipulated by the program  This is a different kind of machine than the one that Searle visualized 
+Combination reply edit 
+This response combines the robot reply with the brain simulation reply  arguing that a brain simulation connected to the world through a robot body could have a mind             
+Many mansions   wait till next year reply edit 
+Better technology in the future will allow computers to understand                  ab      Searle agrees that this is possible  but considers this point irrelevant  Searle agrees that there may be other hardware besides brains that have conscious understanding 
+These arguments  and the robot or common sense knowledge replies  identify some special technology that would help create conscious understanding in a machine  They may be interpreted in two ways  either they claim     this technology is required for consciousness  the Chinese room does not or cannot implement this technology  and therefore the Chinese room cannot pass the Turing test or  even if it did  it would not have conscious understanding  Or they may be claiming that     it is easier to see that the Chinese room has a mind if we visualize this technology as being used to create it 
+In the first case  where features like a robot body or a connectionist architecture are required  Searle claims that strong AI  as he understands it  has been abandoned      ac      The Chinese room has all the elements of a Turing complete machine  and thus is capable of simulating any digital computation whatsoever  If Searle s room cannot pass the Turing test then there is no other digital technology that could pass the Turing test  If Searle s room could pass the Turing test  but still does not have a mind  then the Turing test is not sufficient to determine if the room has a  mind   Either way  it denies one or the other of the positions Searle thinks of as  strong AI   proving his argument 
+The brain arguments in particular deny strong AI if they assume that there is no simpler way to describe the mind than to create a program that is just as mysterious as the brain was  He writes  I thought the whole idea of strong AI was that we don t need to know how the brain works to know how the mind works               If computation does not provide an explanation of the human mind  then strong AI has failed  according to Searle 
+Other critics hold that the room as Searle described it does  in fact  have a mind  however they argue that it is difficult to see Searle s description is correct  but misleading  By redesigning the room more realistically they hope to make this more obvious  In this case  these arguments are being used as appeals to intuition  see next section  
+In fact  the room can just as easily be redesigned to weaken our intuitions  Ned Block s Blockhead argument             suggests that the program could  in theory  be rewritten into a simple lookup table of rules of the form  if the user writes S  reply with P and goto X   At least in principle  any program can be rewritten  or  refactored   into this form  even a brain simulation      ad      In the blockhead scenario  the entire mental state is hidden in the letter X  which represents a memory address a number associated with the next rule  It is hard to visualize that an instant of one s conscious experience can be captured in a single large number  yet this is exactly what  strong AI  claims  On the other hand  such a lookup table would be ridiculously large  to the point of being physically impossible   and the states could therefore be overly specific 
+Searle argues that however the program is written or however the machine is connected to the world  the mind is being simulated  by a simple step by step digital machine  or machines   These machines are always just like the man in the room  they understand nothing and do not speak Chinese  They are merely manipulating symbols without knowing what they mean  Searle writes   I can have any formal program you like  but I still understand nothing              
+
+Speed and complexity  appeals to intuition edit 
+The following arguments  and the intuitive interpretations of the arguments above  do not directly explain how a Chinese speaking mind could exist in Searle s room  or how the symbols he manipulates could become meaningful  However  by raising doubts about Searle s intuitions they support other positions  such as the system and robot replies  These arguments  if accepted  prevent Searle from claiming that his conclusion is obvious by undermining the intuitions that his certainty requires 
+Several critics believe that Searle s argument relies entirely on intuitions  Block writes  Searle s argument depends for its force on intuitions that certain entities do not think               Daniel Dennett describes the Chinese room argument as a misleading  intuition pump              and writes  Searle s thought experiment depends  illicitly  on your imagining too simple a case  an irrelevant case  and drawing the obvious conclusion from it              
+Some of the arguments above also function as appeals to intuition  especially those that are intended to make it seem more plausible that the Chinese room contains a mind  which can include the robot  commonsense knowledge  brain simulation and connectionist replies  Several of the replies above also address the specific issue of complexity  The connectionist reply emphasizes that a working artificial intelligence system would have to be as complex and as interconnected as the human brain  The commonsense knowledge reply emphasizes that any program that passed a Turing test would have to be  an extraordinarily supple  sophisticated  and multilayered system  brimming with  world knowledge  and meta knowledge and meta meta knowledge   as Daniel Dennett explains             
+
+Speed and complexity replies edit 
+Many of these critiques emphasize speed and complexity of the human brain      ae      which processes information at     billion operations per second  by some estimates               Several critics point out that the man in the room would probably take millions of years to respond to a simple question  and would require  filing cabinets  of astronomical proportions               This brings the clarity of Searle s intuition into doubt 
+An especially vivid version of the speed and complexity reply is from Paul and Patricia Churchland  They propose this analogous thought experiment   Consider a dark room containing a man holding a bar magnet or charged object  If the man pumps the magnet up and down  then  according to Maxwell s theory of artificial luminance  AL   it will initiate a spreading circle of electromagnetic waves and will thus be luminous  But as all of us who have toyed with magnets or charged balls well know  their forces  or any other forces for that matter   even when set in motion produce no luminance at all  It is inconceivable that you might constitute real luminance just by moving forces around               Churchland s point is that the problem is that he would have to wave the magnet up and down something like     trillion times per second in order to see anything              
+Stevan Harnad is critical of speed and complexity replies when they stray beyond addressing our intuitions  He writes  Some have made a cult of speed and timing  holding that  when accelerated to the right speed  the computational may make a phase transition into the mental  It should be clear that is not a counterargument but merely an ad hoc speculation  as is the view that it is all just a matter of ratcheting up to the right degree of  complexity                      af     
+Searle argues that his critics are also relying on intuitions  however his opponents  intuitions have no empirical basis  He writes that  in order to consider the  system reply  as remotely plausible  a person must be  under the grip of an ideology               The system reply only makes sense  to Searle  if one assumes that any  system  can have consciousness  just by virtue of being a system with the right behavior and functional parts  This assumption  he argues  is not tenable given our experience of consciousness 
+
+Other minds and zombies  meaninglessness edit 
+Several replies argue that Searle s argument is irrelevant because his assumptions about the mind and consciousness are faulty  Searle believes that human beings directly experience their consciousness  intentionality and the nature of the mind every day  and that this experience of consciousness is not open to question  He writes that we must  presuppose the reality and knowability of the mental                The replies below question whether Searle is justified in using his own experience of consciousness to determine that it is more than mechanical symbol processing  In particular  the other minds reply argues that we cannot use our experience of consciousness to answer questions about other minds  even the mind of a computer   the epiphenoma replies question whether we can make any argument at all about something like consciousness which can not  by definition  be detected by any experiment  and the eliminative materialist reply argues that Searle s own personal consciousness does not  exist  in the sense that Searle thinks it does 
+
+Other minds reply edit 
+The  Other Minds Reply  points out that Searle s argument is a version of the problem of other minds  applied to machines  There is no way we can determine if other people s subjective experience is the same as our own  We can only study their behavior  i e   by giving them our own Turing test   Critics of Searle argue that he is holding the Chinese room to a higher standard than we would hold an ordinary person                   ag     
+Nils Nilsson writes  If a program behaves as if it were multiplying  most of us would say that it is  in fact  multiplying  For all I know  Searle may only be behaving as if he were thinking deeply about these matters  But  even though I disagree with him  his simulation is pretty good  so I m willing to credit him with real thought               
+Turing anticipated Searle s line of argument  which he called  The Argument from Consciousness   in      and makes the other minds reply               He noted that people never consider the problem of other minds when dealing with each other  He writes that  instead of arguing continually over this point it is usual to have the polite convention that everyone thinks                The Turing test simply extends this  polite convention  to machines  He does not intend to solve the problem of other minds  for machines or people  and he does not think we need to      ah     
+
+Replies considering that Searle s  consciousness  is undetectable edit 
+If we accept Searle s description of intentionality  consciousness  and the mind  we are forced to accept that consciousness is epiphenomenal  that it  casts no shadow  i e  is undetectable in the outside world  Searle s  causal properties  cannot be detected by anyone outside the mind  otherwise the Chinese Room could not pass the Turing test the people outside would be able to tell there was not a Chinese speaker in the room by detecting their causal properties  Since they cannot detect causal properties  they cannot detect the existence of the mental  Thus  Searle s  causal properties  and consciousness itself is undetectable  and anything that cannot be detected either does not exist or does not matter 
+Mike Alder calls this the  Newton s Flaming Laser Sword Reply   He argues that the entire argument is frivolous  because it is non verificationist  not only is the distinction between simulating a mind and having a mind ill defined  but it is also irrelevant because no experiments were  or even can be  proposed to distinguish between the two              
+Daniel Dennett provides this illustration  suppose that  by some mutation  a human being is born that does not have Searle s  causal properties  but nevertheless acts exactly like a human being  This is a philosophical zombie  as formulated in the philosophy of mind  This new animal would reproduce just as any other human and eventually there would be more of these zombies  Natural selection would favor the zombies  since their design is  we could suppose  a bit simpler  Eventually the humans would die out  So therefore  if Searle is right  it is most likely that human beings  as we see them today  are actually  zombies   who nevertheless insist they are conscious  It is impossible to know whether we are all zombies or not  Even if we are all zombies  we would still believe that we are not              
+
+Eliminative materialist reply edit 
+Several philosophers argue that consciousness  as Searle describes it  does not exist  Daniel Dennett describes consciousness as a  user illusion               
+This position is sometimes referred to as eliminative materialism  the view that consciousness is not a concept that can  enjoy reduction  to a strictly mechanical description  but rather is a concept that will be simply eliminated once the way the material brain works is fully understood  in just the same way as the concept of a demon has already been eliminated from science rather than enjoying reduction to a strictly mechanical description  Other mental properties  such as original intentionality  also called  meaning    content   and  semantic character    are also commonly regarded as special properties related to beliefs and other propositional attitudes  Eliminative materialism maintains that propositional attitudes such as beliefs and desires  among other intentional mental states that have content  do not exist  If eliminative materialism is the correct scientific account of human cognition then the assumption of the Chinese room argument that  minds have mental contents  semantics   must be rejected              
+Searle disagrees with this analysis and argues that  the study of the mind starts with such facts as that humans have beliefs  while thermostats  telephones  and adding machines don t     what we wanted to know is what distinguishes the mind from thermostats and livers               He takes it as obvious that we can detect the presence of consciousness and dismisses these replies as being off the point 
+
+Other replies edit 
+Margaret Boden argued in her paper  Escaping from the Chinese Room  that even if the person in the room does not understand the Chinese  it does not mean there is no understanding in the room  The person in the room at least understands the rule book used to provide output responses  She then points out that the same applies to machine languages  a natural language sentence is understood by the programming language code that instantiates it  which in turn is understood by the lower level compiler code  and so on  This implies that the distinction between syntax and semantics is not fixed  as Searle presupposes  but relative  the semantics of natural language is realized in the syntax of programming language  the semantics of programming language has a semantics that is realized in the syntax of compiler code  Searle s problem is a failure to assume a binary notion of understanding or not  rather than a graded one  where each system is stupider than the next               
+
+Carbon chauvinism edit 
+Searle conclusion that  human mental phenomena  are  dependent on actual physical chemical properties of actual human brains              have been sometimes described as a form of  Carbon chauvinism                Steven Pinker suggested that a response to that conclusion would be to make a counter thought experiment to the Chinese Room  where the incredulity goes the other way               He brings as an example the short story They re Made Out of Meat which depicts an alien race composed of some electronic beings who upon finding Earth express disbelief that the meat brain of humans can experience consciousness and thought              
+However  Searle himself denied being  Carbon chauvinist                He said  I have not tried to show that only biological based systems like our brains can think        I regard this issue as up for grabs                He said that even silicon machines could theoretically have human like consciousness and thought  if the actual physical chemical properties of silicon could be used in a way that can produce consciousness and thought  but  until we know how the brain does it we are not in a position to try to do it artificially               
+
+See also edit 
+Computational models of language acquisition
+Emergence
+I Am a Strange Loop
+Synthetic intelligence
+Leibniz s gap
+ELIZA
+Notes edit 
+
+
+  a b c See        Consciousness  which discusses the relationship between the Chinese room argument and consciousness 
+
+  Not to be confused with artificial general intelligence  which is also sometimes referred to as  strong AI   See        Strong AI vs  AI research 
+
+  a b This version is from Searle s Mind  Language and Society             and is also quoted in Daniel Dennett s Consciousness Explained              Searle s original formulation was  The appropriately programmed computer really is a mind  in the sense that computers given the right programs can be literally said to understand and have other cognitive states               Strong AI is defined similarly by Stuart J  Russell and Peter Norvig   weak AI the idea machines could act a as if they were intelligent and strong AI the assertions that do so are actually consciously thinking  not just simulating thinking               
+
+  Note that Leibniz  was objecting to a  mechanical  theory of the mind  the philosophical position known as mechanism   Searle is objecting to an  information processing  view of the mind  the philosophical position known as  computationalism    Searle accepts mechanism and rejects computationalism 
+
+  Harnad edited the journal during the years which saw the introduction and popularisation of the Chinese Room argument 
+
+  a b Harnad holds that the Searle s argument is against the thesis that  has since come to be called  computationalism   according to which cognition is just computation  hence mental states are just computational states               David Cole agrees that  the argument also has broad implications for functionalist and computational theories of meaning and of mind              
+
+  Searle believes that  strong AI only makes sense given the dualistic assumption that  where the mind is concerned  the brain doesn t matter                He writes elsewhere   I thought the whole idea of strong AI was that we don t need to know how the brain works to know how the mind works                This position owes its phrasing to Stevan Harnad             
+
+   One of the points at issue   writes Searle   is the adequacy of the Turing test              
+
+  Computationalism is associated with Jerry Fodor and Hilary Putnam              and is held by Allen Newell              Zenon Pylyshyn             and Steven Pinker              among others 
+
+  Larry Hauser writes that  biological naturalism is either confused  waffling between identity theory and dualism  or else it just is identity theory or dualism              
+
+  The wording of each axiom and conclusion are from Searle s presentation in Scientific American                           A     and  C   are described as       and   in David Cole             
+
+  Paul and Patricia Churchland write that the Chinese room thought experiment is intended to  shore up axiom                 
+
+  David Cole combines the second and third categories  as well as the fourth and fifth             
+
+  Versions of the system reply are held by Ned Block  Jack Copeland  Daniel Dennett  Jerry Fodor  John Haugeland  Ray Kurzweil  and Georges Rey  among others             
+
+  The virtual mind reply is held by Minsky                           Tim Maudlin  David Chalmers and David Cole             
+
+  David Cole writes  From the intuition that in the CR thought experiment he would not understand Chinese by running a program  Searle infers that there is no understanding created by running a program  Clearly  whether that inference is valid or not turns on a metaphysical question about the identity of persons and minds  If the person understanding is not identical with the room operator  then the inference is unsound              
+
+  This position is held by Margaret Boden  Tim Crane  Daniel Dennett  Jerry Fodor  Stevan Harnad  Hans Moravec  and Georges Rey  among others             
+
+   David Cole calls this the  externalist  account of meaning             
+
+  The derived meaning reply is associated with Daniel Dennett and others 
+
+  Searle distinguishes between  intrinsic  intentionality and  derived  intentionality   Intrinsic  intentionality is the kind that involves  conscious understanding  like you would have in a human mind  Daniel Dennett doesn t agree that there is a distinction  David Cole writes  derived intentionality is all there is  according to Dennett              
+
+  David Cole describes this as the  internalist  approach to meaning              Proponents of this position include Roger Schank  Doug Lenat  Marvin Minsky and  with reservations  Daniel Dennett  who writes  The fact is that any program  that passed a Turing test  would have to be an extraordinarily supple  sophisticated  and multilayered system  brimming with  world knowledge  and meta knowledge and meta meta knowledge               
+
+  Searle also writes  Formal symbols by themselves can never be enough for mental contents  because the symbols  by definition  have no meaning  or interpretation  or semantics  except insofar as someone outside the system gives it to them              
+
+  The brain simulation reply has been made by Paul Churchland  Patricia Churchland and Ray Kurzweil             
+
+  Early versions of this argument were put forward in      by Lawrence Davis and in      by Ned Block  Block s version used walkie talkies and was called the  Chinese Gym   Paul and Patricia Churchland described this scenario as well             
+
+  An early version of the brain replacement scenario was put forward by Clark Glymour in the mid   s and was touched on by Zenon Pylyshyn in       Hans Moravec presented a vivid version of it              and it is now associated with Ray Kurzweil s version of transhumanism 
+
+  Searle does not consider the brain replacement scenario as an argument against the CRA  however in another context  Searle examines several possible solutions  including the possibility that  you find  to your total amazement  that you are indeed losing control of your external behavior  You find  for example  that when doctors test your vision  you hear them say  We are holding up a red object in front of you  please tell us what you see   You want to cry out  I can t see anything  I m going totally blind   But you hear your voice saying in a way that is completely outside of your control   I see a red object in front of me          Y our conscious experience slowly shrinks to nothing  while your externally observable behavior remains the same              
+
+  The connectionist reply is made by Andy Clark and Ray Kurzweil              as well as Paul and Patricia Churchland             
+
+  Searle        uses the name  Wait  Til Next Year Reply  
+
+  Searle writes that the robot reply  tacitly concedes that cognition is not solely a matter of formal symbol manipulation                Stevan Harnad makes the same point  writing   Now just as it is no refutation  but rather an affirmation  of the CRA to deny that  the Turing test  is a strong enough test  or to deny that a computer could ever pass it  it is merely special pleading to try to save computationalism by stipulating ad hoc  in the face of the CRA  that implementational details do matter after all  and that the computer s is the  right  kind of implementation  whereas Searle s is the  wrong  kind              
+
+  That is  any program running on a machine with a finite amount memory 
+
+  Speed and complexity replies are made by Daniel Dennett  Tim Maudlin  David Chalmers  Steven Pinker  Paul Churchland  Patricia Churchland and others              Daniel Dennett points out the complexity of world knowledge             
+
+  Critics of the  phase transition  form of this argument include Stevan Harnad  Tim Maudlin  Daniel Dennett and David Cole              This  phase transition  idea is a version of strong emergentism  what Dennett derides as  Woo woo West Coast emergence                 Harnad accuses Churchland and Patricia Churchland of espousing strong emergentism  Ray Kurzweil also holds a form of strong emergentism              
+
+  The  other minds  reply has been offered by Dennett  Kurzweil and Hans Moravec  among others              
+
+  One of Turing s motivations for devising the Turing test is to avoid precisely the kind of philosophical problems that Searle is interested in  He writes  I do not wish to give the impression that I think there is no mystery      but  I do not think these mysteries necessarily need to be solved before we can answer the question with which we are concerned in this paper               
+
+
+Citations edit 
+
+
+  a b Searle      
+
+  a b Harnad       p         
+
+  Roberts      
+
+  a b c d e f g h Searle       p          
+
+  a b c Searle       p          
+
+  a b c Russell  amp  Norvig       p           
+
+  Russell  amp  Norvig       section  Biological naturalism and the Chinese Room  
+
+   The Chinese Room Argument   Stanford Encyclopedia of Philosophy       
+
+  Cole            Leibniz       section    
+
+   A Russian Chinese Room story antedating Searle s      discussion   Center for Consciousness Studies  June           archived from the original on             retrieved           
+
+  Cole           
+
+  Cole       p          Preston  amp  Bishop     
+
+  a b Harnad       p         
+
+  Harnad       p          Cole       p        
+
+  Akman      
+
+  Harnad       p         
+
+  Cole       p         
+
+  Searle       p            page      needed      
+
+  Dennett       p           
+
+  a b Searle       p         
+
+  a b Russell  amp  Norvig       p           
+
+  Searle       p         
+
+  Quoted in McCorduck       p           
+
+  Quoted in Crevier       p         
+
+  Haugeland       p               Italics his 
+
+  a b c d Searle       p          
+
+  a b c Searle       p         
+
+  a b c d Harnad      
+
+  a b c d e f g Searle       p         
+
+  Searle       p          
+
+  Harnad       p               Italics his 
+
+  Horst       p         
+
+  Pinker      
+
+  Harnad       pp           
+
+  Goldstein  amp  Levinstein      
+
+  Chalmers      
+
+  a b Searle     a  p          
+
+  Searle     b 
+
+  a b c Hauser       p         
+
+  Searle       chpt    
+
+  Searle      
+
+  Chalmers       p           
+
+  McGinn      
+
+  Searle       p           
+
+  Hew      
+
+  Kurzweil       p           
+
+  Saygin  Cicekli  amp  Akman      
+
+  a b Turing      
+
+  Newell  amp  Simon       p           
+
+  Russell  amp  Norvig       p          
+
+  a b Nilsson      
+
+  Turing       p           
+
+  a b Harnad       p          
+
+  Ben Yami      
+
+  Searle       Searle     a 
+
+  a b Searle     a 
+
+  Hauser       p         
+
+  Cole       p         
+
+  Churchland  amp  Churchland       p          
+
+  Cole       pp           
+
+  Searle       pp            Cole       pp            Hauser       pp             Dennett       p            Fearn       p           Crevier       p           
+
+  Cole       p         
+
+  Yee       p      footnote   
+
+  Yee       pp             
+
+  Minsky       p           
+
+  Cole       p         
+
+  Cole       pp           
+
+  Cole       p         
+
+  Searle       p          
+
+  Fearn       p          
+
+  Cole       p          
+
+  Searle       p          Cole       pp             Hauser       p          Fearn       p          
+
+  Cole       p         
+
+  Quoted in Crevier       p          
+
+  a b c Cole       p          
+
+  a b c Searle       p         
+
+  Hauser       p           Cole       p          
+
+  Cole       p          
+
+  a b c Dennett       p           
+
+  Dreyfus        The epistemological assumption  
+
+  Searle      
+
+  Motzkin  amp  Searle       p          
+
+  Searle       pp            Cole       pp              Hauser       pp            Churchland  amp  Churchland      
+
+  Cole       p          
+
+  Searle       p            page      needed      
+
+  Cole       p          Hauser       p          
+
+  a b Churchland  amp  Churchland      
+
+  Cole       p           Moravec       Kurzweil       p            Crevier       pp           and     
+
+  Moravec      
+
+  Searle      
+
+  Cole       pp           amp     
+
+  Hauser       p         
+
+  Searle       pp            Hauser       p          
+
+  Block      
+
+  Searle       p         
+
+  Quoted in Cole       p          
+
+  a b Dennett       pp               
+
+  a b Cole       p          
+
+  Crevier       p           
+
+  Cole       pp              Crevier       pp                Pinker       p          
+
+  Churchland  amp  Churchland       Cole       p           Crevier       p            Fearn       pp              Pinker       p          
+
+  Harnad       p         
+
+  Crevier       p           
+
+  Kurzweil      
+
+  Searle       p          
+
+  Searle       p          Cole       p           Hauser       pp            Nilsson      
+
+  Cole       pp             
+
+  Nilsson      
+
+  Turing       pp             
+
+  Turing       p          
+
+  Turing       p          
+
+  Alder      
+
+  Cole       p           Crevier       p            Harnad       p         
+
+  Dennett            page      needed      
+
+  Ramsey      
+
+  Boden  Margaret A           Escaping from the chinese room   in Heil  John  ed    Computer Models of Mind  Cambridge University Press  ISBN                       
+
+  Graham       p           
+
+  Pinker       p             
+
+  Bisson  Terry          They re Made Out of Meat   Archived from the original on             Retrieved            
+
+  Vicari  Giuseppe         Beyond Conceptual Dualism  Ontology of Consciousness  Mental Causation  and Holism in John R  Searle s Philosophy of Mind  Rodopi  p           ISBN                        
+
+  Fellows  Roger         Philosophy and Technology  Cambridge University Press  p           ISBN                        
+
+  Preston  amp  Bishop       p           
+
+
+References edit 
+
+Akman  Varol         Book Review   John Haugeland  editor   Mind Design II  Philosophy  Psychology  and Artificial Intelligence  archived from the original on             retrieved                    via Cogprints
+Alder  Mike          Newton s Flaming Laser Sword   Philosophy Now  vol           pp              archived from the original on            Also available at Newton s Flaming Laser Sword  PDF   archived from the original  PDF  on           
+Ben Yami  Hanoch          A Note on the Chinese Room   Synthese                  doi         bf          S CID              
+Block  Ned          Psychologism and Behaviourism   The Philosophical Review                CiteSeerX                     doi                  JSTOR               archived from the original on             retrieved           
+Chalmers  David  March            The Conscious Mind  In Search of a Fundamental Theory  Oxford University Press  ISBN                       
+Chalmers  David         Could a Large Language Model Be Conscious 
+Churchland  Paul  Churchland  Patricia  January         Could a machine think    Scientific American                  Bibcode     SciAm    a    C  doi         scientificamerican         PMID             
+Cole  David  Fall         The Chinese Room Argument   in Zalta  Edward N   ed    The Stanford Encyclopedia of Philosophy  archived from the original on             retrieved            Page numbers refer to the PDF of the article 
+Crevier  Daniel         AI  The Tumultuous Search for Artificial Intelligence  New York  NY  BasicBooks  ISBN                    
+Dennett  Daniel         Consciousness Explained  Penguin  ISBN                       
+Dreyfus  Hubert         What Computers Still Can t Do  New York  MIT Press  ISBN                       
+Fearn  Nicholas         The Latest Answers to the Oldest Questions  A Philosophical Adventure with the World s Greatest Thinkers  New York  Grove Press
+Goldstein  S   Levinstein  B          Does ChatGPT have a mind 
+Graham  Alan         Artificial Intelligence  An Introduction  Routledge  ISBN                       
+Harnad  Stevan          What s Wrong and Right About Searle s Chinese Room Argument   in M   Preston  J   eds    Views into the Chinese Room  New Essays on Searle and Artificial Intelligence  Oxford University Press  archived from the original on             retrieved            Page numbers refer to the PDF of the article 
+Harnad  Stevan          Searle s Chinese Room Argument   Encyclopedia of Philosophy  Macmillan  archived from the original on             retrieved            Page numbers refer to the PDF of the article 
+Haugeland  John         Artificial Intelligence  The Very Idea  Cambridge  MA  MIT Press  ISBN                       
+Haugeland  John         Mind Design  Cambridge  MA  MIT Press  ISBN                       
+Hauser  Larry          Searle s Chinese Room   Internet Encyclopedia of Philosophy  archived from the original on             retrieved            Page numbers refer to the PDF of the article 
+Hew  Patrick Chisan  September         Preserving a combat commander s moral agency  The Vincennes Incident as a Chinese Room   Ethics and Information Technology                   doi         s               y  S CID                archived from the original on             retrieved           
+Kurzweil  Ray         The Singularity is Near  Viking
+Horst  Steven  Fall         The Computational Theory of Mind   in Zalta  Edward N   ed    The Stanford Encyclopedia of Philosophy  archived from the original on             retrieved           
+Leibniz  Gottfried         Monadology  translated by Ross  George MacDonald  archived from the original on           
+Moravec  Hans         Mind Children  The Future of Robot and Human Intelligence  Harvard University Press
+Minsky  Marvin          Decentralized Minds   Behavioral and Brain Sciences                 doi         S       X          S CID               
+McCorduck  Pamela         Machines Who Think   nd      ed    Natick  MA  A  K  Peters  ISBN                   
+McGinn  Collin         The Mysterious Flame  Conscious Minds In A Material World  Basic  p            ISBN                    
+Moor  James  ed          The Turing Test  The Elusive Standard of Artificial Intelligence  Dordrecht  Kluwer  ISBN                       
+Motzkin  Elhanan  Searle  John  February             Artificial Intelligence and the Chinese Room  An Exchange   New York Review of Books          archived from the original on             retrieved           
+Newell  Allen  Simon  H  A           Computer Science as Empirical Inquiry  Symbols and Search   Communications of the ACM  vol           no          pp                doi                      
+Nikoli   Danko          Practopoiesis  Or how life fosters a mind   Journal of Theoretical Biology              arXiv            Bibcode     JThBi         N  doi         j jtbi              PMID                S CID              
+Nilsson  Nils         A Short Rebuttal to Searle  PDF   archived  PDF  from the original on             retrieved           
+Nilsson  Nils         Lungarella  M   ed     The Physical Symbol System Hypothesis  Status and Prospects   PDF      Years of AI  Festschrift  LNAI       Springer  pp             archived  PDF  from the original on             retrieved           
+Pinker  Steven         How the Mind Works  New York  W  W  Norton  ISBN                       
+Preston  John  Bishop  Mark  eds          Views into the Chinese Room  New Essays on Searle and Artificial Intelligence  Oxford University Press  ISBN                       
+Ramsey  William  Spring         Eliminative Materialism   in Edward N  Zalta  ed    The Stanford Encyclopedia of Philosophy  Metaphysics Research Lab  Stanford University  archived from the original on             retrieved           
+Roberts  Jacob          Thinking Machines  The Search for Artificial Intelligence   Distillations  vol          no          pp              archived from the original on             retrieved           
+Russell  Stuart J   Norvig  Peter         Artificial Intelligence  A Modern Approach   th      ed    Hoboken  NJ  Pearson  ISBN                       
+Saygin  A  P   Cicekli  I   Akman  V           Turing Test     Years Later   PDF   Minds and Machines                   doi         A                hdl              S CID              archived from the original  PDF  on             retrieved             Reprinted in Moor        pp              
+Searle  John          Minds  Brains and Programs   Behavioral and Brain Sciences                  doi         S       X          archived from the original on             retrieved            Page numbers refer to the PDF of the article  See also Searle s original draft 
+Searle  John          Can Computers Think    in Chalmers  David  ed    Philosophy of Mind  Classical and Contemporary Readings  Oxford University Press  pp                ISBN                       
+Searle  John         Minds  Brains and Science  The      Reith Lectures  Harvard University Press  ISBN                       
+Searle  John  January         Is the Brain s Mind a Computer Program    Scientific American                  Bibcode     SciAm    a    S  doi         scientificamerican         PMID             
+Searle  John  November         Is the Brain a Digital Computer    Proceedings and Addresses of the American Philosophical Association                 doi                  JSTOR               archived from the original on           
+Searle  John         The Rediscovery of the Mind  Cambridge  MA  MIT Press  ISBN                       
+Searle  John         Mind  language and society  New York  Basic  ISBN                         OCLC               
+Searle  John  November           Mind  a brief introduction  Oxford University Press  ISBN                       
+Searle  John         Consciousness and Language  Cambridge University Press  p           ISBN                       
+Searle  John          Chinese room argument   Scholarpedia               Bibcode     SchpJ         S  doi         scholarpedia     
+ ekrst  Kristina          Chinese Chat Room  AI Hallucinations  Epistemology and Cognition   Studies in Logic  Grammar and Rhetoric           doi         slgr          
+Steiner  Philip  October             Modern Hard SF  Simulating Physics in Virtual Reality in Cixin Liu s  The Three Body Problem    Lublin Studies in Modern Languages and Literature                 doi          lsmll                  S CID                 archived from the original on             retrieved            Page numbers refer to the PDF of the article 
+Turing  Alan  October         Computing Machinery and Intelligence   Mind                     doi         mind LIX          ISSN                 JSTOR               S CID               
+Whitmarsh  Patrick           Imagine You re a Machine   Narrative Systems in Peter Watts s Blindsight and Echopraxia   Science Fiction Studies  vol           no          pp                doi         sciefictstud          
+Yee  Richard          Turing Machines And Semantic Symbol Processing  Why Real Computers Don t Mind Chinese Emperors   PDF   Lyceum  vol          no          pp              archived from the original on             retrieved            Page numbers refer to the PDF of the article 
+ ekrst  Kristina          Do Large Language Models Hallucinate Electric Fata Morganas    Journal of Consciousness Studies
+
+Further reading edit 
+
+
+
+Wikibooks has a book on the topic of  Consciousness Studies
+
+Hauser  Larry   Chinese Room Argument   Internet Encyclopedia of Philosophy  ISSN                 retrieved           
+Cole  David          The Chinese Room Argument   in Zalta  Edward N   Nodelman  Uri  eds    Stanford Encyclopedia of Philosophy  Summer           ed    Metaphysics Research Lab  Stanford University  ISSN               
+Works involving Searle edit 
+Searle  John          Chinese room argument   Scholarpedia  vol            p             Bibcode     SchpJ         S  doi         scholarpedia       ISSN               
+                       October            What Your Computer Can t Know   The New York Review of Books  vol           no           ISSN               
+Reviews Bostrom  Nick         Superintelligence  Paths  Dangers  Strategies  Oxford University Press  ISBN                         cite book     CS  maint  postscript  link  and Floridi  Luciano         The  th Revolution  How the Infosphere Is Reshaping Human Reality  Oxford University Press  ISBN                       
+The Chinese Room Argument  part   of the September         interview with Searle Philosophy and the Habits of Critical Thinking Archived            at the Wayback Machine in the Conversations With History series
+vtePhilosophy of mindPhilosophers
+G  E  M  Anscombe
+Aristotle
+Armstrong
+Thomas Aquinas
+J  L  Austin
+Alexander Bain
+George Berkeley
+Henri Bergson
+Ned Block
+Franz Brentano
+C  D  Broad
+Tyler Burge
+David Chalmers
+Patricia Churchland
+Paul Churchland
+Andy Clark
+Dharmakirti
+Donald Davidson
+Daniel Dennett
+Ren  Descartes
+Fred Dretske
+Fodor
+Goldman
+Martin Heidegger
+David Hume
+Edmund Husserl
+William James
+Frank Cameron Jackson
+Immanuel Kant
+David Lewis  philosopher 
+John Locke
+Gottfried Wilhelm Leibniz
+Maurice Merleau Ponty
+Marvin Minsky
+Thomas Nagel
+Alva No 
+Derek Parfit
+Plato
+Hilary Putnam
+Richard Rorty
+Gilbert Ryle
+John Searle
+Wilfrid Sellars
+Baruch Spinoza
+Alan Turing
+Michael Tye
+Vasubandhu
+Ludwig Wittgenstein
+Stephen Yablo
+Zhuangzi
+more   
+Theories
+Behaviorism
+Biological naturalism
+Dualism
+Eliminative materialism
+Emergent materialism
+Epiphenomenalism
+Functionalism
+Interactionism
+Na ve realism
+Neurophenomenology
+Neutral monism
+New mysterianism
+Nondualism
+Occasionalism
+Parallelism
+Phenomenalism
+Phenomenology
+Physicalism
+Type physicalism
+Property dualism
+Representational
+Solipsism
+Substance dualism
+Concepts
+Abstract object
+Chinese room
+Creativity
+Cognition
+Cognitive closure
+Concept
+Consciousness
+Hard problem of consciousness
+Hypostatic abstraction
+Idea
+Identity
+Intelligence
+Artificial
+Human
+Intentionality
+Introspection
+Intuition
+Language of thought
+Mental event
+Mental image
+Mental process
+Mental property
+Mental representation
+Mind
+Mind body problem
+Pain
+Problem of other minds
+Propositional attitude
+Qualia
+Tabula rasa
+Understanding
+Zombie
+Related
+Metaphysics
+Philosophy of artificial intelligence            information            perception            self
+
+Category
+Philosophers category
+Project
+Task Force
+
+Authority control databases  National Germany
+
+
+
+
+
+Retrieved from  https   en wikipedia org w index php title Chinese room amp oldid

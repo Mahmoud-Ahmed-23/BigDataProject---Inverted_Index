@@ -1,0 +1,197 @@
+GPU chips used in AI are noted to require more energy and cooling compared to a traditional CPU chip 
+The environmental impact of artificial intelligence includes substantial energy consumption for training and using deep learning models  and the related carbon footprint and water usage             Some scientists have suggested that artificial intelligence  AI  may also provide solutions to environmental problems 
+
+
+Carbon footprint edit 
+AI has a significant carbon footprint due to growing energy usage  especially due to training and usage                        Researchers have argued that the carbon footprint of AI models during training should be considered when attempting to understand the impact of AI             One study suggested that by       energy costs for AI could increase to        Twh  nearly      of all current electricity usage                        Training large language models  LLMs  and other generative AI generally requires much more energy compared to running a single prediction on the trained model             Using a trained model repeatedly  though  may easily multiply the energy costs of predictions             The computation required to train the most advanced AI models doubles every     months on average  leading to exponential power usage and resulting carbon footprint             Additionally  artificial intelligence algorithms running in places predominantly using fossil fuels for energy will exert a much higher carbon footprint than places with cleaner energy sources             These models may be modified for less environmental impacts at the cost of accuracy  emphasizing the importance of finding the balance between accuracy and environmental impact 
+Training a large AI model requires enormous amounts of energy  It is estimated that training a whole AI model produces around         lbs      Tons  of carbon dioxide  It is the equivalent of     round trip flights between New York and San Francisco  or nearly   times the lifetime emissions of the average car            
+BERT  a language model trained in       required  the energy of a round trip transcontinental flight  to train              GPT   released     metric tons of carbon dioxide into the atmosphere during training   the equivalent of     gasoline powered passenger vehicles driven for one year                                       Much of the energy cost is due to inefficient model architectures and processors              One model named BLOOM  from Hugging Face  trained with more efficient chips and  therefore  only released    metric tons of CO               Incorporating the energy cost of manufacturing the chips for the system doubled the carbon footprint  to  the equivalent of around    flights between London and New York               Operating BLOOM daily was estimated to release the equivalent carbon footprint as driving    miles             
+Algorithms which have lower energy costs but run millions of times a day can also have significant carbon footprints              The integration of AI into search engines could multiply energy costs significantly                          with some estimates suggesting energy costs rising to nearly    billion kWh per year  an energy footprint larger than many countries              Another estimate found that integrating ChatGPT into every Google search query would use    TWh each year  the equivalent yearly energy usage of     million European Union residents             
+Once the model is trained  it consumes significantly less energy  however it still requires a high amount of electricity  Researchers have estimated that a ChatGPT query consumes about five times more electricity than a simple web search             
+Increased computational demands from AI caused both increased water and energy usage  leading to significantly more demands on the grid              Due to increased energy demands from AI related projects  coal fired plants in Kansas City             and West Virginia            pushed back closing  Other coal fired plants in the Salt Lake City region have pushed back retirement of their coal fired plants by up to a decade              Environmental debates have raged in both Virginia and France about whether a  moratorium  should be called for additional data centers              In      at the World Economic Forum  OpenAI executive Sam Altman gave a speech in which he said that the AI industry can only grow if there is a major technology breakthrough to increase energy development                                      
+In       Google failed to reach key goals from their net zero plan as a result of their work with AI                          and had a     increase in greenhouse gas emission attributable to their growth in AI                         Microsoft and Meta had similar increases in their carbon footprint  similarly attributed to AI             Carbon footprints of AI models depends on the energy source used  with data centers using renewable energy lowering their footprint             Many tech companies claim to offset energy usage by buying energy from renewable sources  though some experts argue that utilities simply replace the claimed renewable energy with increased non renewable sources for their other customers              Analysis of the carbon footprint of AI models remains difficult to determine  as they are aggregated as part of datacenter carbon footprints  and some models may help reduce carbon footprints of other industries              or due to differences in reporting from companies             
+Some applications of ML  such as for fossil fuel discovery and exploration  may worsen climate change                         Use of AI for personalized marketing online may also lead to increased consumption of goods  which could also increase global emissions             
+
+Energy use and efficiency edit 
+AI chips   i e  GPUs  use more energy and emit more heat than traditional CPU chips             AI models with inefficiently implemented architectures  or trained on less efficient chips may use more energy              Since the      s the energy efficiency of computation has doubled every     years              Some skeptics argue that improvements of AI efficiency may only increase AI usage and therefore carbon footprint due to Jevons paradox             
+
+Chart depicting the effect of the Jevons Paradox 
+The Jevons Paradox  formulated by economist William Stanley Jevons in       posits that technological advancements that increase the efficiency of resource use can paradoxically lead to an overall increase in resource consumption  This occurs because efficiency gains often reduce the cost of using a resource  which can boost demand and potentially offset the savings achieved through improved efficiency                  better      source      needed     
+In the context of AI  as models become more efficient and cost effective  their adoption may become more widespread  leading to greater overall energy consumption  For instance  the development of AI models like DeepSeek  which operate at a fraction of the cost of their predecessors  has sparked discussions about the applicability of the Jevons Paradox to AI infrastructure             
+In September       Microsoft announced an agreement with Constellation Energy to re open the Three Mile Island nuclear power plant to provide Microsoft with      of all electric power produced by the plant for    years  Reopening the plant  which suffered a partial nuclear meltdown of its Unit   reactor in       will require Constellation to get through strict regulatory processes which will include extensive safety scrutiny from the US Nuclear Regulatory Commission  If approved  this will be the first ever US re commissioning of a nuclear plant   over     megawatts of power   enough for         homes   of energy will be produced  The cost for re opening and upgrading is estimated at      billion  US  and is dependent on tax breaks for nuclear power contained in the      US Inflation Reduction Act              The US government and the state of Michigan are investing almost    billion  US  to reopen the Palisades Nuclear Reactor on Lake Michigan  Closed since       the plant is planned to be reopened in October       The Three Mile Island facility will be renamed the Crane Clean Energy Center after Chris Crane  a nuclear proponent and former CEO of Exelon who was responsible for Exelon spinoff of Constellation             
+In       Microsoft unveiled plans to invest     billion in the development and expansion of data centers designed to support AI technologies  These facilities  critical to the advancement of AI  depend on vast networks of interconnected chip clusters and significant electrical power to operate efficiently             
+The International Energy Agency  IEA  released its      Electricity Analysis and Forecast in February       projecting    growth in global electricity demand over the next three years due to data center growth  increased industrial production  increased electrification  and increased use of air conditioning  By       the US s energy consumption is expected to grow by an amount equivalent to California s entire annual power usage  largely driven by energy hungry data centers and manufacturing operations  In       U S  electricity generation rose by     with data centers emerging as a dominant force behind the increase  The trend is expected to continue as semiconductor and battery manufacturing plants ramp up operations  further intensifying demand             
+In       a US public policy group reported that AI and other technologies and industries poised to dominate the global economy are characterized by their high electricity demands  As such  the foundation of US energy strategy and policymaking will be to prioritize the reliable and abundant provision of electricity to support these critical sectors  which are needed to maintain the US economic and technological leadership in the twenty first century              The rapid proliferation of AI has created unprecedented demand for electrical power  presenting a major obstacle to the sector s growth  E g   in Northern Virginia  the largest global hub for AI data centers  the timeline for connecting bigger facilities those requiring over     megawatts of power to the electrical grid has extended to seven years  highlighting the strain on the energy infrastructure and the challenge of meeting AI s escalating power needs  Across the United States  utilities are experiencing the most substantial surge in electrical demand in decades  This strain is directly contributing to longer wait times for grid connections  complicating efforts to maintain the country s technological leadership in AI  The significance of these energy challenges extends beyond logistics              A New York Times editorial emphasized the critical role of energy infrastructure  stating that  Electricity is more than just a utility  it s the bedrock of the digital era  If the United States truly wants to secure its leadership in A I   it must equally invest in the energy systems that power it              
+Globally  the electricity consumption of data centers rose to     terawatts in       This would have made data centers the   th largest electricity consumer in the world  between the nations of Saudi Arabia      terawatts  and France      terawatts   according to the Organization for Economic Co operation and Development            
+
+Water usage edit 
+Equinix AM   amp  AM  in Amsterdam  Netherlands
+Cooling AI servers can demand large amounts of fresh water which is evaporated in cooling towers                          In fact  data centers housing AI are globally expected to consume six times more water than the country of Denmark              By       AI may use up to     billion cubic meters of water              One professor has estimated that an average session on ChatGPT  with       responses  can use up to a half liter of fresh water                                      Training GPT   may have used         liters of water  equivalent to the water footprint of manufacturing     Tesla EVs             
+One data center that Microsoft had considered building near Phoenix  due to increasing AI usage  was likely to consume up to    million gallons of fresh water each year  equivalent to the water footprints of     families              Microsoft may have increased water consumption by     due to AI  while Google increased its water usage by     due to AI                         Due to their Iowa data center cluster  Microsoft was responsible for    of the freshwater use in a local town             
+A possible solution for reducing water consumption is to build data centers in colder countries that can offer a natural cooling system  For example  Facebook  now Meta  built a data center in Lule   northern Sweden  in                   Google invested one more billion euros into the expansion of its data centre campus in Hamina in Finland in       for a total of     billion euros invested in the site which also uses seawater for cooling its servers                         
+
+E waste edit 
+E waste due to production of AI hardware may also contribute to emissions             The rapid growth of AI may also lead to faster deprecation of devices  resulting in hazardous e waste              Among the    million tonnes  Mt  of e waste produced in       less than one quarter of the total mass was properly recycled  Worldwide  the annual generation of e waste is rising by     million tonnes annually  on track to reach    million tonnes by       a further     increase from the      figure              AI could have an important role because it is expected to add     million to   million metric tons of e waste in total by       which would represent up to     of global e waste              Some applications of AI  such as for robot recycling  may reduce e waste                         
+
+Climate solutions edit 
+AI has significant potential to help mitigate effects of climate change  such as through better weather predictions  disaster prevention and weather tracking                          Some climate scientists have suggested that AI could be used to improve efficiencies of systems  such as renewable energy systems              Google has claimed AI could help mitigate some effects of climate change such as predicting floods or making traffic more efficient              Some algorithms may help predict the impacts of more severe hurricanes  measure the melting of polar ice  deforestation  and help monitor emissions from sources                          AI is used to model and analyze extreme weather events such as floods  droughts  and heatwaves by processing vast amounts of climate data and identifying patterns that may not be easily detected by traditional methods  These advanced predictive capabilities help governments  emergency responders  and policymakers improve disaster preparedness  optimize resource allocation  and develop early warning systems to mitigate the impact of natural disasters on communities              One machine learning project  the Open Catalyst project  has been used to identify  suitable low cost electrocatalysts  for battery storage of renewable energy sources             AI may also improve the efficiencies of supply chains and productions for environmentally detrimental industries such as food and fast fashion              However  as yet there are no widely accepted frameworks which evaluate AI systems  total climate impacts  factoring in both costs and benefits             
+
+Policy and regulation edit 
+United States edit 
+The environmental impacts of AI have been a blindspot in the range of AI legislation proposed in the  US Congress  As of November       the Artificial Intelligence Environmental Impacts Act of      introduced in the  Senate by Massachusetts Senator Ed Markey was the only federal bill to make environmental recommendations for the use of AI  The Act would have required the administrators of the Environmental Protection Agency  the National Institute of Standards and Technology  and the Department of Energy to study the environmental effects of AI s development  deployment  and post deployment and enact a voluntary reporting system for AI related environmental impacts              The bill has not been reintroduced in the    th Congress 
+In lieu of federal legislation on the subject  certain state governments have introduced policy on the environmental cost of AI  Virginia is considering legislation requiring data centers to submit water use estimates  reflecting growing concerns about resource consumption  sustainability  and land use              For instance  Virginia s Joint Legislative Audit and Review Commission  JLARC  has recommended that data centers report their energy and water usage to address the strain these facilities place on infrastructure and resources              Another Virginia bill proposed a mandatory review and approval process from the State Corporation Commission  SCC  for data center developments exceeding     megawatts to ensure grid reliability  However  the House Labor and Commerce Committee unanimously voted against the bill  expressing concerns that it might deter data center investments in the state      citation needed      Additionally  House Bill       introduced in the Virginia General Assembly  would require data centers to report quarterly on water and energy use to the Department of Environmental Quality  with the information made publicly accessible             
+
+European Union edit 
+The European Union  EU  intends to regulate the environmental impact of artificial intelligence on multiple levels of government  The European Green Deal  EGD   set forth by the European Commission and approved in       states its intention to utilize AI and other information and communication technology  ICT  to advance sustainability goals  Partnerships between the Commission and various European environmental and IT groups culminated in the development of the Green Deal Data Space  GDDS   As part of the European Data Portal  the GDDS project aims to aggregate cross sectorial data in environmental and climate science to support the policy goals set forth in the EGD  AI agents can use the portal to find trends in the data and make recommendations to policymakers             
+Policy research undertaken at the request of the European Commission recommends the EU take a bolder stance against the environmental costs of AI  One ethics report advocates that AI systems  should take into account the environment  including other living beings  and their social and societal impact should be carefully considered               Other reports by EU sources and independent watchdogs point to the lack of environmental considerations in AI model prohibitions set forth in the  European Artificial Intelligence Act  and advocate for the assessment of environmental risks posed by the proliferation of AI systems              A      case study recommends the EU restrict market access for AI systems that fail to implement global emissions monitoring or reduction strategies  along with mandated efficiency improvements  industry wide sustainability reporting  and standardized life cycle assessments  LCAs              
+ EU member states maintain individualized national AI strategies  many of which include sustainability goals 
+
+France edit 
+France devises general environmental priorities in its national AI strategy report  Notably  it advocates that AI and data system development should be sustainably designed from the onset to support  the ecological transition of the European cloud industry   Furthermore  the report advocates for the publication of  ecological data  to promote AI driven environmental solutions  The report also includes France s intention to support the adoption of AI for a more efficient grid and renewable energy transition             
+
+Germany edit 
+Germany published its national AI strategy in December      which includes dedicated sections on the environmental impacts of AI  These begin with the federal government s intention to thoroughly research and develop AI systems that can be used to promote energy efficiency  conservation  a circular economy  partnerships with higher education  natural resource management  and progress toward  United Nations Sustainable Development Goals  SDGs   A subsequent section emphasizes the need for a reduction of energy consumption and a standardized environmental impact assessment  EIA  to create a net carbon negative AI ecosystem             
+Germany also operates the  AI Lighthouses  program which issues grants directly to businesses  non profits  and researchers utilizing AI to develop environmental solutions  As of       the German German Federal Environmental Ministry  BMUv  has disbursed upwards of    million euros in funding through the initiative             
+
+Italy edit 
+The Italian national strategy for AI  crafted by a dedicated working group appointed by the  Ministry of Economic Development  MISE   aims to leverage Italy s advantage in AI research and development to regain momentum in achieving its SDGs  The report principally advocates for government backed stimulus in the development of AI for sustainability             
+
+See also edit 
+Environmental effects of bitcoin
+Environmental impact of computers
+References edit 
+
+
+  a b c d e f Gelles  David     July         A I  s Insatiable Appetite for Energy   The New York Times  ISSN                 Retrieved    July      
+
+  Toews  Rob   Deep Learning s Carbon Emissions Problem   Forbes  Archived from the original on    June       Retrieved   July      
+
+  Heikkil   Melissa    December         AI s carbon footprint is bigger than you think   MIT Technology Review  Archived from the original on   July       Retrieved   July      
+
+  a b c  Achieving net zero emissions with machine learning  the challenge ahead   Nature Machine Intelligence                     August       doi         s                w  ISSN                 Archived from the original on    April       Retrieved   July      
+
+  Erdenesanaa  Delger     October         A I  Could Soon Need as Much Electricity as an Entire Country   The New York Times  ISSN                 Archived from the original on    June       Retrieved   July      
+
+  a b Desislavov  Radosvet  Mart nez Plumed  Fernando  Hern ndez Orallo  Jos     April         Trends in AI inference energy consumption  Beyond the performance vs parameter laws of deep learning   Sustainable Computing  Informatics and Systems              arXiv             Bibcode     SCIS          D  doi         j suscom              ISSN                 Archived from the original on   July       Retrieved   July      
+
+  a b c d Sundberg  Niklas     December         Tackling AI s Climate Change Problem   MIT Sloan Management Review  Archived from the original on    June       Retrieved   July      
+
+  Schmitt  Marc     June         Sustainable Machine Learning  Evaluating the Environmental Cost of AutoML Algorithms in AI Development        IEEE Conference on Artificial Intelligence  CAI   Conference proceeding   IEEE  pp                  doi         CAI                  ISBN                                via IEEE Xplore 
+
+  a b Cooley  Amy   Research Guides  A Guide to Artificial Intelligence  AI  for Students  Environmental Impacts   libguides ecu edu  Retrieved   April      
+
+  a b c d e Saenko  Kate     May         A Computer Scientist Breaks Down Generative AI s Hefty Carbon Footprint   Scientific American  Archived from the original on   July       Retrieved   July      
+
+  a b c d e Heikkil archive  Melissa     November         We re getting a better idea of AI s true carbon footprint   MIT Technology Review  Archived from the original on   July       Retrieved   July      
+
+  a b c d Coleman  Jude   AI s Climate Impact Goes beyond Its Emissions   Scientific American  Archived from the original on    June       Retrieved   July      
+
+  a b Calvert  Brian     March         AI already uses as much energy as a small country  It s only the beginning   Vox  Archived from the original on   July       Retrieved   July      
+
+  a b Kolbert  Elizabeth    March         The Obscene Energy Demands of A I   The New Yorker  ISSN              X  Archived from the original on   July       Retrieved   July      
+
+   Explained  Generative AI s environmental impact   MIT News   Massachusetts Institute of Technology     January       Retrieved   April      
+
+  a b Rahman Jones  Imran    July         AI means Google s greenhouse gas emissions up     in   years   bbc com  Archived from the original on   July       Retrieved   July      
+
+  a b Piquard  Alexandre     February          The explosion in AI related electricity demand has already had local consequences    Le Monde fr  Archived from the original on    June       Retrieved   July      
+
+  a b  AI is exhausting the power grid  Tech firms are seeking a miracle solution   Washington Post     June       Archived from the original on    June       Retrieved   July      
+
+  Crawford  Kate     February         Generative AI s environmental costs are soaring   and mostly secret   Nature                   Bibcode     Natur         C  doi         d                x  PMID               
+
+  Gizmodo  Lucas Ropek       January         Sam Altman on AI s power  its impact on jobs  and the      election   Quartz  Archived from the original on    April       Retrieved    July      
+
+  Benioff  Marc  Sweet  Julie  Hunt  Jeremy  Bourla  Albert  Altman  Sam  Zakaria  Fareed     January         Technology in a Turbulent World   World Economic Forum  Archived from the original on    March       Retrieved    July      
+
+  St  John  Alexa    July         Google falling short of important climate target  cites electricity needs of AI   ABC News  Archived from the original on   July       Retrieved   July      
+
+  a b  Google blames AI as its emissions grow instead of heading to net zero   Al Jazeera  Archived from the original on   July       Retrieved   July      
+
+  a b c d Berreby  David     February         The Growing Environmental Footprint Of Generative AI   Undark Magazine  Archived from the original on    April       Retrieved   July      
+
+  a b Berreby  David    February         As Use of A I  Soars  So Does the Energy and Water It Requires   Yale E     Archived from the original on   July       Retrieved   July      
+
+  McClurg  Lesley     July         What Is The Carbon Cost of Our Digital Lives    KQED  Podcast   
+
+  Spencer  Michael   The Jevons Paradox in AI Infrastructure   www ai supremacy com  Retrieved   April      
+
+  Narayanan  Aparna     January         What Is  Jevons Paradox  And How Is It Tied To DeepSeek AI   
+
+  Halper  Evan     September         Microsoft deal would reopen Three Mile Island nuclear plant to power AI   Washington Post 
+
+  Hiller  Jennifer     September         Three Mile Island s Nuclear Plant to Reopen  Help Power Microsoft s AI Centers   Wall Street Journal  Dow Jones 
+
+   Microsoft plans to invest     billion on AI enabled data centers in fiscal        Reuters    January      
+
+  Davis  Caroline     February         Data Center Surge  Industrials Seen Driving U S  Power Generation Over Next Three Years   naturalgasintel com 
+
+  McGeady  Cy     October         Powering the Commanding Heights  The Strategic Context of Emergent U S  Electricity Demand Growth  
+
+  Saul  Josh     August         Data Centers Face Seven Year Wait for Dominion Power Hookups   Bloomberg 
+
+  Azhar  Azeem     December         The   th Century Technology That Threatens A I   The New York Times 
+
+  Li  Pengfei  Yang  Jianyi  Islam  Mohammad A   Ren  Shaolei     October         Making AI Less  Thirsty   Uncovering and Addressing the Secret Water Footprint of AI Models   arXiv             cs LG  
+
+  a b Hao  Karen    March         AI Is Taking Water From the Desert   The Atlantic  Archived from the original on   July       Retrieved   July      
+
+  a b Danelski  David     April         AI programs consume large volumes of scarce water   UCR News   UC Riverside   news ucr edu  Archived from the original on   July       Retrieved   July      
+
+  a b c O Brien  Matt  Fingerhut  Hannah    September         A I  tools fueled a     spike in Microsoft s water consumption  and one city with its data centers is concerned about the effect on residential supply   Fortune  Archived from the original on   February       Retrieved   July      
+
+  Gersmann  Hanna     October         Facebook builds  green  datacentre in Sweden   The Guardian  ISSN                 Retrieved   April      
+
+  G rg   Dan     May         Google invests    billion to expand Hamina data center   IndustryRadar com  Retrieved   April      
+
+   Sustainable hosting   A closer look at the Hamina Google data center   Templ     May       Retrieved   April      
+
+  Zhuk  A      December         Artificial Intelligence Impact on the Environment  Hidden Ecological Costs and Ethical Legal Issues   Journal of Digital Technologies and Law                  doi          jdtl          hdl              ISSN                 Archived from the original on   July       Retrieved   July      
+
+  ewastemonitor     March         The Global E waste Monitor        E Waste Monitor  Retrieved   April      
+
+  Wang  Peng  Zhang  Ling Yu  Tzachor  Asaf  Chen  Wei Qiang  November         E waste challenges of generative artificial intelligence   Nature Computational Science                   doi         s                   ISSN                
+
+  Stone  Maddie    February         Can AI powered robots solve the smartphone e waste crisis    The Verge  Archived from the original on    December       Retrieved   July      
+
+  Shreyas Madhav  AV  Rajaraman  Raghav  Harini  S  Kiliroor  Cinu C  July         Application of artificial intelligence to enhance collection of E waste  A potential solution for household WEEE collection and segregation in India   Waste Management  amp  Research                     Bibcode     WMR           S  doi                X           ISSN              X  PMC               PMID               
+
+  a b  Explainer  How AI helps combat climate change   UN News   news un org    November       Archived from the original on    June       Retrieved   July      
+
+  a b Masterson  Victoria     February           ways AI is helping tackle climate change   World Economic Forum 
+
+  Camps Valls  Gustau  Fern ndez Torres  Miguel  ngel  Cohrs  Kai Hendrik  H hl  Adrian  Castelletti  Andrea  Pacal  Aytac  Robin  Claire  Martinuzzi  Francesco  Papoutsis  Ioannis  Prapas  Ioannis  P rez Aracil  Jorge  Weigel  Katja  Gonzalez Calabuig  Maria  Reichstein  Markus  Rabel  Martin     February         Artificial intelligence for modeling and understanding extreme weather and climate events   Nature Communications                doi         s                   ISSN                 PMC                PMID               
+
+  Lindsay Walton  Jo  Huegler  Nathalie  Tiamiyu Tijani  Faosiyat  Al Sayed  Kinda  Byrne  Olivia  Levontin  Polina  Lethbridge  Josephine  O Donnell  Kerry  Price  Ben  Seymour Smith  Nic  Sovacool  Benjamin         The Cloud and the Climate  Navigating AI Powered Futures  DHCC 
+
+  Sen  Markey  Edward J   D MA    February         Text   S           th Congress              Artificial Intelligence Environmental Impacts Act of        www congress gov  Retrieved   April      
+
+  Uteova  Aliya    June          We re mowed over   colossal data centers are taking over the US countryside   The Guardian  Retrieved   April      
+
+  Temple West  Patrick     March         Big Tech under pressure to act on data centres  thirst for water   Financial Times  Retrieved   April      
+
+  Comment  Matthew Gooding     January         Legislation proposed in Virginia to regulate data centers  ease grid concerns   www datacenterdynamics com  Retrieved   April      
+
+  European Commission    June         All Data   Green Deal   An Integrated  FAIR Approach for the Common European Data Space   Retrieved   April      
+
+  European Commission    April         Ethics guidelines for trustworthy AI   Retrieved   April      
+
+  Gailhofer  Peter  Herold  Anke  Schemmel  Jan Peter  Scherf  Cara Sophie  Urrutia  Cristina  K hler  Andreas  Braungardt  Sibylle    May         The role of Artificial Intelligence in the European Green Deal   PDF   European Parliament  AIDA Committee  Retrieved   April      
+
+  Perucica  Natasa  Andjelkovic  Katarina     June         Is the future of AI sustainable  A case study of the European Union   Transforming Government  People  Process and Policy  Retrieved   April      
+
+  European Commission    September         France AI Strategy Report  
+
+  German Federal Government    December         Artificial Intelligence Strategy of the German Federal Government   PDF   Retrieved   April      
+
+  Federal Ministry for Environment  Nature Conservation and Nuclear Safety  Germany   n d     AI lighthouses for the environment  climate  nature and resources   Retrieved   April      
+
+  European Commission    September         Italy AI Strategy Report   Retrieved   April      
+
+
+
+
+
+
+
+Retrieved from  https   en wikipedia org w index php title Environmental impact of artificial intelligence amp oldid

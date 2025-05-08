@@ -1,0 +1,26 @@
+﻿@model List<string>
+
+@{
+    ViewData["Title"] = "Search Results";
+    var query = ViewData["Query"] as string;  // استرجاع الكلمة من ViewData
+}
+
+<h1>Search Results</h1>
+
+@if (Model != null && Model.Any())
+{
+    <ul>
+        @foreach (var url in Model)
+        {
+            <li>
+                <a href="@Url.Action("ShowPageContent", "Pages", new { url = url, word = query })" target="_blank">@url</a>
+            </li>
+        }
+    </ul>
+}
+else
+{
+    <p>No results found for your search.</p>
+}
+
+<a href="@Url.Action("Index", "Pages")" class="btn btn-secondary">Back to Home</a>

@@ -1,0 +1,337 @@
+Linked node hierarchical data structureFor graph theory  see Tree  graph theory  Not to be confused with Trie  a specific type of tree data structure 
+This unsorted tree has non unique values  e g   the value   existing in different nodes  not in a single node only  and is non binary  while there are only up to two children nodes per parent node in a binary tree   The root node at the top  with the value   here   has no parent as it is the highest in the tree hierarchy 
+In computer science  a tree is a widely used abstract data type that represents a hierarchical tree structure with a set of connected nodes  Each node in the tree can be connected to many children  depending on the type of tree   but must be connected to exactly one parent                        except for the root node  which has no parent  i e   the root node as the top most node in the tree hierarchy   These constraints mean there are no cycles or  loops   no node can be its own ancestor   and also that each child can be treated like the root node of its own subtree  making recursion a useful technique for tree traversal  In contrast to linear data structures  many trees cannot be represented by relationships between neighboring nodes  parent and children nodes of a node under consideration  if they exist  in a single straight line  called edge or link between two adjacent nodes  
+Binary trees are a commonly used type  which constrain the number of children for each parent to at most two  When the order of the children is specified  this data structure corresponds to an ordered tree in graph theory  A value or pointer to other data may be associated with every node in the tree  or sometimes only with the leaf nodes  which have no children nodes 
+The abstract data type  ADT  can be represented in a number of ways  including a list of parents with pointers to children  a list of children with pointers to parents  or a list of nodes and a separate list of parent child relations  a specific type of adjacency list   Representations might also be more complicated  for example using indexes or ancestor lists for performance 
+Trees as used in computing are similar to but can be different from mathematical constructs of trees in graph theory  trees in set theory  and trees in descriptive set theory 
+
+
+Terminology edit 
+A node is a structure which may contain data and connections to other nodes  sometimes called edges or links  Each node in a tree has zero or more child nodes  which are below it in the tree  by convention  trees are drawn with descendants going downwards   A node that has a child is called the child s parent node  or superior   All nodes have exactly one parent  except the topmost root node  which has none  A node might have many ancestor nodes  such as the parent s parent   Child nodes with the same parent are sibling nodes  Typically siblings have an order  with the first one conventionally drawn on the left  Some definitions allow a tree to have no nodes at all  in which case it is called empty 
+An internal node  also known as an inner node  inode for short  or branch node  is any node of a tree that has child nodes  Similarly  an external node  also known as an outer node  leaf node  or terminal node  is any node that does not have child nodes 
+The height of a node is the length of the longest downward path to a leaf from that node  The height of the root is the height of the tree  The depth of a node is the length of the path to its root  i e   its root path   Thus the root node has depth zero  leaf nodes have height zero  and a tree with only a single node  hence both a root and leaf  has depth and height zero  Conventionally  an empty tree  tree with no nodes  if such are allowed  has height    
+Each non root node can be treated as the root node of its own subtree  which includes that node and all its descendants      a                
+Other terms used with trees 
+
+
+
+Neighbor Parent or child 
+Ancestor A node reachable by repeated proceeding from child to parent 
+Descendant A node reachable by repeated proceeding from parent to child  Also known as subchild 
+Degree For a given node  its number of children  A leaf  by definition  has degree zero 
+Degree of tree The degree of a tree is the maximum degree of a node in the tree 
+Distance The number of edges along the shortest path between two nodes 
+Level The level of a node is the number of edges along the
+unique path between it and the root node             This is the same as depth 
+Width The number of nodes in a level 
+Breadth The number of leaves 
+Complete tree A tree with every level filled  except the last 
+Forest A set of one or more disjoint trees 
+Ordered tree A rooted tree in which an ordering is specified for the children of each vertex 
+Size of a tree Number of nodes in the tree 
+
+Common operations edit 
+Enumerating all the items
+Enumerating a section of a tree
+Searching for an item
+Adding a new item at a certain position on the tree
+Deleting an item
+Pruning  Removing a whole section of a tree
+Grafting  Adding a whole section to a tree
+Finding the root for any node
+Finding the lowest common ancestor of two nodes
+Traversal and search methods edit 
+Main article  Tree traversal
+Stepping through the items of a tree  by means of the connections between parents and children  is called walking the tree  and the action is a walk of the tree  Often  an operation might be performed when a pointer arrives at a particular node  A walk in which each parent node is traversed before its children is called a pre order walk  a walk in which the children are traversed before their respective parents are traversed is called a post order walk  a walk in which a node s left subtree  then the node itself  and finally its right subtree are traversed is called an in order traversal   This last scenario  referring to exactly two subtrees  a left subtree and a right subtree  assumes specifically a binary tree   A level order walk effectively performs a breadth first search over the entirety of a tree  nodes are traversed level by level  where the root node is visited first  followed by its direct child nodes and their siblings  followed by its grandchild nodes and their siblings  etc   until all nodes in the tree have been traversed 
+
+Representations edit 
+There are many different ways to represent trees  In working memory  nodes are typically dynamically allocated records with pointers to their children  their parents  or both  as well as any associated data   If of a fixed size  the nodes might be stored in a list  Nodes and relationships between nodes might be stored in a separate special type of adjacency list  In relational databases  nodes are typically represented as table rows  with indexed row IDs facilitating pointers between parents and children 
+Nodes can also be stored as items in an array  with relationships between them determined by their positions in the array  as in a binary heap  
+A binary tree can be implemented as a list of lists  the head of a list  the value of the first term  is the left child  subtree   while the tail  the list of second and subsequent terms  is the right child  subtree   This can be modified to allow values as well  as in Lisp S expressions  where the head  value of first term  is the value of the node  the head of the tail  value of second term  is the left child  and the tail of the tail  list of third and subsequent terms  is the right child 
+Ordered trees can be naturally encoded by finite sequences  for example with natural numbers            
+
+Examples of trees and non trees edit 
+Not a tree  two non connected parts  A B and C D E  There is more than one root Not a tree  undirected cycle            has more than one parent  inbound edge  Not a tree  cycle B C E D B  B has more than one parent  inbound edge  Not a tree  cycle A A  A is the root but it also has a parent Each linear list is trivially a tree 
+Type theory edit 
+This section does not cite any sources  Please help improve this section by adding citations to reliable sources  Unsourced material may be challenged and removed    April        Learn how and when to remove this message 
+As an abstract data type  the abstract tree type T with values of some type E is defined  using the abstract forest type F  list of trees   by the functions 
+
+value  T   E
+children  T   F
+nil       F
+node  E   F   T
+with the axioms 
+
+value node e  f     e
+children node e  f     f
+In terms of type theory  a tree is an inductive type defined by the constructors nil  empty forest  and node  tree with root node with given value and children  
+
+Mathematical terminology edit 
+This section does not cite any sources  Please help improve this section by adding citations to reliable sources  Unsourced material may be challenged and removed    April        Learn how and when to remove this message 
+Viewed as a whole  a tree data structure is an ordered tree  generally with values attached to each node  Concretely  it is  if required to be non empty  
+
+A rooted tree with the  away from root  direction  a more narrow term is an  arborescence    meaning 
+A directed graph 
+whose underlying undirected graph is a tree  any two vertices are connected by exactly one simple path             
+with a distinguished root  one vertex is designated as the root  
+which determines the direction on the edges  arrows point away from the root  given an edge  the node that the edge points from is called the parent and the node that the edge points to is called the child   together with 
+an ordering on the child nodes of a given node  and
+a value  of some data type  at each node 
+Often trees have a fixed  more properly  bounded  branching factor  outdegree   particularly always having two child nodes  possibly empty  hence at most two non empty child nodes   hence a  binary tree  
+Allowing empty trees makes some definitions simpler  some more complicated  a rooted tree must be non empty  hence if empty trees are allowed the above definition instead becomes  an empty tree or a rooted tree such that       On the other hand  empty trees simplify defining fixed branching factor  with empty trees allowed  a binary tree is a tree such that every node has exactly two children  each of which is a tree  possibly empty  
+
+Applications edit 
+Trees are commonly used to represent or manipulate hierarchical data in applications such as 
+
+File systems for 
+Directory structure used to organize subdirectories and files  symbolic links create non tree graphs  as do multiple hard links to the same file or directory 
+The mechanism used to allocate and link blocks of data on the storage device
+Class hierarchy or  inheritance tree  showing the relationships among classes in object oriented programming  multiple inheritance produces non tree graphs
+Abstract syntax trees for computer languages
+Natural language processing 
+Parse trees
+Modeling utterances in a generative grammar
+Dialogue tree for generating conversations
+Document Object Models   DOM tree   of XML and HTML documents
+Search trees store data in a way that makes an efficient search algorithm possible via tree traversal
+A binary search tree is a type of binary tree
+Representing sorted lists of data
+Computer generated imagery 
+Space partitioning  including binary space partitioning
+Digital compositing
+Storing Barnes Hut trees used to simulate galaxies
+Implementing heaps
+Nested set collections
+Hierarchical taxonomies such as the Dewey Decimal Classification with sections of increasing specificity 
+Hierarchical temporal memory
+Genetic programming
+Hierarchical clustering
+Trees can be used to represent and manipulate various mathematical structures  such as 
+
+Paths through an arbitrary node and edge graph  including multigraphs   by making multiple nodes in the tree for each graph node used in multiple paths
+Any mathematical hierarchy
+Tree structures are often used for mapping the relationships between things  such as 
+
+Components and subcomponents which can be visualized in an exploded view drawing
+Subroutine calls used to identify which subroutines in a program call other subroutines non recursively
+Inheritance of DNA among species by evolution  of source code by software projects  e g  Linux distribution timeline   of designs in various types of cars  etc 
+The contents of hierarchical namespaces
+JSON and YAML documents can be thought of as trees  but are typically represented by nested lists and dictionaries 
+
+See also edit 
+Distributed tree search
+Category Trees  data structures   catalogs types of computational trees 
+Notes edit 
+
+
+  This is different from the formal definition of subtree used in graph theory  which is a subgraph that forms a tree   it need not include all descendants  For example  the root node by itself is a subtree in the graph theory sense  but not in the data structure sense  unless there are no descendants  
+
+
+References edit 
+
+
+  Subero  Armstrong             Tree Data Structure   Codeless Data Structures and Algorithms  Berkeley  CA  Apress  doi                            ISBN                         A parent can have multiple child nodes      However  a child node cannot have multiple parents  If a child node has multiple parents  then it is what we call a graph 
+
+   Abstract Tree   Tree ADT   Abstract Data Types   ECE       University of Waterloo   ece uwaterloo ca  Retrieved            
+
+  Weisstein  Eric W   Subtree   MathWorld 
+
+  Susanna S  Epp  Aug        Discrete Mathematics with Applications  Pacific Grove  CA  Brooks Cole Publishing Co  p            ISBN                        
+
+  
+L  Afanasiev  P  Blackburn  I  Dimitriou  B  Gaiffe  E  Goris  M  Marx  M  de Rijke          PDL for ordered trees   PDF   Journal of Applied Non Classical Logics                   doi         jancl             S CID              
+
+  Levin  Oscar     December        Discrete Mathematics  An Open Introduction   rd      ed    Amazon Digital Services LLC   Kdp  p            ISBN                     
+
+
+
+
+Further reading edit 
+Donald Knuth  The Art of Computer Programming  Fundamental Algorithms  Third Edition  Addison Wesley        ISBN                      Section      Trees  pp               
+Thomas H  Cormen  Charles E  Leiserson  Ronald L  Rivest  and Clifford Stein  Introduction to Algorithms  Second Edition  MIT Press and McGraw Hill        ISBN                     Section       Representing rooted trees  pp                Chapters        Binary Search Trees  Red Black Trees  Augmenting Data Structures   pp               
+External links edit 
+
+
+
+Wikimedia Commons has media related to Tree structures 
+
+Description from the Dictionary of Algorithms and Data Structures
+vteTree data structuresSearch trees dynamic sets associative arrays 
+   
+     
+AA
+ a b 
+AVL
+B
+K Dimensional
+B 
+B 
+Bx
+Binary search
+Optimal
+Self balancing
+Dancing
+HTree
+Interval
+Order statistic
+Palindrome
+ Left leaning       Red black
+Scapegoat
+Splay
+T
+Treap
+UB
+Weight balanced
+Heaps
+Binary
+Binomial
+Brodal
+d ary
+Fibonacci
+Leftist
+Pairing
+Skew binomial
+Skew
+van Emde Boas
+Weak
+Tries
+Ctrie
+C trie  compressed ADT 
+Hash
+Radix
+Suffix
+Ternary search
+X fast
+Y fast
+Spatial data partitioning trees
+Ball
+BK
+BSP
+Cartesian
+Hilbert R
+k d  implicit k d 
+M
+Metric
+MVP
+Octree
+PH
+Priority R
+Quad
+R
+R 
+R 
+Segment
+VP
+X
+Other trees
+Cover
+Exponential
+Fenwick
+Finger
+Fractal tree index
+Fusion
+Hash calendar
+iDistance
+K ary
+Left child right sibling
+Link cut
+Log structured merge
+Merkle
+PQ
+Range
+SPQR
+Top
+
+vteGraph and tree traversal algorithmsSearch
+    pruning
+A 
+IDA 
+LPA 
+SMA 
+Best first search
+Beam search
+Bidirectional search
+Breadth first search
+Lexicographic
+Parallel
+B 
+Depth first search
+Iterative deepening
+D 
+Fringe search
+Jump point search
+Monte Carlo tree search
+SSS 
+Shortest path
+Bellman Ford
+Dijkstra s
+Floyd Warshall
+Johnson s
+Shortest path faster
+Yen s
+Minimum spanning tree
+Bor vka s
+Kruskal s
+Prim s
+Reverse delete
+List of graph search algorithms
+vteData structuresTypes
+Collection
+Container
+Abstract
+Associative array
+Multimap
+Retrieval Data Structure
+List
+Stack
+Queue
+Double ended queue
+Priority queue
+Double ended priority queue
+Set
+Multiset
+Disjoint set
+Arrays
+Bit array
+Circular buffer
+Dynamic array
+Hash table
+Hashed array tree
+Sparse matrix
+Linked
+Association list
+Linked list
+Skip list
+Unrolled linked list
+XOR linked list
+Trees
+B tree
+Binary search tree
+AA tree
+AVL tree
+Red black tree
+Self balancing tree
+Splay tree
+Heap
+Binary heap
+Binomial heap
+Fibonacci heap
+R tree
+R  tree
+R  tree
+Hilbert R tree
+Trie
+Hash tree
+Graphs
+Binary decision diagram
+Directed acyclic graph
+Directed acyclic word graph
+
+List of data structures
+
+
+
+
+
+
+Retrieved from  https   en wikipedia org w index php title Tree  abstract data type  amp oldid

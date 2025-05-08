@@ -1,0 +1,488 @@
+Machine learning model
+
+
+A video generated using OpenAI s Sora text to video model  using the prompt  A stylish woman walks down a Tokyo street filled with warm glowing neon and animated city signage  She wears a black leather jacket  a long red dress  and black boots  and carries a black purse  She wears sunglasses and red lipstick  She walks confidently and casually  The street is damp and reflective  creating a mirror effect of the colorful lights  Many pedestrians walk about 
+A text to video model is a machine learning model that uses a natural language description as input to produce a video relevant to the input text             Advancements during the     s in the generation of high quality  text conditioned videos have largely been driven by the development of video diffusion models            
+
+
+Models edit 
+The examples and perspective in this section may not represent a worldwide view of the subject  You may improve this section  discuss the issue on the talk page  or create a new section  as appropriate    August        Learn how and when to remove this message 
+There are different models  including open source models  Chinese language input            CogVideo is the earliest text to video model  of     billion parameters  to be developed  with its demo version of open source codes first presented on GitHub in                  That year  Meta Platforms released a partial text to video model called  Make A Video                                    and Google s Brain  later Google DeepMind  introduced Imagen Video  a text to video model with  D U Net                                                           
+In March       a research paper titled  VideoFusion  Decomposed Diffusion Models for High Quality Video Generation  was published  presenting a novel approach to video generation              The VideoFusion model decomposes the diffusion process into two components  base noise and residual noise  which are shared across frames to ensure temporal coherence  By utilizing a pre trained image diffusion model as a base generator  the model efficiently generated high quality and coherent videos  Fine tuning the pre trained model on video data addressed the domain gap between image and video data  enhancing the model s ability to produce realistic and consistent video sequences              In the same month  Adobe introduced Firefly AI as part of its features             
+In January       Google announced development of a text to video model named Lumiere which is anticipated to integrate advanced video editing capabilities              Matthias Niessner and Lourdes Agapito at AI company Synthesia work on developing  D neural rendering techniques that can synthesise realistic video by using  D and  D neural representations of shape  appearances  and motion for controllable video synthesis of avatars              In June       Luma Labs launched its Dream Machine video tool                          That same month              Kuaishou extended its Kling AI text to video model to international users  In July       TikTok owner ByteDance released Jimeng AI in China  through its subsidiary  Faceu Technology              By September       the Chinese AI company MiniMax debuted its video    model  joining other established AI model companies like Zhipu AI  Baichuan  and Moonshot AI  which contribute to China s involvement in AI technology             
+Alternative approaches to text to video models include             Google s Phenaki  Hour One  Colossyan             Runway s Gen   Alpha                          and OpenAI s  Sora                           Several additional text to video models  such as Plug and Play  Text LIVE  and TuneAVideo  have emerged              Google is also preparing to launch a video generation tool named Veo for YouTube Shorts in                   FLUX   developer Black Forest Labs has announced its text to video model SOTA             
+
+Architecture and training edit 
+There are several architectures that have been used to create Text to Video models  Similar to Text to Image models  these models can be trained using Recurrent Neural Networks  RNNs  such as long short term memory  LSTM  networks  which has been used for Pixel Transformation Models and Stochastic Video Generation Models  which aid in consistency and realism respectively              An alternative for these include transformer models  Generative adversarial networks  GANs   Variational autoencoders  VAEs     which can aid in the prediction of human motion               and diffusion models have also been used to develop the image generation aspects of the model             
+Text video datasets used to train models include  but are not limited to  WebVid   M  HDVILA    M  CCV  ActivityNet  and Panda   M                          These datasets contain millions of original videos of interest  generated videos  captioned videos  and textual information that help train models for accuracy  Text video datasets used to train models include  but are not limited to PromptSource  DiffusionDB  and VidProM                          These datasets provide the range of text inputs needed to teach models how to interpret a variety of textual prompts  
+The video generation process involves synchronizing the text inputs with video frames  ensuring alignment and consistency throughout the sequence              This predictive process is subject to decline in quality as the length of the video increases due to resource limitations             
+
+Limitations edit 
+Despite the rapid evolution of Text to Video models in their performance  a primary limitation is that they are very computationally heavy which limits its capacity to provide high quality and lengthy outputs                          Additionally  these models require a large amount of specific training data to be able to generate high quality and coherent outputs  which brings about the issue of accessibility                         
+Moreover  models may misinterpret textual prompts  resulting in video outputs that deviate from the intended meaning  This can occur due to limitations in capturing semantic context embedded in text  which affects the model s ability to align generated video with the user s intended message                          Various models  including Make A Video  Imagen Video  Phenaki  CogVideo  GODIVA  and NUWA  are currently being tested and refined to enhance their alignment capabilities and overall performance in text to video generation             
+Another issue with the outputs is that text or fine details in AI generated videos often appear garbled  a problem that stable diffusion models also struggle with  Examples include distorted hands and unreadable text 
+
+Ethics edit 
+This section relies largely or entirely upon a single source  Relevant discussion may be found on the talk page  Please help improve this article by introducing citations to additional sources at this section    December        Learn how and when to remove this message 
+The deployment of Text to Video models raises ethical considerations related to content generation  These models have the potential to create inappropriate or unauthorized content  including explicit material  graphic violence  misinformation  and likenesses of real individuals without consent              Ensuring that AI generated content complies with established standards for safe and ethical usage is essential  as content generated by these models may not always be easily identified as harmful or misleading  The ability of AI to recognize and filter out NSFW or copyrighted content remains an ongoing challenge  with implications for both creators and audiences             
+
+Impacts and applications edit 
+An example producer of AI movie content is the YouTube user  AI Catverse   which generates cat themed adventure stories 
+This section relies largely or entirely upon a single source  Relevant discussion may be found on the talk page  Please help improve this article by introducing citations to additional sources at this section    December        Learn how and when to remove this message 
+Text to Video models offer a broad range of applications that may benefit various fields  from educational and promotional to creative industries  These models can streamline content creation for training videos  movie previews  gaming assets  and visualizations  making it easier to generate high quality  dynamic content              These features provide users with economical and personal benefits   
+The feature film The Reality of Time  the world s first full length movie to fully integrate generative AI for video  was completed in       Narrated in part by John de Lancie  known for his iconic role as  Q  in Star Trek  The Next Generation   Its production utilized advanced AI tools  including Runway Gen   Alpha and Kling      as described in the book Cinematic A I  The book explores the limitations of text to video technology  the challenges of implementing it  and how image to video techniques were employed for many of the film s key shots 
+
+Comparison of existing models edit 
+
+
+
+
+Model Product
+
+Company
+
+Year released
+
+Status
+
+Key features
+
+Capabilities
+
+Pricing
+
+Video length
+
+Supported languages
+
+
+Synthesia
+
+Synthesia
+
+    
+
+Released
+
+AI avatars  multilingual support for     languages  customization options            
+
+Specialized in realistic AI avatars for corporate training and marketing            
+
+Subscription based  starting around     month
+
+Varies based on subscription
+
+   
+
+
+InVideo AI
+
+InVideo
+
+    
+
+Released
+
+AI powered video creation  large stock library  AI talking avatars            
+
+Tailored for social media content with platform specific templates            
+
+Free plan available  Paid plans starting at     month
+
+Varies depending on content type
+
+Multiple  not specified 
+
+
+Fliki
+
+Fliki AI
+
+    
+
+Released
+
+Text to video with AI avatars and voices  extensive language and voice support            
+
+Supports     AI avatars and        voices in    languages            
+
+Free plan available  Paid plans starting at     month
+
+Varies based on subscription
+
+   
+
+
+Runway Gen  
+
+Runway AI
+
+    
+
+Released
+
+Multimodal video generation from text  images  or videos            
+
+High quality visuals  various modes like stylization and storyboard            
+
+Free trial  Paid plans  details not specified 
+
+Up to    seconds
+
+Multiple  not specified 
+
+
+Pika Labs
+
+Pika Labs
+
+    
+
+Beta
+
+Dynamic video generation  camera and motion customization            
+
+User friendly  focused on natural dynamic generation            
+
+Currently free during beta
+
+Flexible  supports longer videos with frame continuation
+
+Multiple  not specified 
+
+
+Runway Gen   Alpha
+
+Runway AI
+
+    
+
+Alpha
+
+Enhanced visual fidelity  photorealistic humans  fine grained temporal control            
+
+Ultra realistic video generation with precise key framing and industry level customization            
+
+Free trial available  custom pricing for enterprises
+
+Up to    seconds per clip  extendable
+
+Multiple  not specified 
+
+
+OpenAI Sora
+
+OpenAI
+
+    
+
+Alpha
+
+Deep language understanding  high quality cinematic visuals  multi shot videos            
+
+Capable of creating detailed  dynamic  and emotionally expressive videos  still under development with safety measures            
+
+Pricing not yet disclosed
+
+Expected to generate longer videos  duration specifics TBD
+
+Multiple  not specified 
+
+See also edit 
+Text to image model
+AI slop
+VideoPoet  unreleased Google s model  precursor of Lumiere
+Deepfake
+Human image synthesis
+ChatGPT
+References edit 
+
+
+  Artificial Intelligence Index Report       PDF   Report   Stanford Institute for Human Centered Artificial Intelligence  p           Multiple high quality text to video models  AI systems that can generate video clips from prompted text  were released in      
+
+  Melnik  Andrew  Ljubljanac  Michal  Lu  Cong  Yan  Qi  Ren  Weiming  Ritter  Helge    May         Video Diffusion Models  A Survey   arXiv             cs CV  
+
+  a b Wodecki  Ben     August         Text to Video Generative AI Models  The Definitive List   AI Business  Informa  Retrieved    November      
+
+  CogVideo  THUDM     October       retrieved    October     
+
+  Davies  Teli     September         Make A Video  Meta AI s New Model For Text To Video Generation   Weights  amp  Biases  Retrieved    October      
+
+  Monge  Jim Clyde    August         Text to Video   Retrieved    October      
+
+   Meta s Make A Video AI creates videos from text   www fonearena com  Retrieved    October      
+
+   google  Google takes on Meta  introduces own video generating AI   The Economic Times    October       Retrieved    October      
+
+  Monge  Jim Clyde    August         This AI Can Create Video From Text Prompt   Medium  Retrieved    October      
+
+   Nuh uh  Meta  we can do text to video AI  too  says Google   The Register  Retrieved    October      
+
+   Papers with Code   See  Plan  Predict  Language guided Cognitive Planning with Video Prediction   paperswithcode com  Retrieved    October      
+
+   Papers with Code   Text driven Video Prediction   paperswithcode com  Retrieved    October      
+
+  Luo  Zhengxiong  Chen  Dayou  Zhang  Yingya  Huang  Yan  Wang  Liang  Shen  Yujun  Zhao  Deli  Zhou  Jingren  Tan  Tieniu          VideoFusion  Decomposed Diffusion Models for High Quality Video Generation   arXiv             cs CV  
+
+  Luo  Zhengxiong  Chen  Dayou  Zhang  Yingya  Huang  Yan  Wang  Liang  Shen  Yujun  Zhao  Deli  Zhou  Jingren  Tan  Tieniu          VideoFusion  Decomposed Diffusion Models for High Quality Video Generation   arXiv             cs CV  
+
+   Adobe launches Firefly Video model and enhances image  vector and design models  Adobe Newsroom   Adobe Inc     October       Retrieved    November      
+
+  Yirka  Bob     January         Google announces the development of Lumiere  an AI based next generation text to video generator   Tech Xplore  Retrieved    November      
+
+   Text to Speech for Videos   Synthesia io  Retrieved    October      
+
+  Nu ez  Michael     June         Luma AI debuts  Dream Machine  for realistic video generation  heating up AI media race   VentureBeat  Retrieved    November      
+
+  Fink  Charlie   Apple Debuts Intelligence  Mistral Raises      Million  New AI Text To Video   Forbes  Retrieved    November      
+
+  Franzen  Carl     June         What you need to know about Kling  the AI video generator rival to Sora that s wowing creators   VentureBeat  Retrieved    November      
+
+   ByteDance joins OpenAI s Sora rivals with AI video app launch   Reuters    August       Retrieved    November      
+
+   Chinese ai  tiger  minimax launches text to video generating model to rival OpenAI s sora   Yahoo  Finance    September       Retrieved    November      
+
+  Text Video Zero  Picsart AI Research  PAIR      August       retrieved    August     
+
+  Kemper  Jonathan    July         Runway s Sora competitor Gen   Alpha now available   THE DECODER  Retrieved    November      
+
+   Generative AI s Next Frontier Is Video   Bloomberg com     March       Retrieved    November      
+
+   OpenAI teases  Sora   its new text to video AI model   NBC News     February       Retrieved    November      
+
+  Kelly  Chris     June         Toys R Us creates first brand film to use OpenAI s text to video tool   Marketing Dive  Informa  Retrieved    November      
+
+  Jin  Jiayao  Wu  Jianhang  Xu  Zhoucheng  Zhang  Hang  Wang  Yaxin  Yang  Jielong    August         Text to Video  Enhancing Video Generation Using Diffusion Models and Reconstruction Network         nd International Conference on Computing  Communication  Perception and Quantum Technology  CCPQT   IEEE  pp                doi         CCPQT                  ISBN                        
+
+  Forlini  Emily Dreibelbis     September         Google s veo text to video AI generator is coming to YouTube shorts   PC Magazine  Retrieved    November      
+
+   Announcing Black Forest Labs   Black Forest Labs    August       Retrieved    November      
+
+  Bhagwatkar  Rishika  Bachu  Saketh  Fitter  Khurshed  Kulkarni  Akshay  Chiddarwar  Shital     December         A Review of Video Generation Approaches        International Conference on Power  Instrumentation  Control and Computing  PICC   IEEE  pp            doi         PICC                    ISBN                        
+
+  Kim  Taehoon  Kang  ChanHee  Park  JaeHyuk  Jeong  Daun  Yang  ChangHee  Kang  Suk Ju  Kong  Kyeongbo    January         Human Motion Aware Text to Video Generation with Explicit Camera Control        IEEE CVF Winter Conference on Applications of Computer Vision  WACV   IEEE  pp                  doi         WACV                  ISBN                        
+
+  Singh  Aditi    May         A Survey of AI Text to Image and AI Text to Video Generators         th International Conference on Artificial Intelligence  Robotics and Control  AIRC   IEEE  pp              arXiv             doi         AIRC                     ISBN                        
+
+  a b Miao  Yibo  Zhu  Yifan  Dong  Yinpeng  Yu  Lijia  Zhu  Jun  Gao  Xiao Shan    September         T VSafetyBench  Evaluating the Safety of Text to Video Generative Models   arXiv             cs CV  
+
+  a b c d e Zhang  Ji  Mei  Kuizhi  Wang  Xiao  Zheng  Yu  Fan  Jianping  August         From Text to Video  Exploiting Mid Level Semantics for Large Scale Video Classification          th International Conference on Pattern Recognition  ICPR   IEEE  pp                  doi         ICPR               ISBN                        
+
+  a b Bhagwatkar  Rishika  Bachu  Saketh  Fitter  Khurshed  Kulkarni  Akshay  Chiddarwar  Shital     December         A Review of Video Generation Approaches        International Conference on Power  Instrumentation  Control and Computing  PICC   IEEE  pp            doi         PICC                    ISBN                        
+
+  a b c d Singh  Aditi    May         A Survey of AI Text to Image and AI Text to Video Generators         th International Conference on Artificial Intelligence  Robotics and Control  AIRC   IEEE  pp              arXiv             doi         AIRC                     ISBN                        
+
+  a b Miao  Yibo  Zhu  Yifan  Dong  Yinpeng  Yu  Lijia  Zhu  Jun  Gao  Xiao Shan    September         T VSafetyBench  Evaluating the Safety of Text to Video Generative Models   arXiv             cs CV  
+
+  Singh  Aditi    May         A Survey of AI Text to Image and AI Text to Video Generators         th International Conference on Artificial Intelligence  Robotics and Control  AIRC   IEEE  pp              arXiv             doi         AIRC                     ISBN                        
+
+  a b c d e f  Top AI Video Generation Models of        Deepgram  Retrieved    August      
+
+  a b  Runway Research   Gen    Generate novel videos with text  images or video clips   runwayml com  Retrieved    August      
+
+  a b Sharma  Shubham     December         Pika Labs  text to video AI platform opens to all  Here s how to use it   VentureBeat  Retrieved    August      
+
+  a b  Runway Research   Introducing Gen   Alpha  A New Frontier for Video Generation   runwayml com  Retrieved    August      
+
+  a b  Sora   OpenAI   openai com  Retrieved    August      
+
+
+vteArtificial intelligence  AI History  timeline Concepts
+Parameter
+Hyperparameter
+Loss functions
+Regression
+Bias variance tradeoff
+Double descent
+Overfitting
+Clustering
+Gradient descent
+SGD
+Quasi Newton method
+Conjugate gradient method
+Backpropagation
+Attention
+Convolution
+Normalization
+Batchnorm
+Activation
+Softmax
+Sigmoid
+Rectifier
+Gating
+Weight initialization
+Regularization
+Datasets
+Augmentation
+Prompt engineering
+Reinforcement learning
+Q learning
+SARSA
+Imitation
+Policy gradient
+Diffusion
+Latent diffusion model
+Autoregression
+Adversary
+RAG
+Uncanny valley
+RLHF
+Self supervised learning
+Recursive self improvement
+Word embedding
+Hallucination
+Applications
+Machine learning
+In context learning
+Artificial neural network
+Deep learning
+Language model
+Large language model
+NMT
+Artificial general intelligence  AGI 
+ImplementationsAudio visual
+AlexNet
+WaveNet
+Human image synthesis
+HWR
+OCR
+Speech synthesis
+   ai
+ElevenLabs
+Speech recognition
+Whisper
+Facial recognition
+AlphaFold
+Text to image models
+Aurora
+DALL E
+Firefly
+Flux
+Ideogram
+Imagen
+Midjourney
+Stable Diffusion
+Text to video models
+Dream Machine
+Runway Gen
+Hailuo AI
+Kling
+Sora
+Veo
+Music generation
+Suno AI
+Udio
+Text
+Word vec
+Seq seq
+GloVe
+BERT
+T 
+Llama
+Chinchilla AI
+PaLM
+GPT
+ 
+ 
+ 
+J
+ChatGPT
+ 
+ o
+o 
+o 
+   
+   
+o 
+Claude
+Gemini
+chatbot
+Grok
+LaMDA
+BLOOM
+Project Debater
+IBM Watson
+IBM Watsonx
+Granite
+PanGu  
+DeepSeek
+Qwen
+Decisional
+AlphaGo
+AlphaZero
+OpenAI Five
+Self driving car
+MuZero
+Action selection
+AutoGPT
+Robot control
+People
+Alan Turing
+Warren Sturgis McCulloch
+Walter Pitts
+John von Neumann
+Claude Shannon
+Marvin Minsky
+John McCarthy
+Nathaniel Rochester
+Allen Newell
+Cliff Shaw
+Herbert A  Simon
+Oliver Selfridge
+Frank Rosenblatt
+Bernard Widrow
+Joseph Weizenbaum
+Seymour Papert
+Seppo Linnainmaa
+Paul Werbos
+J rgen Schmidhuber
+Yann LeCun
+Geoffrey Hinton
+John Hopfield
+Yoshua Bengio
+Lotfi A  Zadeh
+Stephen Grossberg
+Alex Graves
+Andrew Ng
+Fei Fei Li
+Alex Krizhevsky
+Ilya Sutskever
+Demis Hassabis
+David Silver
+Ian Goodfellow
+Andrej Karpathy
+James Goodnight
+Architectures
+Neural Turing machine
+Differentiable neural computer
+Transformer
+Vision transformer  ViT 
+Recurrent neural network  RNN 
+Long short term memory  LSTM 
+Gated recurrent unit  GRU 
+Echo state network
+Multilayer perceptron  MLP 
+Convolutional neural network  CNN 
+Residual neural network  RNN 
+Highway network
+Mamba
+Autoencoder
+Variational autoencoder  VAE 
+Generative adversarial network  GAN 
+Graph neural network  GNN 
+
+ Portals
+Technology
+ Category
+Artificial neural networks
+Machine learning
+ List
+Companies
+Projects
+
+
+
+
+
+
+Retrieved from  https   en wikipedia org w index php title Text to video model amp oldid

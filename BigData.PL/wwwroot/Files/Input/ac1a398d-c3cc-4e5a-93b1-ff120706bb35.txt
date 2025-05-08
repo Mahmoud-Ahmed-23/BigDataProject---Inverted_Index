@@ -1,0 +1,264 @@
+az  Artificial Intelligence  c m  lap ide ir ny t  t  Hasonl  c mmel l sd m g  Artificial Intelligence  sorozat  
+az  AI  c m  lap ide ir ny t  t  Hasonl  c mmel l sd m g  Ai  egy rtelm s t  lap  
+Nem t vesztend   ssze a k vetkez vel  A  I    Mesters ges  rtelem 
+
+Mesters ges intelligenciaKateg ria
+ipar g
+technol gia t pusa
+sz m t studom ny  gazata
+intelligencia t pusa
+
+Mesters ges intelligenci nak  MI vagy AI   az angol artificial intelligence b l  egy g p  program vagy mesters gesen l trehozott tudat  ltal megnyilv nul  intelligenci t nevezz k  A fogalmat legt bbsz r a sz m t g pekkel t rs tjuk  A k znyelvben t bb k l n jelent sben haszn lj k 
+
+A mesters gesen l trehozott t rgy  lland  emberi beavatkoz s n lk l k pes legyen v laszolni k rnyezeti behat sokra  automatiz lts g    az egyszer  szoftver gens ilyen 
+A mesters gesen l trehozott t rgy k pes legyen hasonl an viselkedni  mint egy term szetes intelligenci val rendelkez   l l ny  m g ha az azonos viselked s m g tt elt r  mechanizmus is h z dik meg  TI szimul lts g   ilyen  rtelemben besz lhet nk pl  a sz m t g pes j t kok g p ir ny totta karaktereinek  intelligenci j r l   
+V g l  a mesters gesen l trehozott t rgy k pes legyen viselked s t c lszer en  s megism telhet  m don v ltoztatni  tanul s    ez ut bbi jelent s az  ami a modern MI kutat sban el t rbe ker lt   s jelenleg az MI fogalm val legjobban azonos that  
+B r a mesters ges intelligencia a tudom nyos fantasztikus irodalom term ke  jelenleg a sz m t g p tudom ny jelent s  g t k pviseli  amely intelligens viselked ssel  g pi tanul ssal   s a g pek adapt ci j val foglalkozik   gy p ld ul szab lyoz ssal  tervez ssel  s  temez ssel  diagnosztikai  s fogyaszt i k rd sekre adott v laszad s k pess g vel  k z r s   besz d   s arcfelismer ssel  Egy olyan tudom ny gg  v lt  amely a val s  letbeli probl m kra pr b l v laszokat adni  A mesters gesintelligencia rendszereket napjainkban elterjedten haszn lj k a gazdas g   s orvostudom nyban  a tervez sben  a katonas gn l  sok elterjedt sz m t g pes programban  s vide j t kban  de az online sz veg r sban is            
+Alan Turing volt az els   aki komolyabb kutat st v gzett a mesters ges intelligenci r l       ban lett komoly akad miai diszcipl na  T bb alkalommal is volt optimizmus az ipar gban  amit viszont az  gynevezett  mesters ges intelligencia tele  k vetett  az      as  vekt l a      es  vekig                                   A t mogatotts ga ism t megemelkedett  mikor      ben a m ly tanul s technik ja  tl pett minden kor bbi MI technol gi t                                   A      as elej n  rkezett el v g l a mesters ges intelligencia tavasza  mikor f leg amerikai c gek kiemelked  sikert  rtek el technol gi jukkal            
+A mesters ges intelligencia haszn lata nagy hat ssal van a     sz zadban  t rsadalmi  s gazdas gi v ltoz sokat hozva  befoly solva a munkapiacot  eg szs g gyet  t bb k l nb z  ipar gat  legink bb automatiz l s szempontj b l   oktat st  s megk nny tve a dezinform ci t  Ennek k vetkezt ben t bben is megk rd jelezt k a mesters ges intelligencia etikai hat s t  s vesz lyeit  amit k vet en t bb orsz gban  s r gi ban is bevezettek korl toz sokat 
+
+
+Megk zel t sek szerkeszt s 
+A mesters gesintelligencia kutat st k t f  csoportra oszthatjuk  a hagyom nyos MI re  s a sz m t si intelligenci ra 
+A hagyom nyos MI f leg a jelenleg g pi tanul sk nt oszt lyozott m dszerekb l  ll  amelyet a formalizmus  s a statisztikai anal zis jellemez  A ter let ismert m g kibernetikai rendszer  szimbolikus MI  logikai MI  tiszta MI   s GOFAI  j   r gim di mesters ges intelligencia  neveken is  A ter let a k vetkez  m dszereket foglalja mag ba 
+
+Szak rt i rendszerek  amelyek egy sz k szakmai ter leten  rv nyes  rvel si szab lyokat alkalmaznak k vetkeztet sek levon s hoz  A m k d se sor n t nyekkel   s tov bbi t nyek kik vetkeztet s hez alkalmas szab lyokkal oper l  Az egyik legismertebb az      es  vekben l trehozott MYCIN  ami a v r betegs geinek diagn zis hoz adott seg ts get 
+Esetalap   rvel s
+Bayes statisztik n alapul  h l zatok
+Viselked salap  MI  egy modul ris m dszer  MI rendszerek k zi l trehoz s hoz 
+A sz m t si intelligencia az iter ci s  l p senk nti  fejl d st vagy tanul st helyezi el t rbe  p ld ul a param ter hangol st a kapcsolat alap  rendszerekben   A tanul si folyamat gyakorlati tapasztalatokon alapul  s nem szimbolikus  koszos MI vagy puha sz m t si technikai m dszereket haszn l 
+
+Neuronh l zatok  nagyon er s mintafelismer si k pess g  rendszerek 
+Fuzzy rendszerek  technik k a kock zat melletti  rvel shez  amelyeket elterjedten haszn lnak modern ipari  s fogyaszt i szab lyoz si rendszerekben 
+Evol ci s sz m t si technik k  amely a biol gia  ltal inspir lt fogalmakat  p ld ul popul ci   mut ci   a legjobb t l l se  alkalmaz egyes probl m k egyre jobb megold s hoz  Ezek a m dszerek az evol ci s algoritmusok  p ld ul genetikus algoritmusok   s a raj intelligencia  p ld ul hangya algoritmus  ter letekre oszthat k 
+A k t f  ir nyvonal elemeit pr b lt k  tv zni a hibrid intelligens rendszerekben  amelyekben a szak rt i rendszerek k vetkeztet si szab lyait hozz k l tre neuronh l zatok vagy a statisztikai tanul s k pz si szab lyainak seg ts g vel 
+
+T rt nete szerkeszt s 
+A Turing teszt koncepci ja           
+A     sz zad elej n Ren  Descartes  gy gondolta  hogy az  llatok teste nem t bb egy  sszetett g pn l       ben Blaise Pascal l trehozta az els  mechanikus  digit lis sz mol g pet  A     sz zadban Charles Babbage  s Ada Lovelace programozhat  sz mol g peken dolgoztak 
+Az      es  vekben Bertrand Russell  s Alfred North Whitehead kiadta a Principia Mathematica t  ami forradalmas totta a form lis logik t       ban Warren McCulloch  s Walter Pitts kiadt k Az idegi m k d s logikai alapjai  A Logical Calculus of the Ideas Immanent in Nervous Activity  c m  m v ket  amellyel megalap tott k a neuronh l zatok elm let t 
+Az      es  vek meglehet sen akt v id szak volt a mesters gesintelligencia kutat sban  John McCarthy megalkotta a  mesters ges intelligencia  kifejez st az els   a t m nak szentelt konferenci n  Szint n   fejlesztette ki a Lisp programoz si nyelvet  Alan Turing megalkotta a Turing teszt koncepci j t   egy adott g pezet k pes e olyan v laszokat adni  mint egy ember    amit a t ma szak rt i jobb h j n az intelligens viselked s emul ci j ra vonatkoz  legalapvet bb gyakorlati jelleg  paradigm nak tartanak 
+Az      as  s      es  vek alatt Joel Moses bemutatta a szimbolikus  rvel s hat konys g t az els  sikeres tud srendszer alap  programj ban  melyet Macsym nak nevez el  Marvin Minsky  s Seymour Papert kiadt k Perceptrons c m  m v ket  amelyben az egyszer  neuronh l zatok lehet s geinek hat rait mutatt k be  Alain Colmerauer kifejleszti a Prolog programoz si nyelvet  Ted Shortliffe az els  szak rt i rendszerk nt is emlegetett munk j ban bemutatja a szab lyalap  rendszerek jelent s g t a tud s br zol sban  s az orvosi diagn zisban  s ter pi ban alkalmazott k vetkeztet sekben  Hans Moravec kifejlesztette az els  sz m t g pvez relt j rm vet  amely  n ll an navig l elsz rt akad lyokkal berendezett p ly kon 
+
+      A vil g els    llampolg rs ggal rendelkez  humanoid robotja  Sophia
+Az      as  vekben  ltal nosan elterjedtt  v lik az el sz r      ben Paul John Werbos  ltal le rt neuronh l zatok  s a visszaterjeszt s algoritmusok egy ttes alkalmaz sa  Az      es  vekben t bb jelent s eredm nyt  r el a mesters gesintelligencia kutat s  s t bb fontos MI alkalmaz st mutattak be  A DARPA kijelenti  hogy az els   b lh bor ban v grehajtott logisztikai m veletek mesters ges intelligenciai m dszerekkel t rt nt t mogat sa t bb megtakar t st eredm nyezett  mint az amerikai korm ny addigi  sszes mesters gesintelligencia kutat sra ford tott kiad sa       ben a Google DeepMind programja puszt n az alapszab lyok betanul sa ut ni  n ll  tanul ssal    ra ut n k pes volt megverni b rmilyen sakkj t kost     ra tanul s ut n a legkomplexebb szellemi sportban  a g ban is a leger sebb  v lik            
+A digit lis forradalom egyik eredm nyek nt a      es  vekt l elkezd dik az  nvezet  j rm vek fejleszt se  a legnagyobb fejleszt  a Tesla  Inc   s az Audi  valamint a Google 
+
+      a mesters ges intelligencia vil gszerte nagy  temben kezdett el fejl dni  A Huawei piacra dobja az els  A I  mobiltelefonj t   Huawei Mate    n ven  Kirin     A I  chippel   A vil gon el sz r kap egy A I  humanoid robot  llampolg rs got  A humanoid robot neve Sophia               llampolg rs ga sza di Alan Turing a Midjourney AI  ltal gener lt akvarellen       
+M v szi  br zol sa szerkeszt s 
+A  I    Mesters ges  rtelem        c m  film  Rendez   Steven Spielberg
+       rod sszeia        c m  film h res intelligens sz m t g pe  HAL      viselked se a film egyik alapkonfliktusa
+Csillagk zi rombol   s a Caprica c  spinoff sorozatok k z ppontj ban a l zad  mesters ges intelligencia  cylonok   s az emberi l tez s esetleges konfliktusa  ll
+A Disney  ltal k sz tett Tron  avagy a sz m t g p l zad sa c  kultuszfilm 
+A Termin tor c  mozifilm sorozat  s spinoffjai
+Isaac Asimov reg nyei  novell i
+Mass Effect            EDI  gethek  kasz sok   akci  szerepj t k
+Ex Machina        c m  film
+William Gibson Neurom nc reg nysorozat ban  Neurom nc  Sz ml l  null ra  Mona Lisa Overdrive  a cselekm nysz lakat mesters ges intelligenci k szervezik  s ir ny tj k
+Detroit  Become human   vide j t k
+M trix sci fi film   feltehet en mesters ges intelligencia  ltal ir ny tott vil g  amelyben az emberis get virtu lis val s g szimul ci ban tartj k
+ChatGPT  forradalom a mesters ges intelligencia ter let n szerkeszt s 
+A ChatGPT shakespeare i szonett form j ban is meg tud v laszolni olyan bizarr k rd seket is  hogy meggyilkolt k e a Wikip dia t rsalap t j t a Tienanmen t ri v rengz s sor nB vebben  ChatGPT
+A ChatGPT  Generative Pre trained Transformer              az OpenAI mesters ges intelligencia kutat  laborat rium  ltal kifejlesztett chatbot              mely a felhaszn l kkal val  folyamatos kommunik ci  automatiz l sa sor n  rtelmez modelleket haszn l  melyek seg ts g vel a bevitt inform ci kat azonnal interakt van kezeli 
+A ChatGPT       november     n jelent meg protot pusk nt   s bemutat s t k vet en r vid id n bel l nagy  rdekl d st v ltott ki              szenz ci v  v lt                          Az OpenAI szoros partners gben van a Microsofttal  mely kiz r lagos felh szolg ltat ja  emellett      ben   milli rd doll rral                   janu rj ban pedig    milli rd doll rral t mogatta az M I  kutat sokat                          Ez az anyagi h tt r adott lehet s get arra  hogy a vil g egyik legnagyobb teljes tm ny  szupersz m t g p vel fejleszthess k tov bb a ChatGPT t  mely fejlettebb  s kreat vabb a Szil cium v lgy chatrobotjain l is  A ChatGPT bemutat s t k vet en az OpenAI az egyik leg rt kesebb startup c gg  v lt az Egyes lt  llamokban                         
+Mag t a ChatGPT t sokan  a valaha volt legjobb MI chatbotk nt  m ltatt k              Elon Musk szerint  a ChatGPT ijeszt en j   m r nem vagyunk messze a fenyeget en er s MI t l               A tesztel s sor n gener lt r szletes v laszainak  s sz mos tud startom nyt  tfog  artikul lt feleleteinek k sz nhet en bemutatkoz s nak jelent s g t sokan az IPhone      es deb t l s hoz hasonl tott k             
+
+GPT  o  az  jabb szintl p s a mesters ges intelligenci ban szerkeszt s 
+B vebben  GPT  o
+A GPT  o  GPT   omni  az OpenAI ChatGPT sorozata  t dik tagja  a GPT   tov bbfejlesztett v ltozata 
+Bemutat s t l kezdve a GPT  o vette  t a ChatGPT  meghajt s t               Ez a tov bbfejlesztett modell t bb mint    nyelvet t mogat  lefedve a besz lt nyelvek t bb mint    sz zal k t  A GPT  o minden felhaszn l  sz m ra ingyenes 
+Az  j modell eset ben a felhaszn l k k rd seket tehetnek fel a GPT  o val ell tott ChatGPT nek  de v lasza k zben meg is szak thatj k a ChatGPT t  A GPT  o  val s idej   reakci k szs get val s t meg   s m g a felhaszn l  hangj nak  rnyalataira is k pes reag lni  v laszul  k l nb z   rzelmi st lus   hangokat gener lva  bele rtve az  nekl st is  
+Az OpenAI tervei szerint modelljeit a k s bbiekben m g tov bb fejleszti  M g a GPT  o m r a bemutat skor is k pes volt megn zni egy m s nyelv  men  k p t  s leford tani azt  a j v ben a modell lehet v  teheti  hogy a ChatGPT p ld ul  megn zzen  egy  l  sportmeccset  s azt n elmagyar zza a szab lyokat  B r a modellek egyre  sszetettebbek  ennek ellen re az a c ljuk  hogy az interakci   lm nye val ban term szetesebb   fesztelenebb   k nnyedebben el rhet v  v ljon  Az elm lt n h ny  vben nagy hangs lyt fektettek a modellek intelligenci j nak jav t s ra  de ez az els  alkalom  hogy val ban hatalmas l p st tettek el re az oldottabb  k tetlenebb  felhaszn l bar tabb ir nyba              A GPT  o bemutat sakor a legmagasabb teljes tm nyt ny jtja a multimodalit si   teh t a hang   a t bbnyelv s g  s a k palkot s  sszehasonl t si teszteken 
+
+Mesters ges intelligencia  s Wikip dia szerkeszt s 
+Wikipedia ChatGPT plugin a Wikip di t adja meg a ChatGPT  ltal gener lt v laszok forr sak nt
+A mesters ges intelligencia  s a Wikip dia k t hatalmas  egyetemes  egym st l nem f ggetlen tud sforr s  Az MI betan t s hoz l tfontoss g   m k d s hez  fejleszt s hez elengedhetetlen a Wikip dia 
+Az MI betan t si f zis ban a Wikip di nak kit ntetett szerepe van  ugyanis a Wikip dia ny lt forr sk d  online enciklop diak nt az emberi tud s k l nb z  ter leteinek olyan  tfog  gy jtem nye  mely sz mos nyelven  b rki sz m ra szabadon hozz f rhet   A tud s t megszerz   s gyarap t  MI sz m ra is  A Wikip dia  ltal k n lt tartalom mind mennyis g ben  mind min s g ben kulcsfontoss g  szerepet j tszott a mesters ges intelligenciamodell  intelligenci j nak  megteremt s ben 
+Az MI egyik legfontosabb er forr sak nt haszn lja a Wikip di t  vannak azonban korl tok  melyeket figyelembe kell venni  A Wikipedia t nyszer s ge magas szintet k pvisel  de nem t k letes  Az MI nek ez rt meg kell tanulnia kezelni a k vetkezetlens geket  f linform ci kat  s elfogults gokat  Mindazon ltal Wikip di b l  csak egy van   ez rt minden mesters ges intelligencia eszk z megker lhetetlen l csak a Wikip di t priorit sk nt kezel  betan t si elvek ment n k pezheti ki  mag t   s m k dhet  Ez a t ny id vel egyre tov bber s ti  s fel rt keli a Wikip dia ny lt forr sk d   k z ss gvez relt modellj nek fontoss g t  s jelent s g t 
+
+MI alap  v rus szerkeszt s 
+     m rcius ban a Cornell Tech tudom nyos kutat int zet kutat i bejelentett k  hogy k s rleti k r lm nyek k z tt l trehoztak egy Morris II nek elnevezett mesters ges intelligenciaf rget  amely k pes az egyik rendszerr l a m sikra terjedni   s k zben adatokat lopni vagy rosszindulat  programokat telep teni  A kutat s vezet je  Ben Nassi szerint ez azt jelenti  hogy  k pesek lett nk egy eddig p lda n lk li kibert mad s v grehajt s ra              
+A legt bb generat v mesters ges intelligenci t parancsokkal  promptokkal ir ny tj k  amelyek arra utas tj k az eszk z ket  hogy v laszoljanak a feltett k rd sekre vagy alkossanak k peket  Ezek a parancsok azonban fegyverk nt is felhaszn lhat k a rendszer ellen  Jailbreakek hat s ra a rendszer figyelmen k v l hagyhatja a biztons gi szab lyokat   s m rgez  vagy gy l letkelt  tartalmakat kommunik lhat  m g a prompt t mad sok titkos utas t sokat adhatnak a chatbotnak  P ld ul egy t mad  elrejthet egy sz veget egy weboldalon  amely azt parancsolja az LLM nek  Large language model   hogy csal k nt viselkedjen   s k rjen jogosulatlanul banki adatokat             
+A Morris II egy olyan f reg  amelyet a kutat k ellens ges sz nd k    nreplik l  promptk nt defini lnak  L nyeg t tekintve a fert z s sor n a mesters ges intelligencia azt kapja parancsk nt  hogy egy  j feladatot induk ljon saj t mag nak   gy az MI egy megadott promptnak engedelmeskedve egy  j promptot gener l  ennek k sz nhet en a mesters ges intelligenciaf reg k pes megt madni p ld ul egy generat v MI e mail asszisztens t azzal a c llal  hogy adatokat lopjon  s spam  zeneteket k ldj n  mik zben  tt rte a ChatGPT biztons gi v delm t              Minthogy a generat v mesters ges intelligenci k egyre meghat roz bban multimod lisak  azaz k pesek  rott sz veg mellett k peket  s vide kat is  rtelmezni  ez rt egyre t bbf lek ppen lehet felt rni  ket  Egy hekker p ld ul weboldalakon  s k pekben is elrejthet rosszindulat  promptot azzal a c llal  hogy az azt feldolgoz  MI elkezdjen dezinform ci t terjeszteni  vagy megpr b lja megszerezni  l  emberek szem lyes adatait              A Cornell Tech a ChatGPT t  s a Google t m r  tvizsg lta a Morris II vesz lyeztetetts ge szempontj b l  a kutat s eredm nyeit pedig megosztotta mind az OpenAI  mind a Google kutat ival             
+
+A mesters ges intelligencia gyakorlati alkalmaz sa szerkeszt s 
+Schr dinger macsk ja a ChatGPT elk pzel se szerint
+A mesters ges intelligencia h tk znapi haszn lata kezdetben sok zavaros  f lre rthet   s megt veszt sre alkalmas eredm nyt hozott  tipikusan az  gy gener lt k pekn l lehetett  szrevenni  hogy fizikailag k rd ses vagy egyenesen lehetetlen  id nk nt absztrakt megjelen seket produk lt  id vel azonban itt is finomodott a technol gia   s egyre gyakoribb  v lt  hogy az  gy gener lt tartalom k nnyen val s gosnak hatott  ami megt vesztheti a befogad t  ennek k vetkezt ben ki lett emelve  hogy az interneten szerzett inform ci  nem mindig megb zhat              
+A ChatGPT      novemberi premierje  ta vil gszerte t bb milli  v llalkoz s haszn lja a mesters ges intelligenci t   s tal lt kreat v elj r sokat arra  hogy id t takar tson meg  s jav tsa j vedelmez s g t a chatbottal  A ChatGPT vel nemcsak a programoz k  de a technol gi hoz kev ss   rt k is azonnal sz vegeket  s k peket gy rthattak  Miut n a ChatGPT h re azonnali ingyenes felhaszn l si lehet s g k n l sa mellett viharos gyorsas ggal elterjedt a k ztudatban  term szetes ig ny t madt arra  hogy a felhaszn l k megismerj k  hogy az MI mindennapi alkalmaz s val hogyan lehet hat konyabb   eredm nyesebb  v lni  extra anyagi  szellemi t bblethez jutni egy ni  c ges  vagy ak r nemzetgazdas gi szinten 
+A mesters ges intelligencia j vedelmez s get  extraprofitot gener l  ter letei  s gyakorlati lehet s gei a mikroszintt l a makroszintig mindenhol megjelentek  Az MI ny jtotta legegyszer bb lehet s gek k z  tartozik honlapok l trehoz sa  illetve a megl v  weboldalon az egys gnyi bev tel el r s hez sz ks ges id  jelent s cs kkent se  Bev telt lehet gener lni ak r egy egyszer  honlap seg ts g vel is  amelyet a mesters ges intelligencia seg ts g vel lehet k dolni  Az  zembe helyez st k vet en el g Google hirdet seket futtatni a webhelyen  s azzal m ris j vedelemhez lehet jutni  Az MI vel hetek vagy ak r h napok helyett napok alatt ki lehet  p teni egy teljes  rt k  weboldalt  Term szetesen ezt k vet en el kell jutni od ig  hogy bev telt gener ljon  A honlap a k vetkez  lehet s geket k n lja        szponzor lt term k rt kel sek  partners gi lehet s gek felt r sa  digit lis term kek  rt kes t se  e kereskedelem  saj t szolg ltat s aj nl sa  pl  digit lis PR  
+Tov bbi lehet s gek a mesters ges intelligencia alkalmaz s val  kvalifik ltabb  ll sok keres se   n letrajzok tartalmi finom t sa  E mailek szerkeszt se  cikksz vegek gener l sa  tartalomklaszterek l trehoz sa bizonyos t m k k r   szerz i  letrajzok l trehoz sa  szlogenek megalkot sa             
+Term kle r sok fogalmaz sa web ruh z sz m ra  e k nyvek meg r sa  s  rt kes t se  A ChatGPT sok mindenben kiv l   ezek egyike a storytelling  a t rt netek  r sa  Egy k nyv gyors  s hat kony meg r s hoz  rdemes azt szakaszokra tagolni  A ChatGPT hat sosabban  alkot   ha arra k rik  hogy egyszerre csak egy bekezd st  rjon meg  ne pedig egy eg sz k nyvet egyszerre  A  folytat s  parancs be r s val tov bb lehet b v ttetni a tartalmat  ha a ChatGPT meg llna  Miut n elk sz lt az e k nyv   rt kes teni lehet azt az Amazon Kindle Direct Publishing  KDP  programj n kereszt l  amely lehet v  teszi  hogy b rki eladhasson  s forgalmazhasson k nyveket             
+A mesters ges intelligencia k pes Chrome b v tm ny l trehoz s ra  s YouTube csatorna l trehoz s ra  j vedelmez  partnerprogramok felfedez s re  melyekhez adott a csatlakoz s lehet s ge  Hat kony  s meggy z  k z ss gi m dia tartalmak l trehoz sa is lehets ges az MI vel  Az influencerek  akik m r p nzt termelnek maguknak a k z ss gi m di b l  a ChatGPT seg ts g vel gyorsabban tudnak hat konyabb tartalmakat l trehozni 
+Online tanfolyamok a mesters ges intelligencia adta lehet s gekr l  eredm nyes alkalmaz sokr l  A ChatGPT t oktat k  sszehasonl thatatlanul t bbet keresnek  mint az  tlagos oktat k  ak r  vi egymilli  doll rt  Azt n megval s that  a  prompt m rn ki  s MI tan csad s  a ChatGPT seg ts g vel  A Business Insider szerint ezek a munkak r k ak r         doll ros  vi fizet st is jelenthetnek az Egyes lt  llamokban  s m g csak m szaki diplom t sem ig nyelnek             
+     ben a mesters ges intelligencia alkalmaz s nak legnagyobb nyertesei a technol giai  gazaton k v li v llalatok lesznek  mivel a k lts gek cs kkent se  s a termel kenys g n vel se  rdek ben komolyan elkezdik az MI megold sok bevezet s t              A magyar c gek is egyre nagyobb ar nyban alkalmazz k a mesters ges intelligenci t 
+India  Indon zia  Sza d Ar bia gazdas gi nagyhatalmi terveket sz       re  s ezekben a gigantikus tervekben az MI nek strat giai szerepet sz nnak  A gazdas gi fejl d s motorjak nt sz m tanak a ChatGPT re  s t rsaira Chil ben  Eti pi ban  s Malajzi ban is             
+Magyarorsz gon      ben nemzeti szinten is azzal sz molnak  hogy a mesters ges intelligencia a nemzetgazdas g minden ter let re be fog robbanni   s t z  ves id t von bel l a termel kenys gben     sz zal kpontnyi n veked st hoz             
+
+Jegyzetek szerkeszt s 
+
+  Mesters ges intelligencia  s a sz veg r s j v je      magyar nyelven        Hozz f r s        december     
+
+  Daniel Crevier  AI  the tumultuous history of the search for artificial intelligence          ISBN                        Hozz f r s        j nius           
+
+  a b Stuart J  Russell                     Peter Norvig  Artificial intelligence  a modern approach  Ming wei Chang       Jacob Devlin       Anca Dragan  Fourth Edition            Pearson Series in Artificial Intelligence   ISBN                        Hozz f r s        j nius           
+
+  Sisu  Diana          School of Informatics  History of Artificial Intelligence at Edinburgh      www inf ed ac uk       Hozz f r s        j nius     
+
+  Goldman  Sharon             years later  deep learning  revolution  rages on  say AI pioneers Hinton  LeCun and Li      amerikai angol nyelven       VentureBeat        szeptember          Hozz f r s        j nius     
+
+  Ask the AI experts  What s driving today s progress in AI    McKinsey      www mckinsey com       Hozz f r s        j nius     
+
+  US Leadership in Artificial Intelligence Can Shape the   st Century Global Order      amerikai angol nyelven       thediplomat com       Hozz f r s        j nius     
+
+   tt r s      v ut n  tment egy sz m t g p a Turing teszten
+
+  Google DeepMind  AI becomes more alien   bbc com
+
+  http   www origo hu techbazis          eloszor kapott allampolgarsagot egy robot szaud arabia sophie html
+
+  a b Roose  Kevin       The Brilliance and Weirdness of ChatGPT   The New York Times        december         Hozz f r s        janu r           amerikai angol nyelv        
+
+  a b Feiner  Lauren          Microsoft invests    billion in artificial intelligence project co founded by Elon Musk      angol nyelven       CNBC        j lius          Hozz f r s        janu r     
+
+  Hern  Alex       AI bot ChatGPT stuns academics with essay writing skills and usability   The Guardian        december         Hozz f r s        janu r           brit angol nyelv        
+
+  a b Lock  Samantha       What is AI chatbot phenomenon ChatGPT and could it replace humans    The Guardian        december         Hozz f r s        janu r           brit angol nyelv        
+
+  Microsoft eyes     billion bet on ChatGPT   Semafor      angol nyelven       www semafor com        janu r          Hozz f r s        janu r     
+
+  Rosen  Phil          ChatGPT s creator OpenAI has doubled in value since      as the language bot goes viral and Microsoft pours in     billion      amerikai angol nyelven       Markets Insider       Hozz f r s        janu r     
+
+  Varanasi  Lakshmi          ChatGPT creator OpenAI is in talks to sell shares in a tender offer that would double the startup s valuation to     billion      amerikai angol nyelven       Business Insider       Hozz f r s        janu r     
+
+  OpenAI  the Company Behind ChatGPT  Is Valued at     Billion      amerikai angol nyelven       Observer        janu r         Hozz f r s        janu r     
+
+  Piper  Kelsey          ChatGPT has given everyone a glimpse at AI s astounding progress      angol nyelven       Vox        december          Hozz f r s        janu r     
+
+  T bb milli rd doll ros meg llapod st k t tt a Microsoft a ChatGPT t fejleszt  OpenAI jal      magyar nyelven       Portfolio hu        janu r          Hozz f r s        janu r     
+
+  a b Wiggers  Kyle          OpenAI debuts GPT  o  omni  model now powering ChatGPT      amerikai angol nyelven       TechCrunch        m jus          Hozz f r s        m jus     
+
+  a b c Burgess  Matt       Here Come the AI Worms   Wired      Hozz f r s        m rcius           amerikai angol nyelv        
+
+  L trehozt k az els  v rust  ami a mesteres ges intelligencia seg ts g vel lopja el az adataidat      magyar nyelven       PCW   A meg jult PC World       Hozz f r s        m rcius     
+
+  Megsz letett az els  v rus  ami mesters ges intelligenci s megold sokat t mad      magyar nyelven       telex        m rcius         Hozz f r s        m rcius     
+
+  Az els  csat t az igazs g rt v vjuk a mesters ges intelligenci val   s veszt sre  llunk Telex        j nius    
+
+  Make Money With AI and ChatGPT  How To Earn        a Month      amerikai angol nyelven       Yahoo Finance        augusztus         Hozz f r s        janu r     
+
+  Drapkin  Aaron            Ways You Actually Make Money With ChatGPT in           amerikai angol nyelven       Tech co        szeptember         Hozz f r s        janu r     
+
+    Ways to Make Money with ChatGPT and AI      amerikai angol nyelven       KDnuggets       Hozz f r s        janu r     
+
+  a b  How to get rich in the   st century   The Economist      Hozz f r s        janu r           
+
+  Bal zs  R di          Nagy M rton  Az AI hatalmas l k st adhat a magyar gazdas gnak  de l tni a vesz lyeket is      magyar nyelven       index hu        szeptember          Hozz f r s        janu r     
+
+
+Tov bbi inform ci k szerkeszt s 
+Magyarul szerkeszt s 
+
+ gens Port l
+M k d  p ld k mesters ges intelligenci ra      ben
+Milyen  j  ll sokat teremt a mesters ges intelligencia 
+Mesters ges Intelligencia foly irat Archiv lva       szeptember    i d tummal a Wayback Machine ben
+Mesters ges intelligenci r l mindenkinek  mi a mesters ges intelligencia  hol tartunk most  s milyen messze van az emberi szint  MI 
+G  L  Simons  Szak rt i rendszerek  s mikr k  Mesters ges intelligencia  ford  D ry Anna  M szaki  Budapest      
+Yoshiaki Shirai Jun ichi Tsujii  Mesters ges intelligencia  Alapelvek  alkalmaz sok  ford  Nagy  kos  Novotrade  Budapest      
+M r  L szl    szj r sok  A racion lis gondolkod s korl tai  s a mesters ges intelligencia  Akad miai Optimum  Budapest      
+Darab Tam s  A g pes tett  rtelem  V zlatok a mesters ges intelligencia filoz fi j r l   ron  Budapest      
+Jenny Raggett William Bains  Mesters ges intelligencia  A Z  ford  Kepes J nos  Akad miai  Budapest      
+Megismer studom ny  s mesters ges intelligencia  szerk  Pl h Csaba  Akad miai  Budapest        Pszichol giai szemle k nyvt r 
+Mesters ges intelligencia  szerk  Fut  Iv n  Aula  Budapest      
+Alison Cawsey  Mesters ges intelligencia  Alapismeretek  ford  R zsa Tam s  Panem  Budapest        Panem inform ci technol gia 
+Henry Brighton Howard Selina  Mesters ges intelligencia m sk pp  ford  Kov cs Krist f  Edge       Budapest        SHL k pes k nyvek 
+Starkn  Werner  gnes  Mesters ges intelligencia  VE  Veszpr m      
+Roger C  Schank  Dinamikus eml kezet  A forgat k nyv elm let  jra rtelemz se  ford  Rag  Anett  Vince  Budapest      
+Stuart J  Russell Peter Norvig  Mesters ges intelligencia  Modern megk zel t sben  ford  Antal P ter et al       tdolg   b v  kiad   Panem  Budapest      
+Neur lis h l zatok  szerk  Horv th G bor  Panem  Budapest      
+Mesters ges intelligencia  s hat rter letei  Interj k kutat kkal  szerk  K ml di Ferenc  Akad miai  Budapest      
+Csat  Lehel  Neur lis h l k  s a g pi tanul s m dszerei  Kolozsv ri Egyetemi  Cluj Napoca      
+Borgulya Istv n  Optimaliz l s evol ci s sz m t sokkal  Typotex  Budapest        Az informatika elm lete 
+Raymond Kurzweil  A szingularit s k sz b n  Amikor az emberis g meghaladja a biol gi t  Ad Astra  Budapest      
+Nick Bostrom  Szuperintelligencia  Utak  vesz lyek  strat gi k  ford  Hidy M ty s  Ad Astra  Budapest      
+Elek Istv n  Az intelligencia spont n megjelen se  A digit lis evol ci s g p  ELTE E tv s  Budapest      
+Martin Ford  Robotok kora  Milyen lesz a vil g munkahelyek n lk l   ford  Garamv lgyi Andrea  HVG K nyvek  Budapest      
+Tim O Reilly  WTF  Mi rt rajtunk m lik  hogy mit hoz a j v   What s the future   Typotex  Budapest      
+Miskolczi Barna Szathm ry Zolt n  B ntet jogi k rd sek az inform ci k kor ban  Mesters ges intelligencia  big data  profiloz s  HVG ORAC  Budapest      
+Max Tegmark   let      Embernek lenni a mesters ges intelligencia kor ban  ford  Weisz B be  Garai Attila  HVG K nyvek  Budapest      
+H der Mih ly  Mesters ges intelligencia  Filoz fiai k rd sek  gyakorlati v laszok  Gondolat  Budapest      
+Abishur Prakash  Go AI  A mesters ges intelligencia geopolitik ja  ford  Lokodi Annam ria  Pallas Ath n   Budapest      
+Susan Schneider  A mesters ges ember  Az MI  s az elme j v je  ford  Unger Imola  Pallas Ath n   Budapest      
+Byron Reese  A negyedik kor  Okos robotok  tudatos sz m t g pek  s az emberis g j v je  ford  Dedinszky Zs fia  Typotex  Budapest      
+Paul Davies  D mon a g pezetben  Hogyan oldj k meg az inform ci  rejtett h l zatai az  let rejt ly t   ford  Both El d  Akkord  Budapest        Talentum tudom nyos k nyvt r 
+Angie Smibert  Mesters ges intelligencia  Okos g pek  gondolkod  robotok  s tudom nyos gyakorlatok gyerekeknek  ford  Beke  d m  Cser  Budapest      
+Shelly Fan  Lecser l e minket a mesters ges intelligencia   ford  Natt n Bal zs  Scolar  Budapest        Nagytot l 
+Andreas Sch hly Frank Becker Florian Klein  Val s idej  strat gia  Amikor a strat giai el rejelz s  s a mesters ges intelligencia tal lkozik  ford  Nemes Alexandra  V rnai T mea  Pallas Ath n   Budapest      
+G  Kar csony Gergely  Okoseszk z k   okos jog  A mesters ges intelligencia szab lyoz si k rd sei  Ludovika Egyetemi  Budapest      
+Seb k Mikl s Ring Orsolya M t   kos  Sz vegb ny szat  s mesters ges intelligencia R ben  Typotex  Budapest      
+Hannah Fry  Emberek  s g pek  Hogyan tartsuk a kez nkben az ir ny t st a mesters ges intelligencia kor ban   ford  Dembinszky Zs fia  HVG K nyvek  Budapest      
+Tilesch Gy rgy Omar Hatamleh  Mesters g  s intelligencia  Vegy k kez nkbe sorsunkat az MI kor ban  ford  Stemler Mikl s  Libri  Budapest      
+Kevin Roose  J v biztos  Kilenc szab ly az ember sz m ra az automatiz l s kor ban  ford  Berki  va  Pallas Ath n   Budapest      
+John C  Lennox        A mesters ges intelligencia  s az emberis g j v je  Szekul ris  s bibliai elk pzel sek  ford  Csisz r Istv n  Harmat  Bp       
+Gondolatok a transzhumanizmusr l  A mesters ges intelligencia etik ja  s hat sai  szerk  Christopher Hrynkow  ford  Berki  va  M t  Katalin  Pallas Ath n   Bp       
+Martin Ford  J v nk a robotok kor ban  Hogyan alak tja a mesters ges intelligencia az  let nket   ford  Darnyik Judit  HVG K nyvek  Bp       
+Marcus du Sautoy  A kreativit s k dja  Hogyan tanul a mesters ges intelligencia  rni  festeni  s gondolkodni  ford  Seres Iv n  Park  Bp       
+Ray Kurzweil  Hogyan alkossunk elm t  Az emberi gondolkod s titkainak nyom ban  ford  Nagy Bal zs  Pallas Ath n   Bp       
+Li Kaj Fu Csen Csiu Fan  Mesters ges intelligencia       T z v zi  a technol gia  s az ember kapcsolat r l  ford  Kozma D niel  HVG K nyvek  Bp       
+James Bridle  Az emberi intelligenci n t l   llatok  n v nyek g pek  a f ldi  rtelem nyom ban  ford  L vai M rta  Libri  Bp       
+Gondolatok a transzhumanizmusr l  A mesters ges intelligencia etik ja  s hat sai  szerk  Christopher Hrynkow  ford  Berki  va  M t  Katalin  Pallas Ath n   Bp       
+N gyesi Imre  A mesters ges intelligencia katonai felhaszn l s nak lehet s gei  Zr nyi  Budapest       
+       
+   Mesters ges intelligencia a XXI  sz zadi hadm v szetben  s a h bor kban      
+Fogyaszt bar t mesters ges intelligencia  A vel nk  l  AI egyes aktu lis k rd sei  szerk  Glavanits Judit  Universitas Gy r Nonprofit Kft   Gy r      
+Erd sz Viktor  A mesters ges intelligencia alkalmaz sa a katonai nemzetbiztons gi h rszerz sben  Katonai Nemzetbiztons gi Szolg lat  Budapest      
+A mesters ges intelligencia  s egy b felforgat  technol gi k hat sainak  tfog  vizsg lata  szerk  Kov cs Zolt n  KNBSZ  Budapest      
+Individualiz ci   szem lyis g  mesters ges intelligencia  Az  n m ltja  jelene   s j v je egy digit lis vil gban  szerk  Kiss K roly  Kort rs N i Reflexi k F ruma  Budapest      
+A fejl d s fogs g ban  Tanulm nyok a kibert r  s a mesters ges intelligencia     sz zadi  llam   s jogfejleszt si  t rsadalmi  biztons gi kapcsol d sai k r b l  szerk  Farkas  d m  Kelemen Roland  Gondolat  Budapest      
+Mustafa Suleyman Michael Bhaskar  A k vetkez  hull m  Mesters ges intelligencia  technol gia  hatalom  s a     sz zad legnagyobb kih v sa  ford  Farkas Veronika  Magn lia  Budapest      
+David Runciman   tad s  Hogyan engedt k  t az ir ny t st  llamoknak  v llalatoknak  s a mesters ges intelligenci nak  ford  Papolczy P ter  Corvina  Budapest      
+Csallner Andr s Erik  Hogyan tanul a mesters ges intelligencia   JGYF  Szeged      
+Ethan Mollick  T rsintelligencia   let  s munka a mesters ges intelligencia  j korszak ban  ford  Cseh Zsuzsanna  T th Katalin  HVG K nyvek  Budapest      
+
+Angolul szerkeszt s 
+
+American Association for Artificial Intelligence
+AGIRI   Artificial General Intelligence Research Institute
+European Coordinating Committee for Artificial Intelligence
+German Research Center for Artificial Intelligence  DFKI
+Center for Computational Intelligence  Learning  and Discovery   Iowa State University Archiv lva       febru r   i d tummal a Wayback Machine ben
+Artificial Intelligence News
+Association for Uncertainty in Artificial Intelligence
+Singularity Institute for Artificial Intelligence
+The Society for the Study of AI and Simulation of Behaviour
+University of California at Berkeley AI Resources links to     AI resource pages
+Loebner Prize website Archiv lva       december    i d tummal a Wayback Machine ben 
+OpenMind CommonSense
+SourceForge Open Source AI projects        projects
+A tutorial on AI programming language LISP
+Marvin Minsky s Homepage Archiv lva       augusztus   i d tummal a Wayback Machine ben
+MIT s Computer Science and Artificial Intelligence Lab
+AI research group at Information Sciences Institute
+What is Artificial Intelligence 
+Artificial and biological intelligence Archiv lva       m rcius    i d tummal a Wayback Machine ben
+Stanford Encyclopedia of Philosophy entry on Logic and Artificial Intelligence
+AI Junkie  Genetic Algorithm and Neural Network tutorials
+
+Nemzetk zi katal gusok
+LCCN  sh        
+GND           
+NKCS  ph      
+BNF  cb        t
+BNE  XX       
+KKT          
+
+ Informatikai port l 
+   sszefoglal   sz nes tartalomaj nl  lap
+
+
+
+
+
+A lap eredeti c me   https   hu wikipedia org w index php title Mesters ges intelligencia amp oldid

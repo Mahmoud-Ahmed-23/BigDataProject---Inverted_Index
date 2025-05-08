@@ -1,0 +1,241 @@
+Intelixencia artificial
+Tipu
+industria  es    tipo de tecnolog a  es    branch of computer science  en   y type of intelligence  en  Etiqueta de Stack Exchange
+Stack Exchange
+La intelixencia artificial  IA   o meyor llamada intelixencia computacional  ye la intelixencia exhibida por m quines  En ciencies de la computaci n  una m quina intelixente  ideal ye un axente racional flexible que percibe la so redolada y lleva a cabu remanes que maximicen les sos posibilidaes d  situ en dalg n oxetivu o xera                                              Coloquialmente el t rminu  intelixencia artificial  apl case cuando una m quina asonsa a les funciones cognitives  que los humanos acomu en con otres mentes humanes  como por casu   aprender  y  resolver problemes               A midida de que les m quines vu lvense cada vez m s capaces  teunolox a que dalguna vegada pens se que riqu a d intelixencia  esaniciar de la definici n  Por casu  la reconocencia  ptica de calteres y  nun se percibe como un exemplu de la intelixencia artificial  convirti ndose nuna teunolox a com n             Meyores teunol xiques inda clasificaos como intelixencia artificial son los sistemes capaces de xugar axedrez  GO y remanar por si mesmos 
+En       John McCarthy acu   la espresi n  intelixencia artificial   y  definir como      la ciencia ya inxeniu de faer m quines intelixentes  especialmente programes de c mputu intelixentes             
+Pa Nils John Nilsson son cuatro les pilastres b siques nos que se sofita la intelixencia artificial 
+
+Busca del est u riqu u nel conxuntu de los estaos produc os poles aiciones posibles 
+Algoritmos xen ticos  an logu al procesu d evoluci n de les cadenes d ADN  
+Redes neuronales artificiales  an logu al funcionamientu f sicu del celebru d animales y humanos  
+Razonamientu por aciu una l xica formal an logu al pensamientu astractu humanu 
+Tami n esisten distintos tipos de perceiciones y aiciones  que pueden ser llograes y produc es  respeutivamente  por sensores f sicos y sensores mec nicos en m quines  pulsos ll tricos o  pticos n ordenadores  tanto como por entraes y sal es de bits d un software y la so redolada software 
+Dellos exemplos  atopar nel  rea de control de sistemes  planificaci n autom tica  l habilid  de responder a diagn sticos y a consultes de los consumidores  reconocencia d escritura  reconocencia de la fala y reconocencia de patrones  Los sistemes de IA angua o son parte de la rutina en campos como econom a  medicina  inxenier a y la milicia  y us se en gran varied  d aplicaciones de software  xuegos d estratexa  como axedrez d ordenador  y otros videoxuegos 
+
+
+Categor es de la intelixencia artificial editar   editar la fonte 
+Busca heur stica  Podemos definir una heur stica como un trucu o estratexa que llinda grandiosamente la busca de soluciones ante grandes espacios de problemes 
+Poro  ante un problema  ay danos a escoyer les bifurcaciones dientro d un  rbol con m s posibilidaes  con ello ac tase la busca  anque non siempres se garantiza una soluci n fayadiza  Tou lo que se debe tener en cuenta por que una heur stica seya fayadiza ye que nos apurra soluciones que s an lo suficientemente bones 
+Am s  col usu de la busca heur stica  nun va ser necesariu replantegar un problema cada vez que s encare  y  que si y  foi planteg u enantes   sta va suxerir la forma en que s hai de proceder pa resolvelo 
+Representaci n de la conocencia  La representaci n ye una cuesti n clave a la d atopar soluciones fayadices a los problemes plantegaos 
+Si analizamos m s en tientes el t rminu atopamos delles definiciones  seg n Barr y Feigenbaum  la representaci n de la conocencia ye una combinaci n d estructures de datos y procedimientos d interpretaci n que  si son utilizaos correutamente por un programa   sti va poder exhibir una conducta intelixente  seg n Fari as y Verdejo  la Intelixencia Artificial tien como oxetivu construyir modelos computacionales que al executase resuelvan xeres con resultaos similares a los llograos por una persona  polo que la tema central d esta disciplina ye l estudiu de la conocencia y el so manexu  y seg n Buchanan y Shortliffe  la Representaci n de la Conocencia nun programa d Intelixencia Artificial significa escoyer una serie de convenciones pa describir oxetos  rellaciones  y procesos nel mundu 
+Gran parte del esfuerciu realiz u na consecuci n d ordenadores intelixentes  seg n Rahael  foi carauteriz u pol intentu continuu de consiguir m s y meyores estructures de representaci n de la conocencia  xunto con t uniques fayadices pa la so manipulaci n  que dexaren la resoluci n intelixente de dalgunos de los problemes y  plantegaos 
+Otra carauter stica importante ye la inclusi n nos programes d Intelixencia artificial  anque por separ u  de les conocencies y la unid  que controla y dirixe la busca de soluciones  Dada esta disposici n  nestos programes el camb u  ampliaci n y actualizaci n de los mesmos ye senciella 
+El razonamientu que puede tener  cualquier persona  demostr  ser unu de los aspeutos m s dif ciles de modelar  dientro  d un ordenador  El sent u com n de cutiu ay danos a prever ensame de fechos y fen menos corrientes  pero  como y  diximos  ye bien complic u representalos nun ordenador  y  que los razonamientos son casi siempres inexactos y que les sos conclusiones y regles nes que se basen solamente son aproximao verdaderes 
+Llinguaxes  redolaes y ferramientes d Intelixencia Artificial
+Na Intelixencia Artificial  desenvolvi ronse distintos llinguaxes espec ficos pa los distintos campos d aplicaci n 
+Estos llinguaxes na so mayor a cunten con una serie de carauter stiques comunes que podemos resumir de la siguiente forma 
+Esti tipu de software ufierta una gran modularidad 
+Tienen gran capacid  de tomar decisiones de programaci n hasta l  ltimu momentu  ye dicir cuando l programa y  ta execut ndose 
+Ufierten grandes facilidaes nel manexu de llistes  y esto ye importante  una y bones les llistes son la estructura m s habitual usada pa la representaci n de la conocencia na Intelixencia Artificial 
+Faciliten la realizaci n de ciertos tipos de deducci n autom tica dexando tami n la creaci n d una base de fechos  llugar onde se recueyen los datos iniciales del problema a resolver y los resultaos entemedies una vegada llograos  
+Dexa l usu simult neu d estructures qu incorporen conocencia declarativo y conocencia procedimental 
+Tienen una marcada orientaci n gr fica  Am s  les ferramientes d Intelixencia Artificial dexen faer un siguimientu de tolos cambeos realizaos a lo llargo de tola sesi n
+Disponen ferramientes capaces de desenvolver programes que son capaces d entender otros programes y tami n de realizar cambeos sobre ellos 
+Stuart Russell y Peter Norvig estremen estos tipos de la intelixencia artificial            
+
+Sistemes que piensen como humanos   Estos sistemes traten d emular el pensamientu humanu  por casu les redes neuronales artificiales  L automatizaci n d actividaes que venceyamos con procesos de pensamientu humanu  actividaes como la toma de decisiones  resoluci n de problemes y aprendizaxe            
+Sistemes qu act en como humanos   Estos sistemes traten d actuar como humanos  esto ye  asonsa en el comportamientu humanu  por casu la rob tica  L estudiu de c mo llograr que los ordenadores realicen xeres que  enagora  los humanos faen meyor             
+Sistemes que piensen racionalmente   Esto ye  con l xica  idealmente   traten d asonsa ar o emular el pensamientu l xicu racional del ser humanu  por casu los sistemes espertos  L estudiu de los c lculos que faen posible percibir  razonar y actuar             
+Sistemes qu act en racionalmente  idealmente    Traten d emular de forma racional el comportamientu humanu  por casu los axentes intelixentes  Ta rellacion u con conductes intelixentes n artefactos             
+Escueles de pensamientu editar   editar la fonte 
+La IA  estremar en dos escueles de pensamientu 
+
+La intelixencia artificial convencional 
+La intelixencia computacional 
+Intelixencia artificial convencional editar   editar la fonte 
+Conozse tami n como IA simb licu deductiva  Ta basada nel anal s formal y estad sticu del comportamientu humanu ante  distintu problemes 
+
+Razonamientu bas u en casos  Ayuda a tomar decisiones mientres se resuelven ciertos problemes concretos y  am s de que son bien importantes  riquen d un bon funcionamientu 
+Sistemes espertos  Infieren una soluci n al travi s de la conocencia previa del contestu en que s aplica y ocupa de ciertes regles o rellaciones 
+Redes bayesianas  Prop n soluciones por aciu inferencia probabil stica 
+Intelixencia artificial basada en comportamientos  Esta intelixencia conti n autonom a y puede autu regulase y controlase p ameyorar 
+Smart process management  Facilita  tomar de decisiones complexes  proponiendo una soluci n a un determin u problema al igual que  lu fadr a un especialista na dicha activid  
+Intelixencia artificial computacional editar   editar la fonte 
+La Intelixencia Computacional  tami n conocida como IA subsimb lica inductiva  implica desenvolvimientu o aprendizaxe interactivo  por casu  cambeos interactivas de los par metros en sistemes de conexones   L aprendizaxe real zase bas ndose en datos emp ricos 
+
+Historia editar   editar la fonte 
+El t rminu  intelixencia artificial  foi acu  u formalmente en      mientres la conferencia de Darthmounth  m s aquel d a y  se tuviera trabayando nello mientres cinco a os nos cualos propunx rase munches definiciones distintes qu en neng n casu llograren ser aceptaes totalmente pola comunid  investigadora  La IA ye una de les disciplines m s nueves xunto cola xen tica moderna 
+Les idees m s b siques  remontar a los griegos  antes de Cristu  Arist teles               a       C   foi l primeru en describir un conxuntu de regles que describen una parte del funcionamientu de la mente pa llograr conclusiones racionales  y Ctesibio d Alexandr a           a       C   construy  la primer m quina autocontrolada  un regulador del fluxu d agua  racional pero ensin razonamientu  
+En      Ramon Llull nel so llibru Ars magna tuvo la idea de que l razonamientu pod a ser efeutu u de manera artificial 
+En      Alan Turing dise a formalmente una M quina universal que demuestra la viabilid  d un dispositivu f sicu pa implementar cualesquier c mputu formalmente defin u 
+En      Warren McCulloch y Walter Pitts presentaron el so modelu de neurones artificiales  que consid rase l primer trabayu del campu  ent  cuando inda nun esist a l t rminu  Les primeres meyores importantes empezaron a principios del a u      col trabayu d Alan Turing  a partir de lo cual la ciencia pas  por  diverses situaciones 
+En      Herbert Simon  Allen Newell y J  C  Shaw  desenvuelven el primer llinguaxe de programaci n empobin u a la resoluci n de problemes  el IPL     Un a u m s tarde desenvuelven el LogicTheorist  que yera capaz de demostrar teoremas matem ticos 
+En      foi invent u l t rminu intelixencia artificial por John McCarthy  Marvin Minsky y Claude Shannon na Conferencia de Dartmouth  un congresu nel que se fixeron previsiones trunfalistes a diez a os qu enxam s se cumplieron  lo que provoc  l abandonu casi total de les investigaciones mientres quince a os 
+En      Newell y Simon siguen el so trabayu col desenvolvimientu del Xeneral Problem Solver  GPS   GPS yera un sistema empobin u a la resoluci n de problemes 
+En      John McCarthy desenvuelve nel Institutu de Teunolox a de Massachusetts  MIT  el LISP  El so nome  derivar de LISt Processor  LISP foi l primer llinguaxe pa procesamientu simb licu 
+En      Rosenblatt introduz el Perceptr n 
+A finales de la d cada de      y empiezos de la de      Robert K  Lindsay desenvuelve  Sad Sam   un programa pa la llectura d oraciones n ingl s y la inferencia de conclusiones a partir de la so interpretaci n 
+En      Quillian desenvuelve les redes sem ntiques como modelu de representaci n de la conocencia 
+En      Bertrand Raphael constr i l sistema SIR  Semantic Information Retrieval  el cual yera capaz d inferir conocencia basada n informaci n que se y suministra  Bobrow desenvuelve STUDENT 
+A mediaos de los a os     apaecen los sistemes espertos  que predicen la probabilid  d una soluci n so un set de condiciones  Por casu DENDRAL  empecipi u en      por Buchanan  Feigenbaum y Lederberg  el primer Sistema Espertu  qu asist a a qu micos n estructures qu miques complexes euclidianes  MACSYMA  qu asist a a inxenieros y cient ficos na soluci n d ecuaciones matem tiques complexes 
+Darr u ente los a os           Terry Winograd desenvolvi  l sistema SHRDLU  que dexaba entrugar y dar  rdenes a un robot que se mov a dientro d un mundu de bloques 
+En      Marvin Minsky publica Semantic Information Processing 
+En      Seymour Papert  Danny Bobrow y Wally Feurzeig desenvuelven el llinguaxe de programaci n LOGO 
+En      Alan Kay desenvuelve l llinguaxe Smalltalk en Xerox PARC y  publicar en      
+En      Alain Colmenauer y el so equipu d investigaci n na Universid  de Aix Marseille crean PROLOG  del franc s PROgrammation en LOGique  un llinguaxe de programaci n llargamente utiliz u en IA 
+En      Shank y Abelson desenvuelven los guiones  o scripts  pilastres de munches t uniques actuales n Intelixencia Artificial y la inform tica polo xeneral 
+En      Edward Shortliffe escribe la so tesis con MYCIN  unu de los Sistemes Espertos m s conoc os  qu asisti  a m dicos nel diagn sticu y tratamientu d infecciones en los sangre 
+Nes d cades de      y       creci  l usu de sistemes espertos  como MYCIN  R  XCON  ABRL  PIP  PUFF  CASNET  INTERNIST CADUCEUS  etc  Dalgunos permanecen hasta g ei  Shells  como EMYCIN  EXPERT  OPSS 
+En      Kazuhiro Fuchi anuncia l proyeutu xapon s de la quinta xeneraci n d ordenadores 
+En      McClelland y Rumelhart publiquen Parallel Distributed Processing  Redes Neuronales  
+En      establ cense los llinguaxes Empobinaos a Oxetos 
+En      Gari Kasp rov  campe n mundial d axedrez  pierde ante l ordenador aut nomu Deep Blue 
+En      celebr se l aniversariu col Congresu n espa ol    a os d Intelixencia Artificial   Campus Multidisciplinar en Perceici n ya Intelixencia      
+Nel a u      y  hai en  desarrollo sistemes intelixentes terap uticos que dexen detectar emociones pa poder interactuar con ne os autistes 
+Nel a u      IBM desenvolvi  una supercomputadora llamada Watson  que gan  una ronda de tres xuegos sigu os de Jeopardy   venciendo a los sos dos m ximos campeones  y ganando un premiu de   mill n de d lares que IBM depu s don  a obres de carid              
+En       un programa inform ticu gan  cinco a cero al triple campe n d Europa de Go             
+Esisten persones que al dialogar ensin sabelo con un chatbot nun se decaten de falar con un programa  de manera tal que se cumple la prueba de Turing como cuando se formul    Va Esistir Intelixencia Artificial cuando nun s amos capaces d estremar ente un ser humanu y un programa d ordenador nuna conversaci n a palpu  
+Como an udota  munchos de los investigadores sobre IA sostienen que  la intelixencia ye un programa capaz de ser execut u independientemente de la m quina que la execute  ordenador o celebru  
+La intelixencia artificial  la conciencia y los sentimientos editar   editar la fonte 
+El conceutu de IA ye ent  demasiao difusu  Contextualizando  y teniendo en cuenta un puntu de vista cient ficu  podr amos definir esta ciencia como la encargada d asonsa ar el celebru  que non el cuerpu  d una persona en toles sos funciones  Estes pueden ser les y  esistentes nel humanu o bien otres novedoses ya incorporaes nel desenvolvimientu d una m quina intelixente 
+En rellaci n a la conciencia y les emociones  y anque enagora la mayor a de los investigadores nel  mbitu de la Intelixencia Artificial c ntrense nam i nel aspeutu racional  hai espertos que consideren seriamente la posibilid  d incorporar componentes  emotivos  como indicadores d est u  con cuenta d aumentar la eficacia de los sistemes intelixentes en determinaes situaciones 
+A diferencia de los humanos  hai t rminos que la Intelixencia Artificial nun puede entender o entender conceutos humanos como l amor  el matrimoniu  el sent u de la vida  el llibre albedr u l ci u o les emociones humanes
+Particularmente  nel casu de los robots m viles  ye necesariu qu estos cunten con daqu  similar a les emociones al env s de saber  en cada intre y a lo menos  qu  faer de sigu o  Pinker        p       
+Al tener  sentimientos  y  siquier potencialmente   motivaciones   van poder actuar acordies coles sos  intenciones   Mazlish        p        Asina  podr a fornise a un robot con dispositivos que controlen el so mediu internu  por casu  que  sientan fame  al detectar que l so nivel d enerx a ta baxando o que  sientan mieu  cuando esti tea demasi u baxu 
+Esta se al podr a atayar los procesos d altu nivel y obligar al robot a consiguir el preci u elementu  Johnson Laird        p        Inclusive podr a introducise el dolor  o l sufrimientu f sicu   con cuenta d evitar les torpeces de funcionamientu como  por casu  introducir la mano dientro d una cadena de engranajes o saltar dende una ciertu altor  lo cual provocar a y da os irreparables 
+Esto significa que los sistemes intelixentes tienen de ser dotaos con mecanismos de retroalimentaci n que yos dexen tener conocencia d estaos internos  igual qu asocede colos humanos que disponen de propiocepci n  interocepci n  nocicepci n  etc tera  Esto ye fundamental tantu pa tomar decisiones como pa caltener la so propia integrid  y segurid   La retroalimentaci n en sistemes ta particularmente desenvuelta en cibern tica  por casu  nel camb u de direici n y velocid  aut nomu d un misil  utilizando como par metru la posici n en cada intre en rellaci n al oxetivu que tien de  algamar  Esto ten de ser estrem u de la conocencia qu un sistema o programa computacional puede tener de los sos estaos internos  por casu la cantid  de ciclos cumpl os nun loop o bucle en sentencies  tipo do    for  o la cantid  de memoria disponible pa una operaci n determinada 
+A los sistemes intelixentes el nun tener en cuenta  elemento emocionales d xa yos non escaecer la meta que tienen de  algamar  Nos humanos l olvidu de la meta o l abandonar les metes por perturbaciones emocionales ye un problema qu en dellos casos apuerta a incapacitante  Los sistemes intelixentes  al combinar una memoria durable  una asignaci n de metes o motivaci n  xunto a  tomar de decisiones y asignaci n de prioridaes con base n estaos actuales y estaos meta  llogren un comportamientu n estremu eficiente  especialmente ante problemes complexos y peligrosos 
+
+En resume  lo racional y lo emocional t n de tal manera interrellacionaos ente sigo  que podr a dicise que non y  nun son aspeutos contradictorios sin n que son  hasta ciertu puntu complementarios Ver tami n  La era de las m quinas espirituales
+Cr tiques editar   editar la fonte 
+Les principales cr tiques a la intelixencia artificial tienen que ver cola so capacid  d asonsa ar por completu a un ser humanu  Sicas   hai espertos na tema qu indiquen que neng n humanu individual tien capacid  pa resolver tou tipu de problemes  y autores como Howard Gardner han teorizado qu esisten intelixencies m ltiples  Un sistema d intelixencia artificial tendr a de resolver problemes polo que ye fundamental nel so dise u la delimitaci n de los tipos de problemes que va resolver y les estratexes y algoritmos que va utilizar p atopar la soluci n 
+Nos humanos  la capacid  de resolver problemes tien dos aspeutos  los aspeutos innatos y los aspeutos aprend os  Los aspeutos innatos dexen  por casu  almacenar y recuperar informaci n na memoria  ente que nos aspeutos aprend os mora l saber resolver un problema matem ticu por aciu l algoritmu fayadizu  De la mesma qu un humanu tien de disponer de ferramientes que y dexen solucionar ciertos problemes  los sistemes artificiales tienen de ser programaos de manera tal que puedan llegar a resolvelos 
+Munches persones consideren que l test de Turing foi super u  citando conversaciones en que al dialogar con un programa d intelixencia artificial pa chat nun saben que falen con un programa  Sicas   esta situaci n nun ye equivalente a un test de Turing  que rique que l participante tea sobre aviso de la posibilid  de falar con una m quina 
+Otros esperimentos mentales como l Habitaci n china  de John Searle  amosaron c mo una m quina podr a asemeyar pensamientu ensin realmente  tener  pasando l test de Turing ensin siquier entender lo que fai  tan solo reaccionando d una forma concreta a determinaos est mulos  nel sent u m s ampliu de la pallabra   Esto demostrar a que la m quina en realid  nun ta pensando  y  que actuar acordies con un programa preestablecido ser a abondu  Si pa Turing el fechu d enga ar a un ser humanu qu intenta evitar que y  enga ar ye amuesa d una mente intelixente  Searle considera posible llograr dichu efeutu por aciu regles defin es a priori 
+Unu de los mayores problemes en sistemes d intelixencia artificial ye la comunicaci n col usuariu  Esta torga ye por cuenta de la ambig ed  del llinguaxe  y rem ntase a los entamos de los primeros sistemes operativos inform ticos  La capacid  de los humanos pa comunicase ente sigo implica la conocencia del llinguaxe qu utiliza l interlocutor  Por que un humanu pueda comunicase con un sistema intelixente hai dos opciones  o bien que l humanu aprienda l llinguaxe del sistema como si aprendiera a falar cualesquier otru idioma distintu al nativu  o bien que l sistema tenga la capacid  d interpretar el mensaxe del usuariu na llingua que l usuariu utiliza 
+Un humanu  mientres tola so vida  apriende l vocabulariu de la so llingua nativa o materna  siendo capaz d interpretar los mensaxes  a pesar de la polisemia de les pallabres  utilizando l contestu pa resolver ambig edaes  Sicas   tien de conocer los distintos significaos pa poder interpretar  y ye por esto que llinguaxes especializaos y t unicos son conoc os solamente por espertos nes respeutives disciplines  Un sistema d intelixencia artificial  enfrentar col mesmu problema  la polisemia del llinguaxe humanu  la so sintaxis pocu estructurada y los dialeutos ente grupos 
+Los desarrollos n intelixencia artificial son mayores nos campos disciplinares nos qu esiste mayor consensu ente especialistes  Un sistema espertu ye m s probable que seya program u en f sica o en medicina qu en sociolox a o en psicolox a  Esto debe al problema del consensu ente especialistes na definici n de los conceutos arreyaos y nos procedimientos y t uniques a utilizar  Por casu  en f sica hai alcuerdu sobre l conceutu de velocid  y c mo calculala  Sicas   en  psicolox a alderiquen los conceutos  la etiolox a  la sicopatolox a y c mo proceder ante cierto diagn sticu  Esto enzanca la creaci n de sistemes intelixentes porque siempres va haber desalcuerdu sobre la forma en que tendr a d actuar el sistema pa distintes situaciones  A pesar d esto hai grandes meyores nel dise u de sistemes espertos pal diagn sticu y toma de decisiones nel  mbitu m dico y psiqui trico  Adaraga Morales  Zaccagnini Sancho        
+Al desenvolver un robot con intelixencia artificial tien de tenese curi u cola autonom a hai que tener curi u en nun venceyar el fechu de que l robot interaccione con seres humanos al so grau d autonom a              Si la rellaci n de los humanos col robot ye de tipu maestru esclavu  y el papel de los humanos ye dar  rdenes y el del robot obedeceles  ent s s  cabo falar d una llimitaci n de l autonom a del robot  Pero si la interaici n de los humanos col robot ye d igual a igual  ent s la so presencia nun tien por qu  tar acomu ada a restricciones por que l robot pueda tomar les sos propies decisiones 
+
+Teunolox es de sofitu editar   editar la fonte 
+Interfaces d usuariu
+Visi n artificial
+Smart process management
+Aplicaciones de la intelixencia artificial editar   editar la fonte 
+Un asistente autom ticu en llinia dando serviciu d atenci n al veceru nun sitiu web   una de les munches aplicaciones primitives de la intelixencia artificial 
+Les t uniques desenvueltes nel campu de la intelixencia artificial son numberoses y ubicues  Com nmente cuando un problema ye resueltu por aciu intelixencia artificial la soluci n ye incorporada n  mbitos de la industria y de la vida diaria de los usuarios de programes d ordenador  pero la perceici n popular  escaecer de los or xenes d estes teunolox es que dexen de ser percib es como intelixencia artificial  A esti fen menu con zse y como l efeutu IA             
+
+Lling  stica computacional
+Miner a de datos  Data Mining 
+Industriales 
+Medicina
+Mundos virtuales
+Procesamientu de llinguaxe natural  Natural Language Processing 
+Rob tica
+Mecatr nica
+Sistemes de sofitu a la decisi n
+Videoxuegos
+Prototipos inform ticos
+Anal s de sistemes din micos
+Smart Process Management
+Simulaci n d ensames
+Aplicaciones pr utiques editar   editar la fonte 
+La mayor a de los xuegos de mesa y una gran cantid  de problemes inform ticos por aciu la modelizaci n del problema n estaos cola posterior aplicaci n d un algoritmu de busca ente estos estaos  
+Cabo destacar ente otres la IA del xuegu Left for Dead   L D   la intelixencia artificial d esti xuegu ye llamada AI Direutor y ye la responsable de regular les armes  los zombies y l apaici n d equipos de sanamientu como los botiquinos dependiendo de la vida de los xugadores  
+L aplicaci n m s evidente ye l control de los PNJ nel xuegu  La busca de ruta ye otru d usu com n pa la IA  buscar un cam n pa mover un PNJ d un puntu nun mapa a otru  teniendo en cuenta l terr n y evitando les torgues  M s all  de busca de caminos  la navegaci n ye un subcampo de la IA del xuegu que se centra en dar a los PNJ la capacid  de navegar na so redolada  la busca d un cam n escontra un oxetivu  evitando choques con otres entidaes o collaborar con ellos  La IA tami n ta arreyada col equilibriu de la dificult  del xuegu  que consiste nel axuste de la dificult  d un xuegu de videoxuegu en tiempu real bas u na habilid  del xugador  aumentando la dificult  del xuegu aumentar a la capacid  de la IA amenorgando asina l tiempu de reaici n  a determinaos sucesos 
+
+Los tr s en raya editar   editar la fonte 
+Una de les aplicaciones de la IA na que ye bien f cil entender el funcionamientu y la programaci n de la mesma ye por casu nel tic tac toe  esto ye   los tr s en raya   C mo podr a programase un xuegu d esti tipu  
+De mano  el tableru ye una estructura de datos de tipu matriz que conti n unos caxellos les cualos t n ocupaes por un xugador o vac es  Una partida ye una secuencia d estaos polos que pasa un tableru  Pa programar la intelixencia artificial por que pueda gananos tenemos de faer qu aprienda los distintos estaos y dir avanzando polos que pueda ganar 
+
+Una opci n pa ense ar a la intelixencia artificial ye ense a y tolos distintos estaos ganadores que pueden dase nel tableru  Pero esto pue ser bien costosu una y bones cuantos m s caxellos tenga l tableru  mas estaos tien 
+Otru puntu de vista ser a programar la IA por qu act e en cada vez  esto ye  que la instruyamos por qu act e d alcuerdu a unes instrucciones axustaes  Por casu  cuando l xugador tenga dos fiches alliniaes  la IA tien d asitiar la so ficha na posici n na que l xugador fora ganar pa corta y la victoria  con  ses cuando la IA tenga dos fiches alliniaes la siguiente que tien d asitiar ye na posici n ganadora  Si nun se da nengunu d estos dos casos podr a escoyer un sitiu aleatoriu 
+De normal pa estos xuegos utiliza la estratexa minimax  que asonsa a l comportamientu humanu n esaminando un ciertu n mberu de xugaes enantes  Nesti enfoque esiste una funci n d evaluaci n que da un valor a cada posible movimientu 
+
+Investigadores nel campu de la intelixencia artificial editar   editar la fonte 
+Jeff Hawkins
+John McCarthy
+Marvin Minsky
+Xudea Pearl
+Alan Turing  disc pulu de John von Neumann  dise   l Test de Turing que tendr a d utilizase pa entender si una m quina l xica ye intelixente o non 
+Joseph Weizenbaum
+Ra l Rojas
+Ray Kurzweil
+Ver tami n editar   editar la fonte 
+Computaci n cu ntica
+Referencies editar   editar la fonte 
+
+  http   people cs ubc ca  poole ci ch  pdf
+
+  http   www csail mit edu 
+
+  http   decsai ugr es 
+
+   Archived copy       Archiv u dende l orixinal  el            
+
+    Russell y Norvig        p         
+
+  Schank  Roger C                          AI magazine 
+
+   Basic Questions       Consult u l    d ochobre      de      
+
+  Stuart Russell and Peter Norvig  Inteligencia Artificial  Un Enfoque Moderno http   aima cs berkeley edu contents html
+
+  Bellman      
+
+  Rich y knight      
+
+  Winston      
+
+  Nilsson      
+
+  http   es blog pinggers com            watson y otros sistemas que mejoran nuestras vidas con inteligencia artificial 
+
+   La inteligencia artificial conquista el  ltimo tablero de los humanos       Consult u l    de xineru de      
+
+  Salichs  Miguel A   Malfaz  Mar a  Gorostiza  Javi F     d ochobre de       
+
+   AI set to exceed human brain power   en ingl s  
+
+
+Bibliograf a editar   editar la fonte 
+Tirso d Andr s  Homo Cybersapiens  La Intelixencia artificial y l humana        ISBN              
+Luis M  Gonzalo  Intelixencia Humana ya Intelixencia Artificial  Madrid        ISBN              
+V ctor G mez Pin  Ente llobos y aut mates  La causa del home  Espasa  Madrid        ISBN                  
+Revista  Intelixencia Artificial  Archiv u            en Wayback Machine Revista Iberoamericana d Intelixencia Artificial  ISSN          
+Adaraga Morales P   Zaccagnini Sancho J  L   Psicolox a ya intelixencia artificial  Editorial Trotta  Madrid        ISBN              
+Alberto Garc a Serrano  Intelixencia Artificial  Fundamentos  pr utica y aplicaciones   Editorial RC Llibros        ISBN                  
+Definition of AI as the study of intelligent agents 
+
+Poole  Mackworth y Goebel        p     which provides the version that is used in this article  Note that they use the term  computational intelligence  as a synonym for artificial intelligence 
+Russell      y Norvig         who prefer the term  rational agent   and write  The whole agent view is now widely accepted in the field   Russell      y Norvig        y Norvig        p           
+Nilsson      
+Legg y Hutter       
+Enllaces esternos editar   editar la fonte 
+ Wikimedia Commons acueye conten u multimedia sobre      Intelixencia artificial 
+Publicaciones editar   editar la fonte 
+Revista  Intelixencia Artificial   Archiv u            en Wayback Machine Revista iberoamericana d intelixencia artificial 
+P xina sobre intelixencia artificial  Web que dende      trata esta tema de forma diversificada  Tien enllaces a proyeutos 
+Control d autoridaes
+Proyeutos Wikimedia
+ Datos  Q     
+ Multimedia  Artificial intelligence
+ Cites famoses  Inteligencia artificial
+ Coordinaci n  Artificial intelligence
+
+Identificadores
+BNE  XX       
+BNF          t  data 
+GND           
+LCCN  sh        
+NDL          
+NKC  ph      
+AAT           
+Diccionarios y enciclopedies
+Britannica  url
+Identificadores m dicos
+MeSH  D      
+
+ Datos  Q     
+ Multimedia  Artificial intelligence
+ Cites famoses  Inteligencia artificial
+ Coordinaci n  Artificial intelligence
+
+
+
+
+
+
+Sac u de  https   ast wikipedia org w index php title Intelixencia artificial amp oldid

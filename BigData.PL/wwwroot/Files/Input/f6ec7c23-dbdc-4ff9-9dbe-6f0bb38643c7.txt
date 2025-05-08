@@ -1,0 +1,34 @@
+Computer poker player
+
+Pluribus is a computer poker player using artificial intelligence built by Facebook s AI Lab and Carnegie Mellon University  Pluribus plays the poker variation no limit Texas hold  em and is  the first bot to beat humans in a complex multiplayer competition              The developers of the bot published their results in                 
+According to the Pluribus creators   Developing a superhuman AI for multiplayer poker was the widely recognized main remaining milestone  in computer poker prior to Pluribus  Pluribus relies on offline self play to build a base strategy  but then continues to learn in real time during its online play  The base strategy was computed in eight days  and at market rates would cost about      to produce  much smaller than contemporary superhuman game playing milestones such as AlphaZero  In AI  two player zero sum games  such as heads up hold em  are usually won by approximating a Nash equilibrium strategy  however  this approach does not work for games with three or more players  Pluribus instead uses an approach which lacks strong theoretical guarantees  but nevertheless appears to work well empirically at defeating human players  Across the competitions  Pluribus won an average of over    milli big blinds per game  Pluribus  self learned play style avoids  limping   calling the big blind   and engages in  donk betting   ending a round with a call and starting the next round by betting  more often than human experts do            
+Among expert poker players  Jason Les stated he felt  very hopeless  You don t feel like there s anything you can do to win   Chris Ferguson stated  Pluribus is a very hard opponent to play against  It s really hard to pin him down on any kind of hand   Jimmy Chou stated  Whenever playing the bot  I feel like I pick up something new to incorporate into my game   In The Wall Street Journal  science editor Daniela Hernandez characterized Pluribus as  advanced at a key human skill   deception                        
+Playing No Limit Hold em against five professional poker players  Pluribus won an average of    per hand with winnings of        per hour  which Facebook described as a  decisive margin of victory                        
+Following the victory  the developers declined to release the source code  out of fear it would be misused to surreptitiously cheat against human poker players in online matches                       
+
+References edit 
+
+
+  Solly  Meilan     July         This Poker Playing A I  Knows When to Hold  Em and When to Fold  Em   Smithsonian  Retrieved    February      
+
+  a b Brown  Noam  Sandholm  Tuomas     July         Superhuman AI for multiplayer poker   Science                       Bibcode     Sci           B  doi         science aay      PMID               
+
+  Vincent  James     July         Facebook and CMU s  superhuman  poker AI beats human pros   The Verge  Retrieved   February      
+
+  Hernandez  Daniela     July         Computers Can Now Bluff Like a Poker Champ  Better  Actually   Wall Street Journal  Retrieved   February      
+
+  Brown  Noam  Sandholm  Tuomas          Superhuman AI for multiplayer poker   Science                       Bibcode     Sci           B  doi         science aay      PMID                S CID                
+
+  Brown  Noam     July         Facebook  Carnegie Mellon build first AI that beats pros in   player poker   ai facebook com  Retrieved    February      
+
+  Ouellette  Jennifer     July         Facebook AI Pluribus defeats top poker professionals in   player Texas Hold  em   Ars Technica 
+
+  Knight  Will     July         Facebook s new poker playing AI could wreck the online poker industry so it s not being released   MIT Technology Review 
+
+
+
+
+
+
+
+Retrieved from  https   en wikipedia org w index php title Pluribus  poker bot  amp oldid

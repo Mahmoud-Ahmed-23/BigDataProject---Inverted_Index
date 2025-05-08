@@ -1,0 +1,555 @@
+Academic subfield of computer science
+Not to be confused with Computational theory of mind 
+For the journal  see Theory of Computing 
+In theoretical computer science and mathematics  the theory of computation is the branch that deals with what problems can be solved on a model of computation  using an algorithm  how efficiently they can be solved or to what degree  e g   approximate solutions versus precise ones    The field is divided into three major branches  automata theory and formal languages  computability theory  and computational complexity theory  which are linked by the question   What are the fundamental capabilities and limitations of computers              
+In order to perform a rigorous study of computation  computer scientists work with a mathematical abstraction of computers called a model of computation  There are several models in use  but the most commonly examined is the Turing machine             Computer scientists study the Turing machine because it is simple to formulate  can be analyzed and used to prove results  and because it represents what many consider the most powerful possible  reasonable  model of computation  see Church Turing thesis              It might seem that the potentially infinite memory capacity is an unrealizable attribute  but any decidable problem            solved by a Turing machine will always require only a finite amount of memory  So in principle  any problem that can be solved  decided  by a Turing machine can be solved by a computer that has a finite amount of memory 
+
+
+History edit 
+The theory of computation can be considered the creation of models of all kinds in the field of computer science  Therefore  mathematics and logic are used  In the last century  it separated from mathematics and became an independent academic discipline with its own conferences such as FOCS in      and STOC in       and its own awards such as the IMU Abacus Medal  established in      as the Rolf Nevanlinna Prize   the G del Prize  established in       and the Knuth Prize  established in      
+Some pioneers of the theory of computation were Ramon Llull  Alonzo Church  Kurt G del  Alan Turing  Stephen Kleene  R zsa P ter  John von Neumann and Claude Shannon 
+
+Branches edit 
+Automata theory edit 
+Main article  Automata theory
+
+
+
+Grammar
+
+Languages
+
+Automaton
+
+Production rules  constraints 
+
+
+Type  
+
+Recursively enumerable
+
+Turing machine
+
+
+  
+    
+      
+          x b  
+          x     
+          x b  
+      
+    
+      displaystyle  alpha  rightarrow  beta  
+  
+  no restrictions 
+
+
+Type  
+
+Context sensitive
+
+Linear bounded non deterministic Turing machine
+
+
+  
+    
+      
+          x b  
+        A
+          x b  
+          x     
+          x b  
+          x b  
+          x b  
+      
+    
+      displaystyle  alpha A beta  rightarrow  alpha  gamma  beta  
+  
+
+
+
+Type  
+
+Context free
+
+Non deterministic pushdown automaton
+
+
+  
+    
+      
+        A
+          x     
+          x b  
+      
+    
+      displaystyle A rightarrow  gamma  
+  
+
+
+
+Type  
+
+Regular
+
+Finite state automaton
+
+
+  
+    
+      
+        A
+          x     
+        a
+      
+    
+      displaystyle A rightarrow a 
+  
+ and
+  
+    
+      
+        A
+          x     
+        a
+        B
+      
+    
+      displaystyle A rightarrow aB 
+  
+
+
+Automata theory is the study of abstract machines  or more appropriately  abstract  mathematical  machines or systems  and the computational problems that can be solved using these machines  These abstract machines are called automata  Automata comes from the Greek word            which means that something is doing something by itself 
+Automata theory is also closely related to formal language theory             as the automata are often classified by the class of formal languages they are able to recognize  An automaton can be a finite representation of a formal language that may be an infinite set  Automata are used as theoretical models for computing machines  and are used for proofs about computability 
+
+Formal language theory edit 
+Main article  Formal language
+Set inclusions described by the Chomsky hierarchy
+Formal language theory is a branch of mathematics concerned with describing languages as a set of operations over an alphabet  It is closely linked with automata theory  as automata are used to generate and recognize formal languages  There are several classes of formal languages  each allowing more complex language specification than the one before it  i e  Chomsky hierarchy             and each corresponding to a class of automata which recognizes it  Because automata are used as models for computation  formal languages are the preferred mode of specification for any problem that must be computed 
+
+Computability theory edit 
+Main article  Computability theory
+Computability theory deals primarily with the question of the extent to which a problem is solvable on a computer  The statement that the halting problem cannot be solved by a Turing machine            is one of the most important results in computability theory  as it is an example of a concrete problem that is both easy to formulate and impossible to solve using a Turing machine   Much of computability theory builds on the halting problem result 
+Another important step in computability theory was Rice s theorem  which states that for all non trivial properties of partial functions  it is undecidable whether a Turing machine computes a partial function with that property            
+Computability theory is closely related to the branch of mathematical logic called recursion theory  which removes the restriction of studying only models of computation which are reducible to the Turing model              Many mathematicians and computational theorists who study recursion theory will refer to it as computability theory 
+
+Computational complexity theory edit 
+Main article  Computational complexity theory
+A representation of the relation among complexity classes
+Computational complexity theory considers not only whether a problem can be solved at all on a computer  but also how efficiently the problem can be solved   Two major aspects are considered  time complexity and space complexity  which are respectively how many steps it takes to perform a computation  and how much memory is required to perform that computation 
+In order to analyze how much time and space a given algorithm requires  computer scientists express the time or space required to solve the problem as a function of the size of the input problem   For example  finding a particular number in a long list of numbers becomes harder as the list of numbers grows larger   If we say there are n numbers in the list  then if the list is not sorted or indexed in any way we may have to look at every number in order to find the number we re seeking   We thus say that in order to solve this problem  the computer needs to perform a number of steps that grow linearly in the size of the problem 
+To simplify this problem  computer scientists have adopted big O notation  which allows functions to be compared in a way that ensures that particular aspects of a machine s construction do not need to be considered  but rather only the asymptotic behavior as problems become large   So in our previous example  we might say that the problem requires 
+  
+    
+      
+        O
+         
+        n
+         
+      
+    
+      displaystyle O n  
+  
+ steps to solve 
+Perhaps the most important open problem in all of computer science is the question of whether a certain broad class of problems denoted NP can be solved efficiently  This is discussed further at Complexity classes P and NP  and P versus NP problem is one of the seven Millennium Prize Problems stated by the Clay Mathematics Institute in       The Official Problem Description was given by Turing Award winner Stephen Cook 
+
+Models of computation edit 
+Main article  Model of computation
+Aside from a Turing machine  other equivalent  see Church Turing thesis  models of computation are in use 
+
+Lambda calculus
+A computation consists of an initial lambda expression  or two if you want to separate the function and its input  plus a finite sequence of lambda terms  each deduced from the preceding term by one application of Beta reduction 
+Combinatory logic
+is a concept which has many similarities to 
+  
+    
+      
+          x bb 
+      
+    
+      displaystyle  lambda  
+  
+ calculus  but also important differences exist  e g  fixed point combinator Y has normal form in combinatory logic but not in 
+  
+    
+      
+          x bb 
+      
+    
+      displaystyle  lambda  
+  
+ calculus   Combinatory logic was developed with great ambitions  understanding the nature of paradoxes  making foundations of mathematics more economic  conceptually   eliminating the notion of variables  thus clarifying their role in mathematics  
+  recursive functions
+a computation consists of a mu recursive function  i e  its defining sequence  any input value s  and a sequence of recursive functions appearing in the defining sequence with inputs and outputs   Thus  if in the defining sequence of a recursive function 
+  
+    
+      
+        f
+         
+        x
+         
+      
+    
+      displaystyle f x  
+  
+ the functions 
+  
+    
+      
+        g
+         
+        x
+         
+      
+    
+      displaystyle g x  
+  
+ and 
+  
+    
+      
+        h
+         
+        x
+         
+        y
+         
+      
+    
+      displaystyle h x y  
+  
+ appear  then terms of the form  g       or  h          might appear   Each entry in this sequence needs to be an application of a basic function or follow from the entries above by using composition  primitive recursion or   recursion   For instance if 
+  
+    
+      
+        f
+         
+        x
+         
+         
+        h
+         
+        x
+         
+        g
+         
+        x
+         
+         
+      
+    
+      displaystyle f x  h x g x   
+  
+  then for  f       to appear  terms like  g       and  h         must occur above   The computation terminates only if the final term gives the value of the recursive function applied to the inputs 
+Markov algorithm
+a string rewriting system that uses grammar like rules to operate on strings of symbols 
+Register machine
+is a theoretically interesting idealization of a computer  There are several variants  In most of them  each register can hold a natural number  of unlimited size   and the instructions are simple  and few in number   e g  only decrementation  combined with conditional jump  and incrementation exist  and halting   The lack of the infinite  or dynamically growing  external store  seen at Turing machines  can be understood by replacing its role with G del numbering techniques  the fact that each register holds a natural number allows the possibility of representing a complicated thing  e g  a sequence  or a matrix etc   by an appropriately huge natural number   unambiguity of both representation and interpretation can be established by number theoretical  foundations of these techniques 
+In addition to the general computational models  some simpler computational models are useful for special  restricted applications   Regular expressions  for example   specify string patterns in many contexts  from office productivity software to programming languages  Another formalism mathematically equivalent to regular expressions  finite automata are used in circuit design and in some kinds of problem solving  Context free grammars  specify programming language syntax   Non deterministic pushdown automata are another formalism equivalent to context free grammars  Primitive recursive functions are a defined subclass of the recursive functions 
+Different models of computation have the ability to do different tasks  One way to measure the power of a computational model is to study the class of formal languages that the model can generate  in such a way to the Chomsky hierarchy of languages is obtained 
+
+References edit 
+
+
+  Sipser        p             central areas of the theory of computation  automata  computability  and complexity  
+
+  Hodges  Andrew         Alan Turing  The Enigma  The Centenary      ed    Princeton University Press  ISBN                        
+
+  Rabin  Michael O   June        Turing  Church  G del  Computability  Complexity and Randomization  A Personal View 
+
+  Donald Monk         Mathematical Logic  Springer Verlag  ISBN                    
+
+  Hopcroft  John E  and Jeffrey D  Ullman         Introduction to Automata Theory  Languages  and Computation   rd ed  Reading  MA  Addison Wesley  ISBN                        
+
+  Chomsky hierarchy          Three models for the description of language   Information Theory  IRE Transactions on         IEEE           doi         TIT               S CID               
+
+  Alan Turing          On computable numbers  with an application to the Entscheidungsproblem   Proceedings of the London Mathematical Society          IEEE           doi         plms s            S CID             Retrieved   January      
+
+  Henry Gordon Rice          Classes of Recursively Enumerable Sets and Their Decision Problems   Transactions of the American Mathematical Society          American Mathematical Society           doi                  JSTOR              
+
+  Martin Davis         The undecidable  Basic papers on undecidable propositions  unsolvable problems and computable functions  Dover Ed   Dover Publications  ISBN                     
+
+
+Further reading edit 
+Textbooks aimed at computer scientists
+ There are many textbooks in this area  this list is by necessity incomplete  
+
+Hopcroft  John E   Motwani  Rajeev  Ullman  Jeffrey D                 Introduction to Automata Theory  Languages  and Computation   rd      ed    Addison Wesley  ISBN                       One of the standard references in the field 
+Linz P         An introduction to formal language and automata  Narosa Publishing  ISBN                    
+Sipser  Michael         Introduction to the Theory of Computation   rd      ed    Cengage Learning  ISBN                        
+Eitan Gurari         An Introduction to the Theory of Computation  Computer Science Press  ISBN                     Archived from the original on            
+Hein  James L         Theory of Computation   Sudbury  MA  Jones  amp  Bartlett   ISBN                        A gentle introduction to the field  appropriate for second year undergraduate computer science students 
+Taylor  R  Gregory         Models of Computation and Formal Languages   New York  Oxford University Press   ISBN                         An unusually readable textbook  appropriate for upper level undergraduates or beginning graduate students 
+Jon Kleinberg  and  va Tardos         Algorithm Design  Pearson Addison Wesley  ISBN                 
+Lewis  F  D          Essentials of theoretical computer science A textbook covering the topics of formal languages  automata and grammars  The emphasis appears to be on presenting an overview of the results and their applications rather than providing proofs of the results 
+Martin Davis  Ron Sigal  Elaine J  Weyuker  Computability  complexity  and languages  fundamentals of theoretical computer science   nd ed   Academic Press        ISBN                     Covers a wider range of topics than most other introductory books  including program semantics and quantification theory  Aimed at graduate students 
+Books on computability theory from the  wider  mathematical perspective
+Hartley Rogers  Jr         Theory of Recursive Functions and Effective Computability  MIT Press  ISBN                   
+S  Barry Cooper         Computability Theory  Chapman and Hall CRC  ISBN                     
+Carl H  Smith  A recursive introduction to the theory of computation  Springer        ISBN                     A shorter textbook suitable for graduate students in Computer Science 
+Historical perspective
+Richard L  Epstein and Walter A  Carnielli         Computability  Computable Functions  Logic  and the Foundations of Mathematics  with Computability  A Timeline   nd ed    Wadsworth Thomson Learning  ISBN                     
+External links edit 
+Theory of Computation at MIT
+Theory of Computation at Harvard
+Computability Logic   A theory of interactive computation  The main web source on this subject 
+vteMajor mathematics areas
+History
+Timeline
+Future
+Lists
+Glossary
+Foundations
+Category theory
+Information theory
+Mathematical logic
+Philosophy of mathematics
+Set theory
+Type theory
+Algebra
+Abstract
+Commutative
+Elementary
+Group theory
+Linear
+Multilinear
+Universal
+Homological
+Analysis
+Calculus
+Real analysis
+Complex analysis
+Hypercomplex analysis
+Differential equations
+Functional analysis
+Harmonic analysis
+Measure theory
+Discrete
+Combinatorics
+Graph theory
+Order theory
+Geometry
+Algebraic
+Analytic
+Arithmetic
+Differential
+Discrete
+Euclidean
+Finite
+Number theory
+Arithmetic
+Algebraic number theory
+Analytic number theory
+Diophantine geometry
+Topology
+General
+Algebraic
+Differential
+Geometric
+Homotopy theory
+Applied
+Engineering mathematics
+Mathematical biology
+Mathematical chemistry
+Mathematical economics
+Mathematical finance
+Mathematical physics
+Mathematical psychology
+Mathematical sociology
+Mathematical statistics
+Probability
+Statistics
+Systems science
+Control theory
+Game theory
+Operations research
+Computational
+Computer science
+Theory of computation
+Computational complexity theory
+Numerical analysis
+Optimization
+Computer algebra
+Related topics
+Mathematicians
+lists
+Informal mathematics
+Films about mathematicians
+Recreational mathematics
+Mathematics and art
+Mathematics education
+
+ Mathematics     portal
+ Category
+ Commons
+ WikiProject
+
+vteComputer scienceNote  This template roughly follows the      ACM Computing Classification System Hardware
+Printed circuit board
+Peripheral
+Integrated circuit
+Very Large Scale Integration
+Systems on Chip  SoCs 
+Energy consumption  Green computing 
+Electronic design automation
+Hardware acceleration
+Processor
+Size   Form
+Computer systems organization
+Computer architecture
+Computational complexity
+Dependability
+Embedded system
+Real time computing
+Networks
+Network architecture
+Network protocol
+Network components
+Network scheduler
+Network performance evaluation
+Network service
+Software organization
+Interpreter
+Middleware
+Virtual machine
+Operating system
+Software quality
+Software notations and tools
+Programming paradigm
+Programming language
+Compiler
+Domain specific language
+Modeling language
+Software framework
+Integrated development environment
+Software configuration management
+Software library
+Software repository
+Software development
+Control variable
+Software development process
+Requirements analysis
+Software design
+Software construction
+Software deployment
+Software engineering
+Software maintenance
+Programming team
+Open source model
+Theory of computation
+Model of computation
+Stochastic
+Formal language
+Automata theory
+Computability theory
+Computational complexity theory
+Logic
+Semantics
+Algorithms
+Algorithm design
+Analysis of algorithms
+Algorithmic efficiency
+Randomized algorithm
+Computational geometry
+Mathematics of computing
+Discrete mathematics
+Probability
+Statistics
+Mathematical software
+Information theory
+Mathematical analysis
+Numerical analysis
+Theoretical computer science
+Information systems
+Database management system
+Information storage systems
+Enterprise information system
+Social information systems
+Geographic information system
+Decision support system
+Process control system
+Multimedia information system
+Data mining
+Digital library
+Computing platform
+Digital marketing
+World Wide Web
+Information retrieval
+Security
+Cryptography
+Formal methods
+Security hacker
+Security services
+Intrusion detection system
+Hardware security
+Network security
+Information security
+Application security
+Human computer interaction
+Interaction design
+Augmented reality
+Virtual reality
+Social computing
+Ubiquitous computing
+Visualization
+Accessibility
+Concurrency
+Concurrent computing
+Parallel computing
+Distributed computing
+Multithreading
+Multiprocessing
+Artificial intelligence
+Natural language processing
+Knowledge representation and reasoning
+Computer vision
+Automated planning and scheduling
+Search methodology
+Control method
+Philosophy of artificial intelligence
+Distributed artificial intelligence
+Machine learning
+Supervised learning
+Unsupervised learning
+Reinforcement learning
+Multi task learning
+Cross validation
+Graphics
+Animation
+Rendering
+Photograph manipulation
+Graphics processing unit
+Image compression
+Solid modeling
+Applied computing
+Quantum Computing
+E commerce
+Enterprise software
+Computational mathematics
+Computational physics
+Computational chemistry
+Computational biology
+Computational social science
+Computational engineering
+Differentiable computing
+Computational healthcare
+Digital art
+Electronic publishing
+Cyberwarfare
+Electronic voting
+Video games
+Word processing
+Operations research
+Educational technology
+Document management
+
+ Category
+ Outline
+ Glossaries
+
+
+
+
+
+
+Retrieved from  https   en wikipedia org w index php title Theory of computation amp oldid

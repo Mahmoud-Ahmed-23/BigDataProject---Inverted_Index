@@ -1,0 +1,563 @@
+Family of large language models by Alibaba
+QwenDeveloper s Alibaba CloudInitial releaseApril                           years ago               Stable releaseQwen  
+     April                          days ago                  
+Repositorygithub com QwenLM QwenWritten inPythonOperating system
+Web app
+Android
+TypeChatbotLicenseApache      Qwen Research License  Qwen LicenseWebsitechat qwen ai
+Qwen  also called Tongyi Qianwen  Chinese            is a family of large language models developed by Alibaba Cloud  In July       it was ranked as the top Chinese language model in some benchmarks and third globally behind the top models of Anthropic and OpenAI            
+
+Models edit 
+Alibaba first launched a beta of Qwen in April      under the name Tongyi Qianwen             The model s architecture was based on the Llama architecture developed by Meta AI                        It was publicly released in September      after receiving approval from the Chinese government             In December      it released its   B and    B models as open source  while Qwen  B was open sourced in August                       
+In June      Alibaba launched Qwen   and in September it released some of its models as open source  while keeping its most advanced models proprietary                        Qwen   contains both dense and sparse models             
+In November       QwQ   B Preview  a model focusing on reasoning similar to OpenAI s o   was released under the Apache     License  although only the weights were released  not the dataset or training method                          QwQ has a   K token context length and performs better than o  on some benchmarks             
+The Qwen VL series is a line of visual language models that  combines a vision transformer with a LLM                         Alibaba released Qwen  VL with variants of   billion and   billion parameters                                     
+In January       Qwen    VL was released with variants of           and    billion parameters              All models except the   B variant are licensed under the Apache     license              Qwen VL Max is Alibaba s flagship vision model as of      and is sold by Alibaba Cloud at a cost of US         per thousand input tokens             
+Alibaba has released several other model types such as Qwen Audio and Qwen  Math               In total  it has released more than     open source models  with its models having been downloaded more than    million times                         Fine tuned versions of Qwen have been developed by enthusiasts  such as  Liberated Qwen   developed by San Francisco based Abacus AI  which is a version that responds to any user request without content restrictions             
+In January       Alibaba launched Qwen     Max  According to a blog post from Alibaba  Qwen     Max outperforms other foundation models such as GPT  o  DeepSeek V   and Llama        B in key benchmarks                          In February       Alibaba announced on their official X account that the     Max model would be open sourced  however it has not been released             
+On March          Alibaba launched Qwen    VL   B Instruct as a successor to the Qwen    VL model  It was released under the Apache     license                         
+On March           Qwen    Omni  B was released under the Apache     license and made available through chat qwen ai  as well as platforms like Hugging Face  GitHub  and ModelScope              The Qwen    Omni model accepts text  images  videos  and audio as input and can generate both text and audio as output  allowing it to be used for real time voice chatting  similar to OpenAI s GPT  o             
+On April           the Qwen   model family was released              with all models licensed under the Apache     license  The Qwen   model family includes both dense     B     B   B   B    B  and   B parameters  and sparse models    B with  B activated parameters     B with   B activated parameters   They were trained on    trillion tokens in     languages and dialects              All models except the    B     B  and  B variants have a    K token context window  Like OpenAI s o  and QwQ   B  the Qwen   models support reasoning  which can be enabled or disabled through the tokenizer  The Qwen   models are available through chat qwen ai and are open sourced on Hugging Face and ModelScope             
+
+
+List of models
+
+
+Version
+
+Release date
+
+ref
+
+
+Tongyi Qianwen
+
+September     
+
+           
+
+
+Qwen VL
+
+August     
+
+            
+
+
+Qwen 
+
+June     
+
+           
+
+
+Qwen  Audio
+
+August     
+
+            
+
+
+Qwen  VL
+
+December     
+
+            
+
+
+Qwen   
+
+September     
+
+            
+
+
+Qwen    Coder
+
+November     
+
+            
+
+
+QvQ
+
+December     
+
+            
+
+
+Qwen    VL
+
+January     
+
+            
+
+
+QwQ   B
+
+March     
+
+            
+
+
+Qwen    Omni
+
+March     
+
+            
+
+
+Qwen 
+
+April     
+
+            
+
+References edit 
+
+
+  Jiang  Ben     July         Alibaba s open source AI model tops Chinese rivals  ranks  rd globally   South China Morning Post 
+
+  Chiang  Sheila     April         Alibaba to roll out its rival to ChatGPT across all its products   CNBC 
+
+  a b Bai  Jinze  et      al      Sep         Qwen Technical Report   arXiv             cs CL  
+
+   Qwen techmemo draft md   GitHub  August         
+
+  a b Jiang  Ben     September         Alibaba opens Tongyi Qianwen model to public as new CEO embraces AI   South China Morning Post 
+
+  Fan  Feifei                Alibaba unveils new Tongyi Qianwen AI language model   global chinadaily com cn 
+
+  Ye  Josh  August            Alibaba rolls out open sourced AI model to take on Meta s Llama     reuters 
+
+  Jiang  Ben    June         Alibaba says new AI model Qwen  bests Meta s Llama   in tasks like maths and coding   South China Morning Post 
+
+  a b c Kharpal  Arjun     September         China s Alibaba launches over     new open source AI models  releases text to video generation tool   CNBC 
+
+  Yang  An  et      al      Sep         Qwen  Technical Report   arXiv             cs CL  
+
+  Dickson  Ben     November         Alibaba releases Qwen with Questions  an open reasoning model that beats o  preview   VentureBeat 
+
+                           QwQ       AI      MATH     OpenAI o       IT     www ithome com 
+
+  Wiggers  Kyle     November         Alibaba releases an  open  challenger to OpenAI s o  reasoning model   TechCrunch 
+
+  Browne  Ryan     December         Alibaba slashes prices on large language models by up to     as China AI rivalry heats up   CNBC 
+
+  a b Franzen  Carl     August         Alibaba releases new AI model Qwen  VL that can analyze videos more than    minutes long   VentureBeat 
+
+                             Qwen  VL     B    B    AI                       ithome com 
+
+  Wang  Peng  Bai  Shuai  Tan  Sinan  Wang  Shijie  Fan  Zhihao  Bai  Jinze  Chen  Keqin  Liu  Xuejing  Wang  Jialin  Ge  Wenbin  Fan  Yang  Dang  Kai  Du  Mengfei  Ren  Xuancheng  Men  Rui  Liu  Dayiheng  Zhou  Chang  Zhou  Jingren  Lin  Junyang  September             Qwen  VL  Enhancing Vision Language Model s Perception of the World at Any Resolution   Cs CV  arXiv            
+
+  Team  Qwen                Qwen    VL  Qwen    VL  Qwen    VL    Qwen  Retrieved            
+
+   Qwen Qwen    VL   B Instruct   Hugging Face   huggingface co              Retrieved            
+
+  Jiang  Ben     December         Alibaba Cloud cuts AI visual model price by     on last day of the year   South China Morning Post 
+
+  Franzen  Carl    August         Alibaba claims no    spot in AI math models with Qwen  Math   VentureBeat 
+
+  a b  Alibaba accelerates AI push by releasing new open source models  text to video   Reuters  September          
+
+  Mims  Christopher  April             Here Come the Anti Woke AIs   WSJ 
+
+   Qwen    Max  Exploring the Intelligence of Large scale MoE Model   Github     January      
+
+  Baptista  Eduardo  January             Alibaba releases AI model it says surpasses DeepSeek   Reuters 
+
+  Qwen  Alibaba  February             QwQ Max Preview   X  Archived from the original on    February      
+
+  Team  Qwen                Qwen    VL   B  Smarter and Lighter   Qwen  Retrieved            
+
+  Nikhil                Qwen Releases the Qwen    VL   B Instruct  A   B Parameter VLM that Surpasses Qwen    VL   B and Other Models like GPT  o Mini   MarkTechPost  Retrieved            
+
+  a b c Dotson  Kyt     March         Alibaba releases new open source AI model to power intelligent voice applications   SiliconANGLE 
+
+  a b Ara Shaikh  Jasmeen  April             Alibaba unveils advanced Qwen   AI as Chinese tech rivalry intensifies   Reuters 
+
+  Wiggers  Kyle     April         Alibaba unveils Qwen   a family of  hybrid  AI reasoning models   TechCrunch 
+
+  Team  Qwen                Qwen   Think Deeper  Act Faster   Qwen  Retrieved            
+
+  Kharpal  Arjun     August         Alibaba launches AI model that can understand images and have more complex conversations   CNBC 
+
+                             Qwen  Audio  B                       IT     www ithome com 
+
+  Nu ez  Michael     November         Qwen    Coder just changed the game for AI programming and it s free   VentureBeat 
+
+  Dotson  Kyt     December         Alibaba announces advanced experimental visual reasoning QVQ   B AI model   SiliconANGLE 
+
+  Wiggers  Kyle     January         Alibaba s Qwen team releases AI models that can control PCs and phones   TechCrunch 
+
+  Franzen  Carl    March         Alibaba s new open source model QwQ   B matches DeepSeek R  with way smaller compute requirements   VentureBeat 
+
+
+External links edit 
+
+Free and open source software portalChina portal
+Official website
+Qwen on GitHub
+Qwen on Hugging Face
+vteAlibaba GroupServices
+Alibaba Cloud
+AliExpress
+AliGenie
+AliMusic
+AliOS
+Alipay
+Qwen
+Taobao
+Tmall
+Tmall Genie
+Xuexi Qiangguo
+Subsidiaries
+Alibaba Health
+Alibaba Pictures
+Amblin Partners
+Amblin Entertainment
+Amblin Television
+DreamWorks Pictures
+Ant Group
+Tianhong Asset Management
+Zhima Credit
+AutoNavi
+Cainiao
+Ele me
+Heyi Pictures
+Lazada Group
+Shenma
+South China Morning Post
+Tudou
+UCWeb
+UC Browser
+World Electronic Sports Games
+Youku
+School
+Zhejiang Hupan Entrepreneurship Research Center
+People
+Jack Ma
+Daniel Zhang
+J  Michael Evans
+Peng Lei
+Jonathan Lu
+Joseph Tsai
+Wang Jian
+Maggie Wu
+
+ Commons
+ Category
+
+vteGenerative AI chatbots
+Large language model
+
+ChatGPT
+Character ai
+Claude
+Copilot
+DeepSeek
+ERNIE
+Gemini
+Grok
+Manus
+Minerva
+Mistral
+Perplexity AI
+Qwen
+Replika
+Velvet
+YandexGPT
+You com
+
+ Category
+
+vteGenerative AIConcepts
+Autoencoder
+Deep learning
+Generative adversarial network
+Generative pre trained transformer
+Large language model
+Neural network
+Prompt engineering
+Retrieval augmented generation
+Reinforcement learning from human feedback
+Self supervised learning
+Transformer
+Variational autoencoder
+Vision transformer
+Word embedding
+ModelsText
+Claude
+DBRX
+DeepSeek
+ERNIE
+Gemini
+GPT
+ 
+ 
+ 
+J
+ChatGPT
+ 
+ o
+o 
+o 
+   
+   
+o 
+Granite
+Grok
+Llama
+Manus
+Mistral Large
+PanGu  
+Qwen
+Image
+Aurora
+DALL E
+Firefly
+Flux
+GPT Image  
+Ideogram
+Imagen
+Midjourney
+Stable Diffusion
+Speech
+   ai
+WaveNet
+Video
+Dream Machine
+Gen  
+Hailuo AI
+Kling
+Sora
+Veo
+VideoPoet
+Music
+Endel
+Suno AI
+Udio
+Companies
+   AI
+Alibaba
+Anthropic
+Baichuan
+Baidu
+DeepSeek
+ElevenLabs
+Google DeepMind
+Hugging Face
+Kuaishou
+Meta AI
+MiniMax
+Mistral AI
+Moonshot AI
+OpenAI
+Runway
+Stability AI
+Synthesia
+xAI
+Zhipu AI
+
+ Category
+ Commons
+
+vteArtificial intelligence  AI History  timeline Concepts
+Parameter
+Hyperparameter
+Loss functions
+Regression
+Bias variance tradeoff
+Double descent
+Overfitting
+Clustering
+Gradient descent
+SGD
+Quasi Newton method
+Conjugate gradient method
+Backpropagation
+Attention
+Convolution
+Normalization
+Batchnorm
+Activation
+Softmax
+Sigmoid
+Rectifier
+Gating
+Weight initialization
+Regularization
+Datasets
+Augmentation
+Prompt engineering
+Reinforcement learning
+Q learning
+SARSA
+Imitation
+Policy gradient
+Diffusion
+Latent diffusion model
+Autoregression
+Adversary
+RAG
+Uncanny valley
+RLHF
+Self supervised learning
+Recursive self improvement
+Word embedding
+Hallucination
+Applications
+Machine learning
+In context learning
+Artificial neural network
+Deep learning
+Language model
+Large language model
+NMT
+Artificial general intelligence  AGI 
+ImplementationsAudio visual
+AlexNet
+WaveNet
+Human image synthesis
+HWR
+OCR
+Speech synthesis
+   ai
+ElevenLabs
+Speech recognition
+Whisper
+Facial recognition
+AlphaFold
+Text to image models
+Aurora
+DALL E
+Firefly
+Flux
+Ideogram
+Imagen
+Midjourney
+Stable Diffusion
+Text to video models
+Dream Machine
+Runway Gen
+Hailuo AI
+Kling
+Sora
+Veo
+Music generation
+Suno AI
+Udio
+Text
+Word vec
+Seq seq
+GloVe
+BERT
+T 
+Llama
+Chinchilla AI
+PaLM
+GPT
+ 
+ 
+ 
+J
+ChatGPT
+ 
+ o
+o 
+o 
+   
+   
+o 
+Claude
+Gemini
+chatbot
+Grok
+LaMDA
+BLOOM
+Project Debater
+IBM Watson
+IBM Watsonx
+Granite
+PanGu  
+DeepSeek
+Qwen
+Decisional
+AlphaGo
+AlphaZero
+OpenAI Five
+Self driving car
+MuZero
+Action selection
+AutoGPT
+Robot control
+People
+Alan Turing
+Warren Sturgis McCulloch
+Walter Pitts
+John von Neumann
+Claude Shannon
+Marvin Minsky
+John McCarthy
+Nathaniel Rochester
+Allen Newell
+Cliff Shaw
+Herbert A  Simon
+Oliver Selfridge
+Frank Rosenblatt
+Bernard Widrow
+Joseph Weizenbaum
+Seymour Papert
+Seppo Linnainmaa
+Paul Werbos
+J rgen Schmidhuber
+Yann LeCun
+Geoffrey Hinton
+John Hopfield
+Yoshua Bengio
+Lotfi A  Zadeh
+Stephen Grossberg
+Alex Graves
+Andrew Ng
+Fei Fei Li
+Alex Krizhevsky
+Ilya Sutskever
+Demis Hassabis
+David Silver
+Ian Goodfellow
+Andrej Karpathy
+James Goodnight
+Architectures
+Neural Turing machine
+Differentiable neural computer
+Transformer
+Vision transformer  ViT 
+Recurrent neural network  RNN 
+Long short term memory  LSTM 
+Gated recurrent unit  GRU 
+Echo state network
+Multilayer perceptron  MLP 
+Convolutional neural network  CNN 
+Residual neural network  RNN 
+Highway network
+Mamba
+Autoencoder
+Variational autoencoder  VAE 
+Generative adversarial network  GAN 
+Graph neural network  GNN 
+
+ Portals
+Technology
+ Category
+Artificial neural networks
+Machine learning
+ List
+Companies
+Projects
+
+
+
+
+
+
+Retrieved from  https   en wikipedia org w index php title Qwen amp oldid

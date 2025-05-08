@@ -1,0 +1,5869 @@
+Set of methods for supervised statistical learning
+Part of a series onMachine learningand data mining
+Paradigms
+Supervised learning
+Unsupervised learning
+Semi supervised learning
+Self supervised learning
+Reinforcement learning
+Meta learning
+Online learning
+Batch learning
+Curriculum learning
+Rule based learning
+Neuro symbolic AI
+Neuromorphic engineering
+Quantum machine learning
+
+Problems
+Classification
+Generative modeling
+Regression
+Clustering
+Dimensionality reduction
+Density estimation
+Anomaly detection
+Data cleaning
+AutoML
+Association rules
+Semantic analysis
+Structured prediction
+Feature engineering
+Feature learning
+Learning to rank
+Grammar induction
+Ontology learning
+Multimodal learning
+
+Supervised learning classification                  regression  
+Apprenticeship learning
+Decision trees
+Ensembles
+Bagging
+Boosting
+Random forest
+k NN
+Linear regression
+Naive Bayes
+Artificial neural networks
+Logistic regression
+Perceptron
+Relevance vector machine  RVM 
+Support vector machine  SVM 
+
+Clustering
+BIRCH
+CURE
+Hierarchical
+k means
+Fuzzy
+Expectation maximization  EM 
+DBSCAN
+OPTICS
+Mean shift
+
+Dimensionality reduction
+Factor analysis
+CCA
+ICA
+LDA
+NMF
+PCA
+PGD
+t SNE
+SDL
+
+Structured prediction
+Graphical models
+Bayes net
+Conditional random field
+Hidden Markov
+
+Anomaly detection
+RANSAC
+k NN
+Local outlier factor
+Isolation forest
+
+Artificial neural network
+Autoencoder
+Deep learning
+Feedforward neural network
+Recurrent neural network
+LSTM
+GRU
+ESN
+reservoir computing
+Boltzmann machine
+Restricted
+GAN
+Diffusion model
+SOM
+Convolutional neural network
+U Net
+LeNet
+AlexNet
+DeepDream
+Neural radiance field
+Transformer
+Vision
+Mamba
+Spiking neural network
+Memtransistor
+Electrochemical RAM  ECRAM 
+
+Reinforcement learning
+Q learning
+SARSA
+Temporal difference  TD 
+Multi agent
+Self play
+
+Learning with humans
+Active learning
+Crowdsourcing
+Human in the loop
+RLHF
+
+Model diagnostics
+Coefficient of determination
+Confusion matrix
+Learning curve
+ROC curve
+
+Mathematical foundations
+Kernel machines
+Bias variance tradeoff
+Computational learning theory
+Empirical risk minimization
+Occam learning
+PAC learning
+Statistical learning
+VC theory
+Topological deep learning
+
+Journals and conferences
+ECML PKDD
+NeurIPS
+ICML
+ICLR
+IJCAI
+ML
+JMLR
+
+Related articles
+Glossary of artificial intelligence
+List of datasets for machine learning research
+List of datasets in computer vision and image processing
+Outline of machine learning
+vte
+In machine learning  support vector machines  SVMs  also support vector networks             are supervised max margin models with associated learning algorithms that analyze data for classification and regression analysis  Developed at AT amp T Bell Laboratories                        SVMs are one of the most studied models  being based on statistical learning frameworks of VC theory proposed by Vapnik              and Chervonenkis        
+In addition to performing linear classification  SVMs can efficiently perform non linear classification using the kernel trick  representing the data only through a set of pairwise similarity comparisons between the original data points using a kernel function  which transforms them into coordinates in a higher dimensional feature space  Thus  SVMs use the kernel trick to implicitly map their inputs into high dimensional feature spaces  where linear classification can be performed              Being max margin models  SVMs are resilient to noisy data  e g   misclassified examples   SVMs can also be used for regression tasks  where the objective becomes 
+  
+    
+      
+          x f  
+      
+    
+      displaystyle  epsilon  
+  
+ sensitive 
+The support vector clustering            algorithm  created by Hava Siegelmann and Vladimir Vapnik  applies the statistics of support vectors  developed in the support vector machines algorithm  to categorize unlabeled data      citation needed      These data sets require unsupervised learning approaches  which attempt to find natural clustering of the data into groups  and then to map new data according to these clusters 
+The popularity of SVMs is likely due to their amenability to theoretical analysis  and their flexibility in being applied to a wide variety of tasks  including structured prediction problems  It is not clear that SVMs have better predictive performance than other linear models  such as logistic regression and linear regression            
+
+
+Motivation edit 
+H  does not separate the classes  H  does  but only with a small margin   H  separates them with the maximal margin 
+Classifying data is a common task in machine learning 
+Suppose some given data points each belong to one of two classes  and the goal is to decide which class a new data point will be in  In the case of support vector machines  a data point is viewed as a 
+  
+    
+      
+        p
+      
+    
+      displaystyle p 
+  
+ dimensional vector  a list of 
+  
+    
+      
+        p
+      
+    
+      displaystyle p 
+  
+ numbers   and we want to know whether we can separate such points with a 
+  
+    
+      
+         
+        p
+          x     
+         
+         
+      
+    
+      displaystyle  p    
+  
+ dimensional hyperplane  This is called a linear classifier  There are many hyperplanes that might classify the data  One reasonable choice as the best hyperplane is the one that represents the largest separation  or margin  between the two classes  So we choose the hyperplane so that the distance from it to the nearest data point on each side is maximized  If such a hyperplane exists  it is known as the maximum margin hyperplane and the linear classifier it defines is known as a maximum margin classifier  or equivalently  the perceptron of optimal stability            
+More formally  a support vector machine constructs a hyperplane or set of hyperplanes in a high or infinite dimensional space  which can be used for classification  regression  or other tasks like outliers detection             Intuitively  a good separation is achieved by the hyperplane that has the largest distance to the nearest training data point of any class  so called functional margin   since in general the larger the margin  the lower the generalization error of the classifier             A lower generalization error means that the implementer is less likely to experience overfitting 
+
+Kernel machine
+Whereas the original problem may be stated in a finite dimensional space  it often happens that the sets to discriminate are not linearly separable in that space  For this reason  it was proposed            that the original finite dimensional space be mapped into a much higher dimensional space  presumably making the separation easier in that space  To keep the computational load reasonable  the mappings used by SVM schemes are designed to ensure that dot products of pairs of input data vectors may be computed easily in terms of the variables in the original space  by defining them in terms of a kernel function 
+  
+    
+      
+        k
+         
+        x
+         
+        y
+         
+      
+    
+      displaystyle k x y  
+  
+ selected to suit the problem              The hyperplanes in the higher dimensional space are defined as the set of points whose dot product with a vector in that space is constant  where such a set of vectors is an orthogonal  and thus minimal  set of vectors that defines a hyperplane  The vectors defining the hyperplanes can be chosen to be linear combinations with parameters 
+  
+    
+      
+        
+            x b  
+          
+            i
+          
+        
+      
+    
+      displaystyle  alpha   i  
+  
+ of images of feature vectors 
+  
+    
+      
+        
+          x
+          
+            i
+          
+        
+      
+    
+      displaystyle x  i  
+  
+ that occur in the data base  With this choice of a hyperplane  the points 
+  
+    
+      
+        x
+      
+    
+      displaystyle x 
+  
+ in the feature space that are mapped into the hyperplane are defined by the relation 
+  
+    
+      
+        
+          
+              x     
+            
+              i
+            
+          
+          
+              x b  
+            
+              i
+            
+          
+          k
+           
+          
+            x
+            
+              i
+            
+          
+           
+          x
+           
+           
+          
+            constant
+          
+           
+        
+      
+    
+      displaystyle  textstyle  sum   i  alpha   i k x  i  x    text constant    
+  
+  Note that if 
+  
+    
+      
+        k
+         
+        x
+         
+        y
+         
+      
+    
+      displaystyle k x y  
+  
+ becomes small as 
+  
+    
+      
+        y
+      
+    
+      displaystyle y 
+  
+ grows further away from 
+  
+    
+      
+        x
+      
+    
+      displaystyle x 
+  
+  each term in the sum measures the degree of closeness of the test point 
+  
+    
+      
+        x
+      
+    
+      displaystyle x 
+  
+ to the corresponding data base point 
+  
+    
+      
+        
+          x
+          
+            i
+          
+        
+      
+    
+      displaystyle x  i  
+  
+  In this way  the sum of kernels above can be used to measure the relative nearness of each test point to the data points originating in one or the other of the sets to be discriminated  Note the fact that the set of points 
+  
+    
+      
+        x
+      
+    
+      displaystyle x 
+  
+ mapped into any hyperplane can be quite convoluted as a result  allowing much more complex discrimination between sets that are not convex at all in the original space 
+
+Applications edit 
+SVMs can be used to solve various real world problems 
+
+SVMs are helpful in text and hypertext categorization  as their application can significantly reduce the need for labeled training instances in both the standard inductive and transductive settings              Some methods for shallow semantic parsing are based on support vector machines             
+Classification of images can also be performed using SVMs  Experimental results show that SVMs achieve significantly higher search accuracy than traditional query refinement schemes after just three to four rounds of relevance feedback  This is also true for image segmentation systems  including those using a modified version SVM that uses the privileged approach as suggested by Vapnik                         
+Classification of satellite data like SAR data using supervised SVM             
+Hand written characters can be recognized using SVM                         
+The SVM algorithm has been widely applied in the biological and other sciences   They have been used to classify proteins with up to     of the compounds classified correctly  Permutation tests based on SVM weights have been suggested as a mechanism for interpretation of SVM models                          Support vector machine weights have also been used to interpret SVM models in the past              Posthoc interpretation of support vector machine models in order to identify features used by the model to make predictions is a relatively new area of research with special significance in the biological sciences 
+History edit 
+The original SVM algorithm was invented by Vladimir N  Vapnik and Alexey Ya  Chervonenkis in           citation needed      In       Bernhard Boser  Isabelle Guyon and Vladimir Vapnik suggested a way to create nonlinear classifiers by applying the kernel trick to maximum margin hyperplanes             The  soft margin  incarnation  as is commonly used in software packages  was proposed by Corinna Cortes and Vapnik in      and published in                 
+
+Linear SVM edit 
+Maximum margin hyperplane and margins for an SVM trained with samples from two classes  Samples on the margin are called the support vectors 
+We are given a training dataset of 
+  
+    
+      
+        n
+      
+    
+      displaystyle n 
+  
+ points of the form
+
+  
+    
+      
+         
+        
+          
+            x
+          
+          
+             
+          
+        
+         
+        
+          y
+          
+             
+          
+        
+         
+         
+          x     
+         
+         
+        
+          
+            x
+          
+          
+            n
+          
+        
+         
+        
+          y
+          
+            n
+          
+        
+         
+         
+      
+    
+      displaystyle   mathbf  x       y       ldots    mathbf  x    n  y  n    
+  
+
+where the 
+  
+    
+      
+        
+          y
+          
+            i
+          
+        
+      
+    
+      displaystyle y  i  
+  
+ are either   or     each indicating the class to which the point 
+  
+    
+      
+        
+          
+            x
+          
+          
+            i
+          
+        
+      
+    
+      displaystyle  mathbf  x    i  
+  
+ belongs  Each 
+  
+    
+      
+        
+          
+            x
+          
+          
+            i
+          
+        
+      
+    
+      displaystyle  mathbf  x    i  
+  
+ is a 
+  
+    
+      
+        p
+      
+    
+      displaystyle p 
+  
+ dimensional real vector  We want to find the  maximum margin hyperplane  that divides the group of points 
+  
+    
+      
+        
+          
+            x
+          
+          
+            i
+          
+        
+      
+    
+      displaystyle  mathbf  x    i  
+  
+ for which 
+  
+    
+      
+        
+          y
+          
+            i
+          
+        
+         
+         
+      
+    
+      displaystyle y  i    
+  
+ from the group of points for which 
+  
+    
+      
+        
+          y
+          
+            i
+          
+        
+         
+          x     
+         
+      
+    
+      displaystyle y  i     
+  
+  which is defined so that the distance between the hyperplane and the nearest point 
+  
+    
+      
+        
+          
+            x
+          
+          
+            i
+          
+        
+      
+    
+      displaystyle  mathbf  x    i  
+  
+ from either group is maximized 
+Any hyperplane can be written as the set of points 
+  
+    
+      
+        
+          x
+        
+      
+    
+      displaystyle  mathbf  x   
+  
+ satisfying
+
+  
+    
+      
+        
+          
+            w
+          
+          
+            
+              T
+            
+          
+        
+        
+          x
+        
+          x     
+        b
+         
+         
+         
+      
+    
+      displaystyle  mathbf  w     mathsf  T   mathbf  x   b    
+  
+
+where 
+  
+    
+      
+        
+          w
+        
+      
+    
+      displaystyle  mathbf  w   
+  
+ is the  not necessarily normalized  normal vector to the hyperplane  This is much like Hesse normal form  except that 
+  
+    
+      
+        
+          w
+        
+      
+    
+      displaystyle  mathbf  w   
+  
+ is not necessarily a unit vector  The parameter 
+  
+    
+      
+        
+          
+            
+              b
+              
+                  x     
+                
+                  w
+                
+                  x     
+              
+            
+          
+        
+      
+    
+      displaystyle   tfrac  b     mathbf  w       
+  
+ determines the offset of the hyperplane from the origin along the normal vector 
+  
+    
+      
+        
+          w
+        
+      
+    
+      displaystyle  mathbf  w   
+  
+ 
+Warning  most of the literature on the subject defines the bias so that
+
+  
+    
+      
+        
+          
+            w
+          
+          
+            
+              T
+            
+          
+        
+        
+          x
+        
+         
+        b
+         
+          
+      
+    
+      displaystyle  mathbf  w     mathsf  T   mathbf  x   b    
+  
+
+
+Hard margin edit 
+If the training data is linearly separable  we can select two parallel hyperplanes that separate the two classes of data  so that the distance between them is as large as possible  The region bounded by these two hyperplanes is called the  margin   and the maximum margin hyperplane is the hyperplane that lies halfway between them  With a normalized or standardized dataset  these hyperplanes can be described by the equations
+
+
+  
+    
+      
+        
+          
+            w
+          
+          
+            
+              T
+            
+          
+        
+        
+          x
+        
+          x     
+        b
+         
+         
+      
+    
+      displaystyle  mathbf  w     mathsf  T   mathbf  x   b   
+  
+  anything on or above this boundary is of one class  with label   
+and
+
+
+  
+    
+      
+        
+          
+            w
+          
+          
+            
+              T
+            
+          
+        
+        
+          x
+        
+          x     
+        b
+         
+          x     
+         
+      
+    
+      displaystyle  mathbf  w     mathsf  T   mathbf  x   b    
+  
+  anything on or below this boundary is of the other class  with label     
+Geometrically  the distance between these two hyperplanes is 
+  
+    
+      
+        
+          
+            
+               
+              
+                  x     
+                
+                  w
+                
+                  x     
+              
+            
+          
+        
+      
+    
+      displaystyle   tfrac        mathbf  w       
+  
+              so to maximize the distance between the planes we want to minimize 
+  
+    
+      
+          x     
+        
+          w
+        
+          x     
+      
+    
+      displaystyle    mathbf  w     
+  
+  The distance is computed using the distance from a point to a plane equation  We also have to prevent data points from falling into the margin  we add the following constraint  for each 
+  
+    
+      
+        i
+      
+    
+      displaystyle i 
+  
+ either
+
+  
+    
+      
+        
+          
+            w
+          
+          
+            
+              T
+            
+          
+        
+        
+          
+            x
+          
+          
+            i
+          
+        
+          x     
+        b
+          x     
+         
+        
+         
+        
+            xa  if  xa  
+        
+        
+          y
+          
+            i
+          
+        
+         
+         
+         
+      
+    
+      displaystyle  mathbf  w     mathsf  T   mathbf  x    i  b geq       text  if   y  i     
+  
+
+or
+
+  
+    
+      
+        
+          
+            w
+          
+          
+            
+              T
+            
+          
+        
+        
+          
+            x
+          
+          
+            i
+          
+        
+          x     
+        b
+          x     
+          x     
+         
+        
+         
+        
+            xa  if  xa  
+        
+        
+          y
+          
+            i
+          
+        
+         
+          x     
+          
+      
+    
+      displaystyle  mathbf  w     mathsf  T   mathbf  x    i  b leq        text  if   y  i      
+  
+
+These constraints state that each data point must lie on the correct side of the margin 
+This can be rewritten as
+
+
+  
+    
+      
+        
+          y
+          
+            i
+          
+        
+         
+        
+          
+            w
+          
+          
+            
+              T
+            
+          
+        
+        
+          
+            x
+          
+          
+            i
+          
+        
+          x     
+        b
+         
+          x     
+         
+         
+        
+        
+            xa  for all  xa  
+        
+         
+          x     
+        i
+          x     
+        n
+         
+      
+    
+      displaystyle y  i   mathbf  w     mathsf  T   mathbf  x    i  b  geq    quad   text  for all     leq i leq n  
+  
+   
+We can put this together to get the optimization problem 
+
+  
+    
+      
+        
+          
+            
+              
+              
+                
+                  
+                    minimize
+                    
+                      
+                        w
+                      
+                       
+                      
+                      b
+                    
+                  
+                
+              
+              
+              
+                
+                  
+                     
+                     
+                  
+                
+                  x     
+                
+                  w
+                
+                
+                    x     
+                  
+                     
+                  
+                
+              
+            
+            
+              
+              
+                
+                  subject to
+                
+              
+              
+              
+                
+                  y
+                  
+                    i
+                  
+                
+                 
+                
+                  
+                    w
+                  
+                  
+                      x  a  
+                  
+                
+                
+                  
+                    x
+                  
+                  
+                    i
+                  
+                
+                  x     
+                b
+                 
+                  x     
+                 
+                
+                  x     
+                i
+                  x     
+                 
+                 
+                 
+                  x     
+                 
+                n
+                 
+              
+            
+          
+        
+      
+    
+      displaystyle   begin aligned  amp   underset   mathbf  w     b   operatorname  minimize     amp  amp   frac           mathbf  w           amp   text subject to   amp  amp y  i   mathbf  w     top   mathbf  x    i  b  geq   quad  forall i in      dots  n   end aligned   
+  
+
+The 
+  
+    
+      
+        
+          w
+        
+      
+    
+      displaystyle  mathbf  w   
+  
+ and 
+  
+    
+      
+        b
+      
+    
+      displaystyle b 
+  
+ that solve this problem determine the final classifier  
+  
+    
+      
+        
+          x
+        
+          x  a  
+        sgn
+          x     
+         
+        
+          
+            w
+          
+          
+            
+              T
+            
+          
+        
+        
+          x
+        
+          x     
+        b
+         
+      
+    
+      displaystyle  mathbf  x   mapsto  operatorname  sgn   mathbf  w     mathsf  T   mathbf  x   b  
+  
+  where 
+  
+    
+      
+        sgn
+          x     
+         
+          x  c  
+         
+      
+    
+      displaystyle  operatorname  sgn   cdot   
+  
+ is the sign function 
+An important consequence of this geometric description is that the max margin hyperplane is completely determined by those 
+  
+    
+      
+        
+          
+            x
+          
+          
+            i
+          
+        
+      
+    
+      displaystyle  mathbf  x    i  
+  
+ that lie nearest to it  explained below   These 
+  
+    
+      
+        
+          
+            x
+          
+          
+            i
+          
+        
+      
+    
+      displaystyle  mathbf  x    i  
+  
+ are called support vectors 
+
+Soft margin edit 
+To extend SVM to cases in which the data are not linearly separable  the hinge loss function is helpful
+
+  
+    
+      
+        max
+        
+           
+          
+             
+             
+             
+              x     
+            
+              y
+              
+                i
+              
+            
+             
+            
+              
+                w
+              
+              
+                
+                  T
+                
+              
+            
+            
+              
+                x
+              
+              
+                i
+              
+            
+              x     
+            b
+             
+          
+           
+        
+         
+      
+    
+      displaystyle  max  left     y  i   mathbf  w     mathsf  T   mathbf  x    i  b  right   
+  
+
+Note that 
+  
+    
+      
+        
+          y
+          
+            i
+          
+        
+      
+    
+      displaystyle y  i  
+  
+ is the i th target  i e   in this case    or      and 
+  
+    
+      
+        
+          
+            w
+          
+          
+            
+              T
+            
+          
+        
+        
+          
+            x
+          
+          
+            i
+          
+        
+          x     
+        b
+      
+    
+      displaystyle  mathbf  w     mathsf  T   mathbf  x    i  b 
+  
+ is the i th output 
+This function is zero if the constraint in     is satisfied  in other words  if 
+  
+    
+      
+        
+          
+            x
+          
+          
+            i
+          
+        
+      
+    
+      displaystyle  mathbf  x    i  
+  
+ lies on the correct side of the margin  For data on the wrong side of the margin  the function s value is proportional to the distance from the margin 
+The goal of the optimization then is to minimize 
+
+  
+    
+      
+          x     
+        
+          w
+        
+        
+            x     
+          
+             
+          
+        
+         
+        C
+        
+           
+          
+            
+              
+                 
+                n
+              
+            
+            
+                x     
+              
+                i
+                 
+                 
+              
+              
+                n
+              
+            
+            max
+            
+               
+              
+                 
+                 
+                 
+                  x     
+                
+                  y
+                  
+                    i
+                  
+                
+                 
+                
+                  
+                    w
+                  
+                  
+                    
+                      T
+                    
+                  
+                
+                
+                  
+                    x
+                  
+                  
+                    i
+                  
+                
+                  x     
+                b
+                 
+              
+               
+            
+          
+           
+        
+         
+      
+    
+      displaystyle  lVert  mathbf  w   rVert      C left   frac     n   sum   i     n  max  left     y  i   mathbf  w     mathsf  T   mathbf  x    i  b  right  right   
+  
+
+where the parameter 
+  
+    
+      
+        C
+         gt 
+         
+      
+    
+      displaystyle C gt   
+  
+ determines the trade off between increasing the margin size and ensuring that the 
+  
+    
+      
+        
+          
+            x
+          
+          
+            i
+          
+        
+      
+    
+      displaystyle  mathbf  x    i  
+  
+ lie on the correct side of the margin  Note we can add a weight to either term in the equation above   By deconstructing the hinge loss  this optimization problem can be formulated into the following 
+
+  
+    
+      
+        
+          
+            
+              
+              
+                
+                  
+                    minimize
+                    
+                      
+                        w
+                      
+                       
+                      
+                      b
+                       
+                      
+                      
+                          x b  
+                      
+                    
+                  
+                
+              
+              
+              
+                
+                  x     
+                
+                  w
+                
+                
+                    x     
+                  
+                     
+                  
+                  
+                     
+                  
+                
+                 
+                C
+                
+                    x     
+                  
+                    i
+                     
+                     
+                  
+                  
+                    n
+                  
+                
+                
+                    x b  
+                  
+                    i
+                  
+                
+              
+            
+            
+              
+              
+                
+                  subject to
+                
+              
+              
+              
+                
+                  y
+                  
+                    i
+                  
+                
+                 
+                
+                  
+                    w
+                  
+                  
+                      x  a  
+                  
+                
+                
+                  
+                    x
+                  
+                  
+                    i
+                  
+                
+                  x     
+                b
+                 
+                  x     
+                 
+                  x     
+                
+                    x b  
+                  
+                    i
+                  
+                
+                 
+                
+                
+                    x b  
+                  
+                    i
+                  
+                
+                  x     
+                 
+                
+                  x     
+                i
+                  x     
+                 
+                 
+                 
+                  x     
+                 
+                n
+                 
+              
+            
+          
+        
+      
+    
+      displaystyle   begin aligned  amp   underset   mathbf  w     b    mathbf   zeta      operatorname  minimize     amp  amp    mathbf  w             C sum   i     n  zeta   i    amp   text subject to   amp  amp y  i   mathbf  w     top   mathbf  x    i  b  geq    zeta   i   quad  zeta   i  geq   quad  forall i in      dots  n   end aligned   
+  
+
+Thus  for large values of 
+  
+    
+      
+        C
+      
+    
+      displaystyle C 
+  
+  it will behave similar to the hard margin SVM  if the input data are linearly classifiable  but will still learn if a classification rule is viable or not 
+
+Nonlinear kernels edit 
+Kernel machine
+The original maximum margin hyperplane algorithm proposed by Vapnik in      constructed a linear classifier  However  in       Bernhard Boser  Isabelle Guyon and Vladimir Vapnik suggested a way to create nonlinear classifiers by applying the kernel trick  originally proposed by Aizerman et al               to maximum margin hyperplanes             The kernel trick  where dot products are replaced by kernels  is easily derived in the dual representation of the SVM problem  This allows the algorithm to fit the maximum margin hyperplane in a transformed feature space  The transformation may be nonlinear and the transformed space high dimensional  although the classifier is a hyperplane in the transformed feature space  it may be nonlinear in the original input space 
+It is noteworthy that working in a higher dimensional feature space increases the generalization error of support vector machines  although given enough samples the algorithm still performs well             
+Some common kernels include 
+
+Polynomial  homogeneous   
+  
+    
+      
+        k
+         
+        
+          
+            x
+          
+          
+            i
+          
+        
+         
+        
+          
+            x
+          
+          
+            j
+          
+        
+         
+         
+         
+        
+          
+            x
+          
+          
+            i
+          
+        
+          x  c  
+        
+          
+            x
+          
+          
+            j
+          
+        
+        
+           
+          
+            d
+          
+        
+      
+    
+      displaystyle k  mathbf  x    i   mathbf  x    j     mathbf  x    i  cdot  mathbf  x    j    d  
+  
+  Particularly  when 
+  
+    
+      
+        d
+         
+         
+      
+    
+      displaystyle d   
+  
+  this becomes the linear kernel 
+Polynomial  inhomogeneous   
+  
+    
+      
+        k
+         
+        
+          
+            x
+          
+          
+            i
+          
+        
+         
+        
+          
+            x
+          
+          
+            j
+          
+        
+         
+         
+         
+        
+          
+            x
+          
+          
+            i
+          
+        
+          x  c  
+        
+          
+            x
+          
+          
+            j
+          
+        
+         
+        r
+        
+           
+          
+            d
+          
+        
+      
+    
+      displaystyle k  mathbf  x    i   mathbf  x    j     mathbf  x    i  cdot  mathbf  x    j  r   d  
+  
+ 
+Gaussian radial basis function  
+  
+    
+      
+        k
+         
+        
+          
+            x
+          
+          
+            i
+          
+        
+         
+        
+          
+            x
+          
+          
+            j
+          
+        
+         
+         
+        exp
+          x     
+        
+           
+          
+              x     
+              x b  
+            
+              
+                  x     
+                
+                  
+                    
+                      x
+                    
+                    
+                      i
+                    
+                  
+                    x     
+                  
+                    
+                      x
+                    
+                    
+                      j
+                    
+                  
+                
+                  x     
+              
+              
+                 
+              
+            
+          
+           
+        
+      
+    
+      displaystyle k  mathbf  x    i   mathbf  x    j    exp  left   gamma  left   mathbf  x    i   mathbf  x    j  right       right  
+  
+ for 
+  
+    
+      
+          x b  
+         gt 
+         
+      
+    
+      displaystyle  gamma  gt   
+  
+  Sometimes parametrized using 
+  
+    
+      
+          x b  
+         
+         
+        
+           
+        
+         
+         
+        
+            x c  
+          
+             
+          
+        
+         
+      
+    
+      displaystyle  gamma       sigma       
+  
+ 
+Sigmoid function  Hyperbolic tangent   
+  
+    
+      
+        k
+         
+        
+          
+            x
+            
+              i
+            
+          
+        
+         
+        
+          
+            x
+            
+              j
+            
+          
+        
+         
+         
+        tanh
+          x     
+         
+          x ba 
+        
+          
+            x
+          
+          
+            i
+          
+        
+          x  c  
+        
+          
+            x
+          
+          
+            j
+          
+        
+         
+        c
+         
+      
+    
+      displaystyle k  mathbf  x  i     mathbf  x  j      tanh  kappa  mathbf  x    i  cdot  mathbf  x    j  c  
+  
+ for some  not every  
+  
+    
+      
+          x ba 
+         gt 
+         
+      
+    
+      displaystyle  kappa  gt   
+  
+ and 
+  
+    
+      
+        c
+         lt 
+         
+      
+    
+      displaystyle c lt   
+  
+ 
+The kernel is related to the transform 
+  
+    
+      
+          x c  
+         
+        
+          
+            x
+          
+          
+            i
+          
+        
+         
+      
+    
+      displaystyle  varphi   mathbf  x    i   
+  
+ by the equation 
+  
+    
+      
+        k
+         
+        
+          
+            x
+          
+          
+            i
+          
+        
+         
+        
+          
+            x
+          
+          
+            j
+          
+        
+         
+         
+          x c  
+         
+        
+          
+            x
+          
+          
+            i
+          
+        
+         
+          x  c  
+          x c  
+         
+        
+          
+            x
+          
+          
+            j
+          
+        
+         
+      
+    
+      displaystyle k  mathbf  x    i   mathbf  x    j    varphi   mathbf  x    i   cdot  varphi   mathbf  x    j   
+  
+  The value w is also in the transformed space  with 
+  
+    
+      
+        
+          w
+        
+         
+        
+            x     
+          
+            i
+          
+        
+        
+            x b  
+          
+            i
+          
+        
+        
+          y
+          
+            i
+          
+        
+          x c  
+         
+        
+          
+            x
+          
+          
+            i
+          
+        
+         
+      
+    
+      textstyle  mathbf  w    sum   i  alpha   i y  i  varphi   mathbf  x    i   
+  
+  Dot products with w for classification can again be computed by the kernel trick  i e  
+  
+    
+      
+        
+          w
+        
+          x  c  
+          x c  
+         
+        
+          x
+        
+         
+         
+        
+            x     
+          
+            i
+          
+        
+        
+            x b  
+          
+            i
+          
+        
+        
+          y
+          
+            i
+          
+        
+        k
+         
+        
+          
+            x
+          
+          
+            i
+          
+        
+         
+        
+          x
+        
+         
+      
+    
+      textstyle  mathbf  w   cdot  varphi   mathbf  x     sum   i  alpha   i y  i k  mathbf  x    i   mathbf  x    
+  
+ 
+
+Computing the SVM classifier edit 
+Computing the  soft margin  SVM classifier amounts to minimizing an expression of the form
+
+
+  
+    
+      
+        
+           
+          
+            
+              
+                 
+                n
+              
+            
+            
+                x     
+              
+                i
+                 
+                 
+              
+              
+                n
+              
+            
+            max
+            
+               
+              
+                 
+                 
+                 
+                  x     
+                
+                  y
+                  
+                    i
+                  
+                
+                 
+                
+                  
+                    w
+                  
+                  
+                    
+                      T
+                    
+                  
+                
+                
+                  
+                    x
+                  
+                  
+                    i
+                  
+                
+                  x     
+                b
+                 
+              
+               
+            
+          
+           
+        
+         
+          x bb 
+          x     
+        
+          w
+        
+        
+            x     
+          
+             
+          
+        
+         
+      
+    
+      displaystyle  left   frac     n   sum   i     n  max  left     y  i   mathbf  w     mathsf  T   mathbf  x    i  b  right  right   lambda    mathbf  w          
+  
+   
+We focus on the soft margin classifier since  as noted above  choosing a sufficiently small value for 
+  
+    
+      
+          x bb 
+      
+    
+      displaystyle  lambda  
+  
+ yields the hard margin classifier for linearly classifiable input data  The classical approach  which involves reducing     to a quadratic programming problem  is detailed below  Then  more recent approaches such as sub gradient descent and coordinate descent will be discussed 
+
+Primal edit 
+Minimizing     can be rewritten as a constrained optimization problem with a differentiable objective function in the following way 
+For each 
+  
+    
+      
+        i
+          x     
+         
+         
+         
+        
+          x     
+         
+        
+        n
+         
+      
+    
+      displaystyle i in        ldots    n   
+  
+ we introduce a variable 
+  
+    
+      
+        
+            x b  
+          
+            i
+          
+        
+         
+        max
+        
+           
+          
+             
+             
+             
+              x     
+            
+              y
+              
+                i
+              
+            
+             
+            
+              
+                w
+              
+              
+                
+                  T
+                
+              
+            
+            
+              
+                x
+              
+              
+                i
+              
+            
+              x     
+            b
+             
+          
+           
+        
+      
+    
+      displaystyle  zeta   i   max  left     y  i   mathbf  w     mathsf  T   mathbf  x    i  b  right  
+  
+  Note that 
+  
+    
+      
+        
+            x b  
+          
+            i
+          
+        
+      
+    
+      displaystyle  zeta   i  
+  
+ is the smallest nonnegative number satisfying 
+  
+    
+      
+        
+          y
+          
+            i
+          
+        
+         
+        
+          
+            w
+          
+          
+            
+              T
+            
+          
+        
+        
+          
+            x
+          
+          
+            i
+          
+        
+          x     
+        b
+         
+          x     
+         
+          x     
+        
+            x b  
+          
+            i
+          
+        
+         
+      
+    
+      displaystyle y  i   mathbf  w     mathsf  T   mathbf  x    i  b  geq    zeta   i   
+  
+
+Thus we can rewrite the optimization problem as follows
+
+  
+    
+      
+        
+          
+            
+              
+              
+                
+                  minimize  xa  
+                
+                
+                  
+                     
+                    n
+                  
+                
+                
+                    x     
+                  
+                    i
+                     
+                     
+                  
+                  
+                    n
+                  
+                
+                
+                    x b  
+                  
+                    i
+                  
+                
+                 
+                  x bb 
+                  x     
+                
+                  w
+                
+                
+                    x     
+                  
+                     
+                  
+                
+              
+            
+            
+              
+              
+                
+                  subject to  xa  
+                
+                
+                  y
+                  
+                    i
+                  
+                
+                
+                   
+                  
+                    
+                      
+                        w
+                      
+                      
+                        
+                          T
+                        
+                      
+                    
+                    
+                      
+                        x
+                      
+                      
+                        i
+                      
+                    
+                      x     
+                    b
+                  
+                   
+                
+                  x     
+                 
+                  x     
+                
+                    x b  
+                  
+                    i
+                  
+                
+                
+                
+                    xa  and  xa  
+                
+                
+                
+                    x b  
+                  
+                    i
+                  
+                
+                  x     
+                 
+                 
+                
+                
+                  for all  xa  
+                
+                i
+                 
+              
+            
+          
+        
+      
+    
+      displaystyle   begin aligned  amp   text minimize     frac     n   sum   i     n  zeta   i   lambda    mathbf  w              ex  amp   text subject to   y  i  left  mathbf  w     mathsf  T   mathbf  x    i  b right  geq    zeta   i     text  and      zeta   i  geq       text for all   i  end aligned   
+  
+
+This is called the primal problem 
+
+Dual edit 
+By solving for the Lagrangian dual of the above problem  one obtains the simplified problem
+
+  
+    
+      
+        
+          
+            
+              
+              
+                
+                  maximize
+                
+                
+                
+                f
+                 
+                
+                  c
+                  
+                     
+                  
+                
+                  x     
+                
+                  c
+                  
+                    n
+                  
+                
+                 
+                 
+                
+                    x     
+                  
+                    i
+                     
+                     
+                  
+                  
+                    n
+                  
+                
+                
+                  c
+                  
+                    i
+                  
+                
+                  x     
+                
+                  
+                     
+                     
+                  
+                
+                
+                    x     
+                  
+                    i
+                     
+                     
+                  
+                  
+                    n
+                  
+                
+                
+                    x     
+                  
+                    j
+                     
+                     
+                  
+                  
+                    n
+                  
+                
+                
+                  y
+                  
+                    i
+                  
+                
+                
+                  c
+                  
+                    i
+                  
+                
+                 
+                
+                  
+                    x
+                  
+                  
+                    i
+                  
+                  
+                    
+                      T
+                    
+                  
+                
+                
+                  
+                    x
+                  
+                  
+                    j
+                  
+                
+                 
+                
+                  y
+                  
+                    j
+                  
+                
+                
+                  c
+                  
+                    j
+                  
+                
+                 
+              
+            
+            
+              
+              
+                
+                  subject to  xa  
+                
+                
+                    x     
+                  
+                    i
+                     
+                     
+                  
+                  
+                    n
+                  
+                
+                
+                  c
+                  
+                    i
+                  
+                
+                
+                  y
+                  
+                    i
+                  
+                
+                 
+                 
+                 
+                
+                
+                  and  xa  
+                
+                 
+                  x     
+                
+                  c
+                  
+                    i
+                  
+                
+                  x     
+                
+                  
+                     
+                    
+                       
+                      n
+                        x bb 
+                    
+                  
+                
+                
+                
+                  for all  xa  
+                
+                i
+                 
+              
+            
+          
+        
+      
+    
+      displaystyle   begin aligned  amp   text maximize      f c     ldots c  n    sum   i     n c  i    frac         sum   i     n  sum   j     n y  i c  i   mathbf  x    i    mathsf  T   mathbf  x    j  y  j c  j     amp   text subject to    sum   i     n c  i y  i        text and     leq c  i  leq   frac      n lambda       text for all   i  end aligned   
+  
+
+This is called the dual problem  Since the dual maximization problem is a quadratic function of the 
+  
+    
+      
+        
+          c
+          
+            i
+          
+        
+      
+    
+      displaystyle c  i  
+  
+ subject to linear constraints  it is efficiently solvable by quadratic programming algorithms 
+Here  the variables 
+  
+    
+      
+        
+          c
+          
+            i
+          
+        
+      
+    
+      displaystyle c  i  
+  
+ are defined such that
+
+  
+    
+      
+        
+          w
+        
+         
+        
+            x     
+          
+            i
+             
+             
+          
+          
+            n
+          
+        
+        
+          c
+          
+            i
+          
+        
+        
+          y
+          
+            i
+          
+        
+        
+          
+            x
+          
+          
+            i
+          
+        
+         
+      
+    
+      displaystyle  mathbf  w    sum   i     n c  i y  i  mathbf  x    i   
+  
+
+Moreover  
+  
+    
+      
+        
+          c
+          
+            i
+          
+        
+         
+         
+      
+    
+      displaystyle c  i    
+  
+ exactly when 
+  
+    
+      
+        
+          
+            x
+          
+          
+            i
+          
+        
+      
+    
+      displaystyle  mathbf  x    i  
+  
+ lies on the correct side of the margin  and 
+  
+    
+      
+         
+         lt 
+        
+          c
+          
+            i
+          
+        
+         lt 
+         
+         
+        n
+          x bb 
+        
+           
+          
+              x     
+             
+          
+        
+      
+    
+      displaystyle   lt c  i  lt   n lambda        
+  
+  when 
+  
+    
+      
+        
+          
+            x
+          
+          
+            i
+          
+        
+      
+    
+      displaystyle  mathbf  x    i  
+  
+ lies on the margin s boundary  It follows that 
+  
+    
+      
+        
+          w
+        
+      
+    
+      displaystyle  mathbf  w   
+  
+ can be written as a linear combination of the support vectors 
+The offset  
+  
+    
+      
+        b
+      
+    
+      displaystyle b 
+  
+  can be recovered by finding an 
+  
+    
+      
+        
+          
+            x
+          
+          
+            i
+          
+        
+      
+    
+      displaystyle  mathbf  x    i  
+  
+ on the margin s boundary and solving
+
+  
+    
+      
+        
+          y
+          
+            i
+          
+        
+         
+        
+          
+            w
+          
+          
+            
+              T
+            
+          
+        
+        
+          
+            x
+          
+          
+            i
+          
+        
+          x     
+        b
+         
+         
+         
+        
+          x  fa 
+        
+        b
+         
+        
+          
+            w
+          
+          
+            
+              T
+            
+          
+        
+        
+          
+            x
+          
+          
+            i
+          
+        
+          x     
+        
+          y
+          
+            i
+          
+        
+         
+      
+    
+      displaystyle y  i   mathbf  w     mathsf  T   mathbf  x    i  b    iff b  mathbf  w     mathsf  T   mathbf  x    i  y  i   
+  
+
+ Note that 
+  
+    
+      
+        
+          y
+          
+            i
+          
+          
+              x     
+             
+          
+        
+         
+        
+          y
+          
+            i
+          
+        
+      
+    
+      displaystyle y  i       y  i  
+  
+ since 
+  
+    
+      
+        
+          y
+          
+            i
+          
+        
+         
+          xb  
+         
+      
+    
+      displaystyle y  i   pm   
+  
+  
+
+Kernel trick edit 
+Main article  Kernel method
+A training example of SVM with kernel given by    a  b      a  b  a    b  
+Suppose now that we would like to learn a nonlinear classification rule which corresponds to a linear classification rule for the transformed data points 
+  
+    
+      
+          x c  
+         
+        
+          
+            x
+          
+          
+            i
+          
+        
+         
+         
+      
+    
+      displaystyle  varphi   mathbf  x    i    
+  
+ Moreover  we are given a kernel function 
+  
+    
+      
+        k
+      
+    
+      displaystyle k 
+  
+ which satisfies 
+  
+    
+      
+        k
+         
+        
+          
+            x
+          
+          
+            i
+          
+        
+         
+        
+          
+            x
+          
+          
+            j
+          
+        
+         
+         
+          x c  
+         
+        
+          
+            x
+          
+          
+            i
+          
+        
+         
+          x  c  
+          x c  
+         
+        
+          
+            x
+          
+          
+            j
+          
+        
+         
+      
+    
+      displaystyle k  mathbf  x    i   mathbf  x    j    varphi   mathbf  x    i   cdot  varphi   mathbf  x    j   
+  
+ 
+We know the classification vector 
+  
+    
+      
+        
+          w
+        
+      
+    
+      displaystyle  mathbf  w   
+  
+ in the transformed space satisfies
+
+  
+    
+      
+        
+          w
+        
+         
+        
+            x     
+          
+            i
+             
+             
+          
+          
+            n
+          
+        
+        
+          c
+          
+            i
+          
+        
+        
+          y
+          
+            i
+          
+        
+          x c  
+         
+        
+          
+            x
+          
+          
+            i
+          
+        
+         
+         
+      
+    
+      displaystyle  mathbf  w    sum   i     n c  i y  i  varphi   mathbf  x    i    
+  
+
+where  the 
+  
+    
+      
+        
+          c
+          
+            i
+          
+        
+      
+    
+      displaystyle c  i  
+  
+ are obtained by solving the optimization problem
+
+  
+    
+      
+        
+          
+            
+              
+                
+                  maximize
+                
+                
+                
+                f
+                 
+                
+                  c
+                  
+                     
+                  
+                
+                  x     
+                
+                  c
+                  
+                    n
+                  
+                
+                 
+              
+              
+                
+                 
+                
+                    x     
+                  
+                    i
+                     
+                     
+                  
+                  
+                    n
+                  
+                
+                
+                  c
+                  
+                    i
+                  
+                
+                  x     
+                
+                  
+                     
+                     
+                  
+                
+                
+                    x     
+                  
+                    i
+                     
+                     
+                  
+                  
+                    n
+                  
+                
+                
+                    x     
+                  
+                    j
+                     
+                     
+                  
+                  
+                    n
+                  
+                
+                
+                  y
+                  
+                    i
+                  
+                
+                
+                  c
+                  
+                    i
+                  
+                
+                 
+                  x c  
+                 
+                
+                  
+                    x
+                  
+                  
+                    i
+                  
+                
+                 
+                  x  c  
+                  x c  
+                 
+                
+                  
+                    x
+                  
+                  
+                    j
+                  
+                
+                 
+                 
+                
+                  y
+                  
+                    j
+                  
+                
+                
+                  c
+                  
+                    j
+                  
+                
+              
+            
+            
+              
+              
+                
+                 
+                
+                    x     
+                  
+                    i
+                     
+                     
+                  
+                  
+                    n
+                  
+                
+                
+                  c
+                  
+                    i
+                  
+                
+                  x     
+                
+                  
+                     
+                     
+                  
+                
+                
+                    x     
+                  
+                    i
+                     
+                     
+                  
+                  
+                    n
+                  
+                
+                
+                    x     
+                  
+                    j
+                     
+                     
+                  
+                  
+                    n
+                  
+                
+                
+                  y
+                  
+                    i
+                  
+                
+                
+                  c
+                  
+                    i
+                  
+                
+                k
+                 
+                
+                  
+                    x
+                  
+                  
+                    i
+                  
+                
+                 
+                
+                  
+                    x
+                  
+                  
+                    j
+                  
+                
+                 
+                
+                  y
+                  
+                    j
+                  
+                
+                
+                  c
+                  
+                    j
+                  
+                
+              
+            
+            
+              
+                
+                  subject to  xa  
+                
+                
+                    x     
+                  
+                    i
+                     
+                     
+                  
+                  
+                    n
+                  
+                
+                
+                  c
+                  
+                    i
+                  
+                
+                
+                  y
+                  
+                    i
+                  
+                
+              
+              
+                
+                 
+                 
+                 
+                
+                
+                  and  xa  
+                
+                 
+                  x     
+                
+                  c
+                  
+                    i
+                  
+                
+                  x     
+                
+                  
+                     
+                    
+                       
+                      n
+                        x bb 
+                    
+                  
+                
+                
+                
+                  for all  xa  
+                
+                i
+                 
+              
+            
+          
+        
+      
+    
+      displaystyle   begin aligned   text maximize      f c     ldots c  n   amp   sum   i     n c  i    frac         sum   i     n  sum   j     n y  i c  i   varphi   mathbf  x    i   cdot  varphi   mathbf  x    j   y  j c  j    amp   sum   i     n c  i    frac         sum   i     n  sum   j     n y  i c  i k  mathbf  x    i   mathbf  x    j  y  j c  j     text subject to    sum   i     n c  i y  i  amp        text and     leq c  i  leq   frac      n lambda       text for all   i  end aligned   
+  
+
+The coefficients 
+  
+    
+      
+        
+          c
+          
+            i
+          
+        
+      
+    
+      displaystyle c  i  
+  
+ can be solved for using quadratic programming  as before  Again  we can find some index 
+  
+    
+      
+        i
+      
+    
+      displaystyle i 
+  
+ such that 
+  
+    
+      
+         
+         lt 
+        
+          c
+          
+            i
+          
+        
+         lt 
+         
+         
+        n
+          x bb 
+        
+           
+          
+              x     
+             
+          
+        
+      
+    
+      displaystyle   lt c  i  lt   n lambda        
+  
+  so that 
+  
+    
+      
+          x c  
+         
+        
+          
+            x
+          
+          
+            i
+          
+        
+         
+      
+    
+      displaystyle  varphi   mathbf  x    i   
+  
+ lies on the boundary of the margin in the transformed space  and then solve
+
+  
+    
+      
+        
+          
+            
+              
+                b
+                 
+                
+                  
+                    w
+                  
+                  
+                    
+                      T
+                    
+                  
+                
+                  x c  
+                 
+                
+                  
+                    x
+                  
+                  
+                    i
+                  
+                
+                 
+                  x     
+                
+                  y
+                  
+                    i
+                  
+                
+              
+              
+                
+                 
+                
+                   
+                  
+                    
+                        x     
+                      
+                        j
+                         
+                         
+                      
+                      
+                        n
+                      
+                    
+                    
+                      c
+                      
+                        j
+                      
+                    
+                    
+                      y
+                      
+                        j
+                      
+                    
+                      x c  
+                     
+                    
+                      
+                        x
+                      
+                      
+                        j
+                      
+                    
+                     
+                      x  c  
+                      x c  
+                     
+                    
+                      
+                        x
+                      
+                      
+                        i
+                      
+                    
+                     
+                  
+                   
+                
+                  x     
+                
+                  y
+                  
+                    i
+                  
+                
+              
+            
+            
+              
+              
+                
+                 
+                
+                   
+                  
+                    
+                        x     
+                      
+                        j
+                         
+                         
+                      
+                      
+                        n
+                      
+                    
+                    
+                      c
+                      
+                        j
+                      
+                    
+                    
+                      y
+                      
+                        j
+                      
+                    
+                    k
+                     
+                    
+                      
+                        x
+                      
+                      
+                        j
+                      
+                    
+                     
+                    
+                      
+                        x
+                      
+                      
+                        i
+                      
+                    
+                     
+                  
+                   
+                
+                  x     
+                
+                  y
+                  
+                    i
+                  
+                
+                 
+              
+            
+          
+        
+      
+    
+      displaystyle   begin aligned b  mathbf  w     mathsf  T   varphi   mathbf  x    i   y  i  amp   left  sum   j     n c  j y  j  varphi   mathbf  x    j   cdot  varphi   mathbf  x    i   right  y  i    amp   left  sum   j     n c  j y  j k  mathbf  x    j   mathbf  x    i   right  y  i   end aligned   
+  
+
+Finally 
+
+  
+    
+      
+        
+          z
+        
+          x  a  
+        sgn
+          x     
+         
+        
+          
+            w
+          
+          
+            
+              T
+            
+          
+        
+          x c  
+         
+        
+          z
+        
+         
+          x     
+        b
+         
+         
+        sgn
+          x     
+        
+           
+          
+            
+               
+              
+                
+                    x     
+                  
+                    i
+                     
+                     
+                  
+                  
+                    n
+                  
+                
+                
+                  c
+                  
+                    i
+                  
+                
+                
+                  y
+                  
+                    i
+                  
+                
+                k
+                 
+                
+                  
+                    x
+                  
+                  
+                    i
+                  
+                
+                 
+                
+                  z
+                
+                 
+              
+               
+            
+              x     
+            b
+          
+           
+        
+         
+      
+    
+      displaystyle  mathbf  z   mapsto  operatorname  sgn   mathbf  w     mathsf  T   varphi   mathbf  z    b   operatorname  sgn   left  left  sum   i     n c  i y  i k  mathbf  x    i   mathbf  z    right  b right   
+  
+
+
+Modern methods edit 
+Recent algorithms for finding the SVM classifier include sub gradient descent and coordinate descent  Both techniques have proven to offer significant advantages over the traditional approach when dealing with large  sparse datasets sub gradient methods are especially efficient when there are many training examples  and coordinate descent when the dimension of the feature space is high 
+
+Sub gradient descent edit 
+Sub gradient descent algorithms for the SVM work directly with the expression
+
+  
+    
+      
+        f
+         
+        
+          w
+        
+         
+        b
+         
+         
+        
+           
+          
+            
+              
+                 
+                n
+              
+            
+            
+                x     
+              
+                i
+                 
+                 
+              
+              
+                n
+              
+            
+            max
+            
+               
+              
+                 
+                 
+                 
+                  x     
+                
+                  y
+                  
+                    i
+                  
+                
+                 
+                
+                  
+                    w
+                  
+                  
+                    
+                      T
+                    
+                  
+                
+                
+                  
+                    x
+                  
+                  
+                    i
+                  
+                
+                  x     
+                b
+                 
+              
+               
+            
+          
+           
+        
+         
+          x bb 
+          x     
+        
+          w
+        
+        
+            x     
+          
+             
+          
+        
+         
+      
+    
+      displaystyle f  mathbf  w   b   left   frac     n   sum   i     n  max  left     y  i   mathbf  w     mathsf  T   mathbf  x    i  b  right  right   lambda    mathbf  w          
+  
+
+Note that 
+  
+    
+      
+        f
+      
+    
+      displaystyle f 
+  
+ is a convex function of 
+  
+    
+      
+        
+          w
+        
+      
+    
+      displaystyle  mathbf  w   
+  
+ and 
+  
+    
+      
+        b
+      
+    
+      displaystyle b 
+  
+  As such  traditional gradient descent  or SGD  methods can be adapted  where instead of taking a step in the direction of the function s gradient  a step is taken in the direction of a vector selected from the function s sub gradient  This approach has the advantage that  for certain implementations  the number of iterations does not scale with 
+  
+    
+      
+        n
+      
+    
+      displaystyle n 
+  
+  the number of data points             
+
+Coordinate descent edit 
+Coordinate descent algorithms for the SVM work from the dual problem
+
+  
+    
+      
+        
+          
+            
+              
+              
+                
+                  maximize
+                
+                
+                
+                f
+                 
+                
+                  c
+                  
+                     
+                  
+                
+                  x     
+                
+                  c
+                  
+                    n
+                  
+                
+                 
+                 
+                
+                    x     
+                  
+                    i
+                     
+                     
+                  
+                  
+                    n
+                  
+                
+                
+                  c
+                  
+                    i
+                  
+                
+                  x     
+                
+                  
+                     
+                     
+                  
+                
+                
+                    x     
+                  
+                    i
+                     
+                     
+                  
+                  
+                    n
+                  
+                
+                
+                    x     
+                  
+                    j
+                     
+                     
+                  
+                  
+                    n
+                  
+                
+                
+                  y
+                  
+                    i
+                  
+                
+                
+                  c
+                  
+                    i
+                  
+                
+                 
+                
+                  x
+                  
+                    i
+                  
+                
+                  x  c  
+                
+                  x
+                  
+                    j
+                  
+                
+                 
+                
+                  y
+                  
+                    j
+                  
+                
+                
+                  c
+                  
+                    j
+                  
+                
+                 
+              
+            
+            
+              
+              
+                
+                  subject to  xa  
+                
+                
+                    x     
+                  
+                    i
+                     
+                     
+                  
+                  
+                    n
+                  
+                
+                
+                  c
+                  
+                    i
+                  
+                
+                
+                  y
+                  
+                    i
+                  
+                
+                 
+                 
+                 
+                
+                
+                  and  xa  
+                
+                 
+                  x     
+                
+                  c
+                  
+                    i
+                  
+                
+                  x     
+                
+                  
+                     
+                    
+                       
+                      n
+                        x bb 
+                    
+                  
+                
+                
+                
+                  for all  xa  
+                
+                i
+                 
+              
+            
+          
+        
+      
+    
+      displaystyle   begin aligned  amp   text maximize      f c     ldots c  n    sum   i     n c  i    frac         sum   i     n  sum   j     n y  i c  i  x  i  cdot x  j  y  j c  j     amp   text subject to    sum   i     n c  i y  i        text and     leq c  i  leq   frac      n lambda       text for all   i  end aligned   
+  
+
+For each 
+  
+    
+      
+        i
+          x     
+         
+         
+         
+        
+          x     
+         
+        
+        n
+         
+      
+    
+      displaystyle i in        ldots    n   
+  
+  iteratively  the coefficient 
+  
+    
+      
+        
+          c
+          
+            i
+          
+        
+      
+    
+      displaystyle c  i  
+  
+ is adjusted in the direction of 
+  
+    
+      
+          x     
+        f
+        
+           
+        
+          x     
+        
+          c
+          
+            i
+          
+        
+      
+    
+      displaystyle  partial f  partial c  i  
+  
+  Then  the resulting vector of coefficients 
+  
+    
+      
+         
+        
+          c
+          
+             
+          
+            x     
+        
+         
+        
+          x     
+         
+        
+        
+          c
+          
+            n
+          
+            x     
+        
+         
+      
+    
+      displaystyle  c         ldots    c  n    
+  
+ is projected onto the nearest vector of coefficients that satisfies the given constraints   Typically Euclidean distances are used   The process is then repeated until a near optimal vector of coefficients is obtained  The resulting algorithm is extremely fast in practice  although few performance guarantees have been proven             
+
+Empirical risk minimization edit 
+The soft margin support vector machine described above is an example of an empirical risk minimization  ERM  algorithm for the hinge loss  Seen this way  support vector machines belong to a natural class of algorithms for statistical inference  and many of its unique features are due to the behavior of the hinge loss  This perspective can provide further insight into how and why SVMs work  and allow us to better analyze their statistical properties 
+
+Risk minimization edit 
+In supervised learning  one is given a set of training examples 
+  
+    
+      
+        
+          X
+          
+             
+          
+        
+          x     
+        
+          X
+          
+            n
+          
+        
+      
+    
+      displaystyle X     ldots X  n  
+  
+ with labels 
+  
+    
+      
+        
+          y
+          
+             
+          
+        
+          x     
+        
+          y
+          
+            n
+          
+        
+      
+    
+      displaystyle y     ldots y  n  
+  
+  and wishes to predict 
+  
+    
+      
+        
+          y
+          
+            n
+             
+             
+          
+        
+      
+    
+      displaystyle y  n    
+  
+ given 
+  
+    
+      
+        
+          X
+          
+            n
+             
+             
+          
+        
+      
+    
+      displaystyle X  n    
+  
+  To do so one forms a hypothesis  
+  
+    
+      
+        f
+      
+    
+      displaystyle f 
+  
+  such that 
+  
+    
+      
+        f
+         
+        
+          X
+          
+            n
+             
+             
+          
+        
+         
+      
+    
+      displaystyle f X  n     
+  
+ is a  good  approximation of 
+  
+    
+      
+        
+          y
+          
+            n
+             
+             
+          
+        
+      
+    
+      displaystyle y  n    
+  
+  A  good  approximation is usually defined with the help of a loss function  
+  
+    
+      
+          x     
+         
+        y
+         
+        z
+         
+      
+    
+      displaystyle  ell  y z  
+  
+  which characterizes how bad 
+  
+    
+      
+        z
+      
+    
+      displaystyle z 
+  
+ is as a prediction of 
+  
+    
+      
+        y
+      
+    
+      displaystyle y 
+  
+  We would then like to choose a hypothesis that minimizes the expected risk 
+
+  
+    
+      
+          x b  
+         
+        f
+         
+         
+        
+          E
+        
+        
+           
+          
+              x     
+             
+            
+              y
+              
+                n
+                 
+                 
+              
+            
+             
+            f
+             
+            
+              X
+              
+                n
+                 
+                 
+              
+            
+             
+             
+          
+           
+        
+         
+      
+    
+      displaystyle  varepsilon  f   mathbb  E   left  ell  y  n    f X  n      right   
+  
+
+In most cases  we don t know the joint distribution of 
+  
+    
+      
+        
+          X
+          
+            n
+             
+             
+          
+        
+         
+        
+        
+          y
+          
+            n
+             
+             
+          
+        
+      
+    
+      displaystyle X  n      y  n    
+  
+ outright  In these cases  a common strategy is to choose the hypothesis that minimizes the empirical risk 
+
+  
+    
+      
+        
+          
+            
+                x b  
+                x e 
+            
+          
+        
+         
+        f
+         
+         
+        
+          
+             
+            n
+          
+        
+        
+            x     
+          
+            k
+             
+             
+          
+          
+            n
+          
+        
+          x     
+         
+        
+          y
+          
+            k
+          
+        
+         
+        f
+         
+        
+          X
+          
+            k
+          
+        
+         
+         
+         
+      
+    
+      displaystyle   hat   varepsilon    f    frac     n   sum   k     n  ell  y  k  f X  k     
+  
+
+Under certain assumptions about the sequence of random variables 
+  
+    
+      
+        
+          X
+          
+            k
+          
+        
+         
+        
+        
+          y
+          
+            k
+          
+        
+      
+    
+      displaystyle X  k    y  k  
+  
+  for example  that they are generated by a finite Markov process   if the set of hypotheses being considered is small enough  the minimizer of the empirical risk will closely approximate the minimizer of the expected risk as 
+  
+    
+      
+        n
+      
+    
+      displaystyle n 
+  
+ grows large  This approach is called empirical risk minimization  or ERM 
+
+Regularization and stability edit 
+In order for the minimization problem to have a well defined solution  we have to place constraints on the set 
+  
+    
+      
+        
+          
+            H
+          
+        
+      
+    
+      displaystyle   mathcal  H   
+  
+ of hypotheses being considered  If 
+  
+    
+      
+        
+          
+            H
+          
+        
+      
+    
+      displaystyle   mathcal  H   
+  
+ is a normed space  as is the case for SVM   a particularly effective technique is to consider only those hypotheses 
+  
+    
+      
+        f
+      
+    
+      displaystyle f 
+  
+ for which 
+  
+    
+      
+          x     
+        f
+        
+            x     
+          
+            
+              H
+            
+          
+        
+         lt 
+        k
+      
+    
+      displaystyle  lVert f rVert    mathcal  H   lt k 
+  
+   This is equivalent to imposing a regularization penalty 
+  
+    
+      
+        
+          
+            R
+          
+        
+         
+        f
+         
+         
+        
+            x bb 
+          
+            k
+          
+        
+          x     
+        f
+        
+            x     
+          
+            
+              H
+            
+          
+        
+      
+    
+      displaystyle   mathcal  R   f   lambda   k  lVert f rVert    mathcal  H   
+  
+  and solving the new optimization problem
+
+  
+    
+      
+        
+          
+            
+              f
+                x e 
+            
+          
+        
+         
+        
+          a
+          r
+          g
+        
+        
+          min
+          
+            f
+              x     
+            
+              
+                H
+              
+            
+          
+        
+        
+          
+            
+                x b  
+                x e 
+            
+          
+        
+         
+        f
+         
+         
+        
+          
+            R
+          
+        
+         
+        f
+         
+         
+      
+    
+      displaystyle   hat  f    mathrm  arg   min   f in   mathcal  H     hat   varepsilon    f    mathcal  R   f   
+  
+
+This approach is called Tikhonov regularization 
+More generally  
+  
+    
+      
+        
+          
+            R
+          
+        
+         
+        f
+         
+      
+    
+      displaystyle   mathcal  R   f  
+  
+ can be some measure of the complexity of the hypothesis 
+  
+    
+      
+        f
+      
+    
+      displaystyle f 
+  
+  so that simpler hypotheses are preferred 
+
+SVM and the hinge loss edit 
+Recall that the  soft margin  SVM classifier 
+  
+    
+      
+        
+          
+            
+              
+                w
+              
+                x e 
+            
+          
+        
+         
+        b
+         
+        
+          x
+        
+          x  a  
+        sgn
+          x     
+         
+        
+          
+            
+              
+                
+                  w
+                
+                  x e 
+              
+            
+          
+          
+            
+              T
+            
+          
+        
+        
+          x
+        
+          x     
+        b
+         
+      
+    
+      displaystyle   hat   mathbf  w     b  mathbf  x   mapsto  operatorname  sgn    hat   mathbf  w       mathsf  T   mathbf  x   b  
+  
+ is chosen to minimize the following expression 
+
+  
+    
+      
+        
+           
+          
+            
+              
+                 
+                n
+              
+            
+            
+                x     
+              
+                i
+                 
+                 
+              
+              
+                n
+              
+            
+            max
+            
+               
+              
+                 
+                 
+                 
+                  x     
+                
+                  y
+                  
+                    i
+                  
+                
+                 
+                
+                  
+                    w
+                  
+                  
+                    
+                      T
+                    
+                  
+                
+                
+                  x
+                
+                  x     
+                b
+                 
+              
+               
+            
+          
+           
+        
+         
+          x bb 
+          x     
+        
+          w
+        
+        
+            x     
+          
+             
+          
+        
+         
+      
+    
+      displaystyle  left   frac     n   sum   i     n  max  left     y  i   mathbf  w     mathsf  T   mathbf  x   b  right  right   lambda    mathbf  w          
+  
+
+In light of the above discussion  we see that the SVM technique is equivalent to empirical risk minimization with Tikhonov regularization  where in this case the loss function is the hinge loss
+
+  
+    
+      
+          x     
+         
+        y
+         
+        z
+         
+         
+        max
+        
+           
+          
+             
+             
+             
+              x     
+            y
+            z
+          
+           
+        
+         
+      
+    
+      displaystyle  ell  y z   max  left     yz right   
+  
+
+From this perspective  SVM is closely related to other fundamental classification algorithms such as regularized least squares and logistic regression  The difference between the three lies in the choice of loss function  regularized least squares amounts to empirical risk minimization with the square loss   
+  
+    
+      
+        
+            x     
+          
+            s
+            q
+          
+        
+         
+        y
+         
+        z
+         
+         
+         
+        y
+          x     
+        z
+        
+           
+          
+             
+          
+        
+      
+    
+      displaystyle  ell   sq  y z   y z      
+  
+  logistic regression employs the log loss 
+
+  
+    
+      
+        
+            x     
+          
+            log
+          
+        
+         
+        y
+         
+        z
+         
+         
+        ln
+          x     
+         
+         
+         
+        
+          e
+          
+              x     
+            y
+            z
+          
+        
+         
+         
+      
+    
+      displaystyle  ell    log   y z   ln   e   yz    
+  
+
+
+Target functions edit 
+The difference between the hinge loss and these other loss functions is best stated in terms of target functions   the function that minimizes expected risk for a given pair of random variables 
+  
+    
+      
+        X
+         
+        
+        y
+      
+    
+      displaystyle X   y 
+  
+ 
+In particular  let 
+  
+    
+      
+        
+          y
+          
+            x
+          
+        
+      
+    
+      displaystyle y  x  
+  
+ denote 
+  
+    
+      
+        y
+      
+    
+      displaystyle y 
+  
+ conditional on the event that 
+  
+    
+      
+        X
+         
+        x
+      
+    
+      displaystyle X x 
+  
+   In the classification setting  we have 
+
+  
+    
+      
+        
+          y
+          
+            x
+          
+        
+         
+        
+          
+             
+            
+              
+                
+                   
+                
+                
+                  
+                    with probability  xa  
+                  
+                  
+                    p
+                    
+                      x
+                    
+                  
+                
+              
+              
+                
+                    x     
+                   
+                
+                
+                  
+                    with probability  xa  
+                  
+                   
+                    x     
+                  
+                    p
+                    
+                      x
+                    
+                  
+                
+              
+            
+            
+          
+        
+      
+    
+      displaystyle y  x    begin cases   amp   text with probability   p  x      amp   text with probability     p  x  end cases   
+  
+
+The optimal classifier is therefore 
+
+  
+    
+      
+        
+          f
+          
+              x     
+          
+        
+         
+        x
+         
+         
+        
+          
+             
+            
+              
+                
+                   
+                
+                
+                  
+                    if  xa  
+                  
+                  
+                    p
+                    
+                      x
+                    
+                  
+                    x     
+                   
+                  
+                     
+                  
+                   
+                
+              
+              
+                
+                    x     
+                   
+                
+                
+                  
+                    otherwise
+                  
+                
+              
+            
+            
+          
+        
+      
+    
+      displaystyle f     x    begin cases   amp   text if   p  x  geq         amp   text otherwise   end cases   
+  
+
+For the square loss  the target function is the conditional expectation function  
+  
+    
+      
+        
+          f
+          
+            s
+            q
+          
+        
+         
+        x
+         
+         
+        
+          E
+        
+        
+           
+          
+            y
+            
+              x
+            
+          
+           
+        
+      
+    
+      displaystyle f  sq  x   mathbb  E   left y  x  right  
+  
+  For the logistic loss  it s the logit function  
+  
+    
+      
+        
+          f
+          
+            log
+          
+        
+         
+        x
+         
+         
+        ln
+          x     
+        
+           
+          
+            
+              p
+              
+                x
+              
+            
+            
+               
+            
+             
+            
+               
+                x     
+              
+                p
+                
+                  x
+                
+              
+            
+             
+          
+           
+        
+      
+    
+      displaystyle f   log   x   ln  left p  x      p  x    right  
+  
+  While both of these target functions yield the correct classifier  as 
+  
+    
+      
+        sgn
+          x     
+         
+        
+          f
+          
+            s
+            q
+          
+        
+         
+         
+        sgn
+          x     
+         
+        
+          f
+          
+            log
+          
+        
+         
+         
+        
+          f
+          
+              x     
+          
+        
+      
+    
+      displaystyle  operatorname  sgn  f  sq    operatorname  sgn  f   log    f     
+  
+  they give us more information than we need  In fact  they give us enough information to completely describe the distribution of 
+  
+    
+      
+        
+          y
+          
+            x
+          
+        
+      
+    
+      displaystyle y  x  
+  
+ 
+On the other hand  one can check that the target function for the hinge loss is exactly 
+  
+    
+      
+        
+          f
+          
+              x     
+          
+        
+      
+    
+      displaystyle f     
+  
+  Thus  in a sufficiently rich hypothesis space or equivalently  for an appropriately chosen kernel the SVM classifier will converge to the simplest function  in terms of 
+  
+    
+      
+        
+          
+            R
+          
+        
+      
+    
+      displaystyle   mathcal  R   
+  
+  that correctly classifies the data  This extends the geometric interpretation of SVM for linear classification  the empirical risk is minimized by any function whose margins lie between the support vectors  and the simplest of these is the max margin classifier             
+
+Properties edit 
+SVMs belong to a family of generalized linear classifiers and can be interpreted as an extension of the perceptron              They can also be considered a special case of Tikhonov regularization  A special property is that they simultaneously minimize the empirical classification error and maximize the geometric margin  hence they are also known as maximum margin classifiers 
+A comparison of the SVM to other classifiers has been made by Meyer  Leisch and Hornik             
+
+Parameter selection edit 
+The effectiveness of SVM depends on the selection of kernel  the kernel s parameters  and soft margin parameter 
+  
+    
+      
+          x bb 
+      
+    
+      displaystyle  lambda  
+  
+ 
+A common choice is a Gaussian kernel  which has a single parameter 
+  
+    
+      
+          x b  
+      
+    
+      displaystyle  gamma  
+  
+  The best combination of 
+  
+    
+      
+          x bb 
+      
+    
+      displaystyle  lambda  
+  
+ and 
+  
+    
+      
+          x b  
+      
+    
+      displaystyle  gamma  
+  
+ is often selected by a grid search with exponentially growing sequences of 
+  
+    
+      
+          x bb 
+      
+    
+      displaystyle  lambda  
+  
+ and 
+  
+    
+      
+          x b  
+      
+    
+      displaystyle  gamma  
+  
+  for example  
+  
+    
+      
+          x bb 
+          x     
+         
+        
+           
+          
+              x     
+             
+          
+        
+         
+        
+           
+          
+              x     
+             
+          
+        
+         
+          x     
+         
+        
+           
+          
+              
+          
+        
+         
+        
+           
+          
+              
+          
+        
+         
+      
+    
+      displaystyle  lambda  in                  dots                  
+  
+  
+  
+    
+      
+          x b  
+          x     
+         
+        
+           
+          
+              x     
+              
+          
+        
+         
+        
+           
+          
+              x     
+              
+          
+        
+         
+          x     
+         
+        
+           
+          
+             
+          
+        
+         
+        
+           
+          
+             
+          
+        
+         
+      
+    
+      displaystyle  gamma  in                    dots                
+  
+  Typically  each combination of parameter choices is checked using cross validation  and the parameters with best cross validation accuracy are picked  Alternatively  recent work in Bayesian optimization can be used to select 
+  
+    
+      
+          x bb 
+      
+    
+      displaystyle  lambda  
+  
+ and 
+  
+    
+      
+          x b  
+      
+    
+      displaystyle  gamma  
+  
+   often requiring the evaluation of far fewer parameter combinations than grid search  The final model  which is used for testing and for classifying new data  is then trained on the whole training set using the selected parameters             
+
+Issues edit 
+Potential drawbacks of the SVM include the following aspects 
+
+Requires full labeling of input data
+Uncalibrated class membership probabilities SVM stems from Vapnik s theory which avoids estimating probabilities on finite data
+The SVM is only directly applicable for two class tasks  Therefore  algorithms that reduce the multi class task to several binary problems have to be applied  see the multi class SVM section 
+Parameters of a solved model are difficult to interpret 
+Extensions edit 
+Multiclass SVM edit 
+Multiclass SVM aims to assign labels to instances by using support vector machines  where the labels are drawn from a finite set of several elements 
+The dominant approach for doing so is to reduce the single multiclass problem into multiple binary classification problems              Common methods for such reduction include                         
+
+Building binary classifiers that distinguish between one of the labels and the rest  one versus all  or between every pair of classes  one versus one   Classification of new instances for the one versus all case is done by a winner takes all strategy  in which the classifier with the highest output function assigns the class  it is important that the output functions be calibrated to produce comparable scores   For the one versus one approach  classification is done by a max wins voting strategy  in which every classifier assigns the instance to one of the two classes  then the vote for the assigned class is increased by one vote  and finally the class with the most votes determines the instance classification 
+Directed acyclic graph SVM  DAGSVM             
+Error correcting output codes            
+Crammer and Singer proposed a multiclass SVM method which casts the multiclass classification problem into a single optimization problem  rather than decomposing it into multiple binary classification problems              See also Lee  Lin and Wahba                         and Van den Burg and Groenen             
+
+Transductive support vector machines edit 
+Transductive support vector machines extend SVMs in that they could also treat partially labeled data in semi supervised learning by following the principles of transduction  Here  in addition to the training set 
+  
+    
+      
+        
+          
+            D
+          
+        
+      
+    
+      displaystyle   mathcal  D   
+  
+  the learner is also given a set
+
+  
+    
+      
+        
+          
+            
+              D
+            
+          
+          
+              x  c  
+          
+        
+         
+         
+        
+          
+            x
+          
+          
+            i
+          
+          
+              x  c  
+          
+        
+          x     
+        
+          
+            x
+          
+          
+            i
+          
+          
+              x  c  
+          
+        
+          x     
+        
+          
+            R
+          
+          
+            p
+          
+        
+        
+           
+          
+            i
+             
+             
+          
+          
+            k
+          
+        
+      
+    
+      displaystyle   mathcal  D     star      mathbf  x    i    star   mid  mathbf  x    i    star   in  mathbb  R    p     i     k  
+  
+
+of test examples to be classified  Formally  a transductive support vector machine is defined by the following primal optimization problem             
+Minimize  in 
+  
+    
+      
+        
+          w
+        
+         
+        b
+         
+        
+          
+            y
+          
+          
+              x  c  
+          
+        
+      
+    
+      displaystyle  mathbf  w   b  mathbf  y     star   
+  
+ 
+
+  
+    
+      
+        
+          
+             
+             
+          
+        
+          x     
+        
+          w
+        
+        
+            x     
+          
+             
+          
+        
+      
+    
+      displaystyle   frac           mathbf  w         
+  
+
+subject to  for any 
+  
+    
+      
+        i
+         
+         
+         
+          x     
+         
+        n
+      
+    
+      displaystyle i    dots  n 
+  
+ and any 
+  
+    
+      
+        j
+         
+         
+         
+          x     
+         
+        k
+      
+    
+      displaystyle j    dots  k 
+  
+ 
+
+  
+    
+      
+        
+          
+            
+              
+              
+                
+                  y
+                  
+                    i
+                  
+                
+                 
+                
+                  w
+                
+                  x  c  
+                
+                  
+                    x
+                  
+                  
+                    i
+                  
+                
+                  x     
+                b
+                 
+                  x     
+                 
+                 
+              
+            
+            
+              
+              
+                
+                  y
+                  
+                    j
+                  
+                  
+                      x  c  
+                  
+                
+                 
+                
+                  w
+                
+                  x  c  
+                
+                  
+                    x
+                  
+                  
+                    j
+                  
+                  
+                      x  c  
+                  
+                
+                  x     
+                b
+                 
+                  x     
+                 
+                 
+              
+            
+          
+        
+      
+    
+      displaystyle   begin aligned  amp y  i   mathbf  w   cdot  mathbf  x    i  b  geq      amp y  j    star    mathbf  w   cdot  mathbf  x    j    star   b  geq    end aligned   
+  
+
+and
+
+  
+    
+      
+        
+          y
+          
+            j
+          
+          
+              x  c  
+          
+        
+          x     
+         
+          x     
+         
+         
+         
+         
+         
+      
+    
+      displaystyle y  j    star   in           
+  
+
+Transductive support vector machines were introduced by Vladimir N  Vapnik in      
+
+Structured SVM edit 
+Main article  structured SVM
+Structured support vector machine is an extension of the traditional SVM model  While the SVM model is primarily designed for binary classification  multiclass classification  and regression tasks  structured SVM broadens its application to handle general structured output labels  for example parse trees  classification with taxonomies  sequence alignment and many more             
+
+Regression edit 
+Support vector regression  prediction  with different thresholds    As   increases  the prediction becomes less sensitive to errors 
+A version of SVM for regression was proposed in      by Vladimir N  Vapnik  Harris Drucker  Christopher J  C  Burges  Linda Kaufman and Alexander J  Smola              This method is called support vector regression  SVR   The model produced by support vector classification  as described above  depends only on a subset of the training data  because the cost function for building the model does not care about training points that lie beyond the margin  Analogously  the model produced by SVR depends only on a subset of the training data  because the cost function for building the model ignores any training data close to the model prediction  Another SVM version known as least squares support vector machine  LS SVM  has been proposed by Suykens and Vandewalle             
+Training the original SVR means solving            
+
+minimize 
+  
+    
+      
+        
+          
+            
+               
+               
+            
+          
+        
+          x     
+        w
+        
+            x     
+          
+             
+          
+        
+      
+    
+      displaystyle   tfrac          w       
+  
+
+subject to 
+  
+    
+      
+        
+           
+        
+        
+          y
+          
+            i
+          
+        
+          x     
+          x  e  
+        w
+         
+        
+          x
+          
+            i
+          
+        
+          x  e  
+          x     
+        b
+        
+           
+        
+          x     
+          x b  
+      
+    
+      displaystyle  y  i   langle w x  i  rangle  b  leq  varepsilon  
+  
+
+where 
+  
+    
+      
+        
+          x
+          
+            i
+          
+        
+      
+    
+      displaystyle x  i  
+  
+ is a training sample with target value 
+  
+    
+      
+        
+          y
+          
+            i
+          
+        
+      
+    
+      displaystyle y  i  
+  
+  The inner product plus intercept 
+  
+    
+      
+          x  e  
+        w
+         
+        
+          x
+          
+            i
+          
+        
+          x  e  
+         
+        b
+      
+    
+      displaystyle  langle w x  i  rangle  b 
+  
+ is the prediction for that sample  and 
+  
+    
+      
+          x b  
+      
+    
+      displaystyle  varepsilon  
+  
+ is a free parameter that serves as a threshold  all predictions have to be within an 
+  
+    
+      
+          x b  
+      
+    
+      displaystyle  varepsilon  
+  
+ range of the true predictions  Slack variables are usually added into the above to allow for errors and to allow approximation in the case the above problem is infeasible 
+
+Bayesian SVM edit 
+In      it was shown by Polson and Scott that the SVM admits a Bayesian interpretation through the technique of data augmentation              In this approach the SVM is viewed as a graphical model  where the parameters are connected via probability distributions   This extended view allows the application of Bayesian techniques to SVMs  such as flexible feature modeling  automatic hyperparameter tuning  and predictive uncertainty quantification  Recently  a scalable version of the Bayesian SVM was developed by Florian Wenzel  enabling the application of Bayesian SVMs to big data              Florian Wenzel developed two different versions  a variational inference  VI  scheme for the Bayesian kernel support vector machine  SVM  and a stochastic version  SVI  for the linear Bayesian SVM             
+
+Implementation edit 
+The parameters of the maximum margin hyperplane are derived by solving the optimization  There exist several specialized algorithms for quickly solving the quadratic programming  QP  problem that arises from SVMs  mostly relying on heuristics for breaking the problem down into smaller  more manageable chunks 
+Another approach is to use an interior point method that uses Newton like iterations to find a solution of the Karush Kuhn Tucker conditions of the primal and dual problems             
+Instead of solving a sequence of broken down problems  this approach directly solves the problem altogether  To avoid solving a linear system involving the large kernel matrix  a low rank approximation to the matrix is often used in the kernel trick 
+Another common method is Platt s sequential minimal optimization  SMO  algorithm  which breaks the problem down into   dimensional sub problems that are solved analytically  eliminating the need for a numerical optimization algorithm and matrix storage  This algorithm is conceptually simple  easy to implement  generally faster  and has better scaling properties for difficult SVM problems             
+The special case of linear support vector machines can be solved more efficiently by the same kind of algorithms used to optimize its close cousin  logistic regression  this class of algorithms includes sub gradient descent  e g   PEGASOS              and coordinate descent  e g   LIBLINEAR               LIBLINEAR has some attractive training time properties  Each convergence iteration takes time linear in the time taken to read the train data  and the iterations also have a Q linear convergence property  making the algorithm extremely fast 
+The general kernel SVMs can also be solved more efficiently using sub gradient descent  e g  P packSVM               especially when parallelization is allowed 
+Kernel SVMs are available in many machine learning toolkits  including LIBSVM  MATLAB  SAS  SVMlight  kernlab  scikit learn  Shogun  Weka  Shark  JKernelMachines  OpenCV and others 
+Preprocessing of data  standardization  is highly recommended to enhance accuracy of classification              There are a few methods of standardization  such as min max  normalization by decimal scaling  Z score              Subtraction of mean and division by variance of each feature is usually used for SVM             
+
+See also edit 
+In situ adaptive tabulation
+Kernel machines
+Fisher kernel
+Platt scaling
+Polynomial kernel
+Predictive analytics
+Regularization perspectives on support vector machines
+Relevance vector machine  a probabilistic sparse kernel model identical in functional form to SVM
+Sequential minimal optimization
+Space mapping
+Winnow  algorithm 
+Radial basis function network
+References edit 
+
+
+  a b c Cortes  Corinna  Vapnik  Vladimir          Support vector networks   PDF   Machine Learning                   CiteSeerX                      doi         BF          S CID                
+
+  Vapnik  Vladimir N           The Support Vector method   In Gerstner  Wulfram  Germond  Alain  Hasler  Martin  Nicoud  Jean Daniel  eds    Artificial Neural Networks   ICANN     Lecture Notes in Computer Science  Vol             Berlin  Heidelberg  Springer  pp                doi         BFb         ISBN                        
+
+  Awad  Mariette  Khanna  Rahul          Support Vector Machines for Classification   Efficient Learning Machines  Apress  pp              doi                              ISBN                        
+
+  Ben Hur  Asa  Horn  David  Siegelmann  Hava  Vapnik  Vladimir N    Support vector clustering            Journal of Machine Learning Research             
+
+  Huang  H  H   Xu  T   Yang  J           Comparing logistic regression  support vector machines  and permanental classification methods in predicting hypertension   BMC Proceedings     Suppl     S    doi                     S  S    PMC               PMID               
+
+  Opper  M  Kinzel  W  Kleinz  J  Nehl  R          On the ability of the optimal perceptron to generalise   Journal of Physics A  Mathematical and General           L     Bibcode     JPhA     L    O  doi                             
+
+        Support Vector Machines   scikit learn        documentation   Archived from the original on             Retrieved            
+
+  Hastie  Trevor  Tibshirani  Robert  Friedman  Jerome         The Elements of Statistical Learning        Data Mining  Inference  and Prediction  PDF   Second      ed    New York  Springer  p           
+
+  a b c Boser  Bernhard E   Guyon  Isabelle M   Vapnik  Vladimir N           A training algorithm for optimal margin classifiers   Proceedings of the fifth annual workshop on Computational learning theory   COLT      p            CiteSeerX                      doi                        ISBN                      S CID                
+
+  Press  William H   Teukolsky  Saul A   Vetterling  William T   Flannery  Brian P           Section       Support Vector Machines   Numerical Recipes  The Art of Scientific Computing   rd      ed    New York  Cambridge University Press  ISBN                         Archived from the original on            
+
+  Joachims  Thorsten          Text categorization with Support Vector Machines  Learning with many relevant features   Machine Learning  ECML     Lecture Notes in Computer Science  Vol             Springer  pp                doi         BFb         ISBN                        
+
+  Pradhan  Sameer S   et      al     May        Shallow Semantic Parsing using Support Vector Machines  Proceedings of the Human Language Technology Conference of the North American Chapter of the Association for Computational Linguistics  HLT NAACL       Association for Computational Linguistics  pp               
+
+  Vapnik  Vladimir N   Invited Speaker  IPMU Information Processing and Management       
+
+  Barghout  Lauren          Spatial Taxon Information Granules as Used in Iterative Fuzzy Decision Making for Image Segmentation   PDF   Granular Computing and Decision Making  Studies in Big Data  Vol           pp                doi                               ISBN                         S CID               Archived from the original  PDF  on             Retrieved            
+
+  A  Maity          Supervised Classification of RADARSAT   Polarimetric Data for Different Land Features   arXiv             cs CV  
+
+  DeCoste  Dennis          Training Invariant Support Vector Machines   PDF   Machine Learning               doi         A                S CID            
+
+  Maitra  D  S   Bhattacharya  U   Parui  S  K   August         CNN based common approach to handwritten character recognition of multiple scripts          th International Conference on Document Analysis and Recognition  ICDAR   pp                  doi         ICDAR               ISBN                         S CID               
+
+  Gaonkar  B   Davatzikos  C           Analytic estimation of statistical significance maps for support vector machine based multi variate image analysis and classification   NeuroImage               doi         j neuroimage              PMC               PMID               
+
+  Cuingnet  R mi  Rosso  Charlotte  Chupin  Marie  Leh ricy  St phane  Dormont  Didier  Benali  Habib  Samson  Yves  Colliot  Olivier          Spatial regularization of SVM for the detection of diffusion alterations associated with stroke outcome   PDF   Medical Image Analysis                   doi         j media              PMID                Archived from the original  PDF  on             Retrieved            
+
+  Statnikov  Alexander  Hardin  Douglas   amp  Aliferis  Constantin           Using SVM weight based methods to identify causally relevant and non causally relevant variables   Sign       
+
+   Why is the SVM margin equal to 
+  
+    
+      
+        
+          
+             
+            
+                x     
+              
+                w
+              
+                x     
+            
+          
+        
+      
+    
+      displaystyle   frac        mathbf  w       
+  
+   Mathematics Stack Exchange     May      
+
+  Aizerman  Mark A   Braverman  Emmanuel M   amp  Rozonoer  Lev I           Theoretical foundations of the potential function method in pattern recognition learning   Automation and Remote Control              
+
+  Jin  Chi  Wang  Liwei         Dimensionality dependent PAC Bayes margin bound  Advances in Neural Information Processing Systems  CiteSeerX                       Archived from the original on            
+
+  Shalev Shwartz  Shai  Singer  Yoram  Srebro  Nathan  Cotter  Andrew                Pegasos  primal estimated sub gradient solver for SVM   Mathematical Programming                 CiteSeerX                       doi         s                  ISSN                 S CID               
+
+  Hsieh  Cho Jui  Chang  Kai Wei  Lin  Chih Jen  Keerthi  S  Sathiya  Sundararajan  S                 A dual coordinate descent method for large scale linear SVM   Proceedings of the   th international conference on Machine learning   ICML      New York  NY  USA  ACM  pp                CiteSeerX                       doi                          ISBN                         S CID              
+
+  Rosasco  Lorenzo  De Vito  Ernesto  Caponnetto  Andrea  Piana  Michele  Verri  Alessandro                Are Loss Functions All the Same    Neural Computation                     CiteSeerX                       doi                             ISSN                 PMID                S CID               
+
+  R  Collobert and S  Bengio         Links between Perceptrons  MLPs and SVMs  Proc  Int l Conf  on Machine Learning  ICML  
+
+  Meyer  David  Leisch  Friedrich  Hornik  Kurt  September         The support vector machine under test   Neurocomputing                     doi         S                     
+
+  Hsu  Chih Wei  Chang  Chih Chung  amp  Lin  Chih Jen         A Practical Guide to Support Vector Classification  PDF   Technical report   Department of Computer Science and Information Engineering  National Taiwan University  Archived  PDF  from the original on            
+
+  a b Duan  Kai Bo  Keerthi  S  Sathiya          Which Is the Best Multiclass SVM Method  An Empirical Study   PDF   Multiple Classifier Systems  LNCS  Vol             pp                CiteSeerX                       doi                      ISBN                         Archived from the original  PDF  on             Retrieved            
+
+  Hsu  Chih Wei  amp  Lin  Chih Jen          A Comparison of Methods for Multiclass Support Vector Machines   PDF   IEEE Transactions on Neural Networks                  doi                    PMID                Archived from the original  PDF  on             Retrieved            
+
+  Platt  John  Cristianini  Nello  Shawe Taylor  John          Large margin DAGs for multiclass classification   PDF   In Solla  Sara A   Leen  Todd K   M ller  Klaus Robert  eds    Advances in Neural Information Processing Systems  MIT Press  pp                Archived  PDF  from the original on            
+
+  Dietterich  Thomas G   Bakiri  Ghulum          Solving Multiclass Learning Problems via Error Correcting Output Codes   PDF   Journal of Artificial Intelligence Research              arXiv cs          Bibcode     cs            D  doi         jair      S CID                Archived  PDF  from the original on            
+
+  Crammer  Koby  amp  Singer  Yoram          On the Algorithmic Implementation of Multiclass Kernel based Vector Machines   PDF   Journal of Machine Learning Research              Archived  PDF  from the original on            
+
+  Lee  Yoonkyung  Lin  Yi  amp  Wahba  Grace          Multicategory Support Vector Machines   PDF   Computing Science and Statistics      Archived from the original on            
+
+  Lee  Yoonkyung  Lin  Yi  Wahba  Grace          Multicategory Support Vector Machines   Journal of the American Statistical Association                   CiteSeerX                      doi                             S CID              
+
+  Van den Burg  Gerrit J  J   amp  Groenen  Patrick J  F           GenSVM  A Generalized Multiclass Support Vector Machine   PDF   Journal of Machine Learning Research                 
+
+  Joachims  Thorsten  Transductive Inference for Text Classification using Support Vector Machines  PDF   Proceedings of the      International Conference on Machine Learning  ICML        pp               
+
+   Support Vector Machine Learning for Interdependent and Structured Output Spaces   PDF   www cs cornell edu 
+
+  Drucker  Harris  Burges  Christ  C   Kaufman  Linda  Smola  Alexander J   and Vapnik  Vladimir N           Support Vector Regression Machines   in Advances in Neural Information Processing Systems    NIPS                MIT Press 
+
+  Suykens  Johan A  K   Vandewalle  Joos P  L    Least squares support vector machine classifiers   Neural Processing Letters  vol     no     Jun        pp          
+
+  Smola  Alex J   Sch lkopf  Bernhard          A tutorial on support vector regression   PDF   Statistics and Computing                   CiteSeerX                      doi         B STCO                      S CID             Archived  PDF  from the original on            
+
+  Polson  Nicholas G   Scott  Steven L           Data Augmentation for Support Vector Machines   Bayesian Analysis               doi            BA    
+
+  Wenzel  Florian  Galy Fajou  Theo  Deutsch  Matth us  Kloft  Marius          Bayesian Nonlinear Support Vector Machines for Big Data   Machine Learning and Knowledge Discovery in Databases  Lecture Notes in Computer Science  Vol              pp                arXiv             Bibcode     arXiv         W  doi                               ISBN                         S CID              
+
+  Florian Wenzel  Matth us Deutsch  Th o Galy Fajou  Marius Kloft   Scalable Approximate Inference for the Bayesian Nonlinear Support Vector Machine 
+
+  Ferris  Michael C   Munson  Todd S           Interior Point Methods for Massive Support Vector Machines   PDF   SIAM Journal on Optimization                   CiteSeerX                       doi         S                  S CID                Archived  PDF  from the original on            
+
+  Platt  John C          Sequential Minimal Optimization  A Fast Algorithm for Training Support Vector Machines  PDF   NIPS  Archived  PDF  from the original on            
+
+  Shalev Shwartz  Shai  Singer  Yoram  Srebro  Nathan         Pegasos  Primal Estimated sub GrAdient SOlver for SVM  PDF   ICML  Archived  PDF  from the original on            
+
+  Fan  Rong En  Chang  Kai Wei  Hsieh  Cho Jui  Wang  Xiang Rui  Lin  Chih Jen          LIBLINEAR  A library for large linear classification   PDF   Journal of Machine Learning Research               
+
+  Allen Zhu  Zeyuan  Chen  Weizhu  Wang  Gang  Zhu  Chenguang  Chen  Zheng         P packSVM  Parallel Primal grAdient desCent Kernel SVM  PDF   ICDM  Archived  PDF  from the original on            
+
+  Fan  Rong En  Chang  Kai Wei  Hsieh  Cho Jui  Wang  Xiang Rui  Lin  Chih Jen          LIBLINEAR  A library for large linear classification   Journal of Machine Learning Research     Aug             
+
+  Mohamad  Ismail  Usman  Dauda                Standardization and Its Effects on K Means Clustering Algorithm   Research Journal of Applied Sciences  Engineering and Technology                     doi          rjaset        
+
+  Fennell  Peter  Zuo  Zhiya  Lerman  Kristina                Predicting and explaining behavioral data with structured feature space decomposition   EPJ Data Science     arXiv             doi         epjds s                 
+
+
+Further reading edit 
+Bennett  Kristin P   Campbell  Colin          Support Vector Machines  Hype or Hallelujah    PDF   SIGKDD Explorations               doi                        S CID                
+Cristianini  Nello  Shawe Taylor  John         An Introduction to Support Vector Machines and other kernel based learning methods  Cambridge University Press  ISBN                    
+Fradkin  Dmitriy  Muchnik  Ilya          Support Vector Machines for Classification   PDF   In Abello  J   Carmode  G   eds    Discrete Methods in Epidemiology  DIMACS Series in Discrete Mathematics and Theoretical Computer Science  Vol           pp                  citation not found     
+Joachims  Thorsten          Text categorization with Support Vector Machines  Learning with many relevant features   In N dellec  Claire  Rouveirol  C line  eds    Machine Learning  ECML     Lecture Notes in Computer Science  Vol             Berlin  Heidelberg  Springer  pp                doi         BFb         ISBN                         S CID              
+Ivanciuc  Ovidiu          Applications of Support Vector Machines in Chemistry   PDF   Reviews in Computational Chemistry  Vol           pp                doi                       ch   ISBN                    
+James  Gareth  Witten  Daniela  Hastie  Trevor  Tibshirani  Robert          Support Vector Machines   PDF   An Introduction to Statistical Learning        with Applications in R  New York  Springer  pp                ISBN                        
+Sch lkopf  Bernhard  Smola  Alexander J          Learning with Kernels  Cambridge  MA  MIT Press  ISBN                    
+Steinwart  Ingo  Christmann  Andreas         Support Vector Machines  New York  Springer  ISBN                        
+Theodoridis  Sergios  Koutroumbas  Konstantinos         Pattern Recognition   th      ed    Academic Press  ISBN                        
+External links edit 
+libsvm  LIBSVM is a popular library of SVM learners
+liblinear is a library for large linear classification including some SVMs
+SVM light is a collection of software tools for learning and classification using SVM
+SVMJS live demo Archived            at the Wayback Machine is a GUI demo for JavaScript implementation of SVMs
+Authority control databases  National GermanyUnited StatesFranceBnF dataCzech RepublicIsrael
+
+
+
+
+
+Retrieved from  https   en wikipedia org w index php title Support vector machine amp oldid

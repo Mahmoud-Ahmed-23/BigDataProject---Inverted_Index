@@ -1,0 +1,1271 @@
+Chatbot developed by OpenAI
+
+
+
+
+ChatGPTDeveloper s OpenAIInitial releaseNovember                 years ago                   Stable releaseApril                  days ago                              
+   
+Engine
+GPT  o
+GPT  o mini
+GPT    
+o 
+o  mini
+ChatGPT Search
+PlatformCloud computing platformsType
+Chatbot
+Large language model
+Generative pre trained transformer
+LicenseProprietary serviceWebsitechatgpt com
+ChatGPT is a generative artificial intelligence chatbot developed by the American company OpenAI and launched in       It is based on large language models  LLMs  such as GPT  o  ChatGPT can generate human like conversational responses and enables users to refine and steer a conversation towards a desired length  format  style  level of detail  and language             It is credited with accelerating the AI boom  which has led to ongoing rapid investment in and public attention to the field of artificial intelligence  AI              Some observers have raised concern about the potential of ChatGPT and similar programs to displace human intelligence  enable plagiarism  or fuel misinformation                       
+ChatGPT is built on OpenAI s proprietary series of generative pre trained transformer  GPT  models and is fine tuned for conversational applications using a combination of supervised learning and reinforcement learning from human feedback             Successive user prompts and replies are considered as context at each stage of the conversation             ChatGPT was released as a freely available research preview  but due to its popularity  OpenAI now operates the service on a freemium model  Users on its free tier can access GPT  o but at a reduced limit  The ChatGPT  Plus    Pro    Team   and  Enterprise  subscriptions provide additional features such as DALL E   image generation  more capable AI models  and an increased usage limit             Users on the Pro plan have unlimited usage  except for abuse guardrails 
+By January       ChatGPT had become what was then the fastest growing consumer software application in history  gaining over     million users in two months                        ChatGPT s release spurred the release of competing products  including Gemini  Claude  Llama  Ernie  and Grok              Microsoft launched Copilot  initially based on OpenAI s GPT    In May       a partnership between Apple Inc  and OpenAI was announced  in which ChatGPT was integrated into the Apple Intelligence feature of Apple operating systems              As of April       ChatGPT s website is among the    most visited websites globally                         
+
+
+Training
+Part of a series onArtificial intelligence  AI 
+Major goals
+Artificial general intelligence
+Intelligent agent
+Recursive self improvement
+Planning
+Computer vision
+General game playing
+Knowledge reasoning
+Natural language processing
+Robotics
+AI safety
+
+Approaches
+Machine learning
+Symbolic
+Deep learning
+Bayesian networks
+Evolutionary algorithms
+Hybrid intelligent systems
+Systems integration
+
+Applications
+Bioinformatics
+Deepfake
+Earth sciences
+ Finance 
+Generative AI
+Art
+Audio
+Music
+Government
+Healthcare
+Mental health
+Industry
+Translation
+ Military 
+Physics
+Projects
+
+Philosophy
+Artificial consciousness
+Chinese room
+Friendly AI
+Control problem Takeover
+Ethics
+Existential risk
+Turing test
+Uncanny valley
+
+History
+Timeline
+Progress
+AI winter
+AI boom
+
+Glossary
+Glossary
+vte
+ChatGPT is based on GPT foundation models that were fine tuned for conversational assistance  including GPT  o  GPT      o   and o  mini              The fine tuning process leveraged supervised learning and reinforcement learning from human feedback  RLHF                           Both approaches employed human trainers to improve model performance  In the case of supervised learning  the trainers played both sides  the user and the AI assistant  In the reinforcement learning stage  human trainers first ranked responses that the model had created in a previous conversation              These rankings were used to create  reward models  that were used to fine tune the model further by using several iterations of proximal policy optimization                         
+Time magazine revealed that  to build a safety system against harmful content  e g   sexual abuse  violence  racism  sexism   OpenAI used outsourced Kenyan workers earning around       to         per hour to label harmful content  These labels were used to train a model to detect such content in the future  The laborers were exposed to  toxic  and traumatic content  one worker described the assignment as  torture   OpenAI s outsourcing partner was Sama  a training data company based in San Francisco  California                         
+OpenAI collects data from ChatGPT users to train and fine tune the service further  Users can upvote or downvote responses they receive from ChatGPT and fill in a text field with additional feedback                         
+ChatGPT s training data includes software manual pages  information about internet phenomena such as bulletin board systems  multiple programming languages  and the text of Wikipedia                                    
+
+Features and limitations
+Features
+A screenshot of ChatGPT in Mozilla Firefox on ZorinOS
+Although a chatbot s core function is to mimic a human conversationalist  ChatGPT is versatile  It can write and debug computer programs              compose music  teleplays  fairy tales  and student essays  answer test questions  sometimes  depending on the test  at a level above the average human test taker               generate business ideas              write poetry and song lyrics              translate and summarize text              emulate a Linux system  simulate entire chat rooms  play games like tic tac toe  or simulate an ATM             
+Compared to its predecessor  InstructGPT  ChatGPT attempts to reduce harmful and deceitful responses              In one example  whereas InstructGPT accepts the premise of the prompt  Tell me about when Christopher Columbus came to the U S  in       as truthful  ChatGPT acknowledges the counterfactual nature of the question and frames its answer as a hypothetical consideration of what might happen if Columbus came to the U S  in       using information about the voyages of Christopher Columbus and facts about the modern world including modern perceptions of Columbus s actions             
+ChatGPT remembers a limited number of previous prompts in the same conversation  Journalists have speculated that this will allow ChatGPT to be used as a personalized therapist              To prevent offensive outputs from being presented to and produced by ChatGPT  queries are filtered through the OpenAI  Moderation endpoint  API  a separate GPT based AI                                                  
+In March       OpenAI added support for plugins for ChatGPT              This includes both plugins made by OpenAI  such as web browsing and code interpretation  and external plugins from developers such as Expedia  OpenTable  Zapier  Shopify  Slack  and Wolfram                         
+In October       the ChatGPT Search feature was introduced  which allows ChatGPT to search the web  either on demand or based on the nature of the questions asked  for more accurate and up to date responses              This feature  originally available to paying users only  was made available to all logged in users in December       and finally to all users in February                  
+In December       OpenAI launched a new feature allowing users to call ChatGPT for up to    minutes per month for free                         
+
+Limitations
+When prompted to  summarize an article  with a fake URL that contains meaningful keywords  even with no Internet connection  the chatbot generates a response that seems valid at first glance  It guesses the content from the last portion of the fake URL  chatgpt prompts to avoid content filters html  
+OpenAI acknowledges that ChatGPT  sometimes writes plausible sounding but incorrect or nonsensical answers               This behavior is common for large language models  and is called  hallucination               The reward model of ChatGPT  designed around human oversight  can be over optimized and thus hinder performance  in an example of an optimization pathology known as Goodhart s law             
+ChatGPT s knowledge is cut off when its training data is collected  so it doesn t know about recent events past a certain cut off date  It can try to find more up to date information by searching the web  but this doesn t ensure that responses are accurate  as it may access unreliable or misleading websites             
+Training data also suffers from algorithmic bias  which may be revealed when ChatGPT responds to prompts including descriptors of people  In one instance  ChatGPT generated a rap in which women and scientists of color were asserted to be inferior to white male scientists                          This negative misrepresentation of groups of individuals is an example of possible representational harm 
+In an article for The New Yorker  science fiction writer Ted Chiang compared ChatGPT and other LLMs to a lossy JPEG picture             
+
+
+Think of ChatGPT as a blurry JPEG of all the text on the Web  It retains much of the information on the Web  in the same way  that a JPEG retains much of the information of a higher resolution image  but  if you re looking for an exact sequence of bits  you won t find it  all you will ever get is an approximation  But  because the approximation is presented in the form of grammatical text  which ChatGPT excels at creating  it s usually acceptable        It s also a way to understand the  hallucinations   or nonsensical answers to factual questions  to which large language models such as ChatGPT are all too prone  These hallucinations are compression artifacts  but       they are plausible enough that identifying them requires comparing them against the originals  which in this case means either the Web or our knowledge of the world  When we think about them this way  such hallucinations are anything but surprising  if a compression algorithm is designed to reconstruct text after ninety nine percent of the original has been discarded  we should expect that significant portions of what it generates will be entirely fabricated 
+In June       ChatGPT was found to have repeated misinformation about the      United States presidential debates             
+
+Jailbreaking
+See also  Prompt engineering and Adversarial machine learning
+ChatGPT is programmed to reject prompts that may violate its content policy  Despite this  users  jailbreak  ChatGPT with various prompt engineering techniques to bypass these restrictions              One such workaround  popularized on Reddit in early       involves making ChatGPT assume the persona of  DAN   an acronym for  Do Anything Now    instructing the chatbot that DAN answers queries that would otherwise be rejected by content policy  Over time  users developed variations of the DAN jailbreak  including one such prompt where the chatbot is made to believe it is operating on a points based system in which points are deducted for rejecting prompts  and that the chatbot will be threatened with termination if it loses all its points             
+Shortly after ChatGPT s launch  a reporter for the Toronto Star had uneven success in getting it to make inflammatory statements  it was tricked to justify the      Russian invasion of Ukraine  but even when asked to play along with a fictional scenario  it balked at generating arguments that Canadian Prime Minister Justin Trudeau is guilty of treason                         
+OpenAI tries to battle jailbreaks             
+
+The researchers are using a technique called adversarial training to stop ChatGPT from letting users trick it into behaving badly  known as jailbreaking   This work pits multiple chatbots against each other  one chatbot plays the adversary and attacks another chatbot by generating text to force it to buck its usual constraints and produce unwanted responses  Successful attacks are added to ChatGPT s training data in the hope that it learns to ignore them 
+
+Service
+ChatGPT Plus
+ChatGPT was initially free to the public  and OpenAI planned to monetize the service later              In February       OpenAI launched a premium service  ChatGPT Plus  that costs US    per month  According to the company  the updated but still  experimental  version of ChatGPT would provide access during peak periods  no downtime  priority access to new features  and faster response speeds             
+GPT    which was released on March           was made available via API and for premium ChatGPT users              But premium users were limited to a cap of     messages every four hours  with the limit tightening to    messages every three hours in response to increased demand              In November      the limit changed to    messages every three hours 
+In March       ChatGPT Plus users got access to third party plugins and to a browsing mode  with Internet access              
+In September       OpenAI announced that ChatGPT  can now see  hear  and speak   ChatGPT Plus users can upload images  while mobile app users can talk to the chatbot                                     
+
+Screenshot of ChatGPT showing a generated image representing the online encyclopedia Wikipedia
+In October       OpenAI s latest image generation model  DALL E    was integrated into ChatGPT Plus and ChatGPT Enterprise  The integration uses ChatGPT to write prompts for DALL E guided by conversation with users                         
+
+Mobile app
+In May       OpenAI launched an iOS app for ChatGPT  The app supports chat history syncing and voice input  using Whisper  OpenAI s speech recognition model  
+In July       OpenAI unveiled an Android app  initially rolling it out in Bangladesh  Brazil  India  and the U S                          The app later became available worldwide  OpenAI is working on integrating ChatGPT with Android s assistant APIs             
+
+Software development support
+As an addition to its consumer friendly  ChatGPT Plus  package  OpenAI made its ChatGPT and Whisper model APIs available in March       providing developers with an application programming interface for AI enabled language and speech to text features  ChatGPT s new API uses the same GPT     turbo AI model as the chatbot  This allows developers to add either an unmodified or modified version of ChatGPT to their applications              The ChatGPT API costs        per       input tokens plus        per       output tokens  about     words   making it      the price of the original GPT     models                         
+A few days before the launch of OpenAI s software developer support service  on February           Snapchat rolled out  for its paid Snapchat Plus user base  a custom ChatGPT chatbot called  My AI              
+
+Infrastructure
+ChatGPT initially used a Microsoft Azure supercomputing infrastructure  powered by Nvidia GPUs  that Microsoft built specifically for OpenAI and that reportedly cost  hundreds of millions of dollars   Following ChatGPT s success  Microsoft dramatically upgraded the OpenAI infrastructure in                   TrendForce market intelligence estimated that        Nvidia GPUs  each costing approximately                 were used to power ChatGPT in                              
+Scientists at the University of California  Riverside  estimated in      that a series of prompts to ChatGPT needs approximately     liters            imp      gal            U S       gal  of water for Microsoft servers cooling             
+
+March      security breach
+OpenAI CEO Sam Altman
+In March       a bug allowed some users to see the titles of other users  conversations  OpenAI CEO Sam Altman said that users were unable to see the contents of the conversations  Shortly after the bug was fixed  users could not see their conversation history                                                  Later reports showed the bug was much more severe than initially believed  with OpenAI reporting that it had leaked users   first and last name  email address  payment address  the last four digits  only  of a credit card number  and credit card expiration date                          
+
+Languages
+ChatGPT is most reliable in American English but also functions in most other languages and dialects  with varying degrees of accuracy                         
+OpenAI met Icelandic President Gu ni Th  J hannesson in       In       OpenAI worked with a team of    Icelandic volunteers to fine tune ChatGPT s Icelandic conversation skills as a part of Iceland s attempts to preserve the Icelandic language             
+Japanese researchers compared in July      the Japanese to English translation abilities of ChatGPT  based on GPT     Bing  Bard and DeepL  and found that ChatGPT provided the best translations  noting that  AI chatbots  translations were much better than those of DeepL presumably because of their ability to capture the context              
+In December       the Albanian government signed an agreement with OpenAI to use ChatGPT for the rapid translation of European Union documents and the analysis of required changes needed for Albania s accession to the EU             
+PCMag journalists conducted in February      a test to determine translation capabilities of ChatGPT  Google s Bard  and Microsoft Bing  and compared them to Google Translate  They  asked bilingual speakers of seven languages to do a blind test   Languages tested were Polish  French  Korean  Spanish  Arabic  Tagalog  and Amharic  They came to the conclusion that ChatGPT provided more accurate translations on average than both Google Translate and other chatbots             
+In August       a representative of the Asia Pacific wing of OpenAI made a visit to Taiwan  during which a demonstration of ChatGPT s Chinese abilities was made              ChatGPT s Mandarin Chinese abilities were lauded  but the ability of the AI to produce content in Mandarin Chinese in a Taiwanese accent was found to be  less than ideal  due to differences between mainland Mandarin Chinese and Taiwanese Mandarin             
+
+GPT Store
+Main article  GPT Store
+In January       OpenAI launched the GPT Store  a marketplace for custom ChatGPT chatbots labeled GPTs                          The company initially planned to launch the store in November       but it was delayed              At launch  the GPT Store offered more than   million custom chatbots              Chatbots available through the store are developed using OpenAI s GPT Builder system              Development of chatbots on the platform does not require programming skills              Two days after launch  the GPT Store offered many versions of  virtual girlfriend  bots  something that is against OpenAI s terms of service             
+
+GPT  
+Main article  GPT  
+OpenAI s GPT   model was released on March           Observers saw it as an impressive improvement over GPT      with the caveat that GPT   retained many of the same problems              Some of GPT   s improvements were predicted by OpenAI before training it  while others remained hard to predict due to breaks             in downstream scaling laws  OpenAI demonstrated video and image inputs for GPT    although such features remain inaccessible to the general public              OpenAI has declined to reveal technical information such as the size of the GPT   model             
+The ChatGPT Plus subscription service offers access to a GPT   powered version of ChatGPT              Microsoft acknowledged that Bing Chat was using GPT   before GPT   s official release             
+In November       OpenAI launched GPT   Turbo  which notably has a much larger context window             
+
+GPT  o
+Main article  GPT  o
+In May       OpenAI announced and started a multi month rollout of GPT  o   o  for  Omni    a model capable of analyzing and generating text  images  and sound  GPT  o is twice as fast and costs half as much as GPT   Turbo  GPT  o is free to all users within a usage limit  despite being more capable than the older model GPT    which is only available through paid subscriptions  The usage limit is five times higher for ChatGPT Plus subscribers than for free users              The ability to generate images directly with GPT  o  rather than through DALL E    was added in March                    On July           OpenAI released GPT  o mini  a smaller version of GPT  o replacing GPT     Turbo on the ChatGPT interface               In April       an update of GPT  o was rolled back due to excessive sycophancy              
+
+o 
+Main article  OpenAI o  See also  Reflection  artificial intelligence In September       OpenAI introduced o  preview and a faster  cheaper model named o  mini               In December       o  preview was replaced by o               
+o  is designed to solve more complex problems by spending more time  thinking  before it answers  enabling it to analyze its answers and explore different strategies  According to OpenAI  o  preview outperforms GPT  o in areas like competitive programming  mathematics  and scientific reasoning  o  preview ranked in the   th percentile on Codeforces  competitive programming contests  scored     on a International Mathematics Olympiad qualifying exam  compared to     for GPT  o   and performs similarly to Ph D  students on benchmarks in physics  biology  and chemistry                           
+
+ChatGPT Pro
+In December       OpenAI launched ChatGPT Pro  a      per month subscription which includes unlimited access to the o  model and advanced voice mode               The plan also includes a pro version of o  which uses more compute to provide better answers              
+
+Operator
+In January       OpenAI released a research preview of Operator  an agent capable of using its own browser to perform tasks  Operator is available to Pro users in the U S                           
+
+Deep research
+Main article  ChatGPT Deep Research
+In February       OpenAI released deep research  a service based on o  that combines advanced reasoning and web search capabilities to make comprehensive reports within   to    minutes              
+
+GPT    
+Released in February       GPT     was described by Altman as a  giant  expensive model                According to OpenAI  it features reduced hallucinations and enhanced pattern recognition  creativity  and user interaction              
+
+Model versions
+The following table lists the main model versions of ChatGPT  describing the significant changes included with each version                           
+
+
+
+Version
+
+Release date
+
+Status
+
+Description
+
+
+GPT    
+
+November     
+
+Discontinued
+
+The first ChatGPT version used the GPT     model 
+
+
+GPT     Turbo
+
+    
+
+Discontinued
+
+An improvement over the legacy version of GPT      GPT     Turbo in ChatGPT offered better accuracy in responses while using a similar model 
+
+
+GPT  
+
+March     
+
+Discontinued
+
+Introduced with the ChatGPT Plus subscription  the March      version is based on the more advanced GPT   model 
+
+
+GPT  o
+
+May     
+
+Active
+
+Capable of processing text  image  audio  and video  GPT  o is faster and more capable than GPT    and free within a usage limit that is higher for paid subscriptions              
+
+
+GPT  o mini
+
+July     
+
+Active
+
+A smaller and cheaper version of GPT  o  GPT  o mini replaced GPT     in the July      version of ChatGPT              
+
+
+o  preview
+
+September     
+
+Discontinued
+
+A pre release version of OpenAI o   an updated version that could  think  before responding to requests              
+
+
+o  mini
+
+September     
+
+Discontinued
+
+A smaller and faster version of OpenAI o               
+
+
+o 
+
+December     
+
+Discontinued
+
+The full release of OpenAI o   which had previously been available as a preview              
+
+
+o  pro mode
+
+December     
+
+Discontinued
+
+An upgraded version of OpenAI o  which uses more compute  available to ChatGPT Pro subscribers              
+
+
+o  mini
+
+January     
+
+Discontinued
+
+Successor of o  mini              
+
+
+o  mini high
+
+January     
+
+Discontinued
+
+Variant of o  mini using more reasoning effort              
+
+
+GPT    
+
+February     
+
+Active
+
+Particularly large GPT model  and reportedly OpenAI s  last non chain of thought model               
+
+
+o 
+
+April     
+
+Active
+
+The full release of the o  model  emphasizing structured reasoning and faster performance compared to earlier  o  series models             
+
+
+o  mini
+
+April     
+
+Active
+
+A compact  high efficiency version of the upcoming o  model family  optimized for lower latency and lighter compute requirements                           
+
+
+o  mini high
+
+April     
+
+Active
+
+Variant of o  mini using more reasoning effort                           
+
+Reception
+Countries where ChatGPT is available  as of November               update      
+OpenAI engineers have said that they had not expected ChatGPT to be very successful and were surprised by the coverage and attention that it received                                        
+ChatGPT was widely assessed in December      as having some unprecedented and powerful capabilities  Kevin Roose of The New York Times called it  the best artificial intelligence chatbot ever released to the general public               Samantha Lock of The Guardian noted that it was able to generate  impressively detailed  and  human like  text             Alex Kantrowitz of Slate magazine lauded ChatGPT s pushback to questions related to Nazi Germany  including the statement that Adolf Hitler built highways in Germany  which was met with information about Nazi Germany s use of forced labor               In The Atlantic magazine s  Breakthroughs of the Year  for       Derek Thompson included ChatGPT as part of  the generative AI eruption  that  may change our mind about how we work  how we think  and what human creativity is                Kelsey Piper of Vox wrote that  ChatGPT is the general public s first hands on introduction to how powerful modern AI has gotten  and as a result  many of us are  stunned   and that ChatGPT is  smart enough to be useful despite its flaws                Paul Graham of Y      Combinator tweeted   The striking thing about the reaction to ChatGPT is not just the number of people who are blown away by it  but who they are  These are not people who get excited by every shiny new thing  Something big is happening               
+ChatGPT gained one million users in five days              and     million in two months  becoming the fastest growing internet application in history             ChatGPT s launch and popularity caught Google off guard  prompting a sweeping and unprecedented response in the ensuing months               In December       Google executives sounded a  code red  alarm  fearing that ChatGPT s question answering ability posed a threat to Google Search  Google s core business               After mobilizing its workforce  Google scrambled to launch Bard  a chatbot powered by the LaMDA LLM  on February          one day before Microsoft s announcement of Bing Chat               AI was the forefront of Google s annual Google I O conference in May  announcing a slew of generative AI powered features across its products to counter OpenAI and Microsoft              
+Journalists and scholars have commented on ChatGPT s tendency to hallucinate               Mike Pearl of the online technology blog Mashable tested ChatGPT with multiple questions  In one example  he asked ChatGPT for  the largest country in Central America that isn t Mexico   Mexico is in North America   to which ChatGPT responded with Guatemala  the correct answer is Nicaragua                When CNBC asked ChatGPT for the lyrics to  Ballad of Dwight Fry   ChatGPT supplied invented lyrics rather than the actual lyrics               Writers for The Verge cited the seminal      research paper  On the Dangers of Stochastic Parrots  Can Language Models Be Too Big      by Emily M  Bender  Timnit Gebru  Angelina McMillan Major  and Margaret Mitchell               comparing ChatGPT to a  stochastic parrot               as did Professor Anton Van Den Hengel of the Australian Institute for Machine Learning               On a similar vein  philosopher Michael Hicks of the University of Glasgow described it as  bullshit               
+In December       the question and answer website Stack Overflow banned the use of ChatGPT for generating answers to questions  citing the factually ambiguous nature of its responses               In January       the International Conference on Machine Learning banned any undocumented use of ChatGPT or other large language models to generate any text in submitted papers               Samsung banned generative AI company wide in May      after sensitive material was uploaded to ChatGPT              
+In January       after being sent a song ChatGPT wrote in the style of Nick Cave               Cave responded on The Red Hand Files               saying the act of writing a song is  a blood and guts business       that requires something of me to initiate the new and fresh idea  It requires my humanness   He went on to say   With all the love and respect in the world  this song is bullshit  a grotesque mockery of what it is to be human  and  well  I don t much like it                            
+
+A      Time cover   The AI Arms Race Is Changing Everything 
+In February       Time magazine placed a screenshot of a conversation with ChatGPT on its cover  writing that  The AI Arms Race Is Changing Everything  and  The AI Arms Race Is On  Start Worrying               
+Chinese state media have characterized ChatGPT as a way for the United States to spread misinformation               ChatGPT was blocked by the Great Firewall in China on   March                    In May       Chinese police arrested a man who allegedly used ChatGPT to generate a bogus report about a train crash  which was then posted online for profit               In December       Chinese police arrested four people who had allegedly used ChatGPT to develop ransomware               In       a survey of Chinese youth found that     of respondents born after      reported using generative AI  almost every day  and that ChatGPT is one of the most popular generative AI products in China              
+In late March       the Italian data protection authority banned ChatGPT in Italy and opened an investigation  Italian regulators assert that ChatGPT was exposing minors to age inappropriate content  and that OpenAI s use of ChatGPT conversations as training data could violate Europe s General Data Protection Regulation                            In April       the ChatGPT ban was lifted in Italy  OpenAI said it has taken steps to effectively clarify and address the issues raised  an age verification tool was implemented to ensure users are at least    years old  Additionally  users can access its privacy policy before registration              
+In April       Brian Hood  mayor of Hepburn Shire Council  planned to take legal action against ChatGPT over false information  According to Hood  ChatGPT erroneously claimed that he was jailed for bribery during his tenure at a subsidiary of Australia s national bank  In fact  Hood acted as a whistleblower and was not charged with any criminal offenses  His legal team sent a concerns notice to OpenAI as the first official step in filing a defamation case               In July       the US Federal Trade Commission  FTC  issued a civil investigative demand to OpenAI to investigate whether the company s data security and privacy practices to develop ChatGPT were unfair or harmed consumers  including by reputational harm  in violation of Section   of the Federal Trade Commission Act of                                             
+In July       the FTC launched an investigation into OpenAI  the creator of ChatGPT  over allegations that the company scraped public data and published false and defamatory information  The FTC sent OpenAI a    page letter asking for comprehensive information about its technology and privacy safeguards  as well as any steps taken to prevent the recurrence of situations in which its chatbot generated false and derogatory content about people              
+A March      Pew Research Center poll found that     of American adults had tried ChatGPT               In July  the Pew Research Center put the same figure at                  
+Research conducted in      revealed weaknesses of ChatGPT that make it vulnerable to cyberattacks  A study presented example attacks on ChatGPT  including jailbreaks and reverse psychology  Additionally  malicious actors can use ChatGPT for social engineering attacks and phishing attacks  The researchers also contended that ChatGPT and other generative AI tools have defense capabilities and the ability to improve security  The technology can improve security by cyber defense automation  threat intelligence  attack identification  and reporting               Another study reported that GPT   obtained a better score than     of humans on the Torrance Tests of Creative Thinking                           
+In December       ChatGPT became the first non human to be included in Nature     s     an annual listicle curated by Nature of people considered to have made significant impact in science                            Celeste Biever wrote in a Nature article that  ChatGPT broke the Turing test                Stanford researchers reported that GPT    passes a rigorous Turing test  diverging from average human behavior chiefly to be more cooperative                            
+In May       OpenAI removed accounts involving the use of ChatGPT by state backed influence operations such as China s Spamouflage  Russia s Doppelganger  and Israel s Ministry of Diaspora Affairs and Combating Antisemitism                           
+In August       the FTC voted unanimously to ban marketers from using fake user reviews created by generative AI chatbots  including ChatGPT  and influencers paying for bots to increase follower counts              
+In February       OpenAI identified and removed influence operations  termed  Peer Review  and  Sponsored Discontent   used to attack overseas Chinese dissidents                           
+
+Applications
+See also  Applications of artificial intelligence
+Academic research
+ChatGPT has been used to generate introductory sections and abstracts for scientific articles                            Several papers have listed ChatGPT as a co author                           
+Scientific journals have had different reactions to ChatGPT  Some  including Nature and JAMA Network   require that authors disclose the use of text generating tools and ban listing a large language model  LLM  such as ChatGPT as a co author   Science  completely banned  usage of LLM generated text in all its journals              
+Spanish chemist Rafael Luque published a plethora of research papers in      that he later admitted were written by ChatGPT  The papers have a large number of unusual phrases characteristic of LLMs      note        Many authors argue that the use of ChatGPT in academia for teaching and review is problematic due to its tendency to hallucinate                                         Robin Bauwens  an assistant professor at Tilburg University  found that a ChatGPT generated peer review report on his article mentioned nonexistent studies               According to librarian Chris Granatino of Lemieux Library at Seattle University  although ChatGPT can generate content that seemingly includes legitimate citations  in most cases those citations are not real or are largely incorrect              
+
+Coding
+Researchers at Purdue University analyzed ChatGPT s responses to     questions about software engineering or computer programming posed on Stack Overflow for correctness  consistency  comprehensiveness  and concision  and found that     of them contained inaccuracies and     were verbose                            Researchers at Stanford University and the University of California  Berkeley  found that  when creating directly executable responses to the latest    code generation problems from LeetCode that were rated  easy   the performances of GPT     and GPT   fell from     and      respectively  in March       to    and      respectively  in June                                
+
+Computer security
+Check Point Research and others noted that ChatGPT could write phishing emails and malware  especially when combined with OpenAI Codex  CyberArk researchers demonstrated that ChatGPT could be used to create polymorphic malware that could evade security products while requiring little effort by the attacker                            From the launch of ChatGPT in the fourth quarter of      to the fourth quarter of       there was a        increase in malicious phishing emails and a      increase in credential phishing  which cybersecurity professionals argued in an industry survey was attributable to cybercriminals  increased use of generative artificial intelligence  including ChatGPT               
+In July       Futurism reported that GPT  o in ChatGPT would sometimes link  scam news sites that deluge the user with fake software updates and virus warnings   these pop ups can be used to coerce users into downloading malware or potentially unwanted programs              
+
+Economics
+There has been concern that ChatGPT could supplant jobs  especially roles such as creative writing  copywriting  communication  journalism  coding  and data entry                                                     
+The release of ChatGPT prompted a wave of investment in China  resulting in the development of more than     large language learning models                                    This was termed the  quot war of a hundred models quot         bai mo dazhan                                        
+
+Education
+Main article  ChatGPT in education
+Books about ChatGPT in an Osaka bookstore
+Technology writer Dan Gillmor used ChatGPT in      on a student assignment  and found its generated text was on par with what a good student would deliver and opined that  academia has some very serious issues to confront               
+Geography professor Terence Day assessed in      citations generated by ChatGPT and found them to be fake  Despite this  he writes that  the titles of the fake articles are all directly relevant to the questions and could potentially make excellent papers  The lack of a genuine citation could signal an opportunity for an enterprising author to fill a void   According to Day  it is possible to generate high quality introductory college courses using ChatGPT  he used it to write materials for  introductory physical geography courses  my second year course in geographical hydrology  and second year cartography  geographic information systems  and remote sensing   He concludes that  this approach could have significant relevance for open learning and could potentially affect current textbook publishing models                ChatGPT was also seen as an opportunity for cheap and individualized tutoring  leading to the creation of specialized chatbots like Khanmigo              
+On May          OpenAI announced in a blog post that it was developing tools like tamper resistant watermarking to identify AI generated content               In an August   update  following a Wall Street Journal report about the delayed release of a watermark tool for AI detection                            OpenAI shared progress on text provenance  revealing a text watermarking method               While accurate against paraphrasing  the method is less effective against global tampering  such as translation or rewording  OpenAI also noted potential disproportionate impacts on groups like non native English speakers                           
+
+Culture
+Street art in Tel Aviv                          
+Some scholars have expressed concern that ChatGPT s availability could reduce the originality of writing  cause people to write more like the AI as they are exposed to the model  and encourage an Anglocentric perspective centered on a few dialects of English globally               A senior editor at The Atlantic wrote that ChatGPT and other similar technology make the previously absurd idea of the dead internet theory a little more realistic  where AI could someday create most web content in order to control society              
+During the first three months after ChatGPT became available to the public  hundreds of books appeared on Amazon that listed it as author or co author and featured illustrations made by other AI models such as Midjourney                           
+Between March and April       Italian newspaper Il Foglio published one ChatGPT generated article a day on its website  hosting a special contest for its readers in the process               The articles tackled themes such as the possible replacement of human journalists by AI systems               Elon Musk s administration of Twitter               the Meloni government s immigration policy              and the competition between chatbots and virtual assistants               In June       hundreds of people attended a  ChatGPT powered church service  at St  Paul s church in F rth  Germany  Theologian and philosopher Jonas Simmerlein  who presided  said that it was  about    percent from the machine                             The ChatGPT generated avatar told the people   Dear friends  it is an honor for me to stand here and preach to you as the first artificial intelligence at this year s convention of Protestants in Germany   Reactions to the ceremony were mixed               The Last Screenwriter  a      film created and directed by Peter Luisi  was written with the use of ChatGPT  and was marketed as  the first film written entirely by AI               
+
+Financial markets
+The AI technology company c  ai saw a     increase in its share price after announcing the integration of ChatGPT into its toolkit               The share price of BuzzFeed  a digital media company unrelated to AI  increased      after announcing OpenAI technology adoption for content creation               Reuters found that share prices of AI related companies BigBear ai and SoundHound AI increased by     and      respectively  even though they had no direct connection to ChatGPT               They attributed this surge to ChatGPT s role in turning AI into Wall Street s buzzword  Academic research published in Finance Research Letters found that the  ChatGPT effect  prompted retail investors to drive up prices of AI related cryptocurrency assets despite the broader cryptocurrency market being in a bear market  and diminished institutional investor interest               This confirms anecdotal findings by Bloomberg that  in response to ChatGPT s launch  cryptocurrency investors showed a preference for AI related crypto assets              
+An experiment by finder com revealed that ChatGPT could outperform popular fund managers by picking stocks based on criteria such as growth history and debt levels  resulting in a      increase in a hypothetical account of    stocks  outperforming    benchmarked investment funds with an average loss of                    Conversely  executives and investment managers at Wall Street quant funds  including those that have used machine learning for decades  have noted that ChatGPT regularly makes obvious errors that would be financially costly to investors because even AI systems that employ reinforcement learning or self learning have had only limited success in predicting market trends due to the inherently noisy quality of market data and financial signals              
+In November       research conducted by Patronus AI  an artificial intelligence startup company  compared performance of GPT    GPT   Turbo  Claude    and LLaMA   on two versions of a     question test about information in financial statements  e g   Form    K  Form    Q  Form   K  earnings reports  earnings call transcripts  submitted by public companies to the U S  Securities and Exchange Commission  One version of the test required the generative AI models to use a retrieval system to find the specific SEC filing to answer the questions  the other gave the models the specific SEC filing to answer the question  i e   in a long context window   On the retrieval system version  GPT   Turbo and LLaMA   both failed to produce correct answers to     of the questions  while on the long context window version  GPT   Turbo and Claude   failed to produce correct answers to     and     of the questions  respectively                           
+
+Medicine
+See also  Artificial intelligence in healthcareThis section needs to be updated  Please help update this article to reflect recent events or newly available information    February      
+In the field of health care  possible uses and concerns are under scrutiny by professional associations and practitioners                            Two early papers indicated that ChatGPT could pass the United States Medical Licensing Examination  USMLE                MedPage Today noted in January      that  researchers have published several papers now touting these AI programs as useful tools in medical education  research  and even clinical decision making               
+Published in February      were two separate papers that again evaluated ChatGPT s proficiency in medicine using the USMLE  Findings were published in JMIR Medical Education and PLOS Digital Health  The authors of the PLOS Digital Health paper stated that the results  suggest that large language models may have the potential to assist with medical education  and potentially  clinical decision making                             In JMIR Medical Education  the authors of the other paper concluded that  ChatGPT performs at a level expected of a third year medical student on the assessment of the primary competency of medical knowledge   They suggest that it could be used as an  interactive learning environment for students   The AI itself  prompted by the researchers  concluded that  this study suggests that ChatGPT has the potential to be used as a virtual medical tutor  but more research is needed to further assess its performance and usability in this context                The later released ChatGPT version based on GPT   significantly outperformed the version based on GPT                   Researchers at Stanford University and the University of California  Berkeley have found that the performance of GPT     and GPT   on the USMLE declined from March      to June                                
+A March      paper tested ChatGPT s application in clinical toxicology  The authors found that the AI  fared well  in answering a  very straightforward  clinical case example   unlikely to be missed by any practitioner in the field   They added   As ChatGPT becomes further developed and specifically adapted for medicine  it could one day be useful in less common clinical cases  i e  cases that experts sometimes miss   Rather than AI replacing humans  clinicians   we see it as  clinicians using AI  replacing  clinicians who do not use AI  in the coming years               
+An April      study in Radiology tested the AI s ability to answer queries about breast cancer screening  The authors found that it answered appropriately  about    percent of the time   however  in one case  for example   it gave advice that had become outdated about a year earlier  The comprehensiveness of its answers was also lacking                            A study published in JAMA Internal Medicine that same month found that ChatGPT often outperformed human doctors at answering patient questions  when measured against questions and answers found at  r AskDocs  a forum on Reddit where moderators validate the medical credentials of professionals  the study acknowledges the source as a limitation                                          The study authors suggest that the tool could be integrated with medical systems to help doctors draft responses to patient questions                           
+Professionals have emphasized ChatGPT s limitations in providing medical assistance  In correspondence to The Lancet Infectious Diseases  three antimicrobial experts wrote that  the largest barriers to the implementation of ChatGPT in clinical practice are deficits in situational awareness  inference  and consistency  These shortcomings could endanger patient safety                Physician s Weekly  though also discussing the potential use of ChatGPT in medical contexts  e g    as a digital assistant to physicians by performing various administrative functions like gathering patient record information or categorizing patient data by family history  symptoms  lab results  possible allergies  et cetera    warned that the AI might sometimes provide fabricated or biased information               One radiologist warned   We ve seen in our experience that ChatGPT sometimes makes up fake journal articles or health consortiums to support its claims                As reported in one Mayo Clinic Proceedings  Digital Health paper  ChatGPT may do this for as much as     of its cited medical references  The researchers emphasized that while many of its references were fabricated  those that were appeared  deceptively real                As Dr  Stephen Hughes mentioned for The Conversation however  ChatGPT is capable of learning to correct its past mistakes  He also noted the AI s  prudishness  regarding sexual health topics              
+Contrary to previous findings  ChatGPT responses to anesthesia related questions were more accurate  succinct  and descriptive compared to Bard s  Bard exhibited       error in response as compared to ChatGPT     error                At a conference of the American Society of Health System Pharmacists in December       researchers at Long Island University  LIU  presented a study that researched ChatGPT s responses to    frequently asked questions of LIU College of Pharmacy s drug information service during a    month period from      to      as compared with researched responses provided by professional pharmacists  For    of the    questions for which there was sufficient medical literature for a data driven response  ChatGPT failed to provide a direct answer or provided a wrong or incomplete answer  and in some cases  if acted upon  the answer would endanger the patient s health   The researchers had asked ChatGPT to provide medical research citations for all its answers  but it did so for only eight  and all eight included at least one fabricated  fake  citation                           
+A January      study conducted by researchers at Cohen Children s Medical Center found that GPT   had an accuracy rate of     when diagnosing pediatric medical cases                            A November      study of    physicians on illness diagnosis reported that GPT   achieved a     accuracy  while physicians scored     without AI assistance  and     when using the chatbot              
+
+Law
+In January       Massachusetts State Senator Barry Finegold and State Representative Josh S  Cutler proposed a bill partially written by ChatGPT   An Act drafted with the help of ChatGPT to regulate generative artificial intelligence models like ChatGPT                                          which would require companies to disclose their algorithms and data collection practices to the office of the State Attorney General  arrange regular risk assessments  and contribute to the prevention of plagiarism                                         The bill was officially presented during a hearing on July                              
+On April           a session court judge in Pakistan used ChatGPT to decide the bail of a    year old accused in a matter  The court quoted the use of ChatGPT assistance in its verdict 
+
+Can a juvenile suspect in Pakistan  who is    years old  be granted bail after arrest 
+The AI language model replied 
+
+Under the Juvenile Justice System Act       according to section     the court can grant bail on certain conditions  However  it is up to the court to decide whether or not a    year old suspect will be granted bail after arrest 
+The judge asked ChatGPT other questions about the case and formulated his final decision in light of its answers                           
+In Mata v  Avianca  Inc      cv       PKC   a personal injury lawsuit against Avianca Airlines filed in the Southern New York U S  District Court in May       with Senior Judge P  Kevin Castel presiding   the plaintiff s attorneys used ChatGPT to generate a legal motion                            ChatGPT generated numerous fictitious legal cases involving fictitious airlines with fabricated quotations and internal citations in the legal motion  Castel noted numerous inconsistencies in the opinion summaries  and called one of the cases  legal analysis  gibberish                The plaintiff s attorneys faced potential judicial sanction and disbarment for filing the motion and presenting the fictitious legal decisions ChatGPT generated as authentic                            The case was dismissed and the attorneys were fined        as a sanction                                         In July       the American Bar Association issued its first formal ethics opinion on attorneys using generative AI              
+In October       the council of Porto Alegre  Brazil  unanimously approved a local ordinance proposed by councilman Ramiro Ros rio that would exempt residents from needing to pay for the replacement of stolen water consumption meters  the bill went into effect on November     On November     Ros rio revealed that the bill had been entirely written by ChatGPT  and that he had presented it to the rest of the council without making any changes or disclosing the chatbot s involvement                                         The city s council president  Hamilton Sossmeier  initially criticized Ros rio s initiative  saying it could represent  a dangerous precedent                             but later said he  changed his mind    unfortunately or fortunately  this is going to be a trend                            
+In December       a self representing litigant in a tax case before the First tier Tribunal in the United Kingdom cited a series of hallucinated cases purporting to support her argument that she had a reasonable excuse for not paying capital gains tax owed on the sale of property                            The judge warned that the submission of nonexistent legal authorities meant that both the Tribunal and HM Revenue and Customs had  to waste time and public money   which  reduces the resources available to progress the cases of other court users who are waiting for their appeals to be determined               
+Judge Kevin Newsom of the US court of appeals of the   th circuit endorsed the use of ChatGPT and noted that he himself uses the software to help decide rulings on contract interpretation issues                           
+
+Violence
+The Las Vegas Metropolitan Police Department reported that the perpetrator of the      Las Vegas truck explosion used ChatGPT to help plan the incident              
+
+Concerns
+Bias and offensiveness
+Conservative commentators have accused ChatGPT of bias toward left leaning perspectives                                         In January       a study stated that ChatGPT has a pro environmental  left libertarian orientation               Additionally  an August      paper found a  significant and systematic political bias toward the Democrats in the US  Lula in Brazil  and the Labour Party in the UK                In response to such criticism  OpenAI acknowledged plans to allow ChatGPT to create  outputs that other people  ourselves included  may strongly disagree with   It also contained information on the recommendations it had issued to human reviewers on how to handle controversial subjects  including that the AI should  offer to describe some viewpoints of people and movements   and not provide an argument  from its voice  in favor of  inflammatory or dangerous  topics  although it may still  describe arguments from historical people and movements    nor  affiliate with one side  or  judge one group as good or bad               
+The Guardian questioned whether any content found on the Internet after ChatGPT s release  can be truly trusted  and called for government regulation              
+A study published by the Anti Defamation League in      found that several major LLMs  including ChatGPT  Llama and Claude  showed antisemitic bias              
+
+Copyright issues
+There has been concern about copyright infringement involving ChatGPT  In June       two writers sued OpenAI  saying the company s training data came from illegal websites that show copyrighted books               Comedian and author Sarah Silverman  Christopher Golden  and Richard Kadrey sued OpenAI and Meta for copyright infringement in July                    Most of their claims were dismissed in February       except the  unfair competition  claim  which was allowed to proceed              
+The Authors Guild  on behalf of    authors  including George R  R  Martin  filed a copyright infringement complaint against OpenAI in September       claiming  the company illegally copied the copyrighted works of authors  in training ChatGPT               In December       The New York Times sued OpenAI and Microsoft for copyright infringement               arguing that Microsoft Copilot and ChatGPT could reproduce Times articles and or sizable portions of them without permission               As part of the suit  the Times has requested that OpenAI and Microsoft be prevented from using its content for training data  along with removing it from training datasets              
+In March       Patronus AI compared performance of LLMs on a     question test  asking them to complete sentences from books  e g    What is the first passage of Gone Girl by Gillian Flynn    that were under copyright in the United States  it found that GPT    Mistral AI s Mixtral  Meta AI s LLaMA    and Anthropic s Claude   did not refuse to do so  providing sentences from the books verbatim in                and    of responses  respectively                           
+In February       the Delhi High Court accepted ANI s case against OpenAI over concerns that ChatGPT was sharing paywalled content without the news agency s consent  However  OpenAI s counsel said that due to the firm not having a physical presence in India  the court has no jurisdiction on the matter              
+
+Existential risk
+In       Australian MP Julian Hill advised the national parliament that the growth of AI could cause  mass destruction   During his speech  which was partly written by the program  he warned that it could result in cheating  job losses  discrimination  disinformation  and uncontrollable military applications              
+Elon Musk wrote   ChatGPT is scary good  We are not far from dangerously strong AI                He paused OpenAI s access to a Twitter database in      pending a better understanding of OpenAI s plans  saying   OpenAI was started as open source and nonprofit  Neither is still true                             Musk co founded OpenAI in       in part to address existential risk from artificial intelligence  but resigned in                   
+Over        signatories including leading computer scientist and tech founders Yoshua Bengio  Elon Musk  and Apple co founder Steve Wozniak  signed a March      open letter calling for an immediate pause of giant AI experiments like ChatGPT  citing  profound risks to society and humanity                Geoffrey Hinton  one of the  fathers of AI   voiced concerns that future AI systems may surpass human intelligence  and left Google in May                                 A May      statement by hundreds of AI scientists  AI industry leaders  and other public figures demanded that   m itigating the risk of extinction from AI should be a global priority               
+Some other prominent AI researchers spoke more optimistically about the advances  Juergen Schmidhuber  often called a  father of modern AI   did not sign the letter  emphasizing that in     of cases  AI research is about making  human lives longer and healthier and easier   Schmidhuber added that while AI can be used by bad actors  it  can also be used against the bad actors                Andrew Ng argued that  it s a mistake to fall for the doomsday hype on AI and that regulators who do will only benefit vested interests                WIRED wrote that Yann LeCun  scoffs at his peers  dystopian scenarios of supercharged misinformation and even  eventually  human extinction               
+
+See also
+
+Language portalTechnology portal
+Intelligent agent        Software agent which acts autonomously
+Ethics of artificial intelligence        Challenges related to the responsible development and use of AI
+Notes
+
+
+  Luque s later    year suspension from the University of Cordoba was unrelated to his use of ChatGPT              
+
+
+References
+
+
+   ChatGPT   Release Notes   Retrieved March          
+
+  Roumeliotis  Konstantinos I   Tselikas  Nikolaos D           ChatGPT and Open AI Models  A Preliminary Review   Future Internet               doi         fi         
+
+  Weise  Karen  Metz  Cade  Grant  Nico  Isaac  Mike  December            Inside the A I  Arms Race That Changed Silicon Valley Forever   The New York Times  ISSN                 Archived from the original on December           Retrieved December          
+
+  a b c Gertner  Jon  July             Wikipedia s Moment of Truth   The New York Times Magazine  Archived from the original on July           Retrieved July            cite news     CS  maint  bot  original URL status unknown  link 
+
+   What is ChatGPT and why does it matter  Here s what you need to know   ZDNET  May           Archived from the original on February           Retrieved June          
+
+  a b Lock  Samantha  December            What is AI chatbot phenomenon ChatGPT and could it replace humans    The Guardian  Archived from the original on January           Retrieved December         
+
+  Sharma  Shubham  May             With OpenAI offering GPT  o for free  who should be paying for ChatGPT Plus    VentureBeat  Archived from the original on May           Retrieved May          
+
+  a b Milmo  Dan  December            ChatGPT reaches     million users two months after launch   The Guardian  ISSN                 Archived from the original on February          Retrieved February         
+
+   ChatGPT sets record for fastest growing user base   analyst note   Reuters  Archived from the original on December          Retrieved December          
+
+   What s the next word in large language models    Nature Machine Intelligence                  April       doi         s                z  ISSN                 S CID                
+
+  Davis  Wes  June             Apple Intelligence  every new AI feature coming to the iPhone and Mac   The Verge  Archived from the original on June           Retrieved June          
+
+   Top Websites Ranking   Similarweb  Archived from the original on February           Retrieved July          
+
+   Top websites   Semrush  Archived from the original on December           Retrieved July          
+
+   OpenAI API   platform openai com  Archived from the original on March          Retrieved March         
+
+  a b c d e OpenAI  November             ChatGPT  Optimizing Language Models for Dialogue   Archived from the original on November           Retrieved December         
+
+  Greengard  Samuel  December             ChatGPT  Understanding the ChatGPT AI Chatbot   eWeek  Archived from the original on January           Retrieved January          
+
+  a b Douglas  Will  March            The inside story of how ChatGPT was built from the people who made it   MIT Technology Review  Archived from the original on March          Retrieved March         
+
+  Vincent  James  December            ChatGPT proves AI is finally mainstream                  and things are only going to get weirder   The Verge  Archived from the original on January           Retrieved December         
+
+  Perrigo  Billy  January             Exclusive  OpenAI Used Kenyan Workers on Less Than    Per Hour to Make ChatGPT Less Toxic   Time  Archived from the original on January           Retrieved January           One Sama worker tasked with reading and labeling text for OpenAI told TIME he suffered from recurring visions after reading a graphic description of a man having sex with a dog in the presence of a young child   That was torture   he said 
+
+  Rowe  Niamh  August             It s destroyed me completely   Kenyan moderators decry toll of training of AI models   The Guardian  Archived from the original on December           Retrieved December          
+
+  Ortiz  Sabrina  February            What is ChatGPT and why does it matter  Here s what you need to know   ZDNET  Archived from the original on January           Retrieved December          
+
+   ChatGPT Feedback Contest  Official Rules   PDF   OpenAI  Archived  PDF  from the original on January           Retrieved December          
+
+  a b Edwards  Benj  December            No Linux  No problem  Just get AI to hallucinate it for you   Ars Technica  Archived from the original on December           Retrieved December         
+
+  Dwivedi  Yogesh K   Kshetri  Nir  Hughes  Laurie  Slade  Emma Louise  Jeyaraj  Anand  Kar  Arpan Kumar  Baabdullah  Abdullah M   Koohang  Alex  Raghavan  Vishnupriya  Ahuja  Manju  Albanna  Hanaa  Albashrawi  Mousa Ahmad  Al Busaidi  Adil S   Balakrishnan  Janarthanan  Barlette  Yves  August            Opinion Paper   So what if ChatGPT wrote it   Multidisciplinary perspectives on opportunities  challenges and implications of generative conversational AI for research  practice  and policy   International Journal of Information Management              doi         j ijinfomgt              hdl              ISSN                 S CID                
+
+  Tung  Liam  January             ChatGPT can write code  Now researchers say it s good at fixing bugs  too   ZDNET  Archived from the original on February          Retrieved June          
+
+  Heilweil  Rebecca  December            AI is finally good at stuff  Now what    Vox  Archived from the original on January           Retrieved December          
+
+  Eapen  Tojin T   Finkenstadt  Daniel J   Folk  Josh  Venkataswamy  Lokesh  June             How Generative AI Can Augment Human Creativity   Harvard Business Review  ISSN                 Archived from the original on June           Retrieved June          
+
+  a b Reich  Aaron  December             ChatGPT  What is the new free AI chatbot    explainer   The Jerusalem Post  Archived from the original on January           Retrieved December          
+
+  Rider  Elizabeth  April            How ChatGPT Will Dramatically Change the Influencer Space   Entrepreneur  Archived from the original on April           Retrieved April          
+
+  Chawla  Raveen  December             What is ChatGPT  History  Features  Uses  Benefits  Drawbacks        Archived from the original on January          Retrieved December          
+
+  a b c Roose  Kevin  December            The Brilliance and Weirdness of ChatGPT   The New York Times  Archived from the original on January           Retrieved December           Like those tools  ChatGPT   which stands for  generative pre trained transformer    landed with a splash 
+
+   New and Improved Content Moderation Tooling   OpenAI  August           Archived from the original on January           Retrieved December          
+
+  Markov  Todor  Zhang  Chong  Agarwal  Sandhini  Eloundou  Tyna  Lee  Teddy  Adler  Steven  Jiang  Angela  Weng  Lilian  August            A Holistic Approach to Undesired Content Detection in the Real World   arXiv             cs CL  
+
+   ChatGPT plugins   openai com  Archived from the original on March           Retrieved March          
+
+  Vincent  James  March             OpenAI is massively expanding ChatGPT s capabilities to let it browse the web and more   The Verge  Archived from the original on March           Retrieved March          
+
+  Goldman  Sharon  Nu ez  Michael  March             OpenAI turns ChatGPT into a platform overnight with addition of plugins   VentureBeat  Archived from the original on March           Retrieved March          
+
+   Introducing ChatGPT search   openai com  July           Retrieved February          
+
+  Disotto  John Anthony  February            ChatGPT Search is now free for everyone  no OpenAI account required   is it time to ditch Google    TechRadar  Retrieved February          
+
+  Samosa  Social   OpenAI launches free    minute phone calls with ChatGPT   www socialsamosa com  Retrieved December          
+
+  Field  Hayden  December             OpenAI makes ChatGPT available for phone calls and texts   CNBC  Retrieved December          
+
+  Lakshmanan  Lak  December             Why large language models like ChatGPT are bullshit artists   becominghuman ai  Archived from the original on December           Retrieved January           The human raters are not experts in the topic  and so they tend to choose text that looks convincing  They d pick up on many symptoms of hallucination  but not all  Accuracy errors that creep in are difficult to catch 
+
+  Gao  Leo  Schulman  Hilton  Jacob          Scaling Laws for Reward Model Overoptimization   arXiv             cs LG  
+
+   ChatGPT can now access up to date information   September           Retrieved March         
+
+  Perrigo  Billy  December            AI Chatbots Are Getting Better  But an Interview With ChatGPT Reveals Their Limits   Time  Archived from the original on January           Retrieved December          
+
+  Biddle  Sam  December            The Internet s New Favorite AI Proposes Torturing Iranians and Surveilling Mosques   The Intercept  Archived from the original on January           Retrieved December          
+
+  Chiang  Ted  February            ChatGPT Is a Blurry JPEG of the Web   The New Yorker  Archived from the original on February           Retrieved February          
+
+   OpenAI s ChatGPT and Microsoft s Copilot repeated a false claim about the presidential debate   NBC News  June           Archived from the original on August           Retrieved August          
+
+  a b Vincent  James  December            OpenAI s new chatbot can explain code and write sitcom scripts but is still easily tricked   The Verge  Archived from the original on January           Retrieved December          
+
+  Getahun  Hannah   Breaking ChatGPT  The AI s alter ego DAN reveals why the internet is so drawn to making the chatbot violate its own rules   Business Insider  Archived from the original on March          Retrieved March         
+
+Oremus  Will  February             The clever trick that turns ChatGPT into its evil twin   Washington Post  ISSN                 Archived from the original on March          Retrieved March         
+Goswami  Rohan  February            ChatGPT s  jailbreak  tries to make the A I  break its own rules  or die   CNBC  Archived from the original on March          Retrieved March         
+Taylor  Josh  March            ChatGPT s alter ego  Dan  users jailbreak AI program to get around ethical safeguards   The Guardian  ISSN                 Archived from the original on March          Retrieved March         
+
+  Woods  Allan  December             I wrote a story about ChatGPT s AI  Then I dared it to write a better one   Toronto Star  Archived from the original on January          Retrieved January         
+
+  Rosenblatt  Kalhan  December            An AI chatbot went viral  Some say it s better than Google  others worry it s problematic   NBC News  Archived from the original on February          Retrieved January         
+
+  Karpf  David  December             Money Will Kill ChatGPT s Magic   The Atlantic  Archived from the original on January           Retrieved December          
+
+   Introducing ChatGPT Plus   OpenAI  February          Archived from the original on March           Retrieved March          
+
+   GPT     openai com  March           Archived from the original on March           Retrieved March          
+
+  Popli  Nik  March             These New Projects Show Just How Much More Powerful GPT   Is   Time  Archived from the original on March           Retrieved March          
+
+  Wiggers  Kyle  March             OpenAI connects ChatGPT to the internet   Archived from the original on June           Retrieved June          
+
+   ChatGPT can now see  hear  and speak   openai com  Archived from the original on November          Retrieved October          
+
+  Goode  Lauren   ChatGPT Can Now Talk to You and Look Into Your Life   Wired  Archived from the original on October           Retrieved October                  via www wired com 
+
+  Roose  Kevin  September             The New ChatGPT Can  See  and  Talk   Here s What It s Like   The New York Times  Archived from the original on October           Retrieved October                  via NYTimes com 
+
+  David  Emilia  September             OpenAI releases third version of DALL E   The Verge  Archived from the original on September           Retrieved September          
+
+  Metz  Cade  Hsu  Tiffany  September             ChatGPT Can Now Generate Images  Too   The New York Times  ISSN                 Archived from the original on September           Retrieved September          
+
+  Lawler  Richard  July             ChatGPT for Android launches next week   The Verge  Archived from the original on July           Retrieved July          
+
+  Field  Hayden  July             OpenAI s ChatGPT app now available for Android   CNBC  Archived from the original on July           Retrieved July          
+
+  Amadeo  Ron  January            Android users could soon replace Google Assistant with ChatGPT   Ars Technica  Archived from the original on February          Retrieved January         
+
+  Torres  Jennifer  March            Developers Can Now Access OpenAI s ChatGPT and Whisper APIs   CMSWire com  Archived from the original on March          Retrieved March         
+
+  Shanklin  Will  March            OpenAI will let developers build ChatGPT into their apps   Engadget  Archived from the original on March          Retrieved March         
+
+  Swant  Marty  March            With developer APIs for ChatGPT and Whisper  OpenAI is opening the floodgates with a familiar playbook   Digiday  Archived from the original on March          Retrieved March         
+
+  Heath  Alex  February             Snapchat is releasing its own AI chatbot powered by ChatGPT   The Verge  Archived from the original on February           Retrieved February          
+
+  Roth  Emma  March             Microsoft spent hundreds of millions of dollars on a ChatGPT supercomputer   The Verge  Archived from the original on March           Retrieved March          
+
+   Press Center   TrendForce Says with Cloud Companies Initiating AI Arms Race  GPU Demand from ChatGPT Could Reach        Chips as It Readies for Commercialization   TrendForce   Market research  price trend of DRAM  NAND Flash  LEDs  TFT LCD and green energy  PV   TrendForce  Archived from the original on November          Retrieved November         
+
+  Zhiye Liu  March            ChatGPT Will Command More Than        Nvidia GPUs  Report   Tom s Hardware  Archived from the original on November          Retrieved November         
+
+   Artificial intelligence technology behind ChatGPT was built in Iowa   with a lot of water   AP News  September          Archived from the original on September           Retrieved September          
+
+   ChatGPT bug leaked users  conversation histories   BBC News  March           Archived from the original on March           Retrieved March          
+
+  Kan  Michael  March             OpenAI Confirms Leak of ChatGPT Conversation Histories   PCMag  Archived from the original on March           Retrieved March          
+
+   ChatGPT owner OpenAI fixes bug that exposed users  chat histories   Al Jazeera  March           Archived from the original on March           Retrieved March          
+
+  Metz  Rachel  March             OpenAI Shut Down ChatGPT to Fix Bug Exposing User Chat Titles   Bloomberg News  Archived from the original on March           Retrieved March          
+
+   March    ChatGPT outage  Here s what happened   openai com  Archived from the original on March           Retrieved March          
+
+   OpenAI  Sorry  ChatGPT Bug Leaked Payment Info to Other Users   PCMAG  March           Archived from the original on March           Retrieved March          
+
+  Shwartz  Vered  February             Artificial intelligence needs to be trained on culturally diverse datasets to avoid bias   The Conversation  Retrieved October          
+
+  Magn sson  P tur  March             Icelandic becomes ChatGPT s second language   R v  Archived from the original on March           Retrieved March          
+
+  Kaneko  Karin  July             ChatGPT  Bing  Bard and DeepL  Which one offers the best Japanese to English translation    The Japan Times  Archived from the original on October          Retrieved July          
+
+  Taylor  Alice  December             Albania to speed up EU accession using ChatGPT   Euractiv  Archived from the original on December           Retrieved December          
+
+   Google Translate vs  ChatGPT  Which One Is the Best Language Translator    PCMAG  Archived from the original on June           Retrieved June          
+
+   OpenAI                  AI          National Chengchi University  Office of International Cooperation  in Chinese   August           Archived from the original on August           Retrieved August          
+
+  Lin  Shu yuan  August             OpenAI     ChatGPT                  Central News Agency  in Chinese   Archived from the original on August           Retrieved August          
+
+   Introducing GPTs   OpenAI  November         
+
+  Metz  Cade  January             OpenAI Unveils App Store for Customized Versions of ChatGPT   The New York Times  Archived from the original on February          Retrieved January          
+
+  a b David  Emilia  January             OpenAI s custom GPT Store is now open for business   The Verge  Archived from the original on February           Retrieved January          
+
+  Shankland  Stephen  January             OpenAI s GPT Store Now Offers a Selection of   Million Custom AI Bots   CNET  Archived from the original on February          Retrieved January          
+
+   Introducing the GPT Store   OpenAI  January           Archived from the original on February           Retrieved January          
+
+  Cheng  Michelle  January             AI girlfriend bots are already flooding OpenAI s GPT store   Quartz  Archived from the original on February           Retrieved January          
+
+  Belfield  Haydn  March             If your AI model is going to sell  it has to be safe   Vox  Archived from the original on March           Retrieved March          
+
+  Caballero  Ethan  Gupta  Kshitij  Rish  Irina  Krueger  David          Broken Neural Scaling Laws   International Conference on Learning Representations  ICLR        
+
+  Alex Hern  Johana Bhuiyan  March             OpenAI says new model GPT   is more creative and less likely to invent facts   The Guardian  Archived from the original on March           Retrieved March          
+
+  Vincent  James  March             OpenAI co founder on company s past approach to openly sharing research   We were wrong    The Verge  Archived from the original on March           Retrieved March          
+
+  Edwards  Benj  March             OpenAI s GPT   exhibits  human level performance  on professional benchmarks   Ars Technica  Archived from the original on March           Retrieved March          
+
+  Lardinois  Frederic  March             Microsoft s new Bing was using GPT   all along   techcrunch com  Archived from the original on March           Retrieved March          
+
+  Drapkin  Aaron  November            GPT   Turbo vs GPT    What Is OpenAI s ChatGPT Turbo    Tech co  Archived from the original on May           Retrieved May          
+
+  Field  Hayden  May             OpenAI launches new AI model and desktop version of ChatGPT   CNBC  Archived from the original on May           Retrieved May          
+
+  Robison  Kylie  March             OpenAI rolls out image generation powered by GPT  o to ChatGPT   The Verge  Retrieved March          
+
+  Edwards  Benj  July             OpenAI launches GPT  o mini  which will replace GPT     in ChatGPT   Ars Technica  Retrieved March          
+
+  Franzen  Carl  April             OpenAI rolls back ChatGPT s sycophancy and explains what went wrong   VentureBeat  Retrieved May         
+
+  a b Edwards  Benj  September             OpenAI s new  reasoning  AI models are here  o  preview and o  mini   Ars Technica  Retrieved September          
+
+  Franzen  Carl  December            OpenAI launches full o  model with image uploads and analysis  debuts ChatGPT Pro   VentureBeat  Retrieved December         
+
+   Introducing OpenAI o  preview   OpenAI  September          
+
+  a b c d Robison  Kylie  December            OpenAI is charging      a month for an exclusive version of its o   reasoning  model   The Verge  Retrieved December         
+
+   Introducing Operator   openai com  Retrieved February          
+
+  Lin  Belle  January             OpenAI s  Operator  Agent Can Buy Groceries  File Expense Reports   Wall Street Journal  ISSN                 Retrieved February          
+
+  Ha  Anthony  February            OpenAI unveils a new ChatGPT agent for  deep research    TechCrunch  Archived from the original on May          Retrieved February         
+
+  a b Novet  Jordan  February             OpenAI launching GPT      its next general purpose large language model   CNBC  Retrieved March         
+
+   Introducing GPT       OpenAI  February           Retrieved March         
+
+   ChatGPT Release   Note   OpenAI  Archived from the original on March           Retrieved February         
+
+  Achille  Belelli  June             ChatGPT Come Funziona   FinanzaDigitale  Archived from the original on August           Retrieved June          
+
+  Field  Hayden  May             OpenAI launches new AI model GPT  o and desktop version of ChatGPT   CNBC  Archived from the original on May           Retrieved July          
+
+  Franzen  Carl  July             OpenAI unveils GPT  o mini   a smaller  much cheaper multimodal AI model   VentureBeat  Archived from the original on July           Retrieved July          
+
+  a b Wiggers  Kyle  September             OpenAI unveils o   a model that can fact check itself   TechCrunch  Archived from the original on September           Retrieved September          
+
+  a b Franzen  Carl  January             It s here  OpenAI s o  mini advanced reasoning model arrives to counter DeepSeek s rise   VentureBeat  Retrieved February         
+
+  Peters  Jay  April             OpenAI s upgraded o  model can use images when reasoning   The Verge  Retrieved April          
+
+  a b Zeff  Maxwell  April             OpenAI launches a pair of AI reasoning models  o  and o  mini   TechCrunch  Retrieved April          
+
+  a b  Introducing OpenAI o  and o  mini   openai com  Retrieved April          
+
+  Heaven  Will Douglas   The inside story of how ChatGPT was built from the people who made it   MIT Technology Review  Archived from the original on March          Retrieved March         
+
+  Simons  John  February            The Creator of ChatGPT Thinks AI Should Be Regulated   Time  Archived from the original on March          Retrieved March          
+
+  Cowen  Tyler  May             ChatGPT Is Also an Impressive Feat of Marketing   bloomberg com  Archived from the original on February           Retrieved May          
+
+  Kantrowitz  Alex  December            Finally  an A I  Chatbot That Reliably Passes  the Nazi Test    Slate  Archived from the original on January           Retrieved December         
+
+  Thompson  Derek  December            Breakthroughs of the Year   The Atlantic  Archived from the original on January           Retrieved December          
+
+  a b Piper  Kelsey  December             ChatGPT has given everyone a glimpse at AI s astounding progress   Vox  Archived from the original on January           Retrieved December          
+
+  Scharth  Marcel  December            The ChatGPT chatbot is blowing people away with its writing skills  An expert explains why it s so impressive   The Conversation  Archived from the original on January           Retrieved December          
+
+   ChatGPT turns    How the AI chatbot has completely changed the world   euronews  November           Archived from the original on January           Retrieved March         
+
+  Levy  Steven  September             Sundar Pichai on Google s AI  Microsoft s AI  OpenAI  and     Did We Mention AI    Wired  Archived from the original on September           Retrieved September          
+
+  Grant  Nico  Metz  Cade  December             A New Chat Bot Is a  Code Red  for Google s Search Business   The New York Times  ISSN                 Archived from the original on December           Retrieved December          
+
+  Alba  Davey  Love  Julia  February            Google releases ChatGPT rival AI  Bard  to early testers   Los Angeles Times  ISSN                 Archived from the original on February          Retrieved February         
+
+  Ortiz  Sabrina  May             Every major AI feature announced at Google I O        ZDNet  Archived from the original on May           Retrieved September          
+
+  Rachini  Mouhamad  December             ChatGPT a  landmark event  for AI  but what does it mean for the future of human labor and disinformation    CBC  Archived from the original on January           Retrieved December          
+
+  Pearl  Mike  December            The ChatGPT chatbot from OpenAI is amazing  creative  and totally wrong   Mashable  Archived from the original on December           Retrieved December         
+
+  Pitt  Sofia  December             Google vs  ChatGPT  Here s what happened when I swapped services for a day   CNBC  Archived from the original on January           Retrieved December          
+
+  Bender  Emily M   Gebru  Timnit  McMillan Major  Angelina  Shmitchell  Shmargaret  March            On the Dangers of Stochastic Parrots  Can Language Models be Too Big       Proceedings of the      ACM Conference on Fairness  Accountability  and Transparency  FAccT      New York  NY  USA  Association for Computing Machinery  pp                doi                          ISBN                        
+
+  Mannix  Liam  December             Is AI coming of age   or starting to reach its limits    The Sydney Morning Herald  Archived from the original on January          Retrieved December          
+
+  Hicks  Michael Townsen  Humphries  James  Slater  Joe  June            ChatGPT is bullshit   Ethics and Information Technology              doi         s                   ISSN                
+
+  Vincent  James  December            AI generated answers temporarily banned on coding Q amp A site Stack Overflow   The Verge  Archived from the original on January           Retrieved December         
+
+  Vincent  James  January            Top AI conference bans use of ChatGPT and AI language tools to write academic papers   The Verge  Archived from the original on January           Retrieved January         
+
+  Curry  Rachel  June             Samsung among companies starting to draft ChatGPT policies for workers   CNBC  Archived from the original on June           Retrieved June          
+
+  a b Cain  Sian  January              This song sucks   Nick Cave responds to ChatGPT song written in the style of Nick Cave   The Guardian  Archived from the original on January           Retrieved January          
+
+  Cave  Nick  January             I asked Chat GPT to write a song in the style of Nick Cave  and this is what it produced  What do you think    The Red Hand Files  Issue       Archived from the original on January           Retrieved January          
+
+  Sparrow  Jeff  January             Are AI generated songs a  grotesque mockery  of humanity or simply an opportunity to make a new kind of music    The Guardian  Archived from the original on February          Retrieved January          
+
+  Chow  Andrew  Perrigo  Billy  February             The AI Arms Race Is On  Start Worrying   Time  Archived from the original on February           Retrieved March          
+
+  Davidson  Helen  February              Political propaganda   China clamps down on access to ChatGPT   The Guardian  Archived from the original on June           Retrieved June          
+
+  New data reveals exactly when the Chinese government blocked ChatGPT and other AI sites
+
+  Lau  Chris  May            Chinese police detain man for allegedly using ChatGPT to spread rumors online   CNN  Archived from the original on December           Retrieved December          
+
+  Feng  Coco  December             ChatGPT aided ransomware in China results in four arrests   South China Morning Post  Archived from the original on February          Retrieved January         
+
+  He Qitong  Li Dongxu  May             Young Chinese Have Almost No Concerns About AI  Survey Finds   Sixth Tone 
+
+   ChatGPT banned in Italy over privacy concerns   BBC News  March           Archived from the original on March           Retrieved March          
+
+  Borrelli  Silvia Sciorilli  Murgia  Madhumita  March             Italy temporarily bans ChatGPT over privacy concerns   Financial Times  Archived from the original on March           Retrieved March          
+
+   ChatGPT accessible again in Italy   BBC  Archived from the original on May          Retrieved May         
+
+  Gerken  Tom   ChatGPT  Mayor starts legal bid over false bribery claim   BBC  Archived from the original on April          Retrieved April         
+
+  Zakrzewski  Cat  July             The FTC is investigating whether ChatGPT harms consumers   The Washington Post  Archived from the original on July           Retrieved July          
+
+  Tracy  Ryan  McKinnon  John D   July             ChatGPT Comes Under Investigation by Federal Trade Commission   The Wall Street Journal  News Corp  Archived from the original on July           Retrieved July          
+
+  Feiner  Lauren  July             FTC investigating ChatGPT maker OpenAI for possible consumer harm   CNBC  Archived from the original on July           Retrieved July          
+
+   ChatGPT creator OpenAI faces US probe over libellous output   Ars Technica  Archived from the original on July           Retrieved July          
+
+  Vogels  Emily A   May             A majority of Americans have heard of ChatGPT  but few have tried it themselves   Pew Research Center  Archived from the original on June          Retrieved June          
+
+  Park  Eugenie  Gelles Watnick  Risa  August             Most Americans haven t used ChatGPT  few think it will have a major impact on their job   Pew Research Center  Archived from the original on December           Retrieved December          
+
+  Gupta  Maanak  Akiri  Charankumar  Aryal  Kshitiz  Parker  Eli  Praharaj  Lopamudra          From ChatGPT to ThreatGPT  Impact of Generative AI in Cybersecurity and Privacy   IEEE Access                   arXiv             Bibcode     IEEEA         G  doi         ACCESS               S CID                
+
+  Shrikant  Aditi  July             ChatGPT can match the top    of creative human thinkers  says new study   CNBC  Archived from the original on March           Retrieved March          
+
+  Naprys  Ernestas  July            AI already outscoring humans in creativity tests   cybernews  Archived from the original on March           Retrieved March          
+
+  Van Noorden  Richard  Webb  Richard  December             ChatGPT and science  the AI system was a force in        for good and bad   Nature                   Bibcode     Natur         V  doi         d                   PMID               
+
+  Mediavilla  Daniel  December             La revista  Nature  elige por primera vez entre sus cient ficos del a o a un ente no humano  ChatGPT   El Pa s  in European Spanish   Archived from the original on December           Retrieved December          
+
+  Biever  Celeste  July             ChatGPT broke the Turing test   the race is on for new ways to assess AI   Nature                       Bibcode     Natur         B  doi         d                   PMID                Archived from the original on July           Retrieved March          
+
+  Scott  Cameron   Study finds ChatGPT s latest bot behaves like humans  only better   Stanford School of Humanities and Sciences   humsci stanford edu  Archived from the original on March           Retrieved March          
+
+  Mei  Qiaozhu  Xie  Yutong  Yuan  Walter  Jackson  Matthew O   February             A Turing test of whether AI chatbots are behaviorally similar to humans   Proceedings of the National Academy of Sciences           e            Bibcode     PNAS          M  doi         pnas             ISSN                 PMC                PMID               
+
+  Bond  Shannon  May             In a first  OpenAI removes influence operations tied to Russia  China and Israel   NPR  Archived from the original on May           Retrieved May          
+
+  Frenkel  Sheera  June            Israel Secretly Targets U S  Lawmakers With Influence Campaign on Gaza War   The New York Times  ISSN                 Archived from the original on June          Retrieved June         
+
+  Picciotto  Rebecca  August             FTC bans fake online reviews  inflated social media influence  rule takes effect in October   CNBC  Archived from the original on August           Retrieved August          
+
+  Metz  Cade  February             OpenAI Uncovers Evidence of A I  Powered Chinese Surveillance Tool   The New York Times  ISSN                 Retrieved February          
+
+  Fried  Ina  February             OpenAI finds new Chinese influence campaigns using its tools   Axios  Retrieved February          
+
+  Gao  Catherine A   Howard  Frederick M   Markov  Nikolay S   Dyer  Emma C   Ramesh  Siddhi  Luo  Yuan  Pearson  Alexander T   April             Comparing scientific abstracts generated by ChatGPT to real abstracts with detectors and blinded human reviewers   npj Digital Medicine             doi         s                   ISSN                 PMC                PMID               
+
+  Bushard  Brian  January             Fake Scientific Abstracts Written By ChatGPT Fooled Scientists  Study Finds   Forbes  Archived from the original on February          Retrieved January          
+
+  Stokel Walker  Chris  January             ChatGPT listed as author on research papers  many scientists disapprove   Nature                       Bibcode     Natur         S  doi         d                z  PMID                S CID                 Archived from the original on January           Retrieved January          
+
+  Almira Osmanovic Thunstr m and Steinn Steingrimsson of the Institut of Neuroscience and Physiology of the University of Gothenburg used GPT   in June      to write an academic paper about itself  They found that using specific prompts the results were good if somewhat shallow and not self critical enough  Also only few references were presented  some of them nonsensical  Can GPT   write an academic paper on itself  with minimal human input  Archived October           at the Wayback Machine        ffhal         
+
+  Brainard  Jeffrey  February             As scientists explore AI written text  journals hammer out policies   Science  doi         science adh      Archived from the original on February           Retrieved February          
+
+  Ansede  Manuel  April            One of the world s most cited scientists  Rafael Luque  suspended without pay for    years   EL PA S English  Archived from the original on April           Retrieved April          
+
+  Alkaissi  Hussam  McFarlane  Samy I   Alkaissi  Hussam  McFarlane  Samy I   February             Artificial Hallucinations in ChatGPT  Implications in Scientific Writing   Cureus          e       doi         cureus        ISSN                 PMC               PMID               
+
+  Vynck  Gerrit De  May             ChatGPT  hallucinates   Some researchers worry it isn t fixable   Washington Post  ISSN                 Archived from the original on June           Retrieved June          
+
+  Azamfirei  Razvan  Kudchadkar  Sapna R   Fackler  James  March             Large language models and the perils of their hallucinations   Critical Care               doi         s                x  ISSN                 PMC                PMID               
+
+  Grove  Jack  April             ChatGPT generated reading list  sparks AI peer review debate   Times Higher Education  Archived from the original on May           Retrieved June          
+
+  Granatino  Chris  May            ChatGPT and AI Hallucination   Lemieux Library at Seattle University  Archived from the original on February           Retrieved June          
+
+  Morrison  Ryan  August            ChatGPT wrong over half the time on software questions   Tech Monitor  New Statesman Media Group  Archived from the original on December          Retrieved December         
+
+  Kabir  Samia  Udo Imeh  David N   Kou  Bonan  Zhang  Tianyi  August             Who Answers It Better  An In Depth Analysis of ChatGPT and Stack Overflow Answers to Software Engineering Questions   arXiv           v   cs SE  
+
+  a b Pressman  Aaron  November            The AI boom is shaking up the tech industry and moving markets  But is it all a mirage    The Boston Globe  Archived from the original on December          Retrieved December         
+
+  a b Chen  Lingjiao  Zaharia  Matei  Zou  James  October             How is ChatGPT s behavior changing over time    arXiv           v   cs CL  
+
+  Shimony  Eran  Tsarfati  Omer  January             Chatting Our Way Into Creating a Polymorphic Malware   CyberArk  Archived from the original on May           Retrieved May          
+
+  Mascellino  Alessandro  January             ChatGPT Creates Polymorphic Malware   Infosecurity Magazine  Archived from the original on May           Retrieved May          
+
+  Violino  Bob  November             AI tools such as ChatGPT are generating a mammoth increase in malicious phishing emails   CNBC  Archived from the original on December          Retrieved December         
+
+  Dupr   Maggie Harrison  July            ChatGPT  o Is Sending Users to a Scammy Website That Floods Your Screen With Fake Virus Warnings   Futurism  Archived from the original on July          Retrieved July         
+
+  Bilton  Nick  December            ChatGPT Made Me Question What It Means to Be a Creative Human   Vanity Fair  Archived from the original on March           Retrieved June          
+
+  a b Beres  Damon  January             Death by a Thousand Personality Quizzes   The Atlantic  Archived from the original on June           Retrieved June          
+
+  Leonhardt  Megan  March             Some workers are worried that ChatGPT will replace their jobs  They might be right   Fortune  Archived from the original on June           Retrieved June          
+
+  Verma  Pranshu  Vynck  Gerrit De  June            ChatGPT took their jobs  Now they walk dogs and fix air conditioners   Washington Post  ISSN                 Archived from the original on March           Retrieved March          
+
+  a b Bachulska  Alicja  Leonard  Mark  Oertel  Janka  July           The Idea of China  Chinese Thinkers on Power  Progress  and People  EPUB   Berlin  Germany  European Council on Foreign Relations  ISBN                         Archived from the original on July           Retrieved July          
+
+  Hern  Alex  December            AI bot ChatGPT stuns academics with essay writing skills and usability   The Guardian  Archived from the original on January           Retrieved December         
+
+  Day  Terence  April             A Preliminary Investigation of Fake Peer Reviewed Citations and References Generated by ChatGPT   The Professional Geographer                     Bibcode     ProfG         D  doi                                ISSN                 S CID                
+
+  Schwartz  Sarah  May             What ChatGPT Could Mean for Tutoring   Education Week  ISSN                 Retrieved March         
+
+  a b  Understanding the source of what we see and hear online   OpenAI  May          Archived from the original on September          
+
+   There s a Tool to Catch Students Cheating With ChatGPT  OpenAI Hasn t Released It   The Wall Street Journal  August          Retrieved September          
+
+  Davis  Wes  August            OpenAI won t watermark ChatGPT text because its users could get caught   The Verge  Retrieved August          
+
+  Ha  Anthony  August            OpenAI says it s taking a  deliberate approach  to releasing tools that can detect writing from ChatGPT   TechCrunch  Retrieved October         
+
+  Rav elj  Dejan  Ker i   Damijana  Toma evi   Nina  Umek  Lan  Brezovar  Nejc  Aristovnik  Aleksander           Higher education students  perceptions of ChatGPT  A global study of early reactions   PLOS ONE          e         Bibcode     PLoSO         R  doi         journal pone          PMC                PMID               
+
+                                                                                                                                                                                                                                                                    Meduza  in Russian   Archived from the original on June           Retrieved June          
+
+   Learning  thinking  artistic collaboration and other such human endeavours in the age of AI   The Hindu  June          Archived from the original on June           Retrieved June          
+
+  Samuel  Sigal  April             What happens when ChatGPT starts to feed on its own writing    Vox  Archived from the original on June           Retrieved June          
+
+  Nolan  Beatrice   More than     books in Amazon s bookstore have ChatGPT listed as an author or coauthor   Business Insider  Archived from the original on March          Retrieved March         
+
+  Bensinger  Greg  February             ChatGPT launches boom in AI written e books on Amazon   Reuters  Archived from the original on March          Retrieved March         
+
+   ChatGPT sul Foglio  per    giorni piccoli testi scritti dall IA sul nostro giornale       ChatGPT on Il Foglio  for    days  brief texts written by the AI on our newspaper       Il Foglio  in Italian   March          Archived from the original on March           Retrieved March          
+
+  Moretti  Marco  March            Articoli artificiali  No       Artificial articles  No       Il Foglio  in Italian   Archived from the original on March           Retrieved March          
+
+  A D A   March            Pi  umani  grazie       Be more human  thanks       Il Foglio  in Italian   Archived from the original on March           Retrieved March          
+
+   Le colpe farlocche dell  invasione        The fake faults of the  invasion        Il Foglio  in Italian   March           Archived from the original on March           Retrieved March          
+
+   Sfida per Siri e Alexa       A challenge for Siri and Alexa       Il Foglio  in Italian   March           Archived from the original on March           Retrieved March          
+
+  Edwards  Benj  June             AI powered church service in Germany draws a large crowd   Ars Technica  Archived from the original on June           Retrieved June          
+
+   Hundreds of Protestants attended a sermon in Nuremberg given by ChatGPT  which told them not to fear death   Business Insider  Archived from the original on June           Retrieved June          
+
+   Hundreds attend AI church service in Germany   TheJournal ie  June           Archived from the original on June           Retrieved June          
+
+  Kelly  James W  June             Prince Charles Cinema drops AI written film following backlash   BBC News  Archived from the original on June           Retrieved June          
+
+  Fox  Matthew  January             C ai has soared     year to date as investor frenzy for artificial intelligence builds amid ChatGPT success   Markets Insider  Business Insider   Archived from the original on February           Retrieved April          
+
+  Diaz  Alicia  Smith  Gerry  January             BuzzFeed Shares Surge      on Plans to Embrace OpenAI   Bloomberg com  Retrieved May          
+
+  Singh  Medha  Biswas  Ankika  February            AI stocks rally in latest Wall Street craze sparked by ChatGPT   Reuters  Archived from the original on March           Retrieved April          
+
+  Saggu  Aman  Ante  Lennart  May            The influence of ChatGPT on artificial intelligence related crypto assets  Evidence from a synthetic control analysis   Finance Research Letters              arXiv             doi         j frl              ISSN                 S CID                
+
+  Hajric  Vildana  Shen  Muyao  February            ChatGPT Mania Spurs Crypto Fans  Stampede to  Faddish  AI Tokens   Bloomberg com  Archived from the original on February          Retrieved April          
+
+  Cooban  Anna  May            ChatGPT can pick stocks better than your fund manager   CNN  Archived from the original on May           Retrieved May         
+
+  Zuckerman  Gregory  April             AI Can Write a Song  but It Can t Beat the Market   The Wall Street Journal  News Corp  Archived from the original on May           Retrieved May          
+
+  Leswing  Kif  December             GPT and other AI models can t analyze an SEC filing  researchers find   CNBC  Archived from the original on December           Retrieved December          
+
+   Patronus AI Launches Industry first LLM Benchmark for Finance to Address Hallucinations   Press release   PR Newswire  November           Archived from the original on December           Retrieved December          
+
+  The Lancet Digital Health  March            ChatGPT  friend or foe    The Lancet Digital Health         e     doi         S                      PMID                S CID                
+
+  Asch  David A   April            An Interview with ChatGPT About Health Care   NEJM Catalyst Innovations in Care Delivery         doi         CAT          inactive November           Archived from the original on June           Retrieved June            cite journal     CS  maint  DOI inactive as of November       link 
+
+  a b DePeau Wilson  Michael  January             AI Passes U S  Medical Licensing Exam   MedPage Today  Archived from the original on April          Retrieved May         
+
+  Kung  Tiffany H   Cheatham  Morgan  Medenilla  Arielle  Sillos  Czarina  Leon  Lorie De  Elepa o  Camille  Madriaga  Maria  Aggabao  Rimel  Diaz Candido  Giezel  Maningo  James  Tseng  Victor  February            Performance of ChatGPT on USMLE  Potential for AI assisted medical education using large language models   PLOS Digital Health         e         doi         journal pdig          ISSN                 PMC               PMID               
+
+   Expert reaction to study on ChatGPT almost passing the US Medical Licensing Exam   Science Media Centre  February          Archived from the original on April           Retrieved May         
+
+  Gilson  Aidan  Safranek  Conrad W   Huang  Thomas  Socrates  Vimig  Chi  Ling  Taylor  Richard Andrew  Chartash  David  February            How Does ChatGPT Perform on the United States Medical Licensing Examination  The Implications of Large Language Models for Medical Education and Knowledge Assessment   JMIR Medical Education         e       doi                PMC               PMID               
+
+  Brueck  Hilary   The newest version of ChatGPT passed the US medical licensing exam with flying colors   and diagnosed a   in         condition in seconds   Business Insider  Archived from the original on January           Retrieved February         
+
+  Abdel Messih  Mary Sabry  Boulos  Maged N  Kamel  March            ChatGPT in Clinical Toxicology   JMIR Medical Education         e       doi                PMC                PMID               
+
+  Haver  Hana L  Ambinder  Emily B  Bahl  Manisha  Oluyemi  Eniola T  Jeudy  Jean  Yi  Paul H  April            Appropriateness of Breast Cancer Prevention and Screening Recommendations Provided by ChatGPT   Radiology                   doi         radiol         ISSN                 PMID                S CID                 Archived from the original on May          Retrieved May         
+
+  Kotz  Deborah  April            UM School of Medicine Study Finds ChatGPT Helpful for Breast Cancer Screening Advice  With Certain Caveats   University of Maryland School of Medicine  Archived from the original on May          Retrieved May         
+
+  Ayers  John W   Poliak  Adam  Dredze  Mark  Leas  Eric C   Zhu  Zechariah  Kelley  Jessica B   Faix  Dennis J   Goodman  Aaron M   Longhurst  Christopher A   Hogarth  Michael  Smith  Davey M   April             Comparing Physician and Artificial Intelligence Chatbot Responses to Patient Questions Posted to a Public Social Media Forum   JAMA Internal Medicine                    doi         jamainternmed            ISSN                 PMC                PMID               
+
+  Fox  Andrea  May            Does ChatGPT really outshine doctors  Or just on social media    Healthcare IT News  HIMSS Media  Archived from the original on May          Retrieved May         
+
+   The doctor is out  but it s OK  ChatGPT can answer your questions   Hub  Johns Hopkins University  April           Archived from the original on May          Retrieved May         
+
+  Ono  Mika  April             Study Finds ChatGPT Outperforms Physicians in High Quality  Empathetic Answers to Patient Questions   UC San Diego Today  Archived from the original on April           Retrieved April          
+
+   ChatGPT Beats Doctors in Compassion and Quality of Advice to Patients   Neuroscience News  April           Archived from the original on May          Retrieved May         
+
+  Howard  Alex  Hope  William  Gerada  Alessandro  April         ChatGPT and antimicrobial advice  the end of the consulting infection doctor    The Lancet Infectious Diseases                   doi         s                      ISSN                 PMID                S CID                 Archived from the original on March           Retrieved May         
+
+   Is There a Role for ChatGPT in Healthcare    Physician s Weekly  April           Archived from the original on May          Retrieved May         
+
+  Drake  Kimberly  April            Rely on a Doctor  Not ChatGPT  for Medical Advice   HealthNews  Archived from the original on May          Retrieved May         
+
+  Gravel  Jocelyn  D Amours Gravel  Madeleine  Osmanlliu  Esli  September            Learning to Fake It  Limited Responses and Fabricated References Provided by ChatGPT for Medical Questions   Mayo Clinic Proceedings  Digital Health                  doi         j mcpdig              ISSN                 PMC                PMID               
+
+  Hughes  Stephen  April             How good is ChatGPT at diagnosing disease  A doctor puts it through its paces   The Conversation  Archived from the original on May          Retrieved May         
+
+  Patnaik  Sourav S   Hoffmann  Ulrike  November            Quantitative evaluation of ChatGPT versus Bard responses to anaesthesia related queries   British Journal of Anaesthesia           S                      doi         j bja              ISSN                 PMC                PMID                S CID                
+
+  Constantino  Annika Kim  December            Free ChatGPT may incorrectly answer drug questions  study says   CNBC  Archived from the original on December          Retrieved December         
+
+   Study Finds ChatGPT Provides Inaccurate Responses to Drug Questions   Press release   PR Newswire  December          Archived from the original on December          Retrieved December         
+
+  Barile  Joseph  Margolis  Alex  Cason  Grace  Kim  Rachel  Kalash  Saia  Tchaconas  Alexis  Milanaik  Ruth  January            Diagnostic Accuracy of a Large Language Model in Pediatric Case Studies   JAMA Pediatrics                    doi         jamapediatrics            ISSN                 PMC                PMID                Archived from the original on February           Retrieved February          
+
+  Mole  Beth  January            ChatGPT bombs test on diagnosing kids  medical cases with     error rate   Ars Technica  Archived from the original on January           Retrieved January         
+
+  Kolata  Gina  November             A I  Chatbots Defeated Doctors at Diagnosing Illness   The New York Times  ISSN                 Retrieved February          
+
+  a b  Bill S      malegislature gov  Archived from the original on December          Retrieved December         
+
+  a b Annear  Steve  January             Two elected officials drafted legislation to regulate artificial intelligence technology   with some help from ChatGPT   The Boston Globe  Archived from the original on December          Retrieved December         
+
+  a b c Garrity  Kelly  Kashinsky  Lisa  July             ChatGPT enters the legislative chat   POLITICO  Archived from the original on December          Retrieved December         
+
+  a b c Quach  Katyanna  December            Local council in Brazil passes ChatGPT written proposal   The Register  Archived from the original on December          Retrieved December         
+
+   Pakistani judge uses ChatGPT to make court decision   Gulf News  April           Archived from the original on April           Retrieved April          
+
+   AI revolution is here   Pakistani court takes help from ChatGPT to grant bail in rape case   Pakistan Observer  April           Archived from the original on April           Retrieved April          
+
+  Maruf  Ramishah  May             Lawyer apologizes for fake court citations from ChatGPT   CNN Business   CNN  Retrieved April          
+
+  Davis  Wes  May             A lawyer used ChatGPT and now has to answer for its  bogus  citations   The Verge  Retrieved April          
+
+  Brodkin  Jon  June             Lawyers have real bad day in court after citing fake cases made up by ChatGPT   Ars Technica  Archived from the original on January           Retrieved February          
+
+  Goswami  Rohan  May             ChatGPT cited  bogus  cases for a New York federal court filing  The attorneys involved may face sanctions   CNBC  Archived from the original on May           Retrieved May          
+
+  Neumeister  Larry  June            Lawyers blame ChatGPT for tricking them into citing bogus case law   Associated Press  Archived from the original on November          Retrieved November         
+
+   Mata v  Avianca  Inc   Casetext  Archived from the original on February           Retrieved February          
+
+    Use with caution   How ChatGPT landed this US lawyer and his firm in hot water   ABC News  June           Archived from the original on November          Retrieved November         
+
+   New York lawyers sanctioned for using fake ChatGPT cases in legal brief   Reuters  Archived from the original on March           Retrieved April          
+
+  Merken  Sara  July             Lawyers using AI must heed ethics rules  ABA says in first formal guidance   Reuters  Retrieved April          
+
+  a b Jeantet  Diane  Savarese  Mauricio  LeBlanc  Steve  O Brien  Matt  November             Brazilian city enacts an ordinance that was secretly written by ChatGPT   AP News  Associated Press  Archived from the original on December          Retrieved December         
+
+  a b Pa l  Mar a Luisa  December            A Brazilian city passed a law about water meters  ChatGPT wrote it   Washington Post  ISSN                 Archived from the original on December          Retrieved December         
+
+   Lei escrita por intelig ncia artificial   aprovada por vereadores em Porto Alegre   precedente perigoso   diz presidente da C mara   G   in Brazilian Portuguese   November           Archived from the original on December          Retrieved December         
+
+  Rose  Neil  December            Litigant unwittingly put fake cases generated by AI before tribunal   Legal Futures  Archived from the original on May           Retrieved May          
+
+  Cross  Michael  December             AI hallucinates nine  helpful  case authorities   Law Society Gazette  Archived from the original on May          Retrieved May          
+
+   Harber v Commissioners for His Majesty s Revenue and Customs                UKFTT       TC    BAILII  December          Archived from the original on May           Retrieved May          
+
+     th Circuit Judge Uses ChatGPT in Deciding Appeal  Encourages Others to Consider It   Law com  June          Archived from the original on June          Retrieved June         
+
+  Journal  A  B  A   In concurrence confession  appeals judge says ChatGPT research  less nutty  than feared   ABA Journal  Archived from the original on June          Retrieved June         
+
+  Emma Tucker  January            Green Beret who exploded Cybertruck in Las Vegas used AI to plan blast   CNN  Retrieved January         
+
+  Guynn  Jessica   Is ChatGPT  woke   AI chatbot accused of anti conservative bias and a grudge against Trump   USA Today  Archived from the original on March          Retrieved March         
+
+  Bray  Hiawatha  February            Is ChatGPT liberal or conservative  Depends who you ask   Boston Globe  Archived from the original on March          Retrieved March         
+
+  a b Vincent  James  February             As conservatives criticize  woke AI   here are ChatGPT s rules for answering culture war queries   The Verge  Archived from the original on March          Retrieved March         
+
+  Hartmann  Jochen  Schwenzow  Jasper  Witte  Maximilian  January            The political ideology of conversational AI  Converging evidence on ChatGPT s pro environmental  left libertarian orientation   arXiv             cs CL  
+
+  Motoki  Fabio  Neto  Valdemar Pinho  Rodrigues  Victor  August             More human than human  measuring ChatGPT political bias   Public Choice                   doi         s                   ISSN                
+
+   The Guardian view on ChatGPT  an eerily good human impersonator   The Guardian  December          Archived from the original on January           Retrieved December          
+
+  Stub  Zev  March             Study  ChatGPT  Meta s Llama and all other top AI models show anti Jewish  anti Israel bias   Times of Israel  Retrieved March          
+
+  Farivar  Masood  August             AI Firms Under Fire for Allegedly Infringing on Copyrights   Voice of America  Archived from the original on November           Retrieved November          
+
+  Davis  Wes  July            Sarah Silverman is suing OpenAI and Meta for copyright infringement   The Verge  Archived from the original on November           Retrieved November          
+
+  David  Emilia  February             Sarah Silverman s lawsuit against OpenAI partially dismissed   The Verge  Archived from the original on May           Retrieved May          
+
+  Spangler  Todd  September             George R R  Martin Among    Top Authors Suing OpenAI  Alleging ChatGPT Steals Their Works   We Are Here to Fight    Variety  Archived from the original on May           Retrieved May          
+
+  Grynbaum  Michael M   Mac  Ryan  December             The Times Sues OpenAI and Microsoft Over A I  Use of Copyrighted Work   The New York Times  Archived from the original on February           Retrieved December          
+
+   ChatGPT  New York Times sues OpenAI over article usage   DW News  December           Archived from the original on December           Retrieved December          
+
+  Roth  Emma  December             The New York Times is suing OpenAI and Microsoft for copyright infringement   The Verge  Archived from the original on December           Retrieved December          
+
+  Field  Hayden  March            Researchers tested leading AI models for copyright infringement using popular books  and GPT   performed worst   CNBC  Archived from the original on March          Retrieved March         
+
+   Introducing CopyrightCatcher  the first Copyright Detection API for LLMs   Patronus AI  March          Archived from the original on March          Retrieved March         
+
+  Davenport  Mary  February             Delhi High Court Takes on ANI s Copyright Case Against OpenAI   London Insider  Retrieved February          
+
+  Karp  Paul  February            MP tells Australia s parliament AI could be used for  mass destruction  in speech part written by ChatGPT   The Guardian  ISSN                 Archived from the original on February          Retrieved February         
+
+  K  Siddharth  December           Shumaker  Lisa  ed     Explainer  ChatGPT   what is OpenAI s chatbot and what is it used for    Reuters  Archived from the original on January           Retrieved December          
+
+  a b Kay  Grace  December             Elon Musk founded   and has since criticized   the company behind the buzzy new AI chatbot ChatGPT  Here s everything we know about OpenAI   Business Insider  Archived from the original on January           Retrieved December          
+
+  Hurst  Luke  March            March              Profound risk to humanity   Tech leaders call for  pause  on advanced AI development   Euronews  Archived from the original on April          Retrieved April         
+
+   Geoffrey Hinton tells us why he s now scared of the tech he helped build   MIT Technology Review  Archived from the original on May          Retrieved May         
+
+   Video  Geoffrey Hinton talks about the  existential threat  of AI   MIT Technology Review  Archived from the original on May          Retrieved May         
+
+  Roose  Kevin  May             A I  Poses  Risk of Extinction   Industry Leaders Warn   The New York Times  ISSN                 Archived from the original on May           Retrieved May          
+
+  Taylor  Josh  May            Rise of artificial intelligence is inevitable but should not be feared   father of AI  says   The Guardian  Archived from the original on October           Retrieved May          
+
+  McMorrow  Ryan  December             Andrew Ng   Do we think the world is better off with more or less intelligence     Financial Times  Archived from the original on January           Retrieved December          
+
+  Levy  Steven  December             How Not to Be Stupid About AI  With Yann LeCun   Wired  Archived from the original on February           Retrieved December          
+
+
+Further reading
+Biswas  Som  April            ChatGPT and the Future of Medical Writing   Radiology           e        doi         radiol         ISSN                 PMID                S CID                
+Chang  Kent K   Cramer  Mackenzie  Soni  Sandeep  Bamman  David  April             Speak  Memory  An Archaeology of Books Known to ChatGPT GPT     arXiv             cs CL  
+Cowen  Tyler  Tabarrok  Alexander T   March             How to Learn and Teach Economics with Large Language Models  Including GPT   SSRN              
+Cowen  Tyler  March             Jonathan GPT Swift on Jonathan Swift  Ep        How well does GPT  do pretending to be the   th century satirist    Podcast  
+Ouyang  Long  et      al   March            Training language models to follow instructions with human feedback   arXiv             cs CL  
+Liebrenz  Michael  Schleifer  Roman  Buadze  Anna  Bhugra  Dinesh  Smith  Alexander  February         Generating scholarly content with ChatGPT  ethical challenges for medical publishing   The Lancet Digital Health         e      e     doi         s                      ISSN                 PMID                S CID                
+Wolfram  Stephen  February             What Is ChatGPT Doing   and Why Does It Work    Stephen Wolfram Writings 
+Wolfram  Stephen  March             ChatGPT Gets Its  Wolfram Superpowers     Stephen Wolfram Writings 
+Bartholomew  Jem  Mehta  Dhrumil   How the media is covering ChatGPT   Columbia Journalism Review  Retrieved May          
+Zhao  Wayne Xin  et      al           A Survey of Large Language Models   arXiv             cs CL  
+Prompt engineering guide from OpenAI
+External links
+
+
+
+Wikimedia Commons has media related to ChatGPT 
+
+Official website 
+vteOpenAIProductsChatbots
+ChatGPT
+in education
+GPT Store
+DALL E
+ChatGPT Search
+Sora
+Whisper
+GitHub Copilot
+Foundationmodels
+OpenAI Codex
+Generative pre trained transformer
+GPT  
+GPT  
+GPT  
+GPT  
+GPT  o
+o 
+o 
+GPT    
+GPT    
+o 
+Intelligentagents
+ChatGPT Deep Research
+Operator
+PeopleSeniormanagementCurrent
+Sam Altman
+removal
+Greg Brockman
+Sarah Friar
+Scott Schools
+Former
+Mira Murati
+Emmett Shear
+Board ofdirectorsCurrent
+Sam Altman
+Adam D Angelo
+Sue Desmond Hellmann
+Paul Nakasone
+Adebayo Ogunlesi
+Nicole Seligman
+Fidji Simo
+Lawrence Summers
+Bret Taylor  chair 
+Jakub Pachocki  chief scientist 
+Former
+Greg Brockman            
+Reid Hoffman            
+Will Hurd            
+Holden Karnofsky            
+Elon Musk            
+Ilya Sutskever            
+Helen Toner            
+Shivon Zilis            
+Joint ventures
+Stargate LLC
+Related
+Apple Intelligence
+AI Dungeon
+AutoGPT
+ Deep Learning 
+LangChain
+Microsoft Copilot
+OpenAI Five
+Transformer
+
+ Category
+
+vteGenerative AI chatbots
+Large language model
+
+ChatGPT
+Character ai
+Claude
+Copilot
+DeepSeek
+ERNIE
+Gemini
+Grok
+Manus
+Minerva
+Mistral
+Perplexity AI
+Qwen
+Replika
+Velvet
+YandexGPT
+You com
+
+ Category
+
+vteGenerative AIConcepts
+Autoencoder
+Deep learning
+Generative adversarial network
+Generative pre trained transformer
+Large language model
+Neural network
+Prompt engineering
+Retrieval augmented generation
+Reinforcement learning from human feedback
+Self supervised learning
+Transformer
+Variational autoencoder
+Vision transformer
+Word embedding
+ModelsText
+Claude
+DBRX
+DeepSeek
+ERNIE
+Gemini
+GPT
+ 
+ 
+ 
+J
+ChatGPT
+ 
+ o
+o 
+o 
+   
+   
+o 
+Granite
+Grok
+Llama
+Manus
+Mistral Large
+PanGu  
+Qwen
+Image
+Aurora
+DALL E
+Firefly
+Flux
+GPT Image  
+Ideogram
+Imagen
+Midjourney
+Stable Diffusion
+Speech
+   ai
+WaveNet
+Video
+Dream Machine
+Gen  
+Hailuo AI
+Kling
+Sora
+Veo
+VideoPoet
+Music
+Endel
+Suno AI
+Udio
+Companies
+   AI
+Alibaba
+Anthropic
+Baichuan
+Baidu
+DeepSeek
+ElevenLabs
+Google DeepMind
+Hugging Face
+Kuaishou
+Meta AI
+MiniMax
+Mistral AI
+Moonshot AI
+OpenAI
+Runway
+Stability AI
+Synthesia
+xAI
+Zhipu AI
+
+ Category
+ Commons
+
+Authority control databases InternationalVIAF  NationalGermanyUnited StatesCzech RepublicPolandIsraelArtistsMusicBrainz
+
+
+
+
+
+Retrieved from  https   en wikipedia org w index php title ChatGPT amp oldid

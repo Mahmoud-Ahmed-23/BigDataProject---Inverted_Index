@@ -1,0 +1,664 @@
+How AI related technologies evolve
+See also  History of artificial intelligence and Timeline of artificial intelligence
+Part of a series onArtificial intelligence  AI 
+Major goals
+Artificial general intelligence
+Intelligent agent
+Recursive self improvement
+Planning
+Computer vision
+General game playing
+Knowledge reasoning
+Natural language processing
+Robotics
+AI safety
+
+Approaches
+Machine learning
+Symbolic
+Deep learning
+Bayesian networks
+Evolutionary algorithms
+Hybrid intelligent systems
+Systems integration
+
+Applications
+Bioinformatics
+Deepfake
+Earth sciences
+ Finance 
+Generative AI
+Art
+Audio
+Music
+Government
+Healthcare
+Mental health
+Industry
+Translation
+ Military 
+Physics
+Projects
+
+Philosophy
+Artificial consciousness
+Chinese room
+Friendly AI
+Control problem Takeover
+Ethics
+Existential risk
+Turing test
+Uncanny valley
+
+History
+Timeline
+Progress
+AI winter
+AI boom
+
+Glossary
+Glossary
+vte
+Progress in machine classification of images  The error rate of AI by year  Red line   the error rate of a trained human on a particular task  
+Progress in artificial intelligence  AI  refers to the advances  milestones  and breakthroughs that have been achieved in the field of artificial intelligence over time  AI is a multidisciplinary branch of computer science that aims to create machines and systems capable of performing tasks that typically require human intelligence  AI applications have been used in a wide range of fields including medical diagnosis  finance  robotics  law  video games  agriculture  and scientific discovery  However  many AI applications are not perceived as AI   A lot of cutting edge AI has filtered into general applications  often without being called AI because once something becomes useful enough and common enough it s not labeled AI anymore                          Many thousands of AI applications are deeply embedded in the infrastructure of every industry              In the late     s and early     s  AI technology became widely used as elements of larger systems                        but the field was rarely credited for these successes at the time 
+Kaplan and Haenlein structure artificial intelligence along three evolutionary stages 
+
+Artificial narrow intelligence   AI capable only of specific tasks 
+Artificial general intelligence   AI with ability in several areas  and able to autonomously solve problems they were never even designed for 
+Artificial superintelligence   AI capable of general tasks  including scientific creativity  social skills  and general wisdom            
+To allow comparison with human performance  artificial intelligence can be evaluated on constrained and well defined problems  Such tests have been termed subject matter expert Turing tests  Also  smaller problems provide more achievable goals and there are an ever increasing number of positive results 
+Humans still substantially outperform both GPT   and models trained on the ConceptARC benchmark that scored     on most  and     on one category  while humans     on all and     on one category            
+
+
+Current performance in specific areas edit 
+
+
+
+Game
+
+Champion year           
+
+Legal states  log              
+
+Game tree complexity  log              
+
+Game of perfect information 
+
+Ref 
+
+
+Draughts  checkers 
+    
+  
+  
+Perfect
+           
+
+
+Othello  reversi 
+    
+  
+  
+Perfect
+           
+
+
+Chess
+    
+  
+   
+Perfect
+
+
+
+Scrabble
+    
+
+
+
+            
+
+
+Shogi
+    
+  
+   
+Perfect
+            
+
+
+Go
+    
+   
+   
+Perfect
+
+
+
+ p no limit hold  em
+    
+
+
+Imperfect
+            
+
+
+StarCraft
+ 
+    
+
+Imperfect
+            
+
+
+StarCraft II
+    
+
+
+Imperfect
+            
+
+There are many useful abilities that can be described as showing some form of intelligence  This gives better insight into the comparative success of artificial intelligence in different areas 
+AI  like electricity or the steam engine  is a general purpose technology  There is no consensus on how to characterize which tasks AI tends to excel at              Some versions of Moravec s paradox observe that humans are more likely to outperform machines in areas such as physical dexterity that have been the direct target of natural selection              While projects such as AlphaZero have succeeded in generating their own knowledge from scratch  many other machine learning projects require large training datasets                          Researcher Andrew Ng has suggested  as a  highly imperfect rule of thumb   that  almost anything a typical human can do with less than one second of mental thought  we can probably now or in the near future automate using AI              
+Games provide a high profile benchmark for assessing rates of progress  many games have a large professional player base and a well established competitive rating system  AlphaGo brought the era of classical board game benchmarks to a close when Artificial Intelligence proved their competitive edge over humans in       Deep Mind s AlphaGo AI software program defeated the world s best professional Go Player Lee Sedol              Games of imperfect knowledge provide new challenges to AI in the area of game theory  the most prominent milestone in this area was brought to a close by Libratus  poker victory in                               E sports continue to provide additional benchmarks  Facebook AI  Deepmind  and others have engaged with the popular StarCraft franchise of videogames                         
+Broad classes of outcome for an AI test may be given as 
+
+optimal  it is not possible to perform better  note  some of these entries were solved by humans 
+super human  performs better than all humans
+high human  performs better than most humans
+par human  performs similarly to most humans
+sub human  performs worse than most humans
+Optimal edit 
+See also  Solved game
+Tic tac toe
+Connect Four      
+Checkers  aka  x  draughts   Weakly solved                   
+Rubik s Cube  Mostly solved                   
+Heads up limit hold em poker  Statistically optimal in the sense that  a human lifetime of play is not sufficient to establish with statistical significance that the strategy is not an exact solution                    
+Super human edit 
+Othello  aka reversi   c                 
+Scrabble                                          
+Backgammon  c                                   
+Chess  Supercomputer  c         Personal computer  c                     Mobile phone  c                     Computer defeats human   computer  c                   
+Jeopardy   Question answering  although the machine did not use speech recognition                               
+Arimaa                              
+Shogi  c                  
+Go                  
+Heads up no limit hold em poker                  
+Six player no limit hold em poker                  
+Gran Turismo Sport                  
+High human edit 
+Crosswords  c                              
+Freeciv                  
+Dota                    
+Bridge card playing  According to a      review   the best programs are attaining expert status as  bridge  card players   excluding bidding             
+StarCraft II                  
+Mahjong                  
+Stratego                  
+No Press Diplomacy                  
+Hanabi                  
+Natural language processing     citation needed     
+Par human edit 
+Optical character recognition for ISO             and similar special characters      citation needed     
+Classification of images            
+Handwriting recognition            
+Facial recognition            
+Visual question answering            
+SQuAD     English reading comprehension benchmark                   
+SuperGLUE English language understanding benchmark                   
+Some school science exams                   
+Some tasks based on Raven s Progressive Matrices            
+Many Atari      games                   
+Sub human edit 
+This section needs additional citations for verification  Please help improve this article by adding citations to reliable sources     in this section  Unsourced material may be challenged and removed    December        Learn how and when to remove this message 
+Optical character recognition for printed text  nearing par human for Latin script typewritten text 
+Object recognition     clarification needed     
+Various robotics tasks that may require advances in robot hardware as well as AI  including 
+Stable bipedal locomotion  Bipedal robots can walk  but are less stable than human walkers  as of                  
+Humanoid soccer            
+Speech recognition   nearly equal to human performance                    
+Explainability  Current medical systems can diagnose certain medical conditions well  but cannot explain to users why they made the diagnosis             
+Many tests of fluid intelligence                   
+Bongard visual cognition problems  such as the Bongard LOGO benchmark                               
+Visual Commonsense Reasoning  VCR  benchmark  as of                  
+Stock market prediction  Financial data collection and processing using Machine Learning algorithms
+Angry Birds video game  as of                 
+Various tasks that are difficult to solve without contextual knowledge  including 
+Translation
+Word sense disambiguation
+Proposed tests of artificial intelligence edit 
+See also  Turing test        Versions
+In his famous Turing test  Alan Turing picked language  the defining feature of human beings  for its basis              The Turing test is now considered too exploitable to be a meaningful benchmark             
+The Feigenbaum test  proposed by the inventor of expert systems  tests a machine s knowledge and expertise about a specific subject              A paper by Jim Gray of Microsoft in      suggested extending the Turing test to speech understanding  speaking and recognizing objects and behavior             
+Proposed  universal intelligence  tests aim to compare how well machines  humans  and even non human animals perform on problem sets that are generic as possible  At an extreme  the test suite can contain every possible problem  weighted by Kolmogorov complexity  however  these problem sets tend to be dominated by impoverished pattern matching exercises where a tuned AI can easily exceed human performance levels                                                             
+
+Exams edit 
+According to OpenAI  in      ChatGPT GPT   scored the   th percentile on the Uniform Bar Exam  On the SATs  GPT   scored the   th percentile on math  and the   rd percentile in Reading  amp  Writing  On the GREs  it scored on the   th percentile on the writing test    th percentile on the quantitative section  and   th percentile on the verbal section  It scored in the   th to    th percentile on the      USA Biology Olympiad semifinal exam  It scored a perfect     on several AP exams             
+Independent researchers found in      that ChatGPT GPT      performed at or near the passing threshold  for the three parts of the United States Medical Licensing Examination  GPT     was also assessed to attain a low  but passing  grade from exams for four law school courses at the University of Minnesota              GPT   passed a text based radiology board style examination                         
+
+Competitions edit 
+Main article  Competitions and prizes in artificial intelligence
+Many competitions and prizes  such as the Imagenet Challenge  promote research in artificial intelligence  The most common areas of competition include general machine intelligence  conversational behavior  data mining  robotic cars  and robot soccer as well as conventional games             
+
+Past and current predictions edit 
+An expert poll around       conducted by Katja Grace of the Future of Humanity Institute and associates  gave median estimates of   years for championship Angry Birds    years for the World Series of Poker  and   years for StarCraft  On more subjective tasks  the poll gave   years for folding laundry as well as an average human worker       years for expertly answering  easily Googleable  questions    years for average speech transcription    years for average telephone banking  and    years for expert songwriting  but over    years for writing a New York Times bestseller or winning the Putnam math competition                                     
+
+Chess edit 
+Deep Blue at the Computer History Museum
+An AI defeated a grandmaster in a regulation tournament game for the first time in       rebranded as Deep Blue  it beat the reigning human world chess champion in       see Deep Blue versus Garry Kasparov              
+
+
+Estimates when computers would exceed humans at Chess
+
+
+Year prediction made
+Predicted year
+Number of years
+Predictor
+Contemporaneous source
+
+
+    
+
+     or sooner
+   or less
+Herbert A  Simon  economist            
+
+
+
+    
+
+     or sooner
+   or less
+Ray Kurzweil  futurist
+Age of Intelligent Machines            
+
+
+Go edit 
+AlphaGo defeated a European Go champion in October       and Lee Sedol in March       one of the world s top players  see AlphaGo versus Lee Sedol   According to Scientific American and other sources  most observers had expected superhuman Computer Go performance to be at least a decade away                                     
+
+
+Estimates when computers would exceed humans at Go
+
+
+Year prediction made
+Predicted year
+Number of years
+Predictor
+Affiliation
+Contemporaneous source
+
+
+    
+
+     or later
+    or more
+Piet Hutt  physicist and Go fan
+Institute for Advanced Study
+New York Times                        
+
+
+    
+
+     or sooner
+   or less
+Feng Hsiung Hsu  Deep Blue lead
+Microsoft Research Asia
+IEEE Spectrum                        
+
+
+    
+
+    
+  
+R mi Coulom  Computer Go programmer
+CrazyStone
+Wired                        
+
+
+Human level artificial general intelligence  AGI  edit 
+AI pioneer and economist Herbert A  Simon inaccurately predicted in        Machines will be capable  within twenty years  of doing any work a man can do   Similarly  in      Marvin Minsky wrote that  Within a generation    the problem of creating artificial intelligence will substantially be solved              
+Four polls conducted in      and      suggested that the median estimate among experts for when AGI would arrive was      to       depending on the poll                         
+The Grace poll around      found results varied depending on how the question was framed  Respondents asked to estimate  when unaided machines can accomplish every task better and more cheaply than human workers  gave an aggregated median answer of    years and a     chance of it occurring within   years  Other respondents asked to estimate  when all occupations are fully automatable  That is  when for any occupation  machines could be built to carry out the task better and more cheaply than human workers  estimated a median of     years and a     probability of    years  The median response for when  AI researcher  could be fully automated was around    years  No link was found between seniority and optimism  but Asian researchers were much more optimistic than North American researchers on average  Asians predicted    years on average for  accomplish every task   compared with the    years predicted by North Americans                                     
+
+
+Estimates of when AGI will arrive
+
+
+Year prediction made
+Predicted year
+Number of years
+Predictor
+Contemporaneous source
+
+
+    
+
+     or sooner
+   or less
+Herbert A  Simon
+The shape of automation for men and management                        
+
+
+    
+
+     or sooner
+   or less
+Vernor Vinge  science fiction writer
+ The Coming Technological Singularity             
+
+
+    
+
+     or sooner
+   or less
+Hans Moravec  robotics researcher
+Wired            
+
+
+    
+
+Never   Distant future     note       
+
+Gordon E  Moore  inventor of Moore s Law
+IEEE Spectrum            
+
+
+    
+
+    
+  
+Ray Kurzweil
+Interview             
+
+See also edit 
+Applications of artificial intelligence
+List of artificial intelligence projects
+List of emerging technologies
+References edit 
+
+
+  AI set to exceed human brain power Archived            at the Wayback Machine CNN com  July          
+
+  a b Kaplan  Andreas  Haenlein  Michael          Siri  Siri  in my hand  Who s the fairest in the land  On the interpretations  illustrations  and implications of artificial intelligence   Business Horizons             doi         j bushor              S CID                
+
+  a b Kurtzweil       p           harvnb error  no target  CITEREFKurtzweil      help 
+
+  National Research Council          Developments in Artificial Intelligence   Funding a Revolution  Government Support for Computing Research  National Academy Press  ISBN                         OCLC                under  Artificial Intelligence in the   s 
+
+  Biever  Celeste     July         ChatGPT broke the Turing test   the race is on for new ways to assess AI   Nature  Retrieved    July      
+
+  Approximate year AI started beating top human experts
+
+  a b van den Herik  H Jaap  Uiterwijk  Jos W H M   van Rijswijck  Jack  January         Games solved  Now and in the future   Artificial Intelligence                      doi         S                     
+
+  Madrigal  Alexis C           How Checkers Was Solved   The Atlantic  Archived from the original on   May       Retrieved   May      
+
+  a b  www othello club de   berg earthlingz de  Archived from the original on             Retrieved            
+
+  a b Webley  Kayla     February         Top    Man vs  Machine Moments   Time  Archived from the original on    December       Retrieved    December      
+
+  a b  Shogi prodigy breathes new life into the game   The Japan Times   The Japan Times  Archived from the original on             Retrieved            
+
+  a b Brown  Noam  Sandholm  Tuomas          Superhuman AI for heads up no limit poker  Libratus beats top professionals   Science                       Bibcode     Sci           B  doi         science aao      PMID               
+
+   Facebook Quietly Enters StarCraft War for AI Bots  and Loses   WIRED        Archived from the original on   May       Retrieved   May      
+
+  Sample  Ian     October         AI becomes grandmaster in  fiendishly complex  StarCraft II   The Guardian  Archived from the original on    December       Retrieved    February      
+
+  Brynjolfsson  Erik  Mitchell  Tom     December         What can machine learning do  Workforce implications   Science                         Bibcode     Sci           B  doi         science aap      PMID                S CID               Archived from the original on    September       Retrieved   May      
+
+   IKEA furniture and the limits of AI   The Economist        Archived from the original on    April       Retrieved    April      
+
+  Sample  Ian     October          It s able to create knowledge itself   Google unveils AI that learns on its own   the Guardian  Archived from the original on    October       Retrieved   May      
+
+   The AI revolution in science   Science   AAAS    July       Archived from the original on    December       Retrieved   May      
+
+   Will your job still exist in    years when the robots arrive    South China Morning Post        Archived from the original on   May       Retrieved   May      
+
+  Mokyr  Joel                The Technology Trap  Capital Labor  and Power in the Age of Automation  By Carl Benedikt Frey  Princeton  Princeton University Press        Pp               hardcover   The Journal of Economic History                     doi         s                  ISSN                 S CID                 Archived from the original on             Retrieved            
+
+  Borowiec  Tracey Lien  Steven          AlphaGo beats human Go champ in milestone for artificial intelligence   Los Angeles Times  Archived from the original on    May       Retrieved   May        cite news     CS  maint  multiple names  authors list  link 
+
+  Brown  Noam  Sandholm  Tuomas     January         Superhuman AI for heads up no limit poker  Libratus beats top professionals   Science                       Bibcode     Sci           B  doi         science aao      PMID                S CID              
+
+  Ontanon  Santiago  Synnaeve  Gabriel  Uriarte  Alberto  Richoux  Florian  Churchill  David  Preuss  Mike  December         A Survey of Real Time Strategy Game AI Research and Competition in StarCraft   IEEE Transactions on Computational Intelligence and AI in Games                  CiteSeerX                       doi         TCIAIG               S CID              
+
+   Facebook Quietly Enters StarCraft War for AI Bots  and Loses   WIRED        Archived from the original on   February       Retrieved   May      
+
+  Schaeffer  J   Burch  N   Bjornsson  Y   Kishimoto  A   Muller  M   Lake  R   Lu  P   Sutphen  S           Checkers is solved   Science                         Bibcode     Sci           S  CiteSeerX                      doi         science          PMID                S CID               
+
+   God s Number is      Archived from the original on             Retrieved            
+
+  Bowling  M   Burch  N   Johanson  M   Tammelin  O           Heads up limit hold em poker is solved   Science                     Bibcode     Sci           B  CiteSeerX                     doi         science          PMID                S CID              
+
+   In Major AI Breakthrough  Google System Secretly Beats Top Player at the Ancient Game of Go   WIRED  Archived from the original on   February       Retrieved    December      
+
+  Sheppard  B           World championship caliber Scrabble   Artificial Intelligence                      doi         S                     
+
+  Tesauro  Gerald  March         Temporal difference learning and TD Gammon   Communications of the ACM                 doi                        S CID               Archived from the original on             Retrieved            
+
+  Tesauro  Gerald  January         Programming backgammon using self teaching neural nets   Artificial Intelligence                      doi         S                         at least two other neural net programs also appear to be capable of superhuman play
+
+   Kramnik vs Deep Fritz  Computer wins match by       Chess News              Archived from the original on             Retrieved            
+
+   The Week in Chess       theweekinchess com  Archived from the original on             Retrieved            
+
+  Nickel  Arno  May         Zor Winner in an Exciting Photo Finish   www infinitychess com  Innovative Solutions  Archived from the original on             Retrieved                 on third place the best centaur    
+
+  Markoff  John                Computer Wins on  Jeopardy    Trivial  It s Not   The New York Times  ISSN                 Retrieved            
+
+  Jackson  Joab   IBM Watson Vanquishes Human Jeopardy Foes   PC World  IDG News  Archived from the original on             Retrieved            
+
+   The Arimaa Challenge   arimaa com  Archived from the original on             Retrieved            
+
+  Roeder  Oliver     July         The Bots Beat Us  Now What    FiveThirtyEight  Archived from the original on    December       Retrieved    December      
+
+   AlphaGo beats Ke Jie again to wrap up three part match   The Verge  Archived from the original on             Retrieved            
+
+  Blair  Alan  Saffidine  Abdallah     August         AI surpasses humans at six player poker   Science                       Bibcode     Sci           B  doi         science aay      PMID                S CID                 Archived from the original on    July       Retrieved    June      
+
+   Sony s new AI driver achieves  reliably superhuman  race times in Gran Turismo   The Verge  Archived from the original on             Retrieved            
+
+  Proverb  The probabilistic cruciverbalist  By Greg A  Keim  Noam Shazeer  Michael L  Littman  Sushant Agarwal  Catherine M  Cheves  Joseph Fitzgerald  Jason Grosland  Fan Jiang  Shannon Pollard  and Karl Weinmeister        In Proceedings of the Sixteenth National Conference on Artificial Intelligence           Menlo Park  Calif   AAAI Press 
+
+  Wernick  Adam     Sep          Dr  Fill  vies for crossword solving supremacy  but still comes up short   Public Radio International  Archived from the original on             Retrieved Dec           The first year  Dr  Fill came in    st out of about     competitors  It did a little better the second year  last year it was   th
+
+   Arago s AI can now beat some human players at complex civ strategy games   TechCrunch    December       Archived from the original on   June       Retrieved    July      
+
+   AI bots trained for     years a day to beat humans at Dota     The Verge     June       Archived from the original on    June       Retrieved    July      
+
+  Bethe  P  M          The state of automated bridge play 
+
+   AlphaStar  Mastering the Real Time Strategy Game StarCraft II      January       Archived from the original on             Retrieved            
+
+   Suphx  The World Best Mahjong AI   Microsoft  Archived from the original on             Retrieved            
+
+   Deepmind AI Researchers Introduce  DeepNash   An Autonomous Agent Trained With Model Free Multiagent Reinforcement Learning That Learns To Play The Game Of Stratego At Expert Level   MarkTechPost    July       Archived from the original on   July       Retrieved    July      
+
+  Bakhtin  Anton  Wu  David  Lerer  Adam  Gray  Jonathan  Jacob  Athul  Farina  Gabriele  Miller  Alexander  Brown  Noam     October         Mastering the Game of No Press Diplomacy via Human Regularized Reinforcement Learning and Planning   arXiv             cs GT  
+
+  Hu  Hengyuan  Wu  David  Lerer  Adam  Foerster  Jakob  Brown  Noam     October         Human AI Coordination via Human Regularized Search and Learning   arXiv             cs AI  
+
+   Microsoft researchers say their newest deep learning system beats humans    and Google   VentureBeat   Big Data   by Jordan Novet   VentureBeat              Archived from the original on             Retrieved            
+
+  Santoro  Adam  Bartunov  Sergey  Botvinick  Matthew  Wierstra  Daan  Lillicrap  Timothy     May         One shot Learning with Memory Augmented Neural Networks   p     Table    arXiv             cs LG        Omniglot Classification   The network exhibited high classification accuracy on just the second presentation of a sample from a class within an episode          reaching up to       accuracy by the fifth instance and       accuracy by the tenth 
+
+   Man Versus Machine  Who Wins When It Comes to Facial Recognition    Neuroscience News              Archived from the original on             Retrieved            
+
+  Yan  Ming  Xu  Haiyang  Li  Chenliang  Tian  Junfeng  Bi  Bin  Wang  Wei  Chen  Weihua  Xu  Xianzhe  Wang  Fan  Cao  Zheng  Zhang  Zhicheng  Zhang  Qiyu  Zhang  Ji  Huang  Songfang  Huang  Fei  Si  Luo  Jin  Rong     November         Achieving Human Parity on Visual Question Answering   arXiv             cs CL  
+
+  a b c Zhang  D   Mishra  S   Brynjolfsson  E   Etchemendy  J   Ganguli  D   Grosz  B        amp  Perrault  R          The AI index      annual report  AI Index  Stanford University   arXiv preprint arXiv            
+
+  Metz  Cade    September         A Breakthrough for A I  Technology  Passing an  th Grade Science Test   The New York Times  Archived from the original on   January       Retrieved   January      
+
+  a b c van der Maas  Han L J   Snoek  Lukas  Stevenson  Claire E   July         How much intelligence is there in artificial intelligence  A      update   Intelligence              doi         j intell              S CID                
+
+  McMillan  Robert          Google s AI Is Now Smart Enough to Play Atari Like the Pros   Wired  Archived from the original on   January       Retrieved   January      
+
+   Robots with legs are getting ready to walk among us   The Verge  Archived from the original on    December       Retrieved    December      
+
+  Hurst  Nathan   Why Funny  Falling  Soccer Playing Robots Matter   Smithsonian  Archived from the original on    December       Retrieved    December      
+
+   The Business of Artificial Intelligence   Harvard Business Review     July       Archived from the original on    December       Retrieved    December      
+
+  Brynjolfsson  E    amp  Mitchell  T          What can machine learning do  Workforce implications  Science                       
+
+  Nie  W   Yu  Z   Mao  L   Patel  A  B   Zhu  Y    amp  Anandkumar  A          Bongard logo  A new benchmark for human level concept learning and reasoning  Advances in Neural Information Processing Systems                  
+
+  Stephenson  Matthew  Renz  Jochen  Ge  Xiaoyu  March         The computational complexity of Angry Birds   Artificial Intelligence               arXiv             doi         j artint              S CID                Despite many different attempts over the past five years the problem is still largely unsolved  with AI approaches far from human level performance 
+
+  Turing  Alan  October         Computing Machinery and Intelligence   Mind                     doi         mind LIX          ISSN                 JSTOR               S CID               
+
+
+  Schoenick  Carissa  Clark  Peter  Tafjord  Oyvind  Turney  Peter  Etzioni  Oren     August         Moving beyond the Turing Test with the Allen AI Science Challenge   Communications of the ACM                 arXiv             doi                  S CID              
+
+  Feigenbaum  Edward A           Some challenges and grand challenges for computational intelligence   Journal of the ACM                 doi                        S CID               
+
+  Gray  Jim          What Next  A Dozen Information Technology Research Goals   Journal of the ACM                 arXiv cs          Bibcode     cs            G  doi                        S CID               
+
+  Hernandez Orallo  Jose          Beyond the Turing Test   Journal of Logic  Language and Information                  doi         A                S CID               
+
+  Kuang Cheng  Andy Wang          International licensing under an endogenous tariff in vertically related markets   Journal of Economics  Retrieved            
+
+  Dowe  D  L   Hajek  A  R           A computational extension to the Turing Test   Proceedings of the  th Conference of the Australasian Cognitive Science Society  Archived from the original on    June      
+
+  Hernandez Orallo  J   Dowe  D  L           Measuring Universal Intelligence  Towards an Anytime Intelligence Test   Artificial Intelligence                       CiteSeerX                       doi         j artint             
+
+  Hern ndez Orallo  Jos   Dowe  David L   Hern ndez Lloreda  M Victoria  March         Universal psychometrics  Measuring cognitive abilities in the machine kingdom   Cognitive Systems Research             doi         j cogsys              hdl              S CID               
+
+  a b Varanasi  Lakshmi  March         AI models like ChatGPT and GPT   are acing everything from the bar exam to AP Biology  Here s a list of difficult exams both AI versions have passed   Business Insider  Retrieved    June      
+
+  Rudy  Melissa     May         Latest version of ChatGPT passes radiology board style exam  highlights AI s  growing potential   study finds   Fox News  Retrieved    June      
+
+  Bhayana  Rajesh  Bleakney  Robert R   Krishna  Satheesh    June         GPT   in Radiology  Improvements in Advanced Reasoning   Radiology           e        doi         radiol         PMID                S CID                
+
+   ILSVRC       image net org  Archived from the original on             Retrieved            
+
+  a b Gray  Richard          How long will it take for your job to be automated    BBC  Archived from the original on    January       Retrieved    January      
+
+  a b  AI will be able to beat us at everything by       say experts   New Scientist        Archived from the original on    January       Retrieved    January      
+
+  a b Grace  K   Salvatier  J   Dafoe  A   Zhang  B    amp  Evans  O          When will AI exceed human performance  Evidence from AI experts  arXiv preprint arXiv            
+
+  McClain  Dylan Loeb     September         Bent Larsen  Chess Grandmaster  Dies at      The New York Times  Archived from the original on    March       Retrieved    January      
+
+   The Business of Artificial Intelligence   Harvard Business Review     July       Archived from the original on    January       Retrieved    January      
+
+     Crazy Predictions About the Future of Art   Inc com        Archived from the original on    September       Retrieved    January      
+
+  Koch  Christof          How the Computer Beat the Go Master   Scientific American  Archived from the original on   September       Retrieved    January      
+
+    I m in shock   How an AI beat the world s best human at Go   New Scientist        Archived from the original on    May       Retrieved    January      
+
+  Moyer  Christopher          How Google s AlphaGo Beat a Go World Champion   The Atlantic  Archived from the original on    January       Retrieved    January      
+
+  Johnson  George     July         To Test a Powerful Computer  Play an Ancient Game   The New York Times  Archived from the original on    January       Retrieved    January      
+
+  Johnson  George    April         To Beat Go Champion  Google s Program Needed a Human Army   The New York Times  Archived from the original on    January       Retrieved    January      
+
+   Cracking GO   IEEE Spectrum  Technology  Engineering  and Science News        Archived from the original on    January       Retrieved    January      
+
+  a b  The Mystery of Go  the Ancient Game That Computers Still Can t Win   WIRED        Archived from the original on    January       Retrieved    January      
+
+  Gibney  Elizabeth     January         Google AI algorithm masters ancient game of Go   Nature                       Bibcode     Natur         G  doi               a  PMID                S CID              
+
+  a b Bostrom  Nick         Superintelligence  Oxford  Oxford University Press  ISBN                     
+
+  Khatchadourian  Raffi     November         The Doomsday Invention   The New Yorker  Archived from the original on    April       Retrieved    January      
+
+  M ller  V  C    amp  Bostrom  N          Future progress in artificial intelligence  A survey of expert opinion  In Fundamental issues of artificial intelligence  pp            Springer  Cham 
+
+  Muehlhauser  L    amp  Salamon  A          Intelligence explosion  Evidence and import  In Singularity Hypotheses  pp          Springer  Berlin  Heidelberg 
+
+  Tierney  John     August         Vernor Vinge s View of the Future   Is Technology That Outthinks Us a Partner or a Master          The New York Times  Archived from the original on    December       Retrieved    January      
+
+   Superhumanism   WIRED        Archived from the original on   September       Retrieved    January      
+
+   Tech Luminaries Address Singularity   IEEE Spectrum  Technology  Engineering  and Science News        Archived from the original on    April       Retrieved    January      
+
+  Molloy  Mark     March         Expert predicts date when  sexier and funnier  humans will merge with AI machines   The Telegraph  Archived from the original on    January       Retrieved    January      
+
+
+Notes edit 
+
+
+  IEEE Spectrum attributes to Moore both  Never  and  I don t believe this kind of thing is likely to happen  at least for a long time 
+
+
+External links edit 
+MIRI database of predictions about AGI
+vteEmerging technologiesFieldsInformation andcommunications
+Ambient intelligence
+Internet of things
+Artificial intelligence
+Applications of artificial intelligence
+Machine translation
+Machine vision
+Mobile translation
+Progress in artificial intelligence
+Semantic Web
+Speech recognition
+Atomtronics
+Carbon nanotube field effect transistor
+Cybermethodology
+Extended reality
+Fourth generation optical discs
+ D optical data storage
+Holographic data storage
+GPGPU
+Memory
+CBRAM
+ECRAM
+FRAM
+Millipede
+MRAM
+NRAM
+PRAM
+Racetrack memory
+RRAM
+SONOS
+UltraRAM
+Optical computing
+RFID
+Chipless RFID
+Software defined radio
+Three dimensional integrated circuit
+Topics
+Automation
+Collingridge dilemma
+Differential technological development
+Disruptive innovation
+Ephemeralization
+Ethics
+Bioethics
+Cyberethics
+Neuroethics
+Robot ethics
+Exploratory engineering
+Proactionary principle
+Technological change
+Technological unemployment
+Technological convergence
+Technological evolution
+Technological paradigm
+Technology forecasting
+Accelerating change
+Future oriented technology analysis
+Horizon scanning
+Moore s law
+Technological singularity
+Technology scouting
+Technology in science fiction
+Technology readiness level
+Technology roadmap
+Transhumanism
+
+ List
+
+
+
+
+
+
+Retrieved from  https   en wikipedia org w index php title Progress in artificial intelligence amp oldid

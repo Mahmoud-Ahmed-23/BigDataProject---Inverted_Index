@@ -1,0 +1,2172 @@
+Unique numeric book identifier since     
+Not to be confused with ISSN or ISDN 
+For the use of ISBNs on Wikipedia  see Wikipedia ISBN 
+
+
+
+
+International Standard Book NumberA    digit ISBN                     as represented by an EAN    bar codeAcronymISBNOrganisationInternational ISBN AgencyIntroduced                      years ago                       No       of      digits    formerly    Check digitWeighted sumExample                 Websiteisbn international org
+The International Standard Book Number  ISBN  is a numeric commercial book identifier that is intended to be unique      a          b      Publishers purchase or receive ISBNs from an affiliate of the International ISBN Agency            
+A different ISBN is assigned to each separate edition and variation of a publication  but not to a simple reprinting of an existing item  For example  an e book  a paperback and a hardcover edition of the same book must each have a different ISBN  but an unchanged reprint of the hardcover edition keeps the same ISBN  The ISBN is ten digits long if assigned before       and thirteen digits long if assigned on or after   January           c      The method of assigning an ISBN is nation specific and varies between countries  often depending on how large the publishing industry is within a country 
+The first version of the ISBN identification format was devised in       based upon the   digit Standard Book Numbering  SBN  created in       The    digit ISBN format was developed by the International Organization for Standardization  ISO  and was published in      as international standard ISO       any   digit SBN can be converted to a    digit ISBN by prefixing it with a zero  
+Privately published books sometimes appear without an ISBN  The International ISBN Agency sometimes assigns ISBNs to such books on its own initiative            
+A separate identifier code of a similar kind  the International Standard Serial Number  ISSN   identifies periodical publications such as magazines and newspapers  The International Standard Music Number  ISMN  covers musical scores 
+
+
+History
+The Standard Book Number  SBN  is a commercial system using nine digit code numbers to identify books  In       British bookseller and stationers WHSmith announced plans to implement a standard numbering system for its books             They hired consultants to work on their behalf  and the system was devised by Gordon Foster  emeritus professor of statistics at Trinity College Dublin             The International Organization for Standardization  ISO  Technical Committee on Documentation sought to adapt the British SBN for international use  The ISBN identification format was conceived in      in the United Kingdom by David Whitaker                        regarded as the  Father of the ISBN              and in      in the United States by Emery Koltay             who later became director of the U S  ISBN agency R  R  Bowker                                    
+The    digit ISBN format was developed by the ISO and was published in      as international standard ISO                             The United Kingdom continued to use the nine digit SBN code until       ISO has appointed the International ISBN Agency as the registration authority for ISBN worldwide and the ISBN Standard is developed under the control of ISO Technical Committee    Subcommittee   TC    SC    The ISO on line facility only refers back to                  
+
+Total number of ISBN registrations       
+An SBN may be converted to an ISBN by prefixing the digit      For example  the second edition of Mr  J  G  Reeder Returns  published by Hodder in       has  SBN               where       indicates the publisher          is the serial number assigned by the publisher  and     is the check digit  By prefixing a zero  this can be converted to ISBN                     the check digit does not need to be re calculated  Some publishers  such as Ballantine Books  would sometimes use    digit SBNs where the last three digits indicated the price of the book              for example  Woodstock Handmade Houses had a    digit Standard Book Number of                  valid SBN               ISBN                              and it cost US                  
+Since   January       ISBNs have contained thirteen digits  a format that is compatible with  Bookland  European Article Numbers  which have    digits             Since       ISBNs have also been used to identify mobile games by China s Administration of Press and Publication             
+The United States  with     million registered ISBNs in       was by far the biggest user of the ISBN identifier in       followed by the Republic of Korea            Germany            China            the UK           and Indonesia            Lifetime ISBNs registered in the United States are over    million as of                  
+
+Overview
+A separate ISBN is assigned to each edition and variation  except reprintings  of a publication  For example  an ebook  audiobook  paperback  and hardcover edition of the same book must each have a different ISBN assigned to it                                   The ISBN is thirteen digits long if assigned on or after   January       and ten digits long if assigned before           c                 An International Standard Book Number consists of four parts  if it is a    digit ISBN  or five parts  for a    digit ISBN  
+Section   of the International ISBN Agency s official user manual                                  describes the structure of the    digit ISBN  as follows 
+
+The parts of a    digit ISBN and the corresponding EAN    and barcode  Note the different check digits in each  The part of the EAN    labeled  EAN  is the Bookland country code 
+for a    digit ISBN  a prefix element   a GS  prefix  so far     or     have been made available by GS  
+the registration group element  language sharing country group  individual country or territory       d     
+the registrant element 
+the publication element  and
+a checksum character or check digit 
+A    digit ISBN can be separated into its parts  prefix element  registration group  registrant  publication and check digit   and when this is done it is customary to separate the parts with hyphens or spaces  Separating the parts  registration group  registrant  publication and check digit  of a    digit ISBN is also done with either hyphens or spaces  Figuring out how to correctly separate a given ISBN is complicated  because most of the parts do not use a fixed number of digits      e      Online tools such the ISBN Converter provided by the Library of Congress can assist with hyphenation             
+
+Issuing process 
+ISBN issuance is country specific  in that ISBNs are issued by the ISBN registration agency that is responsible for that country or territory regardless of the publication language  The ranges of ISBNs assigned to any particular country are based on the publishing profile of the country concerned  and so the ranges will vary depending on the number of books and the number  type  and size of publishers that are active  Some ISBN registration agencies are based in national libraries or within ministries of culture and thus may receive direct funding from the government to support their services  In other cases  the ISBN registration service is provided by organisations such as bibliographic data providers that are not government funded             
+A full directory of ISBN agencies is available on the International ISBN Agency website              A list for a few countries is given below 
+
+Australia   Thorpe Bowker                        
+Brazil   The National Library of Brazil               Up to    February                  
+Brazil   C mara Brasileira do Livro              From   March                  
+Canada   English Library and Archives Canada  a government agency  French Biblioth que et Archives nationales du Qu bec 
+Caribbean Community  CARICOM  secretariat                         maintains a shared ISBN of       for several member states of the Caribbean region 
+Colombia   C mara Colombiana del Libro  an NGO
+Hong Kong   Books Registration Office  BRO   under the Hong Kong Public Libraries            
+Iceland   Landsb kasafn  National and University Library of Iceland 
+India   The Raja Rammohun Roy National Agency for ISBN  Book Promotion and Copyright Division   under Department of Higher Education  a constituent of the Ministry of Human Resource Development            
+Israel   The Israel Center for Libraries            
+Italy   EDISER srl  owned by Associazione Italiana Editori  Italian Publishers Association                         
+Kenya   National Library of Kenya
+Latvia   Latvian ISBN Agency
+Lebanon   Lebanese ISBN Agency
+Maldives   The National Bureau of Classification  NBC 
+Malta   The National Book Council  Maltese  Il Kunsill Nazzjonali tal Ktieb                                     
+Morocco   The National Library of Morocco
+New Zealand   The National Library of New Zealand            
+Nigeria   National Library of Nigeria
+Pakistan   National Library of Pakistan
+Philippines   National Library of the Philippines            
+South Africa   National Library of South Africa
+Spain   Spanish ISBN Agency   Agencia del ISBN
+Turkey   General Directorate of Libraries and Publications  a branch of the Ministry of Culture            
+United Kingdom and Republic of Ireland   Nielsen Book Services Ltd  part of NIQ            
+United States   R  R  Bowker                       
+Registration group element
+
+
+The ISBN registration group element is a   to   digit number that is valid within a single prefix element  i e  one of     or                                        and can be separated between hyphens  such as              Registration groups have primarily been allocated within the     prefix element              The single digit registration groups within the     prefix element are    or   for English speaking countries    for French speaking countries    for German speaking countries    for Japan    for Russian speaking countries  and   for People s Republic of China  Example   digit registration groups are       and        for Bhutan  The allocated registration groups are                                                  and                          Books published in rare languages typically have longer group elements             
+Within the     prefix element  the registration group   is reserved for compatibility with International Standard Music Numbers  ISMNs   but such material is not actually assigned an ISBN              The registration groups within prefix element     that have been assigned are   for the United States of America     for France     for the Republic of Korea  and    for Italy             
+The original   digit standard book number  SBN  had no registration group identifier  but prefixing a zero to a   digit SBN creates a valid    digit ISBN 
+
+Registrant element
+The national ISBN agency assigns the registrant element  cf  Category ISBN agencies  and an accompanying series of ISBNs within that registrant element to the publisher  the publisher then allocates one of the ISBNs to each of its books  In most countries  a book publisher is not legally required to assign an ISBN  although most large bookstores only handle publications that have ISBNs assigned to them                                     
+The International ISBN Agency maintains the details of over one million ISBN prefixes and publishers in the Global Register of Publishers              This database is freely searchable over the internet 
+Publishers receive blocks of ISBNs  with larger blocks allotted to publishers expecting to need them  a small publisher may receive ISBNs of one or more digits for the registration group identifier  several digits for the registrant  and a single digit for the publication element  Once that block of ISBNs is used  the publisher may receive another block of ISBNs  with a different registrant element  Consequently  a publisher may have different allotted registrant elements  There also may be more than one registration group identifier used in a country  This might occur once all the registrant elements from a particular registration group have been allocated to publishers 
+By using variable block lengths  registration agencies are able to customise the allocations of ISBNs that they make to publishers  For example  a large publisher may be given a block of ISBNs where fewer digits are allocated for the registrant element and many digits are allocated for the publication element  likewise  countries publishing many titles have few allocated digits for the registration group identifier and many for the registrant and publication elements              Here are some sample ISBN    codes  illustrating block length variations 
+
+
+
+
+ISBN
+Country or area
+Publisher
+
+
+             
+Qatar
+NCCAH  Doha
+
+
+             
+Singapore
+World Scientific
+
+
+             
+Greece
+Sigma Publications
+
+
+             
+Czech Republic  Slovakia
+Taita Publishers
+
+
+             
+Brazil
+Companhia das Letras
+
+
+             
+English speaking area
+Simon Wallenberg Press
+
+
+             
+English speaking area
+Scribner
+
+
+            X
+English speaking area
+Frederick Ungar
+
+
+             
+English speaking area
+J  A  Allen  amp  Co 
+
+
+             
+English speaking area
+Edupedia Publications Pvt Ltd 
+
+
+             
+English speaking area
+Willmann Bell
+
+
+            X
+English speaking area
+KT Publishing
+
+English language pattern 
+English language registration group elements are   and      of more than     registration group elements   These two registration group elements are divided into registrant elements in a systematic pattern  which allows their length to be determined  as follows             
+
+
+
+
+Publicationelement length
+
+    Registration group element
+
+    Registration group element
+
+TotalRegistrants
+
+
+From
+To
+Registrants
+From
+To
+Registrants
+
+
+  digits
+
+     xxxxxx x
+
+     xxxxxx x
+
+  
+
+     xxxxxx x     xxxxxx x
+
+     xxxxxx x     xxxxxx x
+
+ 
+
+  
+
+
+  digits
+
+      xxxxx x      xxxxx x      xxxxx x      xxxxx x      xxxxx x      xxxxx x      xxxxx x
+
+      xxxxx x      xxxxx x      xxxxx x      xxxxx x      xxxxx x      xxxxx x      xxxxx x
+
+   
+
+      xxxxx x      xxxxx x      xxxxx x      xxxxx x      xxxxx x
+
+      xxxxx x      xxxxx x      xxxxx x      xxxxx x      xxxxx x
+
+   
+
+   
+
+
+  digits
+
+       xxxx x       xxxx x       xxxx x       xxxx x       xxxx x
+
+       xxxx x       xxxx x       xxxx x       xxxx x       xxxx x
+
+     
+
+       xxxx x       xxxx x       xxxx x       xxxx x       xxxx x       xxxx x       xxxx x       xxxx x       xxxx x       xxxx x
+
+       xxxx x       xxxx x       xxxx x       xxxx x       xxxx x       xxxx x       xxxx x       xxxx x       xxxx x       xxxx x
+
+     
+
+     
+
+
+  digits
+
+        xxx x
+
+        xxx x
+
+     
+
+        xxx x        xxx x        xxx x        xxx x        xxx x        xxx x        xxx x        xxx x        xxx x        xxx x
+
+        xxx x        xxx x        xxx x        xxx x        xxx x        xxx x        xxx x        xxx x        xxx x        xxx x
+
+      
+
+      
+
+
+  digits
+
+         xx x         xx x
+
+         xx x         xx x
+
+      
+
+         xx x         xx x         xx x         xx x         xx x         xx x
+
+         xx x         xx x         xx x         xx x         xx x         xx x
+
+       
+
+       
+
+
+  digit
+
+          x x          x x          x x          x x          x x
+
+          x x          x x          x x          x x          x x
+
+       
+
+          x x          x x          x x          x x          x x          x x          x x          x x          x x          x x          x x          x x
+
+          x x          x x          x x          x x          x x          x x          x x          x x          x x          x x          x x          x x
+
+       
+
+       
+
+
+Total
+
+       
+
+Total
+
+       
+
+       
+
+Check digits
+A check digit is a form of redundancy check used for error detection  the decimal equivalent of a binary check bit  It consists of a single digit computed from the other digits in the number  The method for the    digit ISBN is an extension of that for SBNs  so the two systems are compatible  an SBN prefixed with a zero  the    digit ISBN  will give the same check digit as the SBN without the zero  The check digit is base eleven  and can be an integer between   and    or an  X   The system for    digit ISBNs is not compatible with SBNs and will  in general  give a different check digit from the corresponding    digit ISBN  so does not provide the same protection against transposition  This is because the    digit code was required to be compatible with the EAN format  and hence could not contain the letter  X  
+
+ISBN    check digits
+According to the      edition of the International ISBN Agency s official user manual              the ISBN    check digit  which is the last digit of the    digit ISBN  must range from   to     the symbol  X  is used for      and must be such that the sum of the ten digits  each multiplied by its  integer  weight  descending from    to    is a multiple of     That is  if xi is the ith digit  then x   must be chosen such that 
+
+
+  
+    
+      
+        
+            x     
+          
+            i
+             
+             
+          
+          
+              
+          
+        
+         
+          
+          x     
+        i
+         
+        
+          x
+          
+            i
+          
+        
+          x     
+         
+        
+          
+           
+          mod
+          
+            
+           
+        
+         
+      
+    
+      displaystyle  sum   i            i x  i  equiv    pmod        
+  
+
+For example  for an ISBN    of               
+
+
+  
+    
+      
+        
+          
+            
+              
+                s
+              
+              
+                
+                 
+                 
+                 
+                  xd  
+                  
+                 
+                 
+                 
+                 
+                  xd  
+                 
+                 
+                 
+                 
+                 
+                  xd  
+                 
+                 
+                 
+                 
+                 
+                  xd  
+                 
+                 
+                 
+                 
+                 
+                  xd  
+                 
+                 
+                 
+                 
+                 
+                  xd  
+                 
+                 
+                 
+                 
+                 
+                  xd  
+                 
+                 
+                 
+                 
+                 
+                  xd  
+                 
+                 
+                 
+                 
+                 
+                  xd  
+                 
+                 
+                 
+                 
+                 
+                  xd  
+                 
+                 
+              
+            
+            
+              
+              
+                
+                 
+                 
+                 
+                  
+                 
+                 
+                 
+                  
+                 
+                  
+                 
+                 
+                 
+                  
+                 
+                 
+                 
+                  
+                 
+                 
+              
+            
+            
+              
+              
+                
+                 
+                   
+                 
+                  
+                  xd  
+                   
+              
+            
+          
+        
+      
+    
+      displaystyle   begin aligned s amp     times        times       times       times       times       times       times       times       times       times      amp                             amp         times     end aligned   
+  
+
+Formally  using modular arithmetic  this is rendered
+
+
+  
+    
+      
+         
+          
+        
+          x
+          
+             
+          
+        
+         
+         
+        
+          x
+          
+             
+          
+        
+         
+         
+        
+          x
+          
+             
+          
+        
+         
+         
+        
+          x
+          
+             
+          
+        
+         
+         
+        
+          x
+          
+             
+          
+        
+         
+         
+        
+          x
+          
+             
+          
+        
+         
+         
+        
+          x
+          
+             
+          
+        
+         
+         
+        
+          x
+          
+             
+          
+        
+         
+         
+        
+          x
+          
+             
+          
+        
+         
+        
+          x
+          
+              
+          
+        
+         
+          x     
+         
+        
+          
+           
+          mod
+          
+            
+           
+        
+         
+      
+    
+      displaystyle    x      x      x      x      x      x      x      x      x     x       equiv    pmod        
+  
+
+It is also true for ISBN   s that the sum of all ten digits  each multiplied by its weight in ascending order from   to     is a multiple of     For this example 
+
+
+  
+    
+      
+        
+          
+            
+              
+                s
+              
+              
+                
+                 
+                 
+                 
+                  xd  
+                 
+                 
+                 
+                 
+                 
+                  xd  
+                 
+                 
+                 
+                 
+                 
+                  xd  
+                 
+                 
+                 
+                 
+                 
+                  xd  
+                 
+                 
+                 
+                 
+                 
+                  xd  
+                 
+                 
+                 
+                 
+                 
+                  xd  
+                 
+                 
+                 
+                 
+                 
+                  xd  
+                 
+                 
+                 
+                 
+                 
+                  xd  
+                 
+                 
+                 
+                 
+                 
+                  xd  
+                 
+                 
+                 
+                 
+                 
+                  xd  
+                  
+                 
+              
+            
+            
+              
+              
+                
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                  
+                 
+                  
+                 
+                 
+                 
+                  
+                 
+                 
+                 
+                  
+                 
+                  
+              
+            
+            
+              
+              
+                
+                 
+                   
+                 
+                  
+                  xd  
+                   
+              
+            
+          
+        
+      
+    
+      displaystyle   begin aligned s amp     times       times       times       times       times       times       times       times       times       times       amp                             amp         times     end aligned   
+  
+
+Formally  this is rendered
+
+
+  
+    
+      
+         
+        
+          x
+          
+             
+          
+        
+         
+         
+        
+          x
+          
+             
+          
+        
+         
+         
+        
+          x
+          
+             
+          
+        
+         
+         
+        
+          x
+          
+             
+          
+        
+         
+         
+        
+          x
+          
+             
+          
+        
+         
+         
+        
+          x
+          
+             
+          
+        
+         
+         
+        
+          x
+          
+             
+          
+        
+         
+         
+        
+          x
+          
+             
+          
+        
+         
+         
+        
+          x
+          
+             
+          
+        
+         
+          
+        
+          x
+          
+              
+          
+        
+         
+          x     
+         
+        
+          
+           
+          mod
+          
+            
+           
+        
+         
+      
+    
+      displaystyle  x      x      x      x      x      x      x      x      x       x       equiv    pmod        
+  
+
+The two most common errors in handling an ISBN  e g  when typing it or writing it down  are a single altered digit or the transposition of adjacent digits  It can be proven mathematically that all pairs of valid ISBN   s differ in at least two digits  It can also be proven that there are no pairs of valid ISBN   s with eight identical digits and two transposed digits  these proofs are true because the ISBN is less than eleven digits long and because    is a prime number   The ISBN check digit method therefore ensures that it will always be possible to detect these two most common types of error  i e   if either of these types of error has occurred  the result will never be a valid ISBN the sum of the digits multiplied by their weights will never be a multiple of     However  if the error were to occur in the publishing house and remain undetected  the book would be issued with an invalid ISBN             
+In contrast  it is possible for other types of error  such as two altered non transposed digits  or three altered digits  to result in a valid ISBN  although it is still unlikely  
+
+ISBN    check digit calculation
+Each of the first nine digits of the    digit ISBN excluding the check digit itself is multiplied by its  integer  weight  descending from    to    and the sum of these nine products found  The value of the check digit is simply the one number between   and    which  when added to this sum  means the total is a multiple of    
+For example  the check digit for an ISBN    of               is calculated as follows 
+
+
+  
+    
+      
+        
+          
+            
+              
+                s
+              
+              
+                
+                 
+                 
+                 
+                  xd  
+                  
+                 
+                 
+                 
+                 
+                  xd  
+                 
+                 
+                 
+                 
+                 
+                  xd  
+                 
+                 
+                 
+                 
+                 
+                  xd  
+                 
+                 
+                 
+                 
+                 
+                  xd  
+                 
+                 
+                 
+                 
+                 
+                  xd  
+                 
+                 
+                 
+                 
+                 
+                  xd  
+                 
+                 
+                 
+                 
+                 
+                  xd  
+                 
+                 
+                 
+                 
+                 
+                  xd  
+                 
+                 
+              
+            
+            
+              
+              
+                
+                 
+                    
+              
+            
+          
+        
+      
+    
+      displaystyle   begin aligned s amp     times        times       times       times       times       times       times       times       times      amp       end aligned   
+  
+
+Adding   to     gives a multiple of     because              this is the only number between   and    which does so  Therefore  the check digit has to be    and the complete sequence is ISBN                If the value of 
+  
+    
+      
+        
+          x
+          
+              
+          
+        
+      
+    
+      displaystyle x      
+  
+ required to satisfy this condition is     then an  X  should be used 
+Alternatively  modular arithmetic is convenient for calculating the check digit using modulus     The remainder of this sum when it is divided by     i e  its value modulo      is computed  This remainder plus the check digit must equal either   or     Therefore  the check digit is     minus the remainder of the sum of the products modulo     modulo     Taking the remainder modulo    a second time accounts for the possibility that the first remainder is    Without the second modulo operation  the calculation could result in a check digit value of              which is invalid   Strictly speaking  the first  modulo     is not needed  but it may be considered to simplify the calculation  
+For example  the check digit for the ISBN of               is calculated as follows 
+
+
+  
+    
+      
+        
+          
+            
+              
+                s
+              
+              
+                
+                 
+                 
+                  
+                  x     
+                 
+                 
+                 
+                 
+                  xd  
+                  
+                 
+                 
+                 
+                 
+                  xd  
+                 
+                 
+                 
+                 
+                 
+                  xd  
+                 
+                 
+                 
+                 
+                 
+                  xd  
+                 
+                 
+                 
+                 
+                 
+                  xd  
+                 
+                 
+                 
+                 
+                 
+                  xd  
+                 
+                 
+                 
+                 
+                 
+                  xd  
+                 
+                 
+                 
+                 
+                 
+                  xd  
+                 
+                 
+                 
+                 
+                 
+                  xd  
+                 
+                 
+                 
+                
+                
+                  mod
+                  
+                    
+                  
+                
+                  
+                 
+                 
+                
+                
+                  mod
+                  
+                    
+                  
+                
+                  
+              
+            
+            
+              
+              
+                
+                 
+                 
+                  
+                  x     
+                 
+                 
+                 
+                 
+                  
+                 
+                 
+                 
+                  
+                 
+                  
+                 
+                 
+                 
+                  
+                 
+                 
+                 
+                  
+                 
+                
+                
+                  mod
+                  
+                    
+                  
+                
+                  
+                 
+                 
+                
+                
+                  mod
+                  
+                    
+                  
+                
+                  
+              
+            
+            
+              
+              
+                
+                 
+                 
+                  
+                  x     
+                 
+                 
+                   
+                 
+                
+                
+                  mod
+                  
+                    
+                  
+                
+                  
+                 
+                 
+                
+                
+                  mod
+                  
+                    
+                  
+                
+                  
+              
+            
+            
+              
+              
+                
+                 
+                 
+                  
+                  x     
+                 
+                 
+                 
+                 
+                
+                
+                  mod
+                  
+                    
+                  
+                
+                  
+              
+            
+            
+              
+              
+                
+                 
+                 
+                
+                
+                  mod
+                  
+                    
+                  
+                
+                  
+              
+            
+            
+              
+              
+                
+                 
+                 
+              
+            
+          
+        
+      
+    
+      displaystyle   begin aligned s amp           times        times       times       times       times       times       times       times       times        bmod              bmod           amp                                   bmod              bmod           amp                bmod              bmod           amp              bmod           amp       bmod           amp    end aligned   
+  
+
+Thus the check digit is   
+It is possible to avoid the multiplications in a software implementation by using two accumulators  Repeatedly adding t into s computes the necessary multiples 
+
+   Returns ISBN error syndrome  zero for a valid ISBN  non zero for an invalid one 
+   digits i  must be between   and    
+int CheckISBN int const digits       
+  int i  s      t     
+
+  for  i      i  lt        i   
+    t    digits i  
+    s    t 
+   
+  return s      
+ 
+
+The modular reduction can be done once at the end  as shown above  in which case s could hold a value as large as      for the invalid ISBN             X   or s and t could be reduced by a conditional subtract after each addition 
+
+ISBN    check digit calculation
+Appendix   of the International ISBN Agency s official user manual                                  describes how the    digit ISBN check digit is calculated  The ISBN    check digit  which is the last digit of the ISBN  must range from   to   and must be such that the sum of all the thirteen digits  each multiplied by its  integer  weight  alternating between   and    is a multiple of     As ISBN    is a subset of EAN     the algorithm for calculating the check digit is exactly the same for both 
+Formally  using modular arithmetic  this is rendered 
+
+
+  
+    
+      
+         
+        
+          x
+          
+             
+          
+        
+         
+         
+        
+          x
+          
+             
+          
+        
+         
+        
+          x
+          
+             
+          
+        
+         
+         
+        
+          x
+          
+             
+          
+        
+         
+        
+          x
+          
+             
+          
+        
+         
+         
+        
+          x
+          
+             
+          
+        
+         
+        
+          x
+          
+             
+          
+        
+         
+         
+        
+          x
+          
+             
+          
+        
+         
+        
+          x
+          
+             
+          
+        
+         
+         
+        
+          x
+          
+              
+          
+        
+         
+        
+          x
+          
+              
+          
+        
+         
+         
+        
+          x
+          
+              
+          
+        
+         
+        
+          x
+          
+              
+          
+        
+         
+          x     
+         
+        
+          
+           
+          mod
+          
+            
+           
+        
+         
+      
+    
+      displaystyle  x      x     x      x     x      x     x      x     x      x      x       x      x       equiv    pmod        
+  
+
+The calculation of an ISBN    check digit begins with the first twelve digits of the    digit ISBN  thus excluding the check digit itself   Each digit  from left to right  is alternately multiplied by   or    then those products are summed modulo    to give a value ranging from   to    Subtracted from     that leaves a result from   to     A zero replaces a ten  so  in all cases  a single check digit results 
+For example  the ISBN    check digit of                   is calculated as follows 
+
+s                                                                        
+                                                                         
+      
+            remainder  
+           
+
+Thus  the check digit is    and the complete sequence is ISBN                   
+In general  the ISBN check digit is calculated as follows 
+Let
+
+
+  
+    
+      
+        r
+         
+          
+          x     
+        
+          
+             
+          
+        
+        
+          
+             
+          
+        
+        
+          x
+          
+             
+          
+        
+         
+         
+        
+          x
+          
+             
+          
+        
+         
+        
+          x
+          
+             
+          
+        
+         
+         
+        
+          x
+          
+             
+          
+        
+         
+          x  ef 
+         
+        
+          x
+          
+              
+          
+        
+         
+         
+        
+          x
+          
+              
+          
+        
+        
+          
+             
+          
+        
+        
+          mod
+          
+             
+          
+        
+         
+        
+          
+             
+          
+        
+         
+      
+    
+      displaystyle r      big     big   x      x     x      x      cdots  x       x       big     bmod        big     
+  
+
+Then
+
+
+  
+    
+      
+        
+          x
+          
+              
+          
+        
+         
+        
+          
+             
+            
+              
+                
+                  r
+                   
+                
+                
+                  r
+                   lt 
+                    
+                   
+                
+              
+              
+                
+                   
+                   
+                
+                
+                  r
+                   
+                     
+                
+              
+            
+            
+          
+        
+      
+    
+      displaystyle x        begin cases r  amp r lt         amp r     end cases   
+  
+
+This check system similar to the UPC check digit formula does not catch all errors of adjacent digit transposition  Specifically  if the difference between two adjacent digits is    the check digit will not catch their transposition  For instance  the above example allows this situation with the   followed by a    The correct order contributes                    to the sum  while  if the digits are transposed    followed by a     the contribution of those two digits will be                    However     and   are congruent modulo     and so produce the same  final result  both ISBNs will have a check digit of    The ISBN    formula uses the prime modulus    which avoids this blind spot  but requires more than the digits     to express the check digit 
+Additionally  if the sum of the  nd   th   th   th    th  and   th digits is tripled then added to the remaining digits   st   rd   th   th   th    th  and   th   the total will always be divisible by     i e   end in    
+
+ISBN    to ISBN    conversion
+A    digit ISBN is converted to a    digit ISBN by prepending       to the  ISBN    and recalculating the final checksum digit using the ISBN    algorithm  The reverse process can also be performed  but not for numbers commencing with a prefix other than      which have no    digit equivalent 
+
+Errors in usage
+Publishers and libraries have varied policies about the use of the ISBN check digit  Publishers sometimes fail to check the correspondence of a book title and its ISBN before publishing it  that failure causes book identification problems for libraries  booksellers  and readers              For example  ISBN                    is shared by two books Ninja gaiden  a novel based on the best selling game by Tecmo        and Wacky laws         both published by Scholastic 
+Most libraries and booksellers display the book record for an invalid ISBN issued by the publisher  The Library of Congress catalogue contains books published with invalid ISBNs  which it usually tags with the phrase  Cancelled ISBN               The International Union Library Catalog  WorldCat OCLC Online Computer Library Center system  often indexes by invalid ISBNs  if the book is indexed in that way by a member library             
+
+eISBN
+This section has multiple issues  Please help improve it or discuss these issues on the talk page   Learn how and when to remove these messages 
+
+      The neutrality of this section is disputed  Relevant discussion may be found on the talk page  Please do not remove this message until conditions to do so are met    May        Learn how and when to remove this message 
+Some of this section s listed sources may not be reliable  Please help improve this article by looking for better  more reliable sources  Unreliable citations may be challenged and removed    May        Learn how and when to remove this message 
+    
+  Learn how and when to remove this message 
+Only the term  ISBN  should be used  the terms  eISBN  and  e ISBN  have historically been sources of confusion and should be avoided  If a book exists in one or more digital  e book  formats  each of those formats must have its own ISBN  In other words  each of the three separate EPUB  Amazon Kindle  and PDF formats of a particular book will have its own specific ISBN  They should not share the ISBN of the paper version  and there is no generic  eISBN  which encompasses all the e book formats for a title             
+
+EAN format used in barcodes  and upgrading
+The barcodes on a book s back cover  or inside a mass market paperback book s front cover  are EAN     they may have a separate barcode encoding five digits called an EAN   for the currency and the recommended retail price              For    digit ISBNs  the number        the Bookland  country code   is prefixed to the ISBN in the barcode data  and the check digit is recalculated according to the EAN    formula  modulo        and    weighting on alternating digits  
+Partly because of an expected shortage in certain ISBN categories  the International Organization for Standardization  ISO  decided to migrate to a    digit ISBN  ISBN      The process began on   January      and was planned to conclude on   January                   As of          update       all the    digit ISBNs began with      As the     ISBN supply is exhausted  the     prefix was introduced  Part of the     prefix is reserved for use with the Musicland code for musical scores with an ISMN  The    digit ISMN codes differed visually as they began with an  M  letter  the bar code represents the  M  as a zero  and for checksum purposes it counted as a    All ISMNs are now thirteen digits commencing              to       will be used by ISBN 
+Publisher identification code numbers are unlikely to be the same in the     and     ISBNs  likewise  there is no guarantee that language area code numbers will be the same  Moreover  the    digit ISBN check digit generally is not the same as the    digit ISBN check digit  Because the GTIN    is part of the Global Trade Item Number  GTIN  system  that includes the GTIN     the GTIN     and the GTIN     the    digit ISBN falls within the    digit data field range             
+Barcode format compatibility is maintained  because  aside from the group breaks  the ISBN    barcode format is identical to the EAN barcode format of existing    digit ISBNs  So  migration to an EAN based system allows booksellers the use of a single numbering system for both books and non book products that is compatible with existing ISBN based data  with only minimal changes to information technology systems  Hence  many booksellers  e g   Barnes  amp  Noble  migrated to EAN barcodes as early as March       Although many American and Canadian booksellers were able to read EAN    barcodes before       most general retailers could not read them  The upgrading of the UPC barcode system to full EAN     in       eased migration to the ISBN in North America 
+
+See also
+ASIN  Amazon Standard Identification Number 
+BICI  Book Item and Component Identifier 
+Book sources search        a Wikipedia resource that allows search by ISBNs
+CODEN  serial publication identifier currently used by libraries  replaced by the ISSN for new works 
+DOI  Digital Object Identifier 
+ESTC  English Short Title Catalogue 
+ISAN  International Standard Audiovisual Number 
+ISRC  International Standard Recording Code 
+ISTC  International Standard Text Code 
+ISWC  International Standard Musical Work Code 
+ISSN  International Standard Serial Number 
+ISWN  International Standard Wine Number 
+LCCN  Library of Congress Control Number 
+License number  East German books   Book identification system used between      and      in the former GDR 
+List of group   ISBN publisher codes
+List of group   ISBN publisher codes
+List of ISBN registration groups
+SICI  Serial Item and Contribution Identifier 
+VD     Verzeichnis der im deutschen Sprachbereich erschienenen Drucke des     Jahrhunderts   Bibliography of Books Printed in the German Speaking Countries of the Sixteenth Century  
+VD     Verzeichnis der im deutschen Sprachraum erschienenen Drucke des     Jahrhunderts   Bibliography of Books Printed in the German Speaking Countries of the Seventeenth Century  
+Explanatory notes
+
+
+  Occasionally  publishers erroneously assign an ISBN to more than one title the first edition of The Ultimate Alphabet and The Ultimate Alphabet Workbook have the same ISBN                 Conversely  the same book can be published with several ISBNs  A German second language edition of Emil und die Detektive has the ISBNs                Denmark                  United States               X  Sweden                  United Kingdom  and                Germany  
+
+  In some cases  books sold only as a set share the same ISBN  For example  the Vance Integral Edition used only two ISBNs for    books 
+
+  a b Publishers were required to convert existing ISBNs from the    digit format to the    digit format  in their publication records  by        January       For existing publications  the new    digit ISBN would only need to be added if  and when  a publication was reprinted  During the transition period  publishers were recommended to print both the    digit and    digit ISBNs on the verso of a publication s title page  but they were required to print only the    digit ISBN after        January                 
+
+  Some books have several codes in the first block  e g  A  M  Yaglom s Correlation Theory     published by Springer Verlag  has two ISBNs                and                Though Springer s     and     codes are different for English     and German      the same item number       produces the same check digit for both      Springer uses     as the publisher code for Japanese      and               also has a check digit of    Other Springer books in English have publisher code      and               would also have a check digit of    This suggests that special considerations were made for assigning Springer s publisher codes  as random assignments of different publisher codes would not be expected to lead by coincidence to the same check digit every time for the same item number  Finding publisher codes for English and German  say  with this effect would amount to solving a linear equation in modular arithmetic      original research      
+
+  The International ISBN Agency s ISBN User s Manual says   The ten digit number is divided into four parts of variable length  which must be separated clearly  by hyphens or spaces   although omission of separators is permitted for internal data processing  If present  hyphens must be correctly placed              The actual definition for hyphenation contains more than     different registration group elements with each one broken down into a few to several ranges for the length of the registrant element  more than       total   The document defining the ranges  listed by agency  is    pages 
+
+
+References
+
+
+  a b c  ISBN History   isbn org     April       Archived from the original on    April       Retrieved    April      
+
+   The International ISBN Agency   Archived from the original on    February       Retrieved    February      
+
+  a b c  Frequently Asked Questions about the new ISBN standard   ISO TC    SC    Library and Archives Canada     May       Archived from the original on    June      
+
+  Bradley  Philip          Book numbering  The importance of the ISBN   PDF   The Indexer                 doi         indexer               S CID                 Archived from the original  PDF     KB   on    February       Retrieved   September      
+
+  Foster  Gordon          International Standard Book Numbering  ISBN  System original      report   informaticsdevelopmentinstitute net  Archived from the original on    April       Retrieved    April      
+
+  a b c d Manwal ghall Utenti tal ISBN  PDF   in Maltese    th      ed    Malta  Kunsill Nazzjonali tal Ktieb        p          ISBN                         Archived from the original on    August       Retrieved    November      
+
+  Charkin  Richard     July          It was an idea whose time had come   David Whitaker on the birth of ISBN   International Publishers Association  Archived from the original on   August       Retrieved   August      
+
+  a b  Emery Koltay  David Whitaker Named NISO Fellows   PDF   Information Standards Quarterly         National Information Standards Organization         July       archived from the original  PDF  on   August     
+
+  US ISBN Agency   Bowker com   Products   Commerce bowker com  Archived from the original on    December       Retrieved    June      
+
+  Gregory  Daniel   ISBN   PrintRS  Archived from the original on    May       Retrieved    June      
+
+  ISO            PDF   ISO  archived from the original on    October       retrieved    June     
+
+   Internet Archive Search   SBN        archive org 
+
+  Haney  Robert         Woodstock handmade houses  David Ballantine  Jonathan Elliott  New York  Ballantine Books  ISBN                     OCLC               Archived from the original on    June       Retrieved    May      
+
+  Haney  Robert  Ballantine  David  Elliott  Jonathan         Woodstock Handmade Houses   st      ed    Ballantine  ISBN                         Retrieved    May              via web archive org 
+
+  Tang  AnJie Broad Law Firm Tracey    March         China Game Regulatory Authority Seeks to Tighten Game License Rules   Lexology  Retrieved    October      
+
+  International Publishers Association  IPa   World Intellectual Property Organization         The Global Publishing Industry in       WIPO  doi          tind        Archived from the original on    September       Retrieved    November      
+
+  a b c d ISBN Users  Manual  International Edition  PDF    th      ed    London  International ISBN Agency        ISBN                         Archived  PDF  from the original on    December       Retrieved   June              via Kungliga biblioteket 
+
+  a b  ISBN Ranges   International ISBN Agency        Archived from the original on    April       Retrieved    April      
+
+   ISBN Converter   Library of Congress  Retrieved    April      
+
+   ISBN Canada   LAC     April       Archived from the original on    April       Retrieved    January      
+
+   Find an agency   International ISBN Agency  Archived from the original on    April       Retrieved   April      
+
+   About the Australian ISBN Agency   THORPE Bowker        Identifier Services  Archived from the original on    April       Retrieved    January      
+
+   ISBN   Thorpe Bowker Identifier Services  Archived from the original on   April       Retrieved    March      
+
+   Tabela de pre os dos servi os       Table of service prices       in Portuguese   Biblioteca Nacional do Brasil  Archived from the original on    October       Retrieved   September      
+
+  a b  Changes in arrangements for ISBN in Brazil   Archived from the original on    October       Retrieved    January      
+
+   ISBN Brasil   in Portuguese   Archived from the original on   May       Retrieved    January      
+
+  Staff writer          Regional ISBN Agency   CARICOM   www caricom org  Georgetown  Guyana  Caribbean Community  CARICOM  
+
+  Find an agency  International ISBN Agency
+
+   Introduction to Books Registration   HKPL  Archived from the original on    April       Retrieved    January      
+
+   Union HRD Minister Smt  Smriti Zubin Irani Launches ISBN Portal   MHRD    April       Archived from the original on    June       Retrieved    June      
+
+   What is an ISBN          ICL                         April       Archived from the original on    January       Retrieved    January      
+
+   ISBN   Chi siamo e contatti       ISBN   Who we are and contacts       in Italian   EDISER srl  Archived from the original on    May       Retrieved   January      
+
+   ISBN   Tariffe Servizi ISBN       ISBN Service Tariffs       in Italian   EDISER srl  Archived from the original on   January       Retrieved   January      
+
+   ISBN   Kunsill Nazzjonali tal Ktieb        Archived from the original on    October      
+
+  Manwal ghall Utenti tal ISBN  PDF   in Maltese    th      ed    Malta  Kunsill Nazzjonali tal Ktieb        pp             ISBN                         Archived from the original on    August       Retrieved    November      
+
+   Gazzetta tal Gvern ta  Malta   PDF   Government Gazette     January       p            Archived from the original  PDF  on    November      
+
+   ISBNs  ISSNs  and ISMNs   National Library of New Zealand  Archived from the original on    April       Retrieved    January      
+
+   International Standard Book Number   NLP  Archived from the original on    April       Retrieved    December      
+
+   ISBN   K lt r ve Turizm Bakanl    K t phaneler ve Yay mlar Genel M d rl    OS   ekygm gov tr  Archived from the original on    April       Retrieved    March      
+
+   Nielsen UK ISBN Agency   Nielsen UK ISBN Agency  Archived from the original on    October       Retrieved   January      
+
+   Bowker   ISBN   R  R  Bowker    March       Archived from the original on    March       Retrieved   March      
+
+   ISBN Ranges   isbn international org     April       Select the format you desire and click on the Generate button  Archived from the original on    April       Retrieved    April      
+
+  See a complete list of group identifiers Archived    April      at the Wayback Machine  ISBN org sometimes calls them group numbers  Their table of identifiers now refers to ISBN prefix ranges  which must be assumed to be group identifier ranges 
+
+  Hailman  Jack Parker         Coding and redundancy  man made and animal evolved signals  Harvard University Press  p            ISBN                        
+
+  ISBN Users  Manual  International Edition  PDF    th      ed    London  International ISBN Agency        p           ISBN                         Archived  PDF  from the original on    April       Retrieved    April      
+
+  International ISBN Agency    December         International ISBN Agency   Range Message  pdf sorted by prefix    PDF   isbn international org  p           Archived  PDF  from the original on    December       Retrieved    December      
+
+   Independent Publishers   Waterstones  Archived from the original on   January       Retrieved   February       Before submitting any titles to our central buying team for consideration  your book must have the following  An ISBN   
+
+   How to obtain an ISBN   Barnes  amp  Noble  Archived from the original on   February       Retrieved   February       We use ISBNs to track inventory and sales information   All books Barnes  amp  Noble transacts on must have an ISBN 
+
+   Product ID  GTIN  requirements for Books   Amazon com  Archived from the original on   February       Retrieved   February       Effective June          you must provide an ISBN  EAN  or JAN to list a book in the Amazon catalog  regardless of the book s publication date 
+
+   Global Register of Publishers   International ISBN Agency  Archived from the original on    November       Retrieved    November      
+
+  Splane  Lily         The book book        a complete guide to creating a book on your computer   nd      ed    San Diego  Calif   Anaphase II  ISBN                     OCLC               
+
+   ISBN Users  Manual       edition       Structure of ISBN   International ISBN Agency  Archived from the original on    May      
+
+  For example  I saka  a sketch grammar of a language of north central New Guinea  Pacific Linguistics  ISBN                 
+
+  Lorimer  Rowland  Shoichet  Jillian  Maxwell  John W          Book Publishing I  CCSP Press  p            ISBN                        
+
+         International Standard Book Number  R    MARC    Bibliographic   Full   Library of Congress  September       Archived from the original on   January       Retrieved    December      
+
+   xISBN  Web service    Xisbn worldcat org  Archived from the original on   May       Retrieved    May      
+
+   The Myth of the eISBN Why Every eBook Edition Needs a Unique Number   Publishing services for self publishing authors and businesses   Publishing services for self publishing authors and businesses     June       Archived from the original on    October       Retrieved    January      
+
+  Frequently asked questions  United States  ISBN     March       archived from the original on    April        including a detailed description of the EAN    format 
+
+   ISBN   ISO TC  SC   FAQ   Canada  Collections  archived from the original on    April       retrieved    September     
+
+   Are You Ready for ISBN       Standards  ISBN  archived from the original on    August       retrieved    October     
+
+
+External links
+
+
+
+Wikidata has the properties  
+ ISBN     P      see uses  ISBN     P      see uses 
+
+
+
+ISBN  at Wikipedia s sister projects
+
+Definitions from WiktionaryMedia from CommonsData from WikidataDocumentation from MediaWiki
+
+ISO             International Standard Book Number  ISBN 
+International ISBN Agency        coordinates and supervises the worldwide use of the ISBN system
+Numerical List of Group Identifiers        List of language region prefixes
+Free conversion tool  ISBN    to ISBN    and ISBN    to ISBN    from the ISBN agency  Also shows correct hyphenation and verifies if ISBNs are valid or not 
+ Guidelines for the Implementation of    Digit ISBNs   PDF   Archived from the original  PDF  on    September      
+RFC                  Using International Standard Book Numbers as Uniform Resource Names  URN 
+Worldwide Auto Converter at Library of Congress
+vteInternational numbering standardsStandards
+ISO       International Standard Book Number  ISBN 
+ISO       International Standard Serial Number  ISSN 
+ISO       International Standard Recording Code  ISRC 
+ISO       International Securities Identification Number  ISIN 
+ISO IEC       Issuer Identification Number  IIN 
+ISO       Business Entity Identifier  BIC 
+ISO        International Standard Music Number  ISMN 
+ISO        International Bank Account Number  IBAN 
+ISO        International Standard Identifier for Libraries     ISIL 
+ISO        International Standard Audiovisual Number  ISAN 
+ISO        International Standard Musical Work Code  ISWC 
+ISO        International Standard Link Identifier  ISLI 
+ISO        Legal Entity Identifier  LEI 
+ISO        International Standard Text Code  ISTC 
+ISO        Digital Object Identifier System  DOI 
+ISO        International Standard Name Identifier  ISNI 
+ISO        International Standard Collection Identifier  ISCI 
+ CAE IPI
+Virtual International Authority File  VIAF 
+
+vteInternational Organization for Standardization  ISO  standardsList of ISO standards   ISO romanizations   IEC standards      
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+   
+   
+   
+   
+    
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+  
+  
+  
+  
+  
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+    
+    
+    
+      
+      
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    
+    
+    
+    
+         
+    
+      
+    
+  
+  
+  
+  
+  
+  
+  
+  
+   I
+  
+   
+   
+   
+   
+   
+   
+   
+    
+         
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+         
+    
+    
+      
+    
+    
+    
+    
+    
+    
+           
+     
+     
+     
+       
+     
+     
+     
+     
+     
+     
+     
+     
+   
+   
+   
+   
+    
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+          
+     
+       TR 
+     
+     
+     
+     
+     
+       
+     
+     
+  
+  
+     
+     
+     
+       
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+  
+  
+  
+   
+   
+   
+   
+   
+   
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+  
+  
+     
+     
+     
+     
+     
+     
+     
+  
+     
+     
+     
+     
+     
+      WIP
+     
+     
+     
+     
+       
+     
+       
+     
+       TS 
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+  
+  
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+       
+       
+     
+           
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+       
+     
+       
+       
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+      series
+     
+     
+     
+     
+     
+     
+     
+     
+     
+       
+     
+      
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+
+ Category
+
+vteBooksProduction
+Binding
+Covers
+dust jackets
+Design
+Editing
+Illustration
+Illuminated manuscripts
+Printing
+edition
+history
+incunabula
+instant book
+limited edition
+Publishing
+advance copy
+hardcover
+paperback
+Size
+Typesetting
+Volume  bibliography 
+Collection  publishing 
+Book series
+Consumption
+Awards
+Bestsellers
+list
+Bibliography
+Bibliomania  tsundoku 
+Bibliophilia
+Bibliotherapy
+Bookmarks
+Bookselling
+blurbs
+book towns
+history
+used
+Censorship
+Clubs
+Collecting
+Digitizing
+Bookworm  insect 
+Furniture
+bookcases
+bookends
+Library
+Print culture
+Reading
+literacy
+Reviews
+By country
+Brazil
+China
+France
+Germany
+Italy
+Japan
+Netherlands
+Pakistan
+Spain
+United Kingdom
+United States
+Other
+Genres
+fictional
+miniature
+pop up
+textbook
+Grimoire
+Formats
+audiobooks
+Ebooks
+Folio
+Coffee table book
+Related
+Banned books
+Book burning
+incidents
+Nazi
+Book curses
+Book packaging
+Book swapping
+Book tour
+Conservation and restoration
+Dog ears
+History of books
+scroll
+codex
+Intellectual property
+ISBN
+Novel
+Outline
+Preservation
+The Philobiblon
+World Book Day
+World Book Capital
+
+ Outline
+ Category
+ Portal
+
+Authority control databases InternationalFASTNationalGermanyUnited StatesFranceBnF dataJapanCzech RepublicSpainIsrael
+
+
+
+
+
+Retrieved from  https   en wikipedia org w index php title ISBN amp oldid

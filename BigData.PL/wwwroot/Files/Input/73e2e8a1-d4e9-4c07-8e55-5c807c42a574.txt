@@ -1,0 +1,1009 @@
+Type of non monotonic logic
+Default logic is a non monotonic logic proposed by Raymond Reiter to formalize reasoning with default assumptions 
+Default logic can express facts like  by default  something is true   by contrast  standard logic can only express that something is true or that something is false  This is a problem because reasoning often involves facts that are true in the majority of cases but not always  A classical example is   birds typically fly   This rule can be expressed in standard logic either by  all birds fly   which is inconsistent with the fact that penguins do not fly  or by  all birds that are not penguins and not ostriches and     fly   which requires all exceptions to the rule to be specified  Default logic aims at formalizing inference rules like this one without explicitly mentioning all their exceptions 
+
+
+Syntax of default logic edit 
+A default theory is a pair 
+  
+    
+      
+          x  e  
+        W
+         
+        D
+          x  e  
+      
+    
+      displaystyle  langle W D rangle  
+  
+  W is a set of logical formulas  called the background theory  that formalize the facts that are known for sure  D is a set of default rules  each one being of the form 
+
+
+  
+    
+      
+        
+          
+            
+              
+                
+                  P
+                  r
+                  e
+                  r
+                  e
+                  q
+                  u
+                  i
+                  s
+                  i
+                  t
+                  e
+                   
+                  J
+                  u
+                  s
+                  t
+                  i
+                  f
+                  i
+                  c
+                  a
+                  t
+                  i
+                  o
+                  n
+                
+                
+                   
+                
+              
+               
+                x     
+               
+              
+                
+                  J
+                  u
+                  s
+                  t
+                  i
+                  f
+                  i
+                  c
+                  a
+                  t
+                  i
+                  o
+                  n
+                
+                
+                  n
+                
+              
+            
+            
+              C
+              o
+              n
+              c
+              l
+              u
+              s
+              i
+              o
+              n
+            
+          
+        
+      
+    
+      displaystyle   frac   mathrm  Prerequisite Justification        dots   mathrm  Justification    n    mathrm  Conclusion     
+  
+
+According to this default  if we believe that Prerequisite is true  and each 
+  
+    
+      
+        
+          
+            J
+            u
+            s
+            t
+            i
+            f
+            i
+            c
+            a
+            t
+            i
+            o
+            n
+          
+          
+            i
+          
+        
+      
+    
+      displaystyle  mathrm  Justification    i  
+  
+ for 
+  
+    
+      
+        i
+         
+         
+         
+          x     
+         
+        n
+      
+    
+      displaystyle i    dots  n 
+  
+ is consistent with our current beliefs  we are led to believe that Conclusion is true 
+The logical formulae in W and all formulae in a default were originally assumed to be first order logic formulae  but they can potentially be formulae in an arbitrary formal logic  The case in which they are formulae in propositional logic is one of the most studied 
+
+Examples edit 
+The default rule  birds typically fly  is formalized by the following default 
+
+
+  
+    
+      
+        D
+         
+        
+           
+          
+            
+              
+                
+                  B
+                  i
+                  r
+                  d
+                
+                 
+                X
+                 
+                 
+                
+                  F
+                  l
+                  i
+                  e
+                  s
+                
+                 
+                X
+                 
+              
+              
+                
+                  F
+                  l
+                  i
+                  e
+                  s
+                
+                 
+                X
+                 
+              
+            
+          
+           
+        
+      
+    
+      displaystyle D  left    frac   mathrm  Bird   X   mathrm  Flies   X    mathrm  Flies   X    right   
+  
+
+This rule means that   if X is a bird  and it can be assumed that it flies  then we can conclude that it flies   A background theory containing some facts about birds is the following one 
+
+
+  
+    
+      
+        W
+         
+         
+        
+          B
+          i
+          r
+          d
+        
+         
+        
+          C
+          o
+          n
+          d
+          o
+          r
+        
+         
+         
+        
+          B
+          i
+          r
+          d
+        
+         
+        
+          P
+          e
+          n
+          g
+          u
+          i
+          n
+        
+         
+         
+          xac 
+        
+          F
+          l
+          i
+          e
+          s
+        
+         
+        
+          P
+          e
+          n
+          g
+          u
+          i
+          n
+        
+         
+         
+        
+          F
+          l
+          i
+          e
+          s
+        
+         
+        
+          B
+          e
+          e
+        
+         
+         
+      
+    
+      displaystyle W    mathrm  Bird    mathrm  Condor     mathrm  Bird    mathrm  Penguin     neg  mathrm  Flies    mathrm  Penguin     mathrm  Flies    mathrm  Bee      
+  
+ 
+According to this default rule  a condor flies because the precondition Bird Condor  is true and the justification Flies Condor  is not inconsistent with what is currently known  On the contrary  Bird Penguin  does not allow concluding Flies Penguin   even if the precondition of the default Bird Penguin  is true  the justification Flies Penguin  is inconsistent with what is known  From this background theory and this default  Bird Bee  cannot be concluded because the default rule only allows deriving Flies X  from Bird X   but not vice versa  Deriving the antecedents of an inference rule from the consequences is a form of explanation of the consequences  and is the aim of abductive reasoning 
+A common default assumption is that what is not known to be true is believed to be false  This is known as the Closed World Assumption  and is formalized in default logic using a default like the following one for every fact F 
+
+
+  
+    
+      
+        
+          
+            
+               
+              
+                  xac 
+              
+              F
+            
+            
+              
+                  xac 
+              
+              F
+            
+          
+        
+      
+    
+      displaystyle   frac     neg  F    neg  F   
+  
+
+For example  the computer language Prolog uses a sort of default assumption when dealing with negation  if a negative atom cannot be proved to be true  then it is assumed to be false 
+Note  however  that Prolog uses the so called negation as failure  when the interpreter has to evaluate the atom 
+  
+    
+      
+          xac 
+        F
+      
+    
+      displaystyle  neg F 
+  
+  it tries to prove that F is true  and conclude that 
+  
+    
+      
+          xac 
+        F
+      
+    
+      displaystyle  neg F 
+  
+ is true if it fails  In default logic  instead  a default having 
+  
+    
+      
+          xac 
+        F
+      
+    
+      displaystyle  neg F 
+  
+ as a justification can only be applied if 
+  
+    
+      
+          xac 
+        F
+      
+    
+      displaystyle  neg F 
+  
+ is consistent with the current knowledge 
+
+Restrictions edit 
+A default is categorical or prerequisite free if it has no prerequisite  or  equivalently  its prerequisite is tautological   A default is normal if it has a single justification that is equivalent to its conclusion  A default is supernormal if it is both categorical and normal  A default is seminormal if all its justifications entail its conclusion  A default theory is called categorical  normal  supernormal  or seminormal if all defaults it contains are categorical  normal  supernormal  or seminormal  respectively 
+
+Semantics of default logic edit 
+A default rule can be applied to a theory if its precondition is entailed by the theory and its justifications are all consistent with the theory   The application of a default rule leads to the addition of its consequence to the theory   Other default rules may then be applied to the resulting theory   When the theory is such that no other default can be applied  the theory is called an extension of the default theory   The default rules may be applied in different order  and this may lead to different extensions  The Nixon diamond example is a default theory with two extensions 
+
+
+  
+    
+      
+        
+            x  e  
+          
+            
+               
+              
+                
+                  
+                    
+                      
+                        R
+                        e
+                        p
+                        u
+                        b
+                        l
+                        i
+                        c
+                        a
+                        n
+                      
+                       
+                      X
+                       
+                       
+                        xac 
+                      
+                        P
+                        a
+                        c
+                        i
+                        f
+                        i
+                        s
+                        t
+                      
+                       
+                      X
+                       
+                    
+                    
+                        xac 
+                      
+                        P
+                        a
+                        c
+                        i
+                        f
+                        i
+                        s
+                        t
+                      
+                       
+                      X
+                       
+                    
+                  
+                
+                 
+                
+                  
+                    
+                      
+                        Q
+                        u
+                        a
+                        k
+                        e
+                        r
+                      
+                       
+                      X
+                       
+                       
+                      
+                        P
+                        a
+                        c
+                        i
+                        f
+                        i
+                        s
+                        t
+                      
+                       
+                      X
+                       
+                    
+                    
+                      
+                        P
+                        a
+                        c
+                        i
+                        f
+                        i
+                        s
+                        t
+                      
+                       
+                      X
+                       
+                    
+                  
+                
+              
+               
+            
+             
+            
+               
+              
+                
+                  R
+                  e
+                  p
+                  u
+                  b
+                  l
+                  i
+                  c
+                  a
+                  n
+                
+                 
+                
+                  N
+                  i
+                  x
+                  o
+                  n
+                
+                 
+                 
+                
+                  Q
+                  u
+                  a
+                  k
+                  e
+                  r
+                
+                 
+                
+                  N
+                  i
+                  x
+                  o
+                  n
+                
+                 
+              
+               
+            
+          
+            x  e  
+        
+      
+    
+      displaystyle  left langle  left    frac   mathrm  Republican   X   neg  mathrm  Pacifist   X    neg  mathrm  Pacifist   X      frac   mathrm  Quaker   X   mathrm  Pacifist   X    mathrm  Pacifist   X    right    left   mathrm  Republican    mathrm  Nixon     mathrm  Quaker    mathrm  Nixon    right   right rangle  
+  
+
+Since Nixon is both a Republican and a Quaker  both defaults can be applied  However  applying the first default leads to the conclusion that Nixon is not a pacifist  which makes the second default not applicable  In the same way  applying the second default we obtain that Nixon is a pacifist  thus making the first default not applicable  This particular default theory has therefore two extensions  one in which Pacifist Nixon  is true  and one in which Pacifist Nixon  is false 
+The original semantics of default logic was based on the fixed point of a function  The following is an equivalent algorithmic definition  If a default contains formulae with free variables  it is considered to represent the set of all defaults obtained by giving a value to all these variables  A default 
+  
+    
+      
+        
+          
+            
+                x b  
+               
+              
+                  x b  
+                
+                   
+                
+              
+               
+                x     
+               
+              
+                  x b  
+                
+                  n
+                
+              
+            
+              x b  
+          
+        
+      
+    
+      displaystyle   frac   alpha   beta       ldots   beta   n    gamma    
+  
+ is applicable to a propositional theory T if 
+  
+    
+      
+        T
+          x  a  
+          x b  
+      
+    
+      displaystyle T models  alpha  
+  
+ and all theories 
+  
+    
+      
+        T
+          x   a 
+         
+        
+            x b  
+          
+            i
+          
+        
+         
+      
+    
+      displaystyle T cup    beta   i    
+  
+ are consistent  The application of this default to T leads to the theory 
+  
+    
+      
+        T
+          x   a 
+         
+          x b  
+         
+      
+    
+      displaystyle T cup    gamma    
+  
+  An extension can be generated by applying the following algorithm 
+
+T   W            current theory   
+A                set of defaults applied so far   
+      
+                 apply a sequence of defaults   
+while there is a default d that is not in A and is applicable to T
+    add the consequence of d to T
+    add d to A
+      
+                 final consistency check   
+if 
+    for every default d in A
+        T is consistent with all justifications of d
+then
+    output T
+
+This algorithm is non deterministic  as several defaults can alternatively be applied to a given theory T  In the Nixon diamond example  the application of the first default leads to a theory to which the second default cannot be applied and vice versa  As a result  two extensions are generated  one in which Nixon is a pacifist and one in which Nixon is not a pacifist 
+The final check of consistency of the justifications of all defaults that have been applied implies that some theories do not have any extensions  In particular  this happens whenever this check fails for every possible sequence of applicable defaults  The following default theory has no extension 
+
+
+  
+    
+      
+        
+            x  e  
+          
+            
+               
+              
+                
+                  
+                     
+                    A
+                     
+                    b
+                     
+                  
+                  
+                      xac 
+                    A
+                     
+                    b
+                     
+                  
+                
+              
+               
+            
+             
+              x     
+          
+            x  e  
+        
+      
+    
+      displaystyle  left langle  left    frac   A b    neg A b    right    emptyset  right rangle  
+  
+
+Since 
+  
+    
+      
+        A
+         
+        b
+         
+      
+    
+      displaystyle A b  
+  
+ is consistent with the background theory  the default can be applied  thus leading to the conclusion that 
+  
+    
+      
+        A
+         
+        b
+         
+      
+    
+      displaystyle A b  
+  
+ is false  This result however undermines the assumption that has been made for applying the first default  Consequently  this theory has no extensions 
+In a normal default theory  all defaults are normal  each default has the form 
+  
+    
+      
+        
+          
+            
+                x d  
+               
+                x c  
+            
+              x c  
+          
+        
+      
+    
+      displaystyle   frac   phi   psi    psi    
+  
+  A normal default theory is guaranteed to have at least one extension  Furthermore  the extensions of a normal default theory are mutually inconsistent  i e   inconsistent with each other 
+
+Entailment edit 
+A default theory can have zero  one  or more extensions  Entailment of a formula from a default theory can be defined in two ways 
+
+Skeptical
+a formula is entailed by a default theory if it is entailed by all its extensions 
+Credulous
+a formula is entailed by a default theory if it is entailed by at least one of its extensions 
+Thus  the Nixon diamond example theory has two extensions  one in which Nixon is a pacifist and one in which he is not a pacifist  Consequently  neither Pacifist Nixon  nor       Pacifist Nixon  are skeptically entailed  while both of them are credulously entailed  As this example shows  the credulous consequences of a default theory may be inconsistent with each other 
+
+Alternative default inference rules edit 
+The following alternative inference rules for default logic are all based on the same syntax as the original system 
+
+Justified
+differs from the original one in that a default is not applied if thereby the set T becomes inconsistent with a justification of an applied default 
+Concise
+a default is applied only if its consequence is not already entailed by T  the exact definition is more complicated than this one  this is only the main idea behind it  
+Constrained
+a default is applied only if the set composed of the background theory  the justifications of all applied defaults  and the consequences of all applied defaults  including this one  is consistent 
+Rational
+similar to constrained default logic  but the consequence of the default to add is not considered in the consistency check 
+Cautious
+defaults that can be applied but are conflicting with each other  like the ones of the Nixon diamond example  are not applied 
+The justified and constrained versions of the inference rule assign at least an extension to every default theory 
+
+Variants of default logic edit 
+The following variants of default logic differ from the original one on both syntax and semantics 
+
+Assertional variants
+An assertion is a pair 
+  
+    
+      
+          x  e  
+        p
+         
+         
+        
+          r
+          
+             
+          
+        
+         
+          x     
+         
+        
+          r
+          
+            n
+          
+        
+         
+          x  e  
+      
+    
+      displaystyle  langle p   r      ldots  r  n    rangle  
+  
+ composed of a formula and a set of formulae  Such a pair indicates that p is true while the formulae 
+  
+    
+      
+        
+          r
+          
+             
+          
+        
+         
+          x     
+         
+        
+          r
+          
+            n
+          
+        
+      
+    
+      displaystyle r      ldots  r  n  
+  
+ have been assumed consistent to prove that p is true  An assertional default theory is composed of an assertional theory  a set of assertional formulae  called the background theory and a set of defaults defined as in the original syntax  Whenever a default is applied to an assertional theory  the pair composed of its consequence and its set of justifications is added to the theory  The following semantics use assertional theories 
+Cumulative default logic
+Commitment to assumptions default logic
+Quasi default logic
+Weak extensions
+rather than checking whether the preconditions are valid in the theory composed of the background theory and the consequences of the applied defaults  the preconditions are checked for validity in the extension that will be generated  in other words  the algorithm for generating extensions starts by guessing a theory and using it in place of the background theory  what results from the process of extension generation is actually an extension only if it is equivalent to the theory guessed at the beginning  This variant of default logic is related in principle to autoepistemic logic  where a theory 
+  
+    
+      
+          x  fb 
+        x
+          x     
+        x
+      
+    
+      displaystyle  Box x rightarrow x 
+  
+ has the model in which x is true just because  assuming 
+  
+    
+      
+          x  fb 
+        x
+      
+    
+      displaystyle  Box x 
+  
+ true  the formula 
+  
+    
+      
+          x  fb 
+        x
+          x     
+        x
+      
+    
+      displaystyle  Box x rightarrow x 
+  
+ supports the initial assumption 
+Disjunctive default logic
+the consequence of a default is a set of formulae instead of a single formula  Whenever the default is applied  at least one of its consequences is nondeterministically chosen and made true 
+Priorities on defaults
+the relative priority of defaults can be explicitly specified  among the defaults that are applicable to a theory  only one of the most preferred ones can be applied  Some semantics of default logic do not require priorities to be explicitly specified  rather  more specific defaults  those that are applicable in fewer cases  are preferred over less specific ones 
+Statistical variant
+a statistical default is a default with an attached upper bound on its frequency of error  in other words  the default is assumed to be an incorrect inference rule in at most that fraction of times it is applied 
+Translations edit 
+Default theories can be translated into theories in other logics and vice versa  The following conditions on translations have been considered 
+
+Consequence Preserving
+the original and the translated theories have the same  propositional  consequences 
+Faithful
+this condition only makes sense when translating between two variants of default logic or between default logic and a logic in which a concept similar to extension exists  e g   models in modal logic  a translation is faithful if there exists a mapping  typically  a bijection  between the extensions  or models  of the original and translated theories 
+Modular
+a translation from default logic to another logic is modular if the defaults and the background theory can be translated separately  moreover  the addition of formulae to the background theory only leads to adding the new formulae to the result of the translation 
+Same Alphabet
+the original and translated theories are built on the same alphabet 
+Polynomial
+the running time of the translation or the size of the generated theory are required to be polynomial in the size of the original theory 
+Translations are typically required to be faithful or at
+least consequence preserving  while the conditions of
+modularity and same alphabet are sometimes ignored 
+The translatability between propositional default logic and
+the following logics have been studied 
+
+classical propositional logic 
+autoepistemic logic 
+propositional default logic restricted to seminormal theories 
+alternative semantics of default logic 
+circumscription 
+Translations exist or not depending on which conditions are imposed  Translations from propositional default logic to classical propositional logic cannot always generate a polynomially sized propositional theory  unless the polynomial hierarchy collapses  Translations to autoepistemic logic exist or not depending on whether modularity or the use of the same alphabet is required 
+
+Complexity edit 
+The computational complexity of the following problems about default logic is known 
+
+Existence of extensions
+deciding whether a propositional default theory has at least one extension is 
+  
+    
+      
+        
+            x a  
+          
+             
+          
+          
+            P
+          
+        
+      
+    
+      displaystyle  Sigma       P  
+  
+ complete 
+Skeptical entailment
+deciding whether a propositional default theory skeptically entails a propositional formula is 
+  
+    
+      
+        
+            x a  
+          
+             
+          
+          
+            P
+          
+        
+      
+    
+      displaystyle  Pi       P  
+  
+ complete 
+Credulous entailment
+deciding whether a propositional default theory credulously entails a propositional formula is 
+  
+    
+      
+        
+            x a  
+          
+             
+          
+          
+            P
+          
+        
+      
+    
+      displaystyle  Sigma       P  
+  
+ complete 
+Extension checking
+deciding whether a propositional formula is equivalent to an extension of a propositional default theory is 
+  
+    
+      
+        
+            x    
+          
+             
+          
+          
+            P
+             
+            log
+             
+          
+        
+      
+    
+      displaystyle  Delta       P  log    
+  
+ complete 
+Model checking
+deciding whether a propositional interpretation is a model of an extension of a propositional default theory is 
+  
+    
+      
+        
+            x a  
+          
+             
+          
+          
+            P
+          
+        
+      
+    
+      displaystyle  Sigma       P  
+  
+ complete 
+Implementations edit 
+Four systems implementing default logics are 
+DeReS     permanent dead link      
+XRay  
+GADeL Archived            at the Wayback Machine  and Catala 
+
+See also edit 
+Answer set programming
+Defeasible logic
+Non monotonic logic
+Logic programming
+References edit 
+G  Antoniou         A tutorial on default logics  ACM Computing Surveys                
+M  Cadoli  F  M  Donini  P  Liberatore  and M  Schaerf         Space efficiency of propositional knowledge representation formalisms Archived            at the Wayback Machine  Journal of Artificial Intelligence Research          
+P  Cholewinski  V  Marek  and M  Truszczynski         Default reasoning system DeReS  In Proceedings of the Fifth International Conference on the Principles of Knowledge Representation and Reasoning  KR      pages         
+J  Delgrande and T  Schaub         On the relation between Reiter s default logic and its  major  variants  In Seventh European Conference on Symbolic and Quantitative Approaches to Reasoning with Uncertainty  ECSQARU        pages         
+J  P  Delgrande  T  Schaub  and W  K  Jackson         Alternative approaches to default logic  Artificial Intelligence             
+G  Gottlob         Complexity results for nonmonotonic logics  Journal of Logic and Computation            
+G  Gottlob         Translating default logic into standard autoepistemic logic  Journal of the ACM             
+T  Imielinski         Results on translating defaults to circumscription  Artificial Intelligence             
+T  Janhunen         On the intertranslatability of autoepistemic  default and priority logics  and parallel circumscription  In Proceedings of the Sixth European Workshop on Logics in Artificial Intelligence  JELIA      pages         
+T  Janhunen         Evaluating the effect of semi normality on the expressiveness of defaults  Artificial Intelligence              
+H  E  Kyburg and C M  Teng         Nonmonotonic Logic and Statistical Inference  Computational Intelligence               
+P  Liberatore and M  Schaerf         The complexity of model checking for propositional default logics  In Proceedings of the Thirteenth European Conference on Artificial Intelligence  ECAI      pages       
+W  Lukaszewicz         Considerations on default logic  an alternative approach  Computational Intelligence            
+W  Marek and M  Truszczynski         Nonmonotonic Logics  Context Dependent Reasoning  Springer 
+A  Mikitiuk and M  Truszczynski         Constrained and rational default logics  In Proceedings of the Fourteenth International Joint Conference on Artificial Intelligence  IJCAI      pages           
+P  Nicolas  F  Saubion and I  St phan         Heuristics for a Default Logic Reasoning System Archived            at the Wayback Machine  International Journal on Artificial Intelligence Tools                
+R  Reiter         A logic for default reasoning  Artificial Intelligence            
+T  Schaub  S  Br ning  and P  Nicolas         XRay  A prolog technology theorem prover for default reasoning  A system description  In Proceedings of the Thirteenth International Conference on Automated Deduction  CADE      pages         
+G  Wheeler         A resource bounded default logic  In Proceedings of the   th International Workshop on Non Monotonic Reasoning  NMR      Whistler  British Columbia          
+G  Wheeler and C  Damasio         An Implementation of Statistical Default Logic  In Proceedings of the  th European Conference on Logics in Artificial Intelligence  JELIA        LNCS Series  Springer  pages         
+External links edit 
+Schmidt  Charles F  RCI Rutgers edu  Default Logic  Retrieved August          
+Ramsay  Allan         UMIST ac uk  Default Logic  Retrieved August          
+Stanford edu  Defeasible reasoning  Stanford Encyclopedia of Philosophy 
+Authority control databases  National United StatesIsrael
+
+
+
+
+
+Retrieved from  https   en wikipedia org w index php title Default logic amp oldid

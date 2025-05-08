@@ -1,0 +1,3110 @@
+Algorithmic processing of digitally represented images
+This article is about mathematical processing of digital images  For artistic processing of images  see Image editing  For compression algorithms  see Image compression 
+
+
+ Image processing  redirects here and is not to be confused with Analog image processing 
+Digital image processing is the use of a digital computer to process digital images through an algorithm                        As a subcategory or field of digital signal processing  digital image processing has many advantages over analog image processing  It allows a much wider range of algorithms to be applied to the input data and can avoid problems such as the build up of noise and distortion during processing  Since images are defined over two dimensions  perhaps more   digital image processing may be modeled in the form of multidimensional systems  The generation and development of digital image processing are mainly affected by three factors  first  the development of computers             second  the development of mathematics  especially the creation and improvement of discrete mathematics theory              and third  the demand for a wide range of applications in environment  agriculture  military  industry and medical science has increased            
+
+
+History edit 
+Further information  Digital image        History  and Digital imaging        History
+Many of the techniques of digital image processing  or digital picture processing as it often was called  were developed in the     s  at Bell Laboratories  the Jet Propulsion Laboratory  Massachusetts Institute of Technology  University of Maryland  and a few other research facilities  with application to satellite imagery  wire photo standards conversion  medical imaging  videophone  character recognition  and photograph enhancement             The purpose of early image processing was to improve the quality of the image  It was aimed for human beings to improve the visual effect of people  In image processing  the input is a low quality image  and the output is an image with improved quality  Common image processing include image enhancement  restoration  encoding  and compression  The first successful application was the American Jet Propulsion Laboratory  JPL   They used image processing techniques such as geometric correction  gradation transformation  noise removal  etc  on the thousands of lunar photos sent back by the Space Detector Ranger   in       taking into account the position of the Sun and the environment of the Moon  The impact of the successful mapping of the Moon s surface map by the computer has been a success  Later  more complex image processing was performed on the nearly         photos sent back by the spacecraft  so that the topographic map  color map and panoramic mosaic of the Moon were obtained  which achieved extraordinary results and laid a solid foundation for human landing on the Moon            
+The cost of processing was fairly high  however  with the computing equipment of that era  That changed in the     s  when digital image processing proliferated as cheaper computers and dedicated hardware became available  This led to images being processed in real time  for some dedicated problems such as television standards conversion  As general purpose computers became faster  they started to take over the role of dedicated hardware for all but the most specialized and computer intensive operations  With the fast computers and signal processors available in the     s  digital image processing has become the most common form of image processing  and is generally used because it is not only the most versatile method  but also the cheapest 
+
+Image sensors edit 
+Main article  Image sensor
+The basis for modern image sensors is metal oxide semiconductor  MOS  technology             invented at Bell Labs between      and                                                                              This led to the development of digital semiconductor image sensors  including the charge coupled device  CCD  and later the CMOS sensor            
+The charge coupled device was invented by Willard S  Boyle and George E  Smith at Bell Labs in                   While researching MOS technology  they realized that an electric charge was the analogy of the magnetic bubble and that it could be stored on a tiny MOS capacitor  As it was fairly straightforward to fabricate a series of MOS capacitors in a row  they connected a suitable voltage to them so that the charge could be stepped along from one to the next             The CCD is a semiconductor circuit that was later used in the first digital video cameras for television broadcasting             
+The NMOS active pixel sensor  APS  was invented by Olympus in Japan during the mid     s  This was enabled by advances in MOS semiconductor device fabrication  with MOSFET scaling reaching smaller micron and then sub micron levels                          The NMOS APS was fabricated by Tsutomu Nakamura s team at Olympus in                   The CMOS active pixel sensor  CMOS sensor  was later developed by Eric Fossum s team at the NASA Jet Propulsion Laboratory in                   By       sales of CMOS sensors had surpassed CCD sensors             
+MOS image sensors are widely used in optical mouse technology  The first optical mouse  invented by Richard F  Lyon at Xerox in       used a         m NMOS integrated circuit sensor chip                          Since the first commercial optical mouse  the IntelliMouse introduced in       most optical mouse devices use CMOS sensors                         
+
+Image compression edit 
+Main article  Image compression
+An important development in digital image compression technology was the discrete cosine transform  DCT   a lossy compression technique first proposed by Nasir Ahmed in                   DCT compression became the basis for JPEG  which was introduced by the Joint Photographic Experts Group in                   JPEG compresses images down to much smaller file sizes  and has become the most widely used image file format on the Internet              Its highly efficient DCT compression algorithm was largely responsible for the wide proliferation of digital images and digital photos              with several billion JPEG images produced every day as of          update                  
+Medical imaging techniques produce very large amounts of data  especially from CT  MRI and PET modalities  As a result  storage and communications of electronic image data are prohibitive without the use of compression                          JPEG      image compression is used by the DICOM standard for storage and transmission of medical images  The cost and feasibility of accessing large image data sets over low or various bandwidths are further addressed by use of another DICOM standard  called JPIP  to enable efficient streaming of the JPEG      compressed image data             
+
+Digital signal processor  DSP  edit 
+Main article  Digital signal processor
+Electronic signal processing was revolutionized by the wide adoption of MOS technology in the     s              MOS integrated circuit technology was the basis for the first single chip microprocessors and microcontrollers in the early     s              and then the first single chip digital signal processor  DSP  chips in the late     s                          DSP chips have since been widely used in digital image processing             
+The discrete cosine transform  DCT  image compression algorithm has been widely implemented in DSP chips  with many companies developing DSP chips based on DCT technology  DCTs are widely used for encoding  decoding  video coding  audio coding  multiplexing  control signals  signaling  analog to digital conversion  formatting luminance and color differences  and color formats such as YUV    and YUV     DCTs are also used for encoding operations such as motion estimation  motion compensation  inter frame prediction  quantization  perceptual weighting  entropy encoding  variable encoding  and motion vectors  and decoding operations such as the inverse operation between different color formats  YIQ  YUV and RGB  for display purposes  DCTs are also commonly used for high definition television  HDTV  encoder decoder chips             
+
+Tasks edit 
+Digital image processing allows the use of much more complex algorithms  and hence  can offer both more sophisticated performance at simple tasks  and the implementation of methods which would be impossible by analogue means 
+In particular  digital image processing is a concrete application of  and a practical technology based on 
+
+Classification
+Feature extraction
+Multi scale signal analysis
+Pattern recognition
+Projection
+Some techniques which are used in digital image processing include 
+
+Anisotropic diffusion
+Hidden Markov models
+Image editing
+Image restoration
+Independent component analysis
+Linear filtering
+Neural networks
+Partial differential equations
+Pixelation
+Point feature matching
+Principal components analysis
+Self organizing maps
+Wavelets
+Digital image transformations edit 
+Filtering edit 
+Digital filters are used to blur and sharpen digital images  Filtering can be performed by 
+
+convolution with specifically designed kernels  filter array  in the spatial domain            
+masking specific frequency regions in the frequency  Fourier  domain
+The following examples show both methods             
+
+
+
+
+Filter type
+
+Kernel or mask
+
+Example
+
+
+Original Image
+
+
+  
+    
+      
+        
+          
+             
+            
+              
+                
+                   
+                
+                
+                   
+                
+                
+                   
+                
+              
+              
+                
+                   
+                
+                
+                   
+                
+                
+                   
+                
+              
+              
+                
+                   
+                
+                
+                   
+                
+                
+                   
+                
+              
+            
+             
+          
+        
+      
+    
+      displaystyle   begin bmatrix   amp   amp      amp   amp      amp   amp   end bmatrix   
+  
+
+
+
+
+
+Spatial Lowpass
+
+
+  
+    
+      
+        
+          
+             
+             
+          
+        
+          xd  
+        
+          
+             
+            
+              
+                
+                   
+                
+                
+                   
+                
+                
+                   
+                
+              
+              
+                
+                   
+                
+                
+                   
+                
+                
+                   
+                
+              
+              
+                
+                   
+                
+                
+                   
+                
+                
+                   
+                
+              
+            
+             
+          
+        
+      
+    
+      displaystyle   frac         times   begin bmatrix   amp   amp      amp   amp      amp   amp   end bmatrix   
+  
+
+
+
+
+
+Spatial Highpass
+
+
+  
+    
+      
+        
+          
+             
+            
+              
+                
+                   
+                
+                
+                    x     
+                   
+                
+                
+                   
+                
+              
+              
+                
+                    x     
+                   
+                
+                
+                   
+                
+                
+                    x     
+                   
+                
+              
+              
+                
+                   
+                
+                
+                    x     
+                   
+                
+                
+                   
+                
+              
+            
+             
+          
+        
+      
+    
+      displaystyle   begin bmatrix   amp    amp       amp   amp       amp    amp   end bmatrix   
+  
+
+
+
+
+
+Fourier Representation
+
+Pseudo code 
+image   checkerboard
+F   Fourier Transform of image
+Show Image  log   Absolute Value F  
+
+
+
+
+
+Fourier Lowpass
+
+
+
+
+
+
+Fourier Highpass
+
+
+
+
+
+
+Image padding in Fourier domain filtering edit 
+Images are typically padded before being transformed to the Fourier space  the highpass filtered images below illustrate the consequences of different padding techniques 
+
+
+
+
+Zero padded
+
+Repeated edge padded
+
+
+
+
+
+
+
+Notice that the highpass filter shows extra edges when zero padded compared to the repeated edge padding 
+
+Filtering code examples edit 
+MATLAB example for spatial domain highpass filtering 
+
+img checkerboard                                  generate checkerboard
+                              SPATIAL DOMAIN                             
+klaplace                                           Laplacian filter kernel
+X conv  img klaplace                              convolve test img with
+                                                   x  Laplacian kernel
+figure  
+imshow X                                          show Laplacian filtered
+title      Laplacian Edge Detection      
+
+Affine transformations edit 
+Affine transformations enable basic image transformations including scale  rotate  translate  mirror and shear as is shown in the following examples             
+
+
+
+
+Transformation Name
+
+Affine Matrix
+
+Example
+
+
+Identity
+
+
+  
+    
+      
+        
+          
+             
+            
+              
+                
+                   
+                
+                
+                   
+                
+                
+                   
+                
+              
+              
+                
+                   
+                
+                
+                   
+                
+                
+                   
+                
+              
+              
+                
+                   
+                
+                
+                   
+                
+                
+                   
+                
+              
+            
+             
+          
+        
+      
+    
+      displaystyle   begin bmatrix   amp   amp      amp   amp      amp   amp   end bmatrix   
+  
+
+
+
+
+
+Reflection
+
+
+  
+    
+      
+        
+          
+             
+            
+              
+                
+                    x     
+                   
+                
+                
+                   
+                
+                
+                   
+                
+              
+              
+                
+                   
+                
+                
+                   
+                
+                
+                   
+                
+              
+              
+                
+                   
+                
+                
+                   
+                
+                
+                   
+                
+              
+            
+             
+          
+        
+      
+    
+      displaystyle   begin bmatrix    amp   amp      amp   amp      amp   amp   end bmatrix   
+  
+
+
+
+
+
+Scale
+
+
+  
+    
+      
+        
+          
+             
+            
+              
+                
+                  
+                    c
+                    
+                      x
+                    
+                  
+                   
+                   
+                
+                
+                   
+                
+                
+                   
+                
+              
+              
+                
+                   
+                
+                
+                  
+                    c
+                    
+                      y
+                    
+                  
+                   
+                   
+                
+                
+                   
+                
+              
+              
+                
+                   
+                
+                
+                   
+                
+                
+                   
+                
+              
+            
+             
+          
+        
+      
+    
+      displaystyle   begin bmatrix c  x    amp   amp      amp c  y    amp      amp   amp   end bmatrix   
+  
+
+
+
+
+
+Rotate
+
+
+  
+    
+      
+        
+          
+             
+            
+              
+                
+                  cos
+                    x     
+                   
+                    x b  
+                   
+                
+                
+                  sin
+                    x     
+                   
+                    x b  
+                   
+                
+                
+                   
+                
+              
+              
+                
+                    x     
+                  sin
+                    x     
+                   
+                    x b  
+                   
+                
+                
+                  cos
+                    x     
+                   
+                    x b  
+                   
+                
+                
+                   
+                
+              
+              
+                
+                   
+                
+                
+                   
+                
+                
+                   
+                
+              
+            
+             
+          
+        
+      
+    
+      displaystyle   begin bmatrix  cos  theta   amp  sin  theta   amp      sin  theta   amp  cos  theta   amp      amp   amp   end bmatrix   
+  
+
+
+ where                           
+
+
+Shear
+
+
+  
+    
+      
+        
+          
+             
+            
+              
+                
+                   
+                
+                
+                  
+                    c
+                    
+                      x
+                    
+                  
+                   
+                     
+                
+                
+                   
+                
+              
+              
+                
+                  
+                    c
+                    
+                      y
+                    
+                  
+                   
+                   
+                
+                
+                   
+                
+                
+                   
+                
+              
+              
+                
+                   
+                
+                
+                   
+                
+                
+                   
+                
+              
+            
+             
+          
+        
+      
+    
+      displaystyle   begin bmatrix   amp c  x      amp    c  y    amp   amp      amp   amp   end bmatrix   
+  
+
+
+
+
+
+To apply the affine matrix to an image  the image is converted to matrix in which each entry corresponds to the pixel intensity at that location  Then each pixel s location can be represented as a vector indicating the coordinates of that pixel in the image   x  y   where x and y are the row and column of a pixel in the image matrix  This allows the coordinate to be multiplied by an affine transformation matrix  which gives the position that the pixel value will be copied to in the output image 
+However  to allow transformations that require translation transformations    dimensional homogeneous coordinates are needed  The third dimension is usually set to a non zero constant  usually    so that the new coordinate is  x  y      This allows the coordinate vector to be multiplied by a     matrix  enabling translation shifts  Thus  the third dimension  i e  the constant    allows translation 
+Because matrix multiplication is associative  multiple affine transformations can be combined into a single affine transformation by multiplying the matrix of each individual transformation in the order that the transformations are done  This results in a single matrix that  when applied to a point vector  gives the same result as all the individual transformations performed on the vector  x  y     in sequence  Thus a sequence of affine transformation matrices can be reduced to a single affine transformation matrix 
+For example    dimensional coordinates only permit rotation about the origin         But   dimensional homogeneous coordinates can be used to first translate any point to         then perform the rotation  and lastly translate the origin        back to the original point  the opposite of the first translation   These three affine transformations can be combined into a single matrix thus allowing rotation around any point in the image             
+
+Image denoising with mathematical morphology edit 
+Mathematical morphology  MM  is a nonlinear image processing framework that analyzes shapes within images by probing local pixel neighborhoods using a small  predefined function called a structuring element  In the context of grayscale images  MM is especially useful for denoising through dilation and erosion primitive operators that can be combined to build more complex filters 
+Suppose we have 
+
+A discrete grayscale image  
+  
+    
+      
+        f
+         
+        
+          
+             
+            
+              
+                
+                    
+                
+                
+                    
+                
+                
+                    
+                
+              
+              
+                
+                    
+                
+                
+                    
+                
+                
+                    
+                
+              
+              
+                
+                    
+                
+                
+                    
+                
+                
+                   
+                
+              
+            
+             
+          
+        
+         
+        
+        f
+         
+          x a  
+          x     
+        
+          R
+        
+         
+        
+          x a  
+         
+         
+         
+         
+         
+         
+         
+        
+           
+          
+             
+          
+        
+         
+      
+    
+      displaystyle f   begin bmatrix    amp    amp        amp    amp        amp    amp   end bmatrix    quad f  Omega  rightarrow  mathbb  R    quad  Omega                 
+  
+
+A structuring element  
+  
+    
+      
+        B
+         
+        
+          
+             
+            
+              
+                
+                   
+                
+                
+                   
+                
+                
+                   
+                
+              
+              
+                
+                   
+                
+                
+                   
+                
+                
+                   
+                
+              
+              
+                
+                   
+                
+                
+                   
+                
+                
+                   
+                
+              
+            
+             
+          
+        
+         
+        
+        B
+         
+        
+          
+            S
+          
+        
+          x     
+        
+          R
+        
+         
+        
+        
+          
+            S
+          
+        
+         
+         
+          x     
+         
+         
+         
+         
+         
+        
+           
+          
+             
+          
+        
+         
+      
+    
+      displaystyle B   begin bmatrix   amp   amp      amp   amp      amp   amp   end bmatrix    quad B   mathcal  S   rightarrow  mathbb  R    quad   mathcal  S                   
+  
+
+Here  
+  
+    
+      
+        
+          
+            S
+          
+        
+      
+    
+      displaystyle   mathcal  S   
+  
+ defines the neighborhood of relative coordinates 
+  
+    
+      
+         
+        m
+         
+        n
+         
+      
+    
+      displaystyle  m n  
+  
+ over which local operations are computed  The values of 
+  
+    
+      
+        B
+         
+        m
+         
+        n
+         
+      
+    
+      displaystyle B m n  
+  
+ bias the image during dilation and erosion 
+
+Dilation
+Grayscale dilation is defined as 
+
+  
+    
+      
+         
+        f
+          x     
+        B
+         
+         
+        i
+         
+        j
+         
+         
+        
+          max
+          
+             
+            m
+             
+            n
+             
+              x     
+            
+              
+                S
+              
+            
+          
+        
+        
+          
+             
+          
+        
+        f
+         
+        i
+         
+        m
+         
+        j
+         
+        n
+         
+         
+        B
+         
+        m
+         
+        n
+         
+        
+          
+             
+          
+        
+         
+      
+    
+      displaystyle  f oplus B  i j   max    m n  in   mathcal  S     Bigl    f i m j n  B m n   Bigr      
+  
+
+
+For example  the dilation at position        is calculated as 
+
+  
+    
+      
+        
+          
+            
+              
+                 
+                f
+                  x     
+                B
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                max
+                
+                
+                  
+                     
+                  
+                
+              
+              
+                f
+                 
+                 
+                 
+                 
+                 
+                 
+                B
+                 
+                  x     
+                 
+                 
+                  x     
+                 
+                 
+                 
+              
+              
+                
+                  
+                 
+                 
+                 
+              
+              
+            
+            
+              
+              
+                f
+                 
+                 
+                 
+                 
+                 
+                 
+                B
+                 
+                 
+                 
+                  x     
+                 
+                 
+                 
+              
+              
+                
+                  
+                 
+                 
+                 
+              
+              
+            
+            
+              
+              
+                f
+                 
+                 
+                 
+                 
+                 
+                 
+                B
+                 
+                 
+                 
+                  x     
+                 
+                 
+                 
+              
+              
+                
+                  
+                 
+                 
+                 
+              
+              
+            
+            
+              
+              
+                f
+                 
+                 
+                 
+                 
+                 
+                 
+                B
+                 
+                  x     
+                 
+                 
+                 
+                 
+                 
+              
+              
+                
+                  
+                 
+                 
+                 
+              
+              
+            
+            
+              
+              
+                f
+                 
+                 
+                 
+                 
+                 
+                 
+                B
+                 
+                 
+                 
+                 
+                 
+                 
+              
+              
+                
+                  
+                 
+                 
+                 
+              
+              
+            
+            
+              
+              
+                f
+                 
+                 
+                 
+                 
+                 
+                 
+                B
+                 
+                 
+                 
+                 
+                 
+                 
+              
+              
+                
+                  
+                 
+                 
+                 
+              
+              
+            
+            
+              
+              
+                f
+                 
+                 
+                 
+                 
+                 
+                 
+                B
+                 
+                  x     
+                 
+                 
+                 
+                 
+                 
+              
+              
+                
+                  
+                 
+                 
+                 
+              
+              
+            
+            
+              
+              
+                f
+                 
+                 
+                 
+                 
+                 
+                 
+                B
+                 
+                 
+                 
+                 
+                 
+                 
+              
+              
+                
+                  
+                 
+                 
+                 
+              
+              
+            
+            
+              
+              
+                f
+                 
+                 
+                 
+                 
+                 
+                 
+                B
+                 
+                 
+                 
+                 
+                 
+              
+              
+                
+                 
+                 
+                 
+                
+                  
+                     
+                  
+                
+                 
+                   
+              
+            
+          
+        
+      
+    
+      displaystyle   begin aligned  f oplus B        max     Bigl    amp f      B         amp         amp    amp f      B        amp         amp    amp f      B        amp         amp    amp f      B        amp         amp    amp f      B       amp         amp    amp f      B       amp         amp    amp f      B        amp         amp    amp f      B       amp         amp    amp f      B      amp        Bigr        end aligned   
+  
+
+
+Erosion
+Grayscale erosion is defined as 
+
+  
+    
+      
+         
+        f
+          x     
+        B
+         
+         
+        i
+         
+        j
+         
+         
+        
+          min
+          
+             
+            m
+             
+            n
+             
+              x     
+            
+              
+                S
+              
+            
+          
+        
+        
+          
+             
+          
+        
+        f
+         
+        i
+         
+        m
+         
+        j
+         
+        n
+         
+          x     
+        B
+         
+        m
+         
+        n
+         
+        
+          
+             
+          
+        
+         
+      
+    
+      displaystyle  f ominus B  i j   min    m n  in   mathcal  S     Bigl    f i m j n  B m n   Bigr      
+  
+
+
+For example  the erosion at position        is calculated as 
+
+  
+    
+      
+        
+          
+            
+              
+                 
+                f
+                  x     
+                B
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                min
+                
+                
+                  
+                     
+                  
+                
+              
+              
+                f
+                 
+                 
+                 
+                 
+                 
+                  x     
+                B
+                 
+                  x     
+                 
+                 
+                  x     
+                 
+                 
+                 
+              
+              
+                
+                  
+                  x     
+                 
+                 
+              
+              
+            
+            
+              
+              
+                f
+                 
+                 
+                 
+                 
+                 
+                  x     
+                B
+                 
+                 
+                 
+                  x     
+                 
+                 
+                 
+              
+              
+                
+                  
+                  x     
+                 
+                 
+              
+              
+            
+            
+              
+              
+                f
+                 
+                 
+                 
+                 
+                 
+                  x     
+                B
+                 
+                 
+                 
+                  x     
+                 
+                 
+                 
+              
+              
+                
+                  
+                  x     
+                 
+                 
+              
+              
+            
+            
+              
+              
+                f
+                 
+                 
+                 
+                 
+                 
+                  x     
+                B
+                 
+                  x     
+                 
+                 
+                 
+                 
+                 
+              
+              
+                
+                  
+                  x     
+                 
+                 
+              
+              
+            
+            
+              
+              
+                f
+                 
+                 
+                 
+                 
+                 
+                  x     
+                B
+                 
+                 
+                 
+                 
+                 
+                 
+              
+              
+                
+                  
+                  x     
+                 
+                 
+              
+              
+            
+            
+              
+              
+                f
+                 
+                 
+                 
+                 
+                 
+                  x     
+                B
+                 
+                 
+                 
+                 
+                 
+                 
+              
+              
+                
+                  
+                  x     
+                 
+                 
+              
+              
+            
+            
+              
+              
+                f
+                 
+                 
+                 
+                 
+                 
+                  x     
+                B
+                 
+                  x     
+                 
+                 
+                 
+                 
+                 
+              
+              
+                
+                  
+                  x     
+                 
+                 
+              
+              
+            
+            
+              
+              
+                f
+                 
+                 
+                 
+                 
+                 
+                  x     
+                B
+                 
+                 
+                 
+                 
+                 
+                 
+              
+              
+                
+                  
+                  x     
+                 
+                 
+              
+              
+            
+            
+              
+              
+                f
+                 
+                 
+                 
+                 
+                 
+                  x     
+                B
+                 
+                 
+                 
+                 
+                 
+              
+              
+                
+                 
+                  x     
+                 
+                
+                  
+                     
+                  
+                
+                 
+                  
+              
+            
+          
+        
+      
+    
+      displaystyle   begin aligned  f ominus B        min     Bigl    amp f      B         amp         amp    amp f      B        amp         amp    amp f      B        amp         amp    amp f      B        amp         amp    amp f      B       amp         amp    amp f      B       amp         amp    amp f      B        amp         amp    amp f      B       amp         amp    amp f      B      amp        Bigr       end aligned   
+  
+
+
+Results edit 
+After applying dilation to 
+  
+    
+      
+        f
+      
+    
+      displaystyle f 
+  
+ 
+
+  
+    
+      
+        
+          
+             
+            
+              
+                
+                    
+                
+                
+                    
+                
+                
+                    
+                
+              
+              
+                
+                    
+                
+                
+                    
+                
+                
+                    
+                
+              
+              
+                
+                    
+                
+                
+                    
+                
+                
+                   
+                
+              
+            
+             
+          
+        
+      
+    
+      displaystyle   begin bmatrix    amp    amp        amp    amp        amp    amp   end bmatrix   
+  
+
+After applying erosion to 
+  
+    
+      
+        f
+      
+    
+      displaystyle f 
+  
+ 
+
+  
+    
+      
+        
+          
+             
+            
+              
+                
+                    
+                
+                
+                    
+                
+                
+                    
+                
+              
+              
+                
+                    
+                
+                
+                   
+                
+                
+                    
+                
+              
+              
+                
+                    
+                
+                
+                    
+                
+                
+                   
+                
+              
+            
+             
+          
+        
+      
+    
+      displaystyle   begin bmatrix    amp    amp        amp   amp        amp    amp   end bmatrix   
+  
+
+
+Opening and Closing edit 
+MM operations  such as opening and closing  are composite processes that utilize both dilation and erosion to modify the structure of an image  These operations are particularly useful for tasks such as noise removal  shape smoothing  and object separation 
+
+Opening  This operation is performed by applying erosion to an image first  followed by dilation  The purpose of opening is to remove small objects or noise from the foreground while preserving the overall structure of larger objects  It is especially effective in situations where noise appears as isolated bright pixels or small  disconnected features 
+For example  applying opening to an image 
+  
+    
+      
+        f
+      
+    
+      displaystyle f 
+  
+ with a structuring element 
+  
+    
+      
+        B
+      
+    
+      displaystyle B 
+  
+ would first reduce small details  through erosion  and then restore the main shapes  through dilation   This ensures that unwanted noise is removed without significantly altering the size or shape of larger objects 
+
+Closing  This operation is performed by applying dilation first  followed by erosion  Closing is typically used to fill small holes or gaps within objects and to connect broken parts of the foreground  It works by initially expanding the boundaries of objects  through dilation  and then refining the boundaries  through erosion  
+For instance  applying closing to the same image 
+  
+    
+      
+        f
+      
+    
+      displaystyle f 
+  
+ would fill in small gaps within objects  such as connecting breaks in thin lines or closing small holes  while ensuring that the surrounding areas are not significantly affected 
+Both opening and closing can be visualized as ways of refining the structure of an image  opening simplifies and removes small  unnecessary details  while closing consolidates and connects objects to form more cohesive structures 
+
+
+
+
+Structuring element
+
+Mask
+
+Code
+
+Example
+
+
+Original Image
+
+None
+
+Use Matlab to read Original image
+original   imread      scene jpg       
+image   rgb gray original  
+ r  c  channel    size image  
+se   logical                          
+ p  q    size se  
+halfH   floor p    
+halfW   floor q    
+time                  denoising   times with all method
+
+
+Original lotus
+
+
+
+Dilation
+
+
+  
+    
+      
+        
+          
+             
+            
+              
+                
+                   
+                
+                
+                   
+                
+                
+                   
+                
+              
+              
+                
+                   
+                
+                
+                   
+                
+                
+                   
+                
+              
+              
+                
+                   
+                
+                
+                   
+                
+                
+                   
+                
+              
+            
+             
+          
+        
+      
+    
+      displaystyle   begin bmatrix   amp   amp      amp   amp      amp   amp   end bmatrix   
+  
+
+
+Use Matlab to dilation
+imwrite image   quot scene dil jpg quot  
+extractmax   zeros size image   class image   
+for i       time
+    dil image   imread      scene dil jpg       
+    for col    halfW        c   halfW 
+        for row    halfH         r   halfH 
+            dpointD   row   halfH 
+            dpointU   row   halfH 
+            dpointL   col   halfW 
+            dpointR   col   halfW 
+            dneighbor   dil image dpointD dpointU  dpointL dpointR  
+            filter   dneighbor se  
+            extractmax row  col    max filter  
+        end
+    end
+    imwrite extractmax   quot scene dil jpg quot   
+end
+
+
+Denoising picture with dilation method
+
+
+Erosion
+
+
+  
+    
+      
+        
+          
+             
+            
+              
+                
+                   
+                
+                
+                   
+                
+                
+                   
+                
+              
+              
+                
+                   
+                
+                
+                   
+                
+                
+                   
+                
+              
+              
+                
+                   
+                
+                
+                   
+                
+                
+                   
+                
+              
+            
+             
+          
+        
+      
+    
+      displaystyle   begin bmatrix   amp   amp      amp   amp      amp   amp   end bmatrix   
+  
+
+
+Use Matlab to erosion
+imwrite image       scene ero jpg       
+extractmin   zeros size image   class image   
+for i      time
+    ero image   imread      scene ero jpg       
+    for col    halfW        c   halfW 
+        for row    halfH       r  halfH 
+            pointDown   row halfH 
+            pointUp   row halfH 
+            pointLeft   col halfW 
+            pointRight   col halfW 
+            neighbor   ero image pointDown pointUp pointLeft pointRight  
+            filter   neighbor se  
+            extractmin row  col    min filter  
+        end
+    end
+    imwrite extractmin   quot scene ero jpg quot   
+end
+
+
+
+
+
+
+Opening
+
+
+  
+    
+      
+        
+          
+             
+            
+              
+                
+                   
+                
+                
+                   
+                
+                
+                   
+                
+              
+              
+                
+                   
+                
+                
+                   
+                
+                
+                   
+                
+              
+              
+                
+                   
+                
+                
+                   
+                
+                
+                   
+                
+              
+            
+             
+          
+        
+      
+    
+      displaystyle   begin bmatrix   amp   amp      amp   amp      amp   amp   end bmatrix   
+  
+
+
+Use Matlab to Opening
+imwrite extractmin   quot scene opening jpg quot  
+extractopen   zeros size image   class image   
+for i       time
+    dil image   imread      scene opening jpg       
+    for col    halfW        c   halfW 
+        for row    halfH         r   halfH 
+            dpointD   row   halfH 
+            dpointU   row   halfH 
+            dpointL   col   halfW 
+            dpointR   col   halfW 
+            dneighbor   dil image dpointD dpointU  dpointL dpointR  
+            filter   dneighbor se  
+            extractopen row  col    max filter  
+        end
+    end
+    imwrite extractopen   quot scene opening jpg quot   
+end
+
+
+
+
+
+Closing
+
+
+  
+    
+      
+        
+          
+             
+            
+              
+                
+                   
+                
+                
+                   
+                
+                
+                   
+                
+              
+              
+                
+                   
+                
+                
+                   
+                
+                
+                   
+                
+              
+              
+                
+                   
+                
+                
+                   
+                
+                
+                   
+                
+              
+            
+             
+          
+        
+      
+    
+      displaystyle   begin bmatrix   amp   amp      amp   amp      amp   amp   end bmatrix   
+  
+
+
+Use Matlab to Closing
+imwrite extractmax   quot scene closing jpg quot  
+extractclose   zeros size image   class image   
+for i       time
+    ero image   imread      scene closing jpg       
+    for col    halfW        c   halfW 
+        for row    halfH         r   halfH 
+            dpointD   row   halfH 
+            dpointU   row   halfH 
+            dpointL   col   halfW 
+            dpointR   col   halfW 
+            dneighbor   ero image dpointD dpointU  dpointL dpointR  
+            filter   dneighbor se  
+            extractclose row  col    min filter  
+        end
+    end
+    imwrite extractclose   quot scene closing jpg quot   
+end
+
+
+Denoising picture with closing method
+
+
+Applications edit 
+Further information  Digital imaging and Applications of computer vision
+Digital camera images edit 
+Digital cameras generally include specialized digital image processing hardware   either dedicated chips or added circuitry on other chips   to convert the raw data from their image sensor into a color corrected image in a standard image file format  Additional post processing techniques increase edge sharpness or color saturation to create more naturally looking images 
+
+Film edit 
+Westworld        was the first feature film to use the digital image processing to pixellate photography to simulate an android s point of view              Image processing is also vastly used to produce the chroma key effect that replaces the background of actors with natural or artistic scenery 
+
+Face detection edit 
+Face detection process
+Face detection can be implemented with mathematical morphology  the discrete cosine transform  DCT   and horizontal projection 
+General method with feature based method
+The feature based method of face detection is using skin tone  edge detection  face shape  and feature of a face  like eyes  mouth  etc   to achieve face detection  The skin tone  face shape  and all the unique elements that only the human face have can be described as features 
+Process explanation
+
+Given a batch of face images  first  extract the skin tone range by sampling face images  The skin tone range is just a skin filter 
+Structural similarity index measure  SSIM  can be applied to compare images in terms of extracting the skin tone 
+Normally  HSV or RGB color spaces are suitable for the skin filter  E g  HSV mode  the skin tone range is                         
+After filtering images with skin tone  to get the face edge  morphology and DCT are used to remove noise and fill up missing skin areas 
+Opening method or closing method can be used to achieve filling up missing skin 
+DCT is to avoid the object with skin like tone  Since human faces always have higher texture 
+Sobel operator or other operators can be applied to detect face edge 
+To position human features like eyes  using the projection and find the peak of the histogram of projection help to get the detail feature like mouth  hair  and lip 
+Projection is just projecting the image to see the high frequency which is usually the feature position 
+Improvement of image quality method edit 
+Image quality can be influenced by camera vibration  over exposure  gray level distribution too centralized  and noise  etc  For example  noise problem can be solved by smoothing method while gray level distribution problem can be improved by histogram equalization 
+Smoothing method
+In drawing  if there is some dissatisfied color  taking some color around dissatisfied color and averaging them  This is an easy way to think of Smoothing method 
+Smoothing method can be implemented with mask and convolution  Take the small image and mask for instance as below 
+image is
+
+  
+    
+      
+        
+          
+             
+            
+              
+                
+                   
+                
+                
+                   
+                
+                
+                   
+                
+                
+                   
+                
+              
+              
+                
+                   
+                
+                
+                   
+                
+                
+                   
+                
+                
+                   
+                
+              
+              
+                
+                   
+                
+                
+                    
+                
+                
+                    
+                
+                
+                   
+                
+              
+              
+                
+                   
+                
+                
+                   
+                
+                
+                   
+                
+                
+                   
+                
+              
+            
+             
+          
+        
+      
+    
+      displaystyle   begin bmatrix   amp   amp   amp      amp   amp   amp      amp    amp    amp      amp   amp   amp   end bmatrix   
+  
+
+mask is 
+  
+    
+      
+        
+          
+             
+            
+              
+                
+                   
+                  
+                     
+                  
+                   
+                
+                
+                   
+                  
+                     
+                  
+                   
+                
+                
+                   
+                  
+                     
+                  
+                   
+                
+              
+              
+                
+                   
+                  
+                     
+                  
+                   
+                
+                
+                   
+                  
+                     
+                  
+                   
+                
+                
+                   
+                  
+                     
+                  
+                   
+                
+              
+              
+                
+                   
+                  
+                     
+                  
+                   
+                
+                
+                   
+                  
+                     
+                  
+                   
+                
+                
+                   
+                  
+                     
+                  
+                   
+                
+              
+            
+             
+          
+        
+      
+    
+      displaystyle   begin bmatrix     amp     amp          amp     amp          amp     amp     end bmatrix   
+  
+
+After convolution and smoothing  image is
+
+  
+    
+      
+        
+          
+             
+            
+              
+                
+                   
+                
+                
+                   
+                
+                
+                   
+                
+                
+                   
+                
+              
+              
+                
+                   
+                
+                
+                   
+                
+                
+                    
+                
+                
+                   
+                
+              
+              
+                
+                   
+                
+                
+                   
+                
+                
+                   
+                
+                
+                   
+                
+              
+              
+                
+                   
+                
+                
+                   
+                
+                
+                   
+                
+                
+                   
+                
+              
+            
+             
+          
+        
+      
+    
+      displaystyle   begin bmatrix   amp   amp   amp      amp   amp    amp      amp   amp   amp      amp   amp   amp   end bmatrix   
+  
+
+Observing image        image        image        and image       
+The original image pixel is               After smoothing mask  the pixel becomes             respectively 
+new image         
+  
+    
+      
+        
+          
+            
+               
+               
+            
+          
+        
+      
+    
+      displaystyle   tfrac         
+  
+    image      image      image      image      image      image      image      image      image      
+new image         floor 
+  
+    
+      
+        
+          
+            
+               
+               
+            
+          
+        
+      
+    
+      displaystyle   tfrac         
+  
+                             
+new image         floor  
+  
+    
+      
+        
+          
+            
+               
+               
+            
+          
+        
+      
+    
+      displaystyle   tfrac         
+  
+                              
+new image         floor 
+  
+    
+      
+        
+          
+            
+               
+               
+            
+          
+        
+      
+    
+      displaystyle   tfrac         
+  
+                             
+new image         floor 
+  
+    
+      
+        
+          
+            
+               
+               
+            
+          
+        
+      
+    
+      displaystyle   tfrac         
+  
+                             
+Gray Level Histogram method
+Generally  given a gray level histogram from an image as below  Changing the histogram to uniform distribution from an image is usually what we called histogram equalization 
+
+Figure  
+Figure  
+In discrete time  the area of gray level histogram is 
+  
+    
+      
+        
+            x     
+          
+            i
+             
+             
+          
+          
+            k
+          
+        
+        H
+         
+        
+          p
+          
+            i
+          
+        
+         
+      
+    
+      displaystyle  sum   i     k H p  i   
+  
+ see figure    while the area of uniform distribution is 
+  
+    
+      
+        
+            x     
+          
+            i
+             
+             
+          
+          
+            k
+          
+        
+        G
+         
+        
+          q
+          
+            i
+          
+        
+         
+      
+    
+      displaystyle  sum   i     k G q  i   
+  
+ see figure     It is clear that the area will not change  so 
+  
+    
+      
+        
+            x     
+          
+            i
+             
+             
+          
+          
+            k
+          
+        
+        H
+         
+        
+          p
+          
+            i
+          
+        
+         
+         
+        
+            x     
+          
+            i
+             
+             
+          
+          
+            k
+          
+        
+        G
+         
+        
+          q
+          
+            i
+          
+        
+         
+      
+    
+      displaystyle  sum   i     k H p  i    sum   i     k G q  i   
+  
+ 
+From the uniform distribution  the probability of 
+  
+    
+      
+        
+          q
+          
+            i
+          
+        
+      
+    
+      displaystyle q  i  
+  
+ is 
+  
+    
+      
+        
+          
+            
+              
+                N
+                
+                   
+                
+              
+              
+                
+                  q
+                  
+                    k
+                  
+                
+                  x     
+                
+                  q
+                  
+                     
+                  
+                
+              
+            
+          
+        
+      
+    
+      displaystyle   tfrac  N      q  k  q       
+  
+ while the 
+  
+    
+      
+         
+         lt 
+        i
+         lt 
+        k
+      
+    
+      displaystyle   lt i lt k 
+  
+
+In continuous time  the equation is 
+  
+    
+      
+        
+          
+              x   b 
+            
+              
+                q
+                
+                   
+                
+              
+            
+            
+              q
+            
+          
+          
+            
+              
+                
+                  N
+                  
+                     
+                  
+                
+                
+                  
+                    q
+                    
+                      k
+                    
+                  
+                    x     
+                  
+                    q
+                    
+                       
+                    
+                  
+                
+              
+            
+          
+          d
+          s
+           
+          
+            
+                x   b 
+              
+                
+                  p
+                  
+                     
+                  
+                
+              
+              
+                p
+              
+            
+            H
+             
+            s
+             
+            d
+            s
+          
+        
+      
+    
+      displaystyle  displaystyle  int   q       q   tfrac  N      q  k  q      ds  displaystyle  int   p       p H s ds 
+  
+ 
+Moreover  based on the definition of a function  the Gray level histogram method is like finding a function 
+  
+    
+      
+        f
+      
+    
+      displaystyle f 
+  
+ that satisfies f p  q 
+
+
+
+
+Improvement method
+
+Issue
+
+Before improvement
+
+Process
+
+After improvement
+
+
+
+Smoothing method
+
+noise
+with Matlab  salt  amp  pepper with      parameter is added to the original image in order to create a noisy image 
+
+
+
+
+
+read image and convert image into grayscale
+convolution the graysale image with the mask 
+  
+    
+      
+        
+          
+             
+            
+              
+                
+                   
+                  
+                     
+                  
+                   
+                
+                
+                   
+                  
+                     
+                  
+                   
+                
+                
+                   
+                  
+                     
+                  
+                   
+                
+              
+              
+                
+                   
+                  
+                     
+                  
+                   
+                
+                
+                   
+                  
+                     
+                  
+                   
+                
+                
+                   
+                  
+                     
+                  
+                   
+                
+              
+              
+                
+                   
+                  
+                     
+                  
+                   
+                
+                
+                   
+                  
+                     
+                  
+                   
+                
+                
+                   
+                  
+                     
+                  
+                   
+                
+              
+            
+             
+          
+        
+      
+    
+      displaystyle   begin bmatrix     amp     amp          amp     amp          amp     amp     end bmatrix   
+  
+
+denoisy image will be the result of step   
+
+
+
+
+
+Histogram Equalization
+
+Gray level distribution too centralized
+
+
+
+Refer to the Histogram equalization
+
+
+
+
+Challenges edit 
+Noise and Distortions  Imperfections in images due to poor lighting  limited sensors  and file compression can result in unclear images that impact accurate image conversion 
+Variability in Image Quality  Variations in image quality and resolution  including blurry images and incomplete details  can hinder uniform processing across a database 
+Object Detection and Recognition  Identifying and recognising objects within images  especially in complex scenarios with multiple objects and occlusions  poses a significant challenge 
+Data Annotation and Labelling  Labelling diverse and multiple images for machine recognition is crucial for further processing accuracy  as incorrect identification can lead to unrealistic results 
+Computational Resource Intensity  Accessing adequate computational resources for image processing can be challenging and costly  hindering progress without sufficient resources 
+See also edit 
+
+Digital imaging
+Computer graphics
+Computer vision
+CVIPtools
+Digitizing
+Fourier transform
+Free boundary condition
+GPGPU
+Homomorphic filtering
+Image analysis
+IEEE Intelligent Transportation Systems Society
+Least squares spectral analysis
+Medical imaging
+Multidimensional systems
+Relaxation labelling
+Remote sensing software
+Standard test image
+Superresolution
+Total variation denoising
+Machine Vision
+Bounded variation
+Radiomics
+Remote sensing
+References edit 
+
+
+  Chakravorty  Pragnan          What is a Signal       Lecture Notes        IEEE Signal Processing Magazine                   Bibcode     ISPM     e    C  doi         MSP               S CID               
+
+  Gonzalez  Rafael         Digital image processing  New York  NY  Pearson  ISBN                         OCLC                
+
+  Nagornov  Nikolay N   Lyakhov  Pavel A   Bergerman  Maxim V   Kalita  Diana I           Modern Trends in Improving the Technical Characteristics of Devices and Systems for Digital Image Processing   IEEE Access                   Bibcode     IEEEA         N  doi         ACCESS               ISSN                
+
+  Yamni  Mohamed  Daoui  Achraf  Abd El Latif  Ahmed A   February         Efficient color image steganography based on new adapted chaotic dynamical system with discrete orthogonal moment transforms   Mathematics and Computers in Simulation                  doi         j matcom             
+
+  Hung  Che Lun     May         Computational Algorithms on Medical Image Processing   Current Medical Imaging                   doi                                   PMID               
+
+  Azriel Rosenfeld  Picture Processing by Computer  New York  Academic Press      
+
+  Gonzalez  Rafael C          Digital image processing  Woods  Richard E   Richard Eugene           rd      ed    Upper Saddle River  N J   Prentice Hall  pp              ISBN                         OCLC                
+
+  a b c Williams  J  B          The Electronics Revolution  Inventing the Future  Springer  pp              ISBN                        
+
+  US       A      Lincoln  Derick      amp      Frosch  Carl J        Oxidation of semiconductive surfaces for controlled diffusion       issued    August           
+
+  Frosch  C  J   Derick  L          Surface Protection and Selective Masking during Diffusion in Silicon   Journal of the Electrochemical Society                doi                   
+
+  KAHNG  D           Silicon Silicon Dioxide Surface Device   Technical Memorandum of Bell Laboratories           doi                             ISBN                           cite journal    ISBN   Date incompatibility  help 
+
+  Lojek  Bo         History of Semiconductor Engineering  Berlin  Heidelberg  Springer Verlag Berlin Heidelberg  p            ISBN                        
+
+  Ligenza  J R   Spitzer  W G           The mechanisms for silicon oxidation in steam and oxygen   Journal of Physics and Chemistry of Solids               Bibcode     JPCS          L  doi                              
+
+  Lojek  Bo         History of Semiconductor Engineering  Springer Science  amp  Business Media  p            ISBN                    
+
+  James R  Janesick         Scientific charge coupled devices  SPIE Press  pp            ISBN                        
+
+  Boyle  William S  Smith  George E           Charge Coupled Semiconductor Devices   Bell Syst  Tech  J                   Bibcode     BSTJ          B  doi         j                tb      x 
+
+  Fossum  Eric R      July         Active pixel sensors  Are CCDS dinosaurs    In Blouke  Morley M   ed    Charge Coupled Devices and Solid State Optical Sensors III  Proceedings of the SPIE  Vol             pp             Bibcode     SPIE          F  CiteSeerX                       doi                    S CID               
+
+  Fossum  Eric R           Active Pixel Sensors   PDF   Eric Fossum  S CID                Archived  PDF  from the original on    August      
+
+  Matsumoto  Kazuya  et      al           A new MOS phototransistor operating in a non destructive readout mode   Japanese Journal of Applied Physics       A   L     Bibcode     JaJAP    L    M  doi         JJAP    L     S CID                
+
+  Fossum  Eric R   Hondongwa  D  B           A Review of the Pinned Photodiode for CCD and CMOS Image Sensors   IEEE Journal of the Electron Devices Society                doi         JEDS              
+
+   CMOS Image Sensor Sales Stay on Record Breaking Pace   IC Insights    May       Archived from the original on    June       Retrieved   October      
+
+  Lyon  Richard F           The Optical Mouse  Early Biomimetic Embedded Vision   Advances in Embedded Computer Vision  Springer  pp                 ISBN                    
+
+  Lyon  Richard F   August         The Optical Mouse  and an Architectural Methodology for Smart Digital Sensors   PDF   In H  T  Kung  Robert F  Sproull  Guy L  Steele  eds    VLSI Systems and Computations  Computer Science Press  pp             doi                              ISBN                         S CID                Archived  PDF  from the original on    February      
+
+  Brain  Marshall  Carmack  Carmen     April         How Computer Mice Work   HowStuffWorks  Retrieved   October      
+
+  Benchoff  Brian     April         Building the First Digital Camera   Hackaday  Retrieved    April       the Cyclops was the first digital camera
+
+  Ahmed  Nasir  January         How I Came Up With the Discrete Cosine Transform   Digital Signal Processing              Bibcode     DSP           A  doi                            Z  Archived from the original on    June       Retrieved    October      
+
+   T      Digital compression and coding of continuous tone still images   requirements and guidelines   PDF   CCITT  September       Archived  PDF  from the original on    July       Retrieved    July      
+
+  Svetlik  Joe     May         The JPEG image format explained   BT Group  Archived from the original on   August       Retrieved   August      
+
+  Caplan  Paul     September         What Is a JPEG  The Invisible Object You See Every Day   The Atlantic  Archived from the original on   October       Retrieved    September      
+
+  Baraniuk  Chris     October         JPeg lockdown  Restriction options sought by committee   BBC News  Archived from the original on   October       Retrieved    September      
+
+  Nagornov  Nikolay N   Lyakhov  Pavel A   Valueva  Maria V   Bergerman  Maxim V           RNS Based FPGA Accelerators for High Quality  D Medical Image Wavelet Processing Using Scaled Filter Coefficients   IEEE Access                   Bibcode     IEEEA         N  doi         ACCESS               ISSN                 S CID                 Medical imaging systems produce increasingly accurate images with improved quality using higher spatial resolutions and color bit depth  Such improvements increase the amount of information that needs to be stored  processed  and transmitted 
+
+  Dhouib  D   Na t Ali  A   Olivier  C   Naceur  M S   June         ROI Based Compression Strategy of  D MRI Brain Datasets for Wireless Communications   IRBM                   doi         j irbm              S CID                 Because of the large amount of medical imaging data  the transmission process becomes complicated in telemedicine applications  Thus  in order to adapt the data bit streams to the constraints related to the limitation of the bandwidths a reduction of the size of the data by compression of the images is essential 
+
+  Xin  Gangtao  Fan  Pingyi     June         A lossless compression method for multi component medical images based on big data mining   Scientific Reports                 doi         s                x  ISSN                 PMC               PMID               
+
+  Grant  Duncan Andrew  Gowar  John         Power MOSFETS  theory and applications  Wiley  p          ISBN                         The metal oxide semiconductor field effect transistor  MOSFET  is the most commonly used active device in the very large scale integration of digital integrated circuits  VLSI   During the     s these components revolutionized electronic signal processing  control systems and computers 
+
+  Shirriff  Ken     August         The Surprising Story of the First Microprocessors   IEEE Spectrum          Institute of Electrical and Electronics Engineers         doi         MSPEC               S CID                Archived from the original on    October       Retrieved    October      
+
+  a b        Single Chip Digital Signal Processor Introduced   The Silicon Engine  Computer History Museum  Archived from the original on   October       Retrieved    October      
+
+  Taranovich  Steve     August            years of DSP  From a child s toy to  G and beyond   EDN  Archived from the original on    October       Retrieved    October      
+
+  Stankovi   Radomir S   Astola  Jaakko T           Reminiscences of the Early Work in DCT  Interview with K R  Rao   PDF   Reprints from the Early Days of Information Sciences      Archived  PDF  from the original on    October       Retrieved    October      
+
+  Zhang  M  Z   Livingston  A  R   Asari  V  K           A High Performance Architecture for Implementation of   D Convolution with Quadrant Symmetric Kernels   International Journal of Computers and Applications                   doi                x                S CID               
+
+  a b Gonzalez  Rafael         Digital Image Processing   rd  Pearson Hall  ISBN                        
+
+  House  Keyser    December        Affine Transformations  PDF   Foundations of Physically Based Modeling  amp  Animation  A K Peters CRC Press  ISBN                         Archived  PDF  from the original on    August       Retrieved    March         cite book          website  ignored  help 
+
+  A Brief  Early History of Computer Graphics in Film Archived    July      at the Wayback Machine  Larry Yaeger     August       last update   retrieved    March     
+
+
+Further reading edit 
+Solomon  C J   Breckon  T P          Fundamentals of Digital Image Processing  A Practical Approach with Examples in Matlab  Wiley Blackwell  doi                        ISBN                        
+Wilhelm Burger  Mark J  Burge         Digital Image Processing  An Algorithmic Approach Using Java  Springer  ISBN                        
+R  Fisher  K Dawson Howe  A  Fitzgibbon  C  Robertson  E  Trucco         Dictionary of Computer Vision and Image Processing  John Wiley  ISBN                        
+Rafael C  Gonzalez  Richard E  Woods  Steven L  Eddins         Digital Image Processing using MATLAB  Pearson Education  ISBN                        
+Tim Morris         Computer Vision and Image Processing  Palgrave Macmillan  ISBN                        
+Vipin Tyagi         Understanding Digital Image Processing  Taylor and Francis CRC Press  ISBN                       
+Milan Sonka  Vaclav Hlavac  Roger Boyle         Image Processing  Analysis  and Machine Vision  PWS Publishing  ISBN                        
+Gonzalez  Rafael C   Woods  Richard E          Digital image processing  Upper Saddle River  N J   Prentice Hall  ISBN                         OCLC                
+Kovalevsky  Vladimir         Modern algorithms for image processing  computer imagery by example using C    New York  New York   ISBN                         OCLC                   cite book     CS  maint  location missing publisher  link 
+External links edit 
+Lectures on Image Processing  by Alan Peters  Vanderbilt University  Updated   January      
+Processing digital images with computer algorithms
+Pengertian Citra Digital  Pemahaman Dasar dan Penerapannya dalam Teknologi
+vteComputer visionCategories
+Datasets
+Digital geometry
+Commercial systems
+Feature detection
+Geometry
+Image sensor technology
+Learning
+Morphology
+Motion analysis
+Noise reduction techniques
+Recognition and categorization
+Research infrastructure
+Researchers
+Segmentation
+Software
+Technologies
+Computer stereo vision
+Motion capture
+Object recognition
+ D object recognition
+Applications D reconstruction
+ D reconstruction from multiple images
+ D to  D conversion
+Gaussian splatting
+Neural radiance field
+Shape from focus
+Simultaneous localization and mapping
+Structure from motion
+View synthesis
+Visual hull
+ D reconstruction
+Free viewpoint television
+Volumetric capture
+
+ D pose estimation
+Activity recognition
+Audio visual speech recognition
+Automatic image annotation
+Automatic number plate recognition
+Automated species identification
+Augmented reality
+Bioimage informatics
+Blob detection
+Computer aided diagnosis
+Content based image retrieval
+Reverse image search
+Eye tracking
+Face recognition
+Foreground detection
+Gesture recognition
+Image denoising
+Image restoration
+Landmark detection
+Medical image computing
+Object detection
+Moving object detection
+Small object detection
+Optical character recognition
+Pose tracking
+Remote sensing
+Robotic mapping
+Autonomous vehicles
+Video content analysis
+Video motion analysis
+Video surveillance
+Video trackingMain category
+vteDigital signal processingTheory
+Detection theory
+Discrete signal
+Estimation theory
+Nyquist Shannon sampling theorem
+Sub fields
+Audio signal processing
+Digital image processing
+Speech processing
+Statistical signal processing
+Techniques
+Z transform
+Advanced z transform
+Matched Z transform method
+Bilinear transform
+Constant Q transform
+Discrete cosine transform  DCT 
+Discrete Fourier transform  DFT 
+Discrete time Fourier transform  DTFT 
+Impulse invariance
+Integral transform
+Laplace transform
+Post s inversion formula
+Starred transform
+Zak transform
+Sampling
+Aliasing
+Anti aliasing filter
+Downsampling
+Nyquist rate   frequency
+Oversampling
+Quantization
+Sampling rate
+Undersampling
+Upsampling
+
+vteInformation processingInformation processesinformation processes by function
+perception
+attention
+influence
+operating
+communication
+reasoning
+learning
+storing
+decision making
+information processing abstractions
+event processing
+sign processesing
+signal processing
+data processing
+stream processing
+agent processing
+state processing
+Information processorsnatural
+nature as information processing
+humans as information processing systems
+society as information processing system
+mixed
+mixed reality
+brain computer interface
+physical computing
+human computer interaction
+artificial
+processors and processes
+bio inspired computing
+ubiquitous computing
+artificial brain and mind uploading
+virtual reality
+virtual world
+Information processing theories and conceptsin biology
+computational and systems biology
+genetic informatics and cellular computing
+computational neuroscience and neurocomputing
+in cognitive psychology
+information processing theory
+mind and intelligence
+cognitive informatics and neuroinformatics
+behavior informatics
+in computer science
+neural computation
+computation theory
+algorithms and information structures
+computational circuits
+artificial intelligence
+in philosophy
+computational theory of mind
+philosophy of information
+philosophy of artificial intelligence
+interdisciplinary
+information theory
+decision theory
+systems theory
+other
+infosphere
+inforg
+Decoding the Universe
+information overload
+
+Authority control databases  National Czech Republic Latvia
+
+
+
+
+
+Retrieved from  https   en wikipedia org w index php title Digital image processing amp oldid

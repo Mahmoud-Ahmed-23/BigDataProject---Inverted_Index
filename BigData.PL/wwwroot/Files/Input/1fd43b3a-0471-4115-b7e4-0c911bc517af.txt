@@ -1,0 +1,793 @@
+Iterative simulation method
+A particle swarm searching for the global minimum of a function
+In computational science  particle swarm optimization  PSO             is a computational method that optimizes a problem by iteratively trying to improve a candidate solution with regard to a given measure of quality  It solves a problem by having a population of candidate solutions  here dubbed particles  and moving these particles around in the search space according to simple mathematical formulae over the particle s position and velocity  Each particle s movement is influenced by its local best known position  but is also guided toward the best known positions in the search space  which are updated as better positions are found by other particles  This is expected to move the swarm toward the best solutions 
+PSO is originally attributed to Kennedy  Eberhart and Shi                       and was first intended for simulating social behaviour             as a stylized representation of the movement of organisms in a bird flock or fish school  The algorithm was simplified and it was observed to be performing optimization  The book by Kennedy and Eberhart            describes many philosophical aspects of PSO and swarm intelligence  An extensive  survey of PSO applications is made by Poli                        In       a comprehensive review on theoretical and experimental works on PSO has been published by Bonyadi and Michalewicz            
+PSO is a metaheuristic as it makes few or no assumptions about the problem being optimized and can search very large spaces of candidate solutions  Also  PSO does not use the gradient of the problem being optimized  which means PSO does not require that the optimization problem be differentiable as is required by classic optimization methods such as gradient descent and quasi newton methods  However  metaheuristics such as PSO do not guarantee an optimal solution is ever found  
+
+
+Algorithm edit 
+A basic variant of the PSO algorithm works by having a population  called a swarm  of candidate solutions  called particles   These particles are moved around in the search space according to a few simple formulae             The movements of the particles are guided by their own best known position in the search space as well as the entire swarm s best known position  When improved positions are being discovered these will then come to guide the movements of the swarm  The process is repeated and by doing so it is hoped  but not guaranteed  that a satisfactory solution will eventually be discovered 
+Formally  let f        n          be the cost function which must be minimized  The function takes a candidate solution as an argument in the form of a vector of real numbers and produces a real number as output which indicates the objective function value of the given candidate solution  The gradient of f is not known  The goal is to find a solution a for which f a              f b  for all b in the search space  which would mean a is the global minimum 
+Let S be the number of particles in the swarm  each having a position xi         n in the search space and a velocity vi         n  Let pi be the best known position of particle i and let g be the best known position of the entire swarm  A basic PSO algorithm to minimize the cost function is then            
+
+for each particle i                               S do
+    Initialize the particle s position with a uniformly distributed random vector  xi             U blo       bup 
+    Initialize the particle s best known position to its initial position  pi             xi
+    if f pi   lt  f g  then
+        update the swarm s best known position  g             pi
+    Initialize the particle s velocity  vi             U   bup blo         bup blo  
+while a termination criterion is not met do 
+    for each particle i                               S do
+        for each dimension d                               n do
+            Pick random numbers  rp  rg   U     
+            Update the particle s velocity  vi d             w vi d    p rp  pi d xi d     g rg  gd xi d 
+        Update the particle s position  xi             xi   vi
+        if f xi   lt  f pi  then
+            Update the particle s best known position  pi             xi
+            if f pi   lt  f g  then
+                Update the swarm s best known position  g             pi
+
+The values blo and bup represent the lower and upper boundaries of the search space respectively  The w parameter is the inertia weight   The parameters  p  and   g are often called cognitive coefficient and social coefficient 
+The termination criterion can be the number of iterations performed  or a solution where the adequate objective function value is found              The parameters w   p  and  g are selected by the practitioner and control the behaviour and efficacy of the PSO method  below  
+
+Parameter selection edit 
+Performance landscape showing how a simple PSO variant performs in aggregate on several benchmark problems when varying two PSO parameters 
+The choice of PSO parameters can have a large impact on optimization performance  Selecting PSO parameters that yield good performance has therefore been the subject of much research                                                                                                             
+To prevent divergence   explosion   the inertia weight must be smaller than    The two other parameters  can be then derived thanks to the constriction approach              or freely selected  but the analyses suggest convergence domains to constrain them  Typical values are in 
+  
+    
+      
+         
+         
+         
+         
+         
+      
+    
+      displaystyle       
+  
+ 
+The PSO parameters can also be tuned by using another overlaying optimizer  a concept known as meta optimization                                                  or even fine tuned during the optimization  e g   by means of fuzzy logic                         
+Parameters have also been tuned for various optimization scenarios                         
+
+Neighbourhoods and topologies edit 
+The topology of the swarm defines the subset of particles with which each particle can exchange information              The basic version of the algorithm uses the global topology as the swarm communication structure              This topology allows all particles to communicate with all the other particles  thus the whole swarm share the same best position g from a single particle  However  this approach might lead the swarm to be trapped into a local minimum              thus different topologies have been used to control the flow of information among particles  For instance  in local topologies  particles only share information with a subset of particles              This subset can be a geometrical one               for example  the m nearest particles    or  more often  a social one  i e  a set of particles that is not depending on any distance  In such cases  the PSO variant is said to be local best  vs global best for the basic PSO  
+A commonly used swarm topology is the ring  in which each particle has just two neighbours  but there are many others              The topology is not necessarily static  In fact  since the topology is related to the diversity of communication of the particles              some efforts have been done to create adaptive topologies  SPSO              APSO              stochastic star              TRIBES              Cyber Swarm              and C PSO             
+By using the ring topology  PSO can attain generation level parallelism  significantly enhancing the evolutionary speed             
+
+Inner workings edit 
+There are several schools of thought as to why and how the PSO algorithm can perform optimization 
+A common belief amongst researchers is that the swarm behaviour varies between exploratory behaviour  that is  searching a broader region of the search space  and exploitative behaviour  that is  a locally oriented search so as to get closer to a  possibly local  optimum  This school of thought has been prevalent since the inception of PSO                                                This school of thought contends that the PSO algorithm and its parameters must be chosen so as to properly balance between exploration and exploitation to avoid premature convergence to a local optimum yet still ensure a good rate of convergence to the optimum  This belief is the precursor of many PSO variants  see below 
+Another school of thought is that the behaviour of a PSO swarm is not well understood in terms of how it affects actual optimization performance  especially for higher dimensional search spaces and optimization problems that may be discontinuous  noisy  and time varying  This school of thought merely tries to find PSO algorithms and parameters that cause good performance regardless of how the swarm behaviour can be interpreted in relation to e g  exploration and exploitation  Such studies have led to the simplification of the PSO algorithm  see below 
+
+Convergence edit 
+In relation to PSO the word convergence typically refers to two different definitions 
+
+Convergence of the sequence of solutions  aka  stability analysis  converging  in which all particles have converged to a point in the search space  which may or may not be the optimum 
+Convergence to a local optimum where all personal bests p or  alternatively  the swarm s best known position g  approaches a local optimum of the problem  regardless of how the swarm behaves 
+Convergence of the sequence of solutions has been investigated for PSO                                      These analyses have resulted in guidelines for selecting PSO parameters that are believed to cause convergence to a point and prevent divergence of the swarm s particles  particles do not move unboundedly and will converge to somewhere   However  the analyses were criticized by Pedersen             for being oversimplified as they assume the swarm has only one particle  that it does not use stochastic variables and that the points of attraction  that is  the particle s best known position p and the swarm s best known position g  remain constant throughout the optimization process  However  it was shown             that these simplifications do not affect the boundaries found by these studies for parameter where the swarm is convergent  Considerable effort has been made in recent years to weaken the modeling assumption utilized during the stability analysis of PSO              with the most recent generalized result applying to numerous PSO variants and utilized what was shown to be the minimal necessary modeling assumptions             
+Convergence to a local optimum has been analyzed for PSO in             and              It has been proven that PSO needs some modification to guarantee finding a local optimum 
+This means that determining the convergence capabilities of different PSO algorithms and parameters still depends on empirical results  One attempt at addressing this issue is the development of an  orthogonal learning  strategy for an improved use of the information already existing in the relationship between p and g  so as to form a leading converging exemplar and to be effective with any PSO topology  The aims are to improve the performance of PSO overall  including faster global convergence  higher solution quality  and stronger robustness              However  such studies do not provide theoretical evidence to actually prove their claims 
+
+Adaptive mechanisms edit 
+Without the need for a trade off between convergence   exploitation   and divergence   exploration    an adaptive mechanism can be introduced  Adaptive particle swarm optimization  APSO               features better search efficiency than standard PSO  APSO can perform global search over the entire search space with a higher convergence speed  It enables automatic control of the inertia weight  acceleration coefficients  and other algorithmic parameters at the run time  thereby improving the search effectiveness and efficiency at the same time  Also  APSO can act on the globally best particle to jump out of the likely local optima  However  APSO will introduce new algorithm parameters  it does not introduce additional design or implementation complexity nonetheless 
+Besides  through the utilization of a scale adaptive fitness evaluation mechanism  PSO can efficiently address computationally expensive optimization problems             
+
+Variants edit 
+Numerous variants of even a basic PSO algorithm are possible  For example  there are different ways to initialize the particles and velocities  e g  start with zero velocities instead   how to dampen the velocity  only update pi and g after the entire swarm has been updated  etc  Some of these choices and their possible performance impact have been discussed in the literature             
+A series of standard implementations have been created by leading researchers   intended for use both as a baseline for performance testing of improvements to the technique  as well as to represent PSO to the wider optimization community  Having a well known  strictly defined standard algorithm provides a valuable point of comparison which can be used throughout the field of research to better test new advances               The latest is Standard PSO       SPSO                   
+In addition  some PSO variants have been developed to solve large scale global optimization  LSGO  problems with more than      dimensions  Representative variants include competitive swarm optimizer  CSO  and level based learning swarm optimizer  LLSO               Recently  PSO has also been extended to solve multi agent consensus based distributed optimization problems  e g   multi agent consensus based PSO with adaptive internal and external learning  MASOIE               etc 
+
+Hybridization edit 
+New and more sophisticated PSO variants are also continually being introduced in an attempt to improve optimization performance  There are certain trends in that research  one is to make a hybrid optimization method using PSO combined with other optimizers                                      e g   combined PSO with biogeography based optimization              and the incorporation of an effective learning method             
+
+Alleviate premature convergence edit 
+Another research trend is to try to alleviate premature convergence  that is  optimization stagnation   e g  by reversing or perturbing the movement of the PSO particles                                                  another approach to deal with premature convergence is the use of multiple swarms              multi swarm optimization   The multi swarm approach can also be used to implement multi objective optimization              Finally  there are  developments in adapting the behavioural parameters of PSO during optimization                         
+
+Simplifications edit 
+Another school of thought is that PSO should be simplified as much as possible without impairing its performance  a general concept often referred to as Occam s razor  Simplifying PSO was originally suggested by Kennedy            and has been studied more extensively                                                  where it appeared that optimization performance was improved  and the parameters were easier to tune and they performed more consistently across different optimization problems 
+Another argument in favour of simplifying PSO is that metaheuristics can only have their efficacy demonstrated empirically by doing computational experiments on a finite number of optimization problems  This means a metaheuristic such as PSO cannot be proven correct and this increases the risk of making errors in its description and implementation  A good example of this             presented a promising variant of a genetic algorithm  another popular metaheuristic  but it was later found to be defective as it was strongly biased in its optimization search towards similar values for different dimensions in the search space  which happened to be the optimum of the benchmark problems considered  This bias was because of a programming error  and has now been fixed             
+
+Bare Bones PSO edit 
+Initialization of velocities may require extra inputs  The Bare Bones PSO variant             has been proposed in      by James Kennedy  and does not need to use velocity at all 
+In this variant of PSO one dispences with the velocity of the particles and instead updates the positions of the particles using the following simple rule 
+
+
+  
+    
+      
+        
+          
+            
+              
+                x
+                  x     
+              
+            
+          
+          
+            i
+          
+        
+         
+        G
+        
+           
+          
+            
+              
+                
+                  
+                    
+                      
+                        
+                          p
+                            x     
+                        
+                      
+                    
+                    
+                      i
+                    
+                  
+                   
+                  
+                    
+                      
+                        g
+                          x     
+                      
+                    
+                  
+                
+                 
+              
+            
+             
+            
+               
+            
+            
+               
+            
+            
+              
+                
+                  
+                    p
+                      x     
+                  
+                
+              
+              
+                i
+              
+            
+              x     
+            
+              
+                
+                  g
+                    x     
+                
+              
+            
+            
+               
+            
+            
+               
+            
+          
+           
+        
+        
+         
+      
+    
+      displaystyle   vec  x    i  G left   frac    vec  p    i    vec  g            vec  p    i    vec  g     right     
+  
+
+where 
+  
+    
+      
+        
+          
+            
+              
+                x
+                  x     
+              
+            
+          
+          
+            i
+          
+        
+      
+    
+      displaystyle   vec  x    i  
+  
+  
+  
+    
+      
+        
+          
+            
+              
+                p
+                  x     
+              
+            
+          
+          
+            i
+          
+        
+      
+    
+      displaystyle   vec  p    i  
+  
+ are the position and the best position of the particle 
+  
+    
+      
+        i
+      
+    
+      displaystyle i 
+  
+  
+  
+    
+      
+        
+          
+            
+              g
+                x     
+            
+          
+        
+      
+    
+      displaystyle   vec  g   
+  
+ is the global best position  
+  
+    
+      
+        G
+         
+        
+          
+            
+              x
+                x     
+            
+          
+        
+         
+          x c  
+         
+      
+    
+      displaystyle G   vec  x    sigma   
+  
+ is the normal distribution with the mean 
+  
+    
+      
+        
+          
+            
+              x
+                x     
+            
+          
+        
+      
+    
+      displaystyle   vec  x   
+  
+ and standard deviation 
+  
+    
+      
+          x c  
+      
+    
+      displaystyle  sigma  
+  
+  and where 
+  
+    
+      
+        
+           
+        
+        
+           
+        
+          x     
+        
+           
+        
+        
+           
+        
+      
+    
+      displaystyle    dots    
+  
+ signifies the norm of a vector 
+
+Accelerated Particle Swarm Optimization edit 
+Another simpler variant is the accelerated particle swarm optimization  APSO               which also does not need to use velocity and can speed up the convergence in many applications  A simple demo code of APSO is available             
+In this variant of PSO one dispences with both the particle s velocity and the particle s best position  The particle position is updated according to the following rule 
+
+
+  
+    
+      
+        
+          
+            
+              
+                x
+                  x     
+              
+            
+          
+          
+            i
+          
+        
+          x     
+         
+         
+          x     
+          x b  
+         
+        
+          
+            
+              
+                x
+                  x     
+              
+            
+          
+          
+            i
+          
+        
+         
+          x b  
+        
+          
+            
+              g
+                x     
+            
+          
+        
+         
+          x b  
+        L
+        
+          
+            
+              u
+                x     
+            
+          
+        
+        
+         
+      
+    
+      displaystyle   vec  x    i  leftarrow     beta    vec  x    i   beta   vec  g    alpha L  vec  u      
+  
+
+where 
+  
+    
+      
+        
+          
+            
+              u
+                x     
+            
+          
+        
+      
+    
+      displaystyle   vec  u   
+  
+ is a random uniformly distributed vector  
+  
+    
+      
+        L
+      
+    
+      displaystyle L 
+  
+ is the typical length of the problem at hand  and 
+  
+    
+      
+          x b  
+          x   c 
+           
+          x     
+           
+      
+    
+      displaystyle  beta  sim         
+  
+ and 
+  
+    
+      
+          x b  
+          x   c 
+           
+          x     
+           
+      
+    
+      displaystyle  alpha  sim         
+  
+ are the parameters of the method  As a refinement of the method one can decrease 
+  
+    
+      
+          x b  
+      
+    
+      displaystyle  alpha  
+  
+ with each iteration  
+  
+    
+      
+        
+            x b  
+          
+            n
+          
+        
+         
+        
+            x b  
+          
+             
+          
+        
+        
+            x b  
+          
+            n
+          
+        
+      
+    
+      displaystyle  alpha   n   alpha      gamma   n  
+  
+  where 
+  
+    
+      
+        n
+      
+    
+      displaystyle n 
+  
+ is the number of the iteration and 
+  
+    
+      
+         
+         lt 
+          x b  
+         lt 
+         
+      
+    
+      displaystyle   lt  gamma  lt   
+  
+ is the decrease control parameter 
+
+Multi objective optimization edit 
+PSO has also been applied to multi objective problems                                      in which the objective function comparison takes Pareto dominance into account when moving the PSO particles and non dominated solutions are stored so as to approximate the pareto front 
+
+Binary  discrete  and combinatorial edit 
+As the PSO equations given above work on real numbers  a commonly used method to solve discrete problems is to map the discrete search space to a continuous domain  to apply a classical PSO  and then to demap the result   Such a mapping can be very simple  for example by just using rounded values  or more sophisticated             
+However  it can be noted that the equations of movement make use of operators that perform four actions 
+
+computing the difference of two positions  The result is a velocity  more precisely a displacement 
+multiplying a velocity by a numerical coefficient
+adding two velocities
+applying a velocity to a position
+Usually a position and a velocity are represented by n real numbers  and these operators are simply          and again    But all these mathematical objects can be defined in a completely different way  in order to cope with binary problems  or more generally discrete ones   or even combinatorial ones                                                  One approach is to redefine the operators based on sets             
+
+See also edit 
+Artificial bee colony algorithm
+Bees algorithm
+Derivative free optimization
+Multi swarm optimization
+Particle filter
+Swarm intelligence
+Fish School Search
+Dispersive flies optimisation
+Consensus based optimization
+References edit 
+
+
+  a b Bonyadi  M  R   Michalewicz  Z           Particle swarm optimization for single objective continuous space problems  a review   Evolutionary Computation                doi         EVCO r        PMID                S CID              
+
+  Kennedy  J   Eberhart  R           Particle Swarm Optimization   Proceedings of IEEE International Conference on Neural Networks  Vol       IV  pp                  doi         ICNN             
+
+  a b Shi  Y   Eberhart  R C           A modified particle swarm optimizer   Proceedings of IEEE International Conference on Evolutionary Computation  pp              doi         ICEC             
+
+  a b c Kennedy  J           The particle swarm  social adaptation of knowledge   Proceedings of IEEE International Conference on Evolutionary Computation  pp                doi         ICEC             
+
+  Kennedy  J   Eberhart  R C          Swarm Intelligence  Morgan Kaufmann  ISBN                        
+
+  Poli  R           An analysis of publications on particle swarm optimisation applications   PDF   Technical Report CSM      Archived from the original  PDF  on             Retrieved            
+
+  Poli  R           Analysis of the publications on the applications of particle swarm optimisation   PDF   Journal of Artificial Evolution and Applications              doi                     
+
+  Zhang  Y           A Comprehensive Survey on Particle Swarm Optimization Algorithm and Its Applications   Mathematical Problems in Engineering               
+
+  Clerc  M           Standard Particle Swarm Optimisation   PDF   HAL Open Access Archive 
+
+  a b c d e Bratton  Daniel  Kennedy  James          Defining a Standard for Particle Swarm Optimization        IEEE Swarm Intelligence Symposium  PDF   pp                doi         SIS              ISBN                         S CID              
+
+  Taherkhani  M   Safabakhsh  R           A novel stability based adaptive inertia weight for particle swarm optimization   Applied Soft Computing               doi         j asoc             
+
+  a b Shi  Y   Eberhart  R C           Parameter selection in particle swarm optimization   Proceedings of Evolutionary Programming VII  EP     pp               
+
+  Eberhart  R C   Shi  Y           Comparing inertia weights and constriction factors in particle swarm optimization   Proceedings of the Congress on Evolutionary Computation  Vol          pp             
+
+  a b Carlisle  A   Dozier  G           An Off The Shelf PSO   PDF   Proceedings of the Particle Swarm Optimization Workshop  pp            Archived from the original  PDF  on            
+
+  a b van den Bergh  F          An Analysis of Particle Swarm Optimizers  PDF   PhD thesis   University of Pretoria  Faculty of Natural and Agricultural Science 
+
+  a b c d Clerc  M   Kennedy  J           The particle swarm   explosion  stability  and convergence in a multidimensional complex space   IEEE Transactions on Evolutionary Computation                CiteSeerX                       doi                     
+
+  a b Trelea  I C           The Particle Swarm Optimization Algorithm  convergence analysis and parameter selection   Information Processing Letters                   doi         S                     
+
+  a b Bratton  D   Blackwell  T           A Simplified Recombinant PSO   PDF   Journal of Artificial Evolution and Applications              doi                     
+
+  a b Evers  G          An Automatic Regrouping Mechanism to Deal with Stagnation in Particle Swarm Optimization  The University of Texas   Pan American  Department of Electrical Engineering  Archived from the original  Master s thesis  on             Retrieved            
+
+  Meissner  M   Schmuker  M   Schneider  G           Optimized Particle Swarm Optimization  OPSO  and its application to artificial neural network training   BMC Bioinformatics              doi                          PMC               PMID               
+
+  a b Pedersen  M E H          Tuning  amp  Simplifying Heuristical Optimization  PDF   University of Southampton  School of Engineering Sciences  Computational Engineering and Design Group  S CID                 Archived from the original  PhD thesis  on            
+
+  a b c Pedersen  M E H   Chipperfield  A J           Simplifying particle swarm optimization   Applied Soft Computing                   CiteSeerX                       doi         j asoc             
+
+  Mason  Karl  Duggan  Jim  Howley  Enda          A Meta Optimisation Analysis of Particle Swarm Optimisation Velocity Update Equations for Watershed Management Learning   Applied Soft Computing               doi         j asoc             
+
+  a b Nobile  M S  Cazzaniga  P   Besozzi  D   Colombo  R   Mauri  G   Pasi  G           Fuzzy Self Tuning PSO  a settings free algorithm for global optimization   Swarm and Evolutionary Computation             doi         j swevo              hdl              
+
+  Nobile  M S  Pasi  G   Cazzaniga  P   Besozzi  D   Colombo  R   Mauri  G           Proactive particles in swarm optimization  a self tuning algorithm based on fuzzy logic   Proceedings of the      IEEE International Conference on Fuzzy Systems  FUZZ IEEE        Istanbul  Turkey   pp            doi         FUZZ IEEE              
+
+  Cazzaniga  P   Nobile  M S   Besozzi  D           The impact of particles initialization in PSO  parameter estimation as a case in point   Canada    Proceedings of IEEE Conference on Computational Intelligence in Bioinformatics and Computational Biology  doi         CIBCB              
+
+  Pedersen  M E H           Good parameters for particle swarm optimization   Technical Report HL      CiteSeerX                      
+
+  Kennedy  J   Mendes  R           Population structure and particle swarm performance   Proceedings of the      Congress on Evolutionary Computation  CEC     Cat  No   TH       Vol          pp                 vol    CiteSeerX                       doi         CEC               ISBN                         S CID               
+
+  Mendes  R          Population Topologies and Their Influence in Particle Swarm Performance  PhD thesis   Universidade do Minho 
+
+  Suganthan  Ponnuthurai N   Particle swarm optimiser with neighbourhood operator   Evolutionary Computation        CEC     Proceedings of the      Congress on  Vol     IEEE       
+
+  Oliveira  M   Pinheiro  D   Andrade  B   Bastos Filho  C   Menezes  R           Communication Diversity in Particle Swarm Optimizers   Swarm Intelligence  Lecture Notes in Computer Science  Vol             pp              doi                              ISBN                         S CID               
+
+  SPSO Particle Swarm Central
+
+   Almasi  O  N  and Khooban  M  H          A parsimonious SVM model selection criterion for classification of real world data sets via an adaptive population based algorithm  Neural Computing and Applications       https   doi org         s               y
+
+  Miranda  V   Keko  H  and Duque     J          Stochastic Star Communication Topology in Evolutionary Particle Swarms  EPSO   International Journal of Computational Intelligence Research  IJCIR   Volume    Number    pp         
+
+  Clerc  M          Particle Swarm Optimization  ISTE  International Scientific and Technical Encyclopedia       
+
+  Yin  P   Glover  F   Laguna  M    amp  Zhu  J          A Complementary Cyber Swarm Algorithm  International Journal of Swarm Intelligence Research  IJSIR              
+
+  Elshamy  W   Rashad  H   Bahgat  A           Clubs based Particle Swarm Optimization   PDF   IEEE Swarm Intelligence Symposium       SIS       Honolulu  HI  pp                Archived from the original  PDF  on             Retrieved            
+
+  Jian Yu  Li          Generation Level Parallelism for Evolutionary Computation  A Pipeline Based Parallel Particle Swarm Optimization   IEEE Transactions on Cybernetics                      doi         TCYB               PMID               
+
+  Cleghorn  Christopher W          Particle Swarm Convergence  Standardized Analysis and Topological Influence   Swarm Intelligence  Lecture Notes in Computer Science  Vol             pp                doi                               ISBN                        
+
+  Liu  Q          Order   stability analysis of particle swarm optimization   Evolutionary Computation                   doi         EVCO a        PMID                S CID               
+
+  Cleghorn  Christopher W   Engelbrecht  Andries           Particle Swarm Stability  A Theoretical Extension using the Non Stagnate Distribution Assumption   Swarm Intelligence                doi         s               x  hdl             S CID              
+
+  Van den Bergh  F   A convergence proof for the particle swarm optimizer   PDF   Fundamenta Informaticae 
+
+  Bonyadi  Mohammad reza   Michalewicz  Z           A locally convergent rotationally invariant particle swarm optimization algorithm   PDF   Swarm Intelligence                  doi         s                  S CID              
+
+  a b Zhan  Z H   Zhang  J   Li  Y  Shi  Y H           Orthogonal Learning Particle Swarm Optimization   PDF   IEEE Transactions on Evolutionary Computation                   doi         TEVC              
+
+  a b Zhan  Z H   Zhang  J   Li  Y  Chung  H S H           Adaptive Particle Swarm Optimization   PDF   IEEE Transactions on Systems  Man  and Cybernetics                     doi         TSMCB               PMID                S CID               
+
+  Wang  Ye Qun  Li  Jian Yu  Chen  Chun Hua  Zhang  Jun  Zhan  Zhi Hui  September         Scale adaptive fitness evaluation based particle swarm optimisation for hyperparameter and architecture optimisation in neural networks and deep learning   CAAI Transactions on Intelligence Technology                  doi         cit        
+
+  Zambrano Bigiarini  M   Clerc  M   Rojas  R           Standard Particle Swarm Optimisation      at CEC       A baseline for future PSO improvements        IEEE Congress on Evolutionary Computation  Evolutionary Computation  CEC        IEEE Congress on  pp                  doi         CEC               ISBN                         S CID                
+
+  Yang  Q   CHEN  W N   Deng  J D   Li  Y   Gu  T   Zhang  J           A Level based Learning Swarm Optimizer for Large Scale Optimization   IEEE Transactions on Evolutionary Computation                   doi         TEVC              
+
+  Chen  T Y   Chen  W N   Wei  F F   Hu  X M   Zhang  J           Multi Agent Swarm Optimization With Adaptive Internal and External Learning for Complex Consensus Based Distributed Optimization   IEEE Transactions on Evolutionary Computation     doi         TEVC              
+
+  Lovbjerg  M   Krink  T           The LifeCycle Model  combining particle swarm optimisation  genetic algorithms and hillclimbers   PDF   Proceedings of Parallel Problem Solving from Nature VII  PPSN   pp               
+
+  Niknam  T   Amiri  B           An efficient hybrid approach based on PSO  ACO and k means for cluster analysis   Applied Soft Computing                   doi         j asoc             
+
+  Zhang  Wen Jun  Xie  Xiao Feng         DEPSO  hybrid particle swarm with differential evolution operator  IEEE International Conference on Systems  Man  and Cybernetics  SMCC   Washington  DC  USA            
+
+  Zhang  Y   Wang  S           Pathological Brain Detection in Magnetic Resonance Imaging Scanning by Wavelet Entropy and Hybridization of Biogeography based Optimization and Particle Swarm Optimization   Progress in Electromagnetics Research              doi         pier         
+
+  Lovbjerg  M   Krink  T           Extending Particle Swarm Optimisers with Self Organized Criticality   PDF   Proceedings of the Fourth Congress on Evolutionary Computation  CEC   Vol          pp                 
+
+  Xinchao  Z           A perturbed particle swarm algorithm for numerical optimization   Applied Soft Computing                   doi         j asoc             
+
+  Xie  Xiao Feng  Zhang  Wen Jun  Yang  Zhi Lian         A dissipative particle swarm optimization  Congress on Evolutionary Computation  CEC   Honolulu  HI  USA            
+
+  Cheung  N  J   Ding  X  M   Shen  H  B           OptiFel  A Convergent Heterogeneous Particle Sarm Optimization Algorithm for Takagi Sugeno Fuzzy Modeling   IEEE Transactions on Fuzzy Systems                   doi         TFUZZ               S CID               
+
+  Nobile  M   Besozzi  D   Cazzaniga  P   Mauri  G   Pescini  D           A GPU Based Multi Swarm PSO Method for Parameter Estimation in Stochastic Biological Systems Exploiting Discrete Time Target Series   Evolutionary Computation  Machine Learning and Data Mining in Bioinformatics  Lecture Notes in Computer Science  Vol             pp              doi                             
+
+  Yang  X S          Nature Inspired Metaheuristic Algorithms  Luniver Press  ISBN                        
+
+  Tu  Z   Lu  Y           A robust stochastic genetic algorithm  StGA  for global numerical optimization   IEEE Transactions on Evolutionary Computation                  doi         TEVC              S CID               
+
+  Tu  Z   Lu  Y           Corrections to  A Robust Stochastic Genetic Algorithm  StGA  for Global Numerical Optimization    IEEE Transactions on Evolutionary Computation               doi         TEVC              S CID              
+
+  Kennedy  James          Bare bones particle swarms   Proceedings of the      IEEE Swarm Intelligence Symposium  SIS     Cat  No   EX      pp              doi         SIS               ISBN                     S CID               
+
+  X  S  Yang  S  Deb and S  Fong  Accelerated particle swarm optimization and support vector machine for business optimization and applications  NDT       Springer CCIS      pp               
+
+   Search Results  APSO   File Exchange   MATLAB Central  
+
+  Parsopoulos  K   Vrahatis  M           Particle swarm optimization method in multiobjective problems   Proceedings of the ACM Symposium on Applied Computing  SAC   pp                doi                       
+
+  Coello Coello  C   Salazar Lechuga  M           MOPSO  A Proposal for Multiple Objective Particle Swarm Optimization   Congress on Evolutionary Computation  CEC        pp                 
+
+  Mason  Karl  Duggan  Jim  Howley  Enda          Multi objective dynamic economic emission dispatch using particle swarm optimisation variants   Neurocomputing                doi         j neucom             
+
+  Roy  R   Dehuri  S    amp  Cho  S  B          A Novel Particle Swarm Optimization Algorithm for Multi Objective Combinatorial Optimization Problem   International Journal of Applied Metaheuristic Computing  IJAMC               
+
+  Kennedy  J   amp  Eberhart  R  C          A discrete binary version of the particle swarm algorithm  Conference on Systems  Man  and Cybernetics  Piscataway  NJ  IEEE Service Center  pp           
+
+  Clerc  M          Discrete Particle Swarm Optimization  illustrated by the Traveling Salesman Problem  New Optimization Techniques in Engineering  Springer  pp         
+
+  Clerc  M          Binary Particle Swarm Optimisers  toolbox  derivations  and mathematical insights  Open Archive HAL
+
+  Jarboui  B   Damak  N   Siarry  P   Rebai  A           A combinatorial particle swarm optimization for solving multi mode resource constrained project scheduling problems   Applied Mathematics and Computation                doi         j amc             
+
+  Chen  Wei neng  Zhang  Jun          A novel set based particle swarm optimization method for discrete optimization problem   IEEE Transactions on Evolutionary Computation                   CiteSeerX                       doi         tevc               S CID               
+
+
+External links edit 
+
+
+
+Wikimedia Commons has media related to Particle swarm optimization 
+
+Particle Swarm Central is a repository for information on PSO  Several source codes are freely available 
+A brief video of particle swarms optimizing three benchmark functions 
+Simulation of PSO convergence in a two dimensional space  Matlab  
+Applications of PSO 
+Liu  Yang          Automatic calibration of a rainfall runoff model using a fast and elitist multi objective particle swarm algorithm   Expert Systems with Applications                     doi         j eswa             
+Links to PSO source code
+vteMajor subfields of optimization
+Convex programming
+Fractional programming
+Integer programming
+Quadratic programming
+Nonlinear programming
+Stochastic programming
+Robust optimization
+Combinatorial optimization
+Infinite dimensional optimization
+Metaheuristics
+Constraint satisfaction
+Multiobjective optimization
+Simulated annealing
+
+vteSwarmingBiological swarming
+Agent based model in biology
+Collective animal behavior
+Droving
+Flock
+flocking
+sort sol
+Herd
+herd behavior
+Locust
+Mixed species foraging flock
+Mobbing behavior
+feeding frenzy
+Pack
+pack hunter
+Patterns of self organization in ants
+ant mill
+symmetry breaking of escaping ants
+Shoaling and schooling
+bait ball
+Swarming behaviour
+Swarming  honey bee 
+Swarming motility
+Animal migration
+Animal migration
+altitudinal
+tracking
+history
+coded wire tag
+Bird migration
+flyways
+reverse migration
+Cell migration
+Fish migration
+diel vertical
+Lessepsian
+salmon run
+sardine run
+Homing
+natal
+philopatry
+Insect migration
+butterflies
+monarch
+Sea turtle migration
+Swarm algorithms
+Agent based models
+Ant colony optimization
+Boids
+Crowd simulation
+Particle swarm optimization
+Swarm intelligence
+Swarm  simulation 
+Collective motion
+Active matter
+Collective motion
+Self propelled particles
+clustering
+Vicsek model
+BIO LGCA
+Swarm robotics
+Ant robotics
+Microbotics
+Nanorobotics
+Swarm robotics
+Symbrion
+Related topics
+Allee effect
+Animal navigation
+Collective intelligence
+Decentralised system
+Eusociality
+Group size measures
+Microbial intelligence
+Mutualism
+Predator satiation
+Quorum sensing
+Spatial organization
+Stigmergy
+Military swarming
+Task allocation and partitioning of social insects
+
+
+
+
+
+
+Retrieved from  https   en wikipedia org w index php title Particle swarm optimization amp oldid

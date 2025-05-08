@@ -1,0 +1,737 @@
+Part of a series onArtificial intelligence  AI 
+Major goals
+Artificial general intelligence
+Intelligent agent
+Recursive self improvement
+Planning
+Computer vision
+General game playing
+Knowledge reasoning
+Natural language processing
+Robotics
+AI safety
+
+Approaches
+Machine learning
+Symbolic
+Deep learning
+Bayesian networks
+Evolutionary algorithms
+Hybrid intelligent systems
+Systems integration
+
+Applications
+Bioinformatics
+Deepfake
+Earth sciences
+ Finance 
+Generative AI
+Art
+Audio
+Music
+Government
+Healthcare
+Mental health
+Industry
+Translation
+ Military 
+Physics
+Projects
+
+Philosophy
+Artificial consciousness
+Chinese room
+Friendly AI
+Control problem Takeover
+Ethics
+Existential risk
+Turing test
+Uncanny valley
+
+History
+Timeline
+Progress
+AI winter
+AI boom
+
+Glossary
+Glossary
+vte
+Artificial intelligence  AI or A I   is a computer program or a machine that is able to learn and mimic human cognition                        Sometimes  AI is used to talk about neural networks or deep learning 
+Artificial intelligence is a system s ability to understand external data  to learn from that data  and to use what it has learned to achieve specific goals or tasks through adaptation            
+Artificial intelligence is widely applied in speech recognition  image recognition  robotics  autonomous systems  natural language processing  machine translation  predictive analytics  medical diagnostics  fraud detection  and the control of physical processes 
+
+
+Origin of name change   change source 
+John McCarthy came up with the name   artificial intelligence  in       Intelligence allows an organism to act in a meaningful way in its environment  It includes the ability to get sensory inputs  and to react to these 
+
+Laws change   change source 
+The European Union made a law       s second quarter  about artificial intelligence  It is the world s first law that regulates AI            
+Connecticut and Colorado tried to pass laws  in       regarding use of AI            
+
+History change   change source 
+AI research started with a conference at Dartmouth College in       It was a month long brainstorming session many people who like AI came to  At the conference  they wrote programs which were able to beat humans at checkers or solving word problems  The Department of Defense started giving a lot of money to AI research  and labs were created all over the world 
+In a paper on AI  mathematician James Lighthill wrote  no aspect of the discipline has so far seen discoveries generated the huge influence that was previously anticipated In no part of the field have the discoveries made so far produced the major impact that was then promised        The governments of the US and UK decided to spend money on other projects which caused little new research to be done  This was known as an  AI winter             
+
+In the   s and early     s  AI became important again in data mining and medical diagnosis  This was possible because of faster computers and focusing on solving more specific problems  Deep Blue  a chess computer that became famous        In       the chess computer Deep Blue became the first computer program to beat chess world champion Garry Kasparov  In       IBM Watson beat the top two Jeopardy  players Brad Rutter and Ken Jennings  In       Google s AlphaGo beat top Go player Lee Sedol   out of   times 
+The idea is perhaps much older  Julien Offray de La Mettrie             was a materialist thinker of the Enlightenment  In his work of       L Homme Machine  he had the idea that both matter and life organized themselves             He is seen as one of the precursors of Darwin s theory of evolution             Today  one field of artificial intelligence  called strong artificial intelligence wants to build a machine that can think like a person             However  weak artificial intelligence is about building a system that can support a human  One of the key problems is to make systems that can model wikt uncertainity  Most of the time  this is done with probability theory and statistics 
+
+Uses of artificial intelligence change   change source 
+Artificial intelligence is used in many different areas today 
+
+Healthcare  see Artificial intelligence in healthcare  AI helps doctors diagnose diseases and find treatments for patients 
+Industry specific tasks  AI applications are used to solve problems in a workplace  industry  or institutions 
+Finance  Banks use AI to find fraud and make trading decisions 
+Customer service  Many companies use AI chatbots to answer customer questions and provide support 
+Personal assistants  AI assistants like Siri and Alexa help people manage their daily tasks 
+Entertainment  AI is used in video games to create smart  responsive characters and stories that change in fun ways based on what the player does  AI is used to create videos now a days by using different models like Sora 
+Those subjects are part of Game artificial intelligence 
+
+Military  Military artificial intelligence 
+Generative AI  or Generative artificial intelligence 
+Some software has become well known  such as ChatGPT  a chatbot and virtual assistant  
+
+Domains of artificial intelligence change   change source 
+There are different domains of artificial intelligence 
+
+Pattern recognition like speech  writing  and handwriting
+Knowledge engineering like logic programming and inference engines
+Expert systems for question answering and Chatbots
+Machine learning
+Artificial neural networks and deep learning
+Computer vision
+Robotics
+General game playing
+Artificial life
+Types  and classes  of artificial intelligence change   change source 
+Researchers Kaplan and Haenlein say there are three types of AI system  analytical  human inspired  and humanized artificial intelligence             
+
+Analytical A I  has similarities with cognitive intelligence which tries to understand the world and make decisions based on that 
+Human inspired A I  which tries to be more  human  with cognitive intelligence with emotional intelligence 
+Humanized A I  is able to understand human social activity and is able to be self aware            
+Controversies regarding use of A I  change   change source 
+In       a municipality in Norway made a report in regard to permanently closing down schools  The report used ghost source  or fictitious sources   Those sources were claimed to be the works of two  named  professors  The municipality admitted that the report was made  partly  by A I   The process of closing down schools  has stopped  as of March               An official that was involved  resigned  or left her job  one month later               See Hallucination  artificial intelligence 
+
+Other information change   change source 
+Trivia sections are NOT encouraged under Wikipedia guidelines  Please improve this article by integrating relevant items and removing inappropriate ones 
+Researchers didn t know how difficult several issues were  They still couldn t offer computers things like emotions or common sense 
+Faster computers  deep learning  and more data have made AI popular throughout the world              
+An great intelligent machine is flexible and perceives what is around it  It would use what it learns to make its chance of success at some goal better             
+AI has been successful with decoding human speech             playing games  like chess and Go   self driving cars  and understanding complex data             
+Someday  AI researchers hope to create computer programs that can learn  solve problems  and think logically                          So far  most AI programs only do what computers can do well like searching databases or doing calculations  AI is not able to sense and understand what is happening around itself because of problems with what computers can do 
+AI involves many different fields like computer science  mathematics  linguistics  psychology  neuroscience  and philosophy  Researchers hope to make a  general artificial intelligence  which can solve many problems instead of focusing on just one  Researchers are also trying to make creative and emotional AI which could create art  Alan Turing wrote in       I propose to consider the question  can machines think                He said the question should be changed from if a machine  thinks  to  whether or not it is possible for machinery to show intelligent behavior               Alain Turing also created the Turing test  This is a very general test  If a human cannot tell if at the other end of the line  there is a machine or a human answering questions  the machine is intelligent 
+The authors of Artificial Intelligence  A Modern Approach agree with Turing that AI must be defined by  acting  and not  thinking               But they don t think the test compares machines to people   Aeronautical engineering texts do not define the goal of their field as making  machines that fly so exactly like pigeons that they can fool other pigeons                AI founder John McCarthy agreed  writing that  Artificial intelligence is not  by definition  simulation of human intelligence                          
+Computers can do some things like learning and problem solving  but not in the same way as people do            
+Interestingly  advancements in AI have expanded its applications  including the use of Large language models  LLMs  to  humanize  AI generated text  This reflects a growing interest in bridging the gap between machine outputs and human like expression              
+AI and machine learning technology is used in applications including  search engines  recommendation systems   virtual assistants  autonomous vehicles  automatic language translation  facial recognition  image labeling  advertising  and driving internet traffic 
+One interesting use of AI is in helping people with their personal relationships  For example  ChatGPT is a powerful AI tool that can create human like text and assist in many communication tasks             
+Optical character recognition is no longer thought of as an example of  artificial intelligence  since it s now commonly used 
+
+Related pages change   change source 
+Data mining
+Information storage systems  or Computer data storage 
+OpenAI  a company 
+Books change   change source 
+Russell  Stuart J   Norvig  Peter          Artificial Intelligence  A Modern Approach   th      ed    Hoboken  Pearson  ISBN                      LCCN               
+Rich  Elaine  Knight  Kevin  Nair  Shivashankar B         Artificial Intelligence   rd      ed    New Delhi  Tata McGraw Hill India  ISBN                     
+References change   change source 
+
+
+              Russell  Stuart J   amp  Norvig  Peter       Artificial intelligence  a modern approach   nd ed  Upper Saddle River  New Jersey  Prentice Hall  ISBN                   
+
+   Andreas Kaplan  Artificial Intelligence  Business and Civilization  Our Fate Made in Machines  Routledge        
+
+          Kaplan  Andreas  Haenlein  Michael  January         Siri  Siri  in my hand  Who s the fairest in the land  On the interpretations  illustrations  and implications of artificial intelligence   Business Horizons                 doi         j bushor              ISSN                 S CID                
+
+  https   sciencebusiness net news worlds first artificial intelligence law moves closer passage european parliament
+
+   https   www politico com news            ai tech regulations lobbying             cite web    Missing or empty       title   help 
+
+  Bolat  Sarkan   AI Course   Retrieved    November      
+
+  La Mettrie  R flexions philosophiques sur l origine des animaux        anonym 
+
+  Michel Bottolier  Hommage        De La Mettrie   Darwin Volltext      September      auf Libres Penseurs de France
+
+  Nils J  Nilsson  The Quest for Artificial Intelligence  A History of Ideas and Achievements  Cambridge University Press  New York      
+
+   Artificial Intelligence  More Than a Natural Intelligence       November      
+
+  https   www nettavisen no nyheter ki skandale i tromso kommune ikke hyggelig a bli tatt med buksa nede s               Retrieved    March     
+
+  https   www nrk no tromsogfinnmark kari henriksen trekker seg etter behandlingen av ny barnehage  og skolestruktur i tromso             Retrieved           
+
+  Kaplan  Andreas  Haenlein  Michael          Rulers of the world  unite  The challenges and opportunities of artificial intelligence   Business Horizons             doi         j bushor              S CID                
+
+  Hutter  Marcus       Universal artificial intelligence  Berlin  Springer  ISBN                       
+
+  Nilsson  Nils       Artificial intelligence  a new synthesis  Morgan Kaufmann  ISBN                       
+
+  Kurzweil  Ray       The age of spiritual machines  Penguin Books  ISBN                    
+
+  Kurzweil  Ray       The singularity is near  Viking Press
+
+            Turing         p          sfnp error  no target  CITEREFTuring      help 
+
+  Russell  amp  Norvig         chpt    
+
+  Russell  amp  Norvig         p         
+
+  Maker         sfnp error  no target  CITEREFMaker      help 
+
+  Verified Vibe    January             AI Predictions  Innovation  Cybersecurity  amp  the Future of Tech  retrieved   January     
+
+   How to humanize AI content   Rephrasy  Retrieved    December      
+
+  Verified Vibe    January             AI Predictions  Innovation  Cybersecurity  amp  the Future of Tech  retrieved   January     
+
+
+vteArtificial intelligenceConcepts
+Parameter
+Hyperparameter
+Loss functions
+Regression
+Bias variance tradeoff
+Double descent
+Overfitting
+Clustering
+Gradient descent
+SGD
+Quasi Newton method
+Conjugate gradient method
+Backpropagation
+Attention
+Convolution
+Normalization
+Batchnorm
+Activation
+Softmax
+Sigmoid
+Rectifier
+Gating
+Weight initialization
+Regularization
+Datasets
+Augmentation
+Reinforcement learning
+Q learning
+SARSA
+Imitation
+Diffusion
+Autoregression
+Adversary
+Hallucination
+Applications
+Machine learning
+In context learning
+Artificial neural network
+Deep learning
+Language model
+Large language model
+NMT
+Artificial general intelligence
+ImplementationsAudio visual
+AlexNet
+WaveNet
+Human image synthesis
+HWR
+OCR
+Speech synthesis
+ElevenLabs
+Speech recognition
+Facial recognition
+AlphaFold
+Text to image models
+Latent diffusion model
+DALL E
+Flux
+Ideogram
+Midjourney
+Stable Diffusion
+Text to video models
+Sora
+Dream Machine
+VideoPoet
+Whisper
+Text
+Word vec
+Seq seq
+GloVe
+BERT
+T 
+Llama
+Chinchilla AI
+PaLM
+GPT
+ 
+J
+ 
+ 
+ChatGPT
+ 
+ o
+o 
+Claude
+Gemini
+Grok
+LaMDA
+BLOOM
+Project Debater
+IBM Watson
+IBM Watsonx
+Granite
+PanGu  
+Decisional
+AlphaGo
+AlphaZero
+OpenAI Five
+Self driving car
+MuZero
+Action selection
+AutoGPT
+Robot control
+People
+Alan Turing
+Claude Shannon
+Allen Newell
+Herbert A  Simon
+Frank Rosenblatt
+Marvin Minsky
+John McCarthy
+Nathaniel Rochester
+Seymour Papert
+Joseph Weizenbaum
+Bernard Widrow
+Paul Werbos
+Yoshua Bengio
+Alex Graves
+Ian Goodfellow
+Stephen Grossberg
+Demis Hassabis
+Geoffrey Hinton
+Yann LeCun
+Fei Fei Li
+Andrew Ng
+J rgen Schmidhuber
+David Silver
+Ilya Sutskever
+Organizations
+Anthropic
+DeepMind
+DeepSeek
+EleutherAI
+Hugging Face
+Kuaishou
+Meta AI
+Mila
+MiniMax
+Mistral AI
+MIT CSAIL
+OpenAI
+Runway
+xAI
+Architectures
+Neural Turing machine
+Differentiable neural computer
+Transformer
+Vision transformer  ViT 
+Recurrent neural network  RNN 
+Long short term memory  LSTM 
+Gated recurrent unit  GRU 
+Echo state network
+Multilayer perceptron  MLP 
+Convolutional neural network  CNN 
+Residual neural network  RNN 
+Highway network
+Mamba
+Autoencoder
+Variational autoencoder  VAE 
+Generative adversarial network  GAN 
+Graph neural network  GNN 
+
+vteExistential risk from artificial intelligenceConcepts
+Consequentialism
+Technological singularity
+AGI
+AI alignment
+AI capability control
+AI safety
+AI takeover
+Effective accelerationism
+Ethics of artificial intelligence
+Existential risk from artificial general intelligence
+Friendly artificial intelligence
+Instrumental convergence
+Intelligence explosion
+Longtermism
+Machine ethics
+Suffering risks
+Superintelligence
+Organizations
+OpenAI
+Alignment Research Center
+Center for AI Safety
+Center for Applied Rationality
+Center for Human Compatible Artificial Intelligence
+Centre for the Study of Existential Risk
+EleutherAI
+Future of Humanity Institute
+Future of Life Institute
+Google DeepMind
+Humanity 
+Institute for Ethics and Emerging Technologies
+Leverhulme Centre for the Future of Intelligence
+Machine Intelligence Research Institute
+People
+Scott Alexander
+Sam Altman
+Yoshua Bengio
+Nick Bostrom
+Paul Christiano
+Eric Drexler
+Sam Harris
+Stephen Hawking
+Dan Hendrycks
+Geoffrey Hinton
+Bill Joy
+Shane Legg
+Elon Musk
+Steve Omohundro
+Huw Price
+Martin Rees
+Stuart J  Russell
+Jaan Tallinn
+Max Tegmark
+Frank Wilczek
+Roman Yampolskiy
+Eliezer Yudkowsky
+Other
+Statement on AI risk of extinction
+Human Compatible
+Open letter on artificial intelligence       
+Our Final Invention
+The Precipice
+Superintelligence  Paths  Dangers  Strategies
+Do You Trust This Computer 
+Artificial Intelligence Act
+
+vteComputer scienceHardware
+Printed circuit board
+Peripheral
+Integrated circuit
+Systems on Chip  SoCs 
+Very Large Scale Integration
+Energy consumption  Green computing 
+Electronic design automation
+Hardware acceleration
+Computer systems organization
+Computer architecture
+Embedded system
+Real time computing
+Dependability
+Networks
+Network architecture
+Network protocol
+Network components
+Network scheduler
+Network performance evaluation
+Network service
+Software organization
+Interpreter
+Middleware
+Virtual machine
+Operating system
+Software quality
+Software notations and tools
+Programming paradigm
+Programming language
+Compiler
+Domain specific language
+Modeling language
+Software framework
+Integrated development environment
+Software configuration management
+Software library
+Software repository
+Software development
+Control variable
+Software development process
+Requirements analysis
+Software design
+Software construction
+Software deployment
+Software engineering
+Software maintenance
+Programming team
+Open source model
+Theory of computation
+Model of computation
+Formal language
+Automata theory
+Computability theory
+Computational complexity theory
+Logic
+Semantics
+Algorithms
+Algorithm design
+Analysis of algorithms
+Algorithmic efficiency
+Randomized algorithm
+Computational geometry
+Mathematics of computing
+Discrete mathematics
+Probability
+Statistics
+Mathematical software
+Information theory
+Mathematical analysis
+Numerical analysis
+Theoretical computer science
+Information systems
+Database management system
+Information storage systems
+Enterprise information system
+Social information systems
+Geographic information system
+Decision support system
+Process control system
+Multimedia information system
+Data mining
+Digital library
+Computing platform
+Digital marketing
+World Wide Web
+Information retrieval
+Security
+Cryptography
+Formal methods
+Security hacker
+Security services
+Intrusion detection system
+Hardware security
+Network security
+Information security
+Application security
+Human computer interaction
+Interaction design
+Social computing
+Ubiquitous computing
+Visualization
+Accessibility
+Concurrency
+Concurrent computing
+Parallel computing
+Distributed computing
+Multithreading
+Multiprocessing
+Artificial intelligence
+Natural language processing
+Computer vision
+Search methodology
+Control method
+Knowledge representation and reasoning
+Automated planning and scheduling
+Philosophy of artificial intelligence
+Distributed artificial intelligence
+Machine learning
+Supervised learning
+Reinforcement learning
+Unsupervised learning
+Multi task learning
+Cross validation
+Graphics
+Animation
+Graphics processing unit
+Virtual reality
+Rendering
+Photograph manipulation
+Mixed reality
+Image compression
+Solid modeling
+Applied computing
+E commerce
+Computational chemistry
+Computational biology
+Digital art
+Video games
+Word processing
+Quantum Computing
+Enterprise software
+Computational mathematics
+Computational physics
+Computational social science
+Computational engineering
+Differentiable computing
+Computational healthcare
+Electronic publishing
+Cyberwarfare
+Electronic voting
+Operations research
+Educational technology
+Document management
+
+vteDifferentiable computingConcepts
+Clustering
+Regression
+Backpropagation
+Autoregression
+Gradient descent
+SGD
+Overfitting
+Hallucination
+Adversary
+Attention
+Convolution
+Loss functions
+Batchnorm
+Activation
+Softmax
+Sigmoid
+Rectifier
+Regularization
+Datasets
+Augmentation
+Diffusion
+Differentiable function
+Differentiable programming
+Information geometry
+Statistical manifold
+Automatic differentiation
+Neuromorphic engineering
+Pattern recognition
+Tensor calculus
+Computational learning theory
+Inductive bias
+Applications
+Machine learning
+In context learning
+Artificial neural network
+Deep learning
+Scientific computing
+Artificial Intelligence
+Language model
+Large language model
+Hardware
+IPU
+TPU
+VPU
+Memristor
+SpiNNaker
+Software libraries
+TensorFlow
+PyTorch
+Keras
+Theano
+JAX
+Flux jl
+MindSpore
+ImplementationsAudio visual
+AlexNet
+WaveNet
+Human image synthesis
+HWR
+OCR
+Speech synthesis
+Speech recognition
+Facial recognition
+AlphaFold
+Text to image models
+DALL E
+Midjourney
+Stable Diffusion
+Text to video models
+Sora
+VideoPoet
+Whisper
+Verbal
+Word vec
+Seq seq
+BERT
+Gemini
+LaMDA
+Bard
+NMT
+Project Debater
+IBM Watson
+IBM Watsonx
+Granite
+GPT  
+GPT  
+GPT  
+GPT  
+ChatGPT
+GPT J
+Chinchilla AI
+PaLM
+BLOOM
+LLaMA
+PanGu  
+Decisional
+AlphaGo
+AlphaZero
+Q learning
+SARSA
+OpenAI Five
+Self driving car
+MuZero
+Action selection
+Auto GPT
+Robot control
+People
+Yoshua Bengio
+Alex Graves
+Ian Goodfellow
+Stephen Grossberg
+Demis Hassabis
+Geoffrey Hinton
+Yann LeCun
+Fei Fei Li
+Andrew Ng
+J rgen Schmidhuber
+David Silver
+Ilya Sutskever
+Organizations
+Anthropic
+EleutherAI
+Google DeepMind
+Hugging Face
+OpenAI
+Meta AI
+Mila
+MIT CSAIL
+Huawei
+Architectures
+Neural Turing machine
+Differentiable neural computer
+Transformer
+Recurrent neural network  RNN 
+Long short term memory  LSTM 
+Gated recurrent unit  GRU 
+Echo state network
+Multilayer perceptron  MLP 
+Convolutional neural network
+Residual neural network
+Mamba
+Autoencoder
+Variational autoencoder  VAE 
+Generative adversarial network  GAN 
+Graph neural network
+
+vteEmerging technologies
+Authority control  National 
+Spain
+France
+BnF data
+Germany
+Israel
+United States
+Latvia
+Japan
+Czech Republic
+
+
+
+
+
+
+Retrieved from  https   simple wikipedia org w index php title Artificial intelligence amp oldid

@@ -1,0 +1,4537 @@
+Optimization algorithm
+For the analytical method called  steepest descent   see Method of steepest descent 
+Part of a series onMachine learningand data mining
+Paradigms
+Supervised learning
+Unsupervised learning
+Semi supervised learning
+Self supervised learning
+Reinforcement learning
+Meta learning
+Online learning
+Batch learning
+Curriculum learning
+Rule based learning
+Neuro symbolic AI
+Neuromorphic engineering
+Quantum machine learning
+
+Problems
+Classification
+Generative modeling
+Regression
+Clustering
+Dimensionality reduction
+Density estimation
+Anomaly detection
+Data cleaning
+AutoML
+Association rules
+Semantic analysis
+Structured prediction
+Feature engineering
+Feature learning
+Learning to rank
+Grammar induction
+Ontology learning
+Multimodal learning
+
+Supervised learning classification                  regression  
+Apprenticeship learning
+Decision trees
+Ensembles
+Bagging
+Boosting
+Random forest
+k NN
+Linear regression
+Naive Bayes
+Artificial neural networks
+Logistic regression
+Perceptron
+Relevance vector machine  RVM 
+Support vector machine  SVM 
+
+Clustering
+BIRCH
+CURE
+Hierarchical
+k means
+Fuzzy
+Expectation maximization  EM 
+DBSCAN
+OPTICS
+Mean shift
+
+Dimensionality reduction
+Factor analysis
+CCA
+ICA
+LDA
+NMF
+PCA
+PGD
+t SNE
+SDL
+
+Structured prediction
+Graphical models
+Bayes net
+Conditional random field
+Hidden Markov
+
+Anomaly detection
+RANSAC
+k NN
+Local outlier factor
+Isolation forest
+
+Artificial neural network
+Autoencoder
+Deep learning
+Feedforward neural network
+Recurrent neural network
+LSTM
+GRU
+ESN
+reservoir computing
+Boltzmann machine
+Restricted
+GAN
+Diffusion model
+SOM
+Convolutional neural network
+U Net
+LeNet
+AlexNet
+DeepDream
+Neural radiance field
+Transformer
+Vision
+Mamba
+Spiking neural network
+Memtransistor
+Electrochemical RAM  ECRAM 
+
+Reinforcement learning
+Q learning
+SARSA
+Temporal difference  TD 
+Multi agent
+Self play
+
+Learning with humans
+Active learning
+Crowdsourcing
+Human in the loop
+RLHF
+
+Model diagnostics
+Coefficient of determination
+Confusion matrix
+Learning curve
+ROC curve
+
+Mathematical foundations
+Kernel machines
+Bias variance tradeoff
+Computational learning theory
+Empirical risk minimization
+Occam learning
+PAC learning
+Statistical learning
+VC theory
+Topological deep learning
+
+Journals and conferences
+ECML PKDD
+NeurIPS
+ICML
+ICLR
+IJCAI
+ML
+JMLR
+
+Related articles
+Glossary of artificial intelligence
+List of datasets for machine learning research
+List of datasets in computer vision and image processing
+Outline of machine learning
+vte
+Gradient Descent in  D
+Gradient descent is a method for unconstrained mathematical optimization  It is a first order iterative algorithm for minimizing a differentiable multivariate function 
+The idea is to take repeated steps in the opposite direction of the gradient  or approximate gradient  of the function at the current point  because this is the direction of steepest descent  Conversely  stepping in the direction of the gradient will lead to a trajectory that maximizes that function  the procedure is then known as gradient ascent 
+It is particularly useful in machine learning for minimizing the cost or loss function             Gradient descent should not be confused with local search algorithms  although both are iterative methods for optimization 
+Gradient descent is generally attributed to Augustin Louis Cauchy  who first suggested it in                  Jacques Hadamard independently proposed a similar method in                             Its convergence properties for non linear optimization problems were first studied by Haskell Curry in                  with the method becoming increasingly well studied and used in the following decades                       
+A simple extension of gradient descent  stochastic gradient descent  serves as the most basic algorithm used for training most deep networks today 
+
+
+Description edit 
+Illustration of gradient descent on a series of level sets
+Gradient descent is based on the observation that if the multi variable function 
+  
+    
+      
+        F
+         
+        
+          x
+        
+         
+      
+    
+      displaystyle F  mathbf  x    
+  
+ is defined and differentiable in a neighborhood of a point 
+  
+    
+      
+        
+          a
+        
+      
+    
+      displaystyle  mathbf  a   
+  
+  then 
+  
+    
+      
+        F
+         
+        
+          x
+        
+         
+      
+    
+      displaystyle F  mathbf  x    
+  
+ decreases fastest if one goes from 
+  
+    
+      
+        
+          a
+        
+      
+    
+      displaystyle  mathbf  a   
+  
+ in the direction of the negative gradient of 
+  
+    
+      
+        F
+      
+    
+      displaystyle F 
+  
+ at 
+  
+    
+      
+        
+          a
+        
+         
+          x     
+          x     
+        F
+         
+        
+          a
+        
+         
+      
+    
+      displaystyle  mathbf  a     nabla F  mathbf  a    
+  
+  It follows that  if
+
+
+  
+    
+      
+        
+          
+            a
+          
+          
+            n
+             
+             
+          
+        
+         
+        
+          
+            a
+          
+          
+            n
+          
+        
+          x     
+          x b  
+          x     
+        F
+         
+        
+          
+            a
+          
+          
+            n
+          
+        
+         
+      
+    
+      displaystyle  mathbf  a    n     mathbf  a    n   gamma  nabla F  mathbf  a    n   
+  
+
+for a small enough step size or learning rate 
+  
+    
+      
+          x b  
+          x     
+        
+          
+            R
+          
+          
+             
+          
+        
+      
+    
+      displaystyle  gamma  in  mathbb  R       
+  
+  then  
+  
+    
+      
+        F
+         
+        
+          
+            a
+            
+              n
+            
+          
+        
+         
+          x     
+        F
+         
+        
+          
+            a
+            
+              n
+               
+               
+            
+          
+        
+         
+      
+    
+      displaystyle F  mathbf  a  n     geq F  mathbf  a  n       
+  
+  In other words  the term 
+  
+    
+      
+          x b  
+          x     
+        F
+         
+        
+          a
+        
+         
+      
+    
+      displaystyle  gamma  nabla F  mathbf  a    
+  
+ is subtracted from 
+  
+    
+      
+        
+          a
+        
+      
+    
+      displaystyle  mathbf  a   
+  
+ because we want to move against the gradient  toward the local minimum  With this observation in mind  one starts with a guess 
+  
+    
+      
+        
+          
+            x
+          
+          
+             
+          
+        
+      
+    
+      displaystyle  mathbf  x       
+  
+ for a local minimum of 
+  
+    
+      
+        F
+      
+    
+      displaystyle F 
+  
+  and considers the sequence 
+  
+    
+      
+        
+          
+            x
+          
+          
+             
+          
+        
+         
+        
+          
+            x
+          
+          
+             
+          
+        
+         
+        
+          
+            x
+          
+          
+             
+          
+        
+         
+          x     
+      
+    
+      displaystyle  mathbf  x        mathbf  x        mathbf  x        ldots  
+  
+ such that
+
+
+  
+    
+      
+        
+          
+            x
+          
+          
+            n
+             
+             
+          
+        
+         
+        
+          
+            x
+          
+          
+            n
+          
+        
+          x     
+        
+            x b  
+          
+            n
+          
+        
+          x     
+        F
+         
+        
+          
+            x
+          
+          
+            n
+          
+        
+         
+         
+          xa  
+        n
+          x     
+          
+      
+    
+      displaystyle  mathbf  x    n     mathbf  x    n   gamma   n  nabla F  mathbf  x    n     n geq    
+  
+
+We have a monotonic sequence
+
+
+  
+    
+      
+        F
+         
+        
+          
+            x
+          
+          
+             
+          
+        
+         
+          x     
+        F
+         
+        
+          
+            x
+          
+          
+             
+          
+        
+         
+          x     
+        F
+         
+        
+          
+            x
+          
+          
+             
+          
+        
+         
+          x     
+          x  ef 
+         
+      
+    
+      displaystyle F  mathbf  x        geq F  mathbf  x        geq F  mathbf  x        geq  cdots   
+  
+
+so the sequence 
+  
+    
+      
+         
+        
+          
+            x
+          
+          
+            n
+          
+        
+         
+      
+    
+      displaystyle   mathbf  x    n   
+  
+ converges to the desired local minimum  Note that the value of the step size 
+  
+    
+      
+          x b  
+      
+    
+      displaystyle  gamma  
+  
+ is allowed to change at every iteration  
+It is possible to guarantee the convergence to a local minimum under certain assumptions on the function 
+  
+    
+      
+        F
+      
+    
+      displaystyle F 
+  
+  for example  
+  
+    
+      
+        F
+      
+    
+      displaystyle F 
+  
+ convex and 
+  
+    
+      
+          x     
+        F
+      
+    
+      displaystyle  nabla F 
+  
+ Lipschitz  and particular choices of 
+  
+    
+      
+          x b  
+      
+    
+      displaystyle  gamma  
+  
+  Those include the sequence
+
+  
+    
+      
+        
+            x b  
+          
+            n
+          
+        
+         
+        
+          
+            
+               
+              
+                
+                  
+                     
+                    
+                      
+                        
+                          x
+                        
+                        
+                          n
+                        
+                      
+                        x     
+                      
+                        
+                          x
+                        
+                        
+                          n
+                            x     
+                           
+                        
+                      
+                    
+                     
+                  
+                  
+                    T
+                  
+                
+                
+                   
+                  
+                      x     
+                    F
+                     
+                    
+                      
+                        x
+                      
+                      
+                        n
+                      
+                    
+                     
+                      x     
+                      x     
+                    F
+                     
+                    
+                      
+                        x
+                      
+                      
+                        n
+                          x     
+                         
+                      
+                    
+                     
+                  
+                   
+                
+              
+               
+            
+            
+              
+                  x     
+                
+                    x     
+                  F
+                   
+                  
+                    
+                      x
+                    
+                    
+                      n
+                    
+                  
+                   
+                    x     
+                    x     
+                  F
+                   
+                  
+                    
+                      x
+                    
+                    
+                      n
+                        x     
+                       
+                    
+                  
+                   
+                
+                  x     
+              
+              
+                 
+              
+            
+          
+        
+      
+    
+      displaystyle  gamma   n    frac   left  left  mathbf  x    n   mathbf  x    n    right   T  left  nabla F  mathbf  x    n    nabla F  mathbf  x    n     right  right    left   nabla F  mathbf  x    n    nabla F  mathbf  x    n     right         
+  
+
+as in the Barzilai Borwein method                        or a sequence 
+  
+    
+      
+        
+            x b  
+          
+            n
+          
+        
+      
+    
+      displaystyle  gamma   n  
+  
+ satisfying the Wolfe conditions  which can be found by using line search   When the function 
+  
+    
+      
+        F
+      
+    
+      displaystyle F 
+  
+ is convex  all local minima are also global minima  so in this case gradient descent can converge to the global solution 
+This process is illustrated in the adjacent picture  Here  
+  
+    
+      
+        F
+      
+    
+      displaystyle F 
+  
+ is assumed to be defined on the plane  and that its graph has a bowl shape   The blue curves are the contour lines  that is  the regions on which the value of 
+  
+    
+      
+        F
+      
+    
+      displaystyle F 
+  
+ is constant  A red arrow originating at a point shows the direction of the negative gradient at that point  Note that the  negative  gradient at a point is orthogonal to the contour line going through that point  We see that gradient descent leads us to the bottom of the bowl  that is  to the point where the value of the function 
+  
+    
+      
+        F
+      
+    
+      displaystyle F 
+  
+ is minimal 
+
+An analogy for understanding gradient descent edit 
+Fog in the mountains
+The basic intuition behind gradient descent can be illustrated by a hypothetical scenario  People are stuck in the mountains and are trying to get down  i e   trying to find the global minimum   There is heavy fog such that visibility is extremely low  Therefore  the path down the mountain is not visible  so they must use local information to find the minimum  They can use the method of gradient descent  which involves looking at the steepness of the hill at their current position  then proceeding in the direction with the steepest descent  i e   downhill   If they were trying to find the top of the mountain  i e   the maximum   then they would proceed in the direction of steepest ascent  i e   uphill   Using this method  they would eventually find their way down the mountain or possibly get stuck in some hole  i e   local minimum or saddle point   like a mountain lake  However  assume also that the steepness of the hill is not immediately obvious with simple observation  but rather it requires a sophisticated instrument to measure  which the persons happen to have at the moment  It takes quite some time to measure the steepness of the hill with the instrument  thus they should minimize their use of the instrument if they wanted to get down the mountain before sunset  The difficulty then is choosing the frequency at which they should measure the steepness of the hill so not to go off track 
+In this analogy  the persons represent the algorithm  and the path taken down the mountain represents the sequence of parameter settings that the algorithm will explore  The steepness of the hill represents the slope of the function at that point  The instrument used to measure steepness is differentiation  The direction they choose to travel in aligns with the gradient of the function at that point  The amount of time they travel before taking another measurement is the step size 
+
+Choosing the step size and descent direction edit 
+Since using a step size 
+  
+    
+      
+          x b  
+      
+    
+      displaystyle  gamma  
+  
+ that is too small would slow convergence  and a 
+  
+    
+      
+          x b  
+      
+    
+      displaystyle  gamma  
+  
+ too large would lead to overshoot and divergence  finding a good setting of 
+  
+    
+      
+          x b  
+      
+    
+      displaystyle  gamma  
+  
+ is an important practical problem  Philip Wolfe also advocated using  clever choices of the  descent  direction  in practice              While using a direction that deviates from the steepest descent direction may seem counter intuitive  the idea is that the smaller slope may be compensated for by being sustained over a much longer distance 
+To reason about this mathematically  consider a direction 
+  
+    
+      
+        
+          
+            p
+          
+          
+            n
+          
+        
+      
+    
+      displaystyle  mathbf  p    n  
+  
+ and step size 
+  
+    
+      
+        
+            x b  
+          
+            n
+          
+        
+      
+    
+      displaystyle  gamma   n  
+  
+ and consider the more general update 
+
+
+  
+    
+      
+        
+          
+            a
+          
+          
+            n
+             
+             
+          
+        
+         
+        
+          
+            a
+          
+          
+            n
+          
+        
+          x     
+        
+            x b  
+          
+            n
+          
+        
+        
+        
+          
+            p
+          
+          
+            n
+          
+        
+      
+    
+      displaystyle  mathbf  a    n     mathbf  a    n   gamma   n    mathbf  p    n  
+  
+ 
+Finding good settings of 
+  
+    
+      
+        
+          
+            p
+          
+          
+            n
+          
+        
+      
+    
+      displaystyle  mathbf  p    n  
+  
+ and 
+  
+    
+      
+        
+            x b  
+          
+            n
+          
+        
+      
+    
+      displaystyle  gamma   n  
+  
+ requires some thought  First of all  we would like the update direction to point downhill  Mathematically  letting 
+  
+    
+      
+        
+            x b  
+          
+            n
+          
+        
+      
+    
+      displaystyle  theta   n  
+  
+ denote the angle between 
+  
+    
+      
+          x     
+          x     
+        F
+         
+        
+          
+            a
+            
+              n
+            
+          
+        
+         
+      
+    
+      displaystyle   nabla F  mathbf  a  n     
+  
+ and 
+  
+    
+      
+        
+          
+            p
+          
+          
+            n
+          
+        
+      
+    
+      displaystyle  mathbf  p    n  
+  
+  this requires that 
+  
+    
+      
+        cos
+          x     
+        
+            x b  
+          
+            n
+          
+        
+         gt 
+          
+      
+    
+      displaystyle  cos  theta   n  gt    
+  
+ To say more  we need more information about the objective function that we are optimising  Under the fairly weak assumption that 
+  
+    
+      
+        F
+      
+    
+      displaystyle F 
+  
+ is continuously differentiable  we may prove that             
+
+
+  
+    
+      
+        F
+         
+        
+          
+            a
+          
+          
+            n
+             
+             
+          
+        
+         
+          x     
+        F
+         
+        
+          
+            a
+          
+          
+            n
+          
+        
+         
+          x     
+        
+            x b  
+          
+            n
+          
+        
+          x     
+          x     
+        F
+         
+        
+          
+            a
+          
+          
+            n
+          
+        
+         
+        
+            x     
+          
+             
+          
+        
+          x     
+        
+          
+            p
+          
+          
+            n
+          
+        
+        
+            x     
+          
+             
+          
+        
+        
+           
+          
+            cos
+              x     
+            
+                x b  
+              
+                n
+              
+            
+              x     
+            
+              max
+              
+                t
+                  x     
+                 
+                 
+                 
+                 
+                 
+              
+            
+            
+              
+                
+                    x     
+                    x     
+                  F
+                   
+                  
+                    
+                      a
+                    
+                    
+                      n
+                    
+                  
+                    x     
+                  t
+                  
+                      x b  
+                    
+                      n
+                    
+                  
+                  
+                    
+                      p
+                    
+                    
+                      n
+                    
+                  
+                   
+                    x     
+                    x     
+                  F
+                   
+                  
+                    
+                      a
+                    
+                    
+                      n
+                    
+                  
+                   
+                  
+                      x     
+                    
+                       
+                    
+                  
+                
+                
+                    x     
+                    x     
+                  F
+                   
+                  
+                    
+                      a
+                    
+                    
+                      n
+                    
+                  
+                   
+                  
+                      x     
+                    
+                       
+                    
+                  
+                
+              
+            
+          
+           
+        
+      
+    
+      displaystyle F  mathbf  a    n     leq F  mathbf  a    n    gamma   n    nabla F  mathbf  a    n           mathbf  p    n        left  cos  theta   n   max   t in         frac     nabla F  mathbf  a    n  t gamma   n  mathbf  p    n    nabla F  mathbf  a    n             nabla F  mathbf  a    n           right  
+  
+   
+This inequality implies that the amount by which we can be sure the function 
+  
+    
+      
+        F
+      
+    
+      displaystyle F 
+  
+ is decreased depends on a trade off between the two terms in square brackets  The first term in square brackets measures the angle between the descent direction and the negative gradient  The second term measures how quickly the gradient changes along the descent direction 
+In principle inequality     could be optimized over 
+  
+    
+      
+        
+          
+            p
+          
+          
+            n
+          
+        
+      
+    
+      displaystyle  mathbf  p    n  
+  
+ and 
+  
+    
+      
+        
+            x b  
+          
+            n
+          
+        
+      
+    
+      displaystyle  gamma   n  
+  
+ to choose an optimal step size and direction  The problem is that evaluating the second term in square brackets requires evaluating 
+  
+    
+      
+          x     
+        F
+         
+        
+          
+            a
+          
+          
+            n
+          
+        
+          x     
+        t
+        
+            x b  
+          
+            n
+          
+        
+        
+          
+            p
+          
+          
+            n
+          
+        
+         
+      
+    
+      displaystyle  nabla F  mathbf  a    n  t gamma   n  mathbf  p    n   
+  
+  and extra gradient evaluations are generally expensive and undesirable  Some ways around this problem are 
+
+Forgo the benefits of a clever descent direction by setting 
+  
+    
+      
+        
+          
+            p
+          
+          
+            n
+          
+        
+         
+          x     
+        F
+         
+        
+          
+            a
+            
+              n
+            
+          
+        
+         
+      
+    
+      displaystyle  mathbf  p    n   nabla F  mathbf  a  n     
+  
+  and use line search to find a suitable step size 
+  
+    
+      
+        
+            x b  
+          
+            n
+          
+        
+      
+    
+      displaystyle  gamma   n  
+  
+  such as one that satisfies the Wolfe conditions  A more economic way of choosing learning rates is backtracking line search  a method that has both good theoretical guarantees and experimental results  Note that one does not need to choose  
+  
+    
+      
+        
+          
+            p
+          
+          
+            n
+          
+        
+      
+    
+      displaystyle  mathbf  p    n  
+  
+ to be the gradient  any direction that has positive inner product with the gradient will result in a reduction of the function value  for a sufficiently small value of 
+  
+    
+      
+        
+            x b  
+          
+            n
+          
+        
+      
+    
+      displaystyle  gamma   n  
+  
+  
+Assuming that 
+  
+    
+      
+        F
+      
+    
+      displaystyle F 
+  
+ is twice differentiable  use its Hessian 
+  
+    
+      
+        
+            x     
+          
+             
+          
+        
+        F
+      
+    
+      displaystyle  nabla     F 
+  
+ to estimate 
+  
+    
+      
+          x     
+          x     
+        F
+         
+        
+          
+            a
+          
+          
+            n
+          
+        
+          x     
+        t
+        
+            x b  
+          
+            n
+          
+        
+        
+          
+            p
+          
+          
+            n
+          
+        
+         
+          x     
+          x     
+        F
+         
+        
+          
+            a
+          
+          
+            n
+          
+        
+         
+        
+            x     
+          
+             
+          
+        
+          x     
+          x     
+        t
+        
+            x b  
+          
+            n
+          
+        
+        
+            x     
+          
+             
+          
+        
+        F
+         
+        
+          
+            a
+          
+          
+            n
+          
+        
+         
+        
+          
+            p
+          
+          
+            n
+          
+        
+          x     
+         
+      
+    
+      displaystyle    nabla F  mathbf  a    n  t gamma   n  mathbf  p    n    nabla F  mathbf  a    n         approx   t gamma   n  nabla     F  mathbf  a    n   mathbf  p    n     
+  
+Then choose 
+  
+    
+      
+        
+          
+            p
+          
+          
+            n
+          
+        
+      
+    
+      displaystyle  mathbf  p    n  
+  
+ and 
+  
+    
+      
+        
+            x b  
+          
+            n
+          
+        
+      
+    
+      displaystyle  gamma   n  
+  
+ by optimising inequality     
+Assuming that 
+  
+    
+      
+          x     
+        F
+      
+    
+      displaystyle  nabla F 
+  
+ is Lipschitz  use its Lipschitz constant 
+  
+    
+      
+        L
+      
+    
+      displaystyle L 
+  
+ to bound 
+  
+    
+      
+          x     
+          x     
+        F
+         
+        
+          
+            a
+          
+          
+            n
+          
+        
+          x     
+        t
+        
+            x b  
+          
+            n
+          
+        
+        
+          
+            p
+          
+          
+            n
+          
+        
+         
+          x     
+          x     
+        F
+         
+        
+          
+            a
+          
+          
+            n
+          
+        
+         
+        
+            x     
+          
+             
+          
+        
+          x     
+        L
+        t
+        
+            x b  
+          
+            n
+          
+        
+          x     
+        
+          
+            p
+          
+          
+            n
+          
+        
+          x     
+         
+      
+    
+      displaystyle    nabla F  mathbf  a    n  t gamma   n  mathbf  p    n    nabla F  mathbf  a    n         leq Lt gamma   n    mathbf  p    n     
+  
+ Then choose 
+  
+    
+      
+        
+          
+            p
+          
+          
+            n
+          
+        
+      
+    
+      displaystyle  mathbf  p    n  
+  
+ and 
+  
+    
+      
+        
+            x b  
+          
+            n
+          
+        
+      
+    
+      displaystyle  gamma   n  
+  
+ by optimising inequality     
+Build a custom model of 
+  
+    
+      
+        
+          max
+          
+            t
+              x     
+             
+             
+             
+             
+             
+          
+        
+        
+          
+            
+                x     
+                x     
+              F
+               
+              
+                
+                  a
+                
+                
+                  n
+                
+              
+                x     
+              t
+              
+                  x b  
+                
+                  n
+                
+              
+              
+                
+                  p
+                
+                
+                  n
+                
+              
+               
+                x     
+                x     
+              F
+               
+              
+                
+                  a
+                
+                
+                  n
+                
+              
+               
+              
+                  x     
+                
+                   
+                
+              
+            
+            
+                x     
+                x     
+              F
+               
+              
+                
+                  a
+                
+                
+                  n
+                
+              
+               
+              
+                  x     
+                
+                   
+                
+              
+            
+          
+        
+      
+    
+      displaystyle  max   t in         frac     nabla F  mathbf  a    n  t gamma   n  mathbf  p    n    nabla F  mathbf  a    n             nabla F  mathbf  a    n           
+  
+ for 
+  
+    
+      
+        F
+      
+    
+      displaystyle F 
+  
+  Then choose 
+  
+    
+      
+        
+          
+            p
+          
+          
+            n
+          
+        
+      
+    
+      displaystyle  mathbf  p    n  
+  
+ and 
+  
+    
+      
+        
+            x b  
+          
+            n
+          
+        
+      
+    
+      displaystyle  gamma   n  
+  
+ by optimising inequality     
+Under stronger assumptions on the function 
+  
+    
+      
+        F
+      
+    
+      displaystyle F 
+  
+ such as convexity  more advanced techniques may be possible 
+Usually by following one of the recipes above  convergence to a local minimum can be guaranteed  When the function 
+  
+    
+      
+        F
+      
+    
+      displaystyle F 
+  
+ is convex  all local minima are also global minima  so in this case gradient descent can converge to the global solution 
+
+Solution of a linear system edit 
+The steepest descent algorithm applied to the Wiener filter            
+Gradient descent can be used to solve a system of linear equations
+
+
+  
+    
+      
+        A
+        
+          x
+        
+          x     
+        
+          b
+        
+         
+         
+      
+    
+      displaystyle A mathbf  x    mathbf  b     
+  
+
+reformulated as a quadratic minimization problem 
+If the system matrix 
+  
+    
+      
+        A
+      
+    
+      displaystyle A 
+  
+ is real symmetric and positive definite  an objective function is defined as the quadratic function  with minimization of
+
+
+  
+    
+      
+        F
+         
+        
+          x
+        
+         
+         
+        
+          
+            x
+          
+          
+            T
+          
+        
+        A
+        
+          x
+        
+          x     
+         
+        
+          
+            x
+          
+          
+            T
+          
+        
+        
+          b
+        
+         
+      
+    
+      displaystyle F  mathbf  x     mathbf  x    T A mathbf  x     mathbf  x    T  mathbf  b    
+  
+
+so that
+
+
+  
+    
+      
+          x     
+        F
+         
+        
+          x
+        
+         
+         
+         
+         
+        A
+        
+          x
+        
+          x     
+        
+          b
+        
+         
+         
+      
+    
+      displaystyle  nabla F  mathbf  x      A mathbf  x    mathbf  b     
+  
+
+For a general real matrix 
+  
+    
+      
+        A
+      
+    
+      displaystyle A 
+  
+  linear least squares define
+
+
+  
+    
+      
+        F
+         
+        
+          x
+        
+         
+         
+        
+          
+              x     
+            
+              A
+              
+                x
+              
+                x     
+              
+                b
+              
+            
+              x     
+          
+          
+             
+          
+        
+         
+      
+    
+      displaystyle F  mathbf  x     left  A mathbf  x    mathbf  b   right        
+  
+
+In traditional linear least squares for real 
+  
+    
+      
+        A
+      
+    
+      displaystyle A 
+  
+ and 
+  
+    
+      
+        
+          b
+        
+      
+    
+      displaystyle  mathbf  b   
+  
+ the Euclidean norm is used  in which case
+
+
+  
+    
+      
+          x     
+        F
+         
+        
+          x
+        
+         
+         
+         
+        
+          A
+          
+            T
+          
+        
+         
+        A
+        
+          x
+        
+          x     
+        
+          b
+        
+         
+         
+      
+    
+      displaystyle  nabla F  mathbf  x     A  T  A mathbf  x    mathbf  b     
+  
+
+The line search minimization  finding the locally optimal step size 
+  
+    
+      
+          x b  
+      
+    
+      displaystyle  gamma  
+  
+ on every iteration  can be performed analytically for quadratic functions  and explicit formulas for the locally optimal 
+  
+    
+      
+          x b  
+      
+    
+      displaystyle  gamma  
+  
+ are known                        
+For example  for real symmetric and positive definite matrix 
+  
+    
+      
+        A
+      
+    
+      displaystyle A 
+  
+  a simple algorithm can be as follows            
+
+
+  
+    
+      
+        
+          
+            
+              
+              
+                
+                  repeat in the loop 
+                
+              
+            
+            
+              
+              
+                
+                
+                  r
+                
+                  
+                
+                  b
+                
+                  x     
+                
+                  A
+                  x
+                
+              
+            
+            
+              
+              
+                
+                  x b  
+                  
+                
+                  
+                    
+                      r
+                    
+                    
+                      
+                        T
+                      
+                    
+                  
+                  
+                    r
+                  
+                
+                
+                   
+                
+                
+                  
+                    
+                      r
+                    
+                    
+                      
+                        T
+                      
+                    
+                  
+                  
+                    A
+                    r
+                  
+                
+              
+            
+            
+              
+              
+                
+                
+                  x
+                
+                  
+                
+                  x
+                
+                 
+                  x b  
+                
+                  r
+                
+              
+            
+            
+              
+              
+                
+                
+                  
+                    if  xa  
+                  
+                
+                
+                  
+                    r
+                  
+                  
+                    
+                      T
+                    
+                  
+                
+                
+                  r
+                
+                
+                    xa  is sufficiently small  then exit loop
+                
+              
+            
+            
+              
+              
+                
+                  end repeat loop
+                
+              
+            
+            
+              
+              
+                
+                  return  xa  
+                
+                
+                  x
+                
+                
+                    xa  as the result
+                
+              
+            
+          
+        
+      
+    
+      displaystyle   begin aligned  amp   text repeat in the loop      amp  qquad  mathbf  r     mathbf  b    mathbf  Ax     amp  qquad  gamma     mathbf  r     mathsf  T   mathbf  r      mathbf  r     mathsf  T   mathbf  Ar      amp  qquad  mathbf  x     mathbf  x    gamma  mathbf  r     amp  qquad   hbox if    mathbf  r     mathsf  T   mathbf  r    text  is sufficiently small  then exit loop     amp   text end repeat loop     amp   text return    mathbf  x    text  as the result   end aligned   
+  
+
+To avoid multiplying by 
+  
+    
+      
+        A
+      
+    
+      displaystyle A 
+  
+ twice per iteration 
+we note that 
+  
+    
+      
+        
+          x
+        
+          
+        
+          x
+        
+         
+          x b  
+        
+          r
+        
+      
+    
+      displaystyle  mathbf  x     mathbf  x    gamma  mathbf  r   
+  
+ implies 
+  
+    
+      
+        
+          r
+        
+          
+        
+          r
+        
+          x     
+          x b  
+        
+          A
+          r
+        
+      
+    
+      displaystyle  mathbf  r     mathbf  r    gamma  mathbf  Ar   
+  
+  which gives the traditional algorithm             
+
+
+  
+    
+      
+        
+          
+            
+              
+              
+                
+                  r
+                
+                  
+                
+                  b
+                
+                  x     
+                
+                  A
+                  x
+                
+              
+            
+            
+              
+              
+                
+                  repeat in the loop 
+                
+              
+            
+            
+              
+              
+                
+                  x b  
+                  
+                
+                  
+                    
+                      r
+                    
+                    
+                      
+                        T
+                      
+                    
+                  
+                  
+                    r
+                  
+                
+                
+                   
+                
+                
+                  
+                    
+                      r
+                    
+                    
+                      
+                        T
+                      
+                    
+                  
+                  
+                    A
+                    r
+                  
+                
+              
+            
+            
+              
+              
+                
+                
+                  x
+                
+                  
+                
+                  x
+                
+                 
+                  x b  
+                
+                  r
+                
+              
+            
+            
+              
+              
+                
+                
+                  
+                    if  xa  
+                  
+                
+                
+                  
+                    r
+                  
+                  
+                    
+                      T
+                    
+                  
+                
+                
+                  r
+                
+                
+                    xa  is sufficiently small  then exit loop
+                
+              
+            
+            
+              
+              
+                
+                
+                  r
+                
+                  
+                
+                  r
+                
+                  x     
+                  x b  
+                
+                  A
+                  r
+                
+              
+            
+            
+              
+              
+                
+                  end repeat loop
+                
+              
+            
+            
+              
+              
+                
+                  return  xa  
+                
+                
+                  x
+                
+                
+                    xa  as the result
+                
+              
+            
+          
+        
+      
+    
+      displaystyle   begin aligned  amp  mathbf  r     mathbf  b    mathbf  Ax     amp   text repeat in the loop      amp  qquad  gamma     mathbf  r     mathsf  T   mathbf  r      mathbf  r     mathsf  T   mathbf  Ar      amp  qquad  mathbf  x     mathbf  x    gamma  mathbf  r     amp  qquad   hbox if    mathbf  r     mathsf  T   mathbf  r    text  is sufficiently small  then exit loop     amp  qquad  mathbf  r     mathbf  r    gamma  mathbf  Ar     amp   text end repeat loop     amp   text return    mathbf  x    text  as the result   end aligned   
+  
+
+The method is rarely used for solving linear equations  with the conjugate gradient method being one of the most popular alternatives  The number of gradient descent iterations is commonly proportional to the spectral condition number 
+  
+    
+      
+          x ba 
+         
+        A
+         
+      
+    
+      displaystyle  kappa  A  
+  
+ of the system matrix 
+  
+    
+      
+        A
+      
+    
+      displaystyle A 
+  
+  the ratio of the maximum to minimum eigenvalues of 
+  
+    
+      
+        
+          A
+          
+            T
+          
+        
+        A
+      
+    
+      displaystyle A  T A 
+  
+   while the convergence of conjugate gradient method is typically determined by a square root of the condition number  i e   is much faster  Both methods can benefit from preconditioning  where gradient descent may require less assumptions on the preconditioner             
+
+Geometric behavior and residual orthogonality edit 
+In steepest descent applied to solving 
+  
+    
+      
+        A
+        
+          
+            
+              x
+                x     
+            
+          
+        
+         
+        
+          
+            
+              b
+                x     
+            
+          
+        
+      
+    
+      displaystyle A  vec  x     vec  b   
+  
+  where 
+  
+    
+      
+        A
+      
+    
+      displaystyle A 
+  
+ is symmetric positive definite  the residual vectors 
+  
+    
+      
+        
+          
+            
+              
+                r
+                  x     
+              
+            
+          
+          
+            k
+          
+        
+         
+        
+          
+            
+              b
+                x     
+            
+          
+        
+          x     
+        A
+        
+          
+            
+              
+                x
+                  x     
+              
+            
+          
+          
+            k
+          
+        
+      
+    
+      displaystyle   vec  r    k    vec  b   A  vec  x    k  
+  
+ are orthogonal across iterations 
+
+
+  
+    
+      
+        
+          
+            
+              
+                r
+                  x     
+              
+            
+          
+          
+            k
+             
+             
+          
+        
+          x  c  
+        
+          
+            
+              
+                r
+                  x     
+              
+            
+          
+          
+            k
+          
+        
+         
+          
+      
+    
+      displaystyle   vec  r    k    cdot   vec  r    k     
+  
+
+Because each step is taken in the steepest direction  steepest descent steps
+alternate between directions aligned with the extreme axes of the elongated
+level sets   When 
+  
+    
+      
+          x ba 
+         
+        A
+         
+      
+    
+      displaystyle  kappa  A  
+  
+ is large  this produces a
+characteristic zig zag path  The poor conditioning of 
+  
+    
+      
+        A
+      
+    
+      displaystyle A 
+  
+ is the primary cause of the slow convergence  and orthogonality of successive residuals reinforces this alternation 
+
+Convergence path of steepest descent method for A                   
+As shown in the image on the right  steepest descent converges slowly due to the high condition number of 
+  
+    
+      
+        A
+      
+    
+      displaystyle A 
+  
+  and the orthogonality of residuals forces each new direction to undo the overshoot from the previous step  The result is a path that zigzags toward the solution  This inefficiency is one reason conjugate gradient or preconditioning methods are preferred             
+
+Solution of a non linear system edit 
+Gradient descent can also be used to solve a system of nonlinear equations  Below is an example that shows how to use the gradient descent to solve for three unknown variables  x   x   and x   This example shows one iteration of the gradient descent 
+Consider the nonlinear system of equations
+
+
+  
+    
+      
+        
+          
+             
+            
+              
+                
+                   
+                  
+                    x
+                    
+                       
+                    
+                  
+                    x     
+                  cos
+                    x     
+                   
+                  
+                    x
+                    
+                       
+                    
+                  
+                  
+                    x
+                    
+                       
+                    
+                  
+                   
+                    x     
+                  
+                    
+                      
+                         
+                         
+                      
+                    
+                  
+                   
+                   
+                
+              
+              
+                
+                   
+                  
+                    x
+                    
+                       
+                    
+                    
+                       
+                    
+                  
+                    x     
+                     
+                  
+                    x
+                    
+                       
+                    
+                    
+                       
+                    
+                  
+                   
+                   
+                  
+                    x
+                    
+                       
+                    
+                  
+                    x     
+                   
+                   
+                   
+                
+              
+              
+                
+                  exp
+                    x     
+                   
+                    x     
+                  
+                    x
+                    
+                       
+                    
+                  
+                  
+                    x
+                    
+                       
+                    
+                  
+                   
+                   
+                    
+                  
+                    x
+                    
+                       
+                    
+                  
+                   
+                  
+                    
+                      
+                        
+                            
+                            x c  
+                            x     
+                           
+                        
+                         
+                      
+                    
+                  
+                   
+                   
+                
+              
+            
+            
+          
+        
+      
+    
+      displaystyle   begin cases  x      cos x    x        tfrac             x            x          x           exp  x    x        x       tfrac     pi           end cases   
+  
+
+Let us introduce the associated function
+
+
+  
+    
+      
+        G
+         
+        
+          x
+        
+         
+         
+        
+          
+             
+            
+              
+                
+                   
+                  
+                    x
+                    
+                       
+                    
+                  
+                    x     
+                  cos
+                    x     
+                   
+                  
+                    x
+                    
+                       
+                    
+                  
+                  
+                    x
+                    
+                       
+                    
+                  
+                   
+                    x     
+                  
+                    
+                      
+                         
+                         
+                      
+                    
+                  
+                
+              
+              
+                
+                   
+                  
+                    x
+                    
+                       
+                    
+                    
+                       
+                    
+                  
+                    x     
+                     
+                  
+                    x
+                    
+                       
+                    
+                    
+                       
+                    
+                  
+                   
+                   
+                  
+                    x
+                    
+                       
+                    
+                  
+                    x     
+                   
+                
+              
+              
+                
+                  exp
+                    x     
+                   
+                    x     
+                  
+                    x
+                    
+                       
+                    
+                  
+                  
+                    x
+                    
+                       
+                    
+                  
+                   
+                   
+                    
+                  
+                    x
+                    
+                       
+                    
+                  
+                   
+                  
+                    
+                      
+                        
+                            
+                            x c  
+                            x     
+                           
+                        
+                         
+                      
+                    
+                  
+                
+              
+            
+             
+          
+        
+         
+      
+    
+      displaystyle G  mathbf  x      begin bmatrix  x      cos x    x        tfrac           x            x          x         exp  x    x        x       tfrac     pi           end bmatrix    
+  
+
+where
+
+
+  
+    
+      
+        
+          x
+        
+         
+        
+          
+             
+            
+              
+                
+                  
+                    x
+                    
+                       
+                    
+                  
+                
+              
+              
+                
+                  
+                    x
+                    
+                       
+                    
+                  
+                
+              
+              
+                
+                  
+                    x
+                    
+                       
+                    
+                  
+                
+              
+            
+             
+          
+        
+         
+      
+    
+      displaystyle  mathbf  x     begin bmatrix x      x      x       end bmatrix    
+  
+
+One might now define the objective function
+
+
+  
+    
+      
+        
+          
+            
+              
+                F
+                 
+                
+                  x
+                
+                 
+              
+              
+                
+                 
+                
+                  
+                     
+                     
+                  
+                
+                
+                  G
+                  
+                    
+                      T
+                    
+                  
+                
+                 
+                
+                  x
+                
+                 
+                G
+                 
+                
+                  x
+                
+                 
+              
+            
+            
+              
+              
+                
+                 
+                
+                  
+                     
+                     
+                  
+                
+                
+                   
+                  
+                    
+                      
+                         
+                        
+                           
+                          
+                            x
+                            
+                               
+                            
+                          
+                            x     
+                          cos
+                            x     
+                           
+                          
+                            x
+                            
+                               
+                            
+                          
+                          
+                            x
+                            
+                               
+                            
+                          
+                           
+                            x     
+                          
+                            
+                               
+                               
+                            
+                          
+                        
+                         
+                      
+                      
+                         
+                      
+                    
+                     
+                    
+                      
+                         
+                        
+                           
+                          
+                            x
+                            
+                               
+                            
+                            
+                               
+                            
+                          
+                            x     
+                             
+                          
+                            x
+                            
+                               
+                            
+                            
+                               
+                            
+                          
+                           
+                           
+                          
+                            x
+                            
+                               
+                            
+                          
+                            x     
+                           
+                        
+                         
+                      
+                      
+                         
+                      
+                    
+                     
+                  
+                  
+                
+              
+            
+            
+              
+              
+                
+
+                
+                
+                
+                  
+                  
+                    
+                       
+                      
+                        exp
+                          x     
+                         
+                          x     
+                        
+                          x
+                          
+                             
+                          
+                        
+                        
+                          x
+                          
+                             
+                          
+                        
+                         
+                         
+                          
+                        
+                          x
+                          
+                             
+                          
+                        
+                         
+                        
+                          
+                            
+                                
+                                x c  
+                                x     
+                               
+                            
+                             
+                          
+                        
+                      
+                       
+                    
+                    
+                       
+                    
+                  
+                   
+                
+                 
+              
+            
+          
+        
+      
+    
+      displaystyle   begin aligned F  mathbf  x    amp    frac        G   mathrm  T     mathbf  x   G  mathbf  x      amp    frac         left  left  x      cos x    x        frac         right       left  x            x          x       right       right    amp    qquad  left  left  exp  x    x        x       frac     pi         right      right   end aligned   
+  
+
+which we will attempt to minimize  As an initial guess  let us use
+
+
+  
+    
+      
+        
+          
+            x
+          
+          
+             
+             
+             
+          
+        
+         
+        
+           
+        
+         
+        
+          
+             
+            
+              
+                
+                   
+                
+              
+              
+                
+                   
+                
+              
+              
+                
+                   
+                
+              
+            
+             
+          
+        
+         
+      
+    
+      displaystyle  mathbf  x          mathbf        begin bmatrix           end bmatrix    
+  
+
+We know that
+
+
+  
+    
+      
+        
+          
+            x
+          
+          
+             
+             
+             
+          
+        
+         
+        
+           
+        
+          x     
+        
+            x b  
+          
+             
+          
+        
+          x     
+        F
+         
+        
+           
+        
+         
+         
+        
+           
+        
+          x     
+        
+            x b  
+          
+             
+          
+        
+        
+          J
+          
+            G
+          
+        
+         
+        
+           
+        
+        
+           
+          
+            
+              T
+            
+          
+        
+        G
+         
+        
+           
+        
+         
+         
+      
+    
+      displaystyle  mathbf  x          mathbf       gamma      nabla F  mathbf        mathbf       gamma     J  G   mathbf         mathrm  T   G  mathbf        
+  
+
+where the Jacobian matrix 
+  
+    
+      
+        
+          J
+          
+            G
+          
+        
+      
+    
+      displaystyle J  G  
+  
+ is given by
+
+
+  
+    
+      
+        
+          J
+          
+            G
+          
+        
+         
+        
+          x
+        
+         
+         
+        
+          
+             
+            
+              
+                
+                   
+                
+                
+                  sin
+                    x     
+                   
+                  
+                    x
+                    
+                       
+                    
+                  
+                  
+                    x
+                    
+                       
+                    
+                  
+                   
+                  
+                    x
+                    
+                       
+                    
+                  
+                
+                
+                  sin
+                    x     
+                   
+                  
+                    x
+                    
+                       
+                    
+                  
+                  
+                    x
+                    
+                       
+                    
+                  
+                   
+                  
+                    x
+                    
+                       
+                    
+                  
+                
+              
+              
+                
+                   
+                  
+                    x
+                    
+                       
+                    
+                  
+                
+                
+                    x     
+                      
+                  
+                    x
+                    
+                       
+                    
+                  
+                   
+                   
+                
+                
+                   
+                
+              
+              
+                
+                    x     
+                  
+                    x
+                    
+                       
+                    
+                  
+                  exp
+                    x     
+                  
+                     
+                      x     
+                    
+                      x
+                      
+                         
+                      
+                    
+                    
+                      x
+                      
+                         
+                      
+                    
+                     
+                  
+                
+                
+                    x     
+                  
+                    x
+                    
+                       
+                    
+                  
+                  exp
+                    x     
+                   
+                    x     
+                  
+                    x
+                    
+                       
+                    
+                  
+                  
+                    x
+                    
+                       
+                    
+                  
+                   
+                
+                
+                    
+                
+              
+            
+             
+          
+        
+         
+      
+    
+      displaystyle J  G   mathbf  x      begin bmatrix   amp  sin x    x     x     amp  sin x    x     x       x     amp      x       amp     x     exp    x    x       amp  x     exp  x    x      amp      end bmatrix    
+  
+
+We calculate 
+
+
+  
+    
+      
+        
+          J
+          
+            G
+          
+        
+         
+        
+           
+        
+         
+         
+        
+          
+             
+            
+              
+                
+                   
+                
+                
+                   
+                
+                
+                   
+                
+              
+              
+                
+                   
+                
+                
+                   
+                
+                
+                   
+                
+              
+              
+                
+                   
+                
+                
+                   
+                
+                
+                    
+                
+              
+            
+             
+          
+        
+         
+        
+        G
+         
+        
+           
+        
+         
+         
+        
+          
+             
+            
+              
+                
+                    x     
+                     
+                
+              
+              
+                
+                    x     
+                   
+                
+              
+              
+                
+                        
+                
+              
+            
+             
+          
+        
+         
+      
+    
+      displaystyle J  G   mathbf         begin bmatrix   amp   amp      amp   amp      amp   amp    end bmatrix    qquad G  mathbf         begin bmatrix                  end bmatrix    
+  
+
+Thus
+
+
+  
+    
+      
+        
+          
+            x
+          
+          
+             
+             
+             
+          
+        
+         
+        
+           
+        
+          x     
+        
+            x b  
+          
+             
+          
+        
+        
+          
+             
+            
+              
+                
+                    x     
+                     
+                
+              
+              
+                
+                    x     
+                   
+                
+              
+              
+                
+                        
+                
+              
+            
+             
+          
+        
+         
+      
+    
+      displaystyle  mathbf  x          mathbf       gamma       begin bmatrix                  end bmatrix    
+  
+
+and
+
+
+  
+    
+      
+        F
+         
+        
+           
+        
+         
+         
+           
+        
+           
+          
+             
+              x     
+               
+            
+               
+              
+                 
+              
+            
+             
+             
+              x     
+             
+            
+               
+              
+                 
+              
+            
+             
+             
+                  
+            
+               
+              
+                 
+              
+            
+          
+           
+        
+         
+               
+      
+    
+      displaystyle F  mathbf           left                                  right          
+  
+
+An animation showing the first    iterations of gradient descent applied to this example  Surfaces are isosurfaces of 
+  
+    
+      
+        F
+         
+        
+          
+            x
+          
+          
+             
+            n
+             
+          
+        
+         
+      
+    
+      displaystyle F  mathbf  x     n    
+  
+ at current guess 
+  
+    
+      
+        
+          
+            x
+          
+          
+             
+            n
+             
+          
+        
+      
+    
+      displaystyle  mathbf  x     n   
+  
+  and arrows show the direction of descent  Due to a small and constant step size  the convergence is slow 
+Now  a suitable 
+  
+    
+      
+        
+            x b  
+          
+             
+          
+        
+      
+    
+      displaystyle  gamma      
+  
+ must be found such that
+
+
+  
+    
+      
+        F
+        
+           
+          
+            
+              x
+            
+            
+               
+               
+               
+            
+          
+           
+        
+          x     
+        F
+        
+           
+          
+            
+              x
+            
+            
+               
+               
+               
+            
+          
+           
+        
+         
+        F
+         
+        
+           
+        
+         
+         
+      
+    
+      displaystyle F left  mathbf  x         right  leq F left  mathbf  x         right  F  mathbf        
+  
+
+This can be done with any of a variety of line search algorithms  One might also simply guess 
+  
+    
+      
+        
+            x b  
+          
+             
+          
+        
+         
+             
+         
+      
+    
+      displaystyle  gamma             
+  
+ which gives
+
+
+  
+    
+      
+        
+          
+            x
+          
+          
+             
+             
+             
+          
+        
+         
+        
+          
+             
+            
+              
+                
+                        
+                
+              
+              
+                
+                       
+                
+              
+              
+                
+                    x     
+                         
+                
+              
+            
+             
+          
+        
+         
+      
+    
+      displaystyle  mathbf  x           begin bmatrix                           end bmatrix    
+  
+
+Evaluating the objective function at this value  yields
+
+
+  
+    
+      
+        F
+        
+           
+          
+            
+              x
+            
+            
+               
+               
+               
+            
+          
+           
+        
+         
+           
+        
+           
+          
+             
+              x     
+                
+            
+               
+              
+                 
+              
+            
+             
+             
+              x     
+                
+            
+               
+              
+                 
+              
+            
+             
+             
+                
+            
+               
+              
+                 
+              
+            
+          
+           
+        
+         
+               
+      
+    
+      displaystyle F left  mathbf  x         right      left                                    right          
+  
+
+The decrease from 
+  
+    
+      
+        F
+         
+        
+           
+        
+         
+         
+              
+      
+    
+      displaystyle F  mathbf              
+  
+ to the next step s value of
+
+
+  
+    
+      
+        F
+        
+           
+          
+            
+              x
+            
+            
+               
+               
+               
+            
+          
+           
+        
+         
+              
+      
+    
+      displaystyle F left  mathbf  x         right         
+  
+
+is a sizable decrease in the objective function  Further steps would reduce its value further until an approximate solution to the system was found 
+
+Comments edit 
+Gradient descent works in spaces of any number of dimensions  even in infinite dimensional ones  In the latter case  the search space is typically a function space  and one calculates the Fr chet derivative of the functional to be minimized to determine the descent direction            
+That gradient descent works in any number of dimensions  finite number at least  can be seen as a consequence of the Cauchy Schwarz inequality  i e  the magnitude of the inner  dot  product of two vectors of any dimension is maximized when they are colinear  In the case of gradient descent  that would be when the vector of independent variable adjustments is proportional to the gradient vector of partial derivatives 
+The gradient descent can take many iterations to compute a local minimum with a required accuracy  if the curvature in different directions is very different for the given function  For such functions  preconditioning  which changes the geometry of the space to shape the function level sets like concentric circles  cures the slow convergence  Constructing and applying preconditioning can be computationally expensive  however 
+The gradient descent can be modified via momentums              Nesterov  Polyak              and Frank Wolfe              and heavy ball parameters  exponential moving averages             and positive negative momentum               The main examples of such optimizers are Adam  DiffGrad  Yogi  AdaBelief  etc 
+Methods based on Newton s method and inversion of the Hessian using conjugate gradient techniques can be better alternatives                          Generally  such methods converge in fewer iterations  but the cost of each iteration is higher  An example is the BFGS method which consists in calculating on every step a matrix by which the gradient vector is multiplied to go into a  better  direction  combined with a more sophisticated line search algorithm  to find the  best  value of 
+  
+    
+      
+          x b  
+         
+      
+    
+      displaystyle  gamma   
+  
+ For extremely large problems  where the computer memory issues dominate  a limited memory method such as L BFGS should be used instead of BFGS or the steepest descent  
+While it is sometimes possible to substitute gradient descent for a local search algorithm  gradient descent is not in the same family  although it is an iterative method for local optimization  it relies on an objective function s gradient rather than an explicit exploration of a solution space 
+Gradient descent can be viewed as applying Euler s method for solving ordinary differential equations 
+  
+    
+      
+        
+          x
+            x     
+        
+         
+        t
+         
+         
+          x     
+          x     
+        f
+         
+        x
+         
+        t
+         
+         
+      
+    
+      displaystyle x  t    nabla f x t   
+  
+ to a gradient flow   In turn  this equation may be derived as an optimal controller             for the control system 
+  
+    
+      
+        
+          x
+            x     
+        
+         
+        t
+         
+         
+        u
+         
+        t
+         
+      
+    
+      displaystyle x  t  u t  
+  
+ with 
+  
+    
+      
+        u
+         
+        t
+         
+      
+    
+      displaystyle u t  
+  
+ given in feedback form 
+  
+    
+      
+        u
+         
+        t
+         
+         
+          x     
+          x     
+        f
+         
+        x
+         
+        t
+         
+         
+      
+    
+      displaystyle u t    nabla f x t   
+  
+ 
+
+
+Modifications edit 
+Gradient descent can converge to a local minimum and slow down in a neighborhood of a saddle point  Even for unconstrained quadratic minimization  gradient descent develops a zig zag pattern of subsequent iterates as iterations progress  resulting in slow convergence  Multiple modifications of gradient descent have been proposed to address these deficiencies 
+
+Fast gradient methods edit 
+Yurii Nesterov has proposed             a simple modification that enables faster convergence for convex problems and has been since further generalized  For unconstrained smooth problems  the method is called the fast gradient method  FGM  or the accelerated gradient method  AGM   Specifically  if the differentiable function 
+  
+    
+      
+        F
+      
+    
+      displaystyle F 
+  
+ is convex and 
+  
+    
+      
+          x     
+        F
+      
+    
+      displaystyle  nabla F 
+  
+ is Lipschitz  and it is not assumed that 
+  
+    
+      
+        F
+      
+    
+      displaystyle F 
+  
+ is strongly convex  then the error in the objective value generated at each step 
+  
+    
+      
+        k
+      
+    
+      displaystyle k 
+  
+ by the gradient descent method will be bounded by 
+  
+    
+      
+        
+          
+            O
+          
+        
+        
+           
+          
+            
+              k
+              
+                  x     
+                 
+              
+            
+          
+           
+        
+      
+    
+      textstyle   mathcal  O   left  k       right  
+  
+  Using the Nesterov acceleration technique  the error decreases at 
+  
+    
+      
+        
+          
+            O
+          
+        
+        
+           
+          
+            
+              k
+              
+                  x     
+                 
+              
+            
+          
+           
+        
+      
+    
+      textstyle   mathcal  O   left  k       right  
+  
+                          It is known that the rate 
+  
+    
+      
+        
+          
+            O
+          
+        
+        
+           
+          
+            
+              k
+              
+                  x     
+                 
+              
+            
+          
+           
+        
+      
+    
+      displaystyle   mathcal  O   left  k       right  
+  
+ for the decrease of the cost function is optimal for first order optimization methods  Nevertheless  there is the opportunity to improve the algorithm by reducing the constant factor  The optimized gradient method  OGM              reduces that constant by a factor of two and is an optimal first order method for large scale problems             
+For constrained or non smooth problems  Nesterov s FGM is called the fast proximal gradient method  FPGM   an acceleration of the proximal gradient method 
+
+Momentum or heavy ball method edit 
+Trying to break the zig zag pattern of gradient descent  the momentum or heavy ball method uses a momentum term in analogy to a heavy ball sliding on the surface of values of the function being minimized             or to mass movement in Newtonian dynamics through a viscous medium in a conservative force field              Gradient descent with momentum remembers the solution update at each iteration  and determines the next update as a linear combination of the gradient and the previous update  For unconstrained quadratic minimization  a theoretical convergence rate bound of the heavy ball method is asymptotically the same as that for the optimal conjugate gradient method            
+This technique is used in stochastic gradient descent and as an extension to the backpropagation algorithms used to train artificial neural networks                          In the direction of updating  stochastic gradient descent adds a stochastic property  The weights can be used to calculate the derivatives 
+
+Extensions edit 
+Gradient descent can be extended to handle constraints by including a projection onto the set of constraints  This method is only feasible when the projection is efficiently computable on a computer  Under suitable assumptions  this method converges   This method is a specific case of the forward backward algorithm for monotone inclusions  which includes convex programming and variational inequalities              
+Gradient descent is a special case of mirror descent using the squared Euclidean distance as the given Bregman divergence             
+
+Theoretical properties edit 
+The properties of gradient descent depend on the properties of the objective function and the variant of gradient descent used  for example  if a line search step is used   The assumptions made affect the convergence rate  and other properties  that can be proven for gradient descent              For example  if the objective is assumed to be strongly convex and lipschitz smooth  then gradient descent converges linearly with a fixed step size             Looser assumptions lead to either weaker convergence guarantees or require a more sophisticated step size selection             
+
+See also edit 
+
+Backtracking line search
+Conjugate gradient method
+Stochastic gradient descent
+Rprop
+Delta rule
+Wolfe conditions
+Preconditioning
+Broyden Fletcher Goldfarb Shanno algorithm
+Davidon Fletcher Powell formula
+Nelder Mead method
+Gauss Newton algorithm
+Hill climbing
+Quantum annealing
+CLS  continuous local search 
+Neuroevolution
+References edit 
+
+
+  a b Boyd  Stephen  Vandenberghe  Lieven               Convex Optimization  Cambridge University Press  doi         cbo               ISBN                        
+
+  Lemar chal  C     January         Cauchy and the gradient method   PDF   In Gr tschel  M   ed    Optimization Stories  Documenta Mathematica Series  Vol           st      ed    EMS Press  pp                doi         dms       ISBN                         Archived from the original  PDF  on             Retrieved            
+
+  Hadamard  Jacques          M moire sur le probl me d analyse relatif   l  quilibre des plaques  lastiques encastr es   M moires pr sent s par divers savants  strangers   l Acad mie des Sciences de l Institut de France     
+
+  Courant  R           Variational methods for the solution of problems of equilibrium and vibrations   Bulletin of the American Mathematical Society                doi         S                       
+
+  Curry  Haskell B           The Method of Steepest Descent for Non linear Minimization Problems   Quart  Appl  Math                  doi         qam       
+
+  a b c d e Polyak  Boris         Introduction to Optimization 
+
+  a b Akilov  G  P   Kantorovich  L  V          Functional Analysis   nd      ed    Pergamon Press  ISBN                    
+
+  Barzilai  Jonathan  Borwein  Jonathan M           Two Point Step Size Gradient Methods   IMA Journal of Numerical Analysis                  doi         imanum         
+
+  Fletcher  R           On the Barzilai Borwein Method   In Qi  L   Teo  K   Yang  X   eds    Optimization and Control with Applications  Applied Optimization  Vol           Boston  Springer  pp                ISBN                    
+
+  Wolfe  Philip  April         Convergence Conditions for Ascent Methods   SIAM Review                   doi                 
+
+  Bernstein  Jeremy  Vahdat  Arash  Yue  Yisong  Liu  Ming Yu                On the distance between two neural networks and the stability of learning   arXiv             cs LG  
+
+  Haykin  Simon S  Adaptive filter theory  Pearson Education India          p                  
+
+  Saad  Yousef         Iterative methods for sparse linear systems   nd      ed    Philadelphia  Pa   Society for Industrial and Applied Mathematics  pp            ISBN                        
+
+  a b Bouwmeester  Henricus  Dougherty  Andrew  Knyazev  Andrew V           Nonsymmetric Preconditioning for Conjugate Gradient and Steepest Descent Methods   Procedia Computer Science               arXiv            doi         j procs             
+
+  Holmes  M          Introduction to Scientific Computing and Data Analysis   nd Ed  Springer  ISBN                        
+
+  Abdulkadirov  Ruslan  Lyakhov  Pavel  Nagornov  Nikolay  January         Survey of Optimization Algorithms in Modern Neural Networks   Mathematics                 doi         math          ISSN                
+
+  Diakonikolas  Jelena  Jordan  Michael I   January         Generalized Momentum Based Methods  A Hamiltonian Perspective   SIAM Journal on Optimization                   arXiv             doi           M         ISSN                
+
+  Meyer  Gerard G  L   November         Accelerated Frank Wolfe Algorithms   SIAM Journal on Control                   doi                  ISSN                
+
+  Kingma  Diederik P   Ba  Jimmy               Adam  A Method for Stochastic Optimization  arXiv          
+
+  Xie  Zeke  Yuan  Li  Zhu  Zhanxing  Sugiyama  Masashi                Positive Negative Momentum  Manipulating Stochastic Gradient Noise to Improve Generalization   Proceedings of the   th International Conference on Machine Learning  PMLR               arXiv            
+
+  Press  W  H   Teukolsky  S  A   Vetterling  W  T   Flannery  B  P          Numerical Recipes in C  The Art of Scientific Computing   nd      ed    New York  Cambridge University Press  ISBN                    
+
+  Strutz  T          Data Fitting and Uncertainty  A Practical Introduction to Weighted Least Squares and Beyond   nd      ed    Springer Vieweg  ISBN                        
+
+  Ross  I M   July         An optimal control theory for nonlinear optimization   Journal of Computational and Applied Mathematics              doi         j cam              S CID                
+
+  Nesterov  Yurii         Introductory Lectures on Convex Optimization        A Basic Course  Springer  ISBN                    
+
+  Vandenberghe  Lieven          Fast Gradient Methods   PDF   Lecture notes for EE   C at UCLA 
+
+  Walkington  Noel J           Nesterov s Method for Convex Optimization   SIAM Review                   doi           M         ISSN                
+
+  Kim  D   Fessler  J  A           Optimized First order Methods for Smooth Convex Minimization   Mathematical Programming                     arXiv            doi         s                  PMC               PMID                S CID                
+
+  Drori  Yoel          The Exact Information based Complexity of Smooth Convex Minimization   Journal of Complexity            arXiv             doi         j jco              S CID                
+
+  Qian  Ning  January         On the momentum term in gradient descent learning algorithms   Neural Networks                   CiteSeerX                      doi         S                      PMID                S CID              
+
+   Momentum and Learning Rate Adaptation   Willamette University  Retrieved    October      
+
+  Geoffrey Hinton  Nitish Srivastava  Kevin Swersky   The momentum method   Coursera  Retrieved   October       Part of a lecture series for the Coursera online course Neural Networks for Machine Learning Archived            at the Wayback Machine 
+
+  Combettes  P  L   Pesquet  J  C           Proximal splitting methods in signal processing   In Bauschke  H  H   Burachik  R  S   Combettes  P  L   Elser  V   Luke  D  R   Wolkowicz  H   eds    Fixed Point Algorithms for Inverse Problems in Science and Engineering  New York  Springer  pp                arXiv            ISBN                        
+
+   Mirror descent algorithm  
+
+  a b Bubeck  S bastien         Convex Optimization  Algorithms and Complexity  arXiv          
+
+
+Further reading edit 
+Boyd  Stephen  Vandenberghe  Lieven          Unconstrained Minimization   PDF   Convex Optimization  New York  Cambridge University Press  pp                ISBN                    
+Chong  Edwin K  P    ak  Stanislaw H           Gradient Methods   An Introduction to Optimization  Fourth      ed    Hoboken  Wiley  pp                ISBN                        
+Himmelblau  David M           Unconstrained Minimization Procedures Using Derivatives   Applied Nonlinear Programming  New York  McGraw Hill  pp               ISBN                    
+External links edit 
+
+
+
+Wikimedia Commons has media related to Gradient descent 
+
+Using gradient descent in C    Boost  Ublas for linear regression
+Series of Khan Academy videos discusses gradient ascent
+Online book teaching gradient descent in deep neural network context
+Archived at Ghostarchive and the Wayback Machine   Gradient Descent  How Neural Networks Learn    Blue Brown  October                  via YouTube 
+Handbook of Convergence Theorems for  Stochastic  Gradient Methods
+vteArtificial intelligence  AI History  timeline Concepts
+Parameter
+Hyperparameter
+Loss functions
+Regression
+Bias variance tradeoff
+Double descent
+Overfitting
+Clustering
+Gradient descent
+SGD
+Quasi Newton method
+Conjugate gradient method
+Backpropagation
+Attention
+Convolution
+Normalization
+Batchnorm
+Activation
+Softmax
+Sigmoid
+Rectifier
+Gating
+Weight initialization
+Regularization
+Datasets
+Augmentation
+Prompt engineering
+Reinforcement learning
+Q learning
+SARSA
+Imitation
+Policy gradient
+Diffusion
+Latent diffusion model
+Autoregression
+Adversary
+RAG
+Uncanny valley
+RLHF
+Self supervised learning
+Recursive self improvement
+Word embedding
+Hallucination
+Applications
+Machine learning
+In context learning
+Artificial neural network
+Deep learning
+Language model
+Large language model
+NMT
+Artificial general intelligence  AGI 
+ImplementationsAudio visual
+AlexNet
+WaveNet
+Human image synthesis
+HWR
+OCR
+Speech synthesis
+   ai
+ElevenLabs
+Speech recognition
+Whisper
+Facial recognition
+AlphaFold
+Text to image models
+Aurora
+DALL E
+Firefly
+Flux
+Ideogram
+Imagen
+Midjourney
+Stable Diffusion
+Text to video models
+Dream Machine
+Runway Gen
+Hailuo AI
+Kling
+Sora
+Veo
+Music generation
+Suno AI
+Udio
+Text
+Word vec
+Seq seq
+GloVe
+BERT
+T 
+Llama
+Chinchilla AI
+PaLM
+GPT
+ 
+ 
+ 
+J
+ChatGPT
+ 
+ o
+o 
+o 
+   
+   
+o 
+Claude
+Gemini
+chatbot
+Grok
+LaMDA
+BLOOM
+Project Debater
+IBM Watson
+IBM Watsonx
+Granite
+PanGu  
+DeepSeek
+Qwen
+Decisional
+AlphaGo
+AlphaZero
+OpenAI Five
+Self driving car
+MuZero
+Action selection
+AutoGPT
+Robot control
+People
+Alan Turing
+Warren Sturgis McCulloch
+Walter Pitts
+John von Neumann
+Claude Shannon
+Marvin Minsky
+John McCarthy
+Nathaniel Rochester
+Allen Newell
+Cliff Shaw
+Herbert A  Simon
+Oliver Selfridge
+Frank Rosenblatt
+Bernard Widrow
+Joseph Weizenbaum
+Seymour Papert
+Seppo Linnainmaa
+Paul Werbos
+J rgen Schmidhuber
+Yann LeCun
+Geoffrey Hinton
+John Hopfield
+Yoshua Bengio
+Lotfi A  Zadeh
+Stephen Grossberg
+Alex Graves
+Andrew Ng
+Fei Fei Li
+Alex Krizhevsky
+Ilya Sutskever
+Demis Hassabis
+David Silver
+Ian Goodfellow
+Andrej Karpathy
+James Goodnight
+Architectures
+Neural Turing machine
+Differentiable neural computer
+Transformer
+Vision transformer  ViT 
+Recurrent neural network  RNN 
+Long short term memory  LSTM 
+Gated recurrent unit  GRU 
+Echo state network
+Multilayer perceptron  MLP 
+Convolutional neural network  CNN 
+Residual neural network  RNN 
+Highway network
+Mamba
+Autoencoder
+Variational autoencoder  VAE 
+Generative adversarial network  GAN 
+Graph neural network  GNN 
+
+ Portals
+Technology
+ Category
+Artificial neural networks
+Machine learning
+ List
+Companies
+Projects
+
+vteOptimization  Algorithms  methods  and heuristicsUnconstrained nonlinearFunctions
+Golden section search
+Powell s method
+Line search
+Nelder Mead method
+Successive parabolic interpolation
+GradientsConvergence
+Trust region
+Wolfe conditions
+Quasi Newton
+Berndt Hall Hall Hausman
+Broyden Fletcher Goldfarb Shanno and L BFGS
+Davidon Fletcher Powell
+Symmetric rank one  SR  
+Other methods
+Conjugate gradient
+Gauss Newton
+Gradient
+Mirror
+Levenberg Marquardt
+Powell s dog leg method
+Truncated Newton
+Hessians
+Newton s method
+Optimization computes maxima and minima Constrained nonlinearGeneral
+Barrier methods
+Penalty methods
+Differentiable
+Augmented Lagrangian methods
+Sequential quadratic programming
+Successive linear programming
+Convex optimizationConvex minimization
+Cutting plane method
+Reduced gradient  Frank Wolfe 
+Subgradient method
+Linear andquadraticInterior point
+Affine scaling
+Ellipsoid algorithm of Khachiyan
+Projective algorithm of Karmarkar
+Basis exchange
+Simplex algorithm of Dantzig
+Revised simplex algorithm
+Criss cross algorithm
+Principal pivoting algorithm of Lemke
+Active set method
+CombinatorialParadigms
+Approximation algorithm
+Dynamic programming
+Greedy algorithm
+Integer programming
+Branch and bound cut
+Graph algorithmsMinimum spanning tree
+Bor vka
+Prim
+Kruskal
+
+    Shortest path
+Bellman Ford
+SPFA
+Dijkstra
+Floyd Warshall
+Network flows
+Dinic
+Edmonds Karp
+Ford Fulkerson
+Push relabel maximum flow
+Metaheuristics
+Evolutionary algorithm
+Hill climbing
+Local search
+Parallel metaheuristics
+Simulated annealing
+Spiral optimization algorithm
+Tabu search
+
+Software
+
+
+
+
+
+
+Retrieved from  https   en wikipedia org w index php title Gradient descent amp oldid

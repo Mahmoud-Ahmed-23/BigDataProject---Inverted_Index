@@ -1,0 +1,405 @@
+Trial and error problem solvers with a metaheuristic or stochastic optimization character
+For the journal  see Evolutionary Computation  journal  
+Evolution of a population of random images  Each frame in the animation is a generation showing the best fitness individual with a genome made up of the greyscale level of each patch  Evolution repeatedly follows    evaluate fitness     rank individuals and    include some genes from next highest fitness individual  Fitness is the error difference with an image of Charles Darwin  
+Part of a series on theEvolutionary algorithm
+Chromosome
+Fitness function
+Genetic operator
+Crossover
+Mutation
+Selection
+Population model
+
+Genetic algorithm  GA 
+Chromosome
+Clonal selection algorithm
+Fly algorithm
+Genetic fuzzy systems
+Genetic memory
+Schema
+Promoter based GA
+
+Genetic programming  GP 
+Cartesian GP
+Linear GP
+Gene expression programming
+Grammatical evolution
+Multi expression programming
+
+Differential evolution
+Evolution strategy
+Evolutionary programming
+Related topics
+Cellular EA
+Cultural algorithm
+Effective fitness
+Evolutionary computation
+Gaussian adaptation
+Grammar induction
+Evolutionary multimodal optimization
+Memetic algorithm
+Neuroevolution
+vte
+Part of a series onEvolutionary biologyDarwin s finches by John Gould
+
+Index
+Introduction
+Main
+Outline
+
+
+Glossary
+Evidence
+History
+
+Processes and outcomes
+Population genetics
+Variation
+Diversity
+Mutation
+Natural selection
+Adaptation
+Polymorphism
+Genetic drift
+Gene flow
+Speciation
+Adaptive radiation
+Co operation
+Coevolution
+Coextinction
+Contingency
+Divergence
+Convergence
+Parallel evolution
+Extinction
+
+
+Natural history
+Origin of life
+Common descent
+History of life
+Timeline of evolution
+Human evolution
+Recent human evolution
+Phylogeny
+Biodiversity
+Biogeography
+Classification
+Evolutionary taxonomy
+Cladistics
+Transitional fossil
+Extinction event
+
+
+History of evolutionary theory
+Overview
+Renaissance
+Before Darwin
+Darwin
+Origin of Species
+Before synthesis
+Modern synthesis
+Molecular evolution
+Evo devo
+Current research
+History of speciation
+History of paleontology  timeline 
+
+
+Fields and applications
+Applications of evolution
+Biosocial criminology
+Ecological genetics
+Evolutionary aesthetics
+Evolutionary anthropology
+Evolutionary computation
+Evolutionary ecology
+Evolutionary economics
+Evolutionary epistemology
+Evolutionary ethics
+Evolutionary game theory
+Evolutionary linguistics
+Evolutionary medicine
+Evolutionary neuroscience
+Evolutionary physiology
+Evolutionary psychology
+Experimental evolution
+Invasion genetics
+Island biogeography
+Phylogenetics
+Paleontology
+Selective breeding
+Speciation experiments
+Sociobiology
+Systematics
+Universal Darwinism
+
+Social implications
+Eugenics
+Evolution as fact and theory
+Dysgenics
+Social effects
+Creation evolution controversy
+Theistic evolution
+Objections to evolution
+Level of support
+Nature nurture controversy
+
+ Evolutionary biology     portal
+      Categoryvte
+
+Evolutionary computation from computer science is a family of algorithms for global optimization inspired by biological evolution  and the subfield of artificial intelligence and soft computing studying these algorithms  In technical terms  they are a family of population based trial and error problem solvers with a metaheuristic or stochastic optimization character 
+In evolutionary computation  an initial set of candidate solutions is generated and iteratively updated  Each new generation is produced by stochastically removing less desired solutions  and introducing small random changes as well as  depending on the method  mixing parental information  In biological terminology  a population of solutions is subjected to natural selection  or artificial selection   mutation and possibly recombination  As a result  the population will gradually evolve to increase in fitness  in this case the chosen fitness function of the algorithm 
+Evolutionary computation techniques can produce highly optimized solutions in a wide range of problem settings  making them popular in computer science  Many variants and extensions exist  suited to more specific families of problems and data structures  Evolutionary computation is also sometimes used in evolutionary biology as an in silico experimental procedure to study common aspects of general evolutionary processes 
+
+
+History edit 
+The concept of mimicking evolutionary processes to solve problems originates before the advent of computers  such as when Alan Turing proposed a method of genetic search in                   Turing s B type u machines resemble primitive neural networks  and connections between neurons were learnt via a sort of genetic algorithm  His P type u machines resemble a method for reinforcement learning  where pleasure and pain signals direct the machine to learn certain behaviors  However  Turing s paper went unpublished until       and he died in       so this early work had little to no effect on the field of evolutionary computation that was to develop            
+Evolutionary computing as a field began in earnest in the     s and     s             There were several independent attempts to use the process of evolution in computing at this time  which developed separately for roughly    years  Three branches emerged in different places to attain this goal  evolution strategies  evolutionary programming  and genetic algorithms  A fourth branch  genetic programming  eventually emerged in the early     s  These approaches differ in the method of selection  the permitted mutations  and the representation of genetic data  By the     s  the distinctions between the historic branches had begun to blur  and the term  evolutionary computing  was  coined in      to denote a field that exists over all four paradigms            
+In       Lawrence J  Fogel initiated the research of Evolutionary Programming in the United States  which was considered an artificial intelligence endeavor  In this system  finite state machines are used to solve a prediction problem  these machines would be mutated  adding or deleting states  or changing the state transition rules   and the best of these mutated machines would be evolved further in future generations  The final finite state machine may be used to generate predictions when needed  The evolutionary programming method was successfully applied to prediction problems  system identification  and automatic control  It was eventually extended to handle time series data and to model the evolution of gaming strategies            
+In       Ingo Rechenberg and Hans Paul Schwefel introduce the paradigm of evolution strategies in Germany             Since traditional gradient descent techniques produce results that may get stuck in local minima  Rechenberg and Schwefel proposed that random mutations  applied to all parameters of some solution vector  may be used to escape these minima  Child solutions were generated from parent solutions  and the more successful of the two was kept for future generations  This technique was first used by the two to successfully solve optimization problems in fluid dynamics             Initially  this optimization technique was performed without computers  instead relying on dice to determine random mutations  By       the calculations were performed wholly by machine            
+John Henry Holland introduced genetic algorithms in the     s  and it was further developed at the University of Michigan in the     s             While the other approaches were focused on solving problems  Holland primarily aimed to use genetic algorithms to study adaptation and determine how it may be simulated  Populations of chromosomes  represented as bit strings  were transformed by an artificial selection process  selecting for specific  allele  bits in the bit string  Among other mutation methods  interactions between chromosomes were used to simulate the recombination of DNA between different organisms  While previous methods only tracked a single optimal organism at a time  having children compete with parents   Holland s genetic algorithms tracked large populations  having many organisms compete each generation  
+By the     s  a new approach to evolutionary computation that came to be called genetic programming emerged  advocated for by John Koza among others             In this class of algorithms  the subject of evolution was itself a program written in a high level programming language  there had been some previous attempts as early as      to use machine code  but they met with little success   For Koza  the programs were Lisp S expressions  which can be thought of as trees of sub expressions  This representation permits programs to swap subtrees  representing a sort of genetic mixing  Programs are scored based on how well they complete a certain task  and the score is used for artificial selection  Sequence induction  pattern recognition  and planning were all successful applications of the genetic programming paradigm 
+Many other figures played a role in the history of evolutionary computing  although their work did not always fit into one of the major historical branches of the field  The earliest computational simulations of evolution using evolutionary algorithms and artificial life techniques were performed by Nils Aall Barricelli in       with first results published in                  Another pioneer in the     s was Alex Fraser  who published a series of papers on simulation of artificial selection             As academic interest grew  dramatic increases in the power of computers allowed practical applications  including the automatic evolution of computer programs             Evolutionary algorithms are now used to solve multi dimensional problems more efficiently than software produced by human designers  and also to optimize the design of systems                        
+
+Techniques edit 
+Evolutionary computing techniques mostly involve metaheuristic optimization algorithms  Broadly speaking  the field includes 
+
+Agent based modeling
+Ant colony optimization
+Particle swarm optimization
+Swarm intelligence
+Artificial immune systems
+Artificial life
+Digital organism
+Cultural algorithms
+Differential evolution
+Dual phase evolution
+Estimation of distribution algorithm
+Evolutionary algorithm
+Genetic algorithm
+Evolutionary programming
+Genetic programming
+Gene expression programming
+Grammatical evolution
+Evolution strategy
+Learnable evolution model
+Learning classifier system
+Memetic algorithms
+Neuroevolution
+Self organization such as self organizing maps  competitive learning
+A thorough catalogue with many other recently proposed algorithms has been published in the Evolutionary Computation Bestiary              It is important to note that many recent algorithms  however  have poor experimental validation             
+
+Evolutionary algorithms edit 
+Main article  Evolutionary algorithm
+Evolutionary algorithms form a subset of evolutionary computation in that they generally only involve techniques implementing mechanisms inspired by biological evolution such as reproduction  mutation  recombination and natural selection  Candidate solutions to the optimization problem play the role of individuals in a population  and the cost function determines the environment within which the solutions  live   see also fitness function   Evolution of the population then takes place after the repeated application of the above operators 
+In this process  there are two main forces that form the basis of evolutionary systems   Recombination  e g  crossover  and mutation create the necessary diversity and thereby facilitate novelty  while selection acts as a force increasing quality 
+Many aspects of such an evolutionary process are stochastic  Changed pieces of information due to recombination and mutation are randomly chosen  On the other hand  selection operators can be either deterministic  or stochastic  In the latter case  individuals with a higher fitness have a higher chance to be selected than individuals with a lower fitness  but typically even the weak individuals have a chance to become a parent or to survive 
+
+Evolutionary algorithms and biology edit 
+Main article  Evolutionary algorithm
+Genetic algorithms deliver methods to model biological systems and systems biology that are linked to the theory of dynamical systems  since they are used to predict the future states of the system  This is just a vivid  but perhaps misleading  way of drawing attention to the orderly  well controlled and highly structured character of development in biology 
+However  the use of algorithms and informatics  in particular of computational theory  beyond the analogy to dynamical systems  is also relevant to understand evolution itself 
+This view has the merit of recognizing that there is no central control of development  organisms develop as a result of local interactions within and between cells  The most promising ideas about program development parallels seem to us to be ones that point to an apparently close analogy between processes within cells  and the low level operation of modern computers              Thus  biological systems are like computational machines that process input information to compute next states  such that biological systems are closer to a computation than classical dynamical system             
+Furthermore  following concepts from computational theory  micro processes in biological organisms are fundamentally incomplete and undecidable  completeness  logic    implying that  there is more than a crude metaphor behind the analogy between cells and computers             
+The analogy to computation extends also to the relationship between inheritance systems and biological structure  which is often thought to reveal one of the most pressing problems in explaining the origins of life 
+Evolutionary automata                                      a generalization of Evolutionary Turing machines                          have been introduced in order to investigate more precisely properties of biological and evolutionary computation  In particular  they allow to obtain new results on expressiveness of evolutionary computation                          This confirms the initial result about undecidability of natural evolution and evolutionary algorithms and processes  Evolutionary finite automata  the simplest subclass of Evolutionary automata working in terminal mode can accept arbitrary languages over a given alphabet  including non recursively enumerable  e g   diagonalization language  and recursively enumerable but not recursive languages  e g   language of the universal Turing machine              
+
+Notable practitioners edit 
+The list of active researchers is naturally dynamic and non exhaustive  A network analysis of the community was published in                  
+
+Kalyanmoy Deb
+Kenneth A De Jong
+Peter J  Fleming
+David B  Fogel
+Stephanie Forrest
+David E  Goldberg
+John Henry Holland
+Theo Jansen
+John Koza
+Zbigniew Michalewicz
+Melanie Mitchell
+Peter Nordin
+Riccardo Poli
+Ingo Rechenberg
+Hans Paul Schwefel
+Publications edit 
+Journals edit 
+While articles on or using evolutionary computation permeate the literature  several journals are dedicated to evolutionary computation 
+
+Evolutionary Computation  journal   founded       MIT Press 
+Artificial Life  journal   founded       MIT Press 
+IEEE Transactions on Evolutionary Computation  founded       IEEE 
+Genetic Programming and Evolvable Machines  founded       Springer Nature 
+Swarm Intelligence  founded       Springer Nature 
+Evolutionary Intelligence  founded       Springer Nature 
+Journal of Artificial Evolution and Applications               Hindawi 
+Memetic Computing  founded       Springer Nature 
+International Journal of Applied Evolutionary Computation  founded       fr IGI Global 
+Swarm and Evolutionary Computation  founded       Elsevier 
+International Journal of Swarm Intelligence and Evolutionary Computation  founded       Walsh Medical Media 
+Conferences edit 
+The main conferences in the evolutionary computation area include 
+
+ACM Genetic and Evolutionary Computation Conference  GECCO  
+IEEE Congress on Evolutionary Computation  CEC  
+EvoStar  which comprises four conferences  EuroGP  EvoApplications  EvoCOP and EvoMUSART 
+Parallel Problem Solving from Nature  PPSN  
+See also edit 
+
+Adaptive dimensional search
+Artificial development
+Autoconstructive
+Developmental biology
+Digital organism
+Estimation of distribution algorithm
+Evolutionary robotics
+Evolved antenna
+Fitness approximation
+Fitness function
+Fitness landscape
+Genetic operators
+Grammatical evolution
+Human based evolutionary computation
+Inferential programming
+Interactive evolutionary computation
+List of digital organism simulators
+Mutation testing
+No free lunch in search and optimization
+Program synthesis
+Test functions for optimization
+Unconventional computing
+Universal Darwinism
+
+References edit 
+
+
+  a b Eiben  A  E   Smith  J  E          Evolutionary Computing  The Origins  Natural Computing Series  Berlin  Heidelberg  Springer Berlin Heidelberg  pp              doi                              ISBN                         retrieved May        
+
+  Burgin  Mark  Eberbach  Eugene  April             Evolutionary Turing in the Context of Evolutionary Machines   arXiv            cs AI  
+
+  a b c d e Evolutionary computation        the fossil record  David B  Fogel  New York  IEEE Press        ISBN                     OCLC                 cite book     CS  maint  others  link 
+
+  Fischer  Thomas          Kybernetische Systemanalyse Einer Tuchfabrik zur Einf hrung Eines Computergest tzten Dispositionssystems der Fertigung   DGOR  Berlin  Heidelberg  Springer Berlin Heidelberg  p            doi                               ISBN                         retrieved May        
+
+  Mitchell  Melanie         An Introduction to Genetic Algorithms  The MIT Press  doi         mitpress                ISBN                        
+
+  Barricelli  Nils Aall          Esempi Numerici di processi di evoluzione   Methodos        
+
+  Fraser AS          Monte Carlo analyses of genetic models   Nature                     Bibcode     Natur         F  doi               a   PMID                S CID              
+
+  Koza  John R          Genetic Programming  On the Programming of Computers by Means of Natural Selection  MIT Press  ISBN                        
+
+  G  C  Onwubolu and  B V Babu  Onwubolu  Godfrey C   Babu  B  V   January            New Optimization Techniques in Engineering  Springer  ISBN                     Retrieved September          
+
+  Jamshidi M          Tools for intelligent control  fuzzy controllers  neural networks and genetic algorithms   Philosophical Transactions of the Royal Society A                        Bibcode     RSPTA         J  doi         rsta            PMID                S CID               
+
+  Campelo  Felipe  Aranha  Claus  June             Ec Bestiary  A Bestiary Of Evolutionary  Swarm And Other Metaphor Based Algorithms   doi         ZENODO            cite journal    Cite journal requires       journal   help 
+
+  Kudela  Jakub  December             A critical problem in benchmarking and analysis of evolutionary computation methods   Nature Machine Intelligence                     arXiv             doi         s                   ISSN                 S CID                
+
+   Biological Information   The Stanford Encyclopedia of Philosophy  Metaphysics Research Lab  Stanford University       
+
+  J G  Diaz Ochoa          Elastic Multi scale Mechanisms  Computation and Biological Evolution   Journal of Molecular Evolution                 Bibcode     JMolE         D  doi         s                  PMID                S CID               
+
+  A  Danchin          Bacteria as computers making computers   FEMS Microbiol  Rev                doi         j                      x  PMC               PMID               
+
+  Burgin  Mark  Eberbach  Eugene          Recursively Generated Evolutionary Turing Machines and Evolutionary Automata   In Xin She Yang  ed    Artificial Intelligence  Evolutionary Computing and Metaheuristics  Studies in Computational Intelligence  Vol            Springer Verlag  pp                doi                              ISBN                        
+
+  Burgin  M  and Eberbach  E          Bounded and Periodic Evolutionary Machines  in Proc       Congress on Evolutionary Computation  CEC        Barcelona  Spain        pp           
+
+  a b Burgin  M   Eberbach  E           Evolutionary Automata  Expressiveness and Convergence of Evolutionary Computation   The Computer Journal                     doi         comjnl bxr    
+
+  Eberbach E         On Expressiveness of Evolutionary Computation  Is EC Algorithmic   Proc       World Congress on Computational Intelligence WCCI       Honolulu  HI                
+
+  Eberbach  E         Toward a theory of evolutionary computation  BioSystems  v      pp       
+
+  Eberbach  Eugene  Burgin  Mark          Evolutionary automata as foundation of evolutionary computation  Larry Fogel was right        IEEE Congress on Evolutionary Computation  IEEE  pp                  doi         CEC               ISBN                         S CID              
+
+  Hopcroft  J E   R  Motwani  and J D  Ullman        Introduction to Automata Theory  Languages  and Computation  Addison Wesley  Boston San Francisco New York
+
+  J J  Merelo and C  Cotta          Who is the best connected EC researcher  Centrality analysis of the complex network of authors in evolutionary computation   arXiv            cs CY  
+
+
+Bibliography edit 
+Th  B ck  D B  Fogel  and Z  Michalewicz  Editors   Handbook of Evolutionary Computation        ISBN                
+Th  B ck and H  P  Schwefel  An overview of evolutionary algorithms for parameter optimization  Archived July           at the Wayback Machine Evolutionary Computation                  
+W  Banzhaf  P  Nordin  R E  Keller  and F D  Francone  Genetic Programming   An Introduction  Morgan Kaufmann       
+S  Cagnoni  et al   Real World Applications of Evolutionary Computing  Springer Verlag Lecture Notes in Computer Science  Berlin       
+R  Chiong  Th  Weise  Z  Michalewicz  Editors   Variants of Evolutionary Algorithms for Real World Applications  Springer        ISBN                
+K  A  De Jong  Evolutionary computation  a unified approach  MIT Press  Cambridge MA      
+A  E  Eiben and J E  Smith  From evolutionary computation to the evolution of things  Nature               doi         nature           
+A  E  Eiben and J E  Smith  Introduction to Evolutionary Computing  Springer  First edition        Second edition      
+D  B  Fogel  Evolutionary Computation  Toward a New Philosophy of Machine Intelligence  IEEE Press  Piscataway  NJ       
+L  J  Fogel  A  J  Owens  and M  J  Walsh  Artificial Intelligence through Simulated Evolution  New York  John Wiley       
+D  E  Goldberg  Genetic algorithms in search  optimization and machine learning  Addison Wesley       
+J  H  Holland  Adaptation in natural and artificial systems  University of Michigan Press  Ann Arbor       
+P  Hingston  L  Barone  and Z  Michalewicz  Editors   Design by Evolution  Natural Computing Series        Springer  ISBN                
+J  R  Koza  Genetic Programming  On the Programming of Computers by means of Natural Evolution  MIT Press  Massachusetts       
+F J  Lobo  C F  Lima  Z  Michalewicz  Editors   Parameter Setting in Evolutionary Algorithms  Springer        ISBN                
+Z  Michalewicz  Genetic Algorithms   Data Structures   Evolution Programs        Springer  ISBN                
+Z  Michalewicz and D B  Fogel  How to Solve It  Modern Heuristics  Springer        ISBN                       
+I  Rechenberg  Evolutionstrategie  Optimierung Technischer Systeme nach Prinzipien des Biologischen Evolution  Fromman Hozlboog Verlag  Stuttgart         in German 
+H  P  Schwefel  Numerical Optimization of Computer Models  John Wiley  amp  Sons  New York                nd edition 
+D  Simon  Evolutionary Optimization Algorithms Archived March           at the Wayback Machine  Wiley       
+M  Sipper  W  Fu  K  Ahuja  J  H  Moore          Investigating the parameter space of evolutionary algorithms   BioData Mining         doi         s               x  PMC               PMID               
+Y  Zhang  S  Li           PSA  A novel optimization algorithm based on survival rules of porcellio scaber   arXiv             cs NE  
+External links edit 
+Article in the Stanford Encyclopedia of Philosophy about Biological Information  English 
+vteEvolutionary computationMain Topics
+Evolutionary algorithm
+Evolutionary data mining
+Evolutionary multimodal optimization
+Human based evolutionary computation
+Interactive evolutionary computation
+Algorithms
+Cellular evolutionary algorithm
+Covariance Matrix Adaptation Evolution Strategy  CMA ES 
+Cultural algorithm
+Differential evolution
+Evolutionary programming
+Genetic algorithm
+Genetic programming
+Gene expression programming
+Evolution strategy
+Natural evolution strategy
+Neuroevolution
+Learning classifier system
+Related techniques
+Swarm intelligence
+Ant colony optimization
+Bees algorithm
+Cuckoo search
+Particle swarm optimization
+Bacterial Colony Optimization
+Metaheuristic methods
+Firefly algorithm
+Harmony search
+Gaussian adaptation
+Memetic algorithm
+Related topics
+Artificial development
+Artificial intelligence
+Artificial life
+Digital organism
+Evolutionary robotics
+Fitness function
+Fitness landscape
+Fitness approximation
+Genetic operators
+Interactive evolutionary computation
+No free lunch in search and optimization
+Machine learning
+Mating pool
+Premature convergence
+Program synthesis
+Journals
+Evolutionary Computation  journal 
+
+Authority control databases  National United StatesCzech RepublicIsrael
+
+
+
+
+
+Retrieved from  https   en wikipedia org w index php title Evolutionary computation amp oldid

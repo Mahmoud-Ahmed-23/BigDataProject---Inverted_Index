@@ -1,0 +1,424 @@
+American neurophysiologist and cybernetician
+Warren Sturgis McCullochBorn               November     Orange  New Jersey  U S Died   September                   aged         Cambridge  Massachusetts  U S NationalityAmericanAlma      materYale University  BA Columbia University  MA  MD Known      for
+A logical calculus of the ideas immanent in nervous activity
+Heterarchy
+AwardsWiener Gold Medal       Scientific careerFieldsCyberneticsArtificial neural networkNeurophysiologyBiophysicsComputer ScienceInstitutionsMassachusetts Institute of TechnologyYale UniversityUniversity of Illinois at ChicagoNotable studentsStafford Beer
+
+Warren Sturgis McCulloch  November            September           was an American neurophysiologist and cybernetician known for his work on the foundation for certain brain theories and his contribution to the cybernetics movement             Along with Walter Pitts  McCulloch created computational models based on mathematical algorithms called threshold logic which split the inquiry into two distinct approaches  one approach focused on biological processes in the brain and the other focused on the application of neural networks to artificial intelligence            
+
+
+Biography edit 
+Warren Sturgis McCulloch was born in Orange  New Jersey  in       His brother was a chemical engineer and Warren was originally planning to join the Christian ministry  As a teenager he was associated with the theologians Henry Sloane Coffin  Harry Emerson Fosdick  Herman Karl Wilhelm Kumm and Julian F  Hecker  He was also mentored by the Quaker Rufus Jones             He attended Haverford College then studied philosophy and psychology at Yale University  where he received a Bachelor of Arts degree in        He continued to study psychology at Columbia and received a Master of Arts degree in       Receiving his MD in      from the Columbia University College of Physicians and Surgeons in New York  he undertook an internship at Bellevue Hospital  New York  Then he worked under Eilhard von Domarus at the Rockland State Hospital for the Insane             He returned to academia in        He worked at the Laboratory for Neurophysiology at Yale University from      to      
+In      he moved to Chicago and joined the Department of Psychiatry at the University of Illinois at Chicago  where he was a professor of psychiatry  as well as the director of the Illinois Neuropsychiatric Institute until                  From      he worked at the Massachusetts Institute of Technology in Cambridge  Massachusetts with Norbert Wiener  He was a founding member of the American Society for Cybernetics and its second president during             He was a mentor to the British operations research pioneer Stafford Beer 
+McCulloch had a range of interests and talents  In addition to his scientific contributions he wrote poetry  sonnets   and he designed and engineered buildings and a dam at his farm in Old Lyme  Connecticut 
+McCulloch married Ruth Metzger  known as  Rook   in      and they had three children             He died in Cambridge in      
+
+Work edit 
+He is remembered for his work with Joannes Gregorius Dusser de Barenne from Yale            and later with Walter Pitts from the University of Chicago  He provided the foundation for certain brain theories in a number of classic papers  including  A Logical Calculus of the Ideas Immanent in Nervous Activity         and  How We Know Universals   The Perception of Auditory and Visual Forms          both published in the Bulletin of Mathematical Biophysics  The former is  widely credited with being a seminal contribution to neural network theory  the theory of automata  the theory of computation  and cybernetics             
+McCulloch was the chair of the set of Macy conferences dedicated to Cybernetics  These  greatly due to the diversity of the backgrounds of the participants McCulloch brought in  became the foundation for the field 
+In Wiener s Cybernetics         he recounted an event in the spring of       when McCulloch designed a machine to allow the blind to read  by converting printed letters to tones  He designed it so that the tone is invariant for the same letter viewed under different angles  Gerhardt von Bonin saw the design  and immediately asked    Is this a diagram of the fourth layer of the visual cortex of the brain                                              
+In his last days in     s  he worked on loops  oscillations and triadic relations with Moreno D az  the reticular formation with Kilmer and dynamic models of memory with Da Fonseca             His work in the     s was summarized in a      paper             
+
+Neuroscience edit 
+He studied the excitation of the brain by strychnine neuronography  which was a method to map brain connections  Applying strychnine in one point of the brain causes excitations in different points of the brain              Bailey  Bonin  and McCulloch conducted a series of studies in the     s that identified connections in the brains of macaque and chimpanzee that are consistent with modern understanding of VOF                         
+
+Mathematical logic edit 
+In      he began to work mainly on mathematical logic  and by      he attempted to make a logic of transitive verbs  His goal in psychology is to invent a  psychon  or  least psychic event  that are binary atomic events with necessary causes  such that they can be combined to create complex logical propositions concerning their antecedents  He noticed in      that these may correspond to the all or nothing firings of neurons in the brain            
+In the      paper  they described how memories can be formed by a neural network with loops in it  or alterable synapses  These then encodes for sentences like  There was some x such that x was a    or 
+  
+    
+      
+         
+          x     
+        x
+         
+         
+          x c  
+        x
+         
+      
+    
+      displaystyle   exists x   psi x  
+  
+  and showed that looped neural networks can encode all first order logic with equality and conversely  any looped neural networks is equivalent to a sentence in first order logic with equality  thus showing that they are equivalent in logical expressiveness            
+The      paper describes neural networks operating over time  and logical universals     there exists  and  for all  for spatial objects  such as geometric figures  was further developed in their      paper             
+He worked with Manuel Blum in studying how a neural network can be  logically stable   that is  can implement a boolean function even if the activation thresholds of individual neurons are varied                                   They were inspired by the problem of how the brain can perform the same functions  such as breathing  under influence of caffeine or alcohol  which shifts the activation threshold over the entire brain            
+He worked on triadic relations  an extension of the calculus of relations to handle relations that relates   objects  such as  A gives B to C  or  A perceives B to be C   He was convinced that such a logic is necessary for understanding brain activity                         
+
+How we know universals edit 
+In the      paper How we know universals  they studied the problem of recognizing objects despite changes in representation  For example  recognizing a square under different viewing angles and lighting conditions  or recognizing a phoneme under different loudness and tones  That is  recognizing objects invariant under the action of some symmetry group  This problem was partly inspired by a practical problem in designing a machine for the blind to read  recounted in Wiener s Cybernetics  see before              
+The paper proposed two solutions  The first is in computing an invariant by averaging over the symmetry group  Let the symmetry group be 
+  
+    
+      
+        G
+      
+    
+      displaystyle G 
+  
+ and the object to be recognized be 
+  
+    
+      
+        x
+      
+    
+      displaystyle x 
+  
+  Let a neural network implement a function 
+  
+    
+      
+        T
+      
+    
+      displaystyle T 
+  
+  Then  the group invariant representation would be 
+  
+    
+      
+        
+          
+             
+            
+              
+                 
+              
+              G
+              
+                 
+              
+            
+          
+        
+        
+            x     
+          
+            g
+              x     
+            G
+          
+        
+        T
+         
+        g
+        x
+         
+      
+    
+      displaystyle   frac      G    sum   g in G T gx  
+  
+  the group action average  The second solution is in a negative feedback circuit that drives a canonical representation  Consider the problem of recognizing whether an object is a square  The circuit moves the eye so that the  center of gravity of brightness  of the object is moved to the middle of the visual field  This then effectively converts each object into a canonical representation  which can then be compared with a representation in the brain                         
+
+Neural network modelling edit 
+In the      paper McCulloch and Pitts attempted to demonstrate that a Turing machine program could be implemented in a finite network of formal neurons  in the event  the Turing Machine contains their model of the brain  but the converse is not true               that the neuron was the base logic unit of the brain  In the      paper they offered approaches to designing  nervous nets  to recognize visual inputs despite changes in orientation or size 
+From      McCulloch worked at the Research Laboratory of Electronics at MIT  working primarily on neural network modelling  His team examined the visual system of the frog in consideration of McCulloch s      paper  discovering that the eye provides the brain with information that is already  to a degree  organized and interpreted  instead of simply transmitting an image 
+With Roberto Moreno D az  he studied a formalized problem of memory  Given that neural networks can story memory by a pattern of oscillations in a circle  they studied the number of possible oscillation patterns that can be sustained by some neural network with 
+  
+    
+      
+        N
+      
+    
+      displaystyle N 
+  
+ neurons  This came out to be 
+  
+    
+      
+        K
+         
+        N
+         
+         
+        
+          
+            
+               
+            
+            
+              
+                 
+                
+                  N
+                
+              
+              k
+            
+            
+               
+            
+          
+        
+        
+            x     
+          
+            k
+             
+             
+          
+          
+            
+               
+              
+                N
+              
+            
+              x     
+             
+          
+        
+        k
+         
+      
+    
+      displaystyle K N    binom     N   k   sum   k        N    k  
+  
+  Schnabel                     Also  they proved a universality theorem  in that for each 
+  
+    
+      
+        N
+      
+    
+      displaystyle N 
+  
+  there exists a neural network  possibly with more than 
+  
+    
+      
+        N
+      
+    
+      displaystyle N 
+  
+ neurons  with 
+  
+    
+      
+        
+          log
+          
+             
+          
+        
+          x     
+        K
+         
+        N
+         
+      
+    
+      displaystyle  log     K N  
+  
+ binary inputs  such that  for any oscillation pattern realizable by some neural network with 
+  
+    
+      
+        N
+      
+    
+      displaystyle N 
+  
+ neurons  there exists a binary input for this universal network such that it exhibits the same pattern                                     
+
+Control edit 
+McCulloch considered the problem of contradictory information and motives  which he called a  heterarchy  of motives  meaning that the motives are not linearly ordered  but can be ordered like 
+  
+    
+      
+        A
+         gt 
+        B
+         gt 
+        C
+         gt 
+        A
+      
+    
+      displaystyle A gt B gt C gt A 
+  
+              He posited the concept of  poker chip  reticular formations as to how the brain deals with contradictory information in a democratic  somatotopical neural network  Specifically  how the brain can commit the animal to a single course of action when the situation is ambiguous 
+They designed a prototypic example neural network  RETIC   with     anastomatically coupled modules stacked in columnar array   which can switch between unambiguous stable modes based on ambiguous inputs                         
+His principle of   Redundancy of Potential Command              was developed by von Foerster and Pask in their study of self organization             and by Pask in his Conversation Theory and Interactions of Actors Theory             
+
+Publications edit 
+McCulloch wrote a book and several articles             
+
+      Embodiments of Mind  MIT Press  Cambridge 
+      The Complete Works of Warren S  McCulloch  Intersystems Publications  Salinas  CA 
+Articles  a selection 
+
+       A Logical Calculus of the Ideas Immanent in Nervous Activity   With Walter Pitts  In  Bulletin of Mathematical Biophysics Vol    pp         
+       A Heterarchy of Values Determined by the Topology of Nervous Nets   In  Bulletin of Mathematical Biophysics                 
+       What The Frog s Eye Tells The Frog s Brain   With Jerome Lettvin  H R  Maturana and W H  Pitts  In  Proc  of the I  R  E  Vol         
+       Recollections of the Many Sources of Cybernetics   published in  ASC FORUM Volume VI  Number    Summer      
+Papers published by the Chicago Literary Club 
+
+       One Word After Another  
+       The Past of a Delusion  
+       The Natural Fit  
+See also edit 
+Randolph diagram
+References edit 
+
+
+  a b Ken Aizawa          McCulloch  Warren Sturgis   In  Dictionary of the Philosophy of Mind  Retrieved May          
+
+  McCulloch  Warren  Walter Pitts          A Logical Calculus of Ideas Immanent in Nervous Activity   Bulletin of Mathematical Biophysics                  doi         BF         
+
+  a b c d McCulloch  Warren          What is a number  that a man may know it  and a man  that he may know a Number   PDF   General Semantics Bulletin      amp            
+
+  Abraham  Tara H            Physio logical circuits  The intellectual origins of the McCulloch Pitts neural networks   Journal of the History of the Behavioral Sciences                doi         jhbs       ISSN                 PMID               
+
+  Smalheiser  Neil          Walter Pitts   Perspectives in Biology and Medicine                       doi         pbm            PMID                S CID              
+
+  H   Abraham  Tara               Rebel genius        Warren S  McCulloch s transdisciplinary life in science  Cambridge  Massachusetts  ISBN                     OCLC                  cite book     CS  maint  location missing publisher  link  CS  maint  multiple names  authors list  link 
+
+   Joannes Gregorius Dusser de Barenne   Yale J Biol Med                           PMC               PMID               
+
+  Wiener  Norbert  Cybernetics or Control and Communication in the Animal and the Machine        
+
+  de Blasio  Gabriel  Moreno D az  Arminda  Moreno D az  Roberto         Moreno D az  Roberto  Pichler  Franz  Quesada Arencibia  Alexis  eds     McCulloch s Relation to Connectionism and Artificial Intelligence   Computer Aided Systems Theory   EUROCAST       vol              Cham  Springer International Publishing  pp              doi                              ISBN                         retrieved           
+
+  a b McCulloch  W  S          Caianiello  E  R   ed     Logic and Closed Loops for a Computer Junket to Mars   Neural Networks  Berlin  Heidelberg  Springer Berlin Heidelberg  pp              doi                              ISBN                         retrieved           
+
+  de Barenne  J  G  Dusser  McCulloch  W  S                 Physiological Delimitation of Neurones in the Central Nervous System   American Journal of Physiology  Legacy Content                    doi         ajplegacy                 ISSN                
+
+  The isocortex of the chimpanzee  by Percival Bailey  Gerhardt von Bonin  and Warren S  McCulloch  Urbana  Illinois  University of Illinois Press      
+
+  Takemura  Hiromasa  Pestilli  Franco  Weiner  Kevin S                 Comparative neuroanatomy  Integrating classic and modern methods to understand association fibers connecting dorsal and ventral visual cortex   Neuroscience Research             doi         j neures              ISSN                 PMC               PMID               
+
+  Pitts  Walter  McCulloch  Warren S                 How we know universals the perception of auditory and visual forms   The Bulletin of Mathematical Biophysics                  doi         BF          ISSN                 PMID               
+
+  Blum  Manuel   Properties of a neuron with many inputs   Bionics Symposium  Living Prototypes  the Key to New Technology           September       WADD technical report                
+
+  a b Arbib  Michael A          Warren McCulloch s Search for the Logic of the Nervous System   Perspectives in Biology and Medicine                   doi         pbm            ISSN                
+
+  Masani  P  R           McCulloch  Pitts and the Evolution of Wiener s Neurophysiological Ideas   Norbert Wiener            Basel  Birkh user Basel  pp                doi                               ISBN                         retrieved           
+
+  Aizawa  Kenneth  September         Warren McCulloch s Turn to Cybernetics  What Walter Pitts Contributed   Interdisciplinary Science Reviews                   Bibcode     ISRv          A  doi                   Z              ISSN                
+
+  Masani  P  R           McCulloch  Pitts and the Evolution of Wiener s Neurophysiological Ideas   Norbert Wiener            Basel  Birkh user Basel  pp                doi                               ISBN                         retrieved           
+
+  see  S C  Kleene   Representations of Events in Nerve Nets and Finite Automata 
+
+  Schnabel  C  P  J  Number of Modes of Oscillation of a Net of N Neurons  Quarterly Progress Report No      Research Laboratory of Electronics  Massachusetts Institute of Technology  Cambridge  Mass   January           P      
+
+  Moreno D az  R  Realizability of a Neural Network Capable of All Possible Modes of Oscillation  Quarterly Progress Report No      Research Laboratory of Electronics  Massachusetts Institute of Technology  Cambridge  Mass   July           Pp          
+
+  Moreno D az  R   and W  S  McCulloch   Circularities in nets and the concept of functional matrices   Biocibernetics of the Central Nervous System  Little  Brown and Company  Boston                 
+
+  Moreno D az  Roberto  Moreno D az  Arminda                On the legacy of W S  McCulloch   Biosystems  BIOCOMP       Selected papers presented at the International Conference   Diffusion Processes in Neurobiology and Subcellular Biology                   Bibcode     BiSys         M  doi         j biosystems              ISSN                
+
+  McCulloch  Warren S   June         A heterarchy of values determined by the topology of nervous nets   The Bulletin of Mathematical Biophysics                doi         BF          ISSN                 PMID               
+
+  a b Kilmer  W  L   McCulloch  W  S   Blum  J          Mesarovi   M  D   ed     Some Mechanisms for a Theory of the Reticular Formation   Systems Theory and Biology  Berlin  Heidelberg  Springer Berlin Heidelberg  pp                doi                               ISBN                       
+
+   A Predictive Model for Self Organizing Systems   Part I  Cybernetica    pp           Part II  Cybernetica    pp              Heinz von Foerster and Gordon Pask
+
+  Gordon Pask         Heinz von Foerster s Self Organisation  the Progenitor of Conversation and Interaction Theories
+
+  His papers now reside in the manuscripts collection of the American Philosophical Society 
+
+
+Further reading edit 
+
+
+
+Wikiquote has quotations related to Warren S  McCulloch 
+
+Rebel Genius  Warren S  McCulloch s Transdisciplinary Life in Science  Cambridge  MA  MIT Press        
+New York Times         Obituaries  September    
+Crevier  Daniel         AI  The Tumultuous Search for Artificial Intelligence  BasicBooks  New York  NY 
+vteSubfields of and cyberneticians involved in cyberneticsSubfields
+Artificial intelligence
+Biological cybernetics
+Biomedical cybernetics
+Biorobotics
+Biosemiotics
+Neurocybernetics
+Catastrophe theory
+Computational neuroscience
+Connectionism
+Control theory
+Conversation theory
+Cybernetics in the Soviet Union
+Decision theory
+Emergence
+Engineering cybernetics
+Homeostasis
+Information theory
+Management cybernetics
+Medical cybernetics
+Second order cybernetics
+Cybersemiotics
+Sociocybernetics
+Synergetics
+Cyberneticians
+Alexander Lerner
+Alexey Lyapunov
+Alfred Radcliffe Brown
+Allenna Leonard
+Anthony Wilden
+Buckminster Fuller
+Charles Fran ois
+Genevieve Bell
+Margaret Boden
+Claude Bernard
+Cliff Joslyn
+Erich von Holst
+Ernst von Glasersfeld
+Francis Heylighen
+Francisco Varela
+Frederic Vester
+Charles Geoffrey Vickers
+Gordon Pask
+Gordon S  Brown
+Gregory Bateson
+Heinz von Foerster
+Humberto Maturana
+I  A  Richards
+Igor Aleksander
+Jacque Fresco
+Jakob von Uexk ll
+Jason Jixuan Hu
+Jay Wright Forrester
+Jennifer Wilby
+John N  Warfield
+Kevin Warwick
+Ludwig von Bertalanffy
+Maleyka Abbaszadeh
+Manfred Clynes
+Margaret Mead
+Marian Mazur
+N  Katherine Hayles
+Natalia Bekhtereva
+Niklas Luhmann
+Norbert Wiener
+Pyotr Grigorenko
+Qian Xuesen
+Ranulph Glanville
+Robert Trappl
+Sergei P  Kurdyumov
+Anthony Stafford Beer
+Stuart Kauffman
+Stuart Umpleby
+Talcott Parsons
+Ulla Mitzdorf
+Valentin Turchin
+Valentin Braitenberg
+William Ross Ashby
+Walter Bradford Cannon
+Walter Pitts
+Warren McCulloch
+William Grey Walter
+
+Authority control databases InternationalISNIVIAFFASTWorldCatNationalGermanyUnited StatesAustraliaNetherlandsNorwayIsraelAcademicsCiNiizbMATHPeopleTroveDeutsche BiographieDDBOtherIdRefSNAC
+
+
+
+
+
+Retrieved from  https   en wikipedia org w index php title Warren Sturgis McCulloch amp oldid

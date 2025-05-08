@@ -1,0 +1,482 @@
+Facial recognition system by Apple
+Face IDDeveloper s Apple Inc Initial releaseNovember                           years ago               Operating systemiPhone  iOS    or lateriPad  iOS    or laterPredecessorTouch ID  iPhone TypeBiometric authenticationLicenseProprietary licenseWebsitesupport apple com en us HT            
+Face ID is a biometric authentication facial recognition system designed and developed by Apple Inc  for the iPhone and iPad Pro  The system can be used for unlocking a device             making payments  accessing sensitive data  providing detailed facial expression tracking for Animoji  as well as six degrees of freedom   DOF  head tracking  eye tracking  and other features  Initially released in November      with the iPhone X  it has since been updated and introduced to all iPhones outside of SE models and all iPad Pro models from      onwards             Users on iOS    and newer can choose to lock specific apps  requiring Face ID to access them            
+The Face ID hardware uses a TrueDepth Camera            that consists of a sensor with three modules  a laser            dot projector that projects a grid of small infrared dots onto a user s face  a module called the flood illuminator that shines infrared light at the face  and an infrared camera that takes an infrared picture of the user  reads the resulting pattern  and generates a  D facial map  
+Face ID has sparked a number of debates about security and privacy  Apple claims that Face ID is statistically more advanced than Touch ID fingerprint scanning             It exhibits significantly fewer false positives  Multiple security features are in place to limit the risk of the system being bypassed using photos or masks  and only one proof of concept attempt using detailed scans has succeeded   
+Debate continues over the lack of legal protections offered by biometric systems as compared to passcode authentication in the United States  Hackers have been able to use combinations of FaceID data and SMS messages to enter various locked information on Apple users iPhones protected by FaceID technology  Privacy advocates have also expressed concern about third party app developers  access to  rough maps  of user facial data  despite rigid requirements by Apple of how developers handle facial data  Privacy concerns also exist regarding the use FaceID data to retrieve other personal information stored on Apple technology             Use of FaceID technology and biometric data in criminal cases as been of much debate due to lack of legal regulation  FaceID has been compared to fingerprint and passcode locking mechanisms to evaluate the ethics behind use of FaceID in criminal cases  Finally  infiltration on Apple products has been a concern of the public as twins and close relatives have been successful in fooling the FaceID technology  Facial replication into realistic masks has been an infiltration concern  but has thus far been unsuccessful   
+With the onset of the COVID    pandemic  it was noted that Face ID was unable to recognize users wearing face coverings on some devices                        Apple responded to criticism by offering faster fallback to passcode input  and the option for Apple Watch users to confirm whether they intended to unlock their iPhone             In March       Apple released iOS      which adds mask compatible Face ID for iPhone    and later devices             
+
+
+History edit 
+Apple announced Face ID during the unveiling of the iPhone X on September                       The system was presented as the successor to Touch ID  Apple s previous fingerprint based authentication technology embedded in the home button of the iPhone   and earlier devices in addition to the second and third generation iPhone SE              On September           Apple introduced the iPhone XS and XR with faster neural network processing speeds  providing a significant speed increase to Face ID  On October           Apple introduced the third generation iPad Pro  which brings Face ID to the iPad and allows face recognition in any orientation              iOS    included an upgraded version of Face ID which is up to     faster than Face ID on previous versions             
+In February           following the announcement of the iPhone   e and the discontinuation of the iPhone SE   rd generation   all the iPhone models have transitioned from the Touch ID to Face ID             
+
+Technology edit 
+Infrared dots projected by an iPhone with Face ID
+Face ID prompt before viewing the Recently Deleted album  on an iPhone    running iOS    
+Face ID s technology is based on PrimeSense s previous work with low cost infrared depth perception that was the basis of the Kinect motion sensor for the Xbox console line from Microsoft  Apple had acquired PrimeSense in      after Microsoft started to wane on the use of Kinect                         
+Face ID is based on a facial recognition sensor that consists of two parts  a vertical cavity surface emitting laser dot projector module that projects more than        infrared dots onto the user s face  and an infrared camera module that reads the pattern              The pattern is projected from the laser using an Active Diffractive Optical Element which divides the beam into        dots             
+The TrueDepth Camera             uses infrared light to create a  D map of users unique facial identity  This map is compared with the registered face using a secure subsystem  and the user is authenticated if the two faces match sufficiently  The system can recognize faces with glasses  clothing  makeup  and facial hair  and it adapts to changes in appearance over time  Concerns regarding the safety of longterm infrared facial screening has been debated and studied             
+The pattern is encrypted and sent to a local  Secure Enclave  in the device s CPU to confirm a match with the registered face                          The stored facial data is a mathematical representation of key details of the face  and it is inaccessible to Apple or other parties              To avoid involuntary authentication  the system requires the user to open their eyes and look at the device to attempt a match  although this can be disabled through an accessibility setting              Face ID is temporarily disabled and the user s passcode is required after   unsuccessful scans     hours of inactivity  restarting the device  or if both of the device s side buttons are held briefly             
+Apple claimed the probability of someone else unlocking a phone with Face ID is   in           as opposed to Touch ID at   in                                 During initial setup  the user s face is scanned twice from a number of angles to create a complete reference map  As the system is used  it learns about typical variations in a user s appearance  and will adjust its registered face data to match aging  facial hair growth  and other changes using the Neural Engine  The system will recognize a face wearing hats  scarves  glasses  most sunglasses              facial hair or makeup              When significant facial changes occur  FaceID may not recognize the person when comparing the image to stored data  In such cases  the user will be prompted to verify using their passcode and the facial recognition data will update to the changes             It also works in the dark by invisibly illuminating the whole face with a dedicated infrared flash module             
+Authentication with Face ID is used to enable a number of iOS features  including unlocking the phone automatically on wake  making payments with Apple Pay  and viewing saved passwords  Apps by Apple or third party developers can protect sensitive data with a system framework  the device will verify the user s identity and return success or failure without sharing face data with the app  Additionally  Face ID can be used without authentication to track over    aspects of a user s facial expression and positioning  which can be used to create live effects such as Animoji or camera filters  In recent years  third party developers have developed more use cases for FaceID such as e g  Eyeware Beam  an iOS app that provides a reliable and precise  multi purpose head and eye tracking tool  It is used to enable control of the camera angle through head motion in games and eye tracking to share attention with audience in streams  but also augmentative and alternative communication  AAC  and biometric research             
+
+Devices with Face ID edit 
+iPhone X        and newer  except the  nd and  rd generation iPhone SE
+iPad Pro   rd generation        and newer
+Safety edit 
+Face ID uses an infrared flood illuminator and laser infrared dot projector and prolonged exposure to infrared light has been known to cause harm to skin and the eyes  Apple has stated that the output is low enough that it will cause no harm to the eyes or skin  and meets  international safety standards               FaceID infrared output has been compared to what is put out from TV remotes               They do not  however  recommend the sensor be repaired by third parties  citing security concerns  There is also an in built feature to deactivate Face ID should unauthorized components be found             
+
+Issues edit 
+Twins and close relatives edit 
+Inconsistent results have been shown when testing Face ID on identical twins  with some tests showing the system managing to separate the two              while other tests have failed              The system has additionally been fooled by close relatives              Apple states that the probability of a false match is different for twins and siblings  as well as children under    years of age  as  their distinct facial features may not have fully developed              
+
+Law enforcement access edit 
+Face ID has raised concerns regarding the possibility of law enforcement accessing an individual s phone by pointing the device at the user s face              United States Senator Al Franken asked Apple to provide more information on the security and privacy of Face ID a day after the announcement              with Apple responding by highlighting the recent publication of a security white paper and knowledge base detailing answers                         
+In August       the FBI obtained a warrant to search the property  which includes electronic devices  of a man  Grant Michalski  accused of transmitting child pornography  they unlocked the suspect s iPhone by holding it up to his face  without needing his passcode             
+The Verge noted that courts in the United States have granted different Fifth Amendment rights to keycode and biometric unlocking systems  Keycodes are considered  testimonial  evidence based on the contents of users  thoughts  whereas fingerprints are considered physical evidence  with some suspects having been ordered to unlock their phones via fingerprint               Debates are ongoing regarding the use of FaceID technology in law enforcement and criminal cases as laws and regulations have not yet been put in place  Currently  law enforcements  need for evidence is to be balanced with individual privacy rights in regards to biometric data 
+
+Infiltration edit 
+Verification experts claim that if biometric technology does not account for skin texture or blood flow  sophisticated masks may be successful in bypassing FaceID technology  However  many people have attempted to fool Face ID with sophisticated masks  though most have failed              In November       Vietnamese security firm Bkav announced in a blog post that it had  created a      mask that successfully unlocked Face ID  but WIRED noted that Bkav s technique was more of a  proof of concept  rather than active exploitation risk  with the technique requiring a detailed measurement or digital scan of the iPhone owner s face  putting the real risk of danger only to targets of espionage and world leaders                          
+
+Third party developers edit 
+If the user explicitly grants a third party app permission to use the camera  the app can also access basic facial expression and positioning data from Face ID for features such as precise selfie filters such as those seen in Snapchat  or game characters mirroring real world user facial expressions  The data accessible to third parties is not sufficient to unlock a device or even identify a user  and Apple prohibits developers from selling the data to others  creating profiles on users  or using the data for advertising  The American Civil Liberties Union and the Center for Democracy and Technology raised privacy questions about Apple s enforcement of the privacy restrictions connected to third party access  with Apple maintaining that its App Store review processes were effective safeguards  Jay Stanley  a senior policy analyst with the ACLU  has stated that the overall idea of letting developers access sensitive facial information was still not satisfactorily handled  with Stanley telling Reuters that  the privacy issues around of the use of very sophisticated facial recognition technology for unlocking the phone have been overblown  The real privacy issues have to do with the access by third party developers                          
+
+Hacking concerns edit 
+Mobile hackers have been able to combine data from FaceID and SMS one time verification codes to access information from other accounts of Apple devices  Bank accounts of users in Asia and the Pacific Islands have been breached in isolated attacks by mobile hackers using FaceID data             Hackers were able to use facial images  stored in FaceID data  to make deepfake images that open information secured on Apple users devices with FaceID security  Combining FaceID data and one time SMS verification codes gave hackers access to various FaceID protected accounts              While these cyber attacks have been isolated in Asia and the Pacific Islands  it raises concerns about the security of FaceID technology 
+On the dark web  users have been selling their personal FaceID images and identity for acute financial gain  Hackers are using identities bought off the dark web for  sophisticated impersonation fraud               This type of  hacking  or fraud is extremely difficult to detect because the FaceID documents submitted are real  as they are coming directly from the user  meaning they match biometric FaceID data almost perfectly               
+iProov  a biometric data verification service  has suggested various ways to prevent FaceID biometric data from being successfully used to hack user data   Embedded imagery and meta data analysis  can be used detect if FaceID images are a real person or a media image              Technology can be used to quickly detect and respond to threats on verification systems using FaceID through ongoing monitoring and proactively searching for threats  With adequate training  engineers can learn how to reverse potential hacking situations to better understand how to prevent them              Without understanding how hackers are using FaceID biometric data to bypass verifications  ways to prevent cyber attacks can better be initiated to protect users 
+
+Use with face masks edit 
+During the COVID    pandemic  face masks were employed as a public and personal health control measure against the spread of SARS CoV    Face ID at the time was incompatible with face masks  with Apple stating  Face ID is designed to work with your eyes  nose and mouth visible               With the release of iOS       Apple added a feature that automatically brought up the passcode screen if it detected that the user was wearing a mask                          Apple was criticized for not addressing these issues with the release of the iPhone     but was praised for the lack of inclusion of Face ID in favor of Touch ID integration into the power button on the fourth generation iPad Air                         In April       Apple released iOS      and watchOS     with an option to allow Apple Watch to act as a backup if Face ID fails due to face masks             In March       Apple released iOS      which adds mask compatible Face ID for iPhone    and later devices             
+
+See also edit 
+Touch ID
+Vertical cavity surface emitting laser
+Structured light  D scanner
+References edit 
+
+
+   Apple s Face ID  Cheat sheet   TechRepublic  June           Retrieved            
+
+  a b c d  About Face ID advanced technology   Apple Support  Retrieved            
+
+   iOS    Preview   Apple              Archived from the original on             Retrieved            
+
+   Apple awards Finisar      million from its Advanced Manufacturing Fund   apple com  vertical cavity surface emitting lasers  VCSELs  power some of Apple s most popular new features  including Face ID
+
+   Apple Special Event        YouTube 
+
+  a b c Doffman  Zak   Serious New Warning Issued For Millions Of iPhone Users   Forbes  Retrieved            
+
+  a b Collins  Katie  October             Our masks make Face ID useless  iPhone    did nothing to fix it   CNET  Retrieved October          
+
+  Asmelash  Leah     August         New York s MTA is asking Apple to create a Face ID that works with masks   CNN  Retrieved    November      
+
+  a b  iPhone update lets Apple Watch users unlock Face ID in a mask   The Guardian              Retrieved            
+
+  a b  Use Face ID while wearing a mask with iPhone    and later   Apple Support              Retrieved            
+
+  Savov  Vlad  September             iPhone X announced with edge to edge screen  Face ID  and no home button   The Verge  Vox Media  Retrieved December          
+
+  a b Tepper  Fitz  September             Face ID is replacing Touch ID on the new iPhone X   TechCrunch  Oath Inc  Retrieved December          
+
+   Apple s new iPad Pro has Face ID  USB C  and slimmer bezels than ever before   The Verge  Retrieved            
+
+  Koetsier  John  September             Apple Finally Gets Face Unlock Right  iPhone    And iOS      Forbes  Retrieved October          
+
+   Apple debuts iPhone   e  A powerful new member of the iPhone    family   Apple Newsroom  Retrieved            
+
+  Buckley  Sean  November             Report  Apple buys PrimeSense  co creators of the original Kinect   Engadget  Retrieved November         
+
+  Cooper  Daniel  November            Ten years on  Kinect s legacy goes beyond Xbox   Engadget  Retrieved November         
+
+  Kubota  Yoko  September             Apple iPhone X Production Woe Sparked by Juliet and Her Romeo   The Wall Street Journal  Archived from the original on September           Retrieved September          
+
+   Apple iPhone X   IR Dot Projector   PDF   To provide the        dots  the VCSEL supplies the IR light and the Folded Optic directs the IR light to the Active Diffractive Optical Element  DOE   Finally  the Active DOE divides the light beam into        dots of light  
+
+  a b c Protection  International Commission on Non Ionizing Radiation  July         ICNIRP Guidelines on Limits of Exposure to Incoherent Visible and Infrared Radiation   Health Physics               doi         HP  b   e      a    
+
+  a b c Brandom  Russell  September             The five biggest questions about Apple s new facial recognition system   The Verge  Vox Media  Archived from the original on November           Retrieved November         
+
+  Ng  Alfred  September             Is Face ID secure  Apple takes on lingering questions   CNET  CBS Interactive  Archived from the original on October          Retrieved November         
+
+  Panzarino  Matthew  September             Interview  Apple s Craig Federighi answers some burning questions about Face ID   TechCrunch  Oath Inc  Retrieved December          
+
+  Warren  Tom  October             Apple s Face ID struggles detailed in new iPhone X report   The Verge  Vox Media  Retrieved December          
+
+  Clover  Juli  September             Apple s New Face ID Biometric System Works in the Dark and When Your Face is Obscured by Hats and Beard   MacRumors  Retrieved December          
+
+  Clover  Juli  September             Apple s Face ID Feature Works With Most Sunglasses  Can Be Quickly Disabled to Thwart Thieves   MacRumors  Retrieved December          
+
+  Heisler  Yoni  November            Infrared video shows off the iPhone X s new Face ID feature in action   BGR  Penske Media Corporation  Retrieved December          
+
+   Eye tracking app Eyeware Beam free to download in iPhone beta   Apple Insider     June       Retrieved            
+
+   About Face ID advanced technology   Apple Support  November          Retrieved March         
+
+  Ocbazghi  Emmanuel  October             We put the iPhone X s Face ID to the ultimate test with identical twins   and the results surprised us   Business Insider  Axel Springer SE  Retrieved December         
+
+  Ulanoff  Lance  October             The iPhone X can t tell the difference between identical twins   Mashable  Retrieved December         
+
+  Deahl  Dani  November             This    year old was able to unlock his mom s iPhone using Face ID   The Verge  Vox Media  Retrieved December          
+
+  Hall  Zac  September             Apple explains how iPhone X facial recognition with Face ID works  and fails  in security paper    to Mac  Retrieved December          
+
+  Kircher  Madison Malone  September             Yes  You Can Unlock the New iPhone With Your Face  Here s How It Works   Select All  New York  Archived from the original on October           Retrieved November         
+
+  Romm  Tony  September             Apple is facing questions from the U S  Senate on the privacy protections in iPhone X and Face ID   Recode  Vox Media  Archived from the original on November           Retrieved November         
+
+  Lomas  Natasha  October             Apple responds to Senator Franken s Face ID privacy concerns   TechCrunch  Oath Inc  Archived from the original on November          Retrieved November         
+
+  Shah  Saqib  October             Apple responds to Sen  Al Franken s Face ID concerns in letter   Engadget  Oath Inc  Archived from the original on November           Retrieved November         
+
+  Brewster  Thomas   Feds Force Suspect To Unlock An Apple iPhone X With Their Face   Forbes  Retrieved            
+
+  Robertson  Adi  September             Why Face ID won t give you the legal protection of a passcode   The Verge  Vox Media  Retrieved December         
+
+  Greenberg  Andy  November            We tried really hard to beat Face ID   and failed  so far    Wired  Cond  Nast  Retrieved December         
+
+  Greenberg  Andy  November             Hackers say they ve broken Face ID a week after iPhone X release   Wired  Cond  Nast  Retrieved December         
+
+  Ong  Thuy  November             This      mask beat Face ID on the iPhone X   The Verge  Vox Media  Retrieved December         
+
+  Nellis  Stephen  November            App developer access to iPhone X face data spooks some privacy experts   Reuters  Thomson Reuters  Retrieved December         
+
+  Statt  Nick  November            Apple will share face mapping data from the iPhone X with third party app developers   The Verge  Vox Media  Retrieved December         
+
+  a b c d Winder  Davey   Dark Web Facial ID Farm Warning Hackers Build Identity Fraud Database   Forbes  Retrieved            
+
+  Bloom  Jonathan  May             Face ID With a Mask  Here s How to Unlock Your iPhone in the Age of COVID      NBC Bay Area  Retrieved October          
+
+  Coggan  Georgia  May            Apple finally reveals Face ID  fix  so you can keep your face mask on   Creative Bloq  Retrieved October          
+
+   Get to Know Face ID on iPhone   shop rewa tech  Retrieved            
+
+  Tibken  Shara  October             iPhone    and the Touch ID button  Why Apple probably won t give it to us this year   CNET  Retrieved October          
+
+
+External links edit 
+Official website
+vteApple Inc 
+History
+Outline
+Timeline of products
+Environment
+Marketing
+Supply chain
+Trade unions
+ProductsHardwareMac
+iMac
+Pro
+MacBook
+Air
+Pro
+Mini
+Studio
+Pro
+iPod
+Classic
+Mini
+Nano
+Shuffle
+Touch
+iPhone
+Hardware
+History
+iPhone models
+iPad
+Mini
+Air
+Pro
+Accessories
+AirPods
+Pro
+Max
+Other
+Apple SIM
+AirTag
+Beats
+Pill
+HomePod
+Mini
+Silicon
+TV
+Vision Pro
+Watch
+SoftwareOperatingsystems
+iOS   iPadOS
+iPhones
+iPads
+iOS history
+iPadOS history
+Apps
+macOS
+History
+Server
+tvOS
+watchOS
+bridgeOS
+Darwin
+Classic Mac OS
+visionOS
+
+CarPlay
+Classroom
+HomeKit
+Core Foundation
+Developer Tools
+FileMaker
+Final Cut Pro
+X
+Compressor
+Motion
+Logic Pro
+MainStage
+iLife
+GarageBand
+iMovie
+iPhoto
+iTunes
+iWork
+Keynote
+Numbers
+Pages
+Mail
+QuickTime
+Safari
+SceneKit
+Shazam
+Siri
+Swift
+Xcode
+ServicesFinancial
+Card
+Pay
+Wallet
+Media
+Arcade
+Books
+Music
+ 
+Beats Music
+Up Next
+Festival
+iTunes Radio
+App
+News
+Newsstand
+Podcasts
+TV
+ 
+originals
+MLS Season Pass
+Communication
+FaceTime
+Walkie Talkie
+iMessage
+iChat
+App
+Invites
+Game Center
+Retail anddigital sales
+App Store
+macOS
+iTunes Store
+Connect
+Store
+Fifth Avenue
+Michigan Avenue
+Support
+AppleCare 
+AASP
+Certifications
+Genius Bar
+ProCare
+One to One
+Other
+Apple Account  formerly Apple ID 
+Sign in with Apple
+One
+Developer
+iAd
+TestFlight
+WWDC
+iCloud
+MobileMe
+Find My
+Fitness
+Photos
+Maps
+Flyover
+Look Around
+CompaniesSubsidiaries
+Anobit
+Apple IMC
+Apple Studios
+Beats
+Beddit
+Braeburn Capital
+Claris
+Acquisitions
+Anobit
+AuthenTec
+Beats
+Beddit
+BIS Records
+Cue
+EditGrid
+Emagic
+FingerWorks
+Intrinsity
+InVisage Technologies
+The Keyboard Company
+Lala
+Metaio
+NeXT
+Nothing Real
+P A  Semi
+Power Computing
+PrimeSense
+Shazam Entertainment Limited
+Siri
+Texture
+Topsy
+Partnerships
+AIM alliance
+Kaleida Labs
+Taligent
+Akamai
+Arm
+DiDi
+Digital Ocean
+iFund
+Imagination
+Rockstar Consortium
+Related
+Advertising
+      
+ Think different 
+ Get a Mac 
+iPod
+Product Red
+Ecosystem
+Events
+Criticism
+Right to repair
+Tax
+Headquarters
+Campus
+Park
+University
+Design
+IDg
+Typography
+Book
+History
+Codenames
+Apple FileWare
+Community
+AppleMasters
+Litigation
+     U S  antitrust case
+App Store antitrust case
+Non recruiting agreements
+Price fixing ebooks
+FBI encryption dispute
+Epic Games
+iOS app approvals
+Unions
+ AppleToo
+Depictions of Steve Jobs
+Linux
+Asahi Linux
+iPodLinux
+Car project
+PeopleExecutivesCurrent
+Tim Cook  CEO 
+Jeff Williams  COO 
+Kevan Parekh  CFO 
+Katherine Adams  General Counsel 
+Eddy Cue
+Craig Federighi
+Isabel Ge Mahe
+John Giannandrea
+Lisa Jackson
+Greg Joswiak
+Sabih Khan
+Luca Maestri
+Deirdre O Brien
+Dan Riccio
+Phil Schiller
+Johny Srouji
+John Ternus
+Former
+Michael Scott  CEO 
+Mike Markkula  CEO 
+John Sculley  CEO 
+Michael Spindler  CEO 
+Gil Amelio  CEO 
+Steve Jobs  CEO 
+Jony Ive  CDO 
+Angela Ahrendts
+Fred D  Anderson
+John Browett
+Guerrino De Luca
+Paul Deneve
+Al Eisenstat
+Tony Fadell
+Scott Forstall
+Ellen Hancock
+Nancy R  Heinen
+Ron Johnson
+David Nagel
+Peter Oppenheimer
+Mark Papermaster
+Jon Rubinstein
+Bertrand Serlet
+Bruce Sewell
+Sina Tamaddon
+Avie Tevanian
+Steve Wozniak
+Board ofdirectorsCurrent
+Arthur D  Levinson  Chairman 
+Tim Cook  CEO 
+James A  Bell
+Alex Gorsky
+Andrea Jung
+Ronald D  Sugar
+Susan L  Wagner
+Former
+Mike Markkula  Chairman 
+John Sculley  Chairman 
+Steve Jobs  Chairman 
+Gil Amelio
+Fred D  Anderson
+Bill Campbell
+Mickey Drexler
+Al Eisenstat
+Larry Ellison
+Al Gore
+Robert A  Iger
+Delano Lewis
+Arthur Rock
+Eric Schmidt
+Michael Scott
+Michael Spindler
+Edgar S  Woolard Jr 
+Jerry York
+Founders
+Steve Jobs
+Steve Wozniak
+Ronald Wayne
+
+Italics indicate discontinued products  services  or defunct companies 
+ Category
+
+
+
+
+
+
+Retrieved from  https   en wikipedia org w index php title Face ID amp oldid

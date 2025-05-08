@@ -1,0 +1,644 @@
+Heuristic search algorithm for evaluating game trees
+Monte Carlo tree searchClassSearch algorithm
+In computer science  Monte Carlo tree search  MCTS  is a heuristic search algorithm for some kinds of decision processes  most notably those employed in software that plays board games  In that context MCTS is used to solve the game tree 
+MCTS was combined with neural networks in                 and has been used in multiple board games like Chess  Shogi             Checkers  Backgammon  Contract Bridge  Go  Scrabble  and Clobber            as well as in turn based strategy video games  such as Total War  Rome II s implementation in the high level campaign AI             and applications outside of games            
+
+
+History edit 
+Monte Carlo method edit 
+The Monte Carlo method  which uses random sampling for deterministic problems which are difficult or impossible to solve using other approaches  dates back to the     s             In his      PhD thesis  Bruce Abramson combined minimax search with an expected outcome model based on random game playouts to the end  instead of the usual static evaluation function  Abramson said the expected outcome model  is shown to be precise  accurate  easily estimable  efficiently calculable  and domain independent               He experimented in depth with tic tac toe and then with machine generated evaluation functions for Othello and chess 
+Such methods were then explored and successfully applied to heuristic search in the field of automated theorem proving by W  Ertel  J  Schumann and C  Suttner in                                         thus improving the exponential search times of uninformed search algorithms such as e g  breadth first search  depth first search or iterative deepening 
+In       B  Br gmann employed it for the first time in a Go playing program              In       Chang et al              proposed the idea of  recursive rolling out and backtracking  with  adaptive  sampling choices in their Adaptive Multi stage Sampling  AMS  algorithm for the model of Markov decision processes  AMS was the first work to explore the idea of UCB based exploration and exploitation in constructing sampled simulated  Monte Carlo  trees and was the main seed for UCT  Upper Confidence Trees              
+
+Monte Carlo tree search  MCTS  edit 
+The rating of best Go playing programs on the KGS server since       Since       all the best programs use Monte Carlo tree search             
+In       inspired by its predecessors              R mi Coulom described the application of the Monte Carlo method to game tree search and coined the name Monte Carlo tree search              L  Kocsis and Cs  Szepesv ri developed the UCT  Upper Confidence bounds applied to Trees  algorithm              and S  Gelly et al  implemented UCT in their program MoGo              In       MoGo achieved dan  master  level in     Go              and the Fuego program began to win against strong amateur players in     Go             
+In January       the Zen program won     in a Go match on a       board with an amateur   dan player              Google Deepmind developed the program AlphaGo  which in October      became the first Computer Go program to beat a professional human Go player without handicaps on a full sized   x   board                                     In March       AlphaGo was awarded an honorary   dan  master  level in       Go for defeating Lee Sedol in a five game match with a final score of four games to one              AlphaGo represents a significant improvement over previous Go programs as well as a milestone in machine learning as it uses Monte Carlo tree search with artificial neural networks  a deep learning method  for policy  move selection  and value  giving it efficiency far surpassing previous programs             
+The MCTS algorithm has also been used in programs that play other board games  for example Hex              Havannah              Game of the Amazons              and Arimaa               real time video games  for instance Ms  Pac Man                         and Fable Legends               and nondeterministic games  such as skat              poker              Magic  The Gathering              or Settlers of Catan              
+
+Principle of operation edit 
+The focus of MCTS is on the analysis of the most promising moves  expanding the search tree based on random sampling of the search space 
+The application of Monte Carlo tree search in games is based on many playouts  also called roll outs  In each playout  the game is played out to the very end by selecting moves at random  The final game result of each playout is then used to weight the nodes in the game tree so that better nodes are more likely to be chosen in future playouts 
+The most basic way to use playouts is to apply the same number of playouts after each legal move of the current player  then choose the move which led to the most victories              The efficiency of this method called Pure Monte Carlo Game Search often increases with time as more playouts are assigned to the moves that have frequently resulted in the current player s victory according to previous playouts  Each round of Monte Carlo tree search consists of four steps             
+
+Selection  Start from root R and select successive child nodes until a leaf node L is reached  The root is the current game state and a leaf is any node that has a potential child from which no simulation  playout  has yet been initiated  The section below says more about a way of biasing choice of child nodes that lets the game tree expand towards the most promising moves  which is the essence of Monte Carlo tree search 
+Expansion  Unless L ends the game decisively  e g  win loss draw  for either player  create one  or more  child nodes and choose node C from one of them  Child nodes are any valid moves from the game position defined by L 
+Simulation  Complete one random playout from node C  This step is sometimes also called playout or rollout  A playout may be as simple as choosing uniform random moves until the game is decided  for example in chess  the game is won  lost  or drawn  
+Backpropagation  Use the result of the playout to update information in the nodes on the path from C to R 
+Step of Monte Carlo tree search 
+This graph shows the steps involved in one decision  with each node showing the ratio of wins to total playouts from that point in the game tree for the player that the node represents              In the Selection diagram  black is about to move  The root node shows there are    wins out of    playouts for white from this position so far  It complements the total of       black wins shown along the three black nodes under it  each of which represents a possible black move  Note that this graph does not follow the UCT algorithm described below 
+If white loses the simulation  all nodes along the selection incremented their simulation count  the denominator   but among them only the black nodes were credited with wins  the numerator   If instead white wins  all nodes along the selection would still increment their simulation count  but among them only the white nodes would be credited with wins  In games where draws are possible  a draw causes the numerator for both black and white to be incremented by     and the denominator by    This ensures that during selection  each player s choices expand towards the most promising moves for that player  which mirrors the goal of each player to maximize the value of their move 
+Rounds of search are repeated as long as the time allotted to a move remains  Then the move with the most simulations made  i e  the highest denominator  is chosen as the final answer 
+
+Pure Monte Carlo game search edit 
+This basic procedure can be applied to any game whose positions necessarily have a finite number of moves and finite length  For each position  all feasible moves are determined  k random games are played out to the very end  and the scores are recorded  The move leading to the best score is chosen  Ties are broken by fair coin flips  Pure Monte Carlo Game Search results in strong play in several games with random elements  as in the game EinStein w rfelt nicht   It converges to optimal play  as k tends to infinity  in board filling games with random turn order  for instance in the game Hex with random turn order              DeepMind s AlphaZero replaces the simulation step with an evaluation based on a neural network            
+
+Exploration and exploitation edit 
+The main difficulty in selecting child nodes is maintaining some balance between the exploitation of deep variants after moves with high average win rate and the exploration of moves with few simulations  The first formula for balancing exploitation and exploration in games  called UCT  Upper Confidence Bound   applied to trees   was introduced by Levente Kocsis and Csaba Szepesv ri              UCT is based on the UCB  formula derived by Auer  Cesa Bianchi  and Fischer             and the probably convergent AMS  Adaptive Multi stage Sampling  algorithm first applied to multi stage decision making models  specifically  Markov Decision Processes  by Chang  Fu  Hu  and Marcus              Kocsis and Szepesv ri recommend to choose in each node of the game tree the move for which the expression 
+  
+    
+      
+        
+          
+            
+              w
+              
+                i
+              
+            
+            
+              n
+              
+                i
+              
+            
+          
+        
+         
+        c
+        
+          
+            
+              
+                ln
+                  x     
+                
+                  N
+                  
+                    i
+                  
+                
+              
+              
+                n
+                
+                  i
+                
+              
+            
+          
+        
+      
+    
+      displaystyle   frac  w  i   n  i    c  sqrt   frac   ln N  i   n  i     
+  
+ has the highest value  In this formula 
+
+wi stands for the number of wins for the node considered after the i th move
+ni stands for the number of simulations for the node considered after the i th move
+Ni stands for the total number of simulations after the i th move run by the parent node of the one considered
+c is the exploration parameter theoretically equal to           in practice usually chosen empirically
+The first component of the formula above corresponds to exploitation  it is high for moves with high average win ratio  The second component corresponds to exploration  it is high for moves with few simulations 
+Most contemporary implementations of Monte Carlo tree search are based on some variant of UCT that traces its roots back to the AMS simulation optimization algorithm for estimating the value function in finite horizon Markov Decision Processes  MDPs  introduced by Chang et al                     in Operations Research   AMS was the first work to explore the idea of UCB based exploration and exploitation in constructing sampled simulated  Monte Carlo  trees and was the main seed for UCT              
+
+Advantages and disadvantages edit 
+Although it has been proven that the evaluation of moves in Monte Carlo tree search converges to minimax when using UCT                          the basic version of Monte Carlo tree search converges only in so called  Monte Carlo Perfect  games              However  Monte Carlo tree search does offer significant advantages over alpha beta pruning and similar algorithms that minimize the search space 
+In particular  pure Monte Carlo tree search does not need an explicit evaluation function  Simply implementing the game s mechanics is sufficient to explore the search space  i e  the generating of allowed moves in a given position and the game end conditions   As such  Monte Carlo tree search can be employed in games without a developed theory or in general game playing 
+The game tree in Monte Carlo tree search grows asymmetrically as the method concentrates on the more promising subtrees  Thus     dubious             discuss       it achieves better results than classical algorithms in games with a high branching factor 
+A disadvantage is that in certain positions  there may be moves that look superficially strong  but that actually lead to a loss via a subtle line of play  Such  trap states  require thorough analysis to be handled correctly  particularly when playing against an expert player  however  MCTS may not  see  such lines due to its policy of selective node expansion                          It is believed that this may have been part of the reason for AlphaGo s loss in its fourth game against Lee Sedol  In essence  the search attempts to prune sequences which are less relevant  In some cases  a play can lead to a very specific line of play which is significant  but which is overlooked when the tree is pruned  and this outcome is therefore  off the search radar              
+
+Improvements edit 
+Various modifications of the basic Monte Carlo tree search method have been proposed to shorten the search time  Some employ domain specific expert knowledge  others do not 
+Monte Carlo tree search can use either light or heavy playouts  Light playouts consist of random moves while heavy playouts apply various heuristics to influence the choice of moves  These heuristics may employ the results of previous playouts  e g  the Last Good Reply heuristic              or expert knowledge of a given game  For instance  in many Go playing programs certain stone patterns in a portion of the board influence the probability of moving into that area              Paradoxically  playing suboptimally in simulations sometimes makes a Monte Carlo tree search program play stronger overall             
+
+Patterns of hane  surrounding opponent stones  used in playouts by the MoGo program  It is advantageous for both black and white to put a stone on the middle square  except the rightmost pattern where it favors black only             
+Domain specific knowledge may be employed when building the game tree to help the exploitation of some variants  One such method assigns nonzero priors to the number of won and played simulations when creating each child node  leading to artificially raised or lowered average win rates that cause the node to be chosen more or less frequently  respectively  in the selection step              A related method  called progressive bias  consists in adding to the UCB  formula a 
+  
+    
+      
+        
+          
+            
+              b
+              
+                i
+              
+            
+            
+              n
+              
+                i
+              
+            
+          
+        
+      
+    
+      displaystyle   frac  b  i   n  i    
+  
+ element  where bi is a heuristic score of the  i th move             
+The basic Monte Carlo tree search collects enough information to find the most promising moves only after many rounds  until then its moves are essentially random  This exploratory phase may be reduced significantly in a certain class of games using RAVE  Rapid Action Value Estimation               In these games  permutations of a sequence of moves lead to the same position  Typically  they are board games in which a move involves placement of a piece or a stone on the board  In such games the value of each move is often only slightly influenced by other moves 
+In RAVE  for a given game tree node N  its child nodes Ci store not only the statistics of wins in playouts started in node N but also the statistics of wins in all playouts started in node N and below it  if they contain move i  also when the move was played in the tree  between node N and a playout   This way the contents of tree nodes are influenced not only by moves played immediately in a given position but also by the same moves played later 
+
+RAVE on the example of tic tac toe  In red nodes  the RAVE statistics will be updated after the b  a  b  simulation 
+When using RAVE  the selection step selects the node  for which the modified UCB  formula 
+  
+    
+      
+         
+         
+          x     
+          x b  
+         
+        
+          n
+          
+            i
+          
+        
+         
+        
+          
+            
+              
+                n
+                  x e 
+              
+            
+          
+          
+            i
+          
+        
+         
+         
+        
+          
+            
+              w
+              
+                i
+              
+            
+            
+              n
+              
+                i
+              
+            
+          
+        
+         
+          x b  
+         
+        
+          n
+          
+            i
+          
+        
+         
+        
+          
+            
+              
+                n
+                  x e 
+              
+            
+          
+          
+            i
+          
+        
+         
+        
+          
+            
+              
+                
+                  
+                    w
+                      x e 
+                  
+                
+              
+              
+                i
+              
+            
+            
+              
+                
+                  
+                    n
+                      x e 
+                  
+                
+              
+              
+                i
+              
+            
+          
+        
+         
+        c
+        
+          
+            
+              
+                ln
+                  x     
+                t
+              
+              
+                n
+                
+                  i
+                
+              
+            
+          
+        
+      
+    
+      displaystyle     beta  n  i    tilde  n    i     frac  w  i   n  i     beta  n  i    tilde  n    i    frac    tilde  w    i     tilde  n    i    c  sqrt   frac   ln t  n  i     
+  
+ has the highest value  In this formula  
+  
+    
+      
+        
+          
+            
+              
+                w
+                  x e 
+              
+            
+          
+          
+            i
+          
+        
+      
+    
+      displaystyle   tilde  w    i  
+  
+ and 
+  
+    
+      
+        
+          
+            
+              
+                n
+                  x e 
+              
+            
+          
+          
+            i
+          
+        
+      
+    
+      displaystyle   tilde  n    i  
+  
+ stand for the number of won playouts containing move i and the number of all playouts containing move i  and the 
+  
+    
+      
+          x b  
+         
+        
+          n
+          
+            i
+          
+        
+         
+        
+          
+            
+              
+                n
+                  x e 
+              
+            
+          
+          
+            i
+          
+        
+         
+      
+    
+      displaystyle  beta  n  i    tilde  n    i   
+  
+ function should be close to one and to zero for relatively small and relatively big ni and 
+  
+    
+      
+        
+          
+            
+              
+                n
+                  x e 
+              
+            
+          
+          
+            i
+          
+        
+      
+    
+      displaystyle   tilde  n    i  
+  
+  respectively  One of many formulas for 
+  
+    
+      
+          x b  
+         
+        
+          n
+          
+            i
+          
+        
+         
+        
+          
+            
+              
+                n
+                  x e 
+              
+            
+          
+          
+            i
+          
+        
+         
+      
+    
+      displaystyle  beta  n  i    tilde  n    i   
+  
+  proposed by D  Silver              says that in balanced positions one can take 
+  
+    
+      
+          x b  
+         
+        
+          n
+          
+            i
+          
+        
+         
+        
+          
+            
+              
+                n
+                  x e 
+              
+            
+          
+          
+            i
+          
+        
+         
+         
+        
+          
+            
+              
+                
+                  
+                    n
+                      x e 
+                  
+                
+              
+              
+                i
+              
+            
+            
+              
+                n
+                
+                  i
+                
+              
+               
+              
+                
+                  
+                    
+                      n
+                        x e 
+                    
+                  
+                
+                
+                  i
+                
+              
+               
+               
+              
+                b
+                
+                   
+                
+              
+              
+                n
+                
+                  i
+                
+              
+              
+                
+                  
+                    
+                      n
+                        x e 
+                    
+                  
+                
+                
+                  i
+                
+              
+            
+          
+        
+      
+    
+      displaystyle  beta  n  i    tilde  n    i     frac    tilde  n    i   n  i    tilde  n    i   b    n  i   tilde  n    i    
+  
+  where b is an empirically chosen constant 
+Heuristics used in Monte Carlo tree search often require many parameters  There are automated methods to tune the parameters to maximize the win rate             
+Monte Carlo tree search can be concurrently executed by many threads or processes  There are several fundamentally different methods of its parallel execution             
+
+Leaf parallelization  i e  parallel execution of many playouts from one leaf of the game tree 
+Root parallelization  i e  building independent game trees in parallel and making the move basing on the root level branches of all these trees 
+Tree parallelization  i e  parallel building of the same game tree  protecting data from simultaneous writes either with one  global mutex  with more mutexes  or with non blocking synchronization             
+See also edit 
+AlphaGo  a Go program using Monte Carlo tree search  reinforcement learning and deep learning 
+AlphaGo Zero  an updated Go program using Monte Carlo tree search  reinforcement learning and deep learning 
+AlphaZero  a generalized version of AlphaGo Zero using Monte Carlo tree search  reinforcement learning and deep learning 
+Leela Chess Zero  a free software implementation of AlphaZero s methods to chess  which is currently among the leading chess playing programs 
+References edit 
+
+
+  a b Silver  David  Huang  Aja  Maddison  Chris J   Guez  Arthur  Sifre  Laurent  Driessche  George van den  Schrittwieser  Julian  Antonoglou  Ioannis  Panneershelvam  Veda  Lanctot  Marc  Dieleman  Sander  Grewe  Dominik  Nham  John  Kalchbrenner  Nal  Sutskever  Ilya  Lillicrap  Timothy  Leach  Madeleine  Kavukcuoglu  Koray  Graepel  Thore  Hassabis  Demis     January         Mastering the game of Go with deep neural networks and tree search   Nature                       Bibcode     Natur         S  doi         nature       ISSN                 PMID                S CID             
+
+  a b Silver  David          Mastering Chess and Shogi by Self Play with a General Reinforcement Learning Algorithm   arXiv           v   cs AI  
+
+  Rajkumar  Prahalad   A Survey of Monte Carlo Techniques in Games   PDF   cs umd edu  Archived  PDF  from the original on            
+
+   Monte Carlo Tree Search in TOTAL WAR  ROME II s Campaign AI   AI Game Dev  Archived from the original on    March       Retrieved    February      
+
+  Kemmerling  Marco  L tticke  Daniel  Schmitt  Robert H     January         Beyond games  a systematic review of neural Monte Carlo tree search applications   Applied Intelligence                     arXiv             doi         s                w  ISSN                
+
+  Nicholas  Metropolis  Stanislaw  Ulam          The monte carlo method   Journal of the American Statistical Association                     doi                                 PMID               
+
+  Abramson  Bruce         The Expected Outcome Model of Two Player Games  PDF   Technical report  Department of Computer Science  Columbia University  Retrieved    December      
+
+  Wolfgang Ertel  Johann Schumann  Christian Suttner          Learning Heuristics for a Theorem Prover using Back Propagation    In J  Retti  K  Leidlmair  eds        sterreichische Artificial Intelligence Tagung  Informatik Fachberichte      pp         Springer  Archived from the original on             Retrieved            
+
+  Christian Suttner  Wolfgang Ertel          Automatic Acquisition of Search Guiding Heuristics    CADE      th Int  Conf  on Automated Deduction pp           LNAI      Springer  Archived from the original on             Retrieved            
+
+  Christian Suttner  Wolfgang Ertel          Using Back Propagation Networks for Guiding the Search of a Theorem Prover   Journal of Neural Networks Research  amp  Applications               Archived from the original on             Retrieved            
+
+  a b Br gmann  Bernd         Monte Carlo Go  PDF   Technical report  Department of Physics  Syracuse University 
+
+  a b c Chang  Hyeong Soo  Fu  Michael C   Hu  Jiaqiao  Marcus  Steven I           An Adaptive Sampling Algorithm for Solving Markov Decision Processes   PDF   Operations Research               doi         opre            hdl            Archived from the original  PDF  on             Retrieved            
+
+  a b Hyeong Soo Chang  Michael Fu  Jiaqiao Hu  Steven I  Marcus          Google DeepMind s Alphago  O R  s unheralded role in the path breaking achievement   OR MS Today                
+
+   Sensei s Library  KGSBotRatings   PDF   Archived from the original on             Retrieved            
+
+  R mi Coulom          The Monte Carlo Revolution in Go   PDF   Japanese French Frontiers of Science Symposium 
+
+  R mi Coulom          Efficient Selectivity and Backup Operators in Monte Carlo Tree Search   Computers and Games   th International Conference  CG       Turin  Italy  May              Revised Papers  H  Jaap van den Herik  Paolo Ciancarini  H  H  L  M  Donkers  eds    Springer  pp              CiteSeerX                      ISBN                        
+
+  a b c Kocsis  Levente  Szepesv ri  Csaba          Bandit based Monte Carlo Planning   In F rnkranz  Johannes  Scheffer  Tobias  Spiliopoulou  Myra  eds    Machine Learning  ECML         th European Conference on Machine Learning  Berlin  Germany  September              Proceedings  Lecture Notes in Computer Science  Vol             Springer  pp                CiteSeerX                       doi                      ISBN                  X 
+
+  a b c Sylvain Gelly  Yizao Wang  R mi Munos  Olivier Teytaud  November        Modification of UCT with Patterns in Monte Carlo Go  PDF   Technical report  INRIA 
+
+  Chang Shing Lee  Mei Hui Wang  Guillaume Chaslot  Jean Baptiste Hoock  Arpad Rimmel  Olivier Teytaud  Shang Rong Tsai  Shun Chin Hsu  Tzung Pei Hong          The Computational Intelligence of MoGo Revealed in Taiwan s Computer Go Tournaments   PDF   IEEE Transactions on Computational Intelligence and AI in Games                CiteSeerX                       doi         tciaig               S CID               
+
+  Markus Enzenberger  Martin M ller         Fuego   An Open Source Framework for Board Games and Go Engine Based on Monte Carlo Tree Search  PDF   Technical report  University of Alberta 
+
+   The Shodan Go Bet   Retrieved            
+
+   Research Blog  AlphaGo  Mastering the ancient game of Go with Machine Learning   Google Research Blog     January      
+
+   Google achieves AI  breakthrough  by beating Go champion   BBC News     January      
+
+   Match     Google DeepMind Challenge Match  Lee Sedol vs AlphaGo   Youtube    March      
+
+   Google AlphaGo AI clean sweeps European Go champion   ZDNet     January      
+
+  Broderick Arneson  Ryan Hayward  Philip Henderson  June         MoHex Wins Hex Tournament   PDF   ICGA Journal                   doi         ICG            
+
+  Timo Ewalds         Playing and Solving Havannah  PDF   Master s thesis  University of Alberta 
+
+  Richard J  Lorentz          Amazons Discover Monte Carlo   Computers and Games   th International Conference  CG       Beijing  China  September      October          Proceedings  H  Jaap van den Herik  Xinhe Xu  Zongmin Ma  Mark H  M  Winands  eds    Springer  pp              ISBN                        
+
+  Tom   Kozelek         Methods of MCTS and the game Arimaa  PDF   Master s thesis  Charles University in Prague 
+
+  Xiaocong Gan  Yun Bao  Zhangang Han  December         Real Time Search Method in Nondeterministic Game   Ms  Pac Man   ICGA Journal                   doi         ICG            
+
+  Tom Pepels  Mark H  M  Winands  Marc Lanctot  September         Real Time Monte Carlo Tree Search in Ms Pac Man   IEEE Transactions on Computational Intelligence and AI in Games                  doi         tciaig              
+
+  Mountain  Gwaredd          Tactical Planning and Real time MCTS in Fable Legends   Archived from the original on             Retrieved                     we implemented a simulation based approach  which involved modelling the game play and using MCTS to search the potential plan space  Overall this worked well          
+
+  Michael Buro  Jeffrey Richard Long  Timothy Furtak  Nathan R  Sturtevant          Improving State Evaluation  Inference  and Search in Trick Based Card Games   IJCAI       Proceedings of the   st International Joint Conference on Artificial Intelligence  Pasadena  California  USA  July              Craig Boutilier  ed    pp                  CiteSeerX                      
+
+  Jonathan Rubin  Ian Watson  April         Computer poker  A review   Artificial Intelligence                      doi         j artint             
+
+  C D  Ward  P I  Cowling          Monte Carlo Search Applied to Card Selection in Magic  The Gathering   PDF   CIG    Proceedings of the  th international conference on Computational Intelligence and Games  IEEE Press  Archived from the original  PDF  on            
+
+  Istv n Szita  Guillaume Chaslot  Pieter Spronck          Monte Carlo Tree Search in Settlers of Catan   PDF   In Jaap Van Den Herik  Pieter Spronck  eds    Advances in Computer Games    th International Conference  ACG       Pamplona  Spain  May              Revised Papers  Springer  pp              ISBN                         Archived from the original  PDF  on             Retrieved            
+
+  a b G M J B  Chaslot  M H M  Winands  J W H M  Uiterwijk  H J  van den Herik  B  Bouzy          Progressive Strategies for Monte Carlo Tree Search   PDF   New Mathematics and Natural Computation                  doi         s                 
+
+  Bradberry  Jeff                Introduction to Monte Carlo Tree Search  
+
+  Peres  Yuval  Schramm  Oded  Sheffield  Scott  Wilson  David B           Random Turn Hex and other selection games   arXiv math         
+
+  Auer  Peter  Cesa Bianchi  Nicol   Fischer  Paul          Finite time Analysis of the Multiarmed Bandit Problem   Machine Learning                     doi         a                S CID                
+
+  Browne  Cameron B   Powley  Edward  Whitehouse  Daniel  Lucas  Simon M   Cowling  Peter I   Rohlfshagen  Philipp  Tavener  Stephen  Perez  Diego  Samothrakis  Spyridon  Colton  Simon          A Survey of Monte Carlo Tree Search Methods   IEEE Transactions on Computational Intelligence and AI in Games               doi         tciaig               ISSN              X 
+
+  Alth fer  Ingo          On Board Filling Games with Random Turn Order and Monte Carlo Perfectness   Advances in Computer Games  Lecture Notes in Computer Science  Vol             pp                doi                               ISBN                        
+
+  Ramanujan  Raghuram  Sabharwal  Ashish  Selman  Bart  May         On adversarial search spaces and sampling based planning   ICAPS      Proceedings of the Twentieth International Conference on International Conference on Automated Planning and Scheduling  Icaps             
+
+  Ramanujan  Raghuram  Selman  Bart  March         Trade Offs in Sampling Based Adversarial Planning   Proceedings of the International Conference on Automated Planning and Scheduling                   doi         icaps v  i         S CID               
+
+   Lee Sedol defeats AlphaGo in masterful comeback   Game     Go Game Guru  Archived from the original on             Retrieved            
+
+  Drake  Peter  December         The Last Good Reply Policy for Monte Carlo Go   ICGA Journal                   doi         ICG            
+
+  Seth Pellegrino  Peter Drake          Investigating the Effects of Playout Strength in Monte Carlo Go   Proceedings of the      International Conference on Artificial Intelligence  ICAI       July              Las Vegas Nevada  USA  Hamid R  Arabnia  David de la Fuente  Elena B  Kozerenko  Jos  Angel Olivas  Rui Chang  Peter M  LaMonica  Raymond A  Liuzzi  Ashu M  G  Solo  eds    CSREA Press  pp                  ISBN                        
+
+  a b Gelly  Sylvain  Silver  David          Combining Online and Offline Knowledge in UCT   PDF   Machine Learning  Proceedings of the Twenty Fourth International Conference  ICML        Corvallis  Oregon  USA  June              Zoubin Ghahramani  ed    ACM  pp                ISBN                         Archived from the original  PDF  on            
+
+  David Silver         Reinforcement Learning and Simulation Based Search in Computer Go  PDF   PhD thesis  University of Alberta 
+
+  R mi Coulom   CLOP  Confident Local Optimization for Noisy Black Box Parameter Tuning   ACG       Advances in Computer Games    Conference  Tilburg  the Netherlands  November       
+
+  Guillaume M J B  Chaslot  Mark H M  Winands  Jaap van den Herik          Parallel Monte Carlo Tree Search   PDF   Computers and Games   th International Conference  CG       Beijing  China  September      October          Proceedings  H  Jaap van den Herik  Xinhe Xu  Zongmin Ma  Mark H  M  Winands  eds    Springer  pp              ISBN                          cite book     CS  maint  multiple names  authors list  link 
+
+  Markus Enzenberger  Martin M ller          A Lock free Multithreaded Monte Carlo Tree Search Algorithm   In Jaap Van Den Herik  Pieter Spronck  eds    Advances in Computer Games    th International Conference  ACG       Pamplona  Spain  May              Revised Papers  Springer  pp              CiteSeerX                       ISBN                        
+
+
+Bibliography edit 
+Cameron Browne  Edward Powley  Daniel Whitehouse  Simon Lucas  Peter I  Cowling  Philipp Rohlfshagen  Stephen Tavener  Diego Perez  Spyridon Samothrakis  Simon Colton  March         A Survey of Monte Carlo Tree Search Methods   IEEE Transactions on Computational Intelligence and AI in Games               CiteSeerX                       doi         tciaig               S CID              
+Maciej  wiechowski  Konrad Godlewski  Bartosz Sawicki  Jacek Ma dziuk  July         Monte Carlo Tree Search  a Review of Recent Modifications and Applications   Springer Nature Artificial Intelligence Review                       pages   arXiv             doi         s                y   cite journal     CS  maint  multiple names  authors list  link 
+External links edit 
+Beginner s Guide to Monte Carlo Tree Search
+vteGraph and tree traversal algorithmsSearch
+    pruning
+A 
+IDA 
+LPA 
+SMA 
+Best first search
+Beam search
+Bidirectional search
+Breadth first search
+Lexicographic
+Parallel
+B 
+Depth first search
+Iterative deepening
+D 
+Fringe search
+Jump point search
+Monte Carlo tree search
+SSS 
+Shortest path
+Bellman Ford
+Dijkstra s
+Floyd Warshall
+Johnson s
+Shortest path faster
+Yen s
+Minimum spanning tree
+Bor vka s
+Kruskal s
+Prim s
+Reverse delete
+List of graph search algorithms
+
+
+
+
+
+Retrieved from  https   en wikipedia org w index php title Monte Carlo tree search amp oldid

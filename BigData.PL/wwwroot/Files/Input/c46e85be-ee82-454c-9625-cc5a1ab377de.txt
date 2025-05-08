@@ -1,0 +1,35 @@
+Finnish mathematician and computer scientist
+Seppo Ilmari Linnainmaa  born    September       is a Finnish mathematician and computer scientist known for creating the modern version of backpropagation 
+
+
+Biography edit 
+He was born in Pori             He received his MSc in      and introduced a reverse mode of automatic differentiation in his MSc thesis                        In      he obtained the first doctorate ever awarded in computer science at the University of Helsinki             In       he became Assistant Professor  From      to      he was Visiting Professor at the University of Maryland  USA  From      to      he was Chairman of the Finnish Artificial Intelligence Society  From      to       he was Research Professor at the VTT Technical Research Centre of Finland  He retired in      
+
+Backpropagation edit 
+Explicit  efficient error backpropagation in arbitrary  discrete  possibly sparsely connected  neural networks like networks was first described in Linnainmaa s      master s thesis                        albeit without reference to NNs             when he introduced the reverse mode of automatic differentiation  AD   in order to efficiently compute the derivative of a differentiable composite function that can be represented as a graph  by recursively applying the chain rule to the building blocks of the function                                   Linnainmaa published it first  following Gerardi Ostrowski who had used it in the context of certain process models in chemical engineering some five years earlier  but didn t publish 
+
+Notes edit 
+
+
+  Ellonen  Leena  ed          Suomen professorit            in Finnish   Helsinki  Professoriliitto  p            ISBN                        
+
+  a b c Linnainmaa  Seppo         Algoritmin kumulatiivinen py ristysvirhe yksitt isten py ristysvirheiden Taylor kehitelm n       The representation of the cumulative rounding error of an algorithm as a Taylor expansion of the local rounding errors       PDF   Thesis   in Finnish   pp           
+
+   Seppo Linnainmaa  Mathematician and Computer Scientist    OnThisDay com  Retrieved            
+
+  a b Griewank  Andreas          Who Invented the Reverse Mode of Differentiation    PDF   Documenta Mathematica  Extra Volume ISMP  pp                S CID               
+
+  a b Linnainmaa  Seppo          Taylor expansion of the accumulated rounding error   BIT Numerical Mathematics                   doi         BF          S CID                
+
+  J rgen Schmidhuber          Who Invented Backpropagation 
+
+
+External links edit 
+Seppo Linnainmaa on LinkedIn
+Authority control databases InternationalVIAFNationalGermanyAcademicsMathematics Genealogy ProjectScopuszbMATHMathSciNetOtherIdRef
+
+
+
+
+
+Retrieved from  https   en wikipedia org w index php title Seppo Linnainmaa amp oldid

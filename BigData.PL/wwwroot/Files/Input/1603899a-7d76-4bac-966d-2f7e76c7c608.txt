@@ -1,0 +1,4806 @@
+Numerical calculations carrying along derivatives
+In mathematics and computer algebra  automatic differentiation  auto differentiation  autodiff  or AD   also called algorithmic differentiation  computational differentiation  and differentiation arithmetic                                             is a set of techniques to evaluate the partial derivative of a function specified by a computer program  Automatic differentiation is a subtle and central tool to automatize the simultaneous computation of the numerical values of arbitrarily complex functions and their derivatives with no need for the symbolic representation of the derivative  only the function rule or an algorithm thereof is required                        Auto differentiation is thus neither numeric nor symbolic  nor is it a combination of both  It is also preferable to ordinary numerical methods  In contrast to the more traditional numerical methods based on finite differences  auto differentiation is  in theory  exact  and in comparison to symbolic algorithms  it is computationally inexpensive                                  
+Automatic differentiation exploits the fact that every computer calculation  no matter how complicated  executes a sequence of elementary arithmetic operations  addition  subtraction  multiplication  division  etc   and elementary functions  exp  log  sin  cos  etc    By applying the chain rule repeatedly to these operations  partial derivatives of arbitrary order can be computed automatically  accurately to working precision  and using at most a small constant factor of more arithmetic operations than the original program 
+
+
+Difference from other differentiation methods edit 
+Figure    How automatic differentiation relates to symbolic differentiation
+Automatic differentiation is distinct from symbolic differentiation and numerical differentiation  
+Symbolic differentiation faces the difficulty of converting a computer program into a single mathematical expression and can lead to inefficient code  Numerical differentiation  the method of finite differences  can introduce round off errors in the discretization process and cancellation  Both of these classical methods have problems with calculating higher derivatives  where complexity and errors increase  Finally  both of these classical methods are slow at computing partial derivatives of a function with respect to many inputs  as is needed for gradient based optimization algorithms  Automatic differentiation solves all of these problems 
+
+Applications edit 
+Currently  for its efficiency and accuracy in computing first and higher order derivatives  auto differentiation is a celebrated technique with diverse applications in scientific computing and mathematics  It should therefore come as no surprise that there are numerous computational implementations of auto differentiation  Among these  one mentions INTLAB  Sollya  and InCLosure                                   In practice  there are two types  modes  of algorithmic differentiation  a forward type and a reversed type                        Presently  the two types are highly correlated and complementary and both have a wide variety of applications in  e g   non linear optimization  sensitivity analysis  robotics  machine learning  computer graphics  and computer vision                                                                       Automatic differentiation is particularly important in the field of machine learning  For example  it allows one to implement backpropagation in a neural network without a manually computed derivative 
+
+Forward and reverse accumulation edit 
+Chain rule of partial derivatives of composite functions edit 
+Fundamental to automatic differentiation is the decomposition of differentials provided by the chain rule of partial derivatives of composite functions  For the simple composition
+
+  
+    
+      
+        
+          
+            
+              
+                y
+              
+              
+                
+                 
+                f
+                 
+                g
+                 
+                h
+                 
+                x
+                 
+                 
+                 
+                 
+                f
+                 
+                g
+                 
+                h
+                 
+                
+                  w
+                  
+                     
+                  
+                
+                 
+                 
+                 
+                 
+                f
+                 
+                g
+                 
+                
+                  w
+                  
+                     
+                  
+                
+                 
+                 
+                 
+                f
+                 
+                
+                  w
+                  
+                     
+                  
+                
+                 
+                 
+                
+                  w
+                  
+                     
+                  
+                
+              
+            
+            
+              
+                
+                  w
+                  
+                     
+                  
+                
+              
+              
+                
+                 
+                x
+              
+            
+            
+              
+                
+                  w
+                  
+                     
+                  
+                
+              
+              
+                
+                 
+                h
+                 
+                
+                  w
+                  
+                     
+                  
+                
+                 
+              
+            
+            
+              
+                
+                  w
+                  
+                     
+                  
+                
+              
+              
+                
+                 
+                g
+                 
+                
+                  w
+                  
+                     
+                  
+                
+                 
+              
+            
+            
+              
+                
+                  w
+                  
+                     
+                  
+                
+              
+              
+                
+                 
+                f
+                 
+                
+                  w
+                  
+                     
+                  
+                
+                 
+                 
+                y
+              
+            
+          
+        
+      
+    
+      displaystyle   begin aligned y amp  f g h x    f g h w        f g w       f w      w      w     amp  x  w     amp  h w       w     amp  g w       w     amp  f w      y end aligned   
+  
+
+the chain rule gives
+
+  
+    
+      
+        
+          
+            
+                x     
+              y
+            
+            
+                x     
+              x
+            
+          
+        
+         
+        
+          
+            
+                x     
+              y
+            
+            
+                x     
+              
+                w
+                
+                   
+                
+              
+            
+          
+        
+        
+          
+            
+                x     
+              
+                w
+                
+                   
+                
+              
+            
+            
+                x     
+              
+                w
+                
+                   
+                
+              
+            
+          
+        
+        
+          
+            
+                x     
+              
+                w
+                
+                   
+                
+              
+            
+            
+                x     
+              x
+            
+          
+        
+         
+        
+          
+            
+                x     
+              f
+               
+              
+                w
+                
+                   
+                
+              
+               
+            
+            
+                x     
+              
+                w
+                
+                   
+                
+              
+            
+          
+        
+        
+          
+            
+                x     
+              g
+               
+              
+                w
+                
+                   
+                
+              
+               
+            
+            
+                x     
+              
+                w
+                
+                   
+                
+              
+            
+          
+        
+        
+          
+            
+                x     
+              h
+               
+              
+                w
+                
+                   
+                
+              
+               
+            
+            
+                x     
+              x
+            
+          
+        
+      
+    
+      displaystyle   frac   partial y   partial x     frac   partial y   partial w        frac   partial w       partial w        frac   partial w       partial x     frac   partial f w        partial w        frac   partial g w        partial w        frac   partial h w        partial x   
+  
+
+
+Two types of automatic differentiation edit 
+Usually  two distinct modes of automatic differentiation are presented 
+
+forward accumulation  also called bottom up  forward mode  or tangent mode 
+reverse accumulation  also called top down  reverse mode  or adjoint mode 
+Forward accumulation specifies that one traverses the chain rule from inside to outside  that is  first compute 
+  
+    
+      
+          x     
+        
+          w
+          
+             
+          
+        
+        
+           
+        
+          x     
+        x
+      
+    
+      displaystyle  partial w      partial x 
+  
+ and then 
+  
+    
+      
+          x     
+        
+          w
+          
+             
+          
+        
+        
+           
+        
+          x     
+        
+          w
+          
+             
+          
+        
+      
+    
+      displaystyle  partial w      partial w     
+  
+ and lastly 
+  
+    
+      
+          x     
+        y
+        
+           
+        
+          x     
+        
+          w
+          
+             
+          
+        
+      
+    
+      displaystyle  partial y  partial w     
+  
+   while reverse accumulation traverses from outside to inside  first compute 
+  
+    
+      
+          x     
+        y
+        
+           
+        
+          x     
+        
+          w
+          
+             
+          
+        
+      
+    
+      displaystyle  partial y  partial w     
+  
+ and then 
+  
+    
+      
+          x     
+        
+          w
+          
+             
+          
+        
+        
+           
+        
+          x     
+        
+          w
+          
+             
+          
+        
+      
+    
+      displaystyle  partial w      partial w     
+  
+ and lastly 
+  
+    
+      
+          x     
+        
+          w
+          
+             
+          
+        
+        
+           
+        
+          x     
+        x
+      
+    
+      displaystyle  partial w      partial x 
+  
+   More succinctly 
+
+Forward accumulation computes the recursive relation  
+  
+    
+      
+        
+          
+            
+                x     
+              
+                w
+                
+                  i
+                
+              
+            
+            
+                x     
+              x
+            
+          
+        
+         
+        
+          
+            
+                x     
+              
+                w
+                
+                  i
+                
+              
+            
+            
+                x     
+              
+                w
+                
+                  i
+                    x     
+                   
+                
+              
+            
+          
+        
+        
+          
+            
+                x     
+              
+                w
+                
+                  i
+                    x     
+                   
+                
+              
+            
+            
+                x     
+              x
+            
+          
+        
+      
+    
+      displaystyle   frac   partial w  i    partial x     frac   partial w  i    partial w  i       frac   partial w  i      partial x   
+  
+ with 
+  
+    
+      
+        
+          w
+          
+             
+          
+        
+         
+        y
+      
+    
+      displaystyle w     y 
+  
+  and 
+Reverse accumulation computes the recursive relation  
+  
+    
+      
+        
+          
+            
+                x     
+              y
+            
+            
+                x     
+              
+                w
+                
+                  i
+                
+              
+            
+          
+        
+         
+        
+          
+            
+                x     
+              y
+            
+            
+                x     
+              
+                w
+                
+                  i
+                   
+                   
+                
+              
+            
+          
+        
+        
+          
+            
+                x     
+              
+                w
+                
+                  i
+                   
+                   
+                
+              
+            
+            
+                x     
+              
+                w
+                
+                  i
+                
+              
+            
+          
+        
+      
+    
+      displaystyle   frac   partial y   partial w  i      frac   partial y   partial w  i       frac   partial w  i      partial w  i    
+  
+ with 
+  
+    
+      
+        
+          w
+          
+             
+          
+        
+         
+        x
+      
+    
+      displaystyle w     x 
+  
+ 
+The value of the partial derivative  called the seed  is propagated forward or backward and is initially 
+  
+    
+      
+        
+          
+            
+                x     
+              x
+            
+            
+                x     
+              x
+            
+          
+        
+         
+         
+      
+    
+      displaystyle   frac   partial x   partial x     
+  
+ or 
+  
+    
+      
+        
+          
+            
+                x     
+              y
+            
+            
+                x     
+              y
+            
+          
+        
+         
+         
+      
+    
+      displaystyle   frac   partial y   partial y     
+  
+  Forward accumulation evaluates the function and calculates the derivative with respect to one independent variable in one pass  For each independent variable 
+  
+    
+      
+        
+          x
+          
+             
+          
+        
+         
+        
+          x
+          
+             
+          
+        
+         
+          x     
+         
+        
+          x
+          
+            n
+          
+        
+      
+    
+      displaystyle x     x      dots  x  n  
+  
+ a separate pass is therefore necessary in which the derivative with respect to that independent variable is set to one  
+  
+    
+      
+        
+          
+            
+                x     
+              
+                x
+                
+                   
+                
+              
+            
+            
+                x     
+              
+                x
+                
+                   
+                
+              
+            
+          
+        
+         
+         
+      
+    
+      displaystyle   frac   partial x       partial x         
+  
+  and of all others to zero  
+  
+    
+      
+        
+          
+            
+                x     
+              
+                x
+                
+                   
+                
+              
+            
+            
+                x     
+              
+                x
+                
+                   
+                
+              
+            
+          
+        
+         
+          x  ef 
+         
+        
+          
+            
+                x     
+              
+                x
+                
+                  n
+                
+              
+            
+            
+                x     
+              
+                x
+                
+                   
+                
+              
+            
+          
+        
+         
+         
+      
+    
+      displaystyle   frac   partial x       partial x        dots    frac   partial x  n    partial x         
+  
+   In contrast  reverse accumulation requires the evaluated partial functions for the partial derivatives  Reverse accumulation therefore evaluates the function first and calculates the derivatives with respect to all independent variables in an additional pass 
+Which of these two types should be used depends on the sweep count  The computational complexity of one sweep is proportional to the complexity of the original code 
+
+Forward accumulation is more efficient than reverse accumulation for functions f        Rn   Rm with n   m as only n sweeps are necessary  compared to m sweeps for reverse accumulation 
+Reverse accumulation is more efficient than forward accumulation for functions f        Rn   Rm with n   m as only m sweeps are necessary  compared to n sweeps for forward accumulation 
+Backpropagation of errors in multilayer perceptrons  a technique used in machine learning  is a special case of reverse accumulation            
+Forward accumulation was introduced by R E  Wengert in                   According to Andreas Griewank  reverse accumulation has been suggested since the late     s  but the inventor is unknown              Seppo Linnainmaa published reverse accumulation in                  
+
+Forward accumulation edit 
+Forward accumulation
+In forward accumulation AD  one first fixes the independent variable with respect to which differentiation is performed and computes the derivative of each sub expression recursively  In a pen and paper calculation  this involves repeatedly substituting the derivative of the inner functions in the chain rule 
+
+  
+    
+      
+        
+          
+            
+              
+                
+                  
+                    
+                        x     
+                      y
+                    
+                    
+                        x     
+                      x
+                    
+                  
+                
+              
+              
+                
+                 
+                
+                  
+                    
+                        x     
+                      y
+                    
+                    
+                        x     
+                      
+                        w
+                        
+                          n
+                            x     
+                           
+                        
+                      
+                    
+                  
+                
+                
+                  
+                    
+                        x     
+                      
+                        w
+                        
+                          n
+                            x     
+                           
+                        
+                      
+                    
+                    
+                        x     
+                      x
+                    
+                  
+                
+              
+            
+            
+              
+              
+                
+                 
+                
+                  
+                    
+                        x     
+                      y
+                    
+                    
+                        x     
+                      
+                        w
+                        
+                          n
+                            x     
+                           
+                        
+                      
+                    
+                  
+                
+                
+                   
+                  
+                    
+                      
+                        
+                            x     
+                          
+                            w
+                            
+                              n
+                                x     
+                               
+                            
+                          
+                        
+                        
+                            x     
+                          
+                            w
+                            
+                              n
+                                x     
+                               
+                            
+                          
+                        
+                      
+                    
+                    
+                      
+                        
+                            x     
+                          
+                            w
+                            
+                              n
+                                x     
+                               
+                            
+                          
+                        
+                        
+                            x     
+                          x
+                        
+                      
+                    
+                  
+                   
+                
+              
+            
+            
+              
+              
+                
+                 
+                
+                  
+                    
+                        x     
+                      y
+                    
+                    
+                        x     
+                      
+                        w
+                        
+                          n
+                            x     
+                           
+                        
+                      
+                    
+                  
+                
+                
+                   
+                  
+                    
+                      
+                        
+                            x     
+                          
+                            w
+                            
+                              n
+                                x     
+                               
+                            
+                          
+                        
+                        
+                            x     
+                          
+                            w
+                            
+                              n
+                                x     
+                               
+                            
+                          
+                        
+                      
+                    
+                    
+                       
+                      
+                        
+                          
+                            
+                                x     
+                              
+                                w
+                                
+                                  n
+                                    x     
+                                   
+                                
+                              
+                            
+                            
+                                x     
+                              
+                                w
+                                
+                                  n
+                                    x     
+                                   
+                                
+                              
+                            
+                          
+                        
+                        
+                          
+                            
+                                x     
+                              
+                                w
+                                
+                                  n
+                                    x     
+                                   
+                                
+                              
+                            
+                            
+                                x     
+                              x
+                            
+                          
+                        
+                      
+                       
+                    
+                  
+                   
+                
+              
+            
+            
+              
+              
+                
+                 
+                  x  ef 
+              
+            
+          
+        
+      
+    
+      displaystyle   begin aligned   frac   partial y   partial x   amp    frac   partial y   partial w  n       frac   partial w  n      partial x      pt  amp    frac   partial y   partial w  n      left   frac   partial w  n      partial w  n       frac   partial w  n      partial x   right     pt  amp    frac   partial y   partial w  n      left   frac   partial w  n      partial w  n      left   frac   partial w  n      partial w  n       frac   partial w  n      partial x   right  right     pt  amp   cdots  end aligned   
+  
+
+This can be generalized to multiple variables as a matrix product of Jacobians 
+Compared to reverse accumulation  forward accumulation is natural and easy to implement as the flow of derivative information coincides with the order of evaluation  Each variable 
+  
+    
+      
+        
+          w
+          
+            i
+          
+        
+      
+    
+      displaystyle w  i  
+  
+ is augmented with its derivative 
+  
+    
+      
+        
+          
+            
+              
+                w
+                  x d  
+              
+            
+          
+          
+            i
+          
+        
+      
+    
+      displaystyle   dot  w    i  
+  
+  stored as a numerical value  not a symbolic expression  
+
+  
+    
+      
+        
+          
+            
+              
+                w
+                  x d  
+              
+            
+          
+          
+            i
+          
+        
+         
+        
+          
+            
+                x     
+              
+                w
+                
+                  i
+                
+              
+            
+            
+                x     
+              x
+            
+          
+        
+      
+    
+      displaystyle   dot  w    i    frac   partial w  i    partial x   
+  
+
+as denoted by the dot  The derivatives are then computed in sync with the evaluation steps and combined with other derivatives via the chain rule 
+Using the chain rule  if 
+  
+    
+      
+        
+          w
+          
+            i
+          
+        
+      
+    
+      displaystyle w  i  
+  
+ has predecessors in the computational graph 
+
+
+  
+    
+      
+        
+          
+            
+              
+                w
+                  x d  
+              
+            
+          
+          
+            i
+          
+        
+         
+        
+            x     
+          
+            j
+              x     
+             
+            
+              predecessors of i
+            
+             
+          
+        
+        
+          
+            
+                x     
+              
+                w
+                
+                  i
+                
+              
+            
+            
+                x     
+              
+                w
+                
+                  j
+                
+              
+            
+          
+        
+        
+          
+            
+              
+                w
+                  x d  
+              
+            
+          
+          
+            j
+          
+        
+      
+    
+      displaystyle   dot  w    i   sum   j in     text predecessors of i       frac   partial w  i    partial w  j     dot  w    j  
+  
+
+Figure    Example of forward accumulation with computational graph
+As an example  consider the function 
+
+  
+    
+      
+        
+          
+            
+              
+                y
+              
+              
+                
+                 
+                f
+                 
+                
+                  x
+                  
+                     
+                  
+                
+                 
+                
+                  x
+                  
+                     
+                  
+                
+                 
+              
+            
+            
+              
+              
+                
+                 
+                
+                  x
+                  
+                     
+                  
+                
+                
+                  x
+                  
+                     
+                  
+                
+                 
+                sin
+                  x     
+                
+                  x
+                  
+                     
+                  
+                
+              
+            
+            
+              
+              
+                
+                 
+                
+                  w
+                  
+                     
+                  
+                
+                
+                  w
+                  
+                     
+                  
+                
+                 
+                sin
+                  x     
+                
+                  w
+                  
+                     
+                  
+                
+              
+            
+            
+              
+              
+                
+                 
+                
+                  w
+                  
+                     
+                  
+                
+                 
+                
+                  w
+                  
+                     
+                  
+                
+              
+            
+            
+              
+              
+                
+                 
+                
+                  w
+                  
+                     
+                  
+                
+              
+            
+          
+        
+      
+    
+      displaystyle   begin aligned y amp  f x     x        amp  x    x      sin x       amp  w    w      sin w       amp  w     w       amp  w     end aligned   
+  
+
+For clarity  the individual sub expressions have been labeled with the variables 
+  
+    
+      
+        
+          w
+          
+            i
+          
+        
+      
+    
+      displaystyle w  i  
+  
+ 
+The choice of the independent variable to which differentiation is performed affects the seed values    and     Given interest in the derivative of this function with respect to x   the seed values should be set to 
+
+  
+    
+      
+        
+          
+            
+              
+                
+                  
+                    
+                      
+                        w
+                          x d  
+                      
+                    
+                  
+                  
+                     
+                  
+                
+                 
+                
+                  
+                    
+                        x     
+                      
+                        w
+                        
+                           
+                        
+                      
+                    
+                    
+                        x     
+                      
+                        x
+                        
+                           
+                        
+                      
+                    
+                  
+                
+                 
+                
+                  
+                    
+                        x     
+                      
+                        x
+                        
+                           
+                        
+                      
+                    
+                    
+                        x     
+                      
+                        x
+                        
+                           
+                        
+                      
+                    
+                  
+                
+                 
+                 
+              
+            
+            
+              
+                
+                  
+                    
+                      
+                        w
+                          x d  
+                      
+                    
+                  
+                  
+                     
+                  
+                
+                 
+                
+                  
+                    
+                        x     
+                      
+                        w
+                        
+                           
+                        
+                      
+                    
+                    
+                        x     
+                      
+                        x
+                        
+                           
+                        
+                      
+                    
+                  
+                
+                 
+                
+                  
+                    
+                        x     
+                      
+                        x
+                        
+                           
+                        
+                      
+                    
+                    
+                        x     
+                      
+                        x
+                        
+                           
+                        
+                      
+                    
+                  
+                
+                 
+                 
+              
+            
+          
+        
+      
+    
+      displaystyle   begin aligned   dot  w         frac   partial w       partial x         frac   partial x       partial x            dot  w         frac   partial w       partial x         frac   partial x       partial x         end aligned   
+  
+
+With the seed values set  the values propagate using the chain rule as shown  Figure   shows a pictorial depiction of this process as a computational graph 
+
+
+
+Operations to compute value
+Operations to compute derivative
+
+
+
+  
+    
+      
+        
+          w
+          
+             
+          
+        
+         
+        
+          x
+          
+             
+          
+        
+      
+    
+      displaystyle w     x     
+  
+
+
+  
+    
+      
+        
+          
+            
+              
+                w
+                  x d  
+              
+            
+          
+          
+             
+          
+        
+         
+         
+      
+    
+      displaystyle   dot  w         
+  
+  seed 
+
+
+
+  
+    
+      
+        
+          w
+          
+             
+          
+        
+         
+        
+          x
+          
+             
+          
+        
+      
+    
+      displaystyle w     x     
+  
+
+
+  
+    
+      
+        
+          
+            
+              
+                w
+                  x d  
+              
+            
+          
+          
+             
+          
+        
+         
+         
+      
+    
+      displaystyle   dot  w         
+  
+  seed 
+
+
+
+  
+    
+      
+        
+          w
+          
+             
+          
+        
+         
+        
+          w
+          
+             
+          
+        
+          x  c  
+        
+          w
+          
+             
+          
+        
+      
+    
+      displaystyle w     w     cdot w     
+  
+
+
+  
+    
+      
+        
+          
+            
+              
+                w
+                  x d  
+              
+            
+          
+          
+             
+          
+        
+         
+        
+          w
+          
+             
+          
+        
+          x  c  
+        
+          
+            
+              
+                w
+                  x d  
+              
+            
+          
+          
+             
+          
+        
+         
+        
+          w
+          
+             
+          
+        
+          x  c  
+        
+          
+            
+              
+                w
+                  x d  
+              
+            
+          
+          
+             
+          
+        
+      
+    
+      displaystyle   dot  w       w     cdot   dot  w       w     cdot   dot  w       
+  
+
+
+
+
+  
+    
+      
+        
+          w
+          
+             
+          
+        
+         
+        sin
+          x     
+        
+          w
+          
+             
+          
+        
+      
+    
+      displaystyle w      sin w     
+  
+
+
+  
+    
+      
+        
+          
+            
+              
+                w
+                  x d  
+              
+            
+          
+          
+             
+          
+        
+         
+        cos
+          x     
+        
+          w
+          
+             
+          
+        
+          x  c  
+        
+          
+            
+              
+                w
+                  x d  
+              
+            
+          
+          
+             
+          
+        
+      
+    
+      displaystyle   dot  w        cos w     cdot   dot  w       
+  
+
+
+
+
+  
+    
+      
+        
+          w
+          
+             
+          
+        
+         
+        
+          w
+          
+             
+          
+        
+         
+        
+          w
+          
+             
+          
+        
+      
+    
+      displaystyle w     w     w     
+  
+
+
+  
+    
+      
+        
+          
+            
+              
+                w
+                  x d  
+              
+            
+          
+          
+             
+          
+        
+         
+        
+          
+            
+              
+                w
+                  x d  
+              
+            
+          
+          
+             
+          
+        
+         
+        
+          
+            
+              
+                w
+                  x d  
+              
+            
+          
+          
+             
+          
+        
+      
+    
+      displaystyle   dot  w         dot  w         dot  w       
+  
+
+
+To compute the gradient of this example function  which requires not only 
+  
+    
+      
+        
+          
+            
+              
+                  x     
+                y
+              
+              
+                  x     
+                
+                  x
+                  
+                     
+                  
+                
+              
+            
+          
+        
+      
+    
+      displaystyle   tfrac   partial y   partial x       
+  
+ but also 
+  
+    
+      
+        
+          
+            
+              
+                  x     
+                y
+              
+              
+                  x     
+                
+                  x
+                  
+                     
+                  
+                
+              
+            
+          
+        
+      
+    
+      displaystyle   tfrac   partial y   partial x       
+  
+  an additional sweep is performed over the computational graph using the seed values 
+  
+    
+      
+        
+          
+            
+              
+                w
+                  x d  
+              
+            
+          
+          
+             
+          
+        
+         
+         
+         
+        
+          
+            
+              
+                w
+                  x d  
+              
+            
+          
+          
+             
+          
+        
+         
+         
+      
+    
+      displaystyle   dot  w           dot  w         
+  
+ 
+
+Implementation edit 
+Pseudocode edit 
+Forward accumulation calculates the function and the derivative  but only for one independent variable each  in one pass  The associated method call expects the expression Z to be derived with regard to a variable V  The method returns a pair of the evaluated function and its derivative  The method traverses the expression tree recursively until a variable is reached  If the derivative with respect to this variable is requested  its derivative is      otherwise  Then the partial function as well as the partial derivative are evaluated             
+
+tuple lt float float gt  evaluateAndDerive Expression Z  Variable V   
+   if isVariable Z 
+      if  Z   V  return  valueOf Z      
+      else return  valueOf Z      
+   else if  Z   A   B 
+       a  a         evaluateAndDerive A  V  
+       b  b         evaluateAndDerive B  V  
+      return  a   b  a        b       
+   else if  Z   A   B 
+       a  a         evaluateAndDerive A  V  
+       b  b         evaluateAndDerive B  V  
+      return  a   b  a        b       
+   else if  Z   A   B 
+       a  a         evaluateAndDerive A  V  
+       b  b         evaluateAndDerive B  V  
+      return  a   b  b   a        a   b       
+ 
+
+C   edit 
+ include  lt iostream gt 
+struct ValueAndPartial   float value  partial    
+struct Variable 
+struct Expression  
+   virtual ValueAndPartial evaluateAndDerive Variable  variable      
+  
+struct Variable  public Expression  
+   float value 
+   Variable float value   value value    
+   ValueAndPartial evaluateAndDerive Variable  variable   
+      float partial    this    variable       f      f 
+      return  value  partial  
+    
+  
+struct Plus  public Expression  
+   Expression  a   b 
+   Plus Expression  a  Expression  b   a a   b b    
+   ValueAndPartial evaluateAndDerive Variable  variable   
+      auto  valueA  partialA    a  gt evaluateAndDerive variable  
+      auto  valueB  partialB    b  gt evaluateAndDerive variable  
+      return  valueA   valueB  partialA   partialB  
+    
+  
+struct Multiply  public Expression  
+   Expression  a   b 
+   Multiply Expression  a  Expression  b   a a   b b    
+   ValueAndPartial evaluateAndDerive Variable  variable   
+      auto  valueA  partialA    a  gt evaluateAndDerive variable  
+      auto  valueB  partialB    b  gt evaluateAndDerive variable  
+      return  valueA   valueB  valueB   partialA   valueA   partialB  
+    
+  
+int main     
+      Example  Finding the partials of z   x    x   y    y   y at  x  y          
+   Variable x     y    
+   Plus p   amp x   amp y   Multiply m   amp x   amp p    Multiply m   amp y   amp y   Plus z  amp m    amp m   
+   float xPartial   z evaluateAndDerive  amp x  partial 
+   float yPartial   z evaluateAndDerive  amp y  partial 
+   std  cout  lt  lt   quot  z  x    quot   lt  lt  xPartial  lt  lt   quot    quot 
+              lt  lt   quot  z  y    quot   lt  lt  yPartial  lt  lt  std  endl 
+      Output   z  x       z  y    
+   return   
+ 
+
+Reverse accumulation edit 
+Reverse accumulation
+In reverse accumulation AD  the dependent variable to be differentiated is fixed and the derivative is computed with respect to each sub expression recursively  In a pen and paper calculation  the derivative of the outer functions is repeatedly substituted in the chain rule 
+
+  
+    
+      
+        
+          
+            
+              
+                
+                  
+                    
+                        x     
+                      y
+                    
+                    
+                        x     
+                      x
+                    
+                  
+                
+              
+              
+                
+                 
+                
+                  
+                    
+                        x     
+                      y
+                    
+                    
+                        x     
+                      
+                        w
+                        
+                           
+                        
+                      
+                    
+                  
+                
+                
+                  
+                    
+                        x     
+                      
+                        w
+                        
+                           
+                        
+                      
+                    
+                    
+                        x     
+                      x
+                    
+                  
+                
+              
+            
+            
+              
+              
+                
+                 
+                
+                   
+                  
+                    
+                      
+                        
+                            x     
+                          y
+                        
+                        
+                            x     
+                          
+                            w
+                            
+                               
+                            
+                          
+                        
+                      
+                    
+                    
+                      
+                        
+                            x     
+                          
+                            w
+                            
+                               
+                            
+                          
+                        
+                        
+                            x     
+                          
+                            w
+                            
+                               
+                            
+                          
+                        
+                      
+                    
+                  
+                   
+                
+                
+                  
+                    
+                        x     
+                      
+                        w
+                        
+                           
+                        
+                      
+                    
+                    
+                        x     
+                      x
+                    
+                  
+                
+              
+            
+            
+              
+              
+                
+                 
+                
+                   
+                  
+                    
+                       
+                      
+                        
+                          
+                            
+                                x     
+                              y
+                            
+                            
+                                x     
+                              
+                                w
+                                
+                                   
+                                
+                              
+                            
+                          
+                        
+                        
+                          
+                            
+                                x     
+                              
+                                w
+                                
+                                   
+                                
+                              
+                            
+                            
+                                x     
+                              
+                                w
+                                
+                                   
+                                
+                              
+                            
+                          
+                        
+                      
+                       
+                    
+                    
+                      
+                        
+                            x     
+                          
+                            w
+                            
+                               
+                            
+                          
+                        
+                        
+                            x     
+                          
+                            w
+                            
+                               
+                            
+                          
+                        
+                      
+                    
+                  
+                   
+                
+                
+                  
+                    
+                        x     
+                      
+                        w
+                        
+                           
+                        
+                      
+                    
+                    
+                        x     
+                      x
+                    
+                  
+                
+              
+            
+            
+              
+              
+                
+                 
+                  x  ef 
+              
+            
+          
+        
+      
+    
+      displaystyle   begin aligned   frac   partial y   partial x   amp    frac   partial y   partial w        frac   partial w       partial x     amp   left   frac   partial y   partial w        frac   partial w       partial w       right   frac   partial w       partial x     amp   left  left   frac   partial y   partial w        frac   partial w       partial w       right   frac   partial w       partial w       right   frac   partial w       partial x     amp   cdots  end aligned   
+  
+
+In reverse accumulation  the quantity of interest is the adjoint  denoted with a bar 
+  
+    
+      
+        
+          
+            
+              
+                w
+                  xaf 
+              
+            
+          
+          
+            i
+          
+        
+      
+    
+      displaystyle   bar  w    i  
+  
+  it is a derivative of a chosen dependent variable with respect to a subexpression 
+  
+    
+      
+        
+          w
+          
+            i
+          
+        
+      
+    
+      displaystyle w  i  
+  
+ 
+
+  
+    
+      
+        
+          
+            
+              
+                w
+                  xaf 
+              
+            
+          
+          
+            i
+          
+        
+         
+        
+          
+            
+                x     
+              y
+            
+            
+                x     
+              
+                w
+                
+                  i
+                
+              
+            
+          
+        
+      
+    
+      displaystyle   bar  w    i    frac   partial y   partial w  i    
+  
+
+Using the chain rule  if 
+  
+    
+      
+        
+          w
+          
+            i
+          
+        
+      
+    
+      displaystyle w  i  
+  
+ has successors in the computational graph 
+
+
+  
+    
+      
+        
+          
+            
+              
+                w
+                  xaf 
+              
+            
+          
+          
+            i
+          
+        
+         
+        
+            x     
+          
+            j
+              x     
+             
+            
+              successors of i
+            
+             
+          
+        
+        
+          
+            
+              
+                w
+                  xaf 
+              
+            
+          
+          
+            j
+          
+        
+        
+          
+            
+                x     
+              
+                w
+                
+                  j
+                
+              
+            
+            
+                x     
+              
+                w
+                
+                  i
+                
+              
+            
+          
+        
+      
+    
+      displaystyle   bar  w    i   sum   j in     text successors of i       bar  w    j   frac   partial w  j    partial w  i    
+  
+
+Reverse accumulation traverses the chain rule from outside to inside  or in the case of the computational graph in Figure    from top to bottom  The example function is scalar valued  and thus there is only one seed for the derivative computation  and only one sweep of the computational graph is needed to calculate the  two component  gradient  This is only half the work when compared to forward accumulation  but reverse accumulation requires the storage of the intermediate variables wi as well as the instructions that produced them in a data structure known as a  tape  or a Wengert list              however  Wengert published forward accumulation  not reverse accumulation               which may consume significant memory if the computational graph is large  This can be mitigated to some extent by storing only a subset of the intermediate variables and then reconstructing the necessary work variables by repeating the evaluations  a technique known as rematerialization  Checkpointing is also used to save intermediary states 
+
+Figure    Example of reverse accumulation with computational graph
+The operations to compute the derivative using reverse accumulation are shown in the table below  note the reversed order  
+
+
+Operations to compute derivative
+
+  
+    
+      
+        
+          
+            
+              
+                w
+                  xaf 
+              
+            
+          
+          
+             
+          
+        
+         
+         
+        
+            xa   seed 
+        
+      
+    
+      displaystyle   bar  w          text   seed    
+  
+
+
+  
+    
+      
+        
+          
+            
+              
+                w
+                  xaf 
+              
+            
+          
+          
+             
+          
+        
+         
+        
+          
+            
+              
+                w
+                  xaf 
+              
+            
+          
+          
+             
+          
+        
+          x  c  
+         
+      
+    
+      displaystyle   bar  w         bar  w       cdot   
+  
+
+
+  
+    
+      
+        
+          
+            
+              
+                w
+                  xaf 
+              
+            
+          
+          
+             
+          
+        
+         
+        
+          
+            
+              
+                w
+                  xaf 
+              
+            
+          
+          
+             
+          
+        
+          x  c  
+         
+      
+    
+      displaystyle   bar  w         bar  w       cdot   
+  
+
+
+  
+    
+      
+        
+          
+            
+              
+                w
+                  xaf 
+              
+            
+          
+          
+             
+          
+        
+         
+        
+          
+            
+              
+                w
+                  xaf 
+              
+            
+          
+          
+             
+          
+        
+          x  c  
+        
+          w
+          
+             
+          
+        
+      
+    
+      displaystyle   bar  w         bar  w       cdot w     
+  
+
+
+  
+    
+      
+        
+          
+            
+              
+                w
+                  xaf 
+              
+            
+          
+          
+             
+          
+        
+         
+        
+          
+            
+              
+                w
+                  xaf 
+              
+            
+          
+          
+             
+          
+        
+          x  c  
+        
+          w
+          
+             
+          
+        
+         
+        
+          
+            
+              
+                w
+                  xaf 
+              
+            
+          
+          
+             
+          
+        
+          x  c  
+        cos
+          x     
+        
+          w
+          
+             
+          
+        
+      
+    
+      displaystyle   bar  w         bar  w       cdot w       bar  w       cdot  cos w     
+  
+
+
+The data flow graph of a computation can be manipulated to calculate the gradient of its original calculation  This is done by adding an adjoint node for each primal node  connected by adjoint edges which parallel the primal edges but flow in the opposite direction  The nodes in the adjoint graph represent multiplication by the derivatives of the functions calculated by the nodes in the primal  For instance  addition in the primal causes fanout in the adjoint  fanout in the primal causes addition in the adjoint      a      a unary function y   f x  in the primal causes x      f  x  in the adjoint  etc 
+
+Implementation edit 
+Pseudo code edit 
+Reverse accumulation requires two passes  In the forward pass  the function is evaluated first and the partial results are cached  In the reverse pass  the partial derivatives are calculated and the previously derived value is backpropagated  The corresponding method call expects the expression Z to be derived and seeded with the derived value of the parent expression  For the top expression  Z differentiated with respect to Z  this is    The method traverses the expression tree recursively until a variable is reached and adds the current seed value to the derivative expression                         
+
+void derive Expression Z  float seed   
+   if isVariable Z 
+      partialDerivativeOf Z     seed 
+   else if  Z   A   B 
+      derive A  seed  
+      derive B  seed  
+   else if  Z   A   B 
+      derive A  seed  
+      derive B   seed  
+   else if  Z   A   B 
+      derive A  valueOf B    seed  
+      derive B  valueOf A    seed  
+ 
+
+C   edit 
+ include  lt iostream gt 
+struct Expression  
+   float value 
+   virtual void evaluate       
+   virtual void derive float seed      
+  
+struct Variable  public Expression  
+   float partial 
+   Variable float value   
+      this  gt value   value 
+      partial      f 
+    
+   void evaluate     
+   void derive float seed   
+      partial    seed 
+    
+  
+struct Plus  public Expression  
+   Expression  a   b 
+   Plus Expression  a  Expression  b   a a   b b    
+   void evaluate    
+      a  gt evaluate   
+      b  gt evaluate   
+      value   a  gt value   b  gt value 
+    
+   void derive float seed   
+      a  gt derive seed  
+      b  gt derive seed  
+    
+  
+struct Multiply  public Expression  
+   Expression  a   b 
+   Multiply Expression  a  Expression  b   a a   b b    
+   void evaluate    
+      a  gt evaluate   
+      b  gt evaluate   
+      value   a  gt value   b  gt value 
+    
+   void derive float seed   
+      a  gt derive b  gt value   seed  
+      b  gt derive a  gt value   seed  
+    
+  
+int main     
+      Example  Finding the partials of z   x    x   y    y   y at  x  y          
+   Variable x     y    
+   Plus p   amp x   amp y   Multiply m   amp x   amp p    Multiply m   amp y   amp y   Plus z  amp m    amp m   
+   z evaluate   
+   std  cout  lt  lt   quot z    quot   lt  lt  z value  lt  lt  std  endl 
+      Output  z     
+   z derive    
+   std  cout  lt  lt   quot  z  x    quot   lt  lt  x partial  lt  lt   quot    quot 
+              lt  lt   quot  z  y    quot   lt  lt  y partial  lt  lt  std  endl 
+      Output   z  x       z  y    
+   return   
+ 
+
+Beyond forward and reverse accumulation edit 
+Forward and reverse accumulation are just two  extreme  ways of traversing the chain rule  The problem of computing a full Jacobian of f        Rn   Rm with a minimum number of arithmetic operations is known as the optimal Jacobian accumulation  OJA  problem  which is NP complete              Central to this proof is the idea that algebraic dependencies may exist between the local partials that label the edges of the graph  In particular  two or more edge labels may be recognized as equal  The complexity of the problem is still open if it is assumed that all edge labels are unique and algebraically independent 
+
+Automatic differentiation using dual numbers edit 
+Forward mode automatic differentiation is accomplished by augmenting the algebra of real numbers and obtaining a new arithmetic  An additional component is added to every number to represent the derivative of a function at the number  and all arithmetic operators are extended for the augmented algebra  The augmented algebra is the algebra of dual numbers 
+Replace every number 
+  
+    
+      
+        
+        x
+      
+    
+      displaystyle   x 
+  
+ with the number 
+  
+    
+      
+        x
+         
+        
+          x
+            x     
+        
+          x b  
+      
+    
+      displaystyle x x  varepsilon  
+  
+  where 
+  
+    
+      
+        
+          x
+            x     
+        
+      
+    
+      displaystyle x  
+  
+ is a real number  but 
+  
+    
+      
+          x b  
+      
+    
+      displaystyle  varepsilon  
+  
+ is an abstract number with the property 
+  
+    
+      
+        
+            x b  
+          
+             
+          
+        
+         
+         
+      
+    
+      displaystyle  varepsilon        
+  
+  an infinitesimal  see Smooth infinitesimal analysis   Using only this  regular arithmetic gives
+
+  
+    
+      
+        
+          
+            
+              
+                 
+                x
+                 
+                
+                  x
+                    x     
+                
+                  x b  
+                 
+                 
+                 
+                y
+                 
+                
+                  y
+                    x     
+                
+                  x b  
+                 
+              
+              
+                
+                 
+                x
+                 
+                y
+                 
+                 
+                
+                  x
+                    x     
+                
+                 
+                
+                  y
+                    x     
+                
+                 
+                  x b  
+              
+            
+            
+              
+                 
+                x
+                 
+                
+                  x
+                    x     
+                
+                  x b  
+                 
+                  x     
+                 
+                y
+                 
+                
+                  y
+                    x     
+                
+                  x b  
+                 
+              
+              
+                
+                 
+                x
+                  x     
+                y
+                 
+                 
+                
+                  x
+                    x     
+                
+                  x     
+                
+                  y
+                    x     
+                
+                 
+                  x b  
+              
+            
+            
+              
+                 
+                x
+                 
+                
+                  x
+                    x     
+                
+                  x b  
+                 
+                  x  c  
+                 
+                y
+                 
+                
+                  y
+                    x     
+                
+                  x b  
+                 
+              
+              
+                
+                 
+                x
+                y
+                 
+                x
+                
+                  y
+                    x     
+                
+                  x b  
+                 
+                y
+                
+                  x
+                    x     
+                
+                  x b  
+                 
+                
+                  x
+                    x     
+                
+                
+                  y
+                    x     
+                
+                
+                    x b  
+                  
+                     
+                  
+                
+                 
+                x
+                y
+                 
+                 
+                x
+                
+                  y
+                    x     
+                
+                 
+                y
+                
+                  x
+                    x     
+                
+                 
+                  x b  
+              
+            
+            
+              
+                 
+                x
+                 
+                
+                  x
+                    x     
+                
+                  x b  
+                 
+                
+                   
+                
+                 
+                y
+                 
+                
+                  y
+                    x     
+                
+                  x b  
+                 
+              
+              
+                
+                 
+                 
+                x
+                
+                   
+                
+                y
+                 
+                
+                  x
+                    x     
+                
+                  x b  
+                
+                   
+                
+                y
+                 
+                
+                   
+                
+                 
+                 
+                 
+                
+                  y
+                    x     
+                
+                  x b  
+                
+                   
+                
+                y
+                 
+                 
+                 
+                x
+                
+                   
+                
+                y
+                 
+                
+                  x
+                    x     
+                
+                  x b  
+                
+                   
+                
+                y
+                 
+                  x  c  
+                 
+                 
+                  x     
+                
+                  y
+                    x     
+                
+                  x b  
+                
+                   
+                
+                y
+                 
+                 
+                x
+                
+                   
+                
+                y
+                 
+                 
+                
+                  x
+                    x     
+                
+                
+                   
+                
+                y
+                  x     
+                x
+                
+                  y
+                    x     
+                
+                
+                   
+                
+                
+                  y
+                  
+                     
+                  
+                
+                 
+                  x b  
+              
+            
+          
+        
+      
+    
+      displaystyle   begin aligned  x x  varepsilon    y y  varepsilon   amp  x y  x  y   varepsilon    x x  varepsilon    y y  varepsilon   amp  x y  x  y   varepsilon    x x  varepsilon   cdot  y y  varepsilon   amp  xy xy  varepsilon  yx  varepsilon  x y  varepsilon      xy  xy  yx   varepsilon    x x  varepsilon    y y  varepsilon   amp   x y x  varepsilon  y     y  varepsilon  y   x y x  varepsilon  y  cdot    y  varepsilon  y  x y  x  y xy  y      varepsilon  end aligned   
+  
+
+using 
+  
+    
+      
+         
+         
+         
+        
+          y
+            x     
+        
+          x b  
+        
+           
+        
+        y
+         
+          x  c  
+         
+         
+          x     
+        
+          y
+            x     
+        
+          x b  
+        
+           
+        
+        y
+         
+         
+         
+      
+    
+      displaystyle    y  varepsilon  y  cdot    y  varepsilon  y    
+  
+ 
+Now  polynomials can be calculated in this augmented arithmetic  If 
+  
+    
+      
+        P
+         
+        x
+         
+         
+        
+          p
+          
+             
+          
+        
+         
+        
+          p
+          
+             
+          
+        
+        x
+         
+        
+          p
+          
+             
+          
+        
+        
+          x
+          
+             
+          
+        
+         
+          x  ef 
+         
+        
+          p
+          
+            n
+          
+        
+        
+          x
+          
+            n
+          
+        
+      
+    
+      displaystyle P x  p     p    x p    x      cdots  p  n x  n  
+  
+  then
+
+  
+    
+      
+        
+          
+            
+              
+                P
+                 
+                x
+                 
+                
+                  x
+                    x     
+                
+                  x b  
+                 
+              
+              
+                
+                 
+                
+                  p
+                  
+                     
+                  
+                
+                 
+                
+                  p
+                  
+                     
+                  
+                
+                 
+                x
+                 
+                
+                  x
+                    x     
+                
+                  x b  
+                 
+                 
+                  x  ef 
+                 
+                
+                  p
+                  
+                    n
+                  
+                
+                 
+                x
+                 
+                
+                  x
+                    x     
+                
+                  x b  
+                
+                   
+                  
+                    n
+                  
+                
+              
+            
+            
+              
+              
+                
+                 
+                
+                  p
+                  
+                     
+                  
+                
+                 
+                
+                  p
+                  
+                     
+                  
+                
+                x
+                 
+                  x  ef 
+                 
+                
+                  p
+                  
+                    n
+                  
+                
+                
+                  x
+                  
+                    n
+                  
+                
+                 
+                
+                  p
+                  
+                     
+                  
+                
+                
+                  x
+                    x     
+                
+                  x b  
+                 
+                 
+                
+                  p
+                  
+                     
+                  
+                
+                x
+                
+                  x
+                    x     
+                
+                  x b  
+                 
+                  x  ef 
+                 
+                n
+                
+                  p
+                  
+                    n
+                  
+                
+                
+                  x
+                  
+                    n
+                      x     
+                     
+                  
+                
+                
+                  x
+                    x     
+                
+                  x b  
+              
+            
+            
+              
+              
+                
+                 
+                P
+                 
+                x
+                 
+                 
+                
+                  P
+                  
+                     
+                     
+                     
+                  
+                
+                 
+                x
+                 
+                
+                  x
+                    x     
+                
+                  x b  
+              
+            
+          
+        
+      
+    
+      displaystyle   begin aligned P x x  varepsilon   amp  p     p     x x  varepsilon    cdots  p  n  x x  varepsilon    n    amp  p     p    x  cdots  p  n x  n  p    x  varepsilon   p    xx  varepsilon   cdots  np  n x  n   x  varepsilon    amp  P x  P       x x  varepsilon  end aligned   
+  
+
+where 
+  
+    
+      
+        
+          P
+          
+             
+             
+             
+          
+        
+      
+    
+      displaystyle P       
+  
+ denotes the derivative of 
+  
+    
+      
+        P
+      
+    
+      displaystyle P 
+  
+ with respect to its first argument  and 
+  
+    
+      
+        
+          x
+            x     
+        
+      
+    
+      displaystyle x  
+  
+  called a seed  can be chosen arbitrarily 
+The new arithmetic consists of ordered pairs  elements written 
+  
+    
+      
+          x  e  
+        x
+         
+        
+          x
+            x     
+        
+          x  e  
+      
+    
+      displaystyle  langle x x  rangle  
+  
+  with ordinary arithmetics on the first component  and first order differentiation arithmetic on the second component  as described above  Extending the above results on polynomials to analytic functions gives a list of the basic arithmetic and some standard functions for the new arithmetic 
+
+  
+    
+      
+        
+          
+            
+              
+                
+                    x  e  
+                  
+                    u
+                     
+                    
+                      u
+                        x     
+                    
+                  
+                    x  e  
+                
+                 
+                
+                    x  e  
+                  
+                    v
+                     
+                    
+                      v
+                        x     
+                    
+                  
+                    x  e  
+                
+              
+              
+                
+                 
+                
+                    x  e  
+                  
+                    u
+                     
+                    v
+                     
+                    
+                      u
+                        x     
+                    
+                     
+                    
+                      v
+                        x     
+                    
+                  
+                    x  e  
+                
+              
+            
+            
+              
+                
+                    x  e  
+                  
+                    u
+                     
+                    
+                      u
+                        x     
+                    
+                  
+                    x  e  
+                
+                  x     
+                
+                    x  e  
+                  
+                    v
+                     
+                    
+                      v
+                        x     
+                    
+                  
+                    x  e  
+                
+              
+              
+                
+                 
+                
+                    x  e  
+                  
+                    u
+                      x     
+                    v
+                     
+                    
+                      u
+                        x     
+                    
+                      x     
+                    
+                      v
+                        x     
+                    
+                  
+                    x  e  
+                
+              
+            
+            
+              
+                
+                    x  e  
+                  
+                    u
+                     
+                    
+                      u
+                        x     
+                    
+                  
+                    x  e  
+                
+                  x     
+                
+                    x  e  
+                  
+                    v
+                     
+                    
+                      v
+                        x     
+                    
+                  
+                    x  e  
+                
+              
+              
+                
+                 
+                
+                    x  e  
+                  
+                    u
+                    v
+                     
+                    
+                      u
+                        x     
+                    
+                    v
+                     
+                    u
+                    
+                      v
+                        x     
+                    
+                  
+                    x  e  
+                
+              
+            
+            
+              
+                
+                    x  e  
+                  
+                    u
+                     
+                    
+                      u
+                        x     
+                    
+                  
+                    x  e  
+                
+                
+                   
+                
+                
+                    x  e  
+                  
+                    v
+                     
+                    
+                      v
+                        x     
+                    
+                  
+                    x  e  
+                
+              
+              
+                
+                 
+                
+                    x  e  
+                  
+                    
+                      
+                        u
+                        v
+                      
+                    
+                     
+                    
+                      
+                        
+                          
+                            u
+                              x     
+                          
+                          v
+                            x     
+                          u
+                          
+                            v
+                              x     
+                          
+                        
+                        
+                          v
+                          
+                             
+                          
+                        
+                      
+                    
+                  
+                    x  e  
+                
+                
+                 
+                v
+                  x     
+                 
+                 
+              
+            
+            
+              
+                sin
+                  x     
+                
+                    x  e  
+                  
+                    u
+                     
+                    
+                      u
+                        x     
+                    
+                  
+                    x  e  
+                
+              
+              
+                
+                 
+                
+                    x  e  
+                  
+                    sin
+                      x     
+                     
+                    u
+                     
+                     
+                    
+                      u
+                        x     
+                    
+                    cos
+                      x     
+                     
+                    u
+                     
+                  
+                    x  e  
+                
+              
+            
+            
+              
+                cos
+                  x     
+                
+                    x  e  
+                  
+                    u
+                     
+                    
+                      u
+                        x     
+                    
+                  
+                    x  e  
+                
+              
+              
+                
+                 
+                
+                    x  e  
+                  
+                    cos
+                      x     
+                     
+                    u
+                     
+                     
+                      x     
+                    
+                      u
+                        x     
+                    
+                    sin
+                      x     
+                     
+                    u
+                     
+                  
+                    x  e  
+                
+              
+            
+            
+              
+                exp
+                  x     
+                
+                    x  e  
+                  
+                    u
+                     
+                    
+                      u
+                        x     
+                    
+                  
+                    x  e  
+                
+              
+              
+                
+                 
+                
+                    x  e  
+                  
+                    exp
+                      x     
+                    u
+                     
+                    
+                      u
+                        x     
+                    
+                    exp
+                      x     
+                    u
+                  
+                    x  e  
+                
+              
+            
+            
+              
+                log
+                  x     
+                
+                    x  e  
+                  
+                    u
+                     
+                    
+                      u
+                        x     
+                    
+                  
+                    x  e  
+                
+              
+              
+                
+                 
+                
+                    x  e  
+                  
+                    log
+                      x     
+                     
+                    u
+                     
+                     
+                    
+                      u
+                        x     
+                    
+                    
+                       
+                    
+                    u
+                  
+                    x  e  
+                
+                
+                 
+                u
+                 gt 
+                 
+                 
+              
+            
+            
+              
+                
+                  
+                      x  e  
+                    
+                      u
+                       
+                      
+                        u
+                          x     
+                      
+                    
+                      x  e  
+                  
+                  
+                    k
+                  
+                
+              
+              
+                
+                 
+                
+                    x  e  
+                  
+                    
+                      u
+                      
+                        k
+                      
+                    
+                     
+                    
+                      u
+                        x     
+                    
+                    k
+                    
+                      u
+                      
+                        k
+                          x     
+                         
+                      
+                    
+                  
+                    x  e  
+                
+                
+                 
+                u
+                  x     
+                 
+                 
+              
+            
+            
+              
+                
+                   
+                  
+                      x  e  
+                    
+                      u
+                       
+                      
+                        u
+                          x     
+                      
+                    
+                      x  e  
+                  
+                   
+                
+              
+              
+                
+                 
+                
+                    x  e  
+                  
+                    
+                       
+                      u
+                       
+                    
+                     
+                    
+                      u
+                        x     
+                    
+                    sign
+                      x     
+                    u
+                  
+                    x  e  
+                
+                
+                 
+                u
+                  x     
+                 
+                 
+              
+            
+          
+        
+      
+    
+      displaystyle   begin aligned  left langle u u  right rangle   left langle v v  right rangle  amp   left langle u v u  v  right rangle    left langle u u  right rangle   left langle v v  right rangle  amp   left langle u v u  v  right rangle    left langle u u  right rangle   left langle v v  right rangle  amp   left langle uv u v uv  right rangle    left langle u u  right rangle   left langle v v  right rangle  amp   left langle   frac  u  v     frac  u v uv   v       right rangle  quad  v neq      sin  left langle u u  right rangle  amp   left langle  sin u  u  cos u  right rangle    cos  left langle u u  right rangle  amp   left langle  cos u   u  sin u  right rangle    exp  left langle u u  right rangle  amp   left langle  exp u u  exp u right rangle    log  left langle u u  right rangle  amp   left langle  log u  u  u right rangle  quad  u gt      left langle u u  right rangle   k  amp   left langle u  k  u ku  k    right rangle  quad  u neq      left  left langle u u  right rangle  right  amp   left langle  left u right  u  operatorname  sign  u right rangle  quad  u neq    end aligned   
+  
+
+and in general for the primitive function 
+  
+    
+      
+        g
+      
+    
+      displaystyle g 
+  
+ 
+
+  
+    
+      
+        g
+         
+          x  e  
+        u
+         
+        
+          u
+            x     
+        
+          x  e  
+         
+          x  e  
+        v
+         
+        
+          v
+            x     
+        
+          x  e  
+         
+         
+          x  e  
+        g
+         
+        u
+         
+        v
+         
+         
+        
+          g
+          
+            u
+          
+        
+         
+        u
+         
+        v
+         
+        
+          u
+            x     
+        
+         
+        
+          g
+          
+            v
+          
+        
+         
+        u
+         
+        v
+         
+        
+          v
+            x     
+        
+          x  e  
+      
+    
+      displaystyle g  langle u u  rangle   langle v v  rangle    langle g u v  g  u  u v u  g  v  u v v  rangle  
+  
+
+where 
+  
+    
+      
+        
+          g
+          
+            u
+          
+        
+      
+    
+      displaystyle g  u  
+  
+ and 
+  
+    
+      
+        
+          g
+          
+            v
+          
+        
+      
+    
+      displaystyle g  v  
+  
+ are the derivatives of 
+  
+    
+      
+        g
+      
+    
+      displaystyle g 
+  
+ with respect to its first and second arguments  respectively 
+When a binary basic arithmetic operation is applied to mixed arguments the pair 
+  
+    
+      
+          x  e  
+        u
+         
+        
+          u
+            x     
+        
+          x  e  
+      
+    
+      displaystyle  langle u u  rangle  
+  
+ and the real number 
+  
+    
+      
+        c
+      
+    
+      displaystyle c 
+  
+ the real number is first lifted to 
+  
+    
+      
+          x  e  
+        c
+         
+         
+          x  e  
+      
+    
+      displaystyle  langle c   rangle  
+  
+  The derivative of a function 
+  
+    
+      
+        f
+         
+        
+          R
+        
+          x     
+        
+          R
+        
+      
+    
+      displaystyle f  mathbb  R   to  mathbb  R   
+  
+ at the point 
+  
+    
+      
+        
+          x
+          
+             
+          
+        
+      
+    
+      displaystyle x     
+  
+ is now found by calculating 
+  
+    
+      
+        f
+         
+          x  e  
+        
+          x
+          
+             
+          
+        
+         
+         
+          x  e  
+         
+      
+    
+      displaystyle f  langle x       rangle   
+  
+ using the above arithmetic  which gives 
+  
+    
+      
+          x  e  
+        f
+         
+        
+          x
+          
+             
+          
+        
+         
+         
+        
+          f
+            x     
+        
+         
+        
+          x
+          
+             
+          
+        
+         
+          x  e  
+      
+    
+      displaystyle  langle f x      f  x      rangle  
+  
+ as the result 
+
+Implementation edit 
+An example implementation based on the dual number approach follows 
+
+Pseudo code edit 
+Dual plus Dual A  Dual B   
+  return  
+    realPartOf A    realPartOf B  
+    infinitesimalPartOf A    infinitesimalPartOf B 
+    
+ 
+Dual minus Dual A  Dual B   
+  return  
+    realPartOf A    realPartOf B  
+    infinitesimalPartOf A    infinitesimalPartOf B 
+    
+ 
+Dual multiply Dual A  Dual B   
+  return  
+    realPartOf A    realPartOf B  
+    realPartOf B    infinitesimalPartOf A    realPartOf A    infinitesimalPartOf B 
+    
+ 
+X    x     
+Y    y     
+Epsilon          
+xPartial   infinitesimalPartOf f X   Epsilon  Y   
+yPartial   infinitesimalPartOf f X  Y   Epsilon   
+C   edit 
+ include  lt iostream gt 
+struct Dual  
+   float realPart  infinitesimalPart 
+   Dual float realPart  float infinitesimalPart     realPart realPart   infinitesimalPart infinitesimalPart    
+   Dual operator  Dual other   
+      return Dual 
+         realPart   other realPart 
+         infinitesimalPart   other infinitesimalPart
+        
+    
+   Dual operator  Dual other   
+      return Dual 
+         realPart   other realPart 
+         other realPart   infinitesimalPart   realPart   other infinitesimalPart
+        
+    
+  
+   Example  Finding the partials of z   x    x   y    y   y at  x  y          
+Dual f Dual x  Dual y    return x    x   y    y   y   
+int main     
+   Dual x   Dual    
+   Dual y   Dual    
+   Dual epsilon   Dual       
+   Dual a   f x   epsilon  y  
+   Dual b   f x  y   epsilon  
+   std  cout  lt  lt   quot  z  x    quot   lt  lt  a infinitesimalPart  lt  lt   quot    quot 
+              lt  lt   quot  z  y    quot   lt  lt  b infinitesimalPart  lt  lt  std  endl 
+      Output   z  x       z  y    
+   return   
+ 
+
+Vector arguments and functions edit 
+Multivariate functions can be handled with the same efficiency and mechanisms as univariate functions by adopting a directional derivative operator  That is  if it is sufficient to compute 
+  
+    
+      
+        
+          y
+            x     
+        
+         
+          x     
+        f
+         
+        x
+         
+          x  c  
+        
+          x
+            x     
+        
+      
+    
+      displaystyle y   nabla f x  cdot x  
+  
+  the directional derivative 
+  
+    
+      
+        
+          y
+            x     
+        
+          x     
+        
+          
+            R
+          
+          
+            m
+          
+        
+      
+    
+      displaystyle y  in  mathbb  R    m  
+  
+ of 
+  
+    
+      
+        f
+         
+        
+          
+            R
+          
+          
+            n
+          
+        
+          x     
+        
+          
+            R
+          
+          
+            m
+          
+        
+      
+    
+      displaystyle f  mathbb  R    n  to  mathbb  R    m  
+  
+ at 
+  
+    
+      
+        x
+          x     
+        
+          
+            R
+          
+          
+            n
+          
+        
+      
+    
+      displaystyle x in  mathbb  R    n  
+  
+ in the direction 
+  
+    
+      
+        
+          x
+            x     
+        
+          x     
+        
+          
+            R
+          
+          
+            n
+          
+        
+      
+    
+      displaystyle x  in  mathbb  R    n  
+  
+ may be calculated as 
+  
+    
+      
+         
+          x  e  
+        
+          y
+          
+             
+          
+        
+         
+        
+          y
+          
+             
+          
+            x     
+        
+          x  e  
+         
+          x     
+         
+          x  e  
+        
+          y
+          
+            m
+          
+        
+         
+        
+          y
+          
+            m
+          
+            x     
+        
+          x  e  
+         
+         
+        f
+         
+          x  e  
+        
+          x
+          
+             
+          
+        
+         
+        
+          x
+          
+             
+          
+            x     
+        
+          x  e  
+         
+          x     
+         
+          x  e  
+        
+          x
+          
+            n
+          
+        
+         
+        
+          x
+          
+            n
+          
+            x     
+        
+          x  e  
+         
+      
+    
+      displaystyle   langle y     y      rangle   ldots   langle y  m  y   m  rangle   f  langle x     x      rangle   ldots   langle x  n  x   n  rangle   
+  
+ using the same arithmetic as above  If all the elements of 
+  
+    
+      
+          x     
+        f
+      
+    
+      displaystyle  nabla f 
+  
+ are desired  then 
+  
+    
+      
+        n
+      
+    
+      displaystyle n 
+  
+ function evaluations are required  Note that in many optimization applications  the directional derivative is indeed sufficient 
+
+High order and many variables edit 
+The above arithmetic can be generalized to calculate second order and higher derivatives of multivariate functions  However  the arithmetic rules quickly grow complicated  complexity is quadratic in the highest derivative degree  Instead  truncated Taylor polynomial algebra can be used  The resulting arithmetic  defined on generalized dual numbers  allows efficient computation using functions as if they were a data type  Once the Taylor polynomial of a function is known  the derivatives are easily extracted 
+
+Implementation edit 
+Forward mode AD is implemented by a nonstandard interpretation of the program in which real numbers are replaced by dual numbers  constants are lifted to dual numbers with a zero epsilon coefficient  and the numeric primitives are lifted to operate on dual numbers  This nonstandard interpretation is generally implemented using one of two strategies  source code transformation or operator overloading 
+
+Source code transformation  SCT  edit 
+Figure    Example of how source code transformation could work
+The source code for a function is replaced by an automatically generated source code that includes statements for calculating the derivatives interleaved with the original instructions 
+Source code transformation can be implemented for all programming languages  and it is also easier for the compiler to do compile time optimizations  However  the implementation of the AD tool itself is more difficult and the build system is more complex 
+
+Operator overloading  OO  edit 
+Figure    Example of how operator overloading could work
+Operator overloading is a possibility for source code written in a language supporting it  Objects for real numbers and elementary mathematical operations must be overloaded to cater for the augmented arithmetic depicted above  This requires no change in the form or sequence of operations in the original source code for the function to be differentiated  but often requires changes in basic data types for numbers and vectors to support overloading and often also involves the insertion of special flagging operations  Due to the inherent operator overloading overhead on each loop  this approach usually demonstrates weaker speed performance 
+
+Operator overloading and source code transformation edit 
+Overloaded Operators can be used to extract the valuation graph  followed by automatic generation of the AD version of the primal function at run time  Unlike the classic OO AAD  such AD function does not change from one iteration to the next one  Hence there is any OO or tape interpretation run time overhead per Xi sample 
+With the AD function being generated at runtime  it can be optimised to take into account the current state of the program and precompute certain values  In addition  it can be generated in a way to consistently utilize native CPU vectorization to process      double chunks of user data  AVX  AVX    speed up x  x    With multithreading added into account  such approach can lead to a final acceleration of order      Cores compared to the traditional AAD tools  A reference implementation is available on GitHub             
+
+See also edit 
+Differentiable programming
+Notes edit 
+
+
+  In terms of weight matrices  the adjoint is the transpose  Addition is the covector 
+  
+    
+      
+         
+         
+          x  ef 
+         
+         
+      
+    
+      displaystyle    cdots    
+  
+  since 
+  
+    
+      
+         
+         
+          x  ef 
+         
+         
+        
+           
+          
+            
+              
+                
+                  
+                    
+                      x
+                      
+                         
+                      
+                    
+                  
+                
+                
+                  
+                      x  ee 
+                  
+                
+                
+                  
+                    
+                      x
+                      
+                        n
+                      
+                    
+                  
+                
+              
+            
+          
+           
+        
+         
+        
+          x
+          
+             
+          
+        
+         
+          x  ef 
+         
+        
+          x
+          
+            n
+          
+        
+         
+      
+    
+      displaystyle    cdots    left   begin smallmatrix x       vdots   x  n  end smallmatrix   right  x      cdots  x  n   
+  
+ and fanout is the vector 
+  
+    
+      
+        
+           
+          
+            
+              
+                
+                  
+                     
+                  
+                
+                
+                  
+                      x  ee 
+                  
+                
+                
+                  
+                     
+                  
+                
+              
+            
+          
+           
+        
+         
+      
+    
+      displaystyle  left   begin smallmatrix     vdots     end smallmatrix   right   
+  
+ since 
+  
+    
+      
+        
+           
+          
+            
+              
+                
+                  
+                     
+                  
+                
+                
+                  
+                      x  ee 
+                  
+                
+                
+                  
+                     
+                  
+                
+              
+            
+          
+           
+        
+         
+        x
+         
+         
+        
+           
+          
+            
+              
+                
+                  
+                    x
+                  
+                
+                
+                  
+                      x  ee 
+                  
+                
+                
+                  
+                    x
+                  
+                
+              
+            
+          
+           
+        
+         
+      
+    
+      displaystyle  left   begin smallmatrix     vdots     end smallmatrix   right  x   left   begin smallmatrix x   vdots   x end smallmatrix   right   
+  
+
+
+
+References edit 
+
+
+  Neidinger  Richard D           Introduction to Automatic Differentiation and MATLAB Object Oriented Programming   PDF   SIAM Review                   CiteSeerX                       doi                    S CID               
+
+  a b Baydin  Atilim Gunes  Pearlmutter  Barak  Radul  Alexey Andreyevich  Siskind  Jeffrey          Automatic differentiation in machine learning  a survey   Journal of Machine Learning Research           
+
+  a b c d e Hend Dawood and Nefertiti Megahed         Automatic differentiation of uncertainties  an interval computational differentiation for first and higher derivatives with implementation  PeerJ Computer Science   e     https   doi org         peerj cs      
+
+  a b c d Hend Dawood and Nefertiti Megahed         A Consistent and Categorical Axiomatization of Differentiation Arithmetic Applicable to First and Higher Order Derivatives  Punjab University Journal of Mathematics          pp          doi          zenodo          http   doi org         zenodo         
+
+  a b       This article incorporates text     by Dawood and Megahed available under the CC BY SA     license 
+
+  Hend Dawood and Yasser Dawood         Interval Root Finding and Interval Polynomials  Methods and Applications in Science and Engineering  In S  Chakraverty  editor  Polynomial Paradigms  Trends and Applications in Science and Engineering  chapter     IOP Publishing  ISBN                    doi                           ch    URL https   doi org                          ch   
+
+  Siegfried M  Rump         INTLAB INTerval LABoratory  In T  Csendes  editor  Developments in Reliable Computing  pages         Kluwer Academic Publishers  Dordrecht 
+
+  S  Chevillard  M  Joldes  and C  Lauter  Sollya         An Environment for the Development of Numerical Codes  In K  Fukuda  J  van der Hoeven  M  Joswig  and N  Takayama  editors  Mathematical Software   ICMS       volume      of Lecture Notes in Computer Science  pages        Heidelberg  Germany  Springer 
+
+  Hend Dawood         InCLosure  Interval enCLosure  A Language and Environment for Reliable Scientific Computing  Computer Software  Version      Department of Mathematics  Faculty of Science  Cairo University  Giza  Egypt  September       url  https   doi org         zenodo         
+
+  Christian P  Fries         Stochastic Automatic Differentiation  Automatic Differentiation for Monte Carlo Simulations  Quantitative Finance                   doi                                 url  https   doi org                               
+
+  Hend Dawood and Yasser Dawood         Universal Intervals  Towards a Dependency Aware Interval Algebra  In S  Chakraverty  editor  Mathematical Methods in Interdisciplinary Sciences  chapter     pages          John Wiley  amp  Sons  Hoboken  New Jersey  ISBN                    doi                        ch    url  https   doi org                       ch   
+
+  Hend Dawood         Interval Mathematics as a Potential Weapon against Uncertainty  In S  Chakraverty  editor  Mathematics of Uncertainty Modeling in the Analysis of Engineering and Science Problems  chapter    pages       IGI Global  Hershey  PA  ISBN                   
+
+  a b R E  Wengert          A simple automatic derivative evaluation program   Comm  ACM                  doi                        S CID               
+
+  Griewank  Andreas          Who invented the reverse mode of differentiation    PDF   Optimization Stories  Documenta Mathematica Series  Vol          pp                doi         dms       ISBN                        
+
+  Linnainmaa  Seppo          Taylor Expansion of the Accumulated Rounding Error   BIT Numerical Mathematics                   doi         BF          S CID                
+
+  Maximilian E  Sch le  Maximilian Springer  Alfons Kemper  Thomas Neumann          LLVM code optimisation for automatic differentiation   Proceedings of the Sixth Workshop on Data Management for End To End Machine Learning  pp            doi                          ISBN                     S CID                  cite book     CS  maint  multiple names  authors list  link 
+
+  Bartholomew Biggs  Michael  Brown  Steven  Christianson  Bruce  Dixon  Laurence          Automatic differentiation of algorithms   Journal of Computational and Applied Mathematics                      Bibcode     JCoAM         B  doi         S                      hdl           
+
+  Maximilian E  Sch le  Harald Lang  Maximilian Springer  Alfons Kemper  Thomas Neumann  Stephan G nnemann          In Database Machine Learning with SQL on GPUs     rd International Conference on Scientific and Statistical Database Management  pp              doi                          ISBN                     S CID                  cite book     CS  maint  multiple names  authors list  link 
+
+  Maximilian E  Sch le  Harald Lang  Maximilian Springer  Alfons Kemper  Thomas Neumann  Stephan G nnemann          Recursive SQL and GPU support for in database machine learning   Distributed and Parallel Databases                     doi         s                   S CID                  cite journal     CS  maint  multiple names  authors list  link 
+
+  Naumann  Uwe  April         Optimal Jacobian accumulation is NP complete   Mathematical Programming                    CiteSeerX                       doi         s               z  S CID               
+
+   AADC Prototype Library   June                  via GitHub 
+
+
+Further reading edit 
+Rall  Louis B          Automatic Differentiation  Techniques and Applications  Lecture Notes in Computer Science  Vol            Springer  ISBN                        
+Griewank  Andreas  Walther  Andrea         Evaluating Derivatives  Principles and Techniques of Algorithmic Differentiation  Other Titles in Applied Mathematics  Vol             nd      ed    SIAM  doi                          ISBN                        
+Neidinger  Richard          Introduction to Automatic Differentiation and MATLAB Object Oriented Programming   PDF   SIAM Review                   CiteSeerX                       doi                    S CID                Retrieved            
+Naumann  Uwe         The Art of Differentiating Computer Programs  Software Environments tools  SIAM  ISBN                        
+Henrard  Marc         Algorithmic Differentiation in Finance Explained  Financial Engineering Explained  Palgrave Macmillan  ISBN                        
+External links edit 
+www autodiff org  An  entry site to everything you want to know about automatic differentiation 
+Automatic Differentiation of Parallel OpenMP Programs
+Automatic Differentiation  C   Templates and Photogrammetry
+Automatic Differentiation  Operator Overloading Approach
+Compute analytic derivatives of any Fortran    Fortran    or C program through a web based interface Automatic Differentiation of Fortran programs
+Description and example code for forward Automatic Differentiation in Scala Archived            at the Wayback Machine
+finmath lib stochastic automatic differentiation  Automatic differentiation for random variables  Java implementation of the stochastic automatic differentiation  
+Adjoint Algorithmic Differentiation  Calibration and Implicit Function Theorem
+C   Template based automatic differentiation article and implementation
+Tangent Source to Source Debuggable Derivatives
+Exact First  and Second Order Greeks by Algorithmic Differentiation
+Adjoint Algorithmic Differentiation of a GPU Accelerated Application
+Adjoint Methods in Computational Finance Software Tool Support for Algorithmic Differentiationop
+More than a Thousand Fold Speed Up for xVA Pricing Calculations with Intel Xeon Scalable Processors
+Sparse truncated Taylor series implementation with VBIC   example for higher order derivatives
+vteDifferentiable computingGeneral
+Differentiable programming
+Information geometry
+Statistical manifold
+Automatic differentiation
+Neuromorphic computing
+Pattern recognition
+Ricci calculus
+Computational learning theory
+Inductive bias
+Hardware
+IPU
+TPU
+VPU
+Memristor
+SpiNNaker
+Software libraries
+TensorFlow
+PyTorch
+Keras
+scikit learn
+Theano
+JAX
+Flux jl
+MindSpore
+
+ Portals
+Computer programming
+Technology
+
+Authority control databases  National United StatesIsrael
+
+
+
+
+
+Retrieved from  https   en wikipedia org w index php title Automatic differentiation amp oldid

@@ -1,0 +1,3446 @@
+Mathematical decision rule
+This article includes a list of general references  but it lacks sufficient corresponding inline citations  Please help to improve this article by introducing more precise citations    November        Learn how and when to remove this message 
+Part of a series onBayesian statistics
+Posterior   Likelihood   Prior   Evidence
+
+Background
+Bayesian inference
+Bayesian probability
+Bayes  theorem
+Bernstein von Mises theorem
+Coherence
+Cox s theorem
+Cromwell s rule
+Likelihood principle
+Principle of indifference
+Principle of maximum entropy
+
+Model building
+Conjugate prior
+Linear regression
+Empirical Bayes
+Hierarchical model
+
+Posterior approximation
+Markov chain Monte Carlo
+Laplace s approximation
+Integrated nested Laplace approximations
+Variational inference
+Approximate Bayesian computation
+
+Estimators
+Bayesian estimator
+Credible interval
+Maximum a posteriori estimation
+
+Evidence approximation
+Evidence lower bound
+Nested sampling
+
+Model evaluation
+Bayes factor  Schwarz criterion 
+Model averaging
+Posterior predictive
+
+ Mathematics     portalvte
+In estimation theory and decision theory  a Bayes estimator or a Bayes action is an estimator or decision rule that minimizes the posterior expected value of a loss function  i e   the posterior expected loss   Equivalently  it maximizes the posterior expectation of a utility function  An alternative way of formulating an estimator within Bayesian statistics is maximum a posteriori estimation 
+
+
+Definition edit 
+Suppose an unknown parameter 
+  
+    
+      
+          x b  
+      
+    
+      displaystyle  theta  
+  
+ is known to have a prior distribution 
+  
+    
+      
+          x c  
+      
+    
+      displaystyle  pi  
+  
+  Let 
+  
+    
+      
+        
+          
+            
+                x b  
+                x e 
+            
+          
+        
+         
+        
+          
+            
+                x b  
+                x e 
+            
+          
+        
+         
+        x
+         
+      
+    
+      displaystyle   widehat   theta      widehat   theta    x  
+  
+ be an estimator of 
+  
+    
+      
+          x b  
+      
+    
+      displaystyle  theta  
+  
+   based on some measurements x   and let 
+  
+    
+      
+        L
+         
+          x b  
+         
+        
+          
+            
+                x b  
+                x e 
+            
+          
+        
+         
+      
+    
+      displaystyle L  theta    widehat   theta     
+  
+ be a loss function  such as squared error  The Bayes risk of 
+  
+    
+      
+        
+          
+            
+                x b  
+                x e 
+            
+          
+        
+      
+    
+      displaystyle   widehat   theta    
+  
+ is defined as 
+  
+    
+      
+        
+          E
+          
+              x c  
+          
+        
+         
+        L
+         
+          x b  
+         
+        
+          
+            
+                x b  
+                x e 
+            
+          
+        
+         
+         
+      
+    
+      displaystyle E   pi   L  theta    widehat   theta      
+  
+  where the expectation is taken over the probability distribution of 
+  
+    
+      
+          x b  
+      
+    
+      displaystyle  theta  
+  
+  this defines the risk function as a function of 
+  
+    
+      
+        
+          
+            
+                x b  
+                x e 
+            
+          
+        
+      
+    
+      displaystyle   widehat   theta    
+  
+  An estimator 
+  
+    
+      
+        
+          
+            
+                x b  
+                x e 
+            
+          
+        
+      
+    
+      displaystyle   widehat   theta    
+  
+ is said to be a Bayes estimator if it minimizes the Bayes risk among all estimators  Equivalently  the estimator which minimizes the posterior expected loss 
+  
+    
+      
+        E
+         
+        L
+         
+          x b  
+         
+        
+          
+            
+                x b  
+                x e 
+            
+          
+        
+         
+        
+           
+        
+        x
+         
+      
+    
+      displaystyle E L  theta    widehat   theta     x  
+  
+ for each 
+  
+    
+      
+        x
+      
+    
+      displaystyle x 
+  
+  also minimizes the Bayes risk and therefore is a Bayes estimator            
+If the prior is improper then an estimator which minimizes the posterior expected loss for each 
+  
+    
+      
+        x
+      
+    
+      displaystyle x 
+  
+ is called a generalized Bayes estimator            
+
+Examples edit 
+Minimum mean square error estimation edit 
+Main article  Minimum mean square error
+The most common risk function used for Bayesian estimation is the mean square error  MSE   also called squared error risk  The MSE is defined by
+
+
+  
+    
+      
+        
+          M
+          S
+          E
+        
+         
+        E
+        
+           
+          
+             
+            
+              
+                
+                    x b  
+                    x e 
+                
+              
+            
+             
+            x
+             
+              x     
+              x b  
+            
+               
+              
+                 
+              
+            
+          
+           
+        
+         
+      
+    
+      displaystyle  mathrm  MSE   E left    widehat   theta    x   theta       right   
+  
+
+where the expectation is taken over the joint distribution of 
+  
+    
+      
+          x b  
+      
+    
+      displaystyle  theta  
+  
+ and 
+  
+    
+      
+        x
+      
+    
+      displaystyle x 
+  
+ 
+
+Posterior mean edit 
+Using the MSE as risk  the Bayes estimate of the unknown parameter is simply the mean of the posterior distribution            
+
+
+  
+    
+      
+        
+          
+            
+                x b  
+                x e 
+            
+          
+        
+         
+        x
+         
+         
+        E
+         
+          x b  
+        
+           
+        
+        x
+         
+         
+          x   b 
+          x b  
+        
+        p
+         
+          x b  
+        
+           
+        
+        x
+         
+        
+        d
+          x b  
+         
+      
+    
+      displaystyle   widehat   theta    x  E  theta  x   int  theta   p  theta  x   d theta   
+  
+
+This is known as the minimum mean square error  MMSE  estimator 
+
+Bayes estimators for conjugate priors edit 
+Main article  Conjugate prior
+If there is no inherent reason to prefer one prior probability distribution over another  a conjugate prior is sometimes chosen for simplicity  A conjugate prior is defined as a prior distribution belonging to some parametric family  for which the resulting posterior distribution also belongs to the same family  This is an important property  since the Bayes estimator  as well as its statistical properties  variance  confidence interval  etc    can all be derived from the posterior distribution 
+Conjugate priors are especially useful for sequential estimation  where the posterior of the current measurement is used as the prior in the next measurement  In sequential estimation  unless a conjugate prior is used  the posterior distribution typically becomes more complex with each added measurement  and the Bayes estimator cannot usually be calculated without resorting to numerical methods 
+Following are some examples of conjugate priors 
+
+If 
+  
+    
+      
+        x
+        
+           
+        
+          x b  
+      
+    
+      displaystyle x  theta  
+  
+ is Normal  
+  
+    
+      
+        x
+        
+           
+        
+          x b  
+          x   c 
+        N
+         
+          x b  
+         
+        
+            x c  
+          
+             
+          
+        
+         
+      
+    
+      displaystyle x  theta  sim N  theta   sigma       
+  
+  and the prior is normal  
+  
+    
+      
+          x b  
+          x   c 
+        N
+         
+          x bc 
+         
+        
+            x c  
+          
+             
+          
+        
+         
+      
+    
+      displaystyle  theta  sim N  mu   tau       
+  
+  then the posterior is also Normal and the Bayes estimator under MSE is given by
+
+  
+    
+      
+        
+          
+            
+                x b  
+                x e 
+            
+          
+        
+         
+        x
+         
+         
+        
+          
+            
+                x c  
+              
+                 
+              
+            
+            
+              
+                  x c  
+                
+                   
+                
+              
+               
+              
+                  x c  
+                
+                   
+                
+              
+            
+          
+        
+          x bc 
+         
+        
+          
+            
+                x c  
+              
+                 
+              
+            
+            
+              
+                  x c  
+                
+                   
+                
+              
+               
+              
+                  x c  
+                
+                   
+                
+              
+            
+          
+        
+        x
+         
+      
+    
+      displaystyle   widehat   theta    x    frac   sigma        sigma       tau        mu    frac   tau        sigma       tau       x  
+  
+
+If 
+  
+    
+      
+        
+          x
+          
+             
+          
+        
+         
+         
+         
+         
+         
+        
+          x
+          
+            n
+          
+        
+      
+    
+      displaystyle x         x  n  
+  
+ are iid Poisson random variables 
+  
+    
+      
+        
+          x
+          
+            i
+          
+        
+        
+           
+        
+          x b  
+          x   c 
+        P
+         
+          x b  
+         
+      
+    
+      displaystyle x  i   theta  sim P  theta   
+  
+  and if the prior is Gamma distributed 
+  
+    
+      
+          x b  
+          x   c 
+        G
+         
+        a
+         
+        b
+         
+      
+    
+      displaystyle  theta  sim G a b  
+  
+  then the posterior is also Gamma distributed  and the Bayes estimator under MSE is given by
+
+  
+    
+      
+        
+          
+            
+                x b  
+                x e 
+            
+          
+        
+         
+        X
+         
+         
+        
+          
+            
+              n
+              
+                
+                  X
+                    xaf 
+                
+              
+               
+              a
+            
+            
+              n
+               
+              b
+            
+          
+        
+         
+      
+    
+      displaystyle   widehat   theta    X    frac  n  overline  X   a  n b    
+  
+
+If 
+  
+    
+      
+        
+          x
+          
+             
+          
+        
+         
+         
+         
+         
+         
+        
+          x
+          
+            n
+          
+        
+      
+    
+      displaystyle x         x  n  
+  
+ are iid uniformly distributed 
+  
+    
+      
+        
+          x
+          
+            i
+          
+        
+        
+           
+        
+          x b  
+          x   c 
+        U
+         
+         
+         
+          x b  
+         
+      
+    
+      displaystyle x  i   theta  sim U    theta   
+  
+  and if the prior is Pareto distributed 
+  
+    
+      
+          x b  
+          x   c 
+        P
+        a
+         
+        
+            x b  
+          
+             
+          
+        
+         
+        a
+         
+      
+    
+      displaystyle  theta  sim Pa  theta      a  
+  
+  then the posterior is also Pareto distributed  and the Bayes estimator under MSE is given by
+
+  
+    
+      
+        
+          
+            
+                x b  
+                x e 
+            
+          
+        
+         
+        X
+         
+         
+        
+          
+            
+               
+              a
+               
+              n
+               
+              max
+              
+                 
+                
+                    x b  
+                  
+                     
+                  
+                
+                 
+                
+                  x
+                  
+                     
+                  
+                
+                 
+                 
+                 
+                 
+                 
+                
+                  x
+                  
+                    n
+                  
+                
+                 
+              
+            
+            
+              a
+               
+              n
+                x     
+               
+            
+          
+        
+         
+      
+    
+      displaystyle   widehat   theta    X    frac   a n  max    theta      x         x  n     a n      
+  
+
+Alternative risk functions edit 
+Risk functions are chosen depending on how one measures the distance between the estimate and the unknown parameter  The MSE is the most common risk function in use  primarily due to its simplicity  However  alternative risk functions are also occasionally used  The following are several examples of such alternatives  We denote the posterior generalized distribution function by 
+  
+    
+      
+        F
+      
+    
+      displaystyle F 
+  
+ 
+
+Posterior median and other quantiles edit 
+Main article  Bias of an estimator        Median unbiased estimators
+A  linear  loss function  with 
+  
+    
+      
+        a
+         gt 
+         
+      
+    
+      displaystyle a gt   
+  
+  which yields the posterior median as the Bayes  estimate 
+
+  
+    
+      
+        L
+         
+          x b  
+         
+        
+          
+            
+                x b  
+                x e 
+            
+          
+        
+         
+         
+        a
+        
+           
+        
+          x b  
+          x     
+        
+          
+            
+                x b  
+                x e 
+            
+          
+        
+        
+           
+        
+      
+    
+      displaystyle L  theta    widehat   theta     a  theta    widehat   theta     
+  
+
+
+  
+    
+      
+        F
+         
+        
+          
+            
+                x b  
+                x e 
+            
+          
+        
+         
+        x
+         
+        
+           
+        
+        X
+         
+         
+        
+          
+            
+               
+               
+            
+          
+        
+         
+      
+    
+      displaystyle F   widehat   theta    x  X    tfrac          
+  
+
+Another  linear  loss function  which assigns different  weights  
+  
+    
+      
+        a
+         
+        b
+         gt 
+         
+      
+    
+      displaystyle a b gt   
+  
+ to over or sub estimation  It yields a quantile from the posterior distribution  and is a generalization of the previous loss function 
+
+  
+    
+      
+        L
+         
+          x b  
+         
+        
+          
+            
+                x b  
+                x e 
+            
+          
+        
+         
+         
+        
+          
+             
+            
+              
+                
+                  a
+                  
+                     
+                  
+                    x b  
+                    x     
+                  
+                    
+                      
+                          x b  
+                          x e 
+                      
+                    
+                  
+                  
+                     
+                  
+                   
+                
+                
+                  
+                    
+                      for  xa  
+                    
+                  
+                    x b  
+                    x     
+                  
+                    
+                      
+                          x b  
+                          x e 
+                      
+                    
+                  
+                    x     
+                   
+                
+              
+              
+                
+                  b
+                  
+                     
+                  
+                    x b  
+                    x     
+                  
+                    
+                      
+                          x b  
+                          x e 
+                      
+                    
+                  
+                  
+                     
+                  
+                   
+                
+                
+                  
+                    
+                      for  xa  
+                    
+                  
+                    x b  
+                    x     
+                  
+                    
+                      
+                          x b  
+                          x e 
+                      
+                    
+                  
+                   lt 
+                   
+                
+              
+            
+            
+          
+        
+      
+    
+      displaystyle L  theta    widehat   theta       begin cases a  theta    widehat   theta      amp   mbox for    theta    widehat   theta    geq    b  theta    widehat   theta      amp   mbox for    theta    widehat   theta    lt   end cases   
+  
+
+
+  
+    
+      
+        F
+         
+        
+          
+            
+                x b  
+                x e 
+            
+          
+        
+         
+        x
+         
+        
+           
+        
+        X
+         
+         
+        
+          
+            a
+            
+              a
+               
+              b
+            
+          
+        
+         
+      
+    
+      displaystyle F   widehat   theta    x  X    frac  a  a b    
+  
+
+Posterior mode edit 
+The following loss function is trickier  it yields either the posterior mode  or a point close to it depending on the curvature and properties of the posterior distribution  Small values of the parameter 
+  
+    
+      
+        K
+         gt 
+         
+      
+    
+      displaystyle K gt   
+  
+ are recommended  in order to use the mode as an approximation  
+  
+    
+      
+        L
+         gt 
+         
+      
+    
+      displaystyle L gt   
+  
+  
+
+  
+    
+      
+        L
+         
+          x b  
+         
+        
+          
+            
+                x b  
+                x e 
+            
+          
+        
+         
+         
+        
+          
+             
+            
+              
+                
+                   
+                   
+                
+                
+                  
+                    
+                      for  xa  
+                    
+                  
+                  
+                     
+                  
+                    x b  
+                    x     
+                  
+                    
+                      
+                          x b  
+                          x e 
+                      
+                    
+                  
+                  
+                     
+                  
+                   lt 
+                  K
+                
+              
+              
+                
+                  L
+                   
+                
+                
+                  
+                    
+                      for  xa  
+                    
+                  
+                  
+                     
+                  
+                    x b  
+                    x     
+                  
+                    
+                      
+                          x b  
+                          x e 
+                      
+                    
+                  
+                  
+                     
+                  
+                    x     
+                  K
+                   
+                
+              
+            
+            
+          
+        
+      
+    
+      displaystyle L  theta    widehat   theta       begin cases    amp   mbox for     theta    widehat   theta     lt K  L  amp   mbox for     theta    widehat   theta     geq K  end cases   
+  
+
+Other loss functions can be conceived  although the mean squared error is the most widely used and validated  Other loss functions are used in statistics  particularly in robust statistics 
+
+Generalized Bayes estimators edit 
+See also  Admissible decision rule        Bayes rules and generalized Bayes rules
+The prior distribution 
+  
+    
+      
+        p
+      
+    
+      displaystyle p 
+  
+ has thus far been assumed to be a true probability distribution  in that
+
+
+  
+    
+      
+          x   b 
+        p
+         
+          x b  
+         
+        d
+          x b  
+         
+          
+      
+    
+      displaystyle  int p  theta  d theta     
+  
+
+However  occasionally this can be a restrictive requirement  For example  there is no distribution  covering the set  R  of all real numbers  for which every real number is equally likely  Yet  in some sense  such a  distribution  seems like a natural choice for a non informative prior  i e   a prior distribution which does not imply a preference for any particular value of the unknown parameter  One can still define a function 
+  
+    
+      
+        p
+         
+          x b  
+         
+         
+         
+      
+    
+      displaystyle p  theta     
+  
+  but this would not be a proper probability distribution since it has infinite mass 
+
+
+  
+    
+      
+          x   b 
+        
+          p
+           
+            x b  
+           
+          d
+            x b  
+        
+         
+          x   e 
+         
+      
+    
+      displaystyle  int  p  theta  d theta    infty   
+  
+
+Such measures 
+  
+    
+      
+        p
+         
+          x b  
+         
+      
+    
+      displaystyle p  theta   
+  
+  which are not probability distributions  are referred to as improper priors 
+The use of an improper prior means that the Bayes risk is undefined  since the prior is not a probability distribution and we cannot take an expectation under it   As a consequence  it is no longer meaningful to speak of a Bayes estimator that minimizes the Bayes risk  Nevertheless  in many cases  one can define the posterior distribution
+
+
+  
+    
+      
+        p
+         
+          x b  
+        
+           
+        
+        x
+         
+         
+        
+          
+            
+              p
+               
+              x
+              
+                 
+              
+                x b  
+               
+              p
+               
+                x b  
+               
+            
+            
+                x   b 
+              p
+               
+              x
+              
+                 
+              
+                x b  
+               
+              p
+               
+                x b  
+               
+              d
+                x b  
+            
+          
+        
+         
+      
+    
+      displaystyle p  theta  x    frac  p x  theta  p  theta     int p x  theta  p  theta  d theta     
+  
+
+This is a definition  and not an application of Bayes  theorem  since Bayes  theorem can only be applied when all distributions are proper  However  it is not uncommon for the resulting  posterior  to be a valid probability distribution  In this case  the posterior expected loss
+
+
+  
+    
+      
+          x   b 
+        
+          L
+           
+            x b  
+           
+          a
+           
+          p
+           
+            x b  
+          
+             
+          
+          x
+           
+          d
+            x b  
+        
+      
+    
+      displaystyle  int  L  theta  a p  theta  x d theta   
+  
+
+is typically well defined and finite  Recall that  for a proper prior  the Bayes estimator minimizes the posterior expected loss  When the prior is improper  an estimator which minimizes the posterior expected loss is referred to as a generalized Bayes estimator            
+
+Example edit 
+A typical example is estimation of a location parameter with a loss function of the type 
+  
+    
+      
+        L
+         
+        a
+          x     
+          x b  
+         
+      
+    
+      displaystyle L a  theta   
+  
+  Here 
+  
+    
+      
+          x b  
+      
+    
+      displaystyle  theta  
+  
+ is a location parameter  i e   
+  
+    
+      
+        p
+         
+        x
+        
+           
+        
+          x b  
+         
+         
+        f
+         
+        x
+          x     
+          x b  
+         
+      
+    
+      displaystyle p x  theta   f x  theta   
+  
+ 
+It is common to use the improper prior 
+  
+    
+      
+        p
+         
+          x b  
+         
+         
+         
+      
+    
+      displaystyle p  theta     
+  
+ in this case  especially when no other more subjective information is available  This yields
+
+
+  
+    
+      
+        p
+         
+          x b  
+        
+           
+        
+        x
+         
+         
+        
+          
+            
+              p
+               
+              x
+              
+                 
+              
+                x b  
+               
+              p
+               
+                x b  
+               
+            
+            
+              p
+               
+              x
+               
+            
+          
+        
+         
+        
+          
+            
+              f
+               
+              x
+                x     
+                x b  
+               
+            
+            
+              p
+               
+              x
+               
+            
+          
+        
+      
+    
+      displaystyle p  theta  x    frac  p x  theta  p  theta    p x      frac  f x  theta    p x    
+  
+
+so the posterior expected loss 
+
+
+  
+    
+      
+        E
+         
+        L
+         
+        a
+          x     
+          x b  
+         
+        
+           
+        
+        x
+         
+         
+          x   b 
+        
+          L
+           
+          a
+            x     
+            x b  
+           
+          p
+           
+            x b  
+          
+             
+          
+          x
+           
+          d
+            x b  
+        
+         
+        
+          
+             
+            
+              p
+               
+              x
+               
+            
+          
+        
+          x   b 
+        L
+         
+        a
+          x     
+          x b  
+         
+        f
+         
+        x
+          x     
+          x b  
+         
+        d
+          x b  
+         
+      
+    
+      displaystyle E L a  theta   x   int  L a  theta  p  theta  x d theta     frac     p x    int L a  theta  f x  theta  d theta   
+  
+
+The generalized Bayes estimator is the value 
+  
+    
+      
+        a
+         
+        x
+         
+      
+    
+      displaystyle a x  
+  
+ that minimizes this expression for a given 
+  
+    
+      
+        x
+      
+    
+      displaystyle x 
+  
+  This is equivalent to minimizing
+
+
+  
+    
+      
+          x   b 
+        L
+         
+        a
+          x     
+          x b  
+         
+        f
+         
+        x
+          x     
+          x b  
+         
+        d
+          x b  
+      
+    
+      displaystyle  int L a  theta  f x  theta  d theta  
+  
+ for a given 
+  
+    
+      
+        x
+         
+      
+    
+      displaystyle x  
+  
+                               
+In this case it can be shown that the generalized Bayes estimator has the form 
+  
+    
+      
+        x
+         
+        
+          a
+          
+             
+          
+        
+      
+    
+      displaystyle x a     
+  
+  for some constant 
+  
+    
+      
+        
+          a
+          
+             
+          
+        
+      
+    
+      displaystyle a     
+  
+  To see this  let 
+  
+    
+      
+        
+          a
+          
+             
+          
+        
+      
+    
+      displaystyle a     
+  
+ be the value minimizing     when 
+  
+    
+      
+        x
+         
+         
+      
+    
+      displaystyle x   
+  
+  Then  given a different value 
+  
+    
+      
+        
+          x
+          
+             
+          
+        
+      
+    
+      displaystyle x     
+  
+  we must minimize
+
+
+  
+    
+      
+          x   b 
+        L
+         
+        a
+          x     
+          x b  
+         
+        f
+         
+        
+          x
+          
+             
+          
+        
+          x     
+          x b  
+         
+        d
+          x b  
+         
+          x   b 
+        L
+         
+        a
+          x     
+        
+          x
+          
+             
+          
+        
+          x     
+        
+            x b  
+            x     
+        
+         
+        f
+         
+          x     
+        
+            x b  
+            x     
+        
+         
+        d
+        
+            x b  
+            x     
+        
+         
+      
+    
+      displaystyle  int L a  theta  f x      theta  d theta   int L a x      theta   f   theta   d theta    
+  
+                               
+This is identical to      except that 
+  
+    
+      
+        a
+      
+    
+      displaystyle a 
+  
+ has been replaced by 
+  
+    
+      
+        a
+          x     
+        
+          x
+          
+             
+          
+        
+      
+    
+      displaystyle a x     
+  
+  Thus  the expression minimizing is given by 
+  
+    
+      
+        a
+          x     
+        
+          x
+          
+             
+          
+        
+         
+        
+          a
+          
+             
+          
+        
+      
+    
+      displaystyle a x     a     
+  
+  so that the optimal estimator has the form
+
+
+  
+    
+      
+        a
+         
+        x
+         
+         
+        
+          a
+          
+             
+          
+        
+         
+        x
+         
+        
+        
+      
+    
+      displaystyle a x  a     x      
+  
+
+Empirical Bayes estimators edit 
+Main article  Empirical Bayes method
+A Bayes estimator derived through the empirical Bayes method is called an empirical Bayes estimator  Empirical Bayes methods enable the use of auxiliary empirical data  from observations of related parameters  in the development of a Bayes estimator  This is done under the assumption that the estimated parameters are obtained from a common prior  For example  if independent observations of different parameters are performed  then the estimation performance of a particular parameter can sometimes be improved by using data from other observations 
+There are both parametric and non parametric approaches to empirical Bayes estimation            
+
+Example edit 
+The following is a simple example of parametric empirical Bayes estimation  Given past observations 
+  
+    
+      
+        
+          x
+          
+             
+          
+        
+         
+          x     
+         
+        
+          x
+          
+            n
+          
+        
+      
+    
+      displaystyle x      ldots  x  n  
+  
+ having conditional distribution 
+  
+    
+      
+        f
+         
+        
+          x
+          
+            i
+          
+        
+        
+           
+        
+        
+            x b  
+          
+            i
+          
+        
+         
+      
+    
+      displaystyle f x  i   theta   i   
+  
+  one is interested in estimating 
+  
+    
+      
+        
+            x b  
+          
+            n
+             
+             
+          
+        
+      
+    
+      displaystyle  theta   n    
+  
+ based on 
+  
+    
+      
+        
+          x
+          
+            n
+             
+             
+          
+        
+      
+    
+      displaystyle x  n    
+  
+  Assume that the 
+  
+    
+      
+        
+            x b  
+          
+            i
+          
+        
+      
+    
+      displaystyle  theta   i  
+  
+ s have a common prior 
+  
+    
+      
+          x c  
+      
+    
+      displaystyle  pi  
+  
+ which depends on unknown parameters  For example  suppose that 
+  
+    
+      
+          x c  
+      
+    
+      displaystyle  pi  
+  
+ is normal with unknown mean 
+  
+    
+      
+        
+            x bc 
+          
+              x c  
+          
+        
+        
+        
+      
+    
+      displaystyle  mu    pi       
+  
+ and variance 
+  
+    
+      
+        
+            x c  
+          
+              x c  
+          
+        
+        
+        
+         
+      
+    
+      displaystyle  sigma    pi        
+  
+ We can then use the past observations to determine the mean and variance of 
+  
+    
+      
+          x c  
+      
+    
+      displaystyle  pi  
+  
+ in the following way 
+First  we estimate the mean 
+  
+    
+      
+        
+            x bc 
+          
+            m
+          
+        
+        
+        
+      
+    
+      displaystyle  mu   m      
+  
+ and variance 
+  
+    
+      
+        
+            x c  
+          
+            m
+          
+        
+        
+        
+      
+    
+      displaystyle  sigma   m      
+  
+ of the marginal distribution of 
+  
+    
+      
+        
+          x
+          
+             
+          
+        
+         
+          x     
+         
+        
+          x
+          
+            n
+          
+        
+      
+    
+      displaystyle x      ldots  x  n  
+  
+ using the maximum likelihood approach 
+
+
+  
+    
+      
+        
+          
+            
+              
+                  x bc 
+                  x e 
+              
+            
+          
+          
+            m
+          
+        
+         
+        
+          
+             
+            n
+          
+        
+          x     
+        
+          
+            x
+            
+              i
+            
+          
+        
+         
+      
+    
+      displaystyle   widehat   mu     m    frac     n   sum  x  i    
+  
+
+
+  
+    
+      
+        
+          
+            
+              
+                  x c  
+                  x e 
+              
+            
+          
+          
+            m
+          
+          
+             
+          
+        
+         
+        
+          
+             
+            n
+          
+        
+          x     
+        
+           
+          
+            x
+            
+              i
+            
+          
+            x     
+          
+            
+              
+                
+                    x bc 
+                    x e 
+                
+              
+            
+            
+              m
+            
+          
+          
+             
+            
+               
+            
+          
+        
+         
+      
+    
+      displaystyle   widehat   sigma     m        frac     n   sum   x  i    widehat   mu     m         
+  
+
+Next  we use the law of total expectation to compute 
+  
+    
+      
+        
+            x bc 
+          
+            m
+          
+        
+      
+    
+      displaystyle  mu   m  
+  
+ and the law of total variance to compute 
+  
+    
+      
+        
+            x c  
+          
+            m
+          
+          
+             
+          
+        
+      
+    
+      displaystyle  sigma   m      
+  
+ such that
+
+
+  
+    
+      
+        
+            x bc 
+          
+            m
+          
+        
+         
+        
+          E
+          
+              x c  
+          
+        
+         
+        
+            x bc 
+          
+            f
+          
+        
+         
+          x b  
+         
+         
+        
+        
+         
+      
+    
+      displaystyle  mu   m  E   pi    mu   f   theta         
+  
+
+
+  
+    
+      
+        
+            x c  
+          
+            m
+          
+          
+             
+          
+        
+         
+        
+          E
+          
+              x c  
+          
+        
+         
+        
+            x c  
+          
+            f
+          
+          
+             
+          
+        
+         
+          x b  
+         
+         
+         
+        
+          E
+          
+              x c  
+          
+        
+         
+         
+        
+            x bc 
+          
+            f
+          
+        
+         
+          x b  
+         
+          x     
+        
+            x bc 
+          
+            m
+          
+        
+        
+           
+          
+             
+          
+        
+         
+         
+      
+    
+      displaystyle  sigma   m      E   pi    sigma   f       theta    E   pi     mu   f   theta    mu   m         
+  
+
+where 
+  
+    
+      
+        
+            x bc 
+          
+            f
+          
+        
+         
+          x b  
+         
+      
+    
+      displaystyle  mu   f   theta   
+  
+ and 
+  
+    
+      
+        
+            x c  
+          
+            f
+          
+        
+         
+          x b  
+         
+      
+    
+      displaystyle  sigma   f   theta   
+  
+ are the moments of the conditional distribution 
+  
+    
+      
+        f
+         
+        
+          x
+          
+            i
+          
+        
+        
+           
+        
+        
+            x b  
+          
+            i
+          
+        
+         
+      
+    
+      displaystyle f x  i   theta   i   
+  
+  which are assumed to be known  In particular  suppose that 
+  
+    
+      
+        
+            x bc 
+          
+            f
+          
+        
+         
+          x b  
+         
+         
+          x b  
+      
+    
+      displaystyle  mu   f   theta    theta  
+  
+ and that 
+  
+    
+      
+        
+            x c  
+          
+            f
+          
+          
+             
+          
+        
+         
+          x b  
+         
+         
+        K
+      
+    
+      displaystyle  sigma   f       theta   K 
+  
+  we then have
+
+
+  
+    
+      
+        
+            x bc 
+          
+              x c  
+          
+        
+         
+        
+            x bc 
+          
+            m
+          
+        
+        
+        
+         
+      
+    
+      displaystyle  mu    pi    mu   m       
+  
+
+
+  
+    
+      
+        
+            x c  
+          
+              x c  
+          
+          
+             
+          
+        
+         
+        
+            x c  
+          
+            m
+          
+          
+             
+          
+        
+          x     
+        
+            x c  
+          
+            f
+          
+          
+             
+          
+        
+         
+        
+            x c  
+          
+            m
+          
+          
+             
+          
+        
+          x     
+        K
+         
+      
+    
+      displaystyle  sigma    pi        sigma   m       sigma   f       sigma   m      K  
+  
+
+Finally  we obtain the estimated moments of the prior 
+
+
+  
+    
+      
+        
+          
+            
+              
+                  x bc 
+                  x e 
+              
+            
+          
+          
+              x c  
+          
+        
+         
+        
+          
+            
+              
+                  x bc 
+                  x e 
+              
+            
+          
+          
+            m
+          
+        
+         
+      
+    
+      displaystyle   widehat   mu      pi     widehat   mu     m   
+  
+
+
+  
+    
+      
+        
+          
+            
+              
+                  x c  
+                  x e 
+              
+            
+          
+          
+              x c  
+          
+          
+             
+          
+        
+         
+        
+          
+            
+              
+                  x c  
+                  x e 
+              
+            
+          
+          
+            m
+          
+          
+             
+          
+        
+          x     
+        K
+         
+      
+    
+      displaystyle   widehat   sigma      pi         widehat   sigma     m      K  
+  
+
+For example  if 
+  
+    
+      
+        
+          x
+          
+            i
+          
+        
+        
+           
+        
+        
+            x b  
+          
+            i
+          
+        
+          x   c 
+        N
+         
+        
+            x b  
+          
+            i
+          
+        
+         
+         
+         
+      
+    
+      displaystyle x  i   theta   i  sim N  theta   i     
+  
+  and if we assume a normal prior  which is a conjugate prior in this case   we conclude that 
+  
+    
+      
+        
+            x b  
+          
+            n
+             
+             
+          
+        
+          x   c 
+        N
+         
+        
+          
+            
+              
+                  x bc 
+                  x e 
+              
+            
+          
+          
+              x c  
+          
+        
+         
+        
+          
+            
+              
+                  x c  
+                  x e 
+              
+            
+          
+          
+              x c  
+          
+          
+             
+          
+        
+         
+      
+    
+      displaystyle  theta   n    sim N   widehat   mu      pi     widehat   sigma      pi        
+  
+  from which the Bayes estimator of 
+  
+    
+      
+        
+            x b  
+          
+            n
+             
+             
+          
+        
+      
+    
+      displaystyle  theta   n    
+  
+ based on 
+  
+    
+      
+        
+          x
+          
+            n
+             
+             
+          
+        
+      
+    
+      displaystyle x  n    
+  
+ can be calculated 
+
+Properties edit 
+Admissibility edit 
+See also  Admissible decision rule
+Bayes rules having finite Bayes risk are typically admissible  The following are some specific examples of admissibility theorems 
+
+If a Bayes rule is unique then it is admissible             For example  as stated above  under mean squared error  MSE  the Bayes rule is unique and therefore admissible 
+If   belongs to a discrete set  then all Bayes rules are admissible 
+If   belongs to a continuous  non discrete  set  and if the risk function R      is continuous in   for every    then all Bayes rules are admissible 
+By contrast  generalized Bayes rules often have undefined Bayes risk in the case of improper priors  These rules are often inadmissible and the verification of their admissibility can be difficult  For example  the generalized Bayes estimator of a location parameter   based on Gaussian samples  described in the  Generalized Bayes estimator  section above  is inadmissible for 
+  
+    
+      
+        p
+         gt 
+         
+      
+    
+      displaystyle p gt   
+  
+  this is known as Stein s phenomenon 
+
+Asymptotic efficiency edit 
+Let   be an unknown random variable  and suppose that 
+  
+    
+      
+        
+          x
+          
+             
+          
+        
+         
+        
+          x
+          
+             
+          
+        
+         
+          x     
+      
+    
+      displaystyle x     x      ldots  
+  
+ are iid samples with density 
+  
+    
+      
+        f
+         
+        
+          x
+          
+            i
+          
+        
+        
+           
+        
+          x b  
+         
+      
+    
+      displaystyle f x  i   theta   
+  
+  Let 
+  
+    
+      
+        
+            x b  
+          
+            n
+          
+        
+         
+        
+            x b  
+          
+            n
+          
+        
+         
+        
+          x
+          
+             
+          
+        
+         
+          x     
+         
+        
+          x
+          
+            n
+          
+        
+         
+      
+    
+      displaystyle  delta   n   delta   n  x      ldots  x  n   
+  
+ be a sequence of Bayes estimators of   based on an increasing number of measurements  We are interested in analyzing the asymptotic performance of this sequence of estimators  i e   the performance of 
+  
+    
+      
+        
+            x b  
+          
+            n
+          
+        
+      
+    
+      displaystyle  delta   n  
+  
+ for large n 
+To this end  it is customary to regard   as a deterministic parameter whose true value is 
+  
+    
+      
+        
+            x b  
+          
+             
+          
+        
+      
+    
+      displaystyle  theta      
+  
+  Under specific conditions             for large samples  large values of n   the posterior density of   is approximately normal  In other words  for large n  the effect of the prior probability on the posterior is negligible  Moreover  if   is the Bayes estimator under MSE risk  then it is asymptotically unbiased and it converges in distribution to the normal distribution 
+
+
+  
+    
+      
+        
+          
+            n
+          
+        
+         
+        
+            x b  
+          
+            n
+          
+        
+          x     
+        
+            x b  
+          
+             
+          
+        
+         
+          x     
+        N
+        
+           
+          
+             
+             
+            
+              
+                 
+                
+                  I
+                   
+                  
+                      x b  
+                    
+                       
+                    
+                  
+                   
+                
+              
+            
+          
+           
+        
+         
+      
+    
+      displaystyle   sqrt  n    delta   n   theta       to N left     frac     I  theta         right   
+  
+
+where I     is the Fisher information of    
+It follows that the Bayes estimator  n under MSE is asymptotically efficient 
+Another estimator which is asymptotically normal and efficient is the maximum likelihood estimator  MLE   The relations between the maximum likelihood and Bayes estimators can be shown in the following simple example 
+
+Example  estimating p in a binomial distribution edit 
+Consider the estimator of   based on binomial sample x b   n  where   denotes the probability for success  Assuming   is distributed according to the conjugate prior  which in this case is the Beta distribution B a b   the posterior distribution is known to be B a x b n x   Thus  the Bayes estimator under MSE is
+
+
+  
+    
+      
+        
+            x b  
+          
+            n
+          
+        
+         
+        x
+         
+         
+        E
+         
+          x b  
+        
+           
+        
+        x
+         
+         
+        
+          
+            
+              a
+               
+              x
+            
+            
+              a
+               
+              b
+               
+              n
+            
+          
+        
+         
+      
+    
+      displaystyle  delta   n  x  E  theta  x    frac  a x  a b n    
+  
+
+The MLE in this case is x n and so we get 
+
+
+  
+    
+      
+        
+            x b  
+          
+            n
+          
+        
+         
+        x
+         
+         
+        
+          
+            
+              a
+               
+              b
+            
+            
+              a
+               
+              b
+               
+              n
+            
+          
+        
+        E
+         
+          x b  
+         
+         
+        
+          
+            n
+            
+              a
+               
+              b
+               
+              n
+            
+          
+        
+        
+            x b  
+          
+            M
+            L
+            E
+          
+        
+         
+      
+    
+      displaystyle  delta   n  x    frac  a b  a b n  E  theta     frac  n  a b n   delta   MLE   
+  
+
+The last equation implies that  for n      the Bayes estimator  in the described problem  is close to the MLE 
+On the other hand  when n is small  the prior information is still relevant to the decision problem and affects the estimate  To see the relative weight of the prior information  assume that a b  in this case each measurement brings in   new bit of information  the formula above shows that the prior information has the same weight as a b bits of the new information  In applications  one often knows very little about fine details of the prior distribution  in particular  there is no reason to assume that it coincides with B a b  exactly  In such a case  one possible interpretation of this calculation is   there is a non pathological prior distribution with the mean value     and the standard deviation d which gives the weight of prior information equal to     d     bits of new information  
+Another example of the same phenomena is the case when the prior estimate and a measurement are normally distributed   If the prior is centered at B with deviation    and the measurement is centered at b with deviation    then the posterior is centered at 
+  
+    
+      
+        
+          
+              x b  
+            
+                x b  
+               
+                x b  
+            
+          
+        
+        B
+         
+        
+          
+              x b  
+            
+                x b  
+               
+                x b  
+            
+          
+        
+        b
+      
+    
+      displaystyle   frac   alpha    alpha   beta   B   frac   beta    alpha   beta   b 
+  
+  with weights in this weighted average being             Moreover  the squared posterior deviation is         In other words  the prior is combined with the measurement in exactly the same way as if it were an extra measurement to take into account 
+For example  if        then the deviation of   measurements combined matches the deviation of the prior  assuming that errors of measurements are independent    And the weights     in the formula for posterior match this  the weight of the prior is   times the weight of the measurement   Combining this prior with n measurements with average v results in the posterior centered at 
+  
+    
+      
+        
+          
+             
+            
+               
+               
+              n
+            
+          
+        
+        V
+         
+        
+          
+            n
+            
+               
+               
+              n
+            
+          
+        
+        v
+      
+    
+      displaystyle   frac       n  V   frac  n    n  v 
+  
+  in particular  the prior plays the same role as   measurements made in advance   In general  the prior has the weight of        measurements 
+Compare to the example of binomial distribution  there the prior has the weight of          measurements   One can see that the exact weight does depend on the details of the distribution  but when      the difference becomes small 
+
+Practical example of Bayes estimators edit 
+The Internet Movie Database uses a formula for calculating and comparing the ratings of films by its users  including their Top Rated     Titles which is claimed to give  a true Bayesian estimate              The following Bayesian formula was initially used to calculate a weighted average score for the Top      though the formula has since changed 
+
+
+  
+    
+      
+        W
+         
+        
+          
+            
+              R
+              v
+               
+              C
+              m
+            
+            
+              v
+               
+              m
+            
+          
+        
+          xa  
+      
+    
+      displaystyle W  Rv Cm  over v m    
+  
+
+where 
+
+
+  
+    
+      
+        W
+          xa  
+      
+    
+      displaystyle W   
+  
+   weighted rating
+
+  
+    
+      
+        R
+          xa  
+      
+    
+      displaystyle R   
+  
+   average rating for the movie as a number from   to     mean     Rating 
+
+  
+    
+      
+        v
+          xa  
+      
+    
+      displaystyle v   
+  
+   number of votes ratings for the movie    votes 
+
+  
+    
+      
+        m
+          xa  
+      
+    
+      displaystyle m   
+  
+   weight given to the prior estimate  in this case  the number of votes IMDB deemed necessary for average rating to approach statistical validity 
+
+  
+    
+      
+        C
+          xa  
+      
+    
+      displaystyle C   
+  
+   the mean vote across the whole pool  currently     
+Note that W is just the weighted arithmetic mean of R and C with weight vector  v  m    As the number of ratings surpasses m  the confidence of the average rating surpasses the confidence of the mean vote for all films  C   and the weighted bayesian rating  W  approaches a straight average  R   The closer v  the number of ratings for the film  is to zero  the closer W is to C  where W is the weighted rating and C is the average rating of all films  So  in simpler terms  the fewer ratings votes cast for a film  the more that film s Weighted Rating will skew towards the average across all films  while films with many ratings votes will have a rating approaching its pure arithmetic average rating 
+IMDb s approach ensures that a film with only a few ratings  all at     would not rank above  the Godfather   for example  with a     average from over         ratings 
+
+See also edit 
+Recursive Bayesian estimation
+Generalized expected utility
+Notes edit 
+
+
+  Lehmann and Casella  Theorem      
+
+  a b Lehmann and Casella  Definition      
+
+  Jaynes  E T          Probability Theory  The Logic of Science     print       ed    Cambridge  u a    Cambridge Univ  Press  p            ISBN                        
+
+  Berger         section     
+
+  Lehmann and Casella         Theorem       
+
+  Lehmann and Casella         section    
+
+  IMDb Top    
+
+
+References edit 
+Berger  James O          Statistical decision theory and Bayesian Analysis   nd      ed    New York  Springer Verlag  ISBN                     MR              
+Lehmann  E  L   Casella  G          Theory of Point Estimation   nd      ed    Springer  ISBN                    
+Pilz  J rgen          Bayesian estimation   Bayesian Estimation and Experimental Design in Linear Regression Models  Chichester  John Wiley  amp  Sons  pp               ISBN                  X 
+External links edit 
+ Bayesian estimator   Encyclopedia of Mathematics  EMS Press             
+vteStatistics
+Outline
+Index
+Descriptive statisticsContinuous dataCenter
+Mean
+Arithmetic
+Arithmetic Geometric
+Contraharmonic
+Cubic
+Generalized power
+Geometric
+Harmonic
+Heronian
+Heinz
+Lehmer
+Median
+Mode
+Dispersion
+Average absolute deviation
+Coefficient of variation
+Interquartile range
+Percentile
+Range
+Standard deviation
+Variance
+Shape
+Central limit theorem
+Moments
+Kurtosis
+L moments
+Skewness
+Count data
+Index of dispersion
+Summary tables
+Contingency table
+Frequency distribution
+Grouped data
+Dependence
+Partial correlation
+Pearson product moment correlation
+Rank correlation
+Kendall s  
+Spearman s  
+Scatter plot
+Graphics
+Bar chart
+Biplot
+Box plot
+Control chart
+Correlogram
+Fan chart
+Forest plot
+Histogram
+Pie chart
+Q Q plot
+Radar chart
+Run chart
+Scatter plot
+Stem and leaf display
+Violin plot
+Data collectionStudy design
+Effect size
+Missing data
+Optimal design
+Population
+Replication
+Sample size determination
+Statistic
+Statistical power
+Survey methodology
+Sampling
+Cluster
+Stratified
+Opinion poll
+Questionnaire
+Standard error
+Controlled experiments
+Blocking
+Factorial experiment
+Interaction
+Random assignment
+Randomized controlled trial
+Randomized experiment
+Scientific control
+Adaptive designs
+Adaptive clinical trial
+Stochastic approximation
+Up and down designs
+Observational studies
+Cohort study
+Cross sectional study
+Natural experiment
+Quasi experiment
+Statistical inferenceStatistical theory
+Population
+Statistic
+Probability distribution
+Sampling distribution
+Order statistic
+Empirical distribution
+Density estimation
+Statistical model
+Model specification
+Lp space
+Parameter
+location
+scale
+shape
+Parametric family
+Likelihood       monotone 
+Location scale family
+Exponential family
+Completeness
+Sufficiency
+Statistical functional
+Bootstrap
+U
+V
+Optimal decision
+loss function
+Efficiency
+Statistical distance
+divergence
+Asymptotics
+Robustness
+Frequentist inferencePoint estimation
+Estimating equations
+Maximum likelihood
+Method of moments
+M estimator
+Minimum distance
+Unbiased estimators
+Mean unbiased minimum variance
+Rao Blackwellization
+Lehmann Scheff  theorem
+Median unbiased
+Plug in
+Interval estimation
+Confidence interval
+Pivot
+Likelihood interval
+Prediction interval
+Tolerance interval
+Resampling
+Bootstrap
+Jackknife
+Testing hypotheses
+    amp    tails
+Power
+Uniformly most powerful test
+Permutation test
+Randomization test
+Multiple comparisons
+Parametric tests
+Likelihood ratio
+Score Lagrange multiplier
+Wald
+Specific tests
+Z test  normal 
+Student s t test
+F test
+Goodness of fit
+Chi squared
+G test
+Kolmogorov Smirnov
+Anderson Darling
+Lilliefors
+Jarque Bera
+Normality  Shapiro Wilk 
+Likelihood ratio test
+Model selection
+Cross validation
+AIC
+BIC
+Rank statistics
+Sign
+Sample median
+Signed rank  Wilcoxon 
+Hodges Lehmann estimator
+Rank sum  Mann Whitney 
+Nonparametric anova
+  way  Kruskal Wallis 
+  way  Friedman 
+Ordered alternative  Jonckheere Terpstra 
+Van der Waerden test
+Bayesian inference
+Bayesian probability
+prior
+posterior
+Credible interval
+Bayes factor
+Bayesian estimator
+Maximum posterior estimator
+CorrelationRegression analysisCorrelation
+Pearson product moment
+Partial correlation
+Confounding variable
+Coefficient of determination
+Regression analysis
+Errors and residuals
+Regression validation
+Mixed effects models
+Simultaneous equations models
+Multivariate adaptive regression splines  MARS 
+Linear regression
+Simple linear regression
+Ordinary least squares
+General linear model
+Bayesian regression
+Non standard predictors
+Nonlinear regression
+Nonparametric
+Semiparametric
+Isotonic
+Robust
+Homoscedasticity and Heteroscedasticity
+Generalized linear model
+Exponential families
+Logistic  Bernoulli             Binomial            Poisson regressions
+Partition of variance
+Analysis of variance  ANOVA  anova 
+Analysis of covariance
+Multivariate ANOVA
+Degrees of freedom
+Categorical            Multivariate            Time series            Survival analysisCategorical
+Cohen s kappa
+Contingency table
+Graphical model
+Log linear model
+McNemar s test
+Cochran Mantel Haenszel statistics
+Multivariate
+Regression
+Manova
+Principal components
+Canonical correlation
+Discriminant analysis
+Cluster analysis
+Classification
+Structural equation model
+Factor analysis
+Multivariate distributions
+Elliptical distributions
+Normal
+Time seriesGeneral
+Decomposition
+Trend
+Stationarity
+Seasonal adjustment
+Exponential smoothing
+Cointegration
+Structural break
+Granger causality
+Specific tests
+Dickey Fuller
+Johansen
+Q statistic  Ljung Box 
+Durbin Watson
+Breusch Godfrey
+Time domain
+Autocorrelation  ACF 
+partial  PACF 
+Cross correlation  XCF 
+ARMA model
+ARIMA model  Box Jenkins 
+Autoregressive conditional heteroskedasticity  ARCH 
+Vector autoregression  VAR 
+Frequency domain
+Spectral density estimation
+Fourier analysis
+Least squares spectral analysis
+Wavelet
+Whittle likelihood
+SurvivalSurvival function
+Kaplan Meier estimator  product limit 
+Proportional hazards models
+Accelerated failure time  AFT  model
+First hitting time
+Hazard function
+Nelson Aalen estimator
+Test
+Log rank test
+ApplicationsBiostatistics
+Bioinformatics
+Clinical trials            studies
+Epidemiology
+Medical statistics
+Engineering statistics
+Chemometrics
+Methods engineering
+Probabilistic design
+Process            quality control
+Reliability
+System identification
+Social statistics
+Actuarial science
+Census
+Crime statistics
+Demography
+Econometrics
+Jurimetrics
+National accounts
+Official statistics
+Population statistics
+Psychometrics
+Spatial statistics
+Cartography
+Environmental statistics
+Geographic information system
+Geostatistics
+Kriging
+
+Category
+ Mathematics     portal
+Commons
+ WikiProject
+
+
+
+
+
+
+Retrieved from  https   en wikipedia org w index php title Bayes estimator amp oldid

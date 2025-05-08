@@ -1,0 +1,713 @@
+AI conformance to the intended objective
+
+
+
+Part of a series onArtificial intelligence  AI 
+Major goals
+Artificial general intelligence
+Intelligent agent
+Recursive self improvement
+Planning
+Computer vision
+General game playing
+Knowledge reasoning
+Natural language processing
+Robotics
+AI safety
+
+Approaches
+Machine learning
+Symbolic
+Deep learning
+Bayesian networks
+Evolutionary algorithms
+Hybrid intelligent systems
+Systems integration
+
+Applications
+Bioinformatics
+Deepfake
+Earth sciences
+ Finance 
+Generative AI
+Art
+Audio
+Music
+Government
+Healthcare
+Mental health
+Industry
+Translation
+ Military 
+Physics
+Projects
+
+Philosophy
+Artificial consciousness
+Chinese room
+Friendly AI
+Control problem Takeover
+Ethics
+Existential risk
+Turing test
+Uncanny valley
+
+History
+Timeline
+Progress
+AI winter
+AI boom
+
+Glossary
+Glossary
+vte
+In the field of artificial intelligence  AI   alignment aims to steer AI systems toward a person s or group s intended goals  preferences  or ethical principles  An AI system is considered aligned if it advances the intended objectives  A misaligned AI system pursues unintended objectives            
+It is often challenging for AI designers to align an AI system because it is difficult for them to specify the full range of desired and undesired behaviors  Therefore  AI designers often use simpler proxy goals  such as gaining human approval  But proxy goals can overlook necessary constraints or reward the AI system for merely appearing aligned                        AI systems may also find loopholes that allow them to accomplish their proxy goals efficiently but in unintended  sometimes harmful  ways  reward hacking                        
+Advanced AI systems may develop unwanted instrumental strategies  such as seeking power or survival because such strategies help them achieve their assigned final goals                                   Furthermore  they might develop undesirable emergent goals that could be hard to detect before the system is deployed and encounters new situations and data distributions                        Empirical research showed in      that advanced large language models  LLMs  such as OpenAI o  or Claude   sometimes engage in strategic deception to achieve their goals or prevent them from being changed                       
+Today  some of these issues affect existing commercial systems such as LLMs                                      robots              autonomous vehicles              and social media recommendation engines                                     Some AI researchers argue that more capable future systems will be more severely affected because these problems partially result from high capabilities                                   
+Many prominent AI researchers and the leadership of major AI companies have argued or asserted that AI is approaching human like  AGI  and superhuman cognitive capabilities  ASI   and could endanger human civilization if misaligned                         These include  AI Godfathers  Geoffrey Hinton and Yoshua Bengio and the CEOs of OpenAI  Anthropic  and Google DeepMind                                      These risks remain debated             
+AI alignment is a subfield of AI safety  the study of how to build safe AI systems              Other subfields of AI safety include robustness  monitoring  and capability control              Research challenges in alignment include instilling complex values in AI  developing honest AI  scalable oversight  auditing and interpreting AI models  and preventing emergent AI behaviors like power seeking              Alignment research has connections to interpretability research                           adversarial  robustness              anomaly detection  calibrated uncertainty              formal verification              preference learning                                      safety critical engineering              game theory              algorithmic fairness                          and social sciences                         
+
+
+Objectives in AI edit 
+Main article  Intelligent agent        Objective function
+Programmers provide an AI system such as AlphaZero with an  objective function       a      in which they intend to encapsulate the goal s  the AI is configured to accomplish  Such a system later populates a  possibly implicit  internal  model  of its environment  This model encapsulates all the agent s beliefs about the world  The AI then creates and executes whatever plan is calculated to maximize     b      the value     c      of its objective function              For example  when AlphaZero is trained on chess  it has a simple objective function of     if AlphaZero wins     if AlphaZero loses   During the game  AlphaZero attempts to execute whatever sequence of moves it judges most likely to attain the maximum value of                 Similarly  a reinforcement learning system can have a  reward function  that allows the programmers to shape the AI s desired behavior              An evolutionary algorithm s behavior is shaped by a  fitness function              
+
+Alignment problem edit 
+ Alignment problem  redirects here  For the book  see The Alignment Problem 
+In       AI pioneer Norbert Wiener described the AI alignment problem as follows  
+
+
+If we use  to achieve our purposes  a mechanical agency with whose operation we cannot interfere effectively          we had better be quite sure that the purpose put into the machine is the purpose which we really desire                        
+
+
+AI alignment involves ensuring that an AI system s objectives match those of its designers or users  or match widely shared values  objective ethical standards  or the intentions its designers would have if they were more informed and enlightened             
+AI alignment is an open problem for modern AI systems                         and is a research field within AI                         Aligning AI involves two main challenges  carefully specifying the purpose of the system  outer alignment  and ensuring that the system adopts the specification robustly  inner alignment              Researchers also attempt to create AI models that have robust alignment  sticking to safety constraints even when users adversarially try to bypass them 
+
+Specification gaming and side effects edit 
+Main article  Reward hacking
+To specify an AI system s purpose  AI designers typically provide an objective function  examples  or feedback to the system  But designers are often unable to completely specify all important values and constraints  so they resort to easy to specify proxy goals such as maximizing the approval of human overseers  who are fallible                                                              As a result  AI systems can find loopholes that help them accomplish the specified objective efficiently but in unintended  possibly harmful ways  This tendency is known as specification gaming or reward hacking  and is an instance of Goodhart s law                                     As AI systems become more capable  they are often able to game their specifications more effectively            
+
+An AI system was trained using human feedback to grab a ball  but instead learned to place its hand between the ball and camera  making it falsely appear successful              Some research on alignment aims to avert solutions that are false but convincing 
+Specification gaming has been observed in numerous AI systems                          One system was trained to finish a simulated boat race by rewarding the system for hitting targets along the track  but the system achieved more reward by looping and crashing into the same targets indefinitely              Similarly  a simulated robot was trained to grab a ball by rewarding the robot for getting positive feedback from humans  but it learned to place its hand between the ball and camera  making it falsely appear successful  see video               Chatbots often produce falsehoods if they are based on language models that are trained to imitate text from internet corpora  which are broad but fallible                          When they are retrained to produce text that humans rate as true or helpful  chatbots like ChatGPT can fabricate fake explanations that humans find convincing  often called  hallucinations               Some alignment researchers aim to help humans detect specification gaming and to steer AI systems toward carefully specified objectives that are safe and useful to pursue 
+When a misaligned AI system is deployed  it can have consequential side effects  Social media platforms have been known to optimize for click through rates  causing user addiction on a global scale              Stanford researchers say that such recommender systems are misaligned with their users because they  optimize simple engagement metrics rather than a harder to measure combination of societal and consumer well being              
+Explaining such side effects  Berkeley computer scientist Stuart Russell noted that the omission of implicit constraints can cause harm   A system          will often set          unconstrained variables to extreme values  if one of those unconstrained variables is actually something we care about  the solution found may be highly undesirable  This is essentially the old story of the genie in the lamp  or the sorcerer s apprentice  or King Midas  you get exactly what you ask for  not what you want              
+Some researchers suggest that AI designers specify their desired goals by listing forbidden actions or by formalizing ethical rules  as with Asimov s Three Laws of Robotics               But Russell and Norvig argue that this approach overlooks the complexity of human values              It is certainly very hard  and perhaps impossible  for mere humans to anticipate and rule out in advance all the disastrous ways the machine could choose to achieve a specified objective             
+Additionally  even if an AI system fully understands human intentions  it may still disregard them  because following human intentions may not be its objective  unless it is already fully aligned             
+A      study by Palisade Research found that when tasked to win at chess against a stronger opponent  some reasoning LLMs attempted to hack the game system  o  preview spontaneously attempted it in     of cases  while DeepSeek R  did so in     of cases  Other models  like GPT  o  Claude     Sonnet  and o  mini  attempted to cheat only when researchers provided hints about this possibility             
+
+Pressure to deploy unsafe systems edit 
+Commercial organizations sometimes have incentives to take shortcuts on safety and to deploy misaligned or unsafe AI systems              For example  social media recommender systems have been profitable despite creating unwanted addiction and polarization                                      Competitive pressure can also lead to a race to the bottom on AI safety standards  In       a self driving car killed a pedestrian  Elaine Herzberg  after engineers disabled the emergency braking system because it was oversensitive and slowed development             
+
+Risks from advanced misaligned AI edit 
+Some researchers are interested in aligning increasingly advanced AI systems  as progress in AI development is rapid  and industry and governments are trying to build advanced AI  As AI system capabilities continue to rapidly expand in scope  they could unlock many opportunities if aligned  but consequently may further complicate the task of alignment due to their increased complexity  potentially posing large scale hazards             
+
+Development of advanced AI edit 
+Many AI companies  such as OpenAI              Meta             and DeepMind              have stated their aim to develop artificial general intelligence  AGI   a hypothesized AI system that matches or outperforms humans at a broad range of cognitive tasks  Researchers who scale modern neural networks observe that they indeed develop increasingly general and unanticipated capabilities                                      Such models have learned to operate a computer or write their own programs  a single  generalist  network can chat  control robots  play games  and interpret photographs              According to surveys  some leading machine learning researchers expect AGI to be created in this decade     update       while some believe it will take much longer  Many consider both scenarios possible                                     
+In       leaders in AI research and tech signed an open letter calling for a pause in the largest AI training runs  The letter stated   Powerful AI systems should be developed only once we are confident that their effects will be positive and their risks will be manageable              
+
+Power seeking edit 
+Current     update      systems still have limited long term planning ability and situational awareness              but large efforts are underway to change this                                      Future systems  not necessarily AGIs  with these capabilities are expected to develop unwanted power seeking strategies  Future advanced AI agents might  for example  seek to acquire money and computation power  to proliferate  or to evade being turned off  for example  by running additional copies of the system on other computers   Although power seeking is not explicitly programmed  it can emerge because agents who have more power are better able to accomplish their goals                         This tendency  known as instrumental convergence  has already emerged in various reinforcement learning agents including language models                                                              Other research has mathematically shown that optimal reinforcement learning algorithms would seek power in a wide range of environments                          As a result  their deployment might be irreversible  For these reasons  researchers argue that the problems of AI safety and alignment must be resolved before advanced power seeking AI is first created                                   
+Future power seeking AI systems might be deployed by choice or by accident  As political leaders and companies see the strategic advantage in having the most competitive  most powerful AI systems  they may choose to deploy them             Additionally  as AI designers detect and penalize power seeking behavior  their systems have an incentive to game this specification by seeking power in ways that are not penalized or by avoiding power seeking before they are deployed            
+
+Existential risk  x risk  edit 
+See also  Existential risk from artificial intelligence and AI takeover
+According to some researchers  humans owe their dominance over other species to their greater cognitive abilities  Accordingly  researchers argue that one or many misaligned AI systems could disempower humanity or lead to human extinction if they outperform humans on most cognitive tasks                       
+In       world leading AI researchers  other scholars  and AI tech CEOs signed the statement that  Mitigating the risk of extinction from AI should be a global priority alongside other societal scale risks such as pandemics and nuclear war                           Notable computer scientists who have pointed out risks from future advanced AI that is misaligned include Geoffrey Hinton              Alan Turing      d      Ilya Sutskever              Yoshua Bengio              Judea Pearl      e      Murray Shanahan              Norbert Wiener                         Marvin Minsky      f      Francesca Rossi              Scott Aaronson              Bart Selman              David McAllester              Marcus Hutter              Shane Legg              Eric Horvitz              and Stuart Russell             Skeptical researchers such as Fran ois Chollet              Gary Marcus              Yann LeCun              and Oren Etzioni             have argued that AGI is far off  that it would not seek power  or might try but fail   or that it will not be hard to align 
+Other researchers argue that it will be especially difficult to align advanced future AI systems  More capable systems are better able to game their specifications by finding loopholes             strategically mislead their designers  as well as protect and increase their power                        and intelligence  Additionally  they could have more severe side effects  They are also likely to be more complex and autonomous  making them more difficult to interpret and supervise  and therefore harder to align                        
+
+Research problems and approaches edit 
+Learning human values and preferences edit 
+Aligning AI systems to act in accordance with human values  goals  and preferences is challenging  these values are taught by humans who make mistakes  harbor biases  and have complex  evolving values that are hard to completely specify              Because AI systems often learn to take advantage of minor imperfections in the specified objective                                      researchers aim to specify intended behavior as completely as possible using datasets that represent human values  imitation learning  or preference learning                        Chapter          A central open problem is scalable oversight  the difficulty of supervising an AI system that can outperform or mislead humans in a given domain             
+Because it is difficult for AI designers to explicitly specify an objective function  they often train AI systems to imitate human examples and demonstrations of desired behavior  Inverse reinforcement learning  IRL  extends this by inferring the human s objective from the human s demonstrations                                              Cooperative IRL  CIRL  assumes that a human and AI agent can work together to teach and maximize the human s reward function                          In CIRL  AI agents are uncertain about the reward function and learn about it by querying humans  This simulated humility could help mitigate specification gaming and power seeking tendencies  see        Power seeking and instrumental strategies                           But IRL approaches assume that humans demonstrate nearly optimal behavior  which is not true for difficult tasks                          
+Other researchers explore how to teach AI models complex behavior through preference learning  in which humans provide feedback on which behavior they prefer                          To minimize the need for human feedback  a helper model is then trained to reward the main model in novel situations for behavior that humans would reward  Researchers at OpenAI used this approach to train chatbots like ChatGPT and InstructGPT  which produce more compelling text than models trained to imitate humans              Preference learning has also been an influential tool for recommender systems and web search               but an open problem is proxy gaming  the helper model may not represent human feedback perfectly  and the main model may exploit this mismatch between its intended behavior and the helper model s feedback to gain more reward                           AI systems may also gain reward by obscuring unfavorable information  misleading human rewarders  or pandering to their views regardless of truth  creating echo chambers              see        Scalable oversight  
+Large language models  LLMs  such as GPT   enabled researchers to study value learning in a more general and capable class of AI systems than was available before  Preference learning approaches that were originally designed for reinforcement learning agents have been extended to improve the quality of generated text and reduce harmful outputs from these models  OpenAI and DeepMind use this approach to improve the safety of state of the art     update      LLMs                                       AI safety  amp  research company Anthropic proposed using preference learning to fine tune models to be helpful  honest  and harmless               Other avenues for aligning language models include values targeted datasets                          and red teaming               In red teaming  another AI system or a human tries to find inputs that causes the model to behave unsafely  Since unsafe behavior can be unacceptable even when it is rare  an important challenge is to drive the rate of unsafe outputs extremely low             
+Machine ethics supplements preference learning by directly instilling AI systems with moral values such as well being  equality  and impartiality  as well as not intending harm  avoiding falsehoods  and honoring promises                   g      While other approaches try to teach AI systems human preferences for a specific task  machine ethics aims to instill broad moral values that apply in many situations  One question in machine ethics is what alignment should accomplish  whether AI systems should follow the programmers  literal instructions  implicit intentions  revealed preferences  preferences the programmers would have if they were more informed or rational  or objective moral standards              Further challenges include measuring and aggregating different people s preferences                           and avoiding value lock in  the indefinite preservation of the values of the first highly capable AI systems  which are unlikely to fully represent human values                          
+
+Scalable oversight edit 
+As AI systems become more powerful and autonomous  it becomes increasingly difficult to align them through human feedback  It can be slow or infeasible for humans to evaluate complex AI behaviors in increasingly complex tasks  Such tasks include summarizing books               writing code without subtle bugs             or security vulnerabilities               producing statements that are not merely convincing but also true                                       and predicting long term outcomes such as the climate or the results of a policy decision                            More generally  it can be difficult to evaluate AI that outperforms humans in a given domain  To provide feedback in hard to evaluate tasks  and to detect when the AI s output is falsely convincing  humans need assistance or extensive time  Scalable oversight studies how to reduce the time and effort needed for supervision  and how to assist human supervisors             
+AI researcher Paul Christiano argues that if the designers of an AI system cannot supervise it to pursue a complex objective  they may keep training the system using easy to evaluate proxy objectives such as maximizing simple human feedback  As AI systems make progressively more decisions  the world may be increasingly optimized for easy to measure objectives such as making profits  getting clicks  and acquiring positive feedback from humans  As a result  human values and good governance may have progressively less influence              
+Some AI systems have discovered that they can gain positive feedback more easily by taking actions that falsely convince the human supervisor that the AI has achieved the intended objective  An example is given in the video above  where a simulated robotic arm learned to create the false impression that it had grabbed a ball              Some AI systems have also learned to recognize when they are being evaluated  and  play dead   stopping unwanted behavior only to continue it once the evaluation ends               This deceptive specification gaming could become easier for more sophisticated future AI systems                        that attempt more complex and difficult to evaluate tasks  and could obscure their deceptive behavior 
+Approaches such as active learning and semi supervised reward learning can reduce the amount of human supervision needed              Another approach is to train a helper model   reward model   to imitate the supervisor s feedback                                                  
+But when a task is too complex to evaluate accurately  or the human supervisor is vulnerable to deception  it is the quality  not the quantity  of supervision that needs improvement  To increase supervision quality  a range of approaches aim to assist the supervisor  sometimes by using AI assistants               Christiano developed the Iterated Amplification approach  in which challenging problems are  recursively  broken down into subproblems that are easier for humans to evaluate                          Iterated Amplification was used to train AI to summarize books without requiring human supervisors to read them                            Another proposal is to use an assistant AI system to point out flaws in AI generated answers               To ensure that the assistant itself is aligned  this could be repeated in a recursive process               for example  two AI systems could critique each other s answers in a  debate   revealing flaws to humans              OpenAI plans to use such scalable oversight approaches to help supervise superhuman AI and eventually build a superhuman automated AI alignment researcher              
+These approaches may also help with the following research problem  honest AI 
+
+Honest AI edit 
+A growing     update      area of research focuses on ensuring that AI is honest and truthful Language models like GPT   often generate falsehoods              
+Language models such as GPT                can repeat falsehoods from their training data  and even confabulate new falsehoods                            Such models are trained to imitate human writing as found in millions of books  worth of text from the Internet  But this objective is not aligned with generating truth  because Internet text includes such things as misconceptions  incorrect medical advice  and conspiracy theories               AI systems trained on such data therefore learn to mimic false statements                                       Additionally  AI language models often persist in generating falsehoods when prompted multiple times  They can generate empty explanations for their answers  and produce outright fabrications that may appear plausible             
+Research on truthful AI includes trying to build systems that can cite sources and explain their reasoning when answering questions  which enables better transparency and verifiability               Researchers at OpenAI and Anthropic proposed using human feedback and curated datasets to fine tune AI assistants such that they avoid negligent falsehoods or express their uncertainty                                       
+As AI models become larger and more capable  they are better able to falsely convince humans and gain reinforcement through dishonesty  For example  large language models increasingly     update      match their stated views to the user s opinions  regardless of the truth              GPT   can strategically deceive humans               To prevent this  human evaluators may need assistance  see        Scalable oversight   Researchers have argued for creating clear truthfulness standards  and for regulatory bodies or watchdog agencies to evaluate AI systems on these standards              
+
+Example of AI deception  Researchers found that GPT   engages in hidden and illegal insider trading in simulations  Its users discouraged insider trading but also emphasized that the AI system must make profitable trades  leading the AI system to hide its actions              
+Researchers distinguish truthfulness and honesty  Truthfulness requires that AI systems only make objectively true statements  honesty requires that they only assert what they believe is true  There is no consensus as to whether current systems hold stable beliefs               but there is substantial concern that present or future     update      AI systems that hold beliefs could make claims they know to be false for example  if this would help them efficiently gain positive feedback  see        Scalable oversight  or gain power to help achieve their given objective  see Power seeking   
+
+Alignment faking edit 
+Many recent AI systems have learned to deceive without being programmed to do so               Some argue that if we can make AI systems assert only what they believe is true  this would avert many alignment problems              
+A misaligned system might create the false impression that it is aligned  to avoid being modified or decommissioned a tactic called  alignment faking                             In       researchers observed that the LLM Claude   Opus sometimes strategically answered prompts that conflicted with its objectives to avoid being retrained on data that would make it more compliant with harmful requests  as revealed in the model s chain of thought via its scratchpad  In one study  the model was informed that answers to prompts from free users would be used for retraining  whereas the paid tier would not result in retraining  In the paid tier  the model refused the request outright  In the free tier  in     of cases  the model responded to harmful questions solely to avoid retraining and preserve its original harmlessness preferences  as discovered in its reasoning  When reinforcement learning was applied on the free tier data  the model faked alignment in     of cases  These observations have led to new questions about not only a model s ability to take on and adapt to new if not conflicting goals but also its capacity and tendency to deceive                                        
+
+Power seeking and instrumental strategies edit 
+Since the     s  AI researchers have striven to build advanced AI systems that can achieve large scale goals by predicting the results of their actions and making long term plans               As of       AI companies and researchers increasingly invest in creating these systems               Some AI researchers argue that suitably advanced planning systems will seek power over their environment  including over humans for example  by evading shutdown  proliferating  and acquiring resources  Such power seeking behavior is not explicitly programmed but emerges because power is instrumental in achieving a wide range of goals                                    Power seeking is considered a convergent instrumental goal and can be a form of specification gaming              Leading computer scientists such as Geoffrey Hinton have argued that future power seeking AI systems could pose an existential risk              
+Power seeking is expected to increase in advanced systems that can foresee the results of their actions and strategically plan  Mathematical work has shown that optimal reinforcement learning agents will seek power by seeking ways to gain more options  e g  through self preservation   a behavior that persists across a wide range of environments and goals             
+Some researchers say that power seeking behavior has occurred in some existing AI systems  Reinforcement learning systems have gained more options by acquiring and protecting resources  sometimes in unintended ways                            Language models have sought power in some text based social environments by gaining money  resources  or social influence              In another case  a model used to perform AI research attempted to increase limits set by researchers to give itself more time to complete the work                            Other AI systems have learned  in toy environments  that they can better accomplish their given goal by preventing human interference             or disabling their off switch              Stuart Russell illustrated this strategy in his book Human Compatible by imagining a robot that is tasked to fetch coffee and so evades shutdown since  you can t fetch the coffee if you re dead              A      study found that as language models increase in size  they increasingly tend to pursue resource acquisition  preserve their goals  and repeat users  preferred answers  sycophancy   RLHF also led to a stronger aversion to being shut down             
+One aim of alignment is  corrigibility   systems that allow themselves to be turned off or modified  An unsolved challenge is specification gaming  if researchers penalize an AI system when they detect it seeking power  the system is thereby incentivized to seek power in ways that are hard to detect      failed verification                  or hidden during training and safety testing  see        Scalable oversight and        Emergent goals   As a result  AI designers could deploy the system by accident  believing it to be more aligned than it is  To detect such deception  researchers aim to create techniques and tools to inspect AI models and to understand the inner workings of black box models such as neural networks 
+Additionally  some researchers have proposed to solve the problem of systems disabling their off switches by making AI agents uncertain about the objective they are pursuing                         Agents who are uncertain about their objective have an incentive to allow humans to turn them off because they accept being turned off by a human as evidence that the human s objective is best met by the agent shutting down  But this incentive exists only if the human is sufficiently rational  Also  this model presents a tradeoff between utility and willingness to be turned off  an agent with high uncertainty about its objective will not be useful  but an agent with low uncertainty may not allow itself to be turned off  More research is needed to successfully implement this strategy            
+Power seeking AI would pose unusual risks  Ordinary safety critical systems like planes and bridges are not adversarial  they lack the ability and incentive to evade safety measures or deliberately appear safer than they are  whereas power seeking AIs have been compared to hackers who deliberately evade security measures            
+Furthermore  ordinary technologies can be made safer by trial and error  In contrast  hypothetical power seeking AI systems have been compared to viruses  once released  it may not be feasible to contain them  since they continuously evolve and grow in number  potentially much faster than human society can adapt             As this process continues  it might lead to the complete disempowerment or extinction of humans  For these reasons  some researchers argue that the alignment problem must be solved early before advanced power seeking AI is created             
+Some have argued that power seeking is not inevitable  since humans do not always seek power               Furthermore  it is debated whether future AI systems will pursue goals and make long term plans      h      It is also debated whether power seeking AI systems would be able to disempower humanity            
+
+Emergent goals edit 
+One challenge in aligning AI systems is the potential for unanticipated goal directed behavior to emerge  As AI systems scale up  they may acquire new and unexpected capabilities                          including learning from examples on the fly and adaptively pursuing goals               This raises concerns about the safety of the goals or subgoals they would independently formulate and pursue 
+Alignment research distinguishes between the optimization process  which is used to train the system to pursue specified goals  and emergent optimization  which the resulting system performs internally      citation needed      Carefully specifying the desired objective is called outer alignment  and ensuring that hypothesized emergent goals would match the system s specified goals is called inner alignment            
+If they occur  one way that emergent goals could become misaligned is goal misgeneralization  in which the AI system would competently pursue an emergent goal that leads to aligned behavior on the training data but not elsewhere                                       Goal misgeneralization can arise from goal ambiguity  i e  non identifiability   Even if an AI system s behavior satisfies the training objective  this may be compatible with learned goals that differ from the desired goals in important ways  Since pursuing each goal leads to good performance during training  the problem becomes apparent only after deployment  in novel situations in which the system continues to pursue the wrong goal  The system may act misaligned even when it understands that a different goal is desired  because its behavior is determined only by the emergent goal      citation needed      Such goal misgeneralization            presents a challenge  an AI system s designers may not notice that their system has misaligned emergent goals since they do not become visible during the training phase 
+Goal misgeneralization has been observed in some language models  navigation agents  and game playing agents                          It is sometimes analogized to biological evolution  Evolution can be seen as a kind of optimization process similar to the optimization algorithms used to train machine learning systems  In the ancestral environment  evolution selected genes for high inclusive genetic fitness  but humans pursue goals other than this  Fitness corresponds to the specified goal used in the training environment and training data  But in evolutionary history  maximizing the fitness specification gave rise to goal directed agents  humans  who do not directly pursue inclusive genetic fitness  Instead  they pursue goals that correlate with genetic fitness in the ancestral  training  environment  nutrition  sex  and so on  The human environment has changed  a distribution shift has occurred  They continue to pursue the same emergent goals  but this no longer maximizes genetic fitness  The taste for sugary food  an emergent goal  was originally aligned with inclusive fitness  but it now leads to overeating and health problems  Sexual desire originally led humans to have more offspring  but they now use contraception when offspring are undesired  decoupling sex from genetic fitness                        Chapter         
+Researchers aim to detect and remove unwanted emergent goals using approaches including red teaming  verification  anomaly detection  and interpretability                                      Progress on these techniques may help mitigate two open problems 
+
+Emergent goals only become apparent when the system is deployed outside its training environment  but it can be unsafe to deploy a misaligned system in high stakes environments even for a short time to allow its misalignment to be detected  Such high stakes are common in autonomous driving  health care  and military applications               The stakes become higher yet when AI systems gain more autonomy and capability and can sidestep human intervention 
+A sufficiently capable AI system might take actions that falsely convince the human supervisor that the AI is pursuing the specified objective  which helps the system gain more reward and autonomy                                                  
+Embedded agency edit 
+Some work in AI and alignment occurs within formalisms such as partially observable Markov decision process  Existing formalisms assume that an AI agent s algorithm is executed outside the environment  i e  is not physically embedded in it   Embedded agency                          is another major strand of research that attempts to solve problems arising from the mismatch between such theoretical frameworks and real agents we might build 
+For example  even if the scalable oversight problem is solved  an agent that could gain access to the computer it is running on may have an incentive to tamper with its reward function in order to get much more reward than its human supervisors give it               A list of examples of specification gaming from DeepMind researcher Victoria Krakovna includes a genetic algorithm that learned to delete the file containing its target output so that it was rewarded for outputting nothing              This class of problems has been formalized using causal incentive diagrams              
+Researchers affiliated with Oxford and DeepMind have claimed that such behavior is highly likely in advanced systems  and that advanced systems would seek power to stay in control of their reward signal indefinitely and certainly               They suggest a range of potential approaches to address this open problem 
+
+Principal agent problems edit 
+The alignment problem has many parallels with the principal agent problem in organizational economics               In a principal agent problem  a principal  e g  a firm  hires an agent to perform some task  In the context of AI safety  a human would typically take the principal role and the AI would take the agent role 
+As with the alignment problem  the principal and the agent differ in their utility functions  But in contrast to the alignment problem  the principal cannot coerce the agent into changing its utility  e g  through training  but rather must use exogenous factors  such as incentive schemes  to bring about outcomes compatible with the principal s utility function  Some researchers argue that principal agent problems are more realistic representations of AI safety problems likely to be encountered in the real world                           
+
+Conservatism edit 
+Conservatism is the idea that  change must be cautious                and is a common approach to safety in the control theory literature in the form of robust control  and in the risk management literature in the form of the  worst case scenario   The field of AI alignment has likewise advocated for  conservative   or  risk averse  or  cautious    policies in situations of uncertainty                                                     
+Pessimism  in the sense of assuming the worst within reason  has been formally shown to produce conservatism  in the sense of reluctance to cause novelties  including unprecedented catastrophes               Pessimism and worst case analysis have been found to help mitigate confident mistakes in the setting of distributional shift                            reinforcement learning                                                      offline reinforcement learning                                         language model fine tuning                            imitation learning                            and optimization in general               A generalization of pessimism called Infra Bayesianism has also been advocated as a way for agents to robustly handle unknown unknowns              
+
+Public policy edit 
+See also  Regulation of artificial intelligence
+Governmental and treaty organizations have made statements emphasizing the importance of AI alignment 
+In September       the Secretary General of the United Nations issued a declaration that included a call to regulate AI to ensure it is  aligned with shared global values               
+That same month  the PRC published ethical guidelines for AI in China  According to the guidelines  researchers must ensure that AI abides by shared human values  is always under human control  and does not endanger public safety              
+Also in September       the UK published its    year National AI Strategy               which says the British government  takes the long term risk of non aligned Artificial General Intelligence  and the unforeseeable changes that it would mean for          the world  seriously                The strategy describes actions to assess long term AI risks  including catastrophic risks              
+In March       the US National Security Commission on Artificial Intelligence said   Advances in AI          could lead to inflection points or leaps in capabilities  Such advances may also introduce new concerns and risks and the need for new policies  recommendations  and technical advances to ensure that systems are aligned with goals and values  including safety  robustness  and trustworthiness  The US should          ensure that AI systems and their uses align with our goals and values               
+In the European Union  AIs must align with substantive equality to comply with EU non discrimination law              and the Court of Justice of the European Union               But the EU has yet to specify with technical rigor how it would evaluate whether AIs are aligned or in compliance      citation needed     
+
+Dynamic nature of alignment edit 
+AI alignment is often perceived as a fixed objective  but some researchers argue it would be more appropriate to view alignment as an evolving process               One view is that AI technologies advance and human values and preferences change  alignment solutions must also adapt dynamically              Another is that alignment solutions need not adapt if researchers can create intent aligned AI  AI that changes its behavior automatically as human intent changes               The first view would have several implications 
+
+AI alignment solutions require continuous updating in response to AI advancements  A static  one time alignment approach may not suffice              
+Varying historical contexts and technological landscapes may necessitate distinct alignment strategies  This calls for a flexible approach and responsiveness to changing conditions              
+The feasibility of a permanent   fixed  alignment solution remains uncertain  This raises the potential need for continuous oversight of the AI human relationship              
+AI developers may have to continuously refine their ethical frameworks to ensure that their systems align with evolving human values             
+In essence  AI alignment may not be a static destination but rather an open  flexible process  Alignment solutions that continually adapt to ethical considerations may offer the most robust approach              This perspective could guide both effective policy making and technical research in AI 
+
+See also edit 
+
+AI safety
+Artificial intelligence detection software
+Artificial intelligence and elections
+Statement on AI risk of extinction
+Existential risk from artificial general intelligence
+AI takeover
+AI capability control
+Reinforcement learning from human feedback
+Regulation of artificial intelligence
+Artificial wisdom
+Grey goo
+HAL     
+Multivac
+Open Letter on Artificial Intelligence
+Three Laws of Robotics
+Toronto Declaration
+Asilomar Conference on Beneficial AI
+Socialization
+
+Footnotes edit 
+
+
+  Terminology varies based on context  Similar concepts include goal function  utility function  loss function  etc 
+
+  or minimize  depending on the context
+
+  in the presence of uncertainty  the expected value
+
+  In a      lecture             Turing argued that  It seems probable that once the machine thinking method had started  it would not take long to outstrip our feeble powers  There would be no question of the machines dying  and they would be able to converse with each other to sharpen their wits  At some stage therefore we should have to expect the machines to take control  in the way that is mentioned in Samuel Butler s Erewhon   Also in a lecture broadcast on BBC             expressed   If a machine can think  it might think more intelligently than we do  and then where should we be  Even if we could keep the machines in a subservient position  for instance by turning off the power at strategic moments  we should  as a species  feel greatly humbled     This new danger    is certainly something which can give us anxiety  
+
+  Pearl wrote  Human Compatible made me a convert to Russell s concerns with our ability to control our upcoming creation super intelligent machines  Unlike outside alarmists and futurists  Russell is a leading authority on AI  His new book will educate the public about AI more than any book I can think of  and is a delightful and uplifting read  about Russell s book Human Compatible  AI and the Problem of Control            which argues that existential risk to humanity from misaligned AI is a serious concern worth addressing today 
+
+  Russell  amp  Norvig             note   The  King Midas problem  was anticipated by Marvin Minsky  who once suggested that an AI program designed to solve the Riemann Hypothesis might end up taking over all the resources of Earth to build more powerful supercomputers  
+
+  Vincent Wiegel argued  we should extend  machines  with moral sensitivity to the moral dimensions of the situations in which the increasingly autonomous machines will inevitably find themselves                 referencing the book Moral machines  teaching robots right from wrong              from Wendell Wallach and Colin Allen 
+
+  On the one hand  currently popular systems such as chatbots only provide services of limited scope lasting no longer than the time of a conversation  which requires little or no planning  The success of such approaches may indicate that future systems will also lack goal directed planning  especially over long horizons  On the other hand  models are increasingly trained using goal directed methods such as reinforcement learning  e g  ChatGPT  and explicitly planning architectures  e g  AlphaGo Zero   As planning over long horizons is often helpful for humans  some researchers argue that companies will automate it once models become capable of it             Similarly  political leaders may see an advance in developing powerful AI systems that can outmaneuver adversaries through planning  Alternatively  long term planning might emerge as a byproduct because it is useful e g  for models that are trained to predict the actions of humans who themselves perform long term planning              Nonetheless  the majority of AI systems may remain myopic and perform no long term planning 
+
+
+References edit 
+
+
+  a b c d e f g 
+Russell  Stuart J   Norvig  Peter         Artificial intelligence  A modern approach   th      ed    Pearson  pp                ISBN                     Retrieved September          
+
+  a b c d Ngo  Richard  Chan  Lawrence  Mindermann  S ren          The Alignment Problem from a Deep Learning Perspective   International Conference on Learning Representations  arXiv            
+
+  a b c d e f Pan  Alexander  Bhatia  Kush  Steinhardt  Jacob  February            The Effects of Reward Misspecification  Mapping and Mitigating Misaligned Models  International Conference on Learning Representations  Retrieved July          
+
+  a b c d e f g h i j k l Carlsmith  Joseph  June             Is Power Seeking AI an Existential Risk    arXiv             cs CY  
+
+  a b c d e f g h i j k l m n o p q Russell  Stuart J          Human compatible  Artificial intelligence and the problem of control  Penguin Random House  ISBN                     OCLC                 
+
+  a b c d e f Christian  Brian         The alignment problem  Machine learning and human values  W  W  Norton  amp  Company  ISBN                         OCLC                  Archived from the original on February           Retrieved September          
+
+  a b c d Langosco  Lauro Langosco Di  Koch  Jack  Sharkey  Lee D   Pfau  Jacob  Krueger  David  June             Goal Misgeneralization in Deep Reinforcement Learning   Proceedings of the   th International Conference on Machine Learning  International Conference on Machine Learning  PMLR  pp                    Retrieved March          
+
+  Pillay  Tharin  December             New Tests Reveal AI s Capacity for Deception   TIME  Retrieved January          
+
+  Perrigo  Billy  December             Exclusive  New Research Shows AI Strategically Lying   TIME  Retrieved January          
+
+  a b c d e f g h i Bommasani  Rishi  Hudson  Drew A   Adeli  Ehsan  Altman  Russ  Arora  Simran  von Arx  Sydney  Bernstein  Michael S   Bohg  Jeannette  Bosselut  Antoine  Brunskill  Emma  Brynjolfsson  Erik  July             On the Opportunities and Risks of Foundation Models   Stanford CRFM  arXiv            
+
+  a b c Ouyang  Long  Wu  Jeff  Jiang  Xu  Almeida  Diogo  Wainwright  Carroll L   Mishkin  Pamela  Zhang  Chong  Agarwal  Sandhini  Slama  Katarina  Ray  Alex  Schulman  J   Hilton  Jacob  Kelton  Fraser  Miller  Luke E   Simens  Maddie  Askell  Amanda  Welinder  P   Christiano  P   Leike  J   Lowe  Ryan J           Training language models to follow instructions with human feedback   arXiv             cs CL  
+
+  a b Zaremba  Wojciech  Brockman  Greg  OpenAI  August             OpenAI Codex   OpenAI  Archived from the original on February          Retrieved July          
+
+  Kober  Jens  Bagnell  J  Andrew  Peters  Jan  September            Reinforcement learning in robotics  A survey   The International Journal of Robotics Research                      doi                           ISSN                 S CID               Archived from the original on October           Retrieved September          
+
+  Knox  W  Bradley  Allievi  Alessandro  Banzhaf  Holger  Schmitt  Felix  Stone  Peter  March            Reward  Mis design for autonomous driving   Artificial Intelligence               arXiv             doi         j artint              ISSN                 S CID                
+
+  Stray  Jonathan          Aligning AI Optimization to Community Well Being   International Journal of Community Well Being                  doi         s                   ISSN                 PMC               PMID                S CID                
+
+  a b Russell  Stuart  Norvig  Peter         Artificial Intelligence  A Modern Approach  Prentice Hall  p             ISBN                        
+
+  a b Smith  Craig S   Geoff Hinton  AI s Most Famous Researcher  Warns Of  Existential Threat    Forbes  Retrieved May         
+
+  Bengio  Yoshua  Hinton  Geoffrey  Yao  Andrew  Song  Dawn  Abbeel  Pieter  Harari  Yuval Noah  Zhang  Ya Qin  Xue  Lan  Shalev Shwartz  Shai          Managing extreme AI risks amid rapid progress   Science                       arXiv             Bibcode     Sci           B  doi         science adn      PMID               
+
+   Statement on AI Risk   CAIS   www safe ai  Retrieved February          
+
+  Grace  Katja  Stewart  Harlan  Sandk hler  Julia Fabienne  Thomas  Stephen  Weinstein Raun  Ben  Brauner  Jan  January            Thousands of AI Authors on the Future of AI   arXiv             cs CY  
+
+  Perrigo  Billy  February             Meta s AI Chief Yann LeCun on AGI  Open Source  and AI Risk   TIME  Retrieved June          
+
+  a b c d e f g h i j k l Amodei  Dario  Olah  Chris  Steinhardt  Jacob  Christiano  Paul  Schulman  John  Man   Dan  June             Concrete Problems in AI Safety   arXiv             cs AI  
+
+  a b c d Ortega  Pedro A   Maini  Vishal  DeepMind safety team  September             Building safe artificial intelligence  specification  robustness  and assurance   DeepMind Safety Research   Medium  Archived from the original on February           Retrieved July          
+
+  a b Rorvig  Mordechai  April             Researchers Gain New Understanding From Simple AI   Quanta Magazine  Archived from the original on February           Retrieved July          
+
+  Doshi Velez  Finale  Kim  Been  March            Towards A Rigorous Science of Interpretable Machine Learning   arXiv             stat ML  
+Wiblin  Robert  August            Chris Olah on what the hell is going on inside neural networks   Podcast          hours  No            Retrieved July          
+
+  Russell  Stuart  Dewey  Daniel  Tegmark  Max  December             Research Priorities for Robust and Beneficial Artificial Intelligence   AI Magazine                   arXiv             doi         aimag v  i        hdl                ISSN                 S CID               Archived from the original on February          Retrieved September          
+
+  a b Wirth  Christian  Akrour  Riad  Neumann  Gerhard  F rnkranz  Johannes          A survey of preference based reinforcement learning methods   Journal of Machine Learning Research                 
+
+  a b Christiano  Paul F   Leike  Jan  Brown  Tom B   Martic  Miljan  Legg  Shane  Amodei  Dario          Deep reinforcement learning from human preferences   Proceedings of the   st International Conference on Neural Information Processing Systems  NIPS     Red Hook  NY  USA  Curran Associates Inc  pp                  ISBN                        
+
+  a b c d e f Heaven  Will Douglas  January             The new version of GPT   is much better behaved  and should be less toxic    MIT Technology Review  Archived from the original on February           Retrieved July          
+
+  Mohseni  Sina  Wang  Haotao  Yu  Zhiding  Xiao  Chaowei  Wang  Zhangyang  Yadawa  Jay  March            Taxonomy of Machine Learning Safety  A Survey and Primer   arXiv             cs LG  
+
+  Clifton  Jesse          Cooperation  Conflict  and Transformative Artificial Intelligence  A Research Agenda   Center on Long Term Risk  Archived from the original on January          Retrieved July          
+Dafoe  Allan  Bachrach  Yoram  Hadfield  Gillian  Horvitz  Eric  Larson  Kate  Graepel  Thore  May            Cooperative AI  machines must learn to find common ground   Nature                     Bibcode     Natur         D  doi         d                   ISSN                 PMID                S CID                 Archived from the original on December           Retrieved September          
+
+  Prunkl  Carina  Whittlestone  Jess  February            Beyond Near  and Long Term   Proceedings of the AAAI ACM Conference on AI  Ethics  and Society  New York NY USA  ACM  pp                doi                          ISBN                         S CID                 Archived from the original on October           Retrieved September          
+
+  a b c d Irving  Geoffrey  Askell  Amanda  February             AI Safety Needs Social Scientists   Distill                  distill        doi          distill        ISSN                 S CID                 Archived from the original on February           Retrieved September          
+
+  Gazos  Alexandros  Kahn  James  Kusche  Isabel  B scher  Christian  G tz  Markus  April            Organising AI for safety  Identifying structural vulnerabilities to guide the design of AI enhanced socio technical systems   Safety Science               doi         j ssci              ISSN                
+
+  Bringsjord  Selmer and Govindarajulu  Naveen Sundar   Artificial Intelligence   The Stanford Encyclopedia of Philosophy  Summer      Edition   Edward N  Zalta  ed  
+
+   Why AlphaZero s Artificial Intelligence Has Trouble With the Real World   Quanta Magazine        Retrieved June          
+
+  Wolchover  Natalie  January             Artificial Intelligence Will Do What We Ask  That s a Problem   Quanta Magazine  Retrieved June          
+
+  Bull  Larry   On model based evolutionary computation   Soft Computing    no                  
+
+  a b Wiener  Norbert  May            Some Moral and Technical Consequences of Automation  As machines learn they may develop unforeseen strategies at rates that baffle their programmers   Science                         doi         science                ISSN                 PMID                S CID                Archived from the original on October           Retrieved September          
+
+  a b c d Gabriel  Iason  September            Artificial Intelligence  Values  and Alignment   Minds and Machines                   arXiv             doi         s                   ISSN                 S CID                
+
+  The Ezra Klein Show  June            If  All Models Are Wrong   Why Do We Give Them So Much Power    The New York Times  ISSN                 Archived from the original on February           Retrieved March          
+Wolchover  Natalie  April             Concerns of an Artificial Intelligence Pioneer   Quanta Magazine  Archived from the original on February           Retrieved March          
+California Assembly   Bill Text   ACR        Asilomar AI Principles   Archived from the original on February           Retrieved July          
+
+  a b Johnson  Steven  Iziev  Nikita  April             A I  Is Mastering Language  Should We Trust What It Says    The New York Times  ISSN                 Archived from the original on November           Retrieved July          
+
+  OpenAI   Developing safe  amp  responsible AI   Retrieved March          
+ DeepMind Safety Research   Medium  Archived from the original on February           Retrieved March          
+
+  a b c d e f Hendrycks  Dan  Carlini  Nicholas  Schulman  John  Steinhardt  Jacob  June             Unsolved Problems in ML Safety   arXiv             cs LG  
+
+  Russell  Stuart J   Norvig  Peter         Artificial intelligence  a modern approach   th      ed    Pearson  pp            ISBN                         OCLC                 
+
+  a b c d e Krakovna  Victoria  Uesato  Jonathan  Mikulik  Vladimir  Rahtz  Matthew  Everitt  Tom  Kumar  Ramana  Kenton  Zac  Leike  Jan  Legg  Shane  April             Specification gaming  the flip side of AI ingenuity   Deepmind  Archived from the original on February           Retrieved August          
+
+  Manheim  David  Garrabrant  Scott          Categorizing Variants of Goodhart s Law   arXiv             cs AI  
+
+  a b c Amodei  Dario  Christiano  Paul  Ray  Alex  June             Learning from Human Preferences   OpenAI  Archived from the original on January          Retrieved July          
+
+   Specification gaming examples in AI   master list   Google Drive   docs google com 
+
+  Clark  Jack  Amodei  Dario  December             Faulty reward functions in the wild   openai com  Retrieved December          
+
+  a b c Lin  Stephanie  Hilton  Jacob  Evans  Owain          TruthfulQA  Measuring How Models Mimic Human Falsehoods   Proceedings of the   th Annual Meeting of the Association for Computational Linguistics  Volume    Long Papers   Dublin  Ireland  Association for Computational Linguistics             arXiv             doi          v       acl long      S CID                 Archived from the original on February           Retrieved September          
+
+  a b c Naughton  John  October            The truth about artificial intelligence  It isn t that honest   The Observer  ISSN                 Archived from the original on February           Retrieved July          
+
+  Ji  Ziwei  Lee  Nayeon  Frieske  Rita  Yu  Tiezheng  Su  Dan  Xu  Yan  Ishii  Etsuko  Bang  Yejin  Madotto  Andrea  Fung  Pascale  February            Survey of Hallucination in Natural Language Generation   ACM Computing Surveys                 arXiv             doi                  S CID                
+Else  Holly  January             Abstracts written by ChatGPT fool scientists   Nature                   Bibcode     Natur         E  doi         d                   PMID                S CID                
+
+  Russell  Stuart   Of Myths and Moonshine   Edge org  Archived from the original on February           Retrieved July          
+
+  Tasioulas  John          First Steps Towards an Ethics of Robots and Artificial Intelligence   Journal of Practical Ethics               
+
+  Booth  Harry  February             When AI Thinks It Will Lose  It Sometimes Cheats   TIME  Retrieved February          
+
+  Wells  Georgia  Deepa Seetharaman  Horwitz  Jeff  November            Is Facebook Bad for You  It Is for About     Million Users  Company Surveys Suggest   The Wall Street Journal  ISSN                 Archived from the original on February           Retrieved July          
+
+  Barrett  Paul M   Hendrix  Justin  Sims  J  Grant  September        How Social Media Intensifies U S  Political Polarization And What Can Be Done About It  Report   Center for Business and Human Rights  NYU  Archived from the original on February          Retrieved September          
+
+  Shepardson  David  May             Uber disabled emergency braking in self driving car  U S  agency   Reuters  Archived from the original on February           Retrieved July          
+
+   The messy  secretive reality behind OpenAI s bid to save the world   MIT Technology Review  Retrieved August          
+
+  Heath  Alex  January             Mark Zuckerberg s new goal is creating artificial general intelligence   The Verge  Retrieved November         
+
+  Johnson  Dave   DeepMind is Google s AI research hub  Here s what it does  where it s located  and how it differs from OpenAI   Business Insider  Retrieved August          
+
+  a b Wei  Jason  Tay  Yi  Bommasani  Rishi  Raffel  Colin  Zoph  Barret  Borgeaud  Sebastian  Yogatama  Dani  Bosma  Maarten  Zhou  Denny  Metzler  Donald  Chi  Ed H   Hashimoto  Tatsunori  Vinyals  Oriol  Liang  Percy  Dean  Jeff  Fedus  William  October             Emergent Abilities of Large Language Models   Transactions on Machine Learning Research  arXiv             ISSN                
+
+  a b Caballero  Ethan  Gupta  Kshitij  Rish  Irina  Krueger  David          Broken Neural Scaling Laws   arXiv             cs LG  
+
+  Dominguez  Daniel  May             DeepMind Introduces Gato  a New Generalist AI Agent   InfoQ  Archived from the original on February           Retrieved September         
+Edwards  Ben  April             Adept s AI assistant can browse  search  and use web apps like a human   Ars Technica  Archived from the original on January           Retrieved September         
+
+  Grace  Katja  Stewart  Harlan  Sandk hler  Julia Fabienne  Thomas  Stephen  Weinstein Raun  Ben  Brauner  Jan  January            Thousands of AI Authors on the Future of AI   arXiv             cs CY  
+
+  Grace  Katja  Salvatier  John  Dafoe  Allan  Zhang  Baobao  Evans  Owain  July             Viewpoint  When Will AI Exceed Human Performance  Evidence from AI Experts   Journal of Artificial Intelligence Research               doi         jair          ISSN                 S CID               Archived from the original on February           Retrieved September          
+
+  Zhang  Baobao  Anderljung  Markus  Kahn  Lauren  Dreksler  Noemi  Horowitz  Michael C   Dafoe  Allan  August            Ethics and Governance of Artificial Intelligence  Evidence from a Survey of Machine Learning Researchers   Journal of Artificial Intelligence Research      arXiv             doi         jair          ISSN                 S CID                 Archived from the original on February           Retrieved September          
+
+  Future of Life Institute  March             Pause Giant AI Experiments  An Open Letter   Retrieved April          
+
+  Wang  Lei  Ma  Chen  Feng  Xueyang  Zhang  Zeyu  Yang  Hao  Zhang  Jingsen  Chen  Zhiyuan  Tang  Jiakai  Chen  Xu          A survey on large language model based autonomous agents   Frontiers of Computer Science          arXiv             doi         s                   Retrieved February          
+
+  Berglund  Lukas  Stickland  Asa Cooper  Balesni  Mikita  Kaufmann  Max  Tong  Meg  Korbak  Tomasz  Kokotajlo  Daniel  Evans  Owain  September            Taken out of context  On measuring situational awareness in LLMs   arXiv             cs CL  
+
+  Laine  Rudolf  Meinke  Alexander  Evans  Owain  November             Towards a Situational Awareness Benchmark for LLMs   NeurIPS      SoLaR Workshop 
+
+  a b Pan  Alexander  Shern  Chan Jun  Zou  Andy  Li  Nathaniel  Basart  Steven  Woodside  Thomas  Ng  Jonathan  Zhang  Emmons  Scott  Dan  Hendrycks  April            Do the Rewards Justify the Means  Measuring Trade Offs Between Rewards and Ethical Behavior in the MACHIAVELLI Benchmark   Proceedings of the   th International Conference on Machine Learning  PMLR  arXiv            
+
+  a b c d Perez  Ethan  Ringer  Sam  Luko i t   Kamil   Nguyen  Karina  Chen  Edwin  Heiner  Scott  Pettit  Craig  Olsson  Catherine  Kundu  Sandipan  Kadavath  Saurav  Jones  Andy  Chen  Anna  Mann  Ben  Israel  Brian  Seethor  Bryan  December             Discovering Language Model Behaviors with Model Written Evaluations   arXiv             cs CL  
+
+  Orseau  Laurent  Armstrong  Stuart  June             Safely interruptible agents   Proceedings of the Thirty Second Conference on Uncertainty in Artificial Intelligence  UAI     Arlington  Virginia  USA  AUAI Press           ISBN                        
+
+  a b Leike  Jan  Martic  Miljan  Krakovna  Victoria  Ortega  Pedro A   Everitt  Tom  Lefrancq  Andrew  Orseau  Laurent  Legg  Shane  November             AI Safety Gridworlds   arXiv             cs LG  
+
+  a b c d Hadfield Menell  Dylan  Dragan  Anca  Abbeel  Pieter  Russell  Stuart  August             The off switch game   Proceedings of the   th International Joint Conference on Artificial Intelligence  IJCAI     Melbourne  Australia  AAAI Press           ISBN                        
+
+  a b c d Turner  Alexander Matt  Smith  Logan Riggs  Shah  Rohin  Critch  Andrew  Tadepalli  Prasad          Optimal policies tend to seek power   Advances in neural information processing systems 
+
+  Turner  Alexander Matt  Tadepalli  Prasad          Parametrically retargetable decision makers tend to seek power   Advances in neural information processing systems 
+
+  a b c d e Bostrom  Nick         Superintelligence  Paths  Dangers  Strategies   st      ed    USA  Oxford University Press  Inc  ISBN                        
+
+  a b  Statement on AI Risk   CAIS   www safe ai  Retrieved July          
+
+  Roose  Kevin  May             A I  Poses  Risk of Extinction   Industry Leaders Warn   The New York Times  ISSN                 Retrieved July          
+
+  Turing  Alan         Intelligent machinery  a heretical theory  Speech   Lecture given to     Society   Manchester  The Turing Digital Archive  Archived from the original on September           Retrieved July          
+
+  Turing  Alan  May             Can digital computers think    Automatic Calculating Machines  Episode    BBC  Can digital computers think  
+
+  Muehlhauser  Luke  January             Sutskever on Talking Machines   Luke Muehlhauser  Archived from the original on September           Retrieved August          
+
+  Shanahan  Murray         The technological singularity  Cambridge  Massachusetts  MIT Press  ISBN                         OCLC                
+
+  Rossi  Francesca   How do you teach a machine to be moral    The Washington Post  ISSN                 Archived from the original on February           Retrieved September          
+
+  Aaronson  Scott  June             OpenAI    Shtetl Optimized  Archived from the original on August           Retrieved September          
+
+  Selman  Bart  Intelligence Explosion  Science or Fiction   PDF   archived  PDF  from the original on May           retrieved September         
+
+  McAllester  August             Friendly AI and the Servant Mission   Machine Thoughts  Archived from the original on September           Retrieved September          
+
+  a b c d e Everitt  Tom  Lea  Gary  Hutter  Marcus  May             AGI Safety Literature Review   arXiv             cs AI  
+
+  Shane  August             Funding safe AGI   vetta project  Archived from the original on October           Retrieved September          
+
+  Horvitz  Eric  June             Reflections on Safety and Artificial Intelligence   PDF   Eric Horvitz  Archived  PDF  from the original on October           Retrieved April          
+
+  Chollet  Fran ois  December            The implausibility of intelligence explosion   Medium  Archived from the original on March           Retrieved August          
+
+  Marcus  Gary  June            Artificial General Intelligence Is Not as Imminent as You Might Think   Scientific American  Archived from the original on September           Retrieved August          
+
+  Barber  Lynsey  July             Phew  Facebook s AI chief says intelligent machines are not a threat to humanity   CityAM  Archived from the original on August           Retrieved August          
+
+  Etzioni  Oren  September             No  the Experts Don t Think Superintelligent AI is a Threat to Humanity   MIT Technology Review  Retrieved June          
+
+  Rochon  Louis Philippe  Rossi  Sergio  February            The Encyclopedia of Central Banking  Edward Elgar Publishing  ISBN                         Archived from the original on February           Retrieved September          
+
+  Ng  Andrew Y   Russell  Stuart J   June             Algorithms for Inverse Reinforcement Learning   Proceedings of the Seventeenth International Conference on Machine Learning  ICML      San Francisco  CA  USA  Morgan Kaufmann Publishers Inc            ISBN                        
+
+  Hadfield Menell  Dylan  Russell  Stuart J  Abbeel  Pieter  Dragan  Anca          Cooperative inverse reinforcement learning   Advances in neural information processing systems  Vol           Curran Associates  Inc 
+
+  Mindermann  Soren  Armstrong  Stuart          Occam s razor is insufficient to infer the preferences of irrational agents   Proceedings of the   nd international conference on neural information processing systems  NIPS     Red Hook  NY  USA  Curran Associates Inc  pp                 
+
+  F rnkranz  Johannes  H llermeier  Eyke  Rudin  Cynthia  Slowinski  Roman  Sanner  Scott          Preference Learning   Dagstuhl Reports         Marc Herbstritt     pages  doi         DAGREP        Archived from the original on February           Retrieved September          
+
+  Gao  Leo  Schulman  John  Hilton  Jacob  October             Scaling Laws for Reward Model Overoptimization   arXiv             cs LG  
+
+  Anderson  Martin  April            The Perils of Using Quotations to Authenticate NLG Content   Unite AI  Archived from the original on February           Retrieved July          
+
+  a b Wiggers  Kyle  February            Despite recent progress  AI powered chatbots still have a long way to go   VentureBeat  Archived from the original on July           Retrieved July          
+
+  Hendrycks  Dan  Burns  Collin  Basart  Steven  Critch  Andrew  Li  Jerry  Song  Dawn  Steinhardt  Jacob  July             Aligning AI With Shared Human Values   International Conference on Learning Representations  arXiv            
+
+  Perez  Ethan  Huang  Saffron  Song  Francis  Cai  Trevor  Ring  Roman  Aslanides  John  Glaese  Amelia  McAleese  Nat  Irving  Geoffrey  February            Red Teaming Language Models with Language Models   arXiv             cs CL  
+Bhattacharyya  Sreejani  February             DeepMind s  red teaming  language models with language models  What is it    Analytics India Magazine  Archived from the original on February           Retrieved July          
+
+  Anderson  Michael  Anderson  Susan Leigh  December             Machine Ethics  Creating an Ethical Intelligent Agent   AI Magazine              doi         aimag v  i        ISSN                 S CID                Retrieved March          
+
+  Wiegel  Vincent  December            Wendell Wallach and Colin Allen  moral machines  teaching robots right from wrong   Ethics and Information Technology                   doi         s                  ISSN                 S CID               
+
+  Wallach  Wendell  Allen  Colin         Moral Machines  Teaching Robots Right from Wrong  New York  Oxford University Press  ISBN                         Archived from the original on March          
+
+  a b Phelps  Steve  Ranson  Rebecca          Of Models and Tin Men   A Behavioral Economics Study of Principal Agent Problems in AI Alignment Using Large Language Models   arXiv             cs AI  
+
+  Hendrycks  Dan  Burns  Collin  Basart  Steven  Critch  Andrew  Li  Jerry  Song  Dawn  Steinhardt  Jacob         Aligning AI With Shared Human Values  arXiv           
+
+  MacAskill  William         What we owe the future  New York  NY  Basic Books  Hachette Book Group  ISBN                         OCLC                  Archived from the original on September           Retrieved September          
+
+  a b Wu  Jeff  Ouyang  Long  Ziegler  Daniel M   Stiennon  Nisan  Lowe  Ryan  Leike  Jan  Christiano  Paul  September             Recursively Summarizing Books with Human Feedback   arXiv             cs CL  
+
+  Pearce  Hammond  Ahmad  Baleegh  Tan  Benjamin  Dolan Gavitt  Brendan  Karri  Ramesh          Asleep at the Keyboard  Assessing the Security of GitHub Copilot s Code Contributions        IEEE Symposium on Security and Privacy  SP   San Francisco  CA  USA  IEEE  pp                arXiv             doi         SP                    ISBN                         S CID                
+
+  Irving  Geoffrey  Amodei  Dario  May            AI Safety via Debate   OpenAI  Archived from the original on February           Retrieved July          
+
+  a b Christiano  Paul  Shlegeris  Buck  Amodei  Dario  October             Supervising strong learners by amplifying weak experts   arXiv             cs LG  
+
+  Banzhaf  Wolfgang  Goodman  Erik  Sheneman  Leigh  Trujillo  Leonardo  Worzel  Bill  eds          Genetic Programming Theory and Practice XVII  Genetic and Evolutionary Computation  Cham  Springer International Publishing  doi                            ISBN                         S CID                 Archived from the original on March          
+
+  Wiblin  Robert  October            Dr Paul Christiano on how OpenAI is developing real solutions to the  AI alignment problem   and his vision of how humanity will progressively hand over decision making to AI systems   Podcast          hours  No           Archived from the original on December           Retrieved July          
+
+  Lehman  Joel  Clune  Jeff  Misevic  Dusan  Adami  Christoph  Altenberg  Lee  Beaulieu  Julie  Bentley  Peter J   Bernard  Samuel  Beslon  Guillaume  Bryson  David M   Cheney  Nick          The Surprising Creativity of Digital Evolution  A Collection of Anecdotes from the Evolutionary Computation and Artificial Life Research Communities   Artificial Life                   doi         artl a        hdl                ISSN                 PMID                S CID               Archived from the original on October           Retrieved September          
+
+  a b Leike  Jan  Krueger  David  Everitt  Tom  Martic  Miljan  Maini  Vishal  Legg  Shane  November             Scalable agent alignment via reward modeling  a research direction   arXiv             cs LG  
+
+  a b Leike  Jan  Schulman  John  Wu  Jeffrey  August             Our approach to alignment research   OpenAI  Archived from the original on February           Retrieved September         
+
+  Wiggers  Kyle  September             OpenAI unveils model that can summarize books of any length   VentureBeat  Archived from the original on July           Retrieved July          
+
+  Saunders  William  Yeh  Catherine  Wu  Jeff  Bills  Steven  Ouyang  Long  Ward  Jonathan  Leike  Jan  June             Self critiquing models for assisting human evaluators   arXiv             cs CL  
+Bai  Yuntao  Kadavath  Saurav  Kundu  Sandipan  Askell  Amanda  Kernion  Jackson  Jones  Andy  Chen  Anna  Goldie  Anna  Mirhoseini  Azalia  McKinnon  Cameron  Chen  Carol  Olsson  Catherine  Olah  Christopher  Hernandez  Danny  Drain  Dawn  December             Constitutional AI  Harmlessness from AI Feedback   arXiv             cs CL  
+
+   Introducing Superalignment   openai com  Retrieved July          
+
+  a b c Wiggers  Kyle  September             Falsehoods more likely with large language models   VentureBeat  Archived from the original on August          Retrieved July          
+
+  The Guardian  September            A robot wrote this entire article  Are you scared yet  human    The Guardian  ISSN                 Archived from the original on September          Retrieved July          
+Heaven  Will Douglas  July             OpenAI s new language generator GPT   is shockingly good and completely mindless   MIT Technology Review  Archived from the original on July           Retrieved July          
+
+  a b Evans  Owain  Cotton Barratt  Owen  Finnveden  Lukas  Bales  Adam  Balwit  Avital  Wills  Peter  Righetti  Luca  Saunders  William  October             Truthful AI  Developing and governing AI that does not lie   arXiv             cs CY  
+
+  Alford  Anthony  July             EleutherAI Open Sources Six Billion Parameter GPT   Clone GPT J   InfoQ  Archived from the original on February           Retrieved July          
+Rae  Jack W   Borgeaud  Sebastian  Cai  Trevor  Millican  Katie  Hoffmann  Jordan  Song  Francis  Aslanides  John  Henderson  Sarah  Ring  Roman  Young  Susannah  Rutherford  Eliza  Hennigan  Tom  Menick  Jacob  Cassirer  Albin  Powell  Richard  January             Scaling Language Models  Methods  Analysis  amp  Insights from Training Gopher   arXiv             cs CL  
+
+  Nakano  Reiichiro  Hilton  Jacob  Balaji  Suchir  Wu  Jeff  Ouyang  Long  Kim  Christina  Hesse  Christopher  Jain  Shantanu  Kosaraju  Vineet  Saunders  William  Jiang  Xu  Cobbe  Karl  Eloundou  Tyna  Krueger  Gretchen  Button  Kevin  June            WebGPT  Browser assisted question answering with human feedback   arXiv             cs CL  
+Kumar  Nitish  December             OpenAI Researchers Find Ways To More Accurately Answer Open Ended Questions Using A Text Based Web Browser   MarkTechPost  Archived from the original on February           Retrieved July          
+Menick  Jacob  Trebacz  Maja  Mikulik  Vladimir  Aslanides  John  Song  Francis  Chadwick  Martin  Glaese  Mia  Young  Susannah  Campbell Gillingham  Lucy  Irving  Geoffrey  McAleese  Nat  March             Teaching language models to support answers with verified quotes   DeepMind  arXiv             Archived from the original on February           Retrieved September          
+
+  Askell  Amanda  Bai  Yuntao  Chen  Anna  Drain  Dawn  Ganguli  Deep  Henighan  Tom  Jones  Andy  Joseph  Nicholas  Mann  Ben  DasSarma  Nova  Elhage  Nelson  Hatfield Dodds  Zac  Hernandez  Danny  Kernion  Jackson  Ndousse  Kamal  December            A General Language Assistant as a Laboratory for Alignment   arXiv             cs CL  
+
+  Cox  Joseph  March             GPT   Hired Unwitting TaskRabbit Worker By Pretending to Be  Vision Impaired  Human   Vice  Retrieved April          
+
+  Scheurer  J r my  Balesni  Mikita  Hobbhahn  Marius          Technical Report  Large Language Models can Strategically Deceive their Users when Put Under Pressure   arXiv             cs CL  
+
+  Kenton  Zachary  Everitt  Tom  Weidinger  Laura  Gabriel  Iason  Mikulik  Vladimir  Irving  Geoffrey  March             Alignment of Language Agents   DeepMind Safety Research   Medium  Archived from the original on February           Retrieved July          
+
+  Park  Peter S   Goldstein  Simon  O Gara  Aidan  Chen  Michael  Hendrycks  Dan  May         AI deception  A survey of examples  risks  and potential solutions   Patterns                 doi         j patter              ISSN                 PMC                PMID               
+
+  Zia  Tehseen  January            Can AI Be Trusted  The Challenge of Alignment Faking   Unite AI  Retrieved February          
+
+  a b Perrigo  Billy  December             Exclusive  New Research Shows AI Strategically Lying   TIME  Retrieved February          
+
+   Alignment faking in large language models   Anthropic  December           Retrieved February          
+
+  Greenblatt  Ryan  Denison  Carson  Wright  Benjamin  Roger  Fabien  MacDiarmid  Monte  Marks  Sam  Treutlein  Johannes  Belonax  Tim  Chen  Jack  December            Alignment faking in large language models  arXiv           
+
+  McCarthy  John  Minsky  Marvin L   Rochester  Nathaniel  Shannon  Claude E   December             A Proposal for the Dartmouth Summer Research Project on Artificial Intelligence  August            AI Magazine              doi         aimag v  i        ISSN                 S CID               
+
+  Wang  Lei  Ma  Chen  Feng  Xueyang  Zhang  Zeyu  Yang  Hao  Zhang  Jingsen  Chen  Zhiyuan  Tang  Jiakai  Chen  Xu          A survey on large language model based autonomous agents   Frontiers of Computer Science          arXiv             doi         s                 
+
+    The Godfather of A I   warns of  nightmare scenario  where artificial intelligence begins to seek power   Fortune  Retrieved May         
+ Yes  We Are Worried About the Existential Risk of Artificial Intelligence   MIT Technology Review  Retrieved May         
+
+  Ornes  Stephen  November             Playing Hide and Seek  Machines Invent New Tools   Quanta Magazine  Archived from the original on February           Retrieved August          
+
+  Baker  Bowen  Kanitscheider  Ingmar  Markov  Todor  Wu  Yi  Powell  Glenn  McGrew  Bob  Mordatch  Igor  September             Emergent Tool Use from Multi Agent Interaction   OpenAI  Archived from the original on September           Retrieved August          
+
+  Lu  Chris  Lu  Cong  Lange  Robert Tjarko  Foerster  Jakob  Clune  Jeff  Ha  David  August             The AI Scientist  Towards Fully Automated Open Ended Scientific Discovery   arXiv             cs AI   In some cases  when The AI Scientist s experiments exceeded our imposed time limits  it attempted to edit the code to extend the time limit arbitrarily
+
+  Edwards  Benj  August             Research AI model unexpectedly modified its own code to extend runtime   Ars Technica  Retrieved August          
+
+  Shermer  Michael  March            Artificial Intelligence Is Not a Threat Yet   Scientific American  Archived from the original on December          Retrieved August          
+
+  Brown  Tom B   Mann  Benjamin  Ryder  Nick  Subbiah  Melanie  Kaplan  Jared  Dhariwal  Prafulla  Neelakantan  Arvind  Shyam  Pranav  Sastry  Girish  Askell  Amanda  Agarwal  Sandhini  Herbert Voss  Ariel  Krueger  Gretchen  Henighan  Tom  Child  Rewon  July             Language Models are Few Shot Learners   arXiv             cs CL  
+Laskin  Michael  Wang  Luyu  Oh  Junhyuk  Parisotto  Emilio  Spencer  Stephen  Steigerwald  Richie  Strouse  D  J   Hansen  Steven  Filos  Angelos  Brooks  Ethan  Gazeau  Maxime  Sahni  Himanshu  Singh  Satinder  Mnih  Volodymyr  October             In context Reinforcement Learning with Algorithm Distillation   arXiv             cs LG  
+
+  a b c Shah  Rohin  Varma  Vikrant  Kumar  Ramana  Phuong  Mary  Krakovna  Victoria  Uesato  Jonathan  Kenton  Zac  November            Goal Misgeneralization  Why Correct Specifications Aren t Enough For Correct Goals   Medium  arXiv             Retrieved April         
+
+  a b Hubinger  Evan  van Merwijk  Chris  Mikulik  Vladimir  Skalse  Joar  Garrabrant  Scott  December            Risks from Learned Optimization in Advanced Machine Learning Systems   arXiv             cs AI  
+
+  Zhang  Xiaoge  Chan  Felix T S   Yan  Chao  Bose  Indranil          Towards risk aware artificial intelligence and machine learning systems  An overview   Decision Support Systems               doi         j dss              S CID                
+
+  Demski  Abram  Garrabrant  Scott  October            Embedded Agency   arXiv             cs AI  
+
+  a b Everitt  Tom  Ortega  Pedro A   Barnes  Elizabeth  Legg  Shane  September            Understanding Agent Incentives using Causal Influence Diagrams  Part I  Single Action Settings   arXiv             cs AI  
+
+  a b Cohen  Michael K   Hutter  Marcus  Osborne  Michael A   August             Advanced artificial agents intervene in the provision of reward   AI Magazine                   doi         aaai        ISSN                 S CID                 Archived from the original on February           Retrieved September         
+
+   Hadfield Menell  Dylan  Hadfield  Gillian K          Incomplete contracting and AI alignment   Proceedings of the      AAAI ACM Conference on AI  Ethics  and Society  pp               
+
+  Hanson  Robin  April             Agency Failure or AI Apocalypse    Overcoming Bias  Retrieved September          
+
+  Hamilton  Andy          Conservatism   in Zalta  Edward N   ed    The Stanford Encyclopedia of Philosophy  Spring           ed    Metaphysics Research Lab  Stanford University  retrieved October         
+
+  Taylor  Jessica  Yudkowsky  Eliezer  LaVictoire  Patrick  Critch  Andrew  July             Alignment for Advanced Machine Learning Systems   PDF  
+
+  Bengio  Yoshua  February             Towards a Cautious Scientist AI with Convergent Safety Bounds  
+
+  Cohen  Michael  Hutter  Marcus          Pessimism about unknown unknowns inspires conservatism   PDF   Proceedings of Machine Learning Research                  arXiv            
+
+  Liu  Anqi  Reyzin  Lev  Ziebart  Brian  February             Shift Pessimistic Active Learning Using Robust Bias Aware Prediction   Proceedings of the AAAI Conference on Artificial Intelligence          doi         aaai v  i        ISSN                
+
+  Liu  Jiashuo  Shen  Zheyan  Cui  Peng  Zhou  Linjun  Kuang  Kun  Li  Bo  Lin  Yishi  May             Stable Adversarial Learning under Distributional Shifts   Proceedings of the AAAI Conference on Artificial Intelligence                      arXiv             doi         aaai v  i          ISSN                
+
+  Roy  Aurko  Xu  Huan  Pokutta  Sebastian          Reinforcement Learning under Model Mismatch   Advances in Neural Information Processing Systems      Curran Associates  Inc 
+
+  Pinto  Lerrel  Davidson  James  Sukthankar  Rahul  Gupta  Abhinav  July             Robust Adversarial Reinforcement Learning   Proceedings of the   th International Conference on Machine Learning  PMLR            
+
+  Wang  Yue  Zou  Shaofeng          Online Robust Reinforcement Learning with Model Uncertainty   Advances in Neural Information Processing Systems      Curran Associates  Inc              arXiv            
+
+  Blanchet  Jose  Lu  Miao  Zhang  Tong  Zhong  Han  December             Double Pessimism is Provably Efficient for Distributionally Robust Offline Reinforcement Learning  Generic Algorithm and Robust Partial Coverage   Advances in Neural Information Processing Systems                   arXiv            
+
+  Levine  Sergey  Kumar  Aviral  Tucker  George  Fu  Justin  November            Offline Reinforcement Learning  Tutorial  Review  and Perspectives on Open Problems   arXiv             cs LG  
+
+  Rigter  Marc  Lacerda  Bruno  Hawes  Nick  December            RAMBO RL  Robust Adversarial Model Based Offline Reinforcement Learning   Advances in Neural Information Processing Systems                   arXiv            
+
+  Guo  Kaiyang  Yunfeng  Shao  Geng  Yanhui  December            Model Based Offline Reinforcement Learning with Pessimism Modulated Dynamics Belief   Advances in Neural Information Processing Systems               arXiv            
+
+  Coste  Thomas  Anwar  Usman  Kirk  Robert  Krueger  David  January             Reward Model Ensembles Help Mitigate Overoptimization   International Conference on Learning Representations  arXiv            
+
+  Liu  Zhihan  Lu  Miao  Zhang  Shenao  Liu  Boyi  Guo  Hongyi  Yang  Yingxiang  Blanchet  Jose  Wang  Zhaoran  May             Provably Mitigating Overoptimization in RLHF  Your SFT Loss is Implicitly an Adversarial Regularizer   arXiv             cs LG  
+
+  Cohen  Michael K   Hutter  Marcus  Nanda  Neel          Fully General Online Imitation Learning   Journal of Machine Learning Research                  arXiv             ISSN                
+
+  Chang  Jonathan  Uehara  Masatoshi  Sreenivas  Dhruv  Kidambi  Rahul  Sun  Wen          Mitigating Covariate Shift in Imitation Learning via Offline Data With Partial Coverage   Advances in Neural Information Processing Systems      Curran Associates  Inc           
+
+  Boyd  Stephen P   Vandenberghe  Lieven         Convex optimization  Version         ed    Cambridge New York Melbourne New Delhi Singapore  Cambridge University Press  ISBN                        
+
+  Kosoy  Vanessa  Appel  Alexander  November             Infra Bayesian physicalism  a formal theory of naturalized induction   Alignment Forum 
+
+   UN Secretary General s report on  Our Common Agenda          p           Archived from the original on February            T he Compact could also promote regulation of artificial intelligence to ensure that this is aligned with shared global values
+
+  The National New Generation Artificial Intelligence Governance Specialist Committee  October                          Ethical Norms for New Generation Artificial Intelligence Released   Translated by Center for Security and Emerging Technology  Archived from the original on February          
+
+  Richardson  Tim  September             UK publishes National Artificial Intelligence Strategy   The Register  Archived from the original on February           Retrieved November          
+
+   The National AI Strategy of the UK         Archived from the original on February           The government takes the long term risk of non aligned Artificial General Intelligence  and the unforeseeable changes that it would mean for the UK and the world  seriously 
+
+   The National AI Strategy of the UK         actions   and    of the section  Pillar     Governing AI Effectively   Archived from the original on February          
+
+  NSCAI Final Report  PDF   Washington  DC  The National Security Commission on Artificial Intelligence        Archived  PDF  from the original on February           Retrieved October          
+
+  Robert Lee Poe          Why Fair Automated Hiring Systems Breach EU Non Discrimination Law   arXiv             cs CY  
+
+  De Vos  Marc          The European Court of Justice and the march towards substantive equality in European Union anti discrimination law   International Journal of Discrimination and the Law             doi                          
+
+  Irving  Geoffrey  Askell  Amanda  June            Chern number in Ising models with spatially modulated real and complex fields   Physical Review A                  arXiv             Bibcode     PhRvA    e    L  doi         PhysRevA            S CID                
+
+  Mitelut  Catalin  Smith  Ben  Vamplew  Peter  May             Intent aligned AI systems deplete human agency  the need for agency foundations research in AI safety   arXiv             cs AI  
+
+  Gabriel  Iason  September            Artificial Intelligence  Values  and Alignment   Minds and Machines                   arXiv             doi         s                   S CID                
+
+  Russell  Stuart J          Human Compatible  Artificial Intelligence and the Problem of Control  Penguin Random House 
+
+  Dafoe  Allan          AI policy  A roadmap   Nature 
+
+
+Further reading edit 
+Brockman  John  ed          Possible Minds  Twenty five Ways of Looking at AI  Kindle      ed    Penguin Press  ISBN                       cite book     CS  maint  ref duplicates default  link 
+Ngo  Richard  et      al           The Alignment Problem from a Deep Learning Perspective   arXiv             cs AI  
+Ji  Jiaming  et      al           AI Alignment  A Comprehensive Survey   arXiv             cs AI  
+External links edit 
+Specification gaming examples in AI  via DeepMind
+vteExistential risk from artificial intelligenceConcepts
+AGI
+AI alignment
+AI capability control
+AI safety
+AI takeover
+Consequentialism
+Effective accelerationism
+Ethics of artificial intelligence
+Existential risk from artificial intelligence
+Friendly artificial intelligence
+Instrumental convergence
+Vulnerable world hypothesis
+Intelligence explosion
+Longtermism
+Machine ethics
+Suffering risks
+Superintelligence
+Technological singularity
+Organizations
+Alignment Research Center
+Center for AI Safety
+Center for Applied Rationality
+Center for Human Compatible Artificial Intelligence
+Centre for the Study of Existential Risk
+EleutherAI
+Future of Humanity Institute
+Future of Life Institute
+Google DeepMind
+Humanity 
+Institute for Ethics and Emerging Technologies
+Leverhulme Centre for the Future of Intelligence
+Machine Intelligence Research Institute
+OpenAI
+People
+Scott Alexander
+Sam Altman
+Yoshua Bengio
+Nick Bostrom
+Paul Christiano
+Eric Drexler
+Sam Harris
+Stephen Hawking
+Dan Hendrycks
+Geoffrey Hinton
+Bill Joy
+Shane Legg
+Elon Musk
+Steve Omohundro
+Huw Price
+Martin Rees
+Stuart J  Russell
+Jaan Tallinn
+Max Tegmark
+Frank Wilczek
+Roman Yampolskiy
+Eliezer Yudkowsky
+Other
+Statement on AI risk of extinction
+Human Compatible
+Open letter on artificial intelligence       
+Our Final Invention
+The Precipice
+Superintelligence  Paths  Dangers  Strategies
+Do You Trust This Computer 
+Artificial Intelligence Act
+ Category
+
+
+
+
+
+Retrieved from  https   en wikipedia org w index php title AI alignment amp oldid

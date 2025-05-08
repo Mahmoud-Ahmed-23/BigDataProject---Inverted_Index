@@ -1,0 +1,99 @@
+Graph exploring search algorithm
+Best first search is a class of search algorithms which explores a graph by expanding the most promising node chosen according to a specified rule 
+Judea Pearl described best first search as estimating the promise of node n by a  heuristic evaluation function 
+  
+    
+      
+        f
+         
+        n
+         
+      
+    
+      displaystyle f n  
+  
+ which  in general  may depend on the description of n  the description of the goal  the information gathered by the search up to that point  and most importantly  on any extra knowledge about the problem domain                        
+Some authors have used  best first search  to refer specifically to a search with a heuristic that attempts to predict how close the end of a path is to a solution  or  goal   so that paths which are judged to be closer to a solution  or  goal  are expanded first  This specific type of search is called greedy best first search            or pure heuristic search            
+Efficient selection of the current best candidate for extension is typically implemented using a priority queue 
+The A  search algorithm is an example of a best first search algorithm  as is B   Best first algorithms are often used for path finding in combinatorial search  Neither A  nor B  is a greedy best first search  as they incorporate the distance from the start in addition to estimated distances to the goal 
+
+
+Greedy BeFS edit 
+Using a greedy algorithm  expand the first successor of the parent  After a successor is generated            
+
+If the successor s heuristic is better than its parent  the successor is set at the front of the queue  with the parent reinserted directly behind it   and the loop restarts 
+Else  the successor is inserted into the queue  in a location determined by its heuristic value   The procedure will evaluate the remaining successors  if any  of the parent 
+Below is a pseudocode example of this algorithm  where queue represents a priority queue which orders nodes based on their heuristic distances from the goal  This implementation keeps track of visited nodes  and can therefore be used for undirected graphs  It can be modified to retrieve the path 
+
+procedure GBS start  target  is 
+  mark start as visited
+  add start to queue
+  while queue is not empty do 
+    current node         vertex of queue with min distance to target
+    remove current node from queue
+    foreach neighbor n of current node do 
+      if n not in visited then 
+        if n is target 
+          return n
+        else 
+          mark n as visited
+          add n to queue
+  return failure
+
+See also edit 
+Beam search
+A  search algorithm
+Dijkstra s algorithm
+References edit 
+
+  Pearl  J  Heuristics  Intelligent Search Strategies for Computer Problem Solving  Addison Wesley        p     
+
+  a b 
+Russell  Stuart J   Norvig  Peter          Artificial Intelligence  A Modern Approach   th      ed    Hoboken  Pearson  pp              ISBN                     LCCN               
+
+  Korf  Richard E           Artificial intelligence search algorithms   In Atallah  Mikhail J   ed    Handbook of Algorithms and Theory of Computation  CRC Press  ISBN                 
+
+  https   www cs cmu edu afs cs project jair pub volume   coles  a html node   html modifiedbestfs Greedy Best First Search when EHC Fails  Carnegie Mellon
+
+
+External links edit 
+Wikibooks  Artificial Intelligence  Best First Search
+vteGraph and tree traversal algorithmsSearch
+    pruning
+A 
+IDA 
+LPA 
+SMA 
+Best first search
+Beam search
+Bidirectional search
+Breadth first search
+Lexicographic
+Parallel
+B 
+Depth first search
+Iterative deepening
+D 
+Fringe search
+Jump point search
+Monte Carlo tree search
+SSS 
+Shortest path
+Bellman Ford
+Dijkstra s
+Floyd Warshall
+Johnson s
+Shortest path faster
+Yen s
+Minimum spanning tree
+Bor vka s
+Kruskal s
+Prim s
+Reverse delete
+List of graph search algorithms
+
+
+
+
+
+Retrieved from  https   en wikipedia org w index php title Best first search amp oldid

@@ -1,0 +1,1329 @@
+Artificial intelligence research organization
+Not to be confused with OpenAL  OpenAPI  or Open source artificial intelligence   
+
+
+
+OpenAICompany typePrivateIndustryArtificial intelligenceFoundedDecember                         years ago                             FounderJohn SchulmanElon MuskIlya SutskeverSam Altman      Headquarters      rd Street  San Francisco  California  U S            Key peopleBret Taylor  Chairman Sam Altman  CEO Greg Brockman  President Sarah Friar  CFO            ProductsOpenAI Five
+
+GPT  
+ 
+ 
+ 
+ o
+   
+   
+
+DALL EOpenAI CodexChatGPTSearchGPTSora
+
+o 
+o 
+o  mini
+OperatorDeep ResearchRevenue US          billion                   est  Net income US         billion                   est  Total assets           United States dollar                   Number of employeesc                               Websiteopenai com
+Part of a series onArtificial intelligence  AI 
+Major goals
+Artificial general intelligence
+Intelligent agent
+Recursive self improvement
+Planning
+Computer vision
+General game playing
+Knowledge reasoning
+Natural language processing
+Robotics
+AI safety
+
+Approaches
+Machine learning
+Symbolic
+Deep learning
+Bayesian networks
+Evolutionary algorithms
+Hybrid intelligent systems
+Systems integration
+
+Applications
+Bioinformatics
+Deepfake
+Earth sciences
+ Finance 
+Generative AI
+Art
+Audio
+Music
+Government
+Healthcare
+Mental health
+Industry
+Translation
+ Military 
+Physics
+Projects
+
+Philosophy
+Artificial consciousness
+Chinese room
+Friendly AI
+Control problem Takeover
+Ethics
+Existential risk
+Turing test
+Uncanny valley
+
+History
+Timeline
+Progress
+AI winter
+AI boom
+
+Glossary
+Glossary
+vte
+OpenAI  Inc  is an American artificial intelligence  AI  research organization founded in December      and headquartered in San Francisco  California  It aims to develop  safe and beneficial  artificial general intelligence  AGI   which it defines as  highly autonomous systems that outperform humans at most economically valuable work              As a leading organization in the ongoing AI boom             OpenAI is known for the GPT family of large language models  the DALL E series of text to image models  and a text to video model named Sora                        Its release of ChatGPT in November      has been credited with catalyzing widespread interest in generative AI 
+The organization has a complex corporate structure  As of April       it is led by the non profit OpenAI  Inc              registered in Delaware  and has multiple for profit subsidiaries including OpenAI Holdings  LLC and OpenAI Global  LLC              Microsoft has invested US    billion in OpenAI  and is entitled to     of OpenAI Global  LLC s profits  capped at an estimated   x their investment                          Microsoft also provides computing resources to OpenAI through its cloud platform  Microsoft Azure             
+In      and       OpenAI faced multiple lawsuits for alleged copyright infringement against authors and media companies whose work was used to train some of OpenAI s products  In November       OpenAI s board removed Sam Altman as CEO  citing a lack of confidence in him  but reinstated him five days later following a reconstruction of the board  Throughout       roughly half of then employed AI safety researchers left OpenAI  citing the company s prominent role in an industry wide problem                         
+
+
+History edit 
+           Non profit beginnings edit 
+Former headquarters at the Pioneer Building in San Francisco
+In December       OpenAI was founded by Sam Altman  Elon Musk  Ilya Sutskever  Greg Brockman  Trevor Blackwell  Vicki Cheung  Andrej Karpathy  Durk Kingma  John Schulman  Pamela Vagata  and Wojciech Zaremba  with Sam Altman and Elon Musk as the co chairs  A total of    billion in capital was pledged by Sam Altman  Greg Brockman  Elon Musk  Reid Hoffman  Jessica Livingston  Peter Thiel  Amazon Web Services  AWS   Infosys  and YC Research                          The actual collected total amount of contributions was only      million until                   According to an investigation led by TechCrunch  while YC Research never contributed any funds  Open Philanthropy contributed     million and another     million in verifiable donations were traced back to Musk              OpenAI later stated that Musk s contributions totaled less than     million              The organization stated it would  freely collaborate  with other institutions and researchers by making its patents and research open to the public                          OpenAI was initially run from Brockman s living room              It was later headquartered at the Pioneer Building in the Mission District  San Francisco                         
+According to OpenAI s charter  its founding mission is  to ensure that artificial general intelligence  AGI  by which we mean highly autonomous systems that outperform humans at most economically valuable work benefits all of humanity             
+According to Wired  Brockman met with Yoshua Bengio  one of the  founding fathers  of deep learning  and drew up a list of the  best researchers in the field               Brockman was able to hire nine of them as the first employees in December                   In       OpenAI paid corporate level  rather than nonprofit level  salaries  but did not pay AI researchers salaries comparable to those of Facebook or Google             
+Microsoft s Peter Lee stated that the cost of a top AI researcher exceeds the cost of a top NFL quarterback prospect              OpenAI s potential and mission drew these researchers to the firm  a Google employee said he was willing to leave Google for OpenAI  partly because of the very strong group of people and  to a very large extent  because of its mission               Brockman stated that  the best thing that I could imagine doing was moving humanity closer to building real AI in a safe way               OpenAI co founder Wojciech Zaremba stated that he turned down  borderline crazy  offers of two to three times his market value to join OpenAI instead             
+In April       OpenAI released a public beta of  OpenAI Gym   its platform for reinforcement learning research              Nvidia gifted its first DGX   supercomputer to OpenAI in August      to help it train larger and more complex AI models with the capability of reducing processing time from six days to two hours                          In December       OpenAI released  Universe   a software platform for measuring and training an AI s general intelligence across the world s supply of games  websites  and other applications                                                 
+In       OpenAI spent           million  or a quarter of its functional expenses  on cloud computing alone              In comparison  DeepMind s total expenses in      were           million  In the summer of       simply training OpenAI s Dota   bots required renting         CPUs and     GPUs from Google for multiple weeks 
+In       Musk resigned from his Board of Directors seat  citing  a potential future conflict  of interest   with his role as CEO of Tesla due to Tesla s AI development for self driving cars              Sam Altman claims that Musk believed that OpenAI had fallen behind other players like Google and Musk proposed instead to take over OpenAI himself  which the board rejected  Musk subsequently left OpenAI 
+In February       GPT   was announced  which gained attention for its ability to generate human like text             
+
+      Transition from non profit edit 
+In       OpenAI transitioned from non profit to  capped  for profit  with the profit being capped at     times any investment              According to OpenAI  the capped profit model allows OpenAI Global  LLC to legally attract investment from venture funds and  in addition  to grant employees stakes in the company              Many top researchers work for Google Brain  DeepMind  or Facebook  which offer stock options that a nonprofit would be unable to              Before the transition  public disclosure of the compensation of top employees at OpenAI was legally required             
+The company then distributed equity to its employees and partnered with Microsoft              announcing an investment package of    billion into the company  Since then  OpenAI systems have run on an Azure based supercomputing platform from Microsoft                                     
+OpenAI Global  LLC then announced its intention to commercially license its technologies              It planned to spend the    billion  within five years  and possibly much faster               Altman has stated that even a billion dollars may turn out to be insufficient  and that the lab may ultimately need  more capital than any non profit has ever raised  to achieve artificial general intelligence             
+The transition from a nonprofit to a capped profit company was viewed with skepticism by Oren Etzioni of the nonprofit Allen Institute for AI  who agreed that wooing top researchers to a nonprofit is difficult  but stated  I disagree with the notion that a nonprofit can t compete  and pointed to successful low budget projects by OpenAI and others   If bigger and better funded was always better  then IBM would still be number one  
+The nonprofit  OpenAI  Inc   is the sole controlling shareholder of OpenAI Global  LLC  which  despite being a for profit company  retains a formal fiduciary responsibility to OpenAI  Inc  s nonprofit charter  A majority of OpenAI  Inc  s board is barred from having financial stakes in OpenAI Global  LLC              In addition  minority members with a stake in OpenAI Global  LLC are barred from certain votes due to conflict of interest              Some researchers have argued that OpenAI Global  LLC s switch to for profit status is inconsistent with OpenAI s claims to be  democratizing  AI             
+
+           ChatGPT  DALL E  partnership with Microsoft edit 
+In       OpenAI announced GPT    a language model trained on large internet datasets  GPT   is aimed at natural language answering questions  but it can also translate between languages and coherently generate improvised text  It also announced that an associated API  named simply  the API   would form the heart of its first commercial product             
+Eleven employees left OpenAI  mostly between December      and January       in order to establish Anthropic             
+In       OpenAI introduced DALL E  a specialized deep learning model adept at generating complex digital images from textual descriptions  utilizing a variant of the GPT   architecture             
+
+The release of ChatGPT was a major event in the AI boom   By January       ChatGPT had become what was then the fastest growing consumer software application in history  gaining over     million users in two months             
+In December       OpenAI received widespread media coverage after launching a free preview of ChatGPT  its new AI chatbot based on GPT      According to OpenAI  the preview received over a million signups within the first five days              According to anonymous sources cited by Reuters in December       OpenAI Global  LLC was projecting      million of revenue in      and    billion in revenue in                  
+In January       OpenAI Global  LLC was in talks for funding that would value the company at     billion  double its      value              On January           Microsoft announced a new US    billion investment in OpenAI Global  LLC over multiple years  partially needed to use Microsoft s cloud computing service Azure                          Rumors of this deal suggested that Microsoft may receive     of OpenAI s profits until it secures its investment return and a     stake in the company              The investment is believed to be a part of Microsoft s efforts to integrate OpenAI s ChatGPT into the Bing search engine  Google announced a similar AI application  Bard   after ChatGPT was launched  fearing that ChatGPT could threaten Google s place as a go to source for information                         
+On February          Microsoft announced that it was building AI technology based on the same foundation as ChatGPT into Microsoft Bing  Edge  Microsoft     and other products             
+On March          Reid Hoffman resigned from his board seat  citing a desire to avoid conflicts of interest with his investments in AI companies via Greylock Partners  and his co founding of the AI startup Inflection AI  Hoffman remained on the board of Microsoft  a major investor in OpenAI             
+On March           OpenAI released GPT    both as an API  with a waitlist  and as a feature of ChatGPT Plus             
+On May           Sam Altman  Greg Brockman and Ilya Sutskever posted recommendations for the governance of superintelligence              They consider that superintelligence could happen within the next    years  allowing a  dramatically more prosperous future  and that  given the possibility of existential risk  we can t just be reactive   They propose creating an international watchdog organization similar to IAEA to oversee AI systems above a certain capability threshold  suggesting that relatively weak AI systems on the other side should not be overly regulated  They also call for more technical safety research for superintelligences  and ask for more coordination  for example through governments launching a joint project which  many current efforts become part of                          
+In July       OpenAI launched the superalignment project  aiming to find within   years how to align future superintelligences by automating alignment research using AI             
+In August       it was announced that OpenAI had acquired the New York based start up Global Illumination  a company that deploys AI to develop digital infrastructure and creative tools             
+On September           Microsoft had begun rebranding all variants of its Copilot to Microsoft Copilot  including the former Bing Chat and the Microsoft     Copilot              This strategy was followed in December      by adding the MS Copilot to many installations of Windows    and Windows    as well as a standalone Microsoft Copilot app released for Android             and one released for iOS thereafter             
+In October       Sam Altman and Peng Xiao  CEO of the Emirati AI firm G    announced Open AI would let G   deploy Open AI technology             
+On November          OpenAI launched GPTs  allowing individuals to create customized versions of ChatGPT for specific purposes  further expanding the possibilities of AI applications across various industries              On November           OpenAI announced they temporarily suspended new sign ups for ChatGPT Plus due to high demand              Access for newer subscribers re opened a month later on December                
+
+      Public Non Profit Efforts  Sora  Partnership with Apple edit 
+In January       OpenAI partnered with Arizona State University to provide complete access to ChatGPT Enterprise in its first educational collaboration             
+In February  amidst SEC probes and investigations into CEO Altman s communications             OpenAI unveiled its text to video model Sora  text to video model   currently available to red teams for managing risks                        
+On February           Elon Musk filed a lawsuit against OpenAI and CEO Sam Altman  accusing them of shifting focus from public benefit to profit maximization a case OpenAI dismissed as  incoherent  and  frivolous   though Musk later revived legal action against Altman and others in August                                                      
+In May       significant leadership changes occurred as Chief Scientist Ilya Sutskever resigned being succeeded by Jakub Pachocki and co leader Jan Leike departed amid concerns over safety and trust                          That same month  OpenAI formed a partnership with Reddit to integrate its content into OpenAI products             and inked content deals with News Corp  along with licensing arrangements involving publishers such as Axios and Vox Media             
+In June       OpenAI joined forces with Apple Inc  to integrate ChatGPT features into Apple Intelligence and iPhone             and added former NSA head Paul Nakasone to its board              while acquiring Multi  a startup focused on remote collaboration             
+In July       Reuters reported that OpenAI was developing a project  codenamed  Strawberry   to enhance AI reasoning a project later released in September as the o  model                         
+In August       cofounder John Schulman left to join rival startup Anthropic  and OpenAI s president Greg Brockman took extended leave until November             
+In September       OpenAI s global affairs chief endorsed the UK s  smart  AI regulation during testimony to a House of Lords committee              Meanwhile  CTO Mira Murati announced her departure amid internal concerns                         
+In October       OpenAI secured      billion in funding valuing it at      billion with major investors including Microsoft  Nvidia  and SoftBank              It also acquired the domain Chat com                          and saw the return of Greg Brockman after his brief absence             
+In December       during the     Days of OpenAI  event  the company launched the Sora model for ChatGPT Plus and Pro users                           It also launched the advanced OpenAI o  reasoning model                           Additionally  ChatGPT Pro a      month subscription service offering unlimited o  access and enhanced voice features was introduced  and preliminary benchmark results for the upcoming OpenAI o  models were shared              
+
+     edit 
+On January           DeepSeek released the  DeepSeek R   model  which rivaled the performance of OpenAI s o  and was open weight               DeepSeek claimed that this model only took      million to train  This news led to panic from investors and caused Nvidia to record the biggest single day market cap loss in history losing      billion on January                 
+On January           it was announced that OpenAI  Oracle  SoftBank and MGX would launch The Stargate Project  a joint venture to build an AI infrastructure system in conjunction with the US government  The project takes its name from OpenAI s existing  Stargate  supercomputer project and is estimated to cost      billion  The project will be funded over the next four years               
+On January     OpenAI released Operator  an AI agent and web automation tool for accessing websites to execute goals defined by users  The feature was only available to Pro users in the United States                           
+On February    OpenAI made a deep research agent  that achieved an accuracy of      percent on Humanity s Last Exam  HLE  benchmark  available to      monthly fee paying users with up to     queries per month  while more  limited access  was promised for Plus  Team and later Enterprise users              
+In February  OpenAI underwent a rebranding with a new typeface  word mark  symbol and palette               OpenAI began collaborating with Broadcom in      to design a custom AI chip capable of both training and inference targeted for mass production in      and to be manufactured by TSMC in        nm node  This initiative is intended to reduce OpenAI s dependence on Nvidia GPUs  which are costly and face high demand in the market 
+             
+On February     Sam Altman announced that GPT      internally known as  Orion   will be the last model without full chain of thought reasoning  Altman also indicated that GPT    expected to be released within months  could unify the O Series and GPT Series models  eliminating the need to choose between them and phasing out O series models                           
+In March       OpenAI signed an       billion agreement with CoreWeave  an Nvidia backed  AI focused cloud service provider  As part of the deal  OpenAI will receive      million worth of CoreWeave shares and gain access to its AI infrastructure  which includes over a quarter million NVIDIA GPUs              
+In April       OpenAI raised     billion at a      billion post money valuation  marking the largest private technology deal on record  The financing round was led by SoftBank  with other participants including Microsoft  Coatue  Altimeter  and Thrive                           
+On April          OpenAI countersued Musk in federal court  alleging that he had engaged in  bad faith tactics  to slow the company s progress and seize its innovations for his personal benefit  OpenAI also argued that Musk had previously supported the creation of a for profit structure and had expressed interest in controlling OpenAI himself  The countersuit seeks damages and legal measures to prevent further alleged interference              
+
+Management edit 
+OpenAI s corporate structure
+Key employees edit 
+CEO and co founder  Sam Altman  former president of the startup accelerator Y Combinator
+President and co founder  Greg Brockman  former CTO   rd employee of Stripe             
+Chief Scientist Officer  Jakub Pachocki  former Director of Research at OpenAI            
+Chief Operating Officer  Brad Lightcap  previously at Y Combinator and JPMorgan Chase             
+Chief Financial Officer  Sarah Friar  former Nextdoor CEO and former CFO at Block  Inc              
+Chief Product Officer  Kevin Weil  previously at Twitter  Inc  and Meta Platforms             
+Chief Research Officer  Mark Chen  former SVP of Research at OpenAI             
+Chief Compliance Officer  Scott Schools  former Chief Compliance Officer of Uber
+
+
+Board of directors of the OpenAI nonprofit edit 
+Bret Taylor  chairman   former chairman of Twitter s board of directors and co CEO of Salesforce
+Sam Altman
+Lawrence Summers  former U S  Secretary of the Treasury and President of Harvard University
+Adam D Angelo  co founder and CEO of Quora
+Sue Desmond Hellmann  former CEO of the Bill  amp  Melinda Gates Foundation
+Nicole Seligman  attorney and former executive vice president of the Sony Corporation
+Fidji Simo  CEO and chair of Instacart
+Paul Nakasone  former Director of the National Security Agency                         
+Zico Kolter  computer scientist             
+Adebayo Ogunlesi  managing partner at Global Infrastructure Partners             
+Sources                          
+
+Principal individual investors edit 
+Source              
+
+Reid Hoffman  LinkedIn co founder             
+Peter Thiel  PayPal co founder             
+Jessica Livingston  a founding partner of Y Combinator
+Elon Musk  co founder
+Initial motivations edit 
+Some scientists  such as Stephen Hawking and Stuart Russell  have articulated concerns that if advanced AI gains the ability to redesign itself at an ever increasing rate  an unstoppable  intelligence explosion  could lead to human extinction  Co founder Musk characterizes AI as humanity s  biggest existential threat               
+Musk and Altman have stated they are partly motivated by concerns about AI safety and the existential risk from artificial general intelligence                            OpenAI states that  it s hard to fathom how much human level AI could benefit society   and that it is equally difficult to comprehend  how much it could damage society if built or used incorrectly               Research on safety cannot safely be postponed   because of AI s surprising history  it s hard to predict when human level AI might come within reach                OpenAI states that AI  should be an extension of individual human wills and  in the spirit of liberty  as broadly and evenly distributed as possible               Co chair Sam Altman expects the decades long project to surpass human intelligence              
+Vishal Sikka  former CEO of Infosys  stated that an  openness   where the endeavor would  produce results generally in the greater interest of humanity   was a fundamental requirement for his support  and that OpenAI  aligns very nicely with our long held values  and their  endeavor to do purposeful work                Cade Metz of Wired suggested that corporations such as Amazon might be motivated by a desire to use open source software and data to level the playing field against corporations such as Google and Facebook  which own enormous supplies of proprietary data  Altman stated that Y Combinator companies would share their data with OpenAI              
+
+Strategy edit 
+In the early years before his      departure  Musk posed the question   What is the best thing we can do to ensure the future is good  We could sit on the sidelines or we can encourage regulatory oversight  or we could participate with the right structure with people who care deeply about developing AI in a way that is safe and is beneficial to humanity   He acknowledged that  there is always some risk that in actually trying to advance  friendly  AI we may create the thing we are concerned about   but nonetheless  that the best defense was  to empower as many people as possible to have AI  If everyone has AI powers  then there s not any one person or a small set of individuals who can have AI superpower               
+Musk and Altman s counterintuitive strategy that of trying to reduce the potential harm of AI by giving everyone access to it is controversial among those concerned with existential risk from AI  Philosopher Nick Bostrom said   If you have a button that could do bad things to the world  you don t want to give it to everyone                During a      conversation about technological singularity  Altman said   We don t plan to release all of our source code  and mentioned a plan to  allow wide swaths of the world to elect representatives to a new governance board   Greg Brockman stated   Our goal right now          is to do the best thing there is to do  It s a little vague               
+Conversely  OpenAI s initial decision to withhold GPT   around       due to a wish to  err on the side of caution  in the presence of potential misuse  was criticized by advocates of openness  Delip Rao  an expert in text generation  stated   I don t think      OpenAI      spent enough time proving      GPT        was actually dangerous   Other critics argued that open publication was necessary to replicate the research and to create countermeasures              
+More recently  in       OpenAI published its approach to the alignment problem  anticipating that aligning AGI to human values would likely be harder than aligning current AI systems   Unaligned AGI could pose substantial risks to humanity    and solving the AGI alignment problem could be so difficult that it will require all of humanity to work together   They stated that they intended to explore how to better use human feedback to train AI systems  and how to safely use AI to incrementally automate alignment research              
+In       following the temporary removal of Sam Altman and his return  many employees gradually left OpenAI  including most of the original leadership team and a significant number of AI safety researchers                            OpenAI also planned a restructuring to operate as a for profit company  This restructuring could grant Altman a stake in the company              
+
+Stance on China edit 
+In February       OpenAI CEO Sam Altman stated that the company is interested in collaborating with the People s Republic of China  despite regulatory restrictions imposed by the U S  government               This shift comes in response to the growing influence of the Chinese artificial intelligence company DeepSeek  which has disrupted the AI market with advanced models  including DeepSeek V  and DeepSeek R   known for their efficiency and cost effectiveness              
+The emergence of DeepSeek has led major Chinese tech firms such as Baidu and others to embrace an open source strategy  intensifying competition with OpenAI  Altman acknowledged the uncertainty regarding U S  government approval for AI cooperation with China but emphasized the importance of fostering dialogue between technological leaders in both nations              
+
+Products and applications edit 
+Reinforcement learning edit 
+At its beginning  OpenAI s research included many projects focused on reinforcement learning  RL                OpenAI has been viewed as an important competitor to DeepMind              
+
+Gym edit 
+Announced in       Gym was an open source Python library designed to facilitate the development of reinforcement learning algorithms  It aimed to standardize how environments are defined in AI research  making published research more easily reproducible                          while providing users with a simple interface for interacting with these environments  In       new developments of Gym have been moved to the library Gymnasium                           
+
+Gym Retro edit 
+Released in       Gym Retro is a platform for reinforcement learning  RL  research on video games              using RL algorithms and study generalization  Prior RL research focused mainly on optimizing agents to solve single tasks  Gym Retro gives the ability to generalize between games with similar concepts but different appearances 
+
+RoboSumo edit 
+Released in       RoboSumo is a virtual world where humanoid metalearning robot agents initially lack knowledge of how to even walk  but are given the goals of learning to move and to push the opposing agent out of the ring               Through this adversarial learning process  the agents learn how to adapt to changing conditions  When an agent is then removed from this virtual environment and placed in a new virtual environment with high winds  the agent braces to remain upright  suggesting it had learned how to balance in a generalized way                            OpenAI s Igor Mordatch argued that competition between agents could create an intelligence  arms race  that could increase an agent s ability to function even outside the context of the competition              
+
+OpenAI Five edit 
+Main article  OpenAI Five
+OpenAI Five is a team of five OpenAI curated bots used in the competitive five on five video game Dota    that learn to play against human players at a high skill level entirely through trial and error algorithms  Before becoming a team of five  the first public demonstration occurred at The International       the annual premiere championship tournament for the game  where Dendi  a professional Ukrainian player  lost against a bot in a live one on one matchup                            After the match  CTO Greg Brockman explained that the bot had learned by playing against itself for two weeks of real time  and that the learning software was a step in the direction of creating software that can handle complex tasks like a surgeon                            The system uses a form of reinforcement learning  as the bots learn over time by playing against themselves hundreds of times a day for months  and are rewarded for actions such as killing an enemy and taking map objectives                                        
+By June       the ability of the bots expanded to play together as a full team of five  and they were able to defeat teams of amateur and semi professional players                                                      At The International       OpenAI Five played in two exhibition matches against professional players  but ended up losing both games                                         In April       OpenAI Five defeated OG  the reigning world champions of the game at the time      in a live exhibition match in San Francisco                            The bots  final public appearance came later that month  where they played in        total games in a four day open online competition  winning       of those games              
+OpenAI Five s mechanisms in Dota   s bot player shows the challenges of AI systems in multiplayer online battle arena  MOBA  games and how OpenAI Five has demonstrated the use of deep reinforcement learning  DRL  agents to achieve superhuman competence in Dota   matches              
+
+Dactyl edit 
+Developed in       Dactyl uses machine learning to train a Shadow Hand  a human like robot hand  to manipulate physical objects               It learns entirely in simulation using the same RL algorithms and training code as OpenAI Five  OpenAI tackled the object orientation problem by using domain randomization  a simulation approach which exposes the learner to a variety of experiences rather than trying to fit to reality  The set up for Dactyl  aside from having motion tracking cameras  also has RGB cameras to allow the robot to manipulate an arbitrary object by seeing it  In       OpenAI showed that the system was able to manipulate a cube and an octagonal prism              
+In       OpenAI demonstrated that Dactyl could solve a Rubik s Cube  The robot was able to solve the puzzle     of the time  Objects like the Rubik s Cube introduce complex physics that is harder to model  OpenAI did this by improving the robustness of Dactyl to perturbations by using Automatic Domain Randomization  ADR   a simulation approach of generating progressively more difficult environments  ADR differs from manual domain randomization by not needing a human to specify randomization ranges              
+
+API edit 
+In June       OpenAI announced a multi purpose API which it said was  for accessing new AI models developed by OpenAI  to let developers call on it for  any English language AI task                            
+
+Text generation edit 
+The company has popularized generative pretrained transformers  GPT               
+
+OpenAI s original GPT model   GPT     edit 
+Further information  Generative pre trained transformer        History
+The original GPT model
+The original paper on generative pre training of a transformer based language model was written by Alec Radford and his colleagues  and published in preprint on OpenAI s website on June                        It showed how a generative model of language could acquire world knowledge and process long range dependencies by pre training on a diverse corpus with long stretches of contiguous text 
+
+GPT   edit 
+Main article  GPT  
+An instance of GPT   writing a paragraph based on a prompt from its own Wikipedia article in February     
+Generative Pre trained Transformer     GPT     is an unsupervised transformer language model and the successor to OpenAI s original GPT model   GPT      GPT   was announced in February       with only limited demonstrative versions initially released to the public  The full version of GPT   was not immediately released due to concern about potential misuse  including applications for writing fake news               Some experts expressed skepticism that GPT   posed a significant threat 
+In response to GPT    the Allen Institute for Artificial Intelligence responded with a tool to detect  neural fake news                Other researchers  such as Jeremy Howard  warned of  the technology to totally fill Twitter  email  and the web up with reasonable sounding  context appropriate prose  which would drown out all other speech and be impossible to filter                In November       OpenAI released the complete version of the GPT   language model               Several websites host interactive demonstrations of different instances of GPT   and other transformer models                                        
+GPT   s authors argue unsupervised language models to be general purpose learners  illustrated by GPT   achieving state of the art accuracy and perplexity on   of   zero shot tasks  i e  the model was not further trained on any task specific input output examples  
+The corpus it was trained on  called WebText  contains slightly    gigabytes of text from URLs shared in Reddit submissions with at least   upvotes  It avoids certain issues encoding vocabulary with word tokens by using byte pair encoding  This permits representing any string of characters by encoding both individual characters and multiple character tokens              
+
+GPT   edit 
+Main article  GPT  
+First described in May       Generative Pre trained     a      Transformer    GPT    is an unsupervised transformer language model and the successor to GPT                                           OpenAI stated that the full version of GPT   contained          billion parameters               two orders of magnitude larger than the          billion              in the full version of GPT    although GPT   models with as few as     million parameters were also trained               
+OpenAI stated that GPT   succeeded at certain  meta learning  tasks and could generalize the purpose of a single input output pair  The GPT   release paper gave examples of translation and cross linguistic transfer learning between English and Romanian  and between English and German              
+GPT   dramatically improved benchmark results  over GPT    OpenAI cautioned that such scaling up of language models could be approaching or encountering the fundamental capability limitations of predictive language models               Pre training GPT   required several thousand petaflop s days     b      of compute  compared to tens of petaflop s days for the full GPT   model               Like its predecessor               the GPT   trained model was not immediately released to the public for concerns of possible abuse  although OpenAI planned to allow access through a paid cloud API after a two month free private beta that began in June                                
+On September           GPT   was licensed exclusively to Microsoft                           
+
+Codex edit 
+Main article  OpenAI Codex
+Announced in mid       Codex is a descendant of GPT   that has additionally been trained on code from    million GitHub repositories                            and is the AI powering the code autocompletion tool GitHub Copilot               In August       an API was released in private beta               According to OpenAI  the model can create working code in over a dozen programming languages  most effectively in Python              
+Several issues with glitches  design flaws and security vulnerabilities were cited                           
+OpenAI announced that they would discontinue support for Codex API on March                       
+
+GPT   edit 
+Main article  GPT  
+On March           OpenAI announced the release of Generative Pre trained Transformer    GPT     capable of accepting text or image inputs               They announced that the updated technology passed a simulated law school bar exam with a score around the top     of test takers   By contrast  GPT     scored around the bottom       They said that GPT   could also read  analyze or generate up to        words of text  and write code in all major programming languages              
+Observers reported that the iteration of ChatGPT using GPT   was an improvement on the previous GPT     based iteration  with the caveat that GPT   retained some of the problems with earlier revisions               GPT   is also capable of taking images as input on ChatGPT               OpenAI has declined to reveal various technical details and statistics about GPT    such as the precise size of the model              
+
+GPT  o edit 
+On May           OpenAI announced and released GPT  o  which can process and generate text  images and audio               GPT  o achieved state of the art results in voice  multilingual  and vision benchmarks  setting new records in audio speech recognition and translation                            It scored       on the Massive Multitask Language Understanding  MMLU  benchmark compared to       by GPT                
+On July           OpenAI released GPT  o mini  a smaller version of GPT  o replacing GPT     Turbo on the ChatGPT interface  Its API costs       per million input tokens and       per million output tokens  compared to    and     respectively for GPT  o  OpenAI expects it to be particularly useful for enterprises  startups and developers seeking to automate services with AI agents              
+In March       OpenAI released GPT  o s native image generation feature  as an alternative to DALL E                 
+
+GPT     edit 
+On February           OpenAI released GPT      codenamed Orion  Sam Altman claimed that GPT     would present inaccurate information less frequently than previous models  and described it as a  giant  expensive model               
+
+GPT     edit 
+On April           OpenAI released the GPT     model  They also released two  smaller  faster  and cheaper   models including GPT     mini and GPT     nano                                        
+
+o  edit 
+Main article  OpenAI o 
+On September           OpenAI released the o  preview and o  mini models  which have been designed to take more time to think about their responses  leading to higher accuracy  These models are particularly effective in science  coding  and reasoning tasks  and were made available to ChatGPT Plus and Team members                            In December       o  preview was replaced by o                In March       the o  Pro model was made available through OpenAI s developer API  which was previously available to ChatGPT Pro users since December       The pricing is      per million input tokens and      per million output tokens              
+
+o  edit 
+Main article  OpenAI o 
+On December           OpenAI unveiled o   the successor of the o  reasoning model  OpenAI also unveiled o  mini  a lighter and faster version of OpenAI o   As of December           this model is not available for public use  According to OpenAI  they are testing o  and o  mini                            Until January           safety and security researchers had the opportunity to apply for early access to these models               The model is called o  rather than o  to avoid confusion with telecommunications services provider O                On April       OpenAI released o  to all the paid users  o  has enhance reasoning and problem solving capabilities than o               
+
+Deep research edit 
+Main article  ChatGPT Deep Research
+Deep research is an agent developed by OpenAI  unveiled on February          It leverages the capabilities of OpenAI s o  model to perform extensive web browsing  data analysis  and synthesis  delivering comprehensive reports within a timeframe of   to    minutes               With browsing and Python tools enabled  it reached an accuracy of      percent on HLE  Humanity s Last Exam  benchmark               In April       OpenAI started rolling out a lightweight version of Deep Research to all its ChatGPT free users                           
+
+Image classification edit 
+CLIP edit 
+Revealed in       CLIP  Contrastive Language Image Pre training  is a model that is trained to analyze the semantic similarity between text and images  It can notably be used for image classification              
+
+Text to image edit 
+Main article  DALL E
+DALL E edit 
+Images produced in      by DALL E when given the text prompt  a professional high quality illustration of a giraffe dragon chimera  a giraffe imitating a dragon  a giraffe made of dragon  
+Revealed in       DALL E is a Transformer model that creates images from textual descriptions               DALL E uses a    billion parameter version of GPT   to interpret natural language inputs  such as  a green leather purse shaped like a pentagon  or  an isometric view of a sad capybara   and generate corresponding images  It can create images of realistic objects   a stained glass window with an image of a blue strawberry   as well as objects that do not exist in reality   a cube with the texture of a porcupine    As of March       no API or code is available 
+
+DALL E   edit 
+In April       OpenAI announced DALL E    an updated version of the model with more realistic results               In December       OpenAI published on GitHub software for Point E  a new rudimentary system for converting a text description into a   dimensional model              
+
+DALL E   edit 
+In September       OpenAI announced DALL E    a more powerful model better able to generate images from complex descriptions without manual prompt engineering and render complex details like hands and text               It was released to the public as a ChatGPT Plus feature in October              
+
+Text to video edit 
+Sora edit 
+Main article  Sora  text to video model 
+Sora is a text to video model that can generate videos based on short descriptive prompts              as well as extend existing videos forwards or backwards in time               It can generate videos with resolution up to     x     or     x      The maximal length of generated videos is unknown 
+Sora s development team named it after the Japanese word for  sky   to signify its  limitless creative potential                Sora s technology is an adaptation of the technology behind the DALL E   text to image model               OpenAI trained the system using publicly available videos as well as copyrighted videos licensed for that purpose  but did not reveal the number or the exact sources of the videos              
+OpenAI demonstrated some Sora created high definition videos to the public on February           stating that it could generate videos up to one minute long  It also shared a technical report highlighting the methods used to train the model  and the model s capabilities               It acknowledged some of its shortcomings  including struggles simulating complex physics               Will Douglas Heaven of the MIT Technology Review called the demonstration videos  impressive   but noted that they must have been cherry picked and might not represent Sora s typical output              
+Despite skepticism from some academic leaders following Sora s public demo  notable entertainment industry figures have shown significant interest in the technology s potential  In an interview  actor filmmaker Tyler Perry expressed his astonishment at the technology s ability to generate realistic video from text descriptions  citing its potential to revolutionize storytelling and content creation  He said that his excitement about Sora s possibilities was so strong that he had decided to pause plans for expanding his Atlanta based movie studio              
+
+Speech to text edit 
+Whisper edit 
+
+
+Main article  Whisper  speech recognition system 
+Released in       Whisper is a general purpose speech recognition model               It is trained on a large dataset of diverse audio and is also a multi task model that can perform multilingual speech recognition as well as speech translation and language identification              
+
+Music generation edit 
+MuseNet edit 
+Released in       MuseNet is a deep neural net trained to predict subsequent musical notes in MIDI music files  It can generate songs with    instruments in    styles  According to The Verge  a song generated by MuseNet tends to start reasonably but then fall into chaos the longer it plays                            In pop culture  initial applications of this tool were used as early as      for the internet psychological thriller Ben Drowned to create music for the titular character                           
+
+Jukebox edit 
+Released in       Jukebox is an open sourced algorithm to generate music with vocals  After training on          million samples  the system accepts a genre  artist  and a snippet of lyrics and outputs song samples  OpenAI stated the songs  show local musical coherence  and  follow traditional chord patterns  but acknowledged that the songs lack  familiar larger musical structures such as choruses that repeat  and that  there is a significant gap  between Jukebox and human generated music  The Verge stated  It s technologically impressive  even if the results sound like mushy versions of songs that might feel familiar   while Business Insider stated  surprisingly  some of the resulting songs are catchy and sound legitimate                                         
+
+User interfaces edit 
+Debate Game edit 
+In       OpenAI launched the Debate Game  which teaches machines to debate toy problems in front of a human judge  The purpose is to research whether such an approach may assist in auditing AI decisions and in developing explainable AI                           
+
+Microscope edit 
+Released in       Microscope              is a collection of visualizations of every significant layer and neuron of eight neural network models which are often studied in interpretability               Microscope was created to analyze the features that form inside these neural networks easily  The models included are AlexNet  VGG     different versions of Inception  and different versions of CLIP Resnet              
+
+ChatGPT edit 
+Main article  ChatGPTOpenAI s  Blossom  is used as a symbol for ChatGPT and the company Launched in November       ChatGPT is an artificial intelligence tool built on top of GPT   that provides a conversational interface that allows users to ask questions in natural language  The system then responds with an answer within seconds  ChatGPT reached   million users   days after its launch                           
+As of       ChatGPT Plus is a GPT   backed version of ChatGPT              available for a US    per month subscription fee               the original version is backed by GPT                    OpenAI also makes GPT   available to a select group of applicants through their GPT   API waitlist               after being accepted  an additional fee of US      per      tokens in the initial text provided to the model   prompt    and US      per      tokens that the model generates   completion    is charged for access to the version of the model with an      token context window  for the       token context window  the prices are doubled              
+In May       OpenAI launched a user interface for ChatGPT for the App Store on iOS and later in July      for the Play Store on Android               The app supports chat history syncing and voice input  using Whisper  OpenAI s speech recognition model                                          In September       OpenAI announced that ChatGPT  can now see  hear  and speak   ChatGPT Plus users can upload images  while mobile app users can talk to the chatbot                           
+In October       OpenAI s latest image generation model  DALL E    was integrated into ChatGPT Plus and ChatGPT Enterprise  The integration uses ChatGPT to write prompts for DALL E guided by conversation with users                           
+OpenAI s GPT Store  initially slated for a      launch  is now deferred to an undisclosed date in early       attributed likely to the leadership changes in November following the initial announcement              
+Concerns about the energy consumption of generative AI  including ChatGPT  are rising  In September       Microsoft entered a deal with Constellation Energy to reopen the Three Mile Island nuclear plant to supply power to its AI driven data centers              
+In December       OpenAI launched a new feature allowing users to call ChatGPT for up to    minutes per month for free                           
+
+SearchGPT edit 
+Main article  SearchGPT
+SearchGPT  a prototype search engine developed by OpenAI  was unveiled on July           with an initial limited release to        test users  It combines traditional search engine features with generative AI capabilities                           
+
+Stargate and other supercomputers edit 
+Stargate is a potential artificial intelligence supercomputer in development by Microsoft and OpenAI  in collaboration with Oracle  SoftBank  and MGX                            Stargate is designed as part of a greater data center project  which could represent an investment of as much as      billion by Microsoft              
+Stargate is reported to be part of a series of AI related construction projects planned in the next few years by the companies Microsoft and OpenAI               The supercomputers will be constructed in five phases               The fourth phase should consist in a smaller OpenAI supercomputer  planned to launch around                    Stargate is the fifth and final phase of the program  and will take five and six years to complete and is slated to launch around                   
+The artificial intelligence of Stargate is slated to be contained on millions of special server chips               The supercomputer s data center will be built in the US across     acres of land                It has a planned power consumption of   gigawatts  for which it could rely on nuclear energy               The name  Stargate  is a homage to the      sci fi film Stargate              
+
+Controversies edit 
+Firing of Altman edit 
+Further information  Removal of Sam Altman from OpenAI
+On November           Sam Altman was removed as CEO when its board of directors  composed of Helen Toner  Ilya Sutskever  Adam D Angelo and Tasha McCauley  cited a lack of confidence in him  Chief Technology Officer Mira Murati took over as interim CEO  Greg Brockman  the president of OpenAI  was also removed as chairman of the board                           and resigned from the company s presidency shortly thereafter               Three senior OpenAI researchers subsequently resigned  director of research and GPT   lead Jakub Pachocki  head of AI risk Aleksander M dry           pl       and researcher Szymon Sidor                           
+On November           there were reportedly talks of Altman returning as CEO amid pressure placed upon the board by investors such as Microsoft and Thrive Capital  who objected to Altman s departure               Although Altman himself spoke in favor of returning to OpenAI  he has since stated that he considered starting a new company and bringing former OpenAI employees with him if talks to reinstate him didn t work out               The board members agreed  in principle  to resign if Altman returned               On November           negotiations with Altman to return failed and Murati was replaced by Emmett Shear as interim CEO               The board initially contacted Anthropic CEO Dario Amodei  a former OpenAI executive  about replacing Altman  and proposed a merger of the two companies  but both offers were declined              
+On November           Microsoft CEO Satya Nadella announced Altman and Brockman would be joining Microsoft to lead a new advanced AI research team  but added that they were still committed to OpenAI despite recent events               Before the partnership with Microsoft was finalized  Altman gave the board another opportunity to negotiate with him               About     of OpenAI s     employees  including Murati and Sutskever  signed an open letter stating they would quit their jobs and join Microsoft if the board did not rehire Altman and then resign                            This prompted OpenAI investors to consider legal action against the board as well               In response  OpenAI management sent an internal memo to employees stating that negotiations with Altman and the board had resumed and would take some time              
+
+On November           after continued negotiations  Altman and Brockman returned to the company in their prior roles along with a reconstructed board made up of new members Bret Taylor  as chairman  and Lawrence Summers  with D Angelo remaining               On November           emerging reports suggested that Sam Altman s dismissal from OpenAI may have been linked to his alleged mishandling of a significant breakthrough in the organization s secretive project codenamed Q   According to sources within OpenAI  Q  is aimed at developing AI capabilities in logical and mathematical reasoning  and reportedly involves performing math on the level of grade school students                                         Concerns about Altman s response to this development  specifically regarding the discovery s potential safety implications  were reportedly raised with the company s board shortly before Altman s firing               On November           OpenAI announced that an anonymous Microsoft employee had joined the board as a non voting member to observe the company s operations               Microsoft resigned from the board in July                   
+
+Content moderation contract with Sama edit 
+For broader coverage of this topic  see Content moderation and working conditions 
+In January       OpenAI has been criticized for outsourcing the annotation of data sets to Sama  a company based in San Francisco that employed workers in Kenya  These annotations were used to train an AI model to detect toxicity  which could then be used to moderate toxic content  notably from ChatGPT s training data and outputs  However  these pieces of text usually contained detailed descriptions of various types of violence  including sexual violence  The investigation uncovered that OpenAI began sending snippets of data to Sama as early as November       The four Sama employees interviewed by Time described themselves as mentally scarred  OpenAI paid Sama        per hour of work  and Sama was redistributing the equivalent of between       and       per hour post tax to its annotators  Sama s spokesperson said that the        was also covering other implicit costs  among which were infrastructure expenses  quality assurance and management              
+
+Lack of technological transparency edit 
+In March       the company was also criticized for disclosing particularly few technical details about products like GPT    contradicting its initial commitment to openness and making it harder for independent researchers to replicate its work and develop safeguards  OpenAI cited competitiveness and safety concerns to justify this strategic turn  OpenAI s former chief scientist Ilya Sutskever argued in      that open sourcing increasingly capable models was increasingly risky  and that the safety reasons for not open sourcing the most potent AI models would become  obvious  in a few years              
+
+Non disparagement agreement edit 
+On May           a Vox article reported that OpenAI was asking departing employees to sign a lifelong non disparagement agreement forbidding them from criticizing OpenAI or acknowledging the existence of the agreement  Daniel Kokotajlo  a former employee  publicly stated that he forfeited his vested equity in OpenAI in order to leave without signing the agreement                            Sam Altman stated that he was unaware of the equity cancellation provision  and that OpenAI never enforced it to cancel any employee s vested equity               Vox published leaked documents and emails challenging this claim               On May           OpenAI sent a memo releasing former employees from the agreement              
+
+Proposed shift from nonprofit control edit 
+OpenAI  Inc  was originally designed as a nonprofit in order to ensure that AGI  benefits all of humanity  rather than  the private gain of any person   In       it created OpenAI Global  LLC  a capped profit subsidiary controlled by the nonprofit  In December       OpenAI proposed a restructuring plan to convert the capped profit into a Delaware based public benefit corporation  PBC   and to release it from the control of the nonprofit  The nonprofit would sell its control and other assets  getting equity in return  and would use it to fund and pursue separate charitable projects  including in science and education  OpenAI s leadership described the change as necessary to secure additional investments  and claimed that the nonprofit s founding mission to ensure AGI  benefits all of humanity  would be better fulfilled              
+The plan has been criticized by experts and former employees  A legal letter named  Not For Private Gain  asked the attorneys general of California and Delaware to intervene  stating that the restructuring is illegal and would remove governance safeguards from the nonprofit and the attorneys general               The letter argues that OpenAI s complex structure was deliberately designed to remain accountable to its mission  without the conflicting pressure of maximizing profits  It contends that the nonprofit is best positioned to advance its mission of ensuring AGI benefits all of humanity by continuing to control OpenAI Global  LLC  whatever the amount of equity that it could get in exchange               PBCs can choose how they balance their mission with profit making  Controlling shareholders have a large influence on how closely a PBC sticks to its mission                           
+Legally  under nonprofit law  assets dedicated to a charitable purpose must continue to serve that purpose  To change its purpose  OpenAI would have to prove that its current purposes have become unlawful  impossible  impracticable  or wasteful               Elon Musk  who had initiated a lawsuit against OpenAI and Altman in August      alleging the company violated contract provisions by prioritizing profit over its mission  reportedly leveraged this lawsuit to stop the restructuring plan               On February           a consortium of investors led by Elon Musk submitted a       billion unsolicited bid to buy the nonprofit that controls OpenAI  declaring willingness to match or exceed any better offer                            The offer was rejected on    February       with OpenAI stating that it was not for sale               but the offer complicated Altman s restructuring plan by suggesting a lower bar for how much the nonprofit should be valued              
+In May       the nonprofit s board chairman Bret Taylor announced that the nonprofit would renounce plans to cede control after outside pressure  The capped profit will still transition to a PBC              
+
+Copyright infringement in training data edit 
+OpenAI was sued for copyright infringement by authors Sarah Silverman  Matthew Butterick  Paul Tremblay and Mona Awad in July                                              In September          authors  including George R  R  Martin  John Grisham  Jodi Picoult and Jonathan Franzen  joined the Authors Guild in filing a class action lawsuit against OpenAI  alleging that the company s technology was illegally using their copyrighted work                            The New York Times also sued the company in late December                                 In May      it was revealed that OpenAI had destroyed its Books  and Books  training datasets  which were used in the training of GPT    and which the Authors Guild believed to have contained over         copyrighted books              
+In       OpenAI developed a speech recognition tool called Whisper  OpenAI used it to transcribe more than one million hours of YouTube videos into text for training GPT    The automated transcription of YouTube videos raised concerns within OpenAI employees regarding potential violations of YouTube s terms of service  which prohibit the use of videos for applications independent of the platform  as well as any type of automated access to its videos  Despite these concerns  the project proceeded with notable involvement from OpenAI s president  Greg Brockman  The resulting dataset proved instrumental in training GPT                
+In February       The Intercept as well as Raw Story and Alternate Media Inc  filed lawsuit against OpenAI on copyright litigation ground                            The lawsuit is said to have charted a new legal strategy for digital only publishers to sue OpenAI              
+On April           eight newspapers filed a lawsuit in the Southern District of New York against OpenAI and Microsoft  claiming illegal harvesting of their copyrighted articles  The suing publications included The Mercury News  The Denver Post  The Orange County Register  St  Paul Pioneer Press  Chicago Tribune  Orlando Sentinel  Sun Sentinel  and New York Daily News              
+
+GDPR compliance edit 
+In April       the EU s European Data Protection Board  EDPB  formed a dedicated task force on ChatGPT  to foster cooperation and to exchange information on possible enforcement actions conducted by data protection authorities  based on the  enforcement action undertaken by the Italian data protection authority against Open AI about the Chat GPT service               
+In late April      NOYB filed a complaint with the Austrian Datenschutzbeh rde against OpenAI for violating the European General Data Protection Regulation  A text created with ChatGPT gave a false date of birth for a living person without giving the individual the option to see the personal data used in the process  A request to correct the mistake was denied  Additionally  neither the recipients of ChatGPT s work nor the sources used  could be made available  OpenAI claimed              
+
+Use by military edit 
+OpenAI was criticized for lifting its ban on using ChatGPT for  military and warfare   Up until January           its  usage policies  included a ban on  activity that has high risk of physical harm  including   specifically   weapons development  and  military and warfare   Its new policies prohibit   using  our service to harm yourself or others  and to  develop or use weapons                             As one of the industry collaborators  OpenAI provides LLM to the Artificial Intelligence Cyber Challenge  AIxCC  sponsored by Defense Advanced Research Projects Agency  DARPA  and Advanced Research Projects Agency for Health to protect software critical to Americans               In October       The Intercept revealed that OpenAI s tools are considered  essential  for AFRICOM s mission and included in an  Exception to Fair Opportunity  contractural agreement between the United States Department of Defense and Microsoft               In December       OpenAI said it would partner with defense tech company Anduril to build drone defense technologies for the United States and its allies              
+
+Data scraping edit 
+In June       a lawsuit claimed that OpenAI scraped     billion words online without consent and without registering as a data broker  It was filed in San Francisco  California  by sixteen anonymous plaintiffs               They also claimed that OpenAI and its partner as well as customer Microsoft continued to unlawfully collect and use personal data from millions of consumers worldwide to train artificial intelligence models              
+On May           OpenAI entered into an agreement with News Corp to integrate news content from The Wall Street Journal  the New York Post  The Times  and The Sunday Times into its AI platform  Meanwhile  other publications like The New York Times chose to sue OpenAI and Microsoft for copyright infringement over the use of their content to train AI models               In November       a coalition of Canadian news outlets  including the Toronto Star  Metroland Media  Postmedia  The Globe and Mail  The Canadian Press and CBC  sued OpenAI for using their news articles to train its software without permission              
+
+Suicide of Suchir Balaji edit 
+Further information  Suchir BalajiSuchir Balaji  a former researcher at OpenAI  was found dead in his San Francisco apartment on November           Independent investigations carried out by the San Francisco Police Department  SFPD  and the San Francisco Office of the Chief Medical Examiner  OCME  concluded that Balaji shot himself              
+The death occurred    days after a New York Times interview in which he accused OpenAI of violating copyright law in developing its commercial LLMs  one of which  GPT    he had helped engineer  He was also a likely witness in a major copyright trial against the AI company  and was one of several of its current or former employees named in The New York Times     s court filings as potentially having documents relevant to the case  The death led to speculation and conspiracy theories suggesting he had been deliberately silenced                            Elon Musk  Tucker Carlson  California Congressman Ro Khanna  and San Francisco Supervisor Jackie Fielder have publicly echoed Balaji s parents  skepticism and calls for an investigation  as of January                                 
+In February       the OCME autopsy and SFPD police reports were released  A joint letter from both agencies to the parents  legal team noted that he had purchased the firearm used two years prior to his death  and had recently searched for brain anatomy information on his computer  The letter also highlighted that his apartment s only entrance was dead bolted from inside with no signs of forced entry              
+
+See also edit 
+Anthropic        American artificial intelligence research company
+Center for AI Safety        US based AI safety research center
+Future of Humanity Institute        Defunct Oxford interdisciplinary research centre
+Future of Life Institute        International nonprofit research institute
+Google DeepMind        Artificial intelligence research laboratory
+Machine Intelligence Research Institute        Nonprofit organization researching AI safety
+Notes edit 
+
+
+  The term  pre training  refers to general language training as distinct from fine tuning for specific tasks 
+
+  One petaflop s day is approximately equal to      neural net operations              
+
+
+References edit 
+
+
+  a b  OpenAI  Inc   OpenCorporates  December          Archived from the original on August           Retrieved August         
+
+  Waxmann  Laura  October             OpenAI closes big lease deal at Uber s San Francisco headquarters   San Francisco Chronicle  Retrieved April            cite news     CS  maint  url status  link 
+
+  Metz  Cade  Isaak  Mike  September            OpenAI  Still Haunted by Its Chaotic Past  Is Trying to Grow Up   New York Times  Archived from the original on September          Retrieved September         
+
+  a b Jin  Berber  Seetharaman  Deepa  January             OpenAI in Talks for Huge Investment Round Valuing It at Up to      Billion   The Wall Street Journal  Archived from the original on January           OpenAI expected to lose around    billion last year on revenue of      billion
+
+  Goldman  Sharon  December             Hundreds of OpenAI s current and ex employees are about to get a huge payday by cashing out up to     million each in a private stock sale   Fortune  Archived from the original on December          
+
+  a b  OpenAI Charter   OpenAI  April          Archived from the original on July           Retrieved July          
+
+   Artificial  The OpenAI Story   WSJ  December           Archived from the original on December           Retrieved December          
+
+   Models   OpenAI API   OpenAI  Archived from the original on November           Retrieved November          
+
+  Jindal  Siddharth  February             OpenAI Steals the Spotlight with Sora   Analytics India Magazine  Archived from the original on April           Retrieved July          
+
+  a b c  Our structure   OpenAI  June           Archived from the original on July          
+
+  Levine  Matt  October             Who Owns OpenAI    Retrieved April          
+
+   OpenAI LP   openai com  March           Retrieved April          
+
+  Roth  Emma  March             Microsoft spent hundreds of millions of dollars on a ChatGPT supercomputer   The Verge  Archived from the original on March           Retrieved June          
+
+  Goldman  Sharon  August             Exodus at OpenAI  Nearly half of AGI safety staffers have left  says former researcher   Fortune  Retrieved October          
+
+  Meyer  David  October             OpenAI s reputational double whammy   Fortune  Archived from the original on December          Retrieved October          
+
+   Introducing OpenAI   OpenAI  December           Archived from the original on August          Retrieved December          
+
+   Sam Altman on His Plan to Keep A I  Out of the Hands of the  Bad Guys    Vanity Fair        Archived from the original on February          Retrieved January          
+
+  Harris  Mark  May             Elon Musk used to say he put     M in OpenAI  but now it s    M  Here are the receipts   TechCrunch  Archived from the original on May          
+
+  Chan  Kelvin  March            OpenAI says Musk agreed the ChatGPT maker should become a for profit company   Associated Press 
+
+   Introducing OpenAI   OpenAI Blog  December           Archived from the original on February           Retrieved September          
+
+  a b c  Tech giants pledge   bn for  altruistic AI  venture  OpenAI   BBC News  December           Archived from the original on March           Retrieved December          
+
+  Seetharaman  Deepa  September             Turning OpenAI Into a Real Business Is Tearing It Apart   The Wall Street Journal  Archived from the original on September           Retrieved September          
+
+  Conger  Kate   Elon Musk s Neuralink Sought to Open an Animal Testing Facility in San Francisco   Gizmodo  Archived from the original on September           Retrieved October          
+
+  Hao  Karen  February             The messy  secretive reality behind OpenAI s bid to save the world   MIT Technology Review  Archived from the original on April          Retrieved March         
+
+  a b c d e f g Cade Metz  April             Inside OpenAI  Elon Musk s Wild Plan to Set Artificial Intelligence Free   Wired  Archived from the original on April           Retrieved April          
+
+  a b Dave Gershgorn  April             Elon Musk s Artificial Intelligence Group Opens A  Gym  To Train A I   Popular Science  Archived from the original on April           Retrieved April          
+
+  Carr  Austin  King  Ian  June             How Nvidia Became ChatGPT s Brain and Joined the    Trillion Club   Bloomberg News  Archived from the original on June          
+
+  Vanian  Jonathan  August             Elon Musk s Artificial Intelligence Project Just Got a Free Supercomputer   Fortune  Archived from the original on June         
+
+  Metz  Cade   Elon Musk s Lab Wants to Teach Computers to Use Apps Just Like Humans Do   WIRED  Archived from the original on January           Retrieved December          
+
+  Mannes  John   OpenAI s Universe is the fun parent every artificial intelligence deserves   TechCrunch  Archived from the original on February           Retrieved December          
+
+   OpenAI   Universe   Archived from the original on January          Retrieved December          
+
+  Claburn  Thomas   Elon Musk backed OpenAI reveals Universe   a universal training ground for computers   The Register  Archived from the original on January          Retrieved December          
+
+   Microsoft to invest    billion in OpenAI   Reuters  July           Archived from the original on May           Retrieved March         
+
+  Vincent  James  February             Elon Musk leaves board of AI safety group to avoid conflict of interest with Tesla   The Verge  Archived from the original on November          Retrieved February          
+
+  Hern  Alex  February             New AI fake text generator may be too dangerous to release  say creators   The Guardian  Archived from the original on February           Retrieved December          
+
+   OpenAI shifts from nonprofit to  capped profit  to attract capital   March           Archived from the original on January          Retrieved January         
+
+  a b  To Compete With Google  OpenAI Seeks Investors and Profits   Wired  December          Archived from the original on March           Retrieved March         
+
+  a b Kahn  Jeremy  March             AI Research Group Co Founded by Elon Musk Starts For Profit Arm   Bloomberg News  Archived from the original on December          Retrieved March         
+
+  Metz  Cade  April             A I  Researchers Are Making More Than    Million  Even at a Nonprofit   The New York Times  ISSN                 Archived from the original on August          Retrieved January          
+
+   Microsoft invests in and partners with OpenAI   July           Archived from the original on February           Retrieved March          
+
+  Langston  Jennifer  January             Microsoft announces new supercomputer  lays out vision for future AI work   Source  Archived from the original on February           Retrieved February           Built in collaboration with and exclusively for OpenAI
+
+  Foley  Mary Jo  May             Microsoft builds a supercomputer for OpenAI for training massive AI models   ZDNET  Archived from the original on February           Retrieved February          
+
+   Microsoft s OpenAI supercomputer has         CPU cores         GPUs   Engadget  May           Archived from the original on February           Retrieved February           Microsoft s OpenAI supercomputer has         CPU cores         GPUs  It s one of the five fastest systems in the world 
+
+   Microsoft Invests in and Partners with OpenAI to Support Us Building Beneficial AGI   OpenAI  July           Archived from the original on November          Retrieved February          
+
+  Murgia  Madhumita  August            DeepMind runs up higher losses and debts in race for AI   Financial Times  Archived from the original on December           Retrieved March         
+
+   OpenAI Will Need More Capital Than Any Non Profit Has Ever Raised   Fortune  Archived from the original on December          Retrieved March         
+
+  Vincent  James  July             Microsoft invests    billion in OpenAI to pursue holy grail of artificial intelligence   The Verge  Archived from the original on July           Retrieved March         
+
+  Vance  Ashlee  June             Trillions of Words Analyzed  OpenAI Sets Loose AI Language Colossus   Bloomberg News  Archived from the original on October           Retrieved June          
+
+  Moss  Sebastian  June            Eleven OpenAI Employees Break Off to Establish Anthropic  Raise      Million   AI Business  Archived from the original on June          Retrieved June          
+
+   OpenAI debuts DALL E for generating images from text   VentureBeat  January          Archived from the original on January          Retrieved January         
+
+  Porter  Jon  November            ChatGPT continues to be one of the fastest growing services ever   The Verge  Archived from the original on November           Retrieved November          
+
+  Roose  Kevin  December            The Brilliance and Weirdness of ChatGPT   The New York Times  Archived from the original on January           Retrieved January         
+
+  Dastin  Jeffrey  Hu  Krystal  Dave  Paresh  Dave  Paresh  December             Exclusive  ChatGPT owner OpenAI projects    billion in revenue by        Reuters  Archived from the original on February          Retrieved January         
+
+  Kruppa  Berber Jin and Miles  January            WSJ News Exclusive   ChatGPT Creator in Investor Talks at     Billion Valuation   Wall Street Journal  Archived from the original on February          Retrieved January         
+
+   Microsoft Adds     Billion to Investment in ChatGPT Maker OpenAI   Bloomberg com  January           Archived from the original on January           Retrieved January          
+
+  Capoot  Ashley  January             Microsoft announces multibillion dollar investment in ChatGPT maker OpenAI   CNBC  Archived from the original on January           Retrieved January          
+
+  Warren  Tom  January             Microsoft extends OpenAI partnership in a  multibillion dollar investment    The Verge  Archived from the original on April           Retrieved April          
+
+   Bard  Google launches ChatGPT rival   BBC News  February          Archived from the original on February          Retrieved February         
+
+  Vincent  James  February            Google s AI chatbot Bard makes factual error in first demo   The Verge  Archived from the original on February           Retrieved February          
+
+  Dotan  Tom  February            Microsoft Adds ChatGPT AI Technology to Bing Search Engine   Wall Street Journal  Archived from the original on February          Retrieved February         
+
+  Dastin  Jeffrey  March            OpenAI s long time backer Reid Hoffman leaves board   Reuters  Archived from the original on May           Retrieved March          
+
+   GPT     openai com  Archived from the original on March           Retrieved March          
+
+  a b  Governance of superintelligence   openai com  Archived from the original on May           Retrieved May          
+
+  Wodecki  Ben  Yao  Deborah  May             OpenAI Founders Warn AI  Superintelligence  is Like Nuclear Power   Archived from the original on May           Retrieved May          
+
+   Introducing Superalignment   OpenAI  July          Archived from the original on May           Retrieved May          
+
+   OpenAI acquires start up Global Illumination to work on core products  ChatGPT   Reuters  August           Archived from the original on August           Retrieved August          
+
+  Edwards  Nathan  September             Microsoft s unified Copilot is coming to Windows  Edge  and everywhere else   The Verge  Archived from the original on December          Retrieved February         
+
+  Warren  Tom  December             Microsoft Copilot is now available as a ChatGPT like app on Android   The Verge  Archived from the original on January           Retrieved February         
+
+   Microsoft s Copilot app is now available on iOS   The Verge  Vox Media  December           Archived from the original on January           Retrieved February         
+
+  Northrop  Katrina  December            G   s Ties To China Run Deep   The Wire China  Archived from the original on January           Retrieved February          
+
+   OpenAI Launches Custom ChatGPT Versions   The New York Times  November          Archived from the original on November           Retrieved November          
+
+  Elstrom  Peter  November             OpenAI Pauses New Signups to Manage Overwhelming Demand   Bloomberg  Archived from the original on November           Retrieved November          
+
+  Idris  Abubakar  December             OpenAI Reopens ChatGPT Plus Subscriptions   The Messenger  Archived from the original on December           Retrieved December          
+
+  Field  Hayden  January             OpenAI announces first partnership with a university   CNBC  Archived from the original on January           Retrieved January          
+
+  Seetharaman  Deepa  February             SEC Investigating Whether OpenAI Investors Were Misled   The Wall Street Journal  News Corp  Archived from the original on February           Retrieved February          
+
+  Metz  Cade  February             OpenAI Unveils A I  That Instantly Generates Eye Popping Videos   The New York Times  Archived from the original on February           Retrieved February          
+
+   Sora  Creating video from text   openai com  Archived from the original on February           Retrieved February          
+
+  Satariano  Adam  Metz  Cade  Mickle  Tripp  March            Elon Musk Sues OpenAI and Sam Altman for Violating the Company s Principles   The New York Times  ISSN                 Archived from the original on March          Retrieved March         
+
+  Lopatto  Elizabeth  March            OpenAI says Elon Musk wanted  absolute control  of the company   The Verge  Archived from the original on March           Retrieved March         
+
+  Kharpal  Arjun  August            Elon Musk revives lawsuit against OpenAI  Sam Altman in federal court   CNBC  Archived from the original on August          Retrieved August         
+
+  De Avila  Joseph  August            Elon Musk Revives Lawsuit Against OpenAI and Sam Altman   The Wall Street Journal  News Corp  Archived from the original on August          Retrieved August         
+
+  a b Hollister  Sean  May             OpenAI chief scientist Ilya Sutskever is officially leaving   The Verge  Archived from the original on May           Retrieved May          
+
+  Samuel  Sigal  May              I lost trust   Why the OpenAI team in charge of safeguarding humanity imploded   Vox  Archived from the original on May           Retrieved May          
+
+   Reddit and OpenAI Build Partnership   Upvoted   www redditinc com  May           Archived from the original on May           Retrieved May          
+
+  Fischer  Sara  May             Exclusive  The Atlantic  Vox Media ink licensing  product deals with OpenAI   Axios  Archived from the original on May           Retrieved June         
+
+  Wiggers  Kyle  June             Apple brings ChatGPT to its apps  including Siri   TechCrunch  Archived from the original on June           Retrieved June          
+
+  Coldewey  Devin  June             Former NSA head joins OpenAI board and safety committee   TechCrunch  Archived from the original on June           Retrieved June          
+
+  Wiggers  Kyle  June             OpenAI buys a remote collaboration platform   TechCrunch  Archived from the original on June           Retrieved July         
+
+  Tong  Anna  Paul  Katie  July             Exclusive  OpenAI working on new reasoning technology under code name  Strawberry    Reuters  Archived from the original on July           Retrieved July          
+
+  Sager  Monica  July             What we know about OpenAI s secretive  Project Strawberry    Newsweek  Archived from the original on July           Retrieved July          
+
+  Wiggers  Kyle  August            OpenAI co founder Schulman leaves for Anthropic  Brockman takes extended leave   TechCrunch  Archived from the original on August          Retrieved August         
+
+   OpenAI  in favour  of UK AI legislation  policy chief says   UKTN  September           Archived from the original on September           Retrieved September          
+
+  Field  Hayden  September             OpenAI CTO Mira Murati announces she s leaving the company   CNBC  Archived from the original on September           Retrieved September          
+
+  Maxwell Zeff  Kyle Wiggers  September             OpenAI CTO Mira Murati says she s leaving the company   TechCrunch  Archived from the original on October          Retrieved September          
+
+  Hu  Krystal  October            OpenAI closes      billion funding haul with investment from Microsoft and Nvidia   Reuters  Archived from the original on October          Retrieved October         
+
+  Wiggers  Kyle  November            OpenAI acquired Chat com   TechCrunch  Archived from the original on November           Retrieved December          
+
+   Did OpenAI just spend more than     million on a URL    The Verge  November          Archived from the original on November           Retrieved November          
+
+   OpenAI co founder Greg Brockman returns to ChatGPT maker   Reuters  November           Retrieved November          
+
+   OpenAI releases text to video model Sora for ChatGPT Plus and Pro users   The Economic Times  December           ISSN                 Archived from the original on December           Retrieved December          
+
+   OpenAI releases text to video model Sora for ChatGPT Plus and Pro users   Reuters  December          
+
+   Deep Dive  OpenAI s o    The Dawn of Deliberate AI   Portkey Blog  December          Archived from the original on December          Retrieved December          
+
+  Franzen  Carl  December            OpenAI launches full o  model with image uploads and analysis  debuts ChatGPT Pro   VentureBeat  Archived from the original on December          Retrieved December          
+
+  Franzen  Carl  David  Emilia  December             OpenAI confirms new frontier models o  and o  mini   VentureBeat  Archived from the original on January           Retrieved January          
+
+  Orland  Kyle  January             How does DeepSeek R  really fare against OpenAI s best reasoning models    Ars Technica  Retrieved February          
+
+   Nvidia stock plummets  loses record      billion as DeepSeek prompts questions over AI spending   Yahoo  finance  January          
+
+  Jacobs  Jennifer  January             Trump announces up to      billion in private sector AI infrastructure investment   CBS News   www cbsnews com  Retrieved January          
+
+  Metz  Cade  January             OpenAI Unveils A I  Agent That Can Use Websites on Its Own   New York Times  Retrieved January          
+
+  Edwards  Benj  January             OpenAI launches Operator  an AI agent that can operate your computer   Ars Technica  Retrieved January          
+
+  a b Lawler  Richard  February            ChatGPT s agent can now do deep research for you   The Verge  Retrieved February         
+
+  Bell  Jonathan  February            OpenAI has undergone its first ever rebrand  giving fresh life to ChatGPT interactions   wallpaper com  Retrieved February         
+
+   Exclusive  OpenAI set to finalize first custom chip design this year   reuters com  February           Retrieved February          
+
+  Barr  Kyle  February             OpenAI s GPT     May Arrive Next Week  but GPT   Is Just Around the Corner   Gizmodo  Retrieved February          
+
+  Nolan  Beatrice   Sam Altman lays out plans for GPT   and GPT     promising end of  hated  model picker   Fortune  Retrieved February          
+
+  Bort  Julie  March             In another chess move with Microsoft  OpenAI is pouring    B into CoreWeave   TechCrunch  Retrieved March          
+
+  Rooney  Hayden Field Kate  March             OpenAI closes     billion funding round  largest private tech deal on record   CNBC  Retrieved April           cite web     CS  maint  multiple names  authors list  link 
+
+  Wiggers  Kyle  March             OpenAI raises    B at     B post money valuation   TechCrunch  Retrieved April         
+
+  Habeshian  Sareen  April             OpenAI countersues Elon Musk in bitter legal battle   Axios  Retrieved April          
+
+  a b c  Silicon Valley investors to bankroll artificial intelligence center   The Seattle Times  December           Archived from the original on January          Retrieved December          
+
+  Bordoloi  Pritam  May            OpenAI gets a new president  CTO  amp  COO in the latest rejig   AIM  Archived from the original on October           Retrieved October          
+
+  a b  OpenAI hires former Nextdoor CEO Sarah Friar as first CFO   Reuters  June           Archived from the original on June           Retrieved June          
+
+  Levy  Hayden Field Ari  March             OpenAI expands COO Brad Lightcap s job to include business oversight  as Altman focuses on research   CNBC  Retrieved April            cite web     CS  maint  multiple names  authors list  link 
+
+  Peters  Jay  June             Former head of NSA joins OpenAI board   The Verge  Archived from the original on June           Retrieved June          
+
+   OpenAI Names Computer Scientist Zico Kolter as New Board Member   Bloomberg com  August          Archived from the original on August          Retrieved August          
+
+  Criddle  Cristina  Gara  Antoine  January             OpenAI appoints one of Wall Street s most powerful dealmakers to its board   Financial Times  Retrieved January          
+
+   Who are OpenAI s new board members    Reuters  March           Archived from the original on March           Retrieved August          
+
+  a b Liedtke  Michael   Elon Musk  Peter Thiel  Reid Hoffman  others back    billion OpenAI research center   Mercury News  Archived from the original on December           Retrieved December          
+
+  Piper  Kelsey  November            Why Elon Musk fears artificial intelligence   Vox  Archived from the original on April           Retrieved March          
+
+  Lewontin  Max  December             Open AI  Effort to democratize artificial intelligence research    The Christian Science Monitor  Archived from the original on December           Retrieved December          
+
+  a b Cade Metz  April             Inside OpenAI  Elon Musk s Wild Plan to Set Artificial Intelligence Free   Wired  Archived from the original on April           Retrieved April          
+
+  Mendoza  Jessica   Tech leaders launch nonprofit to save the world from killer robots   The Christian Science Monitor  Archived from the original on July          Retrieved December          
+
+  a b Metz  Cade  December             Elon Musk s Billion Dollar AI Plan Is About Far More Than Saving the World   Wired  Archived from the original on December           Retrieved December           Altman said they expect this decades long project to surpass human intelligence 
+
+  Vishal Sikka  December             OpenAI  AI for All   InfyTalk  Infosys  Archived from the original on December           Retrieved December          
+
+   Sam Altman s Manifest Destiny   The New Yorker  No       October           Archived from the original on October          Retrieved October         
+
+  Vincent  James  February             AI researchers debate the ethics of sharing potentially harmful programs   The Verge  Archived from the original on February          Retrieved March         
+
+   Our approach to alignment research   openai com  Archived from the original on April           Retrieved April          
+
+  Piper  Kelsey  October             Inside OpenAI s multibillion dollar gambit to become a for profit company   Vox  Archived from the original on December          Retrieved December         
+
+  Knight  Will   The OpenAI Talent Exodus Gives Rivals an Opening   Wired  ISSN                 Archived from the original on December          Retrieved December         
+
+  Edwards  Benj  September             OpenAI plans tectonic shift from nonprofit to for profit  giving Altman equity   Ars Technica  Archived from the original on December          Retrieved December         
+
+   OpenAI keen to work with China  CEO Sam Altman says  as DeepSeek rattles the tech market   South China Morning Post  February       Retrieved February          
+
+   DeepSeek spurs Baidu  other AI competitors to adopt open source strategy   South China Morning Post  February       Retrieved February          
+
+   OpenAI CEO discusses AI collaboration and regulatory challenges   South China Morning Post  February       Retrieved February          
+
+  Wiggers  Kyle  July             OpenAI disbands its robotics research team   VentureBeat  Archived from the original on February           Retrieved February          
+
+  Lee  Dave  October             Robot solves Rubik s cube  but not grand challenge   BBC News  Archived from the original on April          Retrieved February          
+
+  Greg Brockman  John Schulman  April             OpenAI Gym Beta   OpenAI Blog  OpenAI  Archived from the original on February           Retrieved April          
+
+   openai gym   GitHub  Archived from the original on August           Retrieved August           The team that has been maintaining Gym since      has moved all future development to Gymnasium  a drop in replacement for Gym  import gymnasium as gym   and Gym will not be receiving any future updates 
+
+   Announcing The Farama Foundation   The future of open source reinforcement learning   The Farama Foundation  October           Archived from the original on August           Retrieved August          
+
+   Gym Retro   OpenAI  May           Archived from the original on February           Retrieved February          
+
+  a b c  AI Sumo Wrestlers Could Make Future Robots More Nimble   Wired  October           Archived from the original on November          Retrieved November         
+
+   OpenAI s Goofy Sumo Wrestling Bots Are Smarter Than They Look   MIT Technology Review  Archived from the original on November          Retrieved November         
+
+  Savov  Vlad  August             My favorite game has been invaded by killer AI bots and Elon Musk hype   The Verge  Archived from the original on June           Retrieved June          
+
+  Frank  Blair Hanley   OpenAI s bot beats top Dota   player so badly that he quits   Venture Beat  Archived from the original on August           Retrieved August          
+
+   Dota     blog openai com  August           Archived from the original on August           Retrieved August          
+
+   More on Dota     blog openai com  August           Archived from the original on February           Retrieved August          
+
+  a b Simonite  Tom   Can Bots Outwit Humans in One of the Biggest Esports Games    Wired  Archived from the original on June           Retrieved June          
+
+  Kahn  Jeremy  June             A Bot Backed by Elon Musk Has Made an AI Breakthrough in Video Game World   Bloomberg com  Bloomberg L P  Archived from the original on June           Retrieved June          
+
+  Clifford  Catherine  June             Bill Gates says gamer bots from Elon Musk backed nonprofit are  huge milestone  in A I   CNBC  Archived from the original on June           Retrieved June          
+
+   OpenAI Five Benchmark   blog openai com  July           Archived from the original on February           Retrieved August          
+
+  Vincent  James  June             AI bots trained for     years a day to beat humans at Dota     The Verge  Archived from the original on June           Retrieved June          
+
+  Savov  Vlad  August            The OpenAI Dota   bots just defeated a team of former pros   The Verge  Archived from the original on August          Retrieved August         
+
+  Simonite  Tom   Pro Gamers Fend off Elon Musk Backed AI Bots for Now   Wired  Archived from the original on August           Retrieved August          
+
+  Quach  Katyanna   Game over  machines  Humans defeat OpenAI bots once again at video games Olympics   The Register  Archived from the original on August           Retrieved August          
+
+   The International       Results   blog openai com  August           Archived from the original on August           Retrieved August          
+
+  Statt  Nick  April             OpenAI s Dota   AI steamrolls world champion e sports team with back to back victories   The Verge  Archived from the original on April           Retrieved July          
+
+   How to Train Your OpenAI Five   OpenAI Blog  April           Archived from the original on June           Retrieved July          
+
+  Wiggers  Kyle  April             OpenAI s Dota   bot defeated       of players in public matches   Venture Beat  Archived from the original on July           Retrieved April          
+
+  Fangasadha  Edbert Felix  Soeroredjo  Steffi  Anderies  Gunawan  Alexander Agung Santoso  September             Literature Review of OpenAI Five s Mechanisms in Dota   s Bot Player        International Seminar on Application for Technology of Information and Communication  ISemantic   IEEE  pp                doi         iSemantic                    ISBN                         S CID                 Archived from the original on May           Retrieved August         
+
+  Vincent  James  July             OpenAI sets new benchmark for robot dexterity   The Verge  Archived from the original on February           Retrieved February          
+
+  OpenAI  Andrychowicz  Marcin  Baker  Bowen  Chociej  Maciej  J zefowicz  Rafa   McGrew  Bob  Pachocki  Jakub  Petron  Arthur  Plappert  Matthias  Powell  Glenn  Ray  Alex  Schneider  Jonas  Sidor  Szymon  Tobin  Josh  Welinder  Peter  Weng  Lilian  Zaremba  Wojciech          Learning Dexterous In Hand Manipulation   arXiv           v   cs LG  
+
+  OpenAI  Akkaya  Ilge  Andrychowicz  Marcin  Chociej  Maciek  Litwin  Mateusz  McGrew  Bob  Petron  Arthur  Paino  Alex  Plappert  Matthias  Powell  Glenn  Ribas  Raphael          Solving Rubik s Cube with a Robot Hand   arXiv           v   cs LG  
+
+  a b  OpenAI API   OpenAI  June           Archived from the original on June           Retrieved June           Why did OpenAI choose to release an API instead of open sourcing the models There are three main reasons we did this  First  commercializing the technology helps us pay for our ongoing AI research  safety  and policy efforts  Second  many of the models underlying the API are very large  taking a lot of expertise to develop and deploy and making them very expensive to run  This makes it hard for anyone except larger companies to benefit from the underlying technology  We re hopeful that the API will make powerful AI systems more accessible to smaller businesses and organizations  Third  the API model allows us to more easily respond to misuse of the technology  Since it is hard to predict the downstream use cases of our models  it feels inherently safer to release them via an API and broaden access over time  rather than release an open source model where access cannot be adjusted if it turns out to have harmful applications 
+
+  Coldewey  Devin  June             OpenAI makes an all purpose API for its text based AI capabilities   TechCrunch  Archived from the original on June           Retrieved June           If you ve ever wanted to try out OpenAI s vaunted machine learning toolset  it just got a lot easier  The company has released an API that lets developers call its AI tools in on  virtually any English language task  
+
+   GPT   to GPT    Each of OpenAI s GPT Models Explained and Compared   April           Archived from the original on April           Retrieved April          
+
+   Improving Language Understanding by Generative Pre Training   PDF   Archived  PDF  from the original on January           Retrieved June         
+
+  a b Hern  Alex  February             New AI fake text generator may be too dangerous to release  say creators   The Guardian  Archived from the original on February           Retrieved February          
+
+  Schwartz  Oscar  July            Could  fake text  be the next global political threat    The Guardian  Archived from the original on July           Retrieved July          
+
+  Vincent  James  February             OpenAI s new multitalented AI writes  translates  and slanders   The Verge  Archived from the original on December           Retrieved July          
+
+   GPT       B Release   OpenAI  November          Archived from the original on November           Retrieved November          
+
+   Write With Transformer   Archived from the original on December          Retrieved December         
+
+   Talk to Transformer   Archived from the original on December          Retrieved December         
+
+   CreativeEngines   Archived from the original on February          Retrieved June          
+
+  Language Models are Unsupervised Multitask Learners  PDF   archived  PDF  from the original on December           retrieved December        
+
+   openai gpt     OpenAI  May           Archived from the original on November           Retrieved May          
+
+  Sagar  Ram  June            OpenAI Releases GPT    The Largest Model So Far   Analytics India Magazine  Archived from the original on August          Retrieved June          
+
+  a b c d Brown  Tom  Mann  Benjamin  Ryder  Nick  Subbiah  Melanie  Kaplan  Jared  Dhariwal  Prafulla  Neelakantan  Arvind  Shyam  Pranav  Sastry  Girish  Askell  Amanda  Agarwal  Sandhini  June            Language Models are Few Shot Learners   p       appendix  arXiv             cs CL  
+
+  Language Models are Unsupervised Multitask Learners  PDF   archived  PDF  from the original on December           retrieved December          GPT    is a    B parameter Transformer
+
+  Brown  Tom  Mann  Benjamin  Ryder  Nick  Subbiah  Melanie  Kaplan  Jared  Dhariwal  Prafulla  Neelakantan  Arvind  Shyam  Pranav  Sastry  Girish  Askell  Amanda  Agarwal  Sandhini  June            Language Models are Few Shot Learners   arXiv             cs CL   Since we increase the capacity by over two orders of magnitude from GPT   to GPT  
+
+  Ray  Tiernan          OpenAI s gigantic GPT   hints at the limits of language models for AI   ZDNet  Archived from the original on June          Retrieved June         
+
+  Amodei  Dario  Hernandez  Danny  May             AI and Compute   Archived from the original on June           Retrieved August           A petaflop s day  pfs day  consists of performing      neural net operations per second for one day  or a total of about      operations  The compute time product serves as a mental convenience  similar to kW hr for energy 
+
+  Eadicicco  Lisa   The artificial intelligence company that Elon Musk helped found is now selling the text generation software it previously said was too dangerous to launch   Business Insider  Archived from the original on November           Retrieved July         
+
+   OpenAI is giving Microsoft exclusive access to its GPT   language model   MIT Technology Review  Archived from the original on February          Retrieved September          
+
+   Microsoft gets exclusive license for OpenAI s GPT   language model   VentureBeat  September           Archived from the original on November          Retrieved September          
+
+  a b Alford  Anthony  August             OpenAI Announces    Billion Parameter Code Generation AI Codex   InfoQ  Archived from the original on July          Retrieved September         
+
+  a b Wiggers  Kyle  July            OpenAI warns AI behind GitHub s Copilot may be susceptible to bias   VentureBeat  Archived from the original on February          Retrieved September         
+
+  Zaremba  Wojciech  August             OpenAI Codex   OpenAI  Archived from the original on February          Retrieved September         
+
+  Dickson  Ben  August             What to expect from OpenAI s Codex API   VentureBeat  Archived from the original on February          Retrieved September         
+
+  Claburn  Thomas  August             GitHub s Copilot may steer you into dangerous waters about     of the time   study   The Register  Archived from the original on February          Retrieved September         
+
+   OpenAI Might Invite Legal Trouble   Analytics India Magazine  March           Archived from the original on March           Retrieved March          
+
+  Vincent  James  March             OpenAI announces GPT   the next generation of its AI language model   The Verge  Archived from the original on March           Retrieved March          
+
+  Wiggers  Kyle  March             OpenAI releases GPT    a multimodal AI that it claims is state of the art   TechCrunch  Archived from the original on March           Retrieved March          
+
+  Belfield  Haydn  March             If your AI model is going to sell  it has to be safe   Vox  Archived from the original on March           Retrieved March          
+
+  Roose  Kevin  September             The New ChatGPT Can  See  and  Talk   Here s What It s Like   The New York Times  Archived from the original on October           Retrieved December         
+
+  Vincent  James  March             OpenAI co founder on company s past approach to openly sharing research   We were wrong    The Verge  Archived from the original on March           Retrieved March          
+
+  Wiggers  Kyle  May             OpenAI debuts GPT  o  omni  model now powering ChatGPT   TechCrunch  Archived from the original on May           Retrieved May          
+
+  van Rijmenam  Mark  May             OpenAI Launched GPT  o  The Future of AI Interactions Is Here   The Digital Speaker  Archived from the original on May           Retrieved May          
+
+  Daws  Ryan  May             GPT  o delivers human like AI interaction with text  audio  and vision integration   AI News  Archived from the original on May           Retrieved May          
+
+   Hello GPT  o   OpenAI  Archived from the original on May           Retrieved July          
+
+  Franzen  Carl  July             OpenAI unveils GPT  o mini   a smaller  much cheaper multimodal AI model   VentureBeat  Archived from the original on July           Retrieved July          
+
+  Zeff  Kyle Wiggers  Maxwell  March             ChatGPT s image generation feature gets an upgrade   TechCrunch  Retrieved March            cite web     CS  maint  multiple names  authors list  link 
+
+  Novet  Jordan  February             OpenAI launching GPT      its next general purpose large language model   CNBC  Retrieved March          
+
+  Weatherbed  Jess  April             OpenAI debuts its GPT     flagship AI model   The Verge  Retrieved April          
+
+   Introducing GPT     in the API   openai com  Retrieved April          
+
+  Knight  Will   OpenAI s New GPT     Models Excel at Coding   Wired  ISSN                 Retrieved April          
+
+  Knight  Will   OpenAI Announces a New AI Model  Code Named Strawberry  That Solves Difficult Problems Step by Step   Wired  ISSN                 Archived from the original on September           Retrieved September          
+
+  Robison  Kylie  September             OpenAI releases o   its first model with  reasoning  abilities   The Verge  Archived from the original on September           Retrieved September          
+
+  Franzen  Carl  December            OpenAI launches full o  model with image uploads and analysis  debuts ChatGPT Pro   VentureBeat  Archived from the original on December          Retrieved December         
+
+  Wiggers  Kyle  March             OpenAI s o  pro is the company s most expensive AI model yet   TechCrunch  Retrieved March          
+
+  Zeff  Maxwell  Wiggers  Kyle  December             OpenAI announces new o  models   TechCrunch  Archived from the original on December           Retrieved December          
+
+  Knight  Will   OpenAI Upgrades Its Smartest AI Model With Improved Reasoning Skills   Wired  ISSN                 Archived from the original on December           Retrieved December          
+
+   Early access for safety testing   OpenAI  December           Archived from the original on December           Retrieved December          
+
+  Zeff  Maxwell  Wiggers  Kyle  December             OpenAI announces new o  models   TechCrunch  Archived from the original on December           Retrieved December          
+
+   OpenAI launches new AI reasoning models o  and    mini  older models to be phased out   The Hindu  The Hindu Bureau  April           ISSN              X  Retrieved April          
+
+   OpenAI launches new AI tool to facilitate research tasks   Reuters  February                 via www reuters com 
+
+   OpenAI rolls out free  lightweight Deep Research tool for all ChatGPT users   India Today  April           Retrieved April          
+
+   OpenAI introduces cost efficient  lightweight version of ChatGPT research tool   The Times of India  April           ISSN                 Retrieved April          
+
+   CLIP  Connecting Text and Images   January          Archived from the original on March           Retrieved March          
+
+   DALL E  Creating Images from Text   January          Archived from the original on March           Retrieved March          
+
+   DALL E     OpenAI  Archived from the original on April          Retrieved April         
+
+   ChatGPT  A scientist explains the hidden genius and pitfalls of OpenAI s chatbot   BBC Science Focus Magazine        Archived from the original on February          Retrieved December          
+
+   OpenAI s new AI image generator pushes the limits in detail and prompt fidelity   Archived from the original on November           Retrieved November          
+
+   DALL E   is now available in ChatGPT Plus and Enterprise   Archived from the original on November           Retrieved November          
+
+  a b c Metz  Cade  February             OpenAI Unveils A I  That Instantly Generates Eye Popping Videos   The New York Times  Archived from the original on February           Retrieved February          
+
+   Video generation models as world simulators   OpenAI  February           Archived from the original on February           Retrieved February          
+
+  a b c Brooks  Tim  Peebles  Bill  Holmes  Connor  DePue  Will  Guo  Yufei  Jing  Li  Schnurr  David  Taylor  Joe  Luhman  Troy  Luhman  Eric  Ng  Clarence Wing Yin  Wang  Ricky  Ramesh  Aditya  February             Video generation models as world simulators   Openai com  OpenAI  Archived from the original on February           Retrieved February          
+
+  Peque o IV  Antonio  February             OpenAI Reveals  Sora   AI Video Model Capable Of Realistic Text To Video Prompts   Forbes  Archived from the original on February           Retrieved February          
+
+  Clark  Elijah   Tyler Perry Warns Of AI Threat After Sora Debut Halts An      Million Studio Expansion   Forbes  Retrieved March          
+
+  Wiggers  Kyle  September             OpenAI open sources Whisper  a multilingual speech recognition system   TechCrunch  Archived from the original on February           Retrieved February          
+
+  Radford  Alec  Kim  Jong Wook  Xu  Tao  Brockman  Greg  McLeavey  Christine  Sutskever  Ilya          Robust Speech Recognition via Large Scale Weak Supervision   arXiv             eess AS  
+
+   OpenAI s MuseNet generates AI music at the push of a button   The Verge  April       Archived from the original on June           Retrieved June         
+
+   MuseNet   OpenAI  April           Archived from the original on June           Retrieved June         
+
+   Arcade Attack Podcast   September    of           Alex Hall  Ben Drowned    Interview   Arcade Attack  September           Archived from the original on February          Retrieved January          
+
+  Alexander Hall  June             Tweets don t have titles and do not archive   X  formerly Twitter   Archived from the original on February          Retrieved January          
+
+   OpenAI introduces Jukebox  a new AI model that generates genre specific music   The Verge  April           Archived from the original on June          Retrieved June         
+
+  Stephen  Bijan  April             OpenAI introduces Jukebox  a new AI model that generates genre specific music   Business Insider  Archived from the original on June          Retrieved June         
+
+   Jukebox   OpenAI  April           Archived from the original on June          Retrieved June         
+
+  Greene  Tristan  May            OpenAI s Debate Game teaches you and your friends how to lie like robots   The Next Web  Archived from the original on May          Retrieved May          
+
+   Why Scientists Think AI Systems Should Debate Each Other   Fast Company  May          Archived from the original on May           Retrieved June         
+
+   OpenAI Microscope   April           Archived from the original on February          Retrieved March          
+
+  Johnson  Khari  April             OpenAI launches Microscope to visualize the neurons in popular machine learning models   VentureBeat  Archived from the original on February           Retrieved February          
+
+   OpenAI Microscope   OpenAI Microscope  Archived from the original on February          Retrieved March          
+
+   Mira Murati via Twitter   Mira Murati  December          Archived from the original on December           Retrieved December          
+
+   Pricing   OpenAI  Archived from the original on March           Retrieved March          
+
+  Edwards  Benj  March             OpenAI s GPT   exhibits  human level performance  on professional benchmarks   Ars Technica  Archived from the original on March           Retrieved March          
+
+  OpenAI  February            Introducing ChatGPT Plus   OpenAI Blog  Archived from the original on March           Retrieved March          
+
+  OpenAI   OpenAI API   platform openai com  Archived from the original on March           Retrieved March          
+
+  OpenAI   GPT   API waitlist   openai com  Archived from the original on March           Retrieved March          
+
+  Wiggers  Kyle  February            OpenAI launches ChatGPT Plus  starting at     per month   TechCrunch  Archived from the original on February           Retrieved February          
+
+  a b Lawler  Richard  July             ChatGPT for Android is now available   The Verge  Archived from the original on August           Retrieved August          
+
+   Introducing the ChatGPT app for iOS   openai com  Archived from the original on June          Retrieved August          
+
+   ChatGPT Android app FAQ   OpenAI Help Center   help openai com  Archived from the original on August           Retrieved August          
+
+   ChatGPT can now see  hear  and speak   openai com  Archived from the original on November          Retrieved October          
+
+  Roose  Kevin  September             The New ChatGPT Can  See  and  Talk   Here s What It s Like   The New York Times  Archived from the original on October           Retrieved October                  via NYTimes com 
+
+  David  Emilia  September             OpenAI releases third version of DALL E   The Verge  Archived from the original on September           Retrieved September          
+
+  Metz  Cade  Hsu  Tiffany  September             ChatGPT Can Now Generate Images  Too   The New York Times  ISSN                 Archived from the original on September           Retrieved September          
+
+  Fried  Ina  December            Scoop  OpenAI delays launch of custom GPT store until early        Axios  Archived from the original on December          Retrieved December         
+
+  Halper  Evan  September             Microsoft deal would reopen Three Mile Island nuclear plant to power AI   Washington Post  ISSN                 Retrieved October         
+
+  Samosa  Social   OpenAI launches free    minute phone calls with ChatGPT   www socialsamosa com  Archived from the original on December           Retrieved December          
+
+  Field  Hayden  December             OpenAI makes ChatGPT available for phone calls and texts   CNBC  Archived from the original on December           Retrieved December          
+
+  Robison  Kylie  July             OpenAI announces SearchGPT  its AI powered search engine   The Verge  Archived from the original on July           Retrieved July          
+
+  Wiggers  Kyle  July             With Google in its sights  OpenAI unveils SearchGPT   TechCrunch  Archived from the original on July           Retrieved July          
+
+  a b c Bajwa  Arsheeya  Simao  Paul  Gregorio  David  March             Microsoft  OpenAI plan      billion data center project  media report says   Reuters  Archived from the original on June           Retrieved June         
+
+   OpenAI  SoftBank  Oracle to invest      bln in AI  Trump says   Reuters 
+
+  a b c d e f g  Microsoft and OpenAI Plot      Billion Stargate AI Supercomputer   The Information  March           Retrieved June         
+
+   OpenAI announces leadership transition   openai com  Archived from the original on November           Retrieved November          
+
+  Montgomery  Blake  Anguiano  Dani  November             OpenAI fires co founder and CEO Sam Altman for allegedly lying to company board   The Guardian  Archived from the original on November           Retrieved November          
+
+  Peters  Jay  November             OpenAI co founder Greg Brockman is leaving  too   The Verge  Archived from the original on November           Retrieved November          
+
+   Three Senior OpenAI Researchers Resign as Crisis Deepens   The Information  Archived from the original on November           Retrieved November          
+
+  Edwards  Benj  November             Details emerge of surprise board coup that ousted CEO Sam Altman at OpenAI   Ars Technica  Archived from the original on November           Retrieved November          
+
+  Keach Hagey  Berber Jin  Deepa Seetharaman   OpenAI Investors Trying to Get Sam Altman Back as CEO After Sudden Firing   WSJ  Archived from the original on November           Retrieved November          
+
+  Metz  Cade  Isaac  Mike  Griffith  Erin  November             Sam Altman Is Said to Be Discussing Return to OpenAI With Company s Board   The New York Times  Archived from the original on November           Retrieved November          
+
+  Patel  Nilay  November             OpenAI board in discussions with Sam Altman to return as CEO   The Verge  Archived from the original on November           Retrieved November          
+
+  Heath  Alex  November             The deal to bring Sam Altman back to OpenAI has fallen apart   The Verge  Archived from the original on November           Retrieved November          
+
+  Dastin  Jeffrey  November             OpenAI s board approached Anthropic CEO about top job and merger   Reuters  Archived from the original on November           Retrieved November          
+
+  Warren  Tom  November             Microsoft hires former OpenAI CEO Sam Altman   The Verge  Archived from the original on November           Retrieved November          
+
+  Patel  Nilay  November             Sam Altman is still trying to return as OpenAI CEO   The Verge  Archived from the original on November           Retrieved November          
+
+   OpenAI Staff Near Total Mutiny With Threat to Jump to Microsoft   Bloomberg  November           Archived from the original on November           Retrieved November          
+
+  Knight  Will   OpenAI Staff Threaten to Quit Unless Board Resigns   Wired  Archived from the original on November           Retrieved November          
+
+  Tong  Anna  Hu  Krystal  Tong  Anna  Hu  Krystal  November             Exclusive  OpenAI investors considering suing the board after CEO s abrupt firing   Reuters  Archived from the original on November           Retrieved November          
+
+  Lawler  Richard  November             OpenAI exec to employees   our number one goal remains to reunify OpenAI     The Verge  Archived from the original on November           Retrieved November          
+
+  Heath  Alex  November             Breaking  Sam Altman to return as CEO of OpenAI   The Verge  Archived from the original on November           Retrieved November          
+
+  Anna Tong  Jeffrey Dastin  Krystal Hu  November             Exclusive  OpenAI researchers warned board of AI breakthrough ahead of CEO ouster  sources say   Reuters  Archived from the original on November           Retrieved November           Some at OpenAI believe Q   pronounced Q Star  could be a breakthrough in the startup s search for what s known as artificial general intelligence  AGI   one of the people told Reuters  OpenAI defines AGI as autonomous systems that surpass humans in most economically valuable tasks 
+
+   openai prm   k   January           Archived from the original on November           Retrieved December                 via GitHub 
+
+  Lightman  Hunter  Kosaraju  Vineet  Burda  Yura  Edwards  Harri  Baker  Bowen  Lee  Teddy  Leike  Jan  Schulman  John  Sutskever  Ilya  Cobbe  Karl          Let s Verify Step by Step   arXiv             cs LG  
+
+  Tong  Anna  Dastin  Jeffrey  Hu  Krystal  November             Exclusive  OpenAI researchers warned board of AI breakthrough ahead of CEO ouster  sources say   Reuters  Archived from the original on December           Retrieved November          
+
+  Heath  Alex  November             Microsoft joins OpenAI s board with Sam Altman officially back as CEO   The Verge  Archived from the original on December           Retrieved December          
+
+   Microsoft ditches OpenAI board observer seat amid regulatory scrutiny   CNA  Archived from the original on July           Retrieved July          
+
+  Perrigo  Billy  January             Exclusive  The    Per Hour Workers Who Made ChatGPT Safer   Time  Archived from the original on January           Retrieved August         
+
+  Vincent  James  March             OpenAI co founder on company s past approach to openly sharing research   We were wrong    The Verge  Archived from the original on March           Retrieved August          
+
+  Piper  Kelsey  May             ChatGPT can talk  but OpenAI employees sure can t   Vox  Archived from the original on May           Retrieved May          
+
+  Christian  Jon  May             OpenAI Employees Forced to Sign NDA Preventing Them From Ever Criticizing Company   Futurism  Archived from the original on May           Retrieved May          
+
+  Getahun  Hannah   Sam Altman addresses  potential equity cancellation  in OpenAI exit agreements after   high profile departures   Business Insider  Archived from the original on May           Retrieved May          
+
+  Piper  Kelsey  May             Leaked OpenAI documents reveal aggressive tactics toward former employees   Vox  Archived from the original on June          Retrieved June         
+
+  Field  Hayden  May             OpenAI sends internal memo releasing former employees from controversial exit agreements   CNBC  Archived from the original on May           Retrieved June         
+
+  Booth  Harry  April             OpenAI Wants to Go For Profit  Experts Say Regulators Should Step In   TIME  Retrieved April          
+
+  Goldman  Sharon   Ex OpenAI employees sign open letter to California AG  For profit pivot poses  palpable threat  to nonprofit mission   Fortune  Retrieved April          
+
+  a b Piper  Kelsey  April             OpenAI s nonprofit structure was supposed to protect you  What went wrong    Vox  Retrieved April          
+
+  a b  OpenAI outlines new for profit structure in bid to stay ahead in costly AI race   Reuters  January         
+
+   OpenAI Conversion Sheds Nonprofit Purpose Without Justification   February          
+
+  Hammond  George  February             Elon Musk led consortium offers     bn to take control of OpenAI   Financial Times  Retrieved February          
+
+  a b Toonkel  Jessica  Jin  Berber  February             Elon Musk Led Group Makes       Billion Bid for Control of OpenAI   The Wall Street Journal 
+
+   OpenAI rejects      bn Musk bid and says company is not for sale   The Guardian  February           Retrieved February          
+
+  Field  Hayden  May            OpenAI says nonprofit will retain control of company  bowing to outside pressure   CNBC  Retrieved May         
+
+  Belanger  Ashley  July             Sarah Silverman sues OpenAI  Meta for being  industrial strength plagiarists    Ars Technica  Archived from the original on September           Retrieved September          
+
+  a b Krithika  K  L   August             Legal Challenges Surround OpenAI  A Closer Look at the Lawsuits   Analytics India Magazine  Archived from the original on August           Retrieved August          
+
+  Abshire  Elisha  July            OpenAI faces copyright lawsuit from authors Mona Awad and Paul Tremblay   Dailyai com  Archived from the original on July           Retrieved July          
+
+  Belanger  Ashley  September             Grisham  Martin join authors suing OpenAI   There is nothing fair about this       Updated        Ars Technica  Archived from the original on September           Retrieved September          
+
+  Korn  Jennifer  September             George R  R  Martin  Jodi Picoult and other famous writers join Authors Guild in class action lawsuit against OpenAI   CNN Business  Archived from the original on September           Retrieved September          
+
+   NY Times sues OpenAI  Microsoft for infringing copyrighted works   Reuters  December           Archived from the original on December           Retrieved December          
+
+  Darius Rafieyan  Hasan Chowdhury   OpenAI destroyed a trove of books used to train AI models  The employees who collected the data are gone   Business Insider  Archived from the original on May          Retrieved May           Authors Guild said   the datasets likely contained  more than         published books    central to its allegations that OpenAI used copyrighted materials to train AI models
+
+  Metz  Cade  Kang  Cecilia  Frenkel  Sheera  Thompson  Stuart A   Grant  Nico  April            How Tech Giants Cut Corners to Harvest Data for A I   The New York Times  Archived from the original on May          Retrieved May          
+
+  Brittain  Blake  February             OpenAI hit with new lawsuits from news outlets over AI training   Reuters  Retrieved March          
+
+  OpenAI RAW STORY LAWSUIT INTERCEPT Archived March           at the Wayback Machine   from Reuters
+
+   The Intercept charts a new legal strategy for digital publishers suing OpenAI   Nieman Lab  Archived from the original on March           Retrieved March          
+
+  Baron  Ethan  April             Mercury News and other papers sue Microsoft  OpenAI over the new artificial intelligence   East Bay Times  Archived from the original on April           Retrieved April          
+
+   EDPB resolves dispute on transfers by Meta and creates task force on Chat GPT   EDPB resolves dispute on transfers by Meta and creates task force on Chat GPT  Archived from the original on November           Retrieved November          
+
+   ChatGPT verbreitet falsche Infos  ber Personen   und OpenAI kann nichts tun   noyb eu  Archived from the original on April           Retrieved April          
+
+   OpenAI Quietly Deletes Ban on Using ChatGPT for  Military and Warfare    January           Archived from the original on January           Retrieved January          
+
+   OpenAI Is Working With US Military on Cybersecurity Tools   Bloomberg com  January           Archived from the original on January           Retrieved January          
+
+   OpenAI   AIxCC   Artificial Intelligence Cyber Challenge  Archived from the original on March           Retrieved March          
+
+  Biddle  Sam  October             Pentagon Purchased OpenAI Tools for Military Operations Across Africa   The Intercept  Archived from the original on October           Retrieved October          
+
+   OpenAI s new defense contract completes its military pivot   MIT Technology Review  Retrieved December         
+
+  Riley  Tonya  June             OpenAI lawsuit reignites privacy debate over data scraping   CyberScoop  Retrieved November          
+
+  Xiang  Chloe  June             OpenAI and Microsoft Sued for    Billion Over Alleged ChatGPT  Privacy Violations    Vice  Archived from the original on July           Retrieved July          
+
+   OpenAI and Wall Street Journal owner News Corp sign content deal   May           Archived from the original on May           Retrieved May          
+
+   Major Canadian news outlets sue OpenAI   www bbc com  November           Retrieved December         
+
+  a b c Chien  Tomoki  February             Autopsy  No foul play in OpenAI whistleblower s suicide   The San Francisco Standard  Retrieved February          
+
+  Rodgers  Jakob  January             Family of OpenAI whistleblower Suchir Balaji files lawsuit seeking San Francisco police records   The Mercury News  Retrieved February          
+
+  Rodgers  Jakob  January             California Congressman Ro Khanna calls for  full and transparent  investigation into death of OpenAI whistleblower Suchir Balaji   Chicago Tribune  Bay Area News Group  Archived from the original on January           Retrieved January          
+
+  Wolverton  Troy  January             Family  officials urge inquiry into OpenAI whistleblower s death   San Francisco Examiner  Retrieved January          
+
+
+Further reading edit 
+
+Levy  Steven  September            What OpenAI Really Wants   Wired  ISSN                 Archived from the original on September          Retrieved September         
+Duhigg  Charles  December            The Inside Story of Microsoft s Partnership with OpenAI   The New Yorker  ISSN              X  Archived from the original on December           Retrieved January          
+
+External links edit 
+
+
+
+Wikimedia Commons has media related to OpenAI 
+
+Official website 
+vteOpenAIProductsChatbots
+ChatGPT
+in education
+GPT Store
+DALL E
+ChatGPT Search
+Sora
+Whisper
+GitHub Copilot
+Foundationmodels
+OpenAI Codex
+Generative pre trained transformer
+GPT  
+GPT  
+GPT  
+GPT  
+GPT  o
+o 
+o 
+GPT    
+GPT    
+o 
+Intelligentagents
+ChatGPT Deep Research
+Operator
+PeopleSeniormanagementCurrent
+Sam Altman
+removal
+Greg Brockman
+Sarah Friar
+Scott Schools
+Former
+Mira Murati
+Emmett Shear
+Board ofdirectorsCurrent
+Sam Altman
+Adam D Angelo
+Sue Desmond Hellmann
+Paul Nakasone
+Adebayo Ogunlesi
+Nicole Seligman
+Fidji Simo
+Lawrence Summers
+Bret Taylor  chair 
+Jakub Pachocki  chief scientist 
+Former
+Greg Brockman            
+Reid Hoffman            
+Will Hurd            
+Holden Karnofsky            
+Elon Musk            
+Ilya Sutskever            
+Helen Toner            
+Shivon Zilis            
+Joint ventures
+Stargate LLC
+Related
+Apple Intelligence
+AI Dungeon
+AutoGPT
+ Deep Learning 
+LangChain
+Microsoft Copilot
+OpenAI Five
+Transformer
+
+ Category
+
+vteGenerative AIConcepts
+Autoencoder
+Deep learning
+Generative adversarial network
+Generative pre trained transformer
+Large language model
+Neural network
+Prompt engineering
+Retrieval augmented generation
+Reinforcement learning from human feedback
+Self supervised learning
+Transformer
+Variational autoencoder
+Vision transformer
+Word embedding
+ModelsText
+Claude
+DBRX
+DeepSeek
+ERNIE
+Gemini
+GPT
+ 
+ 
+ 
+J
+ChatGPT
+ 
+ o
+o 
+o 
+   
+   
+o 
+Granite
+Grok
+Llama
+Manus
+Mistral Large
+PanGu  
+Qwen
+Image
+Aurora
+DALL E
+Firefly
+Flux
+GPT Image  
+Ideogram
+Imagen
+Midjourney
+Stable Diffusion
+Speech
+   ai
+WaveNet
+Video
+Dream Machine
+Gen  
+Hailuo AI
+Kling
+Sora
+Veo
+VideoPoet
+Music
+Endel
+Suno AI
+Udio
+Companies
+   AI
+Alibaba
+Anthropic
+Baichuan
+Baidu
+DeepSeek
+ElevenLabs
+Google DeepMind
+Hugging Face
+Kuaishou
+Meta AI
+MiniMax
+Mistral AI
+Moonshot AI
+OpenAI
+Runway
+Stability AI
+Synthesia
+xAI
+Zhipu AI
+
+ Category
+ Commons
+
+vteExistential risk from artificial intelligenceConcepts
+AGI
+AI alignment
+AI capability control
+AI safety
+AI takeover
+Consequentialism
+Effective accelerationism
+Ethics of artificial intelligence
+Existential risk from artificial intelligence
+Friendly artificial intelligence
+Instrumental convergence
+Vulnerable world hypothesis
+Intelligence explosion
+Longtermism
+Machine ethics
+Suffering risks
+Superintelligence
+Technological singularity
+Organizations
+Alignment Research Center
+Center for AI Safety
+Center for Applied Rationality
+Center for Human Compatible Artificial Intelligence
+Centre for the Study of Existential Risk
+EleutherAI
+Future of Humanity Institute
+Future of Life Institute
+Google DeepMind
+Humanity 
+Institute for Ethics and Emerging Technologies
+Leverhulme Centre for the Future of Intelligence
+Machine Intelligence Research Institute
+OpenAI
+People
+Scott Alexander
+Sam Altman
+Yoshua Bengio
+Nick Bostrom
+Paul Christiano
+Eric Drexler
+Sam Harris
+Stephen Hawking
+Dan Hendrycks
+Geoffrey Hinton
+Bill Joy
+Shane Legg
+Elon Musk
+Steve Omohundro
+Huw Price
+Martin Rees
+Stuart J  Russell
+Jaan Tallinn
+Max Tegmark
+Frank Wilczek
+Roman Yampolskiy
+Eliezer Yudkowsky
+Other
+Statement on AI risk of extinction
+Human Compatible
+Open letter on artificial intelligence       
+Our Final Invention
+The Precipice
+Superintelligence  Paths  Dangers  Strategies
+Do You Trust This Computer 
+Artificial Intelligence Act
+ Category
+Authority control databases InternationalVIAF  NationalGermanyUnited StatesJapanCzech RepublicPolandCataloniaArtistsMusicBrainzOtherIdRef
+Portals  Companies San Francisco Bay Area California
+
+
+
+
+
+Retrieved from  https   en wikipedia org w index php title OpenAI amp oldid

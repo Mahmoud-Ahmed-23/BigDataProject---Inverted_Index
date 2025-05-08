@@ -1,0 +1,94 @@
+Variable not directly observed
+For similar uses  see Hidden variable 
+In statistics  latent variables  from Latin  present participle of lateo  lie hidden      citation needed       are variables that can only be inferred indirectly through a mathematical model from other observable variables that can be directly observed or measured             Such latent variable models are used in many disciplines  including engineering  medicine  ecology  physics  machine learning artificial intelligence  natural language processing  bioinformatics  chemometrics  demography  economics  management  political science  psychology and the social sciences 
+Latent variables may correspond to aspects of physical reality  These could in principle be measured  but may not be for practical reasons  Among the earliest expressions of this idea is Francis Bacon s polemic the Novum Organum  itself a challenge to the more traditional logic expressed in Aristotle s Organon 
+
+But the latent process of which we speak  is far from being obvious to men s minds  beset as they now are  For we mean not the measures  symptoms  or degrees of any process which can be exhibited in the bodies themselves  but simply a continued process  which  for the most part  escapes the observation of the senses         Francis Bacon  Novum Organum           
+In this situation  the term hidden variables is commonly used  reflecting the fact that the variables are meaningful  but not observable  Other latent variables correspond to abstract concepts  like categories  behavioral or mental states  or data structures  The terms hypothetical variables or hypothetical constructs may be used in these situations 
+The use of latent variables can serve to reduce the dimensionality of data  Many observable variables can be aggregated in a model to represent an underlying concept  making it easier to understand the data  In this sense  they serve a function similar to that of scientific theories  At the same time  latent variables link observable  sub symbolic  data in the real world to symbolic data in the modeled world 
+
+
+Examples edit 
+Estimation of a mean height curve  black  for boys from the Berkeley Growth Study with and without warping  The warping is based on latent variables that maps age to a synchronized biological age using a nonlinear mixed effects model            
+Psychology edit 
+Latent variables  as created by factor analytic methods  generally represent  shared  variance  or the degree to which variables  move  together  Variables that have no correlation cannot result in a latent construct based on the common factor model            
+
+The  Big Five personality traits  have been inferred using factor analysis 
+extraversion           
+spatial ability           
+wisdom  Two of the more predominant means of assessing wisdom include wisdom related performance and latent variable measures             
+Spearman s g  or the general intelligence factor in psychometrics           
+Economics edit 
+This section does not cite any sources  Please help improve this section by adding citations to reliable sources  Unsourced material may be challenged and removed    January        Learn how and when to remove this message 
+Examples of latent variables from the field of economics include quality of life  business confidence  morale  happiness and conservatism  these are all variables which cannot be measured directly  But linking these latent variables to other  observable variables  the values of the latent variables can be inferred from measurements of the observable variables  Quality of life is a latent variable which cannot be measured directly so observable variables are used to infer quality of life  Observable variables to measure quality of life include wealth  employment  environment  physical and mental health  education  recreation and leisure time  and social belonging 
+
+Medicine edit 
+This section does not cite any sources  Please help improve this section by adding citations to reliable sources  Unsourced material may be challenged and removed    January        Learn how and when to remove this message 
+Latent variable methodology is used in many branches of medicine  A class of problems that naturally lend themselves to latent variables approaches are longitudinal studies where the time scale  e g  age of participant or time since study baseline  is not synchronized with the trait being studied  For such studies  an unobserved time scale that is synchronized with the trait being studied can be modeled as a transformation of the observed time scale using latent variables  Examples of this include disease progression modeling and modeling of growth  see box  
+
+Inferring latent variables edit 
+There exists a range of different model classes and methodology that make use of latent variables and allow inference in the presence of latent variables   Models include 
+
+linear mixed effects models and nonlinear mixed effects models
+Hidden Markov models
+Factor analysis
+Item response theory
+Analysis and inference methods include 
+
+Principal component analysis
+Instrumented principal component analysis           
+Partial least squares regression
+Latent semantic analysis and probabilistic latent semantic analysis
+EM algorithms
+Metropolis Hastings algorithm
+Bayesian algorithms and methods edit 
+This section does not cite any sources  Please help improve this section by adding citations to reliable sources  Unsourced material may be challenged and removed    January        Learn how and when to remove this message 
+Bayesian statistics is often used for inferring latent variables 
+
+Latent Dirichlet allocation
+The Chinese restaurant process is often used to provide a prior distribution over assignments of objects to latent categories 
+The Indian buffet process is often used to provide  a prior distribution over assignments of latent binary features to objects 
+See also edit 
+
+Confounding
+Dependent and independent variables
+Errors in variables models
+Evidence lower bound
+Factor analysis
+Intervening variable
+Latent variable model
+Item response theory
+Partial least squares path modeling
+Partial least squares regression
+Proxy  statistics 
+Rasch model
+Structural equation modeling
+
+References edit 
+
+
+  Dodge  Y         The Oxford Dictionary of Statistical Terms  OUP  ISBN                   
+
+  Bacon  Francis   APHORISMS BOOK II  ON THE INTERPRETATION OF NATURE  OR THE REIGN OF MAN   Novum Organum 
+
+  Raket LL  Sommer S  Markussen B          A nonlinear mixed effects model for simultaneous smoothing and registration of functional data   Pattern Recognition Letters           Bibcode     PaReL         R  doi         j patrec             
+
+  Tabachnick  B G   Fidell  L S          Using Multivariate Analysis  Boston  Allyn and Bacon  ISBN                             page      needed     
+
+  a b Borsboom  D   Mellenbergh  G J   van Heerden  J           The Theoretical Status of Latent Variables   PDF   Psychological Review                    CiteSeerX                       doi                 X            PMID                Archived from the original  PDF  on             Retrieved            
+
+  Greene  Jeffrey A   Brown  Scott C           The Wisdom Development Scale  Further Validity Investigations   International Journal of Aging and Human Development                   at p        doi         AG      b  PMID               
+
+  Spearman  C            General Intelligence   Objectively Determined and Measured   The American Journal of Psychology                   doi                  JSTOR              
+
+  Kelly  Bryan T  and Pruitt  Seth and Su  Yinan  Instrumented Principal Component Analysis  December            Available at SSRN  https   ssrn com abstract         or http   dx doi org         ssrn        
+
+
+Further reading edit 
+Kmenta  Jan          Latent Variables   Elements of Econometrics  Second      ed    New York  Macmillan  pp                ISBN                        
+
+
+
+
+
+Retrieved from  https   en wikipedia org w index php title Latent and observable variables amp oldid

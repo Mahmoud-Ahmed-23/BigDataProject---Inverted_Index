@@ -1,0 +1,1463 @@
+This article has multiple issues  Please help improve it or discuss these issues on the talk page   Learn how and when to remove these messages 
+
+      This article s tone or style may not reflect the encyclopedic tone used on Wikipedia  See Wikipedia s guide to writing better articles for suggestions    April        Learn how and when to remove this message 
+This article may lend undue weight to very obscure AI projects of questionable importance  Please help improve it by rewriting it in a balanced fashion that contextualizes different points of view    April        Learn how and when to remove this message 
+    
+  Learn how and when to remove this message 
+Part of a series onArtificial intelligence  AI 
+Major goals
+Artificial general intelligence
+Intelligent agent
+Recursive self improvement
+Planning
+Computer vision
+General game playing
+Knowledge reasoning
+Natural language processing
+Robotics
+AI safety
+
+Approaches
+Machine learning
+Symbolic
+Deep learning
+Bayesian networks
+Evolutionary algorithms
+Hybrid intelligent systems
+Systems integration
+
+Applications
+Bioinformatics
+Deepfake
+Earth sciences
+ Finance 
+Generative AI
+Art
+Audio
+Music
+Government
+Healthcare
+Mental health
+Industry
+Translation
+ Military 
+Physics
+Projects
+
+Philosophy
+Artificial consciousness
+Chinese room
+Friendly AI
+Control problem Takeover
+Ethics
+Existential risk
+Turing test
+Uncanny valley
+
+History
+Timeline
+Progress
+AI winter
+AI boom
+
+Glossary
+Glossary
+vte
+Artificial intelligence  AI  has been used in applications throughout industry and academia  In a manner analogous to electricity or computers  AI serves as a general purpose technology  AI programs are designed to simulate human perception and understanding  These systems are capable of adapting to new information and responding to changing situations  Machine learning has been used for various scientific and commercial purposes            including language translation  image recognition  decision making                        credit scoring  and e commerce 
+Artificial Intelligence  AI  is all about creating computer systems that act like people  This means they can understand information and human language and make decisions similar to how we do        Artificial intelligence technologies are now being used across various industries  transforming how they function and creating new opportunities  This article provides an overview of the applications of AI in fields like health care  finance  and education  while also discussing the challenges and future prospects in these areas  
+
+
+Internet and e commerce edit 
+Main article  Marketing and artificial intelligence
+Web feeds and posts edit 
+Machine learning has been used for recommendation systems in determining which posts should show up in social media feeds                        Various types of social media analysis also make use of machine learning                       and there is research into its use for  semi  automated tagging enhancement correction of online misinformation and related filter bubbles                                   
+AI has been used to customize shopping options and personalize offers              Online gambling companies have used AI for targeting gamblers             
+
+Virtual assistants and search edit 
+Main article  Virtual assistant
+Intelligent personal assistants use AI to understand many natural language requests in other ways than rudimentary commands  Common examples are Apple s Siri  Amazon s Alexa  and a more recent AI  ChatGPT by OpenAI             
+Bing Chat has used artificial intelligence as part of its search engine             
+
+Spam filtering edit 
+Main article  Spam filter
+Machine learning can be used to combat spam  scams  and phishing  It can scrutinize the contents of spam and phishing attacks to attempt to identify malicious elements              Some models built via machine learning algorithms have over     accuracy in distinguishing between spam and legitimate emails              These models can be refined using new data and evolving spam tactics  Machine learning also analyzes traits such as sender behavior  email header information  and attachment types  potentially enhancing spam detection             
+
+Language translation edit 
+Main article  Machine translation
+Speech translation technology attempts to convert one language s spoken words into another language  This potentially reduces language barriers in global commerce and cross cultural exchange  enabling speakers of various languages to communicate with one another             
+AI has been used to automatically translate spoken language and textual content in products such as Microsoft Translator  Google Translate  and DeepL Translator              Additionally  research and development are in progress to decode and conduct animal communication                         
+Meaning is conveyed not only by text  but also through usage and context  see semantics and pragmatics   As a result  the two primary categorization approaches for machine translations are statistical machine translation  SMT  and neural machine translations  NMTs   The old method of performing translation was to use statistical methodology to forecast the best probable output with specific algorithms  However  with NMT  the approach employs dynamic algorithms to achieve better translations based on context             
+
+Facial recognition and image labeling edit 
+Main articles  Facial recognition system and Automatic image annotation
+AI has been used in facial recognition systems  Some examples are Apple s Face ID and Android s Face Unlock  which are used to secure mobile devices             
+Image labeling has been used by Google Image Labeler to detect products in photos and to allow people to search based on a photo  Image labeling has also been demonstrated to generate speech to describe images to blind people              Facebook s DeepFace identifies human faces in digital images      citation needed     
+Social media sites and content aggregators use AI systems to make personalized news feeds by watching users  actions and engagement history              Content moderation often relies on AI to spot harmful content  though these systems have trouble with understanding the bigger picture 
+Search engines use rules to rank results and understand what people want  while virtual helpers like Siri and Alexa use everyday language to read user queries  Email services use learning tools to find spam by checking the content and patterns             
+Neural machine translation systems have gotten much better at translating text  It works by examining complete sentences to maintain accuracy  Computer vision systems can identify people in images and videos  This assists with tasks like sorting photos and performing security checks  AI is often used for surveillance for credit systems  targeted advertising and automation we can erode privacy and concentrate power  It also led to dystopian outcomes such as autonomous systems making unaccountable decisions             
+
+Games and entertainment edit 
+See also  Video game bot and Artificial intelligence in video games
+Games have been a major application     relevant       of AI s capabilities since the     s  In the   st century  AIs have beaten human players in many games  including chess  Deep Blue   Jeopardy   Watson               Go  AlphaGo                                                                                       poker  Pluribus             and Cepheus               E sports  StarCraft                           and general game playing  AlphaZero                                     and MuZero                                                  
+Kuki AI is a set of chatbots and other apps which were designed for entertainment and as a marketing tool                          Character ai is another example of a chatbot being used for recreation      citation needed     
+AI has changed gaming by making smart non player characters  NPCs  that can adjust              Algorithms can now create game worlds and situations on their own  which reduces development costs and revives the excitement to play again  In digital art and music  AI tools help people express themselves in fresh  new ways using generative algorithms             
+Recommendation systems on streaming platforms check how people watch to suggest content  This greatly affects the way viewers enjoy the media      citation needed     
+
+Economic and social challenges edit 
+AI for Good is a platform launched in      by the International Telecommunication Union  ITU  agency of the United Nations  UN   The goal of the platform is to use AI to help achieve the UN s Sustainable Development Goals      citation needed     
+The University of Southern California launched the Center for Artificial Intelligence in Society  with the goal of using AI to address problems such as homelessness  Stanford researchers use AI to analyze satellite images to identify high poverty areas             
+
+Agriculture edit 
+See also  Precision agriculture and Digital agriculture
+In agriculture  AI has been proposed as a way for farmers to identify areas that need irrigation  fertilization  or pesticide treatments to increase yields  thereby improving efficiency              AI has been used to attempt to classify livestock pig call emotions              automate greenhouses              detect diseases and pests              and optimize irrigation             
+Precision farming uses machine learning and data from satellites  drones and sensors to water  fertilize and manage pests  Computer vision helps keep an eye on plant health  spot diseases and even help with automated harvesting of specific crops  With predictive analytics farmers can make better decisions by predicting weather patterns and knowing when to plant             
+AI helps with livestock management by tracking animal health and production  These are the tools of  smart farming   They make farming better and more sustainable      citation needed     
+
+Cyber security edit 
+Cyber security companies are adopting neural networks  machine learning  and natural language processing to improve their systems             
+Applications of AI in cyber security include 
+
+Network protection  Machine learning improves intrusion detection systems by broadening the search beyond previously identified threats             
+Endpoint protection  Attacks such as ransomware can be thwarted by learning typical malware behaviors 
+AI related cyber security application cases vary in both benefit and complexity  Security features such as Security Orchestration  Automation  and Response  SOAR  and Extended Endpoint Detection and Response  XDR  offer significant benefits for businesses  but require significant integration and adaptation efforts             
+Application security  can help counterattacks such as server side request forgery  SQL injection  cross site scripting  and distributed denial of service 
+AI technology can also be utilized to improve system security and safeguard our privacy  Randrianasolo        suggested a security system based on artificial intelligence that can recognize intrusions and adapt to perform better              In order to improve cloud computing security  Sahil        created a user profile system for the cloud environment with AI techniques             
+Suspect user behavior  Machine learning can identify fraud or compromised applications as they occur             
+Machine learning tools look at traffic patterns  They find an unusual activity that might be a security breach  Automated systems gather and analyze data  Their goal is to find new threats before they do significant damage              User behavior analytics establish normal patterns for users and systems that alert when there is a change that might mean a hacked account      citation needed     
+AI brings new challenges to cybersecurity  Attackers are using the same tools to plan smarter attacks  This is an ongoing race to technological arms race      citation needed     
+
+Education edit 
+See also  AI in education
+AI elevates teaching  focusing on significant issues like the knowledge nexus and educational equality  The evolution of AI in education and technology should be used to improve human capabilities in relationships where they do not replace humans  UNESCO recognizes the future of AI in education as an instrument to reach Sustainable Development Goal    called  Inclusive and Equitable Quality Education               
+The World Economic Forum also stresses AI s contribution to students  overall improvement and transforming teaching into a more enjoyable process             
+
+Personalized Learning edit 
+AI driven tutoring systems  such as Khan Academy  Duolingo and Carnegie Learning are the forefoot of delivering personalized education             
+These platforms leverage AI algorithms to analyze individual learning patterns  strengths  and weaknesses  enabling the customization of content and Algorithm to suit each student s pace and style of learning             
+
+Administrative Efficiency edit 
+In educational institutions  AI is increasingly used to automate routine tasks like attendance tracking  grading and marking  which allows educators to devote more time to interactive teaching and direct student engagement             
+Furthermore  AI tools are employed to monitor student progress  analyze learning behaviors  and predict academic challenges  facilitating timely and proactive interventions for students who may be at risk of falling behind             
+
+Ethical and Privacy Concerns edit 
+Despite the benefits  the integration of AI in education raises significant ethical and privacy concerns  particularly regarding the handling of sensitive student data             
+It is imperative that AI systems in education are designed and operated with a strong emphasis on transparency  security  and respect for privacy to maintain trust and uphold the integrity of educational practices             
+Much of the regulation will be influenced by the AI Act  the world s first comprehensive AI law             
+Intelligent tutoring systems provide personalized learning by adapting content based on how each student performs   Automated assessment tools check student work and give fast feedback which reduces the tutor workload              Learning analytics platforms can find students who might have trouble sooner  They do this by looking for patterns connected to learning issues      citation needed     
+Content creation tools assist teachers in making learning materials that fit each student s needs  This includes turning text into several languages  Even though these tools offer many benefits  there are still concerns about data privacy  People worry it could also widen the current gaps in education             
+
+Finance edit 
+Financial institutions have long used artificial neural network systems to detect charges or claims outside of the norm  flagging these for human investigation  The use of AI in banking began in      when Security Pacific National Bank launched a fraud prevention task force to counter the unauthorized use of debit cards             
+Banks use AI to organize operations for bookkeeping  investing in stocks  and managing properties  AI can adapt to changes during non business hours              AI is used to combat fraud and financial crimes by monitoring behavioral patterns for any abnormal changes or anomalies                                     
+The use of AI in applications such as online trading and decision making has changed major economic theories              For example  AI based buying and selling platforms estimate personalized demand and supply curves  thus enabling individualized pricing  AI systems reduce information asymmetry in the market and thus make markets more efficient              The application of artificial intelligence in the financial industry can alleviate the financing constraints of non state owned enterprises  especially for smaller and more innovative enterprises             
+Algorithmic trading systems make trades much quicker and in larger amounts than human traders  Robo advisors provide automatic advice for investing and managing your money at a lower cost than human advisors  Insurance and lending companies use machine learning to determine risks and set prices      citation needed     
+Financial groups use AI systems to check transactions for money laundering  They do this by spotting strange patterns              Auditing gets better with detection algorithms  These algorithms find unusual financial transactions      citation needed     
+
+Trading and investment edit 
+Algorithmic trading involves using AI systems to make trading decisions at speeds of magnitude greater than any human is capable of  making millions of trades in a day without human intervention  Such high frequency trading represents a fast growing sector  Many banks  funds  and proprietary trading firms now have AI managed portfolios  Automated trading systems are typically used by large institutional investors but include smaller firms trading with their own AI systems             
+Large financial institutions use AI to assist with their investment practices  BlackRock s AI engine  Aladdin  is used both within the company and by clients to help with investment decisions  Its functions include the use of natural language processing to analyze text such as news  broker reports  and social media feeds  It then gauges the sentiment on the companies mentioned and assigns a score  Banks such as UBS and Deutsche Bank use SQREEM  Sequential Quantum Reduction and Extraction Model  to mine data to develop consumer profiles and match them with wealth management products             
+
+Underwriting edit 
+Online lender Upstart uses machine learning for underwriting             
+ZestFinance s Zest Automated Machine Learning  ZAML  platform is used for credit underwriting  This platform uses machine learning to analyze data  including purchase transactions and how a customer fills out a form  to score borrowers  The platform is handy for assigning credit scores to those with limited credit histories             
+
+Audit edit 
+AI makes continuous auditing possible  Potential benefits include reducing audit risk  increasing the level of assurance  and reducing audit duration                  quantify     
+Continuous auditing with AI allows real time monitoring and reporting of financial activities and provides businesses with timely insights that can lead to quick decision making             
+
+Anti money laundering edit 
+AI software  such as LaundroGraph which uses contemporary suboptimal datasets  could be used for anti money laundering  AML                          
+
+History edit 
+In the     s  AI started to become prominent in finance as expert systems were commercialized  For example  Dupont created     expert systems  which helped them to save almost     million per year              One of the first systems was the Pro trader expert system that predicted the    point drop in the Dow Jones Industrial Average in        The major junctions of the system were to monitor premiums in the market  determine the optimum investment strategy  execute transactions when appropriate and modify the knowledge base through a learning mechanism              
+One of the first expert systems to help with financial plans was PlanPowerm and Client Profiling System  created by Applied Expert Systems  APEX   It was launched in       It helped create personal financial plans for people             
+In the     s  AI was applied to fraud detection  In       FinCEN Artificial Intelligence System  FAIS  was launched  It was able to review over         transactions per week  and over two years  it helped identify     potential cases of money laundering equal to    billion              These expert systems were later replaced by machine learning systems             
+AI can enhance entrepreneurial activity  and AI is one of the most dynamic areas for start ups  with significant venture capital flowing into AI             
+
+Government edit 
+Main article  Artificial intelligence in government
+AI facial recognition systems are used for mass surveillance  notably in China                          In       Bengaluru  India deployed AI managed traffic signals  This system uses cameras to monitor traffic density and adjust signal timing based on the interval needed to clear traffic             
+
+Military edit 
+Main article  Military applications of artificial intelligence
+Various countries are deploying AI military applications              The main applications enhance command and control  communications  sensors  integration and interoperability      citation needed      Research is targeting intelligence collection and analysis  logistics  cyber operations  information operations  and semiautonomous and autonomous vehicles              AI technologies enable coordination of sensors and effectors  threat detection and identification  marking of enemy positions  target acquisition  coordination and deconfliction of distributed Joint Fires between networked combat vehicles involving manned and unmanned teams      citation needed     
+AI has been used in military operations in Iraq  Syria  Israel and Ukraine                                                 
+
+Health edit 
+Healthcare edit 
+Main article  Artificial intelligence in healthcare
+X ray of a hand  with automatic calculation of bone age by a computer software
+A patient side surgical arm of Da Vinci Surgical System
+AI in healthcare is often used for classification  to evaluate a CT scan or electrocardiogram or to identify high risk patients for population health  AI is helping with the high cost problem of dosing  One study suggested that AI could save          billion  In       a study reported that an AI derived formula derived the proper dose of immunosuppressant drugs to give to transplant patients              Current research has indicated that non cardiac vascular illnesses are also being treated with artificial intelligence  AI   For certain disorders  AI algorithms can aid in diagnosis  recommended treatments  outcome prediction  and patient progress tracking  As AI technology advances  it is anticipated that it will become more significant in the healthcare industry              
+The early detection of diseases like cancer is made possible by AI algorithms  which diagnose diseases by analyzing complex sets of medical data  For example  the IBM Watson system might be used to comb through massive data such as medical records and clinical trials to help diagnose a problem               Microsoft s AI project Hanover helps doctors choose cancer treatments from among the more than     medicines and vaccines                            Its goal is to memorize all the relevant papers to predict which  combinations of  drugs will be most effective for each patient  Myeloid leukemia is one target  Another study reported on an AI that was as good as doctors in identifying skin cancers               Another project monitors multiple high risk patients by asking each patient questions based on data acquired from doctor patient interactions               In one study done with transfer learning  an AI diagnosed eye conditions similar to an ophthalmologist and recommended treatment referrals              
+Another study demonstrated surgery with an autonomous robot  The team supervised the robot while it performed soft tissue surgery  stitching together a pig s bowel judged better than a surgeon              
+Artificial neural networks are used as clinical decision support systems for medical diagnosis               such as in concept processing technology in EMR software 
+Other healthcare tasks thought suitable for an AI that are in development include 
+
+Screening             
+Heart sound analysis             
+Companion robots for elder care             
+Medical record analysis
+Treatment plan design     citation needed     
+Medication management
+Assisting blind people             
+Consultations     citation needed     
+Drug creation               e g  by identifying candidate drugs              and by using existing drug screening data such as in life extension research              
+Clinical training             
+Outcome prediction for surgical procedures
+HIV prognosis
+Identifying genomic pathogen signatures of novel pathogens              or identifying pathogens via physics based fingerprints               including pandemic pathogens 
+Helping link genes to their functions               otherwise analyzing genes              and identification of novel biological targets             
+Help development of biomarkers             
+Help tailor therapies to individuals in personalized medicine precision medicine                                       
+Workplace health and safety edit 
+Main article  Workplace impact of artificial intelligence        Health and safety applications
+AI enabled chatbots decrease the need for humans to perform basic call center tasks              
+Machine learning in sentiment analysis can spot fatigue in order to prevent overwork               Similarly  decision support systems can prevent industrial disasters and make disaster response more efficient               For manual workers in material handling  predictive analytics may be used to reduce musculoskeletal injury               Data collected from wearable sensors can improve workplace health surveillance  risk assessment  and research                   how      
+AI can auto code workers  compensation claims                            AI enabled virtual reality systems can enhance safety training for hazard recognition               AI can more efficiently detect accident near misses  which are important in reducing accident rates  but are often underreported              
+
+Biochemistry edit 
+AlphaFold   can determine the  D structure of a  folded  protein in hours rather than the months required by earlier automated approaches and was used to provide the likely structures of all proteins in the human body and essentially all proteins known to science  more than     million                                                      
+Medical imaging analysis systems can spot patterns that indicate diseases such as cancer  They can do this just as well as human experts  Predictive analytics can help identify patients with a higher risk for specific conditions  This helps in starting treatments earlier              
+Natural language processing gets key information from electronic health records  This helps doctors make better choices  Machine learning helps find new drugs by predicting how molecules will work together  This can quicken the development of new treatments               Personalized medicine uses AI to change treatments to match each patient s needs  
+
+Chemistry and biology edit 
+See also  Regulation of chemicals  Computational chemistry        Fields of application  and Laboratory robotics
+Machine learning has been used for drug design               It has also been used for predicting molecular properties and exploring large chemical reaction spaces               Computer planned syntheses via computational reaction networks  described as a platform that combines  computational synthesis with AI algorithms to predict molecular properties                have been used to explore the origins of life on Earth               drug syntheses and developing routes for recycling     industrial waste chemicals into important drugs and agrochemicals  chemical synthesis design                There is research about which types of computer aided chemistry would benefit from machine learning               It can also be used for  drug discovery and development  drug repurposing  improving pharmaceutical productivity  and clinical trials                It has been used for the design of proteins with prespecified functional sites                           
+It has been used with databases for the development of a    day process to design  synthesize and test a drug which inhibits enzymes of a particular gene  DDR   DDR  is involved in cancers and fibrosis which is one reason for the high quality datasets that enabled these results              
+There are various types of applications for machine learning in decoding human biology  such as helping to map gene expression patterns to functional activation patterns              or identifying functional DNA motifs               It is widely used in genetic research              
+There also is some use of machine learning in synthetic biology                            disease biology               nanotechnology  e g  nanostructured materials and bionanotechnology                             and materials science                                        
+
+Novel types of machine learning edit 
+See also  Artificial brain and Automated reasoning
+Schema of the process of a semi automated robot scientist process that includes Web statement extraction and biological laboratory testing
+There are also prototype robot scientists  including robot embodied ones like the two Robot Scientists  which show a form of  machine learning  not commonly associated with the term                           
+Similarly  there is research and development of biological  wetware computers  that can learn  e g  for use as biosensors  and or implantation into an organism s body  e g  for use to control prosthetics                                          Polymer based artificial neurons operate directly in biological environments and define biohybrid neurons made of artificial and living components                           
+Moreover  if whole brain emulation is possible via both scanning and replicating  at a minimum  the bio chemical brain   as premised in the form of digital replication in The Age of Em  possibly using physical neural networks   that may have applications as or more extensive than e g  valued human activities and may imply that society would face substantial moral choices  societal risks and ethical problems                           such as whether  and how  such are built  sent through space and used compared to potentially competing e g  potentially more synthetic and or less human and or non less sentient types of artificial semi artificial intelligence      additional citation s  needed      An alternative or additive approach to scanning are types of reverse engineering of the brain                           
+A subcategory of artificial intelligence is embodied                            some of which are mobile robotic systems that each consist of one or multiple robots that are able to learn in the physical world 
+
+Digital ghosts edit 
+Main article  Resurrection        Digital ghosts
+Biological computing in AI and as AI edit 
+Additionally  biological computers  even if both artificial and highly intelligent  are typically distinguishable from synthetic  predominantly silicon based  computers   The two technologies could  however  be combined and used for the design of either  Moreover  many tasks may be poorly carried out by AI even if it uses algorithms that are transparent  understood  bias free  apparently effective and goal aligned in addition to having trained data sets that are sufficiently large and cleansed   This may occur  for instance  when the underlying data  available metrics  values or training methods are incorrect  flawed or used inappropriately  Computer aided is a phrase used to describe human activities that make use of computing as tool in more comprehensive activities and systems such as AI for narrow tasks or making use of such without substantially relying on its results  see also  human in the loop       citation needed      One study described the biological component as a limitation of AI stating that  as long as the biological system cannot be understood  formalized  and imitated  we will not be able to develop technologies that can mimic it  and that  even if it were understood  this does not necessarily mean there will be  a technological solution to imitate natural intelligence                Technologies that integrate biology and AI include biorobotics 
+
+Astronomy  space activities and ufology edit 
+Artificial intelligence is used in astronomy to analyze increasing amounts of available data                           and applications  mainly for  classification  regression  clustering  forecasting  generation  discovery  and the development of new scientific insights  for example for discovering exoplanets  forecasting solar activity  and distinguishing between signals and instrumental effects in gravitational wave astronomy               It could also be used for activities in space such as space exploration  including analysis of data from space missions  real time science decisions of spacecraft  space debris avoidance               and more autonomous operation                                                     
+In the search for extraterrestrial intelligence  SETI   machine learning has been used in attempts to identify artificially generated electromagnetic waves in available data                             such as real time observations                and other technosignatures  e g  via anomaly detection               In ufology  the SkyCAM   project headed by Prof  Hakan Kayal              and the Galileo Project headed by Avi Loeb use machine learning to attempt to detect and classify types of UFOs                                                                   The Galileo Project also seeks to detect two further types of potential extraterrestrial technological signatures with the use of AI   Oumuamua like interstellar objects  and non manmade artificial satellites                           
+Machine learning can also be used to produce datasets of spectral signatures of molecules that may be involved in the atmospheric production or consumption of particular chemicals   such as phosphine possibly detected on Venus   which could prevent miss assignments and  if accuracy is improved  be used in future detections and identifications of molecules on other planets              
+
+Other fields of research edit 
+Evidence of general impacts edit 
+In April       the Scientific Advice Mechanism to the European Commission published advice              including a comprehensive evidence review of the opportunities and challenges posed by artificial intelligence in scientific research 
+As benefits  the evidence review              highlighted 
+
+its role in accelerating research and innovation
+its capacity to automate workflows
+enhancing dissemination of scientific work
+As challenges 
+
+limitations and risks around transparency  reproducibility and interpretability
+poor performance  inaccuracy 
+risk of harm through misuse or unintended use
+societal concerns including the spread of misinformation and increasing inequalities
+Archaeology  history and imaging of sites edit 
+See also  Digital archaeology
+Machine learning can help to restore and attribute ancient texts               It can help to index texts for example to enable better and easier searching and classification of fragments              
+
+Artificial intelligence can also be used to investigate genomes to uncover genetic history  such as interbreeding between archaic and modern humans by which for example the past existence of a ghost population  not Neanderthal or Denisovan  was inferred               Further information  Ancient DNA        Human aDNA  and Genetic history of Europe
+It can also be used for  non invasive and non destructive access to internal structures of archaeological remains                Further information  Remote sensing in archaeology
+Physics edit 
+Main article  Machine learning in physics
+A deep learning system was reported to learn intuitive physics from visual data  of virtual  D environments  based on an unpublished approach inspired by studies of visual cognition in infants                            Other researchers have developed a machine learning algorithm that could discover sets of basic variables of various physical systems and predict the systems  future dynamics from video recordings of their behavior                            In the future  it may be possible that such can be used to automate the discovery of physical laws of complex systems              
+
+Materials science edit 
+AI could be used for materials optimization and discovery such as the discovery of stable materials and the prediction of their crystal structure                                        
+In November       researchers at Google DeepMind and Lawrence Berkeley National Laboratory announced that they had developed an AI system known as GNoME  This system has contributed to materials science by discovering over   million new materials within a relatively short timeframe  GNoME employs deep learning techniques to efficiently explore potential material structures  achieving a significant increase in the identification of stable inorganic crystal structures  The system s predictions were validated through autonomous robotic experiments  demonstrating a noteworthy success rate of      The data of newly discovered materials is publicly available through the Materials Project database  offering researchers the opportunity to identify materials with desired properties for various applications  This development has implications for the future of scientific discovery and the integration of AI in material science research  potentially expediting material innovation and reducing costs in product development  The use of AI and deep learning suggests the possibility of minimizing or eliminating manual lab experiments and allowing scientists to focus more on the design and analysis of unique compounds                                        
+
+Reverse engineering edit 
+Machine learning is used in diverse types of reverse engineering  For example  machine learning has been used to reverse engineer a composite material part  enabling unauthorized production of high quality parts               and for quickly understanding the behavior of malware                                         It can be used to reverse engineer artificial intelligence models               It can also design components by engaging in a type of reverse engineering of not yet existent virtual components such as inverse molecular design for particular desired functionality              or protein design for prespecified functional sites                            Biological network reverse engineering could model interactions in a human understandable way  e g  bas on time series data of gene expression levels              
+
+Law edit 
+Main article  Legal informatics        Artificial intelligence
+Legal analysis edit 
+AI is a mainstay of law related professions  Algorithms and machine learning do some tasks previously done by entry level lawyers               While its use is common  it is not expected to replace most work done by lawyers in the near future              
+The electronic discovery industry uses machine learning to reduce manual searching              
+
+Law enforcement and legal proceedings edit 
+Law enforcement has begun using facial recognition systems  FRS  to identify suspects from visual data  FRS results have proven to be more accurate when compared to eyewitness results  Furthermore  FRS has shown to have much a better ability to identify individuals when video clarity and visibility are low in comparison to human participants              
+COMPAS is a commercial system used by U S  courts to assess the likelihood of recidivism              
+One concern relates to algorithmic bias  AI programs may become biased after processing data that exhibits bias               ProPublica claims that the average COMPAS assigned recidivism risk level of black defendants is significantly higher than that of white defendants              
+In       the city of Hangzhou  China established a pilot program artificial intelligence based Internet Court to adjudicate disputes related to ecommerce and internet related intellectual property claims                                     Parties appear before the court via videoconference and AI evaluates the evidence presented and applies relevant legal standards                                    
+
+Services edit 
+Human resources edit 
+Main article  Artificial intelligence in hiring
+Another application of AI is in human resources  AI can screen resumes and rank candidates based on their qualifications  predict candidate success in given roles  and automate repetitive communication tasks via chatbots      citation needed     
+
+Job search edit 
+AI has simplified the recruiting job search process for both recruiters and job seekers  According to Raj Mukherjee from Indeed      of job searchers search again within    days after hire  An AI powered engine streamlines the complexity of job hunting by assessing information on job skills  salaries  and user tendencies  matching job seekers to the most relevant positions  Machine intelligence calculates appropriate wages and highlights resume information for recruiters using NLP  which extracts relevant words and phrases from text  Another application is an AI resume builder that compiles a CV in   minutes      citation needed      Chatbots assist website visitors and refine workflows 
+
+Online and telephone customer service edit 
+An automated online assistant providing customer service on a web page
+AI underlies avatars  automated online assistants  on web pages               It can reduce operation and training costs               Pypestream automated customer service for its mobile application to streamline communication with customers              
+A Google app analyzes language and converts speech into text  The platform can identify angry customers through their language and respond appropriately               Amazon uses a chatbot for customer service that can perform tasks like checking the status of an order  cancelling orders  offering refunds and connecting the customer with a human representative               Generative AI  GenAI   such as ChatGPT  is increasingly used in business to automate tasks and enhance decision making              
+
+Hospitality edit 
+In the hospitality industry  AI is used to reduce repetitive tasks  analyze trends  interact with guests  and predict customer needs               AI hotel services come in the form of a chatbot               application  virtual voice assistant and service robots 
+
+Media edit 
+See also  Synthetic media
+Image restoration
+AI applications analyze media content such as movies  TV programs  advertisement videos or user generated content  The solutions often involve computer vision 
+Typical scenarios include the analysis of images using object recognition or face recognition techniques  or the analysis of video for scene recognizing scenes  objects or faces  AI based media analysis can facilitate media search  the creation of descriptive keywords for content  content policy monitoring  such as verifying the suitability of content for a particular TV viewing time   speech to text for archival or other purposes  and the detection of logos  products or celebrity faces for ad placement 
+
+Motion interpolation             
+Pixel art scaling algorithms             
+Image scaling             
+Image restoration                          
+Photo colorization             
+Film restoration and video upscaling             
+Photo tagging             
+Automated species identification  such as identifying plants  fungi and animals with an app 
+Text to image models such as DALL E  Midjourney and Stable Diffusion
+Image to video             
+Text to video such as Make A Video from Meta  Imagen video and Phenaki from Google
+Text to music with AI models such as MusicLM                          
+Text to speech such as ElevenLabs and    ai
+Motion capture             
+Make image transparent             
+Deep fakes edit 
+Deep fakes can be used for comedic purposes but are better known for fake news and hoaxes 
+Deepfakes can portray individuals in harmful or compromising situations  causing significant reputational damage and emotional distress  especially when the content is defamatory or violates personal ethics  While defamation and false light laws offer some recourse  their focus on false statements rather than fabricated images or videos often leaves victims with limited legal protection and a challenging burden of proof              
+In January                    the Horizon      program financed the InVID Project                           to help journalists and researchers detect fake documents  made available as browser plugins                           
+In June       the visual computing group of the Technical University of Munich and from Stanford University developed Face Face               a program that animates photographs of faces  mimicking the facial expressions of another person  The technology has been demonstrated animating the faces of people including Barack Obama and Vladimir Putin  Other methods have been demonstrated based on deep neural networks  from which the name deep fake was taken 
+In September       U S  Senator Mark Warner proposed to penalize social media companies that allow sharing of deep fake documents on their platforms              
+In       Darius Afchar and Vincent Nozick found a way to detect faked content by analyzing the mesoscopic properties of video frames               DARPA gave    million dollars to work on deep fake detection              
+Audio deepfakes                           and AI software capable of detecting deep fakes and cloning human voices have been developed                           
+Respeecher is a program that enables one person to speak with the voice of another 
+
+Video surveillance analysis and manipulated media detection edit 
+See also  Web scraping  Photograph manipulation  and Video manipulation
+This section is an excerpt from Video content analysis   Artificial Intelligence  edit 
+Artificial intelligence for video surveillance utilizes computer software programs that analyze the audio and images from video surveillance cameras in order to recognize humans  vehicles  objects and events  Security contractors program is the software to define restricted areas within the camera s view  such as a fenced off area  a parking lot but not the sidewalk or public street outside the lot  and program for times of day  such as after the close of business  for the property being protected by the camera surveillance  The artificial intelligence   A I    sends an alert if it detects a trespasser breaking the  rule  set that no person is allowed in that area during that time of day 
+AI algorithms have been used to detect deepfake videos                           
+
+Video production edit 
+Artificial intelligence is also starting to be used in video production  with tools and software being developed that utilize generative AI in order to create new video  or alter existing video  Some of the major tools that are being used in these processes currently are DALL E  Mid journey  and Runway                Way mark Studios utilized the tools offered by both DALL E and Mid journey to create a fully AI generated film called The Frost in the summer of                    Way mark Studios is experimenting with using these AI tools to generate advertisements and commercials for companies in mere seconds                Yves Bergquist  a director of the AI  amp  Neuroscience in Media Project at USC s Entertainment Technology Center  says post production crews in Hollywood are already using generative AI  and predicts that in the future more companies will embrace this new technology              
+
+Music edit 
+Main article  Music and artificial intelligence
+AI has been used to compose music of various genres 
+David Cope created an AI called Emily Howell that managed to become well known in the field of algorithmic computer music               The algorithm behind Emily Howell is registered as a US patent              
+In       AI Iamus created the first complete classical album              
+AIVA  Artificial Intelligence Virtual Artist   composes symphonic music  mainly classical music for film scores               It achieved a world first by becoming the first virtual composer to be recognized by a musical professional association              
+Melomics creates computer generated music for stress and pain relief              
+At Sony CSL Research Laboratory  the Flow Machines software creates pop songs by learning music styles from a huge database of songs  It can compose in multiple styles 
+The Watson Beat uses reinforcement learning and deep belief networks to compose music on a simple seed input melody and a select style  The software was open sourced              and musicians such as Taryn Southern              collaborated with the project to create music 
+South Korean singer  Hayeon s  debut song   Eyes on You  was composed using AI which was supervised by real composers  including NUVO              
+
+Writing and reporting edit 
+Narrative Science sells computer generated news and reports  It summarizes sporting events based on statistical data from the game  It also creates financial reports and real estate analyses               Automated Insights generates personalized recaps and previews for Yahoo Sports Fantasy Football              
+Yseop  uses AI to turn structured data into natural language comments and recommendations  Yseop writes financial reports  executive summaries  personalized sales or marketing documents and more in multiple languages  including English  Spanish  French  and German              
+TALESPIN made up stories similar to the fables of Aesop  The program started with a set of characters who wanted to achieve certain goals  The story narrated their attempts to satisfy these goals      citation needed      Mark Riedl and Vadim Bulitko asserted that the essence of storytelling was experience management  or  how to balance the need for a coherent story progression with user agency  which is often at odds               
+While AI storytelling focuses on story generation  character and plot   story communication also received attention  In       researchers developed an architectural framework for narrative prose generation  They faithfully reproduced text variety and complexity on stories such as Little Red Riding Hood               In       a Japanese AI co wrote a short story and almost won a literary prize              
+South Korean company Hanteo Global uses a journalism bot to write articles              
+Literary authors are also exploring uses of AI  An example is David Jhave Johnston s work ReRites              where the poet created a daily rite of editing the poetic output of a neural network to create a series of performances and publications 
+
+Sports writing edit 
+In       artificial intelligence used baseball statistics to automatically generate news articles  This was launched by The Big Ten Network using software from Narrative Science              
+After being unable to cover every Minor League Baseball game with a large team  Associated Press collaborated with Automated Insights in      to create game recaps that were automated by artificial intelligence              
+UOL in Brazil expanded the use of AI in its writing  Rather than just generating news stories  they programmed the AI to include commonly searched words on Google              
+El Pais  a Spanish news site that covers many things including sports  allows users to make comments on each news article  They use the Perspective API to moderate these comments and if the software deems a comment to contain toxic language  the commenter must modify it in order to publish it              
+A local Dutch media group used AI to create automatic coverage of amateur soccer  set to cover        games in just a single season  NDC partnered with United Robots to create this algorithm and cover what would have never been possible before without an extremely large team              
+Lede AI has been used in      to take scores from high school football games to generate stories automatically for the local newspaper  This was met with significant criticism from readers for the very robotic diction that was published  With some descriptions of games being a  close encounter of the athletic kind   readers were not pleased and let the publishing company  Gannett  know on social media  Gannett has since halted their used of Lede AI until they come up with a solution for what they call an experiment              
+
+Wikipedia edit 
+This section is an excerpt from Artificial intelligence in Wikimedia projects  edit 
+Artificial intelligence is used in Wikipedia and other Wikimedia projects for the purpose of developing those projects                            Human and bot interaction in Wikimedia projects is routine and iterative               Millions of its articles have been edited by bots              which however are usually not artificial intelligence software  Many AI platforms use Wikipedia data               mainly for training machine learning applications  There is research and development of various artificial intelligence applications for Wikipedia such as for identifying outdated sentences               detecting covert vandalism              or recommending articles and tasks to new editors 
+Machine translation  see above  has also be used for translating Wikipedia articles and could play a larger role in creating  updating  expanding  and generally improving articles in the future  A content translation tool allows editors of some Wikipedias to more easily translate articles across several select languages                           
+
+Video games edit 
+Main article  Artificial intelligence in video games
+In video games  AI is routinely used to generate behavior in non player characters  NPCs   In addition  AI is used for pathfinding  Some researchers consider NPC AI in games to be a  solved problem  for most production tasks      who       Games with less typical AI include the AI director of Left   Dead        and the neuroevolutionary training of platoons in Supreme Commander                                     AI is also used in Alien Isolation        as a way to control the actions the Alien will perform next              
+Kinect  which provides a  D body motion interface for the Xbox     and the Xbox One  uses algorithms that emerged from AI research                   which      
+
+Art edit 
+A  cyborg elf  generated by Stable Diffusion
+Main article  Artificial intelligence art
+AI has been used to produce visual art  The first AI art program  called AARON  was developed by Harold Cohen in                   with the goal of being able to code the act of drawing  It started by creating simple black and white drawings  and later to painting using special brushes and dyes that were chosen by the program itself without mediation from Cohen              
+AI platforms such as  DALL E                Stable Diffusion               Imagen               and Midjourney              have been used for generating visual images from inputs such as text or other images               Some AI tools allow users to input images and output changed versions of that image  such as to display an object or product in different environments  AI image models can also attempt to replicate the specific styles of artists  and can add visual complexity to rough sketches 
+Since their design in       generative adversarial networks  GANs  have been used by AI artists  GAN computer programming  generates technical images through machine learning frameworks that surpass the need for human operators               Examples of GAN programs that generate art include Artbreeder and DeepDream 
+
+Art analysis edit 
+In addition to the creation of original art  research methods that utilize AI have been generated to quantitatively analyze digital art collections  Although the main goal of the large scale digitization of artwork in the past few decades was to allow for accessibility and exploration of these collections  the use of AI in analyzing them has brought about new research perspectives              
+Two computational methods  close reading and distant viewing  are the typical approaches used to analyze digitized art               While distant viewing includes the analysis of large collections  close reading involves one piece of artwork 
+
+Computer animation edit 
+AI has been in use since the early     s  most notably by a system designed by Pixar called  Genesis                It was designed to learn algorithms and create  D models for its characters and props  Notable movies that used this technology included Up and The Good Dinosaur               AI has been used less ceremoniously in recent years  In       it was revealed Netflix of Japan was using AI to generate background images for their upcoming show to be met with backlash online                In recent years  motion capture became an easily accessible form of AI animation  For example  Move AI is a program built to capture any human movement and reanimate it in its animation program using learning AI              
+
+Utilities edit 
+Energy system edit 
+Power electronics converters are used in renewable energy  energy storage  electric vehicles and high voltage direct current transmission  These converters are failure prone  which can interrupt service and require costly maintenance or catastrophic consequences in mission critical applications      citation needed      AI can guide the design process for reliable power electronics converters  by calculating exact design parameters that ensure the required lifetime              
+The U S  Department of Energy underscores AI s pivotal role in realizing national climate goals  With AI  the ambitious target of achieving net zero greenhouse gas emissions across the economy becomes feasible  AI also helps make room for wind and solar on the grid by avoiding congestion and increasing grid reliability              
+Machine learning can be used for energy consumption prediction and scheduling  e g  to help with renewable energy intermittency management  see also  smart grid and climate change mitigation in the power grid                                                                   
+
+Telecommunications edit 
+Many telecommunications companies make use of heuristic search to manage their workforces  For example  BT Group deployed heuristic search              in an application that schedules        engineers  Machine learning is also used for speech recognition  SR   including of voice controlled devices  and SR related transcription  including of videos                           
+
+Manufacturing edit 
+Main articles  Artificial intelligence in industry and Artificial intelligence in heavy industry
+Sensors edit 
+Artificial intelligence has been combined with digital spectrometry by IdeaCuria Inc                             enable applications such as at home water quality monitoring 
+
+Toys and games edit 
+In the     s  early artificial intelligence tools controlled Tamagotchis and Giga Pets  the Internet  and the first widely released robot  Furby  Aibo was a domestic robot in the form of a robotic dog with intelligent features and autonomy 
+Mattel created an assortment of AI enabled toys that  understand  conversations  give intelligent responses  and learn              
+
+Oil and gas edit 
+Oil and gas companies have used artificial intelligence tools to automate functions  foresee equipment issues  and increase oil and gas output                           
+
+Industrial sensors and AI tools work together to watch manufacturing processes and equipment in real time  Detection programs find strange patterns  The patterns may show quality issues or issues with equipment  Supply chain management improves with better predictions of demand and managing inventory              
+
+Transport edit 
+Automotive edit 
+Main articles  Vehicular automation and Self driving car
+Side view of a Waymo branded self driving car
+AI in transport is expected to provide safe  efficient  and reliable transportation while minimizing the impact on the environment and communities  The major development challenge is the complexity of transportation systems that involves independent components and parties  with potentially conflicting objectives              
+AI based fuzzy logic controllers operate gearboxes  For example  the      Audi TT  VW Touareg      citation needed      and VW Caravell feature the DSP transmission  A number of  koda variants   koda Fabia  include a fuzzy logic based controller  Cars have AI based driver assist features such as self parking and adaptive cruise control 
+There are also prototypes of autonomous automotive public transport vehicles such as electric mini buses                                                     as well as autonomous rail transport in operation                                        
+There also are prototypes of autonomous delivery vehicles  sometimes including delivery robots                                                                                            
+Transportation s complexity means that in most cases training an AI in a real world driving environment is impractical  Simulator based testing can reduce the risks of on road training              
+AI underpins self driving vehicles  Companies involved with AI include Tesla  Waymo  and General Motors  AI based systems control functions such as braking  lane changing  collision prevention  navigation and mapping              
+Autonomous trucks are in the testing phase  The UK government passed legislation to begin testing of autonomous truck platoons in                    A group of autonomous trucks follow closely behind each other  German corporation Daimler is testing its Freightliner Inspiration              
+Autonomous vehicles require accurate maps to be able to navigate between destinations               Some autonomous vehicles do not allow human drivers  they have no steering wheels or pedals               
+
+Traffic management edit 
+AI has been used to optimize traffic management  which reduces wait times  energy use  and emissions by as much as    percent              
+
+Cameras with radar and ultrasonic acoustic location sensors  while using predictive algorithms to have artificially intelligent traffic lights to make traffic flow better
+Smart traffic lights have been developed at Carnegie Mellon since        Professor Stephen Smith has started a company since then Surtrac that has installed smart traffic control systems in    cities   It costs about         per intersection to install  Drive time has been reduced by     and traffic jam waiting time has been reduced by     at the intersections it has been installed              
+
+Military edit 
+The Royal Australian Air Force  RAAF  Air Operations Division  AOD  uses AI for expert systems  AIs operate as surrogate operators for combat and training simulators  mission management aids  support systems for tactical decision making  and post processing of the simulator data into symbolic summaries              
+Aircraft simulators use AI for training aviators  Flight conditions can be simulated that allow pilots to make mistakes without risking themselves or expensive aircraft  Air combat can also be simulated 
+AI can also be used to operate planes analogously to their control of ground vehicles  Autonomous drones can fly independently or in swarms              
+AOD uses the Interactive Fault Diagnosis and Isolation System  or IFDIS  which is a rule based expert system using information from TF    documents and expert advice from mechanics that work on the TF     This system was designed to be used for the development of the TF    for the F    C  The system replaced specialized workers  The system allowed regular workers to communicate with the system and avoid mistakes  miscalculations  or having to speak to one of the specialized workers 
+Speech recognition allows traffic controllers to give verbal directions to drones 
+Artificial intelligence supported design of aircraft               or AIDA  is used to help designers in the process of creating conceptual designs of aircraft  This program allows the designers to focus more on the design itself and less on the design process  The software also allows the user to focus less on the software tools  The AIDA uses rule based systems to compute its data  This is a diagram of the arrangement of the AIDA modules  Although simple  the program is proving effective 
+
+NASA edit 
+In      a Dryden Flight Research Center project created software that could enable a damaged aircraft to continue flight until a safe landing can be achieved               The software compensated for damaged components by relying on the remaining undamaged components              
+The      Intelligent Autopilot System combined apprenticeship learning and behavioral cloning whereby the autopilot observed low level actions required to maneuver the airplane and high level strategy used to apply those actions              
+
+Maritime edit 
+Neural networks are used by situational awareness systems in ships and boats               There also are autonomous boats 
+
+The development of self driving cars is progressing  Machine learning systems help use sensor data to navigate tricky areas               Advanced driver assistance systems provide features such as keeping the car in its lane and preventing accidents               City traffic management systems change traffic lights based on the current traffic conditions 
+Maritime shipping uses AI to find the best paths  It checks weather and fuel usage  Automated navigation systems help operate the ships  AI also improves loading and placing containers at ports      citation needed     
+
+Environmental monitoring edit 
+See also  Climate smart agriculture
+Autonomous ships that monitor the ocean  AI driven satellite data analysis  passive acoustics              or remote sensing and other applications of environmental monitoring make use of machine learning                                                     
+For example   Global Plastic Watch  is an AI based satellite monitoring platform for analysis tracking of plastic waste sites to help prevention of plastic pollution   primarily ocean pollution   by helping identify who and where mismanages plastic waste  dumping it into oceans                           
+
+Early warning systems edit 
+Machine learning can be used to spot early warning signs of disasters and environmental issues  possibly including natural pandemics                            earthquakes                                         landslides               heavy rainfall               long term water supply vulnerability               tipping points of ecosystem collapse               cyanobacterial bloom outbreaks               and droughts                                        
+
+AI early warning systems can warn us about natural disasters like floods  wildfires  and earthquakes               Climate change monitoring uses machine learning to spot patterns in temperature  rainfall  and other signs in the environment  Wildlife conservation gets better when we use automatic tools to identify animals in camera trap pictures and sound recordings  Tools for monitoring the ocean look at key details that help us learn about the health of ocean ecosystems              
+
+Computer science edit 
+Programming assistance edit 
+Main articles  Automatic programming and Programming environment
+AI powered code assisting tools edit 
+AI can be used for real time code completion  chat  and automated test generation  These tools are typically integrated with editors and IDEs as plugins  They differ in functionality  quality  speed  and approach to privacy               Code suggestions could be incorrect  and should be carefully reviewed by software developers before accepted 
+GitHub Copilot is an artificial intelligence model developed by GitHub and OpenAI that is able to autocomplete code in multiple programming languages               Price for individuals      mo or      yr  with one free month trial 
+Tabnine was created by Jacob Jackson and was originally owned by Tabnine company  In late       Tabnine was acquired by Codota               Tabnine tool is available as plugin to most popular IDEs  It offers multiple pricing options  including limited  starter  free version              
+CodiumAI by CodiumAI  small startup in Tel Aviv  offers automated test creation  Currently supports Python  JS  and TS              
+Ghostwriter by Replit offers code completion and chat               They have multiple pricing plans  including a free one and a  Hacker  plan for    month 
+CodeWhisperer by Amazon collects individual users  content  including files open in the IDE  They claim to focus on security both during transmission and when storing               Individual plan is free  professional plan is     user month 
+Other tools  SourceGraph Cody  CodeCompleteFauxPilot  Tabby             
+
+Neural network design edit 
+AI can be used to create other AIs  For example  around November       Google s AutoML project to evolve new neural net topologies created NASNet  a system optimized for ImageNet and POCO F   NASNet s performance exceeded all previously published performance on ImageNet              
+
+Quantum computing edit 
+Further information  Quantum machine learning
+Machine learning has been used for noise cancelling in quantum technology               including quantum sensors               Moreover  there is substantial research and development of using quantum computers with machine learning algorithms  For example  there is a prototype  photonic  quantum memristive device for neuromorphic  quantum  computers  NC  artificial neural networks and NC using quantum materials with some variety of potential neuromorphic computing related applications                            and quantum machine learning is a field with some variety of applications under development  AI could be used for quantum simulators which may have the application of solving physics and chemistry                           problems as well as for quantum annealers for training of neural networks for AI applications               There may also be some usefulness in chemistry  e g  for drug discovery  and in materials science  e g  for materials optimization discovery  with possible relevance to quantum materials manufacturing                                                                        better      source      needed     
+
+Historical contributions edit 
+AI researchers have created many tools to solve the most difficult problems in computer science  Many of their inventions have been adopted by mainstream computer science and are no longer considered AI  All of the following were originally developed in AI laboratories              
+
+Time sharing
+Interactive interpreters
+Graphical user interfaces and the computer mouse
+Rapid application development environments
+The linked list data structure
+Automatic storage management
+Symbolic programming
+Functional programming
+Dynamic programming
+Object oriented programming
+Optical character recognition
+Constraint satisfaction
+Business edit 
+Content extraction edit 
+An optical character reader is used in the extraction of data in business documents like invoices and receipts  It can also be used in business contract documents e g  employment agreements to extract critical data like employment terms  delivery terms  termination clauses  etc              
+
+Architecture edit 
+This section is an excerpt from Artificial intelligence in architecture  edit 
+AI Architecture utilizing sketch to image to  D model workflow
+Artificial intelligence in architecture describes the use of artificial intelligence in automation  design and planning in the architectural process or in assisting human skills in the field of architecture               Artificial Intelligence is thought to potentially lead to and ensue major changes in architecture                                          
+
+AI s potential in optimization of design  planning and productivity have been noted as accelerators in the field of architectural work  The ability of AI to potentially amplify an architect s design process has also been noted  Fears of the replacement of aspects or core processes of the architectural profession by Artificial Intelligence have also been raised  as well as the philosophical implications on the profession and creativity                                        AI in architecture has created a way for architects to create things beyond human understanding  AI implementation of machine learning text to render technologies  like DALL E and stable Diffusion  gives power to visualization complex              
+AI allows designers to demonstrate their creativity and even invent new ideas while designing  In future  AI will not replace architects  instead  it will improve the speed of translating ideas sketching              
+
+Ethical Considerations and Societal Impacts edit 
+The use of AI raises some important ethical issues like privacy  bias  and accountability  When algorithms are trained on biased data  they can end up reinforcing existing inequalities  for example consider how facial recognition technology often performs poorly or fails in certain demographics               Plus  AI s use in surveillance makes people worry about their personal rights and data privacy  
+
+Challenges and Future Directions edit 
+The integrartion of these technologies raises some issues that we need to look at  First  it s important to make sure that the data we use is accurate and fair  We also need to address issues of bias to ensure that AI systems treat everyone equally  Creating rules and guidelines for how AI is used is another important step  Data privacy and ensuring security is very essential to maintain trust  While adaptation of these technolgies can give us more efficiency in the work pattern  there might be a challenge for human workforce      citation needed     
+Looking ahead  we aim to develop AI that can explain its decisions clearly so that people can understand how it works  There s also a goal to create more advanced AI that can handle a wider range of problems  Researchers are starting to emphasize the importance of working together across different fields to develop better technologies for AI so that it provides fair benefits for everyone              
+
+List of applications edit 
+This section is in list format but may read better as prose  You can help by converting this section  if appropriate  Editing help is available    December      
+
+Optical character recognition
+Handwriting recognition
+Speech recognition
+Face recognition
+Generative artificial intelligence
+Synthetic media
+Artificial creativity
+Computer vision
+Virtual reality
+Image processing
+Photo and video manipulation
+Diagnosis  artificial intelligence 
+Game theory and strategic planning
+Game artificial intelligence and computer game bot
+Natural language processing  translation and chatterbots
+Nonlinear control and robotics
+Chatbots and assistant apps like Alexa  Google Assistant  Siri
+Social bot
+To transcribe music
+Law related services
+Healthcare
+Education and Learning Disabilities related issues
+User activity monitoring  personalized targeted promotion and marketing via ads
+Humanoids
+Games like DeepBlue
+Agent based models
+Agent based computational economics
+Artificial life
+Automated reasoning
+Automated theorem proving
+Proof assistants
+Automation
+Bio inspired computing
+Concept mining
+Data mining
+Knowledge representation
+Semantic Web
+Email spam filtering
+Filtering hate speech  nudity  and other unwanted content 
+Robotics
+Behavior based robotics
+Cognitive robotics
+Cybernetics
+Developmental robotics  epigenetic 
+Evolutionary robotics
+Human robot interaction
+Hybrid intelligent system
+Intelligent agent
+Intelligent control
+Litigation
+See also edit 
+Applications of artificial intelligence to legal informatics
+Applications of deep learning
+Applications of machine learning
+Artificial intelligence and elections
+Collective intelligence        Applications
+List of artificial intelligence projects
+List of datasets for machine learning research
+Open data
+Progress in artificial intelligence
+Timeline of computing      present
+Footnotes edit 
+
+
+  Brynjolfsson  Erik  Mitchell  Tom     December         What can machine learning do  Workforce implications   Science                         Bibcode     Sci           B  doi         science aap      PMID               
+
+  Shin  Minkyu  Kim  Jin  van Opheusden  Bas  Griffiths  Thomas L           Superhuman artificial intelligence can improve human decision making by increasing novelty   Proceedings of the National Academy of Sciences            e            arXiv             Bibcode     PNAS          S  doi         pnas             PMC                PMID               
+
+  Chen  Yiting  Liu  Tracy Xiao  Shan  You  Zhong  Songfa          The emergence of economic rationality of GPT   Proceedings of the National Academy of Sciences            e            arXiv             Bibcode     PNAS          C  doi         pnas             PMC                PMID               
+
+   What are the security risks of open sourcing the Twitter algorithm    VentureBeat     May       Retrieved    May      
+
+   Examining algorithmic amplification of political content on Twitter   Retrieved    May      
+
+  Park  SoHyun  Oh  Heung Kwon  Park  Gibeom  Suh  Bongwon  Bae  Woo Kyung  Kim  Jin Won  Yoon  Hyuk  Kim  Duck Woo  Kang  Sung Bum  February         The Source and Credibility of Colorectal Cancer Information on Twitter   Medicine          e      doi         MD                   PMC               PMID               
+
+  Efthimion  Phillip  Payne  Scott  Proferes  Nicholas     July         Supervised Machine Learning Bot Detection Techniques to Identify Social Twitter Bots   SMU Data Science Review        
+
+   The online information environment   PDF   Retrieved    February      
+
+  Islam  Md Rafiqul  Liu  Shaowu  Wang  Xianzhi  Xu  Guandong     September         Deep learning for misinformation detection on online social networks  a survey and new perspectives   Social Network Analysis and Mining              doi         s                x  PMC               PMID               
+
+  Mohseni  Sina  Ragan  Eric    December         Combating Fake News with Interpretable News Feed Algorithms   arXiv             cs SI  
+
+   How artificial intelligence may be making you buy things   BBC News    November       Retrieved   November      
+
+  Busby  Mattha     April         Revealed  how bookies use AI to keep gamblers hooked   The Guardian 
+
+  Rowinski  Dan     January         Virtual Personal Assistants  amp  The Future Of Your Smartphone      Infographic        ReadWrite  Archived from the original on    December      
+
+  Roose  Kevin     February         Bing s A I  Chat   I Want to Be Alive        The New York Times 
+
+  Galego Hernandes  Paulo R   Floret  Camila P   Cardozo De Almeida  Katia F   Da Silva  Vinicius Camargo  Papa  Joso Paulo  Pontara Da Costa  Kelton A           Phishing Detection Using URL based XAI Techniques        IEEE Symposium Series on Computational Intelligence  SSCI   pp              doi         SSCI                    ISBN                        
+
+  J  ez Martino  Francisco  Alaiz Rodr guez  Roc o  Gonz lez Castro  V ctor  Fidalgo  Eduardo  Alegre  Enrique                A review of spam email detection  analysis of spammer strategies and the dataset shift problem   Artificial Intelligence Review                     doi         s                   hdl             
+
+  Kapan  Sibel  Sora Gunal  Efnan  January         Improved Phishing Attack Detection with Machine Learning  A Comprehensive Evaluation of Classifiers and Features   Applied Sciences                  doi         app          
+
+  Nakamura  Satoshi          Overcoming the language barrier with speech translation technology   Science  amp  Technology Trends Quarterly Review              CORE output ID                
+
+  a b Clark  Jack    December         Why      Was a Breakthrough Year in Artificial Intelligence   Bloomberg com 
+
+  a b Briefer  Elodie F   Sypherd  Ciara C  R   Linhart  Pavel  Leliveld  Lisette M  C   Padilla de la Torre  Monica  Read  Eva R   Gu rin  Carole  Deiss  V ronique  Monestier  Chlo   Rasmussen  Jeppe H    pinka  Marek  D pjan  Sandra  Boissy  Alain  Janczak  Andrew M   Hillmann  Edna  Tallet  C line    March         Classification of pig calls produced from birth to slaughter according to their emotional valence and context of production   Scientific Reports                Bibcode     NatSR         B  doi         s                   PMC               PMID               
+
+   Can artificial intelligence really help us talk to the animals    The Guardian     July       Retrieved    August      
+
+  K  Mandal  G  S  Pradeep Ghantasala  Firoz Khan  R  Sathiyaraj  B  Balamurugan         Natural Language Processing in Artificial Intelligence   st      ed    Apple Academic Press  pp              ISBN                      cite book     CS  maint  multiple names  authors list  link 
+
+  Heath  Nick     December         What is AI  Everything you need to know about Artificial Intelligence   ZDNet  Retrieved   March      
+
+  Covington  Paul  Adams  Jay  Sargin  Emre          Deep Neural Networks for YouTube Recommendations   Proceedings of the   th ACM Conference on Recommender Systems  pp                doi                          ISBN                        
+
+  Bhowmick  Alexy  Hazarika  Shyamanta M           E Mail Spam Filtering  A Review of Techniques and Trends   Advances in Electronics  Communication and Computing  Lecture Notes in Electrical Engineering  Vol            pp                doi                               ISBN                        
+
+  Wang  Mei  Deng  Weihong  March         Deep face recognition  A survey   Neurocomputing                arXiv             doi         j neucom             
+
+  Markoff  John     February         Computer Wins on  Jeopardy    Trivial  It s Not   The New York Times  Archived from the original on    October       Retrieved    October      
+
+   AlphaGo   Google DeepMind   Archived from the original on    March      
+
+   Artificial intelligence  Google s AlphaGo beats Go master Lee Se dol   BBC News     March       Archived from the original on    August       Retrieved   October      
+
+  Metz  Cade     May         After Win in China  AlphaGo s Designers Explore New AI   Wired  Archived from the original on   June      
+
+   World s Go Player Ratings   May       Archived from the original on   April      
+
+                            in Chinese   May       Archived from the original on    August      
+
+   MuZero  Mastering Go  chess  shogi and Atari without rules   Deepmind     December       Retrieved   March      
+
+  Steven Borowiec  Tracey Lien     March         AlphaGo beats human Go champ in milestone for artificial intelligence   Los Angeles Times  Retrieved    March      
+
+  Solly  Meilan   This Poker Playing A I  Knows When to Hold  Em and When to Fold  Em   Smithsonian  Pluribus has bested poker pros in a series of six player no limit Texas Hold em games  reaching a milestone in artificial intelligence research  It is the first bot to beat humans in a complex multiplayer competition 
+
+  Bowling  Michael  Burch  Neil  Johanson  Michael  Tammelin  Oskari    January         Heads up limit hold em poker is solved   Science                       Bibcode     Sci           B  doi         science          PMID               
+
+  Ontanon  Santiago  Synnaeve  Gabriel  Uriarte  Alberto  Richoux  Florian  Churchill  David  Preuss  Mike  December         A Survey of Real Time Strategy Game AI Research and Competition in StarCraft   IEEE Transactions on Computational Intelligence and AI in Games                  doi         TCIAIG              
+
+   Facebook Quietly Enters StarCraft War for AI Bots  and Loses   WIRED        Retrieved   May      
+
+  Silver  David  Hubert  Thomas  Schrittwieser  Julian  Antonoglou  Ioannis  Lai  Matthew  Guez  Arthur  Lanctot  Marc  Sifre  Laurent  Kumaran  Dharshan  Graepel  Thore  Lillicrap  Timothy  Simonyan  Karen  Hassabis  Demis    December         A general reinforcement learning algorithm that masters chess  shogi  and go through self play   Science                         Bibcode     Sci           S  doi         science aar      PMID               
+
+  Sample  Ian     October          It s able to create knowledge itself   Google unveils AI that learns on its own   The Guardian  Retrieved   May      
+
+  Appenzeller  Tim    July         The AI revolution in science   Science  doi         science aan     
+
+   The superhero of artificial intelligence  can this genius keep it in check    The Guardian     February       Archived from the original on    April       Retrieved    April      
+
+  Mnih  Volodymyr  Kavukcuoglu  Koray  Silver  David  Rusu  Andrei A   Veness  Joel  Bellemare  Marc G   Graves  Alex  Riedmiller  Martin  Fidjeland  Andreas K   Ostrovski  Georg  Petersen  Stig  Beattie  Charles  Sadik  Amir  Antonoglou  Ioannis  King  Helen  Kumaran  Dharshan  Wierstra  Daan  Legg  Shane  Hassabis  Demis     February         Human level control through deep reinforcement learning   Nature                       Bibcode     Natur         M  doi         nature       PMID               
+
+  Sample  Ian     March         Google s DeepMind makes AI program that can learn like a human   The Guardian  Archived from the original on    April       Retrieved    April      
+
+  Schrittwieser  Julian  Antonoglou  Ioannis  Hubert  Thomas  Simonyan  Karen  Sifre  Laurent  Schmitt  Simon  Guez  Arthur  Lockhart  Edward  Hassabis  Demis  Graepel  Thore  Lillicrap  Timothy  Silver  David     December         Mastering Atari  Go  chess and shogi by planning with a learned model   Nature                       arXiv             Bibcode     Natur         S  doi         s                   PMID               
+
+  Ortiz  Sabrina   You can now chat with a famous AI character on Viber  Here s how   zdnet com  ZDNET  Retrieved   December       ICONIQ created Kuki  an AI character whose sole purpose is to entertain humans and has even been used as a brand ambassador for H amp M  modeled for Vogue  and starred in its own Roblox game 
+
+  Lewis  Nell     August         Robot friends  Why people talk to chatbots in times of trouble   cnn com  CNN  Retrieved   December       Since       when the bot landed on major messaging platforms  an estimated   million unique users hailing from all corners of the world have chatted with her 
+
+  Yannakakis  Georgios N   Togelius  Julian         Artificial Intelligence and Games  doi                            ISBN                             page      needed     
+
+  Elgammal  Ahmed  Liu  Bingchen  Elhoseiny  Mohamed  Mazzone  Marian         CAN  Creative Adversarial Networks  Generating  Art  by Learning About Styles and Deviating from Style Norms  Preprint   arXiv            
+
+  Preparing for the future of artificial intelligence  National Science and Technology Council  p           OCLC                 Retrieved   December      
+
+  Gambhire  Akshaya  Shaikh Mohammad  Bilal N     April        Use of Artificial Intelligence in Agriculture  Proceedings of the  rd International Conference on Advances in Science  amp  Technology  ICAST        SSRN              
+
+  Moreno Mill n  M  Sevilla Guzm n  E  Demyda  S E          Population  Poverty  Production  Food Security  Food Sovereignty  Biotechnology and Sustainable Development  Challenges for the XXI Century   Bulletin of University of Agricultural Sciences and Veterinary Medicine Cluj Napoca  Veterinary Medicine         
+
+  Liundi  Nicholas  Darma  Aditya Wirya  Gunarso  Rivaldi  Warnars  Harco Leslie Hendric Spits          Improving Rice Productivity in Indonesia with Artificial Intelligence         th International Conference on Cyber and IT Service Management  CITSM   pp            doi         CITSM                    ISBN                        
+
+  Talaviya  Tanha  Shah  Dhara  Patel  Nivedita  Yagnik  Hiteshri  Shah  Manan          Implementation of artificial intelligence in agriculture for optimisation of irrigation and application of pesticides and herbicides   Artificial Intelligence in Agriculture            doi         j aiia             
+
+   The importance of predictive analytics in agriculture   making sound future decisions based on statistical science and big data    Agmatix      unreliable source      
+
+  Anne Johnson  Emily Grumbling         Implications of artificial intelligence for cybersecurity  proceedings of a workshop  Washington  DC  National Academies Press  ISBN                         OCLC                      page      needed     
+
+  Kocher  Geeta  Kumar  Gulshan  August         Machine learning and deep learning methods for intrusion detection systems  recent developments and challenges   Soft Computing                      doi         s                  
+
+  Kant  Daniel  Johannsen  Andreas     January         Evaluation of AI based use cases for enhancing the cyber security defense of small and medium sized companies  SMEs    Electronic Imaging                       doi         EI           MOBMU     
+
+  Randrianasolo  Arisoa         Artificial intelligence in computer security  Detection  temporary repair and defense  Thesis   hdl                 page      needed     
+
+  Sahil  Sood  Sandeep  Mehmi  Sandeep  Dogra  Shikha          Artificial intelligence for designing user profiling system for cloud computing security  Experiment        International Conference on Advances in Computer Engineering and Applications  pp              doi         ICACEA               ISBN                        
+
+  Parisi  Alessandro         Hands On Artificial Intelligence for Cybersecurity  Implement smart AI systems for preventing cyber attacks and detecting threats and network anomalies  Packt Publishing Ltd  ISBN                         OCLC                      page      needed     
+
+   Threat intelligence   Microsoft Security Blog    May      
+
+  a b  AI in Education  Harvard Graduate School of Education   www gse harvard edu              Retrieved            
+
+  a b c d nair  madhu                AI In Education  Where Is It Now And What Is The Future   University of the People  Retrieved            
+
+  a b  The promises and perils of new technologies to improve education and employment opportunities   Brookings  Retrieved            
+
+   EU AI Act  First regulation on artificial intelligence     August      
+
+  Chincholi  Abhinand     September         How AI Is Changing The Way Students Learn   Forbes 
+
+   Artificial intelligence and education and skills   OECD 
+
+  Christy  Charles A      January         Impact of Artificial Intelligence on Banking   Los Angeles Times  Retrieved    September      
+
+  O Neill  Eleanor     July         Accounting  automation and AI   icas com  Archived from the original on    November       Retrieved    November      
+
+   CTO Corner  Artificial Intelligence Use in Financial Services   Financial Services Roundtable   Financial Services Roundtable    April       Archived from the original on    November       Retrieved    November      
+
+   Artificial Intelligence Solutions  AI Solutions   sas com 
+
+  Chapman  Lizette    January         Palantir once mocked the idea of salespeople  Now it s hiring them   Los Angeles Times  Retrieved    February      
+
+  Artificial Intelligence and Economic Theory  Skynet in the Market  Advanced Information and Knowledge Processing        doi                            ISBN                             page      needed     
+
+  Marwala  Tshilidzi  Hurwitz  Evan          Efficient Market Hypothesis   Artificial Intelligence and Economic Theory  Skynet in the Market  Advanced Information and Knowledge Processing  pp                doi                              ISBN                        
+
+  Shao  Jun  Lou  Zhukun  Wang  Chong  Mao  Jinye  Ye  Ailin     May         The impact of artificial intelligence  AI  finance on financing constraints of non SOE firms in emerging markets   International Journal of Emerging Markets                   doi         IJOEM              
+
+  Weber  Mark  Chen  Jie  Suzumura  Toyotaro  Pareja  Aldo  Ma  Tengfei  Kanezashi  Hiroki  Kaler  Tim  Leiserson  Charles E   Schardl  Tao B          Scalable Graph Learning for Anti Money Laundering  A First Look  Preprint   arXiv            
+
+   Algorithmic Trading   Investopedia     May      
+
+   Beyond Robo Advisers  How AI Could Rewire Wealth Management     January      
+
+  Asatryan  Diana    April         Machine Learning Is the Future of Underwriting  But Startups Won t be Driving It   bankinnovation net  Retrieved    April      
+
+   ZestFinance Introduces Machine Learning Platform to Underwrite Millennials and Other Consumers with Limited Credit History   Press release      February      
+
+  Chang  Hsihui  Kao  Yi Ching  Mashruwala  Raj  Sorensen  Susan M      April         Technical Inefficiency  Allocative Inefficiency  and Audit Pricing   Journal of Accounting  Auditing  amp  Finance                   doi                X         
+
+  Munoko  Ivy  Brown Liburd  Helen L   Vasarhelyi  Miklos  November         The Ethical Implications of Using Artificial Intelligence in Auditing   Journal of Business Ethics                    doi         s                  
+
+  Fadelli  Ingrid   LaundroGraph  Using deep learning to support anti money laundering efforts   techxplore com  Retrieved    December      
+
+  Cardoso  M rio  Saleiro  Pedro  Bizarro  Pedro          LaundroGraph  Self Supervised Graph Representation Learning for Anti Money Laundering   Proceedings of the Third ACM International Conference on AI in Finance  pp                arXiv             doi                          ISBN                        
+
+  Durkin  J           History and applications   Expert Systems  Vol          pp             doi         B                         ISBN                        
+
+  Chen  K C   Liang  Ting peng  May         Protrader  An Expert System for Program Trading   Managerial Finance               doi         eb       
+
+  Nielson  Norma  Brown  Carol E   Phillips  Mary Ellen  July         Expert Systems for Personal Financial Planning   Journal of Financial Planning           doi          PRISM        hdl            
+
+  Senator  Ted E   Goldberg  Henry G   Wooton  Jerry  Cottini  Matthew A   Khan  A F  Umar  Kilinger  Christina D   Llamas  Winston M   Marrone  MichaeI P   Wong  Raphael W H           The FinCEN Artificial Intelligence System  Identifying Potential Money Laundering from Reports of Large Cash Transactions   PDF   IAAI    Proceedings  Archived from the original  PDF  on             Retrieved            
+
+  Sutton  Steve G   Holt  Matthew  Arnold  Vicky  September          The reports of my death are greatly exaggerated  Artificial intelligence research in accounting   International Journal of Accounting Information Systems             doi         j accinf             
+
+  Chalmers  Dominic  MacKenzie  Niall G   Carter  Sara  September         Artificial Intelligence and Entrepreneurship  Implications for Venture Creation in the Fourth Industrial Revolution   Entrepreneurship Theory and Practice                     doi                          
+
+  Buckley  Chris  Mozur  Paul     May         How China Uses High Tech Surveillance to Subdue Minorities   The New York Times 
+
+   Security lapse exposed a Chinese smart city surveillance system     May       Archived from the original on   March       Retrieved    September      
+
+   AI traffic signals to be installed in Bengaluru soon   NextBigWhat     September       Retrieved   October      
+
+  a b c Congressional Research Service         Artificial Intelligence and National Security  PDF   Washington  DC  Congressional Research Service PD notice
+
+  Iraqi  Amjad                 Lavender   The AI machine directing Israel s bombing spree in Gaza        Magazine  Retrieved            
+
+  Davies  Harry  McKernan  Bethan  Sabbagh  Dan                 The Gospel   how Israel uses AI to select bombing targets in Gaza   The Guardian  Retrieved            
+
+  Marti  J Werner     August         Drohnen haben den Krieg in der Ukraine revolutioniert  doch sie sind empfindlich auf St rsender   deshalb sollen sie jetzt autonom operieren   Neue Z rcher Zeitung  in German   Retrieved    August      
+
+      Promising AI Applications in Health Care   Harvard Business Review     May       Archived from the original on    December       Retrieved    August      
+
+  Lareyre  Fabien  L   Cong Duy  Ballaith  Ali  Adam  C dric  Carrier  Marion  Amrani  Samantha  Caradu  Caroline  Raffort  Juliette  August         Applications of Artificial Intelligence in Non cardiac Vascular Diseases  A Bibliographic Analysis   Angiology                   doi                            PMID               
+
+   What is artificial intelligence in medicine    IBM     March       Retrieved    April      
+
+   Microsoft Using AI to Accelerate Cancer Precision Medicine   HealthITAnalytics     October       Retrieved    November      
+
+  Dina Bass     September         Microsoft Develops AI to Help Cancer Doctors Find the Right Treatments   Bloomberg L P  Archived from the original on    May      
+
+  Gallagher  James     January         Artificial intelligence  as good as cancer doctors    BBC News  Archived from the original on    January       Retrieved    January      
+
+  Langen  Pauline A   Katz  Jeffrey S   Dempsey  Gayle  eds      October        Remote monitoring of high risk patients using artificial intelligence  archived from the original on    February       retrieved    February     
+
+  Kermany  Daniel S   Goldbaum  Michael  Cai  Wenjia  Valentim  Carolina C S   Liang  Huiying  Baxter  Sally L   McKeown  Alex  Yang  Ge  Wu  Xiaokang  Yan  Fangbing  Dong  Justin  Prasadha  Made K   Pei  Jacqueline  Ting  Magdalene Y L   Zhu  Jie  Li  Christina  Hewett  Sierra  Dong  Jason  Ziyar  Ian  Shi  Alexander  Zhang  Runze  Zheng  Lianghong  Hou  Rui  Shi  William  Fu  Xin  Duan  Yaou  Huu  Viet A N   Wen  Cindy  Zhang  Edward D   Zhang  Charlotte L   Li  Oulan  Wang  Xiaobo  Singer  Michael A   Sun  Xiaodong  Xu  Jie  Tafreshi  Ali  Lewis  M  Anthony  Xia  Huimin  Zhang  Kang  February         Identifying Medical Diagnoses and Treatable Diseases by Image Based Deep Learning   Cell                     e   doi         j cell              PMID               
+
+  Senthilingam  Meera     May         Are Autonomous Robots Your next Surgeons    CNN  Archived from the original on   December       Retrieved   December      
+
+  Pumplun L  Fecho M  Wahl N  Peters F  Buxmann P          Adoption of Machine Learning Systems for Medical Diagnostics in Clinics  Qualitative Interview Study   Journal of Medical Internet Research           e       doi                PMC               PMID               
+
+  Inglese  Marianna  Patel  Neva  Linton Reid  Kristofer  Loreto  Flavia  Win  Zarni  Perry  Richard J   Carswell  Christopher  Grech Sollars  Matthew  Crum  William R   Lu  Haonan  Malhotra  Paresh A   Aboagye  Eric O      June         A predictive model using the mesoscopic architecture of the living brain to detect Alzheimer s disease   Communications Medicine             doi         s                   PMC               PMID               
+News report   Single MRI scan of the brain could detect Alzheimer s disease   Physics World     July       Retrieved    July      
+
+  Reed  Todd R   Reed  Nancy E   Fritzson  Peter          Heart sound analysis for symptom detection and computer aided diagnosis   Simulation Modelling Practice and Theory                   doi         j simpat             
+
+  Yorita  Akihiro  Kubota  Naoyuki          Cognitive Development in Partner Robots for Information Support to Elderly People   IEEE Transactions on Autonomous Mental Development            doi         TAMD              
+
+  Ray  Dr Amit     May         Artificial intelligence for Assisting Navigation of Blind People   Compassionate AI         Inner Light Publishers        
+
+   Artificial Intelligence Will Redesign Healthcare   The Medical Futurist   The Medical Futurist    August       Retrieved    November      
+
+  D nerta   Handan Melike  Fuentealba  Mat as  Partridge  Linda  Thornton  Janet M   February         Identifying Potential Ageing Modulating Drugs In Silico   Trends in Endocrinology  amp  Metabolism                   doi         j tem              PMC               PMID               
+
+  Smer Barreto  Vanessa  Quintanilla  Andrea  Elliot  Richard J  R   Dawson  John C   Sun  Jiugeng  Carragher  Neil O   Acosta  Juan Carlos  Oyarz n  Diego A      April         Discovery of new senolytics using machine learning   bioRxiv  doi                            hdl              
+
+  Luxton  David D           Artificial intelligence in psychological practice  Current and future applications and implications   Professional Psychology  Research and Practice                   doi         a        
+
+  Randhawa  Gurjit S   Soltysiak  Maximillian P  M   Roz  Hadi El  Souza  Camila P  E  de  Hill  Kathleen A   Kari  Lila     April         Machine learning using intrinsic genomic signatures for rapid classification of novel pathogens  COVID    case study   PLOS ONE          e         Bibcode     PLoSO         R  doi         journal pone          PMC               PMID               
+
+  Ye  Jiarong  Yeh  Yin Ting  Xue  Yuan  Wang  Ziyang  Zhang  Na  Liu  He  Zhang  Kunyan  Ricker  RyeAnne  Yu  Zhuohang  Roder  Allison  Perea Lopez  Nestor  Organtini  Lindsey  Greene  Wallace  Hafenstein  Susan  Lu  Huaguang  Ghedin  Elodie  Terrones  Mauricio  Huang  Shengxi  Huang  Sharon Xiaolei    June         Accurate virus identification with interpretable Raman signatures by machine learning   Proceedings of the National Academy of Sciences            e            arXiv             Bibcode     PNAS          Y  doi         pnas             PMC               PMID               
+
+   Artificial intelligence finds disease related genes   Link ping University  Retrieved   July      
+
+   Researchers use AI to detect new family of genes in gut bacteria   UT Southwestern Medical Center  Retrieved   July      
+
+  a b c Zhavoronkov  Alex  Mamoshina  Polina  Vanhaelen  Quentin  Scheibye Knudsen  Morten  Moskalev  Alexey  Aliper  Alex          Artificial intelligence for aging and longevity research  Recent advances and perspectives   Ageing Research Reviews             doi         j arr              PMID               
+
+  Adir  Omer  Poley  Maria  Chen  Gal  Froim  Sahar  Krinsky  Nitzan  Shklover  Jeny  Shainsky Roitman  Janna  Lammers  Twan  Schroeder  Avi  April         Integrating Artificial Intelligence and Nanotechnology for Precision Cancer Medicine   Advanced Materials                    Bibcode     AdM           A  doi         adma            PMC               PMID               
+
+  Bax  Monique  Thorpe  Jordan  Romanov  Valentin  December         The future of personalized cardiovascular medicine demands  D and  D printing  stem cells  and artificial intelligence   Frontiers in Sensors     doi         fsens              
+
+  a b Moore  Phoebe V     May         OSH and the Future of Work  benefits and risks of artificial intelligence tools in workplaces   EU OSHA  pp            Retrieved    July      
+
+  a b c Howard  John  November         Artificial intelligence  Implications for the future of work   American Journal of Industrial Medicine                    doi         ajim        PMID               
+
+  Gianatti  Toni Louise     May         How AI Driven Algorithms Improve an Individual s Ergonomic Safety   Occupational Health  amp  Safety  Retrieved    July      
+
+  Meyers  Alysha R     May         AI and Workers  Comp   NIOSH Science Blog  Retrieved   August      
+
+  Webb  Sydney  Siordia  Carlos  Bertke  Stephen  Bartlett  Diana  Reitz  Dan     February         Artificial Intelligence Crowdsourcing Competition for Injury Surveillance   NIOSH Science Blog  Retrieved   August      
+
+  Ferguson  Murray     April         Artificial Intelligence  What s To Come for EHS    And When    EHS Today  Retrieved    July      
+
+   DeepMind is answering one of biology s biggest challenges   The Economist     November       Retrieved    November      
+
+  Jeremy Kahn  Lessons from DeepMind s breakthrough in protein folding A I   Fortune    December     
+
+   DeepMind uncovers structure of    m proteins in scientific leap forward   The Guardian              Retrieved            
+
+   AlphaFold reveals the structure of the protein universe   DeepMind              Retrieved            
+
+  Weng  Stephen F   Reps  Jenna  Kai  Joe  Garibaldi  Jonathan M   Qureshi  Nadeem    April         Can machine learning improve cardiovascular risk prediction using routine clinical data    PLOS ONE          e         Bibcode     PLoSO         W  doi         journal pone          PMC               PMID               
+
+  Jumper  John  Evans  Richard  Pritzel  Alexander  Green  Tim  Figurnov  Michael  Ronneberger  Olaf  Tunyasuvunakool  Kathryn  Bates  Russ    dek  Augustin  Potapenko  Anna  Bridgland  Alex  Meyer  Clemens  Kohl  Simon A  A   Ballard  Andrew J   Cowie  Andrew  Romera Paredes  Bernardino  Nikolov  Stanislav  Jain  Rishub  Adler  Jonas  Back  Trevor  Petersen  Stig  Reiman  David  Clancy  Ellen  Zielinski  Michal  Steinegger  Martin  Pacholska  Michalina  Berghammer  Tamas  Bodenstein  Sebastian  Silver  David  Vinyals  Oriol  Senior  Andrew W   Kavukcuoglu  Koray  Kohli  Pushmeet  Hassabis  Demis  August         Highly accurate protein structure prediction with AlphaFold   Nature                       Bibcode     Natur         J  doi         s                   PMC               PMID               
+
+  a b Ciaramella  Alberto  Ciaramella  Marco         Introduction to Artificial Intelligence  from data analysis to generative AI  Intellisemantic Editions  p            ISBN                     
+
+  Stocker  Sina  Cs nyi  G bor  Reuter  Karsten  Margraf  Johannes T      October         Machine learning in chemical reaction space   Nature Communications                Bibcode     NatCo         S  doi         s                x  PMC               PMID               
+
+   Allchemy   Resource aware AI for drug discovery   Retrieved    May      
+
+  Wo os  Agnieszka  Roszak  Rafa     d o Dobrowolska  Anna  Beker  Wiktor  Mikulak Klucznik  Barbara  Sp lnik  Grzegorz  Dygas  Miros aw  Szymku   Sara  Grzybowski  Bartosz A      September         Synthetic connectivity  emergence  and self regeneration in the network of prebiotic chemistry   Science              eaaw      doi         science aaw      PMID               
+
+  Wo os  Agnieszka  Koszelewski  Dominik  Roszak  Rafa   Szymku   Sara  Moskal  Martyna  Ostaszewski  Ryszard  Herrera  Brenden T   Maier  Josef M   Brezicki  Gordon  Samuel  Jonathon  Lummiss  Justin A  M   McQuade  D  Tyler  Rogers  Luke  Grzybowski  Bartosz A   April         Computer designed repurposing of chemical wastes into drugs   Nature                       Bibcode     Natur         W  doi         s                   PMID               
+
+   Chemists debate machine learning s future in synthesis planning and ask for open data   cen acs org  Retrieved    May      
+
+  Paul  Debleena  Sanap  Gaurav  Shenoy  Snehal  Kalyane  Dnyaneshwar  Kalia  Kiran  Tekade  Rakesh K   January         Artificial intelligence in drug discovery and development   Drug Discovery Today                 doi         j drudis              PMC               PMID               
+
+  a b  Biologists train AI to generate medicines and vaccines   University of Washington Harborview Medical Center 
+
+  a b Wang  Jue  Lisanza  Sidney  Juergens  David  Tischer  Doug  Watson  Joseph L   Castro  Karla M   Ragotte  Robert  Saragovi  Amijai  Milles  Lukas F   Baek  Minkyung  Anishchenko  Ivan  Yang  Wei  Hicks  Derrick R   Exp sit  Marc  Schlichthaerle  Thomas  Chun  Jung Ho  Dauparas  Justas  Bennett  Nathaniel  Wicky  Basile I  M   Muenks  Andrew  DiMaio  Frank  Correia  Bruno  Ovchinnikov  Sergey  Baker  David     July         Scaffolding protein functional sites using deep learning   Science                       Bibcode     Sci           W  doi         science abn      PMC               PMID               
+
+  Zhavoronkov  Alex  Ivanenkov  Yan A   Aliper  Alex  Veselov  Mark S   Aladinskiy  Vladimir A   Aladinskaya  Anastasiya V   Terentiev  Victor A   Polykovskiy  Daniil A   Kuznetsov  Maksim D   Asadulaev  Arip  Volkov  Yury  Zholus  Artem  Shayakhmetov  Rim R   Zhebrak  Alexander  Minaeva  Lidiya I   Zagribelnyy  Bogdan A   Lee  Lennart H   Soll  Richard  Madge  David  Xing  Li  Guo  Tao  Aspuru Guzik  Al n  September         Deep learning enables rapid identification of potent DDR  kinase inhibitors   Nature Biotechnology                     doi         s               x  PMID               
+
+  Hansen  Justine Y   Markello  Ross D   Vogel  Jacob W   Seidlitz  Jakob  Bzdok  Danilo  Misic  Bratislav  September         Mapping gene transcription and neurocognition across human neocortex   Nature Human Behaviour                    doi         s                z  PMID               
+
+  Vo ngoc  Long  Huang  Cassidy Yunjing  Cassidy  California Jack  Medrano  Claudia  Kadonaga  James T   September         Identification of the human DPR core promoter element using machine learning   Nature                       Bibcode     Natur         V  doi         s                  PMC               PMID               
+
+  Bijun  Zhang  Ting  Fan          Knowledge structure and emerging trends in the application of deep learning in genetics research  A bibliometric analysis                       Frontiers in Genetics              doi         fgene              PMC               PMID               
+
+  Radivojevi   Tijana  Costello  Zak  Workman  Kenneth  Garcia Martin  Hector     September         A machine learning Automated Recommendation Tool for synthetic biology   Nature Communications                arXiv             Bibcode     NatCo         R  doi         s                   PMC               PMID               
+
+  a b Pablo Carbonell  Tijana Radivojevic  H ctor Garc a Mart n           Opportunities at the Intersection of Synthetic Biology  Machine Learning  and Automation   ACS Synthetic Biology                    doi         acssynbio  b       hdl                   PMID               
+
+  Gadzhimagomedova  Z  M   Pashkov  D  M   Kirsanova  D  Yu   Soldatov  S  A   Butakova  M  A   Chernov  A  V   Soldatov  A  V   February         Artificial Intelligence for Nanostructured Materials   Nanobiotechnology Reports               doi         S                 
+
+  Mirzaei  Mahsa  Furxhi  Irini  Murphy  Finbarr  Mullins  Martin  July         A Machine Learning Tool to Predict the Antibacterial Capacity of Nanoparticles   Nanomaterials                doi         nano          PMC               PMID               
+
+  Chen  Angela     April         How AI is helping us discover materials faster than ever   The Verge  Retrieved    May      
+
+  Talapatra  Anjana  Boluki  S   Duong  T   Qian  X   Dougherty  E   Arr yave  R      November         Autonomous efficient experiment design for materials discovery with Bayesian model averaging   Physical Review Materials                  arXiv             Bibcode     PhRvM    k    T  doi         PhysRevMaterials          
+
+  Zhao  Yicheng  Zhang  Jiyun  Xu  Zhengwei  Sun  Shijing  Langner  Stefan  Hartono  Noor Titan Putri  Heumueller  Thomas  Hou  Yi  Elia  Jack  Li  Ning  Matt  Gebhard J   Du  Xiaoyan  Meng  Wei  Osvet  Andres  Zhang  Kaicheng  Stubhan  Tobias  Feng  Yexin  Hauch  Jens  Sargent  Edward H   Buonassisi  Tonio  Brabec  Christoph J      April         Discovery of temperature induced stability reversal in perovskites using high throughput robotic learning   Nature Communications                Bibcode     NatCo         Z  doi         s                x  PMC               PMID               
+
+  Burger  Benjamin  Maffettone  Phillip M   Gusev  Vladimir V   Aitchison  Catherine M   Bai  Yang  Wang  Xiaoyan  Li  Xiaobo  Alston  Ben M   Li  Buyi  Clowes  Rob  Rankin  Nicola  Harris  Brandon  Sprick  Reiner Sebastian  Cooper  Andrew I     July         A mobile robotic chemist   PDF   Nature                       Bibcode     Natur         B  doi         s                  PMID               
+
+  Roper  Katherine  Abdel Rehim  A   Hubbard  Sonya  Carpenter  Martin  Rzhetsky  Andrey  Soldatova  Larisa  King  Ross D           Testing the reproducibility and robustness of the cancer biology literature by robot   Journal of the Royal Society Interface                      doi         rsif            PMC               PMID               
+
+  Krauhausen  Imke  Koutsouras  Dimitrios A   Melianas  Armantas  Keene  Scott T   Lieberth  Katharina  Ledanseur  Hadrien  Sheelamanthula  Rajendar  Giovannitti  Alexander  Torricelli  Fabrizio  Mcculloch  Iain  Blom  Paul W  M   Salleo  Alberto  van de Burgt  Yoeri  Gkoupidenis  Paschalis     December         Organic neuromorphic electronics for sensorimotor integration and learning in robotics   Science Advances          eabl      Bibcode     SciA          K  doi         sciadv abl      PMC               PMID               
+News article  Bolakhe  Saugat   Lego Robot with an Organic  Brain  Learns to Navigate a Maze   Scientific American  Retrieved    May      
+
+  Kagan  Brett J   Kitchen  Andy C   Tran  Nhi T   Parker  Bradyn J   Bhat  Anjali  Rollo  Ben  Razi  Adeel  Friston  Karl J     December         In vitro neurons learn and exhibit sentience when embodied in a simulated game world   bioRxiv                                
+News article   Human brain cells in a dish learn to play Pong faster than an AI   New Scientist  Retrieved    January      
+
+  Fu  Tianda  Liu  Xiaomeng  Gao  Hongyan  Ward  Joy E   Liu  Xiaorong  Yin  Bing  Wang  Zhongrui  Zhuo  Ye  Walker  David J  F   Joshua Yang  J   Chen  Jianhan  Lovley  Derek R   Yao  Jun     April         Bioinspired bio voltage memristors   Nature Communications                Bibcode     NatCo         F  doi         s                y  PMC               PMID               
+News article   Researchers unveil electronics that mimic the human brain in efficient learning   University of Massachusetts Amherst  Retrieved    May      
+
+  Sarkar  Tanmoy  Lieberth  Katharina  Pavlou  Aristea  Frank  Thomas  Mailaender  Volker  McCulloch  Iain  Blom  Paul W  M   Torriccelli  Fabrizio  Gkoupidenis  Paschalis    November         An organic artificial spiking neuron for in situ neuromorphic sensing and biointerfacing   Nature Electronics                   doi         s                y  hdl              
+
+   Artificial neurons emulate biological counterparts to enable synergetic operation   Nature Electronics                      November       doi         s                  
+
+  Sloat  Sarah     April         Brain Emulations Pose Three Massive Moral Questions and a Scarily Practical One   Inverse  Retrieved   July      
+
+  Sandberg  Anders    July         Ethics of brain emulations   Journal of Experimental  amp  Theoretical Artificial Intelligence                   doi                X             
+
+   To advance artificial intelligence  reverse engineer the brain   MIT School of Science  Retrieved    August      
+
+  Ham  Donhee  Park  Hongkun  Hwang  Sungwoo  Kim  Kinam     September         Neuromorphic electronics based on copying and pasting the brain   Nature Electronics                  doi         s                  
+
+  Pfeifer  Rolf  Iida  Fumiya          Embodied Artificial Intelligence  Trends and Challenges   Embodied Artificial Intelligence  Lecture Notes in Computer Science  Vol             pp             doi                              ISBN                        
+
+  Nygaard  T nnes F   Martin  Charles P   Torresen  Jim  Glette  Kyrre  Howard  David  May         Real world embodied AI through a morphologically adaptive quadruped robot   Nature Machine Intelligence                  doi         s                   hdl             
+
+  Tugui  Alexandru  Danciulescu  Daniela  Subtirelu  Mihaela Simona     April         The Biological as a Double Limit for Artificial Intelligence  Review and Futuristic Debate   International Journal of Computers Communications  amp  Control                   doi          ijccc             
+
+  Ball  Nicholas M   Brunner  Robert J   July         Data mining and machine learning in astronomy   International Journal of Modern Physics D                     arXiv            Bibcode     IJMPD         B  doi         S                 
+
+  a b Shekhtman  Svetlana     November         NASA Applying AI Technologies to Problems in Space Science   NASA  Retrieved    May      
+
+  Fluke  Christopher J   Jacobs  Colin  March         Surveying the reach and maturity of machine learning and artificial intelligence in astronomy   WIREs Data Mining and Knowledge Discovery          arXiv             Bibcode     WDMKD         F  doi         widm      
+
+  Pultarova  Tereza     April         Artificial intelligence is learning how to dodge space junk in orbit   Space com  Retrieved   July      
+
+  Mohan  Jaya Preethi  Tejaswi  N           A Study on Embedding the Artificial Intelligence and Machine Learning into Space Exploration and Astronomy   Emerging Trends in Computing and Expert Technology  Lecture Notes on Data Engineering and Communications Technologies  Vol           pp                  doi                                ISBN                        
+
+  Rees  Martin     April         Could space going billionaires be the vanguard of a cosmic revolution    Martin Rees   The Guardian  Retrieved    May      
+
+  a b  Artificial intelligence in space   www esa int  Retrieved    May      
+
+  Gutowska  Ma gorzata  Scriney  Michael  McCarren  Andrew  December        Identifying extra terrestrial intelligence using machine learning    th AIAI Irish Conference on Artificial Intelligence and Cognitive Science 
+
+  Zhang  Yunfan Gerry  Gajjar  Vishal  Foster  Griffin  Siemion  Andrew  Cordes  James  Law  Casey  Wang  Yu          Fast Radio Burst        Pulse Detection and Periodicity  A Machine Learning Approach   The Astrophysical Journal                arXiv             Bibcode     ApJ           Z  doi                   aadf   
+
+  Nanda  Lakshay  V  Santhi          SETI  Search for Extra Terrestrial Intelligence  Signal Classification using Machine Learning        International Conference on Smart Systems and Inventive Technology  ICSSIT   pp                doi         ICSSIT                    ISBN                        
+
+  Gajjar  Vishal  Siemion  Andrew  Croft  Steve  Brzycki  Bryan  Burgay  Marta  Carozzi  Tobia  Concu  Raimondo  Czech  Daniel  DeBoer  David  DeMarines  Julia  Drew  Jamie  Enriquez  J  Emilio  Fawcett  James  Gallagher  Peter  Garrett  Michael  Gizani  Nectaria  Hellbourg  Greg  Holder  Jamie  Isaacson  Howard  Kudale  Sanjay  Lacki  Brian  Lebofsky  Matthew  Li  Di  MacMahon  David H  E   McCauley  Joe  Melis  Andrea  Molinari  Emilio  Murphy  Pearse  Perrodin  Delphine  Pilia  Maura  Price  Danny C   Webb  Claire  Werthimer  Dan  Williams  David  Worden  Pete  Zarka  Philippe  Zhang  Yunfan Gerry    August         The Breakthrough Listen Search for Extraterrestrial Intelligence   Bulletin of the American Astronomical Society               arXiv             Bibcode     BAAS     g    G 
+
+   SkyCAM     Chair of Computer Science VIII   Aerospace Information Technology   University of W rzburg  Retrieved    May      
+
+   Project Galileo  The search for alien tech hiding in our Solar System   BBC Science Focus Magazine  Retrieved    May      
+
+    Something s coming   is America finally ready to take UFOs seriously    The Guardian    February       Retrieved    May      
+
+  David  Leonard     January              could be a turning point in the study of UFOs   livescience com  Retrieved    May      
+
+  Gritz  Jennie Rothenberg   The Wonder of Avi Loeb   Retrieved    May      
+
+  Mann  Adam   Avi Loeb s Galileo Project Will Search for Evidence of Alien Visitation   Scientific American  Retrieved    May      
+
+   Galileo Project   Activities   projects iq harvard edu  Retrieved    May      
+
+   The Galileo Project  Harvard researchers to search for signs of alien technology   Sky News 
+
+  Zapata Trujillo  Juan C   Syme  Anna Maree  Rowell  Keiran N   Burns  Brendan P   Clark  Ebubekir S   Gorman  Maire N   Jacob  Lorrie S  D   Kapodistrias  Panayioti  Kedziora  David J   Lempriere  Felix A  R   Medcraft  Chris  O Sullivan  Jensen  Robertson  Evan G   Soares  Georgia G   Steller  Luke  Teece  Bronwyn L   Tremblay  Chenoa D   Sousa Silva  Clara  McKemmish  Laura K           Computational Infrared Spectroscopy of     Phosphorus Bearing Molecules   Frontiers in Astronomy and Space Sciences         arXiv             Bibcode     FrASS         Z  doi         fspas             
+
+   Successful and timely uptake of artificial intelligence in science in the EU   Scientific Advice Mechanism   Retrieved            
+
+   AI in science evidence review report   Scientific Advice Mechanism   Retrieved            
+
+  Assael  Yannis  Sommerschield  Thea  Shillingford  Brendan  Bordbar  Mahyar  Pavlopoulos  John  Chatzipanagiotou  Marita  Androutsopoulos  Ion  Prag  Jonathan  de Freitas  Nando  March         Restoring and attributing ancient texts using deep neural networks   Nature                       Bibcode     Natur         A  doi         s                z  PMC               PMID               
+
+  Mantovan  Lorenzo  Nanni  Loris  September         The Computerization of Archaeology  Survey on Artificial Intelligence Techniques   SN Computer Science         arXiv             doi         s                w 
+
+  Mondal  Mayukh  Bertranpetit  Jaume  Lao  Oscar  December         Approximate Bayesian computation with deep learning supports a third archaic introgression in Asia and Oceania   Nature Communications               Bibcode     NatCo         M  doi         s                   PMC               PMID               
+
+  Tanti  Marc  Berruyer  Camille  Tafforeau  Paul  Muscat  Adrian  Farrugia  Reuben  Scerri  Kenneth  Valentino  Gianluca  Sol   V  Armando  Briffa  Johann A      December         Automated segmentation of microtomography imaging of Egyptian mummies   PLOS ONE           e         arXiv             Bibcode     PLoSO         T  doi         journal pone          PMC               PMID               
+
+   DeepMind AI learns physics by watching videos that don t make sense   New Scientist  Retrieved    August      
+
+  Piloto  Luis S   Weinstein  Ari  Battaglia  Peter  Botvinick  Matthew     July         Intuitive physics learning in a deep learning model inspired by developmental psychology   Nature Human Behaviour                    doi         s                   PMC               PMID               
+
+  a b Feldman  Andrey     August         Artificial physicist to unravel the laws of nature   Advanced Science News  Retrieved    August      
+
+  Chen  Boyuan  Huang  Kuang  Raghupathi  Sunand  Chandratreya  Ishaan  Du  Qiang  Lipson  Hod  July         Automated discovery of fundamental variables hidden in experimental data   Nature Computational Science                  doi         s                   PMID               
+
+  Schmidt  Jonathan  Marques  M rio R  G   Botti  Silvana  Marques  Miguel A  L     August         Recent advances and applications of machine learning in solid state materials science   npj Computational Materials             Bibcode     npjCM         S  doi         s                 
+
+  a b Stanev  Valentin  Choudhary  Kamal  Kusne  Aaron Gilad  Paglione  Johnpierre  Takeuchi  Ichiro     October         Artificial intelligence for search and discovery of quantum materials   Communications Materials              Bibcode     CoMat         S  doi         s                z 
+
+  a b Glavin  Nicholas R   Ajayan  Pulickel M   Kar  Swastik     February         Quantum Materials Manufacturing   Advanced Materials                    doi         adma            PMID               
+
+  Nu ez  Michael                Google DeepMind s materials AI has already discovered     million new crystals   VentureBeat  Retrieved            
+
+  Merchant  Amil  Batzner  Simon  Schoenholz  Samuel S   Aykol  Muratahan  Cheon  Gowoon  Cubuk  Ekin Dogus  December         Scaling deep learning for materials discovery   Nature                     Bibcode     Natur         M  doi         s                   PMC                PMID               
+
+  Peplow  Mark     November         Google AI and robots join forces to build new materials   Nature  doi         d                   PMID               
+
+  Yanamandra  Kaushik  Chen  Guan Lin  Xu  Xianbo  Mac  Gary  Gupta  Nikhil     September         Reverse engineering of additive manufactured composite part by toolpath reconstruction using imaging and machine learning   Composites Science and Technology               doi         j compscitech             
+
+  Anderson  Blake  Storlie  Curtis  Yates  Micah  McPhall  Aaron          Automating Reverse Engineering with Machine Learning Techniques   Proceedings of the      Workshop on Artificial Intelligent and Security Workshop  pp                doi                          ISBN                        
+
+  Liu  Wenye  Chang  Chip Hong  Wang  Xueyang  Liu  Chen  Fung  Jason M   Ebrahimabadi  Mohammad  Karimi  Naghmeh  Meng  Xingyu  Basu  Kanad  June         Two Sides of the Same Coin  Boons and Banes of Machine Learning in Hardware Security   IEEE Journal on Emerging and Selected Topics in Circuits and Systems                   Bibcode     IJEST         L  doi         JETCAS               hdl              
+
+   DARPA Taps GrammaTech for Artificial Intelligence Exploration  AIE  Program   www businesswire com    January       Retrieved    January      
+
+  Greenberg  Andy   How to Steal an AI   Wired  Retrieved    January      
+
+  Sanchez Lengeling  Benjamin  Aspuru Guzik  Al n     July         Inverse molecular design using machine learning  Generative models for matter engineering   Science                       Bibcode     Sci           S  doi         science aat      PMID               
+
+  Teemu  Rintala     June        Using Boolean network extraction of trained neural networks to reverse engineer gene regulatory networks from time series data  Master s in Life Science Technologies thesis   Aalto University      page      needed     
+
+  Ashley  Kevin D          Artificial Intelligence and Legal Analytics  doi                        ISBN                             page      needed     
+
+  Lohr  Steve     March         A I  Is Doing Legal Work  But It Won t Replace Lawyers  Yet   The New York Times 
+
+  Croft  Jane    May         AI learns to read Korean  so you don t have to   Financial Times  Retrieved    December      
+
+  Kleider Offutt  Heather  Stevens  Beth  Mickes  Laura  Boogert  Stewart    April         Application of artificial intelligence to eyewitness identification   Cognitive Research  Principles and Implications             doi         s                   PMC                PMID               
+
+  a b Jeff Larson  Julia Angwin     May         How We Analyzed the COMPAS Recidivism Algorithm   ProPublica  Archived from the original on    April       Retrieved    June      
+
+   Commentary  Bad news  Artificial intelligence is biased   CNA     January       Archived from the original on    January       Retrieved    June      
+
+  a b  imal  k  Matej          Rule by Law   In Kironska  Kristina  Turscanyi  Richard Q   eds    Contemporary China  a New Superpower   Routledge  ISBN                        
+
+  a b Kongthon  Alisa  Sangkeettrakarn  Chatchawal  Kongyoung  Sarawoot  Haruechaiyasak  Choochart          Implementing an online help desk system based on conversational agent   Proceedings of the International Conference on Management of Emergent Digital EcoSystems  pp                doi                          ISBN                        
+
+  Sara Ashley O Brien     January         Is this app the call center of the future    CNN  Retrieved    September      
+
+  Clark  Jack     July         New Google AI Brings Automation to Customer Service   Bloomberg com 
+
+   Amazon com tests customer service chatbots   Amazon Science     February       Retrieved    April      
+
+  Malatya Turgut Ozal University  Malatya  Turkey  Isguzar  Seda  Fendoglu  Eda  Malatya Turgut Ozal University  Malatya  Turkey  SimSek  Ahmed Ihsan  May         Innovative Applications in Businesses  An Evaluation on Generative Artificial Intelligence   PDF   Amfiteatru Economic                doi          EA              Retrieved    June        cite journal     CS  maint  multiple names  authors list  link 
+
+   Advanced analytics in hospitality   McKinsey  amp  Company        Retrieved    January      
+
+  Zlatanov  Sonja  Popesku  Jovan          Current Applications of Artificial Intelligence in Tourism and Hospitality   Proceedings of the International Scientific Conference   Sinteza       pp              doi          Sinteza             ISBN                        
+
+   Research at NVIDIA  Transforming Standard Video Into Slow Motion with AI      June       Archived from the original on    December              via YouTube 
+
+   Artificial intelligence is helping old video games look like new   The Verge     April      
+
+   Review  Topaz Sharpen AI is Amazing   petapixel com    March      
+
+  Griffin  Matthew     April         AI can now restore your corrupted photos to their original condition  
+
+   NVIDIA s AI can fix bad photos by looking at other bad photos   Engadget     July      
+
+   Using AI to Colorize and Upscale a     Year Old Video of New York City to  K and   fps   petapixel com     February      
+
+   YouTubers are upscaling the past to  K  Historians want them to stop   Wired UK 
+
+   Facebook s image outage reveals how the company s AI tags your photos   The Verge    July      
+
+   Google s DeepMind AI can  transframe  a single image into a video      August      
+
+   Google s new AI turns text into music      January      
+
+   Google s new AI music generator can create   and hold   a tune      January      
+
+   CSDL        IEEE Computer Society  
+
+   Remove image backgrounds to make image transparent     August      
+
+  Jodka  Sara  February            Manipulating reality  the intersection of deepfakes and the law   Reuters com  Retrieved December         
+
+   InVID kick off meeting   InVID project     January       Retrieved    December       We are kicking off the new H     InVID research project 
+
+   In Video Veritas 
+
+   Consortium of the InVID project   InVID project  Retrieved    December       The InVID vision  The InVID innovation action develops a knowledge verification platform to detect emerging stories and assess the reliability of newsworthy video files and content spread via social media 
+
+  Teyssou  Denis          Applying Design Thinking Methodology  The InVID Verification Plugin   Video Verification in the Fake News Era  pp                doi                              ISBN                        
+
+   Fake news debunker by InVID  amp  WeVerify   Retrieved    December      
+
+   TUM Visual Computing  amp  Artificial Intelligence  Prof  Matthias Nie ner   niessnerlab org 
+
+   Will  Deepfakes  Disrupt the Midterm Election    Wired  November      
+
+  a b Afchar  Darius  Nozick  Vincent  Yamagishi  Junichi  Echizen  Isao          MesoNet  A Compact Facial Video Forgery Detection Network        IEEE International Workshop on Information Forensics and Security  WIFS   pp            arXiv             doi         WIFS               ISBN                        
+
+  Lyons  Kim     January         FTC says the tech behind audio deepfakes is getting better   The Verge 
+
+   Audio samples from  Transfer Learning from Speaker Verification to Multispeaker Text To Speech Synthesis    google github io 
+
+  Strickland  Eliza     December         Facebook AI Launches Its Deepfake Detection Challenge   IEEE Spectrum 
+
+   Contributing Data to Deepfake Detection Research   ai googleblog com     September      
+
+  Ober  Holly   New method detects deepfake videos with up to     accuracy   University of California Riverside  Retrieved   July      
+
+   AI algorithm detects deepfake videos with high accuracy   techxplore com  Retrieved   July      
+
+  a b c  Welcome to the new surreal  How AI generated video is changing film   MIT Technology Review  Retrieved            
+
+  Bean  Thomas H  Davenport and Randy                The Impact of Generative AI on Hollywood and Entertainment   MIT Sloan Management Review  Retrieved            
+
+  Cheng  Jacqui     September         Virtual composer makes beautiful music and stirs controversy   Ars Technica 
+
+  US     patent              
+
+   Computer composer honours Turing s centenary   New Scientist    July       Archived from the original on             Retrieved    December      
+
+  Hick  Thierry     October         La musique classique recompos e   Luxemburger Wort 
+
+   R sultats de recherche   La Sacem   repertoire sacem fr 
+
+  Requena  Gloria  S nchez  Carlos  Corzo Higueras  Jos  Luis  Reyes Alvarado  Sirenia  Rivas Ruiz  Francisco  Vico  Francisco  Raglio  Alfredo          Melomics music medicine  M   to lessen pain perception during pediatric prick test procedure   Pediatric Allergy and Immunology                   doi         pai        PMID               
+
+   Watson Beat on GitHub   GitHub     October      
+
+   Songs in the Key of AI   Wired     May      
+
+   Hayeon  sister of Girls  Generation s Taeyeon  debuts with song made by AI   koreajoongangdaily joins com    October       Retrieved    October      
+
+  business intelligence solutions Archived   November      at the Wayback Machine  Narrative Science  Retrieved    July      
+
+  Eule  Alexander   Big Data and Yahoo s Quest for Mass Personalization   Barron s 
+
+   Artificial Intelligence Software that Writes like a Human Being   Archived from the original on    April       Retrieved    March      
+
+  Riedl  Mark Owen  Bulitko  Vadim    December         Interactive Narrative  An Intelligent Systems Approach   AI Magazine              doi         aimag v  i       
+
+  Callaway  Charles B   Lester  James C   August         Narrative prose generation   Artificial Intelligence                    doi         S                     
+
+   A Japanese AI program just wrote a short novel  and it almost won a literary prize   Digital Trends     March       Retrieved    November      
+
+   Bot News   Hanteo News     October       Retrieved    October      
+
+  Canavilhas  Jo o  September         Artificial Intelligence and Journalism  Current Situation and Expectations in the Portuguese Sports Media   Journalism and Media                  doi         journalmedia         hdl               
+
+  a b c d Galily  Yair  August         Artificial intelligence and sports journalism  Is it a sweeping change    Technology in Society             doi         j techsoc             
+
+  Wu  Daniel                Gannett halts AI written sports recaps after readers mocked the stories   Washington Post  Retrieved            
+
+  Marr  Bernard     August         The Amazing Ways How Wikipedia Uses Artificial Intelligence   Forbes 
+
+  Gertner  Jon     July         Wikipedia s Moment of Truth   Can the online encyclopedia help teach A I  chatbots to get their facts right   without destroying itself in the process    comment   The New York Times  Archived from the original on    July       Retrieved    July        cite news     CS  maint  bot  original URL status unknown  link 
+
+  Piscopo  Alessandro    October         Wikidata  A New Paradigm of Human Bot Collaboration    arXiv             cs HC  
+
+   Study reveals bot on bot editing wars raging on Wikipedia s pages   The Guardian     February       Retrieved    January      
+
+  Cole  K  C   The Shaky Ground Truths of Wikipedia   Wired  Retrieved    January      
+
+   AI can automatically rewrite outdated text in Wikipedia articles   Engadget  Retrieved    January      
+
+  Metz  Cade   Wikipedia Deploys AI to Expand Its Ranks of Human Editors   Wired  Retrieved    January      
+
+   Wikipedia taps Google to help editors translate articles   VentureBeat    January       Retrieved   January      
+
+  Wilson  Kyle    May         Wikipedia has a Google Translate problem   The Verge  Retrieved   January      
+
+   Why AI researchers like video games   The Economist  Archived from the original on   October      
+
+  Yannakakis  Geogios N           Game AI revisited   Proceedings of the  th conference on Computing Frontiers   CF      p            doi                          ISBN                        
+
+  Maass  Laura E  Shummon    July         Artificial Intelligence in Video Games   Medium  Retrieved    April      
+
+  Fairhead  Harry     March        Update    March         Kinect s AI breakthrough explained   I Programmer  Archived from the original on   February      
+
+  a b Poltronieri  Fabrizio Augusto  H nska  Max          Technical Images and Visual Art in the Era of Artificial Intelligence  From GOFAI to GANs   Proceedings of the  th International Conference on Digital and Interactive Arts  pp            doi                          ISBN                        
+
+   Fine art print   crypto art   Kate Vass Galerie  Retrieved            
+
+  a b  Analysis   Is That Trump Photo Real  Free AI Tools Come With Risks   Washington Post  Retrieved    August      
+
+   Google s image generator rivals DALL E in shiba inu drawing   TechCrunch  Retrieved    August      
+
+   Midjourney s enthralling AI art generator goes live for everyone   PCWorld 
+
+   After Photos  Here s How AI Made A Trippy Music Video Out Of Thin Air   Fossbytes     May       Retrieved    May      
+
+  Cetinic  Eva  She  James                Understanding and Creating Art with AI  Review and Outlook   ACM Transactions on Multimedia Computing  Communications  and Applications                      arXiv             doi                 
+
+  Lang  Sabine  Ommer  Bjorn          Reflecting on How Artworks Are Processed and Analyzed by Computer Vision  Supplementary Material   Proceedings of the European Conference on Computer Vision  ECCV  Workshops         via Computer Vision Foundation 
+
+  admin                Top   Technologies that will Influence the Future of Animation   VGenMedia  Retrieved            
+
+   Artificial Intelligence Animation  What Is It and How Does It Function    Pigeon Studio  Retrieved            
+
+  Cole  Samantha                Netflix Made an Anime Using AI Due to a  Labor Shortage   and Fans Are Pissed   Vice  Retrieved            
+
+   What is Move AI  A Revolution in Motion Capture               Retrieved            
+
+  Dragicevic  Tomislav  Wheeler  Patrick  Blaabjerg  Frede  August         Artificial Intelligence Aided Automated Design for Reliability of Power Electronic Systems   IEEE Transactions on Power Electronics                     Bibcode     ITPE          D  doi         TPEL              
+
+   Role of AI in Energy   DOE 
+
+  Bourhnane  Safae  Abid  Mohamed Riduan  Lghoul  Rachid  Zine Dine  Khalid  Elkamoun  Najib  Benhaddou  Driss     January         Machine learning for energy consumption prediction and scheduling in smart buildings   SN Applied Sciences              doi         s                 
+
+  Kanwal  Sidra  Khan  Bilal  Muhammad Ali  Sahibzada  February         Machine learning based weighted scheduling scheme for active power control of hybrid microgrid   International Journal of Electrical Power  amp  Energy Systems               Bibcode     IJEPE         K  doi         j ijepes             
+
+  Mohanty  Prasanta Kumar  Jena  Premalata  Padhy  Narayana Prasad          Home Electric Vehicle Charge Scheduling Using Machine Learning Technique        IEEE International Conference on Power Systems Technology  POWERCON   pp            doi         POWERCON                    ISBN                        
+
+  Foster  Isabella     March         Making Smart Grids Smarter with Machine Learning   EIT   Engineering Institute of Technology  Retrieved   July      
+
+  Success Stories Archived   October      at the Wayback Machine 
+
+  Padmanabhan  Jayashree  Johnson Premkumar  Melvin Jose    July         Machine Learning in Automatic Speech Recognition  A Survey   IETE Technical Review                   doi                               
+
+  Ahmed  Shimaa  Chowdhury  Amrita Roy  Fawaz  Kassem  Ramanathan  Parmesh         Preech  A System for  Privacy Preserving  Speech Transcription  pp                  ISBN                        
+
+   Digital Spectrometry     October      
+
+  US        B        Digital Spectrometry Patent       published                 
+
+   How artificial intelligence is moving from the lab to your kid s playroom   The Washington Post  Retrieved    November      
+
+   Application of artificial intelligence in oil and gas industry  Exploring its impact      May      
+
+  Salvaterra  Neanda     October         Oil and Gas Companies Turn to AI to Cut Costs   The Wall Street Journal 
+
+  Carbonneau  Real  Laframboise  Kevin  Vahidov  Rustam  February         Application of machine learning techniques for supply chain demand forecasting   European Journal of Operational Research                      doi         j ejor             
+
+  Artificial Intelligence in Transportation  Information for Application        doi                 ISBN                             page      needed     
+
+  Benson  Thor   Self driving buses to appear on public roads for the first time   Inverse  Retrieved    August      
+
+   Europe s first full sized self driving urban electric bus has arrived   World Economic Forum  Retrieved    August      
+
+   Self driving bus propels Swiss town into the future   CNN  Retrieved    August      
+
+  Huber  Dominik  Viere  Tobias  Horschutz Nemoto  Eliane  Jaroudi  Ines  Korbee  Dorien  Fournier  Guy          Climate and environmental impacts of automated minibuses in future public transportation   Transportation Research Part D  Transport and Environment               Bibcode     TRPD          H  doi         j trd             
+
+   Transportation Germany Unveils the World s First Fully Automated Train in Hamburg      October       Retrieved   July      
+
+   Railway digitalisation using drones   www euspa europa eu     February       Retrieved   July      
+
+   World s fastest driverless bullet train launches in China   The Guardian    January       Retrieved   July      
+
+   JD com  Meituan and Neolix to test autonomous deliveries on Beijing public roads   TechCrunch  Retrieved    April      
+
+  Hawkins  Andrew J      July         Waymo is designing a self driving Ram delivery van with FCA   The Verge  Retrieved    April      
+
+   Arrival s delivery van demos its autonomous chops at a UK parcel depot   New Atlas    August       Retrieved    April      
+
+  Buss  Dale   Walmart Presses Its Distribution Legacy To Lead In Automated Delivery   Forbes  Retrieved    April      
+
+  Cooley  Patrick  Dispatch  The Columbus   Grubhub testing delivery robots   techxplore com  Retrieved    April      
+
+   Self driving delivery van ditches  human controls    BBC News    February       Retrieved    April      
+
+  Krok  Andrew   Nuro s self driving delivery van wants to run errands for you   CNET  Retrieved    April      
+
+  Hallerbach  Sven  Xia  Yiqun  Eberle  Ulrich  Koester  Frank    April         Simulation Based Identification of Critical Scenarios for Cooperative and Automated Vehicles   SAE International Journal of Connected and Automated Vehicles                 doi                      
+
+  West  Darrell M      September         Moving forward  Self driving vehicles in China  Europe  Japan  Korea  and the United States   Brookings 
+
+  Burgess  Matt     August         The UK is about to Start Testing Self Driving Truck Platoons   Wired UK  Archived from the original on    September       Retrieved    September      
+
+  Davies  Alex    May         World s First Self Driving Semi Truck Hits the Road   Wired  Archived from the original on    October       Retrieved    September      
+
+  McFarland  Matt     February         Google s artificial intelligence breakthrough may have a huge impact on self driving cars and much more   The Washington Post 
+
+   Programming safety into self driving cars   National Science Foundation    February      
+
+  Preparing for the future of artificial intelligence  National Science and Technology Council  OCLC                
+
+   Going Nowhere Fast  Smart Traffic Lights Can Help Ease Gridlock      May      
+
+   AI bests Air Force combat tactics experts in simulated dogfights   Ars Technica     June      
+
+  Jones  Randolph M   Laird  John E   Nielsen  Paul E   Coulter  Karen J   Kenny  Patrick  Koss  Frank V      March         Automated Intelligent Pilots for Combat Flight Simulation   AI Magazine              doi         aimag v  i       
+
+  AIDA Homepage  Kbs twi tudelft nl     April        Retrieved    July      
+
+  The Story of Self Repairing Flight Control Systems  NASA Dryden   April        Retrieved    August      
+
+  Adams  Eric     March         AI Wields the Power to Make Flying Safer and Maybe Even Pleasant   Wired  Retrieved   October      
+
+  Baomar  Haitham  Bentley  Peter J           An Intelligent Autopilot System that learns flight emergency procedures by imitating human pilots        IEEE Symposium Series on Computational Intelligence  SSCI   pp            doi         SSCI               ISBN                        
+
+   UB invests in student founded startup   buffalo edu  Retrieved    December      
+
+  Grigorescu  Sorin  Trasnea  Bogdan  Cocias  Tiberiu  Macesanu  Gigel  April         A survey of deep learning techniques for autonomous driving   Journal of Field Robotics                   arXiv             doi         rob       
+
+  Ohn Bar  Eshed  Trivedi  Mohan Manubhai          Looking at Humans in the Age of Self Driving and Highly Automated Vehicles   IEEE Transactions on Intelligent Vehicles             doi         TIV              
+
+  Williams  Ben  Lamont  Timothy A  C   Chapuis  Lucille  Harding  Harry R   May  Eleanor B   Prasetya  Mochyudho E   Seraphim  Marie J   Jompa  Jamaluddin  Smith  David J   Janetski  Noel  Radford  Andrew N   Simpson  Stephen D   July         Enhancing automated analysis of marine soundscapes using ecoacoustic indices and machine learning   Ecological Indicators               Bibcode     EcInd         W  doi         j ecolind              hdl              
+
+  Hino  M   Benami  E   Brooks  N   October         Machine learning for environmental monitoring   Nature Sustainability                   Bibcode     NatSu         H  doi         s                 
+
+   How machine learning can help environmental regulators   Stanford News  Stanford University    April       Retrieved    May      
+
+   AI empowers environmental regulators   Stanford News  Stanford University     April       Retrieved    May      
+
+  Frost  Rosie    May         Plastic waste can now be found and monitored from space   euronews  Retrieved    June      
+
+   Global Plastic Watch   www globalplasticwatch org  Retrieved    June      
+
+   AI may predict the next virus to jump from animals to humans   Public Library of Science  Retrieved    October      
+
+  Mollentze  Nardus  Babayan  Simon A   Streicker  Daniel G      September         Identifying and prioritizing potential human infecting viruses from their genome sequences   PLOS Biology          e         doi         journal pbio          PMC               PMID               
+
+  Li  Zefeng  Meier  Men Andrin  Hauksson  Egill  Zhan  Zhongwen  Andrews  Jennifer     May         Machine Learning Seismic Wave Discrimination  Application to Earthquake Early Warning   Geophysical Research Letters                      Bibcode     GeoRL         L  doi             GL       
+
+   Machine learning and gravity signals could rapidly detect big earthquakes   Science News     May       Retrieved   July      
+
+  Fauvel  Kevin  Balouek Thomert  Daniel  Melgar  Diego  Silva  Pedro  Simonet  Anthony  Antoniu  Gabriel  Costan  Alexandru  Masson  V ronique  Parashar  Manish  Rodero  Ivan  Termier  Alexandre    April         A Distributed Multi Sensor Machine Learning Approach to Earthquake Early Warning   Proceedings of the AAAI Conference on Artificial Intelligence                   doi         aaai v  i        
+
+  Thirugnanam  Hemalatha  Ramesh  Maneesha Vinodini  Rangan  Venkat P   September         Enhancing the reliability of landslide early warning systems by machine learning   Landslides                     Bibcode     Lands         T  doi         s                z 
+
+  Moon  Seung Hyun  Kim  Yong Hyuk  Lee  Yong Hee  Moon  Byung Ro          Application of machine learning to an early warning system for very short term heavy rainfall   Journal of Hydrology                  Bibcode     JHyd          M  doi         j jhydrol             
+
+  Robinson  Bethany  Cohen  Jonathan S   Herman  Jonathan D   September         Detecting early warning signals of long term water supply vulnerability using machine learning   Environmental Modelling  amp  Software               Bibcode     EnvMS         R  doi         j envsoft             
+
+  Bury  Thomas M   Sujith  R  I   Pavithran  Induja  Scheffer  Marten  Lenton  Timothy M   Anand  Madhur  Bauch  Chris T      September         Deep learning for early warning signals of tipping points   Proceedings of the National Academy of Sciences            e            Bibcode     PNAS          B  doi         pnas             PMC               PMID               
+
+  Park  Yongeun  Lee  Han Kyu  Shin  Jae Ki  Chon  Kangmin  Kim  SungHwan  Cho  Kyung Hwa  Kim  Jin Hwi  Baek  Sang Soo     June         A machine learning approach for early warning of cyanobacterial bloom outbreaks in a freshwater reservoir   Journal of Environmental Management               Bibcode     JEnvM         P  doi         j jenvman              PMID               
+
+  Li  Jun  Wang  Zhaoli  Wu  Xushu  Xu  Chong Yu  Guo  Shenglian  Chen  Xiaohong  Zhang  Zhenxing  August         Robust Meteorological Drought Prediction Using Antecedent SST Fluctuations and Machine Learning   Water Resources Research          Bibcode     WRR           L  doi             WR        hdl             
+
+  Khan  Najeebullah  Sachindra  D  A   Shahid  Shamsuddin  Ahmed  Kamal  Shiru  Mohammed Sanusi  Nawaz  Nadeem  May         Prediction of droughts over Pakistan using machine learning algorithms   Advances in Water Resources               Bibcode     AdWR          K  doi         j advwatres             
+
+  Kaur  Amandeep  Sood  Sandeep K   May         Deep learning based drought assessment and prediction framework   Ecological Informatics              Bibcode     EcInf         K  doi         j ecoinf             
+
+  Adadi  Amina  Berrada  Mohammed          Peeking Inside the Black Box  A Survey on Explainable Artificial Intelligence  XAI    IEEE Access                  Bibcode     IEEEA         A  doi         ACCESS              
+
+  Malde  Ketil  Handegard  Nils Olav  Eikvil  Line  Salberg  Arnt B rre  July         Machine intelligence and the data driven future of marine science   ICES Journal of Marine Science                     doi         icesjms fsz    
+
+  a b Adeoye  Tomide     June         Comparing Different AI powered code Assitants          sic        Medium  Retrieved   August      
+
+  Gershgorn  Dave     June         GitHub and OpenAI launch a new AI tool that generates its own code   The Verge  Retrieved   September      
+
+   Tabnine is Now Part of Codota      March       Retrieved   August      
+
+   Plans  amp  Pricing   Retrieved   August      
+
+   Build Fast with Confidence using CodiumAI   Retrieved   August      
+
+   Meet Ghostwriter  your partner in code   Retrieved   August      
+
+   Amazon CodeWhisperer FAQ   Retrieved   August      
+
+   Google AI creates its own  child  bot   The Independent    December       Retrieved   February      
+
+   Cancelling quantum noise   University of Technology Sydney     May       Retrieved    May      
+
+   Machine learning paves the way for next level quantum sensing   University of Bristol  Retrieved    May      
+
+  Spagnolo  Michele  Morris  Joshua  Piacentini  Simone  Antesberger  Michael  Massa  Francesco  Crespi  Andrea  Ceccarelli  Francesco  Osellame  Roberto  Walther  Philip  April         Experimental photonic quantum memristor   Nature Photonics                   arXiv             Bibcode     NaPho         S  doi         s                  
+
+  Ramanathan  Shriram  July         Quantum materials for brain sciences and artificial intelligence   MRS Bulletin                   Bibcode     MRSBu         R  doi         mrs          
+
+   Artificial intelligence makes accurate quantum chemical simulations more affordable   Nature Portfolio Chemistry Community    December       Retrieved    May      
+
+  Guan  Wen  Perdue  Gabriel  Pesah  Arthur  Schuld  Maria  Terashi  Koji  Vallecorsa  Sofia  Vlimant  Jean Roch  March         Quantum machine learning in high energy physics   Machine Learning  Science and Technology                 arXiv             doi                   abc  d 
+
+   Europe s First Quantum Computer with More Than  K Qubits Launched at J lich   HPCwire  Retrieved    May      
+
+  Cova  T nia  Vitorino  Carla  Ferreira  M rcio  Nunes  Sandra  Rondon Villarreal  Paola  Pais  Alberto          Artificial Intelligence and Quantum Computing as the Next Pharma Disruptors   Artificial Intelligence in Drug Design  Methods in Molecular Biology  Vol             pp                doi                               ISBN                         PMID               
+
+  Batra  Kushal  Zorn  Kimberley M   Foil  Daniel H   Minerali  Eni  Gawriljuk  Victor O   Lane  Thomas R   Ekins  Sean     June         Quantum Machine Learning Algorithms for Drug Discovery Applications   Journal of Chemical Information and Modeling                     doi         acs jcim  c       PMC               PMID               
+
+  Barkoutsos  Panagiotis Kl  Gkritsis  Fotios  Ollitrault  Pauline J   Sokolov  Igor O   Woerner  Stefan  Tavernelli  Ivano  April         Quantum algorithm for alchemical optimization in material design   Chemical Science                      doi         D SC     E  PMC               PMID               
+
+  Russell  Stuart J   Norvig  Peter         Artificial Intelligence  A Modern Approach   nd      ed    Upper Saddle River  New Jersey  Prentice Hall  ISBN                   
+
+   Smart Procurement Technologies for the Construction Sector   SIPMM Publications   publication sipmm edu sg              Retrieved            
+
+  Bernstein  Phillip         Machine Learning  Architecture in the Age of Artificial Intelligence  London  RIBA Publishing  ISBN                    
+
+  a b Heathcote  Edwin     January         AI is coming for architecture   Financial Times  Retrieved            
+
+  a b  AI in Architecture  The Key to Enhancing Design Efficiency and Gaining a Competitive Edge  
+
+  a b  Will Artificial Intelligence Replace Architects    ArchDaily              Retrieved            
+
+  a b  How AI software will change architecture and design   Dezeen              Retrieved            
+
+   Algorithmic bias detection and mitigation  Best practices and policies to reduce consumer harms   Brookings 
+
+  Rashid  Adib Bin  Kausik  MD Ashfakul Karim  December         AI revolutionizing industries worldwide  A comprehensive overview of its diverse applications   Hybrid Advances             doi         j hybadv             
+
+
+Further reading edit 
+Kaplan  A M   Haenlein  M           Siri  Siri in my Hand  who s the Fairest in the Land  On the Interpretations  Illustrations and Implications of Artificial Intelligence   Business Horizons                 doi         j bushor             
+Kurzweil  Ray         The Singularity is Near  When Humans Transcend Biology  New York  Viking  ISBN                        
+National Research Council          Developments in Artificial Intelligence   Funding a Revolution  Government Support for Computing Research  National Academy Press  ISBN                         OCLC                
+Moghaddam  M  J   Soleymani  M  R   Farsi  M  A           Sequence planning for stamping operations in progressive dies   Journal of Intelligent Manufacturing                   doi         s                 
+Felten  Ed    May         Preparing for the Future of Artificial Intelligence  
+vteEmerging technologiesFieldsInformation andcommunications
+Ambient intelligence
+Internet of things
+Artificial intelligence
+Applications of artificial intelligence
+Machine translation
+Machine vision
+Mobile translation
+Progress in artificial intelligence
+Semantic Web
+Speech recognition
+Atomtronics
+Carbon nanotube field effect transistor
+Cybermethodology
+Extended reality
+Fourth generation optical discs
+ D optical data storage
+Holographic data storage
+GPGPU
+Memory
+CBRAM
+ECRAM
+FRAM
+Millipede
+MRAM
+NRAM
+PRAM
+Racetrack memory
+RRAM
+SONOS
+UltraRAM
+Optical computing
+RFID
+Chipless RFID
+Software defined radio
+Three dimensional integrated circuit
+Topics
+Automation
+Collingridge dilemma
+Differential technological development
+Disruptive innovation
+Ephemeralization
+Ethics
+Bioethics
+Cyberethics
+Neuroethics
+Robot ethics
+Exploratory engineering
+Proactionary principle
+Technological change
+Technological unemployment
+Technological convergence
+Technological evolution
+Technological paradigm
+Technology forecasting
+Accelerating change
+Future oriented technology analysis
+Horizon scanning
+Moore s law
+Technological singularity
+Technology scouting
+Technology in science fiction
+Technology readiness level
+Technology roadmap
+Transhumanism
+
+ List
+
+
+
+
+
+
+Retrieved from  https   en wikipedia org w index php title Applications of artificial intelligence amp oldid

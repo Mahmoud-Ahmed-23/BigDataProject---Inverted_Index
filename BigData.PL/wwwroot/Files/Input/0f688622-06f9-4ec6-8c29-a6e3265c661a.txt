@@ -1,0 +1,72 @@
+Types of approximate algorithm
+Soft computing is an umbrella term used to describe types of algorithms that produce approximate solutions to unsolvable high level problems in computer science  Typically  traditional hard computing algorithms heavily rely on concrete data and mathematical models to produce solutions to problems  Soft computing was coined in the late   th century             During this period  revolutionary research in three fields greatly impacted soft computing  Fuzzy logic is a computational paradigm that entertains the uncertainties in data by using levels of truth rather than rigid  s and  s in binary  Next  neural networks which are computational models influenced by human brain functions  Finally  evolutionary computation is a term to describe groups of algorithm that mimic natural processes such as evolution and natural selection 
+In the context of artificial intelligence and machine learning  soft computing provides tools to handle real world uncertainties  Its methods supplement preexisting methods for better solutions  Today  the combination with artificial intelligence has led to hybrid intelligence systems that merge various computational algorithms  Expanding the applications of artificial intelligence  soft computing leads to robust solutions  Key points include tackling ambiguity  flexible learning  grasping intricate data  real world applications  and ethical artificial intelligence                       
+
+
+History edit 
+The development of soft computing dates back to the late   th century  In       Lotfi Zadeh introduced fuzzy logic  which laid the mathematical groundwork for soft computing  Between the     s and     s  evolutionary computation  the development of genetic algorithms that mimicked biological processes  began to emerge  These models carved the path for models to start handling uncertainty  Although neural network research began in the     s and     s  there was a new demand for research in the     s  Researchers invested time to develop models for pattern recognition  Between the     s and     s  hybrid intelligence systems merged fuzzy logic  neural networks  and evolutionary computation that solved complicated problems quickly  From the     s to the present day  Models have been instrumental and affect multiple fields handling big data  including engineering  medicine  social sciences  and finance                       
+
+Computational techniques edit 
+Fuzzy logic edit 
+Fuzzy logic is an aspect of computing that handles approximate reasoning  Typically  binary logic allows computers to make decisions on true or false reasons   s and  s   however  introducing fuzzy logic allows systems to handle the unknowns between   and                         
+Unlike classical sets that allow members to be entirely within or out  fuzzy sets allow partial membership by incorporating  graduation  between sets  Fuzzy logic operations include negation  conjunction  and disjunction  which handle membership between data sets            
+Fuzzy rules are logical statements that map the correlation between input and output parameters  They set the rules needed to trace variable relationships linguistically  and they would not be possible without linguistic variables  Linguistic variables represent values typically not quantifiable  allowing uncertainties            
+
+Neural networks edit 
+Neural networks are computational models that attempt to mimic the structure and functioning of the human brain  While computers typically use binary logic to solve problems  neural networks attempt to provide solutions for complicated problems by enabling systems to think human like  which is essential to soft computing            
+Neural networks revolve around perceptrons  which are artificial neurons structured in layers  Like the human brain  these interconnected nodes process information using complicated mathematical operations            
+Through training  the network handles input and output data streams and adjusts parameters according to the provided information  Neural networks help make soft computing extraordinarily flexible and capable of handling high level problems 
+In soft computing  neural networks aid in pattern recognition  predictive modeling  and data analysis  They are also used in image recognition  natural language processing  speech recognition  and systems                        
+
+Evolutionary computation edit 
+Evolutionary computation is a field in soft computing that uses the principles of natural selection and evolution to solve complicated problems  It promotes the discovery of diverse solutions within a solution space  encouraging near perfect solutions  It finds satisfactory solutions by using computational models and types of evolutionary algorithms  Evolutionary computation consists of algorithms that mimic natural selection  such as genetic algorithms  genetic programming  evolution strategies and evolutionary programming  These algorithms use crossover  mutation  and selection             
+Crossover  or recombination  exchanges data between nodes to diversify data and handle more outcomes  Mutation is a genetic technique that helps prevent the premature conclusion to a suboptimal solution by diversifying an entire range of solutions  It helps new optimal solutions in solution sets that help the overall optimization process  Selection is an operator that chooses which solution from a current population fits enough to transition to the next phase  These drive genetic programming to find optimal solutions by ensuring the survival of only the fittest solutions in a set 
+In soft computing  evolutionary computation helps applications of data mining  using large sets of data to find patterns   robotics  optimizing  and engineering methods                       
+
+Hybrid intelligence systems edit 
+Hybrid intelligence systems combine the strengths of soft computing components to create integrated computational models  Artificial techniques such as fuzzy logic  neural networks  and evolutionary computation combine to solve problems efficiently  These systems improve judgment  troubleshooting  and data analysis  Hybrid intelligence systems help overcome the limitations of individual AI approaches to improve performance  accuracy  and adaptability to address dynamic problems  It advances soft computing capabilities in data analysis  pattern recognition  and systems             
+
+Applications edit 
+Due to their dynamic versatility  soft computing models are precious tools that confront complex real world problems  They are applicable in numerous industries and research fields 
+Soft computing fuzzy logic and neural networks help with pattern recognition  image processing  and computer vision  Its versatility is vital in natural language processing as it helps decipher human emotions and language  They also aid in data mining and predictive analysis by obtaining priceless insights from enormous datasets  Soft computing helps optimize solutions from energy  financial forecasts  environmental and biological data modeling  and anything that deals with or requires models                         
+Within the medical field  soft computing is revolutionizing disease detection  creating plans to treat patients and models of healthcare             
+
+Challenges and limitations edit 
+Soft computing methods such as neural networks and fuzzy models are complicated and may need clarification  Sometimes  it takes effort to understand the logic behind neural network algorithms  decisions  making it challenging for a user to adopt them  In addition  it takes valuable  costly resources to feed models extensive data sets  and sometimes it is impossible to acquire the computational resources necessary  There are also significant hardware limitations which limits the computational power            
+
+References edit 
+
+
+  Zadeh  Lotfi A   March         Fuzzy logic  neural networks  and soft computing   Communications of the ACM                 doi                        ISSN                
+
+  a b Ibrahim  Dogan   An overview of soft computing   Procedia Computer Science                   
+
+  a b c Kecman  Vojislav         Learning and Soft Computing  Support Vector Machines  Neural Networks  and Fuzzy Logic Models  MIT Press  ISBN                        
+
+  Chaturvedi  Devendra K   Soft computing   Studies in Computational intelligence                     
+
+  a b c Ram  Mangey  Davim  J  Paulo               Advanced Mathematical Techniques in Engineering Sciences  CRC Press  ISBN                        
+
+   Fuzzy Logic   Introduction   GeeksforGeeks              Retrieved            
+
+  Trillas  Enric  and Luka Eciolaza   Fuzzy logic   Springer International Publishing  DOI                  
+
+  a b Cheng  Yu  Wang  Duo  Zhou  Pan  Zhang  Tao          Model Compression and Acceleration for Deep Neural Networks  The Principles  Progress  and Challenges   IEEE Signal Processing Magazine                   Bibcode     ISPM     a    C  doi         MSP               Retrieved            
+
+   What are Neural Networks    IBM   www ibm com    October       Retrieved            
+
+  a b Abiodun  Oludare Isaac  Kiru  Muhammad Ubale  Jantan  Aman  Omolara  Abiodun Esther  Dada  Kemi Victoria  Umar  Abubakar Malah  Linus  Okafor Uchenwa  Arshad  Humaira  Kazaure  Abdullahi Aminu  Gana  Usman          Comprehensive Review of Artificial Neural Network Applications to Pattern Recognition   IEEE Access                    Bibcode     IEEEA    o    A  doi         ACCESS              
+
+   Genetic Algorithms   GeeksforGeeks              Retrieved            
+
+  a b Medsker  Larry R                Hybrid Intelligent Systems  Springer Science  amp  Business Media  ISBN                        
+
+  Dote  Y   Ovaska  S J           Industrial applications of soft computing  a review   Proceedings of the IEEE                     doi                   Retrieved            
+
+
+
+
+
+
+
+Retrieved from  https   en wikipedia org w index php title Soft computing amp oldid

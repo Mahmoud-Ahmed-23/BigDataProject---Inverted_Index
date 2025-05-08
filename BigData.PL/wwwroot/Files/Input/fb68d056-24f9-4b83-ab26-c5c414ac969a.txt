@@ -1,0 +1,2607 @@
+Estimate of time taken for running an algorithm
+ Running time  redirects here and is not to be confused with Running Time  film  
+Graphs of functions commonly used in the analysis of algorithms  showing the number of operations N as the result of input size n for each function
+In theoretical computer science  the time complexity is the computational complexity that describes the amount of computer time it takes to run an algorithm  Time complexity is commonly estimated by counting the number of elementary operations performed by the algorithm  supposing that each elementary operation takes a fixed amount of time to perform  Thus  the amount of time taken and the number of elementary operations performed by the algorithm are taken to be related by a constant factor 
+Since an algorithm s running time may vary among different inputs of the same size  one commonly considers the worst case time complexity  which is the maximum amount of time required for inputs of a given size  Less common  and usually specified explicitly  is the average case complexity  which is the average of the time taken on inputs of a given size  this makes sense because there are only a finite number of possible inputs of a given size   In both cases  the time complexity is generally expressed as a function of the size of the input                                   Since this function is generally difficult to compute exactly  and the running time for small inputs is usually not consequential  one commonly focuses on the behavior of the complexity when the input size increases that is  the asymptotic behavior of the complexity  Therefore  the time complexity is commonly expressed using big O notation  typically 
+  
+    
+      
+        O
+         
+        n
+         
+      
+    
+      displaystyle O n  
+  
+  
+  
+    
+      
+        O
+         
+        n
+        log
+          x     
+        n
+         
+      
+    
+      displaystyle O n log n  
+  
+  
+  
+    
+      
+        O
+         
+        
+          n
+          
+              x b  
+          
+        
+         
+      
+    
+      displaystyle O n   alpha    
+  
+  
+  
+    
+      
+        O
+         
+        
+           
+          
+            n
+          
+        
+         
+      
+    
+      displaystyle O    n   
+  
+  etc   where n is the size in units of bits needed to represent the input 
+Algorithmic complexities are classified according to the type of function appearing in the big O notation  For example  an algorithm with time complexity 
+  
+    
+      
+        O
+         
+        n
+         
+      
+    
+      displaystyle O n  
+  
+ is a linear time algorithm and an algorithm with time complexity 
+  
+    
+      
+        O
+         
+        
+          n
+          
+              x b  
+          
+        
+         
+      
+    
+      displaystyle O n   alpha    
+  
+ for some constant 
+  
+    
+      
+          x b  
+         gt 
+         
+      
+    
+      displaystyle  alpha  gt   
+  
+ is a polynomial time algorithm 
+
+
+Table of common time complexities edit 
+Further information  Computational complexity of mathematical operations
+The following table summarizes some classes of commonly encountered time complexities  In the table  poly x    xO     i e   polynomial in      x 
+
+
+
+
+Name
+Complexity class
+Time complexity  O n  
+Examples of running times
+Example algorithms
+
+
+constant time
+
+
+  
+    
+      
+        O
+         
+         
+         
+      
+    
+      displaystyle O    
+  
+
+  
+Finding the median value in a sorted array of numbers  Calculating      n 
+
+
+inverse Ackermann time
+
+
+  
+    
+      
+        O
+        
+          
+             
+          
+        
+          x b  
+         
+        n
+         
+        
+          
+             
+          
+        
+      
+    
+      displaystyle O  bigl    alpha  n   bigr    
+  
+
+
+Amortized time per operation using a disjoint set
+
+
+iterated logarithmic time
+
+
+  
+    
+      
+        O
+         
+        
+          log
+          
+              x     
+          
+        
+          x     
+        n
+         
+      
+    
+      displaystyle O  log     n  
+  
+
+
+Distributed coloring of cycles
+
+
+log logarithmic
+
+
+  
+    
+      
+        O
+         
+        log
+          x     
+        log
+          x     
+        n
+         
+      
+    
+      displaystyle O  log  log n  
+  
+
+
+Amortized time per operation using a bounded priority queue           
+
+
+logarithmic time
+DLOGTIME
+
+  
+    
+      
+        O
+         
+        log
+          x     
+        n
+         
+      
+    
+      displaystyle O  log n  
+  
+
+
+  
+    
+      
+        log
+          x     
+        n
+      
+    
+      displaystyle  log n 
+  
+  
+  
+    
+      
+        log
+          x     
+         
+        
+          n
+          
+             
+          
+        
+         
+      
+    
+      displaystyle  log n      
+  
+
+Binary search
+
+
+polylogarithmic time
+
+
+  
+    
+      
+        
+          
+            poly
+          
+        
+         
+        log
+          x     
+        n
+         
+      
+    
+      displaystyle   textsf  poly    log n  
+  
+
+
+  
+    
+      
+         
+        log
+          x     
+        n
+        
+           
+          
+             
+          
+        
+      
+    
+      displaystyle   log n      
+  
+
+
+
+
+fractional power
+
+
+  
+    
+      
+        O
+         
+        
+          n
+          
+            c
+          
+        
+         
+      
+    
+      displaystyle O n  c   
+  
+ where 
+  
+    
+      
+         
+         lt 
+        c
+         lt 
+         
+      
+    
+      displaystyle   lt c lt   
+  
+
+
+  
+    
+      
+        
+          n
+          
+            
+               
+               
+            
+          
+        
+      
+    
+      displaystyle n   frac         
+  
+  
+  
+    
+      
+        
+          n
+          
+            
+               
+               
+            
+          
+        
+      
+    
+      displaystyle n   frac         
+  
+
+Range searching in a k d tree
+
+
+linear time
+
+
+  
+    
+      
+        O
+         
+        n
+         
+      
+    
+      displaystyle O n  
+  
+
+n  
+  
+    
+      
+         
+        n
+         
+         
+      
+    
+      displaystyle  n   
+  
+
+Finding the smallest or largest item in an unsorted array  Kadane s algorithm  Linear search 
+
+
+ n log star n  time
+
+
+  
+    
+      
+        O
+         
+        n
+        
+          log
+          
+              x     
+          
+        
+          x     
+        n
+         
+      
+    
+      displaystyle O n log     n  
+  
+
+
+Seidel s polygon triangulation algorithm 
+
+
+linearithmic time
+
+
+  
+    
+      
+        O
+         
+        n
+        log
+          x     
+        n
+         
+      
+    
+      displaystyle O n log n  
+  
+
+
+  
+    
+      
+        n
+        log
+          x     
+        n
+      
+    
+      displaystyle n log n 
+  
+  
+  
+    
+      
+        log
+          x     
+        n
+         
+      
+    
+      displaystyle  log n  
+  
+
+Fastest possible comparison sort  Fast Fourier transform 
+
+
+quasilinear time
+
+
+  
+    
+      
+        n
+        
+          
+            poly
+          
+        
+         
+        log
+          x     
+        n
+         
+      
+    
+      displaystyle n  textsf  poly    log n  
+  
+
+
+  
+    
+      
+        n
+        
+          log
+          
+             
+          
+        
+          x     
+        n
+      
+    
+      displaystyle n log     n 
+  
+
+Multipoint polynomial evaluation
+
+
+quadratic time
+
+
+  
+    
+      
+        O
+         
+        
+          n
+          
+             
+          
+        
+         
+      
+    
+      displaystyle O n      
+  
+
+
+  
+    
+      
+        
+          n
+          
+             
+          
+        
+      
+    
+      displaystyle n     
+  
+
+Bubble sort  Insertion sort  Direct convolution
+
+
+cubic time
+
+
+  
+    
+      
+        O
+         
+        
+          n
+          
+             
+          
+        
+         
+      
+    
+      displaystyle O n      
+  
+
+
+  
+    
+      
+        
+          n
+          
+             
+          
+        
+      
+    
+      displaystyle n     
+  
+
+Naive multiplication of two 
+  
+    
+      
+        n
+          xd  
+        n
+      
+    
+      displaystyle n times n 
+  
+ matrices  Calculating partial correlation 
+
+
+polynomial time
+P
+
+  
+    
+      
+        
+           
+          
+            O
+             
+            log
+              x     
+            n
+             
+          
+        
+         
+        
+          
+            poly
+          
+        
+         
+        n
+         
+      
+    
+      displaystyle    O  log n     textsf  poly   n  
+  
+
+
+  
+    
+      
+        
+          n
+          
+             
+          
+        
+         
+        n
+      
+    
+      displaystyle n     n 
+  
+  
+  
+    
+      
+        
+          n
+          
+              
+          
+        
+      
+    
+      displaystyle n      
+  
+
+Karmarkar s algorithm for linear programming  AKS primality test                      
+
+
+quasi polynomial time
+QP
+
+  
+    
+      
+        
+           
+          
+            
+              
+                poly
+              
+            
+             
+            log
+              x     
+            n
+             
+          
+        
+      
+    
+      displaystyle      textsf  poly    log n   
+  
+
+
+  
+    
+      
+        
+          n
+          
+            log
+              x     
+            log
+              x     
+            n
+          
+        
+      
+    
+      displaystyle n   log  log n  
+  
+  
+  
+    
+      
+        
+          n
+          
+            log
+              x     
+            n
+          
+        
+      
+    
+      displaystyle n   log n  
+  
+
+Best known O log n  approximation algorithm for the directed Steiner tree problem  best known parity game solver             best known graph isomorphism algorithm
+
+
+sub exponential time first definition 
+SUBEXP
+
+  
+    
+      
+        O
+         
+        
+           
+          
+            
+              n
+              
+                  x f  
+              
+            
+          
+        
+         
+      
+    
+      displaystyle O    n   epsilon     
+  
+ for all 
+  
+    
+      
+         
+         lt 
+          x f  
+         lt 
+         
+      
+    
+      displaystyle   lt  epsilon  lt   
+  
+
+
+Contains BPP unless EXPTIME  see below  equals MA            
+
+
+sub exponential time second definition 
+
+
+  
+    
+      
+        
+           
+          
+            o
+             
+            n
+             
+          
+        
+      
+    
+      displaystyle    o n   
+  
+
+
+  
+    
+      
+        
+           
+          
+            
+              n
+              
+                 
+              
+            
+          
+        
+      
+    
+      displaystyle     sqrt      n   
+  
+
+Best classical algorithm for integer factorization
+formerly best algorithm for graph isomorphism
+
+
+
+exponential time with linear exponent 
+E
+
+  
+    
+      
+        
+           
+          
+            O
+             
+            n
+             
+          
+        
+      
+    
+      displaystyle    O n   
+  
+
+
+  
+    
+      
+        
+             
+          
+            n
+          
+        
+      
+    
+      displaystyle      n  
+  
+  
+  
+    
+      
+        
+            
+          
+            n
+          
+        
+      
+    
+      displaystyle     n  
+  
+
+Solving the traveling salesman problem using dynamic programming
+
+
+factorial time
+
+
+  
+    
+      
+        O
+         
+        n
+         
+         
+         
+        
+           
+          
+            O
+             
+            n
+            log
+              x     
+            n
+             
+          
+        
+      
+    
+      displaystyle O n      O n log n   
+  
+
+
+  
+    
+      
+        n
+         
+         
+        
+          n
+          
+            n
+          
+        
+         
+        
+           
+          
+            n
+            log
+              x     
+            n
+          
+        
+      
+    
+      displaystyle n  n  n     n log n  
+  
+
+Solving the traveling salesman problem via brute force search
+
+
+exponential time
+EXPTIME
+
+  
+    
+      
+        
+           
+          
+            
+              
+                poly
+              
+            
+             
+            n
+             
+          
+        
+      
+    
+      displaystyle      textsf  poly   n   
+  
+
+
+  
+    
+      
+        
+           
+          
+            n
+          
+        
+      
+    
+      displaystyle    n  
+  
+  
+  
+    
+      
+        
+           
+          
+            
+              n
+              
+                 
+              
+            
+          
+        
+      
+    
+      displaystyle    n      
+  
+
+Solving matrix chain multiplication via brute force search
+
+
+double exponential time
+  EXPTIME
+
+  
+    
+      
+        
+           
+          
+            
+               
+              
+                
+                  
+                    poly
+                  
+                
+                 
+                n
+                 
+              
+            
+          
+        
+      
+    
+      displaystyle         textsf  poly   n    
+  
+
+
+  
+    
+      
+        
+           
+          
+            
+               
+              
+                n
+              
+            
+          
+        
+      
+    
+      displaystyle       n   
+  
+
+Deciding the truth of a given statement in Presburger arithmetic
+
+Constant time edit 
+ Constant time  redirects here  For programming technique to avoid a timing attack  see Timing attack        Avoidance 
+An algorithm is said to be constant time  also written as 
+  
+    
+      
+        O
+         
+         
+         
+      
+    
+      textstyle O    
+  
+ time  if the value of 
+  
+    
+      
+        T
+         
+        n
+         
+      
+    
+      textstyle T n  
+  
+  the complexity of the algorithm   is bounded by a value that does not depend on the size of the input  For example  accessing any single element in an array takes constant time as only one operation has to be performed to locate it  In a similar manner  finding the minimal value in an array sorted in ascending order  it is the first element  However  finding the minimal value in an unordered array is not a constant time operation as scanning over each element in the array is needed in order to determine the minimal value  Hence it is a linear time operation  taking 
+  
+    
+      
+        O
+         
+        n
+         
+      
+    
+      textstyle O n  
+  
+ time  If the number of elements is known in advance and does not change  however  such an algorithm can still be said to run in constant time 
+Despite the name  constant time   the running time does not have to be independent of the problem size  but an upper bound for the running time has to be independent of the problem size  For example  the task  exchange the values of a and b if necessary so that 
+  
+    
+      
+        a
+          x     
+        b
+      
+    
+      textstyle a leq b 
+  
+  is called constant time even though the time may depend on whether or not it is already true that 
+  
+    
+      
+        a
+          x     
+        b
+      
+    
+      textstyle a leq b 
+  
+  However  there is some constant t such that the time required is always at most t 
+
+Logarithmic time edit 
+Further information  Logarithmic growth
+An algorithm is said to take logarithmic time when 
+  
+    
+      
+        T
+         
+        n
+         
+         
+        O
+         
+        log
+          x     
+        n
+         
+      
+    
+      displaystyle T n  O  log n  
+  
+   Since 
+  
+    
+      
+        
+          log
+          
+            a
+          
+        
+          x     
+        n
+      
+    
+      displaystyle  log   a n 
+  
+ and 
+  
+    
+      
+        
+          log
+          
+            b
+          
+        
+          x     
+        n
+      
+    
+      displaystyle  log   b n 
+  
+ are related by a constant multiplier  and such a multiplier is irrelevant to big O classification  the standard usage for logarithmic time algorithms is 
+  
+    
+      
+        O
+         
+        log
+          x     
+        n
+         
+      
+    
+      displaystyle O  log n  
+  
+ regardless of the base of the logarithm appearing in the expression of T 
+Algorithms taking logarithmic time are commonly found in operations on binary trees or when using binary search 
+An 
+  
+    
+      
+        O
+         
+        log
+          x     
+        n
+         
+      
+    
+      displaystyle O  log n  
+  
+ algorithm is considered highly efficient  as the ratio of the number of operations to the size of the input decreases and tends to zero when n increases  An algorithm that must access all elements of its input cannot take logarithmic time  as the time taken for reading an input of size n is of the order of n 
+An example of logarithmic time is given by dictionary search  Consider a dictionary D which contains n entries  sorted in alphabetical order  We suppose that  for 
+  
+    
+      
+         
+          x     
+        k
+          x     
+        n
+      
+    
+      displaystyle   leq k leq n 
+  
+  one may access the kth entry of the dictionary in a constant time  Let 
+  
+    
+      
+        D
+         
+        k
+         
+      
+    
+      displaystyle D k  
+  
+ denote this kth entry  Under these hypotheses  the test to see if a word w is in the dictionary may be done in logarithmic time  consider 
+  
+    
+      
+        D
+        
+           
+          
+              x   a 
+            
+              
+                n
+                 
+              
+            
+              x   b 
+          
+           
+        
+      
+    
+      displaystyle D left  left lfloor   frac  n      right rfloor  right  
+  
+  where 
+  
+    
+      
+          x   a 
+        
+          x   b 
+      
+    
+      displaystyle  lfloor    rfloor  
+  
+ denotes the floor function  If 
+  
+    
+      
+        w
+         
+        D
+        
+           
+          
+              x   a 
+            
+              
+                n
+                 
+              
+            
+              x   b 
+          
+           
+        
+      
+    
+      displaystyle w D left  left lfloor   frac  n      right rfloor  right  
+  
+  that is to say  the word w is exactly in the middle of the dictionary  then we are done  Else  if 
+  
+    
+      
+        w
+         lt 
+        D
+        
+           
+          
+              x   a 
+            
+              
+                n
+                 
+              
+            
+              x   b 
+          
+           
+        
+      
+    
+      displaystyle w lt D left  left lfloor   frac  n      right rfloor  right  
+  
+  i e   if the word w comes earlier in alphabetical order than the middle word of the whole dictionary  we continue the search in the same way in the left  i e  earlier  half of the dictionary  and then again repeatedly until the correct word is found  Otherwise  if it comes after the middle word  continue similarly with the right half of the dictionary  This algorithm is similar to the method often used to find an entry in a paper dictionary  As a result  the search space within the dictionary decreases as the algorithm gets closer to the target word 
+
+Polylogarithmic time edit 
+An algorithm is said to run in polylogarithmic time if its time 
+  
+    
+      
+        T
+         
+        n
+         
+      
+    
+      displaystyle T n  
+  
+ is 
+  
+    
+      
+        O
+        
+          
+             
+          
+        
+         
+        log
+          x     
+        n
+        
+           
+          
+            k
+          
+        
+        
+          
+             
+          
+        
+      
+    
+      displaystyle O  bigl     log n   k   bigr    
+  
+ for some constant k  Another way to write this is 
+  
+    
+      
+        O
+         
+        
+          log
+          
+            k
+          
+        
+          x     
+        n
+         
+      
+    
+      displaystyle O  log   k n  
+  
+ 
+For example  matrix chain ordering can be solved in polylogarithmic time on a parallel random access machine             and a graph can be determined to be planar in a fully dynamic way in 
+  
+    
+      
+        O
+         
+        
+          log
+          
+             
+          
+        
+          x     
+        n
+         
+      
+    
+      displaystyle O  log     n  
+  
+ time per insert delete operation            
+
+Sub linear time edit 
+An algorithm is said to run in sub linear time  often spelled sublinear time  if 
+  
+    
+      
+        T
+         
+        n
+         
+         
+        o
+         
+        n
+         
+      
+    
+      displaystyle T n  o n  
+  
+  In particular this includes algorithms with the time complexities defined above  
+The specific term sublinear time algorithm commonly refers to randomized algorithms that sample a small fraction of their inputs and process them efficiently to approximately infer properties of the entire instance             This type of sublinear time algorithm is closely related to property testing and statistics 
+Other settings where algorithms can run in sublinear time include 
+
+Parallel algorithms that have linear or greater total work  allowing them to read the entire input   but sub linear depth 
+Algorithms that have guaranteed assumptions on the input structure  An important example are operations on data structures  e g  binary search in a sorted array 
+Algorithms that search for local structure in the input  for example finding a local minimum in a   D array  can be solved in      
+  
+    
+      
+        O
+         
+        log
+          x     
+         
+        n
+         
+         
+      
+    
+      displaystyle O  log n   
+  
+ time using a variant of binary search         A closely related notion is that of Local Computation Algorithms  LCA  where the algorithm receives a large input and queries to local information about some valid large output             
+Linear time edit 
+An algorithm is said to take linear time  or 
+  
+    
+      
+        O
+         
+        n
+         
+      
+    
+      displaystyle O n  
+  
+ time  if its time complexity is 
+  
+    
+      
+        O
+         
+        n
+         
+      
+    
+      displaystyle O n  
+  
+  Informally  this means that the running time increases at most linearly with the size of the input  More precisely  this means that there is a constant c such that the running time is at most 
+  
+    
+      
+        c
+        n
+      
+    
+      displaystyle cn 
+  
+ for every input of size n  For example  a procedure that adds up all elements of a list requires time proportional to the length of the list  if the adding time is constant  or  at least  bounded by a constant 
+Linear time is the best possible time complexity in situations where the algorithm has to sequentially read its entire input  Therefore  much research has been invested into discovering algorithms exhibiting linear time or  at least  nearly linear time  This research includes both software and hardware methods  There are several hardware technologies which exploit parallelism to provide this  An example is content addressable memory  This concept of linear time is used in string matching algorithms such as the Boyer Moore string search algorithm and Ukkonen s algorithm 
+
+ Quasilinear time edit 
+An algorithm is said to run in quasilinear time  also referred to as log linear time  if 
+  
+    
+      
+        T
+         
+        n
+         
+         
+        O
+         
+        n
+        
+          log
+          
+            k
+          
+        
+          x     
+        n
+         
+      
+    
+      displaystyle T n  O n log   k n  
+  
+ for some positive constant k              linearithmic time is the case 
+  
+    
+      
+        k
+         
+         
+      
+    
+      displaystyle k   
+  
+              Using soft O notation these algorithms are 
+  
+    
+      
+        
+          
+            
+              O
+                x e 
+            
+          
+        
+         
+        n
+         
+      
+    
+      displaystyle   tilde  O   n  
+  
+  Quasilinear time algorithms are also 
+  
+    
+      
+        O
+         
+        
+          n
+          
+             
+             
+              x b  
+          
+        
+         
+      
+    
+      displaystyle O n     varepsilon    
+  
+ for every constant 
+  
+    
+      
+          x b  
+         gt 
+         
+      
+    
+      displaystyle  varepsilon  gt   
+  
+ and thus run faster than any polynomial time algorithm whose time bound includes a term 
+  
+    
+      
+        
+          n
+          
+            c
+          
+        
+      
+    
+      displaystyle n  c  
+  
+ for any 
+  
+    
+      
+        c
+         gt 
+         
+      
+    
+      displaystyle c gt   
+  
+ 
+Algorithms which run in quasilinear time include 
+
+In place merge sort  
+  
+    
+      
+        O
+         
+        n
+        
+          log
+          
+             
+          
+        
+          x     
+        n
+         
+      
+    
+      displaystyle O n log     n  
+  
+
+Quicksort  
+  
+    
+      
+        O
+         
+        n
+        log
+          x     
+        n
+         
+      
+    
+      displaystyle O n log n  
+  
+  in its randomized version  has a running time that is 
+  
+    
+      
+        O
+         
+        n
+        log
+          x     
+        n
+         
+      
+    
+      displaystyle O n log n  
+  
+ in expectation on the worst case input  Its non randomized version has an 
+  
+    
+      
+        O
+         
+        n
+        log
+          x     
+        n
+         
+      
+    
+      displaystyle O n log n  
+  
+ running time only when considering average case complexity 
+Heapsort  
+  
+    
+      
+        O
+         
+        n
+        log
+          x     
+        n
+         
+      
+    
+      displaystyle O n log n  
+  
+  merge sort  introsort  binary tree sort  smoothsort  patience sorting  etc  in the worst case
+Fast Fourier transforms  
+  
+    
+      
+        O
+         
+        n
+        log
+          x     
+        n
+         
+      
+    
+      displaystyle O n log n  
+  
+
+Monge array calculation  
+  
+    
+      
+        O
+         
+        n
+        log
+          x     
+        n
+         
+      
+    
+      displaystyle O n log n  
+  
+
+In many cases  the 
+  
+    
+      
+        O
+         
+        n
+        log
+          x     
+        n
+         
+      
+    
+      displaystyle O n log n  
+  
+ running time is simply the result of performing a 
+  
+    
+      
+          x    
+         
+        log
+          x     
+        n
+         
+      
+    
+      displaystyle  Theta   log n  
+  
+ operation n times  for the notation  see Big O notation        Family of Bachmann Landau notations   For example  binary tree sort creates a binary tree by inserting each element of the n sized array one by one  Since the insert operation on a self balancing binary search tree takes 
+  
+    
+      
+        O
+         
+        log
+          x     
+        n
+         
+      
+    
+      displaystyle O  log n  
+  
+ time  the entire algorithm takes 
+  
+    
+      
+        O
+         
+        n
+        log
+          x     
+        n
+         
+      
+    
+      displaystyle O n log n  
+  
+ time 
+Comparison sorts require at least 
+  
+    
+      
+          x a  
+         
+        n
+        log
+          x     
+        n
+         
+      
+    
+      displaystyle  Omega  n log n  
+  
+ comparisons in the worst case because 
+  
+    
+      
+        log
+          x     
+         
+        n
+         
+         
+         
+          x    
+         
+        n
+        log
+          x     
+        n
+         
+      
+    
+      displaystyle  log n    Theta  n log n  
+  
+  by Stirling s approximation  They also frequently arise from the recurrence relation 
+  
+    
+      
+        T
+         
+        n
+         
+         
+         
+        T
+        
+           
+          
+            
+              n
+               
+            
+          
+           
+        
+         
+        O
+         
+        n
+         
+      
+    
+      textstyle T n   T left   frac  n      right  O n  
+  
+ 
+
+Sub quadratic time edit 
+An algorithm is said to be subquadratic time if 
+  
+    
+      
+        T
+         
+        n
+         
+         
+        o
+         
+        
+          n
+          
+             
+          
+        
+         
+      
+    
+      displaystyle T n  o n      
+  
+ 
+For example  simple  comparison based sorting algorithms are quadratic  e g  insertion sort   but more advanced algorithms can be found that are subquadratic  e g  shell sort   No general purpose sorts run in linear time  but the change from quadratic to sub quadratic is of great practical importance 
+
+Polynomial time edit 
+Main article  P  complexity 
+An algorithm is said to be of polynomial time if its running time is upper bounded by a polynomial expression in the size of the input for the algorithm  that is  T n    O nk  for some positive constant k                         Problems for which a deterministic polynomial time algorithm exists belong to the complexity class P  which is central in the field of computational complexity theory  Cobham s thesis states that polynomial time is a synonym for  tractable    feasible    efficient   or  fast              
+Some examples of polynomial time algorithms 
+
+The selection sort sorting algorithm on n integers performs 
+  
+    
+      
+        A
+        
+          n
+          
+             
+          
+        
+      
+    
+      displaystyle An     
+  
+ operations for some constant A  Thus it runs in time 
+  
+    
+      
+        O
+         
+        
+          n
+          
+             
+          
+        
+         
+      
+    
+      displaystyle O n      
+  
+ and is a polynomial time algorithm 
+All the basic arithmetic operations  addition  subtraction  multiplication  division  and comparison  can be done in polynomial time 
+Maximum matchings in graphs can be found in polynomial time  In some contexts  especially in optimization  one differentiates between strongly polynomial time and weakly polynomial time algorithms 
+These two concepts are only relevant if the inputs to the algorithms consist of integers 
+
+Complexity classes edit 
+The concept of polynomial time leads to several complexity classes in computational complexity theory  Some important classes defined using polynomial time are the following 
+
+P  The complexity class of decision problems that can be solved on a deterministic Turing machine in polynomial time
+NP  The complexity class of decision problems that can be solved on a non deterministic Turing machine in polynomial time
+ZPP  The complexity class of decision problems that can be solved with zero error on a probabilistic Turing machine in polynomial time
+RP  The complexity class of decision problems that can be solved with   sided error on a probabilistic Turing machine in polynomial time 
+BPP  The complexity class of decision problems that can be solved with   sided error on a probabilistic Turing machine in polynomial time
+BQP  The complexity class of decision problems that can be solved with   sided error on a quantum Turing machine in polynomial time
+P is the smallest time complexity class on a deterministic machine which is robust in terms of machine model changes   For example  a change from a single tape Turing machine to a multi tape machine can lead to a quadratic speedup  but any algorithm that runs in polynomial time under one model also does so on the other   Any given abstract machine will have a complexity class corresponding to the problems which can be solved in polynomial time on that machine 
+
+Superpolynomial time edit 
+An algorithm is defined to take superpolynomial time if T n  is not bounded above by any polynomial  Using little omega notation  it is   nc  time for all constants c  where n is the input parameter  typically the number of bits in the input 
+For example  an algorithm that runs for  n steps on an input of size n requires superpolynomial time  more specifically  exponential time  
+An algorithm that uses exponential resources is clearly superpolynomial  but some algorithms are only very weakly superpolynomial  For example  the Adleman Pomerance Rumely primality test runs for nO log log n  time on n bit inputs  this grows faster than any polynomial for large enough n  but the input size must become impractically large before it cannot be dominated by a polynomial with small degree 
+An algorithm that requires superpolynomial time lies outside the complexity class P  Cobham s thesis posits that these algorithms are impractical  and in many cases they are  Since the P versus NP problem is unresolved  it is unknown whether NP complete problems require superpolynomial time 
+
+Quasi polynomial time edit 
+Main article  Quasi polynomial time
+Quasi polynomial time algorithms are algorithms whose running time exhibits quasi polynomial growth  a type of behavior that may be slower than polynomial time but yet is significantly faster than exponential time  The worst case running time of a quasi polynomial time algorithm is 
+  
+    
+      
+        
+           
+          
+            O
+             
+            
+              log
+              
+                c
+              
+            
+              x     
+            n
+             
+          
+        
+      
+    
+      displaystyle    O  log   c n   
+  
+ for some fixed 
+  
+    
+      
+        c
+         gt 
+         
+      
+    
+      displaystyle c gt   
+  
+  When 
+  
+    
+      
+        c
+         
+         
+      
+    
+      displaystyle c   
+  
+ this gives polynomial time  and for 
+  
+    
+      
+        c
+         lt 
+         
+      
+    
+      displaystyle c lt   
+  
+ it gives sub linear time 
+There are some problems for which we know quasi polynomial time algorithms  but no polynomial time algorithm is known  Such problems arise in approximation algorithms  a famous example is the directed Steiner tree problem  for which there is a quasi polynomial time approximation algorithm achieving an approximation factor of 
+  
+    
+      
+        O
+         
+        
+          log
+          
+             
+          
+        
+          x     
+        n
+         
+      
+    
+      displaystyle O  log     n  
+  
+  n being the number of vertices   but showing the existence of such a polynomial time algorithm is an open problem 
+Other computational problems with quasi polynomial time solutions but no known polynomial time solution include the planted clique problem in which the goal is to find a large clique in the union of a clique and a random graph  Although quasi polynomially solvable  it has been conjectured that the planted clique problem has no polynomial time solution  this planted clique conjecture has been used as a computational hardness assumption to prove the difficulty of several other problems in computational game theory  property testing  and machine learning             
+The complexity class QP consists of all problems that have quasi polynomial time algorithms  It can be defined in terms of DTIME as follows             
+
+
+  
+    
+      
+        
+          
+            QP
+          
+        
+         
+        
+            x  c  
+          
+            c
+              x     
+            
+              N
+            
+          
+        
+        
+          
+            DTIME
+          
+        
+        
+           
+          
+             
+            
+              
+                log
+                
+                  c
+                
+              
+                x     
+              n
+            
+          
+           
+        
+      
+    
+      displaystyle   mbox QP    bigcup   c in  mathbb  N     mbox DTIME   left     log   c n  right  
+  
+
+Relation to NP complete problems edit 
+In complexity theory  the unsolved P versus NP problem asks if all problems in NP have polynomial time algorithms  All the best known algorithms for NP complete problems like  SAT etc  take exponential time  Indeed  it is conjectured for many natural NP complete problems that they do not have sub exponential time algorithms  Here  sub exponential time  is taken to mean the second definition presented below   On the other hand  many graph problems represented in the natural way by adjacency matrices are solvable in subexponential time simply because the size of the input is the square of the number of vertices   This conjecture  for the k SAT problem  is known as the exponential time hypothesis              Since it is conjectured that NP complete problems do not have quasi polynomial time algorithms  some inapproximability results in the field of approximation algorithms make the assumption that NP complete problems do not have quasi polynomial time algorithms  For example  see the known inapproximability results for the set cover problem 
+
+Sub exponential time edit 
+The term sub exponential time is used to express that the running time of some algorithm may grow faster than any polynomial but is still significantly smaller than an exponential  In this sense  problems that have sub exponential time algorithms are somewhat more tractable than those that only have exponential algorithms  The precise definition of  sub exponential  is not generally agreed upon              however the two most widely used are below 
+
+First definition edit 
+A problem is said to be sub exponential time solvable if it can be solved in running times whose logarithms grow smaller than any given polynomial  More precisely  a problem is in sub exponential time if for every    gt    there exists an algorithm which solves the problem in time O  n    The set of all such problems is the complexity class SUBEXP which can be defined in terms of DTIME as follows                                                
+
+
+  
+    
+      
+        
+          
+            SUBEXP
+          
+        
+         
+        
+            x  c  
+          
+              x b  
+             gt 
+             
+          
+        
+        
+          
+            DTIME
+          
+        
+        
+           
+          
+             
+            
+              
+                n
+                
+                    x b  
+                
+              
+            
+          
+           
+        
+      
+    
+      displaystyle   textsf  SUBEXP    bigcap    varepsilon  gt     textsf  DTIME   left    n   varepsilon    right  
+  
+
+This notion of sub exponential is non uniform in terms of   in the sense that   is not part of the input and each   may have its own algorithm for the problem 
+
+Second definition edit 
+Some authors define sub exponential time as running times in 
+  
+    
+      
+        
+           
+          
+            o
+             
+            n
+             
+          
+        
+      
+    
+      displaystyle    o n   
+  
+                                      This definition allows larger running times than the first definition of sub exponential time  An example of such a sub exponential time algorithm is the best known classical algorithm for integer factorization  the general number field sieve  which runs in time about 
+  
+    
+      
+        
+           
+          
+            
+              
+                
+                  O
+                    x e 
+                
+              
+            
+             
+            
+              n
+              
+                 
+                
+                   
+                
+                 
+              
+            
+             
+          
+        
+      
+    
+      displaystyle      tilde  O   n         
+  
+  where the length of the input is n  Another example was the graph isomorphism problem  which the best known algorithm from      to      solved in 
+  
+    
+      
+        
+           
+          
+            O
+            
+               
+              
+                
+                  n
+                  log
+                    x     
+                  n
+                
+              
+               
+            
+          
+        
+      
+    
+      displaystyle    O left   sqrt  n log n   right   
+  
+  However  at STOC      a quasi polynomial time algorithm was presented             
+It makes a difference whether the algorithm is allowed to be sub exponential in the size of the instance  the number of vertices  or the number of edges  In parameterized complexity  this difference is made explicit by considering pairs 
+  
+    
+      
+         
+        L
+         
+        k
+         
+      
+    
+      displaystyle  L k  
+  
+ of decision problems and parameters k  SUBEPT is the class of all parameterized problems that run in time sub exponential in k and polynomial in the input size n             
+
+
+  
+    
+      
+        
+          
+            SUBEPT
+          
+        
+         
+        
+          
+            DTIME
+          
+        
+        
+           
+          
+            
+               
+              
+                o
+                 
+                k
+                 
+              
+            
+              x  c  
+            
+              
+                poly
+              
+            
+             
+            n
+             
+          
+           
+        
+         
+      
+    
+      displaystyle   textsf  SUBEPT     textsf  DTIME   left    o k   cdot   textsf  poly   n  right   
+  
+
+More precisely  SUBEPT is the class of all parameterized problems 
+  
+    
+      
+         
+        L
+         
+        k
+         
+      
+    
+      displaystyle  L k  
+  
+ for which there is a computable function 
+  
+    
+      
+        f
+         
+        
+          N
+        
+          x     
+        
+          N
+        
+      
+    
+      displaystyle f  mathbb  N   to  mathbb  N   
+  
+ with 
+  
+    
+      
+        f
+          x     
+        o
+         
+        k
+         
+      
+    
+      displaystyle f in o k  
+  
+ and an algorithm that decides L in time 
+  
+    
+      
+        
+           
+          
+            f
+             
+            k
+             
+          
+        
+          x  c  
+        
+          
+            poly
+          
+        
+         
+        n
+         
+      
+    
+      displaystyle    f k   cdot   textsf  poly   n  
+  
+ 
+
+Exponential time hypothesis edit 
+Main article  Exponential time hypothesis
+The exponential time hypothesis  ETH  is that  SAT  the satisfiability problem of Boolean formulas in conjunctive normal form with at most three literals per clause and with n variables  cannot be solved in time  o n   More precisely  the hypothesis is that there is some absolute constant c  gt    such that  SAT cannot be decided in time  cn by any deterministic Turing machine  With m denoting the number of clauses  ETH is equivalent to the hypothesis that kSAT cannot be solved in time  o m  for any integer k                  The exponential time hypothesis implies P   NP 
+
+Exponential time edit 
+An algorithm is said to be exponential time  if T n  is upper bounded by  poly n   where poly n  is some polynomial in n  More formally  an algorithm is exponential time if T n  is bounded by O  nk  for some constant k  Problems which admit exponential time algorithms on a deterministic Turing machine form the complexity class known as EXP 
+
+
+  
+    
+      
+        
+          
+            EXP
+          
+        
+         
+        
+            x  c  
+          
+            c
+              x     
+            
+              
+                R
+                
+                   
+                
+              
+            
+          
+        
+        
+          
+            DTIME
+          
+        
+        
+           
+          
+             
+            
+              
+                n
+                
+                  c
+                
+              
+            
+          
+           
+        
+      
+    
+      displaystyle   textsf  EXP    bigcup   c in  mathbb  R         textsf  DTIME   left    n  c   right  
+  
+
+Sometimes  exponential time is used to refer to algorithms that have T n     O n   where the exponent is at most a linear function of n  This gives rise to the complexity class E 
+
+
+  
+    
+      
+        
+          
+            E
+          
+        
+         
+        
+            x  c  
+          
+            c
+              x     
+            
+              N
+            
+          
+        
+        
+          
+            DTIME
+          
+        
+        
+           
+          
+             
+            
+              c
+              n
+            
+          
+           
+        
+      
+    
+      displaystyle   textsf  E    bigcup   c in  mathbb  N     textsf  DTIME   left    cn  right  
+  
+
+Factorial time edit 
+An algorithm is said to be factorial time if T n  is upper bounded by the factorial function n   Factorial time is a subset of exponential time  EXP  because 
+  
+    
+      
+        n
+         
+          x     
+        
+          n
+          
+            n
+          
+        
+         
+        
+           
+          
+            n
+            log
+              x     
+            n
+          
+        
+         
+        O
+        
+           
+          
+             
+            
+              
+                n
+                
+                   
+                   
+                    x f  
+                
+              
+            
+          
+           
+        
+      
+    
+      displaystyle n  leq n  n     n log n  O left    n     epsilon    right  
+  
+ for all 
+  
+    
+      
+          x f  
+         gt 
+         
+      
+    
+      displaystyle  epsilon  gt   
+  
+  However  it is not a subset of E 
+An example of an algorithm that runs in factorial time is bogosort  a notoriously inefficient sorting algorithm based on trial and error   Bogosort sorts a list of n items by repeatedly shuffling the list until it is found to be sorted  In the average case  each pass through the bogosort algorithm will examine one of the n  orderings of the n items   If the items are distinct  only one such ordering is sorted  Bogosort shares patrimony with the infinite monkey theorem 
+
+Double exponential time edit 
+An algorithm is said to be double exponential time if T n  is upper bounded by   poly n   where poly n  is some polynomial in n  Such algorithms belong to the complexity class   EXPTIME 
+
+
+  
+    
+      
+        
+          
+              EXPTIME
+          
+        
+         
+        
+            x  c  
+          
+            c
+              x     
+            
+              N
+            
+          
+        
+        
+          
+            DTIME
+          
+        
+        
+           
+          
+             
+            
+              
+                 
+                
+                  
+                    n
+                    
+                      c
+                    
+                  
+                
+              
+            
+          
+           
+        
+      
+    
+      displaystyle   textsf    EXPTIME    bigcup   c in  mathbb  N     textsf  DTIME   left       n  c    right  
+  
+
+Well known double exponential time algorithms include 
+
+Decision procedures for Presburger arithmetic
+Computing a Gr bner basis  in the worst case             
+Quantifier elimination on real closed fields takes at least double exponential time              and can be done in this time             
+See also edit 
+L notation
+Space complexity
+References edit 
+
+
+  a b Sipser  Michael         Introduction to the Theory of Computation  Course Technology Inc  ISBN                    
+
+  Mehlhorn  Kurt  Naher  Stefan          Bounded ordered dictionaries in O log log N  time and O n  space   Information Processing Letters                   doi                            P 
+
+  Tao  Terence               The AKS primality test   An epsilon of room  II  Pages from year three of a mathematical blog  Graduate Studies in Mathematics  Vol            Providence  RI  American Mathematical Society  pp              doi         gsm      ISBN                         MR              
+
+  Lenstra  H  W  Jr   Pomerance  Carl          Primality testing with Gaussian periods   PDF   Journal of the European Mathematical Society                     doi         JEMS      hdl                       D    MR               S CID                
+
+  Calude  Cristian S  and Jain  Sanjay and Khoussainov  Bakhadyr and Li  Wei and Stephan  Frank          Deciding parity games in quasipolynomial time   Proceedings of the   th Annual ACM SIGACT Symposium on Theory of Computing  Association for Computing Machinery  pp                doi                          hdl             ISBN                     S CID                 cite book     CS  maint  multiple names  authors list  link 
+
+  a b Babai  L szl   Fortnow  Lance  Nisan  N   Wigderson  Avi          BPP has subexponential time simulations unless EXPTIME has publishable proofs   Computational Complexity         Berlin  New York  Springer Verlag           doi         BF          S CID               
+
+  Bradford  Phillip G   Rawlins  Gregory J  E   Shannon  Gregory E           Efficient matrix chain ordering in polylog time   SIAM Journal on Computing                   doi         S                  MR              
+
+  Holm  Jacob  Rotenberg  Eva          Fully dynamic planarity testing in polylogarithmic time   In Makarychev  Konstantin  Makarychev  Yury  Tulsiani  Madhur  Kamath  Gautam  Chuzhoy  Julia  eds    Proceedings of the   nd Annual ACM SIGACT Symposium on Theory of Computing  STOC       Chicago  IL  USA  June              Association for Computing Machinery  pp                arXiv             doi                          ISBN                        
+
+  Kumar  Ravi  Rubinfeld  Ronitt          Sublinear time algorithms   PDF   SIGACT News                 doi                        S CID            
+
+  Rubinfeld  Ronitt          Local Computation Algorithms   Proceedings of the      ACM Symposium on Principles of Distributed Computing  p          doi                          ISBN                        
+
+  Naik  Ashish V   Regan  Kenneth W   Sivakumar  D           On quasilinear time complexity theory   PDF   Theoretical Computer Science                    doi                            Q  MR              
+
+  Sedgewick  Robert  Wayne  Kevin         Algorithms   th      ed    Pearson Education  p           
+
+  Papadimitriou  Christos H          Computational complexity  Reading  Mass   Addison Wesley  ISBN                    
+
+  Cobham  Alan          The intrinsic computational difficulty of functions   Proc  Logic  Methodology  and Philosophy of Science II  North Holland 
+
+  Braverman  Mark  Kun Ko  Young  Rubinstein  Aviad  Weinstein  Omri          ETH hardness for densest k subgraph with perfect completeness   In Klein  Philip N   ed    Proceedings of the Twenty Eighth Annual ACM SIAM Symposium on Discrete Algorithms  SODA       Barcelona  Spain  Hotel Porta Fira  January        Society for Industrial and Applied Mathematics  pp                  arXiv             doi                             ISBN                         MR              
+
+  Complexity Zoo  Class QP  Quasipolynomial Time
+
+  a b Impagliazzo  Russell  Paturi  Ramamohan          On the complexity of k SAT   PDF   Journal of Computer and System Sciences                   doi         jcss            MR              
+
+  Aaronson  Scott    April         A not quite exponential dilemma   Shtetl Optimized  Retrieved   December      
+
+  Complexity Zoo  Class SUBEXP  Deterministic Subexponential Time
+
+  Moser  P           Baire s Categories on Small Complexity Classes   In Andrzej Lingas  Bengt J  Nilsson  eds    Fundamentals of Computation Theory    th International Symposium  FCT       Malm   Sweden  August              Proceedings  Lecture Notes in Computer Science  Vol             Berlin  New York  Springer Verlag  pp                doi                               ISBN                         ISSN                
+
+  Miltersen  P B           Derandomizing Complexity Classes   Handbook of Randomized Computing  Combinatorial Optimization  Vol          Kluwer Academic Pub  p            doi                               inactive   November        ISBN                          cite book     CS  maint  DOI inactive as of November       link 
+
+  Kuperberg  Greg          A Subexponential Time Quantum Algorithm for the Dihedral Hidden Subgroup Problem   SIAM Journal on Computing          Philadelphia       arXiv quant ph          doi         s                  ISSN                 S CID               
+
+  Oded Regev          A Subexponential Time Algorithm for the Dihedral Hidden Subgroup Problem with Polynomial Space   arXiv quant ph        v  
+
+  Grohe  Martin  Neuen  Daniel          Recent advances on the graph isomorphism problem   In Dabrowski  Konrad K   Gadouleau  Maximilien  Georgiou  Nicholas  Johnson  Matthew  Mertzios  George B   Paulusma  Dani l  eds    Surveys in combinatorics       London Mathematical Society Lecture Note Series  Vol            Cambridge University Press  pp                arXiv             ISBN                         MR              
+
+  Flum  J rg  Grohe  Martin         Parameterized Complexity Theory  Springer  p            ISBN                        
+
+  Impagliazzo  R   Paturi  R   Zane  F           Which problems have strongly exponential complexity    Journal of Computer and System Sciences                   doi         jcss           
+
+  Mayr  Ernst W   Meyer  Albert R           The complexity of the word problems for commutative semigroups and polynomial ideals   Advances in Mathematics                   doi                               hdl                MR              
+
+  Davenport  James H   Heintz  Joos          Real quantifier elimination is doubly exponential   Journal of Symbolic Computation                  doi         S                   X  MR              
+
+  Collins  George E           Quantifier elimination for real closed fields by cylindrical algebraic decomposition   In Brakhage  H   ed    Automata Theory and Formal Languages   nd GI Conference  Kaiserslautern  May              Lecture Notes in Computer Science  Vol           Springer  pp                doi                           ISBN                         MR              
+
+
+
+
+
+
+
+
+
+Retrieved from  https   en wikipedia org w index php title Time complexity amp oldid

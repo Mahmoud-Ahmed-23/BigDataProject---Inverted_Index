@@ -1,0 +1,6183 @@
+Algebraic structure in linear algebra
+Not to be confused with Vector field 
+ Linear space  redirects here  For a structure in incidence geometry  see Linear space  geometry  
+Vector addition and scalar multiplication  a vector v  blue  is added to another vector  w  red  upper illustration   Below   w is stretched by a factor of    yielding the sum v    w 
+In mathematics and physics  a vector space  also called a linear space  is a set whose elements  often called vectors  can be added together and multiplied   scaled   by numbers called scalars  The operations of vector addition and scalar multiplication must satisfy certain requirements  called vector axioms  Real vector spaces and complex vector spaces are kinds of vector spaces based on different kinds of scalars  real numbers and complex numbers  Scalars can also be  more generally  elements of any field 
+Vector spaces generalize Euclidean vectors  which allow modeling of physical quantities  such as forces and velocity  that have not only a magnitude  but also a direction  The concept of vector spaces is fundamental for linear algebra  together with the concept of matrices  which allows computing in vector spaces  This provides a concise and synthetic way for manipulating and studying systems of linear equations 
+Vector spaces are characterized by their dimension  which  roughly speaking  specifies the number of independent directions in the space  This means that  for two vector spaces over a given field and with the same dimension  the properties that depend only on the vector space structure are exactly the same  technically the vector spaces are isomorphic   A vector space is finite dimensional if its dimension is a natural number  Otherwise  it is infinite dimensional  and its dimension is an infinite cardinal  Finite dimensional vector spaces occur naturally in geometry and related areas  Infinite dimensional vector spaces occur in many areas of mathematics  For example  polynomial rings are countably infinite dimensional vector spaces  and many function spaces have the cardinality of the continuum as a dimension 
+Many vector spaces that are considered in mathematics are also endowed with other structures  This is the case of algebras  which include field extensions  polynomial rings  associative algebras and Lie algebras  This is also the case of topological vector spaces  which include function spaces  inner product spaces  normed spaces  Hilbert spaces and Banach spaces 
+
+Algebraic structures
+Group like
+Group
+Semigroup            Monoid
+Rack and quandle
+Quasigroup and loop
+
+Abelian group
+Magma
+Lie group
+
+Group theory
+
+Ring like
+Ring
+Rng
+Semiring
+Near ring
+Commutative ring
+Domain
+Integral domain
+Field
+Division ring
+Lie ring
+
+Ring theory
+
+Lattice like
+Lattice
+Semilattice
+Complemented lattice
+Total order
+Heyting algebra
+Boolean algebra
+
+Map of lattices
+Lattice theory
+
+Module like
+Module
+Group with operators
+Vector space
+
+Linear algebra
+
+Algebra like
+Algebra
+
+Associative
+Non associative
+Composition algebra
+Lie algebra
+Graded
+Bialgebra
+Hopf algebra
+
+vte
+
+Definition and basic properties edit 
+In this article  vectors are represented in boldface to distinguish them from scalars      nb                  
+A vector space over a field F is a non empty set      V together with a binary operation and a binary function that satisfy the eight axioms listed below  In this context  the elements of V are commonly called vectors  and the elements of      F are called scalars            
+
+The binary operation  called vector addition or simply addition assigns to any two vectors      v and w in V a third vector in V which is commonly written as v   w  and called the sum of these two vectors 
+The binary function  called scalar multiplication  assigns to any scalar      a in F and any vector      v in V another vector in V  which is denoted      av      nb       
+To have a vector space  the eight following axioms must be satisfied for every u  v and w in V  and a and b in F            
+
+
+
+
+Axiom
+
+Statement
+
+
+Associativity of vector addition
+u    v   w     u   v    w
+
+
+Commutativity of vector addition
+u   v   v   u
+
+
+Identity element of vector addition
+There exists an element     V  called the zero vector  such that v       v for all v   V 
+
+
+Inverse elements of vector addition
+For every v   V  there exists an element  v   V  called the additive inverse of v  such that v     v      
+
+
+Compatibility of scalar multiplication with field multiplication
+a bv     ab v      nb       
+
+
+Identity element of scalar multiplication
+ v   v  where   denotes the multiplicative identity in F 
+
+
+Distributivity of scalar multiplication with respect to vector addition              
+a u   v    au   av
+
+
+Distributivity of scalar multiplication with respect to field addition
+ a   b v   av   bv
+
+When the scalar field is the real numbers  the vector space is called a real vector space  and when the scalar field is the complex numbers  the vector space is called a complex vector space             These two cases are the most common ones  but vector spaces with scalars in an arbitrary field F are also commonly considered  Such a vector space is called an F vector space or a vector space over F            
+An equivalent definition of a vector space can be given  which is much more concise but less elementary  the first four axioms  related to vector addition  say that a vector space is an abelian group under addition  and the four remaining axioms  related to the scalar multiplication  say that this operation defines a ring homomorphism from the field F into the endomorphism ring of this group            
+Subtraction of two vectors can be defined as
+
+  
+    
+      
+        
+          v
+        
+          x     
+        
+          w
+        
+         
+        
+          v
+        
+         
+         
+          x     
+        
+          w
+        
+         
+         
+      
+    
+      displaystyle  mathbf  v    mathbf  w    mathbf  v      mathbf  w     
+  
+
+Direct consequences of the axioms include that  for every 
+  
+    
+      
+        s
+          x     
+        F
+      
+    
+      displaystyle s in F 
+  
+ and 
+  
+    
+      
+        
+          v
+        
+          x     
+        V
+         
+      
+    
+      displaystyle  mathbf  v   in V  
+  
+ one has
+
+
+  
+    
+      
+         
+        
+          v
+        
+         
+        
+           
+        
+         
+      
+    
+      displaystyle   mathbf  v    mathbf       
+  
+
+
+  
+    
+      
+        s
+        
+           
+        
+         
+        
+           
+        
+         
+      
+    
+      displaystyle s mathbf       mathbf       
+  
+
+
+  
+    
+      
+         
+          x     
+         
+         
+        
+          v
+        
+         
+          x     
+        
+          v
+        
+         
+      
+    
+      displaystyle      mathbf  v     mathbf  v    
+  
+
+
+  
+    
+      
+        s
+        
+          v
+        
+         
+        
+           
+        
+      
+    
+      displaystyle s mathbf  v    mathbf      
+  
+ implies 
+  
+    
+      
+        s
+         
+         
+      
+    
+      displaystyle s   
+  
+ or 
+  
+    
+      
+        
+          v
+        
+         
+        
+           
+        
+         
+      
+    
+      displaystyle  mathbf  v    mathbf       
+  
+
+Even more concisely  a vector space is a module over a field            
+
+Bases  vector coordinates  and subspaces edit 
+A vector v in R   blue  expressed in terms of different bases  using the standard basis of R   v   xe    ye   black   and using a different  non orthogonal basis  v   f    f   red  
+Linear combination
+Given a set G of elements of a F vector space V  a linear combination of elements of G is an element of V of the form 
+  
+    
+      
+        
+          a
+          
+             
+          
+        
+        
+          
+            g
+          
+          
+             
+          
+        
+         
+        
+          a
+          
+             
+          
+        
+        
+          
+            g
+          
+          
+             
+          
+        
+         
+          x  ef 
+         
+        
+          a
+          
+            k
+          
+        
+        
+          
+            g
+          
+          
+            k
+          
+        
+         
+      
+    
+      displaystyle a     mathbf  g       a     mathbf  g        cdots  a  k  mathbf  g    k   
+  
+ where 
+  
+    
+      
+        
+          a
+          
+             
+          
+        
+         
+          x     
+         
+        
+          a
+          
+            k
+          
+        
+          x     
+        F
+      
+    
+      displaystyle a      ldots  a  k  in F 
+  
+ and 
+  
+    
+      
+        
+          
+            g
+          
+          
+             
+          
+        
+         
+          x     
+         
+        
+          
+            g
+          
+          
+            k
+          
+        
+          x     
+        G
+         
+      
+    
+      displaystyle  mathbf  g        ldots   mathbf  g    k  in G  
+  
+ The scalars 
+  
+    
+      
+        
+          a
+          
+             
+          
+        
+         
+          x     
+         
+        
+          a
+          
+            k
+          
+        
+      
+    
+      displaystyle a      ldots  a  k  
+  
+ are called the coefficients of the linear combination            
+Linear independence
+The elements of a subset G of a F vector space V are said to be linearly independent if no element of G can be written as a linear combination of the other elements of G  Equivalently  they are linearly independent if two linear combinations of elements of G define the same element of V if and only if they have the same coefficients  Also equivalently  they are linearly independent if a linear combination results in the zero vector if and only if all its coefficients are zero            
+Linear subspace
+A linear subspace or vector subspace W of a vector space V is a non empty subset of V that is closed under vector addition and scalar multiplication  that is  the sum of two elements of W and the product of an element of W by a scalar belong to W              This implies that every linear combination of elements of W belongs to W  A linear subspace is a vector space for the induced addition and scalar multiplication  this means that the closure property implies that the axioms of a vector space are satisfied             The closure property also implies that every intersection of linear subspaces is a linear subspace             
+Linear span
+Given a subset G of a vector space V  the linear span or simply the span of G is the smallest linear subspace of V that contains G  in the sense that it is the intersection of all linear subspaces that contain G  The span of G is also the set of all linear combinations of elements of G  If W is the span of G  one says that G spans or generates W  and that G is a spanning set or a generating set of W             
+Basis and dimension
+A subset of a vector space is a basis if its elements are linearly independent and span the vector space              Every vector space has at least one basis  or many in general  see Basis  linear algebra         Proof that every vector space has a basis               Moreover  all bases of a vector space have the same cardinality  which is called the dimension of the vector space  see Dimension theorem for vector spaces               This is a fundamental property of vector spaces  which is detailed in the remainder of the section 
+Bases are a fundamental tool for the study of vector spaces  especially when the dimension is finite  In the infinite dimensional case  the existence of infinite bases  often called Hamel bases  depends on the axiom of choice  It follows that  in general  no base can be explicitly described              For example  the real numbers form an infinite dimensional vector space over the rational numbers  for which no specific basis is known  
+Consider a basis 
+  
+    
+      
+         
+        
+          
+            b
+          
+          
+             
+          
+        
+         
+        
+          
+            b
+          
+          
+             
+          
+        
+         
+          x     
+         
+        
+          
+            b
+          
+          
+            n
+          
+        
+         
+      
+    
+      displaystyle   mathbf  b        mathbf  b        ldots   mathbf  b    n   
+  
+ of a vector space V of dimension n over a field F  The definition of a basis implies that every 
+  
+    
+      
+        
+          v
+        
+          x     
+        V
+      
+    
+      displaystyle  mathbf  v   in V 
+  
+ may be written 
+
+  
+    
+      
+        
+          v
+        
+         
+        
+          a
+          
+             
+          
+        
+        
+          
+            b
+          
+          
+             
+          
+        
+         
+          x  ef 
+         
+        
+          a
+          
+            n
+          
+        
+        
+          
+            b
+          
+          
+            n
+          
+        
+         
+      
+    
+      displaystyle  mathbf  v   a     mathbf  b        cdots  a  n  mathbf  b    n   
+  
+ 
+with 
+  
+    
+      
+        
+          a
+          
+             
+          
+        
+         
+          x     
+         
+        
+          a
+          
+            n
+          
+        
+      
+    
+      displaystyle a      dots  a  n  
+  
+ in F  and that this decomposition is unique  The scalars 
+  
+    
+      
+        
+          a
+          
+             
+          
+        
+         
+          x     
+         
+        
+          a
+          
+            n
+          
+        
+      
+    
+      displaystyle a      ldots  a  n  
+  
+ are called the coordinates of v on the basis  They are also said to be the coefficients of the decomposition of v on the basis  One also says that the n tuple of the coordinates is the coordinate vector of v on the basis  since the set 
+  
+    
+      
+        
+          F
+          
+            n
+          
+        
+      
+    
+      displaystyle F  n  
+  
+ of the n tuples of elements of F is a vector space for componentwise addition and scalar multiplication  whose dimension is n 
+The one to one correspondence between vectors and their coordinate vectors maps vector addition to vector addition and scalar multiplication to scalar multiplication  It is thus a vector space isomorphism  which allows translating reasonings and computations on vectors into reasonings and computations on their coordinates             
+
+History edit 
+Vector spaces stem from affine geometry  via the introduction of coordinates in the plane or three dimensional space  Around       French mathematicians Ren  Descartes and Pierre de Fermat founded analytic geometry by identifying solutions to an equation of two variables with points on a plane curve              To achieve geometric solutions without using coordinates  Bolzano introduced  in       certain operations on points  lines  and planes  which are predecessors of vectors              M bius        introduced the notion of barycentric coordinates              Bellavitis        introduced an equivalence relation on directed line segments that share the same length and direction which he called equipollence              A Euclidean vector is then an equivalence class of that relation              
+Vectors were reconsidered with the presentation of complex numbers by Argand and Hamilton and the inception of quaternions by the latter              They are elements in R  and R   treating them using linear combinations goes back to Laguerre in       who also defined systems of linear equations 
+In       Cayley introduced the matrix notation which allows for harmonization and simplification of linear maps  Around the same time  Grassmann studied the barycentric calculus initiated by M bius  He envisaged sets of abstract objects endowed with operations              In his work  the concepts of linear independence and dimension  as well as scalar products are present  Grassmann s      work exceeds the framework of vector spaces as well since his considering multiplication led him to what are today called algebras  Italian mathematician Peano was the first to give the modern definition of vector spaces and linear maps in                   although he called them  linear systems               Peano s axiomatization allowed for vector spaces with infinite dimension  but Peano did not develop that theory further  In       Salvatore Pincherle adopted Peano s axioms and made initial inroads into the theory of infinite dimensional vector spaces              
+An important development of vector spaces is due to the construction of function spaces by Henri Lebesgue  This was later formalized by Banach and Hilbert  around                   At that time  algebra and the new field of functional analysis began to interact  notably with key concepts such as spaces of p integrable functions and Hilbert spaces             
+
+Examples edit 
+Main article  Examples of vector spaces
+Arrows in the plane edit 
+Vector addition  the sum v   w  black  of the vectors v  blue  and w  red  is shown Scalar multiplication  the multiples  v and  w are shown 
+The first example of a vector space consists of arrows in a fixed plane  starting at one fixed point  This is used in physics to describe forces or velocities              Given any two such arrows  v and w  the parallelogram spanned by these two arrows contains one diagonal arrow that starts at the origin  too  This new arrow is called the sum of the two arrows  and is denoted v   w  In the special case of two arrows on the same line  their sum is the arrow on this line whose length is the sum or the difference of the lengths  depending on whether the arrows have the same direction  Another operation that can be done with arrows is scaling  given any positive real number a  the arrow that has the same direction as v  but is dilated or shrunk by multiplying its length by a  is called multiplication of v by a  It is denoted av  When a is negative  av is defined as the arrow pointing in the opposite direction instead             
+The following shows a few examples  if a      the resulting vector aw has the same direction as w  but is stretched to the double length of w  the second image   Equivalently   w is the sum w   w  Moreover      v    v has the opposite direction and the same length as v  blue vector pointing down in the second image  
+
+Ordered pairs of numbers edit 
+A second key example of a vector space is provided by pairs of real numbers x and y  The order of the components x and y is significant  so such a pair is also called an ordered pair  Such a pair is written as  x  y   The sum of two such pairs and the multiplication of a pair with a number is defined as follows             
+
+  
+    
+      
+        
+          
+            
+              
+                 
+                
+                  x
+                  
+                     
+                  
+                
+                 
+                
+                  y
+                  
+                     
+                  
+                
+                 
+                 
+                 
+                
+                  x
+                  
+                     
+                  
+                
+                 
+                
+                  y
+                  
+                     
+                  
+                
+                 
+              
+              
+                
+                 
+                 
+                
+                  x
+                  
+                     
+                  
+                
+                 
+                
+                  x
+                  
+                     
+                  
+                
+                 
+                
+                  y
+                  
+                     
+                  
+                
+                 
+                
+                  y
+                  
+                     
+                  
+                
+                 
+                 
+              
+            
+            
+              
+                a
+                 
+                x
+                 
+                y
+                 
+              
+              
+                
+                 
+                 
+                a
+                x
+                 
+                a
+                y
+                 
+                 
+              
+            
+          
+        
+      
+    
+      displaystyle   begin aligned  x     y       x     y      amp   x     x     y     y        a x y  amp   ax ay   end aligned   
+  
+
+The first example above reduces to this example if an arrow is represented by a pair of Cartesian coordinates of its endpoint 
+
+Coordinate space edit 
+The simplest example of a vector space over a field F is the field F itself with its addition viewed as vector addition and its multiplication viewed as scalar multiplication  More generally  all n tuples  sequences of length n  
+
+  
+    
+      
+         
+        
+          a
+          
+             
+          
+        
+         
+        
+          a
+          
+             
+          
+        
+         
+          x     
+         
+        
+          a
+          
+            n
+          
+        
+         
+      
+    
+      displaystyle  a     a      dots  a  n   
+  
+
+of elements ai of F form a vector space that is usually denoted Fn and called a coordinate space              
+The case n     is the above mentioned simplest example  in which the field F is also regarded as a vector space over itself  The case F   R and n      so R   reduces to the previous example 
+
+Complex numbers and other field extensions edit 
+The set of complex numbers C  numbers that can be written in the form x   iy for real numbers x and y where i is the imaginary unit  form a vector space over the reals with the usual addition and multiplication   x   iy     a   ib     x   a    i y   b  and c    x   iy     c   x    i c   y  for real numbers x  y  a  b and c   The various axioms of a vector space follow from the fact that the same rules hold for complex number arithmetic  The example of complex numbers is essentially the same as  that is  it is isomorphic to  the vector space of ordered pairs of real numbers mentioned above  if we think of the complex number x   i y as representing the ordered pair  x  y  in the complex plane then we see that the rules for addition and scalar multiplication correspond exactly to those in the earlier example 
+More generally  field extensions provide another class of examples of vector spaces  particularly in algebra and algebraic number theory  a field F containing a smaller field E is an E vector space  by the given multiplication and addition operations of F              For example  the complex numbers are a vector space over R  and the field extension 
+  
+    
+      
+        
+          Q
+        
+         
+        i
+        
+          
+             
+          
+        
+         
+      
+    
+      displaystyle  mathbf  Q   i  sqrt       
+  
+ is a vector space over Q   
+
+Function spaces edit 
+Main article  Function space
+Addition of functions  the sum of the sine and the exponential function is 
+  
+    
+      
+        sin
+         
+        exp
+         
+        
+          R
+        
+          x     
+        
+          R
+        
+      
+    
+      displaystyle  sin   exp   mathbb  R   to  mathbb  R   
+  
+ with 
+  
+    
+      
+         
+        sin
+         
+        exp
+         
+         
+        x
+         
+         
+        sin
+          x     
+         
+        x
+         
+         
+        exp
+          x     
+         
+        x
+         
+      
+    
+      displaystyle   sin   exp   x   sin x   exp x  
+  
+ 
+Functions from any fixed set   to a field F also form vector spaces  by performing addition and scalar multiplication pointwise  That is  the sum of two functions f and g is the function 
+  
+    
+      
+         
+        f
+         
+        g
+         
+      
+    
+      displaystyle  f g  
+  
+ given by
+
+  
+    
+      
+         
+        f
+         
+        g
+         
+         
+        w
+         
+         
+        f
+         
+        w
+         
+         
+        g
+         
+        w
+         
+         
+      
+    
+      displaystyle  f g  w  f w  g w   
+  
+
+and similarly for multiplication  Such function spaces occur in many geometric situations  when   is the real line or an interval  or other subsets of R  Many notions in topology and analysis  such as continuity  integrability or differentiability are well behaved with respect to linearity  sums and scalar multiples of functions possessing such a property still have that property              Therefore  the set of such functions are vector spaces  whose study belongs to functional analysis 
+
+Linear equations edit 
+Main articles  Linear equation  Linear differential equation  and Systems of linear equations
+Systems of homogeneous linear equations are closely tied to vector spaces              For example  the solutions of 
+
+  
+    
+      
+        
+          
+            
+              
+              
+              
+                a
+                
+              
+              
+              
+                 
+                
+                 
+                b
+                
+              
+              
+                
+                
+                 
+              
+              
+                
+              
+              
+                c
+              
+              
+                
+                 
+                 
+              
+            
+            
+              
+                 
+              
+              
+              
+                a
+                
+              
+              
+              
+                 
+                
+                 
+                b
+                
+              
+              
+                
+                
+                 
+              
+              
+                
+                 
+              
+              
+                c
+              
+              
+                
+                 
+                 
+              
+            
+          
+        
+      
+    
+      displaystyle   begin alignedat     amp  amp a   amp  amp     b   amp     amp    amp c amp         amp  amp a   amp  amp     b   amp     amp     amp c amp        end alignedat   
+  
+
+are given by triples with arbitrary 
+  
+    
+      
+        a
+         
+      
+    
+      displaystyle a  
+  
+ 
+  
+    
+      
+        b
+         
+        a
+        
+           
+        
+         
+         
+      
+    
+      displaystyle b a    
+  
+ and 
+  
+    
+      
+        c
+         
+          x     
+         
+        a
+        
+           
+        
+          
+      
+    
+      displaystyle c   a    
+  
+ They form a vector space  sums and scalar multiples of such triples still satisfy the same ratios of the three variables  thus they are solutions  too  Matrices can be used to condense multiple linear equations as above into one vector equation  namely
+
+
+  
+    
+      
+        A
+        
+          x
+        
+         
+        
+           
+        
+         
+      
+    
+      displaystyle A mathbf  x    mathbf       
+  
+
+where 
+  
+    
+      
+        A
+         
+        
+          
+             
+            
+              
+                
+                   
+                
+                
+                   
+                
+                
+                   
+                
+              
+              
+                
+                   
+                
+                
+                   
+                
+                
+                   
+                
+              
+            
+             
+          
+        
+      
+    
+      displaystyle A   begin bmatrix   amp   amp      amp   amp   end bmatrix   
+  
+ is the matrix containing the coefficients of the given equations  
+  
+    
+      
+        
+          x
+        
+      
+    
+      displaystyle  mathbf  x   
+  
+ is the vector 
+  
+    
+      
+         
+        a
+         
+        b
+         
+        c
+         
+         
+      
+    
+      displaystyle  a b c   
+  
+ 
+  
+    
+      
+        A
+        
+          x
+        
+      
+    
+      displaystyle A mathbf  x   
+  
+ denotes the matrix product  and 
+  
+    
+      
+        
+           
+        
+         
+         
+         
+         
+         
+         
+      
+    
+      displaystyle  mathbf            
+  
+ is the zero vector  In a similar vein  the solutions of homogeneous linear differential equations form vector spaces  For example 
+
+
+  
+    
+      
+        
+          f
+          
+              x     
+              x     
+          
+        
+         
+        x
+         
+         
+         
+        
+          f
+          
+              x     
+          
+        
+         
+        x
+         
+         
+        f
+         
+        x
+         
+         
+         
+      
+    
+      displaystyle f   prime  prime   x   f   prime   x  f x    
+  
+
+yields 
+  
+    
+      
+        f
+         
+        x
+         
+         
+        a
+        
+          e
+          
+              x     
+            x
+          
+        
+         
+        b
+        x
+        
+          e
+          
+              x     
+            x
+          
+        
+         
+      
+    
+      displaystyle f x  ae   x  bxe   x   
+  
+ where 
+  
+    
+      
+        a
+      
+    
+      displaystyle a 
+  
+ and 
+  
+    
+      
+        b
+      
+    
+      displaystyle b 
+  
+ are arbitrary constants  and 
+  
+    
+      
+        
+          e
+          
+            x
+          
+        
+      
+    
+      displaystyle e  x  
+  
+ is the natural exponential function 
+
+Linear maps and matrices edit 
+Main article  Linear map
+The relation of two vector spaces can be expressed by linear map or linear transformation  They are functions that reflect the vector space structure  that is  they preserve sums and scalar multiplication 
+
+  
+    
+      
+        
+          
+            
+              
+                f
+                 
+                
+                  v
+                
+                 
+                
+                  w
+                
+                 
+              
+              
+                
+                 
+                f
+                 
+                
+                  v
+                
+                 
+                 
+                f
+                 
+                
+                  w
+                
+                 
+                 
+              
+            
+            
+              
+                f
+                 
+                a
+                  x  c  
+                
+                  v
+                
+                 
+              
+              
+                
+                 
+                a
+                  x  c  
+                f
+                 
+                
+                  v
+                
+                 
+              
+            
+          
+        
+      
+    
+      displaystyle   begin aligned f  mathbf  v    mathbf  w    amp  f  mathbf  v    f  mathbf  w      f a cdot  mathbf  v    amp  a cdot f  mathbf  v    end aligned   
+  
+ 
+for all 
+  
+    
+      
+        
+          v
+        
+      
+    
+      displaystyle  mathbf  v   
+  
+ and 
+  
+    
+      
+        
+          w
+        
+      
+    
+      displaystyle  mathbf  w   
+  
+ in 
+  
+    
+      
+        V
+         
+      
+    
+      displaystyle V  
+  
+ all 
+  
+    
+      
+        a
+      
+    
+      displaystyle a 
+  
+ in 
+  
+    
+      
+        F
+         
+      
+    
+      displaystyle F  
+  
+            
+An isomorphism is a linear map f        V   W such that there exists an inverse map g        W   V  which is a map such that the two possible compositions f   g        W   W and g   f        V   V are identity maps  Equivalently  f is both one to one  injective  and onto  surjective               If there exists an isomorphism between V and W  the two spaces are said to be isomorphic  they are then essentially identical as vector spaces  since all identities holding in V are  via f  transported to similar ones in W  and vice versa via g 
+
+Describing an arrow vector v by its coordinates x and y yields an isomorphism of vector spaces 
+For example  the arrows in the plane and the ordered pairs of numbers vector spaces in the introduction above  see        Examples  are isomorphic  a planar arrow v departing at the origin of some  fixed  coordinate system can be expressed as an ordered pair by considering the x  and y component of the arrow  as shown in the image at the right  Conversely  given a pair  x  y   the arrow going by x to the right  or to the left  if x is negative   and y up  down  if y is negative  turns back the arrow v             
+Linear maps V   W between two vector spaces form a vector space HomF V  W   also denoted L V  W   or    V  W               The space of linear maps from V to F is called the dual vector space  denoted V               Via the injective natural map V   V    any vector space can be embedded into its bidual  the map is an isomorphism if and only if the space is finite dimensional             
+Once a basis of V is chosen  linear maps f        V   W are completely determined by specifying the images of the basis vectors  because any element of V is expressed uniquely as a linear combination of them              If dim V   dim W  a   to   correspondence between fixed bases of V and W gives rise to a linear map that maps any basis element of V to the corresponding basis element of W  It is an isomorphism  by its very definition              Therefore  two vector spaces over a given field are isomorphic if their dimensions agree and vice versa  Another way to express this is that any vector space over a given field is completely classified  up to isomorphism  by its dimension  a single number  In particular  any n dimensional F vector space V is isomorphic to Fn  However  there is no  canonical  or preferred isomorphism  an isomorphism          Fn   V is equivalent to the choice of a basis of V  by mapping the standard basis of Fn to V  via    
+
+Matrices edit 
+Main articles  Matrix and Determinant
+A typical matrix
+Matrices are a useful notion to encode linear maps              They are written as a rectangular array of scalars as in the image at the right  Any m by n matrix 
+  
+    
+      
+        A
+      
+    
+      displaystyle A 
+  
+ gives rise to a linear map from Fn to Fm  by the following
+
+  
+    
+      
+        
+          x
+        
+         
+         
+        
+          x
+          
+             
+          
+        
+         
+        
+          x
+          
+             
+          
+        
+         
+          x     
+         
+        
+          x
+          
+            n
+          
+        
+         
+          x  a  
+        
+           
+          
+            
+                x     
+              
+                j
+                 
+                 
+              
+              
+                n
+              
+            
+            
+              a
+              
+                 
+                j
+              
+            
+            
+              x
+              
+                j
+              
+            
+             
+            
+                x     
+              
+                j
+                 
+                 
+              
+              
+                n
+              
+            
+            
+              a
+              
+                 
+                j
+              
+            
+            
+              x
+              
+                j
+              
+            
+             
+              x     
+             
+            
+                x     
+              
+                j
+                 
+                 
+              
+              
+                n
+              
+            
+            
+              a
+              
+                m
+                j
+              
+            
+            
+              x
+              
+                j
+              
+            
+          
+           
+        
+         
+      
+    
+      displaystyle  mathbf  x    x     x      ldots  x  n   mapsto  left  sum   j     n a   j x  j   sum   j     n a   j x  j   ldots   sum   j     n a  mj x  j  right   
+  
+ 
+where 
+  
+    
+      
+          x     
+      
+    
+      textstyle  sum  
+  
+ denotes summation  or by using the matrix multiplication of the matrix 
+  
+    
+      
+        A
+      
+    
+      displaystyle A 
+  
+ with the coordinate vector 
+  
+    
+      
+        
+          x
+        
+      
+    
+      displaystyle  mathbf  x   
+  
+ 
+
+
+  
+    
+      
+        
+          x
+        
+          x  a  
+        A
+        
+          x
+        
+         
+      
+    
+      displaystyle  mathbf  x   mapsto A mathbf  x    
+  
+
+Moreover  after choosing bases of V and W  any linear map f        V   W is uniquely represented by a matrix via this assignment             
+
+The volume of this parallelepiped is the absolute value of the determinant of the   by   matrix formed by the vectors r   r   and r  
+The determinant det  A  of a square matrix A is a scalar that tells whether the associated map is an isomorphism or not  to be so it is sufficient and necessary that the determinant is nonzero              The linear transformation of Rn corresponding to a real n by n matrix is orientation preserving if and only if its determinant is positive 
+
+Eigenvalues and eigenvectors edit 
+Main article  Eigenvalues and eigenvectors
+Endomorphisms  linear maps f        V   V  are particularly important since in this case vectors v can be compared with their image under f  f v   Any nonzero vector v satisfying  v   f v   where   is a scalar  is called an eigenvector of f with eigenvalue                Equivalently  v is an element of the kernel of the difference f       Id  where Id is the identity map V   V   If V is finite dimensional  this can be rephrased using determinants  f  having eigenvalue   is equivalent to
+
+  
+    
+      
+        det
+         
+        f
+          x     
+          x bb 
+          x  c  
+        Id
+         
+         
+          
+      
+    
+      displaystyle  det f  lambda  cdot  operatorname  Id       
+  
+
+By spelling out the definition of the determinant  the expression on the left hand side can be seen to be a polynomial function in    called the characteristic polynomial of f              If the field F is large enough to contain a zero of this polynomial  which automatically happens for F algebraically closed  such as F   C  any linear map has at least one eigenvector  The vector space V may or may not possess an eigenbasis  a basis consisting of eigenvectors  This phenomenon is governed by the Jordan canonical form of the map              The set of all eigenvectors corresponding to a particular eigenvalue of f forms a vector space known as the eigenspace corresponding to the eigenvalue  and f  in question 
+
+Basic constructions edit 
+In addition to the above concrete examples  there are a number of standard linear algebraic constructions that yield vector spaces related to given ones  
+
+Subspaces and quotient spaces edit 
+Main articles  Linear subspace and Quotient vector space
+A line passing through the origin  blue  thick  in R  is a linear subspace  It is the intersection of two planes  green and yellow  
+A nonempty subset 
+  
+    
+      
+        W
+      
+    
+      displaystyle W 
+  
+ of a vector space 
+  
+    
+      
+        V
+      
+    
+      displaystyle V 
+  
+ that is closed under addition and scalar multiplication  and therefore contains the 
+  
+    
+      
+        
+           
+        
+      
+    
+      displaystyle  mathbf      
+  
+ vector of 
+  
+    
+      
+        V
+      
+    
+      displaystyle V 
+  
+  is called a linear subspace of 
+  
+    
+      
+        V
+      
+    
+      displaystyle V 
+  
+  or simply a subspace of 
+  
+    
+      
+        V
+      
+    
+      displaystyle V 
+  
+  when the ambient space is unambiguously a vector space                  nb        Subspaces of 
+  
+    
+      
+        V
+      
+    
+      displaystyle V 
+  
+ are vector spaces  over the same field  in their own right  The intersection of all subspaces containing a given set 
+  
+    
+      
+        S
+      
+    
+      displaystyle S 
+  
+ of vectors is called its span  and it is the smallest subspace of 
+  
+    
+      
+        V
+      
+    
+      displaystyle V 
+  
+ containing the set 
+  
+    
+      
+        S
+      
+    
+      displaystyle S 
+  
+  Expressed in terms of elements  the span is the subspace consisting of all the linear combinations of elements of 
+  
+    
+      
+        S
+      
+    
+      displaystyle S 
+  
+             
+Linear subspace of dimension   and   are referred to as a line  also vector line   and a plane respectively  If W is an n dimensional vector space  any subspace of dimension   less  i e   of dimension 
+  
+    
+      
+        n
+          x     
+         
+      
+    
+      displaystyle n   
+  
+ is called a hyperplane             
+The counterpart to subspaces are quotient vector spaces              Given any subspace 
+  
+    
+      
+        W
+          x     
+        V
+      
+    
+      displaystyle W subseteq V 
+  
+  the quotient space 
+  
+    
+      
+        V
+        
+           
+        
+        W
+      
+    
+      displaystyle V W 
+  
+   
+  
+    
+      
+        V
+      
+    
+      displaystyle V 
+  
+ modulo 
+  
+    
+      
+        W
+      
+    
+      displaystyle W 
+  
+   is defined as follows  as a set  it consists of
+
+  
+    
+      
+        
+          v
+        
+         
+        W
+         
+         
+        
+          v
+        
+         
+        
+          w
+        
+         
+        
+          w
+        
+          x     
+        W
+         
+         
+      
+    
+      displaystyle  mathbf  v   W    mathbf  v    mathbf  w    mathbf  w   in W    
+  
+
+where 
+  
+    
+      
+        
+          v
+        
+      
+    
+      displaystyle  mathbf  v   
+  
+ is an arbitrary vector in 
+  
+    
+      
+        V
+      
+    
+      displaystyle V 
+  
+  The sum of two such elements 
+  
+    
+      
+        
+          
+            v
+          
+          
+             
+          
+        
+         
+        W
+      
+    
+      displaystyle  mathbf  v       W 
+  
+ and 
+  
+    
+      
+        
+          
+            v
+          
+          
+             
+          
+        
+         
+        W
+      
+    
+      displaystyle  mathbf  v       W 
+  
+ is 
+  
+    
+      
+        
+           
+          
+            
+              
+                v
+              
+              
+                 
+              
+            
+             
+            
+              
+                v
+              
+              
+                 
+              
+            
+          
+           
+        
+         
+        W
+      
+    
+      displaystyle  left  mathbf  v        mathbf  v       right  W 
+  
+  and scalar multiplication is given by 
+  
+    
+      
+        a
+          x  c  
+         
+        
+          v
+        
+         
+        W
+         
+         
+         
+        a
+          x  c  
+        
+          v
+        
+         
+         
+        W
+      
+    
+      displaystyle a cdot   mathbf  v   W   a cdot  mathbf  v    W 
+  
+  The key point in this definition is that 
+  
+    
+      
+        
+          
+            v
+          
+          
+             
+          
+        
+         
+        W
+         
+        
+          
+            v
+          
+          
+             
+          
+        
+         
+        W
+      
+    
+      displaystyle  mathbf  v       W  mathbf  v       W 
+  
+ if and only if the difference of 
+  
+    
+      
+        
+          
+            v
+          
+          
+             
+          
+        
+      
+    
+      displaystyle  mathbf  v       
+  
+ and 
+  
+    
+      
+        
+          
+            v
+          
+          
+             
+          
+        
+      
+    
+      displaystyle  mathbf  v       
+  
+ lies in 
+  
+    
+      
+        W
+      
+    
+      displaystyle W 
+  
+      nb        This way  the quotient space  forgets  information that is contained in the subspace 
+  
+    
+      
+        W
+      
+    
+      displaystyle W 
+  
+ 
+The kernel 
+  
+    
+      
+        ker
+          x     
+         
+        f
+         
+      
+    
+      displaystyle  ker f  
+  
+ of a linear map 
+  
+    
+      
+        f
+         
+        V
+          x     
+        W
+      
+    
+      displaystyle f V to W 
+  
+ consists of vectors 
+  
+    
+      
+        
+          v
+        
+      
+    
+      displaystyle  mathbf  v   
+  
+ that are mapped to 
+  
+    
+      
+        
+           
+        
+      
+    
+      displaystyle  mathbf      
+  
+ in 
+  
+    
+      
+        W
+      
+    
+      displaystyle W 
+  
+              The kernel and the image 
+  
+    
+      
+        im
+          x     
+         
+        f
+         
+         
+         
+        f
+         
+        
+          v
+        
+         
+         
+        
+          v
+        
+          x     
+        V
+         
+      
+    
+      displaystyle  operatorname  im   f    f  mathbf  v     mathbf  v   in V   
+  
+ are subspaces of 
+  
+    
+      
+        V
+      
+    
+      displaystyle V 
+  
+ and 
+  
+    
+      
+        W
+      
+    
+      displaystyle W 
+  
+  respectively              
+An important example is the kernel of a linear map 
+  
+    
+      
+        
+          x
+        
+          x  a  
+        A
+        
+          x
+        
+      
+    
+      displaystyle  mathbf  x   mapsto A mathbf  x   
+  
+ for some fixed matrix 
+  
+    
+      
+        A
+      
+    
+      displaystyle A 
+  
+  The kernel of this map is the subspace of vectors 
+  
+    
+      
+        
+          x
+        
+      
+    
+      displaystyle  mathbf  x   
+  
+ such that 
+  
+    
+      
+        A
+        
+          x
+        
+         
+        
+           
+        
+      
+    
+      displaystyle A mathbf  x    mathbf      
+  
+  which is precisely the set of solutions to the system of homogeneous linear equations belonging to 
+  
+    
+      
+        A
+      
+    
+      displaystyle A 
+  
+  This concept also extends to linear differential equations
+
+  
+    
+      
+        
+          a
+          
+             
+          
+        
+        f
+         
+        
+          a
+          
+             
+          
+        
+        
+          
+            
+              d
+              f
+            
+            
+              d
+              x
+            
+          
+        
+         
+        
+          a
+          
+             
+          
+        
+        
+          
+            
+              
+                d
+                
+                   
+                
+              
+              f
+            
+            
+              d
+              
+                x
+                
+                   
+                
+              
+            
+          
+        
+         
+          x  ef 
+         
+        
+          a
+          
+            n
+          
+        
+        
+          
+            
+              
+                d
+                
+                  n
+                
+              
+              f
+            
+            
+              d
+              
+                x
+                
+                  n
+                
+              
+            
+          
+        
+         
+         
+         
+      
+    
+      displaystyle a    f a      frac  df  dx   a      frac  d    f  dx        cdots  a  n   frac  d  n f  dx  n       
+  
+
+where the coefficients 
+  
+    
+      
+        
+          a
+          
+            i
+          
+        
+      
+    
+      displaystyle a  i  
+  
+ are functions in 
+  
+    
+      
+        x
+         
+      
+    
+      displaystyle x  
+  
+ too 
+In the corresponding map
+
+  
+    
+      
+        f
+          x  a  
+        D
+         
+        f
+         
+         
+        
+            x     
+          
+            i
+             
+             
+          
+          
+            n
+          
+        
+        
+          a
+          
+            i
+          
+        
+        
+          
+            
+              
+                d
+                
+                  i
+                
+              
+              f
+            
+            
+              d
+              
+                x
+                
+                  i
+                
+              
+            
+          
+        
+         
+      
+    
+      displaystyle f mapsto D f   sum   i     n a  i   frac  d  i f  dx  i     
+  
+
+the derivatives of the function 
+  
+    
+      
+        f
+      
+    
+      displaystyle f 
+  
+ appear linearly  as opposed to 
+  
+    
+      
+        
+          f
+          
+              x     
+              x     
+          
+        
+         
+        x
+        
+           
+          
+             
+          
+        
+      
+    
+      displaystyle f   prime  prime   x      
+  
+  for example   Since differentiation is a linear procedure  that is  
+  
+    
+      
+         
+        f
+         
+        g
+        
+           
+          
+              x     
+          
+        
+         
+        
+          f
+          
+              x     
+          
+        
+         
+        
+          g
+          
+              x     
+          
+        
+      
+    
+      displaystyle  f g    prime   f   prime   g   prime   
+  
+ and 
+  
+    
+      
+         
+        c
+          x  c  
+        f
+        
+           
+          
+              x     
+          
+        
+         
+        c
+          x  c  
+        
+          f
+          
+              x     
+          
+        
+      
+    
+      displaystyle  c cdot f    prime   c cdot f   prime   
+  
+ for a constant 
+  
+    
+      
+        c
+      
+    
+      displaystyle c 
+  
+  this assignment is linear  called a linear differential operator  In particular  the solutions to the differential equation 
+  
+    
+      
+        D
+         
+        f
+         
+         
+         
+      
+    
+      displaystyle D f    
+  
+ form a vector space  over R or C              
+The existence of kernels and images is part of the statement that the category of vector spaces  over a fixed field 
+  
+    
+      
+        F
+      
+    
+      displaystyle F 
+  
+  is an abelian category  that is  a corpus of mathematical objects and structure preserving maps between them  a category  that behaves much like the category of abelian groups              Because of this  many statements such as the first isomorphism theorem  also called rank nullity theorem in matrix related terms 
+
+  
+    
+      
+        V
+        
+           
+        
+        ker
+          x     
+         
+        f
+         
+        
+          x     
+        
+        im
+          x     
+         
+        f
+         
+      
+    
+      displaystyle V  ker f    equiv    operatorname  im   f  
+  
+
+and the second and third isomorphism theorem can be formulated and proven in a way very similar to the corresponding statements for groups 
+
+Direct product and direct sum edit 
+Main articles  Direct product and Direct sum of modules
+The direct product of vector spaces and the direct sum of vector spaces are two ways of combining an indexed family of vector spaces into a new vector space 
+The direct product 
+  
+    
+      
+        
+          
+            
+                x   f 
+              
+                i
+                  x     
+                I
+              
+            
+            
+              V
+              
+                i
+              
+            
+          
+        
+      
+    
+      displaystyle  textstyle   prod   i in I V  i   
+  
+ of a family of vector spaces 
+  
+    
+      
+        
+          V
+          
+            i
+          
+        
+      
+    
+      displaystyle V  i  
+  
+ consists of the set of all tuples 
+  
+    
+      
+        
+          
+             
+            
+              
+                v
+              
+              
+                i
+              
+            
+             
+          
+          
+            i
+              x     
+            I
+          
+        
+      
+    
+      displaystyle  left  mathbf  v    i  right   i in I  
+  
+  which specify for each index 
+  
+    
+      
+        i
+      
+    
+      displaystyle i 
+  
+ in some index set 
+  
+    
+      
+        I
+      
+    
+      displaystyle I 
+  
+ an element 
+  
+    
+      
+        
+          
+            v
+          
+          
+            i
+          
+        
+      
+    
+      displaystyle  mathbf  v    i  
+  
+ of 
+  
+    
+      
+        
+          V
+          
+            i
+          
+        
+      
+    
+      displaystyle V  i  
+  
+              Addition and scalar multiplication is performed componentwise  A variant of this construction is the direct sum 
+  
+    
+      
+        
+            x a   
+          
+            i
+              x     
+            I
+          
+        
+        
+          V
+          
+            i
+          
+        
+      
+    
+      textstyle  bigoplus   i in I V  i  
+  
+  also called coproduct and denoted 
+  
+    
+      
+        
+            x     
+          
+            i
+              x     
+            I
+          
+        
+        
+          V
+          
+            i
+          
+        
+      
+    
+      textstyle  coprod   i in I V  i  
+  
+   where only tuples with finitely many nonzero vectors are allowed  If the index set 
+  
+    
+      
+        I
+      
+    
+      displaystyle I 
+  
+ is finite  the two constructions agree  but in general they are different 
+
+Tensor product edit 
+Main article  Tensor product of vector spaces
+The tensor product 
+  
+    
+      
+        V
+        
+            x     
+          
+            F
+          
+        
+        W
+         
+      
+    
+      displaystyle V otimes   F W  
+  
+ or simply 
+  
+    
+      
+        V
+          x     
+        W
+         
+      
+    
+      displaystyle V otimes W  
+  
+ of two vector spaces 
+  
+    
+      
+        V
+      
+    
+      displaystyle V 
+  
+ and 
+  
+    
+      
+        W
+      
+    
+      displaystyle W 
+  
+ is one of the central notions of multilinear algebra which deals with extending notions such as linear maps to several variables  A map 
+  
+    
+      
+        g
+         
+        V
+          xd  
+        W
+          x     
+        X
+      
+    
+      displaystyle g V times W to X 
+  
+ from the Cartesian product 
+  
+    
+      
+        V
+          xd  
+        W
+      
+    
+      displaystyle V times W 
+  
+ is called bilinear if 
+  
+    
+      
+        g
+      
+    
+      displaystyle g 
+  
+ is linear in both variables 
+  
+    
+      
+        
+          v
+        
+      
+    
+      displaystyle  mathbf  v   
+  
+ and 
+  
+    
+      
+        
+          w
+        
+         
+      
+    
+      displaystyle  mathbf  w    
+  
+  That is to say  for fixed 
+  
+    
+      
+        
+          w
+        
+      
+    
+      displaystyle  mathbf  w   
+  
+ the map 
+  
+    
+      
+        
+          v
+        
+          x  a  
+        g
+         
+        
+          v
+        
+         
+        
+          w
+        
+         
+      
+    
+      displaystyle  mathbf  v   mapsto g  mathbf  v    mathbf  w    
+  
+ is linear in the sense above and likewise for fixed 
+  
+    
+      
+        
+          v
+        
+         
+      
+    
+      displaystyle  mathbf  v    
+  
+
+
+Commutative diagram depicting the universal property of the tensor product
+The tensor product is a particular vector space that is a universal recipient of bilinear maps 
+  
+    
+      
+        g
+         
+      
+    
+      displaystyle g  
+  
+ as follows  It is defined as the vector space consisting of finite  formal  sums of symbols called tensors
+
+  
+    
+      
+        
+          
+            v
+          
+          
+             
+          
+        
+          x     
+        
+          
+            w
+          
+          
+             
+          
+        
+         
+        
+          
+            v
+          
+          
+             
+          
+        
+          x     
+        
+          
+            w
+          
+          
+             
+          
+        
+         
+          x  ef 
+         
+        
+          
+            v
+          
+          
+            n
+          
+        
+          x     
+        
+          
+            w
+          
+          
+            n
+          
+        
+         
+      
+    
+      displaystyle  mathbf  v       otimes  mathbf  w        mathbf  v       otimes  mathbf  w        cdots   mathbf  v    n  otimes  mathbf  w    n   
+  
+
+subject to the rules            
+
+  
+    
+      
+        
+          
+            
+              
+                a
+                  x  c  
+                 
+                
+                  v
+                
+                  x     
+                
+                  w
+                
+                 
+                  xa  
+              
+              
+                
+                 
+                  xa  
+                 
+                a
+                  x  c  
+                
+                  v
+                
+                 
+                  x     
+                
+                  w
+                
+                  xa  
+                 
+                  xa  
+                
+                  v
+                
+                  x     
+                 
+                a
+                  x  c  
+                
+                  w
+                
+                 
+                 
+              
+              
+              
+                  xa  
+                  xa  
+                
+                    xa  where  xa  
+                
+                a
+                
+                    xa  is a scalar
+                
+              
+            
+            
+              
+                 
+                
+                  
+                    v
+                  
+                  
+                     
+                  
+                
+                 
+                
+                  
+                    v
+                  
+                  
+                     
+                  
+                
+                 
+                  x     
+                
+                  w
+                
+                  xa  
+              
+              
+                
+                 
+                  xa  
+                
+                  
+                    v
+                  
+                  
+                     
+                  
+                
+                  x     
+                
+                  w
+                
+                 
+                
+                  
+                    v
+                  
+                  
+                     
+                  
+                
+                  x     
+                
+                  w
+                
+              
+              
+              
+            
+            
+              
+                
+                  v
+                
+                  x     
+                 
+                
+                  
+                    w
+                  
+                  
+                     
+                  
+                
+                 
+                
+                  
+                    w
+                  
+                  
+                     
+                  
+                
+                 
+                  xa  
+              
+              
+                
+                 
+                  xa  
+                
+                  v
+                
+                  x     
+                
+                  
+                    w
+                  
+                  
+                     
+                  
+                
+                 
+                
+                  v
+                
+                  x     
+                
+                  
+                    w
+                  
+                  
+                     
+                  
+                
+                 
+              
+              
+              
+            
+          
+        
+      
+    
+      displaystyle   begin alignedat    a cdot   mathbf  v   otimes  mathbf  w     amp    a cdot  mathbf  v    otimes  mathbf  w      mathbf  v   otimes  a cdot  mathbf  w     amp  amp     text  where   a  text  is a scalar      mathbf  v        mathbf  v        otimes  mathbf  w    amp    mathbf  v       otimes  mathbf  w    mathbf  v       otimes  mathbf  w   amp  amp    mathbf  v   otimes   mathbf  w        mathbf  w         amp    mathbf  v   otimes  mathbf  w        mathbf  v   otimes  mathbf  w        amp  amp    end alignedat   
+  
+
+These rules ensure that the map 
+  
+    
+      
+        f
+      
+    
+      displaystyle f 
+  
+ from the 
+  
+    
+      
+        V
+          xd  
+        W
+      
+    
+      displaystyle V times W 
+  
+ to 
+  
+    
+      
+        V
+          x     
+        W
+      
+    
+      displaystyle V otimes W 
+  
+ that maps a tuple 
+  
+    
+      
+         
+        
+          v
+        
+         
+        
+          w
+        
+         
+      
+    
+      displaystyle   mathbf  v    mathbf  w    
+  
+ to 
+  
+    
+      
+        
+          v
+        
+          x     
+        
+          w
+        
+      
+    
+      displaystyle  mathbf  v   otimes  mathbf  w   
+  
+ is bilinear  The universality states that given any vector space 
+  
+    
+      
+        X
+      
+    
+      displaystyle X 
+  
+ and any bilinear map 
+  
+    
+      
+        g
+         
+        V
+          xd  
+        W
+          x     
+        X
+         
+      
+    
+      displaystyle g V times W to X  
+  
+ there exists a unique map 
+  
+    
+      
+        u
+         
+      
+    
+      displaystyle u  
+  
+ shown in the diagram with a dotted arrow  whose composition with 
+  
+    
+      
+        f
+      
+    
+      displaystyle f 
+  
+ equals 
+  
+    
+      
+        g
+         
+      
+    
+      displaystyle g  
+  
+ 
+  
+    
+      
+        u
+         
+        
+          v
+        
+          x     
+        
+          w
+        
+         
+         
+        g
+         
+        
+          v
+        
+         
+        
+          w
+        
+         
+         
+      
+    
+      displaystyle u  mathbf  v   otimes  mathbf  w    g  mathbf  v    mathbf  w     
+  
+             This is called the universal property of the tensor product  an instance of the method much used in advanced abstract algebra to indirectly define objects by specifying maps from or to this object 
+
+Vector spaces with additional structure edit 
+From the point of view of linear algebra  vector spaces are completely understood insofar as any vector space over a given field is characterized  up to isomorphism  by its dimension  However  vector spaces per se do not offer a framework to deal with the question crucial to analysis whether a sequence of functions converges to another function  Likewise  linear algebra is not adapted to deal with infinite series  since the addition operation allows only finitely many terms to be added  Therefore  the needs of functional analysis require considering additional structures             
+A vector space may be given a partial order 
+  
+    
+      
+        
+          x     
+         
+        
+      
+    
+      displaystyle    leq     
+  
+ under which some vectors can be compared              For example  
+  
+    
+      
+        n
+      
+    
+      displaystyle n 
+  
+ dimensional real space 
+  
+    
+      
+        
+          
+            R
+          
+          
+            n
+          
+        
+      
+    
+      displaystyle  mathbf  R    n  
+  
+ can be ordered by comparing its vectors componentwise  Ordered vector spaces  for example Riesz spaces  are fundamental to Lebesgue integration  which relies on the ability to express a function as a difference of two positive functions
+
+  
+    
+      
+        f
+         
+        
+          f
+          
+             
+          
+        
+          x     
+        
+          f
+          
+              x     
+          
+        
+         
+      
+    
+      displaystyle f f     f      
+  
+
+where 
+  
+    
+      
+        
+          f
+          
+             
+          
+        
+      
+    
+      displaystyle f     
+  
+ denotes the positive part of 
+  
+    
+      
+        f
+      
+    
+      displaystyle f 
+  
+ and 
+  
+    
+      
+        
+          f
+          
+              x     
+          
+        
+      
+    
+      displaystyle f     
+  
+ the negative part             
+
+Normed vector spaces and inner product spaces edit 
+Main articles  Normed vector space and Inner product space
+ Measuring  vectors is done by specifying a norm  a datum which measures lengths of vectors  or by an inner product  which measures angles between vectors  Norms and inner products are denoted 
+  
+    
+      
+        
+           
+        
+        
+          v
+        
+        
+           
+        
+      
+    
+      displaystyle   mathbf  v    
+  
+ and 
+  
+    
+      
+          x  e  
+        
+          v
+        
+         
+        
+          w
+        
+          x  e  
+         
+      
+    
+      displaystyle  langle  mathbf  v    mathbf  w   rangle   
+  
+ respectively  The datum of an inner product entails that lengths of vectors can be defined too  by defining the associated norm 
+  
+    
+      
+        
+           
+        
+        
+          v
+        
+        
+           
+        
+          
+        
+          
+              x  e  
+            
+              v
+            
+             
+            
+              v
+            
+              x  e  
+          
+        
+         
+      
+    
+      textstyle   mathbf  v       sqrt   langle  mathbf  v    mathbf  v   rangle     
+  
+ Vector spaces endowed with such data are known as normed vector spaces and inner product spaces  respectively             
+Coordinate space 
+  
+    
+      
+        
+          F
+          
+            n
+          
+        
+      
+    
+      displaystyle F  n  
+  
+ can be equipped with the standard dot product 
+
+  
+    
+      
+          x  e  
+        
+          x
+        
+         
+        
+          y
+        
+          x  e  
+         
+        
+          x
+        
+          x  c  
+        
+          y
+        
+         
+        
+          x
+          
+             
+          
+        
+        
+          y
+          
+             
+          
+        
+         
+          x  ef 
+         
+        
+          x
+          
+            n
+          
+        
+        
+          y
+          
+            n
+          
+        
+         
+      
+    
+      displaystyle  langle  mathbf  x    mathbf  y   rangle   mathbf  x   cdot  mathbf  y   x    y      cdots  x  n y  n   
+  
+
+In 
+  
+    
+      
+        
+          
+            R
+          
+          
+             
+          
+        
+         
+      
+    
+      displaystyle  mathbf  R        
+  
+ this reflects the common notion of the angle between two vectors 
+  
+    
+      
+        
+          x
+        
+      
+    
+      displaystyle  mathbf  x   
+  
+ and 
+  
+    
+      
+        
+          y
+        
+         
+      
+    
+      displaystyle  mathbf  y    
+  
+ by the law of cosines 
+
+  
+    
+      
+        
+          x
+        
+          x  c  
+        
+          y
+        
+         
+        cos
+          x     
+        
+           
+          
+              x     
+             
+            
+              x
+            
+             
+            
+              y
+            
+             
+          
+           
+        
+          x  c  
+        
+           
+        
+        
+          x
+        
+        
+           
+        
+          x  c  
+        
+           
+        
+        
+          y
+        
+        
+           
+        
+         
+      
+    
+      displaystyle  mathbf  x   cdot  mathbf  y    cos  left  angle   mathbf  x    mathbf  y    right  cdot   mathbf  x    cdot   mathbf  y     
+  
+
+Because of this  two vectors satisfying 
+  
+    
+      
+          x  e  
+        
+          x
+        
+         
+        
+          y
+        
+          x  e  
+         
+         
+      
+    
+      displaystyle  langle  mathbf  x    mathbf  y   rangle    
+  
+ are called orthogonal  An important variant of the standard dot product is used in Minkowski space  
+  
+    
+      
+        
+          
+            R
+          
+          
+             
+          
+        
+      
+    
+      displaystyle  mathbf  R       
+  
+ endowed with the Lorentz product            
+
+  
+    
+      
+          x  e  
+        
+          x
+        
+        
+           
+        
+        
+          y
+        
+          x  e  
+         
+        
+          x
+          
+             
+          
+        
+        
+          y
+          
+             
+          
+        
+         
+        
+          x
+          
+             
+          
+        
+        
+          y
+          
+             
+          
+        
+         
+        
+          x
+          
+             
+          
+        
+        
+          y
+          
+             
+          
+        
+          x     
+        
+          x
+          
+             
+          
+        
+        
+          y
+          
+             
+          
+        
+         
+      
+    
+      displaystyle  langle  mathbf  x    mathbf  y   rangle  x    y     x    y     x    y     x    y      
+  
+
+In contrast to the standard dot product  it is not positive definite  
+  
+    
+      
+          x  e  
+        
+          x
+        
+        
+           
+        
+        
+          x
+        
+          x  e  
+      
+    
+      displaystyle  langle  mathbf  x    mathbf  x   rangle  
+  
+ also takes negative values  for example  for 
+  
+    
+      
+        
+          x
+        
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+      
+    
+      displaystyle  mathbf  x              
+  
+ Singling out the fourth coordinate corresponding to time  as opposed to three space dimensions makes it useful for the mathematical treatment of special relativity  Note that in other conventions time is often written as the first  or  zeroeth  component so that the Lorentz product is written 
+  
+    
+      
+          x  e  
+        
+          x
+        
+        
+           
+        
+        
+          y
+        
+          x  e  
+         
+          x     
+        
+          x
+          
+             
+          
+        
+        
+          y
+          
+             
+          
+        
+         
+        
+          x
+          
+             
+          
+        
+        
+          y
+          
+             
+          
+        
+         
+        
+          x
+          
+             
+          
+        
+        
+          y
+          
+             
+          
+        
+         
+        
+          x
+          
+             
+          
+        
+        
+          y
+          
+             
+          
+        
+         
+      
+    
+      displaystyle  langle  mathbf  x    mathbf  y   rangle   x    y     x    y     x    y     x    y      
+  
+
+
+Topological vector spaces edit 
+Main article  Topological vector space
+Convergence questions are treated by considering vector spaces 
+  
+    
+      
+        V
+      
+    
+      displaystyle V 
+  
+ carrying a compatible topology  a structure that allows one to talk about elements being close to each other              Compatible here means that addition and scalar multiplication have to be continuous maps  Roughly  if 
+  
+    
+      
+        
+          x
+        
+      
+    
+      displaystyle  mathbf  x   
+  
+ and 
+  
+    
+      
+        
+          y
+        
+      
+    
+      displaystyle  mathbf  y   
+  
+ in 
+  
+    
+      
+        V
+      
+    
+      displaystyle V 
+  
+  and 
+  
+    
+      
+        a
+      
+    
+      displaystyle a 
+  
+ in 
+  
+    
+      
+        F
+      
+    
+      displaystyle F 
+  
+ vary by a bounded amount  then so do 
+  
+    
+      
+        
+          x
+        
+         
+        
+          y
+        
+      
+    
+      displaystyle  mathbf  x    mathbf  y   
+  
+ and 
+  
+    
+      
+        a
+        
+          x
+        
+         
+      
+    
+      displaystyle a mathbf  x    
+  
+     nb        To make sense of specifying the amount a scalar changes  the field 
+  
+    
+      
+        F
+      
+    
+      displaystyle F 
+  
+ also has to carry a topology in this context  a common choice is the reals or the complex numbers 
+In such topological vector spaces one can consider series of vectors  The infinite sum
+
+  
+    
+      
+        
+            x     
+          
+            i
+             
+             
+          
+          
+              x   e 
+          
+        
+        
+          f
+          
+            i
+          
+        
+          xa  
+         
+          xa  
+        
+          lim
+          
+            n
+              x     
+              x   e 
+          
+        
+        
+          f
+          
+             
+          
+        
+         
+          x  ef 
+         
+        
+          f
+          
+            n
+          
+        
+      
+    
+      displaystyle  sum   i      infty  f  i     lim   n to  infty  f      cdots  f  n  
+  
+
+denotes the limit of the corresponding finite partial sums of the sequence 
+  
+    
+      
+        
+          f
+          
+             
+          
+        
+         
+        
+          f
+          
+             
+          
+        
+         
+          x     
+      
+    
+      displaystyle f     f      ldots  
+  
+ of elements of 
+  
+    
+      
+        V
+         
+      
+    
+      displaystyle V  
+  
+ For example  the 
+  
+    
+      
+        
+          f
+          
+            i
+          
+        
+      
+    
+      displaystyle f  i  
+  
+ could be  real or complex  functions belonging to some function space 
+  
+    
+      
+        V
+         
+      
+    
+      displaystyle V  
+  
+ in which case the series is a function series  The mode of convergence of the series depends on the topology imposed on the function space  In such cases  pointwise convergence and uniform convergence are two prominent examples             
+
+Unit  spheres  in 
+  
+    
+      
+        
+          
+            R
+          
+          
+             
+          
+        
+      
+    
+      displaystyle  mathbf  R       
+  
+ consist of plane vectors of norm     Depicted are the unit spheres in different 
+  
+    
+      
+        p
+      
+    
+      displaystyle p 
+  
+ norms  for 
+  
+    
+      
+        p
+         
+         
+         
+         
+         
+      
+    
+      displaystyle p      
+  
+ and 
+  
+    
+      
+          x   e 
+         
+      
+    
+      displaystyle  infty   
+  
+ The bigger diamond depicts points of   norm equal to   
+A way to ensure the existence of limits of certain infinite series is to restrict attention to spaces where any Cauchy sequence has a limit  such a vector space is called complete  Roughly  a vector space is complete provided that it contains all necessary limits  For example  the vector space of polynomials on the unit interval 
+  
+    
+      
+         
+         
+         
+         
+         
+         
+      
+    
+      displaystyle        
+  
+ equipped with the topology of uniform convergence is not complete because any continuous function on 
+  
+    
+      
+         
+         
+         
+         
+         
+      
+    
+      displaystyle       
+  
+ can be uniformly approximated by a sequence of polynomials  by the Weierstrass approximation theorem               In contrast  the space of all continuous functions on 
+  
+    
+      
+         
+         
+         
+         
+         
+      
+    
+      displaystyle       
+  
+ with the same topology is complete              A norm gives rise to a topology by defining that a sequence of vectors 
+  
+    
+      
+        
+          
+            v
+          
+          
+            n
+          
+        
+      
+    
+      displaystyle  mathbf  v    n  
+  
+ converges to 
+  
+    
+      
+        
+          v
+        
+      
+    
+      displaystyle  mathbf  v   
+  
+ if and only if
+
+  
+    
+      
+        
+          lim
+          
+            n
+              x     
+              x   e 
+          
+        
+        
+           
+        
+        
+          
+            v
+          
+          
+            n
+          
+        
+          x     
+        
+          v
+        
+        
+           
+        
+         
+          
+      
+    
+      displaystyle  lim   n to  infty    mathbf  v    n   mathbf  v       
+  
+
+Banach and Hilbert spaces are complete topological vector spaces whose topologies are given  respectively  by a norm and an inner product  Their study a key piece of functional analysis focuses on infinite dimensional vector spaces  since all norms on finite dimensional topological vector spaces give rise to the same notion of convergence              The image at the right shows the equivalence of the 
+  
+    
+      
+         
+      
+    
+      displaystyle   
+  
+ norm and 
+  
+    
+      
+          x   e 
+      
+    
+      displaystyle  infty  
+  
+ norm on 
+  
+    
+      
+        
+          
+            R
+          
+          
+             
+          
+        
+         
+      
+    
+      displaystyle  mathbf  R        
+  
+ as the unit  balls  enclose each other  a sequence converges to zero in one norm if and only if it so does in the other norm  In the infinite dimensional case  however  there will generally be inequivalent topologies  which makes the study of topological vector spaces richer than that of vector spaces without additional data 
+From a conceptual point of view  all notions related to topological vector spaces should match the topology  For example  instead of considering all linear maps  also called functionals  
+  
+    
+      
+        V
+          x     
+        W
+         
+      
+    
+      displaystyle V to W  
+  
+ maps between topological vector spaces are required to be continuous              In particular  the  topological  dual space 
+  
+    
+      
+        
+          V
+          
+              x     
+          
+        
+      
+    
+      displaystyle V     
+  
+ consists of continuous functionals 
+  
+    
+      
+        V
+          x     
+        
+          R
+        
+      
+    
+      displaystyle V to  mathbf  R   
+  
+  or to 
+  
+    
+      
+        
+          C
+        
+      
+    
+      displaystyle  mathbf  C   
+  
+   The fundamental Hahn Banach theorem is concerned with separating subspaces of appropriate topological vector spaces by continuous functionals             
+
+Banach spaces edit 
+Main article  Banach space
+Banach spaces  introduced by Stefan Banach  are complete normed vector spaces             
+A first example is the vector space 
+  
+    
+      
+        
+            x     
+          
+            p
+          
+        
+      
+    
+      displaystyle  ell   p  
+  
+ consisting of infinite vectors with real entries 
+  
+    
+      
+        
+          x
+        
+         
+        
+           
+          
+            
+              x
+              
+                 
+              
+            
+             
+            
+              x
+              
+                 
+              
+            
+             
+              x     
+             
+            
+              x
+              
+                n
+              
+            
+             
+              x     
+          
+           
+        
+      
+    
+      displaystyle  mathbf  x    left x     x      ldots  x  n   ldots  right  
+  
+
+whose 
+  
+    
+      
+        p
+      
+    
+      displaystyle p 
+  
+ norm 
+  
+    
+      
+         
+         
+          x     
+        p
+          x     
+          x   e 
+         
+      
+    
+      displaystyle    leq p leq  infty   
+  
+ given by 
+
+  
+    
+      
+          x     
+        
+          x
+        
+        
+            x     
+          
+              x   e 
+          
+        
+          
+        
+          sup
+          
+            i
+          
+        
+        
+           
+        
+        
+          x
+          
+            i
+          
+        
+        
+           
+        
+        
+        
+            xa  for  xa  
+        
+        p
+         
+          x   e 
+         
+        
+            xa  and  xa  
+        
+      
+    
+      displaystyle    mathbf  x       infty     sup   i  x  i   qquad   text  for   p  infty    text  and    
+  
+
+
+  
+    
+      
+          x     
+        
+          x
+        
+        
+            x     
+          
+            p
+          
+        
+          
+        
+          
+             
+            
+              
+                  x     
+                
+                  i
+                
+              
+              
+                 
+              
+              
+                x
+                
+                  i
+                
+              
+              
+                
+                   
+                
+                
+                  p
+                
+              
+            
+             
+          
+          
+            
+               
+              p
+            
+          
+        
+        
+        
+            xa  for  xa  
+        
+        p
+         lt 
+          x   e 
+         
+      
+    
+      displaystyle    mathbf  x      p    left  sum   i  x  i    p  right    frac     p   qquad   text  for   p lt  infty   
+  
+
+The topologies on the infinite dimensional space 
+  
+    
+      
+        
+            x     
+          
+            p
+          
+        
+      
+    
+      displaystyle  ell   p  
+  
+ are inequivalent for different 
+  
+    
+      
+        p
+         
+      
+    
+      displaystyle p  
+  
+ For example  the sequence of vectors 
+  
+    
+      
+        
+          
+            x
+          
+          
+            n
+          
+        
+         
+        
+           
+          
+            
+               
+              
+                  x     
+                n
+              
+            
+             
+            
+               
+              
+                  x     
+                n
+              
+            
+             
+              x     
+             
+            
+               
+              
+                  x     
+                n
+              
+            
+             
+             
+             
+             
+             
+              x     
+          
+           
+        
+         
+      
+    
+      displaystyle  mathbf  x    n   left     n      n   ldots      n       ldots  right   
+  
+ in which the first 
+  
+    
+      
+        
+           
+          
+            n
+          
+        
+      
+    
+      displaystyle    n  
+  
+ components are 
+  
+    
+      
+        
+           
+          
+              x     
+            n
+          
+        
+      
+    
+      displaystyle     n  
+  
+ and the following ones are 
+  
+    
+      
+         
+         
+      
+    
+      displaystyle    
+  
+ converges to the zero vector for 
+  
+    
+      
+        p
+         
+          x   e 
+         
+      
+    
+      displaystyle p  infty   
+  
+ but does not for 
+  
+    
+      
+        p
+         
+         
+         
+      
+    
+      displaystyle p    
+  
+
+
+  
+    
+      
+          x     
+        
+          
+            x
+          
+          
+            n
+          
+        
+        
+            x     
+          
+              x   e 
+          
+        
+         
+        sup
+         
+        
+           
+          
+              x     
+            n
+          
+        
+         
+         
+         
+         
+        
+           
+          
+              x     
+            n
+          
+        
+          x     
+         
+         
+      
+    
+      displaystyle    mathbf  x    n      infty    sup     n         n  to    
+  
+ 
+but 
+
+  
+    
+      
+          x     
+        
+          
+            x
+          
+          
+            n
+          
+        
+        
+            x     
+          
+             
+          
+        
+         
+        
+            x     
+          
+            i
+             
+             
+          
+          
+            
+               
+              
+                n
+              
+            
+          
+        
+        
+           
+          
+              x     
+            n
+          
+        
+         
+        
+           
+          
+            n
+          
+        
+          x  c  
+        
+           
+          
+              x     
+            n
+          
+        
+         
+          
+      
+    
+      displaystyle    mathbf  x    n         sum   i        n      n     n  cdot     n     
+  
+
+More generally than sequences of real numbers  functions 
+  
+    
+      
+        f
+         
+          x a  
+          x     
+        
+          R
+        
+      
+    
+      displaystyle f  Omega  to  mathbb  R   
+  
+ are endowed with a norm that replaces the above sum by the Lebesgue integral 
+
+  
+    
+      
+          x     
+        f
+        
+            x     
+          
+            p
+          
+        
+          
+        
+          
+             
+            
+              
+                  x   b 
+                
+                    x a  
+                
+              
+              
+                 
+              
+              f
+               
+              x
+               
+              
+                
+                   
+                
+                
+                  p
+                
+              
+              
+              
+                d
+                  x bc 
+                 
+                x
+                 
+              
+            
+             
+          
+          
+            
+               
+              p
+            
+          
+        
+         
+      
+    
+      displaystyle   f    p    left  int    Omega   f x    p    d mu  x   right    frac     p    
+  
+
+The space of integrable functions on a given domain 
+  
+    
+      
+          x a  
+      
+    
+      displaystyle  Omega  
+  
+  for example an interval  satisfying 
+  
+    
+      
+          x     
+        f
+        
+            x     
+          
+            p
+          
+        
+         lt 
+          x   e 
+         
+      
+    
+      displaystyle   f    p  lt  infty   
+  
+ and equipped with this norm are called Lebesgue spaces  denoted 
+  
+    
+      
+        
+          L
+          
+            
+            
+            p
+          
+        
+         
+          x a  
+         
+         
+      
+    
+      displaystyle L      p   Omega    
+  
+     nb       
+These spaces are complete               If one uses the Riemann integral instead  the space is not complete  which may be seen as a justification for Lebesgue s integration theory      nb         Concretely this means that for any sequence of Lebesgue integrable functions 
+  
+    
+      
+        
+          f
+          
+             
+          
+        
+         
+        
+          f
+          
+             
+          
+        
+         
+          x     
+         
+        
+          f
+          
+            n
+          
+        
+         
+          x     
+      
+    
+      displaystyle f     f      ldots  f  n   ldots  
+  
+ with 
+  
+    
+      
+          x     
+        
+          f
+          
+            n
+          
+        
+        
+            x     
+          
+            p
+          
+        
+         lt 
+          x   e 
+         
+      
+    
+      displaystyle   f  n     p  lt  infty   
+  
+ satisfying the condition
+
+  
+    
+      
+        
+          lim
+          
+            k
+             
+              xa  
+            n
+              x     
+              x   e 
+          
+        
+        
+            x   b 
+          
+              x a  
+          
+        
+        
+          
+             
+            
+              
+                f
+                
+                  k
+                
+              
+               
+              x
+               
+                x     
+              
+                f
+                
+                  n
+                
+              
+               
+              x
+               
+            
+             
+          
+          
+            p
+          
+        
+        
+        
+          d
+            x bc 
+           
+          x
+           
+        
+         
+         
+      
+    
+      displaystyle  lim   k   n to  infty   int    Omega   left f  k  x  f  n  x  right   p    d mu  x     
+  
+
+there exists a function 
+  
+    
+      
+        f
+         
+        x
+         
+      
+    
+      displaystyle f x  
+  
+ belonging to the vector space 
+  
+    
+      
+        
+          L
+          
+            
+            
+            p
+          
+        
+         
+          x a  
+         
+      
+    
+      displaystyle L      p   Omega   
+  
+ such that
+
+  
+    
+      
+        
+          lim
+          
+            k
+              x     
+              x   e 
+          
+        
+        
+            x   b 
+          
+              x a  
+          
+        
+        
+          
+             
+            
+              f
+               
+              x
+               
+                x     
+              
+                f
+                
+                  k
+                
+              
+               
+              x
+               
+            
+             
+          
+          
+            p
+          
+        
+        
+        
+          d
+            x bc 
+           
+          x
+           
+        
+         
+          
+      
+    
+      displaystyle  lim   k to  infty   int    Omega   left f x  f  k  x  right   p    d mu  x      
+  
+
+Imposing boundedness conditions not only on the function  but also on its derivatives leads to Sobolev spaces             
+
+
+Hilbert spaces edit 
+Main article  Hilbert space
+The succeeding snapshots show summation of   to   terms in approximating a periodic function  blue  by finite sum of sine functions  red  
+Complete inner product spaces are known as Hilbert spaces  in honor of David Hilbert              The Hilbert space 
+  
+    
+      
+        
+          L
+          
+             
+          
+        
+         
+          x a  
+         
+         
+      
+    
+      displaystyle L      Omega    
+  
+ with inner product given by
+
+  
+    
+      
+          x  e  
+        f
+          xa  
+         
+          xa  
+        g
+          x  e  
+         
+        
+            x   b 
+          
+              x a  
+          
+        
+        f
+         
+        x
+         
+        
+          
+            
+              g
+               
+              x
+               
+            
+              xaf 
+          
+        
+        
+        d
+        x
+         
+      
+    
+      displaystyle  langle f     g rangle   int    Omega  f x   overline  g x     dx  
+  
+
+where 
+  
+    
+      
+        
+          
+            
+              g
+               
+              x
+               
+            
+              xaf 
+          
+        
+      
+    
+      displaystyle   overline  g x    
+  
+ denotes the complex conjugate of 
+  
+    
+      
+        g
+         
+        x
+         
+         
+      
+    
+      displaystyle g x   
+  
+                 nb        is a key case 
+By definition  in a Hilbert space  any Cauchy sequence converges to a limit  Conversely  finding a sequence of functions 
+  
+    
+      
+        
+          f
+          
+            n
+          
+        
+      
+    
+      displaystyle f  n  
+  
+ with desirable properties that approximate a given limit function is equally crucial  Early analysis  in the guise of the Taylor approximation  established an approximation of differentiable functions 
+  
+    
+      
+        f
+      
+    
+      displaystyle f 
+  
+ by polynomials              By the Stone Weierstrass theorem  every continuous function on 
+  
+    
+      
+         
+        a
+         
+        b
+         
+      
+    
+      displaystyle  a b  
+  
+ can be approximated as closely as desired by a polynomial              A similar approximation technique by trigonometric functions is commonly called Fourier expansion  and is much applied in engineering  More generally  and more conceptually  the theorem yields a simple description of what  basic functions   or  in abstract Hilbert spaces  what basic vectors suffice to generate a Hilbert space 
+  
+    
+      
+        H
+         
+      
+    
+      displaystyle H  
+  
+ in the sense that the closure of their span  that is  finite linear combinations and limits of those  is the whole space  Such a set of functions is called a basis of 
+  
+    
+      
+        H
+         
+      
+    
+      displaystyle H  
+  
+ its cardinality is known as the Hilbert space dimension      nb         Not only does the theorem exhibit suitable basis functions as sufficient for approximation purposes  but also together with the Gram Schmidt process  it enables one to construct a basis of orthogonal vectors              Such orthogonal bases are the Hilbert space generalization of the coordinate axes in finite dimensional Euclidean space 
+The solutions to various differential equations can be interpreted in terms of Hilbert spaces  For example  a great many fields in physics and engineering lead to such equations  and frequently solutions with particular physical properties are used as basis functions  often orthogonal              As an example from physics  the time dependent Schr dinger equation in quantum mechanics describes the change of physical properties in time by means of a partial differential equation  whose solutions are called wavefunctions              Definite values for physical properties such as energy  or momentum  correspond to eigenvalues of a certain  linear  differential operator and the associated wavefunctions are called eigenstates  The spectral theorem decomposes a linear compact operator acting on functions in terms of these eigenfunctions and their eigenvalues             
+
+Algebras over fields edit 
+Main articles  Algebra over a field and Lie algebra
+A hyperbola  given by the equation 
+  
+    
+      
+        x
+          x  c  
+        y
+         
+          
+      
+    
+      displaystyle x cdot y    
+  
+ The coordinate ring of functions on this hyperbola is given by 
+  
+    
+      
+        
+          R
+        
+         
+        x
+         
+        y
+         
+        
+           
+        
+         
+        x
+          x  c  
+        y
+          x     
+         
+         
+         
+      
+    
+      displaystyle  mathbf  R   x y   x cdot y     
+  
+ an infinite dimensional vector space over 
+  
+    
+      
+        
+          R
+        
+         
+      
+    
+      displaystyle  mathbf  R    
+  
+
+General vector spaces do not possess a multiplication between vectors  A vector space equipped with an additional bilinear operator defining the multiplication of two vectors is an algebra over a field  or F algebra if the field F is specified              
+For example  the set of all polynomials 
+  
+    
+      
+        p
+         
+        t
+         
+      
+    
+      displaystyle p t  
+  
+ forms an algebra known as the polynomial ring  using that the sum of two polynomials is a polynomial  they form a vector space  they form an algebra since the product of two polynomials is again a polynomial  Rings of polynomials  in several variables  and their quotients form the basis of algebraic geometry  because they are rings of functions of algebraic geometric objects             
+Another crucial example are Lie algebras  which are neither commutative nor associative  but the failure to be so is limited by the constraints  
+  
+    
+      
+         
+        x
+         
+        y
+         
+      
+    
+      displaystyle  x y  
+  
+ denotes the product of 
+  
+    
+      
+        x
+      
+    
+      displaystyle x 
+  
+ and 
+  
+    
+      
+        y
+      
+    
+      displaystyle y 
+  
+  
+
+
+  
+    
+      
+         
+        x
+         
+        y
+         
+         
+          x     
+         
+        y
+         
+        x
+         
+      
+    
+      displaystyle  x y    y x  
+  
+  anticommutativity   and
+
+  
+    
+      
+         
+        x
+         
+         
+        y
+         
+        z
+         
+         
+         
+         
+        y
+         
+         
+        z
+         
+        x
+         
+         
+         
+         
+        z
+         
+         
+        x
+         
+        y
+         
+         
+         
+         
+      
+    
+      displaystyle  x  y z    y  z x    z  x y     
+  
+  Jacobi identity              
+Examples include the vector space of 
+  
+    
+      
+        n
+      
+    
+      displaystyle n 
+  
+ by 
+  
+    
+      
+        n
+      
+    
+      displaystyle n 
+  
+ matrices  with 
+  
+    
+      
+         
+        x
+         
+        y
+         
+         
+        x
+        y
+          x     
+        y
+        x
+         
+      
+    
+      displaystyle  x y  xy yx  
+  
+ the commutator of two matrices  and 
+  
+    
+      
+        
+          
+            R
+          
+          
+             
+          
+        
+         
+      
+    
+      displaystyle  mathbf  R        
+  
+ endowed with the cross product 
+The tensor algebra 
+  
+    
+      
+        T
+          x     
+         
+        V
+         
+      
+    
+      displaystyle  operatorname  T   V  
+  
+ is a formal way of adding products to any vector space 
+  
+    
+      
+        V
+      
+    
+      displaystyle V 
+  
+ to obtain an algebra              As a vector space  it is spanned by symbols  called simple tensors
+
+  
+    
+      
+        
+          
+            v
+          
+          
+             
+          
+        
+          x     
+        
+          
+            v
+          
+          
+             
+          
+        
+          x     
+          x  ef 
+          x     
+        
+          
+            v
+          
+          
+            n
+          
+        
+         
+      
+    
+      displaystyle  mathbf  v       otimes  mathbf  v       otimes  cdots  otimes  mathbf  v    n   
+  
+
+where the degree 
+  
+    
+      
+        n
+      
+    
+      displaystyle n 
+  
+ varies 
+The multiplication is given by concatenating such symbols  imposing the distributive law under addition  and requiring that scalar multiplication commute with the tensor product    much the same way as with the tensor product of two vector spaces introduced in the above section on tensor products  In general  there are no relations between 
+  
+    
+      
+        
+          
+            v
+          
+          
+             
+          
+        
+          x     
+        
+          
+            v
+          
+          
+             
+          
+        
+      
+    
+      displaystyle  mathbf  v       otimes  mathbf  v       
+  
+ and 
+  
+    
+      
+        
+          
+            v
+          
+          
+             
+          
+        
+          x     
+        
+          
+            v
+          
+          
+             
+          
+        
+         
+      
+    
+      displaystyle  mathbf  v       otimes  mathbf  v        
+  
+ Forcing two such elements to be equal leads to the symmetric algebra  whereas forcing 
+  
+    
+      
+        
+          
+            v
+          
+          
+             
+          
+        
+          x     
+        
+          
+            v
+          
+          
+             
+          
+        
+         
+          x     
+        
+          
+            v
+          
+          
+             
+          
+        
+          x     
+        
+          
+            v
+          
+          
+             
+          
+        
+      
+    
+      displaystyle  mathbf  v       otimes  mathbf  v         mathbf  v       otimes  mathbf  v       
+  
+ yields the exterior algebra             
+
+Related structures edit 
+Vector bundles edit 
+Main articles  Vector bundle and Tangent bundle
+A M bius strip  Locally  it looks like U   R 
+A vector bundle is a family of vector spaces parametrized continuously by a topological space X              More precisely  a vector bundle over X is a topological space E equipped with a continuous map 
+
+  
+    
+      
+          x c  
+         
+        E
+          x     
+        X
+      
+    
+      displaystyle  pi  E to X 
+  
+
+such that for every x in X  the fiber     x  is a vector space  The case dim V     is called a line bundle  For any vector space V  the projection X   V   X makes the product X   V into a  trivial  vector bundle  Vector bundles over X are required to be locally a product of X and some  fixed  vector space V  for every x in X  there is a neighborhood U of x such that the restriction of   to     U  is isomorphic     nb         to the trivial bundle U   V   U  Despite their locally trivial character  vector bundles may  depending on the shape of the underlying space X  be  twisted  in the large  that is  the bundle need not be  globally isomorphic to  the trivial bundle X   V   For example  the M bius strip can be seen as a line bundle over the circle S   by identifying open intervals with the real line   It is  however  different from the cylinder S    R  because the latter is orientable whereas the former is not             
+Properties of certain vector bundles provide information about the underlying topological space  For example  the tangent bundle consists of the collection of tangent spaces parametrized by the points of a differentiable manifold  The tangent bundle of the circle S  is globally isomorphic to S    R  since there is a global nonzero vector field on S       nb         In contrast  by the hairy ball theorem  there is no  tangent  vector field on the   sphere S  which is everywhere nonzero              K theory studies the isomorphism classes of all vector bundles over some topological space              In addition to deepening topological and geometrical insight  it has purely algebraic consequences  such as the classification of finite dimensional real division algebras  R  C  the quaternions H and the octonions O 
+The cotangent bundle of a differentiable manifold consists  at every point of the manifold  of the dual of the tangent space  the cotangent space  Sections of that bundle are known as differential one forms 
+
+Modules edit 
+Main article  Module
+Modules are to rings what vector spaces are to fields  the same axioms  applied to a ring R instead of a field F  yield modules              The theory of modules  compared to that of vector spaces  is complicated by the presence of ring elements that do not have multiplicative inverses  For example  modules need not have bases  as the Z module  that is  abelian group  Z  Z shows  those modules that do  including all vector spaces  are known as free modules  Nevertheless  a vector space can be compactly defined as a module over a ring which is a field  with the elements being called vectors   Some authors use the term vector space to mean modules over a division ring              The algebro geometric interpretation of commutative rings via their spectrum allows the development of concepts such as locally free modules  the algebraic counterpart to vector bundles 
+
+Affine and projective spaces edit 
+Main articles  Affine space and Projective space
+An affine plane  light blue  in R   It is a two dimensional subspace shifted by a vector x  red   
+Roughly  affine spaces are vector spaces whose origins are not specified              More precisely  an affine space is a set with a free transitive vector space action  In particular  a vector space is an affine space over itself  by the map
+
+  
+    
+      
+        V
+          xd  
+        V
+          x     
+        W
+         
+        
+         
+        
+          v
+        
+         
+        
+          a
+        
+         
+          x  a  
+        
+          a
+        
+         
+        
+          v
+        
+         
+      
+    
+      displaystyle V times V to W     mathbf  v    mathbf  a    mapsto  mathbf  a    mathbf  v    
+  
+
+If W is a vector space  then an affine subspace is a subset of W obtained by translating a linear subspace V by a fixed vector x   W  this space is denoted by x   V  it is a coset of V in W  and consists of all vectors of the form x   v for v   V  An important example is the space of solutions of a system of inhomogeneous linear equations
+
+  
+    
+      
+        A
+        
+          v
+        
+         
+        
+          b
+        
+      
+    
+      displaystyle A mathbf  v    mathbf  b   
+  
+
+generalizing the homogeneous case discussed in the above section on linear equations  which can be found by setting 
+  
+    
+      
+        
+          b
+        
+         
+        
+           
+        
+      
+    
+      displaystyle  mathbf  b    mathbf      
+  
+ in this equation              The space of solutions is the affine subspace x   V where x is a particular solution of the equation  and V is the space of solutions of the homogeneous equation  the nullspace of A  
+The set of one dimensional subspaces of a fixed finite dimensional vector space V is known as projective space  it may be used to formalize the idea of parallel lines intersecting at infinity              Grassmannians and flag manifolds generalize this by parametrizing linear subspaces of fixed dimension k and flags of subspaces  respectively 
+
+Notes edit 
+
+
+  It is also common  especially in physics  to denote vectors with an arrow on top  
+  
+    
+      
+        
+          
+            
+              v
+                x     
+            
+          
+        
+         
+      
+    
+      displaystyle   vec  v    
+  
+ It is also common  especially in higher mathematics  to not use any typographical method for distinguishing vectors from other mathematical objects 
+
+  Scalar multiplication is not to be confused with the scalar product  which is an additional operation on some specific vector spaces  called inner product spaces  Scalar multiplication is the multiplication of a vector by a scalar that produces a vector  while the scalar product is a multiplication of two vectors that produces a scalar 
+
+  This axiom is not an associative property  since it refers to two different operations  scalar multiplication and field multiplication  So  it is independent from the associativity of field multiplication  which is assumed by field axioms 
+
+  This is typically the case when a vector space is also considered as an affine space  In this case  a linear subspace contains the zero vector  while an affine subspace does not necessarily contain it 
+
+  Some authors  such as Roman         choose to start with this equivalence relation and derive the concrete shape of 
+  
+    
+      
+        V
+        
+           
+        
+        W
+      
+    
+      displaystyle V W 
+  
+ from this 
+
+  This requirement implies that the topology gives rise to a uniform structure  Bourbaki         loc   ch  II 
+
+  The triangle inequality for 
+  
+    
+      
+          x     
+        f
+         
+        g
+        
+            x     
+          
+            p
+          
+        
+          x     
+          x     
+        f
+        
+            x     
+          
+            p
+          
+        
+         
+          x     
+        g
+        
+            x     
+          
+            p
+          
+        
+      
+    
+      displaystyle   f g    p  leq   f    p    g    p  
+  
+ is provided by the Minkowski inequality  For technical reasons  in the context of functions one has to identify functions that agree almost everywhere to get a norm  and not only a seminorm 
+
+  
+ Many functions in 
+  
+    
+      
+        
+          L
+          
+             
+          
+        
+      
+    
+      displaystyle L     
+  
+ of Lebesgue measure  being unbounded  cannot be integrated with the classical Riemann integral  So spaces of Riemann integrable functions would not be complete in the 
+  
+    
+      
+        
+          L
+          
+             
+          
+        
+      
+    
+      displaystyle L     
+  
+ norm  and the orthogonal decomposition would not apply to them  This shows one of the advantages of Lebesgue integration    Dudley               p      
+
+  For 
+  
+    
+      
+        p
+          x     
+         
+         
+      
+    
+      displaystyle p neq    
+  
+ 
+  
+    
+      
+        
+          L
+          
+            p
+          
+        
+         
+          x a  
+         
+      
+    
+      displaystyle L  p   Omega   
+  
+ is not a Hilbert space 
+
+  A basis of a Hilbert space is not the same thing as a basis of a linear algebra  For distinction  a linear algebra basis for a Hilbert space is called a Hamel basis 
+
+  That is  there is a homeomorphism from     U  to V   U which restricts to linear isomorphisms between fibers 
+
+  A line bundle  such as the tangent bundle of S  is trivial if and only if there is a section that vanishes nowhere  see Husemoller         Corollary      The sections of the tangent bundle are just vector fields 
+
+
+Citations edit 
+
+
+  Lang      
+
+  Brown       p          
+
+  Roman       ch     p     
+
+  Brown       p          
+
+  Springer       p            Brown       p          
+
+  Atiyah  amp  Macdonald       p          
+
+  Bourbaki             Definition   
+
+  Brown       p          
+
+  Brown       pp              
+
+  Brown       p          
+
+  a b Stoll  amp  Wong       p          
+
+  Roman       pp             
+
+  Lang       p              Anton  amp  Rorres       p           
+
+  Blass      
+
+  Joshi       p           
+
+  Heil       p           
+
+  Halmos       p          
+
+  Bourbaki       ch   Alg bre lin aire et alg bre multilin aire   pp        
+
+  Bolzano      
+
+  M bius      
+
+  Bellavitis      
+
+  Dorier      
+
+  Hamilton      
+
+  Grassmann      
+
+  Peano       ch  IX 
+
+  Guo      
+
+  Moore       pp               
+
+  Banach      
+
+  Dorier       Moore      
+
+  Kreyszig       p           
+
+  Kreyszig       p                     
+
+  Jain       p          
+
+  Lang       ch  I   
+
+  Lang       ch  V   
+
+  Lang       ch  XII     p      
+
+  Lang       ch  VI    
+
+  Roman       ch     p     
+
+  Lang       ch  IV    Corollary  p      
+
+  Nicholson       ch      
+
+  Lang       Example IV     
+
+  Lang       ch  VI   
+
+  Halmos       p      Ex    
+
+  Lang       Theorem IV      p     
+
+  Roman       Th      and      p     
+
+  Lang       ch  V   
+
+  Lang       ch  V     Corollary  p      
+
+  Lang       Theorem VII      p      
+
+  Roman       ch     p          
+
+    amp  Lang       ch  IX   
+
+  Roman       ch     p      
+
+  Roman       ch     p     
+
+  Roman       ch     p     
+
+  Nicholson       ch       
+
+  Roman       ch     p     
+
+  Lang       ch  IV    
+
+  Roman       ch     p     
+
+  Nicholson       ch      
+
+  Mac Lane      
+
+  Roman       ch     pp        
+
+  Lang       ch  XVI   
+
+  Roman         Th        See also Yoneda lemma 
+
+  Rudin       p   
+
+  Schaefer  amp  Wolff       pp          
+
+  Bourbaki       ch     p     
+
+  Roman       ch    
+
+  Naber       ch      
+
+  Treves       Bourbaki      
+
+  Schaefer  amp  Wolff       p    
+
+  Kreyszig              
+
+  Kreyszig             
+
+  Choquet       Proposition III     
+
+  Treves       p        
+
+  Lang       Cor         p     
+
+  Treves       ch     
+
+  Treves       Theorem       p      
+
+  Evans       ch    
+
+  Treves       ch     
+
+  Dennery  amp  Krzywicki       p     
+
+  Lang       Th  XIII    p      
+
+  Lang       Th  III     
+
+  Choquet       Lemma III       
+
+  Kreyszig       Chapter    
+
+  Griffiths       Chapter   
+
+  Lang       ch  XVII   
+
+  Lang       ch  III    p      
+
+  Eisenbud       ch      
+
+  Varadarajan      
+
+  Lang       ch  XVI   
+
+  Lang       ch  XVI   
+
+  Spivak       ch    
+
+  Kreyszig            p      
+
+  Eisenberg  amp  Guy      
+
+  Atiyah      
+
+  Artin       ch     
+
+  Grillet      
+
+  Meyer       Example         p      
+
+  Meyer       Exercise             p      
+
+  Coxeter      
+
+
+References edit 
+Algebra edit 
+
+Anton  Howard  Rorres  Chris         Elementary Linear Algebra  Applications Version    th      ed    John Wiley  amp  Sons
+Artin  Michael         Algebra  Prentice Hall  ISBN                       
+Brown  William A          Matrices and vector spaces  New York  M  Dekker  ISBN                       
+Grillet  Pierre Antoine         Abstract algebra  Graduate Texts in Mathematics  vol            Springer Science  amp  Business Media  doi                            ISBN                       
+Halmos  Paul R          Finite Dimensional Vector Spaces  vol          Princeton University Press
+Heil  Christopher         A Basis Theory Primer  Expanded Edition  Applied and Numerical Harmonic Analysis  Birkh user  doi                            ISBN                       
+Jain  M  C          Vector Spaces and Matrices in Physics  CRC Press  ISBN                       
+Joshi  K  D          Foundations of Discrete Mathematics  John Wiley  amp  Sons
+Kreyszig  Erwin         Advanced Engineering Mathematics  John Wiley  amp  Sons  ISBN                       
+Lang  Serge         Linear algebra  Undergraduate Texts in Mathematics   rd      ed    Springer  doi                            ISBN                       
+Lang  Serge         Algebra  Graduate Texts in Mathematics  vol            Revised third      ed    New York  Springer Verlag  ISBN                         MR             
+Mac Lane  Saunders         Algebra   rd      ed    American Mathematical Soc   pp                ISBN                       
+Meyer  Carl D          Matrix Analysis and Applied Linear Algebra  SIAM  ISBN                       
+Nicholson  W  Keith          Linear Algebra with Applications   Lyryx
+Roman  Steven         Advanced Linear Algebra  Graduate Texts in Mathematics  vol             nd      ed    Berlin  New York  Springer Verlag  ISBN                       
+Spindler  Karlheinz         Abstract Algebra with Applications  Volume    Vector spaces and groups  CRC  ISBN                       
+Springer  T A          Linear Algebraic Groups  Springer  ISBN                       
+Stoll  R  R   Wong  E  T          Linear Algebra  Academic Press
+van der Waerden  Bartel Leendert         Algebra  in German    th      ed    Berlin  New York  Springer Verlag  ISBN                       
+
+Analysis edit 
+
+Bourbaki  Nicolas         Topological vector spaces  Elements of mathematics  Berlin  New York  Springer Verlag  ISBN                       
+Bourbaki  Nicolas         Integration I  Berlin  New York  Springer Verlag  ISBN                       
+Braun  Martin         Differential equations and their applications  an introduction to applied mathematics  Berlin  New York  Springer Verlag  ISBN                       
+BSE                   Tangent plane   Encyclopedia of Mathematics  EMS Press
+Choquet  Gustave         Topology  Boston  MA  Academic Press
+Dennery  Philippe  Krzywicki  Andre         Mathematics for Physicists  Courier Dover Publications  ISBN                       
+Dudley  Richard M          Real analysis and probability  The Wadsworth  amp  Brooks Cole Mathematics Series  Pacific Grove  CA  Wadsworth  amp  Brooks Cole Advanced Books  amp  Software  ISBN                       
+Dunham  William         The Calculus Gallery  Princeton University Press  ISBN                       
+Evans  Lawrence C          Partial differential equations  Providence  R I   American Mathematical Society  ISBN                       
+Folland  Gerald B          Fourier Analysis and Its Applications  Brooks Cole  ISBN                       
+Gasquet  Claude  Witomski  Patrick         Fourier Analysis and Applications  Filtering  Numerical Computation  Wavelets  Texts in Applied Mathematics  New York  Springer Verlag  ISBN                       
+Ifeachor  Emmanuel C   Jervis  Barrie W          Digital Signal Processing  A Practical Approach   nd      ed    Harlow  Essex  England  Prentice Hall  published        ISBN                       
+Krantz  Steven G          A Panorama of Harmonic Analysis  Carus Mathematical Monographs  Washington  DC  Mathematical Association of America  ISBN                       
+Kreyszig  Erwin         Advanced Engineering Mathematics   th      ed    New York  John Wiley  amp  Sons  ISBN                       
+Kreyszig  Erwin         Introductory functional analysis with applications  Wiley Classics Library  New York  John Wiley  amp  Sons  ISBN                         MR             
+Lang  Serge         Real analysis  Addison Wesley  ISBN                       
+Lang  Serge         Real and functional analysis  Berlin  New York  Springer Verlag  ISBN                       
+Loomis  Lynn H                 An introduction to abstract harmonic analysis  Dover  hdl      uc  b         ISBN                         OCLC               
+Narici  Lawrence  Beckenstein  Edward         Topological Vector Spaces  Pure and applied mathematics  Second      ed    Boca Raton  FL  CRC Press  ISBN                      OCLC                
+Rudin  Walter         Functional analysis         ed    McGraw Hill  ISBN                
+Schaefer  Helmut H   Wolff  Manfred P          Topological Vector Spaces  GTM  Vol          Second      ed    New York  NY  Springer New York Imprint Springer  ISBN                         OCLC                
+Treves  Fran ois         Topological vector spaces  distributions and kernels  Boston  MA  Academic Press
+
+Historical references edit 
+
+Banach  Stefan          Sur les op rations dans les ensembles abstraits et leur application aux  quations int grales  On operations in abstract sets and their application to integral equations    PDF   Fundamenta Mathematicae  in French               doi         fm              ISSN               
+Bolzano  Bernard         Betrachtungen  ber einige Gegenst nde der Elementargeometrie  Considerations of some aspects of elementary geometry   in German 
+Bellavitis  Giuso          Sopra alcune applicazioni di un nuovo metodo di geometria analitica   Il poligrafo giornale di scienze  lettre ed arti      Verona        
+Bourbaki  Nicolas          l ments d histoire des math matiques  Elements of history of mathematics   in French   Paris  Hermann
+Dorier  Jean Luc          A general outline of the genesis of vector space theory   Historia Mathematica                   doi         hmat            MR             
+Fourier  Jean Baptiste Joseph         Th orie analytique de la chaleur  in French   Chez Firmin Didot  p re et fils
+Grassmann  Hermann         Die Lineale Ausdehnungslehre   Ein neuer Zweig der Mathematik  in German   O  Wigand  reprint  Grassmann  Hermann         Kannenberg  L C   ed    Extension Theory  translated by Kannenberg  Lloyd C   Providence  R I   American Mathematical Society  ISBN                       
+Guo  Hongyu               What Are Tensors Exactly   World Scientific  ISBN                       
+Hamilton  William Rowan         Lectures on Quaternions  Royal Irish Academy
+M bius  August Ferdinand         Der Barycentrische Calcul        ein neues H lfsmittel zur analytischen Behandlung der Geometrie  Barycentric calculus  a new utility for an analytic treatment of geometry   in German   archived from the original on           
+Moore  Gregory H           The axiomatization of linear algebra              Historia Mathematica                   doi         hmat          
+Peano  Giuseppe         Calcolo Geometrico secondo l Ausdehnungslehre di H  Grassmann preceduto dalle Operazioni della Logica Deduttiva  in Italian   Turin  citation     CS  maint  location missing publisher  link 
+Peano  G         Formulario mathematico  vct axioms via Internet Archive
+
+Further references edit 
+
+Ashcroft  Neil  Mermin  N  David         Solid State Physics  Toronto  Thomson Learning  ISBN                       
+Atiyah  Michael Francis         K theory  Advanced Book Classics   nd      ed    Addison Wesley  ISBN                         MR             
+Atiyah  Michael Francis  Macdonald  Ian Grant         Introduction to Commutative Algebra  Advanced Book Classics  Addison Wesley
+Blass  Andreas          Existence of bases implies the axiom of choice   PDF   Axiomatic set theory  Contemporary Mathematics volume     Providence  R I   American Mathematical Society  pp              ISBN                         MR             
+Bourbaki  Nicolas         Elements of Mathematics        Algebra I Chapters      Berlin  New York  Springer Verlag  ISBN                       
+Bourbaki  Nicolas         General Topology  Chapters      Berlin  New York  Springer Verlag  ISBN                       
+Coxeter  Harold Scott MacDonald         Projective Geometry   nd      ed    Berlin  New York  Springer Verlag  ISBN                       
+Eisenberg  Murray  Guy  Robert          A proof of the hairy ball theorem   The American Mathematical Monthly                   doi                  JSTOR             
+Eisenbud  David         Commutative algebra  Graduate Texts in Mathematics  vol            Berlin  New York  Springer Verlag  ISBN                         MR             
+Goldrei  Derek         Classic Set Theory  A guided independent study   st      ed    London  Chapman and Hall  ISBN                       
+Griffiths  David J          Introduction to Quantum Mechanics  Upper Saddle River  NJ  Prentice Hall  ISBN                       
+Halmos  Paul R          Finite dimensional vector spaces  Berlin  New York  Springer Verlag  ISBN                       
+Halpern  James D   Jun         Bases in Vector Spaces and the Axiom of Choice   Proceedings of the American Mathematical Society                   doi                  JSTOR             
+Hughes Hallett  Deborah  McCallum  William G   Gleason  Andrew M          Calculus        Single and Multivariable         ed    John Wiley  amp  Sons  ISBN                      
+Husemoller  Dale         Fibre Bundles   rd      ed    Berlin  New York  Springer Verlag  ISBN                       
+Jost  J rgen         Riemannian Geometry and Geometric Analysis   th      ed    Berlin  New York  Springer Verlag  ISBN                       
+Kreyszig  Erwin         Differential geometry  New York  Dover Publications  pp       xiv      ISBN                       
+Kreyszig  Erwin         Advanced Engineering Mathematics   th      ed    New York  John Wiley  amp  Sons  ISBN                       
+Luenberger  David         Optimization by vector space methods  New York  John Wiley  amp  Sons  ISBN                       
+Mac Lane  Saunders         Categories for the Working Mathematician   nd      ed    Berlin  New York  Springer Verlag  ISBN                       
+Misner  Charles W   Thorne  Kip  Wheeler  John Archibald         Gravitation  W  H  Freeman  ISBN                       
+Naber  Gregory L          The geometry of Minkowski spacetime  New York  Dover Publications  ISBN                         MR             
+Sch nhage  A   Strassen  Volker          Schnelle Multiplikation gro er Zahlen  Fast multiplication of big numbers    Computing  in German                     doi         bf          ISSN              X  S CID             
+Spivak  Michael         A Comprehensive Introduction to Differential Geometry  Volume Two   Houston  TX  Publish or Perish
+Stewart  Ian         Galois Theory  Chapman and Hall Mathematics Series  London  Chapman and Hall  ISBN                       
+Varadarajan  V  S          Lie groups  Lie algebras  and their representations  Prentice Hall  ISBN                       
+Wallace  G K   Feb         The JPEG still picture compression standard   PDF   IEEE Transactions on Consumer Electronics          xviii xxxiv  CiteSeerX                       doi                    ISSN                 archived from the original  PDF  on             retrieved           
+Weibel  Charles A          An introduction to homological algebra  Cambridge Studies in Advanced Mathematics  Vol           Cambridge University Press  ISBN                         MR               OCLC               
+
+External links edit 
+
+
+
+The Wikibook Linear Algebra has a page on the topic of  Real vector spaces
+
+
+
+
+The Wikibook Linear Algebra has a page on the topic of  Vector spaces
+
+ Vector space   Encyclopedia of Mathematics  EMS Press             
+vteLinear algebra
+Outline
+Glossary
+Basic concepts
+Scalar
+Vector
+Vector space
+Scalar multiplication
+Vector projection
+Linear span
+Linear map
+Linear projection
+Linear independence
+Linear combination
+Multilinear map
+Basis
+Change of basis
+Row and column vectors
+Row and column spaces
+Kernel
+Eigenvalues and eigenvectors
+Transpose
+Linear equations
+Matrices
+Block
+Decomposition
+Invertible
+Minor
+Multiplication
+Rank
+Transformation
+Cramer s rule
+Gaussian elimination
+Productive matrix
+Bilinear
+Orthogonality
+Dot product
+Hadamard product
+Inner product space
+Outer product
+Kronecker product
+Gram Schmidt process
+Multilinear algebra
+Determinant
+Cross product
+Triple product
+Seven dimensional cross product
+Geometric algebra
+Exterior algebra
+Bivector
+Multivector
+Tensor
+Outermorphism
+Vector space constructions
+Dual
+Direct sum
+Function space
+Quotient
+Subspace
+Tensor product
+Numerical
+Floating point
+Numerical stability
+Basic Linear Algebra Subprograms
+Sparse matrix
+Comparison of linear algebra libraries
+
+ Category
+
+Authority control databases  National GermanyUnited StatesFranceBnF dataCzech Republic Israel
+
+
+
+
+
+
+
+Retrieved from  https   en wikipedia org w index php title Vector space amp oldid

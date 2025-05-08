@@ -1,0 +1,2244 @@
+Mathematical use of  for all  and  there exists 
+For other uses  see Quantifier  disambiguation  
+The article s lead section may need to be rewritten  Please review the lead layout guide and help improve the lead of this article if you can    August        Learn how and when to remove this message 
+In logic  a quantifier is an operator that specifies how many individuals in the domain of discourse satisfy an open formula  For instance  the universal quantifier 
+  
+    
+      
+          x     
+      
+    
+      displaystyle  forall  
+  
+ in the first order formula 
+  
+    
+      
+          x     
+        x
+        P
+         
+        x
+         
+      
+    
+      displaystyle  forall xP x  
+  
+ expresses that everything in the domain satisfies the property denoted by 
+  
+    
+      
+        P
+      
+    
+      displaystyle P 
+  
+  On the other hand  the existential quantifier 
+  
+    
+      
+          x     
+      
+    
+      displaystyle  exists  
+  
+ in the formula 
+  
+    
+      
+          x     
+        x
+        P
+         
+        x
+         
+      
+    
+      displaystyle  exists xP x  
+  
+ expresses that there exists something in the domain which satisfies that property  A formula where a quantifier takes widest scope is called a quantified formula  A quantified formula must contain a bound variable and a subformula specifying a property of the referent of that variable 
+The most commonly used quantifiers are 
+  
+    
+      
+          x     
+      
+    
+      displaystyle  forall  
+  
+ and 
+  
+    
+      
+          x     
+      
+    
+      displaystyle  exists  
+  
+  These quantifiers are standardly defined as duals  in classical logic  each can be defined in terms of the other using negation  They can also be used to define more complex quantifiers  as in the formula 
+  
+    
+      
+          xac 
+          x     
+        x
+        P
+         
+        x
+         
+      
+    
+      displaystyle  neg  exists xP x  
+  
+ which expresses that nothing has the property 
+  
+    
+      
+        P
+      
+    
+      displaystyle P 
+  
+  Other quantifiers are only definable within second order logic or higher order logics  Quantifiers have been generalized beginning with the work of Andrzej Mostowski and Per Lindstr m 
+In a first order logic statement  quantifications in the same type  either universal quantifications or existential quantifications  can be exchanged without changing the meaning of the statement  while the exchange of quantifications in different types changes the meaning  As an example  the only difference in the definition of uniform continuity and  ordinary  continuity is the order of quantifications 
+First order quantifiers approximate the meanings of some natural language quantifiers such as  some  and  all   However  many natural language quantifiers can only be analyzed in terms of generalized quantifiers 
+
+
+Relations to logical conjunction and disjunction edit 
+For a finite domain of discourse 
+  
+    
+      
+        D
+         
+         
+        
+          a
+          
+             
+          
+        
+         
+         
+         
+         
+        
+          a
+          
+            n
+          
+        
+         
+      
+    
+      displaystyle D   a        a  n    
+  
+  the universally quantified formula 
+  
+    
+      
+          x     
+        x
+          x     
+        D
+        
+        P
+         
+        x
+         
+      
+    
+      displaystyle  forall x in D  P x  
+  
+ is equivalent to the logical conjunction 
+  
+    
+      
+        P
+         
+        
+          a
+          
+             
+          
+        
+         
+          x     
+         
+         
+         
+          x     
+        P
+         
+        
+          a
+          
+            n
+          
+        
+         
+      
+    
+      displaystyle P a      land     land P a  n   
+  
+  
+Dually  the existentially quantified formula 
+  
+    
+      
+          x     
+        x
+          x     
+        D
+        
+        P
+         
+        x
+         
+      
+    
+      displaystyle  exists x in D  P x  
+  
+ is equivalent to the logical disjunction 
+  
+    
+      
+        P
+         
+        
+          a
+          
+             
+          
+        
+         
+          x     
+         
+         
+         
+          x     
+        P
+         
+        
+          a
+          
+            n
+          
+        
+         
+      
+    
+      displaystyle P a      lor     lor P a  n   
+  
+  
+For example  if 
+  
+    
+      
+        B
+         
+         
+         
+         
+         
+         
+      
+    
+      displaystyle B         
+  
+ is the set of binary digits  the formula 
+  
+    
+      
+          x     
+        x
+          x     
+        B
+        
+        x
+         
+        
+          x
+          
+             
+          
+        
+      
+    
+      displaystyle  forall x in B  x x     
+  
+ abbreviates 
+  
+    
+      
+         
+         
+        
+           
+          
+             
+          
+        
+          x     
+         
+         
+        
+           
+          
+             
+          
+        
+      
+    
+      displaystyle         land         
+  
+  which evaluates to true 
+
+Infinite domain of discourse edit 
+Consider the following statement  using dot notation for multiplication  
+
+               and                and                     and                      and      etc 
+This has the appearance of an infinite conjunction of propositions  From the point of view of formal languages  this is immediately a problem  since syntax rules are expected to generate finite statements 
+The example above is fortunate in that there is a procedure to generate all the conjuncts   However  if the same assertion were to be made about real numbers instead of natural numbers  there would be no way to enumerate all the conjuncts  since real numbers cannot be enumerated      dubious             discuss      Succinct equivalent formulations  which avoid these problems  uses universal quantification 
+
+For each natural number n  n       n   n For each real number x  x       x   x 
+A similar analysis applies to the disjunction 
+
+  is equal to        or   is equal to        or   is equal to              or     is equal to        or      etc 
+which can be rephrased using existential quantification 
+
+For some natural number n  n is equal to     
+Algebraic approaches to quantification edit 
+It is possible to devise abstract algebras whose models include formal languages with quantification  but progress has been slow     clarification needed      and interest in such algebra has been limited  Three approaches have been devised to date 
+
+Relation algebra  invented by Augustus De Morgan  and developed by Charles Sanders Peirce  Ernst Schr der  Alfred Tarski  and Tarski s students  Relation algebra cannot represent any formula with quantifiers nested more than three deep  Surprisingly  the models of relation algebra include the axiomatic set theory ZFC and Peano arithmetic 
+Cylindric algebra  devised by Alfred Tarski  Leon Henkin  and others 
+The polyadic algebra of Paul Halmos 
+Notation edit 
+The two most common quantifiers are the universal quantifier and the existential quantifier  The traditional symbol for the universal quantifier is      a rotated letter  A   which stands for   for all  or  all    The corresponding symbol for the existential quantifier is      a rotated letter  E   which stands for  there exists  or  exists                        
+An example of translating a quantified statement in a natural language such as English would be as follows  Given the statement   Each of Peter s friends either likes to dance or likes to go to the beach  or both    key aspects can be identified and rewritten using symbols including quantifiers  So  let X be the set of all Peter s friends  P x  the predicate  x likes to dance   and Q x  the predicate  x likes to go to the beach   Then the above sentence can be written in formal notation as 
+  
+    
+      
+          x     
+        
+          x
+        
+        
+            x     
+        
+        X
+         
+         
+        P
+         
+        x
+         
+          x     
+        Q
+         
+        x
+         
+         
+      
+    
+      displaystyle  forall  x   in  X  P x  lor Q x   
+  
+  which is read   for every x that is a member of X  P applies to x or Q applies to x  
+Some other quantified expressions are constructed as follows  
+
+
+  
+    
+      
+          x     
+        
+          x
+        
+        
+        P
+      
+    
+      displaystyle  exists  x   P 
+  
+           
+
+  
+    
+      
+          x     
+        
+          x
+        
+        
+        P
+      
+    
+      displaystyle  forall  x   P 
+  
+
+for a formula P  These two expressions  using the definitions above  are read as  there exists a friend of Peter who likes to dance  and  all friends of Peter like to dance   respectively  Variant notations include  for set X and set members x 
+
+
+  
+    
+      
+        
+            x  c  
+          
+            x
+          
+        
+        P
+      
+    
+      displaystyle  bigvee   x P 
+  
+
+
+  
+    
+      
+         
+          x     
+        
+          x
+        
+         
+        P
+      
+    
+      displaystyle   exists  x  P 
+  
+           
+
+  
+    
+      
+         
+          x     
+        x
+          xa  
+         
+          xa  
+        P
+         
+      
+    
+      displaystyle   exists x     P  
+  
+
+
+  
+    
+      
+          x     
+        x
+          xa  
+          x  c  
+          xa  
+        P
+      
+    
+      displaystyle  exists x   cdot   P 
+  
+
+
+  
+    
+      
+         
+          x     
+        x
+         
+        P
+         
+      
+    
+      displaystyle   exists x P  
+  
+
+
+  
+    
+      
+          x     
+        
+          x
+        
+         
+        P
+         
+      
+    
+      displaystyle  exists  x  P  
+  
+           
+
+  
+    
+      
+        
+            x     
+          
+            x
+          
+        
+        
+        P
+      
+    
+      displaystyle  exists   x   P 
+  
+
+
+  
+    
+      
+          x     
+        
+          x
+        
+        
+           
+        
+        
+        P
+      
+    
+      displaystyle  exists  x      P 
+  
+
+
+  
+    
+      
+          x     
+        
+          x
+        
+        
+            x     
+        
+        X
+        
+        P
+      
+    
+      displaystyle  exists  x   in  X  P 
+  
+
+
+  
+    
+      
+          x     
+        
+        x
+        
+           
+        
+        X
+        
+        P
+      
+    
+      displaystyle  exists   x   X  P 
+  
+
+All of these variations also apply to universal quantification 
+Other variations for the universal quantifier are
+
+
+  
+    
+      
+        
+            x  c  
+          
+            x
+          
+        
+        P
+      
+    
+      displaystyle  bigwedge   x P 
+  
+     citation needed     
+
+  
+    
+      
+          x  c  
+        x
+        P
+      
+    
+      displaystyle  bigwedge xP 
+  
+           
+
+  
+    
+      
+         
+        x
+         
+        
+        P
+      
+    
+      displaystyle  x   P 
+  
+           
+Some versions of the notation explicitly mention the range of quantification  The range of quantification must always be specified  for a given mathematical theory  this can be done in several ways 
+
+Assume a fixed domain of discourse for every quantification  as is done in Zermelo Fraenkel set theory 
+Fix several domains of discourse in advance and require that each variable have a declared domain  which is the type of that variable  This is analogous to the situation in statically typed computer programming languages  where variables have declared types 
+Mention explicitly the range of quantification  perhaps using a symbol for the set of all objects in that domain  or the type of the objects in that domain  
+One can use any variable as a quantified variable in place of any other  under certain restrictions in which variable capture does not occur  Even if the notation uses typed variables  variables of that type may be used 
+Informally or in natural language  the   x  or   x  might appear after or in the middle of P x   Formally  however  the phrase that introduces the dummy variable is placed in front 
+Mathematical formulas mix symbolic expressions for quantifiers with natural language quantifiers such as 
+
+ For every natural number x     
+ There exists an x such that    
+ For at least one x      
+Keywords for uniqueness quantification include 
+
+ For exactly one natural number x     
+ There is one and only one x such that     
+Further  x may be replaced by a pronoun  For example 
+
+For every natural number  its product with   equals to its sum with itself 
+Some natural number is prime 
+Order of quantifiers  nesting  edit 
+See also  Quantifier shift
+The order of quantifiers is critical to meaning  as is illustrated by the following two propositions 
+
+For every natural number n  there exists a natural number s such that s   n  
+This is clearly true  it just asserts that every natural number has a square  The meaning of the assertion in which the order of quantifiers is reversed is different 
+
+There exists a natural number s such that for every natural number n  s   n  
+This is clearly false  it asserts that there is a single natural number s that is the square of every natural number  This is because the syntax directs that any variable cannot be a function of subsequently introduced variables 
+A less trivial example from mathematical analysis regards the concepts of uniform and pointwise continuity  whose definitions differ only by an exchange in the positions of two quantifiers  A function f from R to R is called
+
+Pointwise continuous if 
+  
+    
+      
+          x     
+          x b  
+         gt 
+         
+        
+          x     
+        x
+          x     
+        
+          R
+        
+        
+          x     
+          x b  
+         gt 
+         
+        
+          x     
+        h
+          x     
+        
+          R
+        
+        
+         
+        
+           
+        
+        h
+        
+           
+        
+         lt 
+          x b  
+        
+          x  d  
+        
+        
+           
+        
+        f
+         
+        x
+         
+          x     
+        f
+         
+        x
+         
+        h
+         
+        
+           
+        
+         lt 
+          x b  
+         
+      
+    
+      displaystyle  forall  varepsilon  gt     forall x in  mathbb  R     exists  delta  gt     forall h in  mathbb  R      h  lt  delta    Rightarrow    f x  f x h   lt  varepsilon   
+  
+
+Uniformly continuous if 
+  
+    
+      
+          x     
+          x b  
+         gt 
+         
+        
+          x     
+          x b  
+         gt 
+         
+        
+          x     
+        x
+          x     
+        
+          R
+        
+        
+          x     
+        h
+          x     
+        
+          R
+        
+        
+         
+        
+           
+        
+        h
+        
+           
+        
+         lt 
+          x b  
+        
+          x  d  
+        
+        
+           
+        
+        f
+         
+        x
+         
+          x     
+        f
+         
+        x
+         
+        h
+         
+        
+           
+        
+         lt 
+          x b  
+         
+      
+    
+      displaystyle  forall  varepsilon  gt     exists  delta  gt     forall x in  mathbb  R     forall h in  mathbb  R      h  lt  delta    Rightarrow    f x  f x h   lt  varepsilon   
+  
+
+In the former case  the particular value chosen for   can be a function of both   and x  the variables that precede it 
+In the latter case    can be a function only of    i e   it has to be chosen independent of x   For example  f x    x  satisfies pointwise  but not uniform continuity  its slope is unbound   In contrast  interchanging the two initial universal quantifiers in the definition of pointwise continuity does not change the meaning 
+As a general rule  swapping two adjacent universal quantifiers with the same scope  or swapping two adjacent existential quantifiers with the same scope  doesn t change the meaning of the formula  see Example here   but swapping an existential quantifier and an adjacent universal quantifier may change its meaning 
+The maximum depth of nesting of quantifiers in a formula is called its  quantifier rank  
+
+Equivalent expressions edit 
+If D is a domain of x and P x  is a predicate dependent on object variable x  then the universal proposition can be expressed as
+
+  
+    
+      
+          x     
+        x
+        
+          x     
+        
+        D
+        
+        P
+         
+        x
+         
+         
+      
+    
+      displaystyle  forall x   in   D  P x   
+  
+
+This notation is known as restricted or relativized or bounded quantification  Equivalently one can write 
+
+  
+    
+      
+          x     
+        x
+        
+         
+        x
+        
+          x     
+        
+        D
+          x     
+        P
+         
+        x
+         
+         
+         
+      
+    
+      displaystyle  forall x   x   in   D to P x    
+  
+
+The existential proposition can be expressed with bounded quantification as
+
+  
+    
+      
+          x     
+        x
+        
+          x     
+        
+        D
+        
+        P
+         
+        x
+         
+         
+      
+    
+      displaystyle  exists x   in   D  P x   
+  
+
+or equivalently
+
+  
+    
+      
+          x     
+        x
+        
+         
+        x
+        
+          x     
+        
+        
+        D
+          x     
+        P
+         
+        x
+         
+         
+         
+      
+    
+      displaystyle  exists x   x   in     D land P x    
+  
+
+Together with negation  only one of either the universal or existential quantifier is needed to perform both tasks 
+
+  
+    
+      
+          xac 
+         
+          x     
+        x
+        
+          x     
+        
+        D
+        
+        P
+         
+        x
+         
+         
+          x     
+          x     
+        x
+        
+          x     
+        
+        D
+        
+          xac 
+        P
+         
+        x
+         
+         
+      
+    
+      displaystyle  neg   forall x   in   D  P x   equiv  exists x   in   D   neg P x   
+  
+
+which shows that to disprove a  for all x  proposition  one needs no more than to find an x for which the predicate is false  Similarly 
+
+  
+    
+      
+          xac 
+         
+          x     
+        x
+        
+          x     
+        
+        D
+        
+        P
+         
+        x
+         
+         
+          x     
+          x     
+        x
+        
+          x     
+        
+        D
+        
+          xac 
+        P
+         
+        x
+         
+         
+      
+    
+      displaystyle  neg   exists x   in   D  P x   equiv  forall x   in   D   neg P x   
+  
+
+to disprove a  there exists an x  proposition  one needs to show that the predicate is false for all x 
+In classical logic  every formula is logically equivalent to a formula in prenex normal form  that is  a string of quantifiers and bound variables followed by a quantifier free formula 
+
+Quantifier elimination edit 
+This section is an excerpt from Quantifier elimination  edit 
+Quantifier elimination is a concept of simplification used in mathematical logic  model theory  and theoretical computer science  Informally  a quantified statement  
+  
+    
+      
+          x     
+        x
+      
+    
+      displaystyle  exists x 
+  
+ such that           can be viewed as a question  When is there an 
+  
+    
+      
+        x
+      
+    
+      displaystyle x 
+  
+ such that             and the statement without quantifiers can be viewed as the answer to that question            
+One way of classifying formulas is by the amount of quantification  Formulas with less depth of quantifier alternation are thought of as being simpler  with the quantifier free formulas as the simplest 
+
+A theory has quantifier elimination if for every formula 
+  
+    
+      
+          x b  
+      
+    
+      displaystyle  alpha  
+  
+  there exists another formula 
+  
+    
+      
+        
+            x b  
+          
+            Q
+            F
+          
+        
+      
+    
+      displaystyle  alpha   QF  
+  
+ without quantifiers that is equivalent to it  modulo this theory  
+Range of quantification edit 
+Every quantification involves one specific variable and a domain of discourse or range of quantification of that variable  The range of quantification specifies the set of values that the variable takes   In the examples above  the range of quantification is the set of natural numbers  Specification of the range of quantification allows us to express the difference between  say  asserting that a predicate holds for some natural number or for some real number  Expository conventions often reserve some variable names such as  n  for natural numbers  and  x  for real numbers  although relying exclusively on naming conventions cannot work in general  since ranges of variables can change in the course of a mathematical argument 
+A universally quantified formula over an empty range  like 
+  
+    
+      
+          x     
+        x
+        
+          x     
+        
+          x     
+        
+        x
+          x     
+        x
+      
+    
+      displaystyle  forall x   in    varnothing   x neq x 
+  
+  is always vacuously true  Conversely  an existentially quantified formula over an empty range  like 
+  
+    
+      
+          x     
+        x
+        
+          x     
+        
+          x     
+        
+        x
+         
+        x
+      
+    
+      displaystyle  exists x   in    varnothing   x x 
+  
+  is always false 
+A more natural way to restrict the domain of discourse uses guarded quantification   For example  the guarded quantification 
+
+For some natural number n  n is even and n is prime
+means
+
+For some even number n  n is prime 
+In some mathematical theories  a single domain of discourse fixed in advance is assumed  For example  in Zermelo Fraenkel set theory  variables range over all sets  In this case  guarded quantifiers can be used to mimic a smaller range of quantification  Thus in the example above  to express
+
+For every natural number n  n     n   n
+in Zermelo Fraenkel set theory  one would write
+
+For every n  if n belongs to N  then n     n   n 
+where N is the set of all natural numbers 
+
+Formal semantics edit 
+Mathematical semantics is the application of mathematics to study the meaning of expressions in a formal language  It has three elements  a mathematical specification of a class of objects via syntax  a mathematical specification of various semantic domains and the relation between the two  which is usually expressed as a function from syntactic objects to semantic ones   This article only addresses the issue of how quantifier elements are interpreted 
+The syntax of a formula can be given by a syntax tree  A quantifier has a scope  and an occurrence of a variable x is free if it is not within the scope of a quantification for that variable  Thus in
+
+  
+    
+      
+          x     
+        x
+         
+          x     
+        y
+        B
+         
+        x
+         
+        y
+         
+         
+          x     
+        C
+         
+        y
+         
+        x
+         
+      
+    
+      displaystyle  forall x  exists yB x y   vee C y x  
+  
+
+the occurrence of both x and y in C y  x  is free  while the occurrence of x and y in B y  x  is bound  i e  non free  
+
+Syntax tree of the formula 
+  
+    
+      
+          x     
+        x
+         
+          x     
+        y
+        B
+         
+        x
+         
+        y
+         
+         
+          x     
+        C
+         
+        y
+         
+        x
+         
+      
+    
+      displaystyle  forall x  exists yB x y   vee C y x  
+  
+  illustrating scope and variable capture  Bound and free variable occurrences are colored in red and green  respectively 
+An interpretation for first order predicate calculus assumes as given a domain of individuals X   A formula A whose free variables are x        xn is interpreted as a Boolean valued function F v        vn  of n arguments  where each argument ranges over the domain X   Boolean valued means that the function assumes one of the values T  interpreted as truth  or F  interpreted as falsehood   The interpretation of the formula
+
+  
+    
+      
+          x     
+        
+          x
+          
+            n
+          
+        
+        A
+         
+        
+          x
+          
+             
+          
+        
+         
+          x     
+         
+        
+          x
+          
+            n
+          
+        
+         
+      
+    
+      displaystyle  forall x  n A x      ldots  x  n   
+  
+
+is the function G of n   arguments such that G v        vn      T if and only if F v        vn    w    T for every w in X  If  F v        vn    w    F for at least one value of w  then G v        vn      F  Similarly the interpretation of the formula
+
+  
+    
+      
+          x     
+        
+          x
+          
+            n
+          
+        
+        A
+         
+        
+          x
+          
+             
+          
+        
+         
+          x     
+         
+        
+          x
+          
+            n
+          
+        
+         
+      
+    
+      displaystyle  exists x  n A x      ldots  x  n   
+  
+
+is the function H of n   arguments such that H v        vn      T if and only if F v        vn    w    T for at least one w and  H v        vn      F otherwise 
+The semantics for uniqueness quantification requires first order predicate calculus with equality  This means there is given a distinguished two placed predicate      the semantics is also modified accordingly so that     is always interpreted as the two place equality relation on X  The interpretation of  
+
+  
+    
+      
+          x     
+         
+        
+          x
+          
+            n
+          
+        
+        A
+         
+        
+          x
+          
+             
+          
+        
+         
+          x     
+         
+        
+          x
+          
+            n
+          
+        
+         
+      
+    
+      displaystyle  exists  x  n A x      ldots  x  n   
+  
+
+then is the function of n   arguments  which is the logical and of the interpretations of 
+
+  
+    
+      
+        
+          
+            
+              
+                  x     
+                
+                  x
+                  
+                    n
+                  
+                
+              
+              
+                A
+                 
+                
+                  x
+                  
+                     
+                  
+                
+                 
+                  x     
+                 
+                
+                  x
+                  
+                    n
+                  
+                
+                 
+              
+            
+            
+              
+                  x     
+                y
+                 
+                z
+              
+              
+                
+                
+                  
+                     
+                  
+                
+                A
+                 
+                
+                  x
+                  
+                     
+                  
+                
+                 
+                  x     
+                 
+                
+                  x
+                  
+                    n
+                      x     
+                     
+                  
+                
+                 
+                y
+                 
+                  x     
+                A
+                 
+                
+                  x
+                  
+                     
+                  
+                
+                 
+                  x     
+                 
+                
+                  x
+                  
+                    n
+                      x     
+                     
+                  
+                
+                 
+                z
+                 
+                
+                  x  f  
+                
+                y
+                 
+                z
+                
+                  
+                     
+                  
+                
+                 
+              
+            
+          
+        
+      
+    
+      displaystyle   begin aligned  exists x  n  amp A x      ldots  x  n     forall y z amp   big   A x      ldots  x  n    y  wedge A x      ldots  x  n    z  implies y z  big     end aligned   
+  
+
+Each kind of quantification defines a corresponding closure operator on the set of formulas  by adding  for each free variable x  a quantifier to bind x             For example  the existential closure of the open formula n gt     xn yn zn is the closed formula  n  x  y  z  n gt     xn yn zn   the latter formula  when interpreted over the positive integers  is known to be false by Fermat s Last Theorem  As another example  equational axioms  like x y y x  are usually meant to denote their universal closure  like  x  y  x y y x  to express commutativity 
+
+Paucal  multal and other degree quantifiers edit 
+See also  Fubini s theorem and measurable
+None of the quantifiers previously discussed apply to a quantification such as
+
+There are many integers n  lt       such that n is divisible by   or   or   
+One possible interpretation mechanism can be obtained as follows  Suppose that in addition to a semantic domain X  we have given a probability measure P defined on X and cutoff numbers    lt  a   b        If A is a formula with free variables x      xn whose interpretation is
+the function F of variables v      vn then the interpretation of 
+
+  
+    
+      
+        
+            x     
+          
+            
+              m
+              a
+              n
+              y
+            
+          
+        
+        
+          x
+          
+            n
+          
+        
+        A
+         
+        
+          x
+          
+             
+          
+        
+         
+          x     
+         
+        
+          x
+          
+            n
+              x     
+             
+          
+        
+         
+        
+          x
+          
+            n
+          
+        
+         
+      
+    
+      displaystyle  exists    mathrm  many   x  n A x      ldots  x  n    x  n   
+  
+
+is the function of v      vn   which is T if and only if
+
+  
+    
+      
+        P
+          x     
+         
+        w
+         
+        F
+         
+        
+          v
+          
+             
+          
+        
+         
+          x     
+         
+        
+          v
+          
+            n
+              x     
+             
+          
+        
+         
+        w
+         
+         
+        
+          T
+        
+         
+          x     
+        b
+      
+    
+      displaystyle  operatorname  P    w F v      ldots  v  n    w   mathbf  T     geq b 
+  
+
+and F otherwise   Similarly  the interpretation of 
+
+  
+    
+      
+        
+            x     
+          
+            
+              f
+              e
+              w
+            
+          
+        
+        
+          x
+          
+            n
+          
+        
+        A
+         
+        
+          x
+          
+             
+          
+        
+         
+          x     
+         
+        
+          x
+          
+            n
+              x     
+             
+          
+        
+         
+        
+          x
+          
+            n
+          
+        
+         
+      
+    
+      displaystyle  exists    mathrm  few   x  n A x      ldots  x  n    x  n   
+  
+
+is the function of v      vn   which is F if and only if
+
+  
+    
+      
+         
+         lt 
+        P
+          x     
+         
+        w
+         
+        F
+         
+        
+          v
+          
+             
+          
+        
+         
+          x     
+         
+        
+          v
+          
+            n
+              x     
+             
+          
+        
+         
+        w
+         
+         
+        
+          T
+        
+         
+          x     
+        a
+      
+    
+      displaystyle   lt  operatorname  P    w F v      ldots  v  n    w   mathbf  T     leq a 
+  
+
+and T otherwise 
+
+Other quantifiers edit 
+A few other quantifiers have been proposed over time  In particular  the solution quantifier                                   noted    section sign  and read  those   For example 
+
+  
+    
+      
+        
+           
+          
+              xa  
+            n
+              x     
+            
+              N
+            
+            
+            
+              n
+              
+                 
+              
+            
+              x     
+             
+          
+           
+        
+         
+         
+         
+         
+         
+         
+         
+         
+      
+    
+      displaystyle  left  S n in  mathbb  N   quad n     leq   right            
+  
+
+is read  those n in N such that n      are in           The same construct is expressible in set builder notation as
+
+  
+    
+      
+         
+        n
+          x     
+        
+          N
+        
+         
+        
+          n
+          
+             
+          
+        
+          x     
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+      
+    
+      displaystyle   n in  mathbb  N   n     leq                
+  
+
+Contrary to the other quantifiers    yields a set rather than a formula             
+Some other quantifiers sometimes used in mathematics include 
+
+There are infinitely many elements such that   
+For all but finitely many elements     sometimes expressed as  for almost all elements      
+There are uncountably many elements such that   
+For all but countably many elements   
+For all elements in a set of positive measure   
+For all elements except those in a set of measure zero   
+History edit 
+Term logic  also called Aristotelian logic  treats quantification in a manner that is closer to natural language  and also less suited to formal analysis  Term logic treated All  Some and No in the  th century BC  in an account also touching on the alethic modalities 
+In       George Bentham published his Outline of a New System of Logic  With a Critical Examination of Dr  Whately s Elements of Logic  describing the principle of the quantifier  but the book was not widely circulated             
+
+Augustus De Morgan             was the first to use  quantifier  in the modern sense 
+William Hamilton claimed to have coined the terms  quantify  and  quantification   most likely in his Edinburgh lectures c        Augustus De Morgan confirmed this in       but modern usage began with De Morgan in      where he makes statements such as  We are to take in both all and some not all as quantifiers              
+Gottlob Frege  in his      Begriffsschrift  was the first to employ a quantifier to bind a variable ranging over a domain of discourse and appearing in predicates  He would universally quantify a variable  or relation  by writing the variable over a dimple in an otherwise straight line appearing in his diagrammatic formulas  Frege did not devise an explicit notation for existential quantification  instead employing his equivalent of   x   or contraposition  Frege s treatment of quantification went largely unremarked until Bertrand Russell s      Principles of Mathematics 
+In work that culminated in Peirce         Charles Sanders Peirce and his student Oscar Howard Mitchell independently invented universal and existential quantifiers  and bound variables  Peirce and Mitchell wrote  x and  x where we now write  x and  x  Peirce s notation can be found in the writings of Ernst Schr der  Leopold Loewenheim  Thoralf Skolem  and Polish logicians into the     s  Most notably  it is the notation of Kurt G del s landmark      paper on the completeness of first order logic  and      paper on the incompleteness of Peano arithmetic  Per Martin L f adopted a similar notation for dependent products and sums in his intuitionistic type theory  which are conceptually related to quantification 
+Peirce s approach to quantification also influenced William Ernest Johnson and Giuseppe Peano  who invented yet another notation  namely  x  for the universal quantification of x and  in        x for the existential quantification of x  Hence for decades  the canonical notation in philosophy and mathematical logic was  x P to express  all individuals in the domain of discourse have the property P   and    x P  for  there exists at least one individual in the domain of discourse having the property P   Peano  who was much better known than Peirce  in effect diffused the latter s thinking throughout Europe  Peano s notation was adopted by the Principia Mathematica of Whitehead and Russell  Quine  and Alonzo Church  In       Gentzen introduced the   symbol  by analogy with Peano s   symbol    did not become canonical until the     s 
+Around       Peirce began developing his existential graphs  whose variables can be seen as tacitly quantified  Whether the shallowest instance of a variable is even or odd determines whether that variable s quantification is universal or existential   Shallowness is the contrary of depth  which is determined by the nesting of negations   Peirce s graphical logic has attracted some attention in recent years by those researching heterogeneous reasoning and diagrammatic inference 
+
+See also edit 
+
+Philosophy portal
+Absolute generality
+Almost all
+Branching quantifier
+Conditional quantifier
+Counting quantification
+Eventually  mathematics 
+Generalized quantifier         a higher order property used as standard semantics of quantified noun phrases
+Lindstr m quantifier         a generalized polyadic quantifier
+Quantifier shift
+References edit 
+
+
+   Predicates and Quantifiers   Oak Ridge National Laboratory  Computer Science and Mathematics Division  Retrieved            
+
+       Quantifiers   Whitman College  Retrieved            
+
+  Apt  K  R           Logic Programming   In van Leeuwen  Jan  ed    Formal Models and Semantics  Handbook of Theoretical Computer Science  Vol       B  Elsevier  p            ISBN                    
+
+  Schwichtenberg  Helmut  Wainer  Stanley S          Proofs and Computations  Cambridge  Cambridge University Press  doi         cbo               ISBN                        
+
+  Hopcroft  John E   Ullman  Jeffrey D          Introduction to Automata Theory  Languages  and Computation  Reading  Massachusetts  Addison Wesley  p            ISBN                  X 
+
+  Hermes  Hans         Introduction to Mathematical Logic  Hochschultext  Springer Verlag   London  Springer  Def  II      ISBN                     ISSN                
+
+  Glebskii  Yu  V   Kogan  D  I   Liogon kii  M  I   Talanov  V  A           Range and degree of realizability of formulas in the restricted predicate calculus   Cybernetics                  doi         bf          ISSN                 S CID                
+
+  Brown      
+
+  in general  for a quantifer Q  closure makes sense only if the order of Q quantification does not matter  i e  if Qx Qy p x y  is equivalent to Qy Qx p x y   This is satisfied for Q          cf   Order of quantifiers  nesting  above 
+
+  Hehner  Eric C  R         Practical Theory of Programming   nd edition  p    
+
+  Hehner        uses the term  quantifier  in a very general sense  also including e g  summation 
+
+  George Bentham  Outline of a new system of logic  with a critical examination of Dr  Whately s Elements of Logic         Thoemmes  Facsimile edition         ISBN                   
+
+  Peters  Stanley  Westerst hl  Dag               Quantifiers in Language and Logic  Clarendon Press  pp            ISBN                        
+
+
+Bibliography edit 
+Barwise  Jon  and Etchemendy  John        Language Proof and Logic  CSLI  University of Chicago Press  and New York  Seven Bridges Press  A gentle introduction to first order logic by two first rate logicians 
+Brown  Christopher W   July             What is Quantifier Elimination   Retrieved Aug          
+Frege  Gottlob        Begriffsschrift  Translated in Jean van Heijenoort        From Frege to G del  A Source Book on Mathematical Logic             Harvard University Press  The first appearance of quantification 
+Hilbert  David  and Ackermann  Wilhelm               Principles of Mathematical Logic  Chelsea  Translation of Grundz ge der theoretischen Logik  Springer Verlag  The      first edition is the first time quantification was consciously employed in the now standard  manner  namely as binding variables ranging over some fixed domain of discourse  This is the defining aspect of first order logic 
+Peirce  C  S          On the Algebra of Logic  A Contribution to the Philosophy of Notation  American Journal of Mathematics  Vol     pp           Reprinted in Kloesel  N  et al   eds         Writings of C  S  Peirce  Vol     Indiana University Press  The first appearance of quantification in anything like its present form 
+Reichenbach  Hans               Elements of Symbolic Logic  Dover Publications  The quantifiers are discussed in chapters      Binding of variables  through      Derivations from Synthetic Premises  
+Westerst hl  Dag         Quantifiers   in Goble  Lou  ed   The Blackwell Guide to Philosophical Logic  Blackwell 
+Wiese  Heike        Numbers  language  and the human mind  Cambridge University Press  ISBN                    
+External links edit 
+
+
+
+Look up quantification in Wiktionary  the free dictionary 
+
+ Quantifier   Encyclopedia of Mathematics  EMS Press             
+  For all  and  there exists  topical phrases  sentences and expressions   Archived from the original on March           From College of Natural Sciences  University of Hawaii at Manoa 
+Stanford Encyclopedia of Philosophy 
+Shapiro  Stewart          Classical Logic   Covers syntax  model theory  and metatheory for first order logic in the natural deduction style  
+Westerst hl  Dag          Generalized quantifiers 
+Peters  Stanley  Westerst hl  Dag          Quantifiers  Archived            at the Wayback Machine
+vteCommon fallacies  list FormalIn propositional logic
+Affirming a disjunct
+Affirming the consequent
+Denying the antecedent
+Argument from fallacy
+Masked man
+Mathematical fallacy
+In quantificational logic
+Existential
+Illicit conversion
+Proof by example
+Quantifier shift
+Syllogistic fallacy
+Affirmative conclusion from a negative premise
+Negative conclusion from affirmative premises
+Exclusive premises
+Existential
+Necessity
+Four terms
+Illicit major
+Illicit minor
+Undistributed middle
+InformalEquivocation
+Equivocation
+False equivalence
+False attribution
+Quoting out of context
+Loki s Wager
+No true Scotsman
+Reification
+Map territory relation
+Question begging
+Circular reasoning   Begging the question
+Loaded language
+Leading question
+Compound question   Loaded question   Complex question
+No true Scotsman
+Correlative based
+False dilemma
+Perfect solution
+Denying the correlative
+Suppressed correlative
+Illicit transference
+Composition
+Division
+Ecological
+Secundum quid
+Accident
+Converse accident
+Faulty generalization
+Anecdotal evidence
+Sampling bias
+Cherry picking
+McNamara
+Base rate   Conjunction
+Double counting
+False analogy
+Slothful induction
+Overwhelming exception
+Ambiguity
+Accent
+False precision
+Moving the goalposts
+Quoting out of context
+Slippery slope
+Sorites paradox
+Syntactic ambiguity
+Questionable cause
+Animistic
+Furtive
+Correlation implies causation
+Cum hoc
+Post hoc
+Gambler s
+Inverse
+Regression
+Single cause
+Slippery slope
+Texas sharpshooter
+Appeals
+Law Legality
+Stone   Proof by assertion
+Consequences
+Argumentum ad baculum
+Wishful thinking
+Emotion
+Children
+Fear
+Flattery
+Novelty
+Pity
+Ridicule
+In group favoritism
+Invented here   Not invented here
+Island mentality
+Loyalty
+Parade of horribles
+Spite
+Stirring symbols
+Wisdom of repugnance
+
+Genetic fallacyAd hominem
+Appeal to motive
+Association
+Reductio ad Hitlerum
+Godwin s law
+Reductio ad Stalinum
+Bulverism
+Poisoning the well
+Tone
+Tu quoque
+Whataboutism
+
+Authority
+Accomplishment
+Ipse dixit
+Poverty   Wealth
+Etymology
+Nature
+Tradition   Novelty
+Chronological snobbery
+Other fallacies of relevanceArguments
+Ad nauseam
+Sealioning
+Argument from anecdote
+Argument from silence
+Argument to moderation
+Argumentum ad populum
+
+Clich 
+The Four Great Errors
+I m entitled to my opinion
+Ignoratio elenchi
+Invincible ignorance
+Moralistic   Naturalistic
+Motte and bailey fallacy
+Psychologist s fallacy
+Rationalization
+Red herring
+Two wrongs make a right
+Special pleading
+Straw man
+
+ Category
+
+vteMathematical logicGeneral
+Axiom
+list
+Cardinality
+First order logic
+Formal proof
+Formal semantics
+Foundations of mathematics
+Information theory
+Lemma
+Logical consequence
+Model
+Theorem
+Theory
+Type theory
+Theorems       list       and      paradoxes
+G del s completeness      and      incompleteness theorems
+Tarski s undefinability
+Banach Tarski paradox
+Cantor s      theorem       paradox      and      diagonal argument
+Compactness
+Halting problem
+Lindstr m s
+L wenheim Skolem
+Russell s paradox
+LogicsTraditional
+Classical logic
+Logical truth
+Tautology
+Proposition
+Inference
+Logical equivalence
+Consistency
+Equiconsistency
+Argument
+Soundness
+Validity
+Syllogism
+Square of opposition
+Venn diagram
+Propositional
+Boolean algebra
+Boolean functions
+Logical connectives
+Propositional calculus
+Propositional formula
+Truth tables
+Many valued logic
+ 
+finite
+ 
+Predicate
+First order
+list
+Second order
+Monadic
+Higher order
+Fixed point
+Free
+Quantifiers
+Predicate
+Monadic predicate calculus
+Set theory
+Set
+hereditary
+Class
+ Ur  Element
+Ordinal number
+Extensionality
+Forcing
+Relation
+equivalence
+partition
+Set operations 
+intersection
+union
+complement
+Cartesian product
+power set
+identities
+Types of sets
+Countable
+Uncountable
+Empty
+Inhabited
+Singleton
+Finite
+Infinite
+Transitive
+Ultrafilter
+Recursive
+Fuzzy
+Universal
+Universe
+constructible
+Grothendieck
+Von Neumann
+Maps      and      cardinality
+Function Map
+domain
+codomain
+image
+In Sur Bi jection
+Schr der Bernstein theorem
+Isomorphism
+G del numbering
+Enumeration
+Large cardinal
+inaccessible
+Aleph number
+Operation
+binary
+Set theories
+Zermelo Fraenkel
+axiom of choice
+continuum hypothesis
+General
+Kripke Platek
+Morse Kelley
+Naive
+New Foundations
+Tarski Grothendieck
+Von Neumann Bernays G del
+Ackermann
+Constructive
+Formal systems       list  language      and      syntax
+Alphabet
+Arity
+Automata
+Axiom schema
+Expression
+ground
+Extension
+by definition
+conservative
+Relation
+Formation rule
+Grammar
+Formula
+atomic
+closed
+ground
+open
+Free bound variable
+Language
+Metalanguage
+Logical connective
+ 
+ 
+ 
+ 
+ 
+ 
+Predicate
+functional
+variable
+propositional variable
+Proof
+Quantifier
+ 
+ 
+ 
+rank
+Sentence
+atomic
+spectrum
+Signature
+String
+Substitution
+Symbol
+function
+logical constant
+non logical
+variable
+Term
+Theory
+list
+Example      axiomaticsystems       list 
+of arithmetic 
+Peano
+second order
+elementary function
+primitive recursive
+Robinson
+Skolem
+of the real numbers
+Tarski s axiomatization
+of Boolean algebras
+canonical
+minimal axioms
+of geometry 
+Euclidean 
+Elements
+Hilbert s
+Tarski s
+non Euclidean
+Principia Mathematica
+Proof theory
+Formal proof
+Natural deduction
+Logical consequence
+Rule of inference
+Sequent calculus
+Theorem
+Systems
+axiomatic
+deductive
+Hilbert
+list
+Complete theory
+Independence       from      ZFC 
+Proof of impossibility
+Ordinal analysis
+Reverse mathematics
+Self verifying theories
+Model theory
+Interpretation
+function
+of models
+Model
+equivalence
+finite
+saturated
+spectrum
+submodel
+Non standard model
+of arithmetic
+Diagram
+elementary
+Categorical theory
+Model complete theory
+Satisfiability
+Semantics of logic
+Strength
+Theories of truth
+semantic
+Tarski s
+Kripke s
+T schema
+Transfer principle
+Truth predicate
+Truth value
+Type
+Ultraproduct
+Validity
+Computability theory
+Church encoding
+Church Turing thesis
+Computably enumerable
+Computable function
+Computable set
+Decision problem
+decidable
+undecidable
+P
+NP
+P versus NP problem
+Kolmogorov complexity
+Lambda calculus
+Primitive recursive function
+Recursion
+Recursive set
+Turing machine
+Type theory
+Related
+Abstract logic
+Algebraic logic
+Automated theorem proving
+Category theory
+Concrete Abstract category
+Category of sets
+History of logic
+History of mathematical logic
+timeline
+Logicism
+Mathematical object
+Philosophy of mathematics
+Supertask
+ Mathematics     portal
+vteFormal semantics  natural language Central concepts
+Compositionality
+Denotation
+Entailment
+Extension
+Generalized quantifier
+Intension
+Logical form
+Presupposition
+Proposition
+Reference
+Scope
+Speech act
+Syntax semantics interface
+Truth conditions
+TopicsAreas
+Anaphora
+Ambiguity
+Binding
+Conditionals
+Definiteness
+Disjunction
+Evidentiality
+Focus
+Indexicality
+Lexical semantics
+Modality
+Negation
+Propositional attitudes
+Tense aspect mood
+Quantification
+Vagueness
+Phenomena
+Antecedent contained deletion
+Cataphora
+Coercion
+Conservativity
+Counterfactuals
+Crossover effects
+Cumulativity
+De dicto and de re
+De se
+Deontic modality
+Discourse relations
+Donkey anaphora
+Epistemic modality
+Exhaustivity
+Faultless disagreement
+Free choice inferences
+Givenness
+Homogeneity  linguistics 
+Hurford disjunction
+Inalienable possession
+Intersective modification
+Logophoricity
+Mirativity
+Modal subordination
+Opaque contexts
+Performatives
+Polarity items
+Privative adjectives
+Quantificational variability effect
+Responsive predicate
+Rising declaratives
+Scalar implicature
+Sloppy identity
+Subsective modification
+Subtrigging
+Telicity
+Temperature paradox
+Veridicality
+FormalismFormal systems
+Alternative semantics
+Categorial grammar
+Combinatory categorial grammar
+Discourse representation theory  DRT 
+Dynamic semantics
+Generative grammar
+Glue semantics
+Inquisitive semantics
+Intensional logic
+Lambda calculus
+Mereology
+Montague grammar
+Segmented discourse representation theory  SDRT 
+Situation semantics
+Supervaluationism
+Type theory
+TTR
+Concepts
+Autonomy of syntax
+Context set
+Continuation
+Conversational scoreboard
+Downward entailing
+Existential closure
+Function application
+Meaning postulate
+Monads
+Plural quantification
+Possible world
+Quantifier raising
+Quantization
+Question under discussion
+Semantic parsing
+Squiggle operator
+Strawson entailment
+Strict conditional
+Type shifter
+Universal grinder
+See also
+Cognitive semantics
+Computational semantics
+Distributional semantics
+Formal grammar
+Inferentialism
+Logic translation
+Linguistics wars
+Philosophy of language
+Pragmatics
+Semantics of logic
+
+Authority control databases  National GermanyUnited StatesFranceBnF dataLatviaIsrael
+
+
+
+
+
+Retrieved from  https   en wikipedia org w index php title Quantifier  logic  amp oldid

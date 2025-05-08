@@ -1,0 +1,435 @@
+Kunstig intelligens kan benyttes for   styre roboter  som eksempelvis ASIMO 
+Kunstig intelligens  KI   ogs  kalt AI  fra engelsk  artificial intelligence   er dataprogrammer med intelligent oppf rsel  som etterligner menneskelig intelligens   KI generert  ble k ret til  rets ord i                  
+Begrepet har v rt en del av datateknologien siden       rene  men det er s rlig siden      tallet at teknologien har f tt stor utbredelse  Fagfeltet kunstig intelligens er tverrfaglig og har vokst fram med bidrag fra blant annet informatikk  matematikk  statistikk  psykologi  nevrologi og lingvistikk  Innen informatikken blir grenen kunstig intelligens definert som studiet og utviklingen av intelligente agenter             der en intelligent agent er et system som observerer sitt milj  og tar avgj relser for   maksimere suksess i forhold til definerte m l             Dette er systemer og maskiner som kan utf re oppgaver som vanligvis krever menneskelig intelligens  Dette kan inkludere l ring  probleml sing  m nstergjenkjenning  spr kforst else  planlegging og beslutningstaking  Andreas Kaplan og Michael Haenlein definerer kunstig intelligens som  et systems evne til   korrekt tolke eksterne data    l re av slike data  og   bruke denne kunnskapen til   oppn  spesifikke m l og oppgaver gjennom fleksibel tilpasning             
+Det er flere underkategorier eller grener av kunstig intelligens  Manuelle algoritmer er faste algoritmer som sorteringsalgoritmer eller klassiske s kealgoritmer som kan v re tilstrekkelige for enklere problemer  Regelbaserte systemer er hardkodede regler for beregning basert p  menneskelige eksperter  Simuleringer og modeller brukes i fysikk  kjemi og ingeni rfag og involverer ofte ikke l ring  Maskinl ring handler om   gi datamaskiner evnen til   l re og ta beslutninger uten   bli eksplisitt programmert for hver oppgave  Maskinl ring fungerer ved   bruke algoritmer som analyserer og oppdager m nstre i data  Basert p  disse m nstrene kan datamaskinen lage forutsigelser eller foreta handlinger  For eksempel kan KI i en smarttelefon l re og gjenkjenner m nstre i tekstene man sender og foresl r ord for deg  Eller n r man f r anbefalt filmer p  en str mmetjeneste eller mottar tilpassede annonser  er maskinl ring en viktig del av prosessen  Modellen bak har l rt hva man kanskje liker basert p  tidligere handlinger og data fra andre brukere                                  
+
+KI skapt bilde av Abraham Lincoln med en smarttelefon 
+Eksempel p  en manipulert deepfake med Vladimir Putin der det ser ut som han snakker om det amerikanske valget
+KI skapt fe
+En virtuell assistent  som Apple Siri  Google Assistant og Amazon Alexa  er applikasjoner som bruker spr kmodeller sammen med andre teknologier for   utf re spesifikke oppgaver  som   svare p  sp rsm l  sette p  alarmer  spille musikk  eller kontrollere smarte enheter  Spr kmodeller som driver Chatbots som ChatGPT  Copilot og DeepSeek er en type KI som er designet for   forst  og generere tekst som mennesker  Modellen er basert p  en teknologi kalt GPT  Generative Pre trained Transformer   og den er trent p  enorme mengder tekstdata for   kunne svare p  sp rsm l  gi r d  forklare konsepter og hjelpe med kreative oppgaver som skriving  Samtaleroboter  chatbot  er p  mange m ter den nye kalkulatoren  bare for tekst  For elever og studenter blir det som en hjelpel rer eller studentassistent som blant annet kan brukes til   forbedre spr ket eller til gjennomlesing f r innlevering  men det fryktes ogs  at man lar KI overta besvarelsen slik at man ikke finner ut hva studenten egentlig kan                                               
+Innen medisinske arbeid benyttes KI til   analysere bilder av netthinnen  r ntgenbilder  CT  og MR skanninger  Tolkning av disse bildene trenger bearbeide av store mengder data og ser etter avvik  noe KI egner seg til  Store mengder data m  ogs  benyttes n r KI brukes til   styre roboter og autonome kj ret y som biler  skip  tog og droner                         
+Generativ kunstig intelligens brukes til   skape tekst  bilder  videoer  musikk eller annen data  ofte som resultat av at bruker angitte kommandoer  Ofte er det vanskelig   skille om det er menneske skapt eller KI skapt             
+Bruken av KI har mange fordeler  men det kommer ogs  med noen risikoer som det er viktig   v re oppmerksom p   Noen av de st rste farene er feilinformasjon hvor KI kan brukes til   generere falske nyheter  deepfakes og annen desinformasjon som kan manipulere mennesker eller destabilisere samfunn  Hvis KI systemer trenes p  skjev eller urettferdig data  kan de reprodusere eller forsterke fordommer  noe som kan f re til diskriminering i beslutninger som rekruttering  l n eller straffeutm ling  KI systemer som h ndterer sensitive data  kan utgj re en trussel mot personvernet og datasikkerheten hvis de ikke er tilstrekkelig sikret  N r KI blir mer kompleks  kan det bli vanskelig for mennesker   forst  beslutningene som tas  noe som kan skape mistillit eller feilh ndtering  Automatisering drevet av KI kan f re til at enkelte typer jobber forsvinner  noe som kan skape  konomiske og sosiale utfordringer  Et etiske dilemma er hvordan KI skal brukes  og hvem som skal ha kontroll  det reiser mange etiske sp rsm l  eksempler er autonome v pen og overv kningsteknologier             
+EU forordningen om kunstig intelligens ble foresl tt av Europakommisjonen i      og tr dte i kraft i       Den har som m l   innf re et felles regelverk og et juridisk regelverk for kunstig intelligens             
+Man kan i dag utdanne seg innen KI  som er et spennende og voksende felt  og det finnes mange m ter   utdanne seg p  innen feltet  Mange universiteter tilbyr bachelor  og mastergrader i informatikk  datavitenskap eller spesialiserte KI studier  Temaer som maskinl ring  dyp l ring  dataanalyse og robotikk er ofte inkludert  Plattformer som Coursera  edX  Udemy og andre tilbyr kurs fra grunnleggende til avansert niv   
+N r man sp r samtalerobotene ChatGPT  Hva er kunstig intelligens   f r man f lgende svar  
+Kunstig intelligens  KI  er et felt innen datavitenskap som fokuserer p  utviklingen av systemer og programmer som kan utf re oppgaver som vanligvis krever menneskelig intelligens  Dette inkluderer evner som l ring  probleml sning  forst else av naturlig spr k  bilde  og taleforst else  samt beslutningstaking  
+KI kan deles inn i to hovedkategorier  smal kunstig intelligens  som er utviklet for   utf re spesifikke oppgaver  for eksempel stemmegjenkjenning eller ansiktsgjenkjenning   og generell kunstig intelligens  som har potensialet til   utf re enhver intellektuell oppgave som et menneske kan  Smal KI er den mest utbredte formen i dag  mens generell KI fortsatt er et m l for fremtiden 
+
+
+Historie rediger   rediger kilde 
+Science fiction rediger   rediger kilde 
+Opprinnelig stammer begrepet  kunstig intelligens  fra science fiction  I      utga Samuel Butler fremtidsromanen Erewhon  der delen The man and the machine             tar for seg tanken om at maskiner vil bli en forlengelse av mennesket  som et ekstra lem som  ker effektiviteten  Samtidig vil menneskene reduseres til et vedheng til maskinene de selv har bygd  som har utviklet seg til en helt overlegen maskinrase              Med f  unntak handler det om roboter  menneskelignende mekaniske kropper  med tiln rmet menneskelig personlighet  
+Etter fullf relsen av ENIAC  verdens f rste datamaskin med generelle bruksmuligheter  i      oppstod det en ny retning innen genren  hvor kunstig intelligens befant seg i upersonlige og ubevegelige maskiner  Ettersom ENIAC var enormt stor  fremstod de moderne datamaskinene i sci fi i starten enda mer massive og kolossale  noen i form og utstrekning som digre bygninger  og menneskene rundt som bittesm  maur  Da maskinene i virkelighetens verden ble stadig mindre og raskere  tilpasset film og litteratur seg dette  og man gikk mer eller mindre bort fra de overdimensjonerte konstruksjonene      trenger referanse     
+
+Utvikling rediger   rediger kilde 
+I      lanserte Warren McCullock og Walter Pitts ideen om en kunstig hjernecelle som de kalte et  perseptron               en logisk port som kunne behandle inng ende signaler slik en hjernecelle gj r  Arbeidet deres bygget p  Alan Turings tanker i On Computable Numbers             
+Matematikeren Alan Turings vitenskapelige artikkel fra      Computing Machinery and Intelligence krystalliserte ideen om KI  og stilte sp rsm let   Kan maskiner tenke   Han beskrev en test for   sjekke om en maskin kan ut ve intelligent adferd  Testen avgj r om det er muligheter for   utf re en menneskelignende samtale  men det var f rst senere at testen fikk navn etter ham  Turingtest  Dette  sammen med samtidige oppdagelser innen nevrologi  informasjonsteori og kybernetikk  inspirerte en liten gruppe forskere til   begynne seri st   vurdere muligheten for   bygge en elektronisk hjerne                         
+Forskningsfeltet for KI forskning ble dannet p  en konferanse p  universitet Dartmouth College i       Deltakerne var John McCarthy  Marvin Minsky  Claude Shannon  Ray Solomonoff  Allen Newell  Herbert Simon  Arthur Samuel  Oliver Selfridge  Nathaniel Rochester og Trenchard More  De ble ledende innen KI forskning i mange ti r  de og elevene deres skrev programmer som for de fleste rett og slett var forbl ffende  Datamaskiner vant i brettspillet dam  l ste ord oppgaver i algebra  beviste logiske utsagn og snakket engelsk  P  midten av      tallet ble forskning i USA tungt finansiert av forsvarsdepartementet og laboratorier var etablert rundt om i verden  KIs grunnleggere var dypt optimistiske med tanke p  fremtiden til det nye feltet  Herbert Simon sp dde at  maskiner vil v re i stand til  innen tjue  r    gj re alt arbeidet et menneske kan gj re  og Marvin Minsky var enig  og skrev  innen en generasjon     vil problemet med   skape KI i hovedsak v re l st              
+De hadde ikke klart   erkjenne vanskelighetsgraden med problemene de sto overfor  I       som svar p  kritikk fra James Lighthill og det p g ende presset fra den amerikanske kongressen for   finansiere mer produktive prosjekter  reduserte eller stoppet amerikanske og britiske myndigheter finansiering til all grunnforskning innen KI  I senere tide er de etterf lgende  rene kalt  KI vinteren   en periode det var vanskelig   finne finansiering for KI prosjekter             
+P  begynnelsen av      tallet kom det en midlertidig renessanse innen KI forskning  Den kommersielle suksessen til ekspertsystemer  en form for KI programmer som simulerte kunnskapen og analytiske ferdighetene til en eller flere menneskelige eksperter  I      hadde markedet for kunstig intelligens n dd over en milliard dollar  Samtidig hadde Japans femte generasjons dataprosjekt inspirert amerikanske og britiske myndigheter til   gjenoppta finansieringen av akademisk forskning p  omr det  Men med kollapsen av markedet for Lisp spr kene i       falt KI nok en gang i vanry  og en andre  lengre  KI vinter  begynte 
+I l pet av      tallet og begynnelsen av      tallet oppn dde denne eldre typen KI sine st rste suksesser  om enn litt bak i kulissene  Kunstig intelligens brukes til logistikk  informasjonsutvinning  medisinsk diagnostikk og mange andre omr der i teknologiindustrien  Suksessen skyldtes flere faktorer  den  kende datakraften til datamaskiner  Moores lov   en st rre vekt p    l se spesifikke delproblemer  etableringen av nye forbindelser mellom KI og andre felt som jobber med lignende problemer  og en ny forpliktelse fra forskere til solide matematiske metoder og strenge vitenskapelige standarder 
+Den     mai      ble Deep Blue den f rste sjakkspillende datamaskinen som slo den regjerende verdensmesteren i sjakk  Garry Kasparov  I februar      beseiret IBMs teknologien  Watson  to tidligere Jeopardy  mesterne med god margin  I mars      vant AlphaGo   av   omganger i et spill mot Go mester Lee Sedol  noe som resulterte i at AlphaGo ble det f rste datamaskinbaserte Go spillesystemet som slo en profesjonell Go spiller uten handicap                                     
+Kinect  som produserer et  D bevegelsesgrensesnitt for Xbox     og Xbox One  samt virtuelle assistenter i smarttelefoner  bruker algoritmer utviklet fra mange  rs KI forskning             
+Det finnes flere KI modeller og verkt y med  pen kildekode  utviklet for   fremme samarbeid og innovasjon i KI forskning  To av disse TensorFlow  utviklet av Google  og PyTorch  utviklet av Facebook   Disse kan lastes ned av hvem som helst som  nsker   programmere sine egne systemer  P  internett finner man en rekke veiledninger om dette slik at man kan pr ve   lage sin egen KI 
+
+Bruksomr der rediger   rediger kilde 
+I dag har KI blitt en viktig del innen mange bruksomr der og utviklingen g r meget raskt  snart blir KI benyttet innen de fleste omr der  Det mange tenker p  n r man snakker om KI er ofte ChatGPT  og andre samtaleroboter  og genering av tekster og bilder  Allerede n  er KI i bruk innen mange omr der  alle nye biler har mer eller mindre utstyr styrt av KI  MR og r ntgenbilder blir analysert av KI  reklamen man f r opp p  skjermen sin er utvalgt av KI  osv             
+
+Utdanning rediger   rediger kilde 
+Elever og studenter benytter samtalerobot som en hjelpel rer eller studentassistent  Den kan hjelpe til med punkter man b r ha med i besvarelser  gjennomlesing f r innlevering og eventuelt forbedre spr ket  Personlige l ringssystemer og virtuelle undervisere kan hjelpe elever med   l re i sitt eget tempo  F  tilpasse undervisningen  etter at KI analysere elevenes behov  Samtaleroboter kan hjelpe elever med sp rsm l uten   m tte vente p  en l rer  KI kan vurdere oppgaver og spare l rere tid og gi elever raskere tilbakemeldinger  Den kan ogs  drive simulering og legge frem stoffet p  en engasjerende m te  KI brukes ogs  ofte i spr kl ringsapper for   gi personlig tilpasset  velse  uttalehjelp og umiddelbar tilbakemelding             
+
+Helsevesen rediger   rediger kilde 
+KI kan bidra til tidlig diagnostisering av sykdommer  utvikling av nye medisiner og tilpasning av behandlingsplaner for pasienter 
+Etter at man har tatt et r ntgenbilde kan KI gi  yeblikkelig svar p  om det er brudd eller ikke  KI programmet er utviklet ved at datamaskiner har blitt trent opp med         bilder av b de brudd og ikke brudd  hvor bildene har b de god og d rlig kvalitet  At man ikke beh ver en legekonsultasjoner sparer legene for mye arbeid  I tillegg til brudd kan KI oppdage svulster eller andre avvik i r ntgenbilder raskt og med h y presisjon  Ogs  p  CT  og MR skanninger brukes KI til   identifisere komplekse m nstre i bildedata  som tidlige tegn p  kreft  hjerneslag eller hjertesykdommer  KI er meget dyktig til   finne sm  detaljer som skiller seg ut  og etter at KI har plukket ut avviket kan mennesker dobbeltsjekke det                         
+Bilder av netthinnen blir ogs  analysere av KI for   finne  yesykdommer  KI kan identifisere tidlige tegn p  skader i blod rene i netthinnen som f lge av diabetes  oppdage forandringer i makula  som er ansvarlig for skarpsynet  aldersrelatert makuladegenerasjon   oppdage skader p  netthinnen for rsaket av h yt blodtrykk  analysere synsnerven og oppdage tegn p  glaukom  som kan f re til synstap hvis det ikke behandles og oppdage flere andre sykdomstegn             
+Innen patologi er ogs  KI nyttig  den kan analysere vevspr ver og hjelpe patologer med   identifisere kreftceller eller andre sykdommer             
+KI blir oppl rt og benyttet p  stadig flere omr der  For multippel sklerose  MS  gjelder det prim rt oppf lging av pasienter som allerede har f tt diagnosen  Programmet sjekker MR bilder av hjernen for   se hvordan sykdommen har utviklet seg siden sist  Demensforskning bearbeide store mengder data og ser etter avvik slik at man kan l re mer om sykdommen             
+Autogene transportsystemer kan frakte gods rundt sykehus  For eksempel p  Oslo universitetssykehus og Akershus universitetssykehus  har man begynt   bruke autogene kj ret y til   frakt av vogner med blant annet mat  medisiner  medisinske forbruksvarer og tekstiler ut til funksjonsomr dene  I retur transporteres skittent y og avfall som ikke kan sendes i avfallssug anlegget 
+Arbeidsoppgavene i organisasjonen benytter ogs  KI  Saksbehandlingen baserer seg p  strukturerte data og standardtekster som f rer til at utfallet av saksbehandlingen blir mer korrekt  likerettet og dokumenterbar  Samtidig som det ivareta rettighetene til helseakt rer og privatpersoner  samt gi informasjon og veiledning om helsetjenester                         
+
+Kundeservice rediger   rediger kilde 
+Samtaleroboter  chatbot  og virtuelle assistenter har i flere  r gitt rask hjelp og forbedret kundeopplevelsen 
+F r var det mye menyer som man kunne velge fra og som loset deg videre til flere menyer eller valg som til slutt  oftest  f rte deg til det produktet du var p  jakt etter eller til en internettside du  nsket  N  er KI p  et helt annet niv  og kan kommunisere  vanligvis med tekst  men ogs  med tale  og ut fra mottatt informasjon og tidligere erfaring hjelper deg dit du  nsker             
+KI gj r at man kan f  veiledning      og ikke kun i bedriftens  pningstid 
+
+Nettbasert handel og reklame rediger   rediger kilde 
+KI brukes til   anbefale produkter  tilpasse brukeropplevelser og forutsi kundeadferd    tilby differensiering og samtidig drive effektivt er noe KI hjelper til med  Det brukes KI til   forutsi salg og optimalisere lagerbeholdningen  Ut fra hvor mange som viser interesse for varen p  nettet kan inntekten  kes med smartere prisjusteringer og man kan raskt tilpasse seg markedsendringer  KI kan forutsi salg og optimalisere lagerstyring                         
+Ut fra hva du har s kt p  og lest om p  nettet kan KI velge hvilke reklamer man f r opp p  skjermen 
+
+Industri og produksjon rediger   rediger kilde 
+Automatiserte roboter og maskinl ring forbedrer produksjonsprosesser og reduserer kostnader 
+I designet av produktet kan KI v re med p    p virke b de brukervennlighet  produksjonsvennlighet  kostnader ved materialbruk  produksjon og logistikk  Produksjonen kan optimaliseres ut fra bestillinger  materialer og kapasitet innen forskjellige omr der av produksjonen og man kan bruke roboter til mange typer arbeid                         
+
+Logistikk rediger   rediger kilde 
+Selvkj rende kj ret y og smarte trafikksystemer er avhengige av KI for   forbedre sikkerhet og effektivitet 
+KI holder styr p  lagerbeholdning og hvor varene er oppbevart  Selvkj rende trucker og andre kj ret yer frakter materialer og varer inn og ut av lagerene 
+Selvkj rende biler  skip  og luftfart y transporterer gods inne p  produksjonsomr de og ogs  p  offentlig omr de  I Norge bruker mange selskaper KI logistikk  Autonome lastebiler til   transportere av masse  autonome containerskip og flere selskaper tester ogs  leveringsdroner 
+
+Landbruk og skogsbruk rediger   rediger kilde 
+Ikke minst innen landbruk og skogsbruk vil KI bli mye benyttet 
+KI hjelper med   overv ke avlinger  forutsi v rm nstre  forutsi avlingsmengde og kvalitet  og optimalisere ressursbruk av vann og gj dsel  I tillegg til   spare gj dsel kan identifisering av plantesykdommer p  et meget tidlig stadium hindre at sykdommer sprer seg og spr ytingen blir minimal                         
+Selvkj rende traktorer kan navigere p   krene uten menneskelig innblanding  takket v re KI og GPS teknologi  KI drevne spesialkj ret y kan plukke frukt og gr nnsaker med presisjon  noe som reduserer avfall og  ker effektiviteten             
+Melkeroboter bruker KI for   identifisere kyr  og andre dyr  og melker dem p  riktig tidspunkt  noe som forbedrer dyrevelferden og melkeproduksjonen  De vil ogs  overv ke dyrenes helse og oppdage sykdommer tidlig  noe som reduserer behovet for antibiotika  KI kan analysere dyrenes adferd for   oppdage stress eller uvanlig oppf rsel  noe som kan indikere helseproblemer  Smarte foringssystemer bruker KI for   tilpasse foringen til hvert enkelt dyr  noe som forbedrer vekst og helse             
+Innen skogsdrift benyttes KI til kartlegging  telling og registrering av tr r  Men i Norge og andre land utvikles det droner til   hugge tr r med  Dronen flyr inn til de utvalgte tr rne  kvister  kapper og flyr dem ut  Dette krever ikke at det bygges flere skogsbilveier og det blir ikke  deleggelsene av naturen slik som store skogsmaskiner gj r                         
+
+Finans og forsikring rediger   rediger kilde 
+KI brukes til kundebehandling og kundeservice  for eksempel til skreddersydde spare  og investeringsplaner 
+KI brukes som et verkt y til risikoanalyse innen aksjer og valutahandel  Banken bruker KI til   oppdage svindel  analysere investeringer og gi personlige finansielle r d  Om noen brukere av betalingskort eller andre betalingssystemer skiller seg ut vil allerede i dag KI oppdage det  og banken vil kontakte kontoeier for   sp rre om bruken skal stoppes  KI benyttes ogs  til   se etter gjentatte utf rsler av valuta og tegn som tyder p  hvitvasking av penger                         
+Ogs  innen forsikring brukes KI for   avsl re eller forebygge svindel 
+
+Toll og politi rediger   rediger kilde 
+For tollen kan KI oppdage avvikende kj rem nster eller kj ret y som gjentagende ganger passerer grensen  Kj ret yets eier sitt rulleblad eller lasten innhold kan ogs  f  KI til   plukke ut kj ret yet til kontroll  P  flyplasser kan gjennomlysning av bagasje ved ankomst  reiserute eller rulleblad f  KI til   plukke ut passasjer til kontroll  Pakker   post fra utlandet kan enkelt gjennomlyses og grovsorteres av KI ut fra hva den har l rt   se etter  opprinnelsesland eller tidligere beslag fra samme adresser 
+Politiet bruker ogs  KI p  en rekke omr der  KI brukes til   identifisere m nstre og trender som kan indikere risiko for kriminalitet  slik at politiet kan handle proaktivt  Det brukes som et verkt y ved risikovurdering  KI kan analysere videostr mmer fra kameraer for   oppdage mistenkelig aktivitet i sanntid  Disse kameraene kan v re droner som er autonome  Innen etterforskning kan KI hjelper med   analysere store mengder data  som tekst  bilder og video  for   finne sammenhenger og spor i kriminalsaker  KI hjelper med   bekjempe digitale trusler  som hacking og svindel  ved   analysere elektroniske spor  Ogs  Politiets sikkerhetstjeneste  PST  bruker moderne teknologiske verkt y  inkludert KI  for   analysere informasjon og oppdage risikoer                                     
+
+Forskning rediger   rediger kilde 
+Det forskes p  KI innen en lang  lang rekke omr der og utviklingen g r raskt  Dette f rer til akselererer oppdagelser innen vitenskap  blant annet innen fysikk  biologi og milj vern 
+Innen medisin forskes det p  diagnostikk  persontilpasset medisinering  forutsi  spore og h ndtere sykdomsutbrudd  som pandemier  KI brukes ogs  til   utvikle verkt y for   analysere og st tte behandling av psykiske lidelser  som depresjon og angst  Kirurgisk assistanse ved robotkirurgi lager detaljerte kirurgiske planer og assistere kirurger under komplekse operasjoner  Dette jobbes det med ved en rekke steder som Universitetet i Oslo  UiO   Helse Bergen og Haukeland universitetssykehus  Nasjonalt senter for e helseforskning  NTNU og SINTEF for   nevne noen 
+Innen fysikk forskes det p  omr der som kvantespintronikk  superledere  astrofysikk  materialfysikk og plasmafysikk                         
+Innen biologi forskes det p  omr der som proteindesign  milj  DNA analyse  genomikk  cellul r modellering og biologisk bildeanalyse             
+Innen milj vern forskes det p  omr der som kartlegging av biologisk mangfold  forvaltning av naturressurser  klimaendringsmodellering  avfallsh ndtering og restaurering av  kosystemer             
+
+Autonome kj ret y rediger   rediger kilde 
+
+Utdypende artikkel  Autonome kj ret y
+
+
+Autonome kj ret y bruker KI teknologi for   hjelpe eller erstatte f reren av et kj ret y som en bil  tog  b t  fly  rakett og milit rkj ret y  Autonomi inneb rer at kj ret yet er ansvarlig for alle oppfatnings   overv kings  og kontrollfunksjoner  I tillegg til KI inkluderer teknologien bruker man spesialbygde kj ret y  kart og overv kingssystemer  Autonomi byr p  forskjellige problemer for land  luft eller sj   De st rste utfordringene er andre kj ret yer  mennesker og dyr som beveger seg 
+
+Milit re kj ret y rediger   rediger kilde 
+Gladiator TUGV
+Utviklingen av KI styrte kj ret y startet p       tallet innen den milit re sektoren  men etter hvert som kontrollteknologiene ble forbedret og kostnadene falt  utvidet bruken seg til mange ikke milit re form l 
+I milit r sammenheng brukes kj ret y p  land  i luften  p  og under vann  Disse blir ofte omtalt som droner  N  bruker over     land droner i milit re sammenhenger  Milit re ubemannede kj ret yer brukes til overv king  rekognosering  minerydding  logistikk og noen autonome fart yer er ogs  utstyrt med v pensystemer for forsvar og angrep  USA  Israel  Iran  Tyrkia og Kina har v rt betydelige milit re drone produsenter  Etter      tallet har Kinas fremskritt innen droneteknologi og produksjon  kt betraktelig  forsterket av markedsettersp rselen fra den russiske invasjonen av Ukraina og Israel Gaza konflikten             
+Biler
+
+Oda  en selvkj rende buss i regi av Ruter i Oslo
+KI blir stadig mer benyttet i biler til   hjelpe og overv ke f reren  av enkelte omtalt som f rerl se biler  Det finnes ogs  selvkj rende skyttelkj ret y som brukes til   transportere passasjerer eller gods mellom faste steder  De opererer gjerne p  korte distanser og brukes i ulike sammenhenger  som p  flyplasser hvor de transporterer passasjerer mellom terminaler  parkeringsplasser og fly  Det finnes ogs  en rekke byer som har sm  autonome skyttelbusser som kj rer faste ruter som en del av kollektivsystemer  Det f rste pilotprosjektet med f rerl se skyttelbusser i Norge ble lansert p  Kongsberg i       Etter dette har en rekke norske byer som Oslo  Gj vik og Drammen skyttelbusser                                     
+Autonome lastebiler er det ogs  forsket og testet mye p   De benyttes enn  kun p  lukkede omr der  Bedrifter som satser p  f rerl se lastebiler kan redusere kostnadene massivt  menneskelige sj f rer ville ikke lenger v re n dvendig og produktiviteten ville  ke  ettersom den f rerl se lastebilen ikke trenger   hvile  I Norge har selskapet Br nn y Kalk inng tt en avtale med Volvo og seks selvkj rende lastebiler har siden       etter en vellykket testperiode  transporterer og losse kalkstein helt automatisk                         
+
+Fly rediger   rediger kilde 
+EuroHawk drone
+Et ubemannet luftfart y  Unmanned aerial vehicle  UAV   vanligvis kjent som en drone  er et fly uten menneskelig pilot eller mannskap om bord  men er fjernstyrt eller autonomt 
+Kratos XQ    Valkyrie er et ubemannet kampfly utviklet for det amerikanske luftforsvaret  Det er designet slik at det kan operere autonomt eller i samarbeid med bemannede fly  Flyet er en del av forskningsprogrammer som utforsker fremtidens luftkampteknologi             
+Bruken av ubemannet luftfart y inkluderer dronefotografering  milj overv king  skogbrannoverv king  elveoverv king  politioverv king  etc  Ulike bransjer pr ver ut leveringsdroner til   frakte pakker  medisinske pr ver og mat  I Norge har en rekke firmaer drevet pr veprosjekt med leveringsdroner  For eksempel har Volocopter i      drevet transport fra Filipstad i Oslo til Fornebu med sine VoloDroner  Den kan frakte en standard europall med en last p  inntil     kg  rekkevidde p     km og en marsjfart p     km t  Griff Aviation har spesialisert seg p  utvikling av tungl ftdroner med stor kapasitet  Flere har ogs  testet bruk av drone til   frakt av medisinske pr ver  som til St  Olavs hospital i Trondheim fra underavdelingen R ros  Posten har ogs  testet droner for levering av medisinske pr ver og pakker  De har gjennomf rte de et fors k med   frakte vannpr ver fra Sn sa til Namsos                                     
+
+Fart y rediger   rediger kilde 
+Arabian Fox  U S  Naval Forces
+Det finnes er rekke ubemannet overflatefart y  Unmanned Surface Vehicle  USV  med forskjellige form l  Det er ogs  autonome undervannsfart y  Autonomous underwater vehicle  AUV  som Hugin en farkost utviklet og produsert av Kongsberg Maritime  Et annet norsk firma er Blueye Robotics har utviklet og produsert undervannsdroner til bruk for hobbymarkedet og det profesjonelle marked                         
+Omr det utvikler seg raskt og det kommer stadig nye bruksomr der og intelligensen utvikler seg ogs   I Norge brukes de mest til milj overv king  kartlegging av sj bunnen  hydrografi  og innen forskning  Amsterdam har f tt verdens f rste fl te av autonome b ter som skal frakt gods p  kanalene i Nederland  Norske Clean Sea Solutions har utviklet  Aquadrone  som samle sammen s ppelet p  overflaten og frakter det til en annen drone   Aquapod   som tar imot s ppelet             
+
+MF  Estelle   passasjerferje i Stockholm  Sverige
+Det eksistere autonome frakteskip og ferjer  Autonome lasteskip er fart yer som transporterer enten containere eller bulklast over navigerbart farvann med liten eller ingen menneskelig interaksjon  MV  Yara Birkeland  er verdens f rste helelektriske og autonome containerskip og la ut p  sin f rste tur i november       Fart yet som er      meter langt og har en lastekapasitet p      TEU  Det har kunstige intelligensen og autonome teknologien utviklingen av Kongsberg Maritime  I de f rste  rene av kommersiell drift har det imidlertid v rt krav om at mannskap er om bord for   overv ke og sikre trygg drift  M let er at skipet gradvis skal overg  til full autonom drift etter hvert som teknologien og regelverket utvikler seg  Asko har utviklet batterielektriske autonome roroskip som brukes til transport av konteinere over Oslofjorden  fra Moss til Horten  De to fart yene er fortsatt bemannet etter som ikke regelverket enn  tillater at det ikke er mennesker tilstede                         
+Det er flere prosjekter p  gang med ferjer  som i Trondheim hvor  MilliAmpere    har krysset kanalen mellom Ravnkloa og Vestre Kanalkai siden       Fjord  har et prosjekt med fire store autonome bilferjer som skal operere p  strekningen Lavik Oppedal i Sognefjorden fra       Detter vil bli verdens f rste autonome bilferger  Hurtigruten skal utvikle nye utslippsfritt skip  Sea Zero  som ogs  skal ha muligheter for autogen drift og er planlagt sj satt innen                                          
+
+Generativ kunstig intelligens rediger   rediger kilde 
+
+Utdypende artikkel  Generativ kunstig intelligens
+
+
+KI skapt bilde
+KI skapt bilde
+Generativ kunstig intelligens er en type KI som er designet for   lage nytt materiale  som tekst  bilder  musikk  video og film 
+
+Tekstgenerering rediger   rediger kilde 
+Modeller som GPT   kan skrive artikler  dikt  essays og mye mer 
+Man kan i nettaviser  som for eksempel i Dagbladet  se at sammendrag er merket med   Sammendraget er laget av ChatGPT og godkjent av Dagbladet   De opplyser at de bruker KI  som et verkt y for   forbedre  effektivisere og kvalitetssikre v r journalistikk  og at  KI teknologi brukes blant annet til oversettelser  sitatsaker  research og kvalitetssikring av spr k  Dersom KI er brukt i utstrakt grad til   lage innhold  opplyser vi eksplisitt om det i tr d med god presseskikk   KI kan ogs  lage syntetiske lydversjoner av disse sammendragene  Meldinger fra internasjonale nyhetsbyr er eller artikler og videoer fra internasjonale mediehus kan med hjelp av KI enkelt tas i bruk av norske redaksjoner  KI er utmerket til   samle  sammenlikne og sortere store mengder informasjon raskt og effektivt  p  den m ten er det et viktig verkt y for journalister  Men KI kan benyttes til langt mer enn det  KI kan ogs  forfatte artikler eller oversette nyhetsoppslag  NTB bruker KI verkt y blant annet til   oversette bokm lstekster til nynorsk             
+I Norge er media forsiktig med bruken av KI  Mediehusene presisere at all bruk av KI er underlagt menneskelig kontroll og ettersyn  At en journalist eller redakt r gjennomg r alltid arbeidet utf rt av KI for   sikre n yaktighet  kvalitet og etisk integritet i innholdet  Det er alltid redakt ren som har ansvaret for det som publiseres  Farene ved bruk av KI er mange s  brukerne m  v re oppmerksomme  KI har ikke empati og kan derfor skape artikler eller bilder som ikke b r publiseres av forskjellige  rsaker  Det kan v re mennesker som er rammet av urett  krig og katastrofer eller som kun er mistenkt for en handling ikke d mt  KI kan forfatte eller brukes til   analysere brukerdata p  m ter som kan krenke personvernet  Det kan skapes eller brukes innhold som kan reise sp rsm l om opphavsrett  autentisitet og ansvarlighet  KI kan generere innhold som ser troverdig ut  men som inneholder feil eller er misvisende  Dette kan undergrave tilliten til mediene  N r tilliten til media synker   ker farene for konspirasjonsteorier  Teknologigigantene kan ubevist  eller bevist  trene KI programmene p  data som kan inneholde eksisterende skjevheter  bias  Hvis treningsdataene er ubalanserte eller representerer en bestemt gruppe mer enn andre  kan KI systemet favorisere denne gruppen  Det kan ogs  utilsiktet forsterke kj nns  eller rasestereotyper  for eksempel ved   anta at leger er menn og sykepleiere er kvinner  Bias kan f re til urettferdig representasjon i medieinnhold  Dette setter krav til oppdaterte veiledninger og regler  slik at man kjemper for etikk  personvern og opphavsretten  og mot desinformasjon                         
+B ker kan forfattes av KI  men kvaliteten er det fremdeles stor uenighet om blir bra eller d rlig  Forfattere som  nsker   sl  igjennom kan ha stor nytte av KI  man kan f  gode r d om oppbygging  forslag til teksten  forslag til alternativ tekst osv  Men KI kan ogs  v re hovedforfatter som for eksempel med boken   the Road        skrevet av KI  medforfatter Ross Goodwin  Aum Golly er en poesibok skrevet av kunstig intelligens  den f rste boken i serien ble publisert i       Magnus S ternes Lian og datteren laget en barnebok med b de tekst og illustrasjoner  Det Magiske Slottet i Skyene  p  et par timer med hjelp av GPT   og Midjourney  Denne boken er et resultat av KI som spr kgenerator og bildegenereringsteknologi  Faren ved at forfattere bruke KI kan for eksempel v re at forfatteren ikke er en forfatter  men at det er KI som er hovedforfatteren  KI kan ogs  bli trent p  b ker av en forfatter og p  den m ten skrive som denne forfatteren  noe som blir en form for plagiat                         
+
+Bildeskapning  video  animasjon og film rediger   rediger kilde 
+Verkt y som MidJourney og DALL E lager kunst og bilder basert p  beskrivelser 
+KI genererte bilder og videoer kan ogs  brukes i media  Bruken av slike bilder er enda        ikke s rlig utbredt i norske medier  men det brukes grafiske illustrasjoner  I journalistikken er bilder en viktig dokumentasjon av virkeligheten  Men ettersom man ikke lenger kan stole p  at det man ser p  bilder faktisk har skjedd vil bildejournalistikken miste sin troverdighet 
+Innen TV benyttes KI til mye av det samme som innen annen media  men ogs  til   skape realistiske dubbinger og oversettelser ved hjelp av stemmesyntese og naturlig spr kprosessering  Innen videoredigering og grafisk design brukes KI til   automatisere prosesser  som for eksempel spesialeffekter  fargekorrigering  undertekster og klipping  KI hjelper ogs  til med   utvikle manus og ideer  og kan fungere som et kreativt verkt y for manusforfattere 
+KI brukes til   lage spesialeffekter  redigering i filmer og reklamer  Det begynte med animasjoner  men spredde seg raskt til science fiction og brukes n  i alle typer filmer  KI verkt y hjelper manusforfattere ved   analysere vellykkede plottstrukturer for   forutsi et manus potensielle suksess  genererer historieideer  plottskisser eller til og med manusutvikling hvor KI kan bidra med ideer til historier  dialog og hele manuskrift  Forfattere og regiss rer f r kreative forslag til   utvikle manuset  N r KI blir benyttet til   skape generativ design og virtuell produksjon kan KI ha problemer med   forst  hva som er riktig tidsmessig  Man kan for eksempel finne en telefon som enn  ikke var p  markedet det  ret senen i filmen er fra  For manusutvikling til action gr sseren Morgan brukte Warner Bros et verkt y til   analysere hundrevis av skrekkmanus  og fikk kunnskap til   forbedre historiefortellingen i filmen                                     
+
+KI skapt drage
+Effektiviteten  ker n r redigering  visuelle effekter  fargegradering og lydforbedring ikke lenger er s  tidkrevende  automatisering bidrar til   spare tid og kostnader  Stadig utvikles det nye og bedre KI verkt y som vil gi enda flere muligheter og st rre besparelser  KI verkt y er n  ikke bare tilgjengelig for de store filmselskapene  men ettersom prisene p  verkt yene synker og brukergrensesnittet blir enklere blir verkt yene tilgjengelig for flere og flere                         
+KI kan ogs  erstatte statister og skuespillere  for eksempel brukte man i The Irishman KI til   redusere alderen p  skuespillerne  og skapte yngre versjoner av Robert De Niro og Al Pacino ved   analysere omfattende ansiktsdata  Og i Here blir Tom Hanks og Robin Wright digitalt forvandlet gjennom hele livsl pet  fra ten ringer til eldre  ved hjelp av KI  Man trenger ikke like mange skuespillere lenger og i USA streiket skuespillerne i      og  nsket garantier mot at deres arbeid og bilder kunne bli erstattet eller brukt uten samtykke ved hjelp av KI teknologi                         
+
+KI skapt kunst
+Kunst kan ogs  skapes av KI  Innen grafikk er KI et nyttig verkt y som raskt kan skape illustrasjoner og bilder ut fra menneskelig innputt  P  samme m te som for b ker kan KI bli trent p  malerier av en kunstner  eller stilretning  og p  den m ten skape bilder som ligner kunstnere fra denne epoken  noe som blir en form for plagiat  Det f rste som ble skapt av KI var ikke bra og kunne vise mennesker med tre armer  tre bein  eller andre helt umulige seanser  N  er det ofte meget vanskelig   se om noe er KI skapt 
+
+Musikk rediger   rediger kilde 
+De siste  rene har kunstig intelligens inntatt musikkens verden og kan p  egenh nd komponere melodier  Men oftest er det den lager ikke s  nyskapende men temmelig ordin rt  Derimot kan et menneske skrive hovedmelodien mens KI lager arrangementet  Klangen fra instrumenter kan KI ogs  p virke og lage nye stemninger eller hele  kor  av instrumenter  I n r fremtid forventer man at KI skal bli bedre b de til   komponere og fremf re musikk innen mange sjangere  F rst og fremst innen pop  country  ambient  dance  transe  og andre sjangere innen elektronisk musikk  P  samme m te som for b ker og kunst kan KI bli trent p  komposisjoner av en artist  og p  den m ten skape musikk som ligner artisten sine komposisjoner  noe som blir en form for plagiat            
+Musikkroboter som Shimon holder konserter sammen med andre musikere  Shimon spiller marimba og er kjent for sin evne til   spille og improvisere musikk innen flere sjangre  inkludert jazz  klassisk og pop                         
+
+Dataprogrammer rediger   rediger kilde 
+Maskinl ring rediger   rediger kilde 
+
+Utdypende artikkel  Maskinl ring
+
+
+Det er utviklet datamaskiner og trent opp dataprogrammer slik at de kan ta beslutninger uten menneskelig hjelp og uten   bli programmert for hver oppgave  Denne treningen foreg r stort sett med store mengder data  Beslutningene gj res ved bruk av statistiske beregninger  Maskinl ring er en viktig underkategori av kunstig intelligens 
+
+Nevralt nettverk rediger   rediger kilde 
+
+Utdypende artikkel  Kunstig nevralt nettverk
+
+Nevralt nettverk brukes som benevnelse p  en sterkt forenklet etterligning av biologisk nervevev fra hjernen eller det sensoriske system  Det simulerer hjernens funksjoner for m nstergjenkjenning og l ring  som dyp l ring  Metodene og algoritmene bruker inspirasjon fra biologisk nervevev  men uten   v re eksakt kopi  Det er bygget opp av et nettverk av  noder  eller  nevroner  som er organisert i lag  Disse nodene samarbeider for   behandle data og l se komplekse oppgaver  
+Nevrale nettverk brukes innen omr der som autonome kj ret y hvor det benyttes til   analysere omgivelsene og ta beslutninger i sanntid  Medisinsk diagnostikk  for   oppdage sykdommer som kreft ved   analysere medisinske bilder og prediktiv analyser for   forutsi trender og m nstre i finans  v r  eller kundeadferd 
+Hvorfor tar KI den beslutningen den gj r forst r vi ikke enn   Hvorfor velger KI bort en person n r den velger ut kandidater til en jobb  hvorfor beslutter KI at en presjon ikke skal f  l n  osv  Det forskes n  p  hvordan man skal f  KI til   forklare oss dette 
+
+Samtaleroboter eller chatbot rediger   rediger kilde 
+
+Utdypende artikkel  Chatbot
+
+De mest avanserte samtalerobotene benytter KI  Svar de gir baserer seg p  sannsynlighet  det vil si at KI analyserer tekst og beregner hvilke ord eller fraser som sannsynligvis f lger basert p  det brukeren har skrevet  Spr kforst elsen f r den ved   regner ut sansynligheten for neste ord og velger det  For eksempel  hvis du skriver  Hva er hovedstaden i Norge    kan KI  basert p  m nstre den har sett i treningsdataene  beregne at  Oslo  er det mest sannsynlige svaret  Det handler ikke om at KI en  vet  svaret som en menneskelig hjerne gj r  men at den er sv rt god til   gjenkjenne m nstre og sannsynligheter for   komme frem til et riktig eller relevant svar             
+ChatGPT kom p  markede i      og har senere m tt konkurranse fra en rekke andre lignende samtaleroboter som Google Bard  Copilot og DeepSeek  Noen er basert p   pen kildekode  mens andre er lukkede  det vil si at produsentens ikke offentliggj r detaljene bak modellen  Innen samtalerobot omr det er utviklingen enorm  og hva den kan gj re og hvor p litelig den er endres raskt 
+
+Intelligente agenter rediger   rediger kilde 
+
+Utdypende artikkel  Intelligente agenter
+
+Intelligente agenter er programmer eller systemer som kan handle autonomt for   utf re oppgaver basert p  sine omgivelser  data  og m l  De bruker kunstig intelligens for   observere  l re  planlegge og ta beslutninger  Disse agentene er ofte designet for   simulere menneskelig intelligens og oppf rsel 
+Fuzzylogikk rediger   rediger kilde 
+
+Utdypende artikkel  Fuzzylogikk
+
+Fuzzylogikk inneb rer at man baserer avgj relser p   godt nok   eller  n r nok  vurderinger  Det finnes mange former for fuzzylogikk og mange ulike algoritmer for   beregne n rhet 
+Bias rediger   rediger kilde 
+
+Utdypende artikkel  Bias
+
+Bias er ikke dataprogram men skjevheter eller fordommer som kan oppst  i KI systemer fordi KI modeller trenes p  data som inneholder eksisterende skjevheter som kan forverres 
+Hvis treningsdataene er ubalanserte eller representerer en bestemt gruppe mer enn andre  kan KI systemet favorisere denne gruppen  For eksempel kan ansiktsgjenkjenning fungere d rligere for personer med m rk hud hvis treningsdataene hovedsakelig best r av bilder av personer med lys hud  Selve algoritmene kan forsterke skjevheter i dataene  noe som kan f re til urettferdige eller diskriminerende resultater  KI kan gi feilaktige eller upassende svar hvis den brukes i en kontekst den ikke er designet for  noe som kan f re til misforst elser eller feil beslutninger 
+For eksempel kan en modell trent prim rt p  data fra USA mislykkes i   forst  kulturelle referanser fra andre deler av verden  Eller om KI benyttes til rekrutering kan kvinner  minoriteter eller andre grupper bli diskriminert fordi de var underrepresentert i treningsdataene 
+
+Deepfake rediger   rediger kilde 
+
+Utdypende artikkel  Falske nyheter
+
+
+Arrestasjon av Trump  Midjourney
+Generative spr kmodeller kan produsere falske artikler  innlegg eller nyheter som virker troverdige  men som inneholder feilinformasjon eller propaganda  KI drevne automatiske systemer p  sosiale medier kan brukes til   spre falske nyheter i stor skala  noe som gj r det vanskeligere for brukere   skille ekte informasjon fra falsk  Dette kan f re til at personer eller organisasjoner blir uthengt for ting de ikke har gjort og danne grobunn for konspirasjonsteorier  Deepfake teknologi bruker KI for   manipulere videoer og bilder slik at det ser ut som om noen sier eller gj r noe de aldri har gjort  Den kan lage falske bilder  lyd eller video som kan se ut som den ekte personen eller lage personer som ser ekte ut men ikke finnes    indentifisere deepfake innhold er vanskelig  s rlig for lyd  og i      var teknologien s  god at falsk innhold aldri kan identifiseres med sikkerhet                         
+
+Ambient intelligens rediger   rediger kilde 
+
+Utdypende artikkel  Ambient intelligens
+
+
+Ambient intelligens er et begrep som handler om et milj  som reagerer p  og tilpassere seg n rv ret av personer ved hjelp av elektronisk sensorikk og styring  og dermed oppf rer seg  intelligent   Det er ofte knyttet til konsepter som smarte hjem  helsemonitorering eller automatiserte arbeidsplasser 
+
+Teknologisk singularitet rediger   rediger kilde 
+
+Utdypende artikkel  Teknologisk singularitet
+
+
+Teknologisk singularitet er en hypotetisk fremtidig tilstand der kunstig intelligens og teknologi har utviklet seg til et niv  hvor de overg r menneskelig intelligens og kontroll  Denne ideen inneb rer at teknologiske fremskritt skjer s  raskt og uforutsigbart at det skaper en radikal transformasjon i samfunnet 
+
+Andre programmer rediger   rediger kilde 
+Det finnes ogs  andre slike  chatterbots   I tillegg ble det laget tidlige spill  sjakk og dam  som fikk programmert inn  reglene   dvs hvordan brikker kan flyttes og at den skal unng    miste sine brikker  i tillegg til et kort sett med startbevegelser  og mulighet for   l re  Etter hvert som man spiller med en slik maskin vil den lagre all informasjon om hvor brikker flyttes  for s    lage lister over hvor og n r den skal flytte brikkene  Som et resultat av dette vil maskinen bli bedre og bedre  I dag finnes det en rekke videospill med  kunstig intelligens   uten at vi egentlig tenker s  mye over at de har det 
+
+Kan en datamaskin v re intelligent  rediger   rediger kilde 
+Original forskning  Denne artikkelen har en fremstilling av emnet som ikke tidligere har v rt publisert i en troverdig kilde  Kan du hjelpe med   finne bedre kilder 
+Kan en datamaskin v re intelligent 
+Hvordan man definerer  intelligens  og det    tenke  har mye   si for hvordan man skal beskrive om en datamaskin kan v re  intelligent    smart  eller om den kan  tenke   De fleste vil nok mene at en datamaskin eller et dataprogram ikke kan ha en  sjel  eller  personlighet   ikke kan v re  bevisst  eller lignende  ettersom den bare f lger et gitt sett med regler som mennesker har skrevet inn  Andre mener derimot at hjernen egentlig ogs  bare kan best  av et sett med regler og instrukser for hvordan man resonnerer seg fram til ting  tenker og beveger seg      trenger referanse     
+De viktigste sp rsm lene ang ende hvorvidt en datamaskin kan v re intelligent er hva vil det egentlig si   tenke  og det at selv om mennesker kan lage et program som er mer eller mindre umulig   skille fra et menneske  med mye bedre ferdigheter  logikk  matematikk  spr kkunnskaper  o l   s  betyr ikke det at programmet maskinen vet  forst r eller er  selv bevisst  slik de framst r i science fiction verden  Et av m lene for   skape kunstig intelligens er   lage programmer som kan l re  eller mer korrekt  kalkulere nye veier alternativer svar slik at den kan  utvikle  sine egne regler  Et eksempel p  dette er sjakk  og damspillene nevnt tidligere som f rer lister over ulike trekk den b r utf re i gitte situasjoner  bare i en st rre skala med litt mer variert og utfordrende l rem l  En robot kan oppf re seg som et menneske selv om den ikke er det   Et viktig skille mellom maskiner og  ekte  mennesker er evnen til   f le             
+Kunstig intelligens er l rt opp til   ta de beste valgene  men de beste valgene for hvem  For menneskeheten  for Europa  for Norge eller for deg  Det er ikke alltid det som er best for deg er best for verden  Om valget KI tar skal v re best for naturen p  jorden er det kanskje at det er f rre  eller ingen  mennesker her 
+
+Se ogs  rediger   rediger kilde 
+Norsk Forening for Kunstig Intelligens
+Nevralt nettverk
+Genetisk algoritme
+Beslutningstre
+Maskinl ring
+Dyp l ring
+Virtuell assistent
+Ambient intelligens
+Referanser rediger   rediger kilde 
+
+  Jim T rresen          hva er KUNSTIG INTELLIGENS   www universitetsforlaget no  Bes kt     februar            
+
+  David Poole  Alan Mackworth  Randy Goebel          Computational Intelligence and Knowledge   PDF   New York  University of British Columbia       CS  vedlikehold  Flere navn  forfatterliste  link 
+
+  Russell  Stuart J          Artificial intelligence        a modern approach   nd ed  utg    Upper Saddle River  N J   Prentice Hall  ISBN                          CS  vedlikehold  Ekstra tekst  link 
+
+  Kaplan  Andreas  Haenlein  Michael     januar         Siri  Siri  in my hand  Who s the fairest in the land  On the interpretations  illustrations  and implications of artificial intelligence   Business Horizons                ISSN                 doi         j bushor              Bes kt     februar            
+
+   Hva er en algoritme og hva betyr algoritmer for kunstig intelligens    KIGuiden no   p  engelsk      juli       Bes kt     mars            
+
+  moderniseringsdepartementet  Kommunal og      januar         Nasjonal strategi for kunstig intelligens   Regjeringen no  Bes kt     mars            
+
+   Hvordan gj re kunstig intelligens til forskning        
+
+  Vige  Mari     februar         Hva er en virtuell assistent  Hvordan kan en VA hjelpe deg    marivige no  p  engelsk   Bes kt     mars            
+
+   What Is a Chatbot    IBM   www ibm com  p  engelsk       oktober       Bes kt     mars            
+
+   Kunstig intelligens enkelt forklart   Universitetet i Stavanger   www uis no      januar       Bes kt     mars            
+
+  Aase  Kari Aarstad      januar         L rere avsl rer elever i   jukse med ChatGPT   VG  p  norsk   Bes kt     mars            
+
+   KI I KLINIKKEN   HVORDAN  BALANSERE  TEKNOLOGI  ETIKK  OG MEDISIN   PDF        
+
+  Valle  Marius     oktober         Selvkj rende biler  Vi har bare kommet til niv    av     Tu no  p  norsk   Bes kt     mars            
+
+  Pasick  Adam      mars         Artificial Intelligence Glossary  Neural Networks and Other Terms Explained   The New York Times  p  engelsk   ISSN                 Bes kt     mars            
+
+  NTB  siste nytt fra      mars         Forskere advarer  Mener russisk propaganda spres av vestlig AI   Kode   no  p  norsk   Bes kt     mars            
+
+  Lovdata  Halvor Holt Hanssen   Europeisk regelverk om kunstig intelligens  AI loven    Lovdata   lovdata no  p  norsk   Bes kt     mars            
+
+  a b  Erewhon  The Book of the Machines   www marxists org  Bes kt     februar            
+
+  Chandra  Akshay L      september         McCulloch Pitts Neuron   Mankind s First Mathematical Model Of A Biological Neuron   Medium  p  engelsk   Arkivert fra originalen     februar       Bes kt     februar            
+
+   McCulloch  amp  Pitts Publish the First Mathematical Model of a Neural Network        History of Information   www historyofinformation com  Bes kt     februar            
+
+   Machines Who Think   web archive org     mars       Arkivert fra originalen    mars       Bes kt     mars            
+
+   PREPARING FOR THE FUTURE  OF ARTIFICIAL INTELLIGENCE   PDF   Arkivert fra originalen  PDF      oktober       Bes kt     mars            
+
+  published  Edd Gent      juli            game changing moments in the history of artificial intelligence  AI    livescience com  p  engelsk   Bes kt     mars            
+
+   Artificial Intelligence  A Modern Approach   th US ed    aima cs berkeley edu  Bes kt     mars            
+
+   What is Artificial Intelligence    PDF   Arkivert fra originalen  PDF      august       Bes kt     mars            
+
+  Gabbatt  Adam      februar         IBM computer Watson wins Jeopardy clash   The Guardian  p  engelsk   ISSN                 Bes kt     mars            
+
+  Markoff  John      februar         Computer Wins on  Jeopardy    Trivial  It s Not   The New York Times  p  engelsk   ISSN                 Bes kt     mars            
+
+  rowinski  dan      januar         Virtual Personal Assistants  amp  The Future Of Your Smartphone      Infographic        ReadWrite  p  engelsk   Bes kt     mars            
+
+   Hva er kunstig intelligens  En enkel og praktisk forklaring   Frend   Frend Digital AS      november       Bes kt     mars            
+
+   Hvordan kan kunstig intelligens brukes i undervisnings  og l ringsaktiviteter   VID vitenskapelige h gskole  p  norsk   Bes kt     mars            
+
+   Kunstig intelligens for bedre pasientflyt og kortere ventetider   www haraldsplass no  Bes kt     mars            
+
+  a b  Kunstig intelligens er en viktig del av fremtidens pasientbehandling   www legeforeningen no  Bes kt     mars            
+
+  Br khus  Leni Aurora      februar             Ser store fordeler ved KI innen patologi   slik skal de s rge for trygg bruk   www dagensmedisin no  Bes kt     mars            
+
+  Karlsen  Andrea Schr der     august         Kunstig intelligens hjelper forskerne forst  mer av MS pasienters immunsystem   www healthtalk no  Bes kt     mars            
+
+  Mork  Tiril Egset  Mj s  H kon Garnes  Nilsen  Harald Giskegjerde  Kjelsrud  Sindre  Lundervold  Alexander Selvikv g  Lundervold  Arvid  Jammer  Ib      februar         AI generated and doctors  answers to health related questions   Tidsskrift for Den norske legeforening  ISSN                 doi         tidsskr          Bes kt     mars            
+
+  Schwietert  H  R   Automatisering van de organisatie en organisatie van de automatisering in de apotheek   Pharmaceutisch weekblad                 ISSN                 doi         bf          Bes kt     mars            
+
+  technologies  Lime     februar         KI i kundeservice   den komplette guiden   Lime Technologies  Bes kt     mars            
+
+  Soltani  Arezoo     juni         Kapittel     Om   finne balansen mellom materielle og immaterielle m l ved forvaltningen av statseide naturressurser   Immateriell kapital           doi                                 Bes kt     mars            
+
+  Huse  Paul I   Kunstig intelligens og finans   Praktisk  konomi  amp  finans                ISSN                 doi          issn                       Bes kt     mars            
+
+   Kunstig intelligens som spejl   Kunstig intelligens bagfra  Aarhus University Press      oktober       s              ISBN                         Bes kt     mars            
+
+   R d for spesialistutdanning anbefaler syv spesialiteter   Den norske tannlegeforenings Tidende             juni       ISSN              X  doi                     Bes kt     mars            
+
+   Kunstig intelligens som spejl   Kunstig intelligens bagfra  Aarhus University Press      oktober       s              ISBN                         Bes kt     mars            
+
+   Norsk Landbruk   Norsk Landbruk  p  norsk   Bes kt     mars            
+
+  Beck  M  L   Freihaut  B   Henry  R   Pierce  S   Bayer  W  L   A serum haemagglutinating property dependent upon polycarboxyl groups   British Journal of Haematology                  ISSN                 PMID          doi         j                tb      x  Bes kt     mars            
+
+  Beck  M  L   Freihaut  B   Henry  R   Pierce  S   Bayer  W  L   A serum haemagglutinating property dependent upon polycarboxyl groups   British Journal of Haematology                  ISSN                 PMID          doi         j                tb      x  Bes kt     mars            
+
+   Kunstig intelligens som spejl   Kunstig intelligens bagfra  Aarhus University Press      oktober       s              ISBN                         Bes kt     mars            
+
+  Hammer  Torild          Intensjonsavtalen om et inkluderende arbeidsliv i praksis   NOVA Rapport  ISSN                 doi         nova rapporter          Bes kt     mars            
+
+   Kunstig intelligens som spejl   Kunstig intelligens bagfra  Aarhus University Press      oktober       s              ISBN                         Bes kt     mars            
+
+   sheim  Hilde          P  jakt etter styring i arbeidsavklaringsprosessen   Erfaringer med institusjonell etnografi  Cappelen Damm Akademisk NOASP  s              ISBN                         Bes kt     mars            
+
+  Thomassen  Gunnar      mai         N r politiet m ter publikum   Nordisk politiforskning               ISSN                 doi          issn                       Bes kt     mars            
+
+  Engedal  Knut      mai         Nasjonalt kompetansesenter for aldring og helse   Suicidologi         ISSN                 doi         suicidologi       Bes kt     mars            
+
+   Kunstig intelligens som spejl   Kunstig intelligens bagfra  Aarhus University Press      oktober       s              ISBN                         Bes kt     mars            
+
+   Kunstig intelligens som spejl   Kunstig intelligens bagfra  Aarhus University Press      oktober       s              ISBN                         Bes kt     mars            
+
+  Irgens Jensen  Harald   Utsnitt av kreditorvernet i russisk rett   Tidsskrift for Rettsvitenskap                   ISSN                 doi          issn                      Bes kt     mars            
+
+  Lund   ystein     februar          Oi  Her har det virkelig skjedd noe     Septentrio Reports     ISSN                 doi                 Bes kt     mars            
+
+  Skodvin  Torbj rn  ygard          Kan kunstig intelligens oppdage papill dem    Tidsskrift for Den norske legeforening  ISSN                 doi         tidsskr          Bes kt     mars            
+
+   What is a Drone    Definition from TechTarget   Search IoT  p  engelsk   Bes kt     mars            
+
+  Ziegler  Chris      september         Google self driving car patent reveals how you ll let AI take the wheel   The Verge  p  engelsk   Bes kt     mars            
+
+  T  Tom      april         Fremtiden kan bli f rerl s   ogs  for bussene   Bussmagasinet  Bes kt     mars            
+
+  Strand  Tonhild S       august             Skal teste f rerl s buss   med sj f r   Laagendalsposten  p  norsk   Bes kt     mars            
+
+  Ali  Hasiri   Amirhassan  Kermanshah    Exploring the Role of Autonomous Trucks in Addressing Challenges within the Trucking Industry  A Comprehensive Review   Systems     p  engelsk       ISSN                 Bes kt     mars            
+
+  Bellan  Rebecca      mai         Applied Intuition to buy autonomous trucking SPAC Embark for    M   TechCrunch  p  engelsk   Bes kt     mars            
+
+  Kratos Defense  amp  Security Solutions   Tactical UAVs   www kratosdefense com  p  engelsk   Bes kt     april            
+
+  Kringstad  Kirsti      desember         Her sendes koronapr ven p  en     kilometers dronereise   NRK  Bes kt     mars            
+
+  Ludt   yvind      desember         Schenker ser etter norske dronekunder   www mtlogistikk no  Bes kt     mars            
+
+  Bringnorge      oktober         Posten og Bring tester droneleveranser   bring no  Bes kt     mars            
+
+   Selvg ende undervannsub ter   Tu no  p  norsk      desember       Bes kt     mars            
+
+   HUGIN  AUV    www kongsberg com  p  engelsk   Bes kt     mars            
+
+  Johansen  Trond Odin Myhre     desember         Drona fra Trondheim skal rydde opp s ppel fra havet   solgt til Singapore   NRK  Bes kt     mars            
+
+   YARA selects Norwegian shipbuilder VARD for zero emission vessel Yara Birkeland   Yara International   web archive org      november       Arkivert fra originalen     november       Bes kt     mars            
+
+   ASKO MARITIME AS   ASKO  p  norsk   Bes kt     mars            
+
+   milliAmpere     www milliampere no  Bes kt     mars            
+
+  Skoglund  Jarle      januar         Avtalen klar om verdens f rste selvkj rende ferge   kommer p  Vestlandet   Tu no  p  norsk   Bes kt     mars            
+
+   Sea Zero   Hurtigruten NO   www hurtigruten com  Bes kt     mars            
+
+   Bruk av kunstig intelligens i journalistikk   Medie  og informasjonskunnskap     NDLA   ndla no  p  norsk   Bes kt     april            
+
+  Nyrud  Ina Lindahl      oktober         Journalistikk i KI alderen  Hvordan p virkes det frie ordet    www journalisten no  Bes kt     april            
+
+  Nikolai J ger Hansen  Kristian  Botterli  Vegard      mars         Refleksjoner om bruk av kunstig intelligens i naturvitenskapelig forskning  etiske implikasjoner og mulige l sninger   Naturen                 ISSN                 doi          naturen          Bes kt     april            
+
+   Kan kunstig intelligens skrive en bok  Ja  her er   viktige trinn       april       Bes kt     april            
+
+  Pettersen  J rgen      desember         Lot kunstig intelligens lage barnebok   NRK  Bes kt     april            
+
+  a b Enos  Mwangi      desember         AI s Game Changing Impact on the Film Industry   Analytics Insight  p  engelsk   Bes kt     april            
+
+  a b  KI revolusjonen i filmbransje  Hva blir igjen for menneskene    Monitor Norge  p  norsk       desember       Bes kt     april            
+
+  a b c  A comprehensive guide to AI dubbing for film and TV   ElevenLabs  p  engelsk       september       Bes kt     april            
+
+  a b Pileberg  Silje  Oslo  Universitetet i      oktober         Kunstig intelligens er de nye komponistene   www forskning no  Bes kt     april            
+
+   Shimon Robot  amp  Friends   shimonrobot  p  engelsk   Bes kt     april            
+
+  Saliou  Mathilde      januar         ChatGPT ravive les d bats autour des comp tences de l intelligence artificielle   Next  p  fransk   Bes kt     mars            
+
+   Deepfakes  explained   MIT Sloan   mitsloan mit edu  p  engelsk      mars       Bes kt     mars            
+
+   Why AI generated audio is so hard to detect   NBC News  p  engelsk      februar       Bes kt     mars            
+
+  Jensen  Eirik     desember         Kan en robot lengte etter sin mor    Dyade   rgang                           via Dyade Forlag       
+
+
+Kilder rediger   rediger kilde 
+Jack Copeland  Artificial Intelligence  A Philosophical Introduction         Blackwell Publishing         ISBN                  
+Litteratur rediger   rediger kilde 
+Inga Str mke  Maskiner som tenker   algoritmenes hemmeligheter og veien til kunstig intelligens        ISBN              
+Jim T rresen  Hva er kunstig intelligens Universitetsforlaget      ISBN              
+Stuart Russell  Artificial Intelligence  A Modern Approach   rd Edition   ISBN           
+Pedro Domingos  The Master Algorithm Basic Books        ISBN              
+Alberto Ciaramella  Marco Ciaramella Introduction to Artificial Intelligence  from data analysis to generative AI        ISBN                  
+Eksterne lenker rediger   rediger kilde 
+Artificial Intelligence Topics hos aaai org
+Logic and Artificial Intelligence hos Stanford Encyclopedia of Philosophy  av Richmond Thomason
+European Coordinating Committee for Artificial Intelligence
+ALICE bot homesite
+regjeringen no Nasjonal strategi for kunstig intelligens           
+Oppslagsverk autoritetsdataStore norske leksikon   Store Danske Encyklop di   Encyclop dia Britannica   Stanford Encyclopedia of Philosophy   Brockhaus Enzyklop die   Nationalencyklopedin   GND   LCCN   BNF   BNF  data    NDL   NKC   BNE   BBC Things
+
+
+
+
+
+Hentet fra  https   no wikipedia org w index php title Kunstig intelligens amp oldid

@@ -1,0 +1,25 @@
+﻿@using BigData.DAL.Entities
+@model Page
+
+@{
+	ViewData["Title"] = "Page Content";
+}
+
+<h1>Page: @Model.Url</h1>
+
+@if (!string.IsNullOrEmpty(Model.Content))
+{
+	<div>
+		<h3>Content:</h3>
+		<div>
+			<!-- عرض المحتوى مع التمييز للكلمة -->
+			@Html.Raw(Model.Content)
+		</div>
+	</div>
+}
+else
+{
+	<p>No content available for this page.</p>
+}
+
+<a href="@Url.Action("Index", "Pages")" class="btn btn-secondary">Back to Home</a>

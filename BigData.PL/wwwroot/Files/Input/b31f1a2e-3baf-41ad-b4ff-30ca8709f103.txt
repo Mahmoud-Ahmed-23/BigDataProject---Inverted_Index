@@ -1,0 +1,586 @@
+Part of a series onArtificial intelligence  AI 
+Major goals
+Artificial general intelligence
+Intelligent agent
+Recursive self improvement
+Planning
+Computer vision
+General game playing
+Knowledge reasoning
+Natural language processing
+Robotics
+AI safety
+
+Approaches
+Machine learning
+Symbolic
+Deep learning
+Bayesian networks
+Evolutionary algorithms
+Hybrid intelligent systems
+Systems integration
+
+Applications
+Bioinformatics
+Deepfake
+Earth sciences
+ Finance 
+Generative AI
+Art
+Audio
+Music
+Government
+Healthcare
+Mental health
+Industry
+Translation
+ Military 
+Physics
+Projects
+
+Philosophy
+Artificial consciousness
+Chinese room
+Friendly AI
+Control problem Takeover
+Ethics
+Existential risk
+Turing test
+Uncanny valley
+
+History
+Timeline
+Progress
+AI winter
+AI boom
+
+Glossary
+Glossary
+vte
+Machine learning in bioinformatics is the application of machine learning algorithms to bioinformatics             including genomics  proteomics  microarrays  systems biology  evolution  and text mining                       
+Prior to the emergence of machine learning  bioinformatics algorithms had to be programmed by hand  for problems such as protein structure prediction  this proved difficult             Machine learning techniques such as deep learning can learn features of data sets rather than requiring the programmer to define them individually  The algorithm can further learn how to combine low level features into more abstract features  and so on  This multi layered approach allows such systems to make sophisticated predictions when appropriately trained  These methods contrast with other computational biology approaches which  while exploiting existing datasets  do not allow the data to be interpreted and analyzed in unanticipated ways  
+
+
+Tasks edit 
+Machine learning algorithms in bioinformatics can be used for prediction  classification  and feature selection  Methods to achieve this task are varied and span many disciplines  most well known among them are machine learning and statistics  Classification and prediction tasks aim at building models that describe and distinguish classes or concepts for future prediction  The differences between them are the following 
+
+Classification recognition outputs a categorical class  while prediction outputs a numerical valued feature 
+The type of algorithm  or process used to build the predictive models from data using analogies  rules  neural networks  probabilities  and or statistics 
+Due to the exponential growth of information technologies and applicable models  including artificial intelligence and data mining  in addition to the access ever more comprehensive data sets  new and better information analysis techniques have been created  based on their ability to learn  Such models allow reach beyond description and provide insights in the form of testable models 
+
+Approaches edit 
+Artificial neural networks edit 
+Artificial neural networks in bioinformatics have been used for            
+
+Comparing and aligning RNA  protein  and DNA sequences 
+Identification of promoters and finding genes from sequences related to DNA 
+Interpreting the expression gene and micro array data 
+Identifying the network  regulatory  of genes 
+Learning evolutionary relationships by constructing phylogenetic trees 
+Classifying and predicting protein structure 
+Molecular design and docking
+Feature engineering edit 
+The way that features  often vectors in a many dimensional space  are extracted from the domain data is an important component of learning systems             In genomics  a typical representation of a sequence is a vector of k mers frequencies  which is a vector of dimension 
+  
+    
+      
+        
+           
+          
+            k
+          
+        
+      
+    
+      displaystyle    k  
+  
+ whose entries count the appearance of each subsequence of length 
+  
+    
+      
+        k
+      
+    
+      displaystyle k 
+  
+ in a given sequence  Since for a value as small as 
+  
+    
+      
+        k
+         
+          
+      
+    
+      displaystyle k    
+  
+ the dimensionality of these vectors is huge  e g  in this case the dimension is 
+  
+    
+      
+        
+           
+          
+              
+          
+        
+          x     
+          
+          xd  
+        
+            
+          
+             
+          
+        
+      
+    
+      displaystyle        approx    times        
+  
+   techniques such as principal component analysis are used to project the data to a lower dimensional space  thus selecting a smaller set of features from the sequences                       
+
+Classification edit 
+In this type of machine learning task  the output is a discrete variable  One example of this type of task in bioinformatics is labeling new genomic data  such as genomes of unculturable bacteria  based on a model of already labeled data            
+
+Hidden Markov models edit 
+Hidden Markov models  HMMs  are a class of statistical models for sequential data  often related to systems evolving over time   An HMM is composed of two mathematical objects  an observed state dependent process 
+  
+    
+      
+        
+          X
+          
+             
+          
+        
+         
+        
+          X
+          
+             
+          
+        
+         
+          x     
+         
+        
+          X
+          
+            M
+          
+        
+      
+    
+      displaystyle X     X      ldots  X  M  
+  
+  and an unobserved  hidden  state process 
+  
+    
+      
+        
+          S
+          
+             
+          
+        
+         
+        
+          S
+          
+             
+          
+        
+         
+          x     
+         
+        
+          S
+          
+            T
+          
+        
+      
+    
+      displaystyle S     S      ldots  S  T  
+  
+  In an HMM  the state process is not directly observed   it is a  hidden   or  latent   variable   but observations are made of a state dependent process  or observation process  that is driven by the underlying state process  and which can thus be regarded as a noisy measurement of the system states of interest              HMMs can be formulated in continuous time                        
+HMMs can be used to profile and convert a multiple sequence alignment into a position specific scoring system suitable for searching databases for homologous sequences remotely              Additionally  ecological phenomena can be described by HMMs             
+
+Convolutional neural networks edit 
+Convolutional neural networks  CNN  are a class of deep neural network whose architecture is based on shared weights of convolution kernels or filters that slide along input features  providing translation equivariant responses known as feature maps                          CNNs take advantage of the hierarchical pattern in data and assemble patterns of increasing complexity using smaller and simpler patterns discovered via their filters             
+Convolutional networks were inspired by biological processes                                                 in that the connectivity pattern between neurons resembles the organization of the animal visual cortex  Individual cortical neurons respond to stimuli only in a restricted region of the visual field known as the receptive field  The receptive fields of different neurons partially overlap such that they cover the entire visual field 
+CNN uses relatively little pre processing compared to other image classification algorithms  This means that the network learns to optimize the filters  or kernels  through automated learning  whereas in traditional algorithms these filters are hand engineered  This reduced reliance on prior knowledge of the analyst and on human intervention in manual feature extraction makes CNNs a desirable model             
+A phylogenetic convolutional neural network  Ph CNN  is a convolutional neural network architecture proposed by Fioranti et al  in      to classify metagenomics data              In this approach  phylogenetic data is endowed with patristic distance  the sum of the lengths of all branches connecting two operational taxonomic units  OTU   to select k neighborhoods for each OTU  and each OTU and its neighbors are processed with convolutional filters 
+
+Self supervised learning edit 
+Unlike supervised methods  self supervised learning methods learn representations without relying on annotated data  That is well suited for genomics  where high throughput sequencing techniques can create potentially large amounts of unlabeled data  Some examples of self supervised learning methods applied on genomics include DNABERT and Self GenomeNet                         
+
+Random forest edit 
+Some bioinformatic applications     which       of Random Forest
+Random forests  RF  classify by constructing an ensemble of decision trees  and outputting the average prediction of the individual trees              This is a modification of bootstrap aggregating  which aggregates a large collection of decision trees  and can be used for classification or regression                         
+As random forests give an internal estimate of generalization error  cross validation is unnecessary  In addition  they produce proximities  which can be used to impute missing values  and which enable novel data visualizations             
+Computationally  random forests are appealing because they naturally handle both regression and  multiclass  classification  are relatively fast to train and to predict  depend only on one or two tuning parameters  have a built in estimate of the generalization error  can be used directly for high dimensional problems  and can easily be implemented in parallel  Statistically  random forests are appealing for additional features  such as measures of variable importance  differential class weighting  missing value imputation  visualization  outlier detection  and unsupervised learning             
+
+Clustering edit 
+Clustering   the partitioning of a data set into disjoint subsets  so that the data in each subset are as close as possible to each other and as distant as possible from data in any other subset  according to some defined distance or similarity function   is a common technique for statistical data analysis 
+Clustering is central to much data driven bioinformatics research and serves as a powerful computational method whereby means of hierarchical  centroid based  distribution based  density based  and self organizing maps classification  has long been studied and used in classical machine learning settings  Particularly  clustering helps to analyze unstructured and high dimensional data in the form of sequences  expressions  texts  images  and so on  Clustering is also used to gain insights into biological processes at the genomic level  e g  gene functions  cellular processes  subtypes of cells  gene regulation  and metabolic processes             
+
+Clustering algorithms used in bioinformatics edit 
+Data clustering algorithms can be hierarchical or partitional  Hierarchical algorithms find successive clusters using previously established clusters  whereas partitional algorithms determine all clusters at once  Hierarchical algorithms can be agglomerative  bottom up  or divisive  top down  
+Agglomerative algorithms begin with each element as a separate cluster and merge them in successively larger clusters  Divisive algorithms begin with the whole set and proceed to divide it into successively smaller clusters  Hierarchical clustering is calculated using metrics on Euclidean spaces  the most commonly used is the Euclidean distance computed by finding the square of the difference between each variable  adding all the squares  and finding the square root of the said sum  An example of a hierarchical clustering algorithm is BIRCH  which is particularly good on bioinformatics for its nearly linear time complexity given generally large datasets              Partitioning algorithms are based on specifying an initial number of groups  and iteratively reallocating objects among groups to convergence  This algorithm typically determines all clusters at once  Most applications adopt one of two popular heuristic methods  k means algorithm or k medoids  Other algorithms do not require an initial number of groups  such as affinity propagation  In a genomic setting this algorithm has been used both to cluster biosynthetic gene clusters in gene cluster families GCF  and to cluster said GCFs             
+
+Workflow edit 
+Typically  a workflow for applying machine learning to biological data goes through four steps             
+
+Recording  including capture and storage  In this step  different information sources may be merged into a single set 
+Preprocessing  including cleaning and restructuring into a ready to analyze form  In this step  uncorrected data are eliminated or corrected  while missing data maybe imputed and relevant variables chosen 
+Analysis  evaluating data using either supervised or unsupervised algorithms  The algorithm is typically trained on a subset of data  optimizing parameters  and evaluated on a separate test subset 
+Visualization and interpretation  where knowledge is represented effectively using different methods to assess the significance and importance of the findings 
+Data errors edit 
+Duplicate data is a significant issue in bioinformatics  Publicly available data may be of uncertain quality             
+Errors during experimentation             
+Erroneous interpretation             
+Typing mistakes             
+Non standardized methods   D structure in PDB from multiple sources  X ray diffraction  theoretical modeling  nuclear magnetic resonance  etc   are used in experiments             
+Applications edit 
+In general  a machine learning system can usually be trained to recognize elements of a certain class given sufficient samples              For example  machine learning methods can be trained to identify specific visual features such as splice sites             
+Support vector machines have been extensively used in cancer genomic studies              In addition  deep learning has been incorporated into bioinformatic algorithms  Deep learning applications have been used for regulatory genomics and cellular imaging              Other applications include medical image classification  genomic sequence analysis  as well as protein structure classification and prediction              Deep learning has been applied to regulatory genomics  variant calling and pathogenicity scores              Natural language processing and text mining have helped to understand phenomena including protein protein interaction  gene disease relation as well as predicting biomolecule structures and functions             
+
+Precision personalized medicine edit 
+Natural language processing algorithms personalized medicine for patients who suffer genetic diseases  by combining the extraction of clinical information and genomic data available from the patients  Institutes such as Health funded Pharmacogenomics Research Network focus on finding breast cancer treatments             
+Precision medicine considers individual genomic variability  enabled by large scale biological databases  Machine learning can be applied to perform the matching function between  groups of patients  and specific treatment modalities             
+Computational techniques are used to solve other problems  such as efficient primer design for PCR  biological image analysis and back translation of proteins  which is  given the degeneration of the genetic code  a complex combinatorial problem             
+
+Genomics edit 
+The growth of GenBank  a genomic sequence database provided by the National center for Biotechnology Information  NCBI 
+While genomic sequence data has historically been sparse due to the technical difficulty of sequencing a piece of DNA  the number of available sequences is growing  On average  the number of bases available in the GenBank public repository has doubled every    months since                    However  while raw data was becoming increasingly available and accessible  As of          update       biological interpretation of this data was occurring at a much slower pace              This made for an increasing need for developing computational genomics tools  including machine learning systems  that can automatically determine the location of protein encoding genes within a given DNA sequence  i e  gene prediction              
+Gene prediction is commonly performed through both extrinsic searches and intrinsic searches              For the extrinsic search  the input DNA sequence is run through a large database of sequences whose genes have been previously discovered and their locations annotated and identifying the target sequence s genes by determining which strings of bases within the sequence are homologous to known gene sequences  However  not all the genes in a given input sequence can be identified through homology alone  due to limits in the size of the database of known and annotated gene sequences  Therefore  an intrinsic search is needed where a gene prediction program attempts to identify the remaining genes from the DNA sequence alone             
+Machine learning has also been used for the problem of multiple sequence alignment which involves aligning many DNA or amino acid sequences in order to determine regions of similarity that could indicate a shared evolutionary history             It can also be used to detect and visualize genome rearrangements             
+
+Proteomics edit 
+A protein s amino acid sequence annotated with the protein secondary structure  Each amino acid is labeled as either an alpha helix  a beta sheet  or a coil 
+Proteins  strings of amino acids  gain much of their function from protein folding  where they conform into a three dimensional structure  including the primary structure  the secondary structure  alpha helices and beta sheets   the tertiary structure  and the quaternary structure 
+Protein secondary structure prediction is a main focus of this subfield as tertiary and quaternary structures are determined based on the secondary structure             Solving the true structure of a protein is expensive and time intensive  furthering the need for systems that can accurately predict the structure of a protein by analyzing the amino acid sequence directly                        Prior to machine learning  researchers needed to conduct this prediction manually  This trend began in      when Pauling and Corey released their work on predicting the hydrogen bond configurations of a protein from a polypeptide chain              Automatic feature learning reaches an accuracy of                                Recent approaches have utilized deep learning techniques for state of the art secondary structure predictions  For example  DeepCNF  deep convolutional neural fields  achieved an accuracy of approximately     when tasked to classify the amino acids of a protein sequence into one of three structural classes  helix  sheet  or coil               The theoretical limit for three state protein secondary structure is                    In       AlphaFold  an artificial intelligence  AI  program developed by DeepMind  placed first in the overall rankings of the   th Critical Assessment of Structure Prediction  CASP   It was particularly successful at predicting the most accurate structures for targets rated as most difficult by the competition organizers  where no existing template structures were available from proteins with partially similar sequences  AlphaFold          repeated this placement in the CASP   competition and achieved a level of accuracy much higher than any other entry                                     
+Machine learning has also been applied to proteomics problems such as protein side chain prediction  protein loop modeling  and protein contact map prediction            
+
+Metagenomics edit 
+Metagenomics is the study of microbial communities from environmental DNA samples              Currently  limitations and challenges predominate in the implementation of machine learning tools due to the amount of data in environmental samples              Supercomputers and web servers have made access to these tools easier              The high dimensionality of microbiome datasets is a major challenge in studying the microbiome  this significantly limits the power of current approaches for identifying true differences and increases the chance of false discoveries                  better      source      needed     
+Despite their importance  machine learning tools related to metagenomics have focused on the study of gut microbiota and the relationship with digestive diseases  such as inflammatory bowel disease  IBD   Clostridioides difficile infection  CDI   colorectal cancer and diabetes  seeking better diagnosis and treatments              Many algorithms were developed to classify microbial communities according to the health condition of the host  regardless of the type of sequence data  e g    S rRNA or whole genome sequencing  WGS   using methods such as least absolute shrinkage and selection operator classifier  random forest  supervised classification model  and gradient boosted tree model  Neural networks  such as recurrent neural networks  RNN   convolutional neural networks  CNN   and Hopfield neural networks have been added              For example  in       Fioravanti et al  developed an algorithm called Ph CNN to classify data samples from healthy patients and patients with IBD symptoms  to distinguish healthy and sick patients  by using phylogenetic trees and convolutional neural networks             
+In addition  random forest  RF  methods and implemented importance measures help in the identification of microbiome species that can be used to distinguish diseased and non diseased samples  However  the performance of a decision tree and the diversity of decision trees in the ensemble significantly influence the performance of RF algorithms  The generalization error for RF measures how accurate the individual classifiers are and their interdependence  Therefore  the high dimensionality problems of microbiome datasets pose challenges  Effective approaches require many possible variable combinations  which exponentially increases the computational burden as the number of features increases             
+For microbiome analysis in      Dang  amp  Kishino             developed a novel analysis pipeline  The core of the pipeline is an RF classifier coupled with forwarding variable selection  RF FVS   which selects a minimum size core set of microbial species or functional signatures that maximize the predictive classifier performance  The framework combines 
+
+identifying a few significant features by a massively parallel forward variable selection procedure
+mapping the selected species on a phylogenetic tree  and
+predicting functional profiles by functional gene enrichment analysis from metagenomic   S rRNA data 
+They demonstrated performance by analyzing two published datasets from large scale case control studies 
+
+  S rRNA gene amplicon data for C  difficile infection  CDI  and
+shotgun metagenomics data for human colorectal cancer  CRC  
+The proposed approach improved the accuracy from     to        for CDI and from        to        for CRC 
+The use of machine learning in environmental samples has been less explored  maybe because of data complexity  especially from WGS  Some works show that it is possible to apply these tools in environmental samples  In      Dhungel et al               designed an R package called MegaR  This package allows working with   S rRNA and whole metagenomic sequences to make taxonomic profiles and classification models by machine learning models  MegaR includes a comfortable visualization environment to improve the user experience  Machine learning in environmental metagenomics can help to answer questions related to the interactions between microbial communities and ecosystems  e g  the work of Xun et al   in                  where the use of different machine learning methods offered insights on the relationship among the soil  microbiome biodiversity  and ecosystem stability 
+
+Microarrays edit 
+Microarrays  a type of lab on a chip  are used for automatically collecting data about large amounts of biological material  Machine learning can aid in analysis  and has been applied to expression pattern identification  classification  and genetic network induction            
+
+A DNA microarray analysis of Burkitt s lymphoma and diffuse large B cell lymphoma  DLBCL   which differences in gene expression patterns
+This technology is especially useful for monitoring gene expression  aiding in diagnosing cancer by examining which genes are expressed              One of the main tasks is identifying which genes are expressed based on the collected data             In addition  due to the huge number of genes on which data is collected by the microarray  winnowing the large amount of irrelevant data to the task of expressed gene identification is challenging  Machine learning presents a potential solution as various classification methods can be used to perform this identification  The most commonly used methods are radial basis function networks  deep learning  Bayesian classification  decision trees  and random forest             
+
+Systems biology edit 
+Systems biology focuses on the study of emergent behaviors from complex interactions of simple biological components in a system  Such components can include DNA  RNA  proteins  and metabolites             
+Machine learning has been used to aid in modeling these interactions in domains such as genetic networks  signal transduction networks  and metabolic pathways             Probabilistic graphical models  a machine learning technique for determining the relationship between different variables  are one of the most commonly used methods for modeling genetic networks             In addition  machine learning has been applied to systems biology problems such as identifying transcription factor binding sites using Markov chain optimization             Genetic algorithms  machine learning techniques which are based on the natural process of evolution  have been used to model genetic networks and regulatory structures            
+Other systems biology applications of machine learning include the task of enzyme function prediction  high throughput microarray data analysis  analysis of genome wide association studies to better understand markers of disease  protein function prediction             
+
+Evolution edit 
+This domain  particularly phylogenetic tree reconstruction  uses the features of machine learning techniques  Phylogenetic trees are schematic representations of the evolution of organisms  Initially  they were constructed using features such as morphological and metabolic features  Later  due to the availability of genome sequences  the construction of the phylogenetic tree algorithm used the concept based on genome comparison  With the help of optimization techniques  a comparison was done by means of multiple sequence alignment             
+
+Stroke diagnosis edit 
+Machine learning methods for the analysis of neuroimaging data are used to help diagnose stroke  Historically multiple approaches to this problem involved neural networks                         
+Multiple approaches to detect strokes used machine learning  As proposed by Mirtskhulava              feed forward networks were tested to detect strokes using neural imaging  As proposed by Titano              D CNN techniques were tested in supervised classification to screen head CT images for acute neurologic events  Three dimensional CNN and SVM methods are often used             
+
+Text mining edit 
+The increase in biological publications increased the difficulty in searching and compiling relevant available information on a given topic  This task is known as knowledge extraction  It is necessary for biological data collection which can then in turn be fed into machine learning algorithms to generate new biological knowledge                         Machine learning can be used for this knowledge extraction task using techniques such as natural language processing to extract the useful information from human generated reports in a database  Text Nailing  an alternative approach to machine learning  capable of extracting features from clinical narrative notes was introduced in      
+This technique has been applied to the search for novel drug targets  as this task requires the examination of information stored in biological databases and journals              Annotations of proteins in protein databases often do not reflect the complete known set of knowledge of each protein  so additional information must be extracted from biomedical literature  Machine learning has been applied to the automatic annotation of gene and protein function  determination of the protein subcellular localization  DNA expression array analysis  large scale protein interaction analysis  and molecule interaction analysis             
+Another application of text mining is the detection and visualization of distinct DNA regions given sufficient reference data             
+
+Clustering and abundance profiling of biosynthetic gene clusters edit 
+Microbial communities are complex assembles of diverse microorganisms              where symbiont partners constantly produce diverse metabolites derived from the primary and secondary  specialized  metabolism  from which metabolism plays an important role in microbial interaction              Metagenomic and metatranscriptomic data are an important source for deciphering communications signals 
+Molecular mechanisms produce specialized metabolites in various ways  Biosynthetic Gene Clusters  BGCs  attract attention  since several metabolites are clinically valuable  anti microbial  anti fungal  anti parasitic  anti tumor and immunosuppressive agents produced by the modular action of multi enzymatic  multi domains gene clusters  such as Nonribosomal peptide synthetases  NRPSs  and polyketide synthases  PKSs               Diverse studies                                                                                                 show that grouping BGCs that share homologous core genes into gene cluster families  GCFs  can yield useful insights into the chemical diversity of the analyzed strains  and can support linking BGCs to their secondary metabolites                          GCFs have been used as functional markers in human health studies                         and to study the ability of soil to suppress fungal pathogens              Given their direct relationship to catalytic enzymes  and compounds produced from their encoded pathways  BGCs GCFs can serve as a proxy to explore the chemical space of microbial secondary metabolism  Cataloging GCFs in sequenced microbial genomes yields an overview of the existing chemical diversity and offers insights into future priorities                          Tools such as BiG SLiCE and BIG MAP             have emerged with the sole purpose of unveiling the importance of BGCs in natural environments 
+
+Decodification of RiPPs chemical structures edit 
+The increase of experimentally characterized ribosomally synthesized and post translationally modified peptides  RiPPs   together with the availability of information on their sequence and chemical structure  selected from databases such as BAGEL  BACTIBASE  MIBIG  and THIOBASE  provide the opportunity to develop machine learning tools to decode the chemical structure and classify them 
+In       researchers at the National Institute of Immunology of New Delhi  India  developed RiPPMiner             software  a bioinformatics resource for decoding RiPP chemical structures by genome mining  The RiPPMiner web server consists of a query interface and the RiPPDB database  RiPPMiner defines    subclasses of RiPPs  predicting the cleavage site of the leader peptide and the final cross link of the RiPP chemical structure 
+
+Mass spectral similarity scoring edit 
+Many tandem mass spectrometry  MS MS  based metabolomics studies  such as library matching and molecular networking  use spectral similarity as a proxy for structural similarity  Spec vec             algorithm provides a new way of spectral similarity score  based on Word Vec  Spec Vec learns fragmental relationships within a large set of spectral data  in order to assess spectral similarities between molecules and to classify unknown molecules through these comparisons 
+For systemic annotation  some metabolomics studies rely on fitting measured fragmentation mass spectra to library spectra or contrasting spectra via network analysis  Scoring functions are used to determine the similarity between pairs of fragment spectra as part of these processes  So far  no research has suggested scores that are significantly different from the commonly utilized cosine based similarity             
+
+Databases edit 
+An important part of bioinformatics is the management of big datasets  known as databases of reference  Databases exist for each type of biological data  for example for biosynthetic gene clusters and metagenomes 
+
+General databases by bioinformatics edit 
+National Center for Biotechnology Information edit 
+The National Center for Biotechnology Information  NCBI              provides a large suite of online resources for biological information and data  including the GenBank nucleic acid sequence database and the PubMed database of citations and abstracts for published life science journals  Augmenting many of the Web applications are custom implementations of the BLAST program optimized to search specialized data sets  Resources include PubMed Data Management  RefSeq Functional Elements  genome data download  variation services API  Magic BLAST  QuickBLASTp  and Identical Protein Groups  All of these resources can be accessed through NCBI             
+
+Bioinformatics analysis for biosynthetic gene clusters edit 
+antiSMASH edit 
+antiSMASH allows the rapid genome wide identification  annotation and analysis of secondary metabolite biosynthesis gene clusters in bacterial and fungal genomes  It integrates and cross links with a large number of in silico secondary metabolite analysis tools             
+
+gutSMASH edit 
+gutSMASH is a tool that systematically evaluates bacterial metabolic potential by predicting both known and novel anaerobic metabolic gene clusters  MGCs  from the gut microbiome 
+
+MIBiG edit 
+MIBiG              the minimum information about a biosynthetic gene cluster specification  provides a standard for annotations and metadata on biosynthetic gene clusters and their molecular products  MIBiG is a Genomic Standards Consortium project that builds on the minimum information about any sequence  MIxS  framework             
+MIBiG facilitates the standardized deposition and retrieval of biosynthetic gene cluster data as well as the development of comprehensive comparative analysis tools  It empowers next generation research on the biosynthesis  chemistry and ecology of broad classes of societally relevant bioactive secondary metabolites  guided by robust experimental evidence and rich metadata components             
+
+SILVA edit 
+SILVA             is an interdisciplinary project among biologists and computers scientists assembling a complete database of RNA ribosomal  rRNA  sequences of genes  both small    S    S  SSU  and large    S    S  LSU  subunits  which belong to the bacteria  archaea and eukarya domains  These data are freely available for academic and commercial use             
+
+Greengenes edit 
+Greengenes             is a full length   S rRNA gene database that provides chimera screening  standard alignment and a curated taxonomy based on de novo tree inference                          Overview  
+
+          RNA sequences from        organisms contributed to RNAcentral 
+The shortest sequence has       nucleotides  the longest       
+The average length is       nucleotides 
+Database version       
+Open Tree of Life Taxonomy edit 
+Open Tree of Life Taxonomy  OTT              aims to build a complete  dynamic  and digitally available Tree of Life by synthesizing published phylogenetic trees along with taxonomic data  Phylogenetic trees have been classified  aligned  and merged  Taxonomies have been used to fill in sparse regions and gaps left by phylogenies  OTT is a base that has been little used for sequencing analyzes of the   S region  however  it has a greater number of sequences classified taxonomically down to the genus level compared to SILVA and Greengenes  However  in terms of classification at the edge level  it contains a lesser amount of information            
+
+Ribosomal Database Project edit 
+Ribosomal Database Project  RDP              is a database that provides RNA ribosomal  rRNA  sequences of small subunits of domain bacterial and archaeal    S   and fungal rRNA sequences of large subunits    S              
+
+References edit 
+
+
+  Chicco D  December         Ten quick tips for machine learning in computational biology   BioData Mining               doi         s                  PMC               PMID               
+
+  a b c d e f g h i j k l m Larra aga P  Calvo B  Santana R  Bielza C  Galdiano J  Inza I  et      al   March         Machine learning in bioinformatics   Briefings in Bioinformatics                 doi         bib bbk     PMID               
+
+  P rez Wohlfeil E  Torrenoa O  Bellis LJ  Fernandes PL  Leskosek B  Trellesa O  December         Training bioinformaticians in High Performance Computing   Heliyon          e       Bibcode     Heliy         P  doi         j heliyon      e       PMC               PMID               
+
+  a b c d e Yang Y  Gao J  Wang J  Heffernan R  Hanson J  Paliwal K  Zhou Y  May         Sixty five years of the long march in protein secondary structure prediction  the final stretch    Briefings in Bioinformatics                   doi         bib bbw     PMC               PMID               
+
+  Shastry KA  Sanjay HA          Machine Learning for Bioinformatics   In Srinivasa K  Siddesh G  Manisekhar S  eds    Statistical Modelling and Machine Learning Principles for Bioinformatics Techniques  Tools  and Applications  Algorithms for Intelligent Systems  Singapore  Springer  pp              doi                              ISBN                         S CID                 Retrieved June          
+
+  a b c Soueidan H  Nikolski M          Machine learning for metagenomics  methods and tools   Metagenomics     arXiv             doi         metgen            ISSN                 S CID               
+
+  Noel  Louis  February             Principal Component Analysis in the Era of  Omics  Data   Principal Component Analysis   Multidisciplinary Applications  InTech  doi                ISBN                         retrieved April         
+
+  Rabiner L  Juang B  January         An introduction to hidden Markov models   IEEE ASSP Magazine               doi         MASSP               ISSN                 S CID               
+
+  Jackson CH  Sharples LD  Thompson SG  Duffy SW  Couto E  July         Multistate Markov models for disease progression with classification error   Journal of the Royal Statistical Society  Series D  The Statistician                    doi                          S CID              
+
+  Amoros R  King R  Toyoda H  Kumada T  Johnson PJ  Bird TG  May             A continuous time hidden Markov model for cancer surveillance using serum biomarkers with application to hepatocellular carcinoma   Metron                 doi         s                   PMC               PMID               
+
+  Eddy SR  October            Profile hidden Markov models   Bioinformatics                  doi         bioinformatics           PMID              
+
+  McClintock BT  Langrock R  Gimenez O  Cam E  Borchers DL  Glennie R  Patterson TA  December         Uncovering ecological state dynamics with hidden Markov models   Ecology Letters                      arXiv             Bibcode     EcolL         M  doi         ele        PMC               PMID               
+
+  Zhang W          Shift invariant pattern recognition neural network and its optical architecture   Proceedings of Annual Conference of the Japan Society of Applied Physics 
+
+  Zhang W  Itoh K  Tanida J  Ichioka Y  November         Parallel distributed processing model with local space invariant interconnections and its optical architecture   Applied Optics                   Bibcode     ApOpt         Z  doi         AO            PMID               
+
+  a b Bishop  Christopher M   August            Pattern Recognition and Machine Learning  New York  Springer  ISBN                        
+
+  Fukushima K          Neocognitron   Scholarpedia               Bibcode     SchpJ         F  doi         scholarpedia      
+
+  Hubel DH  Wiesel TN  March         Receptive fields and functional architecture of monkey striate cortex   The Journal of Physiology                   doi         jphysiol      sp        PMC               PMID              
+
+  Fukushima K          Neocognitron  a self organizing neural network model for a mechanism of pattern recognition unaffected by shift in position   Biological Cybernetics                   doi         BF          PMID               S CID                
+
+  Matsugu M  Mori K  Mitari Y  Kaneda Y          Subject independent facial expression recognition with robust face detection using a convolutional neural network   Neural Networks                   doi         S                      PMID               
+
+  Fioravanti D  Giarratano Y  Maggio V  Agostinelli C  Chierici M  Jurman G  Furlanello C  March         Phylogenetic convolutional neural networks in metagenomics   BMC Bioinformatics      Suppl         doi         s                  PMC               PMID               
+
+  Ji  Yanrong  Zhou  Zhihan  Liu  Han  Davuluri  Ramana V  August           Kelso  Janet  ed     DNABERT  pre trained Bidirectional Encoder Representations from Transformers model for DNA language in genome   Bioinformatics                      doi         bioinformatics btab     ISSN                 PMC                PMID               
+
+  G nd z  H seyin Anil  Binder  Martin  To  Xiao Yin  Mreches  Ren   Bischl  Bernd  McHardy  Alice C   M nch  Philipp C   Rezaei  Mina  September             A self supervised deep learning method for data efficient training in genomics   Communications Biology              doi         s                   ISSN                 PMC                PMID               
+
+  Ho TK         Random Decision Forests  Proceedings of the  rd International Conference on Document Analysis and Recognition  Montreal  QC        August       pp               
+
+  Dietterich T         An Experimental Comparison of Three Methodsfor Constructing Ensembles of Decision Trees Bagging  Boosting  and Randomization  Kluwer Academic Publishers  pp               
+
+  Breiman  Leo          Radom Forests   Machine Learning                Bibcode     MachL         B  doi         A                S CID            
+
+  a b Zhang C  Ma Y         Ensemble machine learning  methods and applications  New York  Springer New York Dordrecht Heidelberg London  pp                ISBN                        
+
+  Karim MR  Beyan O  Zappa A  Costa IG  Rebholz Schuhmann D  Cochez M  Decker S  January         Deep learning based clustering approaches for bioinformatics   Briefings in Bioinformatics                   doi         bib bbz     PMC               PMID               
+
+  Lorbeer B  Kosareva A  Deva B  Softi  D  Ruppel P  K pper A  March            Variations on the Clustering Algorithm BIRCH   Big Data Research             doi         j bdr             
+
+  Navarro Mu oz JC  Selem Mojica N  Mullowney MW  Kautsar SA  Tryon JH  Parkinson EI  et      al   January         A computational framework to explore large scale biosynthetic diversity   Nature Chemical Biology                 doi         s                  PMC               PMID               
+
+  a b c d e Shastry KA  Sanjay HA          Machine Learning for Bioinformatics   Statistical Modelling and Machine Learning Principles for Bioinformatics Techniques  Tools  and Applications  Algorithms for Intelligent Systems  Springer Singapore  pp              doi                              ISBN                         S CID                
+
+  Libbrecht MW  Noble WS  June         Machine learning applications in genetics and genomics   Nature Reviews  Genetics                  doi         nrg      PMC               PMID               
+
+  Degroeve S  De Baets B  Van de Peer Y  Rouz  P          Feature subset selection for splice site prediction   Bioinformatics      Suppl     S       doi         bioinformatics    suppl   s    PMID               
+
+  Huang S  Cai N  Pacheco PP  Narrandes S  Wang Y  Xu W  January         Applications of Support Vector Machine  SVM  Learning in Cancer Genomics   Cancer Genomics  amp  Proteomics                 doi          cgp        PMC               PMID               
+
+  Angermueller C  P rnamaa T  Parts L  Stegle O  July         Deep learning for computational biology   Molecular Systems Biology               doi          msb           PMC               PMID               
+
+  Cao C  Liu F  Tan H  Song D  Shu W  Li W  et      al   February         Deep Learning and Its Applications in Biomedicine   Genomics  Proteomics  amp  Bioinformatics                 doi         j gpb              PMC               PMID               
+
+  Zou J  Huss M  Abid A  Mohammadi P  Torkamani A  Telenti A  January         A primer on deep learning in genomics   Nature Genetics                 doi         s                  PMC                PMID                S CID                
+
+  Zeng Z  Shi H  Wu Y  Hong Z          Survey of Natural Language Processing Techniques in Bioinformatics   Computational and Mathematical Methods in Medicine        D            doi                      PMC               PMID               
+
+  Zeng Z  Shi H  Wu Y  Hong Z          Survey of Natural Language Processing Techniques in Bioinformatics   Computational and Mathematical Methods in Medicine        D            doi         B                           PMC               PMID               
+
+  Zeng Z  Shi H  Wu Y  Hong Z          Survey of Natural Language Processing Techniques in Bioinformatics   Computational and Mathematical Methods in Medicine        D            doi                      PMC               PMID               
+
+   GenBank and WGS Statistics   www ncbi nlm nih gov  Retrieved November          
+
+  a b c d Math  C  Sagot MF  Schiex T  Rouz  P  October         Current methods of gene prediction  their strengths and weaknesses   Nucleic Acids Research                    doi         nar gkf     PMC              PMID               
+
+  Pratas D  Silva RM  Pinho AJ  Ferreira PJ  May         An alignment free method to find and visualise rearrangements between pairs of DNA sequences   Scientific Reports                    Bibcode     NatSR         P  doi         srep       PMC               PMID               
+
+  Pauling L  Corey RB  Branson HR  April         The structure of proteins  two hydrogen bonded helical configurations of the polypeptide chain   Proceedings of the National Academy of Sciences of the United States of America                  Bibcode     PNAS          P  doi         pnas           PMC               PMID               
+
+  a b Wang S  Peng J  Ma J  Xu J  January         Protein Secondary Structure Prediction Using Deep Convolutional Neural Fields   Scientific Reports            arXiv             Bibcode     NatSR         W  doi         srep       PMC               PMID               
+
+   DeepMind s protein folding AI has solved a    year old grand challenge of biology   MIT Technology Review  Archived from the original on August           Retrieved November          
+
+  Stoddart  Charlotte  March            Structural biology  How proteins got their close up   Knowable Magazine  doi         knowable           S CID                 Archived from the original on April          Retrieved March          
+
+  Shead  Sam  November             DeepMind solves    year old  grand challenge  with protein folding A I   CNBC  Archived from the original on January           Retrieved November          
+
+  Riesenfeld CS  Schloss PD  Handelsman J          Metagenomics  genomic analysis of microbial communities   Annual Review of Genetics                  doi         annurev genet                   PMID               
+
+  Soueidan  Hayssam  Nikolski  Macha  January            Machine learning for metagenomics  methods and tools   Metagenomics         arXiv             doi         metgen            ISSN                 S CID               
+
+  a b c Lin Y  Wang G  Yu J  Sung JJ  April         Artificial intelligence and metagenomics in intestinal diseases   Journal of Gastroenterology and Hepatology                   doi         jgh        PMID                S CID                
+
+  a b c Dang T  Kishino H  January         Detecting significant components of microbiomes by random forest with forward variable selection and phylogenetics   bioRxiv                                
+
+  Fioravanti D  Giarratano Y  Maggio V  Agostinelli C  Chierici M  Jurman G  Furlanello C  March         Phylogenetic convolutional neural networks in metagenomics   BMC Bioinformatics      Suppl         doi         s                  PMC               PMID               
+
+  Dhungel E  Mreyoud Y  Gwak HJ  Rajeh A  Rho M  Ahn TH  January         MegaR  an interactive R package for rapid sample classification and phenotype prediction using metagenome profiles and machine learning   BMC Bioinformatics              doi         s                   PMC               PMID               
+
+  Xun W  Liu Y  Li W  Ren Y  Xiong W  Xu Z  et      al   January         Specialized metabolic functions of keystone taxa sustain soil microbiome stability   Microbiome             doi         s                   PMC               PMID               
+
+  a b Pirooznia M  Yang JY  Yang MQ  Deng Y          A comparative study of different machine learning methods on microarray gene expression data   BMC Genomics    Suppl        S    doi                     S  S    PMC               PMID               
+
+   Machine Learning in Molecular Systems Biology   Frontiers  Retrieved June         
+
+  d Alch  Buc F  Wehenkel L  December         Machine learning in systems biology   BMC Proceedings    Suppl        S   doi                     S  S   PMC               PMID               
+
+  Bhattacharya M          Unsupervised Techniques in Genomics   In Srinivasa MG  Siddesh GM  MAnisekhar SR  eds    Statistical Modelling and Machine Learning Principles for Bioinformatics Techniques  Tools  and Applications  Springer Singapore  pp                ISBN                        
+
+  Topol EJ  January         High performance medicine  the convergence of human and artificial intelligence   Nature Medicine                 doi         s                  hdl              PMID                S CID               
+
+  a b Jiang F  Jiang Y  Zhi H  Dong Y  Li H  Ma S  et      al   December         Artificial intelligence in healthcare  past  present and future   Stroke and Vascular Neurology                  doi         svn              PMC               PMID               
+
+  Mirtskhulava L  Wong J  Al Majeed S  Pearce G  March         Artificial Neural Network Model in Stroke Diagnosis   PDF          th UKSim AMSS International Conference on Modelling and Simulation  UKSim   pp              doi         UKSim          ISBN                         S CID              
+
+  Titano JJ  Badgeley M  Schefflein J  Pain M  Su A  Cai M  et      al   September         Automated deep neural network surveillance of cranial images for acute neurologic events   Nature Medicine                     doi         s               y  PMID                S CID               
+
+  a b c Krallinger M  Erhardt RA  Valencia A  March         Text mining approaches in molecular biology and biomedicine   Drug Discovery Today                  doi         S                      PMID               
+
+  Pratas D  Hosseini M  Silva R  Pinho A  Ferreira P  June                Visualization of Distinct DNA Regions of the Modern Human Relatively to a Neanderthal Genome   Pattern Recognition and Image Analysis  Lecture Notes in Computer Science  Vol              pp                doi                               ISBN                        
+
+  Bardgett RD  Caruso T  March         Soil microbial community responses to climate extremes  resistance  resilience and transitions to alternative states   Philosophical Transactions of the Royal Society of London  Series B  Biological Sciences                        doi         rstb            PMC               PMID               
+
+  Deveau A  Bonito G  Uehling J  Paoletti M  Becker M  Bindschedler S  et      al   May         Bacterial fungal interactions  ecology  mechanisms and challenges   FEMS Microbiology Reviews                   doi         femsre fuy     hdl                    C E  F  PMID               
+
+  Ansari MZ  Yadav G  Gokhale RS  Mohanty D  July         NRPS PKS  a knowledge based resource for analysis of NRPS PKS megasynthases   Nucleic Acids Research      Web Server issue   W        doi         nar gkh     PMC              PMID               
+
+  a b Navarro Mu oz JC  Selem Mojica N  Mullowney MW  Kautsar SA  Tryon JH  Parkinson EI  et      al   January         A computational framework to explore large scale biosynthetic diversity   Nature Chemical Biology                 doi         s                  PMC               PMID               
+
+  a b Doroghazi JR  Albright JC  Goering AW  Ju KS  Haines RR  Tchalukov KA  et      al   November         A roadmap for natural product discovery based on large scale genomics and metabolomics   Nature Chemical Biology                  doi         nchembio       PMC               PMID               
+
+  a b Cimermancic P  Medema MH  Claesen J  Kurita K  Wieland Brown LC  Mavrommatis K  et      al   July         Insights into secondary metabolism from a global analysis of prokaryotic biosynthetic gene clusters   Cell                    doi         j cell              PMC               PMID               
+
+  a b Goering AW  McClure RA  Doroghazi JR  Albright JC  Haverland NA  Zhang Y  et      al   February         Metabologenomics  Correlation of Microbial Gene Clusters with Metabolites Drives Discovery of a Nonribosomal Peptide with an Unusual Amino Acid Monomer   ACS Central Science                 doi         acscentsci  b       PMC               PMID               
+
+  Amiri Moghaddam J  Cr semann M  Alanjary M  Harms H  D vila C spedes A  Blom J  et      al   November         Analysis of the Genome and Metabolome of Marine Myxobacteria Reveals High Potential for Biosynthesis of Novel Specialized Metabolites   Scientific Reports                Bibcode     NatSR         A  doi         s                y  PMC               PMID               
+
+  Duncan KR  Cr semann M  Lechner A  Sarkar A  Li J  Ziemert N  et      al   April         Molecular networking and pattern based genome mining improves discovery of biosynthetic gene clusters and their products from Salinispora species   Chemistry  amp  Biology                   doi         j chembiol              PMC               PMID               
+
+  Nielsen JC  Grijseels S  Prigent S  Ji B  Dainat J  Nielsen KF  et      al   April         Global analysis of biosynthetic gene clusters reveals vast potential of secondary metabolite production in Penicillium species   Nature Microbiology                doi         nmicrobiol          PMID                S CID               
+
+  McClure RA  Goering AW  Ju KS  Baccile JA  Schroeder FC  Metcalf WW  et      al   December         Elucidating the Rimosamide Detoxin Natural Product Families and Their Biosynthesis Using Metabolite Gene Cluster Correlations   ACS Chemical Biology                      doi         acschembio  b       PMC               PMID               
+
+  Cao L  Shcherbin E  Mohimani H  August         A Metabolome  and Metagenome Wide Association Network Reveals Microbial Natural Products and Microbial Biotransformation Products from the Human Microbiota   mSystems         e           msystems     msys          atom  doi         mSystems           PMC               PMID               
+
+  Olm MR  Bhattacharya N  Crits Christoph A  Firek BA  Baker R  Song YS  et      al   December         Necrotizing enterocolitis is preceded by increased gut bacterial replication  Klebsiella  and fimbriae encoding bacteria   Science Advances          eaax      Bibcode     SciA          O  doi         sciadv aax      PMC               PMID               
+
+  Carri n VJ  Perez Jaramillo J  Cordovez V  Tracanna V  de Hollander M  Ruiz Buck D  et      al   November         Pathogen induced activation of disease suppressive functions in the endophytic root microbiome   Science                       Bibcode     Sci           C  doi         science aaw      hdl               PMID                S CID                
+
+  Pascal Andreu  Vict ria  Augustijn  Hannah E   van den Berg  Koen  van der Hooft  Justin J  J   Fischbach  Michael A   Medema  Marnix H   October            Shank  Elizabeth Anne  ed     BiG MAP  an Automated Pipeline To Profile Metabolic Gene Cluster Abundance and Expression in Microbiomes   mSystems         e         doi         mSystems           ISSN                 PMC               PMID               
+
+  Agrawal P  Khater S  Gupta M  Sain N  Mohanty D  July         RiPPMiner  a bioinformatics resource for deciphering chemical structures of RiPPs based on prediction of cleavage and cross links   Nucleic Acids Research      W    W     W    doi         nar gkx     PMC               PMID               
+
+  Huber F  Ridder L  Verhoeven S  Spaaks JH  Diblen F  Rogers S  van der Hooft JJ  February         Spec Vec  Improved mass spectral similarity scoring through learning of structural relationships   PLOS Computational Biology          e         Bibcode     PLSCB    E    H  doi         journal pcbi          PMC               PMID               
+
+  Huber F  Ridder L  Verhoeven S  Spaaks JH  Diblen F  Rogers S  van der Hooft JJ  February         Spec Vec  Improved mass spectral similarity scoring through learning of structural relationships   PLOS Computational Biology          e         Bibcode     PLSCB    E    H  doi         journal pcbi          PMC               PMID               
+
+  National Center for Biotechnology Information  U S  National Library of Medicine   National Center for Biotechnology Information   ncbi nlm nih gov  Retrieved July          
+
+  Agarwala R  Barrett T  Beck J  Benson DA  Bollin C  Bolton E  et      al   NCBI Resource Coordinators   January         Database resources of the National Center for Biotechnology Information   Nucleic Acids Research      D    D    D    doi         nar gkx      PMC               PMID               
+
+   antiSMASH database   antismash db secondarymetabolites org 
+
+   MIBiG  Minimum Information about a Biosynthetic Gene cluster   mibig secondarymetabolites org  Retrieved July          
+
+  MiBiG 
+
+  Kautsar SA  Blin K  Shaw S  Navarro Mu oz JC  Terlouw BR  van der Hooft JJ  et      al   January         MIBiG      a repository for biosynthetic gene clusters of known function   Nucleic Acids Research      D    D      D     doi         nar gkz     PMC               PMID               
+
+   Silva   arb silva de  Retrieved July          
+
+  Quast C  Pruesse E  Yilmaz P  Gerken J  Schweer T  Yarza P  et      al   January         The SILVA ribosomal RNA gene database project  improved data processing and web based tools   Nucleic Acids Research      Database issue   D       doi         nar gks      PMC               PMID               
+
+   greengenes secondgenome com   greengenes secondgenome com  Retrieved July          
+
+  DeSantis TZ  Hugenholtz P  Larsen N  Rojas M  Brodie EL  Keller K  et      al   July         Greengenes  a chimera checked   S rRNA gene database and workbench compatible with ARB   Applied and Environmental Microbiology                   Bibcode     ApEnM         D  doi         AEM           PMC               PMID               
+
+  McDonald D  Price MN  Goodrich J  Nawrocki EP  DeSantis TZ  Probst A  et      al   March         An improved Greengenes taxonomy with explicit ranks for ecological and evolutionary analyses of bacteria and archaea   The ISME Journal                Bibcode     ISMEJ         M  doi         ismej           PMC               PMID               
+
+   opentree   tree opentreeoflife org  Retrieved July          
+
+  Hinchliff CE  Smith SA  Allman JF  Burleigh JG  Chaudhary R  Coghill LM  et      al   October         Synthesis of phylogeny and taxonomy into a comprehensive tree of life   Proceedings of the National Academy of Sciences of the United States of America                     Bibcode     PNAS          H  doi         pnas             PMC               PMID               
+
+   RDP Release       Sequence Analysis Tools   rdp cme msu edu  Archived from the original on August           Retrieved July          
+
+  Cole JR  Wang Q  Fish JA  Chai B  McGarrell DM  Sun Y  et      al   January         Ribosomal Database Project  data and tools for high throughput rRNA analysis   Nucleic Acids Research      Database issue   D        doi         nar gkt      PMC               PMID               
+
+
+
+
+vteDifferentiable computingGeneral
+Differentiable programming
+Information geometry
+Statistical manifold
+Automatic differentiation
+Neuromorphic computing
+Pattern recognition
+Ricci calculus
+Computational learning theory
+Inductive bias
+Hardware
+IPU
+TPU
+VPU
+Memristor
+SpiNNaker
+Software libraries
+TensorFlow
+PyTorch
+Keras
+scikit learn
+Theano
+JAX
+Flux jl
+MindSpore
+
+ Portals
+Computer programming
+Technology
+
+
+
+
+
+
+Retrieved from  https   en wikipedia org w index php title Machine learning in bioinformatics amp oldid

@@ -1,0 +1,486 @@
+This article needs additional citations for verification  Please help improve this article by adding citations to reliable sources  Unsourced material may be challenged and removed Find sources        Swarm intelligence              news        newspapers        books        scholar        JSTOR   March        Learn how and when to remove this message 
+Collective behavior of decentralized  self organized systems
+A flock of starlings reacting to a predator
+Swarm intelligence  SI  is the collective behavior of decentralized  self organized systems  natural or artificial  The concept is employed in work on artificial intelligence  The expression was introduced by Gerardo Beni and Jing Wang in       in the context of cellular robotic systems                       
+Swarm intelligence systems consist typically of a population of simple agents or boids interacting locally with one another and with their environment             The inspiration often comes from nature  especially biological systems             The agents follow very simple rules  and although there is no centralized control structure dictating how individual agents should behave  local  and to a certain degree random  interactions between such agents lead to the emergence of  intelligent  global behavior  unknown to the individual agents             Examples of swarm intelligence in natural systems include ant colonies  bee colonies  bird flocking  hawks hunting  animal herding  bacterial growth  fish schooling and microbial intelligence 
+The application of swarm principles to robots is called swarm robotics while swarm intelligence refers to the more general set of algorithms  Swarm prediction has been used in the context of forecasting problems  Similar approaches to those proposed for swarm robotics are considered for genetically modified organisms in synthetic collective intelligence            
+
+
+Models of swarm behavior edit 
+See also  Swarm behaviour
+Boids  Reynolds       edit 
+Main article  Boids
+Boids is an artificial life program  developed by Craig Reynolds in       which simulates flocking  It was published in      in the proceedings of the ACM SIGGRAPH conference            
+The name  boid  corresponds to a shortened version of  bird oid object   which refers to a bird like object            
+As with most artificial life simulations  Boids is an example of emergent behavior  that is  the complexity of Boids arises from the interaction of individual agents  the boids  in this case  adhering to a set of simple rules   The rules applied in the simplest Boids world are as follows 
+
+separation  steer to avoid crowding local flockmates
+alignment  steer towards the average heading of local flockmates
+cohesion  steer to move toward the average position  center of mass  of local flockmates
+More complex rules can be added  such as obstacle avoidance and goal seeking 
+
+Self propelled particles  Vicsek et al         edit 
+Main article  Self propelled particles
+Self propelled particles  SPP   also referred to as the Vicsek model  was introduced in      by Vicsek et al             as a special case of the boids model introduced in      by Reynolds             A swarm is modelled in SPP by a collection of particles that move with a constant speed but respond to a random perturbation by adopting at each time increment the average direction of motion of the other particles in their local neighbourhood              SPP models predict that swarming animals share certain properties at the group level  regardless of the type of animals in the swarm              Swarming systems give rise to emergent behaviours which occur at many different scales  some of which are turning out to be both universal and robust  It has become a challenge in theoretical physics to find minimal statistical models that capture these behaviours                                     
+
+Metaheuristics edit 
+See also  List of metaphor based metaheuristics
+Evolutionary algorithms  EA   particle swarm optimization  PSO   differential evolution  DE   ant colony optimization  ACO  and their variants dominate the field of nature inspired metaheuristics              This list includes algorithms published up to circa the year       A large number of more recent metaphor inspired metaheuristics have started to attract criticism in the research community for hiding their lack of novelty behind an elaborate metaphor                                      For algorithms published since that time  see List of metaphor based metaheuristics 
+Metaheuristics lack a confidence in a solution              When appropriate parameters are determined  and when sufficient convergence stage is achieved  they often find a solution that is optimal  or near close to optimum   nevertheless  if one does not know optimal solution in advance  a quality of a solution is not known              In spite of this obvious drawback it has been shown that these types of algorithms work well in practice  and have been extensively researched  and developed                                                               On the other hand  it is possible to avoid this drawback by calculating solution quality for a special case where such calculation is possible  and after such run it is known that every solution that is at least as good as the solution a special case had  has at least a solution confidence a special case had  One such instance is Ant inspired Monte Carlo algorithm for Minimum Feedback Arc Set where this has been achieved probabilistically via hybridization of Monte Carlo algorithm with Ant Colony Optimization technique             
+
+Ant colony optimization  Dorigo       edit 
+Main article  Ant colony optimization
+Ant colony optimization  ACO   introduced by Dorigo in his doctoral dissertation  is a class of optimization algorithms modeled on the actions of an ant colony  ACO is a probabilistic technique useful in problems that deal with finding better paths through graphs  Artificial  ants  simulation agents locate optimal solutions by moving through a parameter space representing all possible solutions  Natural ants lay down pheromones directing each other to resources while exploring their environment  The simulated  ants  similarly record their positions and the quality of their solutions  so that in later simulation iterations more ants locate for better solutions             
+
+Particle swarm optimization  Kennedy  Eberhart  amp  Shi       edit 
+Main article  Particle swarm optimization
+Particle swarm optimization  PSO  is a global optimization algorithm for dealing with problems in which a best solution can be represented as a point or surface in an n dimensional space   Hypotheses are plotted in this space and seeded with an initial velocity  as well as a communication channel between the particles                           Particles then move through the solution space  and are evaluated according to some fitness criterion after each timestep  Over time  particles are accelerated towards those particles within their communication grouping which have better fitness values  The main advantage of such an approach over other global minimization strategies such as simulated annealing is that the large number of members that make up the particle swarm make the technique impressively resilient to the problem of local minima 
+
+Artificial bee colony algorithm  Karaboga       edit 
+Main article  Artificial bee colony algorithm
+Karaboga introduced ABC metaheuristic in      as an answer to optimize numerical problems  Inspired by honey bee foraging behavior  Karaboga s model had three components  The employed  onlooker  and scout  In practice  the artificial scout bee would expose all food source positions  solutions  good or bad  The employed bee would search for the shortest route to each position to extract the food amount  quality  of the source  If the food was depleted from the source  the employed bee would become a scout and randomly search for other food sources  Each source that became abandoned created negative feedback meaning  the answers found were poor solutions  The onlooker bees wait for employed bees to either abandon a source or give information that the source has a large quantity of food and is worth sending additional resources to  The more an onlooker bee is recruited  the more positive the feedback is meaning that the answer is likely a good solution 
+
+Artificial Swarm Intelligence        edit 
+Artificial Swarm Intelligence  ASI  is method of amplifying the collective intelligence of networked human groups using control algorithms modeled after natural swarms  Sometimes referred to as Human Swarming or Swarm AI  the technology connects groups of human participants into real time systems that deliberate and converge on solutions as dynamic swarms when simultaneously presented with a question                                      ASI has been used for a wide range of applications  from enabling business teams to generate highly accurate financial forecasts             to enabling sports fans to outperform Vegas betting markets              ASI has also been used to enable groups of doctors to generate diagnoses with significantly higher accuracy than traditional methods                          ASI has been used by the Food and Agriculture Organization  FAO  of the United Nations to help forecast famines in hotspots around the world                  better      source      needed     
+
+Applications edit 
+Swarm Intelligence based techniques can be used in a number of applications   The U S  military is investigating swarm techniques for controlling unmanned vehicles  The European Space Agency is thinking about an orbital swarm for self assembly and interferometry  NASA is investigating the use of swarm technology for planetary mapping   A      paper by M  Anthony Lewis and George A  Bekey discusses the possibility of using swarm intelligence to control nanobots within the body for the purpose of killing cancer tumors              Conversely al Rifaie and Aber have used stochastic diffusion search to help locate tumours                          Swarm intelligence  SI  is increasingly applied in Internet of Things  IoT                          systems  and by association to Intent Based Networking  IBN               due to its ability to handle complex  distributed tasks through decentralized  self organizing algorithms  Swarm intelligence has also been applied for data mining             and cluster analysis              Ant based models are further subject of modern management theory             
+
+Ant based routing edit 
+The use of swarm intelligence in telecommunication networks has also been researched  in the form of ant based routing  This was pioneered separately by Dorigo et al  and Hewlett Packard in the mid     s  with a number of variants existing  Basically  this uses a probabilistic routing table rewarding reinforcing the route successfully traversed by each  ant   a small control packet  which flood the network  Reinforcement of the route in the forwards  reverse direction and both simultaneously have been researched  backwards reinforcement requires a symmetric network and couples the two directions together  forwards reinforcement rewards a route before the outcome is known  but then one would pay for the cinema before one knows how good the film is   As the system behaves stochastically and is therefore lacking repeatability  there are large hurdles to commercial deployment  Mobile media and new technologies have the potential to change the threshold for collective action due to swarm intelligence  Rheingold        P     
+The location of transmission infrastructure for wireless communication networks is an important engineering problem involving competing objectives  A minimal selection of locations  or sites  are required subject to providing adequate area coverage for users  A very different  ant inspired swarm intelligence algorithm  stochastic diffusion search  SDS   has been successfully used to provide a general model for this problem  related to circle packing and set covering  It has been shown that the SDS can be applied to identify suitable solutions even for large problem instances             
+Airlines have also used ant based routing in assigning aircraft arrivals to airport gates  At Southwest Airlines a software program uses swarm theory  or swarm intelligence the idea that a colony of ants works better than one alone  Each pilot acts like an ant searching for the best airport gate   The pilot learns from his experience what s the best for him  and it turns out that that s the best solution for the airline   Douglas A  Lawson explains  As a result  the  colony  of pilots always go to gates they can arrive at and depart from quickly  The program can even alert a pilot of plane back ups before they happen   We can anticipate that it s going to happen  so we ll have a gate available   Lawson says             
+
+Crowd simulation edit 
+Artists are using swarm technology as a means of creating complex interactive systems or simulating crowds      citation needed     
+
+Instances edit 
+The Lord of the Rings film trilogy made use of similar technology  known as Massive  software   during battle scenes  Swarm technology is particularly attractive because it is cheap  robust  and simple 
+Stanley and Stella in  Breaking the Ice was the first movie to make use of swarm technology for rendering  realistically depicting the movements of groups of fish and birds using the Boids system      citation needed     
+Tim Burton s Batman Returns also made use of swarm technology for showing the movements of a group of bats 
+            
+Airlines have used swarm theory to simulate passengers boarding a plane  Southwest Airlines researcher Douglas A  Lawson used an ant based computer simulation employing only six interaction rules to evaluate boarding times using various boarding methods  Miller        xii xviii              
+
+Human swarming edit 
+Networks of distributed users can be organized into  human swarms  through the implementation of real time closed loop control systems                          Developed by Louis Rosenberg in            human swarming  also called artificial swarm intelligence  allows the collective intelligence of interconnected groups of people online to be harnessed                          The collective intelligence of the group often exceeds the abilities of any one member of the group              
+Stanford University School of Medicine published in      a study showing that groups of human doctors  when connected together by real time swarming algorithms  could diagnose medical conditions with substantially higher accuracy than individual doctors or groups of doctors working together using traditional crowd sourcing methods   In one such study  swarms of human radiologists connected together were tasked with diagnosing chest x rays and demonstrated a     reduction in diagnostic errors as compared to the traditional human methods  and a     improvement over traditional machine learning                                                  
+The University of California San Francisco  UCSF  School of Medicine released a preprint in      about the diagnosis of MRI images by small groups of collaborating doctors  The study showed a     increase in diagnostic accuracy when using Artificial Swarm Intelligence  ASI  technology compared to majority voting                         
+
+Swarm grammars edit 
+Swarm grammars are swarms of stochastic grammars that can be evolved to describe complex properties such as found in art and architecture              These grammars interact as agents behaving according to rules of swarm intelligence  Such behavior can also suggest deep learning algorithms  in particular when mapping of such swarms to neural circuits is considered             
+
+Swarmic art edit 
+In a series of works  al Rifaie et al              have successfully used two swarm intelligence algorithms one mimicking the behaviour of one species of ants  Leptothorax acervorum  foraging  stochastic diffusion search  SDS  and the other algorithm mimicking the behaviour of birds flocking  particle swarm optimization  PSO  to describe a novel integration strategy exploiting the local search properties of the PSO with global SDS behaviour  The resulting hybrid algorithm is used to sketch novel drawings of an input image  exploiting an artistic tension between the local behaviour of the  birds flocking  as they seek to follow the input sketch and the global behaviour of the  ants foraging  as they seek to encourage the flock to explore novel regions of the canvas  The  creativity  of this hybrid swarm system has been analysed under the philosophical light of the  rhizome  in the context of Deleuze s  Orchid and Wasp  metaphor             
+A more recent work of al Rifaie et al    Swarmic Sketches and Attention Mechanism               introduces a novel approach deploying the mechanism of  attention  by adapting SDS to selectively attend to detailed areas of a digital canvas  Once the attention of the swarm is drawn to a certain line within the canvas  the capability of PSO is used to produce a  swarmic sketch  of the attended line  The swarms move throughout the digital canvas in an attempt to satisfy their dynamic roles attention to areas with more details associated with them via their fitness function  Having associated the rendering process with the concepts of attention  the performance of the participating swarms creates a unique  non identical sketch each time the  artist  swarms embark on interpreting the input line drawings  In other works  while PSO is responsible for the sketching process  SDS controls the attention of the swarm 
+In a similar work   Swarmic Paintings and Colour Attention               non photorealistic images are produced using SDS algorithm which  in the context of this work  is responsible for colour attention 
+The  computational creativity  of the above mentioned systems are discussed in                                     through the two prerequisites of creativity  i e  freedom and constraints  within the swarm intelligence s two infamous phases of exploration and exploitation 
+Michael Theodore and Nikolaus Correll use swarm intelligent art installation to explore what it takes to have engineered systems to appear lifelike             
+
+Notable researchers edit 
+
+Maurice Clerc  mathematician 
+Nikolaus Correll
+Marco Dorigo
+Russell C  Eberhart
+Luca Maria Gambardella
+James Kennedy
+Alcherio Martinoli
+Craig Reynolds
+Magnus Egerstedt
+P  N  Suganthan
+
+See also edit 
+
+Artificial immune systems
+Collaborative intelligence
+Collective effervescence
+Group mind  science fiction 
+Cellular automaton
+Complex systems
+Differential evolution
+Dispersive flies optimisation
+Distributed artificial intelligence
+Evolutionary computation
+Global brain
+Harmony search
+Language
+Multi agent system
+Myrmecology
+Promise theory
+Quorum sensing
+Population protocol
+Reinforcement learning
+Rule    
+Self organized criticality
+Spiral optimization algorithm
+Stochastic optimization
+Swarm Development Group
+Swarm robotic platforms
+Swarming
+SwisTrack
+Symmetry breaking of escaping ants
+The Wisdom of Crowds
+Wisdom of the crowd
+
+References edit 
+
+
+  Beni  G   Wang  J           Swarm Intelligence in Cellular Robotic Systems   Proceed  NATO Advanced Workshop on Robots and Biological Systems  Tuscany  Italy  June               Berlin  Heidelberg  Springer  pp                doi                               ISBN                        
+
+  Beni  G           The concept of cellular robotic system   Proceedings IEEE International Symposium on Intelligent Control       IEEE  pp              doi         ISIC             ISBN                        
+
+  Hu  J   Turgut  A   Krajnik  T   Lennox  B   Arvin  F    Occlusion Based Coordination Protocol Design for Autonomous Robotic Shepherding Tasks  IEEE Transactions on Cognitive and Developmental Systems       
+
+  Gad  Ahmed G                 Particle Swarm Optimization Algorithm and Its Applications  A Systematic Review   Archives of Computational Methods in Engineering                     doi         s                   ISSN                
+
+  Hu  J   Bhowmick  P   Jang  I    Arvin  F   Lanzon  A    A Decentralized Cluster Formation Containment Framework for Multirobot Systems  IEEE Transactions on Robotics       
+
+  Sol  R  Rodriguez Amor D  Duran Nebreda S  Conde Pueyo N  Carbonell Ballestero M  Monta ez R  October         Synthetic Collective Intelligence   BioSystems              Bibcode     BiSys         S  doi         j biosystems              hdl              PMID               
+
+  a b Reynolds  Craig          Flocks  herds and schools  A distributed behavioral model   Proceedings of the   th annual conference on Computer graphics and interactive techniques  Association for Computing Machinery  pp              CiteSeerX                       doi                      ISBN                         S CID             
+
+  Banks  Alec  Vincent  Jonathan  Anyakoha  Chukwudi  July         A review of particle swarm optimization  Part I  background and development   Natural Computing                  CiteSeerX                       doi         s                  S CID              
+
+  Vicsek  T   Czirok  A   Ben Jacob  E   Cohen  I   Shochet  O           Novel type of phase transition in a system of self driven particles   Physical Review Letters                     arXiv cond mat          Bibcode     PhRvL         V  doi         PhysRevLett          PMID                S CID               
+
+  Czir k  A   Vicsek  T           Collective behavior of interacting self propelled particles   Physica A                  arXiv cond mat          Bibcode     PhyA          C  doi         S                      S CID               
+
+  Buhl  J   Sumpter  D J T   Couzin  D   Hale  J J   Despland  E   Miller  E R   Simpson  S J   et      al           From disorder to order in marching locusts   PDF   Science                         Bibcode     Sci           B  doi         science          PMID                S CID              Archived from the original  PDF  on             Retrieved            
+
+  Toner  J   Tu  Y   Ramaswamy  S           Hydrodynamics and phases of flocks   PDF   Annals of Physics                    Bibcode     AnPhy         T  doi         j aop              Archived from the original  PDF  on             Retrieved            
+
+  Bertin  E   Droz  M   Gr goire  G           Hydrodynamic equations for self propelled particles  microscopic derivation and stability analysis   J  Phys  A                   arXiv            Bibcode     JPhA     R    B  doi                                 S CID               
+
+  Li  Y X   Lukeman  R   Edelstein Keshet  L   et      al           Minimal mechanisms for school formation in self propelled particles   PDF   Physica D  Nonlinear Phenomena                    Bibcode     PhyD          L  doi         j physd              Archived from the original  PDF  on            
+
+  Lones  Michael A           Metaheuristics in nature inspired algorithms   Proceedings of the Companion Publication of the      Annual Conference on Genetic and Evolutionary Computation  PDF   pp                  CiteSeerX                       doi                          ISBN                     S CID               
+
+  S rensen  Kenneth  January         Metaheuristics the metaphor exposed   International Transactions in Operational Research                doi         itor        ISSN                
+
+  Glover  Fred  S rensen  Kenneth          Metaheuristics   Scholarpedia                doi         scholarpedia       ISSN                
+
+  Swan  Jerry  Adriaensen  Steven  Bishr  Mohamed  Burke  Edmund K   Clark  John A   De Causmaecke  Patrick  Durillo  Juan Jos   Hammond  Kevin  Hart  Emma  Johnson  Colin G   Kocsis  Zoltan A   Kovitz  Ben  Krawiec  Krzysztof  Martin  Simon  Merelo  Juan J   Minku  Leandro L    zcan  Ender  Pappa  Gisele Lobo  Pesch  Erwin  Garc a S nchez  Pablo  Schaerf  Andrea  Sim  Kevin  Smith  Jim  St tzle  Thomas  Wagner  Stefan          A Research Agenda for Metaheuristic Standardization   PDF   Semantic Scholar  S CID                Retrieved            
+
+  a b Silberholz  John  Golden  Bruce  Gupta  Swati  Wang  Xingyin         Gendreau  Michel  Potvin  Jean Yves  eds     Computational Comparison of Metaheuristics   Handbook of Metaheuristics  International Series in Operations Research  amp  Management Science  Cham  Springer International Publishing  pp                doi                               ISBN                         S CID              
+
+  Burke  Edmund  De Causmaecker  Patrick  Petrovic  Sanja  Berghe  Greet Vanden         Resende  Mauricio G  C   de Sousa  Jorge Pinho  eds     Variable Neighborhood Search for Nurse Rostering Problems   Metaheuristics  Computer Decision Making  Applied Optimization  Boston  MA  Springer US  pp                doi                              ISBN                       
+
+  Fu  Michael C                 Feature Article  Optimization for simulation  Theory vs  Practice   INFORMS Journal on Computing                   doi         ijoc               ISSN                
+
+  Dorigo  Marco  Birattari  Mauro  Stutzle  Thomas  November         Ant colony optimization   IEEE Computational Intelligence Magazine                doi         MCI              ISSN              X 
+
+  Hayes RothFrederick                Review of  Adaptation in Natural and Artificial Systems by John H  Holland   The U  of Michigan Press         ACM SIGART Bulletin           doi                          S CID               
+
+  Resende  Mauricio G C   Ribeiro  Celso C          Gendreau  Michel  Potvin  Jean Yves  eds     Greedy Randomized Adaptive Search Procedures  Advances  Hybridizations  and Applications   Handbook of Metaheuristics  International Series in Operations Research  amp  Management Science  Boston  MA  Springer US  pp                doi                               ISBN                       
+
+  Kudeli   Robert  Ivkovi   Nikola                Ant inspired Monte Carlo algorithm for minimum feedback arc set   Expert Systems with Applications                doi         j eswa              ISSN                 S CID               
+
+  Ant Colony Optimization by Marco Dorigo and Thomas St tzle  MIT Press        ISBN                   
+
+  Parsopoulos  K  E   Vrahatis  M  N           Recent Approaches to Global Optimization Problems Through Particle Swarm Optimization   Natural Computing                    doi         A                S CID              
+
+  Particle Swarm Optimization by Maurice Clerc  ISTE  ISBN                          
+
+  Rosenberg  Louis                Human Swarms  a real time method for collective intelligence                          Vol           pp                doi                           ch     ISBN                    
+
+  Rosenberg  Louis  Willcox  Gregg          Artificial Swarm Intelligence   In Bi  Yaxin  Bhatia  Rahul  Kapoor  Supriya  eds    Intelligent Systems and Applications  Advances in Intelligent Systems and Computing  Vol             Springer International Publishing  pp                  doi                               ISBN                     S CID                
+
+  Metcalf  Lynn  Askay  David A   Rosenberg  Louis B           Keeping Humans in the Loop  Pooling Knowledge through Artificial Swarm Intelligence to Improve Business Decision Making   California Management Review                  doi                           ISSN                 S CID                
+
+  Schumann  Hans  Willcox  Gregg  Rosenberg  Louis  Pescetelli  Niccolo           Human Swarming  Amplifies Accuracy and ROI when Forecasting Financial Markets        IEEE International Conference on Humanized Computing and Communication  HCC   pp              doi         HCC                  ISBN                         S CID                
+
+  Bayern  Macy  September            How AI systems beat Vegas oddsmakers in sports forecasting accuracy   TechRepublic  Retrieved            
+
+  a b Scudellari  Megan                AI Human  Hive Mind  Diagnoses Pneumonia   IEEE Spectrum  Technology  Engineering  and Science News  Retrieved            
+
+  a b Rosenberg  Louis  Lungren  Matthew  Halabi  Safwan  Willcox  Gregg  Baltaxe  David  Lyons  Mimi  November         Artificial Swarm Intelligence employed to Amplify Diagnostic Accuracy in Radiology        IEEE  th Annual Information Technology  Electronics and Mobile Communication Conference  IEMCON   Vancouver  BC  IEEE  pp                  doi         IEMCON               ISBN                     S CID               
+
+  Rosenberg  Louis  October             Swarm intelligence  AI inspired by honeybees can help us make better decisions   Big Think 
+
+  Lewis  M  Anthony  Bekey  George A   The Behavioral Self Organization of Nanorobots Using Local Rules   Proceedings of the      IEEE RSJ International Conference on Intelligent Robots and Systems 
+
+  al Rifaie  M M   Aber  A   Identifying metastasis in bone scans with Stochastic Diffusion Search   Proc  IEEE Information Technology in Medicine and Education  ITME                
+
+  al Rifaie  Mohammad Majid  Ahmed Aber  and Ahmed Majid Oudah   Utilising Stochastic Diffusion Search to identify metastasis in bone scans and microcalcifications on mammographs     dead link        In Bioinformatics and Biomedicine Workshops  BIBMW        IEEE International Conference on  pp           IEEE       
+
+  Sun  Weifeng  Tang  Min  Zhang  Lijun  Huo  Zhiqiang  Shu  Lei  January         A Survey of Using Swarm Intelligence Algorithms in IoT   Sensors                Bibcode     Senso         S  doi         s          ISSN                 PMC               PMID               
+
+  Abualigah  Laith  Falcone  Deborah  Forestiero  Agostino                Swarm Intelligence to Face IoT Challenges   Computational Intelligence and Neuroscience                 doi                       ISSN                 PMC                PMID               
+
+   Intent Based Networking for the Internet of Things   Frontiers Research Topic   www frontiersin org  Retrieved            
+
+  Martens  D   Baesens  B   Fawcett  T           Editorial Survey  Swarm Intelligence for Data Mining   Machine Learning                doi         s                 
+
+  Thrun  M   Ultsch  A           Swarm Intelligence for Self Organized Clustering   Artificial Intelligence               arXiv             doi         j artint              S CID                
+
+  Fladerer  Johannes Paul  Kurzmann  Ernst  November        THE WISDOM OF THE MANY        how to create self  organisation and how to use collective    intelligence in companies and in society from mana  BOOKS ON DEMAND  ISBN                    
+
+  Whitaker  R M   Hurley  S   An agent based approach to site selection for wireless networks  Proc ACM Symposium on Applied Computing  pp                  
+
+   Planes  Trains and Ant Hills  Computer scientists simulate activity of ants to reduce airline delays   Science Daily  April          Archived from the original on November           Retrieved December         
+
+  Mahant  Manish  Singh Rathore  Kalyani  Kesharwani  Abhishek  Choudhary  Bharat          A Profound Survey on Swarm Intelligence   International Journal of Advanced Computer Research         Retrieved   October      
+
+  Miller  Peter         The Smart Swarm  How understanding flocks  schools  and colonies can make us better at communicating  decision making  and getting things done  New York  Avery  ISBN                        
+
+  Oxenham  Simon     December         Why bees could be the secret to superhuman intelligence   Retrieved            
+
+  Rosenberg  L   Pescetelli  N   Willcox  G   October         Artificial Swarm Intelligence amplifies accuracy when predicting financial markets        IEEE  th Annual Ubiquitous Computing  Electronics and Mobile Communication Conference  UEMCON   pp              doi         UEMCON               ISBN                         S CID               
+
+   Smarter as a group  How swarm intelligence picked Derby winners   Christian Science Monitor 
+
+   AI startup taps human  swarm  intelligence to predict winners   CNET 
+
+  Rosenberg  Louis                Artificial Swarm Intelligence  a human in the loop approach to A I   Proceedings of the Thirtieth AAAI Conference on Artificial Intelligence  AAAI     Phoenix  Arizona  AAAI Press            
+
+   Unanimous AI achieves     more accurate pneumonia diagnoses   VentureBeat              Retrieved            
+
+   A Swarm of Insight   Radiology Today Magazine   www radiologytoday net  Retrieved            
+
+  Shah  Rutwik  Astuto  Bruno  Gleason  Tyler  Fletcher  Will  Banaga  Justin  Sweetwood  Kevin  Ye  Allen  Patel  Rina  McGill  Kevin  Link  Thomas  Crane  Jason                Utilizing a digital swarm intelligence platform to improve consensus among radiologists and exploring its applications   arXiv             cs HC  
+
+  Shah  Rutwik  Astuto Arouche Nunes  Bruno  Gleason  Tyler  Fletcher  Will  Banaga  Justin  Sweetwood  Kevin  Ye  Allen  Patel  Rina  McGill  Kevin  Link  Thomas  Crane  Jason  Pedoia  Valentina  Majumdar  Sharmila  April            Utilizing a Digital Swarm Intelligence Platform to Improve Consensus Among Radiologists and Exploring Its Applications   Journal of Digital Imaging                   doi         s                   PMC                PMID               
+
+  vonMammen  Sebastian  Jacob  Christian          The evolution of swarm grammars    growing trees  crafting art and bottom up design   IEEE Computational Intelligence Magazine                CiteSeerX                       doi         MCI              S CID               
+
+  du Castel  Bertrand     July         Pattern Activation Recognition Theory of Mind   Frontiers in Computational Neuroscience              doi         fncom             PMC               PMID               
+
+  a b al Rifaie  MM  Bishop  J M   Caines  S           Creativity and Autonomy in Swarm Intelligence Systems   PDF   Cognitive Computation                  doi         s               y  S CID             
+
+  Deleuze G  Guattari F  Massumi B  A thousand plateaus  Minneapolis  University of Minnesota Press       
+
+  Al Rifaie  Mohammad Majid  Bishop  John Mark          Swarmic Sketches and Attention Mechanism   PDF   Evolutionary and Biologically Inspired Music  Sound  Art and Design  PDF   Lecture Notes in Computer Science  Vol             pp              doi                              ISBN                        
+
+  Al Rifaie  Mohammad Majid  Bishop  John Mark          Swarmic Paintings and Colour Attention   PDF   Evolutionary and Biologically Inspired Music  Sound  Art and Design  PDF   Lecture Notes in Computer Science  Vol             pp               doi                              ISBN                        
+
+  al Rifaie  Mohammad Majid  Mark JM Bishop  and Ahmed Aber   Creative or Not  Birds and Ants Draw with Muscle   Proceedings of AISB    Computing and Philosophy               
+
+  al Rifaie MM  Bishop M        Swarm intelligence and weak artificial creativity Archived            at the Wayback Machine  In  The Association for the Advancement of Artificial Intelligence  AAAI        Spring Symposium  Stanford University  Palo Alto  California  U S A   pp      
+
+   Correll lab   Correll lab 
+
+
+Further reading edit 
+Bonabeau  Eric  Dorigo  Marco  Theraulaz  Guy         Swarm Intelligence  From Natural to Artificial Systems  Oup USA  ISBN                        
+Kennedy  James  Eberhart  Russell C                Swarm Intelligence  Morgan Kaufmann  ISBN                        
+Engelbrecht  Andries               Fundamentals of Computational Swarm Intelligence  Wiley  amp  Sons  ISBN                        
+External links edit 
+
+
+Swarm Intelligence  at Wikipedia s sister projects
+
+Definitions from WiktionaryMedia from CommonsNews from WikinewsQuotations from WikiquoteTexts from WikisourceTextbooks from WikibooksResources from Wikiversity
+
+Marco Dorigo and Mauro Birattari          Swarm intelligence  in Scholarpedia
+Antoinette Brown   Swarm Intelligence
+vteAnimal cognitionCognition
+Animal communication
+Animal consciousness
+Animal language
+Cognitive bias in animals
+Cognitive ethology
+Comparative cognition
+Emotion in animals
+Insect
+Mirror test
+Neuroethology
+Observational learning
+Primate archaeology
+Tool use by non humans
+sea otters
+Vocal learning
+Intelligence
+Bird
+Pigeon
+talking
+Cat
+Cephalopod
+Cetacean
+Dog
+Elephant
+Fish
+Primate
+Hominid
+Swarm
+Pain
+Pain in amphibians
+Pain in animals
+Pain in cephalopods
+Pain in crustaceans
+Pain in fish
+Pain in invertebrates
+Relation to brain
+Brain size
+Brain to body mass ratio
+Encephalization quotient
+Neuroscience and intelligence
+Number of neurons
+
+ Category
+
+vteSwarmingBiological swarming
+Agent based model in biology
+Collective animal behavior
+Droving
+Flock
+flocking
+sort sol
+Herd
+herd behavior
+Locust
+Mixed species foraging flock
+Mobbing behavior
+feeding frenzy
+Pack
+pack hunter
+Patterns of self organization in ants
+ant mill
+symmetry breaking of escaping ants
+Shoaling and schooling
+bait ball
+Swarming behaviour
+Swarming  honey bee 
+Swarming motility
+Animal migration
+Animal migration
+altitudinal
+tracking
+history
+coded wire tag
+Bird migration
+flyways
+reverse migration
+Cell migration
+Fish migration
+diel vertical
+Lessepsian
+salmon run
+sardine run
+Homing
+natal
+philopatry
+Insect migration
+butterflies
+monarch
+Sea turtle migration
+Swarm algorithms
+Agent based models
+Ant colony optimization
+Boids
+Crowd simulation
+Particle swarm optimization
+Swarm intelligence
+Swarm  simulation 
+Collective motion
+Active matter
+Collective motion
+Self propelled particles
+clustering
+Vicsek model
+BIO LGCA
+Swarm robotics
+Ant robotics
+Microbotics
+Nanorobotics
+Swarm robotics
+Symbrion
+Related topics
+Allee effect
+Animal navigation
+Collective intelligence
+Decentralised system
+Eusociality
+Group size measures
+Microbial intelligence
+Mutualism
+Predator satiation
+Quorum sensing
+Spatial organization
+Stigmergy
+Military swarming
+Task allocation and partitioning of social insects
+
+vteOptimization  Algorithms  methods  and heuristicsUnconstrained nonlinearFunctions
+Golden section search
+Powell s method
+Line search
+Nelder Mead method
+Successive parabolic interpolation
+GradientsConvergence
+Trust region
+Wolfe conditions
+Quasi Newton
+Berndt Hall Hall Hausman
+Broyden Fletcher Goldfarb Shanno and L BFGS
+Davidon Fletcher Powell
+Symmetric rank one  SR  
+Other methods
+Conjugate gradient
+Gauss Newton
+Gradient
+Mirror
+Levenberg Marquardt
+Powell s dog leg method
+Truncated Newton
+Hessians
+Newton s method
+Optimization computes maxima and minima Constrained nonlinearGeneral
+Barrier methods
+Penalty methods
+Differentiable
+Augmented Lagrangian methods
+Sequential quadratic programming
+Successive linear programming
+Convex optimizationConvex minimization
+Cutting plane method
+Reduced gradient  Frank Wolfe 
+Subgradient method
+Linear andquadraticInterior point
+Affine scaling
+Ellipsoid algorithm of Khachiyan
+Projective algorithm of Karmarkar
+Basis exchange
+Simplex algorithm of Dantzig
+Revised simplex algorithm
+Criss cross algorithm
+Principal pivoting algorithm of Lemke
+Active set method
+CombinatorialParadigms
+Approximation algorithm
+Dynamic programming
+Greedy algorithm
+Integer programming
+Branch and bound cut
+Graph algorithmsMinimum spanning tree
+Bor vka
+Prim
+Kruskal
+
+    Shortest path
+Bellman Ford
+SPFA
+Dijkstra
+Floyd Warshall
+Network flows
+Dinic
+Edmonds Karp
+Ford Fulkerson
+Push relabel maximum flow
+Metaheuristics
+Evolutionary algorithm
+Hill climbing
+Local search
+Parallel metaheuristics
+Simulated annealing
+Spiral optimization algorithm
+Tabu search
+
+Software
+
+Authority control databases  National GermanyUnited StatesCzech RepublicIsrael
+
+
+
+
+
+Retrieved from  https   en wikipedia org w index php title Swarm intelligence amp oldid

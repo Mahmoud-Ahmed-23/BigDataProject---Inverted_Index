@@ -1,0 +1,714 @@
+Machine learning technique
+Illustration of transfer learning
+Part of a series onMachine learningand data mining
+Paradigms
+Supervised learning
+Unsupervised learning
+Semi supervised learning
+Self supervised learning
+Reinforcement learning
+Meta learning
+Online learning
+Batch learning
+Curriculum learning
+Rule based learning
+Neuro symbolic AI
+Neuromorphic engineering
+Quantum machine learning
+
+Problems
+Classification
+Generative modeling
+Regression
+Clustering
+Dimensionality reduction
+Density estimation
+Anomaly detection
+Data cleaning
+AutoML
+Association rules
+Semantic analysis
+Structured prediction
+Feature engineering
+Feature learning
+Learning to rank
+Grammar induction
+Ontology learning
+Multimodal learning
+
+Supervised learning classification                  regression  
+Apprenticeship learning
+Decision trees
+Ensembles
+Bagging
+Boosting
+Random forest
+k NN
+Linear regression
+Naive Bayes
+Artificial neural networks
+Logistic regression
+Perceptron
+Relevance vector machine  RVM 
+Support vector machine  SVM 
+
+Clustering
+BIRCH
+CURE
+Hierarchical
+k means
+Fuzzy
+Expectation maximization  EM 
+DBSCAN
+OPTICS
+Mean shift
+
+Dimensionality reduction
+Factor analysis
+CCA
+ICA
+LDA
+NMF
+PCA
+PGD
+t SNE
+SDL
+
+Structured prediction
+Graphical models
+Bayes net
+Conditional random field
+Hidden Markov
+
+Anomaly detection
+RANSAC
+k NN
+Local outlier factor
+Isolation forest
+
+Artificial neural network
+Autoencoder
+Deep learning
+Feedforward neural network
+Recurrent neural network
+LSTM
+GRU
+ESN
+reservoir computing
+Boltzmann machine
+Restricted
+GAN
+Diffusion model
+SOM
+Convolutional neural network
+U Net
+LeNet
+AlexNet
+DeepDream
+Neural radiance field
+Transformer
+Vision
+Mamba
+Spiking neural network
+Memtransistor
+Electrochemical RAM  ECRAM 
+
+Reinforcement learning
+Q learning
+SARSA
+Temporal difference  TD 
+Multi agent
+Self play
+
+Learning with humans
+Active learning
+Crowdsourcing
+Human in the loop
+RLHF
+
+Model diagnostics
+Coefficient of determination
+Confusion matrix
+Learning curve
+ROC curve
+
+Mathematical foundations
+Kernel machines
+Bias variance tradeoff
+Computational learning theory
+Empirical risk minimization
+Occam learning
+PAC learning
+Statistical learning
+VC theory
+Topological deep learning
+
+Journals and conferences
+ECML PKDD
+NeurIPS
+ICML
+ICLR
+IJCAI
+ML
+JMLR
+
+Related articles
+Glossary of artificial intelligence
+List of datasets for machine learning research
+List of datasets in computer vision and image processing
+Outline of machine learning
+vte
+Transfer learning  TL  is a technique in machine learning  ML  in which knowledge learned from a task is re used in order to boost performance on a related task             For example  for image classification  knowledge gained while learning to recognize cars could be applied when trying to recognize trucks  This topic is related to the psychological literature on transfer of learning  although practical ties between the two fields are limited  Reusing transferring information from previously learned tasks to new tasks has the potential to significantly improve learning efficiency            
+Since transfer learning makes use of training with multiple objective functions it is related to cost sensitive machine learning and multi objective optimization            
+
+
+History edit 
+In       Bozinovski and Fulgosi published a paper addressing transfer learning in neural network training                        The paper gives a mathematical and geometrical model of the topic  In       a report considered the application of transfer learning to a dataset of images representing letters of computer terminals  experimentally demonstrating positive and negative transfer learning            
+In       Lorien Pratt formulated the discriminability based transfer  DBT  algorithm            
+By       the field had advanced to include multi task learning             along with more formal theoretical foundations             Influential publications on transfer learning include the book Learning to Learn in                   a      survey             and a      survey             
+Ng said in his NIPS      tutorial                         that TL would become the next driver of machine learning commercial success after supervised learning 
+In the      paper   Rethinking Pre Training and self training               Zoph et al  reported that pre training can hurt accuracy  and advocate self training instead 
+
+Definition edit 
+The definition of transfer learning is given in terms of domains and tasks  A domain 
+  
+    
+      
+        
+          
+            D
+          
+        
+      
+    
+      displaystyle   mathcal  D   
+  
+ consists of  a feature space 
+  
+    
+      
+        
+          
+            X
+          
+        
+      
+    
+      displaystyle   mathcal  X   
+  
+ and a marginal probability distribution 
+  
+    
+      
+        P
+         
+        X
+         
+      
+    
+      displaystyle P X  
+  
+  where 
+  
+    
+      
+        X
+         
+         
+        
+          x
+          
+             
+          
+        
+         
+         
+         
+         
+         
+        
+          x
+          
+            n
+          
+        
+         
+          x     
+        
+          
+            X
+          
+        
+      
+    
+      displaystyle X   x         x  n    in   mathcal  X   
+  
+  Given a specific domain  
+  
+    
+      
+        
+          
+            D
+          
+        
+         
+         
+        
+          
+            X
+          
+        
+         
+        P
+         
+        X
+         
+         
+      
+    
+      displaystyle   mathcal  D       mathcal  X   P X    
+  
+  a task consists of two components  a label space 
+  
+    
+      
+        
+          
+            Y
+          
+        
+      
+    
+      displaystyle   mathcal  Y   
+  
+ and an objective predictive function 
+  
+    
+      
+        f
+         
+        
+          
+            X
+          
+        
+          x     
+        
+          
+            Y
+          
+        
+      
+    
+      displaystyle f   mathcal  X   rightarrow   mathcal  Y   
+  
+  The function 
+  
+    
+      
+        f
+      
+    
+      displaystyle f 
+  
+ is used to predict the corresponding label 
+  
+    
+      
+        f
+         
+        x
+         
+      
+    
+      displaystyle f x  
+  
+ of a new instance 
+  
+    
+      
+        x
+      
+    
+      displaystyle x 
+  
+  This task  denoted by 
+  
+    
+      
+        
+          
+            T
+          
+        
+         
+         
+        
+          
+            Y
+          
+        
+         
+        f
+         
+        x
+         
+         
+      
+    
+      displaystyle   mathcal  T       mathcal  Y   f x    
+  
+  is learned from the training data consisting of pairs 
+  
+    
+      
+         
+        
+          x
+          
+            i
+          
+        
+         
+        
+          y
+          
+            i
+          
+        
+         
+      
+    
+      displaystyle   x  i  y  i    
+  
+  where 
+  
+    
+      
+        
+          x
+          
+            i
+          
+        
+          x     
+        
+          
+            X
+          
+        
+      
+    
+      displaystyle x  i  in   mathcal  X   
+  
+ and 
+  
+    
+      
+        
+          y
+          
+            i
+          
+        
+          x     
+        
+          
+            Y
+          
+        
+      
+    
+      displaystyle y  i  in   mathcal  Y   
+  
+             
+Given a source domain 
+  
+    
+      
+        
+          
+            
+              D
+            
+          
+          
+            S
+          
+        
+      
+    
+      displaystyle   mathcal  D    S  
+  
+ and learning task 
+  
+    
+      
+        
+          
+            
+              T
+            
+          
+          
+            S
+          
+        
+      
+    
+      displaystyle   mathcal  T    S  
+  
+  a target domain 
+  
+    
+      
+        
+          
+            
+              D
+            
+          
+          
+            T
+          
+        
+      
+    
+      displaystyle   mathcal  D    T  
+  
+and learning task 
+  
+    
+      
+        
+          
+            
+              T
+            
+          
+          
+            T
+          
+        
+      
+    
+      displaystyle   mathcal  T    T  
+  
+  where 
+  
+    
+      
+        
+          
+            
+              D
+            
+          
+          
+            S
+          
+        
+          x     
+        
+          
+            
+              D
+            
+          
+          
+            T
+          
+        
+      
+    
+      displaystyle   mathcal  D    S  neq   mathcal  D    T  
+  
+  or 
+  
+    
+      
+        
+          
+            
+              T
+            
+          
+          
+            S
+          
+        
+          x     
+        
+          
+            
+              T
+            
+          
+          
+            T
+          
+        
+      
+    
+      displaystyle   mathcal  T    S  neq   mathcal  T    T  
+  
+  transfer learning aims to help improve the learning of the target predictive function 
+  
+    
+      
+        
+          f
+          
+            T
+          
+        
+         
+          x  c  
+         
+      
+    
+      displaystyle f  T   cdot   
+  
+ in 
+  
+    
+      
+        
+          
+            
+              D
+            
+          
+          
+            T
+          
+        
+      
+    
+      displaystyle   mathcal  D    T  
+  
+ using the knowledge in 
+  
+    
+      
+        
+          
+            
+              D
+            
+          
+          
+            S
+          
+        
+      
+    
+      displaystyle   mathcal  D    S  
+  
+ and 
+  
+    
+      
+        
+          
+            
+              T
+            
+          
+          
+            S
+          
+        
+      
+    
+      displaystyle   mathcal  T    S  
+  
+             
+
+Applications edit 
+Algorithms are available for transfer learning in Markov logic networks             and Bayesian networks              Transfer learning has been applied to cancer subtype discovery              building utilization                          general game playing              text classification                          digit recognition              medical imaging and spam filtering             
+In       it was discovered that  due to their similar physical natures  transfer learning is possible between electromyographic  EMG  signals from the muscles and classifying the behaviors of electroencephalographic  EEG  brainwaves  from the gesture recognition domain to the mental state recognition domain  It was noted that this relationship worked in both directions  showing that electroencephalographic can likewise be used to classify EMG              The experiments noted that the accuracy of neural networks and convolutional neural networks were improved             through transfer learning both prior to any learning  compared to standard random weight distribution  and at the end of the learning process  asymptote   That is  results are improved by exposure to another domain  Moreover  the end user of a pre trained model can change the structure of fully connected layers to improve performance             
+
+See also edit 
+Crossover  genetic algorithm 
+Domain adaptation
+General game playing
+Multi task learning
+Multitask optimization
+Transfer of learning in educational psychology
+Zero shot learning
+Feature learning
+external validity
+References edit 
+
+
+  West  Jeremy  Ventura  Dan  Warnick  Sean          Spring Research Presentation  A Theoretical Foundation for Inductive Transfer   Brigham Young University  College of Physical and Mathematical Sciences  Archived from the original on             Retrieved            
+
+  George Karimpanal  Thommen  Bouffanais  Roland          Self organizing maps for storage and transfer of knowledge in reinforcement learning   Adaptive Behavior                   arXiv             doi                           ISSN                 S CID               
+
+   Cost Sensitive Machine Learning                    USA       CRC Press  Page     https   books google com books id  TrNBQAAQBAJ amp pg PA  
+
+  Stevo  Bozinovski and Ante Fulgosi          The influence of pattern similarity and transfer learning on the base perceptron training    original in Croatian  Proceedings of Symposium Informatica          Bled 
+
+  Stevo Bozinovski         Reminder of the first paper on transfer learning in neural networks         Informatica             
+
+  S  Bozinovski          Teaching space  A representation concept for adaptive pattern classification   COINS Technical Report  the University of Massachusetts at Amherst  No        available online  UM CS          pdf 
+
+  Pratt  L  Y           Discriminability based transfer between neural networks   PDF   NIPS Conference  Advances in Neural Information Processing Systems    Morgan Kaufmann Publishers  pp               
+
+  Caruana  R    Multitask Learning   pp         in Thrun  amp  Pratt     
+
+  Baxter  J    Theoretical Models of Learning to Learn   pp        Thrun  amp  Pratt     
+
+  Thrun  amp  Pratt      
+
+  Pan  Sinno Jialin  Yang  Qiang          A Survey on Transfer Learning   PDF   IEEE 
+
+  Zhuang  Fuzhen  Qi  Zhiyuan  Duan  Keyu  Xi  Dongbo  Zhu  Yongchun  Zhu  Hengshu  Xiong  Hui  He  Qing          A Comprehensive Survey on Transfer Learning   IEEE  arXiv            
+
+  NIPS      tutorial   Nuts and bolts of building AI applications using Deep Learning  by Andrew Ng    May       archived from the original on             retrieved           
+
+   Nuts and bolts of building AI applications using Deep Learning  slides   PDF  
+
+  Zoph  Barret          Rethinking pre training and self training   PDF   Advances in Neural Information Processing Systems                 arXiv             Retrieved            
+
+  a b Lin  Yuan Pin  Jung  Tzyy Ping     June         Improving EEG Based Emotion Classification Using Conditional Transfer Learning   Frontiers in Human Neuroscience           doi         fnhum             PMC               PMID                 Material was copied from this source  which is available under a Creative Commons Attribution     International License 
+
+  Mihalkova  Lilyana  Huynh  Tuyen  Mooney  Raymond J   July         Mapping and Revising Markov Logic Networks for Transfer   PDF   Learning Proceedings of the   nd AAAI Conference on Artificial Intelligence  AAAI        Vancouver  BC  pp                retrieved             citation     CS  maint  location missing publisher  link 
+
+  Niculescu Mizil  Alexandru  Caruana  Rich  March                Inductive Transfer for Bayesian Network Structure Learning   PDF   Proceedings of the Eleventh International Conference on Artificial Intelligence and Statistics  AISTATS        retrieved           
+
+  Hajiramezanali  E   amp  Dadaneh  S  Z   amp  Karbalayghareh  A   amp  Zhou  Z   amp  Qian  X  Bayesian multi domain learning for cancer subtype discovery from next generation sequencing count data    nd Conference on Neural Information Processing Systems  NeurIPS        Montr al  Canada  arXiv           
+
+  Arief Ang  I B   Salim  F D   Hamilton  M                DA HOC  semi supervised domain adaptation for room occupancy prediction using CO  sensor data   th ACM International Conference on Systems for Energy Efficient Built Environments  BuildSys   Delft  Netherlands  pp             doi                          ISBN                        
+
+  Arief Ang  I B   Hamilton  M   Salim  F D                 A Scalable Room Occupancy Prediction with Transferable Time Series Decomposition of CO  Sensor Data   ACM Transactions on Sensor Networks                        doi                  S CID               
+
+  Banerjee  Bikramjit  and Peter Stone   General Game Learning Using Knowledge Transfer   IJCAI       
+
+  Do  Chuong B   Ng  Andrew Y           Transfer learning for text classification   Neural Information Processing Systems Foundation  NIPS       PDF   Retrieved            
+
+  Rajat  Raina  Ng  Andrew Y   Koller  Daphne          Constructing Informative Priors using Transfer Learning   Twenty third International Conference on Machine Learning  PDF   Retrieved            
+
+  Maitra  D  S   Bhattacharya  U   Parui  S  K   August         CNN based common approach to handwritten character recognition of multiple scripts          th International Conference on Document Analysis and Recognition  ICDAR   pp                  doi         ICDAR               ISBN                         S CID               
+
+  Bickel  Steffen          ECML PKDD Discovery Challenge      Overview   ECML PKDD Discovery Challenge Workshop  PDF   Retrieved            
+
+  Bird  Jordan J   Kobylarz  Jhonatan  Faria  Diego R   Ekart  Aniko  Ribeiro  Eduardo P           Cross Domain MLP and CNN Transfer Learning for Biological Signal Processing  EEG and EMG   IEEE Access     Institute of Electrical and Electronics Engineers  IEEE                Bibcode     IEEEA         B  doi         access               ISSN                
+
+  Maitra  Durjoy Sen  Bhattacharya  Ujjwal  Parui  Swapan K   August         CNN based common approach to handwritten character recognition of multiple scripts          th International Conference on Document Analysis and Recognition  ICDAR   pp                  doi         ICDAR               ISBN                         S CID               
+
+  Kabir  H  M  Dipu  Abdar  Moloud  Jalali  Seyed Mohammad Jafar  Khosravi  Abbas  Atiya  Amir F   Nahavandi  Saeid  Srinivasan  Dipti  January            SpinalNet  Deep Neural Network with Gradual Input   IEEE Transactions on Artificial Intelligence                    arXiv             doi         TAI               S CID                
+
+
+Sources edit 
+Thrun  Sebastian  Pratt  Lorien    December        Learning to Learn  Springer Science  amp  Business Media  ISBN                        
+ This artificial intelligence related article is a stub  You can help Wikipedia by expanding it vte
+
+
+
+
+
+
+Retrieved from  https   en wikipedia org w index php title Transfer learning amp oldid

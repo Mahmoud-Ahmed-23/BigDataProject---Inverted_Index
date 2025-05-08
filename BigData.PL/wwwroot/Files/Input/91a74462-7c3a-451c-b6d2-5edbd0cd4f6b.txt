@@ -1,0 +1,215 @@
+Subarea of robotics
+This article needs to be updated  Please help update this article to reflect recent events or newly available information    August      
+Robotic sensing is a subarea of robotics science intended to provide sensing capabilities to robots  Robotic sensing provides robots with the ability to sense their environments and is typically used as feedback to enable robots to adjust their behavior based on sensed input  Robot sensing includes the ability to see                                   touch                                   hear            and move                                   and associated algorithms to process and make use of environmental feedback and sensory data  Robot sensing is important in applications such as vehicular automation  robotic prosthetics  and for industrial  medical  entertainment and educational robots 
+
+
+Vision edit 
+Main articles  Computer vision and Machine vision
+Method edit 
+Visual sensing systems can be based on a variety of technologies and methods including the use of camera  sonar  laser and radio frequency identification  RFID             technology  All four methods aim for three procedures sensation  estimation  and matching 
+
+Image processing edit 
+Image quality is important in applications that require excellent robotic vision  Algorithms based on wavelet transform that are used for fusing images of different spectra and different foci result in improved image quality             Robots can gather more accurate information from the resulting improved image 
+
+Usage edit 
+Visual sensors help robots to identify the surrounding environment and take appropriate action             Robots analyze the image of the immediate environment based on data input from the visual sensor  The result is compared to the ideal  intermediate or end image  so that appropriate movement or action can be determined to reach the intermediate or final goal 
+
+Touch edit 
+            
+
+Robot skin edit 
+This section is an excerpt from Electronic skin  edit 
+Electronic skin refers to flexible  stretchable and self healing electronics that are able to mimic functionalities of human or animal skin                          The broad class of materials often contain sensing abilities that are intended to reproduce the capabilities of human skin to respond to environmental factors such as changes in heat and pressure                                                 
+Advances in electronic skin research focuses on designing materials that are stretchy  robust  and flexible  Research in the individual fields of flexible electronics and tactile sensing has progressed greatly  however  electronic skin design attempts to bring together advances in many areas of materials research without sacrificing individual benefits from each field              The successful combination of flexible and stretchable mechanical properties with sensors and the ability to self heal would open the door to many possible applications including soft robotics  prosthetics  artificial intelligence and health monitoring                                                 
+
+Recent advances in the field of electronic skin have focused on incorporating green materials ideals and environmental awareness into the design process  As one of the main challenges facing electronic skin development is the ability of the material to withstand mechanical strain and maintain sensing ability or electronic properties  recyclability and self healing properties are especially critical in the future design of new electronic skins             
+Types and examples edit 
+Examples of the current state of progress in the field of robot skins as of mid      are a robotic finger covered in a type of manufactured living human skin                          an electronic skin giving biological skin like haptic sensations and touch pain sensitivity to a robotic hand                          a system of an electronic skin and a human machine interface that can enable remote sensed tactile perception  and wearable or robotic sensing of many hazardous substances and pathogens                          and a  multilayer tactile sensor hydrogel based robot skin                         
+
+Tactile discrimination edit 
+Further information  Tactile sensor
+This section is an excerpt from Tactile discrimination   Robotic tactile discrimination  edit 
+Early robotic prosthetic hand  made in       On open public display at the main shopping mall in Belgrade 
+As robots and prosthetic limbs become more complex the need for sensors capable of detecting touch with high tactile acuity becomes more and more necessary  There are many types of tactile sensors used for different tasks              There are three types of tactile sensors  The first  single point sensors  can be compared to a single cell  or whiskers  and can detect very local stimuli  The second type of sensor is a high spatial resolution sensor which can be compared to a human fingertip and is essential for the tactile acuity in robotic hands  The third and final tactile sensor type is a low spatial resolution sensor which has similar tactile acuity as the skin on one s back or arm              These sensors can be placed meaningfully throughout the surface of a prosthetic or a robot to give it the ability to sense touch in similar  if not better  ways than the human counterpart             
+
+
+Signal processing edit 
+Touch sensory signals can be generated by the robot s own movements  It is important to identify only the external tactile signals for accurate operations  Previous solutions employed the Wiener filter  which relies on the prior knowledge of signal statistics that are assumed to be stationary  Recent solution applies an adaptive filter to the robot s logic             It enables the robot to predict the resulting sensor signals of its internal motions  screening these false signals out  The new method improves contact detection and reduces false interpretation 
+
+Usage edit 
+            
+Touch patterns enable robots to interpret human emotions in interactive applications  Four measurable features force  contact time  repetition  and contact area change can effectively categorize touch patterns through the temporal decision tree classifier to account for the time delay and associate them to human emotions with up to     accuracy             The Consistency Index            is applied at the end to evaluate the level of confidence of the system to prevent inconsistent reactions 
+Robots use touch signals to map the profile of a surface in hostile environment such as a water pipe  Traditionally  a predetermined path was programmed into the robot  Currently  with the integration of touch sensors  the robots first acquire a random data point  the algorithm            of the robot will then determine the ideal position of the next measurement according to a set of predefined geometric primitives  This improves the efficiency by                
+In recent years  using touch as a stimulus for interaction has been the subject of much study  In       the robot seal PARO was built  which reacts to many stimuli from human interaction  including touch  The therapeutic benefits of such human robot interaction is still being studied  but has shown very positive results             
+
+Hearing edit 
+Signal processing edit 
+Accurate audio sensors require low internal noise contribution  Traditionally  audio sensors combine acoustical arrays and microphones to reduce internal noise level  Recent solutions combine also piezoelectric devices             These passive devices use the piezoelectric effect to transform force to voltage  so that the vibration that is causing the internal noise could be eliminated  On average  internal noise up to about  dB can be reduced            
+Robots may interpret strayed noise as speech instructions  Current voice activity detection  VAD  system uses the complex spectrum circle centroid  CSCC  method and a maximum signal to noise ratio  SNR  beamformer              Because humans usually look at their partners when conducting conversations  the VAD system with two microphones enable the robot to locate the instructional speech by comparing the signal strengths of the two microphones  Current system is able to cope with background noise generated by televisions and sounding devices that come from the sides 
+
+Usage edit 
+Robots can perceive emotions through the way we talk and associated characteristics and features  Acoustic and linguistic features are generally used to characterize emotions  The combination of seven acoustic features and four linguistic features improves the recognition performance when compared to using only one set of features             
+
+Acoustic feature edit 
+Duration
+Energy
+Pitch
+Spectrum
+Cepstral
+Voice quality
+Wavelets
+Linguistic feature edit 
+Bag of words
+Part of speech
+Higher semantics
+Varia
+Olfaction edit 
+This section is an excerpt from Machine olfaction  edit 
+Machine olfaction is the automated simulation of the sense of smell  An emerging application in modern engineering  it involves the use of robots or other automated systems to analyze air borne chemicals  Such an apparatus is often called an electronic nose or e nose   The development of machine olfaction is complicated by the fact that e nose devices to date have responded to a limited number of chemicals  whereas odors are produced by unique sets of  potentially numerous  odorant compounds  The technology  though still in the early stages of development  promises many applications  such as             
+quality control in food processing  detection and diagnosis in medicine              detection of drugs  explosives and other dangerous or illegal substances              disaster response  and environmental monitoring 
+
+One type of proposed machine olfaction technology is via gas sensor array instruments capable of detecting  identifying  and measuring volatile compounds  However  a critical element in the development of these instruments is pattern analysis  and the successful design of a pattern analysis system for machine olfaction requires a careful consideration of the various issues involved in processing multivariate data  signal preprocessing  feature extraction  feature selection  classification  regression  clustering  and validation              Another challenge in current research on machine olfaction is the need to predict or estimate the sensor response to aroma mixtures              Some pattern recognition problems in machine olfaction such as odor classification and odor localization can be solved by using time series kernel methods             
+Taste edit 
+This section is an excerpt from Electronic tongue  edit 
+The electronic tongue is an instrument that measures and compares tastes  As per the IUPAC technical report  an  electronic tongue  as analytical instrument including an array of non selective chemical sensors with partial specificity to different solution components and an appropriate pattern recognition instrument  capable to recognize quantitative and qualitative compositions of simple and complex solutions                        
+Chemical compounds responsible for taste are detected by human taste receptors  Similarly  the multi electrode sensors of electronic instruments detect the same dissolved organic and inorganic compounds  Like human receptors  each sensor has a spectrum of reactions different from the other  The information given by each sensor is complementary  and the combination of all sensors  results generates a unique fingerprint  Most of the detection thresholds of sensors are similar to or better than human receptors 
+In the biological mechanism  taste signals are transduced by nerves in the brain into electric signals  E tongue sensors process is similar  they generate electric signals as voltammetric and potentiometric variations 
+
+Taste quality perception and recognition are based on the building or recognition of activated sensory nerve patterns by the brain and the taste fingerprint of the product  This step is achieved by the e tongue s statistical software  which interprets the sensor data into taste patterns 
+For example  robot cooks may be able to taste food for dynamic cooking             
+
+Motion perception edit 
+Robots at the RoboCup     
+Usage edit 
+Automated robots require a guidance system to determine the ideal path to perform its task  However  at the molecular scale  nano robots lack such guidance system because individual molecules cannot store complex motions and programs  Therefore  the only way to achieve motion in such environment is to replace sensors with chemical reactions  Currently  a molecular spider that has one streptavidin molecule as an inert body and three catalytic legs is able to start  follow  turn and stop when came across different DNA origami             The DNA based nano robots can move over          nm with a speed of        nm min            
+In a TSI operation  which is an effective way to identify tumors and potentially cancer by measuring the distributed pressure at the sensor s contacting surface  excessive force may inflict a damage and have the chance of destroying the tissue  The application of robotic control to determine the ideal path of operation can reduce the maximum forces by     and gain a     increase in accuracy            compared to human doctors 
+
+Performance edit 
+Efficient robotic exploration saves time and resources  The efficiency is measured by optimality and competitiveness  Optimal boundary exploration is possible only when a robot has square sensing area  starts at the boundary  and uses the Manhattan metric              In complicated geometries and settings  a square sensing area is more efficient and can achieve better competitiveness regardless of the metric and of the starting point             
+
+Non human senses edit 
+See also  Active sensory systems
+Robots may not only be equipped with higher sensitivity and capabilities per sense than all or most             non cyborg humans such as being able to  see  more of the electromagnetic spectrum such as ultraviolet and with higher fidelity and granularity      additional citation s  needed      but may also be able have more senses     additional citation s  needed      such as sensing of magnetic fields  magnetoreception              or of various hazardous air components             
+
+Collective sensing and sensemaking edit 
+See also  Sensor fusion  Sensemaking  Multi agent system  and Roboethics
+Robots may share              store  and transmit sensory data as well as data based on such  They may learn from or interpret the same or related data in different ways and some robots may have remote senses  e g  without local interpretation or processing or computation such as with common types of telerobotics or with embedded             or mobile  sensor nodes        additional citation s  needed      Processing of sensory data may include processes such as facial recognition              facial expression recognition              gesture recognition and integration of interpretative abstract knowledge      additional citation s  needed     
+
+See also edit 
+Applications of artificial intelligence
+Biosensor
+Human machine system
+Brain computer interface
+Machine perception
+Remote sensing
+Robotic sensors
+Sensor based sorting
+Soft robotics
+Timeline of computing      present
+References edit 
+
+
+  a b Roh SG  Choi HR  Jan           D Tag Based RFID System for Recognition of Object   IEEE Transactions on Automation Science and Engineering              
+
+  a b Arivazhagan S  Ganesan L  Kumar TGS  Jun         A modified statistical approach for image fusion using wavelet transform   Signal Image and Video Processing                
+
+  a b Jafar FA  et al  Mar         An Environmental Visual Features Based Navigation Method for Autonomous Mobile Robots   International Journal of Innovative Computing  Information and Control                  
+
+  a b Anderson S  et al  Dec         Adaptive Cancelation of Self Generated Sensory Signals in a Whisking Robot   IEEE Transactions on Robotics                   
+
+  a b c d Kim YM  et al  Aug        A Robust Online Touch Pattern Recognition for Dynamic Human robot Interaction   IEEE Transactions on Consumer Electronics                   
+
+  a b Mazzini F  et al  Feb         Tactile Robotic Mapping of Unknown Surfaces  with Application to Oil Wells   IEEE Transactions on Instrumentation and Measurement                 
+
+  a b c Matsumoto M  Hashimoto S          Internal Noise Reduction Using Piezoelectric Device under Blind Condition   Internatl  Jan         Searching for the most important feature types signalling emotion related user states in speech   Computer Speech and Language              
+
+  a b c Lund K  et al  May         Molecular robots guided by prescriptive landscapes   Nature                     
+
+  a b Trejos AL  et al  Sep         Robot assisted Tactile Sensing for Minimally Invasive Tumor Localization   International Journal of Robotics Research                   
+
+  a b c Czyzowicz J  Labourel A  Pelc A  Jan         Optimality and Competitiveness of Exploring Polygons by Mobile Robots   Information and Computation                
+
+  Dahiya  Ravinder S   Valle  Maurizio         Robotic Tactile Sensing  Technologies and System  Springer  doi                            ISBN                    
+
+  a b c Benight  Stephanie J   Wang  Chao  Tok  Jeffrey B H   Bao  Zhenan          Stretchable and self healing polymers and devices for electronic skin   Progress in Polymer Science                      doi         j progpolymsci             
+
+  a b dos Santos  Andreia  Fortunato  Elvira  Martins  Rodrigo   guas  Hugo  Igreja  Rui  January         Transduction Mechanisms  Micro Structuring Techniques  and Applications of Electronic Skin Pressure Sensors  A Review of Recent Advances   Sensors                 Bibcode     Senso         D  doi         s          PMC               PMID               
+
+  Chou  Ho Hsiu  Nguyen  Amanda  Chortos  Alex  To  John W  F   Lu  Chien  Mei  Jianguo  Kurosawa  Tadanori  Bae  Won Gyu  Tok  Jeffrey B  H                 A chameleon inspired stretchable electronic skin with interactive colour changing controlled by tactile sensing   Nature Communications           Bibcode     NatCo         C  doi         ncomms      PMC               PMID               
+
+  Hou  Chengyi  Huang  Tao  Wang  Hongzhi  Yu  Hao  Zhang  Qinghong  Li  Yaogang                A strong and stretchable self healing film with self activated pressure sensitivity for potential artificial skin applications   Scientific Reports               Bibcode     NatSR         H  doi         srep       ISSN                 PMC               PMID               
+
+  a b Hammock  Mallory L   Chortos  Alex  Tee  Benjamin C  K   Tok  Jeffrey B  H   Bao  Zhenan                  th Anniversary Article  The Evolution of Electronic Skin  E Skin   A Brief History  Design Considerations  and Recent Progress   Advanced Materials                      Bibcode     AdM           H  doi         adma            ISSN                 PMID                S CID                
+
+  Bauer  Siegfried  Bauer Gogonea  Simona  Graz  Ingrid  Kaltenbrunner  Martin  Keplinger  Christoph  Schw diauer  Reinhard                  th Anniversary Article  A Soft Future  From Robots and Sensor Skin to Energy Harvesters   Advanced Materials                   Bibcode     AdM           B  doi         adma            ISSN                 PMC               PMID               
+
+  Tee  Benjamin C K   Wang  Chao  Allen  Ranulfo  Bao  Zhenan  December         An electrically and mechanically self healing composite with pressure  and flexion sensitive properties for electronic skin applications   Nature Nanotechnology                   Bibcode     NatNa         T  doi         nnano           ISSN                 PMID               
+
+  Zou  Zhanan  Zhu  Chengpu  Li  Yan  Lei  Xingfeng  Zhang  Wei  Xiao  Jianliang                Rehealable  fully recyclable  and malleable electronic skin enabled by dynamic covalent thermoset nanocomposite   Science Advances         eaaq      Bibcode     SciA          Z  doi         sciadv aaq      ISSN                 PMC               PMID               
+
+  Temming  Maria    June         Scientists grew living human skin around a robotic finger   Science News  Retrieved    July      
+
+  Kawai  Michio  Nie  Minghao  Oda  Haruka  Morimoto  Yuya  Takeuchi  Shoji    July         Living skin on a robot   Matter                    doi         j matt              ISSN                
+
+  Barker  Ross  June            Artificial skin capable of feeling pain could lead to new generation of touch sensitive robots   University of Glasgow  Retrieved    July      
+
+  Liu  Fengyuan  Deswal  Sweety  Christou  Adamos  Shojaei Baghini  Mahdieh  Chirila  Radu  Shakthivel  Dhayalan  Chakraborty  Moupali  Dahiya  Ravinder  June         Printed synaptic transistor based electronic skin for robots to feel and learn   PDF   Science Robotics          eabl      doi         scirobotics abl      ISSN                 PMID                S CID                
+
+  Velasco  Emily  June            Artificial skin gives robots sense of touch and beyond   California Institute of Technology  Retrieved    July      
+
+  a b Yu  You  Li  Jiahong  Solomon  Samuel A   Min  Jihong  Tu  Jiaobing  Guo  Wei  Xu  Changhao  Song  Yu  Gao  Wei  June            All printed soft human machine interface for robotic physicochemical sensing   Science Robotics          eabn      doi         scirobotics abn      ISSN                 PMC               PMID               
+
+  Yirka  Bob  June            Biomimetic elastomeric robot skin has tactile sensing abilities   Tech Xplore  Retrieved    July      
+
+  Park  K   Yuk  H   Yang  M   Cho  J   Lee  H   Kim  J     June         A biomimetic elastomeric robot skin using electrical impedance and acoustic tomography for tactile sensing   Science Robotics          eabm      doi         scirobotics abm      ISSN                 PMID                S CID                
+
+  a b c S  Luo  J  Bimbo  R  Dahiya  H  Liu  December         Robotic tactile perception of object properties  A review   Mechatronics             arXiv             Bibcode     arXiv         L  doi         j mechatronics              S CID               
+
+   Tactile Sensing From Humans to Humanoids   PDF   Archived from the original  PDF  on            
+
+  Archived at Ghostarchive and the Wayback Machine   Cute Baby Seal Robot   PARO Theraputic Robot  DigInfo   YouTube 
+
+  Kim HD  et al          Target Speech Detection and Separation for Communication with Humanoid Robots in Noisy Home Environments   Advanced Robotics                    
+
+  Batliner A  et al  Jan         Searching for the most important feature types signalling emotion related user states in speech   Computer Speech and Language              
+
+   Special issue on machine olfaction   IEEE Sensors Journal                       Bibcode     ISenJ            doi         JSEN              
+
+  Geffen  Wouter H  van  Bruins  Marcel  Kerstjens  Huib A  M                 Diagnosing viral and bacterial respiratory infections in acute COPD exacerbations by an electronic nose  a pilot study   Journal of Breath Research                  Bibcode     JBR      c    V  doi                                ISSN                 PMID               
+
+  Stassen  I   Bueken  B   Reinsch  H   Oudenhoven  J  F  M   Wouters  D   Hajek  J   Van Speybroeck  V   Stock  N   Vereecken  P  M   Van Schaijk  R   De Vos  D   Ameloot  R           Towards metal organic framework based field effect chemical sensors  UiO    NH  for nerve agent detection   Chem  Sci                    doi         C SC     E  hdl      LU          PMC               PMID               
+
+  Gutierrez Osuna  R           Pattern analysis for machine olfaction  A review   IEEE Sensors Journal                  Bibcode     ISenJ         G  doi         jsen             
+
+  Phaisangittisagul  Ekachai  Nagle  H  Troy          Predicting odor mixture s responses on machine olfaction sensors   Sensors and Actuators B  Chemical                    Bibcode     SeAcB         P  doi         j snb             
+
+  Vembu  Shankar  Vergara  Alexander  Muezzinoglu  Mehmet K   Huerta  Ram n          On time series features and kernels for machine olfaction   Sensors and Actuators B  Chemical                Bibcode     SeAcB         V  doi         j snb             
+
+  Vlasov  Yu  Legin  A   Rudnitskaya  A   Natale  C  Di  D Amico  A                 Nonspecific sensor arrays   electronic tongue   for chemical analysis of liquids  IUPAC Technical Report    Pure and Applied Chemistry                      doi         pac              ISSN                 S CID                
+
+  Khalilian  Alireza  Khan  Md  Rajibur Rahaman  Kang  Shin Won          Highly sensitive and wide dynamic range side polished fiber optic taste sensor   Sensors and Actuators B  Chemical                doi         j snb             
+
+  Sochacki  Grzegorz  Abdulali  Arsen  Iida  Fumiya          Mastication Enhanced Taste Based Classification of Multi Ingredient Dishes for Robotic Cooking   Frontiers in Robotics and AI             doi         frobt              ISSN                 PMC               PMID               
+News release   Taste of the future  Robot chef learns to  taste  as it goes   University of Cambridge 
+
+   Super seers  why some people can see ultraviolet light   New Scientist    December       Retrieved   August      
+
+  Ca  n Berm dez  Gilbert Santiago  Fuchs  Hagen  Bischoff  Lothar  Fassbender  J rgen  Makarov  Denys  November         Electronic skin compasses for geomagnetic field driven artificial magnetoreception and interactive electronics   Nature Electronics                   doi         s                  ISSN                 S CID                
+
+  Varadharajan  Vivek Shankar  St Onge  David  Adams  Bram  Beltrame  Giovanni    March         SOUL  data sharing for robot swarms   PDF   Autonomous Robots                   doi         s                   ISSN                 S CID                
+
+  Scholl  Philipp M   Brachmann  Martina  Santini  Silvia  Van Laerhoven  Kristof          Integrating Wireless Sensor Nodes in the Robot Operating System   Cooperative Robots and Sensor Networks       Studies in Computational Intelligence  Vol            Springer  pp                doi                              ISBN                        
+
+  Vincent  James     November         Security robots are mobile surveillance devices  not human replacements   The Verge  Retrieved   August      
+
+  Melinte  Daniel Octavian  Vladareanu  Luige     April         Facial Expressions Recognition for Human Robot Interaction Using Deep Convolutional Neural Networks with Rectified Adam Optimizer   Sensors                Bibcode     Senso         M  doi         s          PMC               PMID               
+
+
+External links edit 
+ Media related to Robotic sensing at Wikimedia Commons
+
+
+
+
+
+Retrieved from  https   en wikipedia org w index php title Robotic sensing amp oldid

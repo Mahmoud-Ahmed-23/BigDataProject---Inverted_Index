@@ -1,0 +1,1019 @@
+Type of AI with wide ranging abilities
+Not to be confused with Generative artificial intelligence or Artificial superintelligence 
+
+
+
+Part of a series onArtificial intelligence  AI 
+Major goals
+Artificial general intelligence
+Intelligent agent
+Recursive self improvement
+Planning
+Computer vision
+General game playing
+Knowledge reasoning
+Natural language processing
+Robotics
+AI safety
+
+Approaches
+Machine learning
+Symbolic
+Deep learning
+Bayesian networks
+Evolutionary algorithms
+Hybrid intelligent systems
+Systems integration
+
+Applications
+Bioinformatics
+Deepfake
+Earth sciences
+ Finance 
+Generative AI
+Art
+Audio
+Music
+Government
+Healthcare
+Mental health
+Industry
+Translation
+ Military 
+Physics
+Projects
+
+Philosophy
+Artificial consciousness
+Chinese room
+Friendly AI
+Control problem Takeover
+Ethics
+Existential risk
+Turing test
+Uncanny valley
+
+History
+Timeline
+Progress
+AI winter
+AI boom
+
+Glossary
+Glossary
+vte
+Artificial general intelligence  AGI  sometimes called human level intelligence AI is a type of artificial intelligence capable of performing the full spectrum of cognitively demanding tasks with proficiency comparable to  or surpassing  that of humans                       
+Some researchers argue that state of the art large language models already exhibit early signs of AGI level capability  while others maintain that genuine AGI has not yet been achieved             AGI is conceptually distinct from artificial superintelligence  ASI   which would outperform the best human abilities across every domain by a wide margin             AGI is considered one of the definitions of strong AI 
+Unlike artificial narrow intelligence  ANI   whose competence is confined to well defined tasks  an AGI system can generalise knowledge  transfer skills between domains  and solve novel problems without task specific reprogramming  The concept does not  in principle  require the system to be an autonomous agent  a static model such as a highly capable large language model or an embodied robot could both satisfy the definition so long as human level breadth and proficiency are achieved            
+Creating AGI is a primary goal of AI research and of companies such as OpenAI             Google             and Meta             A      survey identified    active AGI research and development projects across    countries            
+The timeline for achieving human level intelligence AI remains deeply contested  Recent surveys of AI researchers give median forecasts ranging from the early     s to mid century  while still recording significant numbers who expect arrival much sooner or never at all                                      There is debate on the exact definition of AGI and regarding whether modern large language models  LLMs  such as GPT   are early forms of AGI             AGI is a common topic in science fiction and futures studies                         
+Contention exists over whether AGI represents an existential risk                                      Many AI experts have stated that mitigating the risk of human extinction posed by AGI should be a global priority                          Others find the development of AGI to be in too remote a stage to present such a risk                         
+
+
+Terminology edit 
+AGI is also known as strong AI                          full AI              human level AI              human level intelligent AI  or general intelligent action             
+Some academic sources reserve the term  strong AI  for computer programs that will experience sentience or consciousness      a      In contrast  weak AI  or narrow AI  is able to solve one specific problem but lacks general cognitive abilities                          Some academic sources use  weak AI  to refer more broadly to any programs that neither experience consciousness nor have a mind in the same sense as humans      a     
+Related concepts include artificial superintelligence and transformative AI  An artificial superintelligence  ASI  is a hypothetical type of AGI that is much more generally intelligent than humans              while the notion of transformative AI relates to AI having a large impact on society  for example  similar to the agricultural or industrial revolution             
+A framework for classifying AGI by performance and autonomy was proposed in      by Google DeepMind researchers  They define five performance levels of AGI  emerging  competent  expert  virtuoso  and superhuman  For example  a competent AGI is defined as an AI that outperforms     of skilled adults in a wide range of non physical tasks  and a superhuman AGI  i e  an artificial superintelligence  is similarly defined but with a threshold of       They consider large language models like ChatGPT or LLaMA   to be instances of emerging AGI  comparable to unskilled humans   Regarding the autonomy of AGI and associated risks  they define five levels  tool  fully in human control   consultant  collaborator  expert  and agent  fully autonomous              
+
+Characteristics edit 
+Main article  Artificial intelligence
+Various popular definitions of intelligence have been proposed  One of the leading proposals is the Turing test  However  there are other well known definitions  and some researchers disagree with the more popular approaches      b     
+
+Intelligence traits edit 
+Researchers generally hold that a system is required to do all of the following to be regarded as an AGI             
+
+reason  use strategy  solve puzzles  and make judgments under uncertainty
+represent knowledge  including common sense knowledge
+plan
+learn
+communicate in natural language
+if necessary  integrate these skills in completion of any given goal
+Many interdisciplinary approaches  e g  cognitive science  computational intelligence  and decision making  consider additional traits such as imagination  the ability to form novel mental images and concepts              and autonomy             
+Computer based systems that exhibit many of these capabilities exist  e g  see computational creativity  automated reasoning  decision support system  robot  evolutionary computation  intelligent agent   There is debate about whether modern AI systems possess them to an adequate degree             
+
+Physical traits edit 
+Other capabilities are considered desirable in intelligent systems  as they may affect intelligence or aid in its expression  These include             
+
+the ability to sense  e g  see  hear  etc    and
+the ability to act  e g  move and manipulate objects  change location to explore  etc  
+This includes the ability to detect and respond to hazard             
+Although the ability to sense  e g  see  hear  etc   and the ability to act  e g  move and manipulate objects  change location to explore  etc   can be desirable for some intelligent systems              these physical capabilities are not strictly required for an entity to qualify as AGI particularly under the thesis that large language models  LLMs  may already be or become AGI  Even from a less optimistic perspective on LLMs  there is no firm requirement for an AGI to have a human like form  being a silicon based computational system is sufficient  provided it can process input  language  from the external world in place of human senses  This interpretation aligns with the understanding that AGI has never been proscribed a particular physical embodiment and thus does not demand a capacity for locomotion or traditional  eyes and ears                It can be regarded as sufficient for an intelligent computer to interact with other systems  to invoke or regulate them  to achieve specific goals  including altering a physical environment  as HAL in        A Space Odyssey was both programmed and tasked to             
+
+Tests for human level AGI edit 
+Several tests meant to confirm human level AGI have been considered  including                         
+
+The Turing Test  Turing 
+The Turing test can provide some evidence of intelligence  but it penalizes non human intelligent behavior and may incentivize artificial stupidity             Proposed by Alan Turing in his      paper  Computing Machinery and Intelligence   this test involves a human judge engaging in natural language conversations with both a human and a machine designed to generate human like responses  The machine passes the test if it can convince the judge it is human a significant fraction of the time  Turing proposed this as a practical measure of machine intelligence  focusing on the ability to produce human like responses rather than on the internal workings of the machine             
+Turing described the test as follows 
+The idea of the test is that the machine has to try and pretend to be a man  by answering questions put to it  and it will only pass if the pretence is reasonably convincing  A considerable portion of a jury  who should not be expert about machines  must be taken in by the pretence             
+In       a chatbot named Eugene Goostman  designed to imitate a    year old Ukrainian boy  reportedly passed a Turing Test event by convincing     of judges that it was human  However  this claim was met with significant skepticism from the AI research community  who questioned the test s implementation and its relevance to AGI                         
+In       it was claimed that  AI is closer to ever  to passing the Turing test  though the article s authors reinforced that imitation  as  large language models  ever closer to passing the test are built upon  is not synonymous with  intelligence    Further  as AI intelligence and human intelligence may differ   passing the Turing test is good evidence a system is intelligent  failing it is not good evidence a system is not intelligent               
+A      study suggested that GPT   was identified as human     of the time in a randomized  controlled version of the Turing Test surpassing older chatbots like ELIZA while still falling behind actual humans                   
+A      pre registered  three party Turing test study by Cameron      R       Jones and Benjamin      K       Bergen showed that GPT     was judged to be the human in     of five minute text conversations surpassing the     humanness rate of real confederates and meeting the researchers  criterion for having passed the test                         
+The Robot College Student Test  Goertzel 
+A machine enrolls in a university  taking and passing the same classes that humans would  and obtaining a degree  LLMs can now pass university degree level exams without even attending the classes             
+The Employment Test  Nilsson 
+A machine performs an economically important job at least as well as humans in the same job  AIs are now replacing humans in many roles as varied as fast food and marketing             
+The Ikea test  Marcus 
+Also known as the Flat Pack Furniture Test  An AI views the parts and instructions of an Ikea flat pack product  then controls a robot to assemble the furniture correctly             
+The Coffee Test  Wozniak 
+A machine is required to enter an average American home and figure out how to make coffee  find the coffee machine  find the coffee  add water  find a mug  and brew the coffee by pushing the proper buttons              This has not yet been completed 
+The Modern Turing Test  Suleyman 
+An AI model is given          and has to obtain         million                         
+AI complete problems edit 
+Main article  AI complete
+A problem is informally called  AI complete  or  AI hard  if it is believed that in order to solve it  one would need to implement AGI  because the solution is beyond the capabilities of a purpose specific algorithm             
+There are many problems that have been conjectured to require general intelligence to solve as well as humans  Examples include computer vision  natural language understanding  and dealing with unexpected circumstances while solving any real world problem              Even a specific task like translation requires a machine to read and write in both languages  follow the author s argument  reason   understand the context  knowledge   and faithfully reproduce the author s original intent  social intelligence   All of these problems need to be solved simultaneously in order to reach human level machine performance 
+However  many of these tasks can now be performed by modern large language models  According to Stanford University s      AI index  AI has reached human level performance on many benchmarks for reading comprehension and visual reasoning             
+
+History edit 
+Classical AI edit 
+Main articles  History of artificial intelligence and Symbolic artificial intelligence
+Modern AI research began in the mid     s              The first generation of AI researchers were convinced that artificial general intelligence was possible and that it would exist in just a few decades              AI pioneer Herbert A  Simon wrote in        machines will be capable  within twenty years  of doing any work a man can do              
+Their predictions were the inspiration for Stanley Kubrick and Arthur C  Clarke s character HAL       who embodied what AI researchers believed they could create by the year       AI pioneer Marvin Minsky was a consultant             on the project of making HAL      as realistic as possible according to the consensus predictions of the time  He said in        Within a generation    the problem of creating  artificial intelligence  will substantially be solved              
+Several classical AI projects  such as Doug Lenat s Cyc project  that began in        and Allen Newell s Soar project  were directed at AGI 
+However  in the early     s  it became obvious that researchers had grossly underestimated the difficulty of the project  Funding agencies became skeptical of AGI and put researchers under increasing pressure to produce useful  applied AI       c      In the early     s  Japan s Fifth Generation Computer Project revived interest in AGI  setting out a ten year timeline that included AGI goals like  carry on a casual conversation               In response to this and the success of expert systems  both industry and government pumped money into the field                          However  confidence in AI spectacularly collapsed in the late     s  and the goals of the Fifth Generation Computer Project were never fulfilled              For the second time in    years  AI researchers who predicted the imminent achievement of AGI had been mistaken  By the     s  AI researchers had a reputation for making vain promises  They became reluctant to make predictions at all     d      and avoided mention of  human level  artificial intelligence for fear of being labeled  wild eyed dreamer s               
+
+Narrow AI research edit 
+Main article  Artificial intelligence
+In the     s and early   st century  mainstream AI achieved commercial success and academic respectability by focusing on specific sub problems where AI can produce verifiable results and commercial applications  such as speech recognition and recommendation algorithms              These  applied AI  systems are now used extensively throughout the technology industry  and research in this vein is heavily funded in both academia and industry  As of          update       development in this field was considered an emerging trend  and a mature stage was expected to be reached in more than    years             
+
+At the turn of the century  many mainstream AI researchers             hoped that strong AI could be developed by combining programs that solve various sub problems  Hans Moravec wrote in       I am confident that this bottom up route to artificial intelligence will one day meet the traditional top down route more than half way  ready to provide the real world competence and the commonsense knowledge that has been so frustratingly elusive in reasoning programs  Fully intelligent machines will result when the metaphorical golden spike is driven uniting the two efforts             
+However  even at the time  this was disputed  For example  Stevan Harnad of Princeton University concluded his      paper on the symbol grounding hypothesis by stating  The expectation has often been voiced that  top down   symbolic  approaches to modeling cognition will somehow meet  bottom up   sensory  approaches somewhere in between  If the grounding considerations in this paper are valid  then this expectation is hopelessly modular and there is really only one viable route from sense to symbols  from the ground up  A free floating symbolic level like the software level of a computer will never be reached by this route  or vice versa    nor is it clear why we should even try to reach such a level  since it looks as if getting there would just amount to uprooting our symbols from their intrinsic meanings  thereby merely reducing ourselves to the functional equivalent of a programmable computer              
+Modern artificial general intelligence research edit 
+The term  artificial general intelligence  was used as early as       by Mark Gubrud             in a discussion of the implications of fully automated military production and operations  A mathematical formalism of AGI was proposed by Marcus Hutter in       Named AIXI  the proposed AGI agent maximises  the ability to satisfy goals in a wide range of environments               This type of AGI  characterized by the ability to maximise a mathematical definition of intelligence rather than exhibit human like behaviour              was also called universal artificial intelligence             
+The term AGI was re introduced and popularized by Shane Legg and Ben Goertzel around                   AGI research activity in      was described by Pei Wang and Ben Goertzel             as  producing publications and preliminary results   The first summer school in AGI was organized in Xiamen  China in                  by the Xiamen university s Artificial Brain Laboratory and OpenCog  The first university course was given in                  and                  at Plovdiv University  Bulgaria by Todor Arnaudov  MIT presented a course on AGI in       organized by Lex Fridman and featuring a number of guest lecturers 
+As of          update       a small number of computer scientists are active in AGI research  and many contribute to a series of AGI conferences  However  increasingly more researchers are interested in open ended learning                         which is the idea of allowing AI to continuously learn and innovate like humans do 
+
+Feasibility edit 
+Surveys about when experts expect artificial general intelligence            
+As of       the development and potential achievement of AGI remains a subject of intense debate within the AI community  While traditional consensus held that AGI was a distant goal  recent advancements have led some researchers and industry figures to claim that early forms of AGI may already exist              AI pioneer Herbert A  Simon speculated in      that  machines will be capable  within twenty years  of doing any work a man can do   This prediction failed to come true  Microsoft co founder Paul Allen believed that such intelligence is unlikely in the   st century because it would require  unforeseeable and fundamentally unpredictable breakthroughs  and a  scientifically deep understanding of cognition               Writing in The Guardian  roboticist Alan Winfield claimed the gulf between modern computing and human level artificial intelligence is as wide as the gulf between current space flight and practical faster than light spaceflight             
+A further challenge is the lack of clarity in defining what intelligence entails  Does it require consciousness  Must it display the ability to set goals as well as pursue them  Is it purely a matter of scale such that if model sizes increase sufficiently  intelligence will emerge  Are facilities such as planning  reasoning  and causal understanding required  Does intelligence require explicitly replicating the brain and its specific faculties  Does it require emotions             
+Most AI researchers believe strong AI can be achieved in the future  but some thinkers  like Hubert Dreyfus and Roger Penrose  deny the possibility of achieving strong AI                           John McCarthy is among those who believe human level AI will be accomplished  but that the present level of progress is such that a date cannot accurately be predicted              AI experts  views on the feasibility of AGI wax and wane  Four polls conducted in      and      suggested that the median estimate among experts for when they would be     confident AGI would arrive was      to       depending on the poll  with the mean being       Of the experts        answered with  never  when asked the same question but with a     confidence instead                          Further current AGI progress considerations can be found above Tests for confirming human level AGI 
+A report by Stuart Armstrong and Kaj Sotala of the Machine Intelligence Research Institute found that  over  a     year time frame there is a strong bias towards predicting the arrival of human level AI as between    and    years from the time the prediction was made   They analyzed    predictions made between      and      on when human level AI will come about             
+In       Microsoft researchers published a detailed evaluation of GPT    They concluded   Given the breadth and depth of GPT   s capabilities  we believe that it could reasonably be viewed as an early  yet still incomplete  version of an artificial general intelligence  AGI  system               Another study in      reported that GPT   outperforms     of humans on the Torrance tests of creative thinking                         
+Blaise Ag era y Arcas and Peter Norvig wrote in      that a significant level of general intelligence has already been achieved with frontier models  They wrote that reluctance to this view comes from four main reasons  a  healthy skepticism about metrics for AGI   an  ideological commitment to alternative AI theories or techniques   a  devotion to human  or biological  exceptionalism   or a  concern about the economic implications of AGI              
+     also marked the emergence of large multimodal models  large language models capable of processing or generating multiple modalities such as text  audio  and images               
+In       OpenAI released o  preview  the first of a series of models that  spend more time thinking before they respond   According to Mira Murati  this ability to think before responding represents a new  additional paradigm  It improves model outputs by spending more computing power when generating the answer  whereas the model scaling paradigm improves outputs by increasing the model size  training data and training compute power                           
+An OpenAI employee  Vahid Kazemi  claimed in      that the company had achieved AGI  stating   In my opinion  we have already achieved AGI and it s even more clear with O    Kazemi clarified that while the AI is not yet  better than any human at any task   it is  better than most humans at most tasks   He also addressed criticisms that large language models  LLMs  merely follow predefined patterns  comparing their learning process to the scientific method of observing  hypothesizing  and verifying  These statements have sparked debate  as they rely on a broad and unconventional definition of AGI traditionally understood as AI that matches human intelligence across all domains  Critics argue that  while OpenAI s models demonstrate remarkable versatility  they may not fully meet this standard  Notably  Kazemi s comments came shortly after OpenAI removed  AGI  from the terms of its partnership with Microsoft  prompting speculation about the company s strategic intentions              
+
+Timescales edit 
+AI has surpassed humans on a variety of language understanding and visual understanding benchmarks               As of       foundation models still lack advanced reasoning and planning capabilities  but rapid progress is expected              
+Progress in artificial intelligence has historically gone through periods of rapid progress separated by periods when progress appeared to stop              Ending each hiatus were fundamental advances in hardware  software or both to create space for further progress                                        For example  the computer hardware available in the twentieth century was not sufficient to implement deep learning  which requires large numbers of GPU enabled CPUs              
+In the introduction to his      book               Goertzel says that estimates of the time needed before a truly flexible AGI is built vary from    years to over a century  As of          update       the consensus in the AGI research community seemed to be that the timeline discussed by Ray Kurzweil in      in The Singularity is Near               i e  between      and       was plausible               Mainstream AI researchers have given a wide range of opinions on whether progress will be this rapid  A      meta analysis of    such opinions found a bias towards predicting that the onset of AGI would occur within       years for modern and historical predictions alike  That paper has been criticized for how it categorized opinions as expert or non expert              
+In       Alex Krizhevsky  Ilya Sutskever  and Geoffrey Hinton developed a neural network called AlexNet  which won the ImageNet competition with a top   test error rate of        significantly better than the second best entry s rate of        the traditional approach used a weighted sum of scores from different pre defined classifiers                AlexNet was regarded as the initial ground breaker of the current deep learning wave              
+In       researchers Feng Liu  Yong Shi  and Ying Liu conducted intelligence tests on publicly available and freely accessible weak AI such as Google AI  Apple s Siri  and others  At the maximum  these AIs reached an IQ value of about     which corresponds approximately to a six year old child in first grade  An adult comes to about     on average  Similar tests were carried out in       with the IQ score reaching a maximum value of                              
+In       OpenAI developed GPT    a language model capable of performing many diverse tasks without specific training  According to Gary Grossman in a VentureBeat article  while there is consensus that GPT   is not an example of AGI  it is considered by some to be too advanced to be classified as a narrow AI system              
+In the same year  Jason Rohrer used his GPT   account to develop a chatbot  and provided a chatbot developing platform called  Project December   OpenAI asked for changes to the chatbot to comply with their safety guidelines  Rohrer disconnected Project December from the GPT   API              
+In       DeepMind developed Gato  a  general purpose  system capable of performing more than     different tasks              
+In       Microsoft Research published a study on an early version of OpenAI s GPT    contending that it exhibited more general intelligence than previous AI models and demonstrated human level performance in tasks spanning multiple domains  such as mathematics  coding  and law  This research sparked a debate on whether GPT   could be considered an early  incomplete version of artificial general intelligence  emphasizing the need for further exploration and evaluation of such systems            
+In       AI researcher Geoffrey Hinton stated that              
+
+The idea that this stuff could actually get smarter than people   a few people believed that         But most people thought it was way off  And I thought it was way off  I thought it was    to    years or even longer away  Obviously  I no longer think that He estimated in       with low confidence  that systems smarter than humans could appear within   to    years and stressed the attendant existential risks              
+In May       Demis Hassabis similarly said that  The progress in the last few years has been pretty incredible   and that he sees no reason why it would slow down  expecting AGI within a decade or even a few years               In March       Nvidia s CEO  Jensen Huang  stated his expectation that within five years  AI would be capable of passing any test at least as well as humans               In June       the AI researcher Leopold Aschenbrenner  a former OpenAI employee  estimated AGI by      to be  strikingly plausible               
+
+Whole brain emulation edit 
+Main articles  Whole brain emulation and Brain simulation
+While the development of transformer models like in ChatGPT is considered the most promising path to AGI                            whole brain emulation can serve as an alternative approach  With whole brain simulation  a brain model is built by scanning and mapping a biological brain in detail  and then copying and simulating it on a computer system or another computational device  The simulation model must be sufficiently faithful to the original  so that it behaves in practically the same way as the original brain               Whole brain emulation is a type of brain simulation that is discussed in computational neuroscience and neuroinformatics  and for medical research purposes  It has been discussed in artificial intelligence research              as an approach to strong AI  Neuroimaging technologies that could deliver the necessary detailed understanding are improving rapidly  and futurist Ray Kurzweil in the book The Singularity Is Near              predicts that a map of sufficient quality will become available on a similar timescale to the computing power required to emulate it 
+
+Early estimates edit 
+Estimates of how much processing power is needed to emulate a human brain at various levels  from Ray Kurzweil  Anders Sandberg and Nick Bostrom   along with the fastest supercomputer from TOP    mapped by year  Note the logarithmic scale and exponential trendline  which assumes the computational capacity doubles every     years  Kurzweil believes that mind uploading will be possible at neural simulation  while the Sandberg  Bostrom report is less certain about where consciousness arises               For low level brain simulation  a very powerful cluster of computers or GPUs would be required  given the enormous quantity of synapses within the human brain  Each of the       one hundred billion  neurons has on average       synaptic connections  synapses  to other neurons  The brain of a three year old child has about      synapses    quadrillion   This number declines with age  stabilizing by adulthood  Estimates vary for an adult  ranging from      to        synapses      to     trillion                An estimate of the brain s processing power  based on a simple switch model for neuron activity  is around           trillion  synaptic updates per second  SUPS               
+In       Kurzweil looked at various estimates for the hardware required to equal the human brain and adopted a figure of      computations per second  cps       e       For comparison  if a  computation  was equivalent to one  floating point operation    a measure used to rate current supercomputers   then       computations  would be equivalent to    petaFLOPS  achieved in       while      was achieved in        He used this figure to predict the necessary hardware would be available sometime between      and       if the exponential growth in computer power at the time of writing continued 
+
+Current research edit 
+The Human Brain Project  an EU funded initiative active from      to       has developed a particularly detailed and publicly accessible atlas of the human brain               In       researchers from Duke University performed a high resolution scan of a mouse brain 
+
+Criticisms of simulation based approaches edit 
+The artificial neuron model assumed by Kurzweil and used in many current artificial neural network implementations is simple compared with biological neurons  A brain simulation would likely have to capture the detailed cellular behaviour of biological neurons  presently understood only in broad outline  The overhead introduced by full modeling of the biological  chemical  and physical details of neural behaviour  especially on a molecular scale  would require computational powers several orders of magnitude larger than Kurzweil s estimate  In addition  the estimates do not account for glial cells  which are known to play a role in cognitive processes              
+A fundamental criticism of the simulated brain approach derives from embodied cognition theory which asserts that human embodiment is an essential aspect of human intelligence and is necessary to ground meaning                            If this theory is correct  any fully functional brain model will need to encompass more than just the neurons  e g   a robotic body   Goertzel              proposes virtual embodiment  like in metaverses like Second Life  as an option  but it is unknown whether this would be sufficient 
+
+Philosophical perspective edit 
+See also  Philosophy of artificial intelligence and Turing test
+ Strong AI  as defined in philosophy edit 
+In       philosopher John Searle coined the term  strong AI  as part of his Chinese room argument               He proposed a distinction between two hypotheses about artificial intelligence      f     
+
+Strong AI hypothesis  An artificial intelligence system can have  a mind  and  consciousness  
+Weak AI hypothesis  An artificial intelligence system can  only  act like it thinks and has a mind and consciousness 
+The first one he called  strong  because it makes a stronger statement  it assumes something special has happened to the machine that goes beyond those abilities that we can test  The behaviour of a  weak AI  machine would be precisely identical to a  strong AI  machine  but the latter would also have subjective conscious experience  This usage is also common in academic AI research and textbooks              
+In contrast to Searle and mainstream AI  some futurists such as Ray Kurzweil use the term  strong AI  to mean  human level artificial general intelligence                This is not the same as Searle s strong AI  unless it is assumed that consciousness is necessary for human level AGI  Academic philosophers such as Searle do not believe that is the case  and to most artificial intelligence researchers the question is out of scope              
+Mainstream AI is most interested in how a program behaves               According to Russell and Norvig   as long as the program works  they don t care if you call it real or a simulation                If the program can behave as if it has a mind  then there is no need to know if it actually has mind   indeed  there would be no way to tell  For AI research  Searle s  weak AI hypothesis  is equivalent to the statement  artificial general intelligence is possible   Thus  according to Russell and Norvig   most AI researchers take the weak AI hypothesis for granted  and don t care about the strong AI hypothesis                Thus  for academic AI research   Strong AI  and  AGI  are two different things 
+
+Consciousness edit 
+Main article  Artificial consciousness
+Consciousness can have various meanings  and some aspects play significant roles in science fiction and the ethics of artificial intelligence 
+
+Sentience  or  phenomenal consciousness    The ability to  feel  perceptions or emotions subjectively  as opposed to the ability to reason about perceptions  Some philosophers  such as David Chalmers  use the term  consciousness  to refer exclusively to phenomenal consciousness  which is roughly equivalent to sentience               Determining why and how subjective experience arises is known as the hard problem of consciousness               Thomas Nagel explained in      that it  feels like  something to be conscious  If we are not conscious  then it doesn t feel like anything  Nagel uses the example of a bat  we can sensibly ask  what does it feel like to be a bat   However  we are unlikely to ask  what does it feel like to be a toaster   Nagel concludes that a bat appears to be conscious  i e   has consciousness  but a toaster does not               In       a Google engineer claimed that the company s AI chatbot  LaMDA  had achieved sentience  though this claim was widely disputed by other experts              
+Self awareness  To have conscious awareness of oneself as a separate individual  especially to be consciously aware of one s own thoughts  This is opposed to simply being the  subject of one s thought  an operating system or debugger is able to be  aware of itself   that is  to represent itself in the same way it represents everything else  but this is not what people typically mean when they use the term  self awareness       g      In some advanced AI models  systems construct internal representations of their own cognitive processes and feedback patterns occasionally referring to themselves using second person constructs such as  you  within self modeling frameworks      citation needed     
+These traits have a moral dimension  AI sentience would give rise to concerns of welfare and legal protection  similarly to animals               Other aspects of consciousness related to cognitive capabilities are also relevant to the concept of AI rights               Figuring out how to integrate advanced AI with existing legal and social frameworks is an emergent issue              
+
+Benefits edit 
+AGI could have a wide variety of applications  If oriented towards such goals  AGI could help mitigate various problems in the world such as hunger  poverty and health problems              
+AGI could improve productivity and efficiency in most jobs  For example  in public health  AGI could accelerate medical research  notably against cancer               It could take care of the elderly               and democratize access to rapid  high quality medical diagnostics  It could offer fun  cheap and personalized education               The need to work to subsist could become obsolete if the wealth produced is properly redistributed                            This also raises the question of the place of humans in a radically automated society 
+AGI could also help to make rational decisions  and to anticipate and prevent disasters  It could also help to reap the benefits of potentially catastrophic technologies such as nanotechnology or climate engineering  while avoiding the associated risks               If an AGI s primary goal is to prevent existential catastrophes such as human extinction  which could be difficult if the Vulnerable World Hypothesis turns out to be true                it could take measures to drastically reduce the risks              while minimizing the impact of these measures on our quality of life 
+Advancements in medicine and healthcare
+AGI would improve healthcare by making medical diagnostics faster  cheaper  and more accurate  AI driven systems can analyse patient data and detect diseases at an early stage               This means patients will get diagnosed quicker and be able to seek medical attention before their medical condition gets worse  AGI systems could also recommend personalised treatment plans based on genetics and medical history              
+Additionally  AGI could accelerate drug discovery by simulating molecular interactions  reducing the time it takes to develop new medicines for conditions like cancer and Alzheimer s               In hospitals  AGI powered robotic assistants could assist in surgeries  monitor patients  and provide real time medical support  It could also be used in elderly care  helping aging populations maintain independence through AI powered caregivers and health monitoring systems 
+By evaluating large datasets  AGI can assist in developing personalised treatment plans tailored to individual patient needs  This approach ensures that therapies are optimised based on a patient s unique medical history and genetic profile  improving outcomes and reducing adverse effects              
+Advancements in science and technology
+AGI can become a tool for scientific research and innovation  In fields such as physics and mathematics  AGI could help solve complex problems that require massive computational power  such as modeling quantum systems  understanding dark matter  or proving mathematical theorems               Problems that have remained unsolved for decades may be solved with AGI 
+AGI could also drive technological breakthroughs that could reshape society  It can do this by optimising engineering designs  discovering new materials  and improving automation  For example  AI is already playing a role in developing more efficient renewable energy sources and optimising supply chains in manufacturing               Future AGI systems could push these innovations even further 
+Enhancing education and productivity
+AGI can personalize education by creating learning programs that are specific to each student s strengths  weaknesses  and interests  Unlike traditional teaching methods  AI driven tutoring systems could adapt lessons in real time  ensuring students understand difficult concepts before moving on              
+In the workplace  AGI could automate repetitive tasks  freeing up workers for more creative and strategic roles               It could also improve efficiency across industries by optimising logistics  enhancing cybersecurity  and streamlining business operations  If properly managed  the wealth generated by AGI driven automation could reduce the need for people to work for a living  Working may become optional              
+Mitigating global crises
+AGI could play a crucial role in preventing and managing global threats  It could help governments and organizations predict and respond to natural disasters more effectively  using real time data analysis to forecast hurricanes  earthquakes  and pandemics               By analyzing vast datasets from satellites  sensors  and historical records  AGI could improve early warning systems  enabling faster disaster response and minimising casualties 
+In climate science  AGI could develop new models for reducing carbon emissions  optimising energy resources  and mitigating climate change effects  It could also enhance weather prediction accuracy  allowing policymakers to implement more effective environmental regulations  Additionally  AGI could help regulate emerging technologies that carry significant risks  such as nanotechnology and bioengineering  by analysing complex systems and predicting unintended consequences               Furthermore  AGI could assist in cybersecurity by detecting and mitigating large scale cyber threats  protecting critical infrastructure  and preventing digital warfare 
+Revitalising environmental conservation and biodiversity
+AGI could significantly contribute to preserving the environment and protecting endangered species  By analyzing satellite imagery  climate data  and wildlife patterns  AGI systems could identify environmental threats earlier and recommend targeted conservation strategies               AGI could help optimize land use  monitor illegal activities like poaching or deforestation in real time  and support global efforts to restore ecosystems  Advanced predictive models developed by AGI could also assist in reversing biodiversity loss  ensuring the survival of critical species and maintaining ecological balance              
+
+Enhancing space exploration and colonization edit 
+AGI could revolutionize humanity s ability to explore and settle beyond Earth  With its advanced problem solving skills  AGI could autonomously manage complex space missions  including navigation  resource management  and emergency response  It could accelerate the design of life support systems  habitats  and spacecraft optimized for extraterrestrial environments  Furthermore  AGI could support efforts to colonize planets like Mars by simulating survival scenarios and helping humans adapt to new worlds  dramatically expanding the possibilities for interplanetary civilization              
+
+Risks edit 
+Existential risks edit 
+Main articles  Existential risk from artificial general intelligence and AI safety
+AGI may represent multiple types of existential risk  which are risks that threaten  the premature extinction of Earth originating intelligent life or the permanent and drastic destruction of its potential for desirable future development                The risk of human extinction from AGI has been the topic of many debates  but there is also the possibility that the development of AGI would lead to a permanently flawed future  Notably  it could be used to spread and preserve the set of values of whoever develops it  If humanity still has moral blind spots similar to slavery in the past  AGI might irreversibly entrench it  preventing moral progress               Furthermore  AGI could facilitate mass surveillance and indoctrination  which could be used to create a stable repressive worldwide totalitarian regime                            There is also a risk for the machines themselves  If machines that are sentient or otherwise worthy of moral consideration are mass created in the future  engaging in a civilizational path that indefinitely neglects their welfare and interests could be an existential catastrophe                            Considering how much AGI could improve humanity s future and help reduce other existential risks  Toby Ord calls these existential risks  an argument for proceeding with due caution   not for  abandoning AI               
+
+Risk of loss of control and human extinction edit 
+The thesis that AI poses an existential risk for humans  and that this risk needs more attention  is controversial but has been endorsed in      by many public figures  AI researchers and CEOs of AI companies such as Elon Musk  Bill Gates  Geoffrey Hinton  Yoshua Bengio  Demis Hassabis and Sam Altman                           
+In       Stephen Hawking criticized widespread indifference 
+
+So  facing possible futures of incalculable benefits and risks  the experts are surely doing everything possible to ensure the best outcome  right  Wrong  If a superior alien civilisation sent us a message saying   We ll arrive in a few decades   would we just reply   OK  call us when you get here we ll leave the lights on   Probably not but this is more or less what is happening with AI              The potential fate of humanity has sometimes been compared to the fate of gorillas threatened by human activities  The comparison states that greater intelligence allowed humanity to dominate gorillas  which are now vulnerable in ways that they could not have anticipated  As a result  the gorilla has become an endangered species  not out of malice  but simply as a collateral damage from human activities              
+The skeptic Yann LeCun considers that AGIs will have no desire to dominate humanity and that we should be careful not to anthropomorphize them and interpret their intents as we would for humans  He said that people won t be  smart enough to design super intelligent machines  yet ridiculously stupid to the point of giving it moronic objectives with no safeguards                On the other side  the concept of instrumental convergence suggests that almost whatever their goals  intelligent agents will have reasons to try to survive and acquire more power as intermediary steps to achieving these goals  And that this does not require having emotions              
+Many scholars who are concerned about existential risk advocate for more research into solving the  control problem  to answer the question  what types of safeguards  algorithms  or architectures can programmers implement to maximise the probability that their recursively improving AI would continue to behave in a friendly  rather than destructive  manner after it reaches superintelligence                            Solving the control problem is complicated by the AI arms race  which could lead to a race to the bottom of safety precautions in order to release products before competitors                and the use of AI in weapon systems              
+The thesis that AI can pose existential risk also has detractors  Skeptics usually say that AGI is unlikely in the short term  or that concerns about AGI distract from other issues related to current AI               Former Google fraud czar Shuman Ghosemajumder considers that for many people outside of the technology industry  existing chatbots and LLMs are already perceived as though they were AGI  leading to further misunderstanding and fear              
+Skeptics sometimes charge that the thesis is crypto religious  with an irrational belief in the possibility of superintelligence replacing an irrational belief in an omnipotent God               Some researchers believe that the communication campaigns on AI existential risk by certain AI groups  such as OpenAI  Anthropic  DeepMind  and Conjecture  may be an at attempt at regulatory capture and to inflate interest in their products                           
+In       the CEOs of Google DeepMind  OpenAI and Anthropic  along with other industry leaders and researchers  issued a joint statement asserting that  Mitigating the risk of extinction from AI should be a global priority alongside other societal scale risks such as pandemics and nuclear war               
+
+Mass unemployment edit 
+Further information  Technological unemployment
+Researchers from OpenAI estimated that      of the U S  workforce could have at least     of their work tasks affected by the introduction of LLMs  while around     of workers may see at least     of their tasks impacted                             They consider office workers to be the most exposed  for example mathematicians  accountants or web designers               AGI could have a better autonomy  ability to make decisions  to interface with other computer tools  but also to control robotized bodies 
+According to Stephen Hawking  the outcome of automation on the quality of life will depend on how the wealth will be redistributed              
+
+Everyone can enjoy a life of luxurious leisure if the machine produced wealth is shared  or most people can end up miserably poor if the machine owners successfully lobby against wealth redistribution  So far  the trend seems to be toward the second option  with technology driving ever increasing inequalityElon Musk believes that the automation of society will require governments to adopt a universal basic income              
+See also edit 
+
+Artificial brain        Software and hardware with cognitive abilities similar to those of the animal or human brain
+AI effect
+AI safety        Research area on making AI safe and beneficial
+AI alignment        AI conformance to the intended objective
+A I  Rising             film directed by Lazar Bodro a
+Artificial intelligence
+Automated machine learning        Process of automating the application of machine learning
+BRAIN Initiative        Collaborative public private research initiative announced by the Obama administration
+China Brain Project
+Future of Humanity Institute        Defunct Oxford interdisciplinary research centre
+General game playing        Ability of artificial intelligence to play different games
+Generative artificial intelligence        Subset of AI using generative models
+Human Brain Project        Scientific research project
+Intelligence amplification        Use of information technology to augment human intelligence  IA 
+Machine ethics        Moral behaviours of man made machines
+Universal psychometrics
+Moravec s paradox
+Multi task learning        Solving multiple machine learning tasks at the same time
+Neural scaling law        Statistical law in machine learning
+Outline of artificial intelligence        Overview of and topical guide to artificial intelligence
+Transhumanism        Philosophical movement
+Synthetic intelligence        Alternate term for or form of artificial intelligence
+Transfer learning        Machine learning technique
+Loebner Prize        Annual AI competition
+Lurking        Non participating online observer
+Hardware for artificial intelligence        Hardware specially designed and optimized for artificial intelligence
+Weak artificial intelligence        Form of artificial intelligence
+
+Notes edit 
+
+
+  a b See below for the origin of the term  strong AI   and see the academic definition of  strong AI  and weak AI in the article Chinese room 
+
+  AI founder John McCarthy writes   we cannot yet characterize in general what kinds of computational procedures we want to call intelligent                For a discussion of some definitions of intelligence used by artificial intelligence researchers  see philosophy of artificial intelligence  
+
+  The Lighthill report specifically criticized AI s  grandiose objectives  and led the dismantling of AI research in England              In the U S   DARPA became determined to fund only  mission oriented direct research  rather than basic undirected research                          
+
+  As AI founder John McCarthy writes  it would be a great relief to the rest of the workers in AI if the inventors of new general formalisms would express their hopes in a more guarded form than has sometimes been the case              
+
+  In  Mind Children                    cps is used  More recently  in                    Moravec argued for     MIPS which would roughly correspond to      cps  Moravec talks in terms of MIPS  not  cps   which is a non standard term Kurzweil introduced 
+
+  As defined in a standard AI textbook   The assertion that machines could possibly act intelligently  or  perhaps better  act as if they were intelligent  is called the  weak AI  hypothesis by philosophers  and the assertion that machines that do so are actually thinking  as opposed to simulating thinking  is called the  strong AI  hypothesis               
+
+  Alan Turing made this point in                  
+
+
+References edit 
+
+
+  Goertzel  Ben          Artificial General Intelligence  Concept  State of the Art  and Future Prospects   Journal of Artificial General Intelligence               Bibcode     JAGI          G  doi         jagi           
+
+  Lake  Brenden  Ullman  Tom  Tenenbaum  Joshua  Gershman  Samuel          Building machines that learn and think like people   Behavioral and Brain Sciences      e     arXiv             doi         S       X          PMID               
+
+  a b c d Bubeck  S bastien          Sparks of Artificial General Intelligence  Early Experiments with GPT     arXiv             cs CL  
+
+  Bostrom  Nick         Superintelligence  Paths  Dangers  Strategies  Oxford University Press 
+
+  Legg  Shane         Why AGI Might Not Need Agency  Proceedings of the Conference on Artificial General Intelligence 
+
+   OpenAI Charter   OpenAI  Retrieved   April       Our mission is to ensure that artificial general intelligence benefits all of humanity 
+
+  Grant  Nico     February         Google s Sergey Brin Asks Workers to Spend More Time In the Office   The New York Times  ISSN                 Retrieved   March      
+
+  Heath  Alex     January         Mark Zuckerberg s new goal is creating artificial general intelligence   The Verge  Retrieved    June       Our vision is to build AI that is better than human level at all of the human senses 
+
+  Baum  Seth D          A Survey of Artificial General Intelligence Projects for Ethics  Risk  and Policy  PDF   Report   Global Catastrophic Risk Institute  Retrieved    November          AGI R amp D projects were identified as being active in      
+
+   Shrinking AGI timelines  a review of expert forecasts          Hours     March       Retrieved    April      
+
+   How the U S  Public and AI Experts View Artificial Intelligence   Pew Research Center    April       Retrieved    April      
+
+   AI timelines  What do experts in artificial intelligence expect for the future    Our World in Data    February       Retrieved    April      
+
+  Butler  Octavia E          Parable of the Sower  Grand Central Publishing  ISBN                         All that you touch you change  All that you change changes you 
+
+  Vinge  Vernor         A Fire Upon the Deep  Tor Books  ISBN                         The Singularity is coming 
+
+  Morozov  Evgeny     June         The True Threat of Artificial Intelligence   The New York Times  The real threat is not AI itself but the way we deploy it 
+
+   Impressed by artificial intelligence  Experts say AGI is coming next  and it has  existential  risks   ABC News     March       Retrieved   April       AGI could pose existential risks to humanity 
+
+  Bostrom  Nick         Superintelligence  Paths  Dangers  Strategies  Oxford University Press  ISBN                         The first superintelligence will be the last invention that humanity needs to make 
+
+  Roose  Kevin     May         A I  Poses  Risk of Extinction   Industry Leaders Warn   The New York Times  Mitigating the risk of extinction from AI should be a global priority 
+
+   Statement on AI Risk   Center for AI Safety  Retrieved   March       AI experts warn of risk of extinction from AI 
+
+  Mitchell  Melanie     May         Are AI s Doomsday Scenarios Worth Taking Seriously    The New York Times  We are far from creating machines that can outthink us in general ways 
+
+  LeCun  Yann  June         AGI does not present an existential risk   Medium  There is no reason to fear AI as an existential threat 
+
+  Kurzweil       p           
+
+  a b Kurzweil  Ray    August         Long Live AI   Forbes  archived from the original on    August       Kurzweil describes strong AI as  machine intelligence with the full range of human intelligence  
+
+   The Age of Artificial Intelligence  George John at TEDxLondonBusinessSchool        Archived from the original on    February       Retrieved    February      
+
+  a b Roser  Max    February         AI timelines  What do experts in artificial intelligence expect for the future    Our World in Data  Retrieved   April      
+
+  Newell  amp  Simon       This is the term they use for  human level  intelligence in the physical symbol system hypothesis 
+
+   The Open University on Strong and Weak AI   Archived from the original on    September       Retrieved   October      
+
+   What is artificial superintelligence  ASI     Definition from TechTarget   Enterprise AI  Retrieved   October      
+
+  Roser  Max     December         Artificial intelligence is transforming our world   it is on all of us to make sure that it goes well   Our World in Data  Retrieved   October      
+
+  Dickson  Ben     November         Here is how far we are to achieving AGI  according to DeepMind   VentureBeat 
+
+  McCarthy  John      a    Basic Questions   Stanford University  Archived from the original on    October       Retrieved   December      
+
+  This list of intelligent traits is based on the topics covered by major AI textbooks  including  Russell  amp  Norvig       Luger  amp  Stubblefield       Poole  Mackworth  amp  Goebel      and Nilsson      
+
+  Johnson     
+
+  de Charms  R          Personal causation  New York  Academic Press 
+
+  Van Eyghen  Hans          AI Algorithms as  Un virtuous Knowers   Discover Artificial Intelligence         doi         s                z 
+
+  a b Pfeifer  R  and Bongard J  C   How the body shapes the way we think  a new view of intelligence  The MIT Press         ISBN                   
+
+  a b White  R  W           Motivation reconsidered  The concept of competence   Psychological Review                   doi         h         PMID                S CID               
+
+   HAL        Robot Hall of Fame  Robot Hall of Fame  Carnegie Science Center  Archived from the original on    September       Retrieved    July      
+
+  Muehlhauser  Luke     August         What is AGI    Machine Intelligence Research Institute  Archived from the original on    April       Retrieved   May      
+
+   What is Artificial General Intelligence  AGI       Tests For Ensuring Artificial General Intelligence   Talky Blog     July       Archived from the original on    July       Retrieved    July      
+
+  Batson  Joshua   Forget the Turing Test  Here s How We Could Actually Measure AI   Wired  ISSN                 Retrieved    March      
+
+  a b Turing      
+
+  Turing  Alan         B  Jack Copeland  ed    Can Automatic Calculating Machines Be Said To Think   Oxford  Oxford University Press  pp                ISBN                           cite book    ISBN   Date incompatibility  help 
+
+   Eugene Goostman is a real boy   the Turing Test says so   The Guardian    June       ISSN                 Retrieved   March      
+
+   Scientists dispute whether computer  Eugene Goostman  passed Turing test   BBC News    June       Retrieved   March      
+
+  Kirk Giannini  Cameron Domenico  Goldstein  Simon     October         AI is closer than ever to passing the Turing test for  intelligence   What happens when it does    The Conversation  Retrieved    September      
+
+  Jones  Cameron R   Bergen  Benjamin K     May         People cannot distinguish GPT   from a human in a Turing test   arXiv             cs HC  
+
+  Jones  Cameron R   Bergen  Benjamin K      March         Large Language Models Pass the Turing Test   arXiv             cs CL  
+
+   AI model passes Turing Test better than a human   The Independent    April       Retrieved    April      
+
+  Varanasi  Lakshmi     March         AI models like ChatGPT and GPT   are acing everything from the bar exam to AP Biology  Here s a list of difficult exams both AI versions have passed   Business Insider  Retrieved    May      
+
+  Naysmith  Caleb    February           Jobs Artificial Intelligence Is Already Replacing and How Investors Can Capitalize on It   Retrieved    May      
+
+  Turk  Victoria     January         The Plan to Replace the Turing Test with a  Turing Olympics    Vice  Retrieved   March      
+
+  Gopani  Avi     May         Turing Test is unreliable  The Winograd Schema is obsolete  Coffee is the answer   Analytics India Magazine  Retrieved   March      
+
+  Bhaimiya  Sawdah     June         DeepMind s co founder suggested testing an AI chatbot s ability to turn          into    million to measure human like intelligence   Business Insider  Retrieved   March      
+
+  Suleyman  Mustafa     July         Mustafa Suleyman  My new Turing test would see if AI can make    million   MIT Technology Review  Retrieved   March      
+
+  Shapiro  Stuart C           Artificial Intelligence   PDF   In Stuart C  Shapiro  ed    Encyclopedia of Artificial Intelligence  Second      ed    New York  John Wiley  pp              Archived  PDF  from the original on   February        Section   is on  AI Complete Tasks   
+
+  Yampolskiy  Roman V          Xin She Yang  ed     Turing Test as a Defining Feature of AI Completeness   PDF   Artificial Intelligence  Evolutionary Computation and Metaheuristics        Archived  PDF  from the original on    May      
+
+   AI Index  State of AI in    Charts   Stanford University Human Centered Artificial Intelligence     April       Retrieved    May      
+
+  Crevier       pp            
+
+  Kaplan  Andreas          Artificial Intelligence  Business and Civilization   Our Fate Made in Machines   Archived from the original on   May       Retrieved    March      
+
+  Simon       p          quoted in Crevier       p          
+
+   Scientist on the Set  An Interview with Marvin Minsky   Archived from the original on    July       Retrieved   April      
+
+  Marvin Minsky to Darrach         quoted in Crevier        p            
+
+  Lighthill       Howe     
+
+  a b NRC        Shift to Applied Research Increases Investment  
+
+  Crevier       pp                Russell  amp  Norvig       pp             
+
+  Crevier       p            Russell  amp  Norvig       p          and see also Feigenbaum  amp  McCorduck     
+
+  Crevier       pp                              Russell  amp  Norvig       p          
+
+  Crevier       pp              
+
+  McCarthy  John          Reply to Lighthill   Stanford University  Archived from the original on    September       Retrieved    September      
+
+  Markoff  John     October         Behind Artificial Intelligence  a Squadron of Bright Real People   The New York Times  Archived from the original on   February       Retrieved    February       At its low point  some computer scientists and software engineers avoided the term artificial intelligence for fear of being viewed as wild eyed dreamers 
+
+  Russell  amp  Norvig       pp            
+
+   Trends in the Emerging Tech Hype Cycle   Gartner Reports  Archived from the original on    May       Retrieved   May      
+
+  a b Moravec       p         
+
+  Harnad  S           The Symbol Grounding Problem   Physica D                     arXiv cs          Bibcode     PhyD          H  doi                               S CID              
+
+  Gubrud     
+
+  Hutter  Marcus         Universal Artificial Intelligence  Sequential Decisions Based on Algorithmic Probability  Texts in Theoretical Computer Science an EATCS Series  Springer  doi         b        ISBN                         S CID                Archived from the original on    July       Retrieved    July      
+
+  Legg  Shane         Machine Super Intelligence  PDF   Thesis   University of Lugano  Archived  PDF  from the original on    June       Retrieved    July      
+
+  Goertzel  Ben         Artificial General Intelligence  Lecture Notes in Computer Science  Vol             Journal of Artificial General Intelligence  doi                            ISBN                         S CID              
+
+   Who coined the term  AGI     goertzel org  Archived from the original on    December       Retrieved    December        via Life       The term  AGI  was popularized by    Shane Legg  Mark Gubrud and Ben Goertzel 
+
+  Wang  amp  Goertzel     
+
+   First International Summer School in Artificial General Intelligence  Main summer school  June      July          OpenCog Lab  July             Archived from the original on    September       Retrieved    May      
+
+                                                             Elective courses             spring trimester                                             Faculty of Mathematics and Informatics   in Bulgarian   Archived from the original on    July       Retrieved    May      
+
+                                                          Elective courses             winter trimester                                             Faculty of Mathematics and Informatics   in Bulgarian   Archived from the original on    July       Retrieved    May      
+
+  Shevlin  Henry  Vold  Karina  Crosby  Matthew  Halina  Marta    October         The limits of machine intelligence  Despite progress in machine intelligence  artificial general intelligence is still a major challenge   EMBO Reports           e       doi          embr            ISSN              X  PMC               PMID               
+
+   Microsoft Researchers Claim GPT   Is Showing  Sparks  of AGI   Futurism     March       Retrieved    December      
+
+  Allen  Paul  Greaves  Mark     October         The Singularity Isn t Near   MIT Technology Review  Retrieved    September      
+
+  Winfield  Alan   Artificial intelligence will not turn into a Frankenstein s monster   The Guardian  Archived from the original on    September       Retrieved    September      
+
+  Deane  George          Machines That Feel and Think  The Role of Affective Feelings and Mental Action in  Artificial  General Intelligence   Artificial Life                   doi         artl a        ISSN                 PMID                S CID                
+
+  a b c Clocksin      
+
+  Fjelland  Ragnar     June         Why general artificial intelligence will not be realized   Humanities and Social Sciences Communications              doi         s                  hdl                ISSN                 S CID                
+
+  McCarthy     b 
+
+  Khatchadourian  Raffi     November         The Doomsday Invention  Will artificial intelligence bring us utopia or destruction    The New Yorker  Archived from the original on    January       Retrieved   February      
+
+  M ller  V  C    amp  Bostrom  N          Future progress in artificial intelligence  A survey of expert opinion  In Fundamental issues of artificial intelligence  pp            Springer  Cham 
+
+  Armstrong  Stuart  and Kaj Sotala         How We re Predicting AI or Failing To   In Beyond AI  Artificial Dreams  edited by Jan Romportl  Pavel Ircing  Eva    kov   Michal Pol k and Radek Schuster         Plze   University of West Bohemia
+
+   Microsoft Now Claims GPT   Shows  Sparks  of General Intelligence      March      
+
+  Shimek  Cary    July         AI Outperforms Humans in Creativity Test   Neuroscience News  Retrieved    October      
+
+  Guzik  Erik E   Byrge  Christian  Gilde  Christian    December         The originality of machines  AI takes the Torrance Test   Journal of Creativity                  doi         j yjoc              ISSN                 S CID                
+
+  Arcas  Blaise Ag era y     October         Artificial General Intelligence Is Already Here   Noema 
+
+  Zia  Tehseen    January         Unveiling of Large Multimodal Models  Shaping the Landscape of Language Models in        Unite ai  Retrieved    May      
+
+   Introducing OpenAI o  preview   OpenAI     September      
+
+  Knight  Will   OpenAI Announces a New AI Model  Code Named Strawberry  That Solves Difficult Problems Step by Step   Wired  ISSN                 Retrieved    September      
+
+   OpenAI Employee Claims AGI Has Been Achieved   Orbital Today     December       Retrieved    December      
+
+   AI Index  State of AI in    Charts   hai stanford edu     April       Retrieved   June      
+
+   Next Gen AI  OpenAI and Meta s Leap Towards Reasoning Machines   Unite ai     April       Retrieved   June      
+
+  James  Alex P           The Why  What  and How of Artificial General Intelligence Chip Development   IEEE Transactions on Cognitive and Developmental Systems                   arXiv             doi         TCDS               ISSN                 S CID                 Archived from the original on    August       Retrieved    August      
+
+  Pei  Jing  Deng  Lei  Song  Sen  Zhao  Mingguo  Zhang  Youhui  Wu  Shuang  Wang  Guanrui  Zou  Zhe  Wu  Zhenzhi  He  Wei  Chen  Feng  Deng  Ning  Wu  Si  Wang  Yu  Wu  Yujie          Towards artificial general intelligence with hybrid Tianjic chip architecture   Nature                       Bibcode     Natur         P  doi         s                  ISSN                 PMID                S CID                 Archived from the original on    August       Retrieved    August      
+
+  Pandey  Mohit  Fernandez  Michael  Gentile  Francesco  Isayev  Olexandr  Tropsha  Alexander  Stern  Abraham C   Cherkasov  Artem  March         The transformational role of GPU computing and deep learning in drug discovery   Nature Machine Intelligence                  doi         s                x  ISSN                 S CID                
+
+  Goertzel  amp  Pennachin      
+
+  a b c  Kurzweil       p           
+
+  a b c Goertzel      
+
+  Grace  Katja          Error in Armstrong and Sotala        AI Impacts  blog   Archived from the original on   December       Retrieved    August      
+
+  a b Butz  Martin V     March         Towards Strong AI   KI   K nstliche Intelligenz                  doi         s                x  ISSN                 S CID                
+
+  Liu  Feng  Shi  Yong  Liu  Ying          Intelligence Quotient and Intelligence Grade of Artificial Intelligence   Annals of Data Science                  arXiv             doi         s                  S CID               
+
+  Brien  J rn    October         Google KI doppelt so schlau wie Siri       Google AI is twice as smart as Siri   but a six year old beats both       in German   Archived from the original on   January       Retrieved   January      
+
+  Grossman  Gary    September         We re entering the AI twilight zone between narrow and general AI   VentureBeat  Archived from the original on   September       Retrieved   September       Certainly  too  there are those who claim we are already seeing an early example of an AGI system in the recently announced GPT   natural language processing  NLP  neural network      So is GPT   the first example of an AGI system  This is debatable  but the consensus is that it is not AGI      If nothing else  GPT   tells us there is a middle ground between narrow and general AI 
+
+  Quach  Katyanna   A developer built an AI chatbot using GPT   that helped a man speak again to his late fianc e  OpenAI shut it down   The Register  Archived from the original on    October       Retrieved    October      
+
+  Wiggers  Kyle     May         DeepMind s new AI can perform over     tasks  from playing games to controlling robots   TechCrunch  archived from the original on    June       retrieved    June     
+
+  Metz  Cade    May          The Godfather of A I   Leaves Google and Warns of Danger Ahead   The New York Times  ISSN                 Retrieved   June      
+
+    Godfather of AI  shortens odds of the technology wiping out humanity over next    years   The Guardian     December       Retrieved    April      
+
+  Bove  Tristan   A I  could rival human intelligence in  just a few years   says CEO of Google s main A I  research lab   Fortune  Retrieved   September      
+
+  Nellis  Stephen    March         Nvidia CEO says AI could pass human tests in five years   Reuters 
+
+  Aschenbrenner  Leopold   SITUATIONAL AWARENESS  The Decade Ahead  
+
+  Sullivan  Mark     October         Why everyone seems to disagree on how to define Artificial General Intelligence   Fast Company 
+
+  Nosta  John    January         The Accelerating Path to Artificial General Intelligence   Psychology Today  Retrieved    March      
+
+  Hickey  Alex   Whole Brain Emulation  A Giant Step for Neuroscience   Tech Brew  Retrieved   November      
+
+  Sandberg  amp  Bostr m      
+
+  Drachman      
+
+  a b Russell  amp  Norvig      
+
+  Moravec       p          
+
+  Moravec      
+
+  Holmgaard Mersh  Amalie     September         Decade long European research project maps the human brain   euractiv 
+
+  Swaminathan  Nikhil  January February         Glia the other brain cells   Discover  Archived from the original on   February       Retrieved    January      
+
+  de Vega  Glenberg  amp  Graesser       A wide range of views in current research  all of which require grounding to some degree
+
+  Thornton  Angela     June         How uploading our minds to a computer might become possible   The Conversation  Retrieved   November      
+
+  Searle     
+
+  For example 
+
+Russell  amp  Norvig      
+Oxford University Press Dictionary of Psychology Archived   December      at the Wayback Machine  quoted in   Encyclopedia com   
+MIT Encyclopedia of Cognitive Science Archived    July      at the Wayback Machine  quoted in  AITopics   
+Will Biological Computers Enable Artificially Intelligent Machines to Become Persons  Archived    May      at the Wayback Machine Anthony Tongen
+
+  a b c Russell  amp  Norvig       p           
+
+  though see Explainable artificial intelligence for curiosity by the field about why a program behaves the way it does
+
+  Chalmers  David J     August         Could a Large Language Model Be Conscious    Boston Review 
+
+  Seth  Anil   Consciousness   New Scientist  Retrieved   September      
+
+  Nagel      
+
+   The Google engineer who thinks the company s AI has come to life   The Washington Post     June       Retrieved    June      
+
+  Kateman  Brian     July         AI Should Be Terrified of Humans   TIME  Retrieved   September      
+
+  Nosta  John     December         Should Artificial Intelligence Have Rights    Psychology Today  Retrieved   September      
+
+  Akst  Daniel     April         Should Robots With Artificial Intelligence Have Moral or Legal Rights    The Wall Street Journal 
+
+   Artificial General Intelligence   Do     es      the cost outweigh benefits       August       Retrieved   June      
+
+   How we can Benefit from Advancing Artificial General Intelligence  AGI    Unite AI   www unite ai    April       Retrieved   June      
+
+  a b c Talty  Jules  Julien  Stephan   What Will Our Society Look Like When Artificial Intelligence Is Everywhere    Smithsonian Magazine  Retrieved   June      
+
+  a b Stevenson  Matt    October         Answers to Stephen Hawking s AMA are Here    Wired  ISSN                 Retrieved   June      
+
+  a b Bostrom  Nick            Preferred order of arrival   Superintelligence  paths  dangers  strategies  Reprinted with corrections           ed    Oxford  United Kingdom  New York  New York  USA  Oxford University Press  ISBN                        
+
+  Piper  Kelsey     November         How technological progress is making it likelier than ever that humans will destroy ourselves   Vox  Retrieved   June      
+
+  Yampolskiy  Roman  Duettmann  Allison         Artificial Superintelligence  Coordination  amp  Strategy  MDPI   Multidisciplinary Digital Publishing Institute  ISBN                        
+
+  Topol  Eric J   Verghese  Abraham         Deep medicine  how artificial intelligence can make healthcare human again  First      ed    New York  NY  Basic Books  ISBN                        
+
+  Jumper  John  Evans  Richard  Pritzel  Alexander  Green  Tim  Figurnov  Michael  Ronneberger  Olaf  Tunyasuvunakool  Kathryn  Bates  Russ    dek  Augustin  Potapenko  Anna  Bridgland  Alex  Meyer  Clemens  Kohl  Simon A  A   Ballard  Andrew J   Cowie  Andrew  August         Highly accurate protein structure prediction with AlphaFold   Nature                       Bibcode     Natur         J  doi         s                   ISSN                 PMC               PMID               
+
+  Alowais  Shuroug A   Alghamdi  Sahar S   Alsuhebany  Nada  Alqahtani  Tariq  Alshaya  Abdulrahman I   Almohareb  Sumaya N   Aldairem  Atheer  Alrashed  Mohammed  Bin Saleh  Khalid  Badreldin  Hisham A   Al Yami  Majed S   Al Harbi  Shmeylan  Albekairy  Abdulkareem M      September         Revolutionizing healthcare  the role of artificial intelligence in clinical practice   BMC Medical Education               doi         s                z  ISSN                 PMC                PMID               
+
+  a b Tegmark  Max         Life      being human in the age of artificial intelligence  A Borzoi book  New York  Alfred A  Knopf  ISBN                        
+
+  a b Brynjolfsson  Erik  McAfee  Andrew         The second machine age  work  progress  and prosperity in a time of brilliant technologies  First published as a Norton paperback      ed    New York London  W  W  Norton  amp  Company  ISBN                        
+
+  Zhai  Xuesong  Chu  Xiaoyan  Chai  Ching Sing  Jong  Morris Siu Yung  Istenic  Andreja  Spector  Michael  Liu  Jia Bao  Yuan  Jing  Li  Yan          A Review of Artificial Intelligence  AI  in Education from      to        Complexity                     doi                       ISSN                
+
+  Bostrom  Nick         Superintelligence  paths  dangers  strategies  Reprinted with corrections      ed    Oxford  Oxford University Press  ISBN                        
+
+  Crawford  Kate         Atlas of AI  power  politics  and the planetary costs of artificial intelligence  New Haven  Yale University Press  ISBN                        
+
+   Artificial Intelligence and Conservation   Pages   WWF   World Wildlife Fund  Retrieved    April      
+
+  Rolnick  David  Donti  Priya L   Kaack  Lynn H   Kochanski  Kelly  Lacoste  Alexandre  Sankaran  Kris  Andrew Slavin Ross  Milojevic Dupont  Nikola  Jaques  Natasha  Waldman Brown  Anna  Luccioni  Alexandra  Maharaj  Tegan  Sherwin  Evan D   Karthik Mukkavilli  S   Kording  Konrad P   Gomes  Carla  Ng  Andrew Y   Hassabis  Demis  Platt  John C   Creutzig  Felix  Chayes  Jennifer  Bengio  Yoshua          Tackling Climate Change with Machine Learning   arXiv             cs CY  
+
+  Tegmark  M          Life      Being Human in the Age of Artificial Intelligence  Penguin Books 
+
+  Doherty  Ben     May         Climate change an  existential security risk  to Australia  Senate inquiry says   The Guardian  ISSN                 Retrieved    July      
+
+  MacAskill  William         What we owe the future  New York  NY  Basic Books  ISBN                        
+
+  a b Ord  Toby          Chapter    Future Risks  Unaligned Artificial Intelligence   The Precipice  Existential Risk and the Future of Humanity  Bloomsbury Publishing  ISBN                        
+
+  Al Sibai  Noor     February         OpenAI Chief Scientist Says Advanced AI May Already Be Conscious   Futurism  Retrieved    December      
+
+  Samuelsson  Paul Conrad          Artificial Consciousness  Our Greatest Ethical Challenge   Philosophy Now  Retrieved    December      
+
+  Kateman  Brian     July         AI Should Be Terrified of Humans   TIME  Retrieved    December      
+
+  Roose  Kevin     May         A I  Poses  Risk of Extinction   Industry Leaders Warn   The New York Times  ISSN                 Retrieved    December      
+
+  a b  Statement on AI Risk   Center for AI Safety     May       Retrieved   June      
+
+   Stephen Hawking   Transcendence looks at the implications of artificial intelligence        but are we taking AI seriously enough     The Independent  UK   Archived from the original on    September       Retrieved   December      
+
+  Herger  Mario   The Gorilla Problem   Enterprise Garage   Retrieved   June      
+
+   The fascinating Facebook debate between Yann LeCun  Stuart Russel and Yoshua Bengio about the risks of strong AI   The fascinating Facebook debate between Yann LeCun  Stuart Russel and Yoshua Bengio about the risks of strong AI  in French   Retrieved   June      
+
+   Will Artificial Intelligence Doom The Human Race Within The Next     Years    HuffPost     August       Retrieved   June      
+
+  Sotala  Kaj  Yampolskiy  Roman V      December         Responses to catastrophic AGI risk  a survey   Physica Scripta                  doi                                ISSN                
+
+  Bostrom  Nick         Superintelligence  Paths  Dangers  Strategies  First      ed    Oxford University Press  ISBN                        
+
+  Chow  Andrew R   Perrigo  Billy     February         The AI Arms Race Is On  Start Worrying   TIME  Retrieved    December      
+
+  Tetlow  Gemma     January         AI arms race risks spiralling out of control  report warns   Financial Times  Archived from the original on    April       Retrieved    December      
+
+  Milmo  Dan  Stacey  Kiran     September         Experts disagree over threat posed but artificial intelligence cannot be ignored   The Guardian  ISSN                 Retrieved    December      
+
+   Humanity  Security  amp  AI  Oh My   with Ian Bremmer  amp  Shuman Ghosemajumder    CAFE     July       Retrieved    September      
+
+  Hamblin  James    May         But What Would the End of Humanity Mean for Me    The Atlantic  Archived from the original on   June       Retrieved    December      
+
+  Titcomb  James     October         Big Tech is stoking fears over AI  warn scientists   The Telegraph  Retrieved   December      
+
+  Davidson  John     October         Google Brain founder says big tech is lying about AI extinction danger   Australian Financial Review  Archived from the original on   December       Retrieved   December      
+
+  Eloundou  Tyna  Manning  Sam  Mishkin  Pamela  Rock  Daniel     March         GPTs are GPTs  An early look at the labor market impact potential of large language models   OpenAI  Retrieved   June      
+
+  a b Hurst  Luke     March         OpenAI says     of workers could see their jobs impacted by AI  These are the jobs most affected   euronews  Retrieved   June      
+
+  Sheffey  Ayelet     August         Elon Musk says we need universal basic income because  in the future  physical work will be a choice    Business Insider  Archived from the original on   July       Retrieved   June      
+
+
+Sources edit 
+
+UNESCO Science Report  the Race Against Time for Smarter Development  Paris  UNESCO     June       ISBN                         Archived from the original on    June       Retrieved    September      
+Chalmers  David         The Conscious Mind  Oxford University Press 
+Clocksin  William  August         Artificial intelligence and the future   Philosophical Transactions of the Royal Society A  vol            no             pp                  Bibcode     RSPTA         C  doi         rsta            PMID                S CID              
+Crevier  Daniel         AI  The Tumultuous Search for Artificial Intelligence  New York  NY  BasicBooks  ISBN                    
+Darrach  Brad     November         Meet Shakey  the First Electronic Person   Life Magazine  pp            
+Drachman  D           Do we have brain to spare    Neurology                      doi            WNL                  BB  PMID                S CID              
+Feigenbaum  Edward A   McCorduck  Pamela         The Fifth Generation  Artificial Intelligence and Japan s Computer Challenge to the World  Michael Joseph  ISBN                       
+Goertzel  Ben  Pennachin  Cassio  eds          Artificial General Intelligence  PDF   Springer  ISBN                         archived from the original  PDF  on    March     
+Goertzel  Ben  December         Human level artificial general intelligence and the possibility of a technological singularity  a reaction to Ray Kurzweil s The Singularity Is Near  and McDermott s critique of Kurzweil   Artificial Intelligence  vol            no           Special Review Issue  pp                  doi         j artint              archived from the original on   January       retrieved   April     
+Gubrud  Mark  November         Nanotechnology and International Security   Fifth Foresight Conference on Molecular Nanotechnology  archived from the original on    May       retrieved   May     
+Howe  J   November        Artificial Intelligence at Edinburgh University  a Perspective  archived from the original on    August       retrieved    August     
+Johnson  Mark         The body in the mind  Chicago  ISBN                       
+Kurzweil  Ray         The Singularity is Near  Viking Press
+Lighthill  Professor Sir James          Artificial Intelligence  A General Survey   Artificial Intelligence  a paper symposium  Science Research Council
+Luger  George  Stubblefield  William         Artificial Intelligence  Structures and Strategies for Complex Problem Solving   th      ed    The Benjamin Cummings Publishing Company  Inc   p            ISBN                       
+McCarthy  John      b   What is Artificial Intelligence   Stanford University  The ultimate effort is to make computer programs that can solve problems and achieve goals in the world as well as humans 
+Moravec  Hans         Mind Children  Harvard University Press
+Moravec  Hans          When will computer hardware match the human brain    Journal of Evolution and Technology  vol          archived from the original on    June       retrieved    June     
+Nagel          What Is it Like to Be a Bat   PDF   Philosophical Review                  doi                  JSTOR               archived  PDF  from the original on    October       retrieved   November     
+Newell  Allen  Simon  H  A           Computer Science as Empirical Inquiry  Symbols and Search   Communications of the ACM                   doi                       
+Nilsson  Nils         Artificial Intelligence  A New Synthesis  Morgan Kaufmann Publishers  ISBN                       
+NRC          Developments in Artificial Intelligence   Funding a Revolution  Government Support for Computing Research  National Academy Press  archived from the original on    January       retrieved    September     
+Poole  David  Mackworth  Alan  Goebel  Randy         Computational Intelligence  A Logical Approach  New York  Oxford University Press  archived from the original on    July       retrieved   December     
+Russell  Stuart J   Norvig  Peter         Artificial Intelligence  A Modern Approach   nd      ed    Upper Saddle River  New Jersey  Prentice Hall  ISBN                   
+Sandberg  Anders  Bostr m  Nick         Whole Brain Emulation  A Roadmap  PDF   Technical Report          Future of Humanity Institute  Oxford University  archived  PDF  from the original on    March       retrieved   April     
+Searle  John          Minds  Brains and Programs   PDF   Behavioral and Brain Sciences                  doi         S       X          S CID                archived  PDF  from the original on    March       retrieved   September     
+Simon  H  A          The Shape of Automation for Men and Management  New York  Harper  amp  Row
+Turing  Alan  October         Computing Machinery and Intelligence   Mind                     doi         mind LIX          ISSN                 JSTOR               S CID               
+de Vega  Manuel  Glenberg  Arthur  Graesser  Arthur  eds          Symbols and Embodiment  Debates on meaning and cognition  Oxford University Press  ISBN                       
+Wang  Pei  Goertzel  Ben          Introduction  Aspects of Artificial General Intelligence   Advances in Artificial General Intelligence  Concepts  Architectures and Algorithms  Proceedings of the AGI Workshop       IOS Press  pp             ISBN                         Archived from the original on    February       Retrieved    December              via ResearchGate 
+
+Further reading edit 
+
+Aleksander  Igor         Impossible Minds  World Scientific Publishing Company  ISBN                       
+Azevedo FA  Carvalho LR  Grinberg LT  Farfel J  et      al   April         Equal numbers of neuronal and nonneuronal cells make the human brain an isometrically scaled up primate brain   The Journal of Comparative Neurology                    doi         cne        PMID                S CID               archived from the original on    February       retrieved   September              via ResearchGate
+Berglas  Anthony  January               Artificial Intelligence Will Kill Our Grandchildren  Singularity   archived from the original on    July       retrieved    August     
+Cukier  Kenneth   Ready for Robots  How to Think about the Future of AI   Foreign Affairs  vol      no     July August        pp               George Dyson  historian of computing  writes  in what might be called  Dyson s Law   that  Any system simple enough to be understandable will not be complicated enough to behave intelligently  while any system complicated enough to behave intelligently will be too complicated to understand    p             Computer scientist Alex Pentland writes   Current AI machine learning algorithms are  at their core  dead simple stupid  They work  but they work by brute force    p            
+Gelernter  David  Dream logic  the Internet and Artificial Thought  Edge  archived from the original on    July       retrieved    July     
+Gleick  James   The Fate of Free Will   review of Kevin J  Mitchell  Free Agents  How Evolution Gave Us Free Will  Princeton University Press            pp    The New York Review of Books  vol  LXXI  no        January        pp                   Agency is what distinguishes us from machines  For biological creatures  reason and purpose come from acting in the world and experiencing the consequences  Artificial intelligences   disembodied  strangers to blood  sweat  and tears   have no occasion for that    p           
+Halal  William E   TechCast Article Series  The Automation of Thought   PDF   Archived from the original  PDF  on   June      
+Halpern  Sue   The Coming Tech Autocracy   review of Verity Harding  AI Needs You  How We Can Change AI s Future and Save Our Own  Princeton University Press      pp   Gary Marcus  Taming Silicon Valley  How We Can Ensure That AI Works for Us  MIT Press      pp   Daniela Rus and Gregory Mone  The Mind s Mirror  Risk and Reward in the Age of AI  Norton      pp   Madhumita Murgia  Code Dependent  Living in the Shadow of AI  Henry Holt      pp    The New York Review of Books  vol  LXXI  no        November        pp                We can t realistically expect that those who hope to get rich from AI are going to have the interests of the rest of us close at heart       writes  Gary Marcus    We can t count on governments driven by campaign finance contributions  from tech companies  to push back      Marcus details the demands that citizens should make of their governments and the tech companies  They include transparency on how AI systems work  compensation for individuals if their data  are  used to train LLMs  large language model s and the right to consent to this use  and the ability to hold tech companies liable for the harms they cause by eliminating Section      imposing cash penalites  and passing stricter product liability laws    Marcus also suggests    that a new  AI specific federal agency  akin to the FDA  the FCC  or the FTC  might provide the most robust oversight      T he Fordham law professor Chinmayi Sharma    suggests    establish ing  a professional licensing regime for engineers that would function in a similar way to medical licenses  malpractice suits  and the Hippocratic oath in medicine   What if  like doctors   she asks      AI engineers also vowed to do no harm     p           
+Holte  R  C   Choueiry  B  Y           Abstraction and reformulation in artificial intelligence   Philosophical Transactions of the Royal Society B  vol            no             pp                  doi         rstb            PMC               PMID              
+Hughes Castleberry  Kenna   A Murder Mystery Puzzle  The literary puzzle Cain s Jawbone  which has stumped humans for decades  reveals the limitations of natural language processing algorithms   Scientific American  vol       no     November        pp               This murder mystery competition has revealed that although NLP  natural language processing  models are capable of incredible feats  their abilities are very much limited by the amount of context they receive  This       could cause  difficulties  for researchers who hope to use them to do things such as analyze ancient languages  In some cases  there are few historical records on long gone civilizations to serve as training data for such a purpose    p           
+Immerwahr  Daniel   Your Lying Eyes  People now use A I  to generate fake videos indistinguishable from real ones  How much does it matter    The New Yorker     November       pp               If by  deepfakes  we mean realistic videos produced using artificial intelligence that actually deceive people  then they barely exist  The fakes aren t deep  and the deeps aren t fake        A I  generated videos are not  in general  operating in our media as counterfeited evidence  Their role better resembles that of cartoons  especially smutty ones    p           
+Leffer  Lauren   The Risks of Trusting AI  We must avoid humanizing machine learning models used in scientific research   Scientific American  vol       no     June        pp             
+Lepore  Jill   The Chit Chatbot  Is talking with a machine a conversation    The New Yorker    October       pp             
+Marcus  Gary   Artificial Confidence  Even the newest  buzziest systems of artificial general intelligence are stymmied by the same old problems   Scientific American  vol       no     October        pp             
+McCarthy  John  October         From here to human level AI   Artificial Intelligence                       doi         j artint            
+McCorduck  Pamela         Machines Who Think   nd      ed    Natick  Massachusetts  A  K  Peters  ISBN                   
+Moravec  Hans         The Role of Raw Power in Intelligence  archived from the original on   March       retrieved    September     
+Newell  Allen  Simon  H  A           GPS  A Program that Simulates Human Thought   in Feigenbaum  E  A   Feldman  J   eds    Computers and Thought  New York  McGraw Hill
+Omohundro  Steve         The Nature of Self Improving Artificial Intelligence  presented and distributed at the      Singularity Summit  San Francisco  California
+Press  Eyal   In Front of Their Faces  Does facial recognition technology lead police to ignore contradictory evidence    The New Yorker     November       pp             
+Roivainen  Eka   AI s IQ  ChatGPT aced a  standard intelligence  test but showed that intelligence cannot be measured by IQ alone   Scientific American  vol       no     July August        p           Despite its high IQ  ChatGPT fails at tasks that require real humanlike reasoning or an understanding of the physical and social world     ChatGPT seemed unable to reason logically and tried to rely on its vast database of    facts derived from online texts  
+Scharre  Paul   Killer Apps   The Real Dangers of an AI Arms Race   Foreign Affairs  vol      no     May June        pp                 Today s AI technologies are powerful but unreliable   Rules based systems cannot deal with circumstances their programmers did not anticipate   Learning systems are limited by the data on which they were trained   AI failures have already led to tragedy   Advanced autopilot features in cars  although they perform well in some circumstances  have driven cars without warning into trucks  concrete barriers  and parked cars   In the wrong situation  AI systems go from supersmart to superdumb in an instant   When an enemy is trying to manipulate and hack an AI system  the risks are even greater     p            
+Sutherland  J  G           Holographic Model of Memory  Learning  and Expression   International Journal of Neural Systems  vol            pp              
+Vincent  James   Horny Robot Baby Voice  James Vincent on AI chatbots   London Review of Books  vol      no         October        pp                AI chatbot  programs are made possible by new technologies but rely on the timelelss human tendency to anthropomorphise    p           
+Williams  R  W   Herrup  K           The control of neuron number   Annual Review of Neuroscience               doi         annurev ne                   PMID             
+Yudkowsky  Eliezer          Artificial General Intelligence   PDF   Annual Review of Psychology      Springer           doi         annurev psych           ISBN                         PMID               archived from the original  PDF  on    April     
+Yudkowsky  Eliezer          Artificial Intelligence as a Positive and Negative Factor in Global Risk   Global Catastrophic Risks  Bibcode     gcr  book     Y  doi         oso                         ISBN                       
+Zucker  Jean Daniel  July         A grounded theory of abstraction in artificial intelligence   Philosophical Transactions of the Royal Society B  vol            no             pp                  doi         rstb            PMC               PMID              
+
+External links edit 
+The AGI portal maintained by Pei Wang
+vteArtificial intelligence  AI History  timeline Concepts
+Parameter
+Hyperparameter
+Loss functions
+Regression
+Bias variance tradeoff
+Double descent
+Overfitting
+Clustering
+Gradient descent
+SGD
+Quasi Newton method
+Conjugate gradient method
+Backpropagation
+Attention
+Convolution
+Normalization
+Batchnorm
+Activation
+Softmax
+Sigmoid
+Rectifier
+Gating
+Weight initialization
+Regularization
+Datasets
+Augmentation
+Prompt engineering
+Reinforcement learning
+Q learning
+SARSA
+Imitation
+Policy gradient
+Diffusion
+Latent diffusion model
+Autoregression
+Adversary
+RAG
+Uncanny valley
+RLHF
+Self supervised learning
+Recursive self improvement
+Word embedding
+Hallucination
+Applications
+Machine learning
+In context learning
+Artificial neural network
+Deep learning
+Language model
+Large language model
+NMT
+Artificial general intelligence  AGI 
+ImplementationsAudio visual
+AlexNet
+WaveNet
+Human image synthesis
+HWR
+OCR
+Speech synthesis
+   ai
+ElevenLabs
+Speech recognition
+Whisper
+Facial recognition
+AlphaFold
+Text to image models
+Aurora
+DALL E
+Firefly
+Flux
+Ideogram
+Imagen
+Midjourney
+Stable Diffusion
+Text to video models
+Dream Machine
+Runway Gen
+Hailuo AI
+Kling
+Sora
+Veo
+Music generation
+Suno AI
+Udio
+Text
+Word vec
+Seq seq
+GloVe
+BERT
+T 
+Llama
+Chinchilla AI
+PaLM
+GPT
+ 
+ 
+ 
+J
+ChatGPT
+ 
+ o
+o 
+o 
+   
+   
+o 
+Claude
+Gemini
+chatbot
+Grok
+LaMDA
+BLOOM
+Project Debater
+IBM Watson
+IBM Watsonx
+Granite
+PanGu  
+DeepSeek
+Qwen
+Decisional
+AlphaGo
+AlphaZero
+OpenAI Five
+Self driving car
+MuZero
+Action selection
+AutoGPT
+Robot control
+People
+Alan Turing
+Warren Sturgis McCulloch
+Walter Pitts
+John von Neumann
+Claude Shannon
+Marvin Minsky
+John McCarthy
+Nathaniel Rochester
+Allen Newell
+Cliff Shaw
+Herbert A  Simon
+Oliver Selfridge
+Frank Rosenblatt
+Bernard Widrow
+Joseph Weizenbaum
+Seymour Papert
+Seppo Linnainmaa
+Paul Werbos
+J rgen Schmidhuber
+Yann LeCun
+Geoffrey Hinton
+John Hopfield
+Yoshua Bengio
+Lotfi A  Zadeh
+Stephen Grossberg
+Alex Graves
+Andrew Ng
+Fei Fei Li
+Alex Krizhevsky
+Ilya Sutskever
+Demis Hassabis
+David Silver
+Ian Goodfellow
+Andrej Karpathy
+James Goodnight
+Architectures
+Neural Turing machine
+Differentiable neural computer
+Transformer
+Vision transformer  ViT 
+Recurrent neural network  RNN 
+Long short term memory  LSTM 
+Gated recurrent unit  GRU 
+Echo state network
+Multilayer perceptron  MLP 
+Convolutional neural network  CNN 
+Residual neural network  RNN 
+Highway network
+Mamba
+Autoencoder
+Variational autoencoder  VAE 
+Generative adversarial network  GAN 
+Graph neural network  GNN 
+
+ Portals
+Technology
+ Category
+Artificial neural networks
+Machine learning
+ List
+Companies
+Projects
+
+vteExistential risk from artificial intelligenceConcepts
+AGI
+AI alignment
+AI capability control
+AI safety
+AI takeover
+Consequentialism
+Effective accelerationism
+Ethics of artificial intelligence
+Existential risk from artificial intelligence
+Friendly artificial intelligence
+Instrumental convergence
+Vulnerable world hypothesis
+Intelligence explosion
+Longtermism
+Machine ethics
+Suffering risks
+Superintelligence
+Technological singularity
+Organizations
+Alignment Research Center
+Center for AI Safety
+Center for Applied Rationality
+Center for Human Compatible Artificial Intelligence
+Centre for the Study of Existential Risk
+EleutherAI
+Future of Humanity Institute
+Future of Life Institute
+Google DeepMind
+Humanity 
+Institute for Ethics and Emerging Technologies
+Leverhulme Centre for the Future of Intelligence
+Machine Intelligence Research Institute
+OpenAI
+People
+Scott Alexander
+Sam Altman
+Yoshua Bengio
+Nick Bostrom
+Paul Christiano
+Eric Drexler
+Sam Harris
+Stephen Hawking
+Dan Hendrycks
+Geoffrey Hinton
+Bill Joy
+Shane Legg
+Elon Musk
+Steve Omohundro
+Huw Price
+Martin Rees
+Stuart J  Russell
+Jaan Tallinn
+Max Tegmark
+Frank Wilczek
+Roman Yampolskiy
+Eliezer Yudkowsky
+Other
+Statement on AI risk of extinction
+Human Compatible
+Open letter on artificial intelligence       
+Our Final Invention
+The Precipice
+Superintelligence  Paths  Dangers  Strategies
+Do You Trust This Computer 
+Artificial Intelligence Act
+ Category
+
+
+
+
+
+Retrieved from  https   en wikipedia org w index php title Artificial general intelligence amp oldid

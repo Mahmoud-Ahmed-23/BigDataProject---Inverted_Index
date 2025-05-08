@@ -1,0 +1,1994 @@
+Study of correct reasoning
+This article is about the study of correct reasoning  For other uses  see Logic  disambiguation  and Logician  disambiguation  
+ Logical  and  Logically  redirect here  For the rapper  see Logic  rapper   For the British company  see Logically  company  
+
+
+
+Logic studies valid forms of inference like modus ponens 
+Logic is the study of correct reasoning  It includes both formal and informal logic  Formal logic is the study of deductively valid inferences or logical truths  It examines how conclusions follow from premises based on the structure of arguments alone  independent of their topic and content  Informal logic is associated with informal fallacies  critical thinking  and argumentation theory  Informal logic examines arguments expressed in natural language whereas formal logic uses formal language  When used as a countable noun  the term  a logic  refers to a specific logical formal system that articulates a proof system  Logic plays a central role in many fields  such as philosophy  mathematics  computer science  and linguistics 
+Logic studies arguments  which consist of a set of premises that leads to a conclusion  An example is the argument from the premises  it s Sunday  and  if it s Sunday then I don t have to work  leading to the conclusion  I don t have to work              Premises and conclusions express propositions or claims that can be true or false  An important feature of propositions is their internal structure  For example  complex propositions are made up of simpler propositions linked by logical vocabulary like 
+  
+    
+      
+          x     
+      
+    
+      displaystyle  land  
+  
+  and  or 
+  
+    
+      
+          x     
+      
+    
+      displaystyle  to  
+  
+  if   then   Simple propositions also have parts  like  Sunday  or  work  in the example  The truth of a proposition usually depends on the meanings of all of its parts  However  this is not the case for logically true propositions  They are true only because of their logical structure independent of the specific meanings of the individual parts 
+Arguments can be either correct or incorrect  An argument is correct if its premises support its conclusion  Deductive arguments have the strongest form of support  if their premises are true then their conclusion must also be true  This is not the case for ampliative arguments  which arrive at genuinely new information not found in the premises  Many arguments in everyday discourse and the sciences are ampliative arguments  They are divided into inductive and abductive arguments  Inductive arguments are statistical generalizations  such as inferring that all ravens are black based on many individual observations of black ravens             Abductive arguments are inferences to the best explanation  for example  when a doctor concludes that a patient has a certain disease which explains the symptoms they suffer             Arguments that fall short of the standards of correct reasoning often embody fallacies  Systems of logic are theoretical frameworks for assessing the correctness of arguments 
+Logic has been studied since antiquity  Early approaches include Aristotelian logic  Stoic logic  Nyaya  and Mohism  Aristotelian logic focuses on reasoning in the form of syllogisms  It was considered the main system of logic in the Western world until it was replaced by modern formal logic  which has its roots in the work of late   th century mathematicians such as Gottlob Frege  Today  the most commonly used system is classical logic  It consists of propositional logic and first order logic  Propositional logic only considers logical relations between full propositions  First order logic also takes the internal parts of propositions into account  like predicates and quantifiers  Extended logics accept the basic intuitions behind classical logic and apply it to other fields  such as metaphysics  ethics  and epistemology  Deviant logics  on the other hand  reject certain classical intuitions and provide alternative explanations of the basic laws of logic 
+
+
+Definition edit 
+The word  logic  originates from the Greek word logos  which has a variety of translations  such as reason  discourse  or language             Logic is traditionally defined as the study of the laws of thought or correct reasoning             and is usually understood in terms of inferences or arguments  Reasoning is the activity of drawing inferences  Arguments are the outward expression of inferences             An argument is a set of premises together with a conclusion  Logic is interested in whether arguments are correct  i e  whether their premises support the conclusion             These general characterizations apply to logic in the widest sense  i e   to both formal and informal logic since they are both concerned with assessing the correctness of arguments             Formal logic is the traditionally dominant field  and some logicians restrict logic to formal logic            
+
+Formal logic edit 
+Further information  Formal system
+Formal logic  also known as symbolic logic  is widely used in mathematical logic  It uses a formal approach to study reasoning  it replaces concrete expressions with abstract symbols to examine the logical form of arguments independent of their concrete content  In this sense  it is topic neutral since it is only concerned with the abstract structure of arguments and not with their concrete content             
+Formal logic is interested in deductively valid arguments  for which the truth of their premises ensures the truth of their conclusion  This means that it is impossible for the premises to be true and the conclusion to be false              For valid arguments  the logical structure of the premises and the conclusion follows a pattern called a rule of inference              For example  modus ponens is a rule of inference according to which all arguments of the form           p           if p then q           therefore q  are valid  independent of what the terms p and q stand for              In this sense  formal logic can be defined as the science of valid inferences  An alternative definition sees logic as the study of logical truths              A proposition is logically true if its truth depends only on the logical vocabulary used in it  This means that it is true in all possible worlds and under all interpretations of its non logical terms  like the claim  either it is raining  or it is not               These two definitions of formal logic are not identical  but they are closely related  For example  if the inference from p to q is deductively valid then the claim  if p then q  is a logical truth             
+
+Formal logic needs to translate natural language arguments into a formal language  like first order logic  to assess whether they are valid  In this example  the letter  c  represents Carmen while the letters  M  and  T  stand for  Mexican  and  teacher   The symbol     has the meaning of  and  
+Formal logic uses formal languages to express and analyze arguments              They normally have a very limited vocabulary and exact syntactic rules  These rules specify how their symbols can be combined to construct sentences  so called well formed formulas              This simplicity and exactness of formal logic make it capable of formulating precise rules of inference  They determine whether a given argument is valid              Because of the reliance on formal language  natural language arguments cannot be studied directly  Instead  they need to be translated into formal language before their validity can be assessed             
+The term  logic  can also be used in a slightly different sense as a countable noun  In this sense  a logic is a logical formal system  Distinct logics differ from each other concerning the rules of inference they accept as valid and the formal languages used to express them              Starting in the late   th century  many new formal systems have been proposed  There are disagreements about what makes a formal system a logic              For example  it has been suggested that only logically complete systems  like first order logic  qualify as logics  For such reasons  some theorists deny that higher order logics are logics in the strict sense             
+
+Informal logic edit 
+Main article  Informal logic
+When understood in a wide sense  logic encompasses both formal and informal logic              Informal logic uses non formal criteria and standards to analyze and assess the correctness of arguments  Its main focus is on everyday discourse              Its development was prompted by difficulties in applying the insights of formal logic to natural language arguments              In this regard  it considers problems that formal logic on its own is unable to address              Both provide criteria for assessing the correctness of arguments and distinguishing them from fallacies             
+Many characterizations of informal logic have been suggested but there is no general agreement on its precise definition              The most literal approach sees the terms  formal  and  informal  as applying to the language used to express arguments  On this view  informal logic studies arguments that are in informal or natural language              Formal logic can only examine them indirectly by translating them first into a formal language while informal logic investigates them in their original form              On this view  the argument  Birds fly  Tweety is a bird  Therefore  Tweety flies   belongs to natural language and is examined by informal logic  But the formal translation      
+  
+    
+      
+          x     
+        x
+         
+        B
+        i
+        r
+        d
+         
+        x
+         
+          x     
+        F
+        l
+        i
+        e
+        s
+         
+        x
+         
+         
+      
+    
+      displaystyle  forall x Bird x  to Flies x   
+  
+      
+  
+    
+      
+        B
+        i
+        r
+        d
+         
+        T
+        w
+        e
+        e
+        t
+        y
+         
+      
+    
+      displaystyle Bird Tweety  
+  
+      
+  
+    
+      
+        F
+        l
+        i
+        e
+        s
+         
+        T
+        w
+        e
+        e
+        t
+        y
+         
+      
+    
+      displaystyle Flies Tweety  
+  
+  is studied by formal logic              The study of natural language arguments comes with various difficulties  For example  natural language expressions are often ambiguous  vague  and context dependent              Another approach defines informal logic in a wide sense as the normative study of the standards  criteria  and procedures of argumentation  In this sense  it includes questions about the role of rationality  critical thinking  and the psychology of argumentation             
+Another characterization identifies informal logic with the study of non deductive arguments  In this way  it contrasts with deductive reasoning examined by formal logic              Non deductive arguments make their conclusion probable but do not ensure that it is true  An example is the inductive argument from the empirical observation that  all ravens I have seen so far are black  to the conclusion  all ravens are black              
+A further approach is to define informal logic as the study of informal fallacies              Informal fallacies are incorrect arguments in which errors are present in the content and the context of the argument              A false dilemma  for example  involves an error of content by excluding viable options  This is the case in the fallacy  you are either with us or against us  you are not with us  therefore  you are against us               Some theorists state that formal logic studies the general form of arguments while informal logic studies particular instances of arguments  Another approach is to hold that formal logic only considers the role of logical constants for correct inferences while informal logic also takes the meaning of substantive concepts into account  Further approaches focus on the discussion of logical topics with or without formal devices and on the role of epistemology for the assessment of arguments             
+
+Basic concepts edit 
+Premises  conclusions  and truth edit 
+Premises and conclusions edit 
+Main articles  Premise and Logical consequence
+Premises and conclusions are the basic parts of inferences or arguments and therefore play a central role in logic  In the case of a valid inference or a correct argument  the conclusion follows from the premises  or in other words  the premises support the conclusion              For instance  the premises  Mars is red  and  Mars is a planet  support the conclusion  Mars is a red planet   For most types of logic  it is accepted that premises and conclusions have to be truth bearers                  a      This means that they have a truth value  they are either true or false  Contemporary philosophy generally sees them either as propositions or as sentences              Propositions are the denotations of sentences and are usually seen as abstract objects              For example  the English sentence  the tree is green  is different from the German sentence  der Baum ist gr n  but both express the same proposition             
+Propositional theories of premises and conclusions are often criticized because they rely on abstract objects  For instance  philosophical naturalists usually reject the existence of abstract objects  Other arguments concern the challenges involved in specifying the identity criteria of propositions              These objections are avoided by seeing premises and conclusions not as propositions but as sentences  i e  as concrete linguistic objects like the symbols displayed on a page of a book  But this approach comes with new problems of its own  sentences are often context dependent and ambiguous  meaning an argument s validity would not only depend on its parts but also on its context and on how it is interpreted              Another approach is to understand premises and conclusions in psychological terms as thoughts or judgments  This position is known as psychologism  It was discussed at length around the turn of the   th century but it is not widely accepted today             
+
+Internal structure edit 
+Premises and conclusions have an internal structure  As propositions or sentences  they can be either simple or complex              A complex proposition has other propositions as its constituents  which are linked to each other through propositional connectives like  and  or  if   then   Simple propositions  on the other hand  do not have propositional parts  But they can also be conceived as having an internal structure  they are made up of subpropositional parts  like singular terms and predicates                          For example  the simple proposition  Mars is red  can be formed by applying the predicate  red  to the singular term  Mars   In contrast  the complex proposition  Mars is red and Venus is white  is made up of two simple propositions connected by the propositional connective  and              
+Whether a proposition is true depends  at least in part  on its constituents  For complex propositions formed using truth functional propositional connectives  their truth only depends on the truth values of their parts                          But this relation is more complicated in the case of simple propositions and their subpropositional parts  These subpropositional parts have meanings of their own  like referring to objects or classes of objects              Whether the simple proposition they form is true depends on their relation to reality  i e  what the objects they refer to are like  This topic is studied by theories of reference             
+
+Logical truth edit 
+Main article  Logical truth
+Some complex propositions are true independently of the substantive meanings of their parts              In classical logic  for example  the complex proposition  either Mars is red or Mars is not red  is true independent of whether its parts  like the simple proposition  Mars is red   are true or false  In such cases  the truth is called a logical truth  a proposition is logically true if its truth depends only on the logical vocabulary used in it              This means that it is true under all interpretations of its non logical terms  In some modal logics  this means that the proposition is true in all possible worlds              Some theorists define logic as the study of logical truths             
+
+Truth tables edit 
+Truth tables can be used to show how logical connectives work or how the truth values of complex propositions depends on their parts  They have a column for each input variable  Each row corresponds to one possible combination of the truth values these variables can take  for truth tables presented in the English literature  the symbols  T  and  F  or     and     are commonly used as abbreviations for the truth values  true  and  false               The first columns present all the possible truth value combinations for the input variables  Entries in the other columns present the truth values of the corresponding expressions as determined by the input values  For example  the expression  
+  
+    
+      
+        p
+          x     
+        q
+      
+    
+      displaystyle p land q 
+  
+  uses the logical connective 
+  
+    
+      
+          x     
+      
+    
+      displaystyle  land  
+  
+  and   It could be used to express a sentence like  yesterday was Sunday and the weather was good   It is only true if both of its input variables  
+  
+    
+      
+        p
+      
+    
+      displaystyle p 
+  
+   yesterday was Sunday   and 
+  
+    
+      
+        q
+      
+    
+      displaystyle q 
+  
+   the weather was good    are true  In all other cases  the expression as a whole is false  Other important logical connectives are 
+  
+    
+      
+          xac 
+      
+    
+      displaystyle  lnot  
+  
+  not   
+  
+    
+      
+          x     
+      
+    
+      displaystyle  lor  
+  
+  or   
+  
+    
+      
+          x     
+      
+    
+      displaystyle  to  
+  
+  if   then   and 
+  
+    
+      
+          x     
+      
+    
+      displaystyle  uparrow  
+  
+  Sheffer stroke               Given the conditional proposition 
+  
+    
+      
+        p
+          x     
+        q
+      
+    
+      displaystyle p to q 
+  
+  one can form truth tables of its converse 
+  
+    
+      
+        q
+          x     
+        p
+      
+    
+      displaystyle q to p 
+  
+  its inverse  
+  
+    
+      
+          xac 
+        p
+          x     
+          xac 
+        q
+      
+    
+      displaystyle  lnot p to  lnot q 
+  
+   and its contrapositive  
+  
+    
+      
+          xac 
+        q
+          x     
+          xac 
+        p
+      
+    
+      displaystyle  lnot q to  lnot p 
+  
+   Truth tables can also be defined for more complex expressions that use several propositional connectives             
+
+
+Truth table of various expressions
+
+
+p
+
+q
+
+p   q
+
+p   q
+
+p   q
+
+ p    q
+
+p 
+  
+    
+      
+          x     
+      
+    
+      displaystyle  uparrow  
+  
+ q
+
+
+T
+T
+T
+T
+T
+T
+F
+
+
+T
+F
+F
+T
+F
+T
+T
+
+
+F
+T
+F
+T
+T
+F
+T
+
+
+F
+F
+F
+F
+T
+T
+T
+
+Arguments and inferences edit 
+Main articles  Argument and inference
+Logic is commonly defined in terms of arguments or inferences as the study of their correctness              An argument is a set of premises together with a conclusion              An inference is the process of reasoning from these premises to the conclusion              But these terms are often used interchangeably in logic  Arguments are correct or incorrect depending on whether their premises support their conclusion  Premises and conclusions  on the other hand  are true or false depending on whether they are in accord with reality  In formal logic  a sound argument is an argument that is both correct and has only true premises              Sometimes a distinction is made between simple and complex arguments  A complex argument is made up of a chain of simple arguments  This means that the conclusion of one argument acts as a premise of later arguments  For a complex argument to be successful  each link of the chain has to be successful             
+
+Argument terminology used in logic
+Arguments and inferences are either correct or incorrect  If they are correct then their premises support their conclusion  In the incorrect case  this support is missing  It can take different forms corresponding to the different types of reasoning              The strongest form of support corresponds to deductive reasoning  But even arguments that are not deductively valid may still be good arguments because their premises offer non deductive support to their conclusions  For such cases  the term ampliative or inductive reasoning is used              Deductive arguments are associated with formal logic in contrast to the relation between ampliative arguments and informal logic             
+
+Deductive edit 
+A deductively valid argument is one whose premises guarantee the truth of its conclusion              For instance  the argument           all frogs are amphibians           no cats are amphibians           therefore no cats are frogs  is deductively valid  For deductive validity  it does not matter whether the premises or the conclusion are actually true  So the argument           all frogs are mammals           no cats are mammals           therefore no cats are frogs  is also valid because the conclusion follows necessarily from the premises             
+According to an influential view by Alfred Tarski  deductive arguments have three essential features           they are formal  i e  they depend only on the form of the premises and the conclusion           they are a priori  i e  no sense experience is needed to determine whether they obtain           they are modal  i e  that they hold by logical necessity for the given propositions  independent of any other circumstances             
+Because of the first feature  the focus on formality  deductive inference is usually identified with rules of inference              Rules of inference specify the form of the premises and the conclusion  how they have to be structured for the inference to be valid  Arguments that do not follow any rule of inference are deductively invalid              The modus ponens is a prominent rule of inference  It has the form  p  if p  then q  therefore q               Knowing that it has just rained  
+  
+    
+      
+        p
+      
+    
+      displaystyle p 
+  
+  and that after rain the streets are wet  
+  
+    
+      
+        p
+          x     
+        q
+      
+    
+      displaystyle p to q 
+  
+   one can use modus ponens to deduce that the streets are wet  
+  
+    
+      
+        q
+      
+    
+      displaystyle q 
+  
+              
+The third feature can be expressed by stating that deductively valid inferences are truth preserving  it is impossible for the premises to be true and the conclusion to be false              Because of this feature  it is often asserted that deductive inferences are uninformative since the conclusion cannot arrive at new information not already present in the premises              But this point is not always accepted since it would mean  for example  that most of mathematics is uninformative  A different characterization distinguishes between surface and depth information  The surface information of a sentence is the information it presents explicitly  Depth information is the totality of the information contained in the sentence  both explicitly and implicitly  According to this view  deductive inferences are uninformative on the depth level  But they can be highly informative on the surface level by making implicit information explicit  This happens  for example  in mathematical proofs             
+
+Ampliative edit 
+Ampliative arguments are arguments whose conclusions contain additional information not found in their premises  In this regard  they are more interesting since they contain information on the depth level and the thinker may learn something genuinely new  But this feature comes with a certain cost  the premises support the conclusion in the sense that they make its truth more likely but they do not ensure its truth              This means that the conclusion of an ampliative argument may be false even though all its premises are true  This characteristic is closely related to non monotonicity and defeasibility  it may be necessary to retract an earlier conclusion upon receiving new information or in light of new inferences drawn              Ampliative reasoning plays a central role in many arguments found in everyday discourse and the sciences  Ampliative arguments are not automatically incorrect  Instead  they just follow different standards of correctness  The support they provide for their conclusion usually comes in degrees  This means that strong ampliative arguments make their conclusion very likely while weak ones are less certain  As a consequence  the line between correct and incorrect arguments is blurry in some cases  such as when the premises offer weak but non negligible support  This contrasts with deductive arguments  which are either valid or invalid with nothing in between             
+The terminology used to categorize ampliative arguments is inconsistent  Some authors  like James Hawthorne  use the term  induction  to cover all forms of non deductive arguments              But in a more narrow sense  induction is only one type of ampliative argument alongside abductive arguments              Some philosophers  like Leo Groarke  also allow conductive arguments     b      as another type              In this narrow sense  induction is often defined as a form of statistical generalization              In this case  the premises of an inductive argument are many individual observations that all show a certain pattern  The conclusion then is a general law that this pattern always obtains              In this sense  one may infer that  all elephants are gray  based on one s past observations of the color of elephants              A closely related form of inductive inference has as its conclusion not a general law but one more specific instance  as when it is inferred that an elephant one has not seen yet is also gray              Some theorists  like Igor Douven  stipulate that inductive inferences rest only on statistical considerations  This way  they can be distinguished from abductive inference             
+Abductive inference may or may not take statistical observations into consideration  In either case  the premises offer support for the conclusion because the conclusion is the best explanation of why the premises are true              In this sense  abduction is also called the inference to the best explanation              For example  given the premise that there is a plate with breadcrumbs in the kitchen in the early morning  one may infer the conclusion that one s house mate had a midnight snack and was too tired to clean the table  This conclusion is justified because it is the best explanation of the current state of the kitchen              For abduction  it is not sufficient that the conclusion explains the premises  For example  the conclusion that a burglar broke into the house last night  got hungry on the job  and had a midnight snack  would also explain the state of the kitchen  But this conclusion is not justified because it is not the best or most likely explanation                         
+
+Fallacies edit 
+Not all arguments live up to the standards of correct reasoning  When they do not  they are usually referred to as fallacies  Their central aspect is not that their conclusion is false but that there is some flaw with the reasoning leading to this conclusion              So the argument  it is sunny today  therefore spiders have eight legs  is fallacious even though the conclusion is true  Some theorists  like John Stuart Mill  give a more restrictive definition of fallacies by additionally requiring that they appear to be correct              This way  genuine fallacies can be distinguished from mere mistakes of reasoning due to carelessness  This explains why people tend to commit fallacies  because they have an alluring element that seduces people into committing and accepting them              However  this reference to appearances is controversial because it belongs to the field of psychology  not logic  and because appearances may be different for different people             
+
+Young America s dilemma  Shall I be wise and great  or rich and powerful   poster from       This is an example of a false dilemma  an informal fallacy using a disjunctive premise that excludes viable alternatives 
+Fallacies are usually divided into formal and informal fallacies              For formal fallacies  the source of the error is found in the form of the argument  For example  denying the antecedent is one type of formal fallacy  as in  if Othello is a bachelor  then he is male  Othello is not a bachelor  therefore Othello is not male               But most fallacies fall into the category of informal fallacies  of which a great variety is discussed in the academic literature  The source of their error is usually found in the content or the context of the argument              Informal fallacies are sometimes categorized as fallacies of ambiguity  fallacies of presumption  or fallacies of relevance  For fallacies of ambiguity  the ambiguity and vagueness of natural language are responsible for their flaw  as in  feathers are light  what is light cannot be dark  therefore feathers cannot be dark               Fallacies of presumption have a wrong or unjustified premise but may be valid otherwise              In the case of fallacies of relevance  the premises do not support the conclusion because they are not relevant to it             
+
+Definitory and strategic rules edit 
+The main focus of most logicians is to study the criteria according to which an argument is correct or incorrect  A fallacy is committed if these criteria are violated  In the case of formal logic  they are known as rules of inference              They are definitory rules  which determine whether an inference is correct or which inferences are allowed  Definitory rules contrast with strategic rules  Strategic rules specify which inferential moves are necessary to reach a given conclusion based on a set of premises  This distinction does not just apply to logic but also to games  In chess  for example  the definitory rules dictate that bishops may only move diagonally  The strategic rules  on the other hand  describe how the allowed moves may be used to win a game  for instance  by controlling the center and by defending one s king              It has been argued that logicians should give more emphasis to strategic rules since they are highly relevant for effective reasoning             
+
+Formal systems edit 
+Main article  Formal system
+A formal system of logic consists of a formal language together with a set of axioms and a proof system used to draw inferences from these axioms              In logic  axioms are statements that are accepted without proof  They are used to justify other statements              Some theorists also include a semantics that specifies how the expressions of the formal language relate to real objects              Starting in the late   th century  many new formal systems have been proposed             
+A formal language consists of an alphabet and syntactic rules  The alphabet is the set of basic symbols used in expressions  The syntactic rules determine how these symbols may be arranged to result in well formed formulas              For instance  the syntactic rules of propositional logic determine that  
+  
+    
+      
+        P
+          x     
+        Q
+      
+    
+      displaystyle P land Q 
+  
+  is a well formed formula but  
+  
+    
+      
+          x     
+        Q
+      
+    
+      displaystyle  land Q 
+  
+  is not since the logical conjunction 
+  
+    
+      
+          x     
+      
+    
+      displaystyle  land  
+  
+ requires terms on both sides              
+A proof system is a collection of rules to construct formal proofs  It is a tool to arrive at conclusions from a set of axioms  Rules in a proof system are defined in terms of the syntactic form of formulas independent of their specific content  For instance  the classical rule of conjunction introduction states that 
+  
+    
+      
+        P
+          x     
+        Q
+      
+    
+      displaystyle P land Q 
+  
+ follows from the premises 
+  
+    
+      
+        P
+      
+    
+      displaystyle P 
+  
+ and 
+  
+    
+      
+        Q
+      
+    
+      displaystyle Q 
+  
+  Such rules can be applied sequentially  giving a mechanical procedure for generating conclusions from premises  There are different types of proof systems including natural deduction and sequent calculi              
+A semantics is a system for mapping expressions of a formal language to their denotations  In many systems of logic  denotations are truth values  For instance  the semantics for classical propositional logic assigns the formula 
+  
+    
+      
+        P
+          x     
+        Q
+      
+    
+      displaystyle P land Q 
+  
+ the denotation  true  whenever 
+  
+    
+      
+        P
+      
+    
+      displaystyle P 
+  
+ and 
+  
+    
+      
+        Q
+      
+    
+      displaystyle Q 
+  
+ are true  From the semantic point of view  a premise entails a conclusion if the conclusion is true whenever the premise is true              
+A system of logic is sound when its proof system cannot derive a conclusion from a set of premises unless it is semantically entailed by them  In other words  its proof system cannot lead to false conclusions  as defined by the semantics  A system is complete when its proof system can derive every conclusion that is semantically entailed by its premises  In other words  its proof system can lead to any true conclusion  as defined by the semantics  Thus  soundness and completeness together describe a system whose notions of validity and entailment line up perfectly              
+
+Systems of logic edit 
+Systems of logic are theoretical frameworks for assessing the correctness of reasoning and arguments  For over two thousand years  Aristotelian logic was treated as the canon of logic in the Western world               but modern developments in this field have led to a vast proliferation of logical systems               One prominent categorization divides modern formal logical systems into classical logic  extended logics  and deviant logics              
+
+Aristotelian edit 
+Main article  Aristotelian logic
+Aristotelian logic encompasses a great variety of topics  They include metaphysical theses about ontological categories and problems of scientific explanation  But in a more narrow sense  it is identical to term logic or syllogistics  A syllogism is a form of argument involving three propositions  two premises and a conclusion  Each proposition has three essential parts  a subject  a predicate  and a copula connecting the subject to the predicate               For example  the proposition  Socrates is wise  is made up of the subject  Socrates   the predicate  wise   and the copula  is                The subject and the predicate are the terms of the proposition  Aristotelian logic does not contain complex propositions made up of simple propositions  It differs in this aspect from propositional logic  in which any two propositions can be linked using a logical connective like  and  to form a new complex proposition              
+
+The square of opposition is often used to visualize the relations between the four basic categorical propositions in Aristotelian logic  It shows  for example  that the propositions  All S are P  and  Some S are not P  are contradictory  meaning that one of them has to be true while the other is false 
+In Aristotelian logic  the subject can be universal  particular  indefinite  or singular  For example  the term  all humans  is a universal subject in the proposition  all humans are mortal   A similar proposition could be formed by replacing it with the particular term  some humans   the indefinite term  a human   or the singular term  Socrates               
+Aristotelian logic only includes predicates for simple properties of entities  But it lacks predicates corresponding to relations between entities               The predicate can be linked to the subject in two ways  either by affirming it or by denying it               For example  the proposition  Socrates is not a cat  involves the denial of the predicate  cat  to the subject  Socrates   Using combinations of subjects and predicates  a great variety of propositions and syllogisms can be formed  Syllogisms are characterized by the fact that the premises are linked to each other and to the conclusion by sharing one term in each case               Thus  these three propositions contain three terms  referred to as major term  minor term  and middle term               The central aspect of Aristotelian logic involves classifying all possible syllogisms into valid and invalid arguments according to how the propositions are formed                            For example  the syllogism  all men are mortal  Socrates is a man  therefore Socrates is mortal  is valid  The syllogism  all cats are mortal  Socrates is mortal  therefore Socrates is a cat   on the other hand  is invalid              
+
+Classical edit 
+Main article  Classical logic
+Classical logic is distinct from traditional or Aristotelian logic  It encompasses propositional logic and first order logic  It is  classical  in the sense that it is based on basic logical intuitions shared by most logicians               These intuitions include the law of excluded middle  the double negation elimination  the principle of explosion  and the bivalence of truth               It was originally developed to analyze mathematical arguments and was only later applied to other fields as well  Because of this focus on mathematics  it does not include logical vocabulary relevant to many other topics of philosophical importance  Examples of concepts it overlooks are the contrast between necessity and possibility and the problem of ethical obligation and permission  Similarly  it does not address the relations between past  present  and future               Such issues are addressed by extended logics  They build on the basic intuitions of classical logic and expand it by introducing new logical vocabulary  This way  the exact logical approach is applied to fields like ethics or epistemology that lie beyond the scope of mathematics              
+
+Propositional logic edit 
+Main article  Propositional calculus
+Propositional logic comprises formal systems in which formulae are built from atomic propositions using logical connectives  For instance  propositional logic represents the conjunction of two atomic propositions 
+  
+    
+      
+        P
+      
+    
+      displaystyle P 
+  
+ and 
+  
+    
+      
+        Q
+      
+    
+      displaystyle Q 
+  
+ as the complex formula 
+  
+    
+      
+        P
+          x     
+        Q
+      
+    
+      displaystyle P land Q 
+  
+  Unlike predicate logic where terms and predicates are the smallest units  propositional logic takes full propositions with truth values as its most basic component               Thus  propositional logics can only represent logical relationships that arise from the way complex propositions are built from simpler ones  But it cannot represent inferences that result from the inner structure of a proposition              
+
+First order logic edit 
+Gottlob Frege s Begriffschrift introduced the notion of quantifier in a graphical notation  which here represents the judgment that 
+  
+    
+      
+          x     
+        x
+         
+        F
+         
+        x
+         
+      
+    
+      displaystyle  forall x F x  
+  
+ is true 
+Main article  First order logic
+First order logic includes the same propositional connectives as propositional logic but differs from it because it articulates the internal structure of propositions  This happens through devices such as singular terms  which refer to particular objects  predicates  which refer to properties and relations  and quantifiers  which treat notions like  some  and  all                For example  to express the proposition  this raven is black   one may use the predicate 
+  
+    
+      
+        B
+      
+    
+      displaystyle B 
+  
+ for the property  black  and the singular term 
+  
+    
+      
+        r
+      
+    
+      displaystyle r 
+  
+ referring to the raven to form the expression 
+  
+    
+      
+        B
+         
+        r
+         
+      
+    
+      displaystyle B r  
+  
+  To express that some objects are black  the existential quantifier 
+  
+    
+      
+          x     
+      
+    
+      displaystyle  exists  
+  
+ is combined with the variable 
+  
+    
+      
+        x
+      
+    
+      displaystyle x 
+  
+ to form the proposition 
+  
+    
+      
+          x     
+        x
+        B
+         
+        x
+         
+      
+    
+      displaystyle  exists xB x  
+  
+  First order logic contains various rules of inference that determine how expressions articulated this way can form valid arguments  for example  that one may infer 
+  
+    
+      
+          x     
+        x
+        B
+         
+        x
+         
+      
+    
+      displaystyle  exists xB x  
+  
+ from 
+  
+    
+      
+        B
+         
+        r
+         
+      
+    
+      displaystyle B r  
+  
+              
+
+Extended edit 
+Extended logics are logical systems that accept the basic principles of classical logic  They introduce additional symbols and principles to apply it to fields like metaphysics  ethics  and epistemology              
+
+Modal logic edit 
+Main article  Modal logic
+Modal logic is an extension of classical logic  In its original form  sometimes called  alethic modal logic   it introduces two new symbols  
+  
+    
+      
+          x  ca 
+      
+    
+      displaystyle  Diamond  
+  
+ expresses that something is possible while 
+  
+    
+      
+          x  fb 
+      
+    
+      displaystyle  Box  
+  
+ expresses that something is necessary               For example  if the formula 
+  
+    
+      
+        B
+         
+        s
+         
+      
+    
+      displaystyle B s  
+  
+ stands for the sentence  Socrates is a banker  then the formula 
+  
+    
+      
+          x  ca 
+        B
+         
+        s
+         
+      
+    
+      displaystyle  Diamond B s  
+  
+ articulates the sentence  It is possible that Socrates is a banker                To include these symbols in the logical formalism  modal logic introduces new rules of inference that govern what role they play in inferences  One rule of inference states that  if something is necessary  then it is also possible  This means that 
+  
+    
+      
+          x  ca 
+        A
+      
+    
+      displaystyle  Diamond A 
+  
+ follows from 
+  
+    
+      
+          x  fb 
+        A
+      
+    
+      displaystyle  Box A 
+  
+  Another principle states that if a proposition is necessary then its negation is impossible and vice versa  This means that 
+  
+    
+      
+          x  fb 
+        A
+      
+    
+      displaystyle  Box A 
+  
+ is equivalent to 
+  
+    
+      
+          xac 
+          x  ca 
+          xac 
+        A
+      
+    
+      displaystyle  lnot  Diamond  lnot A 
+  
+              
+Other forms of modal logic introduce similar symbols but associate different meanings with them to apply modal logic to other fields  For example  deontic logic concerns the field of ethics and introduces symbols to express the ideas of obligation and permission  i e  to describe whether an agent has to perform a certain action or is allowed to perform it               The modal operators in temporal modal logic articulate temporal relations  They can be used to express  for example  that something happened at one time or that something is happening all the time               In epistemology  epistemic modal logic is used to represent the ideas of knowing something in contrast to merely believing it to be the case              
+
+Higher order logic edit 
+Main article  Higher order logic
+Higher order logics extend classical logic not by using modal operators but by introducing new forms of quantification               Quantifiers correspond to terms like  all  or  some   In classical first order logic  quantifiers are only applied to individuals  The formula  
+  
+    
+      
+          x     
+        x
+         
+        A
+        p
+        p
+        l
+        e
+         
+        x
+         
+          x     
+        S
+        w
+        e
+        e
+        t
+         
+        x
+         
+         
+      
+    
+      displaystyle  exists x Apple x  land Sweet x   
+  
+   some apples are sweet  is an example of the existential quantifier  
+  
+    
+      
+          x     
+      
+    
+      displaystyle  exists  
+  
+  applied to the individual variable  
+  
+    
+      
+        x
+      
+    
+      displaystyle x 
+  
+   In higher order logics  quantification is also allowed over predicates  This increases its expressive power  For example  to express the idea that Mary and John share some qualities  one could use the formula  
+  
+    
+      
+          x     
+        Q
+         
+        Q
+         
+        M
+        a
+        r
+        y
+         
+          x     
+        Q
+         
+        J
+        o
+        h
+        n
+         
+         
+      
+    
+      displaystyle  exists Q Q Mary  land Q John   
+  
+   In this case  the existential quantifier is applied to the predicate variable  
+  
+    
+      
+        Q
+      
+    
+      displaystyle Q 
+  
+                The added expressive power is especially useful for mathematics since it allows for more succinct formulations of mathematical theories              But it has drawbacks in regard to its meta logical properties and ontological implications  which is why first order logic is still more commonly used              
+
+Deviant edit 
+Main article  Deviant logic
+Deviant logics are logical systems that reject some of the basic intuitions of classical logic  Because of this  they are usually seen not as its supplements but as its rivals  Deviant logical systems differ from each other either because they reject different classical intuitions or because they propose different alternatives to the same issue              
+Intuitionistic logic is a restricted version of classical logic               It uses the same symbols but excludes some rules of inference  For example  according to the law of double negation elimination  if a sentence is not not true  then it is true  This means that 
+  
+    
+      
+        A
+      
+    
+      displaystyle A 
+  
+ follows from 
+  
+    
+      
+          xac 
+          xac 
+        A
+      
+    
+      displaystyle  lnot  lnot A 
+  
+  This is a valid rule of inference in classical logic but it is invalid in intuitionistic logic  Another classical principle not part of intuitionistic logic is the law of excluded middle  It states that for every sentence  either it or its negation is true  This means that every proposition of the form 
+  
+    
+      
+        A
+          x     
+          xac 
+        A
+      
+    
+      displaystyle A lor  lnot A 
+  
+ is true               These deviations from classical logic are based on the idea that truth is established by verification using a proof  Intuitionistic logic is especially prominent in the field of constructive mathematics  which emphasizes the need to find or construct a specific example to prove its existence              
+Multi valued logics depart from classicality by rejecting the principle of bivalence  which requires all propositions to be either true or false  For instance  Jan  ukasiewicz and Stephen Cole Kleene both proposed ternary logics which have a third truth value representing that a statement s truth value is indeterminate               These logics have been applied in the field of linguistics  Fuzzy logics are multivalued logics that have an infinite number of  degrees of truth   represented by a real number between   and                
+Paraconsistent logics are logical systems that can deal with contradictions  They are formulated to avoid the principle of explosion  for them  it is not the case that anything follows from a contradiction               They are often motivated by dialetheism  the view that contradictions are real or that reality itself is contradictory  Graham Priest is an influential contemporary proponent of this position and similar views have been ascribed to Georg Wilhelm Friedrich Hegel              
+
+Informal edit 
+Main article  Informal logic
+Informal logic is usually carried out in a less systematic way  It often focuses on more specific issues  like investigating a particular type of fallacy or studying a certain aspect of argumentation  Nonetheless  some frameworks of informal logic have also been presented that try to provide a systematic characterization of the correctness of arguments              
+The pragmatic or dialogical approach to informal logic sees arguments as speech acts and not merely as a set of premises together with a conclusion               As speech acts  they occur in a certain context  like a dialogue  which affects the standards of right and wrong arguments               A prominent version by Douglas N  Walton understands a dialogue as a game between two players  The initial position of each player is characterized by the propositions to which they are committed and the conclusion they intend to prove  Dialogues are games of persuasion  each player has the goal of convincing the opponent of their own conclusion               This is achieved by making arguments  arguments are the moves of the game               They affect to which propositions the players are committed  A winning move is a successful argument that takes the opponent s commitments as premises and shows how one s own conclusion follows from them  This is usually not possible straight away  For this reason  it is normally necessary to formulate a sequence of arguments as intermediary steps  each of which brings the opponent a little closer to one s intended conclusion  Besides these positive arguments leading one closer to victory  there are also negative arguments preventing the opponent s victory by denying their conclusion               Whether an argument is correct depends on whether it promotes the progress of the dialogue  Fallacies  on the other hand  are violations of the standards of proper argumentative rules               These standards also depend on the type of dialogue  For example  the standards governing the scientific discourse differ from the standards in business negotiations              
+The epistemic approach to informal logic  on the other hand  focuses on the epistemic role of arguments               It is based on the idea that arguments aim to increase our knowledge  They achieve this by linking justified beliefs to beliefs that are not yet justified               Correct arguments succeed at expanding knowledge while fallacies are epistemic failures  they do not justify the belief in their conclusion               For example  the fallacy of begging the question is a fallacy because it fails to provide independent justification for its conclusion  even though it is deductively valid               In this sense  logical normativity consists in epistemic success or rationality               The Bayesian approach is one example of an epistemic approach               Central to Bayesianism is not just whether the agent believes something but the degree to which they believe it  the so called credence  Degrees of belief are seen as subjective probabilities in the believed proposition  i e  how certain the agent is that the proposition is true               On this view  reasoning can be interpreted as a process of changing one s credences  often in reaction to new incoming information               Correct reasoning and the arguments it is based on follow the laws of probability  for example  the principle of conditionalization  Bad or irrational reasoning  on the other hand  violates these laws              
+
+Areas of research edit 
+Logic is studied in various fields  In many cases  this is done by applying its formal method to specific topics outside its scope  like to ethics or computer science               In other cases  logic itself is made the subject of research in another discipline  This can happen in diverse ways  For instance  it can involve investigating the philosophical assumptions linked to the basic concepts used by logicians  Other ways include interpreting and analyzing logic through mathematical structures as well as studying and comparing abstract properties of formal logical systems              
+
+Philosophy of logic and philosophical logic edit 
+Main articles  Philosophy of logic and Philosophical logic
+Philosophy of logic is the philosophical discipline studying the scope and nature of logic              It examines many presuppositions implicit in logic  like how to define its basic concepts or the metaphysical assumptions associated with them               It is also concerned with how to classify logical systems and considers the ontological commitments they incur               Philosophical logic is one of the areas within the philosophy of logic  It studies the application of logical methods to philosophical problems in fields like metaphysics  ethics  and epistemology               This application usually happens in the form of extended or deviant logical systems              
+
+Metalogic edit 
+Main article  Metalogic
+Metalogic is the field of inquiry studying the properties of formal logical systems  For example  when a new formal system is developed  metalogicians may study it to determine which formulas can be proven in it  They may also study whether an algorithm could be developed to find a proof for each formula and whether every provable formula in it is a tautology  Finally  they may compare it to other logical systems to understand its distinctive features  A key issue in metalogic concerns the relation between syntax and semantics  The syntactic rules of a formal system determine how to deduce conclusions from premises  i e  how to formulate proofs  The semantics of a formal system governs which sentences are true and which ones are false  This determines the validity of arguments since  for valid arguments  it is impossible for the premises to be true and the conclusion to be false  The relation between syntax and semantics concerns issues like whether every valid argument is provable and whether every provable argument is valid  Metalogicians also study whether logical systems are complete  sound  and consistent  They are interested in whether the systems are decidable and what expressive power they have  Metalogicians usually rely heavily on abstract mathematical reasoning when examining and formulating metalogical proofs  This way  they aim to arrive at precise and general conclusions on these topics              
+
+Mathematical logic edit 
+Main article  Mathematical logic
+Bertrand Russell made various contributions to mathematical logic              
+The term  mathematical logic  is sometimes used as a synonym of  formal logic   But in a more restricted sense  it refers to the study of logic within mathematics  Major subareas include model theory  proof theory  set theory  and computability theory               Research in mathematical logic commonly addresses the mathematical properties of formal systems of logic  However  it can also include attempts to use logic to analyze mathematical reasoning or to establish logic based foundations of mathematics               The latter was a major concern in early   th century mathematical logic  which pursued the program of logicism pioneered by philosopher logicians such as Gottlob Frege  Alfred North Whitehead  and Bertrand Russell  Mathematical theories were supposed to be logical tautologies  and their program was to show this by means of a reduction of mathematics to logic  Many attempts to realize this program failed  from the crippling of Frege s project in his Grundgesetze by Russell s paradox  to the defeat of Hilbert s program by G del s incompleteness theorems              
+Set theory originated in the study of the infinite by Georg Cantor  and it has been the source of many of the most challenging and important issues in mathematical logic  They include Cantor s theorem  the status of the Axiom of Choice  the question of the independence of the continuum hypothesis  and the modern debate on large cardinal axioms              
+Computability theory is the branch of mathematical logic that studies effective procedures to solve calculation problems  One of its main goals is to understand whether it is possible to solve a given problem using an algorithm  For instance  given a certain claim about the positive integers  it examines whether an algorithm can be found to determine if this claim is true  Computability theory uses various theoretical tools and models  such as Turing machines  to explore this type of issue              
+
+Computational logic edit 
+Main articles  Computational logic and Logic in computer science
+Conjunction  AND  is one of the basic operations of Boolean logic  It can be electronically implemented in several ways  for example  by using two transistors 
+Computational logic is the branch of logic and computer science that studies how to implement mathematical reasoning and logical formalisms using computers  This includes  for example  automatic theorem provers  which employ rules of inference to construct a proof step by step from a set of premises to the intended conclusion without human intervention               Logic programming languages are designed specifically to express facts using logical formulas and to draw inferences from these facts  For example  Prolog is a logic programming language based on predicate logic               Computer scientists also apply concepts from logic to problems in computing  The works of Claude Shannon were influential in this regard  He showed how Boolean logic can be used to understand and implement computer circuits               This can be achieved using electronic logic gates  i e  electronic circuits with one or more inputs and usually one output  The truth values of propositions are represented by voltage levels  In this way  logic functions can be simulated by applying the corresponding voltages to the inputs of the circuit and determining the value of the function by measuring the voltage of the output              
+
+Formal semantics of natural language edit 
+Main article  Formal semantics  natural language 
+Formal semantics is a subfield of logic  linguistics  and the philosophy of language  The discipline of semantics studies the meaning of language  Formal semantics uses formal tools from the fields of symbolic logic and mathematics to give precise theories of the meaning of natural language expressions  It understands meaning usually in relation to truth conditions  i e  it examines in which situations a sentence would be true or false  One of its central methodological assumptions is the principle of compositionality  It states that the meaning of a complex expression is determined by the meanings of its parts and how they are combined  For example  the meaning of the verb phrase  walk and sing  depends on the meanings of the individual expressions  walk  and  sing   Many theories in formal semantics rely on model theory  This means that they employ set theory to construct a model and then interpret the meanings of expression in relation to the elements in this model  For example  the term  walk  may be interpreted as the set of all individuals in the model that share the property of walking  Early influential theorists in this field were Richard Montague and Barbara Partee  who focused their analysis on the English language              
+
+Epistemology of logic edit 
+The epistemology of logic studies how one knows that an argument is valid or that a proposition is logically true               This includes questions like how to justify that modus ponens is a valid rule of inference or that contradictions are false               The traditionally dominant view is that this form of logical understanding belongs to knowledge a priori               In this regard  it is often argued that the mind has a special faculty to examine relations between pure ideas and that this faculty is also responsible for apprehending logical truths               A similar approach understands the rules of logic in terms of linguistic conventions  On this view  the laws of logic are trivial since they are true by definition  they just express the meanings of the logical vocabulary              
+Some theorists  like Hilary Putnam and Penelope Maddy  object to the view that logic is knowable a priori  They hold instead that logical truths depend on the empirical world  This is usually combined with the claim that the laws of logic express universal regularities found in the structural features of the world  According to this view  they may be explored by studying general patterns of the fundamental sciences  For example  it has been argued that certain insights of quantum mechanics refute the principle of distributivity in classical logic  which states that the formula 
+  
+    
+      
+        A
+          x     
+         
+        B
+          x     
+        C
+         
+      
+    
+      displaystyle A land  B lor C  
+  
+ is equivalent to 
+  
+    
+      
+         
+        A
+          x     
+        B
+         
+          x     
+         
+        A
+          x     
+        C
+         
+      
+    
+      displaystyle  A land B  lor  A land C  
+  
+  This claim can be used as an empirical argument for the thesis that quantum logic is the correct logical system and should replace classical logic              
+
+History edit 
+Main article  History of logic
+Top row  Aristotle  who established the canon of western philosophy               and Avicenna  who replaced Aristotelian logic in Islamic discourse               Bottom row  William of Ockham  a major figure of medieval scholarly thought               and Gottlob Frege  one of the founders of modern symbolic logic              
+Logic was developed independently in several cultures during antiquity  One major early contributor was Aristotle  who developed term logic in his Organon and Prior Analytics               He was responsible for the introduction of the hypothetical syllogism              and temporal modal logic               Further innovations include inductive logic              as well as the discussion of new logical concepts such as terms  predicables  syllogisms  and propositions  Aristotelian logic was highly regarded in classical and medieval times  both in Europe and the Middle East  It remained in wide use in the West until the early   th century               It has now been superseded by later work  though many of its key insights are still present in modern systems of logic              
+Ibn Sina  Avicenna  was the founder of Avicennian logic  which replaced Aristotelian logic as the dominant system of logic in the Islamic world               It influenced Western medieval writers such as Albertus Magnus and William of Ockham               Ibn Sina wrote on the hypothetical syllogism              and on the propositional calculus               He developed an original  temporally modalized  syllogistic theory  involving temporal logic and modal logic               He also made use of inductive logic  such as his methods of agreement  difference  and concomitant variation  which are critical to the scientific method               Fakhr al Din al Razi was another influential Muslim logician  He criticized Aristotelian syllogistics and formulated an early system of inductive logic  foreshadowing the system of inductive logic developed by John Stuart Mill              
+During the Middle Ages  many translations and interpretations of Aristotelian logic were made  The works of Boethius were particularly influential  Besides translating Aristotle s work into Latin  he also produced textbooks on logic               Later  the works of Islamic philosophers such as Ibn Sina and Ibn Rushd  Averroes  were drawn on  This expanded the range of ancient works available to medieval Christian scholars since more Greek work was available to Muslim scholars that had been preserved in Latin commentaries  In       William of Ockham s influential Summa Logicae was released  It is a comprehensive treatise on logic that discusses many basic concepts of logic and provides a systematic exposition of types of propositions and their truth conditions              
+In Chinese philosophy  the School of Names and Mohism were particularly influential  The School of Names focused on the use of language and on paradoxes  For example  Gongsun Long proposed the white horse paradox  which defends the thesis that a white horse is not a horse  The school of Mohism also acknowledged the importance of language for logic and tried to relate the ideas in these fields to the realm of ethics              
+In India  the study of logic was primarily pursued by the schools of Nyaya  Buddhism  and Jainism  It was not treated as a separate academic discipline and discussions of its topics usually happened in the context of epistemology and theories of dialogue or argumentation               In Nyaya  inference is understood as a source of knowledge  pram  a   It follows the perception of an object and tries to arrive at conclusions  for example  about the cause of this object               A similar emphasis on the relation to epistemology is also found in Buddhist and Jainist schools of logic  where inference is used to expand the knowledge gained through other sources               Some of the later theories of Nyaya  belonging to the Navya Ny ya school  resemble modern forms of logic  such as Gottlob Frege s distinction between sense and reference and his definition of number              
+The syllogistic logic developed by Aristotle predominated in the West until the mid   th century  when interest in the foundations of mathematics stimulated the development of modern symbolic logic               Many see Gottlob Frege s Begriffsschrift as the birthplace of modern logic  Gottfried Wilhelm Leibniz s idea of a universal formal language is often considered a forerunner  Other pioneers were George Boole  who invented Boolean algebra as a mathematical system of logic  and Charles Peirce  who developed the logic of relatives  Alfred North Whitehead and Bertrand Russell  in turn  condensed many of these insights in their work Principia Mathematica  Modern logic introduced novel concepts  such as functions  quantifiers  and relational predicates  A hallmark of modern symbolic logic is its use of formal language to precisely codify its insights  In this regard  it departs from earlier logicians  who relied mainly on natural language               Of particular influence was the development of first order logic  which is usually treated as the standard system of modern logic               Its analytical generality allowed the formalization of mathematics and drove the investigation of set theory  It also made Alfred Tarski s approach to model theory possible and provided the foundation of modern mathematical logic              
+
+See also edit 
+
+Philosophy portal
+
+Glossary of logic
+Outline of logic        Overview of and topical guide to logic
+Critical thinking        Analysis of facts to form a judgment
+List of logic journals
+List of logic symbols        List of symbols used to express logical relations
+List of logicians
+Logic puzzle        Puzzle deriving from the mathematics field of deduction
+Logical reasoning        Process of drawing correct inferences
+Logos        Concept in philosophy  religion  rhetoric  and psychology
+Vector logic
+References edit 
+Notes edit 
+
+
+  However  there are some forms of logic  like imperative logic  where this may not be the case             
+
+  Conductive arguments present reasons in favor of a conclusion without claiming that the reasons are strong enough to decisively support the conclusion 
+
+
+Citations edit 
+
+
+  Velleman       pp              
+
+  Vickers      
+
+  Nunes       pp                 
+
+  P pin       Logos  Online Etymology Staff 
+
+  Hintikka       lead section   Nature and varieties of logic 
+
+  Hintikka        Nature and varieties of logic  Haack       pp             Philosophy of logics  Schlesinger  Keren Portnoy  amp  Parush       p           
+
+  Hintikka  amp  Sandu       p           Audi     b  Philosophy of logic  McKeon 
+
+  Blair  amp  Johnson       pp              Craig       Formal and informal logic 
+
+  Craig       Formal and informal logic  Barnes       p            Planty Bonjour       p           Rini       p          
+
+  MacFarlane       Corkum       pp                Blair  amp  Johnson       pp              Magnus       pp                  Formal languages 
+
+  a b McKeon  Craig       Formal and informal logic 
+
+  Hintikka  amp  Sandu       p          
+
+  Magnus       Proofs  p      
+
+  Hintikka  amp  Sandu       pp              Makridis       pp            Runco  amp  Pritzker       p           
+
+  G mez Torrente       Magnus           Other logical notions  p     
+
+  a b Hintikka  amp  Sandu       p          
+
+  Honderich       logic  informal  Craig       Formal and informal logic  Johnson       pp               
+
+  Craig       Formal languages and systems  Simpson       p          
+
+  Craig       Formal languages and systems 
+
+  Hintikka  amp  Sandu       pp              Magnus       pp                Deductive validity  Johnson       p           
+
+  Haack       pp               Philosophy of logics  Hintikka  amp  Sandu       pp              Jacquette       Introduction  Philosophy of logic today  pp       
+
+  Haack       pp               Philosophy of logics  Jacquette       pp             Introduction  Philosophy of logic today 
+
+  Haack       pp               Philosophy of logics  Hintikka  amp  Sandu       pp              Haack       pp               
+
+  Haack       pp             Philosophy of logics  Groarke       lead section      Formal and Informal Logic 
+
+  Johnson       pp               
+
+  Groarke       lead section     History  Audi     a  Informal logic  Johnson       pp               
+
+  Craig       Formal and informal logic  Johnson       p           
+
+  Blair  amp  Johnson       pp              Craig       Formal and informal logic 
+
+  Johnson       pp                van Eemeren et al   pp             Informal Logic 
+
+  Groarke           Formal and Informal Logic  Audi     a  Informal logic  Honderich       logic  informal 
+
+  Blair  amp  Johnson       pp               Groarke       lead section      Formal and Informal Logic  van Eemeren et al   p           
+
+  Oaksford  amp  Chater       p          
+
+  Craig       Formal and informal logic  Walton       pp                    A new model of argument  Engel       pp                 The medium of language 
+
+  Blair  amp  Johnson       pp               
+
+  Falikowski  amp  Mills       p           Weddle       pp                    Informal logic and the eductive inductive distinction  Blair       p          
+
+  Vickers       Nunes       pp                  Logical Reasoning and Learning 
+
+  Johnson       p            Johnson       p            Blair  amp  Johnson       pp               
+
+  a b Vleet       pp       ix x  Introduction  Dowden  Stump 
+
+  Maltby  Day  amp  Macaskill       p            Dowden 
+
+  Craig       Formal and informal logic  Johnson       pp               
+
+  a b Audi     b  Philosophy of logic  Honderich       philosophical logic 
+
+  Haack       p          
+
+  a b c d e Audi     b  Philosophy of logic 
+
+  Falguera  Mart nez Vidal  amp  Rosen       Tondl       p           
+
+  Olkowski  amp  Pirovolakis       pp             
+
+  Audi     b  Philosophy of logic  Pietroski      
+
+  Audi     b  Philosophy of logic  Kusch       Rush       pp                     
+
+  a b King       Pickel       pp                 
+
+  a b c Honderich       philosophical logic 
+
+  Pickel       pp                 
+
+  Honderich       philosophical logic  Craig       Philosophy of logic  Michaelson  amp  Reimer      
+
+  Michaelson  amp  Reimer      
+
+  Hintikka        Nature and varieties of logic  MacFarlane      
+
+  G mez Torrente       MacFarlane       Honderich       philosophical logic 
+
+  G mez Torrente       Jago       p          
+
+  Magnus       pp                 Truth tables  Angell       p            Hall  amp  O Donnell       p          
+
+  Magnus       pp                 Truth tables  Angell       p           
+
+  Tarski       p          
+
+  a b Hintikka       lead section   Nature and varieties of logic  Audi     b  Philosophy of logic 
+
+  Blackburn       argument  Stairs       p           
+
+  Copi  Cohen  amp  Rodych       p          
+
+  Hintikka  amp  Sandu       p           Backmann       pp                IEP Staff 
+
+  Hintikka  amp  Sandu       p           Backmann       pp                IEP Staff 
+
+  Groarke           Formal and Informal Logic  Weddle       pp                    Informal logic and the eductive inductive distinction  van Eemeren  amp  Garssen       p           
+
+  Evans          Deductive Reasoning  p      
+
+  McKeon 
+
+  Hintikka  amp  Sandu       pp             
+
+  Hintikka  amp  Sandu       pp              Blackburn       rule of inference 
+
+  Blackburn       rule of inference 
+
+  Dick  amp  M ller       p           
+
+  Hintikka  amp  Sandu       p           Backmann       pp                Douven      
+
+  Hintikka  amp  Sandu       p           D Agostino  amp  Floridi       pp               
+
+  Hintikka  amp  Sandu       p           Sag illo       pp              Hintikka       pp               
+
+  Hintikka  amp  Sandu       pp              Backmann       pp                IEP Staff 
+
+  Rocci       p           Hintikka  amp  Sandu       pp               Douven      
+
+  IEP Staff  Douven       Hawthorne      
+
+  IEP Staff  Hawthorne       Wilbanks       pp               
+
+  a b c d Douven      
+
+  Groarke           AV Criteria  Possin       pp               
+
+  Scott  amp  Marshall       Analytic induction  Houde  amp  Camacho       Induction 
+
+  a b Borchert     b  Induction 
+
+  a b Douven       Koslowski       Abductive reasoning and explanation 
+
+  a b Cummings       Abduction  p    
+
+  Hansen       Chatfield       p           
+
+  Walton       p             A new model of argument  Hansen      
+
+  Hansen      
+
+  Hansen       Walton       p              Logic of propositions 
+
+  Sternberg  Stone       pp               
+
+  Walton       pp               A new model of argument  Dowden  Hansen      
+
+  Engel       pp                 The medium of language  Mackie       Stump 
+
+  Stump  Engel       pp                   Fallacies of presumption 
+
+  Stump  Mackie      
+
+  a b Hintikka  amp  Sandu       p          
+
+  Hintikka  amp  Sandu       p           Pedemonte       pp             Hintikka      
+
+  Kulik  amp  Fridman       p           Cook       p           
+
+  Floty ski       p           Berlemann  amp  Mangold       p           
+
+  Gensler       p       xliii  Font  amp  Jansana       p         
+
+  Haack       pp             Philosophy of logics  Hintikka  amp  Sandu       pp              Jacquette       pp             Introduction  Philosophy of logic today 
+
+  Moore  amp  Carling       p           Enderton       pp              Sentential Logic 
+
+  Lepore  amp  Cumming       p         
+
+  Wasilewska       pp                Rathjen  amp  Sieg      
+
+  Sider       pp              Shapiro  amp  Kouri Kissel       Bimb        pp           
+
+  Restall  amp  Standefer       p           Enderton       pp                Chapter      van Dalen       Chapter     
+
+  Jacquette       pp             Introduction  Philosophy of logic today  Smith       Groarke 
+
+  Haack           Alternative  in  Alternative Logic  
+
+  Haack       pp             Philosophy of logics  Haack           Alternative  in  Alternative Logic   Wolf       pp               
+
+  Smith       Groarke  Bobzien      
+
+  a b Groarke 
+
+  Smith       Magnus           Connectives 
+
+  Smith       Bobzien       Hintikka  amp  Spade  Aristotle 
+
+  Westerst hl       pp               
+
+  a b Smith       Groarke 
+
+  Smith       Hurley          Categorical Syllogisms  Copi  Cohen  amp  Rodych          Categorical Syllogisms 
+
+  Groarke  Hurley          Categorical Syllogisms  Copi  Cohen  amp  Rodych          Categorical Syllogisms 
+
+  Hurley          Categorical Syllogisms 
+
+  Spriggs       pp             
+
+  Hintikka        Nature and varieties of logic   Alternative logics  Hintikka  amp  Sandu       pp              B ck       p           
+
+  Shapiro  amp  Kouri Kissel      
+
+  Burgess          Classical logic 
+
+  Jacquette       pp             Introduction  Philosophy of logic today  Borchert     c  Logic  Non Classical  Goble       Introduction 
+
+  Brody       pp               
+
+  Klement     b 
+
+  Shapiro  amp  Kouri Kissel       Honderich       philosophical logic  Michaelson  amp  Reimer      
+
+  Nolt       Magnus         Quantified logic 
+
+  Bunnin  amp  Yu       p            Garson       Introduction 
+
+  Garson       Sadegh Zadeh       p           
+
+  Fitch       p          
+
+  Garson       Carnielli  amp  Pizzi       p          Benthem 
+
+  a b Garson      
+
+  Rendsvig  amp  Symons      
+
+  Audi     b  Philosophy of logic  V  n nen       Ketland       Second Order Logic 
+
+  Audi     b  Philosophy of logic  V  n nen       Daintith  amp  Wright       Predicate calculus 
+
+  Audi     b  Philosophy of logic  Ketland       Second Order Logic 
+
+  Haack           Alternative  in  Alternative Logic   Wolf       pp               
+
+  a b Moschovakis       Borchert     c  Logic  Non Classical 
+
+  Borchert     c  Logic  Non Classical  Bridges et al        pp              Friend       p           
+
+  Sider       Chapter      Gamut            Zegarelli       p          
+
+  H jek      
+
+  Borchert     c  Logic  Non Classical  Priest  Tanaka  amp  Weber       Weber 
+
+  Priest  Tanaka  amp  Weber       Weber  Haack       Introduction 
+
+  Hansen       Korb       pp                  Ritola       p           
+
+  Hansen       Korb       pp              Ritola       p           
+
+  Walton       pp               A new model of argument  Ritola       p           
+
+  a b Walton       pp                      A new model of argument 
+
+  Walton       pp                       A new model of argument  Ritola       p           
+
+  Hansen       Walton       pp                      Logic of propositions 
+
+  Ritola       p           
+
+  Hansen       Korb       pp                 
+
+  a b Siegel  amp  Biro       pp               
+
+  Hansen       Korb       pp             
+
+  Mackie       Siegel  amp  Biro       pp               
+
+  Hansen       Moore  amp  Cromby       p          
+
+  Olsson       pp                Bayesian Epistemology  H jek  amp  Lin       pp                Hartmann  amp  Sprenger       pp                Bayesian Epistemology 
+
+  Shermer       p           
+
+  Korb       pp                     H jek  amp  Lin       pp                Talbott      
+
+  Hintikka        Logic and other disciplines  Haack       pp             Philosophy of logics 
+
+  Hintikka       lead section   Features and problems of logic  G del       pp                Russell s mathematical logic  Monk       pp            Introduction 
+
+  Jacquette       pp             Introduction  Philosophy of logic today 
+
+  Hintikka        Problems of ontology 
+
+  Jacquette       pp             Introduction  Philosophy of logic today  Burgess          Classical logic 
+
+  Goble       Introduction  Hintikka  amp  Sandu       pp             
+
+  Gensler       pp       xliii xliv  Sider       pp            Schagrin 
+
+  Irvine      
+
+  Li       p       ix  Rautenberg       p           Quine       p          Stolyar       p         
+
+  Stolyar       pp           
+
+  Hintikka  amp  Spade  G del s incompleteness theorems  Linsky       p          Richardson       p          
+
+  Bagaria       Cunningham 
+
+  Borchert     a  Computability Theory  Leary  amp  Kristiansen       p           
+
+  Paulson       pp             Casta o       p          Wile  Goss  amp  Roesner       p           
+
+  Clocksin  amp  Mellish       pp                              The Relation of Prolog to Logic  Daintith  amp  Wright       Logic Programming Languages 
+
+  O Regan       p           Calderbank  amp  Sloane       p           
+
+  Daintith  amp  Wright       Logic Gate 
+
+  Janssen  amp  Zimmermann       pp            Partee       King       pp                Aloni  amp  Dekker       pp             
+
+  Warren          The Epistemology of Logic  Schechter 
+
+  Warren          The Epistemology of Logic 
+
+  Schechter 
+
+  G mez Torrente      
+
+  Warren          The Epistemology of Logic  G mez Torrente       Warren          What is Conventionalism 
+
+  Chua       pp                Wilce       Putnam       pp               
+
+  Lagerlund      
+
+  Spade  amp  Panaccio      
+
+  Haaparanta       pp               Introduction  Hintikka  amp  Spade  Modern logic  Logic since      
+
+  Kline        A major achievement of Aristotle was the founding of the science of logic   p       ukasiewicz       p          Liu  amp  Guo       p          
+
+  Lear       p          
+
+  Knuuttila       p           Fisher  Gabbay  amp  Vila       p           
+
+  Berman       p           
+
+  Frede  Groarke 
+
+  Ewald       Smith      
+
+  Hasse       Lagerlund      
+
+  Washell       pp                Kneale  amp  Kneale       pp                
+
+  a b Goodman       p           
+
+  Goodman       p           
+
+  Hintikka  amp  Spade  Arabic Logic 
+
+  Iqbal       pp               The Spirit of Muslim Culture 
+
+  Marenbon       Introduction     The Logical Text Books  Hintikka  amp  Spade 
+
+  Hintikka  amp  Spade  Hasse       Spade  amp  Panaccio      
+
+  Willman       Ro ker       pp               
+
+  Sarukkai  amp  Chakraborty       pp               
+
+  Dasti  Lead section   b  Inference  Mills       p           
+
+  Emmanuel       pp                Vidyabhusana       p           
+
+  Chakrabarti       pp               
+
+  Groarke  Haaparanta       pp               Introduction 
+
+  Haaparanta       pp            Hintikka  amp  Spade  Modern logic  Logic since      
+
+  Ewald      
+
+  Ewald       Schreiner       p          
+
+
+Bibliography edit 
+
+Aloni  Maria  Dekker  Paul    July        The Cambridge Handbook of Formal Semantics  Cambridge University Press  pp              ISBN                        
+Angell  Richard B          Reasoning and Logic  Ardent Media  p            OCLC             
+Audi  Robert      a    Informal logic   The Cambridge Dictionary of Philosophy  Cambridge University Press  p            ISBN                         Archived from the original on    April       Retrieved    December      
+Audi  Robert      b    Philosophy of logic   The Cambridge Dictionary of Philosophy  Cambridge University Press  pp                ISBN                         Archived from the original on    April       Retrieved    December      
+Backmann  Marius    June         Varieties of Justification How  Not  to Solve the Problem of Induction   Acta Analytica                   doi         s                  ISSN                 S CID                
+Bagaria  Joan          Set Theory   The Stanford Encyclopedia of Philosophy  Metaphysics Research Lab  Stanford University  Retrieved    September      
+Barnes  Jonathan     January        Truth  etc   Six Lectures on Ancient Logic  Clarendon Press  p            ISBN                        
+Benthem  Johan van   Modal Logic  Contemporary View     Modal Notions and Reasoning Patterns  a First Pass   Internet Encyclopedia of Philosophy  Retrieved    March      
+Berlemann  Lars  Mangold  Stefan     July        Cognitive Radio and Dynamic Spectrum Access  John Wiley  amp  Sons  p            ISBN                        
+Berman  Harold J     July        Law and Revolution  the Formation of the Western Legal Tradition  Harvard University Press  ISBN                        
+Bimb   Katalin    April        J  Michael Dunn on Information Based Logics  Springer  pp            ISBN                        
+Blackburn  Simon    January         argument   The Oxford Dictionary of Philosophy  Oxford University Press  ISBN                         Archived from the original on   January       Retrieved   January      
+Blackburn  Simon     March         rule of inference   The Oxford Dictionary of Philosophy  Oxford University Press  ISBN                         Archived from the original on   January       Retrieved   January      
+Blair  J  Anthony  Johnson  Ralph H           The Current State of Informal Logic   Informal Logic                  doi          il v i        Archived from the original on    December       Retrieved   January      
+Blair  J  Anthony  Johnson  Ralph H           Informal Logic  An Overview   Informal Logic                  doi          il v  i        Archived from the original on   December       Retrieved    December      
+Blair  J  Anthony     October        Groundwork in the Theory of Argumentation  Selected Papers of J  Anthony Blair  Springer Science  amp  Business Media  p           ISBN                        
+Bobzien  Susanne          Ancient Logic     Aristotle   The Stanford Encyclopedia of Philosophy  Metaphysics Research Lab  Stanford University  Archived from the original on    August       Retrieved   January      
+Borchert  Donald  ed       a    Computability Theory   Macmillan Encyclopedia of Philosophy Volume     nd      ed    Macmillan  pp                ISBN                        
+Borchert  Donald      b    Induction   Macmillan Encyclopedia of Philosophy Volume     nd      ed    Macmillan  pp                ISBN                         Archived from the original on    January       Retrieved   January      
+Borchert  Donald      c    Logic  Non Classical   Macmillan Encyclopedia of Philosophy Volume     nd      ed    Macmillan  pp                ISBN                         Archived from the original on    January       Retrieved   January      
+Bridges  Douglas  Ishihara  Hajime  Rathjen  Michael  Schwichtenberg  Helmut     April        Handbook of Constructive Mathematics  Cambridge University Press  pp              ISBN                        
+Brody  Boruch A          Encyclopedia of Philosophy  Vol          Donald M  Borchert   nd      ed    Thomson Gale Macmillan Reference US  pp                ISBN                         OCLC                The two most important types of logical calculi are propositional  or sentential  calculi and functional  or predicate  calculi  A propositional calculus is a system containing propositional variables and connectives  some also contain propositional constants  but not individual or functional variables or constants  In the extended propositional calculus  quantifiers whose operator variables are propositional variables are added 
+Bunnin  Nicholas  Yu  Jiyuan     January        The Blackwell Dictionary of Western Philosophy  John Wiley  amp  Sons  p            ISBN                        
+Burgess  John P              Classical logic   Philosophical Logic  Princeton  NJ  Princeton University Press  pp             ISBN                         Archived from the original on    December       Retrieved   January      
+B ck  Allan T          Aristotle s Theory of Predication  Brill  p            ISBN                        
+Calderbank  Robert  Sloane  Neil J  A   April         Claude Shannon               Nature                   doi                   ISSN                 PMID                S CID              
+Carnielli  Walter  Pizzi  Claudio         Modalities and Multimodalities  Springer Science  amp  Business Media  p          ISBN                        
+Casta o  Arnaldo P rez     May        Practical Artificial Intelligence  Machine Learning  Bots  and Agent Solutions Using C   Apress  p          ISBN                        
+Chakrabarti  Kisor Kumar  June         Some Comparisons Between Frege s Logic and Navya Nyaya Logic   Philosophy and Phenomenological Research                   doi                  JSTOR              
+Chatfield  Tom         Critical Thinking  Your Guide to Effective Argument  Successful Analysis and Independent Study  Sage  p            ISBN                        
+Chua  Eugene          An Empirical Route to Logical  Conventionalism    Logic  Rationality  and Interaction  Lecture Notes in Computer Science  Vol              pp                doi                               ISBN                        
+Clocksin  William F   Mellish  Christopher S           The Relation of Prolog to Logic   Programming in Prolog  Using the ISO Standard  Springer  pp                doi                               ISBN                        
+Cook  Roy T          Dictionary of Philosophical Logic  Edinburgh University Press  p            ISBN                        
+Copi  Irving M   Cohen  Carl  Rodych  Victor         Introduction to Logic  Routledge  ISBN                        
+Corkum  Philip          Generality and Logical Constancy   Revista Portuguesa de Filosofia                   doi          rpf                 ISSN                 JSTOR               
+Craig  Edward         Routledge Encyclopedia of Philosophy  Routledge  ISBN                         Archived from the original on    January       Retrieved    December      
+Cummings  Louise          Abduction   The Routledge Pragmatics Encyclopedia  Routledge  p          ISBN                        
+Cunningham  Daniel   Set Theory   Internet Encyclopedia of Philosophy  Retrieved    September      
+D Agostino  Marcello  Floridi  Luciano          The Enduring Scandal of Deduction  Is Propositional Logic Really Uninformative    Synthese                    doi         s                  hdl            ISSN                 JSTOR                S CID              
+Daintith  John  Wright  Edmund         A Dictionary of Computing  OUP  ISBN                        
+van Dalen  Dirk         Logic and Structure  Springer  Chapter      ISBN                        
+Dasti  Matthew R   Nyaya   Internet Encyclopedia of Philosophy  Retrieved    March      
+Dick  Anthony S   M ller  Ulrich         Advancing Developmental Science  Philosophy  Theory  and Method  Taylor  amp  Francis  p            ISBN                        
+Douven  Igor          Abduction   The Stanford Encyclopedia of Philosophy  Metaphysics Research Lab  Stanford University  Archived from the original on   September       Retrieved    August      
+Dowden  Bradley   Fallacies   Internet Encyclopedia of Philosophy  Archived from the original on    April       Retrieved    March      
+van Eemeren  Frans H   Garssen  Bart         Pondering on Problems of Argumentation  Twenty Essays on Theoretical Issues  Springer Science  amp  Business Media  p            ISBN                        
+van Eemeren  Frans H   Garssen  Bart  Krabbe  Erik C  W   Snoeck Henkemans  A  Francisca  Verheij  Bart  Wagemans  Jean H  M           Informal Logic   Handbook of Argumentation Theory  Springer Netherlands  pp             doi                                ISBN                         Archived from the original on    December       Retrieved   January      
+van Eemeren  Frans H   Grootendorst  Rob  Johnson  Ralph H   Plantin  Christian  Willard  Charles A          Fundamentals of Argumentation Theory  A Handbook of Historical Backgrounds and Contemporary Developments  Routledge  p            ISBN                        
+Emmanuel  Steven M          A Companion to Buddhist Philosophy  John Wiley  amp  Sons  pp                ISBN                        
+Enderton  Herbert         A Mathematical Introduction to Logic  Elsevier  ISBN                        
+Engel  S  Morris         With Good Reason an Introduction to Informal Fallacies  St  Martin s Press  ISBN                         Archived from the original on   March       Retrieved   January      
+Evans  Jonathan St  B  T              Deductive Reasoning   In Morrison  Robert  ed    The Cambridge Handbook of Thinking and Reasoning  Cambridge University Press  p            ISBN                        
+Ewald  William          The Emergence of First Order Logic   The Stanford Encyclopedia of Philosophy  Metaphysics Research Lab  Stanford University  Retrieved    March      
+Falguera  Jos  L   Mart nez Vidal  Concha  Rosen  Gideon          Abstract Objects   The Stanford Encyclopedia of Philosophy  Metaphysics Research Lab  Stanford University  Archived from the original on    January       Retrieved   January      
+Falikowski  Anthony  Mills  Susan         Experiencing Philosophy   nd      ed    Broadview Press  p           ISBN                        
+Fisher  Michael David  Gabbay  Dov M   Vila  Lluis         Handbook of Temporal Reasoning in Artificial Intelligence  Elsevier  p            ISBN                        
+Fitch  G  W      December        Saul Kripke  Routledge  p           ISBN                        
+Floty ski  Jakub    December        Knowledge Based Explorable Extended Reality Environments  Springer Nature  p           ISBN                        
+Font  Josep Maria  Jansana  Ramon         A General Algebraic Semantics for Sentential Logics  Cambridge University Press  p          ISBN                        
+Frede  Michael   Aristotle   Michigan Technological University  Retrieved   November      
+Friend  Michele         Introducing Philosophy of Mathematics  Routledge  p            ISBN                        
+Gamut  L T F          Logic  Language and Meaning Vol    Introduction to Logic  University of Chicago Press       ISBN                        
+Garson  James          Modal Logic   The Stanford Encyclopedia of Philosophy  Metaphysics Research Lab  Stanford University  Retrieved    March      
+Gensler  Harry J          The A to Z of Logic  Scarecrow Press  pp       xliii xliv  ISBN                        
+Goble  Lou          Introduction   The Blackwell Guide to Philosophical Logic  Wiley Blackwell  pp            ISBN                         Archived from the original on   December       Retrieved   January      
+Goodman  Lenn Evan         Avicenna  Routledge  p            ISBN                        
+Goodman  Lenn Evan         Islamic Humanism  Oxford University Press  p            ISBN                        
+Groarke  Louis F   Aristotle  Logic   Internet Encyclopedia of Philosophy  Archived from the original on    December       Retrieved   January      
+Groarke  Leo          Informal Logic   The Stanford Encyclopedia of Philosophy  Metaphysics Research Lab  Stanford University  Archived from the original on    January       Retrieved    December      
+G mez Torrente  Mario          Logical Truth   The Stanford Encyclopedia of Philosophy  Metaphysics Research Lab  Stanford University  Archived from the original on   October       Retrieved    November      
+G del  Kurt          Russell s mathematical logic   In Benacerraf  Paul  Putnam  Hilary  eds    Philosophy of Mathematics  Selected Readings   nd      ed    Cambridge University Press  pp                ISBN                         Archived from the original on    January       Retrieved   January      
+H jek  Petr    September         Fuzzy Logic   Stanford Encyclopedia of Philosophy  Metaphysics Research Lab  Stanford University  Retrieved    July      
+H jek  Alan  Lin  Hanti          A Tale of Two Epistemologies    Res Philosophica                   doi          resphil       S CID                 Archived from the original on   January       Retrieved   January      
+Hall  Cordelia  O Donnell  John         Discrete Mathematics Using a Computer  Springer Science  amp  Business Media  p           ISBN                        
+Houde  R   Camacho  L           Induction   New Catholic Encyclopedia  Thomson Gale  ISBN                         Archived from the original on   January       Retrieved   January      
+Haack  Susan         Deviant Logic  Some Philosophical Issues  CUP Archive  p           ISBN                        
+Haack  Susan              Philosophy of logics    Philosophy of Logics  London and New York  Cambridge University Press  pp             ISBN                         Archived from the original on   December       Retrieved    December        cite book     CS  maint  publisher location  link 
+Haack  Susan         Deviant Logic  Fuzzy Logic  Beyond the Formalism  University of Chicago Press  ISBN                        
+Haaparanta  Leila             Introduction   The Development of Modern Logic  Oxford University Press  pp            ISBN                        
+Hansen  Hans          Fallacies   The Stanford Encyclopedia of Philosophy  Metaphysics Research Lab  Stanford University  Archived from the original on    March       Retrieved    March      
+Hartmann  Stephan  Sprenger  Jan          Bayesian Epistemology   The Routledge Companion to Epistemology  London  Routledge  pp                ISBN                         Archived from the original on    May       Retrieved   January        cite book     CS  maint  publisher location  link 
+Hasse  Dag Nikolaus          Influence of Arabic and Islamic Philosophy on the Latin West   The Stanford Encyclopedia of Philosophy  Metaphysics Research Lab  Stanford University  Retrieved    July      
+Hawthorne  James          Inductive Logic   The Stanford Encyclopedia of Philosophy  Metaphysics Research Lab  Stanford University  Archived from the original on    January       Retrieved   January      
+Hintikka  Jaakko J           Philosophy of logic   Encyclop dia Britannica  Archived from the original on    April       Retrieved    November      
+Hintikka  Jaakko J           Logical systems   Encyclop dia Britannica  Archived from the original on   December       Retrieved   December      
+Hintikka  Jaakko          Information  Deduction  and the A Priori   No s                  doi                  ISSN                 JSTOR              
+Hintikka  Jaakko  Sandu  Gabriel          What is Logic    In Jacquette  D   ed    Philosophy of Logic  North Holland  pp              ISBN                         Archived from the original on   December       Retrieved    December      
+Hintikka  Jaakko J   Spade  Paul Vincent   History of logic   Encyclop dia Britannica  Retrieved    September      
+Honderich  Ted         The Oxford Companion to Philosophy  Oxford University Press  ISBN                         Archived from the original on    January       Retrieved   January      
+Hurley  Patrick J              Categorical Syllogisms   Logic  The Essentials  Wadsworth  pp                ISBN                        
+IEP Staff   Deductive and Inductive Arguments   Archived from the original on    May       Retrieved   January      
+Iqbal  Mohammad          The Spirit of Muslim Culture   The Reconstruction of Religious Thought in Islam  Stanford University Press  pp               ISBN                        
+Irvine  Andrew David          Bertrand Russell   The Stanford Encyclopedia of Philosophy  Metaphysics Research Lab  Stanford University  Retrieved    September      
+Jacquette  Dale          Introduction  Philosophy of logic today   Philosophy of Logic  North Holland  pp             ISBN                         Archived from the original on   December       Retrieved    December      
+Jago  Mark         The Impossible  An Essay on Hyperintensionality  OUP Oxford  p           ISBN                        
+Janssen  Theo M  V   Zimmermann  Thomas Ede          Montague Semantics   The Stanford Encyclopedia of Philosophy  Metaphysics Research Lab  Stanford University  pp            Retrieved    March      
+Johnson  Ralph H           The Relation Between Formal and Informal Logic   Argumentation                   doi         A                S CID                 Archived from the original on   December       Retrieved   January      
+Johnson  Ralph H      July        The Rise of Informal Logic  Essays on Argumentation  Critical Thinking  Reasoning and Politics  University of Windsor  ISBN                        
+Ketland  Jeffrey          Second Order Logic   Macmillan Encyclopedia of Philosophy Volume    Macmillan Reference USA  pp                ISBN                         Archived from the original on   December       Retrieved   January      
+King  Jeffrey C     September         Formal Semantics   The Oxford Handbook of Philosophy of Language  pp                doi         oxfordhb                         ISBN                        
+King  Jeffrey C           Structured Propositions   The Stanford Encyclopedia of Philosophy  Metaphysics Research Lab  Stanford University  Archived from the original on    October       Retrieved   December      
+Klement  Kevin C       b    Propositional Logic   Internet Encyclopedia of Philosophy  ISSN                 Retrieved    September      
+Kline  Morris         Mathematical Thought From Ancient to Modern Times  Oxford University Press  ISBN                        
+Kneale  William  Kneale  Martha         The Development of Logic  Clarendon Press  ISBN                          cite book     CS  maint  ignored ISBN errors  link 
+Knuuttila  Simo         Reforging the Great Chain of Being  Studies of the History of Modal Theories  Springer Science  amp  Business Media  p           ISBN                        
+Korb  Kevin          Bayesian Informal Logic and Fallacy   Informal Logic                 doi          il v  i        Archived from the original on    November       Retrieved   January      
+Koslowski  Barbara          Abductive Reasoning and Explanation   International Handbook of Thinking and Reasoning  Routledge  pp                doi                        ISBN                         Archived from the original on   January       Retrieved   January      
+Kulik  Boris  Fridman  Alexander     November        N ary Relations for Logical Analysis of Data and Knowledge  IGI Global  p           ISBN                        
+Kusch  Martin          Psychologism   The Stanford Encyclopedia of Philosophy  Metaphysics Research Lab  Stanford University  Archived from the original on    December       Retrieved    November      
+Lagerlund  Henrik     September         Review of The Aftermath of Syllogism  Aristotelian Logical Argument from Avicenna to Hegel   Notre Dame Philosophical Reviews  Retrieved    July      
+Lear  Jonathan         Aristotle and Logical Theory  CUP Archive  p           ISBN                        
+Leary  Christopher C   Kristiansen  Lars         A Friendly Introduction to Mathematical Logic  Suny  p            ISBN                        
+Lepore  Ernest  Cumming  Sam     September        Meaning and Argument  An Introduction to Logic Through Language  John Wiley  amp  Sons  p          ISBN                        
+Li  Wei     February        Mathematical Logic  Foundations for Information Science  Springer Science  amp  Business Media  p       ix  ISBN                        
+Linsky  Bernard         The Evolution of Principia Mathematica  Bertrand Russell s Manuscripts and Notes   nd      ed    Cambridge University Press  p          ISBN                        
+Liu  Shiyong  Guo  Kaizhong    March        Error Logic  Paving Pathways for Intelligent Error Identification and Management  Springer Nature  p           ISBN                        
+ ukasiewicz  Jan         Aristotle s Syllogistic from the Standpoint of Modern Formal Logic   nd      ed    Oxford University Press  p          OCLC                
+MacFarlane  John          Logical Constants   The Stanford Encyclopedia of Philosophy  Metaphysics Research Lab  Stanford University  Archived from the original on    March       Retrieved    November      
+Mackie  J  L           Fallacies   encyclopedia com  Archived from the original on    April       Retrieved    March      
+Magnus  P  D          Forall X  An Introduction to Formal Logic  Victoria  BC  Canada  State University of New York Oer Services  pp            ISBN                         Archived from the original on   December       Retrieved    December      
+Makridis  Odysseus         Symbolic Logic  Springer Nature  pp            ISBN                        
+Maltby  John  Day  Liz  Macaskill  Ann         Personality  Individual Differences and Intelligence  Prentice Hall  ISBN                        
+Marenbon  John          Anicius Manlius Severinus Boethius   The Stanford Encyclopedia of Philosophy  Metaphysics Research Lab  Stanford University 
+McKeon  Matthew   Logical Consequence   Internet Encyclopedia of Philosophy  Archived from the original on    November       Retrieved    November      
+Michaelson  Eliot  Reimer  Marga          Reference   The Stanford Encyclopedia of Philosophy  Metaphysics Research Lab  Stanford University  Archived from the original on   December       Retrieved   December      
+Mills  Ethan         Three Pillars of Skepticism in Classical India  Nagarjuna  Jayarasi  and Sri Harsa  Rowman  amp  Littlefield  p            ISBN                             for Ny ya all inference is ultimately rooted in perception     Naiy yikas typically accept four means of knowledge  perception  inference  comparison  and testimony 
+Monk  J  Donald          Introduction   Mathematical Logic  Springer  pp            doi                              ISBN                         Archived from the original on   January       Retrieved   January      
+Moore  Kevin  Cromby  John    August        How Best to  Go On   Prospects for a  Modern Synthesis  in the Sciences of Mind  Frontiers Media SA  p           ISBN                        
+Moore  Terence  Carling  Christine         Understanding Language  Towards a Post Chomskyan Linguistics  Springer  p           ISBN                        
+Moschovakis  Joan          Intuitionistic Logic   The Stanford Encyclopedia of Philosophy  Introduction  Metaphysics Research Lab  Stanford University  Retrieved    March      
+Nolt  John          Free Logic     The Basics   The Stanford Encyclopedia of Philosophy  Metaphysics Research Lab  Stanford University  Retrieved    September      
+Nunes  Terezinha          Logical Reasoning and Learning   In Seel  Norbert M   ed    Encyclopedia of the Sciences of Learning  Springer Science  amp  Business Media  pp                  ISBN                        
+O Regan  Gerard         Introduction to the History of Computing  A Computing History Primer  Springer  p           ISBN                        
+Oaksford  Mike  Chater  Nick         Bayesian Rationality  The Probabilistic Approach to Human Reasoning  OUP Oxford  p           ISBN                        
+Olkowski  Dorothea  Pirovolakis  Eftichis     January        Deleuze and Guattari s Philosophy of Freedom  Freedom s Refrains  Routledge  pp              ISBN                        
+Olsson  Erik J           Bayesian Epistemology   Introduction to Formal Philosophy  Springer  pp                ISBN                         Archived from the original on    May       Retrieved   January      
+Online Etymology Staff   Logic   etymonline com  Archived from the original on    December       Retrieved    December      
+Partee  Barbara H          Aloni  Maria  Dekker  Paul  eds    The Cambridge Handbook of Formal Semantics  Cambridge University Press  ISBN                        
+Paulson  Lawrence C   February         Computational Logic  Its Origins and Applications   Proceedings of the Royal Society A  Mathematical  Physical and Engineering Sciences                    arXiv             Bibcode     RSPSA         P  doi         rspa            PMC               PMID                S CID              
+Pedemonte  Bettina     June         Strategic vs Definitory Rules  Their Role in Abductive Argumentation and their Relationship with Deductive Proof   Eurasia Journal of Mathematics  Science and Technology Education                doi          ejmste        ISSN                 S CID                 Archived from the original on   December       Retrieved   January      
+Pickel  Bryan    July         Structured Propositions and Trivial Composition   Synthese                      doi         s                  hdl                  c    f cb      a        a  ce  c  ISSN                 S CID               
+Pietroski  Paul          Logical Form     Patterns of Reason   The Stanford Encyclopedia of Philosophy  Metaphysics Research Lab  Stanford University  Archived from the original on   October       Retrieved   December      
+Planty Bonjour  Guy         The Categories of Dialectical Materialism  Contemporary Soviet Ontology  Springer Science  amp  Business Media  p           ISBN                        
+Possin  Kevin          Conductive Arguments  Why is This Still a Thing    Informal Logic                   doi          il v  i        Archived from the original on   January       Retrieved   January      
+Priest  Graham  Tanaka  Koji  Weber  Zach          Paraconsistent Logic   The Stanford Encyclopedia of Philosophy  Metaphysics Research Lab  Stanford University  Retrieved    December      
+P pin  Jean          Logos   Encyclopedia of Religion  Macmillan Reference USA  ISBN                         Archived from the original on    December       Retrieved    December      
+Putnam  H           Is Logic Empirical    Boston Studies in the Philosophy of Science  Vol          pp                doi                              ISBN                        
+Quine  Willard Van Orman         Mathematical Logic  Harvard University Press  p          ISBN                        
+Rathjen  Michael  Sieg  Wilfried          Proof Theory   The Stanford Encyclopedia of Philosophy  Metaphysics Research Lab  Stanford University  Retrieved   March      
+Rautenberg  Wolfgang    July        A Concise Introduction to Mathematical Logic  Springer  p           ISBN                        
+Rendsvig  Rasmus  Symons  John          Epistemic Logic   The Stanford Encyclopedia of Philosophy  Metaphysics Research Lab  Stanford University  Retrieved    March      
+Restall  Greg  Standefer  Shawn         Logical Methods  MIT Press  p           ISBN                        
+Richardson  Alan W          Carnap s Construction of the World  The Aufbau and the Emergence of Logical Empiricism  Cambridge University Press  p           ISBN                        
+Rini  Adriane     December        Aristotle s Modal Proofs  Prior Analytics A     in Predicate Logic  Springer Science  amp  Business Media  p           ISBN                        
+Ritola  Juho    December         Walton s Informal Logic  A Pragmatic Approach   Informal Logic               doi          il v  i       
+Rocci  Andrea    March        Modality in Argumentation  A Semantic Investigation of the Role of Modalities in the Structure of Arguments with an Application to Italian Modal Expressions  Springer  p           ISBN                        
+Ro ker  Jana S   May         Classical Chinese Logic  Philosophy Compass   Philosophy Compass                   doi         phc        
+Runco  Mark A   Pritzker  Steven R          Encyclopedia of Creativity  Academic Press  p            ISBN                        
+Rush  Penelope          Introduction   The Metaphysics of Logic  Cambridge University Press  pp             ISBN                         Archived from the original on   December       Retrieved   January      
+Sadegh Zadeh  Kazem         Handbook of Analytic Philosophy of Medicine  Springer  p            ISBN                        
+Sag illo  Jos  M           Hintikka on Information and Deduction   Teorema  Revista Internacional de Filosof a                 ISSN                 JSTOR               
+Sarukkai  Sundar  Chakraborty  Mihir Kumar         Handbook of Logical Thought in India  Springer Nature  pp                ISBN                        
+Schagrin  Morton L   Metalogic   Encyclop dia Britannica  Retrieved    September      
+Schechter  Joshua   Epistemology of Logic   Bibliography   PhilPapers  Retrieved    September      
+Schlesinger  I  M   Keren Portnoy  Tamar  Parush  Tamar    January        The Structure of Arguments  John Benjamins Publishing  p            ISBN                        
+Schreiner  Wolfgang         Thinking Programs  Logical Modeling and Reasoning About Languages  Data  Computations  and Executions  Springer Nature  p           ISBN                        
+Scott  John  Marshall  Gordon          analytic induction   A Dictionary of Sociology  Oxford University Press  ISBN                         Archived from the original on   January       Retrieved   January      
+Shapiro  Stewart  Kouri Kissel  Teresa          Classical Logic   The Stanford Encyclopedia of Philosophy  Metaphysics Research Lab  Stanford University  Retrieved    July      
+Shermer  Michael     October        Conspiracy  Why the Rational Believe the Irrational  JHU Press  ISBN                        
+Sider  Theodore         Logic for Philosophy  Oxford University Press  ISBN                        
+Siegel  Harvey  Biro  John          Epistemic Normativity  Argumentation  and Fallacies   Argumentation                   doi         A                S CID                 Archived from the original on    February       Retrieved   January      
+Simpson  R  L          Essentials of Symbolic Logic   rd      ed    Broadview Press  p           ISBN                        
+Smith  Robin          Aristotle s Logic   The Stanford Encyclopedia of Philosophy  Metaphysics Research Lab  Stanford University  Retrieved    March      
+Spade  Paul Vincent  Panaccio  Claude          William of Ockham   The Stanford Encyclopedia of Philosophy  Metaphysics Research Lab  Stanford University 
+Spriggs  John         GSN   The Goal Structuring Notation  A Structured Approach to Presenting Arguments  Springer Science  amp  Business Media  pp              ISBN                        
+Stairs  Allen         A Thinker s Guide to the Philosophy of Religion  Routledge  p            ISBN                        
+Sternberg  Robert J   Thought   Encyclop dia Britannica  Archived from the original on    October       Retrieved    October      
+Stolyar  Abram Aronovich    January        Introduction to Elementary Mathematical Logic  Courier Corporation  ISBN                        
+Stone  Mark A           Denying the Antecedent  Its Effective Use in Argumentation   Informal Logic                   doi          il v  i        Archived from the original on    February       Retrieved   January      
+Stump  David J   Fallacy  Logical   encyclopedia com  Archived from the original on    February       Retrieved    March      
+Talbott  William          Bayesian Epistemology   The Stanford Encyclopedia of Philosophy  Metaphysics Research Lab  Stanford University  Archived from the original on   April       Retrieved   March      
+Tarski  Alfred         Introduction to Logic and to the Methodology of the Deductive Sciences  Oxford University Press  p           ISBN                        
+Tondl  L          Problems of Semantics  A Contribution to the Analysis of the Language Science  Springer Science  amp  Business Media  p            ISBN                        
+Velleman  Daniel J          How to Prove It  A Structured Approach  Cambridge University Press  pp               ISBN                        
+Vickers  John M           Inductive Reasoning   Oxford Bibliographies  Oxford University Press  Retrieved    January      
+Vidyabhusana  Satis Chandra         A History of Indian Logic  Ancient  Mediaeval and Modern Schools  Motilal Banarsidass Publisher  p            ISBN                        
+Vleet  Van Jacob E           Introduction   Informal Logical Fallacies  A Brief Guide  Upa  pp       ix x  ISBN                         Archived from the original on    February       Retrieved   January      
+V  n nen  Jouko          Second order and Higher order Logic   The Stanford Encyclopedia of Philosophy  Metaphysics Research Lab  Stanford University  Archived from the original on    October       Retrieved    November      
+Walton  Douglas N          Informal Fallacies  Towards a Theory of Argument Criticisms  John Benjamins  ISBN                         Archived from the original on   March       Retrieved   January      
+Warren  Jared         Shadows of Syntax  Revitalizing Logical and Mathematical Conventionalism  Oxford University Press  ISBN                        
+Washell  Richard F           Logic  Language  and Albert the Great   Journal of the History of Ideas                   doi                  JSTOR              
+Wasilewska  Anita         Logics for Computer Science  Classical and Non Classical  Springer  pp                ISBN                        
+Weber  Zach   Paraconsistent Logic   Internet Encyclopedia of Philosophy  Retrieved    December      
+Weddle  Perry          Chapter     Informal logic and the eductive inductive distinction   Across the Lines of Disciplines  De Gruyter Mouton  pp                doi                            ISBN                         Archived from the original on    December       Retrieved   January      
+Westerst hl  Dag          Aristotelian Syllogisms and Generalized Quantifiers   Studia Logica                   doi         BF          S CID                Archived from the original on   January       Retrieved   January      
+Wilbanks  Jan J     March         Defining Deduction  Induction  and Validity   Argumentation                   doi         s                  ISSN                 S CID                 Archived from the original on   January       Retrieved   January      
+Wilce  Alexander          Quantum Logic and Probability Theory      Realist Quantum Logic   The Stanford Encyclopedia of Philosophy  Metaphysics Research Lab  Stanford University  Retrieved    March      
+Wile  Bruce  Goss  John  Roesner  Wolfgang         Comprehensive Functional Verification  The Complete Industry Cycle  Elsevier  p            ISBN                        
+Willman  Marshall D           Logic and Language in Early Chinese Philosophy   The Stanford Encyclopedia of Philosophy  Metaphysics Research Lab  Stanford University  Introduction  Retrieved    March      
+Wolf  Robert G           Are Relevant Logics Deviant    Philosophia                  doi         BF          S CID                 Archived from the original on    December       Retrieved   January      
+Zegarelli  Mark         Logic For Dummies  John Wiley  amp  Sons  p           ISBN                        
+
+External links edit 
+Listen to this article    hour and   minutes 
+This audio file was created from a revision of this article dated        November                              and does not reflect subsequent edits  Audio help        More spoken articles 
+
+
+Logic  at Wikipedia s sister projects
+
+Definitions from WiktionaryMedia from CommonsNews from WikinewsQuotations from WikiquoteTexts from WikisourceTextbooks from WikibooksResources from Wikiversity
+
+
+
+Library resources about  Logic 
+
+Resources in your library
+Resources in other libraries
+
+
+vteLogic
+History
+Major fields
+Computer science
+Formal semantics  natural language 
+Inference
+Philosophy of logic
+Proof
+Semantics of logic
+Syntax
+Logics
+Classical
+Informal
+Critical thinking
+Reason
+Mathematical
+Non classical
+Philosophical
+Theories
+Argumentation
+Metalogic
+Metamathematics
+Set
+
+Foundations
+Abduction
+Analytic and synthetic propositions
+Antecedent
+Consequent
+Contradiction
+Paradox
+Antinomy
+Deduction
+Deductive closure
+Definition
+Description
+Dichotomy
+Entailment
+Linguistic
+Form
+Induction
+Logical truth
+Name
+Necessity and sufficiency
+Premise
+Probability
+Proposition
+Reference
+Statement
+Substitution
+Truth
+Validity
+ListsTopics
+Mathematical logic
+Boolean algebra
+Set theory
+Other
+Logicians
+Rules of inference
+Paradoxes
+Fallacies
+Logic symbols
+
+ Category
+ Outline
+ Portal
+ WikiProject
+changes
+
+vtePhilosophyBranchesBranches
+Applied philosophy
+Logic
+Metaphilosophy
+Philosophy of education
+Philosophy of information
+Philosophy of language
+Philosophy of mathematics
+Philosophy of religion
+Philosophy of science
+Political philosophy
+Practical philosophy
+Social philosophy
+Theoretical philosophy
+Aesthetics
+Aesthetic response
+Formalism
+Institutionalism
+Epistemology
+Empiricism
+Fideism
+Naturalism
+Particularism
+Rationalism
+Skepticism
+Solipsism
+Ethics
+Consequentialism
+Deontology
+Virtue
+Free will
+Compatibilism
+Determinism
+Hard
+Incompatibilism
+Hard
+Libertarianism
+Metaphysics
+Atomism
+Dualism
+Idealism
+Monism
+Naturalism
+Realism
+Mind
+Behaviorism
+Eliminativism
+Emergentism
+Epiphenomenalism
+Functionalism
+Objectivism
+Subjectivism
+Normativity
+Absolutism
+Particularism
+Relativism
+Nihilism
+Skepticism
+Universalism
+Ontology
+Action
+Event
+Process
+Reality
+Anti realism
+Conceptualism
+Idealism
+Materialism
+Naturalism
+Nominalism
+Physicalism
+Realism
+By eraBy era
+Ancient
+Western
+Medieval
+Renaissance
+Early modern
+Modern
+Contemporary
+AncientChinese
+Agriculturalism
+Confucianism
+Legalism
+Logicians
+Mohism
+Chinese naturalism
+Taoism
+Yangism
+Greco Roman
+Presocratic
+Ionians
+Pythagoreans
+Eleatics
+Atomists
+Sophists
+Cyrenaics
+Cynicism
+Eretrian school
+Megarian school
+Academy
+Peripatetic school
+Hellenistic philosophy
+Pyrrhonism
+Stoicism
+Epicureanism
+Academic Skepticism
+Middle Platonism
+School of the Sextii
+Neopythagoreanism
+Second Sophistic
+Neoplatonism
+Church Fathers
+Indian
+Hindu
+Samkhya
+Nyaya
+Vaisheshika
+Yoga
+M m  s 
+ j vika
+Aj ana
+C rv ka
+Jain
+Anekantavada
+Sy dv da
+Buddhist
+Abhidharma
+Sarv stivad 
+Pudgalavada
+Sautr ntika
+Madhyamaka
+Svatantrika and Prasangika
+  nyat 
+Yogacara
+Tibetan
+Persian
+Mazdakism
+Mithraism
+Zoroastrianism
+Zurvanism
+MedievalEast Asian
+Neotaoism
+Tiantai
+Huayan
+Chan
+Zen
+Neo Confucianism
+Korean Confucianism
+European
+Christian
+Augustinianism
+Scholasticism
+Thomism
+Scotism
+Occamism
+Renaissance humanism
+Indian
+Vedanta
+Acintya bheda abheda
+Advaita
+Bhedabheda
+Dvaita
+Nimbarka Sampradaya
+Shuddhadvaita
+Vishishtadvaita
+Navya Ny ya
+Islamic
+Aristotelianism
+Averroism
+Avicennism
+Illuminationism
+ Ilm al Kal m
+Sufi
+Jewish
+Judeo Islamic
+Modern
+Anarchism
+Classical Realism
+Collectivism
+Conservatism
+Determinism
+Dualism
+Edo neo Confucianism
+Empiricism
+Existentialism
+Foundationalism
+Historicism
+Holism
+Humanism
+Anti 
+Idealism
+Absolute
+British
+German
+Objective
+Subjective
+Transcendental
+Individualism
+Kokugaku
+Liberalism
+Materialism
+Modernism
+Monism
+Naturalism
+Natural law
+Nihilism
+New Confucianism
+Neo scholasticism
+Pessimism
+Pragmatism
+Phenomenology
+Positivism
+Reductionism
+Rationalism
+Social contract
+Socialism
+Transcendentalism
+Utilitarianism
+People
+Cartesianism
+Kantianism
+Neo
+Kierkegaardianism
+Krausism
+Hegelianism
+Marxism
+Newtonianism
+Nietzscheanism
+Spinozism
+ContemporaryAnalytic
+Applied ethics
+Analytic feminism
+Analytical Marxism
+Communitarianism
+Consequentialism
+Critical rationalism
+Experimental philosophy
+Falsificationism
+Foundationalism            Coherentism
+Internalism and externalism
+Logical positivism
+Legal positivism
+Meta ethics
+Moral realism
+Quinean naturalism
+Normative ethics
+Ordinary language philosophy
+Postanalytic philosophy
+Quietism
+Rawlsian
+Reformed epistemology
+Systemics
+Scientism
+Scientific realism
+Scientific skepticism
+Transactionalism
+Contemporary utilitarianism
+Vienna Circle
+Wittgensteinian
+Continental
+Critical theory
+Deconstruction
+Existentialism
+Feminist
+Frankfurt School
+Hermeneutics
+Neo Marxism
+New Historicism
+Phenomenology
+Posthumanism
+Postmodernism
+Post structuralism
+Social constructionism
+Structuralism
+Western Marxism
+Miscellaneous
+Kyoto School
+Objectivism
+Postcritique
+Russian cosmism
+more   
+By regionBy regionAfrican
+Bantu
+Egyptian
+Ethiopian
+Africana
+Eastern
+Buddhist
+Chinese
+Indian
+Indonesian
+Japanese
+Korean
+Taiwanese
+Vietnamese
+Middle Eastern
+Iranian
+Islamic
+Jewish
+Pakistani
+Turkish
+Western
+American
+Australian
+British
+Scottish
+Canada
+Czech
+Danish
+Dutch
+Finland
+French
+German
+Greek
+Italian
+Maltese
+Polish
+Slovene
+Spanish
+Miscellaneous
+Amerindian
+Aztec
+Romanian
+Russian
+Yugoslav
+
+ Philosophy     portal
+ Category
+
+Authority control databases NationalGermanyUnited StatesFranceBnF dataJapanCzech RepublicSpainLatviaIsraelOther sl m Ansiklopedisi
+
+
+
+
+
+Retrieved from  https   en wikipedia org w index php title Logic amp oldid

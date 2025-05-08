@@ -1,0 +1,1527 @@
+Non parametric classification method
+Not to be confused with Nearest neighbor search  Nearest neighbor interpolation  or k means clustering 
+In statistics  the k nearest neighbors algorithm  k NN  is a non parametric supervised learning method  It was first developed by Evelyn Fix and Joseph Hodges in                  and later expanded by Thomas Cover             
+Most often  it is used for classification  as a k NN classifier  the output of which is a class membership  An object is classified by a plurality vote of its neighbors  with the object being assigned to the class most common among its k nearest neighbors  k is a positive integer  typically small   If k                then the object is simply assigned to the class of that single nearest neighbor 
+The k NN algorithm can also be generalized for regression  In k NN regression  also known as nearest neighbor smoothing  the output is the property value for the object  This value is the average of the values of k nearest neighbors  If k                then the output is simply assigned to the value of that single nearest neighbor  also known as nearest neighbor interpolation 
+For both classification and regression  a useful technique can be to assign weights to the contributions of the neighbors  so that nearer neighbors contribute more to the average than distant ones  For example  a common weighting scheme consists of giving each neighbor a weight of   d  where d is the distance to the neighbor            
+The input consists of the k closest training examples in a data set  
+The neighbors are taken from a set of objects for which the class  for k NN classification  or the object property value  for k NN regression  is known  This can be thought of as the training set for the algorithm  though no explicit training step is required 
+A peculiarity  sometimes even a disadvantage  of the k NN algorithm is its sensitivity to the local structure of the data 
+In k NN classification the function is only approximated locally and all computation is deferred until function evaluation  Since this algorithm relies on distance  if the features represent different physical units or come in vastly different scales  then feature wise normalizing of the training data can greatly improve its accuracy            
+
+
+Statistical setting edit 
+Suppose we have pairs 
+  
+    
+      
+         
+        
+          X
+          
+             
+          
+        
+         
+        
+          Y
+          
+             
+          
+        
+         
+         
+         
+        
+          X
+          
+             
+          
+        
+         
+        
+          Y
+          
+             
+          
+        
+         
+         
+          x     
+         
+         
+        
+          X
+          
+            n
+          
+        
+         
+        
+          Y
+          
+            n
+          
+        
+         
+      
+    
+      displaystyle  X     Y       X     Y       dots   X  n  Y  n   
+  
+ taking values in 
+  
+    
+      
+        
+          
+            R
+          
+          
+            d
+          
+        
+          xd  
+         
+         
+         
+         
+         
+      
+    
+      displaystyle  mathbb  R    d  times         
+  
+  where Y is the class label of X  so that 
+  
+    
+      
+        X
+        
+           
+        
+        Y
+         
+        r
+          x   c 
+        
+          P
+          
+            r
+          
+        
+      
+    
+      displaystyle X Y r sim P  r  
+  
+ for 
+  
+    
+      
+        r
+         
+         
+         
+         
+      
+    
+      displaystyle r     
+  
+  and probability distributions 
+  
+    
+      
+        
+          P
+          
+            r
+          
+        
+      
+    
+      displaystyle P  r  
+  
+   Given some norm 
+  
+    
+      
+          x     
+          x  c  
+          x     
+      
+    
+      displaystyle    cdot    
+  
+ on 
+  
+    
+      
+        
+          
+            R
+          
+          
+            d
+          
+        
+      
+    
+      displaystyle  mathbb  R    d  
+  
+ and a point 
+  
+    
+      
+        x
+          x     
+        
+          
+            R
+          
+          
+            d
+          
+        
+      
+    
+      displaystyle x in  mathbb  R    d  
+  
+  let 
+  
+    
+      
+         
+        
+          X
+          
+             
+             
+             
+          
+        
+         
+        
+          Y
+          
+             
+             
+             
+          
+        
+         
+         
+          x     
+         
+         
+        
+          X
+          
+             
+            n
+             
+          
+        
+         
+        
+          Y
+          
+             
+            n
+             
+          
+        
+         
+      
+    
+      displaystyle  X       Y         dots   X   n   Y   n    
+  
+ be a reordering of the training data such that 
+  
+    
+      
+          x     
+        
+          X
+          
+             
+             
+             
+          
+        
+          x     
+        x
+          x     
+          x     
+          x  ef 
+          x     
+          x     
+        
+          X
+          
+             
+            n
+             
+          
+        
+          x     
+        x
+          x     
+      
+    
+      displaystyle   X       x   leq  dots  leq   X   n   x   
+  
+ 
+
+Algorithm edit 
+Example of k NN classification  The test sample  green dot  should be classified either to blue squares or to red triangles   If k      solid line circle  it is assigned to the red triangles because there are   triangles and only   square inside the inner circle   If k      dashed line circle  it is assigned to the blue squares    squares vs    triangles inside the outer circle  
+The training examples are vectors in a multidimensional feature space  each with a class label  The training phase of the algorithm consists only of storing the feature vectors and class labels of the training samples 
+In the classification phase  k is a user defined constant  and an unlabeled vector  a query or test point  is classified by assigning the label which is most frequent among the k training samples nearest to that query point 
+
+Application of a k NN classifier considering k     neighbors  Left   Given the test point      the algorithm seeks the   closest points in the training set  and adopts the majority vote to classify it as  class red   Right   By iteratively repeating the prediction over the whole feature space  X   X    one can depict the  decision surface  
+A commonly used distance metric for continuous variables is Euclidean distance  For discrete variables  such as for text classification  another metric can be used  such as the overlap metric  or Hamming distance   In the context of gene expression microarray data  for example  k NN has been employed with correlation coefficients  such as Pearson and Spearman  as a metric             Often  the classification accuracy of k NN can be improved significantly if the distance metric is learned with specialized algorithms such as Large Margin Nearest Neighbor or Neighbourhood components analysis 
+
+An animated visualization of K means clustering with k      grouping countries based on life expectancy  GDP  and happiness demonstrating how KNN operates in higher dimensions  Click to view the animation            
+A drawback of the basic  majority voting  classification occurs when the class distribution is skewed  That is  examples of a more frequent class tend to dominate the prediction of the new example  because they tend to be common among the k nearest neighbors due to their large number             One way to overcome this problem is to weight the classification  taking into account the distance from the test point to each of its k nearest neighbors  The class  or value  in regression problems  of each of the k nearest points is multiplied by a weight proportional to the inverse of the distance from that point to the test point  Another way to overcome skew is by abstraction in data representation  For example  in a self organizing map  SOM   each node is a representative  a center  of a cluster of similar points  regardless of their density in the original training data  K NN can then be applied to the SOM 
+
+Parameter selection edit 
+The best choice of k depends upon the data  generally  larger values of k reduces effect of the noise on the classification             but make boundaries between classes less distinct  A good k can be selected by various heuristic techniques  see hyperparameter optimization   The special case where the class is predicted to be the class of the closest training sample  i e  when k      is called the nearest neighbor algorithm 
+The accuracy of the k NN algorithm can be severely degraded by the presence of noisy or irrelevant features  or if the feature scales are not consistent with their importance  Much research effort has been put into selecting or scaling features to improve classification  A particularly popular     citation needed      approach is the use of evolutionary algorithms to optimize feature scaling             Another popular approach is to scale features by the mutual information of the training data with the training classes      citation needed     
+In binary  two class  classification problems  it is helpful to choose k to be an odd number as this avoids tied votes  One popular way of choosing the empirically optimal k in this setting is via bootstrap method             
+
+The   nearest neighbor classifier edit 
+The most intuitive nearest neighbour type classifier is the one nearest neighbour classifier that assigns a point x to the class of its closest neighbour in the feature space  that is 
+  
+    
+      
+        
+          C
+          
+            n
+          
+          
+             
+            n
+            n
+          
+        
+         
+        x
+         
+         
+        
+          Y
+          
+             
+             
+             
+          
+        
+      
+    
+      displaystyle C  n    nn  x  Y       
+  
+ 
+As the size of training data set approaches infinity  the one nearest neighbour classifier guarantees an error rate of no worse than twice the Bayes error rate  the minimum achievable error rate given the distribution of the data  
+
+The weighted nearest neighbour classifier edit 
+The k nearest neighbour classifier can be viewed as assigning the k nearest neighbours a weight 
+  
+    
+      
+         
+        
+           
+        
+        k
+      
+    
+      displaystyle   k 
+  
+ and all others   weight  This can be generalised to weighted nearest neighbour classifiers  That is  where the ith nearest neighbour is assigned a weight 
+  
+    
+      
+        
+          w
+          
+            n
+            i
+          
+        
+      
+    
+      displaystyle w  ni  
+  
+  with 
+  
+    
+      
+        
+            x     
+          
+            i
+             
+             
+          
+          
+            n
+          
+        
+        
+          w
+          
+            n
+            i
+          
+        
+         
+         
+      
+    
+      textstyle  sum   i     n w  ni    
+  
+  An analogous result on the strong consistency of weighted nearest neighbour classifiers also holds             
+Let 
+  
+    
+      
+        
+          C
+          
+            n
+          
+          
+            w
+            n
+            n
+          
+        
+      
+    
+      displaystyle C  n   wnn  
+  
+ denote the weighted nearest classifier with weights 
+  
+    
+      
+         
+        
+          w
+          
+            n
+            i
+          
+        
+        
+           
+          
+            i
+             
+             
+          
+          
+            n
+          
+        
+      
+    
+      displaystyle   w  ni     i     n  
+  
+  Subject to regularity conditions  which in asymptotic theory are conditional variables which require assumptions to differentiate among parameters with some criteria  On the class distributions the excess risk has the following asymptotic expansion            
+
+  
+    
+      
+        
+          
+            
+              R
+            
+          
+          
+            
+              R
+            
+          
+        
+         
+        
+          C
+          
+            n
+          
+          
+            w
+            n
+            n
+          
+        
+         
+          x     
+        
+          
+            
+              R
+            
+          
+          
+            
+              R
+            
+          
+        
+         
+        
+          C
+          
+            Bayes
+          
+        
+         
+         
+        
+           
+          
+            
+              B
+              
+                 
+              
+            
+            
+              s
+              
+                n
+              
+              
+                 
+              
+            
+             
+            
+              B
+              
+                 
+              
+            
+            
+              t
+              
+                n
+              
+              
+                 
+              
+            
+          
+           
+        
+         
+         
+         
+        o
+         
+         
+         
+         
+         
+      
+    
+      displaystyle   mathcal  R     mathcal  R   C  n   wnn     mathcal  R     mathcal  R   C   text Bayes     left B    s  n      B    t  n      right     o       
+  
+
+for constants 
+  
+    
+      
+        
+          B
+          
+             
+          
+        
+      
+    
+      displaystyle B     
+  
+ and 
+  
+    
+      
+        
+          B
+          
+             
+          
+        
+      
+    
+      displaystyle B     
+  
+ where 
+  
+    
+      
+        
+          s
+          
+            n
+          
+          
+             
+          
+        
+         
+        
+            x     
+          
+            i
+             
+             
+          
+          
+            n
+          
+        
+        
+          w
+          
+            n
+            i
+          
+          
+             
+          
+        
+      
+    
+      displaystyle s  n       sum   i     n w  ni      
+  
+ and 
+  
+    
+      
+        
+          t
+          
+            n
+          
+        
+         
+        
+          n
+          
+              x     
+             
+            
+               
+            
+            d
+          
+        
+        
+            x     
+          
+            i
+             
+             
+          
+          
+            n
+          
+        
+        
+          w
+          
+            n
+            i
+          
+        
+        
+           
+          
+            
+              i
+              
+                 
+                 
+                 
+                
+                   
+                
+                d
+              
+            
+              x     
+             
+            i
+              x     
+             
+            
+               
+              
+                 
+                 
+                 
+                
+                   
+                
+                d
+              
+            
+          
+           
+        
+      
+    
+      displaystyle t  n  n     d  sum   i     n w  ni  left  i      d   i         d  right   
+  
+ 
+The optimal weighting scheme 
+  
+    
+      
+         
+        
+          w
+          
+            n
+            i
+          
+          
+              x     
+          
+        
+        
+           
+          
+            i
+             
+             
+          
+          
+            n
+          
+        
+      
+    
+      displaystyle   w  ni         i     n  
+  
+  that balances the two terms in the display above  is given as follows  set 
+  
+    
+      
+        
+          k
+          
+              x     
+          
+        
+         
+          x   a 
+        B
+        
+          n
+          
+            
+               
+              
+                d
+                 
+                 
+              
+            
+          
+        
+          x   b 
+      
+    
+      displaystyle k      lfloor Bn   frac     d     rfloor  
+  
+  
+
+  
+    
+      
+        
+          w
+          
+            n
+            i
+          
+          
+              x     
+          
+        
+         
+        
+          
+             
+            
+              k
+              
+                  x     
+              
+            
+          
+        
+        
+           
+          
+             
+             
+            
+              
+                d
+                 
+              
+            
+              x     
+            
+              
+                d
+                
+                   
+                  
+                    
+                      
+                        k
+                        
+                            x     
+                        
+                      
+                    
+                    
+                       
+                      
+                         
+                      
+                      d
+                    
+                  
+                
+              
+            
+             
+            
+              i
+              
+                 
+                 
+                 
+                
+                   
+                
+                d
+              
+            
+              x     
+             
+            i
+              x     
+             
+            
+               
+              
+                 
+                 
+                 
+                
+                   
+                
+                d
+              
+            
+             
+          
+           
+        
+      
+    
+      displaystyle w  ni        frac     k       left     frac  d        frac  d    k         d     i      d   i         d    right  
+  
+ for 
+  
+    
+      
+        i
+         
+         
+         
+         
+         
+          x     
+         
+        
+          k
+          
+              x     
+          
+        
+      
+    
+      displaystyle i      dots  k     
+  
+ and 
+
+  
+    
+      
+        
+          w
+          
+            n
+            i
+          
+          
+              x     
+          
+        
+         
+         
+      
+    
+      displaystyle w  ni        
+  
+ for 
+  
+    
+      
+        i
+         
+        
+          k
+          
+              x     
+          
+        
+         
+         
+         
+          x     
+         
+        n
+      
+    
+      displaystyle i k        dots  n 
+  
+ 
+With optimal weights the dominant term in the asymptotic expansion of the excess risk is 
+  
+    
+      
+        
+          
+            O
+          
+        
+         
+        
+          n
+          
+              x     
+            
+              
+                 
+                
+                  d
+                   
+                   
+                
+              
+            
+          
+        
+         
+      
+    
+      displaystyle   mathcal  O   n     frac     d       
+  
+  Similar results are true when using a bagged nearest neighbour classifier 
+
+Properties edit 
+k NN is a special case of a variable bandwidth  kernel density  balloon  estimator with a uniform kernel                         
+The naive version of the algorithm is easy to implement by computing the distances from the test example to all stored examples  but it is computationally intensive for large training sets  Using an approximate nearest neighbor search algorithm makes k NN computationally tractable even for large data sets  Many nearest neighbor search algorithms have been proposed over the years  these generally seek to reduce the number of distance evaluations actually performed 
+k NN has some strong consistency results  As the amount of data approaches infinity  the two class k NN algorithm is guaranteed to yield an error rate no worse than twice the Bayes error rate  the minimum achievable error rate given the distribution of the data              Various improvements to the k NN speed are possible by using proximity graphs             
+For multi class k NN classification  Cover and Hart        prove an upper bound error rate of
+
+  
+    
+      
+        
+          R
+          
+              x     
+          
+        
+          xa  
+          x     
+          xa  
+        
+          R
+          
+            k
+            
+              N
+              N
+            
+          
+        
+          xa  
+          x     
+          xa  
+        
+          R
+          
+              x     
+          
+        
+        
+           
+          
+             
+              x     
+            
+              
+                
+                  M
+                  
+                    R
+                    
+                        x     
+                    
+                  
+                
+                
+                  M
+                    x     
+                   
+                
+              
+            
+          
+           
+        
+      
+    
+      displaystyle R       leq   R  k mathrm  NN      leq   R     left     frac  MR      M     right  
+  
+
+where 
+  
+    
+      
+        
+          R
+          
+              x     
+          
+        
+      
+    
+      displaystyle R     
+  
+ is the Bayes error rate  which is the minimal error rate possible   
+  
+    
+      
+        
+          R
+          
+            k
+            N
+            N
+          
+        
+      
+    
+      displaystyle R  kNN  
+  
+ is the asymptotic k NN error rate  and M is the number of classes in the problem  This bound is tight in the sense that both the lower and upper bounds are achievable by some distribution              For 
+  
+    
+      
+        M
+         
+         
+      
+    
+      displaystyle M   
+  
+ and as the Bayesian error rate 
+  
+    
+      
+        
+          R
+          
+              x     
+          
+        
+      
+    
+      displaystyle R     
+  
+ approaches zero  this limit reduces to  not more than twice the Bayesian error rate  
+
+Error rates edit 
+There are many results on the error rate of the k nearest neighbour classifiers              The k nearest neighbour classifier is strongly  that is for any joint distribution on 
+  
+    
+      
+         
+        X
+         
+        Y
+         
+      
+    
+      displaystyle  X Y  
+  
+  consistent provided 
+  
+    
+      
+        k
+          
+        
+          k
+          
+            n
+          
+        
+      
+    
+      displaystyle k  k  n  
+  
+ diverges and 
+  
+    
+      
+        
+          k
+          
+            n
+          
+        
+        
+           
+        
+        n
+      
+    
+      displaystyle k  n  n 
+  
+ converges to zero as 
+  
+    
+      
+        n
+          x     
+          x   e 
+      
+    
+      displaystyle n to  infty  
+  
+ 
+Let 
+  
+    
+      
+        
+          C
+          
+            n
+          
+          
+            k
+            n
+            n
+          
+        
+      
+    
+      displaystyle C  n   knn  
+  
+ denote the k nearest neighbour classifier based on a training set of size n  Under certain regularity conditions  the excess risk yields the following asymptotic expansion            
+
+  
+    
+      
+        
+          
+            
+              R
+            
+          
+          
+            
+              R
+            
+          
+        
+         
+        
+          C
+          
+            n
+          
+          
+            k
+            n
+            n
+          
+        
+         
+          x     
+        
+          
+            
+              R
+            
+          
+          
+            
+              R
+            
+          
+        
+         
+        
+          C
+          
+            Bayes
+          
+        
+         
+         
+        
+           
+          
+            
+              B
+              
+                 
+              
+            
+            
+              
+                 
+                k
+              
+            
+             
+            
+              B
+              
+                 
+              
+            
+            
+              
+                 
+                
+                  
+                    k
+                    n
+                  
+                
+                 
+              
+              
+                 
+                
+                   
+                
+                d
+              
+            
+          
+           
+        
+         
+         
+         
+        o
+         
+         
+         
+         
+         
+      
+    
+      displaystyle   mathcal  R     mathcal  R   C  n   knn     mathcal  R     mathcal  R   C   text Bayes     left  B      frac     k   B     left   frac  k  n   right     d  right      o       
+  
+
+for some constants 
+  
+    
+      
+        
+          B
+          
+             
+          
+        
+      
+    
+      displaystyle B     
+  
+ and 
+  
+    
+      
+        
+          B
+          
+             
+          
+        
+      
+    
+      displaystyle B     
+  
+ 
+The choice 
+  
+    
+      
+        
+          k
+          
+              x     
+          
+        
+         
+        
+            x   a 
+          
+            B
+            
+              n
+              
+                
+                   
+                  
+                    d
+                     
+                     
+                  
+                
+              
+            
+          
+            x   b 
+        
+      
+    
+      displaystyle k      left lfloor Bn   frac     d     right rfloor  
+  
+ offers a trade off between the two terms in the above display  for which the 
+  
+    
+      
+        
+          k
+          
+              x     
+          
+        
+      
+    
+      displaystyle k     
+  
+ nearest neighbour error converges to the Bayes error at the optimal  minimax  rate 
+  
+    
+      
+        
+          
+            O
+          
+        
+        
+           
+          
+            n
+            
+                x     
+              
+                
+                   
+                  
+                    d
+                     
+                     
+                  
+                
+              
+            
+          
+           
+        
+      
+    
+      displaystyle   mathcal  O   left n     frac     d      right  
+  
+ 
+
+Metric learning edit 
+The K nearest neighbor classification performance can often be significantly improved through  supervised  metric learning  Popular algorithms are neighbourhood components analysis and large margin nearest neighbor  Supervised metric learning algorithms use the label information to learn a new metric or pseudo metric 
+
+Feature extraction edit 
+When the input data to an algorithm is too large to be processed and it is suspected to be redundant  e g  the same measurement in both feet and meters  then the input data will be transformed into a reduced representation set of features  also named features vector   Transforming the input data into the set of features is called feature extraction  If the features extracted are carefully chosen it is expected that the features set will extract the relevant information from the input data in order to perform the desired task using this reduced representation instead of the full size input  Feature extraction is performed on raw data prior to applying k NN algorithm on the transformed data in feature space 
+An example of a typical computer vision computation pipeline for face recognition using k NN including feature extraction and dimension reduction pre processing steps  usually implemented with OpenCV  
+
+Haar face detection
+Mean shift tracking analysis
+PCA or Fisher LDA projection into feature space  followed by k NN classification
+Dimension reduction edit 
+For high dimensional data  e g   with number of dimensions more than     dimension reduction is usually performed prior to applying the k NN algorithm in order to avoid the effects of the curse of dimensionality             
+The curse of dimensionality in the k NN context basically means that Euclidean distance is unhelpful in high dimensions because all vectors are almost equidistant to the search query vector  imagine multiple points lying more or less on a circle with the query point at the center  the distance from the query to all data points in the search space is almost the same  
+Feature extraction and dimension reduction can be combined in one step using principal component analysis  PCA    linear discriminant analysis  LDA   or canonical correlation analysis  CCA  techniques as a pre processing step  followed by clustering by k NN on feature vectors in reduced dimension space  This process is also called low dimensional embedding             
+For very high dimensional datasets  e g  when performing a similarity search on live video streams  DNA data or high dimensional time series  running a fast approximate k NN search using locality sensitive hashing   random projections                sketches              or other high dimensional similarity search techniques from the VLDB toolbox might be the only feasible option 
+
+Decision boundary edit 
+Nearest neighbor rules in effect implicitly compute the decision boundary  It is also possible to compute the decision boundary explicitly  and to do so efficiently  so that the computational complexity is a function of the boundary complexity             
+
+Data reduction edit 
+Data reduction is one of the most important problems for work with huge data sets  Usually  only some of the data points are needed for accurate classification  Those data are called the prototypes and can be found as follows 
+
+Select the class outliers  that is  training data that are classified incorrectly by k NN  for a given k 
+Separate the rest of the data into two sets   i  the prototypes that are used for the classification decisions and  ii  the absorbed points that can be correctly classified by k NN using prototypes  The absorbed points can then be removed from the training set 
+Selection of class outliers edit 
+A training example surrounded by examples of other classes is called a class outlier  Causes of class outliers include 
+
+random error
+insufficient training examples of this class  an isolated example appears instead of a cluster 
+missing important features  the classes are separated in other dimensions which we don t know 
+too many training examples of other classes  unbalanced classes  that create a  hostile  background for the given small class
+Class outliers with k NN produce noise  They can be detected and separated for future analysis  Given two natural numbers  k gt r gt    a training example is called a  k r NN class outlier if its k nearest neighbors include more than r examples of other classes 
+
+Condensed Nearest Neighbor for data reduction edit 
+Condensed nearest neighbor  CNN  the Hart algorithm  is an algorithm designed to reduce the data set for k NN classification              It selects the set of prototypes U from the training data  such that  NN with U can classify the examples almost as accurately as  NN does with the whole data set 
+
+Calculation of the border ratio
+Three types of points  prototypes  class outliers  and absorbed points 
+Given a training set X  CNN works iteratively 
+
+Scan all elements of X  looking for an element x whose nearest prototype from U has a different label than x 
+Remove x from X and add it to U
+Repeat the scan until no more prototypes are added to U 
+Use U instead of X for classification  The examples that are not prototypes are called  absorbed  points 
+It is efficient to scan the training examples in order of decreasing border ratio              The border ratio of a training example x is defined as 
+
+a x             x     x  y  x        x     x y  x            
+where   x     x y  x      is the distance to the closest example y having a different color than x  and   x     x  y  x      is the distance from y to its closest example x   with the same label as x 
+The border ratio is in the interval       because   x     x  y  x      never exceeds   x     x y  x       This ordering gives preference to the borders of the classes for inclusion in the set of prototypes U  A point of a different label than x is called external to x  The calculation of the border ratio is illustrated by the figure on the right  The data points are labeled by colors  the initial point is x and its label is red  External points are blue and green  The closest to x external point is y  The closest to y red point is x    The border ratio a x      x     x  y  x          x     x y  x     is the attribute of the initial point x 
+Below is an illustration of CNN in a series of figures  There are three classes  red  green and blue   Fig     initially there are    points in each class  Fig    shows the  NN classification map  each pixel is classified by  NN using all the data  Fig    shows the  NN classification map  White areas correspond to the unclassified regions  where  NN voting is tied  for example  if there are two green  two red and one blue points among   nearest neighbors   Fig    shows the reduced data set  The crosses are the class outliers selected by the      NN rule  all the three nearest neighbors of these instances belong to other classes   the squares are the prototypes  and the empty circles are the absorbed points  The left bottom corner shows the numbers of the class outliers  prototypes and absorbed points for all three classes  The number of prototypes varies from     to     for different classes in this example  Fig    shows that the  NN classification map with the prototypes is very similar to that with the initial data set  The figures were produced using the Mirkes applet             
+
+
+	CNN model reduction for k NN classifiers
+		
+			
+			Fig     The dataset 
+		
+		
+			
+			Fig     The  NN classification map 
+		
+		
+			
+			Fig     The  NN classification map 
+		
+		
+			
+			Fig     The CNN reduced dataset 
+		
+		
+			
+			Fig     The  NN classification map based on the CNN extracted prototypes 
+		
+
+k NN regression edit 
+Further information  Nearest neighbor smoothing
+In k NN regression  also known as k NN smoothing  the k NN algorithm is used for estimating continuous variables      citation needed      One such algorithm uses a weighted average of the k nearest neighbors  weighted by the inverse of their distance  This algorithm works as follows 
+
+Compute the Euclidean or Mahalanobis distance from the query example to the labeled examples 
+Order the labeled examples by increasing distance 
+Find a heuristically optimal number k of nearest neighbors  based on RMSE  This is done using cross validation 
+Calculate an inverse distance weighted average with the k nearest multivariate neighbors 
+k NN outlier edit 
+The distance to the kth nearest neighbor can also be seen as a local density estimate and thus is also a popular outlier score in anomaly detection  The larger the distance to the k NN  the lower the local density  the more likely the query point is an outlier              Although quite simple  this outlier model  along with another classic data mining method  local outlier factor  works quite well also in comparison to more recent and more complex approaches  according to a large scale experimental analysis             
+
+Validation of results edit 
+A confusion matrix or  matching matrix  is often used as a tool to validate the accuracy of k NN classification  More robust statistical methods such as likelihood ratio test can also be applied      how      
+
+See also edit 
+
+Mathematics portal
+Nearest centroid classifier
+Closest pair of points problem
+Nearest neighbor graph
+Segmentation based object categorization
+
+References edit 
+
+
+  Fix  Evelyn  Hodges  Joseph L          Discriminatory Analysis  Nonparametric Discrimination  Consistency Properties  PDF   Report   USAF School of Aviation Medicine  Randolph Field  Texas  Archived  PDF  from the original on September          
+
+  a b Cover  Thomas M   Hart  Peter E           Nearest neighbor pattern classification   PDF   IEEE Transactions on Information Theory                 CiteSeerX                      doi         TIT               S CID               Archived from the original  PDF  on             Retrieved            
+
+  This scheme is a generalization of linear interpolation 
+
+  Hastie  Trevor          The elements of statistical learning        data mining  inference  and prediction        with     full color illustrations  Tibshirani  Robert   Friedman  J  H   Jerome H    New York  Springer  ISBN                     OCLC               
+
+  Jaskowiak  Pablo A   Campello  Ricardo J  G  B           Comparing Correlation Coefficients as Dissimilarity Measures for Cancer Classification in Gene Expression Data   Brazilian Symposium on Bioinformatics  BSB             CiteSeerX                     
+
+  Helliwell  J  F   Layard  R   Sachs  J  D   Aknin  L  B   De Neve  J  E    amp  Wang  S   Eds            World Happiness Report         th ed    Sustainable Development Solutions Network 
+
+  Coomans  Danny  Massart  Desire L           Alternative k nearest neighbour rules in supervised pattern recognition        Part    k Nearest neighbour classification by using alternative voting rules   Analytica Chimica Acta              Bibcode     AcAC          C  doi         S                     
+
+  Everitt  Brian S   Landau  Sabine  Leese  Morven  and Stahl  Daniel         Miscellaneous Clustering Methods   in Cluster Analysis   th Edition  John Wiley  amp  Sons  Ltd   Chichester  UK
+
+  Nigsch  Florian  Bender  Andreas  van Buuren  Bernd  Tissen  Jos  Nigsch  Eduard  Mitchell  John B  O           Melting point prediction employing k nearest neighbor algorithms and genetic parameter optimization   Journal of Chemical Information and Modeling                     doi         ci      f  PMID               
+
+  Hall  Peter  Park  Byeong U   Samworth  Richard J           Choice of neighbor order in nearest neighbor classification   Annals of Statistics                     arXiv            Bibcode     arXiv         H  doi            AOS     S CID               
+
+  Stone  Charles J           Consistent nonparametric regression   Annals of Statistics                  doi         aos            
+
+  a b Samworth  Richard J           Optimal weighted nearest neighbour classifiers   Annals of Statistics                     arXiv            doi            AOS      S CID               
+
+  Terrell  George R   Scott  David W           Variable kernel density estimation   Annals of Statistics                     doi         aos            
+
+  Mills  Peter                Efficient statistical classification of satellite measurements   International Journal of Remote Sensing                      arXiv            doi                              
+
+  Toussaint  Godfried T   April         Geometric proximity graphs for improving nearest neighbor methods in instance based learning and data mining   International Journal of Computational Geometry and Applications                   doi         S                 
+
+  Devroye  L   Gyorfi  L   amp  Lugosi  G  A Probabilistic Theory of Pattern Recognition  Discrete Appl Math                    
+
+  Devroye  Luc  Gyorfi  Laszlo  Lugosi  Gabor         A probabilistic theory of pattern recognition  Springer  ISBN                        
+
+  Beyer  Kevin  et      al   When is  nearest neighbor  meaningful    PDF   Database Theory ICDT                   
+
+  Shaw  Blake  Jebara  Tony          Structure preserving embedding   PDF   Proceedings of the   th Annual International Conference on Machine Learning  published June        pp            doi                          ISBN                     S CID             
+
+  Bingham  Ella  Mannila  Heikki          Random projection in dimensionality reduction   Proceedings of the seventh ACM SIGKDD international conference on Knowledge discovery and data mining   KDD      pp                doi                        ISBN               X  S CID              
+
+  Ryan  Donna  editor   High Performance Discovery in Time Series  Berlin  Springer        ISBN                   
+
+  Bremner  David  Demaine  Erik  Erickson  Jeff  Iacono  John  Langerman  Stefan  Morin  Pat  Toussaint  Godfried T           Output sensitive algorithms for computing nearest neighbor decision boundaries   Discrete and Computational Geometry                   doi         s                 
+
+  Hart  Peter E           The Condensed Nearest Neighbor Rule   IEEE Transactions on Information Theory               doi         TIT              
+
+  a b Mirkes  Evgeny M   KNN and Potential Energy  applet Archived            at the Wayback Machine  University of Leicester      
+
+  Ramaswamy  Sridhar  Rastogi  Rajeev  Shim  Kyuseok          Efficient algorithms for mining outliers from large data sets   Proceedings of the      ACM SIGMOD international conference on Management of data   SIGMOD      Proceedings of the      ACM SIGMOD international conference on Management of data   SIGMOD      pp                doi                        ISBN                    
+
+  Campos  Guilherme O   Zimek  Arthur  Sander  J rg  Campello  Ricardo J  G  B   Micenkov   Barbora  Schubert  Erich  Assent  Ira  Houle  Michael E           On the evaluation of unsupervised outlier detection  measures  datasets  and an empirical study   Data Mining and Knowledge Discovery                   doi         s                  ISSN                 S CID              
+
+
+Further reading edit 
+Dasarathy  Belur V   ed          Nearest Neighbor  NN  Norms  NN Pattern Classification Techniques  IEEE Computer Society Press  ISBN                     
+Shakhnarovich  Gregory  Darrell  Trevor  Indyk  Piotr  eds          Nearest Neighbor Methods in Learning and Vision  MIT Press  ISBN                     
+
+
+
+
+
+Retrieved from  https   en wikipedia org w index php title K nearest neighbors algorithm amp oldid

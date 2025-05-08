@@ -1,0 +1,44 @@
+Process used to define the rules and ontologies required for a knowledge based system
+RCS methodology for knowledge acquisition and representation
+Knowledge acquisition is the process used to define the rules and ontologies required for a knowledge based system  The phrase was first used in conjunction with expert systems to describe the initial tasks associated with developing an expert system  namely finding and interviewing domain experts and capturing their knowledge via rules  objects  and frame based ontologies  
+Expert systems were one of the first successful applications of artificial intelligence technology to real world business problems             Researchers at Stanford and other AI laboratories worked with doctors and other highly skilled experts to develop systems that could automate complex tasks such as medical diagnosis  Until this point computers had mostly been used to automate highly data intensive tasks but not for complex reasoning  Technologies such as inference engines allowed developers for the first time to tackle more complex problems                        
+As expert systems scaled up from demonstration prototypes to industrial strength applications it was soon realized that the acquisition of domain expert knowledge was one of if not the most critical task in the knowledge engineering process  This knowledge acquisition process became an intense area of research on its own  One of the earlier works            on the topic used Batesonian theories of learning to guide the process 
+One approach to knowledge acquisition investigated was to use natural language parsing and generation to facilitate knowledge acquisition  Natural language parsing could be performed on manuals and other expert documents and an initial first pass at the rules and objects could be developed automatically  Text generation was also extremely useful in generating explanations for system behavior  This greatly facilitated the development and maintenance of expert systems            
+A more recent approach to knowledge acquisition is a re use based approach  Knowledge can be developed in ontologies that conform to standards such as the Web Ontology Language  OWL              In this way knowledge can be standardized and shared across a broad community of knowledge workers  One example domain where this approach has been successful is bioinformatics            
+
+
+Applications edit 
+Knowledge acquisition has been applied to many fields beyond expert systems  including natural language processing  decision support systems  training simulations  and intelligent tutoring systems  It also plays an essential role in building knowledge based agents and cognitive architectures 
+
+Techniques edit 
+A variety of techniques exist for knowledge acquisition  ranging from manual to automatic methods  Manual approaches include structured interviews  protocol analysis  card sorting  and repertory grid analysis  Automated approaches include machine learning  data mining  and natural language processing 
+
+See also edit 
+Knowledge collection from volunteer contributors        Subfield of AI
+Knowledge extraction        Creation of knowledge from structured and unstructured sources
+Information processing  psychology         Approach to understanding human thinking
+Information search
+References edit 
+
+
+  Russell  Stuart  Norvig  Peter         Artificial Intelligence  A Modern Approach  PDF   Simon  amp  Schuster  pp              ISBN                         Archived from the original  PDF  on   May       Retrieved    June      
+
+  Kendal  S L   Creen  M          An introduction to knowledge engineering  London  Springer  ISBN                         OCLC              
+
+  Feigenbaum  Edward A   McCorduck  Pamela         The fifth generation   st      ed    Reading  MA  Addison Wesley  ISBN                         OCLC             
+
+  Brule  J F   Blount  A F          Knowledge Acquisition  NY  McGraw Hill  ISBN                         OCLC              
+
+  Potter  Steven   A Survey of Knowledge Acquisition from Natural Language   PDF   Technology Maturity Assessment  TMA   Retrieved   July      
+
+  Schreiber  Guus     September         Knowledge acquisition and the web   PDF   International Journal of Human Computer Studies       Elsevior           Retrieved   March      
+
+  Goble  Carole          State of the nation in data integration for bioinformatics   Journal of Biomedical Informatics                   doi         j jbi              PMID               
+
+   Informatika web id  Akuisisi Pengetahuan  Knowledge Acquisition  Sistem Pakar 
+
+
+
+
+
+Retrieved from  https   en wikipedia org w index php title Knowledge acquisition amp oldid

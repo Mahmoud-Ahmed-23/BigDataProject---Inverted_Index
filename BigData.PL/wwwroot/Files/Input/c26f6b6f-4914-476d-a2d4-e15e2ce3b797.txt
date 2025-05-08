@@ -1,0 +1,578 @@
+For the amount of data sent and received by visitors of a particular web site  see web traffic 
+Flow of data across the Internet
+Internet traffic is the flow of data within the entire Internet  or in certain network links of its constituent networks  Common traffic measurements are total volume  in units of multiples of the byte  or as transmission rates in bytes per certain time units 
+As the topology of the Internet is not hierarchical  no single point of measurement is possible for total Internet traffic  Traffic data may be obtained from the Tier   network providers  peering points for indications of volume and growth  However  Such data excludes traffic that remains within a single service provider s network and traffic that crosses private peering points 
+As of December      almost half       of mobile Internet traffic is in India and China  while North America and Europe have about a quarter             However  mobile traffic remains a minority of total internet traffic 
+
+
+Traffic sources edit 
+File sharing constitutes a fraction of Internet traffic             The prevalent technology for file sharing is the BitTorrent protocol  which is a peer to peer  P P  system mediated through indexing sites that provide resource directories  According to a Sandvine Research in       Bit Torrent s share of Internet traffic decreased by     to      overall  reduced from     in                  
+As of       roughly     of all internet traffic came from video sites             up from     in                 
+
+Traffic management edit 
+
+Internet traffic management  also known as application traffic management 
+The Internet does not employ any formally centralized facilities for traffic management  Its progenitor networks  especially the ARPANET established an early backbone infrastructure which carried traffic between major interchange centers for traffic  resulting in a tiered  hierarchical system of internet service providers  ISPs  within which the tier   networks provided traffic exchange through settlement free peering and routing of traffic to lower level tiers of ISPs   The dynamic growth of the worldwide network resulted in ever increasing interconnections at all peering levels of the Internet  so a robust system was developed that could mediate link failures  bottlenecks  and other congestion at many levels      citation needed     
+Economic traffic management  ETM  is the term that is sometimes used to point out the opportunities for seeding as a practice that caters to contribution within peer to peer file sharing and the distribution of content in the digital world in general             
+
+Internet use tax edit 
+A planned tax on Internet use in Hungary introduced a     forint  US              tax per gigabyte of data traffic  in a move intended to reduce Internet traffic and also assist companies to offset corporate income tax against the new levy              Hungary achieved      billion gigabytes in      and another    million gigabytes accumulated by mobile devices  This would have resulted in extra revenue of     billion forints under the new tax based on the consultancy firm eNet            
+According to Yahoo News  economy minister Mih ly Varga defended the move saying  the tax was fair as it reflected a shift by consumers to the Internet away from phone lines  and that      forints on each transferred gigabyte of data   was needed to plug holes in the      budget of one of the EU s most indebted nations             
+Some people argue that the new plan on Internet tax would prove disadvantageous to the country s economic development  limit access to information and hinder the freedom of expression             Approximately        people have signed up to take part in an event on Facebook to be held outside the Economy Ministry to protest against the possible tax            
+In       the United States enacted the Internet Tax Freedom Act  ITFA  to prevent the imposition of direct taxes on internet usage and online activities such as emails  internet access  bit tax  and bandwidth tax                          Initially  this law placed a    year moratorium on such taxes  which was later extended multiple times and made permanent in       The ITFA s goal was to protect consumers and support the growth of internet traffic by prohibiting recurring and discriminatory taxes that could hinder internet adoption and usage  As a result  ITFA has played a crucial role in promoting the digital economy and safeguarding consumer interests  According to Pew Research Center  as of       approximately     of Americans use the internet  with platforms like YouTube and Facebook being highly popular                                      Additionally      of U S  households subscribed to high speed internet services by                               Although the ITFA provides protection against direct internet taxes  ongoing debates about internet regulation and governance continue to shape the landscape of internet traffic and usage in the United States 
+
+Traffic classification edit 
+Traffic classification describes the methods of classifying traffic by observing features passively in the traffic and line with particular classification goals  There might be some that only have a vulgar classification goal  For example  whether it is bulk transfer  peer to peer file sharing  or transaction orientated  Some others will set a finer grained classification goal  for instance  the exact number of applications represented by the traffic  Traffic features included port number  application payload  temporal  packet size  and the characteristic of the traffic  There is a vast range of methods to allocate Internet traffic including exact traffic  for instance  port  computer networking  number  payload  heuristic  or statistical machine learning 
+Accurate network traffic classification is elementary to quite a few Internet activities  from security monitoring to accounting and from the quality of service to providing operators with useful forecasts for long term provisioning  Yet  classification schemes are extremely complex to operate accurately due to the shortage of available knowledge of the network  For example  the packet header related information is always insufficient to allow for a precise methodology 
+
+Bayesian analysis techniques edit 
+Work             involving supervised machine learning to classify network traffic  Data are hand classified  based upon flow content  to one of a number of categories  A combination of data set  hand assigned  category and descriptions of the classified flows  such as flow length  port numbers  time between consecutive flows  are used to train the classifier  To give a better insight of the technique itself  initial assumptions are made as well as applying two other techniques in reality  One is to improve the quality and separation of the input of information leading to an increase in accuracy of the Naive Bayes classifier technique 
+The basis of categorizing work is to classify the type of Internet traffic  this is done by putting common groups of applications into different categories  e g    normal  versus  malicious   or more complex definitions  e g   the identification of specific applications or specific Transmission Control Protocol  TCP  implementations              Adapted from Logg et al             
+
+Survey edit 
+Traffic classification is a major component of automated intrusion detection systems                          They are used to identify patterns as well as an indication of network resources for priority customers  or to identify customer use of network resources that in some way contravenes the operator s terms of service 
+Generally deployed Internet Protocol  IP  traffic classification techniques are based approximately on a direct inspection of each packet s contents at some point on the network  Source address  port and destination address are included in successive IP packets with similar if not the same   tuple of protocol type  ort are considered to belong to a flow whose controlling application we wish to determine  Simple classification infers the controlling application s identity by assuming that most applications consistently use well known TCP or UDP port numbers  Even though  many candidates are increasingly using unpredictable port numbers  As a result  more sophisticated classification techniques infer application types by looking for application specific data within the TCP or User Datagram Protocol  UDP  payloads             
+
+Global Internet traffic edit 
+Aggregating from multiple sources and applying usage and bitrate assumptions  Cisco  a major network systems company  has published the following historical Internet Protocol  IP  and Internet traffic figures             
+
+
+Global Internet traffic by year
+
+
+      Year
+
+IP traffic PB month 
+
+Fixed Internet traffic PB month 
+
+Mobile Internet traffic PB month 
+
+
+    
+
+     
+
+     
+
+n a
+
+
+    
+
+     
+
+     
+
+n a
+
+
+    
+
+     
+
+     
+
+n a
+
+
+    
+
+                
+
+                
+
+n a
+
+
+    
+
+                
+
+                
+
+n a
+
+
+    
+
+                
+
+                
+
+n a
+
+
+    
+
+                           
+
+                           
+
+n a
+
+
+    
+
+                           
+
+                           
+
+n a
+
+
+    
+
+                                      
+
+                                      
+
+n a
+
+
+    
+
+                                      
+
+                                      
+
+n a
+
+
+    
+
+                                      
+
+                                      
+
+n a
+
+
+    
+
+                                       
+
+                                       
+
+n a
+
+
+    
+
+                                       
+
+                                       
+
+n a
+
+
+    
+
+                                       
+
+                                       
+
+n a
+
+
+    
+
+                                         
+
+                                         
+
+n a
+
+
+    
+
+                                         
+
+                                         
+
+                     
+
+
+    
+
+                                         
+
+                                         
+
+                                     
+
+
+    
+
+                                         
+
+                                         
+
+                                      
+
+
+                 
+
+                                          
+
+                                         
+
+                                      
+
+
+                 
+
+                                          
+
+                                          
+
+                                      
+
+
+                 
+
+                                          
+
+                                          
+
+                                       
+
+
+                 
+
+                                          
+
+                                          
+
+                                       
+
+
+                             
+
+                                          
+
+                                          
+
+                                       
+
+
+                  
+
+                                          
+
+                                          
+
+                                         
+
+
+                 
+
+                                          
+
+                                          
+
+                                         
+
+
+                 
+
+                                          
+
+                                          
+
+                                         
+
+
+                 
+
+                                          
+
+                                          
+
+                                         
+
+
+                 
+
+                                           
+
+                                          
+
+                                          
+
+ Fixed Internet traffic  refers perhaps to traffic from residential and commercial subscribers to ISPs  cable companies  and other service providers   Mobile Internet traffic  refers perhaps to backhaul traffic from cellphone towers and providers  The overall  Internet traffic  figures  which can be     higher than the sum of the other two  perhaps factors in traffic in the core of the national backbone  whereas the other figures seem to be derived principally from the network periphery 
+Cisco also publishes   year projections 
+
+
+Predicted global Internet traffic by year            
+
+
+      Year
+
+Fixed Internet traffic EB month 
+
+Mobile Internet traffic EB month 
+
+
+    
+
+   
+
+  
+
+
+    
+
+   
+
+  
+
+
+    
+
+   
+
+  
+
+
+    
+
+   
+
+  
+
+
+    
+
+   
+
+  
+
+Internet backbone traffic in the United States edit 
+The following data for the Internet backbone in the US comes from the Minnesota Internet Traffic Studies  MINTS              
+
+
+US Internet backbone traffic by year
+
+
+Year
+
+Data  TB month 
+
+
+    
+
+ 
+
+
+    
+
+ 
+
+
+    
+
+ 
+
+
+    
+
+ 
+
+
+    
+
+  
+
+
+    
+
+n a
+
+
+    
+
+     
+
+
+    
+
+                 
+
+
+    
+
+                 
+
+
+    
+
+                   
+
+
+    
+
+                   
+
+
+    
+
+                   
+
+
+    
+
+                    
+
+
+    
+
+n a
+
+
+    
+
+n a
+
+
+    
+
+n a
+
+
+    
+
+                     
+
+
+    
+
+                       
+
+
+    
+
+                         
+
+
+    
+
+                         
+
+
+    
+
+                         
+
+
+    
+
+                         
+
+The Cisco data can be seven times higher than the Minnesota Internet Traffic Studies  MINTS  data not only because the Cisco figures are estimates for the global not just the domestic US Internet  but also because Cisco counts  general IP traffic  thus including closed networks that are not truly part of the Internet  but use IP  the Internet Protocol  such as the IPTV services of various telecom firms                 The MINTS estimate of US national backbone traffic for       which may be interpolated as     petabytes month  is a plausible three fold multiple of the traffic of the US s largest backbone carrier  Level    Inc   which claims an average traffic level of    petabytes month             
+
+Edholm s law edit 
+Main article  Edholm s law
+In the past Internet bandwidth in telecommunications networks doubled every    months  an observation expressed as Edholm s law              This follows the advances in semiconductor technology  such as metal oxide silicon  MOS  scaling  exemplified by the MOSFET transistor  which has shown similar scaling described by Moore s law  In the     s  fiber optical technology using laser light as information carriers accelerated the transmission speed and bandwidth of telecommunication circuits  This has led to the bandwidths of communication networks achieving terabit per second transmission speeds             
+
+See also edit 
+ETOMIC
+Internet rush hour
+Web traffic
+Zettabyte Era
+Traffic flow
+References edit 
+
+
+  Kar  Ayushi                End of American internet  India China contribute to     of world s data traffic   www thehindubusinessline com  Retrieved            
+
+   Data volume of global file sharing traffic from      until        Statista        Retrieved    October      
+
+  Paul Resenikoff     November         File Sharing Now Accounts for Less Than     of US Internet Traffic     Retrieved    October      
+
+   In           of all internet traffic came from video sites      January      
+
+   An explosion of online video could triple bandwidth consumption again in the next five years     June      
+
+  Despotovic  Z   Hossfeld  T   Kellerer  W   Lehrieder  F   Oechsner  S   Michel  M          Mitigating Unfairness In Locality Aware Peer To Peer Networks  International Journal of Network Management
+
+  a b Marton Dunai          Hungary plans new tax on Internet traffic  public calls for rally   Archived from the original on December          
+
+  a b  Anger mounts in Hungary over internet tax   Yahoo News     October       Retrieved    October      
+
+  Margit Feher          Public outrage mounts against hunger s plan to tax internet use   Retrieved    October      
+
+   The Internet Tax Freedom Act  In Brief   PDF   FAS Project on Government Secrecy  Retrieved            
+
+     INTERNET TAX ISSUES   www govinfo gov  Retrieved            
+
+  Gottfried  Jeffrey                Americans  Social Media Use   Pew Research Center  Retrieved            
+
+   Internet  Broadband Fact Sheet   Pew Research Center              Retrieved            
+
+   Social Media Fact Sheet   Pew Research Center              Retrieved            
+
+      Percent of U S  Households Get an Internet Service at Home   Benton Foundation              Retrieved            
+
+  Buckley  Sean                LRG      of households can get residential internet service   Lightwave  Retrieved            
+
+  Denis Zuev          Internet traffic classification using bayesian analysis technique   PDF   Retrieved    October      
+
+  J Padhye  S Floyd  June         Identifying the TCP Behavior of Web Servers   In Proceedings of SIGCOMM       San Diego  CA 
+
+  C Logg  L Cottrell          SLAC National Accelerator Laboratory   Archived from the original on June           Retrieved    October      
+
+  Bro intrusion detection system   Bro overview  http   bro ids org  as of August          
+
+  V  Paxson   Bro  A system for detecting network intruders in real time   Computer Networks  no             pp                 
+
+  S  Sen   O  Spats check  and D  Wang   Accurate  scalable in network identification of P P traffic using application signatures   in WWW      New York  NY  USA  May      
+
+   Visual Networking Index   Cisco Systems
+
+  Cisco   Cisco Visual Networking Index  Forecast and Methodology              PDF     June       Retrieved    June     
+
+  Cisco   Cisco Visual Networking Index  Forecast and Methodology              PDF     June       Retrieved    June     
+
+  Cisco   Cisco Visual Networking Index  Forecast and Methodology              PDF     June       Retrieved    June     
+
+  Cisco   Cisco Visual Networking Index  Forecast and Methodology            Archived            at the Wayback Machine   PDF      May       Retrieved    June     
+
+  Cisco   Cisco Visual Networking Index  Global Mobile Data Traffic Forecast Update            Archived            at the Wayback Machine   PDF     Feb       Retrieved    June     
+
+  Cisco   Cisco Visual Networking Index  Forecast and Methodology              PDF      May       Retrieved from archive org     Aug     
+
+  Cisco   Cisco Visual Networking Index  Forecast and Methodology              PDF      Jun       Retrieved from archive org     Aug     
+
+  Cisco   Cisco Visual Networking Index  Forecast and Methodology              PDF      May       Retrieved from archive org     Aug     
+
+  Cisco   Cisco Visual Networking Index Forecast and Methodology              PDF    June       Retrieved    June     
+
+  Cisco   Cisco Visual Networking Index Forecast and Methodology              PDF    June       Retrieved    August     
+
+  a b Cisco   Cisco Visual Networking Index Forecast and Trends              PDF     November       Retrieved   January     
+
+  Minnesota Internet Traffic Studies  MINTS  Archived            at the Wayback Machine  University of Minnesota
+
+   MINTS   Minnesota Internet Traffic Studies   Retrieved    April      
+
+       Annual Report  Level     April       p  
+
+  Cherry  Steven          Edholm s law of bandwidth   IEEE Spectrum                 doi         MSPEC               S CID               
+
+  Jindal  R  P           From millibits to terabits per second and beyond   over    years of innovation         nd International Workshop on Electron Devices and Semiconductor Technology  pp            doi         EDST               ISBN                         S CID               
+
+
+Further reading edit 
+Williamson  Carey          Internet Traffic Measurement   IEEE Internet Computing                doi                     
+External links edit 
+ The Size and Growth Rate of the Internet   K G  Coffman and Andrew Odlyzki  First Monday  Volume    Number    October     
+Internet Traffic Report from AnalogX
+Internet Health Report from Keynote Systems
+Cooperative Association for Internet Data Analysis Archived            at the Wayback Machine  CAIDA   based at the University of California  San Diego Supercomputer Center
+
+
+
+
+
+Retrieved from  https   en wikipedia org w index php title Internet traffic amp oldid

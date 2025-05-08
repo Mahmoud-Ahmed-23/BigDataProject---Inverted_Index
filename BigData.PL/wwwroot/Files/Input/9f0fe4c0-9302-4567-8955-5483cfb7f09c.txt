@@ -1,0 +1,1986 @@
+Artificial intelligence research laboratory
+
+
+
+DeepMind Technologies LimitedTrade nameGoogle DeepMindDeepMindCompany typeSubsidiaryIndustryArtificial intelligenceFounded        September                  years ago                    incorporation            
+        November                  years ago                    official launch            Founders
+Demis Hassabis
+Shane Legg
+Mustafa Suleyman
+HeadquartersLondon  England           Key peopleDemis Hassabis  CEO Lila Ibrahim  COO ProductsAlphaGoAlphaStarAlphaFoldAlphaZeroRevenue       billion                  Operating income      million                  Net income      million                  OwnerAlphabet Inc            Number of employeesc                               ParentDeepmind Holdings Limited           Websitedeepmind google
+Part of a series onArtificial intelligence  AI 
+Major goals
+Artificial general intelligence
+Intelligent agent
+Recursive self improvement
+Planning
+Computer vision
+General game playing
+Knowledge reasoning
+Natural language processing
+Robotics
+AI safety
+
+Approaches
+Machine learning
+Symbolic
+Deep learning
+Bayesian networks
+Evolutionary algorithms
+Hybrid intelligent systems
+Systems integration
+
+Applications
+Bioinformatics
+Deepfake
+Earth sciences
+ Finance 
+Generative AI
+Art
+Audio
+Music
+Government
+Healthcare
+Mental health
+Industry
+Translation
+ Military 
+Physics
+Projects
+
+Philosophy
+Artificial consciousness
+Chinese room
+Friendly AI
+Control problem Takeover
+Ethics
+Existential risk
+Turing test
+Uncanny valley
+
+History
+Timeline
+Progress
+AI winter
+AI boom
+
+Glossary
+Glossary
+vte
+DeepMind Technologies Limited             trading as Google DeepMind or simply DeepMind  is a British American artificial intelligence research laboratory which serves as a subsidiary of Alphabet Inc  Founded in the UK in       it was acquired by Google in                 and merged with Google AI s Google Brain division to become Google DeepMind in April       The company is headquartered in London  with research centres in the United States  Canada             France              Germany and Switzerland 
+DeepMind introduced neural Turing machines  neural networks that can access external memory like a conventional Turing machine               resulting in a computer that loosely resembles short term memory in the human brain                         
+DeepMind has created neural network models to play video games and board games  It made headlines in      after its AlphaGo program beat a human professional Go player Lee Sedol  a world champion  in a five game match  which was the subject of a documentary film              A more general program  AlphaZero  beat the most powerful programs playing go  chess and shogi  Japanese chess  after a few days of play against itself using reinforcement learning             
+In       DeepMind made significant advances in the problem of protein folding with AlphaFold              In July       it was announced that over     million predicted protein structures  representing virtually all known proteins  would be released on the AlphaFold database                          AlphaFold s database of predictions achieved state of the art records on benchmark tests for protein folding algorithms  although each individual prediction still requires confirmation by experimental tests  AlphaFold  was released in May       making structural predictions for the interaction of proteins with various molecules  It achieved new standards on various benchmarks  raising the state of the art accuracies from    and    percent to    and    percent 
+
+
+History edit 
+The start up was founded by Demis Hassabis  Shane Legg and Mustafa Suleyman in November                  Hassabis and Legg first met at the Gatsby Computational Neuroscience Unit at University College London  UCL              
+Demis Hassabis has said that the start up began working on artificial intelligence technology by teaching it how to play old games from the seventies and eighties  which are relatively primitive compared to the ones that are available today  Some of those games included Breakout  Pong  and Space Invaders  AI was introduced to one game at a time  without any prior knowledge of its rules  After spending some time on learning the game  AI would eventually become an expert in it   The cognitive processes which the AI goes through are said to be very like those of a human who had never seen the game would use to understand and attempt to master it               The goal of the founders is to create a general purpose AI that can be useful and effective for almost anything 
+Major venture capital firms Horizons Ventures and Founders Fund invested in the company              as well as entrepreneurs Scott Banister              Peter Thiel              and Elon Musk              Jaan Tallinn was an early investor and an adviser to the company              On    January       Google confirmed its acquisition of DeepMind for a price reportedly ranging between      million and      million                                      and that it had agreed to take over DeepMind Technologies  The sale to Google took place after Facebook reportedly ended negotiations with DeepMind Technologies in                   The company was afterwards renamed Google DeepMind and kept that name for about two years             
+In       DeepMind received the  Company of the Year  award from Cambridge Computer Laboratory             
+
+Logo from          Logo from          
+In September       DeepMind and the Royal Free NHS Trust signed their initial information sharing agreement to co develop a clinical task management app  Streams             
+After Google s acquisition the company established an artificial intelligence ethics board              The ethics board for AI research remains a mystery  with both Google and DeepMind declining to reveal who sits on the board              DeepMind has opened a new unit called DeepMind Ethics and Society and focused on the ethical and societal questions raised by artificial intelligence featuring prominent philosopher Nick Bostrom as advisor              In October       DeepMind launched a new research team to investigate AI ethics                         
+In December       co founder Suleyman announced he would be leaving DeepMind to join Google  working in a policy role              In March       Microsoft appointed him as the EVP and CEO of its newly created consumer AI unit  Microsoft AI             
+In April       DeepMind merged with Google AI s Google Brain division to form Google DeepMind  as part of the company s continued efforts to accelerate work on AI in response to OpenAI s ChatGPT              This marked the end of a years long struggle from DeepMind executives to secure greater autonomy from Google             
+
+Products and technologies edit 
+Google Research released a paper in      regarding AI safety and avoiding undesirable behaviour during the AI learning process              In      DeepMind released GridWorld  an open source testbed for evaluating whether an algorithm learns to disable its kill switch or otherwise exhibits certain undesirable behaviours                         
+In July       researchers from DeepMind trained one of its systems to play the computer game Quake III Arena             
+As of       DeepMind has published over a thousand papers  including thirteen papers that were accepted by Nature or Science  DeepMind received media attention during the AlphaGo period  according to a LexisNexis search       published news stories mentioned DeepMind in       declining to      in                  
+
+Games edit 
+Unlike earlier AIs  such as IBM s Deep Blue or Watson  which were developed for a pre defined purpose and only function within that scope  DeepMind s initial algorithms were intended to be general  They used reinforcement learning  an algorithm that learns from experience using only raw pixels as data input  Their initial approach used deep Q learning with a convolutional neural network                          They tested the system on video games  notably early arcade games  such as Space Invaders or Breakout                          Without altering the code  the same AI was able to play certain games more efficiently than any human ever could             
+In       DeepMind published research on an AI system that surpassed human abilities in games such as Pong  Breakout and Enduro  while surpassing state of the art performance on Seaquest  Beamrider  and Q bert                          This work reportedly led to the company s acquisition by Google              DeepMind s AI had been applied to video games made in the     s and     s  work was ongoing for more complex  D games such as Quake  which first appeared in the     s             
+In       DeepMind published Agent                            an AI Agent which surpasses human level performance on all    games of the Atari      suite              In July       DeepMind announced the development of DeepNash  a model free multi agent reinforcement learning system capable of playing the board game Stratego at the level of a human expert             
+
+AlphaGo and successors edit 
+Main articles  AlphaGo  AlphaGo Zero  AlphaZero  and MuZero
+In October       a computer Go program called AlphaGo  developed by DeepMind  beat the European Go champion Fan Hui  a   dan  out of   dan possible  professional  five to zero              This was the first time an artificial intelligence  AI  defeated a professional Go player              Previously  computers were only known to have played Go at  amateur  level                          Go is considered much more difficult for computers to win compared to other games like chess  due to the much larger number of possibilities  making it prohibitively difficult for traditional AI methods such as brute force                         
+In March      it beat Lee Sedol  one of the highest ranked players in the world  with a score of   to   in a five game match  In the      Future of Go Summit  AlphaGo won a three game match with Ke Jie  who had been the world s highest ranked player for two years                          In       an improved version  AlphaGo Zero  defeated AlphaGo in a hundred out of a hundred games  Later that year  AlphaZero  a modified version of AlphaGo Zero  gained superhuman abilities at chess and shogi  In       DeepMind released a new model named MuZero that mastered the domains of Go  chess  shogi  and Atari      games without human data  domain knowledge  or known rules                         
+AlphaGo technology was developed based on deep reinforcement learning  making it different from the AI technologies then on the market  The data fed into the AlphaGo algorithm consisted of various moves based on historical tournament data  The number of moves was increased gradually until over    million of them were processed  The aim was to have the system mimic the human player  as represented by the input data  and eventually become better  It played against itself and learned from the outcomes  thus  it learned to improve itself over the time and increased its winning rate as a result             
+AlphaGo used two deep neural networks  a policy network to evaluate move probabilities and a value network to assess positions  The policy network trained via supervised learning  and was subsequently refined by policy gradient reinforcement learning  The value network learned to predict winners of games played by the policy network against itself  After training  these networks employed a lookahead Monte Carlo tree search  using the policy network to identify candidate high probability moves  while the value network  in conjunction with Monte Carlo rollouts using a fast rollout policy  evaluated tree positions             
+In contrast  AlphaGo Zero was trained without being fed data of human played games  Instead it generated its own data  playing millions of games against itself  It used a single neural network  rather than separate policy and value networks  Its simplified tree search relied upon this neural network to evaluate positions and sample moves  A new reinforcement learning algorithm incorporated lookahead search inside the training loop              AlphaGo Zero employed around    people and millions in computing resources              Ultimately  it needed much less computing power than AlphaGo  running on four specialized AI processors  Google TPUs   instead of AlphaGo s                 It also required less training time  being able to beat its predecessor after just three days  compared with months required for the original AlphaGo              Similarly  AlphaZero also learned via self play 
+Researchers applied MuZero to solve the real world challenge of video compression with a set number of bits with respect to Internet traffic on sites such as YouTube  Twitch  and Google Meet  The goal of MuZero is to optimally compress the video so the quality of the video is maintained with a reduction in data  The final result using MuZero was a       average reduction in bitrate                         
+
+AlphaStar edit 
+Main article  AlphaStar  software 
+In       Hassabis discussed the game StarCraft as a future challenge  since it requires strategic thinking and handling imperfect information             
+In January       DeepMind introduced AlphaStar  a program playing the real time strategy game StarCraft II  AlphaStar used reinforcement learning based on replays from human players  and then played against itself to enhance its skills  At the time of the presentation  AlphaStar had knowledge equivalent to     years of playing time  It won    consecutive matches against two professional players  although it had the unfair advantage of being able to see the entire field  unlike a human player who has to move the camera manually  A preliminary version in which that advantage was fixed lost a subsequent match             
+In July       AlphaStar began playing against random humans on the public  v  European multiplayer ladder  Unlike the first iteration of AlphaStar  which played only Protoss v  Protoss  this one played as all of the game s races  and had earlier unfair advantages fixed                          By October       AlphaStar had reached Grandmaster level on the StarCraft II ladder on all three StarCraft races  becoming the first AI to reach the top league of a widely popular esport without any game restrictions             
+
+Protein folding edit 
+Main article  AlphaFold
+In       DeepMind turned its artificial intelligence to protein folding  a long standing problem in molecular biology  In December       DeepMind s AlphaFold won the   th Critical Assessment of Techniques for Protein Structure Prediction  CASP  by successfully predicting the most accurate structure for    out of    proteins   This is a lighthouse project  our first major investment in terms of people and resources into a fundamental  very important  real world scientific problem   Hassabis said to The Guardian              In       in the   th CASP  AlphaFold s predictions achieved an accuracy score regarded as comparable with lab techniques  Dr Andriy Kryshtafovych  one of the panel of scientific adjudicators  described the achievement as  truly remarkable   and said the problem of predicting how proteins fold had been  largely solved                                      
+In July       the open source RoseTTAFold and AlphaFold  were released to allow scientists to run their own versions of the tools  A week later DeepMind announced that AlphaFold had completed its prediction of nearly all human proteins as well as the entire proteomes of    other widely studied organisms              The structures were released on the AlphaFold Protein Structure Database  In July       it was announced that the predictions of over     million proteins  representing virtually all known proteins  would be released on the AlphaFold database                         
+The most recent update  AlphaFold   was released in May       predicting the interactions of proteins with DNA  RNA  and various other molecules  In a particular benchmark test on the problem of DNA interactions  AlphaFold  s attained an accuracy of      significantly improving the previous state of the art of                 
+In October       Hassabis and John Jumper received half of the      Nobel Prize in Chemistry jointly for protein structure prediction  citing AlphaFold  achievement             
+
+Language models edit 
+In       DeepMind introduced WaveNet  a text to speech system  It was originally too computationally intensive for use in consumer products  but in late      it became ready for use in consumer applications such as Google Assistant                          In      Google launched a commercial text to speech product  Cloud Text to Speech  based on WaveNet                          In       DeepMind introduced a more efficient model called WaveRNN co developed with Google AI                          In      WaveNetEQ  a packet loss concealment method based on a WaveRNN architecture  was presented              In       Google started to roll WaveRNN with WavenetEQ out to Google Duo users             
+Released in May       Gato is a polyvalent multimodal model  It was trained on     tasks  such as image captioning  dialogue  or stacking blocks  On     of these tasks  Gato outperformed human experts at least half of the time  according to DeepMind              Unlike models like MuZero  Gato does not need to be retrained to switch from one task to the other 
+Sparrow is an artificial intelligence powered chatbot developed by DeepMind to build safer machine learning systems by using a mix of human feedback and Google search suggestions             
+Chinchilla is a language model developed by DeepMind             
+DeepMind posted a blog post on    April      on a single visual language model  VLM  named Flamingo that can accurately describe a picture of something with just a few training images                         
+
+AlphaCode edit 
+In       DeepMind unveiled AlphaCode  an AI powered coding engine that creates computer programs at a rate comparable to that of an average programmer  with the company testing the system against coding challenges created by Codeforces utilized in human competitive programming competitions              AlphaCode earned a rank equivalent to     of the median score on Codeforces after being trained on GitHub data and Codeforce problems and solutions  The program was required to come up with a unique solution and stopped from duplicating answers 
+
+Gemini edit 
+Main article  Gemini  language model 
+Gemini is a multimodal large language model which was released on   December                   It is the successor of Google s LaMDA and PaLM   language models and sought to challenge OpenAI s GPT                Gemini comes in   sizes  Nano  Pro  and Ultra              Gemini is also the name of the chatbot that integrates Gemini  and which was previously called Bard              
+On    December       Google released Gemini     Flash  the first model in the Gemini     series  It notably features expanded multimodality  with the ability to also generate images and audio               and is part of Google s broader plans to integrate advanced AI into autonomous agents              
+On    March       Google released Gemini      a reasoning model that stops to  think  before giving a response  Google announced that all future models will also have reasoning ability                            On    March       Google released Gemini     to all free users              
+
+Gemma edit 
+Main article  Gemma  language model 
+Gemma is a collection of open weight large language models  The first ones were released on    February      and are available in two distinct sizes  a   billion parameter model optimized for GPU and TPU usage  and a   billion parameter model designed for CPU and on device applications  Gemma models were trained on up to   trillion tokens of text  employing similar architectures  datasets  and training methodologies as the Gemini model set              
+In June       Google started releasing Gemma   models               In December       Google introduced PaliGemma    an upgraded vision language model               In February       they launched PaliGemma   Mix  a version fine tuned for multiple tasks  It is available in  B    B  and   B parameters with    px and    px resolutions              
+In March       Google released Gemma    calling it the most capable model that can be run on a single GPU               It has four available sizes   B   B    B  and   B               In March       Google introduced TxGemma  an open source model designed to improve the efficiency of therapeutics development              
+In April       Google introduced DolphinGemma  an research artificial intelligence model designed to hopefully decode decode dolphin communication  They want to train a foundation model that can learn the structure of dolphin vocalizations and generate novel dolphin like sound sequences                            
+
+SIMA edit 
+In March       DeepMind introduced Scalable Instructable Multiword Agent  or SIMA  an AI agent capable of understanding and following natural language instructions to complete tasks across various  D virtual environments  Trained on nine video games from eight studios and four research environments  SIMA demonstrated adaptability to new tasks and settings without requiring access to game source code or APIs  The agent comprises pre trained computer vision and language models fine tuned on gaming data  with language being crucial for understanding and completing given tasks as instructed  DeepMind s research aimed to develop more helpful AI agents by translating advanced AI capabilities into real world actions through a language interface                           
+
+Habermas machine edit 
+See also  Pol is and Deliberative opinion poll
+In       Google Deepmind published the results of an experiment where they trained two large language models to help identify and present areas of overlap among a few thousand group members they had recruited online using techniques like sortition to get a representative sample of participants  The project is named in honor of J rgen Habermas                            In one experiment  the participants rated the summaries by the AI higher than the human moderator     of the time              
+
+Video generation edit 
+In May       a multimodal video generation model called Veo was announced at Google I O       Google claimed that it could generate     p videos beyond a minute long             In December       Google released Veo    available via VideoFX  It supports  K resolution video generation  and has an improved understanding of physics              
+On April       Google announced that Veo   is now available in Gemini App for Advanced Users  amp  Gemini Artificial Intelligence Studio free for all                           
+
+Music generation edit 
+Google DeepMind developed Lyria  a text to music model  As of April       it is available in preview mode on Vertex AI              
+
+Environment generation edit 
+In March       DeepMind introduced  Genie   Generative Interactive Environments   an AI model that can generate game like  action controllable virtual worlds based on textual descriptions  images  or sketches  Built as an autoregressive latent diffusion model  Genie enables frame by frame interactivity without requiring labeled action data for training  Its successor  Genie    released in December       expanded these capabilities to generate diverse and interactive  D environments              
+
+Robotics edit 
+Released in June       RoboCat is an AI model that can control robotic arms  The model can adapt to new models of robotic arms  and to new types of tasks                            In March       DeepMind launched two AI models  Gemini Robotics and Gemini Robotics ER  aimed at improving how robots interact with the physical world              
+
+Sports edit 
+DeepMind researchers have applied machine learning models to the sport of football  often referred to as soccer in North America  modelling the behaviour of football players  including the goalkeeper  defenders  and strikers during different scenarios such as penalty kicks  The researchers used heat maps and cluster analysis to organize players based on their tendency to behave a certain way during the game when confronted with a decision on how to score or prevent the other team from scoring  
+The researchers mention that machine learning models could be used to democratize the football industry by automatically selecting interesting video clips of the game that serve as highlights  This can be done by searching videos for certain events  which is possible because video analysis is an established field of machine learning  This is also possible because of extensive sports analytics based on data including annotated passes or shots  sensors that capture data about the players movements many times over the course of a game  and game theory models                           
+
+Archaeology edit 
+Google has unveiled a new archaeology document program  named Ithaca after the Greek island in Homer s Odyssey               This deep neural network helps researchers restore the empty text of damaged Greek documents  and to identify their date and geographical origin               The work builds on another text analysis network that DeepMind released in       named Pythia               Ithaca achieves     accuracy in restoring damaged texts and     location accuracy  and has a dating precision of    years               The authors claimed that the use of Ithaca by  expert historians  raised the accuracy of their work from    to    percent               However  Eleanor Dickey noted that this test was actually only made of students  saying that it wasn t clear how helpful Ithaca would be to  genuinely qualified editors                
+The team is working on extending the model to other ancient languages  including Demotic  Akkadian  Hebrew  and Mayan              
+
+Materials science edit 
+In November       Google DeepMind announced an Open Source Graph Network for Materials Exploration  GNoME   The tool proposes millions of materials previously unknown to chemistry  including several hundred thousand stable crystalline structures  of which     had been experimentally produced by the Massachusetts Institute of Technology  at the time of the release                            However  according to Anthony Cheetham  GNoME did not make  a useful  practical contribution to the experimental materials scientists                A review article by Cheetham and Ram Seshadri were unable to identify any  strikingly novel  materials found by GNoME  with most being minor variants of already known materials                           
+
+Mathematics edit 
+AlphaTensor edit 
+In October       DeepMind released AlphaTensor  which used reinforcement learning techniques similar to those in AlphaGo  to find novel algorithms for matrix multiplication                            In the special case of multiplying two     matrices with integer entries  where only the evenness or oddness of the entries is recorded  AlphaTensor found an algorithm requiring only    distinct multiplications  the previous optimum  known since       was the more general Strassen algorithm  using    multiplications               Computer scientist Josh Alman described AlphaTensor as  a proof of concept for something that could become a breakthrough   while Vassilevska Williams called it  a little overhyped               despite also acknowledging its basis in reinforcement learning as  something completely different  from previous approaches              
+
+AlphaGeometry edit 
+Main article  AlphaGeometry
+AlphaGeometry is a neuro symbolic AI that was able to solve    out of    geometry problems of the International Mathematical Olympiad  a performance comparable to that of a gold medalist              
+Traditional geometry programs are symbolic engines that rely exclusively on human coded rules to generate rigorous proofs  which makes them lack flexibility in unusual situations  AlphaGeometry combines such a symbolic engine with a specialized large language model trained on synthetic data of geometrical proofs  When the symbolic engine doesn t manage to find a formal and rigorous proof on its own  it solicits the large language model  which suggests a geometrical construct to move forward  However  it is unclear how applicable this method is to other domains of mathematics or reasoning  because symbolic engines rely on domain specific rules and because of the need for synthetic data              
+
+AlphaProof edit 
+AlphaProof is an AI model  which couples a pre trained language model with the AlphaZero reinforcement learning algorithm  AlphaZero has previously taught itself how to master games  The pre trained language model used in this combination is the fine tuning of a Gemini model to automatically translate natural language problem statements into formal statements  creating a large library of formal problems of varying difficulty  For this purpose  mathematical statements are defined in the formal language Lean  At the      International Mathematical Olympiad  AlphaProof together with an adapted version of AlphaGeometry have reached the same level of solving problems in the combined categories as a silver medalist in that competition for the first time                           
+
+AlphaDev edit 
+Main article  AlphaDev
+In June       Deepmind announced that AlphaDev  which searches for improved computer science algorithms using reinforcement learning  discovered a more efficient way of coding a sorting algorithm and a hashing algorithm  The new sorting algorithm was     faster for shorter sequences and      faster for sequences exceeding         elements  and the new hashing algorithm was     faster in some cases  The sorting algorithm was accepted into the C   Standard Library sorting algorithms  and was the first change to those algorithms in more than a decade and the first update to involve an algorithm discovered using AI               The hashing algorithm was released to an opensource library               Google estimates that these two algorithms are used trillions of times every day              
+
+Chip design edit 
+AlphaChip is an reinforcement learning based neural architecture that guides the task of chip placement  DeepMind claimed that the time needed to create chip layouts fell from weeks to hours  Its chip designs were used in every Tensor Processing Unit  TPU  iteration since                                
+
+Miscellaneous contributions to Google edit 
+Google has stated that DeepMind algorithms have greatly increased the efficiency of cooling its data centers by automatically balancing the cost of hardware failures against the cost of cooling               In addition  DeepMind  alongside other Alphabet AI researchers  assists Google Play s personalized app recommendations              DeepMind has also collaborated with the Android team at Google for the creation of two new features which were made available to people with devices running Android Pie  the ninth installment of Google s mobile operating system  These features  Adaptive Battery and Adaptive Brightness  use machine learning to conserve energy and make devices running the operating system easier to use  It is the first time DeepMind has used these techniques on such a small scale  with typical machine learning applications requiring orders of magnitude more computing power              
+
+DeepMind Health edit 
+In July       a collaboration between DeepMind and Moorfields Eye Hospital was announced to develop AI applications for healthcare               DeepMind would be applied to the analysis of anonymised eye scans  searching for early signs of diseases leading to blindness 
+In August       a research programme with University College London Hospital was announced with the aim of developing an algorithm that can automatically differentiate between healthy and cancerous tissues in head and neck areas              
+There are also projects with the Royal Free London NHS Foundation Trust and Imperial College Healthcare NHS Trust to develop new clinical mobile apps linked to electronic patient records               Staff at the Royal Free Hospital were reported as saying in December      that access to patient data through the app had saved a  huge amount of time  and made a  phenomenal  difference to the management of patients with acute kidney injury  Test result data is sent to staff s mobile phones and alerts them to changes in the patient s condition  It also enables staff to see if someone else has responded  and to show patients their results in visual form                           
+In November       DeepMind announced a research partnership with the Cancer Research UK Centre at Imperial College London with the goal of improving breast cancer detection by applying machine learning to mammography               Additionally  in February       DeepMind announced it was working with the U S  Department of Veterans Affairs in an attempt to use machine learning to predict the onset of acute kidney injury in patients  and also more broadly the general deterioration of patients during a hospital stay so that doctors and nurses can more quickly treat patients in need              
+DeepMind developed an app called Streams  which sends alerts to doctors about patients at risk of acute kidney injury               On    November       DeepMind announced that its health division and the Streams app would be absorbed into Google Health               Privacy advocates said the announcement betrayed patient trust and appeared to contradict previous statements by DeepMind that patient data would not be connected to Google accounts or services                            A spokesman for DeepMind said that patient data would still be kept separate from Google services or projects              
+
+NHS data sharing controversy edit 
+In April       New Scientist obtained a copy of a data sharing agreement between DeepMind and the Royal Free London NHS Foundation Trust  The latter operates three London hospitals where an estimated     million patients are treated annually  The agreement shows DeepMind Health had access to admissions  discharge and transfer data  accident and emergency  pathology and radiology  and critical care at these hospitals  This included personal details such as whether patients had been diagnosed with HIV  suffered from depression or had ever undergone an abortion in order to conduct research to seek better outcomes in various health conditions                           
+A complaint was filed to the Information Commissioner s Office  ICO   arguing that the data should be pseudonymised and encrypted               In May       New Scientist published a further article claiming that the project had failed to secure approval from the Confidentiality Advisory Group of the Medicines and Healthcare products Regulatory Agency              
+In       the ICO concluded a year long investigation that focused on how the Royal Free NHS Foundation Trust tested the app  Streams  in late      and                    The ICO found that the Royal Free failed to comply with the Data Protection Act when it provided patient details to DeepMind  and found several shortcomings in how the data was handled  including that patients were not adequately informed that their data would be used as part of the test  DeepMind published its thoughts              on the investigation in July       saying  we need to do better  and highlighting several activities and initiatives they had initiated for transparency  oversight and engagement  This included developing a patient and public involvement strategy              and being transparent in its partnerships 
+In May       Sky News published a leaked letter from the National Data Guardian  Dame Fiona Caldicott  revealing that in her  considered opinion  the data sharing agreement between DeepMind and the Royal Free took place on an  inappropriate legal basis                The Information Commissioner s Office ruled in July      that the Royal Free hospital failed to comply with the Data Protection Act when it handed over personal data of     million patients to DeepMind              
+
+DeepMind Ethics and Society edit 
+In October       DeepMind announced a new research unit  DeepMind Ethics  amp  Society               Their goal is to fund external research of the following themes  privacy  transparency  and fairness  economic impacts  governance and accountability  managing AI risk  AI morality and values  and how AI can address the world s challenges  As a result  the team hopes to further understand the ethical implications of AI and aid society to seeing AI can be beneficial              
+This new subdivision of DeepMind is a completely separate unit from the partnership of leading companies using AI  academia  civil society organizations and nonprofits of the name Partnership on Artificial Intelligence to Benefit People and Society of which DeepMind is also a part               The DeepMind Ethics and Society board is also distinct from the mooted AI Ethics Board that Google originally agreed to form when acquiring DeepMind              
+
+DeepMind Professors of machine learning edit 
+DeepMind sponsors three chairs of machine learning 
+
+At the University of Cambridge  held by Neil Lawrence               in the Department of Computer Science and Technology 
+At the University of Oxford  held by Michael Bronstein               in the Department of Computer Science  and
+At the University College London  held by Marc Deisenroth               in the Department of Computer Science 
+See also edit 
+Anthropic
+Cohere
+Glossary of artificial intelligence
+Imagen
+OpenAI
+Robot Constitution
+References edit 
+
+
+  a b  DeepMind Technologies Limited overview   Find and update company information   Gov uk   Companies House     September       Retrieved    December      
+
+  a b  DeepMind and Google  the battle to control artificial intelligence   The Economist  Retrieved    September      
+
+   King s Cross   S  Building   SES Engineering Services   ses ltd co uk  Retrieved    July      
+
+  a b c  Full accounts made up to    December        Companies House    October       p          
+
+   Deepmind Holdings Limited persons with significant control   Find and update company information   GOV UK   Companies House     August       Retrieved   May      
+
+  Langley  Hugh     May         How Google CEO Sundar Pichai shook up his leadership team for the AI era   Business Insider  Archived from the original on    May      
+
+   Deepmind Technologies Limited persons with significant control   Find and update company information   Gov uk   Companies House    November       Retrieved    December      
+
+  a b Bray  Chad     January         Google Acquires British Artificial Intelligence Developer   DealBook  Retrieved   November      
+
+   About Us   DeepMind     May      
+
+   A return to Paris   DeepMind     May      
+
+  Graves  Alex  Wayne  Greg  Danihelka  Ivo          Neural Turing Machines   arXiv            cs NE  
+
+  Best of       Google s Secretive DeepMind Startup Unveils a  Neural Turing Machine  Archived   December      at the Wayback Machine  MIT Technology Review
+
+  Graves  Alex  Wayne  Greg  Reynolds  Malcolm  Harley  Tim  Danihelka  Ivo  Grabska Barwi ska  Agnieszka  Colmenarejo  Sergio G mez  Grefenstette  Edward  Ramalho  Tiago     October         Hybrid computing using a neural network with dynamic external memory   Nature                       Bibcode     Natur         G  doi         nature       ISSN                 PMID                S CID                
+
+  Kohs  Greg     September        AlphaGo  Ioannis Antonoglou  Lucas Baker  Nick Bostrom  retrieved   January     
+
+  Silver  David  Hubert  Thomas  Schrittwieser  Julian  Antonoglou  Ioannis  Lai  Matthew  Guez  Arthur  Lanctot  Marc  Sifre  Laurent  Kumaran  Dharshan  Graepel  Thore  Lillicrap  Timothy  Simonyan  Karen  Hassabis  Demis    December         Mastering Chess and Shogi by Self Play with a General Reinforcement Learning Algorithm   arXiv             cs AI  
+
+  Callaway  Ewen     November          It will change everything   DeepMind s AI makes gigantic leap in solving protein structures   Nature  Retrieved    August      
+
+  a b Geddes  Linda     July         DeepMind uncovers structure of    m proteins in scientific leap forward   The Guardian 
+
+  a b  AlphaFold reveals the structure of the protein universe   DeepMind     July      
+
+   Demis Hassabis     facts about the DeepMind Technologies founder   The Guardian  Retrieved    October      
+
+  Marr  Bernard   How Google s Amazing AI Start Up  DeepMind  Is Making Our World A Smarter Place   Forbes  Retrieved    June      
+
+  Cookson  Robert     January         DeepMind buy heralds rise of the machines   Financial Times  Retrieved    October      
+
+   DeepMind Technologies Investors   Retrieved    October      
+
+  Shead  Sam   How DeepMind convinced billionaire Peter Thiel to invest without moving the company to Silicon Valley   Business Insider 
+
+  Rowan  David     June         DeepMind  inside Google s super brain   Wired UK  Archived from the original on   September      
+
+   Recode net   DeepMind Technologies Acquisition      January       Retrieved    January      
+
+   Google to buy artificial intelligence company DeepMind   Reuters     January       Retrieved    October      
+
+   Google Acquires UK AI startup Deepmind   The Guardian  Retrieved    January      
+
+   Report of Acquisition  TechCrunch   TechCrunch  Retrieved    January      
+
+   Google beats Facebook for Acquisition of DeepMind Technologies   Retrieved    January      
+
+  a b Mnih  Volodymyr  Kavukcuoglu  Koray  Silver  David     February         Human level control through deep reinforcement learning   Nature                      Bibcode     Natur         M  doi         nature       PMID                S CID                
+
+   Hall of Fame Awards  To celebrate the success of companies founded by Computer Laboratory graduates   University of Cambridge  Retrieved    October      
+
+  Lomas  Natasha   Documents detail DeepMind s plan to apply AI to NHS data in        TechCrunch  Retrieved    September      
+
+   Inside Google s Mysterious Ethics Board   Forbes    February       Retrieved    October      
+
+  Ramesh  Randeep    May         Google s DeepMind shouldn t suck up our NHS records in secret   The Guardian  Archived from the original on    October       Retrieved    October      
+
+  Hern  Alex    October         DeepMind announces ethics group to focus on problems of AI   The Guardian         via www theguardian com 
+
+   DeepMind has launched a new  ethics and society  research team   Business Insider  Retrieved    October      
+
+   DeepMind launches new research team to investigate AI ethics   The Verge  Retrieved    October      
+
+  Madhumita Murgia   DeepMind co founder leaves for policy role at Google   Financial Times    December     
+
+  Blogs  Microsoft Corporate     March         Mustafa Suleyman  DeepMind and Inflection Co founder  joins Microsoft to lead Copilot   The Official Microsoft Blog  Retrieved    March      
+
+  Roth  Emma  Peters  Jay     April         Google s big AI push will combine Brain and DeepMind into one team   The Verge  Archived from the original on    April       Retrieved    April      
+
+  Olson  Parmy     May         Google Unit DeepMind Tried and Failed to Win AI Autonomy From Parent   The Wall Street Journal  Archived from the original on    May       Retrieved    September      
+
+  Amodei  Dario  Olah  Chris  Steinhardt  Jacob  Christiano  Paul  Schulman  John  Man   Dan     June         Concrete Problems in AI Safety   arXiv             cs AI  
+
+   DeepMind Has Simple Tests That Might Prevent Elon Musk s AI Apocalypse   Bloomberg com     December       Retrieved   January      
+
+   Alphabet s DeepMind Is Using Games to Discover If Artificial Intelligence Can Break Free and Kill Us All   Fortune  Retrieved   January      
+
+   DeepMind AI s new trick is playing  Quake III Arena  like a human   Engadget    July      
+
+  Shead  Sam    June         Why the buzz around DeepMind is dissipating as it transitions from games to science   CNBC  Retrieved    June      
+
+  a b Mnih  Volodymyr  Kavukcuoglu  Koray  Silver  David  Graves  Alex  Antonoglou  Ioannis  Wierstra  Daan  Riedmiller  Martin     December         Playing Atari with Deep Reinforcement Learning   arXiv            cs LG  
+
+  a b c Deepmind artificial intelligence   FDOT       April              via YouTube 
+
+   A look back at some of AI s biggest video game wins in        VentureBeat     December       Retrieved    April      
+
+  Mnih  Volodymyr  Kavukcuoglu  Koray  Silver  David  Graves  Alex  Antonoglou  Ioannis  Wierstra  Daan  Riedmiller  Martin     December         Playing Atari with Deep Reinforcement Learning   arXiv            cs LG  
+
+   The Last AI Breakthrough DeepMind Made Before Google Bought It   The Physics arXiv Blog     January       Retrieved    October      
+
+  Adri  Puigdom nech Badia  Piot  Bilal  Kapturowski  Steven  Sprechmann  Pablo  Vitvitskyi  Alex  Guo  Daniel  Blundell  Charles     March         Agent    Outperforming the Atari Human Benchmark   arXiv             cs LG  
+
+   Agent    Outperforming the Atari Human Benchmark   DeepMind     March       Retrieved    May      
+
+  Linder  Courtney    April         This AI Can Beat Humans At All    Atari Games   Popular Mechanics  Retrieved   June      
+
+   Deepmind AI Researchers Introduce  DeepNash   An Autonomous Agent Trained With Model Free Multiagent Reinforcement Learning That Learns To Play The Game Of Stratego At Expert Level   MarkTechPost    July      
+
+  a b c  Google achieves AI  breakthrough  by beating Go champion   BBC News     January      
+
+   Premi re d faite d un professionnel du go contre une intelligence artificielle   Le Monde  in French      January      
+
+  a b  Research Blog  AlphaGo  Mastering the ancient game of Go with Machine Learning   Google Research Blog     January      
+
+   World s Go Player Ratings   May      
+
+                            in Chinese   May      
+
+   MuZero  Mastering Go  chess  shogi and Atari without rules   www deepmind com  Retrieved    April      
+
+  Schrittwieser  Julian  Antonoglou  Ioannis  Hubert  Thomas  Simonyan  Karen  Sifre  Laurent  Schmitt  Simon  Guez  Arthur  Lockhart  Edward  Hassabis  Demis  Graepel  Thore  Lillicrap  Timothy     December         Mastering Atari  Go  chess and shogi by planning with a learned model   Nature                       arXiv             Bibcode     Natur         S  doi         s                   ISSN                 PMID                S CID                
+
+   The latest AI can work things out without being taught   The Economist  Retrieved    October      
+
+  a b Silver  David  Schrittwieser  Julian  Simonyan  Karen  Antonoglou  Ioannis  Huang  Aja  Guez  Arthur  Hubert  Thomas  Baker  Lucas  Lai  Matthew  Bolton  Adrian  Chen  Yutian  Lillicrap  Timothy  Fan  Hui  Sifre  Laurent  Driessche  George van den  Graepel  Thore  Hassabis  Demis     October         Mastering the game of Go without human knowledge   PDF   Nature                       Bibcode     Natur         S  doi         nature       ISSN                 PMID                S CID                
+
+  Knight  Will   The world s smartest game playing AI DeepMind s AlphaGo just got way smarter   MIT Technology Review  Retrieved    October      
+
+  Vincent  James     October         DeepMind s Go playing AI doesn t need human help to beat us anymore   The Verge  Retrieved    October      
+
+  Cellan Jones  Rory     October         Google DeepMind  AI becomes more alien   BBC News  Retrieved   December      
+
+   MuZero s first step from research into the real world   www deepmind com  Retrieved    April      
+
+  Mandhane  Amol  Zhernov  Anton  Rauh  Maribeth  Gu  Chenjie  Wang  Miaosen  Xue  Flora  Shang  Wendy  Pang  Derek  Claus  Rene  Chiang  Ching Han  Chen  Cheng     February         MuZero with Self competition for Rate Control in VP  Video Compression   arXiv             eess IV  
+
+   DeepMind founder Demis Hassabis on how AI will shape the future   The Verge     March      
+
+   DeepMind AI Challenges Pro StarCraft II Players  Wins Almost Every Match   Extreme Tech     January       Retrieved    January      
+
+  Amadeo  Ron     July         DeepMind AI is secretly lurking on the public StarCraft II  v  ladder   Ars Technica  Retrieved    September      
+
+   I played against AlphaStar Deepmind   reddit     July       Retrieved    July      
+
+   AlphaStar  Grandmaster level in StarCraft II using multi agent reinforcement learning   DeepMind Blog     October       Retrieved    October      
+
+  Sample  Ian    December         Google s DeepMind predicts  D shapes of proteins   The Guardian  Retrieved   December      
+
+  Briggs  Helen     November         One of biology s biggest mysteries  largely solved  by AI   BBC News  Retrieved    November      
+
+   AlphaFold  a solution to a    year old grand challenge in biology   DeepMind     November       Retrieved    November      
+
+  Shead  Sam     November         DeepMind solves    year old  grand challenge  with protein folding A I   cnbc com  Retrieved    November      
+
+  Callaway  Ewen          What s next for AlphaFold and the AI protein folding revolution   Nature                       Bibcode     Natur         C  doi         d                   PMID                S CID                
+
+  Sullivan  Mark    May         DeepMind s new AlphaFold   expands to DNA  RNA modeling   Fast Company 
+
+   The Nobel Prize in Chemistry        NobelPrize org  Retrieved    October      
+
+   Here s Why Google s Assistant Sounds More Realistic Than Ever Before   Fortune    October       Retrieved    January      
+
+  Gershgorn  Dave   Google s voice generating AI is now indistinguishable from humans   Quartz  Retrieved    January      
+
+  a b Novet  Jordan     March         Google is finding ways to make money from Alphabet s DeepMind A I  technology   CNBC  Retrieved   April      
+
+   Introducing Cloud Text to Speech powered by DeepMind WaveNet technology   Google Cloud Platform Blog  Retrieved   April      
+
+   Efficient Neural Audio Synthesis   Deepmind  Archived from the original on    December       Retrieved   April      
+
+   Using WaveNet technology to reunite speech impaired users with their original voices   Deepmind  Retrieved   April      
+
+  Stimberg  Florian  Narest  Alex  Bazzica  Alessio  Kolmodin  Lennart  Barrera Gonzalez  Pablo  Sharonova  Olga  Lundin  Henrik  Walters  Thomas C     November         WaveNetEQ   Packet Loss Concealment with WaveRNN          th Asilomar Conference on Signals  Systems  and Computers  IEEE  pp                doi         ieeeconf                    ISBN                        
+
+   Improving Audio Quality in Duo with WaveNetEQ   Google AI Blog  April       Retrieved   April      
+
+  Wiggers  Kyle     May         DeepMind s new AI system can perform over     tasks   TechCrunch  Retrieved    April      
+
+  Gupta  Khushboo     September         Deepmind Introduces  Sparrow   An Artificial Intelligence Powered Chatbot Developed To Build Safer Machine Learning Systems   Retrieved   May      
+
+   What Is Chinchilla AI  Chatbot Language Model Rival By Deepmind To GPT     Dataconomy      January       Retrieved   May      
+
+   Tackling multiple tasks with a single visual language model   www deepmind com  Retrieved    April      
+
+  Alayrac  Jean Baptiste          Flamingo  a Visual Language Model for Few Shot Learning   PDF   arXiv            
+
+  Vincent  James    February         DeepMind says its new AI coding engine is as good as an average human programmer   The Verge  Archived from the original on   February       Retrieved   February      
+
+  Kruppa  Miles    December         Google Announces AI System Gemini After Turmoil at Rival OpenAI   The Wall Street Journal  ISSN                 Archived from the original on   December       Retrieved   December      
+
+  Knight  Will     June         Google DeepMind s CEO Says Its Next Algorithm Will Eclipse ChatGPT   Wired  Archived from the original on    June       Retrieved    August      
+
+  Pierce  David    December         Google launches Gemini  the AI model it hopes will take down GPT     The Verge  Retrieved    April      
+
+   Google is rebranding its Bard AI service as Gemini  Here s what it means   CBS News    February       Retrieved    April      
+
+  Haddad  C  J      December         Google releases the first of its Gemini     AI models   CNBC  Retrieved    December      
+
+   Introducing Gemini      our new AI model for the agentic era   Google     December       Retrieved    December      
+
+  Zeff  Maxwell     March         Google unveils a next gen family of AI reasoning models   TechCrunch  Retrieved    March      
+
+   Gemini      Our most intelligent AI model   Google     March       Retrieved    March      
+
+   Google rolls out custom chatbots  Gems  for free tier Gemini users  Details   Business Standard     March       Archived from the original on    March       Retrieved    March      
+
+   Google Gemma LLMs small enough to run on your computer   The Register     February       Archived from the original on    January      
+
+  Yeung  Ken     June         Google s Gemma   series launches with not one  but two lightweight model options a  B and   B   VentureBeat  Retrieved    February      
+
+   Google says its new AI models can identify emotions   and that has experts worried   TechCrunch    December       Retrieved   December      
+
+  Barron  Jenna     February         Feb           Development tools that have recently added new AI capabilities   SD Times  Retrieved    February      
+
+  Lawler  Richard     March         Google calls Gemma   the most powerful AI model you can run on one GPU   The Verge  Retrieved    March      
+
+  David  Emilia     March         Google unveils open source Gemma   model with    k context window   VentureBeat  Retrieved    March      
+
+   Introducing TxGemma  Open models to improve therapeutics development   Google Developers Blog  Retrieved    March      
+
+   DolphinGemma  How Google AI is helping decode dolphin communication   Google     April       Retrieved    April      
+
+   DolphinGemma  Google Using AI And Pixel   Phone To Understand What Dolphins Are Saying   News    Retrieved    April      
+
+   A generalist AI agent for  D virtual environments   Google DeepMind     March       Retrieved    March      
+
+  David  Emilia     March         Google s new AI will play video games with you   but not to win   The Verge  Retrieved    March      
+
+  Williams  Rhiannon     October         AI could help people find common ground during deliberations   MIT Technology Review  Retrieved    October      
+
+  a b Davis  Nicola     October         AI mediation tool may help reduce culture war rifts  say researchers   The Guardian  ISSN                 Retrieved    October      
+
+   Google unveils improved AI video generator Veo   to rival OpenAI s Sora   The Hindu     December       ISSN              X  Retrieved    December      
+
+  Wiggers  Kyle     April         Google s Veo   video generating model comes to Gemini   TechCrunch  Retrieved    April      
+
+   Generate videos in Gemini and Whisk with Veo     Google     April       Retrieved    April      
+
+  Wiggers  Kyle    April         Google s enterprise cloud gets a music generating AI model   TechCrunch  Retrieved    April      
+
+  Orland  Kyle    December         Google s Genie    world model  reveal leaves more questions than answers   Ars Technica  Retrieved    December      
+
+  Wiggers  Kyle     June         DeepMind s RoboCat learns to perform a range of robotics tasks   TechCrunch  Retrieved    April      
+
+   Google s DeepMind unveils AI robot that can teach itself unsupervised   The Independent     June       Retrieved    April      
+
+  Wiggers  Kyle     March         Google DeepMind unveils new AI models for controlling robots   TechCrunch  Retrieved    March      
+
+   Advancing sports analytics through AI research   DeepMind  Retrieved    April      
+
+  Tuyls  Karl  Omidshafiei  Shayegan  Muller  Paul  Wang  Zhe  Connor  Jerome  Hennes  Daniel  Graham  Ian  Spearman  William  Waskett  Tim  Steel  Dafydd  Luc  Pauline    May         Game Plan  What AI can do for Football  and What Football can do for AI   Journal of Artificial Intelligence Research             arXiv             doi         jair          ISSN                 S CID                
+
+  a b c  Predicting the past with Ithaca   Google DeepMind    March      
+
+  a b c d Vincent  James    March         DeepMind s new AI model helps decipher  date  and locate ancient inscriptions   The Verge  Retrieved    April      
+
+  Merchant  Amil  Batzner  Simon  Schoenholz  Samuel S   Aykol  Muratahan  Cheon  Gowoon  Cubuk  Ekin Dogus  December         Scaling deep learning for materials discovery   Nature                     Bibcode     Natur         M  doi         s                   ISSN                 PMC                PMID               
+
+   Google DeepMind s new AI tool helped create more than     new materials   MIT Technology Review  Retrieved   January      
+
+  a b Koebler  Jason     April         Is Google s AI Actually Discovering  Millions of New Materials         Media 
+
+  Cheetham  Anthony K   Seshadri  Ram          Artificial intelligence driving materials discovery  Perspective on the article  Scaling Deep Learning for Materials Discovery   Chemistry of Materials                     doi         acs chemmater  c       PMC                PMID               
+
+  Hutson  Matthew    October         DeepMind AI invents faster algorithms to solve tough maths puzzles   Nature  doi         d                w  PMID                S CID                
+
+  a b Heaven  Will Douglas    October         DeepMind s game playing AI has beaten a    year old record in computer science   MIT Technology Review 
+
+  a b  AI Reveals New Possibilities in Matrix Multiplication   Quanta Magazine  November       Retrieved    November      
+
+  a b Zia  Tehseen     January         AlphaGeometry  DeepMind s AI Masters Geometry Problems at Olympiad Levels   Unite ai  Retrieved   May      
+
+  Roberts  Siobhan     July         AI achieves silver medal standard solving International Mathematical Olympiad problems   The New York Times  Retrieved   August      
+
+  AlphaProof and AlphaGeometry teams     July         AI achieves silver medal standard solving International Mathematical Olympiad problems   deepmind google  Retrieved   August      
+
+  Heaven  Will Douglas    June         Google DeepMind s game playing AI just found another way to make code faster   MIT Technology Review  Archived from the original on    June       Retrieved    June      
+
+   AlphaDev discovers faster sorting algorithms   DeepMind Blog     May          June      
+
+  Sparkes  Matthew    June         DeepMind AI s new way to sort objects could speed up global computing   New Scientist  Retrieved    June      
+
+  Ghoshal  Abhimanyu     November         Singularity alert  AIs are already designing their own chips   New Atlas  Retrieved   December      
+
+  Shilov  Anton     September         Google unveils AlphaChip AI assisted chip design technology   chip layout as a game for a computer   Tom s Hardware  Retrieved   December      
+
+   DeepMind AI Reduces Google Data Centre Cooling Bill by       DeepMind Blog     May          July      
+
+   DeepMind  meet Android   DeepMind Blog     May         May      
+
+  Baraniuk  Chris    July         Google s DeepMind to peek at NHS eye scans for disease analysis   BBC  Retrieved   July      
+
+  Baraniuk  Chris     August         Google DeepMind targets NHS head and neck cancer treatment   BBC  Retrieved   September      
+
+   DeepMind announces second NHS partnership   IT Pro     December       Retrieved    December      
+
+   Google DeepMind s Streams technology branded  phenomenal    Digital Health    December       Retrieved    December      
+
+   A dedicated WhatsApp for clinicians   PDF   the bmj     February      
+
+   Google DeepMind announces new research partnership to fight breast cancer with AI   Silicon Angle     November      
+
+   Google s DeepMind wants AI to spot kidney injuries   Venture Beat     February      
+
+  Evenstad  Lis     June         DeepMind Health must be transparent to gain public trust  review finds   ComputerWeekly com  Retrieved    November      
+
+  Vincent  James     November         Google is absorbing DeepMind s health care unit to create an  AI assistant for nurses and doctors    The Verge  Retrieved    November      
+
+  Hern  Alex     November         Google  betrays patient trust  with DeepMind Health move   The Guardian  Retrieved    November      
+
+  Stokel Walker  Chris     November         Why Google consuming DeepMind Health is scaring privacy experts   Wired  Retrieved    November      
+
+  Murphy  Margi     November         DeepMind boss defends controversial Google health deal   The Telegraph  Archived from the original on    January       Retrieved    November      
+
+  Hodson  Hal     April         Revealed  Google AI has access to huge haul of NHS patient data   New Scientist 
+
+   Leader  If Google has nothing to hide about NHS data  why so secretive    New Scientist    May      
+
+  Donnelly  Caroline     May         ICO probes Google DeepMind patient data sharing deal with NHS Hospital Trust   Computer Weekly 
+
+  Hodson  Hal     May         Did Google s NHS patient data deal need ethical approval    New Scientist  Retrieved    May      
+
+   Royal Free   Google DeepMind trial failed to comply with data protection law   ico org uk     August       Archived from the original on    June       Retrieved    February      
+
+   The Information Commissioner  the Royal Free  and what we ve learned   DeepMind  Retrieved    February      
+
+   For Patients   DeepMind  Retrieved    February      
+
+  Martin  Alexander J     May         Google received     million NHS patients  data on an  inappropriate legal basis    Sky News  Retrieved    May      
+
+  Hern  Alex    July         Royal Free breached UK data law in    m patient deal with Google s DeepMind   The Guardian 
+
+   Why we launched DeepMind Ethics  amp  Society   DeepMind Blog  Retrieved    March      
+
+  Temperton  James   DeepMind s new AI ethics unit is the company s next big move   Wired  UK   Retrieved   December      
+
+  Hern  Alex    October         DeepMind announces ethics group to focus on problems of AI   The Guardian  Retrieved   December      
+
+  Hern  Alex    October         DeepMind announces ethics group to focus on problems of AI   The Guardian  Retrieved    June      
+
+   Cambridge appoints first DeepMind Professor of Machine Learning   University of Cambridge     September      
+
+   DeepMind funds new post at Oxford University   the DeepMind Professorship of Artificial Intelligence   Department of Computer Science 
+
+   DeepMind renews its commitment to UCL   University College London     March      
+
+
+External links edit 
+Official website 
+GitHub Repositories
+vteGoogle AI
+Google
+Google Brain
+Google DeepMind
+Computer programsAlphaGoVersions
+AlphaGo       
+Master       
+AlphaGo Zero       
+AlphaZero       
+MuZero       
+Competitions
+Fan Hui       
+Lee Sedol       
+Ke Jie       
+In popular culture
+AlphaGo       
+The MANIAC       
+Other
+AlphaFold       
+AlphaStar       
+AlphaDev       
+AlphaGeometry       
+Machine learningNeural networks
+Inception       
+WaveNet       
+MobileNet       
+Transformer       
+EfficientNet       
+Gato       
+Other
+Quantum Artificial Intelligence Lab
+TensorFlow
+Tensor Processing Unit
+Generative AIChatbots
+Assistant       
+Sparrow       
+Gemini       
+Language models
+BERT       
+XLNet       
+T        
+LaMDA       
+Chinchilla       
+PaLM       
+Gemini       
+VideoPoet       
+Other
+DreamBooth       
+NotebookLM       
+Vids       
+See also
+ Attention Is All You Need 
+Future of Go Summit
+Generative pre trained transformer
+Google Labs
+Google Pixel
+Google Workspace
+Robot Constitution
+
+ Category
+ Commons
+
+vteGooglea subsidiary of AlphabetCompanyDivisions
+AI
+Area    
+ATAP
+Brain
+China
+Cloud Platform
+Energy
+Google org
+Crisis Response
+Health
+Registry
+SubsidiariesActive
+Security Operations
+DeepMind
+Fitbit
+ITA Software
+Jigsaw
+Looker
+Mandiant
+Owlchemy Labs
+Defunct
+Actifio
+Adscape
+Akwan Information Technologies
+Anvato
+Apigee
+BandPage
+Bitium
+BufferBox
+Crashlytics
+Dodgeball
+DoubleClick
+Dropcam
+Endoxon
+Flutter
+Global IP Solutions
+Green Throttle Games
+GreenBorder
+Gridcentric
+ImageAmerica
+Impermium
+Invite Media
+Kaltix
+Marratech
+Meebo
+Metaweb
+Neotonic Software
+Neverware
+Nik Software
+Orbitera
+Pyra Labs
+Quest Visual
+Reqwireless
+RightsFlow
+Sidewalk Labs
+SlickLogin
+Titan Aerospace
+Typhoon Studios
+Urban Engines
+Vicarious
+Viewdle
+Wavii
+Wildfire Interactive
+YouTube Next Lab and Audience Development Group
+Programs
+Business Groups
+Computing University Initiative
+Contact Lens
+Content ID
+CrossCheck
+Data Liberation Front
+Data Transfer Project
+Developer Expert
+DigiKavach
+DigiPivot
+Digital Garage
+Digital News Initiative
+Digital Unlocked
+Dragonfly
+Founders  Award
+Free Zone
+Get Your Business Online
+Google for Education
+Google for Startups
+Living Stories
+Made with Code
+News Lab
+PowerMeter
+Privacy Sandbox
+Project Nightingale
+Project Nimbus
+Project Sunroof
+Project Zero
+Quantum Artificial Intelligence Lab
+RechargeIT
+Sensorvault
+Silicon Initiative
+Solve for X
+Street View Trusted
+Student Ambassador Program
+Vevo
+YouTube BrandConnect
+YouTube Creator Awards
+YouTube Select
+YouTube Original Channel Initiative
+Year in Search
+YouTube Rewind
+    
+    
+Events
+AlphaGo versus Fan Hui
+AlphaGo versus Lee Sedol
+AlphaGo versus Ke Jie
+Android Developer Challenge
+Android Developer Day
+Android Developer Lab
+CNN YouTube presidential debates
+Code in
+Code Jam
+Developer Day
+Developers Live
+Doodle Google
+Future of Go Summit
+G Day
+Hash Code
+I O
+Lunar X Prize
+Mapathon
+Science Fair
+Summer of Code
+World Chess Championship     
+YouTube Awards
+YouTube Comedy Week
+YouTube Live
+YouTube Music Awards
+    
+    
+YouTube Space Lab
+YouTube Symphony Orchestra
+Infrastructure
+    Eighth Avenue
+Android lawn statues
+Androidland
+Barges
+Binoculars Building
+Central Saint Giles
+Chelsea Market
+Chrome Zone
+Data centers
+GeoEye  
+Googleplex
+Ivanpah Solar Power Facility
+James R  Thompson Center
+King s Cross
+Mayfield Mall
+Pier   
+Sidewalk Toronto
+St  John s Terminal
+Submarine cables
+Dunant
+Grace Hopper
+Unity
+WiFi
+YouTube Space
+YouTube Theater
+PeopleCurrent
+Krishna Bharat
+Vint Cerf
+Jeff Dean
+John Doerr
+Sanjay Ghemawat
+Al Gore
+John L  Hennessy
+Urs H lzle
+Salar Kamangar
+Ray Kurzweil
+Ann Mather
+Alan Mulally
+Rick Osterloh
+Sundar Pichai  CEO 
+Ruth Porat  CFO 
+Rajen Sheth
+Hal Varian
+Neal Mohan
+Former
+Andy Bechtolsheim
+Sergey Brin  co founder 
+David Cheriton
+Matt Cutts
+David Drummond
+Alan Eustace
+Timnit Gebru
+Omid Kordestani
+Paul Otellini
+Larry Page  co founder 
+Patrick Pichette
+Eric Schmidt
+Ram Shriram
+Amit Singhal
+Shirley M  Tilghman
+Rachel Whetstone
+Susan Wojcicki
+CriticismGeneral
+Censorship
+DeGoogle
+FairSearch
+ Google s Ideological Echo Chamber 
+No Tech for Apartheid
+Privacy concerns
+Street View
+YouTube
+Trade unions
+Alphabet Workers Union
+YouTube copyright issues
+Incidents
+Backdoor advertisement controversy
+Blocking of YouTube videos in Germany
+Data breach
+Elsagate
+Fantastic Adventures scandal
+Kohistan video case
+Reactions to Innocence of Muslims
+San Francisco tech bus protests
+Services outages
+Slovenian government incident
+Walkouts
+YouTube headquarters shooting
+Other
+Android apps
+April Fools  Day jokes
+Doodles
+Doodle Champion Island Games
+Magic Cat Academy
+Easter eggs
+History
+Gmail
+Search
+YouTube
+Logo
+Material Design
+Mergers and acquisitions
+DevelopmentSoftwareA C
+Accelerated Linear Algebra
+AMP
+Actions on Google
+ALTS
+American Fuzzy Lop
+Android Cloud to Device Messaging
+Android Debug Bridge
+Android NDK
+Android Runtime
+Android SDK
+Android Studio
+Angular
+AngularJS
+Apache Beam
+APIs
+App Engine
+App Inventor
+App Maker
+App Runtime for Chrome
+AppJet
+Apps Script
+AppSheet
+ARCore
+Base
+Bazel
+BeyondCorp
+Bigtable
+BigQuery
+Bionic
+Blockly
+Borg
+Caja
+Cameyo
+Chart API
+Charts
+Chrome Frame
+Chromium
+Blink
+Closure Tools
+Cloud Connect
+Cloud Dataflow
+Cloud Datastore
+Cloud Messaging
+Cloud Shell
+Cloud Storage
+Code Search
+Compute Engine
+Cpplint
+D N
+Dalvik
+Data Protocol
+Dialogflow
+Exposure Notification
+Fast Pair
+Fastboot
+Federated Learning of Cohorts
+File System
+Firebase
+Firebase Cloud Messaging
+FlatBuffers
+Flutter
+Freebase
+Gadgets
+Ganeti
+Gears
+Gerrit
+GLOP
+gRPC
+Gson
+Guava
+Guetzli
+Guice
+gVisor
+GYP
+JAX
+Jetpack Compose
+Keyhole Markup Language
+Kubernetes
+Kythe
+LevelDB
+Lighthouse
+Looker Studio
+lmctfy
+MapReduce
+Mashup Editor
+Matter
+Mobile Services
+Namebench
+Native Client
+Neatx
+Neural Machine Translation
+Nomulus
+O Z
+Open Location Code
+OpenRefine
+OpenSocial
+Optimize
+OR Tools
+Pack
+PageSpeed
+Piper
+Plugin for Eclipse
+Polymer
+Programmable Search Engine
+Project IDX
+Project Shield
+Public DNS
+reCAPTCHA
+RenderScript
+SafetyNet
+SageTV
+Schema org
+Search Console
+Shell
+Sitemaps
+Skia Graphics Engine
+Spanner
+Sputnik
+Stackdriver
+Swiffy
+Tango
+TensorFlow
+Tesseract
+Test
+Translator Toolkit
+Urchin
+UTM parameters
+V 
+VirusTotal
+VisBug
+Wave Federation Protocol
+Weave
+Web Accelerator
+Web Designer
+Web Server
+Web Toolkit
+Webdriver Torso
+WebRTC
+Operating systems
+Android
+Cupcake
+Donut
+Eclair
+Froyo
+Gingerbread
+Honeycomb
+Ice Cream Sandwich
+Jelly Bean
+KitKat
+Lollipop
+Marshmallow
+Nougat
+Oreo
+Pie
+  
+  
+  
+  
+  
+  
+  
+version history
+smartphones
+Android Automotive
+Android Go
+devices
+Android Things
+Android TV
+devices
+Android XR
+ChromeOS
+ChromeOS Flex
+ChromiumOS
+Fuchsia
+Glass OS
+gLinux
+Goobuntu
+TV
+Wear OS
+Language models
+BERT
+Chinchilla
+DreamBooth
+Gemini
+LaMDA
+PaLM
+T 
+VideoPoet
+XLNet
+Neural networks
+EfficientNet
+Gato
+Inception
+MobileNet
+Transformer
+WaveNet
+Computer programs
+AlphaDev
+AlphaFold
+AlphaGeometry
+AlphaGo
+AlphaGo Zero
+AlphaStar
+AlphaZero
+Master
+MuZero
+Formats and codecs
+AAB
+APK
+AV 
+iLBC
+iSAC
+libvpx
+Lyra
+Protocol Buffers
+VP 
+VP 
+VP 
+VP 
+WebM
+WebP
+WOFF 
+Programming languages
+Carbon
+Dart
+Go
+Sawzall
+Search algorithms
+Googlebot
+Hummingbird
+Mobilegeddon
+PageRank
+matrix
+Panda
+Penguin
+Pigeon
+RankBrain
+Domain names
+ app
+ dev
+ google
+ zip
+g co
+google by
+Typefaces
+Croscore
+Noto
+Product Sans
+Roboto
+SoftwareA
+Aardvark
+Account
+Dashboard
+Takeout
+Ad Manager
+AdMob
+Ads
+AdSense
+Affiliate Network
+Alerts
+Allo
+Analytics
+Android Auto
+Android Beam
+Answers
+Apture
+Arts  amp  Culture
+Assistant
+Attribution
+Authenticator
+B
+BebaPay
+BeatThatQuote com
+Blog Search
+Blogger
+Body
+Bookmarks
+Books
+Ngram Viewer
+Browser Sync
+Building Maker
+Bump
+BumpTop
+Buzz
+C
+Calendar
+Cast
+Catalogs
+Chat
+Checkout
+Chrome
+Chrome Apps
+Chrome Experiments
+Chrome Remote Desktop
+Chrome Web Store
+Classroom
+Cloud Print
+Cloud Search
+Contacts
+Contributor
+Crowdsource
+Currents  social app 
+Currents  news app 
+D
+Data Commons
+Dataset Search
+Desktop
+Dictionary
+Digital Wellbeing
+Dinosaur Game
+Directory
+Docs
+Docs Editors
+Domains
+Drawings
+Drive
+Duo
+E
+Earth
+Etherpad
+Expeditions
+Express
+F
+Family Link
+Fast Flip
+FeedBurner
+fflick
+Fi Wireless
+Finance
+Files
+Find My Device
+Fit
+Flights
+Flu Trends
+Fonts
+Forms
+Friend Connect
+Fusion Tables
+G
+Gboard
+Gemini
+Gesture Search
+Gizmo 
+Google 
+Gmail
+Goggles
+GOOG    
+Grasshopper
+Groups
+H
+Hangouts
+Helpouts
+I
+iGoogle
+Images
+Image Labeler
+Image Swirl
+Inbox by Gmail
+Input Tools
+Japanese Input
+Pinyin
+Insights for Search
+J
+Jaiku
+Jamboard
+K
+Kaggle
+Keep
+Knol
+L
+Labs
+Latitude
+Lens
+Like com
+Live Transcribe
+Lively
+M
+Map Maker
+Maps
+Maps Navigation
+Marketing Platform
+Meet
+Messages
+Moderator
+My Tracks
+N
+Nearby Share
+News
+News  amp  Weather
+News Archive
+Notebook
+NotebookLM
+Now
+O
+Offers
+One
+One Pass
+Opinion Rewards
+Orkut
+Oyster
+P
+Panoramio
+PaperofRecord com
+Patents
+Page Creator
+Pay  mobile app 
+Pay  payment method 
+Pay Send
+People Cards
+Person Finder
+Personalized Search
+Photomath
+Photos
+Picasa
+Picasa Web Albums
+Picnik
+Pixel Camera
+Play
+Play Books
+Play Games
+Play Music
+Play Newsstand
+Play Pass
+Play Services
+Podcasts
+Poly
+Postini
+PostRank
+Primer
+Project Starline
+Public Alerts
+Public Data Explorer
+Q
+Question Hub
+Quick  Draw 
+Quick Search Box
+Quick Share
+Quickoffice
+R
+Read Along
+Reader
+Reply
+S
+Safe Browsing
+SageTV
+Santa Tracker
+Schemer
+Scholar
+Search
+AI Overviews
+Knowledge Graph
+SafeSearch
+Searchwiki
+Sheets
+Shoploop
+Shopping
+Sidewiki
+Sites
+Slides
+Snapseed
+Socratic
+Softcard
+Songza
+Sound Amplifier
+Spaces
+Sparrow  chatbot 
+Sparrow  email client 
+Speech Recognition  amp  Synthesis
+Squared
+Stadia
+Station
+Store
+Street View
+Surveys
+Sync
+T
+Tables
+Talk
+TalkBack
+Tasks
+Tenor
+Tez
+Tilt Brush
+Toolbar
+Toontastic  D
+Translate
+Travel
+Trendalyzer
+Trends
+TV
+U
+URL Shortener
+V
+Video
+Vids
+Voice
+Voice Access
+Voice Search
+W
+Wallet
+Wave
+Waze
+WDYL
+Web Light
+Where Is My Train
+Widevine
+Wiz
+Word Lens
+Workspace
+Workspace Marketplace
+Y
+YouTube
+YouTube Kids
+YouTube Music
+YouTube Premium
+YouTube Shorts
+YouTube Studio
+YouTube TV
+YouTube VR
+HardwarePixelSmartphones
+Pixel       
+Pixel         
+Pixel         
+Pixel  a       
+Pixel         
+Pixel  a       
+Pixel         
+Pixel  a       
+Pixel         
+Pixel  a       
+Pixel         
+Pixel  a       
+Pixel Fold       
+Pixel         
+Pixel  a       
+Pixel         
+Pixel   Pro Fold       
+Pixel  a       
+Smartwatches
+Pixel Watch       
+Pixel Watch         
+Pixel Watch         
+Tablets
+Pixel C       
+Pixel Slate       
+Pixel Tablet       
+Laptops
+Chromebook Pixel            
+Pixelbook       
+Pixelbook Go       
+Other
+Pixel Buds       present 
+NexusSmartphones
+Nexus One       
+Nexus S       
+Galaxy Nexus       
+Nexus         
+Nexus         
+Nexus         
+Nexus  X       
+Nexus  P       
+Tablets
+Nexus         
+Nexus          
+Nexus         
+Nexus         
+Other
+Nexus Q       
+Nexus Player       
+Other
+Android Dev Phone
+Android One
+Cardboard
+Chromebit
+Chromebook
+Chromebox
+Chromecast
+Clips
+Daydream
+Fitbit
+Glass
+Liftware
+Liquid Galaxy
+Nest
+smart speakers
+Thermostat
+Wifi
+Play Edition
+Project Ara
+OnHub
+Pixel Visual Core
+Project Iris
+Search Appliance
+Sycamore processor
+Tensor
+Tensor Processing Unit
+Titan Security Key
+vteLitigationAdvertising
+Feldman v  Google  Inc        
+Rescuecom Corp  v  Google Inc        
+Goddard v  Google  Inc        
+Rosetta Stone Ltd  v  Google  Inc        
+Google  Inc  v  American Blind  amp  Wallpaper Factory  Inc        
+Jedi Blue
+Antitrust
+European Union       present 
+United States v  Adobe Systems  Inc   Apple Inc   Google Inc   Intel Corporation  Intuit  Inc   and Pixar       
+Umar Javeed  Sukarma Thapar  Aaqib Javeed vs  Google LLC and Ors        
+United States v  Google LLC       
+United States v  Google LLC       
+Intellectualproperty
+Perfect     Inc  v  Amazon com  Inc        
+Viacom International Inc  v  YouTube  Inc        
+Lenz v  Universal Music Corp       
+Authors Guild  Inc  v  Google  Inc        
+Field v  Google  Inc        
+Google LLC v  Oracle America  Inc        
+Smartphone patent wars
+Privacy
+Rocky Mountain Bank v  Google  Inc        
+Hibnick v  Google  Inc        
+United States v  Google Inc        
+Judgement of the German Federal Court of Justice on Google s autocomplete function       
+Joffe v  Google  Inc        
+Mosley v SARL Google       
+Google Spain v AEPD and Mario Costeja Gonz lez       
+Frank v  Gaos       
+Other
+Garcia v  Google  Inc        
+Google LLC v Defteros       
+Epic Games v  Google       
+Gonzalez v  Google LLC       
+RelatedConcepts
+Beauty YouTuber
+BookTube
+BreadTube
+ Don t be evil 
+Gayglers
+Google as a verb
+Google bombing
+     U S  presidential election
+Google effect
+Googlefight
+Google hacking
+Googleshare
+Google tax
+Googlewhack
+Googlization
+Illegal flower tribute
+Objectives and key results
+Rooting
+Search engine manipulation effect
+Side project time
+Sitelink
+Site reliability engineering
+StudyTube
+VTuber
+YouTube Poop
+YouTuber
+list
+ProductsAndroid
+Booting process
+Custom distributions
+Features
+Recovery mode
+Software development
+Street View coverage
+Africa
+Antarctica
+Asia
+Israel
+Europe
+North America
+Canada
+United States
+Oceania
+South America
+Argentina
+Chile
+Colombia
+YouTube
+Copyright strike
+Education
+Features
+Moderation
+Most disliked videos
+Most liked videos
+Most subscribed channels
+Most viewed channels
+Most viewed videos
+Arabic music videos
+Chinese music videos
+French music videos
+Indian videos
+Pakistani videos
+Official channel
+Social impact
+Suspensions
+YouTube Premium original programming
+Other
+Gmail interface
+Maps pin
+Most downloaded Google Play applications
+Stadia games
+Documentaries
+AlphaGo
+Google  Behind the Screen
+Google Maps Road Trip
+Google and the World Brain
+The Creepy Line
+Books
+Google Hacks
+The Google Story
+Google Volume One
+Googled  The End of the World as We Know It
+How Google Works
+I m Feeling Lucky
+In the Plex
+The Google Book
+The MANIAC
+Popular culture
+Google Feud
+Google Me  film 
+ Google Me   Kim Zolciak song 
+ Google Me   Teyana Taylor song 
+Is Google Making Us Stupid 
+Proceratium google
+Matt Nathanson  Live at Google
+The Billion Dollar Code
+The Internship
+Where on Google Earth is Carmen Sandiego 
+Other
+ Attention Is All You Need 
+elgooG
+Generative pre trained transformer
+ Me at the zoo 
+Predictions of the end
+Relationship with Wikipedia
+ Reunion 
+Robot Constitution
+Italics denote discontinued products 
+ Category
+ Outline
+vteGenerative AIConcepts
+Autoencoder
+Deep learning
+Generative adversarial network
+Generative pre trained transformer
+Large language model
+Neural network
+Prompt engineering
+Retrieval augmented generation
+Reinforcement learning from human feedback
+Self supervised learning
+Transformer
+Variational autoencoder
+Vision transformer
+Word embedding
+ModelsText
+Claude
+DBRX
+DeepSeek
+ERNIE
+Gemini
+GPT
+ 
+ 
+ 
+J
+ChatGPT
+ 
+ o
+o 
+o 
+   
+   
+o 
+Granite
+Grok
+Llama
+Manus
+Mistral Large
+PanGu  
+Qwen
+Image
+Aurora
+DALL E
+Firefly
+Flux
+GPT Image  
+Ideogram
+Imagen
+Midjourney
+Stable Diffusion
+Speech
+   ai
+WaveNet
+Video
+Dream Machine
+Gen  
+Hailuo AI
+Kling
+Sora
+Veo
+VideoPoet
+Music
+Endel
+Suno AI
+Udio
+Companies
+   AI
+Alibaba
+Anthropic
+Baichuan
+Baidu
+DeepSeek
+ElevenLabs
+Google DeepMind
+Hugging Face
+Kuaishou
+Meta AI
+MiniMax
+Mistral AI
+Moonshot AI
+OpenAI
+Runway
+Stability AI
+Synthesia
+xAI
+Zhipu AI
+
+ Category
+ Commons
+
+vteArtificial intelligence  AI History  timeline Concepts
+Parameter
+Hyperparameter
+Loss functions
+Regression
+Bias variance tradeoff
+Double descent
+Overfitting
+Clustering
+Gradient descent
+SGD
+Quasi Newton method
+Conjugate gradient method
+Backpropagation
+Attention
+Convolution
+Normalization
+Batchnorm
+Activation
+Softmax
+Sigmoid
+Rectifier
+Gating
+Weight initialization
+Regularization
+Datasets
+Augmentation
+Prompt engineering
+Reinforcement learning
+Q learning
+SARSA
+Imitation
+Policy gradient
+Diffusion
+Latent diffusion model
+Autoregression
+Adversary
+RAG
+Uncanny valley
+RLHF
+Self supervised learning
+Recursive self improvement
+Word embedding
+Hallucination
+Applications
+Machine learning
+In context learning
+Artificial neural network
+Deep learning
+Language model
+Large language model
+NMT
+Artificial general intelligence  AGI 
+ImplementationsAudio visual
+AlexNet
+WaveNet
+Human image synthesis
+HWR
+OCR
+Speech synthesis
+   ai
+ElevenLabs
+Speech recognition
+Whisper
+Facial recognition
+AlphaFold
+Text to image models
+Aurora
+DALL E
+Firefly
+Flux
+Ideogram
+Imagen
+Midjourney
+Stable Diffusion
+Text to video models
+Dream Machine
+Runway Gen
+Hailuo AI
+Kling
+Sora
+Veo
+Music generation
+Suno AI
+Udio
+Text
+Word vec
+Seq seq
+GloVe
+BERT
+T 
+Llama
+Chinchilla AI
+PaLM
+GPT
+ 
+ 
+ 
+J
+ChatGPT
+ 
+ o
+o 
+o 
+   
+   
+o 
+Claude
+Gemini
+chatbot
+Grok
+LaMDA
+BLOOM
+Project Debater
+IBM Watson
+IBM Watsonx
+Granite
+PanGu  
+DeepSeek
+Qwen
+Decisional
+AlphaGo
+AlphaZero
+OpenAI Five
+Self driving car
+MuZero
+Action selection
+AutoGPT
+Robot control
+People
+Alan Turing
+Warren Sturgis McCulloch
+Walter Pitts
+John von Neumann
+Claude Shannon
+Marvin Minsky
+John McCarthy
+Nathaniel Rochester
+Allen Newell
+Cliff Shaw
+Herbert A  Simon
+Oliver Selfridge
+Frank Rosenblatt
+Bernard Widrow
+Joseph Weizenbaum
+Seymour Papert
+Seppo Linnainmaa
+Paul Werbos
+J rgen Schmidhuber
+Yann LeCun
+Geoffrey Hinton
+John Hopfield
+Yoshua Bengio
+Lotfi A  Zadeh
+Stephen Grossberg
+Alex Graves
+Andrew Ng
+Fei Fei Li
+Alex Krizhevsky
+Ilya Sutskever
+Demis Hassabis
+David Silver
+Ian Goodfellow
+Andrej Karpathy
+James Goodnight
+Architectures
+Neural Turing machine
+Differentiable neural computer
+Transformer
+Vision transformer  ViT 
+Recurrent neural network  RNN 
+Long short term memory  LSTM 
+Gated recurrent unit  GRU 
+Echo state network
+Multilayer perceptron  MLP 
+Convolutional neural network  CNN 
+Residual neural network  RNN 
+Highway network
+Mamba
+Autoencoder
+Variational autoencoder  VAE 
+Generative adversarial network  GAN 
+Graph neural network  GNN 
+
+ Portals
+Technology
+ Category
+Artificial neural networks
+Machine learning
+ List
+Companies
+Projects
+
+vteExistential risk from artificial intelligenceConcepts
+AGI
+AI alignment
+AI capability control
+AI safety
+AI takeover
+Consequentialism
+Effective accelerationism
+Ethics of artificial intelligence
+Existential risk from artificial intelligence
+Friendly artificial intelligence
+Instrumental convergence
+Vulnerable world hypothesis
+Intelligence explosion
+Longtermism
+Machine ethics
+Suffering risks
+Superintelligence
+Technological singularity
+Organizations
+Alignment Research Center
+Center for AI Safety
+Center for Applied Rationality
+Center for Human Compatible Artificial Intelligence
+Centre for the Study of Existential Risk
+EleutherAI
+Future of Humanity Institute
+Future of Life Institute
+Google DeepMind
+Humanity 
+Institute for Ethics and Emerging Technologies
+Leverhulme Centre for the Future of Intelligence
+Machine Intelligence Research Institute
+OpenAI
+People
+Scott Alexander
+Sam Altman
+Yoshua Bengio
+Nick Bostrom
+Paul Christiano
+Eric Drexler
+Sam Harris
+Stephen Hawking
+Dan Hendrycks
+Geoffrey Hinton
+Bill Joy
+Shane Legg
+Elon Musk
+Steve Omohundro
+Huw Price
+Martin Rees
+Stuart J  Russell
+Jaan Tallinn
+Max Tegmark
+Frank Wilczek
+Roman Yampolskiy
+Eliezer Yudkowsky
+Other
+Statement on AI risk of extinction
+Human Compatible
+Open letter on artificial intelligence       
+Our Final Invention
+The Precipice
+Superintelligence  Paths  Dangers  Strategies
+Do You Trust This Computer 
+Artificial Intelligence Act
+ Category
+Authority control databases InternationalISNIVIAFNationalUnited StatesCzech RepublicPoland
+
+
+
+
+
+Retrieved from  https   en wikipedia org w index php title Google DeepMind amp oldid

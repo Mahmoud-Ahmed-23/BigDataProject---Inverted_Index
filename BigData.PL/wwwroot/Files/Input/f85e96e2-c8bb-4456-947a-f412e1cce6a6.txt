@@ -1,0 +1,4673 @@
+Numbers significantly larger than those used regularly
+For other uses  see Large number  disambiguation  
+Large numbers  far beyond those encountered in everyday life such as simple counting or financial transactions play a crucial role in various domains  These expansive quantities appear prominently in mathematics  cosmology  cryptography  and statistical mechanics  While they often manifest as large positive integers  they can also take other forms in different contexts   such as P adic number   Googology delves into the naming conventions and properties of these immense numerical entities                       
+Since the customary  traditional  non technical  decimal format of large numbers can be lengthy  other systems have been devised that allows for shorter representation  For example  a billion is represented as    characters                 in decimal format  but is only   characters       when expressed in exponential format  A trillion is    characters in decimal  but only          in exponential  Values that vary dramatically can be represented and compared graphically via logarithmic scale 
+
+
+Natural language numbering edit 
+A natural language numbering system allows for representing large numbers using names that more clearly distinguish numeric scale than a series of digits  For example  billion  may be easier to comprehend for some readers than                  But  as names  a numeric value can be lengthy  For example              is  two million  three hundred forty five thousand  seven hundred and eighty nine  
+
+Standard notation edit 
+Standard notation is a variation of English s natural language numbering  where it is shortened into a suffix  Examples are                      B  B   billion  
+
+Scientific notation edit 
+Scientific notation was devised to represent the vast range of values encountered in scientific research in a format that is more compact than traditional formats yet allows for high precision when called for  A value is represented as a decimal fraction times a multiple power of     The factor is intended to make reading comprehension easier than a lengthy series of zeros  For example          expresses one billion   followed by nine zeros  The reciprocal  one billionth  is           Sometimes the      becomes an e  like   billion as  e  
+
+Examples edit 
+Examples of large numbers describing real world things 
+
+The number of cells in the human body  estimated at             or      trillion      T           
+The number of bits on a computer hard disk  as of          update       typically about                TB   or    trillion   T
+The number of neuronal connections in the human brain  estimated at        or     trillion     T
+The Avogadro constant is the number of  elementary entities   usually atoms or molecules  in one mole  the number of atoms in         grams of carbon                      approximately             or       sextillion     Sx 
+The total number of DNA base pairs within the entire biomass on Earth  as a possible approximation of global biodiversity  is estimated at                 or       undecillion         UDc                      
+The mass of Earth consists of about           or   sexdecillion   SxDc  nucleons
+The estimated number of atoms in the observable universe         or     quinvigintillion     QiVg
+The lower bound on the game tree complexity of chess  also known as the  Shannon number   estimated at around         or   novemtrigintillion   NTg            Note that this value of the Shannon number is for Standard Chess  It has even larger values for larger board chess variants such as Grant Acedrex  Tai Shogi  and Taikyoku Shogi 
+Astronomical edit 
+In astronomy and cosmology large numbers for measures of length and time are encountered  For instance  according to the prevailing Big Bang model  the universe is approximately      billion years old  equivalent to            seconds   The observable universe spans    billion light years  approximately          meters  and hosts around        stars  organized into roughly     billion galaxies  as observed by the Hubble Space Telescope   As a rough estimate  there are about      atoms within the observable universe            
+According to Don Page  physicist at the University of Alberta  Canada  the longest finite time that has so far been explicitly calculated by any physicist is
+
+
+  
+    
+      
+        
+            
+          
+            
+                
+              
+                
+                    
+                  
+                    
+                        
+                      
+                        
+                            
+                          
+                               
+                          
+                        
+                      
+                    
+                  
+                
+              
+            
+          
+        
+        
+          
+              xa  years
+          
+        
+      
+    
+      displaystyle                               mbox  years   
+  
+
+ which corresponds to the scale of an estimated Poincar  recurrence time for the quantum state of a hypothetical box containing a black hole with the estimated mass of the entire universe  observable or not  assuming a certain inflationary model with an inflaton whose mass is      Planck masses   roughly                        T                         This time assumes a statistical model subject to Poincar  recurrence  A much simplified way of thinking about this time is in a model where the universe s history repeats itself arbitrarily many times due to properties of statistical mechanics  this is the time scale when it will first be somewhat similar  for a reasonable choice of  similar   to its current state again 
+Combinatorial processes give rise to astonishingly large numbers  The  factorial function  which quantifies permutations of a fixed set of objects  grows superexponentially as the number of objects increases   Stirling s formula provides a precise asymptotic expression for this rapid growth 
+In statistical mechanics  combinatorial numbers reach such immense magnitudes that they are often expressed using logarithms 
+G del numbers  along with similar representations of bit strings in algorithmic information theory  are vast even for mathematical statements of moderate length  Remarkably  certain pathological numbers surpass even the G del numbers associated with typical mathematical propositions 
+Logician Harvey Friedman has made significant contributions to the study of very large numbers  including work related to Kruskal s tree theorem and the Robertson Seymour theorem 
+
+ Billions and billions  edit 
+To help viewers of Cosmos distinguish between  millions  and  billions   astronomer Carl Sagan stressed the  b   Sagan never did  however  say  billions and billions   The public s association of the phrase and Sagan came from a Tonight Show skit  Parodying Sagan s effect  Johnny Carson quipped  billions and billions               The phrase has  however  now become a humorous fictitious number the Sagan   Cf   Sagan Unit 
+
+Examples edit 
+googol   
+  
+    
+      
+        
+            
+          
+               
+          
+        
+      
+    
+      displaystyle          
+  
+    DTg
+centillion   
+  
+    
+      
+        
+            
+          
+               
+          
+        
+      
+    
+      displaystyle          
+  
+  Ce or 
+  
+    
+      
+        
+            
+          
+               
+          
+        
+      
+    
+      displaystyle          
+  
+  depending on number naming system
+millinillion   
+  
+    
+      
+        
+            
+          
+                
+          
+        
+      
+    
+      displaystyle           
+  
+  MI or 
+  
+    
+      
+        
+            
+          
+                
+          
+        
+      
+    
+      displaystyle           
+  
+  depending on number naming system
+The largest known Smith number                                                      
+The largest known Mersenne prime   
+  
+    
+      
+        
+           
+          
+               
+             
+               
+             
+               
+          
+        
+          x     
+         
+      
+    
+      displaystyle                   
+  
+            
+googolplex   
+  
+    
+      
+        
+            
+          
+            googol
+          
+        
+         
+        
+            
+          
+            
+                
+              
+                   
+              
+            
+          
+        
+      
+    
+      displaystyle      text googol                 
+  
+
+Skewes s numbers  the first is approximately 
+  
+    
+      
+        
+            
+          
+            
+                
+              
+                
+                    
+                  
+                      
+                  
+                
+              
+            
+          
+        
+      
+    
+      displaystyle                   
+  
+  the second 
+  
+    
+      
+        
+            
+          
+            
+                
+              
+                
+                    
+                  
+                       
+                  
+                
+              
+            
+          
+        
+      
+    
+      displaystyle                    
+  
+
+Graham s number  larger than what can be represented even using power towers  tetration   However  it can be represented using layers of Knuth s up arrow notation 
+Kruskal s tree theorem is a sequence relating to graphs  TREE    is larger than Graham s number 
+Rayo s number is a large number named after Agust n Rayo which has been claimed to be the largest named number  It was originally defined in a  big number duel  at MIT on    January      
+Standardized system of writing edit 
+This section does not cite any sources  Please help improve this section by adding citations to reliable sources  Unsourced material may be challenged and removed    December        Learn how and when to remove this message 
+A standardized way of writing very large numbers allows them to be easily sorted in increasing order  and one can get a good idea of how much larger a number is than another one 
+To compare numbers in scientific notation  say       and        compare the exponents first  in this case    gt     so        gt         If the exponents are equal  the mantissa  or coefficient  should be compared  thus        gt        because    gt    
+Tetration with base    gives the sequence 
+  
+    
+      
+          
+          x       x     
+        n
+         
+          
+          x     
+        n
+          x     
+         
+         
+         
+          
+          x     
+        
+           
+          
+            n
+          
+        
+         
+      
+    
+      displaystyle    uparrow  uparrow n    to n to       uparrow    n   
+  
+  the power towers of numbers     where 
+  
+    
+      
+         
+          
+          x     
+        
+           
+          
+            n
+          
+        
+      
+    
+      displaystyle     uparrow    n  
+  
+ denotes a functional power of the function 
+  
+    
+      
+        f
+         
+        n
+         
+         
+        
+            
+          
+            n
+          
+        
+      
+    
+      displaystyle f n      n  
+  
+  the function also expressed by the suffix   plex  as in googolplex  see the googol family  
+These are very round numbers  each representing an order of magnitude in a generalized sense  A crude way of specifying how large a number is  is specifying between which two numbers in this sequence it is 
+More precisely  numbers in between can be expressed in the form 
+  
+    
+      
+         
+          
+          x     
+        
+           
+          
+            n
+          
+        
+        a
+      
+    
+      displaystyle     uparrow    n a 
+  
+  i e   with a power tower of   s  and a number at the top  possibly in scientific notation  e g  
+  
+    
+      
+        
+            
+          
+            
+                
+              
+                
+                    
+                  
+                    
+                        
+                      
+                        
+                            
+                          
+                                 
+                          
+                        
+                      
+                    
+                  
+                
+              
+            
+          
+        
+         
+         
+          
+          x     
+        
+           
+          
+             
+          
+        
+             
+      
+    
+      displaystyle                                    uparrow            
+  
+  a number between 
+  
+    
+      
+          
+          x       x     
+         
+      
+    
+      displaystyle    uparrow  uparrow   
+  
+ and 
+  
+    
+      
+          
+          x       x     
+         
+      
+    
+      displaystyle    uparrow  uparrow   
+  
+  note that 
+  
+    
+      
+          
+          x       x     
+        n
+         lt 
+         
+          
+          x     
+        
+           
+          
+            n
+          
+        
+        a
+         lt 
+          
+          x       x     
+         
+        n
+         
+         
+         
+      
+    
+      displaystyle    uparrow  uparrow n lt     uparrow    n a lt    uparrow  uparrow  n    
+  
+ if 
+  
+    
+      
+         
+         lt 
+        a
+         lt 
+          
+      
+    
+      displaystyle   lt a lt    
+  
+    See also extension of tetration to real heights  
+Thus googolplex is 
+  
+    
+      
+        
+            
+          
+            
+                
+              
+                   
+              
+            
+          
+        
+         
+         
+          
+          x     
+        
+           
+          
+             
+          
+        
+           
+         
+         
+          
+          x     
+        
+           
+          
+             
+          
+        
+         
+      
+    
+      displaystyle                   uparrow              uparrow        
+  
+ 
+Another example 
+
+
+  
+    
+      
+         
+          x       x       x     
+         
+         
+        
+          
+            
+              
+                
+                  
+                    
+                       
+                      
+
+                      
+                      
+                        
+                           
+                          
+                            
+                              
+
+                              
+                              
+                                 
+                                
+                                  
+                                  
+                                     
+                                    
+                                      
+                                      
+                                         
+                                        
+                                          
+                                          
+                                             
+                                          
+                                        
+                                      
+                                    
+                                  
+                                
+                              
+                            
+                          
+                        
+                      
+                    
+                      x  df 
+                  
+                
+              
+            
+            
+              
+                
+                
+                  xa  
+                  xa  
+                  xa  
+                  
+                 
+                   
+                
+                  
+                      xa  copies of  xa  
+                  
+                
+                 
+              
+            
+          
+        
+          x     
+         
+          
+          x     
+        
+           
+          
+              
+             
+               
+          
+        
+         
+         
+          xd  
+        
+            
+          
+              
+             
+               
+          
+        
+         
+          x     
+         
+          
+          x     
+        
+           
+          
+              
+             
+               
+          
+        
+           
+      
+    
+      displaystyle   uparrow  uparrow  uparrow     begin matrix  underbrace                                          qquad  quad               mbox  copies of     end matrix   approx     uparrow              times              approx     uparrow               
+  
+  between 
+  
+    
+      
+          
+          x       x     
+          
+         
+           
+      
+    
+      displaystyle    uparrow  uparrow        
+  
+ and 
+  
+    
+      
+          
+          x       x     
+          
+         
+           
+      
+    
+      displaystyle    uparrow  uparrow        
+  
+ 
+Thus the  order of magnitude  of a number  on a larger scale than usually meant   can be characterized by the number of times  n  one has to take the 
+  
+    
+      
+        l
+        o
+        
+          g
+          
+              
+          
+        
+      
+    
+      displaystyle log      
+  
+ to get a number between   and     Thus  the number is between 
+  
+    
+      
+          
+          x       x     
+        n
+      
+    
+      displaystyle    uparrow  uparrow n 
+  
+ and 
+  
+    
+      
+          
+          x       x     
+         
+        n
+         
+         
+         
+      
+    
+      displaystyle    uparrow  uparrow  n    
+  
+  As explained  a more precise description of a number also specifies the value of this number between   and     or the previous number  taking the logarithm one time less  between    and       or the next  between   and   
+Note that
+
+
+  
+    
+      
+        
+            
+          
+             
+              
+              x     
+            
+               
+              
+                n
+              
+            
+            x
+          
+        
+         
+         
+          
+          x     
+        
+           
+          
+            n
+          
+        
+        
+            
+          
+            x
+          
+        
+      
+    
+      displaystyle         uparrow    n x      uparrow    n     x  
+  
+
+I e   if a number x is too large for a representation 
+  
+    
+      
+         
+          
+          x     
+        
+           
+          
+            n
+          
+        
+        x
+      
+    
+      displaystyle     uparrow    n x 
+  
+ the power tower can be made one higher  replacing x by log  x  or find x from the lower tower representation of the log   of the whole number  If the power tower would contain one or more numbers different from     the two approaches would lead to different results  corresponding to the fact that extending the power tower with a    at the bottom is then not the same as extending it with a    at the top  but  of course  similar remarks apply if the whole power tower consists of copies of the same number  different from     
+If the height of the tower is large  the various representations for large numbers can be applied to the height itself  If the height is given only approximately   giving a value at the top does not make sense  so the double arrow notation  e g  
+  
+    
+      
+          
+          x       x     
+         
+            
+          xd  
+        
+            
+          
+             
+          
+        
+         
+      
+    
+      displaystyle    uparrow  uparrow       times         
+  
+  can be used  If the value after the double arrow is a very large number itself  the above can recursively be applied to that value 
+Examples 
+
+
+  
+    
+      
+          
+          x       x     
+        
+            
+          
+            
+            
+            
+                
+              
+                
+                    
+                  
+                        
+                      xd  
+                    
+                        
+                      
+                          
+                      
+                    
+                  
+                
+              
+            
+          
+        
+      
+    
+      displaystyle    uparrow  uparrow                      times            
+  
+  between 
+  
+    
+      
+          
+          x       x       x     
+         
+      
+    
+      displaystyle    uparrow  uparrow  uparrow   
+  
+ and 
+  
+    
+      
+          
+          x       x       x     
+         
+      
+    
+      displaystyle    uparrow  uparrow  uparrow   
+  
+ 
+
+  
+    
+      
+          
+          x       x     
+          
+          x       x     
+         
+          
+          x     
+        
+           
+          
+               
+          
+        
+         
+            
+          xd  
+        
+            
+          
+              
+          
+        
+         
+         
+         
+          
+          x       x     
+        
+           
+          
+             
+          
+        
+         
+          
+          x     
+        
+           
+          
+               
+          
+        
+         
+            
+          xd  
+        
+            
+          
+              
+          
+        
+         
+      
+    
+      displaystyle    uparrow  uparrow    uparrow  uparrow     uparrow              times              uparrow  uparrow          uparrow              times          
+  
+  between 
+  
+    
+      
+          
+          x       x       x     
+         
+      
+    
+      displaystyle    uparrow  uparrow  uparrow   
+  
+ and 
+  
+    
+      
+          
+          x       x       x     
+         
+      
+    
+      displaystyle    uparrow  uparrow  uparrow   
+  
+ 
+Similarly to the above  if the exponent of 
+  
+    
+      
+         
+          
+          x     
+         
+      
+    
+      displaystyle     uparrow   
+  
+ is not exactly given then giving a value at the right does not make sense  and instead of using the power notation of 
+  
+    
+      
+         
+          
+          x     
+         
+      
+    
+      displaystyle     uparrow   
+  
+  it is possible to add 
+  
+    
+      
+         
+      
+    
+      displaystyle   
+  
+ to the exponent of 
+  
+    
+      
+         
+          
+          x       x     
+         
+      
+    
+      displaystyle     uparrow  uparrow   
+  
+  to obtain e g  
+  
+    
+      
+         
+          
+          x       x     
+        
+           
+          
+             
+          
+        
+         
+           
+          xd  
+        
+            
+          
+              
+          
+        
+         
+      
+    
+      displaystyle     uparrow  uparrow           times          
+  
+ 
+If the exponent of 
+  
+    
+      
+         
+          
+          x       x     
+         
+      
+    
+      displaystyle     uparrow  uparrow   
+  
+ is large  the various representations for large numbers can be applied to this exponent itself  If this exponent is not exactly given then  again  giving a value at the right does not make sense  and instead of using the power notation of 
+  
+    
+      
+         
+          
+          x       x     
+         
+      
+    
+      displaystyle     uparrow  uparrow   
+  
+ it is possible use the triple arrow operator  e g  
+  
+    
+      
+          
+          x       x       x     
+         
+           
+          xd  
+        
+            
+          
+             
+          
+        
+         
+      
+    
+      displaystyle    uparrow  uparrow  uparrow      times         
+  
+ 
+If the right hand argument of the triple arrow operator is large the above applies to it  obtaining e g  
+  
+    
+      
+          
+          x       x       x     
+         
+          
+          x       x     
+        
+           
+          
+             
+          
+        
+         
+          
+          x     
+        
+           
+          
+               
+          
+        
+         
+            
+          xd  
+        
+            
+          
+              
+          
+        
+         
+      
+    
+      displaystyle    uparrow  uparrow  uparrow     uparrow  uparrow          uparrow              times          
+  
+  between 
+  
+    
+      
+          
+          x       x       x     
+          
+          x       x       x     
+         
+      
+    
+      displaystyle    uparrow  uparrow  uparrow    uparrow  uparrow  uparrow   
+  
+ and 
+  
+    
+      
+          
+          x       x       x     
+          
+          x       x       x     
+         
+      
+    
+      displaystyle    uparrow  uparrow  uparrow    uparrow  uparrow  uparrow   
+  
+   This can be done recursively  so it is possible to have a power of the triple arrow operator 
+Then it is possible to proceed with operators with higher numbers of arrows  written 
+  
+    
+      
+        
+            x     
+          
+            n
+          
+        
+      
+    
+      displaystyle  uparrow   n  
+  
+ 
+Compare this notation with the hyper operator and the Conway chained arrow notation 
+
+
+  
+    
+      
+        a
+        
+            x     
+          
+            n
+          
+        
+        b
+      
+    
+      displaystyle a uparrow   n b 
+  
+     a   b   n     hyper a       n                     b 
+An advantage of the first is that when considered as function of b  there is a natural notation for powers of this function  just like when writing out the n arrows   
+  
+    
+      
+         
+        a
+        
+            x     
+          
+            n
+          
+        
+        
+           
+          
+            k
+          
+        
+        b
+      
+    
+      displaystyle  a uparrow   n    k b 
+  
+  For example 
+
+
+  
+    
+      
+         
+          
+        
+            x     
+          
+             
+          
+        
+        
+           
+          
+             
+          
+        
+        b
+      
+    
+      displaystyle     uparrow          b 
+  
+                        b                  
+and only in special cases the long nested chain notation is reduced  for 
+  
+    
+      
+        
+          
+            x     
+        
+        
+          b
+            x     
+        
+         
+         
+      
+    
+      displaystyle   b     
+  
+ obtains 
+
+
+  
+    
+      
+          
+        
+            x     
+          
+             
+          
+        
+         
+         
+         
+          
+        
+            x     
+          
+             
+          
+        
+        
+           
+          
+             
+          
+        
+         
+      
+    
+      displaystyle    uparrow           uparrow            
+  
+                 
+Since the b can also be very large  in general it can be written instead a number with a sequence of powers 
+  
+    
+      
+         
+          
+        
+            x     
+          
+            n
+          
+        
+        
+           
+          
+            
+              k
+              
+                n
+              
+            
+          
+        
+      
+    
+      displaystyle     uparrow   n    k  n   
+  
+ with decreasing values of n  with exactly given integer exponents 
+  
+    
+      
+        
+          
+            k
+            
+              n
+            
+          
+        
+      
+    
+      displaystyle  k  n   
+  
+  with at the end a number in ordinary scientific notation  Whenever a 
+  
+    
+      
+        
+          
+            k
+            
+              n
+            
+          
+        
+      
+    
+      displaystyle  k  n   
+  
+ is too large to be given exactly  the value of 
+  
+    
+      
+        
+          
+            k
+            
+              n
+               
+               
+            
+          
+        
+      
+    
+      displaystyle  k  n     
+  
+ is increased by   and everything to the right of 
+  
+    
+      
+         
+        
+          n
+           
+           
+        
+        
+           
+          
+            
+              k
+              
+                n
+                 
+                 
+              
+            
+          
+        
+      
+    
+      displaystyle   n      k  n     
+  
+ is rewritten 
+For describing numbers approximately  deviations from the decreasing order of values of n are not needed  For example  
+  
+    
+      
+          
+          x     
+         
+          
+          x       x     
+        
+           
+          
+             
+          
+        
+        a
+         
+         
+          
+          x       x     
+        
+           
+          
+             
+          
+        
+        a
+      
+    
+      displaystyle    uparrow     uparrow  uparrow      a     uparrow  uparrow      a 
+  
+  and 
+  
+    
+      
+          
+          x     
+         
+          
+          x       x       x     
+         
+         
+         
+          
+          x       x     
+         
+          
+          x       x     
+          
+         
+         
+         
+          x     
+          
+          x       x       x     
+         
+      
+    
+      displaystyle    uparrow     uparrow  uparrow  uparrow       uparrow  uparrow     uparrow  uparrow       approx    uparrow  uparrow  uparrow   
+  
+  Thus is obtained the somewhat counterintuitive result that a number x can be so large that  in a way  x and   x are  almost equal   for arithmetic of large numbers see also below  
+If the superscript of the upward arrow is large  the various representations for large numbers can be applied to this superscript itself  If this superscript is not exactly given then there is no point in raising the operator to a particular power or to adjust the value on which it act  instead it is possible to simply use a standard value at the right  say     and the expression reduces to 
+  
+    
+      
+          
+        
+            x     
+          
+            n
+          
+        
+          
+         
+         
+          
+          x     
+          
+          x     
+        n
+         
+      
+    
+      displaystyle    uparrow   n        to    to n  
+  
+ with an approximate n  For such numbers the advantage of using the upward arrow notation no longer applies  so the chain notation can be used instead 
+The above can be applied recursively for this n  so the notation 
+  
+    
+      
+        
+            x     
+          
+            n
+          
+        
+      
+    
+      displaystyle  uparrow   n  
+  
+ is obtained in the superscript of the first arrow  etc   or a nested chain notation  e g  
+
+                      
+  
+    
+      
+         
+          xd  
+        
+            
+          
+             
+          
+        
+      
+    
+      displaystyle   times        
+  
+      
+  
+    
+      
+          
+        
+            x     
+          
+              
+            
+                x     
+              
+                 
+                  xd  
+                
+                    
+                  
+                     
+                  
+                
+              
+            
+              
+          
+        
+          
+      
+    
+      displaystyle    uparrow      uparrow     times              
+  
+
+If the number of levels gets too large to be convenient  a notation is used where this number of levels is written down as a number  like using the superscript of the arrow instead of writing many arrows   Introducing a function 
+  
+    
+      
+        f
+         
+        n
+         
+         
+          
+        
+            x     
+          
+            n
+          
+        
+          
+      
+    
+      displaystyle f n     uparrow   n    
+  
+              n   these levels become functional powers of f  allowing us to write a number in the form 
+  
+    
+      
+        
+          f
+          
+            m
+          
+        
+         
+        n
+         
+      
+    
+      displaystyle f  m  n  
+  
+ where m is given exactly and n is an integer which may or may not be given exactly  for example  
+  
+    
+      
+        
+          f
+          
+             
+          
+        
+         
+         
+          xd  
+        
+            
+          
+             
+          
+        
+         
+      
+    
+      displaystyle f       times         
+  
+   If n is large  any of the above can be used for expressing it  The  roundest  of these numbers are those of the form fm             m     For example  
+  
+    
+      
+         
+          
+          x     
+          
+          x     
+         
+          x     
+         
+         
+         
+          
+        
+            x     
+          
+              
+            
+                x     
+              
+                
+                    
+                  
+                      
+                  
+                
+              
+            
+              
+          
+        
+          
+      
+    
+      displaystyle     to    to   to       uparrow      uparrow                 
+  
+
+Compare the definition of Graham s number  it uses numbers   instead of    and has    arrow levels and the number   at the top  thus 
+  
+    
+      
+        G
+         lt 
+         
+          x     
+         
+          x     
+          
+          x     
+         
+         lt 
+         
+          
+          x     
+          
+          x     
+          
+          x     
+         
+         
+         
+        
+          f
+          
+              
+          
+        
+         
+         
+         
+      
+    
+      displaystyle G lt   rightarrow   rightarrow    rightarrow   lt     to    to    to    f         
+  
+  but also 
+  
+    
+      
+        G
+         lt 
+        
+          f
+          
+              
+          
+        
+         
+         
+         
+         lt 
+        
+          f
+          
+              
+          
+        
+         
+         
+         
+      
+    
+      displaystyle G lt f         lt f         
+  
+ 
+If m in 
+  
+    
+      
+        
+          f
+          
+            m
+          
+        
+         
+        n
+         
+      
+    
+      displaystyle f  m  n  
+  
+ is too large to give exactly  it is possible to use a fixed n  e g  n      and apply the above recursively to m  i e   the number of levels of upward arrows is itself represented in the superscripted upward arrow notation  etc  Using the functional power notation of f this gives multiple levels of f  Introducing a function 
+  
+    
+      
+        g
+         
+        n
+         
+         
+        
+          f
+          
+            n
+          
+        
+         
+         
+         
+      
+    
+      displaystyle g n  f  n     
+  
+ these levels become functional powers of g  allowing us to write a number in the form 
+  
+    
+      
+        
+          g
+          
+            m
+          
+        
+         
+        n
+         
+      
+    
+      displaystyle g  m  n  
+  
+ where m is given exactly and n is an integer which may or may not be given exactly  For example  if        m      gm     If n is large any of the above can be used for expressing it  Similarly a function h  etc  can be introduced  If many such functions are required  they can be numbered instead of using a new letter every time  e g  as a subscript  such that there are numbers of the form 
+  
+    
+      
+        
+          f
+          
+            k
+          
+          
+            m
+          
+        
+         
+        n
+         
+      
+    
+      displaystyle f  k   m  n  
+  
+ where k and m are given exactly and n is an integer which may or may not be given exactly  Using k   for the f above  k   for g  etc   obtains        n k    
+  
+    
+      
+        
+          f
+          
+            k
+          
+        
+         
+        n
+         
+         
+        
+          f
+          
+            k
+              x     
+             
+          
+          
+            n
+          
+        
+         
+         
+         
+      
+    
+      displaystyle f  k  n  f  k     n     
+  
+  If n is large any of the above can be used to express it  Thus is obtained a nesting of forms 
+  
+    
+      
+        
+          
+            
+              f
+              
+                k
+              
+            
+          
+          
+            
+              m
+              
+                k
+              
+            
+          
+        
+      
+    
+      displaystyle  f  k    m  k   
+  
+ where going inward the k decreases  and with as inner argument a sequence of powers 
+  
+    
+      
+         
+          
+        
+            x     
+          
+            n
+          
+        
+        
+           
+          
+            
+              p
+              
+                n
+              
+            
+          
+        
+      
+    
+      displaystyle     uparrow   n    p  n   
+  
+ with decreasing values of n  where all these numbers are exactly given integers  with at the end a number in ordinary scientific notation 
+When k is too large to be given exactly  the number concerned can be expressed as 
+  
+    
+      
+        
+          
+            f
+            
+              n
+            
+          
+        
+         
+          
+         
+      
+    
+      displaystyle  f  n       
+  
+           n  with an approximate n  Note that the process of going from the sequence 
+  
+    
+      
+        
+            
+          
+            n
+          
+        
+      
+    
+      displaystyle     n  
+  
+     n  to the sequence 
+  
+    
+      
+          
+        
+            x     
+          
+            n
+          
+        
+          
+      
+    
+      displaystyle    uparrow   n    
+  
+        n  is very similar to going from the latter to the sequence 
+  
+    
+      
+        
+          
+            f
+            
+              n
+            
+          
+        
+         
+          
+         
+      
+    
+      displaystyle  f  n       
+  
+           n   it is the general process of adding an element    to the chain in the chain notation  this process can be repeated again  see also the previous section   Numbering the subsequent versions of this function a number can be described using functions 
+  
+    
+      
+        
+          
+            
+              f
+              
+                q
+                k
+              
+            
+          
+          
+            
+              m
+              
+                q
+                k
+              
+            
+          
+        
+      
+    
+      displaystyle  f  qk    m  qk   
+  
+  nested in lexicographical order with q the most significant number  but with decreasing order for q and for k  as inner argument yields a sequence of powers 
+  
+    
+      
+         
+          
+        
+            x     
+          
+            n
+          
+        
+        
+           
+          
+            
+              p
+              
+                n
+              
+            
+          
+        
+      
+    
+      displaystyle     uparrow   n    p  n   
+  
+ with decreasing values of n  where all these numbers are exactly given integers  with at the end a number in ordinary scientific notation 
+For a number too large to write down in the Conway chained arrow notation it size can be described by the length of that chain  for example only using elements    in the chain  in other words  one could specify its position in the sequence                         If even the position in the sequence is a large number same techniques can be applied again 
+
+Examples edit 
+Numbers expressible in decimal notation 
+
+      
+                 
+       
+        
+          
+           
+
+  
+    
+      
+        
+           
+          
+            
+               
+              
+                
+                   
+                  
+                     
+                  
+                
+              
+            
+          
+        
+      
+    
+      displaystyle               
+  
+                          
+            
+                    million
+               
+                
+                             billion
+                     
+                                  trillion
+                                               
+                                      million billion     quadrillion
+                                          billion billion     quintilion
+Numbers expressible in scientific notation 
+
+Approximate number of atoms in the observable universe                                                                                                                     
+googol                                                                                                                                                 
+                                                
+Approximate number of Planck volumes composing the volume of the observable universe              
+                                                  
+
+  
+    
+      
+        
+           
+          
+            
+               
+              
+                
+                   
+                  
+                    
+                       
+                      
+                         
+                      
+                    
+                  
+                
+              
+            
+          
+        
+         
+         
+          x       x     
+         
+         
+        
+           
+          
+              
+             
+               
+          
+        
+          x     
+           
+          xd  
+        
+            
+          
+              
+             
+               
+          
+        
+          x     
+         
+          
+          x     
+        
+           
+          
+             
+          
+        
+           
+      
+    
+      displaystyle                     uparrow  uparrow              approx     times             approx     uparrow          
+  
+
+                                            
+                                             
+                                                
+
+  
+    
+      
+        
+          M
+          
+               
+             
+               
+             
+               
+          
+        
+          x     
+            
+          xd  
+        
+            
+          
+              
+             
+               
+             
+               
+          
+        
+          x     
+        
+            
+          
+            
+                
+              
+                      
+              
+            
+          
+        
+          x     
+         
+          
+          x     
+        
+           
+          
+             
+          
+        
+          xa  
+              
+      
+    
+      displaystyle M               approx      times                 approx                  approx     uparrow               
+  
+  the   nd and as of October               update      the largest known Mersenne prime             
+                                                 
+                                              
+
+  
+    
+      
+        
+           
+          
+            
+               
+              
+                
+                   
+                  
+                     
+                  
+                
+              
+            
+          
+        
+         
+         
+          x       x     
+         
+          x     
+            
+          xd  
+        
+            
+          
+             
+             
+               
+             
+               
+             
+               
+             
+               
+          
+        
+          x     
+         
+          
+          x     
+        
+           
+          
+             
+          
+        
+            
+      
+    
+      displaystyle                 uparrow  uparrow   approx      times                        approx     uparrow           
+  
+
+Numbers expressible in       n k notation 
+
+googolplex   
+  
+    
+      
+        
+            
+          
+            
+                
+              
+                   
+              
+            
+          
+        
+         
+         
+          
+          x     
+        
+           
+          
+             
+          
+        
+         
+      
+    
+      displaystyle                   uparrow        
+  
+
+
+  
+    
+      
+        
+           
+          
+            
+               
+              
+                
+                   
+                  
+                    
+                       
+                      
+                        
+                           
+                          
+                             
+                          
+                        
+                      
+                    
+                  
+                
+              
+            
+          
+        
+         
+         
+          x       x     
+         
+         
+        
+           
+          
+            
+               
+              
+                  
+                 
+                   
+              
+            
+          
+        
+          x     
+        
+           
+          
+             
+              
+              x     
+            
+               
+              
+                 
+              
+            
+               
+          
+        
+          x     
+        
+            
+          
+             
+              
+              x     
+            
+               
+              
+                 
+              
+            
+               
+          
+        
+         
+         
+          
+          x     
+        
+           
+          
+             
+          
+        
+           
+      
+    
+      displaystyle                         uparrow  uparrow                  approx        uparrow           approx         uparrow               uparrow          
+  
+
+
+  
+    
+      
+        
+            
+          
+            
+                
+              
+                
+                    
+                  
+                      
+                  
+                
+              
+            
+          
+        
+         
+          
+          x       x     
+         
+         
+         
+          
+          x     
+        
+           
+          
+             
+          
+        
+         
+      
+    
+      displaystyle                      uparrow  uparrow       uparrow        
+  
+
+
+  
+    
+      
+        
+           
+          
+            
+               
+              
+                
+                   
+                  
+                    
+                       
+                      
+                         
+                      
+                    
+                  
+                
+              
+            
+          
+        
+         
+         
+          x       x     
+         
+          x     
+        
+           
+          
+            
+                
+              
+                   
+                  xd  
+                
+                    
+                  
+                      
+                  
+                
+              
+            
+          
+        
+          x     
+         
+          
+          x     
+        
+           
+          
+             
+          
+        
+            
+      
+    
+      displaystyle                     uparrow  uparrow   approx            times           approx     uparrow           
+  
+
+
+  
+    
+      
+        
+           
+          
+            
+               
+              
+                
+                   
+                  
+                    
+                       
+                      
+                        
+                           
+                          
+                            
+                               
+                              
+                                 
+                              
+                            
+                          
+                        
+                      
+                    
+                  
+                
+              
+            
+          
+        
+         
+         
+          x       x     
+         
+          x     
+         
+          
+          x     
+        
+           
+          
+             
+          
+        
+           
+      
+    
+      displaystyle                             uparrow  uparrow   approx     uparrow          
+  
+
+                   
+                     
+                    
+                   
+                                
+                                                    is between              and             
+Bigger numbers 
+
+                                                             is between            and           
+
+  
+    
+      
+          
+          x       x       x     
+         
+         
+         
+          
+          x       x     
+        
+           
+          
+             
+          
+        
+         
+      
+    
+      displaystyle    uparrow  uparrow  uparrow       uparrow  uparrow        
+  
+                 
+
+  
+    
+      
+         
+          
+          x       x     
+        
+           
+          
+             
+          
+        
+          
+      
+    
+      displaystyle     uparrow  uparrow         
+  
+
+
+  
+    
+      
+         
+          
+          x       x     
+        
+           
+          
+             
+          
+        
+        
+            
+          
+            
+            
+            
+                
+              
+                
+                    
+                  
+                        
+                      xd  
+                    
+                        
+                      
+                          
+                      
+                    
+                  
+                
+              
+            
+          
+        
+      
+    
+      displaystyle     uparrow  uparrow                           times            
+  
+
+
+  
+    
+      
+          
+          x       x       x     
+         
+         
+         
+          
+          x       x     
+        
+           
+          
+             
+          
+        
+         
+      
+    
+      displaystyle    uparrow  uparrow  uparrow       uparrow  uparrow        
+  
+                 
+
+  
+    
+      
+         
+          
+          x       x     
+        
+           
+          
+             
+          
+        
+         
+          
+          x     
+        
+           
+          
+               
+          
+        
+         
+            
+          xd  
+        
+            
+          
+              
+          
+        
+         
+      
+    
+      displaystyle     uparrow  uparrow          uparrow              times          
+  
+
+
+  
+    
+      
+          
+          x       x       x     
+         
+         
+         
+          
+          x       x     
+        
+           
+          
+             
+          
+        
+         
+      
+    
+      displaystyle    uparrow  uparrow  uparrow       uparrow  uparrow        
+  
+                 
+
+  
+    
+      
+          
+          x       x       x     
+         
+         
+         
+          
+          x       x     
+        
+           
+          
+             
+          
+        
+         
+      
+    
+      displaystyle    uparrow  uparrow  uparrow       uparrow  uparrow        
+  
+                 
+
+  
+    
+      
+          
+          x       x       x     
+         
+         
+         
+          
+          x       x     
+        
+           
+          
+             
+          
+        
+         
+      
+    
+      displaystyle    uparrow  uparrow  uparrow       uparrow  uparrow        
+  
+                 
+
+  
+    
+      
+          
+          x       x       x     
+         
+         
+         
+          
+          x       x     
+        
+           
+          
+             
+          
+        
+         
+      
+    
+      displaystyle    uparrow  uparrow  uparrow       uparrow  uparrow        
+  
+                 
+
+  
+    
+      
+          
+          x       x       x     
+         
+         
+         
+          
+          x       x     
+        
+           
+          
+             
+          
+        
+         
+      
+    
+      displaystyle    uparrow  uparrow  uparrow       uparrow  uparrow        
+  
+                 
+
+  
+    
+      
+          
+          x       x       x       x     
+         
+         
+          
+          x       x       x     
+          
+         
+         
+          
+          x       x     
+        
+           
+          
+              
+          
+        
+         
+      
+    
+      displaystyle    uparrow  uparrow  uparrow  uparrow      uparrow  uparrow  uparrow        uparrow  uparrow         
+  
+                                   
+The first term in the definition of Graham s number  g                                                                                      is between             and              See Graham s number Magnitude 
+
+  
+    
+      
+          
+          x       x       x       x     
+         
+         
+         
+          
+          x       x       x     
+        
+           
+          
+             
+          
+        
+         
+      
+    
+      displaystyle    uparrow  uparrow  uparrow  uparrow       uparrow  uparrow  uparrow        
+  
+               
+
+  
+    
+      
+         
+          x       x       x       x     
+         
+      
+    
+      displaystyle   uparrow  uparrow  uparrow  uparrow   
+  
+                 
+  
+    
+      
+          x     
+         
+          
+          x       x       x     
+        
+           
+          
+             
+          
+        
+         
+          
+          x       x     
+        
+           
+          
+             
+          
+        
+           
+      
+    
+      displaystyle  approx     uparrow  uparrow  uparrow          uparrow  uparrow          
+  
+
+
+  
+    
+      
+          
+          x       x       x       x     
+         
+         
+         
+          
+          x       x       x     
+        
+           
+          
+             
+          
+        
+         
+      
+    
+      displaystyle    uparrow  uparrow  uparrow  uparrow       uparrow  uparrow  uparrow        
+  
+                 
+
+  
+    
+      
+          
+          x       x       x       x     
+         
+         
+         
+          
+          x       x       x     
+        
+           
+          
+             
+          
+        
+         
+      
+    
+      displaystyle    uparrow  uparrow  uparrow  uparrow       uparrow  uparrow  uparrow        
+  
+                 
+
+  
+    
+      
+          
+          x       x       x       x     
+         
+         
+         
+          
+          x       x       x     
+        
+           
+          
+             
+          
+        
+         
+      
+    
+      displaystyle    uparrow  uparrow  uparrow  uparrow       uparrow  uparrow  uparrow        
+  
+                 
+
+  
+    
+      
+          
+          x       x       x       x     
+         
+         
+         
+          
+          x       x       x     
+        
+           
+          
+             
+          
+        
+         
+         
+      
+    
+      displaystyle    uparrow  uparrow  uparrow  uparrow       uparrow  uparrow  uparrow         
+  
+                 
+
+  
+    
+      
+          
+          x       x       x       x     
+         
+         
+         
+          
+          x       x       x     
+        
+           
+          
+             
+          
+        
+         
+         
+      
+    
+      displaystyle    uparrow  uparrow  uparrow  uparrow       uparrow  uparrow  uparrow         
+  
+                 
+
+  
+    
+      
+          
+          x       x       x       x     
+         
+         
+         
+          
+          x       x       x     
+        
+           
+          
+             
+          
+        
+         
+         
+      
+    
+      displaystyle    uparrow  uparrow  uparrow  uparrow       uparrow  uparrow  uparrow         
+  
+                 
+
+  
+    
+      
+          
+          x       x       x       x       x     
+         
+         
+          
+          x       x       x       x     
+          
+         
+         
+          
+          x       x       x     
+        
+           
+          
+              
+          
+        
+         
+      
+    
+      displaystyle    uparrow  uparrow  uparrow  uparrow  uparrow      uparrow  uparrow  uparrow  uparrow        uparrow  uparrow  uparrow         
+  
+                                   
+                                 
+                                                 
+                                  
+                                     
+                                 
+  
+    
+      
+        
+            
+          
+              
+          
+        
+      
+    
+      displaystyle         
+  
+     
+  
+    
+      
+          
+        
+            x     
+          
+            
+                
+              
+                  
+              
+            
+          
+        
+          
+      
+    
+      displaystyle    uparrow              
+  
+
+The second term in the definition of Graham s number  g        g     gt      g         
+                                            
+  
+    
+      
+        
+            
+          
+              
+          
+        
+      
+    
+      displaystyle         
+  
+      
+  
+    
+      
+          
+        
+            x     
+          
+              
+            
+                x     
+              
+                
+                    
+                  
+                      
+                  
+                
+              
+            
+              
+          
+        
+          
+      
+    
+      displaystyle    uparrow      uparrow                 
+  
+
+g              g    gt             g        gt                   
+g              g    gt             g        gt                   
+   
+g              g   is between                   and                   
+                    
+g               g   is between                    and                   
+   
+g               g    is between                    and                   
+                    
+Graham s number  g              
+                    
+                    
+                    
+                     
+                          
+                               
+                                                                                   where there are                      s
+Other notations edit 
+Some notations for extremely large numbers 
+
+Knuth s up arrow notation hyperoperators Ackermann function  including tetration
+Conway chained arrow notation
+Steinhaus Moser notation  apart from the method of construction of large numbers  this also involves a graphical notation with polygons  Alternative notations  like a more conventional function notation  can also be used with the same functions 
+Fast growing hierarchy
+These notations are essentially functions of integer variables  which increase very rapidly with those integers  Ever faster increasing functions can easily be constructed recursively by applying these functions with large integers as argument 
+A function with a vertical asymptote is not helpful in defining a very large number  although the function increases very rapidly  one has to define an argument very close to the asymptote  i e  use a very small number  and constructing that is equivalent to constructing a very large number  e g  the reciprocal 
+
+Comparison of base values edit 
+The following illustrates the effect of a base different from     base      It also illustrates representations of numbers and the arithmetic 
+
+  
+    
+      
+        
+             
+          
+              
+          
+        
+         
+        
+            
+          
+              
+          
+        
+      
+    
+      displaystyle                  
+  
+  with base    the exponent is doubled 
+
+  
+    
+      
+        
+             
+          
+            
+                 
+              
+                  
+              
+            
+          
+        
+         
+        
+            
+          
+             
+              x     
+            
+                
+              
+                  
+              
+            
+          
+        
+      
+    
+      displaystyle                               
+  
+  ditto 
+
+  
+    
+      
+        
+             
+          
+            
+                 
+              
+                
+                     
+                  
+                      
+                  
+                
+              
+            
+          
+        
+          x     
+        
+            
+          
+            
+                
+              
+                 
+                  x     
+                
+                    
+                  
+                      
+                  
+                
+                 
+                       
+              
+            
+          
+        
+      
+    
+      displaystyle                      approx                             
+  
+  the highest exponent is very little more than doubled  increased by log     
+
+
+  
+    
+      
+           
+          x       x     
+         
+         
+        
+            
+          
+               
+          
+        
+      
+    
+      displaystyle     uparrow  uparrow            
+  
+
+
+  
+    
+      
+           
+          x       x     
+         
+         
+        
+            
+          
+             
+              xd  
+            
+                
+              
+                   
+              
+            
+          
+        
+      
+    
+      displaystyle     uparrow  uparrow         times           
+  
+
+
+  
+    
+      
+           
+          x       x     
+         
+         
+         
+          
+          x     
+        
+           
+          
+             
+          
+        
+         
+         
+          xd  
+        
+            
+          
+               
+          
+        
+         
+           
+         
+         
+         
+          
+          x     
+        
+           
+          
+             
+          
+        
+         
+         
+          xd  
+        
+            
+          
+               
+          
+        
+         
+         
+         
+          
+          x     
+        
+           
+          
+             
+          
+        
+             
+         
+         
+          
+          x     
+        
+           
+          
+             
+          
+        
+           
+      
+    
+      displaystyle     uparrow  uparrow       uparrow         times                   uparrow         times               uparrow                uparrow          
+  
+
+
+  
+    
+      
+           
+          x       x     
+        n
+         
+         
+          
+          x     
+        
+           
+          
+            n
+              x     
+             
+          
+        
+         
+         
+          xd  
+        
+            
+          
+               
+          
+        
+         
+         
+         
+          
+          x     
+        
+           
+          
+            n
+              x     
+             
+          
+        
+             
+         
+         
+          
+          x     
+        
+           
+          
+            n
+          
+        
+           
+         lt 
+          
+          x       x     
+         
+        n
+         
+         
+         
+      
+    
+      displaystyle     uparrow  uparrow n     uparrow    n      times               uparrow    n             uparrow    n     lt    uparrow  uparrow  n    
+  
+  thus if n is large it seems fair to say that 
+  
+    
+      
+           
+          x       x     
+        n
+      
+    
+      displaystyle     uparrow  uparrow n 
+  
+ is  approximately equal to  
+  
+    
+      
+          
+          x       x     
+        n
+      
+    
+      displaystyle    uparrow  uparrow n 
+  
+ 
+
+  
+    
+      
+           
+          x       x       x     
+         
+         
+         
+          
+          x     
+        
+           
+          
+              
+          
+        
+         
+         
+          xd  
+        
+            
+          
+               
+          
+        
+         
+         
+         
+          
+          x     
+        
+           
+          
+               
+          
+        
+           
+      
+    
+      displaystyle     uparrow  uparrow  uparrow       uparrow          times               uparrow            
+  
+
+
+  
+    
+      
+           
+          x       x       x     
+         
+         
+          
+          x       x     
+         
+          
+          x     
+        
+           
+          
+              
+          
+        
+         
+         
+          xd  
+        
+            
+          
+               
+          
+        
+         
+         
+          
+          x       x     
+         
+          
+          x     
+        
+           
+          
+               
+          
+        
+           
+      
+    
+      displaystyle     uparrow  uparrow  uparrow      uparrow  uparrow     uparrow          times              uparrow  uparrow     uparrow            
+  
+
+
+  
+    
+      
+           
+          x       x       x     
+        n
+         
+         
+          
+          x       x     
+        
+           
+          
+            n
+              x     
+             
+          
+        
+         
+          
+          x     
+        
+           
+          
+              
+          
+        
+         
+         
+          xd  
+        
+            
+          
+               
+          
+        
+         
+         
+         
+          
+          x       x     
+        
+           
+          
+            n
+              x     
+             
+          
+        
+         
+          
+          x     
+        
+           
+          
+               
+          
+        
+           
+         lt 
+          
+          x       x       x     
+         
+        n
+         
+         
+         
+      
+    
+      displaystyle     uparrow  uparrow  uparrow n     uparrow  uparrow    n       uparrow          times               uparrow  uparrow    n       uparrow            lt    uparrow  uparrow  uparrow  n    
+  
+  compare 
+  
+    
+      
+          
+          x       x       x     
+        n
+         
+         
+          
+          x       x     
+        
+           
+          
+            n
+              x     
+             
+          
+        
+         
+          
+          x     
+        
+           
+          
+              
+          
+        
+         
+         lt 
+          
+          x       x       x     
+         
+        n
+         
+         
+         
+      
+    
+      displaystyle    uparrow  uparrow  uparrow n     uparrow  uparrow    n       uparrow         lt    uparrow  uparrow  uparrow  n    
+  
+  thus if n is large it seems fair to say that 
+  
+    
+      
+           
+          x       x       x     
+        n
+      
+    
+      displaystyle     uparrow  uparrow  uparrow n 
+  
+ is  approximately equal to  
+  
+    
+      
+          
+          x       x       x     
+        n
+      
+    
+      displaystyle    uparrow  uparrow  uparrow n 
+  
+ 
+
+  
+    
+      
+           
+          x       x       x       x     
+         
+         
+         
+          
+          x       x     
+        
+           
+          
+              
+          
+        
+         
+          
+          x     
+        
+           
+          
+               
+          
+        
+           
+      
+    
+      displaystyle     uparrow  uparrow  uparrow  uparrow       uparrow  uparrow           uparrow            
+  
+  compare 
+  
+    
+      
+          
+          x       x       x       x     
+         
+         
+         
+          
+          x       x     
+        
+           
+          
+             
+          
+        
+         
+          
+          x     
+        
+           
+          
+              
+          
+        
+         
+      
+    
+      displaystyle    uparrow  uparrow  uparrow  uparrow       uparrow  uparrow          uparrow         
+  
+ 
+
+  
+    
+      
+           
+          x       x       x       x     
+         
+         
+          
+          x       x       x     
+         
+          
+          x       x     
+        
+           
+          
+              
+          
+        
+         
+          
+          x     
+        
+           
+          
+               
+          
+        
+           
+      
+    
+      displaystyle     uparrow  uparrow  uparrow  uparrow      uparrow  uparrow  uparrow     uparrow  uparrow           uparrow            
+  
+  compare 
+  
+    
+      
+          
+          x       x       x       x     
+         
+         
+          
+          x       x       x     
+         
+          
+          x       x     
+        
+           
+          
+             
+          
+        
+         
+          
+          x     
+        
+           
+          
+              
+          
+        
+         
+      
+    
+      displaystyle    uparrow  uparrow  uparrow  uparrow      uparrow  uparrow  uparrow     uparrow  uparrow          uparrow         
+  
+ 
+
+  
+    
+      
+           
+          x       x       x       x     
+        n
+         
+         
+          
+          x       x       x     
+        
+           
+          
+            n
+              x     
+             
+          
+        
+         
+          
+          x       x     
+        
+           
+          
+              
+          
+        
+         
+          
+          x     
+        
+           
+          
+               
+          
+        
+           
+      
+    
+      displaystyle     uparrow  uparrow  uparrow  uparrow n     uparrow  uparrow  uparrow    n       uparrow  uparrow           uparrow            
+  
+  compare 
+  
+    
+      
+          
+          x       x       x       x     
+        n
+         
+         
+          
+          x       x       x     
+        
+           
+          
+            n
+              x     
+             
+          
+        
+         
+          
+          x       x     
+        
+           
+          
+             
+          
+        
+         
+          
+          x     
+        
+           
+          
+              
+          
+        
+         
+      
+    
+      displaystyle    uparrow  uparrow  uparrow  uparrow n     uparrow  uparrow  uparrow    n       uparrow  uparrow          uparrow         
+  
+  if n is large this is  approximately  equal 
+Accuracy edit 
+For a number 
+  
+    
+      
+        
+            
+          
+            n
+          
+        
+      
+    
+      displaystyle     n  
+  
+  one unit change in n changes the result by a factor     In a number like 
+  
+    
+      
+        
+            
+          
+            
+            
+               
+              xd  
+            
+                
+              
+                 
+              
+            
+          
+        
+      
+    
+      displaystyle             times         
+  
+  with the     the result of proper rounding using significant figures  the true value of the exponent may be    less or    more  Hence the result may be a factor 
+  
+    
+      
+        
+            
+          
+              
+          
+        
+      
+    
+      displaystyle         
+  
+ too large or too small  This seems like extremely poor accuracy  but for such a large number it may be considered fair  a large error in a large number may be  relatively small  and therefore acceptable  
+
+For very large numbers edit 
+In the case of an approximation of an extremely large number  the relative error may be large  yet there may still be a sense in which one wants to consider the numbers as  close in magnitude   For example  consider
+
+
+  
+    
+      
+        
+            
+          
+              
+          
+        
+      
+    
+      displaystyle         
+  
+ and 
+  
+    
+      
+        
+            
+          
+             
+          
+        
+      
+    
+      displaystyle        
+  
+
+The relative error is
+
+
+  
+    
+      
+         
+          x     
+        
+          
+            
+                
+              
+                 
+              
+            
+            
+                
+              
+                  
+              
+            
+          
+        
+         
+         
+          x     
+        
+          
+             
+              
+          
+        
+         
+          
+          x   
+      
+    
+      displaystyle     frac                        frac               
+  
+
+a large relative error  However  one can also consider the relative error in the logarithms  in this case  the logarithms  to base     are    and    so the relative error in the logarithms is only     
+The point is that exponential functions magnify relative errors greatly   if a and b have a small relative error 
+
+
+  
+    
+      
+        
+            
+          
+            a
+          
+        
+      
+    
+      displaystyle     a  
+  
+ and 
+  
+    
+      
+        
+            
+          
+            b
+          
+        
+      
+    
+      displaystyle     b  
+  
+
+the relative error is larger  and
+
+
+  
+    
+      
+        
+            
+          
+            
+                
+              
+                a
+              
+            
+          
+        
+      
+    
+      displaystyle         a   
+  
+ and 
+  
+    
+      
+        
+            
+          
+            
+                
+              
+                b
+              
+            
+          
+        
+      
+    
+      displaystyle         b   
+  
+
+will have an even larger relative error  The question then becomes  on which level of iterated logarithms to compare two numbers  There is a sense in which one may want to consider
+
+
+  
+    
+      
+        
+            
+          
+            
+                
+              
+                  
+              
+            
+          
+        
+      
+    
+      displaystyle              
+  
+ and 
+  
+    
+      
+        
+            
+          
+            
+                
+              
+                 
+              
+            
+          
+        
+      
+    
+      displaystyle             
+  
+
+to be  close in magnitude   The relative error between these two numbers is large  and the relative error between their logarithms is still large  however  the relative error in their second iterated logarithms is small 
+
+
+  
+    
+      
+        
+          log
+          
+              
+          
+        
+          x     
+         
+        
+          log
+          
+              
+          
+        
+          x     
+         
+        
+            
+          
+            
+                
+              
+                  
+              
+            
+          
+        
+         
+         
+         
+          
+      
+    
+      displaystyle  log        log                         
+  
+ and 
+  
+    
+      
+        
+          log
+          
+              
+          
+        
+          x     
+         
+        
+          log
+          
+              
+          
+        
+          x     
+         
+        
+            
+          
+            
+                
+              
+                 
+              
+            
+          
+        
+         
+         
+         
+         
+      
+    
+      displaystyle  log        log                       
+  
+
+Such comparisons of iterated logarithms are common  e g   in analytic number theory 
+
+Classes edit 
+One solution to the problem of comparing large numbers is to define classes of numbers  such as the system devised by Robert Munafo              which is based on different  levels  of perception of an average person  Class     numbers between zero and six   is defined to contain numbers that are easily subitized  that is  numbers that show up very frequently in daily life and are almost instantly comparable  Class     numbers between six and                 is defined to contain numbers whose decimal expressions are easily subitized  that is  numbers who are easily comparable not by cardinality  but  at a glance  given the decimal expansion 
+Each class after these are defined in terms of iterating this base    exponentiation  to simulate the effect of another  iteration  of human indistinguishibility  For example  class   is defined to include numbers between           and              which are numbers where X becomes humanly indistinguishable from X                taking iterated logarithms of such X yields indistinguishibility firstly between log X  and  log X   secondly between log log X   and   log log X    and finally an extremely long decimal expansion whose length can t be subitized  
+
+Approximate arithmetic edit 
+There are some general rules relating to the usual arithmetic operations performed on very large numbers 
+
+The sum and the product of two very large numbers are both  approximately  equal to the larger one 
+
+  
+    
+      
+         
+        
+            
+          
+            a
+          
+        
+        
+           
+          
+            
+            
+            
+                
+              
+                b
+              
+            
+          
+        
+         
+        
+            
+          
+            a
+            
+                
+              
+                b
+              
+            
+          
+        
+         
+        
+            
+          
+            
+                
+              
+                b
+                 
+                
+                  log
+                  
+                      
+                  
+                
+                  x     
+                a
+              
+            
+          
+        
+      
+    
+      displaystyle      a            b       a    b           b  log      a   
+  
+
+Hence 
+
+A very large number raised to a very large power is  approximately  equal to the larger of the following two values  the first value and    to the power the second  For example  for very large 
+  
+    
+      
+        n
+      
+    
+      displaystyle n 
+  
+ there is 
+  
+    
+      
+        
+          n
+          
+            n
+          
+        
+          x     
+        
+            
+          
+            n
+          
+        
+      
+    
+      displaystyle n  n  approx     n  
+  
+  see e g  the computation of mega  and also 
+  
+    
+      
+        
+           
+          
+            n
+          
+        
+          x     
+        
+            
+          
+            n
+          
+        
+      
+    
+      displaystyle    n  approx     n  
+  
+  Thus 
+  
+    
+      
+         
+          x       x     
+             
+          x     
+          
+          x       x     
+             
+      
+    
+      displaystyle   uparrow  uparrow       approx    uparrow  uparrow       
+  
+  see table 
+Systematically creating ever faster increasing sequences edit 
+Main article  fast growing hierarchy
+Given a strictly increasing integer sequence function 
+  
+    
+      
+        
+          f
+          
+             
+          
+        
+         
+        n
+         
+      
+    
+      displaystyle f     n  
+  
+  n     it is possible to produce a faster growing sequence 
+  
+    
+      
+        
+          f
+          
+             
+          
+        
+         
+        n
+         
+         
+        
+          f
+          
+             
+          
+          
+            n
+          
+        
+         
+        n
+         
+      
+    
+      displaystyle f     n  f      n  n  
+  
+  where the superscript n denotes the nth functional power   This can be repeated any number of times by letting 
+  
+    
+      
+        
+          f
+          
+            k
+          
+        
+         
+        n
+         
+         
+        
+          f
+          
+            k
+              x     
+             
+          
+          
+            n
+          
+        
+         
+        n
+         
+      
+    
+      displaystyle f  k  n  f  k     n  n  
+  
+  each sequence growing much faster than the one before it  Thus it is possible to define 
+  
+    
+      
+        
+          f
+          
+              x c  
+          
+        
+         
+        n
+         
+         
+        
+          f
+          
+            n
+          
+        
+         
+        n
+         
+      
+    
+      displaystyle f   omega   n  f  n  n  
+  
+  which grows much faster than any 
+  
+    
+      
+        
+          f
+          
+            k
+          
+        
+      
+    
+      displaystyle f  k  
+  
+ for finite k  here   is the first infinite ordinal number  representing the limit of all finite numbers k    This is the basis for the fast growing hierarchy of functions  in which the indexing subscript is extended to ever larger ordinals 
+For example  starting with  f  n    n     
+
+f  n    f n n    n   n    n
+f  n    f n n     nn  gt        n for n      using Knuth up arrow notation 
+f  n    f n n   gt       n n        n for n    
+fk   n   gt     k n for n      k  lt   
+f  n    fn n   gt     n     n  gt     n      n            A n  n  for n      where A is the Ackermann function  of which f  is a unary version 
+f         gt  f        gt  Graham s number    g   in the sequence defined by g       gk        gk   
+This follows by noting f  n   gt     n     n  gt     n            and hence f  gk       gt  gk      
+f  n   gt     n     n         n   n             n   n         using Conway chained arrow notation 
+f    n    f n n   gt       n   n         because if gk n    X   n   k then X   n   k     gkn    
+f  k n   gt       n   n     k     gt   n   n   k 
+f   n    f  n n   gt   n   n   n     n   n   n    
+f   k n   gt   n   n   n   k 
+f   n   gt   n   n   n   n 
+f k n   gt   n   n         n   n   Chain of k   n s 
+f   n    f n n    gt   n   n         n   n   Chain of n   n s 
+
+
+In some noncomputable sequences edit 
+The busy beaver function   is an example of a function which grows faster than any computable function  Its value for even relatively small input is huge  The values of   n  for n                 are                                sequence A       in the OEIS        is not known but is at least        
+
+Infinite numbers edit 
+Main article  cardinal number
+See also  large cardinal  Mahlo cardinal  and totally indescribable cardinal
+Although all the numbers discussed above are very large  they are all still finite   Certain fields of mathematics define infinite and transfinite numbers  For example  aleph null is the cardinality of the infinite set of natural numbers  and aleph one is the next greatest cardinal number  
+  
+    
+      
+        
+          
+            c
+          
+        
+      
+    
+      displaystyle   mathfrak  c   
+  
+ is the cardinality of the reals   The proposition that 
+  
+    
+      
+        
+          
+            c
+          
+        
+         
+        
+            x     
+          
+             
+          
+        
+      
+    
+      displaystyle   mathfrak  c    aleph      
+  
+ is known as the continuum hypothesis 
+
+See also edit 
+Arbitrary precision arithmetic        Calculations where numbers  precision is only limited by computer memory
+Dirac large numbers hypothesis        Hypothesis relating age of the universe to physical constants
+Exponential growth        Growth of quantities at rate proportional to the current amount
+History of large numbers
+Human scale        Concept that takes people as the primary measure of development
+Indefinite and fictitious numbers
+Indian numbering system        Indian convention of naming large numbers
+Infinity        Mathematical concept
+Law of large numbers        Averages of repeated trials converge to the expected value
+List of arbitrary precision arithmetic software
+Long and short scales        Two meanings of  billion  and  trillion 
+Myriad        Order of magnitude name for       
+Names of large numbers
+Orders of magnitude        Scale of numbers with a fixed ratioPages displaying short descriptions of redirect targets
+Power of           Ten raised to an integer power
+Power of two        Two raised to an integer power
+Tetration        Arithmetic operation
+References edit 
+
+
+  Darling  David  Banerjee  Agnijo               Weird Maths  At the Edge of Infinity and Beyond  Harper Collins  ISBN                     
+
+  Nowlan  Robert A                 Chapter     Large and Small   PDF   Masters of Mathematics  The Problems They Solved  Why These Are Important  and What You Should Know about Them  Brill Publishers  published        p            ISBN                        
+
+  Bianconi  Eva  Piovesan  Allison  Facchin  Federica  Beraudi  Alina  Casadei  Raffaella  Frabetti  Flavia  Vitale  Lorenza  Pelleri  Maria Chiara  Tassani  Simone  Nov Dec         An estimation of the number of cells in the human body   Annals of Human Biology                   doi                               hdl               ISSN                 PMID                S CID               
+
+  Landenmark HK  Forgan DH  Cockell CS  June         An Estimate of the Total DNA in the Biosphere   PLOS Biology          e         doi         journal pbio          PMC               PMID               
+
+  Nuwer R     July         Counting All the DNA on Earth   The New York Times  New York  ISSN                 Retrieved            
+
+  Shannon  Claude  March         XXII  Programming a Computer for Playing Chess   PDF   Philosophical Magazine  Series              Archived from the original  PDF  on             Retrieved            
+
+  Atoms in the Universe  Universe Today              Retrieved          
+
+  Information Loss in Black Holes and or Conscious Beings   Don N  Page  Heat Kernel Techniques and Quantum Gravity         S  A  Fulling  ed   p       Discourses in Mathematics and its Applications  No     Texas A amp M University Department of Mathematics  arXiv hep th          ISBN                    
+
+  How to Get A Googolplex
+
+  Carl Sagan takes questions more from his  Wonder and Skepticism  CSICOP      keynote  Skeptical Inquirer Archived December           at the Wayback Machine
+
+  a b  Mersenne Prime Discovery               is Prime    Great Internet Mersenne Prime Search 
+
+  Regarding the comparison with the previous value  
+  
+    
+      
+          
+        
+            x     
+          
+            n
+          
+        
+          
+         lt 
+         
+        
+            x     
+          
+            n
+             
+             
+          
+        
+         
+      
+    
+      displaystyle    uparrow   n    lt   uparrow   n     
+  
+  so starting the    steps with   instead of   more than compensates for replacing the numbers   by   
+
+   Large Numbers at MROB   www mrob com  Retrieved            
+
+   Large Numbers  page    at MROB   www mrob com  Retrieved            
+
+        July  nd           We have proved  BB                    The Busy Beaver Challenge              Retrieved            
+
+
+vteLarge numbersExamples innumerical order
+Hundred
+Thousand
+Ten thousand
+Hundred thousand
+Million
+Billion
+Trillion
+Quadrillion
+Quintillion
+Sextillion
+Septillion
+Octillion
+Nonillion
+Decillion
+Eddington number
+Googol
+Shannon number
+Googolplex
+Skewes s number
+Moser s number
+Graham s number
+TREE   
+SSCG   
+BH   
+Rayo s number
+Infinity
+ExpressionmethodsNotations
+Scientific notation
+Knuth s up arrow notation
+Conway chained arrow notation
+Steinhaus Moser notation
+Operators
+Hyperoperation
+Tetration
+Pentation
+Ackermann function
+Grzegorczyk hierarchy
+Fast growing hierarchy
+Related articles alphabetical order 
+Busy beaver
+Extended real number line
+Indefinite and fictitious numbers
+Infinitesimal
+Largest known prime number
+List of numbers
+Long and short scales
+Number systems
+Number names
+Orders of magnitude
+Power of two
+Power of three
+Power of   
+Sagan Unit
+
+Names
+History
+
+vteHyperoperationsPrimary
+Successor    
+Addition    
+Multiplication    
+Exponentiation    
+Tetration    
+Pentation    
+Hexation    
+Inverse for left argument
+Predecessor    
+Subtraction    
+Division    
+Root extraction    
+Super root    
+Inverse for right argument
+Predecessor    
+Subtraction    
+Division    
+Logarithm    
+Super logarithm    
+Related articles
+Ackermann function
+Conway chained arrow notation
+Grzegorczyk hierarchy
+Knuth s up arrow notation
+Steinhaus Moser notation
+
+
+
+
+
+
+Retrieved from  https   en wikipedia org w index php title Large numbers amp oldid            Astronomical

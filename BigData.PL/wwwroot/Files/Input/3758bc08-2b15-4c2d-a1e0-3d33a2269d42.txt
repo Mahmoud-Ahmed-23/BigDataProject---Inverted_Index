@@ -1,0 +1,273 @@
+Ability of a computer to learn a specific task from data or experimental observation
+For the journal  see Computational Intelligence  journal  
+For broader coverage of this topic  see Artificial intelligence 
+
+
+In computer science  computational intelligence  CI  refers to concepts  paradigms  algorithms and implementations of systems that are designed to show  intelligent  behavior in complex and changing environments             These systems are aimed at mastering complex tasks in a wide variety of technical or commercial areas and offer solutions that recognize and interpret patterns  control processes  support decision making or autonomously manoeuvre vehicles or robots in unknown environments  among other things             These concepts and paradigms are characterized by the ability to learn or adapt to new situations  to generalize  to abstract  to discover and associate             Nature analog or nature inspired methods play a key role  such as in neuroevolution for Computational Intelligence            
+CI approaches primarily address those complex real world problems for which mathematical or traditional modeling is not appropriate for various reasons  the processes cannot be described exactly with complete knowledge  the processes are too complex for mathematical reasoning  they contain some uncertainties during the process  such as unforeseen changes in the environment or in the process itself  or the processes are simply stochastic in nature  Thus  CI techniques are properly aimed at processes that are ill defined  complex  nonlinear  time varying and or stochastic            
+A recent definition of the IEEE Computational Intelligence Societey describes CI as the theory  design  application and development of biologically and linguistically motivated computational paradigms  Traditionally the three main pillars of CI have been Neural Networks  Fuzzy Systems and Evolutionary Computation      CI is an evolving field and at present in addition to the three main constituents  it encompasses computing paradigms like ambient intelligence  artificial life  cultural learning  artificial endocrine networks  social reasoning  and artificial hormone networks      Over the last few years there has been an explosion of research on Deep Learning  in particular deep convolutional neural networks  Nowadays  deep learning has become the core method for artificial intelligence  In fact  some of the most successful AI systems are based on CI             However  as CI is an emerging and developing field there is no final definition of CI                                   especially in terms of the list of concepts and paradigms that belong to it                                   
+The general requirements for the development of an  intelligent system  are ultimately always the same  namely the simulation of intelligent thinking and action in a specific area of application  To do this  the knowledge about this area must be represented in a model so that it can be processed  The quality of the resulting system depends largely on how well the model was chosen in the development process  Sometimes data driven methods are suitable for finding a good model and sometimes logic based knowledge representations deliver better results  Hybrid models are usually used in real applications            
+According to actual textbooks  the following methods and paradigms  which largely complement each other  can be regarded as parts of CI                                                                                     
+
+Fuzzy systems                                                                                    
+Neural networks                                                 and  in particular  convolutional neural networks                                    
+Evolutionary computation                         and  in particular  multi objective evolutionary optimization                                                            
+Swarm intelligence                                                                                    
+Bayesian networks                                    
+Artificial immune systems                        
+Learning theory            
+Probabilistic Methods            
+
+Relationship between hard and soft computing and artificial and computational intelligence edit 
+Artificial intelligence  AI  is used in the media  but also by some of the scientists involved  as a kind of umbrella term for the various techniques associated with it or with CI                         Craenen and Eiben state that attempts to define or at least describe CI can usually be assigned to one or more of the following groups 
+
+ Relative definition  comparing CI to AI
+Conceptual treatment of key notions and their roles in CI
+Listing of the  established  areas that belong to it           
+Relationship between hard computing and artificial intelligence on the one hand and soft computing and computational intelligence on the other            The relationship between CI and AI has been a frequently discussed topic during the development of CI  While the above list implies that they are synonyms  the vast majority of AI CI researchers working on the subject consider them to be distinct fields  where either                       
+CI is an alternative to AI
+AI includes CI
+CI includes AI
+The view of the first of the above three points goes back to Zadeh  the founder of the fuzzy set theory  who differentiated machine intelligence into hard and soft computing techniques  which are used in artificial intelligence on the one hand and computational intelligence on the other                          In hard computing  HC  and AI  inaccuracy and uncertainty are undesirable characteristics of a system  while soft computing  SC  and thus CI focus on dealing with these characteristics              The adjacent figure illustrates these relationships and lists the most important CI techniques             Another frequently mentioned distinguishing feature is the representation of information in symbolic form in AI and in sub symbolic form in CI techniques                         
+Hard computing is a conventional computing method based on the principles of certainty and accuracy and it is deterministic  It requires a precisely stated analytical model of the task to be processed and a prewritten program  i e  a fixed set of instructions  The models used are based on Boolean logic  also called crisp logic               where e g  an element can be either a member of a set or not and there is nothing in between  When applied to real world tasks  systems based on HC result in specific control actions defined by a mathematical model or algorithm  If an unforeseen situation occurs that is not included in the model or algorithm used  the action will most likely fail                                                 
+Soft computing  on the other hand  is based on the fact that the human mind is capable of storing information and processing it in a goal oriented way  even if it is imprecise and lacks certainty              SC is based on the model of the human brain with probabilistic thinking  fuzzy logic and multi valued logic  Soft computing can process a wealth of data and perform a large number of computations  which may not be exact  in parallel  For hard problems for which no satisfying exact solutions based on HC are available  SC methods can be applied successfully  SC methods are usually stochastic in nature i e   they are a randomly defined processes that can be analyzed statistically but not with precision  Up to now  the results of some CI methods  such as deep learning  cannot be verified and it is also not clear what they are based on  This problem represents an important scientific issue for the future                                                 
+AI and CI are catchy terms              but they are also so similar that they can be confused  The meaning of both terms has developed and changed over a long period of time                          with AI being used first                        Bezdek describes this impressively and concludes that such buzzwords are frequently used and hyped by the scientific community  science management and  science  journalism              Not least because AI and biological intelligence are emotionally charged terms                        and it is still difficult to find a generally accepted definition for the basic term intelligence                        
+
+History edit 
+In       Alan Turing  one of the founding fathers of computer science  developed a test for computer intelligence known as the Turing test              In this test  a person can ask questions via a keyboard and a monitor without knowing whether his counterpart is a human or a computer  A computer is considered intelligent if the interrogator cannot distinguish the computer from a human  This illustrates the discussion about intelligent computers at the beginning of the computer age 
+The term Computational Intelligence was first used as the title of the journal of the same name in                              and later by the IEEE Neural Networks Council  NNC   which was founded      by a group of researchers interested in the development of biological and artificial neural networks              On November           the NNC  became the IEEE Neural Networks Society  to become the IEEE Computational Intelligence Society two years later by including new areas of interest such as fuzzy systems and evolutionary computation  
+The NNC helped organize the first IEEE World Congress on Computational Intelligence in Orlando  Florida in                   On this conference the first clear definition of Computational Intelligence was introduced by Bezdek  A system is computationally intelligent when it  deals with only numerical  low level  data  has pattern recognition components  does not use knowledge in the AI sense  and additionally when it  begins to  exhibit     computational adaptivity      computational fault tolerance      speed approaching human like turnaround and     error rates that approximate human performance             
+Today  with machine learning and deep learning in particular utilizing a breadth of supervised  unsupervised  and reinforcement learning approaches  the CI landscape has been greatly enhanced  with novell intelligent approaches 
+
+The main algorithmic approaches of CI and their applications edit 
+The main applications of Computational Intelligence include computer science  engineering  data analysis and bio medicine 
+
+Fuzzy logic edit 
+Unlike conventional Boolean logic  fuzzy logic is based on fuzzy sets  In both models  a property of an object is defined as belonging to a set  in fuzzy logic  however  the membership is not sharply defined by a yes no distinction  but is graded gradually  This is done using membership functions that assign a real number between   and   to each element as the degree of membership  The new set operations introduced in this way define the operations of an associated logic calculus that allows the modeling of inference processes  i e  logical reasoning              Therefore  fuzzy logic is well suited for engineering decisions without clear certainties and uncertainties or with imprecise data   as with natural language processing technologies             but it doesn t have learning abilities             
+This technique tends to apply to a wide range of domains such as control engineering              image processing              fuzzy data clustering                         and decision making              Fuzzy logic based control systems can be found  for example  in the field of household appliances in washing machines  dish washers  microwave ovens  etc  or in the area of motor vehicles in gear transmission and braking systems  This principle can also be encountered when using a video camera  as it helps to stabilize the image when the camera is held unsteadily  Other areas such as medical diagnostics  satellite controllers and business strategy selection are just a few more examples of today s application of fuzzy logic                         
+
+Neural networks edit 
+An important field of CI is the development of artificial neural networks  ANN  based on the biological ones  which can be defined by three main components  the cell body which processes the information  the axon  which is a device enabling the signal conducting  and the synapse  which controls signals                          Therefore  ANNs are very well suited for distributed information processing systems  enabling the process and the learning from experiential data                          ANNs aim to mimic cognitive processes of the human brain  The main advantages of this technology therefore include fault tolerance  pattern recognition even with noisy images and the ability to learn                         
+Concerning its applications  neural networks can be classified into five groups  data analysis and classification  associative memory  data clustering or compression  generation of patterns  and control systems                                      The numerous applications include  for example  the analysis and classification of medical data  including the creation of diagnoses  speech recognition  data mining  image processing  forecasting  robot control  credit approval  pattern recognition  face and fraud detection and dealing with nonlinearities of a system in order to control it                                      ANNs have the latter area of application and data clustering in common with fuzzy logic  Generative systems based on deep learning and convolutional neural networks  such as chatGPT or DeepL  are a relatively new field of application 
+
+Evolutionary computation edit 
+Evolutionary computation can be seen as a family of methods and algorithms for global optimization  which are usually based on a population of candidate solutions  They are inspired by biological evolution and are often summarized as evolutionary algorithms              These include the genetic algorithms  evolution strategy  genetic programming and many others              They are considered as problem solvers for tasks not solvable by traditional mathematical methods             and are frequently used for optimization including multi objective optimization              Since they work with a population of candidate solutions that are processed in parallel during an iteration  they can easily be distributed to different computer nodes of a cluster              As often more than one offspring is generated per pairing  the evaluations of these offspring  which are usually the most time consuming part of the optimization process  can also be performed in parallel             
+In the course of optimization  the population learns about the structure of the search space and stores this information in the chromosomes of the solution candidates  After a run  this knowledge can be reused for similar tasks by adapting some of the  old  chromosomes and using them to seed a new population                         
+
+Swarm intelligence edit 
+Swarm intelligence is based on the collective behavior of decentralized  self organizing systems  typically consisting of a population of simple agents that interact locally with each other and with their environment  Despite the absence of a centralized control structure that dictates how the individual agents should behave  local interactions between such agents often lead to the emergence of global behavior                                      Among the recognized representatives of algorithms based on swarm intelligence are particle swarm optimization and ant colony optimization              Both are metaheuristic optimization algorithms that can be used to  approximately  solve difficult numerical or complex combinatorial optimization tasks                                      Since both methods  like the evolutionary algorithms  are based on a population and also on local interaction  they can be easily parallelized                         and show comparable learning properties                         
+
+Bayesian networks edit 
+In complex application domains  Bayesian networks provide a means to efficiently store and evaluate uncertain knowledge  A Bayesian network is a probabilistic graphical model that represents a set of random variables and their conditional dependencies by a directed acyclic graph  The probabilistic representation makes it easy to draw conclusions based on new information  In addition  Bayesian networks are well suited for learning from data              Their wide range of applications includes medical diagnostics  risk management  information retrieval  and text analysis  e g  for spam filters  Their wide range of applications includes medical diagnostics  risk management  information retrieval  text analysis  e g  for spam filters  credit rating of companies  and the operation of complex industrial processes             
+
+Artificial immune systems edit 
+Artificial immune systems are another group of population based metaheuristic learning algorithms designed to solve clustering and optimization problems  These algorithms are inspired by the principles of theoretical immunology and the processes of the vertebrate immune system  and use the learning and memory properties of the immune system to solve a problem  Operators similar to those known from evolutionary algorithms are used to clone and mutate artificial lymphocytes                          Artificial immune systems offer interesting capabilities such as adaptability  self learning  and robustness that can be used for various tasks in data processing              manufacturing systems              system modeling and control  fault detection  or cybersecurity             
+
+Learning theory edit 
+Still looking for a way of  reasoning  close to the humans  one  learning theory is one of the main approaches of CI  In psychology  learning is the process of bringing together cognitive  emotional and environmental effects and experiences to acquire  enhance or change knowledge  skills  values and world views                                      Learning theories then helps understanding how these effects and experiences are processed  and then helps making predictions based on previous experience             
+
+Probabilistic methods edit 
+Being one of the main elements of fuzzy logic  probabilistic methods firstly introduced by Paul Erdos and Joel Spencer in                               aim to evaluate the outcomes of a Computation Intelligent system  mostly defined by randomness              Therefore  probabilistic methods bring out the possible solutions to a problem  based on prior knowledge 
+
+Impact on university education edit 
+According to bibliometrics studies  computational intelligence plays a key role in research              All the major academic publishers are accepting manuscripts in which a combination of Fuzzy logic  neural networks and evolutionary computation is discussed  On the other hand  Computational intelligence isn t available in the university curriculum              The amount of technical universities in which students can attend a course is limited  Only British Columbia  Technical University of Dortmund  involved in the European fuzzy boom  and Georgia Southern University are offering courses from this domain 
+The reason why major university are ignoring the topic is because they don t have the resources  The existing computer science courses are so complex  that at the end of the semester there is no room for fuzzy logic              Sometimes it is taught as a subproject in existing introduction courses  but in most cases the universities are preferring courses about classical AI concepts based on Boolean logic  turing machines and toy problems like blocks world 
+Since a while with the upraising of STEM education  the situation has changed a bit              There are some efforts available in which multidisciplinary approaches are preferred which allows the student to understand complex adaptive systems              These objectives are discussed only on a theoretical basis  The curriculum of real universities wasn t adapted yet 
+
+Publications edit 
+IEEE Transactions on Neural Networks and Learning Systems
+IEEE Transactions on Fuzzy Systems
+IEEE Transactions on Evolutionary Computation
+IEEE Transactions on Emerging Topics in Computational Intelligence
+IEEE Transactions on Autonomous Mental Development
+IEEE ACM Transactions on Computational Biology and Bioinformatics
+IEEE Transactions on Computational Intelligence and AI in Games
+Applied Computational Intelligence and Soft Computing
+See also edit 
+
+AI effect
+Cognitive robotics
+Computational finance and Computational economics
+Concept mining
+Developmental robotics
+Data mining
+Evolutionary robotics
+ELIZA effect
+Knowledge based engineering
+Natural computing
+Synthetic intelligence
+International Meeting on Computational Intelligence Methods for Bioinformatics and Biostatistics
+Notes edit 
+Computational Intelligence  An Introduction by Andries Engelbrecht  Wiley  amp  Sons  ISBN                   
+Computational Intelligence  A Logical Approach by David Poole  Alan Mackworth  Randy Goebel  Oxford University Press  ISBN                   
+Computational Intelligence  A Methodological Introduction by Kruse  Borgelt  Klawonn  Moewes  Steinbrecher  Held        Springer  ISBN                   
+References edit 
+
+
+  a b Kruse  Rudolf  Mostaghim  Sanaz  Borgelt  Christian  Braune  Christian  Steinbrecher  Matthias          Preface   Computational Intelligence  A Methodological Introduction  Texts in Computer Science   rd      ed    Cham  Springer International Publishing  pp       V  doi                            ISBN                        
+
+  a b Kruse  Rudolf  Mostaghim  Sanaz  Borgelt  Christian          Intelligent Systems   Computational Intelligence  A Methodological Introduction  Texts in Computer Science   rd      ed    Cham  Springer International Publishing  pp            doi                            ISBN                        
+
+  a b c d e Engelbrecht  Andries P           Introduction to Computational Intelligence   Computational Intelligence  An Introduction   nd      ed    Chichester  England        Hoboken  NJ  John Wiley  amp  Sons  p            ISBN                         OCLC                
+
+  Siddique  N  H   Adeli  Hojjat          Computational Intelligence   Computational intelligence  synergies of fuzzy logic  neural networks  and evolutionary computing  Chichester  West Sussex  United Kingdom  John Wiley  amp  Sons Inc  pp            ISBN                        
+
+  a b  What is Computational Intelligence    IEEE Computational Intelligence Society  Retrieved January          
+
+  a b c Siddique  Nazmul  Adeli  Hojjat          Paradigms of Computational Intelligence   Computational intelligence  synergies of fuzzy logic  neural networks  and evolutionary computing  Chichester  West Sussex  United Kingdom  John Wiley  amp  Sons Inc  pp            ISBN                        
+
+  Bezdek  James C   April          Computational  Intelligence  What s in a Name    IEEE Systems  Man  and Cybernetics Magazine             doi         MSMC               ISSN              X 
+
+  a b c Craenen  Bart  Eiben  A E           Computational Intelligence   In Joost  N K   ed    Encyclopedia of Life Support Systems  EOLSS   vol     Artificial Intelligence  Oxford  UK  Eolss Publishers  Developed under the Auspices of the UNESCO 
+
+  a b Duch  W odzis aw          What Is Computational Intelligence and Where Is It Going    In Duch  W odzis aw  Ma dziuk  Jacek  eds    Challenges for Computational Intelligence  Studies in Computational Intelligence  Vol           Berlin  Heidelberg  Springer  pp             doi                            ISBN                        
+
+  a b Fulcher  John          Introduction  Overview  Definitions   In Fulcher  John  Jain  L C   eds    Computational Intelligence  A Compendium  Studies in Computational Intelligence  Vol            Berlin  Heidelberg  Springer  pp            doi                            ISBN                        
+
+  a b c d e Engelbrecht  Andries P           Computational Intelligence Paradigms   Computational intelligence  an introduction   nd      ed    Chichester  England        Hoboken  N J  J  Wiley  amp  Sons  pp             ISBN                         OCLC                
+
+  a b c d e f g Siddique  Nazmul  Adeli  Hojjat          Approaches to Computational Intelligence   Computational Intelligence  Synergies of Fuzzy Logic  Neural Networks  and Evolutionary Computing  Chichester  West Sussex  United Kingdom  John Wiley  amp  Sons Inc  pp             ISBN                        
+
+  a b c d e f g Kruse  Rudolf  Mostaghim  Sanaz  Borgelt  Christian  Braune  Christian  Steinbrecher  Matthias          Computational Intelligence   Computational Intelligence  A Methodological Introduction  Texts in Computer Science   rd      ed    Cham  Springer International Publishing  pp            doi                            ISBN                        
+
+  a b c d e f Eberhart  Russell C   Shi  Yuhui          Preface   Computational Intelligence  Concepts to Implementations  Amsterdam  Boston  Elsevier Morgan Kaufmann Publishers  pp       XIII XIX  ISBN                        
+
+  a b c d e f Hanne  Thomas  Dornberger  Rolf          Computational Intelligence   Computational Intelligence in Logistics and Supply Chain Management  International series in operations research  amp  management science  Springer Verlag  pp              doi                            ISBN                        
+
+  a b c d e f Kahraman  Cengiz  ed           Preface   Computational Intelligence Systems in Industrial Engineering  With Recent Theory and Applications  Atlantis Computational Intelligence Systems  Vol          Paris  Atlantis Press  pp       VII XI  doi                            ISBN                        
+
+  a b c d e f g h Ho ovsk   Alexander  Pite   J n  Trojanov   Monika   idek  Kamil         Matt  Dominik T   Modr k  Vladim r  Zsifkovits  Helmut  eds     Computational Intelligence in the Context of Industry       Implementing Industry     in SMEs  Cham  Springer International Publishing  pp              doi                              ISBN                       
+
+  a b c d e Bezdek  James C   April          Computational  Intelligence  What s in a Name    PDF   IEEE Systems  Man  and Cybernetics Magazine               doi         MSMC               ISSN              X 
+
+  Zadeh  Lotfi A   April         Fuzzy Logic  Neural Networks  and Soft Computing   Communications of the ACM                 doi                        ISSN                
+
+  a b Zadeh  Lotfi A          Kaynak  Okyay  Zadeh  Lotfi A   T rk en  Burhan  Rudas  Imre J   eds     Roles of Soft Computing and Fuzzy Logic in the Conception  Design and Deployment of Information Intelligent Systems   Computational Intelligence  Soft Computing and Fuzzy Neuro Integration with Applications  Berlin  Heidelberg  Springer  pp            doi                              ISBN                       
+
+  Kruse  Rudolf  Mostaghim  Sanaz  Borgelt  Christian  Braune  Christian  Steinbrecher  Matthias  Klawonn  Frank  Moewes  Christian          Introduction to Artificial Neural Networks   Computational Intelligence  A Methodological Introduction  Texts in Computer Science   rd      ed    Cham  Switzerland  Springer  p          ISBN                        
+
+   Fuzzy Sets and Pattern Recognition   www cs princeton edu  Retrieved November         
+
+  a b  Soft Computing vs  Hard Computing  Key Differences   WisdomPlexus  December           Retrieved February         
+
+  a b Sidda  Sakunthala  Kiranmayi  R   Nagaraju Mandadi  P   February             Soft Computing Techniques and Applications in Electrical Drives Fuzzy logic  and Genetic Algorithm   HELIX                    doi                          S CID               
+
+  a b  Soft Computing vs  Hard Computing   University of the People  June           Retrieved February         
+
+  a b  Soft Computing vs  Hard Computing  Understanding the Differences and Applications   CINET   Computational Intelligence Mastery  October           Retrieved February         
+
+  Bezdek  James C          Kaynak  Okyay  Zadeh  Lotfi A   T rk en  Burhan  Rudas  Imre J   eds     Computational Intelligence Defined   By Everyone          Computational Intelligence  Soft Computing and Fuzzy Neuro Integration with Applications  Berlin  Heidelberg  Springer  pp              doi                              ISBN                         retrieved February        
+
+  Engelbrecht  Andries P           Short History   Computational Intelligence  An Introduction   nd      ed    Chichester  England        Hoboken  NJ  John Wiley  amp  Sons  p              ISBN                         OCLC                
+
+  Turing  Alan M   October            I  COMPUTING MACHINERY AND INTELLIGENCE   Mind  LIX                 doi         mind LIX          ISSN                
+
+   Computational Intelligence   Issue archive   Wiley Online Library  doi          ISSN           
+
+  Bezdek  James C          Kaynak  Okyay  Zadeh  Lotfi A   T rk en  Burhan  Rudas  Imre J   eds     Computational Intelligence Defined   By Everyone          Computational Intelligence  Soft Computing and Fuzzy Neuro Integration with Applications  Berlin  Heidelberg  Springer  pp              doi                              ISBN                         retrieved February        
+
+  a b  IEEE Computational Intelligence Society History   Engineering and Technology history Wiki  July           Retrieved October          
+
+  Bezdek  James C          What is computational intelligence    In Zurada  Jacek M   Marks II  Robert J   Robinson  Charles J   eds    Computational Intelligence  Imitating Life  New York  NY  IEEE Press  pp             ISBN                        
+
+  Engelbrecht  Andries P           Fuzzy Logic and Reasoning   Computational Intelligence  An Introduction   nd      ed    Chichester  England        Hoboken  NJ  John Wiley  amp  Sons  p                ISBN                         OCLC                
+
+  a b c Chai  Wesley   Fuzzy logic applications   What is Fuzzy Logic    Definition from SearchEnterpriseAI  Retrieved February          
+
+  Siddique  N  H   Adeli  Hojjat          Fuzzy Logic   Computational intelligence  synergies of fuzzy logic  neural networks  and evolutionary computing  Chichester  West Sussex  United Kingdom  John Wiley  amp  Sons Inc  pp            ISBN                        
+
+  Pedrycz  Witold         Fuzzy control and fuzzy systems  Electronic  amp  electrical engineering research studies Control theory and applications series      extended  edition  reprint      ed    Taunton  Research Studies Press  u a   ISBN                        
+
+  a b H ppner  Frank  ed          Fuzzy cluster analysis  methods for classification  data analysis  and image recognition  Chichester        New York  J  Wiley  ISBN                        
+
+  Dunn  J  C           A Fuzzy Relative of the ISODATA Process and Its Use in Detecting Compact Well Separated Clusters   Journal of Cybernetics                doi                            ISSN                
+
+  Engelbrecht  Andries P           Fuzzy Systems   Computational Intelligence  An Introduction   nd      ed    Chichester  England        Hoboken  NJ  John Wiley  amp  Sons  p              ISBN                         OCLC                
+
+  a b c d Engelbrecht  Andries P           Artificial Neural Networks   Computational Intelligence  An Introduction   nd      ed    Chichester  England        Hoboken  NJ  John Wiley  amp  Sons  p            ISBN                         OCLC                
+
+  Eberhart  Russell C   Shi  Yuhui          Biological Basis for Neural Networks   Computational Intelligence  Concepts to Implementations  Amsterdam        Boston  Elsevier Morgan Kaufmann Publishers  pp            doi         B                  X        ISBN                         OCLC                
+
+  a b c Siddique  N  H   Adeli  Hojjat          Neural Networks   Computational intelligence  synergies of fuzzy logic  neural networks  and evolutionary computing  Chichester  West Sussex  United Kingdom  John Wiley  amp  Sons Inc  p          ISBN                        
+
+  a b Stergiou  Christos  Siganos  Dimitrios   Neural Networks   SURPRISE    Journal  Imperial College London  Archived from the original on December           Retrieved March          
+
+  a b Eberhart  Russell C   Shi  Yuhui          Neural Networks   Computational Intelligence  Concepts to Implementations  Amsterdam        Boston  Elsevier Morgan Kaufmann Publishers  pp              doi         B                  X        ISBN                         OCLC                
+
+  De Jong  Kenneth A          Evolutionary Computation  A Unified Approach  Cambridge  MA  MIT Press  ISBN                        
+
+  Eiben  A E   Smith  J E           Popular Evolutionary Algorithm Variants   Introduction to Evolutionary Computing  Natural Computing Series  Berlin  Heidelberg  Springer  pp               doi                            ISBN                        
+
+  De Jong  Kenneth A           Evolutionary Algorithms as Problem Solvers   Evolutionary Computation  A Unified Approach  Cambridge  MA  MIT Press  pp               ISBN                        
+
+  Branke  J rgen  Deb  Kalyanmoy  Miettinen  Kaisa  S owi ski  Roman  eds          Multiobjective Optimization  Interactive and Evolutionary Approaches  Lecture Notes in Computer Science  Vol             Berlin  Heidelberg  Springer Berlin Heidelberg  doi                            ISBN                        
+
+  Cant  Paz  Erick         Efficient and Accurate Parallel Genetic Algorithms  Genetic Algorithms and Evolutionary Computation  Vol          New York  NY  Springer US  doi                            ISBN                        
+
+  Khalloof  Hatem  Mohammad  Mohammad  Shahoud  Shadi  Duepmeier  Clemens  Hagenmeyer  Veit  November            A Generic Flexible and Scalable Framework for Hierarchical Parallelization of Population Based Metaheuristics   Proceedings of the   th International Conference on Management of Digital EcoSystems  MEDES      New York  NY  ACM  pp                doi                          ISBN                         S CID               
+
+  Jakob  Wilfried  Strack  Sylvia  Quinte  Alexander  Bengel  G nther  Stucky  Karl Uwe  S    Wolfgang  April             Fast Rescheduling of Multiple Workflows to Constrained Heterogeneous Resources Using Multi Criteria Memetic Computing   Algorithms                  doi         a         ISSN                
+
+  Friedrich  Tobias  Wagner  Markus  August         Seeding the initial population of multi objective evolutionary algorithms  A computational study   Applied Soft Computing               arXiv            doi         j asoc             
+
+  Siddique  N  H   Adeli  Hojjat          Swarm Intelligence   Computational Intelligence  Synergies of Fuzzy Logic  Neural Networks  and Evolutionary Computing  Chichester  West Sussex  UK  John Wiley  amp  Sons  pp             ISBN                        
+
+  Kennedy  James  Eberhart  Russell C   Shi  Yuhui         Swarm Intelligence  The Morgan Kaufmann Series in Artificial Intelligence  San Francisco  Morgan Kaufmann  doi         B                  X        ISBN                        
+
+  Bonabeau  Eric  Dorigo  Marco  Theraulaz  Guy         Swarm Intelligence  From Natural to Artificial Systems  New York  Oxford University Press  ISBN                        
+
+  Engelbrecht  Andries P           Swarm Intelligence   Computational Intelligence  An Introduction   nd      ed    Chichester  England        Hoboken  NJ  John Wiley  amp  Sons  p          ISBN                         OCLC                
+
+  Poli  Riccardo  January        Vanneschi  Leonardo  ed     Analysis of the Publications on the Applications of Particle Swarm Optimisation   Journal of Artificial Evolution and Applications            doi                      ISSN                
+
+  Bhavya  Ravinder  Elango  Lakshmanan  April             Ant Inspired Metaheuristic Algorithms for Combinatorial Optimization Problems in Water Resources Management   Water                Bibcode     Water         B  doi         w          ISSN                
+
+  Dey  Nilanjan  ed          Applications of Ant Colony Optimization and its Variants  Case Studies and New Developments  Springer Tracts in Nature Inspired Computing  Singapore  Springer Nature Singapore  doi                            ISBN                        
+
+  Li  Bo  Wada  Koishi          Parallelizing particle swarm optimization   IEEE Pacific Rim Conference on Communications  Computers and signal Processing  PACRIM        IEEE  pp                doi         PACRIM               ISBN                       
+
+  Randall  Marcus  Lewis  Andrew  September         A Parallel Implementation of Ant Colony Optimization   Journal of Parallel and Distributed Computing                     doi         jpdc            hdl            
+
+  Zheng  Rui zhao  Zhang  Yong  Yang  Kang  May             A transfer learning based particle swarm optimization algorithm for travelling salesman problem   Journal of Computational Design and Engineering                  doi         jcde qwac     ISSN                
+
+  Xing  Li Ning  Chen  Ying Wu  Wang  Peng  Zhao  Qing Song  Xiong  Jian  June         A Knowledge Based Ant Colony Optimization for Flexible Job Shop Scheduling Problems   Applied Soft Computing                   doi         j asoc             
+
+  Pourret  Olivier  Na m  Patrick  Marcot  Bruce Gregory         Bayesian networks  a practical guide to applications  Statistics in practice  Chichester  GB   J  Wiley  ISBN                        
+
+  a b Ho ovsk   Alexander  Pite   J n  Trojanov   Monika   idek  Kamil         Matt  Dominik T   Modr k  Vladim r  Zsifkovits  Helmut  eds     Artificial Immune Systems   Implementing Industry     in SMEs  Cham  Springer International Publishing  pp              doi                              ISBN                       
+
+  a b Cosma  Georgina  Brown  David  Archer  Matthew  Khan  Masood  Graham Pockley  A   March         A survey on computational intelligence approaches for predictive modeling in prostate cancer   Expert Systems with Applications            doi         j eswa             
+
+  Pinto  Rui  Gon alves  Gil  September         Application of Artificial Immune Systems in Advanced Manufacturing   Array              doi         j array             
+
+  Ormrod  Jeanne Ellis         Educational Psychology  Principles and Applications   st      ed    Englewood Cliffs  NJ  Merrill  u a   ISBN                        
+
+  Illeris  Knud  Illeris  Knud         The three dimensions of learning  contemporary learning theory in the tension field between the cognitive  the emotional  and the social  Reprint      ed    Malabar  FL  Krieger  ISBN                        
+
+  Siddique  N  H   Adeli  Hojjat          Learning Theory   Computational intelligence  synergies of fuzzy logic  neural networks  and evolutionary computing  Chichester  West Sussex  United Kingdom  John Wiley  amp  Sons Inc  p          ISBN                        
+
+  Worrell  James   Computational Learning Theory              University of Oxford  Presentation page of CLT course  Retrieved February          
+
+  Erd s  Paul  Spencer  Joel H          Probabilistic methods in combinatorics  Probability and mathematical statistics      New York  Academic Press  ISBN                        
+
+  Siddique  N  H   Adeli  Hojjat          Probabilistic Methods   Computational intelligence  synergies of fuzzy logic  neural networks  and evolutionary computing  Chichester  West Sussex  United Kingdom  John Wiley  amp  Sons Inc  pp            ISBN                        
+
+  Palit  Ajoy K   Popovic  Dobrivoje         Computational Intelligence in Time Series Forecasting        Theory and Engineering Applications  Springer Science  amp  Business Media  p          ISBN                    
+
+  NEES JAN VAN ECK and LUDO WALTMAN          Bibliometric Mapping of the Computational Intelligence Field   International Journal of Uncertainty  Fuzziness and Knowledge Based Systems          World Scientific Pub Co Pte Lt           doi         s                  hdl            
+
+  Minaie  Afsaneh and Sanati Mehrizy  Paymon and Sanati Mehrizy  Ali and Sanati Mehrizy  Reza          Computational Intelligence Course in Undergraduate Computer Science and Engineering Curricula   PDF   Age          cite journal     CS  maint  multiple names  authors list  link 
+
+  Mengjie Zhang          Experience of Teaching Computational Intelligence in an Undergraduate Level Course  Educational Forum    IEEE Computational Intelligence Magazine         Institute of Electrical and Electronics Engineers  IEEE          doi         mci             
+
+  Samanta  Biswanath         Computational intelligence  a Tool for Multidisciplinary Education and Research  Proceedings of the      ASEE Northeast Section Annual Conference  University of Hartford 
+
+  G K K  Venayagamoorthy          A successful interdisciplinary course on computational intelligence   IEEE Computational Intelligence Magazine         Institute of Electrical and Electronics Engineers  IEEE          doi         mci             
+
+
+
+
+
+
+
+Retrieved from  https   en wikipedia org w index php title Computational intelligence amp oldid

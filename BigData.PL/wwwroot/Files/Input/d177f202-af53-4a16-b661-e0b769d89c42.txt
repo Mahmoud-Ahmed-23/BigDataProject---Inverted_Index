@@ -1,0 +1,1541 @@
+AI powered digital assistant from Google
+
+
+Google AssistantGoogle Assistant on the Pixel smartphoneDeveloper s GoogleInitial releaseMay                          years ago                  Written inC  Operating systemAndroid  ChromeOS  iOS  iPadOS  KaiOS  Linux  Android TV  Wear OSPlatform
+Android
+Google Nest
+Wear OS
+Android TV
+ChromeOS
+Smart Speakers
+Headphones
+Smart Displays
+Google Allo
+iOS
+iPadOS
+Ubuntu
+Raspberry Pi
+PredecessorGoogle NowSuccessorGoogle GeminiAvailable inEnglish  Arabic  Bengali  Chilean Spanish  Colombian Spanish  Chinese  Simplified   Chinese  Traditional   Danish  Dutch  French  German  Gujarati  Hindi  Indonesian  Italian  Japanese  Kannada  Korean  Malayalam  Marathi  Norwegian  Polish  Portuguese  Russian  Spanish  Swedish  Tamil  Telugu  Thai  Turkish  Urdu  VietnameseTypeVirtual assistantWebsiteassistant google com
+Google Assistant is a virtual assistant software application developed by Google that is primarily available on home automation and mobile devices  Based on artificial intelligence  Google Assistant can engage in two way conversations             unlike the company s previous virtual assistant  Google Now 
+Google Assistant debuted in      as part of Google s messaging app Allo  and its voice activated speaker Google Nest  After a period of exclusivity on the Google Pixel smartphones  it was deployed on other Android devices starting in February       including third party smartphones and Android Wear  now Wear OS   and was released as a standalone app on the iOS operating system in May       Alongside the announcement of a software development kit in April       Assistant has been further extended to support a large variety of devices  including cars and third party smart home appliances  The functionality of Assistant can also be enhanced by third party developers  At CES       the first Assistant powered smart displays  Smart speakers with video screens  were announced  with the first one being released in July                  In       Google Assistant is already available on more than   billion devices            
+Users primarily interact with Google Assistant through natural voice  though keyboard input is also supported  Assistant is able to answer questions  schedule events and alarms  adjust hardware settings on the user s device  show information from the user s Google account  play games  and more  Google has also announced that Assistant will be able to identify objects and gather visual information through the device s camera  and support purchasing products as well as sending money  Google Assistant is available in more than    countries and over    languages             and is used by more than     million users monthly            
+In October       a mobile version of the Gemini chatbot  originally titled Assistant with Bard and simply just Bard  was unveiled during the Pixel   event  It is set to replace Assistant as the main assistant on Android devices  although the original Assistant will remain optional  The chatbot was released on February          in the United States                                             
+On March           it was announced that Assistant would stop working on Android devices using Android    and higher  iOS and other devices such as the Google Nest  being mostly replaced by Gemini  Assistant would remain for low range phones or phones running Android    Pie  and lower             
+
+
+History edit 
+The Google Assistant was unveiled during Google s developer conference on May           as part of the unveiling of the Google Nest smart speaker and new messaging app Allo  Google CEO Sundar Pichai explained that the Assistant was designed to be a conversational and two way experience  and  an ambient experience that extends across devices               Later that month  Google assigned Google Doodle leader Ryan Germick and hired former Pixar animator Emma Coats to develop  a little more of a personality              
+
+Platform expansion edit 
+Google Assistant in Spanish
+For system level integration outside of the Allo app and Google Nest  the Google Assistant was initially exclusive to the Google Pixel smartphones              In February       Google announced that it had begun to enable access to the Assistant on Android smartphones running Android       or      beginning in select English speaking markets                          Android tablets did not receive the Assistant as part of this rollout                          The Assistant is also integrated in Wear OS                  and will be included in future versions of Android TV                         and Android Auto              In October       the Google Pixelbook became the first laptop to include Google Assistant              Google Assistant later came to the Google Pixel Buds              In December       Google announced that the Assistant would be released for phones running Android     through an update to Google Play Services  as well as tablets running     Marshmallow and     Nougat              In February       Google reportedly began testing ads in Google Assistant results             
+On May           Android Police reported that the Google Assistant would be coming to the iOS operating system as a separate app              The information was confirmed two days later at Google s developer conference                         
+
+Smart displays edit 
+In January      at the Consumer Electronics Show  the first Assistant powered  smart displays  were released              Smart displays were shown at the event from Lenovo  Sony  JBL and LG              These devices have support for Google Duo video calls  YouTube videos  GMaps directions  a GCalendar agenda  viewing of smart camera footage  in addition to services which work with Google Home devices            
+These devices are based on Android Things and Google developed software  Google unveiled its own smart display  Google Nest Hub in October       and later Google Nest Hub Max  which utilizes a different system platform             
+
+Developer support edit 
+In December       Google launched  Actions on Google   a developer platform for the Google Assistant  Actions on Google allows  rd party developers to build apps for Google Assistant                          In March       Google added new tools for developing on Actions on Google to support the creation of games for Google Assistant              Originally limited to the Google Nest smart speaker  Actions on Google was made available to Android and iOS devices in May                               at which time Google also introduced an app directory or application directory for overview of compatible products and services              To incentivize developers to build Actions  Google announced a competition  in which first place won tickets to Google s      developer conference           and a walk through of Google s campus  while second place and third place received        and         respectively  and a Google Home             
+In April       a software development kit  SDK  was released  allowing third party developers to build their own hardware that can run the Google Assistant                          It has been integrated into Raspberry Pi                          cars from Audi and Volvo                          and Home automation appliances  including fridges  washers  and ovens  from companies including iRobot  LG  General Electric  and D Link                                      Google updated the SDK in December      to add several features that only the Google Home smart speakers and Google Assistant smartphone apps had previously supported             
+The features include 
+
+Third party device makers can incorporate their own  Actions on Google  commands for their respective products
+Text based interactions and many languages
+Users can set a precise geographic location for the device to enable improved location specific queries                         
+On May          Google announced a new program that focuses on investing in the future of Google Assistant through early stage startups  Their focus was to build an environment where developers could build richer experiences for their users  This includes startups that broaden Assistant s features  are building new hardware devices  or simply differentiating in different industries             
+
+Voices edit 
+Google Assistant launched using the voice of Kiki Baessell for the American female voice  the same actress for the Google Voice voicemail system since                  
+On October           Google announced that Issa Rae had been added to Google Assistant as an optional voice  which could be enabled by the user by saying  Okay  Google  talk like Issa               Although  as of April       Google Assistant response with  Sorry  that voice isn t available anymore  but you can try out another by asking me to change voices   if the command is given      citation needed     
+
+Interaction edit 
+The Google Assistant on the Google Pixel XL phone
+Google Assistant  in the nature and manner of Google Now  can search the Internet  schedule events and alarms  adjust hardware settings on the user s device  and show information from the user s Google account  Unlike Google Now  however  the Assistant can engage in a two way conversation  using Google s natural language processing algorithm  Search results are presented in a card format that users can tap to open the page              In February       Google announced that users of Google Home would be able to shop entirely by voice for products through its Google Express shopping service  with products available from Whole Foods Market  Costco  Walgreens  PetSmart  and Bed Bath  amp  Beyond at launch                          and other retailers added in the following months as new partnerships were formed                          Google Assistant can maintain a shopping list  this was previously done within the notetaking service GKeep  but the feature was moved to Google Express and the Google Home app in April       resulting in a severe loss of functionality                         
+In May       Google announced that the Assistant would support a keyboard for typed input and visual responses                          support identifying objects and gather visual information through the device s camera                          and support purchasing products                         and sending money                          Through the use of the keyboard  users can see a history of queries made to the Google Assistant  and edit or delete previous inputs  The Assistant warns against deleting  however  due to its use of previous inputs to generate better answers in the future              In November       it became possible to identify songs currently playing by asking the Assistant                         
+The Google Assistant allows users to activate and modify vocal shortcut commands in order to perform actions on their device  both Android and iPad iPhone  or configure it as a hub for home automation 
+This feature of the speech recognition is available in English  among other languages                          In July       the Google Home version of Assistant gained support for multiple actions triggered by a single vocal shortcut command             
+At the annual I O developers conference on May          Google s SEO announced the addition of six new voice options for the Google Assistant  one of which being John Legend s              This was made possible by WaveNet  a voice synthesizer developed by DeepMind  which significantly reduced the amount of audio samples that a voice actor was required to produce for creating a voice model              However  John Legend s Google Assistant cameo voice was discontinued on March                                  
+In August       Google added bilingual capabilities to the Google Assistant for existing supported languages on devices  Recent reports say that it may support multilingual support by setting a third default language on Android Phone             
+Speech to Text can recognize commas  question marks  and periods in transcription requests             
+In April       the most popular audio games in the Assistant  Crystal Ball  and Lucky Trivia  have had the biggest voice changes in the application s history  The voice in the assistant has been able to add expression to the games  For instance  in the Crystal Ball game  the voice would speak slowly and softly during the intro and before the answer is revealed to make the game more exciting  and in the Lucky Trivia game  the voice would become excitable like a game show host  In the British accent voice of Crystal Ball  the voice would say the word  probably  in a downward slide like she s not too sure  The games used the text to speech voice which makes the voice more robotic  In May      however  it turned out to be a bug in the speech API that caused the games to lose the studio quality voices  These audio games were fixed in May      
+
+Interpreter Mode edit 
+On December           Google debuted an interpreter mode in Google Assistant smartphone apps for Android and iOS  It provides translation of conversations in real time and was previously only available on Google Home smart speakers and displays              Google Assistant won the      Webby Award for Best User Experience in the category  Apps  Mobile  amp  Voice             
+On March          Google introduced a feature on Google Assistant that read webpages aloud in    languages                         
+On October           Google announced a new  hum to search  function to find a song by simply humming  whistling  or singing the song                         
+
+Google Duplex edit 
+This section is about Duplex for Google Assistant  For the number  see googolplex 
+In May       Google revealed Duplex  an extension of the Google Assistant that allows it to carry out natural conversations by mimicking human voice  in a manner not dissimilar to robocalling              The assistant can autonomously complete tasks such as calling a hair salon to book an appointment  scheduling a restaurant reservation  or calling businesses to verify holiday store hours              While Duplex can complete most of its tasks fully autonomously  it is able to recognize situations that it is unable to complete and can signal a human operator to finish the task  Duplex was created to speak in a more natural voice and language by incorporating speech disfluencies such as filler words like  hmm  and  uh  and using common phrases such as  mhm  and  gotcha   along with more human like intonation and response latency                                      Duplex is currently in development and had a limited release in late      for Google Pixel users              During the limited release  Pixel phone users in Atlanta  New York  Phoenix  and San Francisco were only able to use Duplex to make restaurant reservations              As of October       Google has expanded Duplex to businesses in eight countries                         
+
+Criticism edit 
+After the announcement  concerns were made over the ethical and societal questions that artificial intelligence technology such as Duplex raises              For instance  human operators may not notice that they are speaking with a digital robot when conversing with Duplex              which some critics view as unethical or deceitful              Concerns over privacy were also identified  as conversations with Duplex are recorded in order for the virtual assistant to analyze and respond              Privacy advocates have also raised concerns around how the millions of vocal samples gathered from consumers are fed back into the algorithms of virtual assistants  making these forms of AI smarter with each use  Though these features individualize the user experience  critics are unsure about the long term implications of giving  the company unprecedented access to human patterns and preferences that are crucial to the next phase of artificial intelligence               
+While transparency was referred to as a key part to the experience when the technology was revealed               Google later further clarified in a statement saying   We are designing this feature with disclosure built in  and we ll make sure the system is appropriately identified                            Google further added that  in certain jurisdictions  the assistant would inform those on the other end of the phone that the call is being recorded              
+
+Reception edit 
+PC World s Mark Hachman gave a favorable review of the Google Assistant  saying that it was a  step up on Cortana and Siri                Digital Trends called it  smarter than Google Now ever was               
+
+Criticism edit 
+In July      Belgian public broadcaster VRT NWS published an article revealing that third party contractors paid to transcribe audio clips collected by Google Assistant listened to sensitive information about users  Sensitive data collected from Google Home devices and Android phones included names  addresses  and other private conversations after mistaken hot word triggering  such as business calls or bedroom conversations               From more than       recordings analyzed      were recorded without the  OK Google  command  Google officially acknowledged that      of recordings are being listened to by language experts to improve Google s services               On August          Germany s Hamburg Commissioner for Data Protection and Freedom of Information initiated an administrative procedure to prohibit Google from carrying out corresponding evaluations by employees or third parties for the period of three months to provisionally protect the rights of privacy of data subjects for the time being  citing GDPR               A Google spokesperson stated that Google paused  language reviews  in all European countries while it investigated recent media leaks              
+
+See also edit 
+
+Amazon Alexa
+Bixby
+Cortana
+Home automation  Smart Home 
+Internet of things  IoT 
+Mycroft  software 
+Siri
+Smart devices
+Speech recognition
+Voice user interface
+
+References edit 
+
+
+  The future is AI  and Google just showed Apple how it s done Archived November          at the Wayback Machine Published October          Retrieved July        
+
+  a b Bohn  Dieter  January            Google is introducing a new Smart Display platform   The Verge  Vox Media  Archived from the original on November          Retrieved January          
+
+   Google Assistant is already available on more than   billion devices   January          Archived from the original on November           Retrieved January         
+
+  Ben  Hannes   The Future of Voice Commerce and Localisation  Archived October           at the Wayback Machine  Locaria  February         
+
+   A more helpful Google Assistant for your every day   Google  January          Archived from the original on November           Retrieved January          
+
+   Google Assistant is having a Windows Copilot moment  and it s all thanks to AI   ZDNET  Retrieved November          
+
+  Vonau  Manuel  November             Google to let you use  Classic Assistant  without Bard in the future   Android Police  Retrieved November          
+
+  Li  Abner  January             Google might rebrand  Assistant with Bard  before launch    to Google  Retrieved January          
+
+  Li  Abner  February            Gemini app brings Google AI to Android and iPhone  rolling out now    to Google  Retrieved February         
+
+  Peters  Jay  March             Google is officially dumping Assistant for Gemini   The Verge  Retrieved March          
+
+  Lynley  Matthew  May             Google unveils Google Assistant  a virtual assistant that s a big upgrade to Google Now   TechCrunch  AOL  Archived from the original on January           Retrieved March          
+
+  de Looper  Christian  May             Google wants to make its next personal assistant more personable by giving it a childhood   Digital Trends  Archived from the original on January           Retrieved March          
+
+  Savov  Vlad  October            Pixel  phone by Google  announced   The Verge  Vox Media  Archived from the original on February           Retrieved March          
+
+  Bohn  Dieter  February             The Google Assistant is coming to Marshmallow and Nougat Android phones starting this week   The Verge  Vox Media  Archived from the original on January           Retrieved March          
+
+  Lunden  Ingrid  February             Google Assistant  its AI based personal helper  rolls out to Nougat and Marshmallow handsets   TechCrunch  AOL  Archived from the original on January           Retrieved March          
+
+  El Khoury  Rita  March             Google confirms wider Assistant rollout will not reach tablets   Android Police  Archived from the original on January           Retrieved March          
+
+  Kastrenakes  Jacob  March             Android tablets aren t getting Google Assistant anytime soon   The Verge  Vox Media  Archived from the original on January           Retrieved March          
+
+  Amadeo  Ron  January             Report  Android Wear     to launch February     Ars Technica  Cond  Nast  Archived from the original on December          Retrieved March          
+
+  Ingraham  Nathan  January            The Google Assistant is coming to Android TV   Engadget  AOL  Archived from the original on March          Retrieved March          
+
+  Singleton  Micah  May             Google Assistant is coming to Android TV later this year   The Verge  Vox Media  Archived from the original on January           Retrieved May          
+
+  Amadeo  Ron  February             Google Assistant comes to every Android phone      and up   Ars Technica  Cond  Nast  Archived from the original on January           Retrieved March          
+
+  Field  Matthew  October            Google launches Pixelbook as first laptop with Google Assistant   The Daily Telegraph  Archived from the original on January           Retrieved December          
+
+  Johnson  Khari  November             Google Pixel Buds review  Google Assistant makes a home in your ears   VentureBeat  Archived from the original on November          Retrieved December          
+
+  Lardinois  Frederic  December             Google Assistant is coming to older Android phones and tablets   TechCrunch  Oath Inc  Archived from the original on January           Retrieved December          
+
+  Sterling  Greg  April             Google takes baby steps to monetize Google Assistant  Google Home   Search Engine Land  Archived from the original on December          Retrieved April          
+
+  Ruddock  David  May             Google will announce Assistant for iOS soon  in the US only at launch   Android Police  Archived from the original on January           Retrieved May          
+
+  Garun  Natt  May             Hey Siri  Google Assistant is on the iPhone now   The Verge  Vox Media  Archived from the original on November           Retrieved May          
+
+  Dillet  Romain  May             Google launches Google Assistant on the iPhone   TechCrunch  AOL  Archived from the original on September           Retrieved May          
+
+  Baig  Edward  January            Google Assistant is coming to smart screens  rivaling Amazon Echo Show   USA Today  Retrieved January                  via WBIR TV 
+
+  Lee  Nicole  January             CES showed us smart displays will be the new normal   Engadget  January           Archived from the original on January           Retrieved January          
+
+   Google Home Hub Under the hood  it s nothing like other Google smart displays   Ars Technica  Archived from the original on December          Retrieved October          
+
+  Miller  Paul  October            Google Assistant will open up to developers in December with  Actions on Google    The Verge  Vox Media  Archived from the original on May           Retrieved May         
+
+  Low  Cherlynn  December            Google opens up its Assistant actions to developers   Engadget  AOL  Archived from the original on December           Retrieved May         
+
+  Vemuri  Sunil  March             Game developers rejoice new tools for developing on Actions on Google   Google Developers Blog  Archived from the original on January           Retrieved May         
+
+  Bohn  Dieter  May             Third party actions will soon work on Google Assistant on the phone   The Verge  Vox Media  Archived from the original on January           Retrieved May          
+
+  Perez  Sarah  May             Google Actions expand to Android and iPhone   TechCrunch  AOL  Archived from the original on December          Retrieved May          
+
+  Whitwam  Ryan  May             Google Assistant gets an app directory with categories and sample commands   Android Police  Archived from the original on January           Retrieved May          
+
+  Davenport  Corbin  May             Google is offering up to         to developers making Google Assistant actions   Android Police  Archived from the original on January           Retrieved June         
+
+  Amadeo  Ron  April             The Google Assistant SDK will let you run the Assistant on anything   Ars Technica  Cond  Nast  Archived from the original on November           Retrieved April          
+
+  Bohn  Dieter  April             Anybody can make a Google Assistant gadget with this new toolkit   The Verge  Vox Media  Archived from the original on January           Retrieved April          
+
+  Gordon  Scott Adam  May            Google voice control comes to the Raspberry Pi via new DIY kit   Android Authority  Archived from the original on January           Retrieved May         
+
+  Vincent  James  May            You can now use Google s AI to add voice commands to your Raspberry Pi   The Verge  Vox Media  Archived from the original on January           Retrieved May         
+
+  Gurman  Mark  Bergen  Mark  May             Google Wants Android and Its Assistant to Power Your Car Too   Bloomberg Technology  Bloomberg L P  Archived from the original on November           Retrieved May          
+
+  O Kane  Sean  May             Audi and Volvo will use Android as the operating system in upcoming cars   The Verge  Vox Media  Archived from the original on January           Retrieved May          
+
+  El Khoury  Rita  May             Google Assistant can now control more appliances and smart home devices including Roomba  LG  GE  and D Link   Android Police  Archived from the original on January           Retrieved May          
+
+  Kastrenakes  Jacob  May             LG and GE add Google Assistant support to fridges  washers  ovens  and more   The Verge  Vox Media  Archived from the original on January           Retrieved May          
+
+  Wollerton  Megan  May             Google Assistant makes its way to your large home appliances   CNET  CBS Interactive  Archived from the original on January           Retrieved May          
+
+  Gartenberg  Chaim  December             Google s latest Assistant SDK updates make third party speakers smarter   The Verge  Retrieved November         
+
+  Gartenberg  Chaim  December             Google s latest Assistant SDK updates make third party speakers smarter   The Verge  Vox Media  Archived from the original on January           Retrieved December          
+
+  Pelegrin  Williams  December             Google Assistant SDK updated with new languages and features   Android Authority  Archived from the original on January           Retrieved December          
+
+  Kapoor  Sanjay  Fox  Nick  May            Investing in startups and the future of the Google Assistant   Google Blog  Archived from the original on January           Retrieved February          
+
+  Toff  Jason  June             The new voice of Google Voice   Google Voice Blog  Google  Archived from the original on July          Retrieved October          
+
+   Google on Instagram   Meet the new voice of your Google Assistant   issarae     She s taking over our story today follow along or say  Hey Google   TalkLikeIssa        Instagram  Archived from the original on December           Retrieved October          
+
+  Purewal  Sarah Jacobsson  October            The difference between Google Now and Google Assistant   CNET  CBS Interactive  Archived from the original on January           Retrieved March          
+
+  Steele  Billy  February             Google Assistant now helps with your shopping on Google Home  updated    Engadget  Oath  Archived from the original on February          Retrieved December          
+
+  Martin  Taylor  February             Google Home now lets you shop for everyday items with your voice   CNET  CBS Interactive  Archived from the original on January           Retrieved December          
+
+  Ingraham  Nathan  September             Order from Walmart by chatting with Google Home   Engadget  Verizon Media  Archived from the original on March           Retrieved December          
+
+  D innocenzio  Anne  October             Target is joining forces with Google to take on Amazon   Business Insider  Axel Springer SE  Archived from the original on January           Retrieved December          
+
+  Amadeo  Ron  April             Google ruins the Assistant s shopping list  turns it into a big Google Express ad   Ars Technica  Cond  Nast  Archived from the original on December           Retrieved May          
+
+  Garun  Natt  April             Google Assistant s shopping lists are moving to the Home app today   The Verge  Vox Media  Archived from the original on January           Retrieved May          
+
+  Bohn  Dieter  May             You can finally use the keyboard to ask Google Assistant questions   The Verge  Vox Media  Archived from the original on January           Retrieved May          
+
+  LeFebvre  Rob  May             Google Assistant now accepts typed and verbal cues   Engadget  AOL  Archived from the original on December           Retrieved May          
+
+  Welch  Chris  May             Google Assistant will soon search by sight with your smartphone camera   The Verge  Vox Media  Archived from the original on January           Retrieved May          
+
+  Conditt  Jessica  May             Google Lens is a powerful  AI driven visual search app   Engadget  AOL  Archived from the original on February          Retrieved May          
+
+  Garun  Natt  May             You can buy stuff with Google Assistant now   The Verge  Vox Media  Archived from the original on November           Retrieved May          
+
+  Solsman  Joan E  May             Google Assistant wants to make buying stuff easier  Just ask it   CNET  CBS Interactive  Archived from the original on November           Retrieved May          
+
+  Scrivens  Scott  May             Google Assistant will soon support sending money with your Google account   Android Police  Archived from the original on January           Retrieved May          
+
+  Miller  Paul  May             You ll soon be able to send money with Google Assistant   The Verge  Vox Media  Archived from the original on January           Retrieved May          
+
+  Whitwam  Ryan  May             Google Assistant on Android now has query history that you can edit or delete   Android Police  Archived from the original on January           Retrieved May          
+
+  Liao  Shannon  November            Google Assistant can now tell you what song is playing near you   The Verge  Vox Media  Archived from the original on January           Retrieved December          
+
+  Li  Abner  November            Google Assistant can finally recognize music and songs  rolling out now    to Google  Archived from the original on January           Retrieved December          
+
+   Create shortcut commands   Google Support  Archived from the original on October           Retrieved October          
+
+  Murnane  Kevin  May             How To Set Up Google Assistant s Little Known And Super Useful Shortcuts   Forbes  Archived from the original on October           Retrieved December          
+
+  Whitwam  Ryan  July            Google Assistant  Awesome features you need to start using  Trigger multiple commands   PC World  Archived from the original on April          Retrieved October          
+
+  Tarantola  Andrew  May            John Legend is one of six new Google Assistant voices   Engadget  Archived from the original on December           Retrieved May         
+
+  Martin  Taylor  May            Try the all new Google Assistant voices right now   CNET  Archived from the original on January           Retrieved May          
+
+  Garun  Natt  May            Google will lose its John Legend Google Assistant voice on March   rd   The Verge  Archived from the original on August          Retrieved June         
+
+   John Legend s Google Assistant cameo voice goes away March      Android Police  March          Archived from the original on September           Retrieved June         
+
+  Lardinois  Frederic  August             The Google Assistant is now bilingual   TechCrunch  Archived from the original on January           Retrieved December          
+
+   Getting Punctuation on Speech to Text   Google Support  Archived from the original on June           Retrieved October          
+
+  Byford  Sam  December             Google Assistant s interpreter mode is coming to phones today   The Verge  Archived from the original on August          Retrieved December          
+
+  Kastrenakes  Jacob  May             Here are all the winners of the      Webby Awards   The Verge  Archived from the original on May           Retrieved May          
+
+  Garun  Natt  March            Google Assistant can now read webpages aloud in    different languages   The Verge  Archived from the original on September           Retrieved November         
+
+   Google Assistant on Android can now read entire web pages to you   TechCrunch  March          Retrieved November         
+
+   Song stuck in your head  Just hum to search   Google  October           Archived from the original on January           Retrieved October          
+
+   How to Find a Song by Humming   Google Hum to Search   www techmaish com  October          Archived from the original on November           Retrieved November          
+
+  Leviathan  Yaniv  Matias  Yossi  May            Google Duplex  An AI System for Accomplishing Real World Tasks Over the Phone   Google AI Blog  Archived from the original on February          Retrieved October          
+
+  Nieva  Richard  May            Google Assistant s one step closer to passing the Turing test   CNET  Archived from the original on January           Retrieved May          
+
+  Leviathan  Yaniv  Matias  Yossi  May            Google Duplex  An AI System for Accomplishing Real World Tasks Over the Phone   Google AI Blog  Archived from the original on February          Retrieved May          
+
+  Carey  Bridget  May            Human or bot  Google Duplex scares me   CNET  Archived from the original on January           Retrieved May          
+
+  Bergen  Mark  May             Google Grapples With  Horrifying  Reaction to Uncanny AI Tech   Bloomberg LP  Archived from the original on October           Retrieved December          
+
+  Welch  Chris  May            Google just gave a stunning demo of Assistant making an actual phone call   The Verge  Archived from the original on January           Retrieved May          
+
+  Simonite  Tom  October            Google Duplex  the Human Sounding Phone Bot  Comes to the Pixel   Wired  Archived from the original on January           Retrieved October          
+
+   Duplex  Google s conversational AI  has updated  M  business listings since pandemic   TechCrunch  October           Retrieved October          
+
+   Duplex is getting smarter and making life a little easier   Google  October           Archived from the original on December           Retrieved October          
+
+  Low  Cherlynn  May             Google s AI advances are equal parts worry and wonder   Engadget  Archived from the original on June           Retrieved May          
+
+  Gershgorn  Dave  May             It s Google s turn to ask the questions   Quartz  Archived from the original on January           Retrieved May          
+
+  a b Vomiero  Jessica  May             Google s AI assistant must identify itself as a robot during phone calls  report   Global News  Archived from the original on January           Retrieved May          
+
+  Jeong  Sarah  May             No one knows how Google Duplex will work with eavesdropping laws   The Verge  Archived from the original on January           Retrieved May          
+
+  Lulwani  Mona  October            Personal Assistants are Ushering in the Age of AI at home   Engadget  Archived from the original on December           Retrieved May          
+
+  Leviathan  Yaniv  Matias  Yossi  August            Google Duplex  An AI System for Accomplishing Real World Tasks Over the Phone   Google AI Blog  Archived from the original on February          Retrieved May          
+
+  Statt  Nick  May             Google now says controversial AI voice calling system will identify itself to humans   The Verge  Archived from the original on November           Retrieved May          
+
+  Bergen  Mark  May             Google s Duplex AI Robot Will Warn That Calls Are Recorded   Bloomberg  Archived from the original on November          Retrieved May          
+
+  Hachman  Mark  September             Hands on  Google Assistant s Allo chatbot outdoes Cortana  Siri as your digital pal   PC World  International Data Group  Archived from the original on September           Retrieved March          
+
+   Google Assistant  Everything You Need To Know About The A I   Digital Trends  July           Archived from the original on October           Retrieved October          
+
+   Beware  Google Assistant records conversations  and contractors can listen to your bedroom talk any time   The Economic Times  July           Archived from the original on December           Retrieved January          
+
+  News  Flanders  July             Google employees are eavesdropping  even in your living room  VRT NWS has discovered   vrtnws be  Archived from the original on January           Retrieved August            cite web          last  has generic name  help 
+
+   Data protection authority opens administrative proceedings against Google   PDF   The Hamburg Commissioner for Data Protection and Freedom of Information  August          Archived from the original  PDF  on August         
+
+  Lecher  Colin  August            Google will pause listening to EU voice recordings while regulators investigate   The Verge  Archived from the original on January           Retrieved August         
+
+
+External links edit 
+Official Website
+Google Assistant Supported Languages
+Google Assistant for Developers
+Google Assistant on Google Play
+Google Assistant on the App Store
+vteGoogle AI
+Google
+Google Brain
+Google DeepMind
+Computer programsAlphaGoVersions
+AlphaGo       
+Master       
+AlphaGo Zero       
+AlphaZero       
+MuZero       
+Competitions
+Fan Hui       
+Lee Sedol       
+Ke Jie       
+In popular culture
+AlphaGo       
+The MANIAC       
+Other
+AlphaFold       
+AlphaStar       
+AlphaDev       
+AlphaGeometry       
+Machine learningNeural networks
+Inception       
+WaveNet       
+MobileNet       
+Transformer       
+EfficientNet       
+Gato       
+Other
+Quantum Artificial Intelligence Lab
+TensorFlow
+Tensor Processing Unit
+Generative AIChatbots
+Assistant       
+Sparrow       
+Gemini       
+Language models
+BERT       
+XLNet       
+T        
+LaMDA       
+Chinchilla       
+PaLM       
+Gemini       
+VideoPoet       
+Other
+DreamBooth       
+NotebookLM       
+Vids       
+See also
+ Attention Is All You Need 
+Future of Go Summit
+Generative pre trained transformer
+Google Labs
+Google Pixel
+Google Workspace
+Robot Constitution
+
+ Category
+ Commons
+
+vteGooglea subsidiary of AlphabetCompanyDivisions
+AI
+Area    
+ATAP
+Brain
+China
+Cloud Platform
+Energy
+Google org
+Crisis Response
+Health
+Registry
+SubsidiariesActive
+Security Operations
+DeepMind
+Fitbit
+ITA Software
+Jigsaw
+Looker
+Mandiant
+Owlchemy Labs
+Defunct
+Actifio
+Adscape
+Akwan Information Technologies
+Anvato
+Apigee
+BandPage
+Bitium
+BufferBox
+Crashlytics
+Dodgeball
+DoubleClick
+Dropcam
+Endoxon
+Flutter
+Global IP Solutions
+Green Throttle Games
+GreenBorder
+Gridcentric
+ImageAmerica
+Impermium
+Invite Media
+Kaltix
+Marratech
+Meebo
+Metaweb
+Neotonic Software
+Neverware
+Nik Software
+Orbitera
+Pyra Labs
+Quest Visual
+Reqwireless
+RightsFlow
+Sidewalk Labs
+SlickLogin
+Titan Aerospace
+Typhoon Studios
+Urban Engines
+Vicarious
+Viewdle
+Wavii
+Wildfire Interactive
+YouTube Next Lab and Audience Development Group
+Programs
+Business Groups
+Computing University Initiative
+Contact Lens
+Content ID
+CrossCheck
+Data Liberation Front
+Data Transfer Project
+Developer Expert
+DigiKavach
+DigiPivot
+Digital Garage
+Digital News Initiative
+Digital Unlocked
+Dragonfly
+Founders  Award
+Free Zone
+Get Your Business Online
+Google for Education
+Google for Startups
+Living Stories
+Made with Code
+News Lab
+PowerMeter
+Privacy Sandbox
+Project Nightingale
+Project Nimbus
+Project Sunroof
+Project Zero
+Quantum Artificial Intelligence Lab
+RechargeIT
+Sensorvault
+Silicon Initiative
+Solve for X
+Street View Trusted
+Student Ambassador Program
+Vevo
+YouTube BrandConnect
+YouTube Creator Awards
+YouTube Select
+YouTube Original Channel Initiative
+Year in Search
+YouTube Rewind
+    
+    
+Events
+AlphaGo versus Fan Hui
+AlphaGo versus Lee Sedol
+AlphaGo versus Ke Jie
+Android Developer Challenge
+Android Developer Day
+Android Developer Lab
+CNN YouTube presidential debates
+Code in
+Code Jam
+Developer Day
+Developers Live
+Doodle Google
+Future of Go Summit
+G Day
+Hash Code
+I O
+Lunar X Prize
+Mapathon
+Science Fair
+Summer of Code
+World Chess Championship     
+YouTube Awards
+YouTube Comedy Week
+YouTube Live
+YouTube Music Awards
+    
+    
+YouTube Space Lab
+YouTube Symphony Orchestra
+Infrastructure
+    Eighth Avenue
+Android lawn statues
+Androidland
+Barges
+Binoculars Building
+Central Saint Giles
+Chelsea Market
+Chrome Zone
+Data centers
+GeoEye  
+Googleplex
+Ivanpah Solar Power Facility
+James R  Thompson Center
+King s Cross
+Mayfield Mall
+Pier   
+Sidewalk Toronto
+St  John s Terminal
+Submarine cables
+Dunant
+Grace Hopper
+Unity
+WiFi
+YouTube Space
+YouTube Theater
+PeopleCurrent
+Krishna Bharat
+Vint Cerf
+Jeff Dean
+John Doerr
+Sanjay Ghemawat
+Al Gore
+John L  Hennessy
+Urs H lzle
+Salar Kamangar
+Ray Kurzweil
+Ann Mather
+Alan Mulally
+Rick Osterloh
+Sundar Pichai  CEO 
+Ruth Porat  CFO 
+Rajen Sheth
+Hal Varian
+Neal Mohan
+Former
+Andy Bechtolsheim
+Sergey Brin  co founder 
+David Cheriton
+Matt Cutts
+David Drummond
+Alan Eustace
+Timnit Gebru
+Omid Kordestani
+Paul Otellini
+Larry Page  co founder 
+Patrick Pichette
+Eric Schmidt
+Ram Shriram
+Amit Singhal
+Shirley M  Tilghman
+Rachel Whetstone
+Susan Wojcicki
+CriticismGeneral
+Censorship
+DeGoogle
+FairSearch
+ Google s Ideological Echo Chamber 
+No Tech for Apartheid
+Privacy concerns
+Street View
+YouTube
+Trade unions
+Alphabet Workers Union
+YouTube copyright issues
+Incidents
+Backdoor advertisement controversy
+Blocking of YouTube videos in Germany
+Data breach
+Elsagate
+Fantastic Adventures scandal
+Kohistan video case
+Reactions to Innocence of Muslims
+San Francisco tech bus protests
+Services outages
+Slovenian government incident
+Walkouts
+YouTube headquarters shooting
+Other
+Android apps
+April Fools  Day jokes
+Doodles
+Doodle Champion Island Games
+Magic Cat Academy
+Easter eggs
+History
+Gmail
+Search
+YouTube
+Logo
+Material Design
+Mergers and acquisitions
+DevelopmentSoftwareA C
+Accelerated Linear Algebra
+AMP
+Actions on Google
+ALTS
+American Fuzzy Lop
+Android Cloud to Device Messaging
+Android Debug Bridge
+Android NDK
+Android Runtime
+Android SDK
+Android Studio
+Angular
+AngularJS
+Apache Beam
+APIs
+App Engine
+App Inventor
+App Maker
+App Runtime for Chrome
+AppJet
+Apps Script
+AppSheet
+ARCore
+Base
+Bazel
+BeyondCorp
+Bigtable
+BigQuery
+Bionic
+Blockly
+Borg
+Caja
+Cameyo
+Chart API
+Charts
+Chrome Frame
+Chromium
+Blink
+Closure Tools
+Cloud Connect
+Cloud Dataflow
+Cloud Datastore
+Cloud Messaging
+Cloud Shell
+Cloud Storage
+Code Search
+Compute Engine
+Cpplint
+D N
+Dalvik
+Data Protocol
+Dialogflow
+Exposure Notification
+Fast Pair
+Fastboot
+Federated Learning of Cohorts
+File System
+Firebase
+Firebase Cloud Messaging
+FlatBuffers
+Flutter
+Freebase
+Gadgets
+Ganeti
+Gears
+Gerrit
+GLOP
+gRPC
+Gson
+Guava
+Guetzli
+Guice
+gVisor
+GYP
+JAX
+Jetpack Compose
+Keyhole Markup Language
+Kubernetes
+Kythe
+LevelDB
+Lighthouse
+Looker Studio
+lmctfy
+MapReduce
+Mashup Editor
+Matter
+Mobile Services
+Namebench
+Native Client
+Neatx
+Neural Machine Translation
+Nomulus
+O Z
+Open Location Code
+OpenRefine
+OpenSocial
+Optimize
+OR Tools
+Pack
+PageSpeed
+Piper
+Plugin for Eclipse
+Polymer
+Programmable Search Engine
+Project IDX
+Project Shield
+Public DNS
+reCAPTCHA
+RenderScript
+SafetyNet
+SageTV
+Schema org
+Search Console
+Shell
+Sitemaps
+Skia Graphics Engine
+Spanner
+Sputnik
+Stackdriver
+Swiffy
+Tango
+TensorFlow
+Tesseract
+Test
+Translator Toolkit
+Urchin
+UTM parameters
+V 
+VirusTotal
+VisBug
+Wave Federation Protocol
+Weave
+Web Accelerator
+Web Designer
+Web Server
+Web Toolkit
+Webdriver Torso
+WebRTC
+Operating systems
+Android
+Cupcake
+Donut
+Eclair
+Froyo
+Gingerbread
+Honeycomb
+Ice Cream Sandwich
+Jelly Bean
+KitKat
+Lollipop
+Marshmallow
+Nougat
+Oreo
+Pie
+  
+  
+  
+  
+  
+  
+  
+version history
+smartphones
+Android Automotive
+Android Go
+devices
+Android Things
+Android TV
+devices
+Android XR
+ChromeOS
+ChromeOS Flex
+ChromiumOS
+Fuchsia
+Glass OS
+gLinux
+Goobuntu
+TV
+Wear OS
+Language models
+BERT
+Chinchilla
+DreamBooth
+Gemini
+LaMDA
+PaLM
+T 
+VideoPoet
+XLNet
+Neural networks
+EfficientNet
+Gato
+Inception
+MobileNet
+Transformer
+WaveNet
+Computer programs
+AlphaDev
+AlphaFold
+AlphaGeometry
+AlphaGo
+AlphaGo Zero
+AlphaStar
+AlphaZero
+Master
+MuZero
+Formats and codecs
+AAB
+APK
+AV 
+iLBC
+iSAC
+libvpx
+Lyra
+Protocol Buffers
+VP 
+VP 
+VP 
+VP 
+WebM
+WebP
+WOFF 
+Programming languages
+Carbon
+Dart
+Go
+Sawzall
+Search algorithms
+Googlebot
+Hummingbird
+Mobilegeddon
+PageRank
+matrix
+Panda
+Penguin
+Pigeon
+RankBrain
+Domain names
+ app
+ dev
+ google
+ zip
+g co
+google by
+Typefaces
+Croscore
+Noto
+Product Sans
+Roboto
+SoftwareA
+Aardvark
+Account
+Dashboard
+Takeout
+Ad Manager
+AdMob
+Ads
+AdSense
+Affiliate Network
+Alerts
+Allo
+Analytics
+Android Auto
+Android Beam
+Answers
+Apture
+Arts  amp  Culture
+Assistant
+Attribution
+Authenticator
+B
+BebaPay
+BeatThatQuote com
+Blog Search
+Blogger
+Body
+Bookmarks
+Books
+Ngram Viewer
+Browser Sync
+Building Maker
+Bump
+BumpTop
+Buzz
+C
+Calendar
+Cast
+Catalogs
+Chat
+Checkout
+Chrome
+Chrome Apps
+Chrome Experiments
+Chrome Remote Desktop
+Chrome Web Store
+Classroom
+Cloud Print
+Cloud Search
+Contacts
+Contributor
+Crowdsource
+Currents  social app 
+Currents  news app 
+D
+Data Commons
+Dataset Search
+Desktop
+Dictionary
+Digital Wellbeing
+Dinosaur Game
+Directory
+Docs
+Docs Editors
+Domains
+Drawings
+Drive
+Duo
+E
+Earth
+Etherpad
+Expeditions
+Express
+F
+Family Link
+Fast Flip
+FeedBurner
+fflick
+Fi Wireless
+Finance
+Files
+Find My Device
+Fit
+Flights
+Flu Trends
+Fonts
+Forms
+Friend Connect
+Fusion Tables
+G
+Gboard
+Gemini
+Gesture Search
+Gizmo 
+Google 
+Gmail
+Goggles
+GOOG    
+Grasshopper
+Groups
+H
+Hangouts
+Helpouts
+I
+iGoogle
+Images
+Image Labeler
+Image Swirl
+Inbox by Gmail
+Input Tools
+Japanese Input
+Pinyin
+Insights for Search
+J
+Jaiku
+Jamboard
+K
+Kaggle
+Keep
+Knol
+L
+Labs
+Latitude
+Lens
+Like com
+Live Transcribe
+Lively
+M
+Map Maker
+Maps
+Maps Navigation
+Marketing Platform
+Meet
+Messages
+Moderator
+My Tracks
+N
+Nearby Share
+News
+News  amp  Weather
+News Archive
+Notebook
+NotebookLM
+Now
+O
+Offers
+One
+One Pass
+Opinion Rewards
+Orkut
+Oyster
+P
+Panoramio
+PaperofRecord com
+Patents
+Page Creator
+Pay  mobile app 
+Pay  payment method 
+Pay Send
+People Cards
+Person Finder
+Personalized Search
+Photomath
+Photos
+Picasa
+Picasa Web Albums
+Picnik
+Pixel Camera
+Play
+Play Books
+Play Games
+Play Music
+Play Newsstand
+Play Pass
+Play Services
+Podcasts
+Poly
+Postini
+PostRank
+Primer
+Project Starline
+Public Alerts
+Public Data Explorer
+Q
+Question Hub
+Quick  Draw 
+Quick Search Box
+Quick Share
+Quickoffice
+R
+Read Along
+Reader
+Reply
+S
+Safe Browsing
+SageTV
+Santa Tracker
+Schemer
+Scholar
+Search
+AI Overviews
+Knowledge Graph
+SafeSearch
+Searchwiki
+Sheets
+Shoploop
+Shopping
+Sidewiki
+Sites
+Slides
+Snapseed
+Socratic
+Softcard
+Songza
+Sound Amplifier
+Spaces
+Sparrow  chatbot 
+Sparrow  email client 
+Speech Recognition  amp  Synthesis
+Squared
+Stadia
+Station
+Store
+Street View
+Surveys
+Sync
+T
+Tables
+Talk
+TalkBack
+Tasks
+Tenor
+Tez
+Tilt Brush
+Toolbar
+Toontastic  D
+Translate
+Travel
+Trendalyzer
+Trends
+TV
+U
+URL Shortener
+V
+Video
+Vids
+Voice
+Voice Access
+Voice Search
+W
+Wallet
+Wave
+Waze
+WDYL
+Web Light
+Where Is My Train
+Widevine
+Wiz
+Word Lens
+Workspace
+Workspace Marketplace
+Y
+YouTube
+YouTube Kids
+YouTube Music
+YouTube Premium
+YouTube Shorts
+YouTube Studio
+YouTube TV
+YouTube VR
+HardwarePixelSmartphones
+Pixel       
+Pixel         
+Pixel         
+Pixel  a       
+Pixel         
+Pixel  a       
+Pixel         
+Pixel  a       
+Pixel         
+Pixel  a       
+Pixel         
+Pixel  a       
+Pixel Fold       
+Pixel         
+Pixel  a       
+Pixel         
+Pixel   Pro Fold       
+Pixel  a       
+Smartwatches
+Pixel Watch       
+Pixel Watch         
+Pixel Watch         
+Tablets
+Pixel C       
+Pixel Slate       
+Pixel Tablet       
+Laptops
+Chromebook Pixel            
+Pixelbook       
+Pixelbook Go       
+Other
+Pixel Buds       present 
+NexusSmartphones
+Nexus One       
+Nexus S       
+Galaxy Nexus       
+Nexus         
+Nexus         
+Nexus         
+Nexus  X       
+Nexus  P       
+Tablets
+Nexus         
+Nexus          
+Nexus         
+Nexus         
+Other
+Nexus Q       
+Nexus Player       
+Other
+Android Dev Phone
+Android One
+Cardboard
+Chromebit
+Chromebook
+Chromebox
+Chromecast
+Clips
+Daydream
+Fitbit
+Glass
+Liftware
+Liquid Galaxy
+Nest
+smart speakers
+Thermostat
+Wifi
+Play Edition
+Project Ara
+OnHub
+Pixel Visual Core
+Project Iris
+Search Appliance
+Sycamore processor
+Tensor
+Tensor Processing Unit
+Titan Security Key
+vteLitigationAdvertising
+Feldman v  Google  Inc        
+Rescuecom Corp  v  Google Inc        
+Goddard v  Google  Inc        
+Rosetta Stone Ltd  v  Google  Inc        
+Google  Inc  v  American Blind  amp  Wallpaper Factory  Inc        
+Jedi Blue
+Antitrust
+European Union       present 
+United States v  Adobe Systems  Inc   Apple Inc   Google Inc   Intel Corporation  Intuit  Inc   and Pixar       
+Umar Javeed  Sukarma Thapar  Aaqib Javeed vs  Google LLC and Ors        
+United States v  Google LLC       
+United States v  Google LLC       
+Intellectualproperty
+Perfect     Inc  v  Amazon com  Inc        
+Viacom International Inc  v  YouTube  Inc        
+Lenz v  Universal Music Corp       
+Authors Guild  Inc  v  Google  Inc        
+Field v  Google  Inc        
+Google LLC v  Oracle America  Inc        
+Smartphone patent wars
+Privacy
+Rocky Mountain Bank v  Google  Inc        
+Hibnick v  Google  Inc        
+United States v  Google Inc        
+Judgement of the German Federal Court of Justice on Google s autocomplete function       
+Joffe v  Google  Inc        
+Mosley v SARL Google       
+Google Spain v AEPD and Mario Costeja Gonz lez       
+Frank v  Gaos       
+Other
+Garcia v  Google  Inc        
+Google LLC v Defteros       
+Epic Games v  Google       
+Gonzalez v  Google LLC       
+RelatedConcepts
+Beauty YouTuber
+BookTube
+BreadTube
+ Don t be evil 
+Gayglers
+Google as a verb
+Google bombing
+     U S  presidential election
+Google effect
+Googlefight
+Google hacking
+Googleshare
+Google tax
+Googlewhack
+Googlization
+Illegal flower tribute
+Objectives and key results
+Rooting
+Search engine manipulation effect
+Side project time
+Sitelink
+Site reliability engineering
+StudyTube
+VTuber
+YouTube Poop
+YouTuber
+list
+ProductsAndroid
+Booting process
+Custom distributions
+Features
+Recovery mode
+Software development
+Street View coverage
+Africa
+Antarctica
+Asia
+Israel
+Europe
+North America
+Canada
+United States
+Oceania
+South America
+Argentina
+Chile
+Colombia
+YouTube
+Copyright strike
+Education
+Features
+Moderation
+Most disliked videos
+Most liked videos
+Most subscribed channels
+Most viewed channels
+Most viewed videos
+Arabic music videos
+Chinese music videos
+French music videos
+Indian videos
+Pakistani videos
+Official channel
+Social impact
+Suspensions
+YouTube Premium original programming
+Other
+Gmail interface
+Maps pin
+Most downloaded Google Play applications
+Stadia games
+Documentaries
+AlphaGo
+Google  Behind the Screen
+Google Maps Road Trip
+Google and the World Brain
+The Creepy Line
+Books
+Google Hacks
+The Google Story
+Google Volume One
+Googled  The End of the World as We Know It
+How Google Works
+I m Feeling Lucky
+In the Plex
+The Google Book
+The MANIAC
+Popular culture
+Google Feud
+Google Me  film 
+ Google Me   Kim Zolciak song 
+ Google Me   Teyana Taylor song 
+Is Google Making Us Stupid 
+Proceratium google
+Matt Nathanson  Live at Google
+The Billion Dollar Code
+The Internship
+Where on Google Earth is Carmen Sandiego 
+Other
+ Attention Is All You Need 
+elgooG
+Generative pre trained transformer
+ Me at the zoo 
+Predictions of the end
+Relationship with Wikipedia
+ Reunion 
+Robot Constitution
+Italics denote discontinued products 
+ Category
+ Outline
+vteAmbient intelligenceConcepts
+Ambient IoT
+Context awareness
+Device ecology
+Extended reality
+Spatial computing
+Internet of things
+Object hyperlinking
+Profiling
+Spime
+Ubiquitous computing
+Web of Things
+Wireless sensor networks
+Technologies
+ LoWPAN
+ANT 
+DASH 
+IEEE         
+Internet  
+Machine to machine
+Radio frequency identification
+Smartdust
+XBee
+Platforms
+Arduino
+Contiki
+Gadgeteer
+ioBridge
+Netduino
+Raspberry Pi
+TinyOS
+Wiring
+Xively
+NodeMCU
+Applications
+Ambient device
+CeNSE
+Connected car
+Home automation
+HomeOS
+Internet refrigerator
+Nabaztag
+Smart city
+Smart TV
+Smarter Planet
+Pioneers
+Kevin Ashton
+Gaetano Borriello
+Adam Dunkels
+Stefano Marzano
+Don Norman
+Roel Pieper
+Josef Preishuber Pfl gl
+John Seely Brown
+Bruce Sterling
+Mark Weiser
+Other
+Ambient Devices
+AmbieSense
+Ebbits project
+IPSO Alliance
+
+vteEmbedded systemsGeneral terms
+ASIC
+Board support package
+Bootloader
+Consumer electronics
+Cross compiler
+Embedded database
+Embedded hypervisor
+Embedded OS
+Embedded software
+FPGA
+IoT
+Memory footprint
+Microcontroller
+Single board computer
+Raspberry Pi
+SoC
+Firmware and controls
+Firmware
+Custom firmware
+Proprietary firmware
+Closed platform
+Crippleware
+Defective by Design
+Hacking of consumer electronics
+Homebrew  video games 
+iOS jailbreaking
+PlayStation   Jailbreak
+Rooting  Android 
+UEFI
+Vendor lock in
+Boot loaders
+U Boot
+Barebox
+Software libraries
+uClibc
+dietlibc
+Embedded GLIBC
+lwIP
+musl
+Programming tools
+Almquist shell
+BitBake
+Buildroot
+BusyBox
+OpenEmbedded
+Stand alone shell
+Toybox
+Yocto Project
+Operating systems
+Linux on embedded systems
+Linux for mobile devices
+Light weight Linux distribution
+Real time operating system
+Windows IoT
+Win CE
+Programming languages
+Ada
+Assembly language
+CAPL
+Embedded C
+Embedded C  
+Embedded Java
+MISRA C
+MicroPython
+
+Lightweight browsers
+List of open source hardware
+Open source robotics
+
+vteVirtual assistantsActive
+AliGenie
+Alexa
+Alice
+Bixby
+Viv
+Braina
+Celia
+Clova
+Google Assistant
+Maluuba
+Siri
+Voice Mate
+Watson
+WolframAlpha
+Xiaoice
+Discontinued
+BlackBerry Assistant
+Cortana
+Google Now
+M
+Microsoft Agent
+Microsoft Bob
+Microsoft Voice Command
+Ms  Dewey
+Mya
+Mycroft
+Office Assistant  Clippy 
+S Voice
+Speaktoit Assistant
+Tafiti
+Vlingo
+
+
+
+
+
+
+Retrieved from  https   en wikipedia org w index php title Google Assistant amp oldid

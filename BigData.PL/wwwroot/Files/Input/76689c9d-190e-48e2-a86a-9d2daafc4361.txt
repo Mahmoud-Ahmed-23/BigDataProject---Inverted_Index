@@ -1,0 +1,1302 @@
+Aircraft without any human pilot on board
+ UAV  redirects here  For other uses  see UAV  disambiguation  
+
+
+
+Elbit Systems Hermes     taking off
+Northrop Grumman Bat carrying EO IR and SAR sensors  laser rangefinders  laser designators  infrared cameras
+Anka    H rjet and H rku  
+A General Atomics MQ   Reaper  a hunter killer surveillance UAV
+Although most large military UAVs are fixed wing aircraft  rotorcraft designs  i e   RUAVs  such as this MQ  B Fire Scout are also used 
+An unmanned aerial vehicle  UAV  or unmanned aircraft system  UAS   commonly known as a drone  is an aircraft with no human pilot  crew  or passengers onboard  but rather is controlled remotely or is autonomous                        UAVs were originally developed through the twentieth century for military missions too  dull  dirty or dangerous             for humans  and by the twenty first  they had become essential assets to most militaries  As control technologies improved and costs fell  their use expanded to many non military applications             These include aerial photography  area coverage             precision agriculture  forest fire monitoring             river monitoring                        environmental monitoring                                                 weather observation  policing and surveillance  infrastructure inspections  smuggling              product deliveries  entertainment  drone racing  and combat 
+
+
+Terminology edit 
+Many terms are used for aircraft which fly without any persons onboard 
+The term drone has been used from the early days of aviation  some being applied to remotely flown target aircraft used for practice firing of a battleship s guns  such as the     s Fairey Queen and     s de Havilland Queen Bee  Later examples included the Airspeed Queen Wasp and Miles Queen Martinet  before ultimate replacement by the GAF Jindivik              The term remains in common use   In addition to the software  autonomous drones also employ a host of advanced technologies that allow them to carry out their missions without human intervention  such as cloud computing  computer vision  artificial intelligence  machine learning  deep learning  and thermal sensors              For recreational uses  an aerial photography drone is an aircraft that has first person video  autonomous capabilities  or both             
+An unmanned aerial vehicle  UAV  is defined as a  powered  aerial vehicle that does not carry a human operator  uses aerodynamic forces to provide vehicle lift  can fly autonomously or be piloted remotely  can be expendable or recoverable  and can carry a lethal or nonlethal payload               UAV is a term that is commonly applied to military use cases              Missiles with warheads are generally not considered UAVs because the vehicle itself is a munition  but certain types of propeller based missile are often called  kamikaze drones  by the public and media  Also  the relation of UAVs to remote controlled model aircraft is unclear in some jurisdictions   The US FAA now defines any unmanned flying craft as a UAV regardless of weight               A similar term is remotely piloted aerial vehicle  RPAV  
+UAVs or RPAVs can also be seen as a component of an unmanned aircraft system  UAS   which also includes a ground based controller and a system of communications with the aircraft             
+The term UAS was adopted by the United States Department of Defense  DoD  and the United States Federal Aviation Administration  FAA  in      according to their Unmanned Aircraft System Roadmap                        The International Civil Aviation Organization  ICAO  and the British Civil Aviation Authority adopted this term  also used in the European Union s Single European Sky  SES  Air Traffic Management  ATM  Research  SESAR Joint Undertaking  roadmap for                   This term emphasizes the importance of elements other than the aircraft  It includes elements such as ground control stations  data links and other support equipment  Similar terms are unmanned aircraft vehicle system  UAVS  and remotely piloted aircraft system  RPAS               Many similar terms are in use  Under new regulations which came into effect   June       the term RPAS has been adopted by the Canadian Government to mean  a set of configurable elements consisting of a remotely piloted aircraft  its control station  the command and control links and any other system elements required during flight operation              
+ Uncrewed  is sometimes used rather than  Unmanned                                      
+
+Classification types edit 
+UAVs may be classified like any other aircraft  according to design configuration such as weight or engine type  maximum flight altitude  degree of operational autonomy  operational role  etc  According to the United States Department of Defense  UAVs are classified into five categories below                         
+
+
+
+
+Group 
+
+Group  
+
+Group  
+
+Group  
+
+Group  
+
+Group  
+
+
+Size
+
+Small
+
+Medium
+
+Large
+
+Larger
+
+Largest
+
+
+Max takeoff weight
+
+ lt          lb          kg 
+
+ gt      amp   lt    
+
+ gt      amp   lt      
+
+ gt             lb          kg 
+
+ gt             lb          kg 
+
+
+Operating altitude
+
+ lt             ft          m 
+
+ lt             ft            m 
+
+ lt              ft            m 
+
+ lt              ft            m 
+
+ gt              ft            m 
+
+
+Speed
+
+ lt           kn          km h 
+
+ lt           kn          km h 
+
+ lt           kn          km h 
+
+Any speed
+
+Any speed
+
+Other classifications of UAVs include             
+
+Range and endurance edit 
+There are usually five categories when UAVs are classified by range and endurance             
+
+
+
+
+Range category
+
+Very close
+
+Close
+
+Short
+
+Medium
+
+Long
+
+
+Range  km  
+
+ lt   
+
+ gt     amp   lt    
+
+ gt      amp   lt     
+
+ gt       amp   lt     
+
+ gt     
+
+
+Endurance  hr  
+
+          
+
+   
+
+    
+
+      or   
+
+ gt     or   
+
+Size edit 
+There are usually four categories when UAVs are classified by size  with at least one of the dimensions  length or wingspan  meet the following respective limits             
+
+
+
+
+Category
+
+Micro Very small
+
+Mini Small
+
+Medium
+
+Large
+
+
+Length wingspan 
+
+ lt          cm
+
+ gt          cm  amp   lt    m
+
+      m
+
+ gt     m
+
+Weight edit 
+Based on their weight  drones can be classified into five categories 
+
+
+Drone categories            
+
+
+Category
+
+Nano
+
+Micro  MAV 
+
+Miniature or Small  SUAV 
+
+Medium
+
+Large
+
+
+Weight 
+
+ lt           gm
+
+           gm  amp   lt           kg
+
+          kg  amp   lt           kg
+
+          kg  amp   lt            kg
+
+           kg
+
+NATO uses a similar classification shown below            
+
+NATO classification of Unmanned Aerial Vehicles 
+Degree of autonomy edit 
+Drones can also be classified based on the degree of autonomy in their flight operations  ICAO classifies unmanned aircraft as either remotely piloted aircraft or fully autonomous              Some UAVs offer intermediate degrees of autonomy  For example  a vehicle may be remotely piloted in most contexts but have an autonomous return to base operation  Some aircraft types may optionally fly manned or as UAVs  which may include manned aircraft transformed into manned or Optionally Piloted UAVs  OPVs   The flight of UAVs may operate under remote control by a human operator  as remotely piloted aircraft  RPA   or with various degrees of autonomy  such as autopilot assistance  up to fully autonomous aircraft that have no provision for human intervention                         
+
+Altitude edit 
+Based on the altitude  the following UAV classifications have been used at industry events such as ParcAberporth Unmanned Systems forum 
+
+Hand held            ft           m  altitude  about        km range
+Close            ft             m  altitude  up to         km range
+NATO type             ft             m  altitude  up to         km range
+Tactical             ft             m  altitude  about          km range
+MALE  medium altitude  long endurance  up to             ft             m  and range over          km
+HALE  high altitude  long endurance  over             ft             m  and indefinite range
+Hypersonic high speed  supersonic  Mach      or hypersonic  Mach                 ft              m  or suborbital altitude  range over          km
+Orbital low Earth orbit  Mach     
+CIS Lunar Earth Moon transfer
+Computer Assisted Carrier Guidance System  CACGS  for UAVs
+Composite criteria edit 
+An example of classification based on the composite criteria is U S  Military s unmanned aerial systems  UAS  classification of UAVs based on weight  maximum altitude and speed of the UAV component 
+
+Power sources edit 
+UAVs can be classified based on their power or energy source  which significantly impacts their flight duration  range  and environmental impact  The main categories include 
+
+Battery powered  electric   These UAVs use rechargeable batteries  offering quiet operation and lower maintenance but potentially limited flight times  The reduced noise levels make them suitable for urban environments and sensitive operations             
+Fuel powered  internal combustion   Utilizing traditional fuels like gasoline or diesel  these UAVs often have longer flight times but may be noisier and require more maintenance  They are typically used for applications requiring extended endurance or heavy payload capacity             
+Hybrid  Combining electric and fuel power sources  hybrid UAVs aim to balance the benefits of both systems for improved performance and efficiency  This configuration could allow for versatility in mission profiles and adaptability to different operational requirements             
+Hydrogen fuel cell  hydrogen fuel cells offer the potential for longer flight times than batteries yet stealthier  no heat signature  operation than combustion engines              The high energy density of hydrogen makes it a promising option for future UAV propulsion systems             
+Solar powered  Equipped with solar panels  these UAVs can potentially achieve extended flight times by harnessing solar energy  especially at high altitudes  Solar powered UAVs may be particularly suited for long endurance missions and environmental monitoring applications             
+Nuclear powered  While nuclear power has been explored for larger aircraft  its application in UAVs remains largely theoretical due to safety concerns and regulatory challenges  Research in this area is ongoing but faces significant hurdles before practical implementation             
+History edit 
+Main article  History of unmanned aerial vehicles
+Winston Churchill and others waiting to watch the launch of a de Havilland Queen Bee target drone    June     
+A Ryan Firebee  one of a series of target drones unpiloted aerial vehicles that first flew in       Israeli Air Force Museum  Hatzerim airbase  Israel      
+Last preparations before the first tactical UAV mission across the Suez Canal         Standing  Major Shabtai Brill from the Israeli Intelligence Corps  the innovator of the tactical UAV 
+The Israeli Tadiran Mastiff  which first flew in       is seen by many as the first modern battlefield UAV  due to its data link system  endurance loitering  and live video streaming             
+Early drones edit 
+The earliest recorded use of an unmanned aerial vehicle for warfighting occurred in July                   with a balloon carrier  the precursor to the aircraft carrier              in the first offensive use of air power in naval aviation                                      Austrian forces besieging Venice attempted to launch some     incendiary balloons at the besieged city  The balloons were launched mainly from land  however  some were also launched from the Austrian ship SMS      Vulcano  At least one bomb fell in the city  however  due to the wind changing after launch  most of the balloons missed their target  and some drifted back over Austrian lines and the launching ship Vulcano                                     
+The Spanish engineer Leonardo Torres Quevedo introduced a radio based control system called the Telekino             at the Paris Academy of Science in       as a way of testing airships without risking human life                                     
+Significant development of drones started in the     s  and originally focused on providing practice targets for training military personnel  The earliest attempt at a powered UAV was A  M  Low s  Aerial Target  in                   Low confirmed that Geoffrey de Havilland s monoplane was the one that flew under control on    March      using his radio system              Following this successful demonstration in the spring of      Low was transferred to develop aircraft controlled fast motor launches D C B s with the Royal Navy in      intended to attack shipping and port installations and he also assisted Wing Commander Brock in preparations for the Zeebrugge Raid  Other British unmanned developments followed  leading to the fleet of over     de Havilland    Queen Bee aerial targets that went into service in      
+Nikola Tesla described a fleet of uncrewed aerial combat vehicles in                   These developments also inspired the construction of the Kettering Bug by Charles Kettering from Dayton  Ohio and the Hewitt Sperry Automatic Airplane   initially meant as an uncrewed plane that would carry an explosive payload to a predetermined target  Development continued during World War I  when the Dayton Wright Airplane Company invented a pilotless aerial torpedo that would explode at a preset time             
+The film star and model airplane enthusiast Reginald Denny developed the first scaled remote piloted vehicle in                  
+Soviet researchers experimented with controlling Tupolev TB   bombers remotely in the late     s             
+
+World War II edit 
+In       Denny started the Radioplane Company and more models emerged during World War II                   used both to train antiaircraft gunners and to fly attack missions  Nazi Germany produced and used various UAV aircraft during the war  like the Argus As     and the V   flying bomb with a jet engine  Fascist Italy developed a specialised drone version of the Savoia Marchetti SM    flown by remote control  although the Armistice with Italy was enacted prior to any operational deployment             
+
+Postwar period edit 
+After World War II development continued in vehicles such as the American JB    using television radio command guidance   the Australian GAF Jindivik and Teledyne Ryan Firebee I of       while companies like Beechcraft offered their Model      for the U S  Navy in                   Nevertheless  they were little more than remote controlled airplanes until the Vietnam War  In       the U S  Air Force  concerned about losing pilots over hostile territory  began planning for the use of uncrewed aircraft              Planning intensified after the Soviet Union shot down a U   in       Within days  a highly classified UAV program started under the code name of  Red Wagon               The August      clash in the Tonkin Gulf between naval units of the U S  and the North Vietnamese Navy initiated America s highly classified UAVs  Ryan Model      Ryan AQM    Firefly  Lockheed D     into their first combat missions of the Vietnam War              When the Chinese government             showed photographs of downed U S  UAVs via Wide World Photos              the official U S  response was  no comment  
+During the War of Attrition             in the Middle East  Israeli intelligence tested the first tactical UAVs installed with reconnaissance cameras  which successfully returned photos from across the Suez Canal  This was the first time that tactical UAVs that could be launched and landed on any short runway  unlike the heavier jet based UAVs  were developed and tested in battle             
+In the      Yom Kippur War  Israel used UAVs as decoys to spur opposing forces into wasting expensive anti aircraft missiles              After the      Yom Kippur War  a few key people from the team that developed this early UAV joined a small startup company that aimed to develop UAVs into a commercial product  eventually purchased by Tadiran and leading to the development of the first Israeli UAV                  pages      needed     
+In       the U S  military officially confirmed that they had been using UAVs in Southeast Asia  Vietnam               Over       U S  airmen had been killed and over       more were missing or captured  The USAF    th Strategic Reconnaissance Wing flew about       UAV missions during the war             at a cost of about     UAVs lost to all causes  In the words of USAF General George S  Brown  Commander  Air Force Systems Command  in        The only reason we need  UAVs  is that we don t want to needlessly expend the man in the cockpit               Later that year  General John C  Meyer  Commander in Chief  Strategic Air Command  stated   we let the drone do the high risk flying          the loss rate is high  but we are willing to risk more of them         they save lives              
+During the      Yom Kippur War  Soviet supplied surface to air missile batteries in Egypt and Syria caused heavy damage to Israeli fighter jets  As a result  Israel developed the IAI Scout as the first UAV with real time surveillance                                      The images and radar decoys provided by these UAVs helped Israel to completely neutralize the Syrian air defenses at the start of the      Lebanon War  resulting in no pilots downed              In Israel in       UAVs were first used as proof of concept of super agility  post stall controlled flight in combat flight simulations that involved tailless  stealth technology based  three dimensional thrust vectoring flight control  and jet steering             
+
+Modern UAVs edit 
+The Turkish STM Kargu was the first lethal autonomous weapon to attack enemy combatants in warfare 
+With the maturing and miniaturization of applicable technologies in the     s and     s  interest in UAVs grew within the higher echelons of the U S  military  The U S  funded the Counterterrorism Center  CTC  within the CIA  which sought to fight terrorism with the aid of modernized drone technology              In the     s  the U S  DoD gave a contract to AAI Corporation along with Israeli company Malat  The U S  Navy bought the AAI Pioneer UAV that AAI and Malat developed jointly  Many of these UAVs saw service in the      Gulf War  UAVs demonstrated the possibility of cheaper  more capable fighting machines  deployable without risk to aircrews  Initial generations primarily involved surveillance aircraft  but some carried armaments  such as the General Atomics MQ   Predator  that launched AGM     Hellfire air to ground missiles 
+CAPECON  a European Union project to develop UAVs              ran from   May      to    December                  
+As of          update       the United States Air Force  USAF  employed       UAVs                   almost one in three USAF aircraft                          The Central Intelligence Agency also operated UAVs              By      at least    countries used UAVs  China  Iran  Israel  Pakistan  Turkey  and others designed and built their own varieties  The use of drones has continued to increase              Due to their wide proliferation  no comprehensive list of UAV systems exists                         
+The development of smart technologies and improved electrical power systems led to a parallel increase in the use of drones for consumer and general aviation activities  As of          update       quadcopter drones exemplify the widespread popularity of hobby radio controlled aircraft and toys  but the use of UAVs in commercial and general aviation is limited by a lack of autonomy     clarification needed      and by new regulatory environments which require line of sight contact with the pilot      citation needed     
+In       a Kargu   drone hunted down and attacked a human target in Libya  according to a report from the UN Security Council s Panel of Experts on Libya  published in March       This may have been the first time an autonomous killer robot armed with lethal weaponry attacked human beings             
+Superior drone technology  specifically the Turkish Bayraktar TB   played a role in Azerbaijan s successes in the      Nagorno Karabakh war against Armenia             
+
+Artist s concept of Ingenuity landing on Mars
+UAVs are also used in NASA missions  The Ingenuity helicopter is an autonomous UAV that operated on Mars from      to       As of          update      the Dragonfly spacecraft is being developed  and is aiming to reach and examine Saturn s moon Titan  Its primary goal is to roam around the surface  expanding the amount of area to be researched previously seen by landers  As a UAV  Dragonfly allows examination of potentially diverse types of soil  The drone is set to launch in       and is estimated to take seven more years to reach the Saturnian system 
+Miniaturization is also supporting the development of small UAVs which can be used as individual system or in a fleet offering the possibility to survey large areas  in a relatively small amount of time             
+According to data from GlobalData  the global military uncrewed aerial systems  UAS  market  which forms a significant part of the UAV industry  is projected to experience a compound annual growth rate of      over the next decade  This represents a near doubling in market size  from       billion in      to an estimated     billion by                  
+
+Design edit 
+General physical structure of a UAV
+Crewed and uncrewed aircraft of the same type generally have recognizably similar physical components  The main exceptions are the cockpit and environmental control system or life support systems  Some UAVs carry payloads  such as a camera  that weigh considerably less than an adult human  and as a result  can be considerably smaller  Though they carry heavy payloads  weaponized military UAVs are lighter than their crewed counterparts with comparable armaments 
+Small civilian UAVs have no life critical systems  and can thus be built out of lighter but less sturdy materials and shapes  and can use less robustly tested electronic control systems  For small UAVs  the quadcopter design has become popular  though this layout is rarely used for crewed aircraft  Miniaturization means that less powerful propulsion technologies can be used that are not feasible for crewed aircraft  such as small electric motors and batteries 
+Control systems for UAVs are often different from crewed craft  For remote human control  a camera and video link almost always replace the cockpit windows  radio transmitted digital commands replace physical cockpit controls  Autopilot software is used on both crewed and uncrewed aircraft  with varying feature sets                                     
+
+Aircraft configuration edit 
+UAVs can be designed in different configurations than manned aircraft both because there is no need for a cockpit and its windows  and there is no need to optimize for human comfort  although some UAVs are adapted from piloted examples  or are designed for optionally piloted modes  Air safety is also less of a critical requirement for unmanned aircraft  allowing the designer greater freedom to experiment  Instead  UAVs are typically designed around their onboard payloads and their ground equipment  These factors have led to a great variety of airframe and motor configurations in UAVs 
+For conventional flight the flying wing and blended wing body offer light weight combined with low drag and stealth  and are popular configurations for many use cases  Larger types which carry a variable payload are more likely to feature a distinct fuselage with a tail for stability  control and trim  although the wing configurations in use vary widely 
+For uses that require vertical flight or hovering  the tailless quadcopter requires a relatively simple control system and is common for smaller UAVs  Multirotor designs with   or more rotors is more common with larger UAVs  where redundancy is prioritized                         
+
+Propulsion edit 
+Traditional internal combustion and jet engines remain in use for drones requiring long range  However  for shorter range missions electric power has almost entirely taken over  The distance record for a UAV  built from balsa wood and mylar skin  across the North Atlantic Ocean is held by a gasoline model airplane or UAV  Manard Hill  in      when one of his creations flew       miles across the Atlantic Ocean on less than a gallon of fuel  holds this record             
+Besides the traditional piston engine  the Wankel rotary engine is used by some drones  This type offers high power output for lower weight  with quieter and more vibration free running  Claims have also been made for improved reliability and greater range      citation needed     
+Small drones mostly use lithium polymer batteries  Li Po   while some larger vehicles have adopted the hydrogen fuel cell                                      Hydrogen fueled proton exchange membrane fuel cells for UAVs have the advantages of longer flight duration than rechargeable lithium ion batteries  of lower total cost of ownership than primary lithium metal batteries and of better stealth than heat engines             
+The energy density of modern Li Po batteries is far less than gasoline or hydrogen  However electric motors are cheaper  lighter and quieter  Complex multi engine  multi propeller installations are under development with the goal of improving aerodynamic and propulsive efficiency  For such complex power installations  battery elimination circuitry  BEC  may be used to centralize power distribution and minimize heating  under the control of a microcontroller unit  MCU  
+
+Ornithopters   wing propulsion edit 
+Flapping wing ornithopters  imitating birds or insects  have been flown as microUAVs  Their inherent stealth recommends them for spy missions 
+Sub  g microUAVs inspired by flies  albeit using a power tether  have been able to  land  on vertical surfaces              Other projects mimic the flight of beetles and other insects             
+
+Computer control systems edit 
+A flight controller run on either CleanFlight or BaseFlight firmware for multirotor UAVs
+UAV computing capability followed the advances of computing technology  beginning with analog controls and evolving into microcontrollers  then system on a chip  SOC  and single board computers  SBC  
+Modern system hardware for UAV control is often called the flight controller  FC   flight controller board  FCB  or autopilot  Common UAV systems control hardware typically incorporate a primary microprocessor  a secondary or failsafe processor  and sensors such as accelerometers  gyroscopes  magnetometers  and barometers into a single module 
+In      EASA agreed on the first certification basis for a UAV flight controller in compliance with the ETSO C    for Embention s autopilot  The certification of the UAV flight control systems aims to facilitate the integration of UAVs within the airspace and the operation of drones in critical areas             
+
+Architecture edit 
+Sensors edit 
+Position and movement sensors give information about the aircraft state  Exteroceptive sensors deal with external information like distance measurements  while exproprioceptive ones correlate internal and external states              
+Non cooperative sensors are able to detect targets autonomously so they are used for separation assurance and collision avoidance              
+Degrees of freedom  DOF  refers to both the amount and quality of onboard sensors    DOF implies   axis gyroscopes and accelerometers  a typical inertial measurement unit                   IMU     DOF refers to an IMU plus a compass     DOF adds a barometer and    DOF usually adds a GPS receiver              
+In addition to the navigation sensors  the UAV  or UAS  can be also equipped with monitoring devices such as  RGB  multispectral  hyper spectral cameras or LiDAR  which may allow providing specific measurements or observations              
+
+Actuators edit 
+UAV actuators include digital electronic speed controllers  which control the RPM of the motors  linked to motors engines and propellers  servomotors  for planes and helicopters mostly   weapons  payload actuators  LEDs and speakers 
+
+Software edit 
+Modern UAVs run a software stack that ranges from low level firmware that directly controls actuators  to high level flight planning  At the lowest level  firmware directly controls reading from sensors such as an IMU              and commanding actuators such as motors  Control software  often referred to as an autopilot  is responsible for computing actuator speeds given desired vehicle velocity  Due to its direct interaction with hardware  this software is time critical and may run on microcontrollers  This software may also handle radio communications  in the case of UAVs that are not autonomous  One popular example is the PX  autopilot 
+At the next level  autonomy algorithms compute the desired velocity given higher level goals  For example  trajectory optimization              may be used to calculate a flight trajectory given a desired goal location  This software is not necessarily time critical  and can often run on a single board computer running an operating system such as Linux with relaxed time constraints 
+
+Loop principles edit 
+Typical flight control loops for a multirotor
+UAVs employ open loop  closed loop or hybrid control architectures 
+
+Open loop                   This type provides a positive control signal  faster  slower  left  right  up  down  without incorporating feedback from sensor data 
+Closed loop                   This type incorporates sensor feedback to adjust behavior  reduce speed to reflect tailwind  move to altitude     feet   The PID controller is common  Sometimes  feedforward is employed  transferring the need to close the loop further              
+Communications edit 
+UAVs use a radio for control and exchange of video and other data  Early UAVs had only narrowband uplink  Downlinks came later  These bi directional narrowband radio links carried command and control  C amp C  and telemetry data about the status of aircraft systems to the remote operator 
+In most modern UAV applications  video transmission is required  So instead of having separate links for C amp C  telemetry and video traffic  a broadband link is used to carry all types of data  These broadband links can leverage quality of service techniques and carry TCP IP traffic that can be routed over the internet 
+The radio signal from the operator side can be issued from either 
+
+Ground control   a human operating a radio transmitter receiver  a smartphone  a tablet  a computer  or the original meaning of a military ground control station  GCS  
+Remote network system  such as satellite duplex data links for some military powers  Downstream digital video over mobile networks has also entered consumer markets  while direct UAV control uplink over the cellular mesh and LTE have been demonstrated and are in trials              
+Another aircraft  serving as a relay or mobile control station                   military manned unmanned teaming  MUM T               
+Modern networking standards have explicitly considered drones and therefore include optimizations  The  G standard has mandated reduced user plane latency to  ms while using ultra reliable and low latency communications              
+UAV to UAV coordination supported by Remote ID communication technology  Remote ID messages  containing the UAV coordinates  are broadcast and can be used for collision free navigation              
+
+Autonomy edit 
+Main article  Autonomous aircraft
+UAV s degrees of autonomy
+The level of autonomy in UAVs varies widely  UAV manufacturers often build in specific autonomous operations  such as              
+
+Self level  attitude stabilization on the pitch and roll axes 
+Altitude hold  The aircraft maintains its altitude using barometric pressure and or GPS data 
+Hover position hold  Keep level pitch and roll  stable yaw heading and altitude while maintaining position using GNSS or inertial sensors 
+Headless mode  Pitch control relative to the position of the pilot rather than relative to the vehicle s axes 
+Care free  automatic roll and yaw control while moving horizontally
+Takeoff and landing  using a variety of aircraft or ground based sensors and systems  see also  autoland  
+Failsafe  automatic landing or return to home upon loss of control signal
+Return to home  Fly back to the point of takeoff  often gaining altitude first to avoid possible intervening obstructions such as trees or buildings  
+Follow me  Maintain relative position to a moving pilot or other object using GNSS  image recognition or homing beacon 
+GPS waypoint navigation  Using GNSS to navigate to an intermediate location on a travel path 
+Orbit around an object  Similar to Follow me but continuously circle a target 
+Pre programmed aerobatics  such as rolls and loops 
+Pre programmed delivery  delivery drones 
+One approach to quantifying autonomous capabilities is based on OODA terminology  as suggested by a      US Air Force Research Laboratory report  and used in the table on the right              
+
+A Northrop Grumman X   B unmanned combat aircraft demonstrator of the US Navy refuels in flight from a tanker aircraft 
+Full autonomy is available for specific tasks  such as airborne refueling              or ground based battery switching 
+Other functions available or under development include  collective flight  real time collision avoidance  wall following  corridor centring  simultaneous localization and mapping and swarming               cognitive radio  and machine learning  In this context  computer vision can play an important role for automatically ensuring flight safety 
+
+Performance considerations edit 
+Flight envelope edit 
+UAVs can be programmed to perform aggressive maneuvers or landing perching on inclined surfaces               and then to climb toward better communication spots               Some UAVs can control flight with varying flight modelisation                            such as VTOL designs 
+UAVs can also implement perching on a flat vertical surface              
+
+Endurance edit 
+UEL UAV     Wankel engine for UAV operations  used on AAI RQ   Shadow
+Flight time against mass of small  less than        kg  drones             
+UAV endurance is not constrained by the physiological capabilities of a human pilot 
+Because of their small size  low weight  low vibration and high power to weight ratio  Wankel rotary engines are used in many large UAVs  Their engine rotors cannot seize  the engine is not susceptible to shock cooling during descent and it does not require an enriched fuel mixture for cooling at high power  These attributes reduce fuel usage  increasing range or payload 
+Proper drone cooling is essential for long term drone endurance  Overheating and subsequent engine failure is the most common cause of drone failure              
+Hydrogen fuel cells  using hydrogen power  may be able to extend the endurance of small UAVs  up to several hours                           
+Micro air vehicles endurance is so far best achieved with flapping wing UAVs  followed by planes and multirotors standing last  due to lower Reynolds number              
+Solar electric UAVs  a concept originally championed by the AstroFlight Sunrise in       have achieved flight times of several weeks 
+Solar powered atmospheric satellites   atmosats   designed for operating at altitudes exceeding         km     miles  or        feet  for as long as five years could potentially perform duties more economically and with more versatility than low Earth orbit satellites  Likely applications include weather drones for weather monitoring  disaster recovery  Earth imaging and communications 
+Electric UAVs powered by microwave power transmission or laser power beaming are other potential endurance solutions              
+Another application for a high endurance UAV would be to  stare  at a battlefield for a long interval  ARGUS IS  Gorgon Stare  Integrated Sensor Is Structure  to record events that could then be played backwards to track battlefield activities 
+
+
+Lengthy endurance flights
+
+
+UAV
+Flight timehours minutes
+Date
+Notes
+
+
+Boeing Condor
+     
+    
+The aircraft is currently in the Hiller Aviation Museum 
+             
+
+
+
+General Atomics Gnat
+     
+    
+                          
+
+
+TAM  
+     
+   August     
+Smallest UAV to cross the Atlantic
+             
+
+
+
+QinetiQ Zephyr Solar Electric
+     
+September     
+                          
+
+
+RQ   Global Hawk
+     
+   March     
+Set an endurance record for a full scale  operational uncrewed aircraft              
+
+
+QinetiQ Zephyr Solar Electric
+     
+      July     
+             
+
+
+QinetiQ Zephyr  
+      
+     July     
+Solar electric powered  Remained aloft for    days  Also filed for FAI altitude record of             ft         m              
+
+The delicacy of the British PHASA    military drone  at a late stage of development  is such that traversing the first turbulent twelve miles of atmosphere is a hazardous endeavor  It has  however  remained on station at        feet for    hours  Airbus  Zephyr in      has attained        feet and flown for    days      days aimed at  This is sufficiently close enough to near space for them to be regarded in  pseudo satellites  as regards to their operational capabilities              
+
+Reliability edit 
+Reliability improvements target all aspects of UAV systems  using resilience engineering and fault tolerance techniques 
+Individual reliability covers robustness of flight controllers  to ensure safety without excessive redundancy to minimize cost and weight               Besides  dynamic assessment of flight envelope allows damage resilient UAVs  using non linear analysis with ad hoc designed loops or neural networks               UAV software liability is bending toward the design and certifications of crewed avionics software              
+Swarm resilience involves maintaining operational capabilities and reconfiguring tasks given unit failures              
+
+Applications edit 
+Main article  List of unmanned aerial vehicle applications
+In recent years  autonomous drones have begun to transform various application areas as they can fly beyond visual line of sight  BVLOS               while maximizing production  reducing costs and risks  ensuring site safety  security and regulatory compliance               and protecting the human workforce in times of a pandemic               They can also be used for consumer related missions like package delivery  as demonstrated by Amazon Prime Air  and critical deliveries of health supplies 
+There are numerous civilian  commercial  military  and aerospace applications for UAVs             These include 
+
+General
+Recreation  disaster relief  archeology  conservation of biodiversity and habitat               law enforcement  crime  and terrorism 
+Commercial
+Aerial surveillance  filmmaking               journalism  scientific research  surveying  cargo transport  mining  manufacturing  forestry  solar farming  thermal energy  ports and agriculture 
+Warfare edit 
+Main articles  Unmanned combat aerial vehicle  Drone warfare  Loitering munition  Unmanned surveillance and reconnaissance aerial vehicle  Miniature UAV  Micro air vehicle  and Target drone
+A Baykar Bayraktar TB  of the Ukrainian Air Force armed with MAM L  two ground control stations in the background
+As of       seventeen countries have armed UAVs  and more than     countries use UAVs in a military capacity               The first five countries producing domestic UAV designs are the United States  China  Israel  Iran and Turkey                                                       Top military UAV manufactures are including General Atomics  Lockheed Martin  Northrop Grumman  Boeing  Baykar                            TAI  IAIO  CASC and CAIG               China has established and expanded its presence in military UAV market              since       In the early     s  Turkey also established and expanded its presence in the military UAV market                                                     
+In the early     s  Israeli companies mainly focused on small surveillance UAV systems  and by the number of drones  Israel exported              of UAVs on the market while the United States exported                            Between      and       there were     drones exchanged compared to     in the five years previous to that  among these only small fraction of overall trade   just           of the     are armed drones               The US alone operated over       military UAVs in       among them more than      are RQ    Raven miniature UAVs               Since       Chinese drone companies have begun to export large quantities of drones to the global military market  Of the    countries that are known to have received military drones between      and       the top    all purchased their drones from China                            The shift accelerated in the     s due to China s advancement in drone technologies and manufacturing  compounded by market demand from the Russian invasion of Ukraine and the Israel Gaza conflict                                                     
+For intelligence and reconnaissance missions  the inherent stealth of micro UAV flapping wing ornithopters  imitating birds or insects  offers potential for covert surveillance and makes them difficult targets to bring down 
+Unmanned surveillance and reconnaissance aerial vehicle are used for reconnaissance  attack  demining  and target practice 
+Following the      Russian invasion of Ukraine a dramatic increase in UAV development took place with Ukraine creating the Brave  platform to promote rapid development of innovative systems 
+
+Civil applications edit 
+Zipline s aircraft being launched from a base in Rwanda to deliver blood products
+The civilian  commercial and general  drone market is dominated by Chinese companies  Chinese manufacturer DJI alone had     of the civil market share in       with no other company accounting for more than                  The companies continue to hold over     of global market share by       despite under increasing scrutinies and sanctions from the United States               The US Interior Department grounded its fleet of DJI drones in       while the Justice Department prohibited the use of federal funds for the purchase of DJI and other foreign made UAVs                            
+DJI is followed by American company  D Robotics  Chinese company Yuneec  Autel Robotics  and French company Parrot                           
+As of May               UAVs had been registered with the US FAA  of which     were categorized as commercial and     as recreational                    NPD point to consumers increasingly purchasing drones with more advanced features with    percent growth in both the       and        market segments              
+The civil UAV market is relatively new compared to the military one  Companies are emerging in both developed and developing nations at the same time  Many early stage startups have received support and funding from investors  as is the case in the United States  and from government agencies  as is the case in India               Some universities offer research and training programs or degrees               Private entities also provide online and in person training programs for both recreational and commercial UAV use              
+Consumer drones are widely used by police and military organizations worldwide because of the cost effective nature of consumer products  Since       the Israeli military have used DJI UAVs for light reconnaissance missions                                         DJI drones have been used by Chinese police in Xinjiang since                                and American police departments nationwide since                                 Both Ukraine and Russia used commercial DJI drones extensively during the Russian invasion of Ukraine               These civilian DJI drones were sourced by governments  hobbyists  international donations to Ukraine and Russia to support each side on the battlefield  and were often flown by drone hobbyists recruited by the armed forces  The prevalence of DJI drones was attributable to their market dominance  affordability  high performance  and reliability              
+
+Entertainment edit 
+See also  Drone art and Drone racing
+Drones are also used in nighttime displays for artistic and advertising purposes with the main benefits are that they are safer  quieter and better for the environment than fireworks  They can replace or be an adjunct for fireworks displays to reduce the financial burden of festivals  In addition they can complement fireworks due to the ability for drones to carry them  creating new forms of artwork in the process                                        
+Drones can also be used for racing  either with or without VR functionality 
+
+Aerial photography edit 
+See also  Drone journalism
+Drones are ideally suited to capturing aerial shots in photography and cinematography  and are widely used for this purpose               Small drones avoid the need for precise coordination between pilot and cameraman  with the same person taking on both roles  Big drones with professional cine cameras usually have a drone pilot and a camera operator who controls camera angle and lens  For example  the AERIGON cinema drone  used in film production  is operated by two people                   full citation needed      Drones provide access to dangerous  remote or otherwise inaccessible sites 
+
+Environmental monitoring edit 
+UASs or UAVs offer the great advantage for environmental monitoring to generate a new generation of survey at very high or ultra high resolution both in space and time               This gives the opportunity to bridge the existing gap between satellite data and field monitoring  This has stimulated a huge number of activities in order to enhance the description of natural and agricultural ecosystems  Most common applications are 
+
+Topographic surveys              for the production of orthomosaics  digital surface models and  D models 
+Monitoring of natural ecosystems for biodiversity monitoring               habitat mapping               detection of invasive alien species              and study of ecosystem degradation due to invasive species or disturbances 
+Precision agriculture              which exploits all available technologies including UAV in order to produce more with less  e g   optimisation of fertilizers  pesticides  irrigation  
+River monitoring several methods have been developed to perform flow monitoring using image velocimetry methods which allow to properly describe the  D flow velocity fields              
+Structural integrity of any type of structure whether it be a dam  railway or other dangerous  inaccessible or massive locations for building monitoring              
+Mineral detection for acid mine drainage using UAVs and hyperspectral cameras can produce detailed maps of proxy minerals  e g  goethite  jarosite  for certain pH values in natural  mining and post mining environments  such as remediated sites                           
+These activities can be completed with different measurements  such as photogrammetry  thermography  multispectral images   D field scanning  and normalized difference vegetation index maps 
+
+Geological hazards edit 
+UAVs have become a widely used tool for studying geohazards such as landslides               Various sensors  including radar  optical  and thermal  can be mounted on UAVs to monitor different properties  UAVs enable the capture of images of various landslide features  such as transverse  radial  and longitudinal cracks  ridges  scarps  and surfaces of rupture  even in inaccessible areas of the sliding mass                            Moreover  processing the optical images captured by UAVs also allows for the creation of point clouds and  D models  from which these properties can be derived               Comparing point clouds obtained at different times allows for the detection of changes caused by landslide deformation                           
+
+Mineral exploration edit 
+UAVs may help in the discovery of new or reevaluation of known mineral deposits to meet the demand for raw materials such as critical raw metals  e g  cobalt  nickel   rare earths and battery minerals  By employing a suite of sensors  e g  spectral imaging  Lidar  magnetics  gamma ray spectroscopy                             and similar to those used in environmental monitoring  UAV based data can produce maps of geological surface and subsurface features  contributing to more efficient and targeted mineral exploration                           
+
+Agriculture  forestry and environmental studies edit 
+Main article  Agricultural drone
+Agricultural drone on trailer setup
+As global demand for food production grows exponentially  resources are depleted  farmland is reduced  and agricultural labor is increasingly in short supply  there is an urgent need for more convenient and smarter agricultural solutions than traditional methods  and the agricultural drone and robotics industry is expected to make progress               Agricultural drones have been used to help build sustainable agriculture all over the world leading to a new generation of agriculture               In this context  there is a proliferation of innovations in both tools and methodologies which allow precise description of vegetation state and also may help to precisely distribute nutrients  pesticides or seeds over a field            
+The use of UAVs is also being investigated to help detect and fight wildfires  whether through observation or launching pyrotechnic devices to start backfires              
+UAVs are also now widely used to survey wildlife such as nesting seabirds  seals and even wombat burrows              
+
+Law enforcement edit 
+Main article  Use of UAVs in law enforcement
+Police can use drones for applications such as search and rescue and traffic monitoring              
+
+Humanitarian aid edit 
+See also  Delivery drone
+Drones are increasingly finding their application in humanitarian aid and disaster relief  where they are used for a wide range of applications such as delivering food  medicine and essential items to remote areas or image mapping before and following disasters              
+
+Safety and security edit 
+See also  List of UAV related incidents and Unmanned combat aerial vehicle
+US Department of Agriculture poster warning about the risks of flying UAVs near wildfires
+Threats edit 
+Nuisance edit 
+UAVs can threaten airspace security in numerous ways  including unintentional collisions or other interference with other aircraft  deliberate attacks or by distracting pilots or flight controllers  The first incident of a drone airplane collision occurred in mid October      in Quebec City  Canada               The first recorded instance of a drone collision with a hot air balloon occurred on    August      in Driggs  Idaho  United States  although there was no significant damage to the balloon nor any injuries to its   occupants  the balloon pilot reported the incident to the National Transportation Safety Board  stating that  I hope this incident helps create a conversation of respect for nature  the airspace  and rules and regulations                Unauthorized UAV flights into or near major airports have prompted extended shutdowns of commercial flights              
+Drones caused significant disruption at Gatwick Airport during December       needing the deployment of the British Army                           
+In the United States  flying close to a wildfire is punishable by a maximum         fine  Nonetheless  in      and       firefighting air support in California was hindered on several occasions  including at the Lake Fire              and the North Fire                            In response  California legislators introduced a bill that would allow firefighters to disable UAVs which invaded restricted airspace               The FAA later required registration of most UAVs 
+
+Security vulnerabilities edit 
+By       drones were being used to drop contraband into prisons              
+The interest in UAVs cybersecurity has been raised greatly after the Predator UAV video stream hijacking incident in                    where Islamic militants used cheap  off the shelf equipment to stream video feeds from a UAV  Another risk is the possibility of hijacking or jamming a UAV in flight  Several security researchers have made public some vulnerabilities in commercial UAVs  in some cases even providing full source code or tools to reproduce their attacks               At a workshop on UAVs and privacy in October       researchers from the Federal Trade Commission showed they were able to hack into three different consumer quadcopters and noted that UAV manufacturers can make their UAVs more secure by the basic security measures of encrypting the Wi Fi signal and adding password protection              
+
+Aggression edit 
+Many UAVs have been loaded with dangerous payloads  and or crashed into targets  Payloads have included or could include explosives  chemical  radiological or biological hazards  UAVs with generally non lethal payloads could possibly be hacked and put to malicious purposes  Counter UAV systems  C UAS   from detection to electronic warfare to UAVs designed to destroy other UAVs  are in development and being deployed by states to counter this threat 
+Such developments have occurred despite the difficulties  As J  Rogers stated in a      interview to A amp T   There is a big debate out there at the moment about what the best way is to counter these small UAVs  whether they are used by hobbyists causing a bit of a nuisance or in a more sinister manner by a terrorist actor               
+
+Countermeasures edit 
+Counter unmanned air system edit 
+Further information  Electronic warfare
+Italian Army soldiers of the   th Anti aircraft Artillery Regiment  Sforzesca  with a portable drone jammer in Rome
+Cannon anti drone system
+The malicious use of UAVs has led to the development of counter unmanned air system  C UAS  technologies  Automatic tracking and detection of UAVs from commercial cameras have become accurate thanks to the development of deep learning based machine learning algorithms               It is also possible to automatically identify UAVs across different cameras with different viewpoints and hardware specification with re identification methods                Commercial systems such as the Aaronia AARTOS have been installed on major international airports                            Once a UAV is detected  it can be countered with kinetic force  missiles  projectiles or another UAV  or by non kinetic force  laser  microwaves  communications jamming                Anti aircraft missile systems such as the Iron Dome are also being enhanced with C UAS technologies  Utilising a smart UAV swarm to counter one or more hostile UAVs is also proposed              
+
+Regulation edit 
+Main article  Regulation of unmanned aerial vehicles
+Regulatory bodies around the world are developing unmanned aircraft system traffic management solutions to better integrate UAVs into airspace              
+The use of unmanned aerial vehicles is becoming increasingly regulated by the civil aviation authorities of individual countries  Regulatory regimes can differ significantly according to drone size and use  The International Civil Aviation Organization  ICAO  began exploring the use of drone technology as far back as       which resulted in a      report               France was among the first countries to set a national framework based on this report and larger aviation bodies such as the FAA and the EASA quickly followed suit               In       the FAA published a rule requiring all commercially used UAVs and all UAVs regardless of intent weighing     g or more to participate in Remote ID  which makes drone locations  controller locations  and other information public from takeoff to shutdown  this rule has since been challenged in the pending federal lawsuit RaceDayQuads v  FAA                           
+
+EU Drone Certification   Class Identification Label edit 
+The implementation of the Class Identification Label serves a crucial purpose in the regulation and operation of drones                The label is a verification mechanism designed to confirm that drones within a specific class meet the rigorous standards set by administrations for design and manufacturing               These standards are necessary to ensure the safety and reliability of drones in various industries and applications 
+By providing this assurance to customers  the Class Identification Label helps to increase confidence in drone technology and encourages wider adoption across industries  This  in turn  contributes to the growth and development of the drone industry and supports the integration of drones into society 
+
+Export controls edit 
+The export of UAVs or technology capable of carrying a          kg payload at least          km is restricted in many countries by the Missile Technology Control Regime 
+
+See also edit 
+
+List of unmanned aerial vehicles
+Delivery drone
+Drone in a Box
+Glide bomb
+International Aerial Robotics Competition
+List of films featuring drones
+List of military electronics of the United States
+MARSS Interceptor
+Micromechanical Flying Insect
+ParcAberporth
+Quadcopter
+Radio controlled aircraft
+Autonomous aircraft
+Optionally piloted vehicle
+Sypaq Corvo Precision Payload Delivery System
+Satellite Sentinel Project
+Tactical Control System
+UAV ground control station
+Unmanned underwater vehicle
+Portals  Aviation Systems science Engineering Telecommunication
+
+References edit 
+Citations edit 
+
+
+  a b De Gruyter Handbook of Drone Warfare        e ISBN  PDF                    
+
+  H  Pan  M  Zahmatkesh  F  Rekabi Bana  F  Arvin  J  Hu  T STAR  Time Optimal Swarm Trajectory Planning for Quadrotor Unmanned Aerial Vehicles  IEEE Transactions on Intelligent Transportation Systems       
+
+  Tice  Brian P   Spring         Unmanned Aerial Vehicles   The Force Multiplier of the     s   Airpower Journal  Archived from the original on    July       Retrieved   June       When used  UAVs should generally perform missions characterized by the three Ds  dull  dirty  and dangerous 
+
+  a b Alvarado  Ed    May             Ways Drone Applications Revolutionize Business   Drone Industry Insights  Archived from the original on    May       Retrieved    May      
+
+  F   Rekabi Bana  Hu  J   T  Krajn k  Arvin  F    Unified Robust Path Planning and Optimal Trajectory Generation for Efficient  D Area Coverage of Quadrotor UAVs  IEEE Transactions on Intelligent Transportation Systems       
+
+  a b Hu  J   Niu  H   Carrasco  J   Lennox  B   Arvin  F    Fault tolerant cooperative navigation of networked UAV swarms for forest fire monitoring  Aerospace Science and Technology       
+
+  a b Remote sensing of the environment using unmanned aerial systems  UAS    S l    ELSEVIER   HEALTH SCIENCE        ISBN                         OCLC                  Archived from the original on    February       Retrieved    January      
+
+  Perks  Matthew T   Dal Sasso  Silvano Fortunato  Hauet  Alexandre  Jamieson  Elizabeth  Le Coz  J r me  Pearce  Sophie  Pe a Haro  Salvador  Pizarro  Alonso  Strelnikova  Dariia  Tauro  Flavia  Bomhof  James  Grimaldi  Salvatore  Goulet  Alain  Hortob gyi  Borb la  Jodeau  Magali    July         Towards harmonisation of image velocimetry techniques for river surface velocity observations   Earth System Science Data                     Bibcode     ESSD          P  doi         essd               hdl               ISSN                 Archived from the original on    January       Retrieved    January      
+
+  Koparan  Cengiz  Koc  A  Bulent  Privette  Charles V   Sawyer  Calvin B   March         Adaptive Water Sampling Device for Aerial Robots   Drones            Bibcode     Drone         K  doi         drones         ISSN              X 
+
+  Koparan  Cengiz  Koc  Ali Bulent  Privette  Charles V   Sawyer  Calvin B   Sharp  Julia L   May         Evaluation of a UAV Assisted Autonomous Water Sampling   Water               Bibcode     Water         K  doi         w         
+
+  Koparan  Cengiz  Koc  Ali Bulent  Privette  Charles V   Sawyer  Calvin B   March         In Situ Water Quality Measurements Using an Unmanned Aerial Vehicle  UAV  System   Water               Bibcode     Water         K  doi         w         
+
+  Koparan  Cengiz  Koc  Ali Bulent  Privette  Charles V   Sawyer  Calvin B   March         Autonomous In Situ Measurements of Noncontaminant Water Quality Indicators and Sample Collection with a UAV   Water               Bibcode     Water         K  doi         w         
+
+   Drones smuggling porn  drugs to inmates around the world   Fox News     April       Archived from the original on    August       Retrieved    April      
+
+  Note  the term  drone  refers to the male bee that serves only to fertilize the queen bee  hence the use of the name in reference to the DH Queen Bee aerial target 
+
+   Drones and Artificial Intelligence   Drone Industry Insights     August       Archived from the original on    September       Retrieved    April      
+
+   What is the difference between a drone and an RC plane or helicopter    Drones Etc  Drones Etc  Archived from the original on    November       Retrieved    October      
+
+   unmanned aerial vehicle   TheFreeDictionary com  Archived from the original on   January       Retrieved   January      
+
+  Guilmartin  John F   unmanned aerial vehicle   Encyclopedia Britannica  Archived from the original on    March       Retrieved    March      
+
+      CFR Part      Docket FAA            Amdt            FR        June           as amended by Amdt  No            FR       Jan                   eCFR            CFR Part        Small Unmanned Aircraft Systems  FAR Part       Federal Aviation Administration  Department of Transportation     January       Retrieved    February        cite web     CS  maint  url status  link 
+
+   Unmanned Aircraft Systems Roadmap   PDF   Archived from the original  PDF  on   October      
+
+   European ATM Master Plan        SESAR   www sesarju eu  Archived from the original on   February       Retrieved   February      
+
+   State government gears up for autonomous RPAS mapping      January       Archived from the original on    February       Retrieved   February      
+
+   Canadian Aviation Regulations   Government of Canada   Justice Laws Website    June       Archived from the original on   January       Retrieved    January      
+
+   The FAA is shifting from unmanned to uncrewed   
+
+    Defence Drone Strategy   the UK s approach to Defence Uncrewed Systems  
+
+   Aviation Management  Chapter      Uncrewed Aircraft Systems   PDF  
+
+  a b c d  UAV classification   Archived from the original on    May       Retrieved    June      
+
+   Eyes of the Army  U S  Army Roadmap for UAS             PDF   Archived  PDF  from the original on    February       Retrieved    June      
+
+   Nano  micro  small  The different drone types in India  amp  if Jammu like strike can be averted   Archived    June      at the Wayback Machine  ThePrint     June      
+
+  Drones  Percepto    January         The Differences Between UAV  UAS  and Autonomous Drones   Percepto  Archived from the original on    February       Retrieved    February      
+
+  Cary  Leslie  Coyne  James   ICAO Unmanned Aircraft Systems  UAS   Circular                 UAS Yearbook   UAS  The Global Perspective  PDF   Blyenburgh  amp  Co  pp                Archived from the original  PDF  on   March       Retrieved    February      
+
+  Hu  J   Lanzon  A           An innovative tri rotor drone and associated distributed aerial drone swarm control   Robotics and Autonomous Systems                doi         j robot             
+
+  Garrow  Laurie A   German  Brian J   Leonard  Caroline E     November         Urban air mobility  A comprehensive review and comparative analysis with autonomous and electric ground transportation for informing future research   Transportation Research Part C  Emerging Technologies               Bibcode     TRPC          G  doi         j trc              ISSN              X 
+
+   Exploring Gas Powered Drones  Uses and Benefits   www flyability com  Retrieved   August      
+
+  Zhang  Caizhi  Qiu  Yuqi  Chen  Jiawei  Li  Yuehua  Liu  Zhitao  Liu  Yang  Zhang  Jiujun  Hwa  Chan Siew    August         A comprehensive review of electrochemical hybrid power supply systems and intelligent energy managements for unmanned aerial vehicles in public services   Energy and AI             Bibcode     EneAI         Z  doi         j egyai              hdl               ISSN                
+
+  Nefedkin  S  I   Klimova  M  A   Glasov  V  S   Pavlov  V  I   Tolmachev  Y  V  Effect of the corrugated bipolar plate design on the self humidification of a high power density PEMFC stack for UAVs  Fuel Cells                                 fuce           
+
+   Powering Solutions for Your Drone in       New Fuels   Commercial Uav News  Retrieved   August      
+
+  jenks         January         Solar Powered Drones and UAVs   Green org  Retrieved   August        cite web     CS  maint  numeric names  authors list  link 
+
+  Fabled Sky Research          Revolutionizing UAV Capabilities  Exploring the Potential of Nuclear Propulsion Systems   UAV Technologies         Bytes  doi         M  FIGSHARE          V  
+
+  The Encyclopedia of the Arab Israeli Conflict  A Political  Social  and Military History  A Political  Social  and Military History  ABC CLIO     May       by Spencer C  Tucker  Priscilla Mary Roberts  pages         ISBN
+
+  The Future of Drone Use  Opportunities and Threats from Ethical and Legal Perspectives Archived    February      at the Wayback Machine  Asser Press                   Springer  chapter by Alan McKenna  page    
+
+  Kaplan  Philip         Naval Aviation in the Second World War  Pen and Sword  p           ISBN                         Archived from the original on    February       Retrieved    August      
+
+  Hallion  Richard P          Taking Flight  Inventing the Aerial Age  from Antiquity through the First World War  Oxford University Press  p           ISBN                        
+
+  Naval Aviation in the First World War  Its Impact and Influence  R  D  Layman  page   
+
+  Renner  Stephen L          Broken Wings  The Hungarian Air Force           Indiana University Press  p          ISBN                         Archived from the original on    February       Retrieved    October      
+
+  Murphy  Justin D          Military Aircraft  Origins to       An Illustrated History of Their Impact  ABC CLIO  pp             ISBN                         Archived from the original on    February       Retrieved    August      
+
+  Haydon  F  Stansbury         Military Ballooning During the Early Civil War  JHU Press  pp              ISBN                        
+
+  Mikesh  Robert C           Japan s World War II balloon bomb attacks on North America   PDF   Smithsonian Annals of Flight      Washington  DC        doi         si AnnalsFlight    hdl              ISSN                 Archived  PDF  from the original on   December       Retrieved    July      
+
+  Tapan K  Sarkar  History of wireless  John Wiley and Sons        ISBN                     p     
+
+  Biodiversity Heritage Library  M canique Appliqu e    Sur le t l kine  Note de M  L  Torres  pr sent e par M  Appell   August       pp           Comptes rendus de l Acad mie des Sciences 
+
+  Randy Alfred   Nov           Remote Control Wows Public   Wired    November      
+
+  H  R  Everett         Unmanned Systems of World Wars I and II  MIT Press  pp              ISBN                        
+
+  a b c Taylor  John W  R   Jane s Pocket Book of Remotely Piloted Vehicles 
+
+  Professor A  M  Low FLIGHT    October      page      The First Guided Missile 
+
+  Dempsey  Martin E     April         Eyes of the Army U S  Army Roadmap for Unmanned Aircraft Systems             PDF   U S  Army  Archived from the original  PDF  on    September       Retrieved   March      
+
+  Says  Robert Kanyike     May         History of U S  Drones   Archived from the original on    September       Retrieved    February      
+
+  Andersson  Lennart         Soviet Aircraft and Aviation             The Putnam Aviation Series  Annapolis  Maryland  Naval Institute Press  p            ISBN                     Archived from the original on    February       Retrieved    December       Experiments with a pilotless drone version of the TB   controlled by radio from other aircraft started in      and continued until      
+
+  H  R  Everett         Unmanned Systems of World Wars I and II  MIT Press  p            ISBN                    
+
+  Wagner       p       xi 
+
+  Wagner       p       xi  xii 
+
+  Wagner       p       xii 
+
+  Wagner       p          
+
+  Wagner       p              
+
+  Dunstan  Simon         Israeli Fortifications of the October War       Osprey Publishing  p           ISBN                     Retrieved    October       The War of Attrition was also notable for the first use of UAVs  or unmanned aerial vehicles  carrying reconnaissance cameras in combat      permanent dead link     
+
+  Saxena  V  K          The Amazing Growth and Journey of UAV s and Ballistic Missile Defence Capabilities  Where the Technology is Leading to   Vij Books India Pvt Ltd  p          ISBN                     Archived from the original on    February       Retrieved    October       During the Yom Kippur War the Israelis used Teledyne Ryan     R RPVs along with the home grown Scout and Mastiff UAVs for reconnaissance  surveillance  and as decoys to draw fire from Arab SAMs  This resulted in Arab forces expending costly and scarce missiles on inappropriate targets       
+
+  Blum  Howard         The eve of destruction  the untold story of the Yom Kippur War  HarperCollins  ISBN                    
+
+  Wagner       p           
+
+  Wagner       p                
+
+  a b Wagner       p           
+
+   A Brief History of UAVs   Howstuffworks com     July       Archived from the original on    May       Retrieved   January      
+
+   Russia Buys A Bunch of Israeli UAVs   Strategypage com  Archived from the original on    October       Retrieved   January      
+
+  Azoulai  Yuval     October         Unmanned combat vehicles shaping future warfare   Globes  Archived from the original on   December       Retrieved   January      
+
+  Levinson  Charles     January         Israeli Robots Remake Battlefield   The Wall Street Journal  p       A    Archived from the original on    March       Retrieved    January      
+
+  Gal Or  Benjamin         Vectored Propulsion  Supermaneuverability  amp  Robot Aircraft  Springer Verlag  ISBN                        
+
+  Fuller  Christopher J           The Eagle Comes Home to Roost  The Historical Origins of the CIA s Lethal Drone Program   Intelligence and National Security                   doi                               S CID                
+
+  Z  Goraj  A  Frydrychewicz  R   witkiewicz  B  Hernik  J  Gadomski  T  Goetzendorf Grabowski  M  Figat  St Suchodolski  W  Chajec  report  PDF   Bulletin of the Polish Academy of Sciences  Technical Sciences  Volume     Number          Archived  PDF  from the original on   March       Retrieved   December      
+
+  Community Research and Development Information Service  Civil UAV application and economic effectiveness of potential configuration solutions  Publications Office of the European Union  Archived from the original on    January       Retrieved   December      
+
+  Ackerman  Spencer  Shachtman  Noah    January         Almost   in   U S  Warplanes Is a Robot   Wired  Archived from the original on    March       Retrieved   January      
+
+  a b Singer  Peter W   A Revolution Once More  Unmanned Systems and the Middle East   Archived   August      at the Wayback Machine  The Brookings Institution  November      
+
+  Radsan  A  J   Murphy  Richard          Measure Twice  Shoot Once  Higher Care for CIA Targeted Killing   University of Illinois Law Review                       SSRN              
+
+  Sayler       
+
+  Franke  Ulrike Esther          The global diffusion of unmanned aerial vehicles  UAVs  or  drones    In Mike Aaronson  ed  Precision Strike Warfare and International Intervention  Routledge 
+
+  Hambling  David   Drones may have attacked humans fully autonomously for the first time   New Scientist  Archived from the original on    July       Retrieved    May      
+
+  Forestier Walker  Robin     October         Nagorno Karabakh  New weapons for an old conflict spell danger   Al Jazeera  Archived from the original on    October       Retrieved    December                battlefield videos and the known military capabilities of the two warring sides suggest Azerbaijan has the technological advantage  especially with its combat drones purchased from Israel and Turkey 
+
+  Bailon Ruiz  Rafael  Lacroix  Simon  Bit Monnot  Arthur  October        Planning to Monitor Wildfires with a Fleet of UAVs       IEEE RSJ International Conference on Intelligent Robots and Systems  IROS   Madrid  IEEE  pp                  doi         IROS               ISBN                         S CID                Archived from the original on    December       Retrieved    January      
+
+  Hill  John    May         In data  UAS market projected to nearly double in ten years   Army Technology  Retrieved   May      
+
+   Design  Simulation and New Applications of Unmanned Aerial Vehicles   www mdpi com  Retrieved    March      
+
+  Nagel  Huub  Bondt  Geert  Custers  Bart  Vergouw  Bas     July         Drone Technology  Types  Payloads  Applications  Frequency Spectrum Issues and Future Developments   The Future of Drone Use 
+
+  da Silva  F B  Scott  S D  Cummings  M L  December         Design Methodology for Unmannded Aerial Vehicle  UAV  Team Coordination   PDF   Design Methodology for Unmannded Aerial Vehicle  UAV  Team Coordination 
+
+  Torres S nchez  Jorge  L pez Granados  Francisca  Castro  Ana Isabel De  Pe a Barrag n  Jos  Manuel    March         Configuration and Specifications of an Unmanned Aerial Vehicle  UAV  for Early Site Specific Weed Management   PLOS ONE         e       Bibcode     PLoSO         T  doi         journal pone          ISSN                 PMC               PMID               
+
+  Torres S nchez  Jorge  L pez Granados  Francisca  De Castro  Ana Isabel  Pe a Barrag n  Jos  Manuel          Configuration and specifications of an Unmanned Aerial Vehicle  UAV  for early site specific weed management   PLOS ONE         e       Bibcode     PLoSO         T  doi         journal pone          ISSN                 PMC               PMID               
+
+   Model airplane history maker Maynard Hill dies at the age of      The Washington Post  Archived from the original on   July       Retrieved    May      
+
+  Al  S   Xie  Y   Malandrakis  K   Lopez  M   Tsourdos  A   Ieee  Development of a Fuel Cell Hybrid Powered Unmanned Aerial Vehicle  In        th Mediterranean Conference on Control and Automation  Mediterranean Conference on Control and Automation  Ieee        pp             lt Go to ISI gt    WOS                
+
+  Baldic  J   Osenar  P   Lauder  N   Launie  P  Fuel Cell Systems for Long Duration Electric UAVs and UGVs  In Defense Transformation and Net Centric Systems       Suresh  R  Ed   Proceedings of SPIE The International Society for Optical Engineering  Vol        Spie Int Soc Optical Engineering                                      lt Go to ISI gt    WOS                 
+
+  Chu  D   Jiang  R   Dunbar  Z   Grew  K   McClure  J  Fuel Cell Powered Small Unmanned Aerial Systems  UASs  For Extended Endurance Flights  In Unmanned Systems Technology Xvii  Karlsen  R  E   Gage  D  W   Shoemaker  C  M   Gerhart  G  R  Eds   Proceedings of SPIE  Vol        Spie Int Soc Optical Engineering               e                       lt Go to ISI gt    WOS                 
+
+  Nefedkin  S  I   Klimova  M  A   Glasov  V  S   Pavlov  V  I   Tolmachev  Y  V  Effect of the corrugated bipolar plate design on the self humidification of a high power density PEMFC stack for UAVs  Fuel Cells                                 fuce            
+https   onlinelibrary wiley com doi         fuce           
+
+  Chirarattananon  Pakpong  Ma  Kevin Y  Wood  J     May         Adaptive control of a millimeter scale flapping wing robot   PDF   Bioinspiration  amp  Biomimetics                 Bibcode     BiBi     b    C  CiteSeerX                       doi                               PMID                S CID                archived from the original  PDF  on    April     
+
+  Sarah Knapton     March         Giant remote controlled beetles and  biobot  insects could replace drones   The Telegraph  Archived from the original on   April      
+
+  Antonio     July         EASA Approves ETSO Certification Basis for Veronte Autopilot   Embention  Retrieved   August      
+
+  a b c Floreano  Dario  Wood  Robert J      May         Science  technology and the future of small autonomous drones   Nature                       Bibcode     Natur         F  doi         nature       PMID                S CID               Archived from the original on    October       Retrieved    October      
+
+  Fasano  Giancarmine  Accardo  Domenico  Tirri  Anna Elena  Moccia  Antonio  De Lellis  Ettore    October         Radar electro optical data fusion for non cooperative UAS sense and avoid   Aerospace Science and Technology               Bibcode     AeST          F  doi         j ast             
+
+   Arduino Playground   WhatIsDegreesOfFreedom DOF DOF  DOF  DOF   playground arduino cc  Archived from the original on    February       Retrieved   February      
+
+  Manfreda  Salvatore  McCabe  Matthew  Miller  Pauline  Lucas  Richard  Pajuelo Madrigal  Victor  Mallinis  Giorgos  Ben Dor  Eyal  Helman  David  Estes  Lyndon  Ciraolo  Giuseppe  M llerov   Jana  Tauro  Flavia  de Lima  M   de Lima  Jo o  Maltese  Antonino     April         On the Use of Unmanned Aerial Systems for Environmental Monitoring   Remote Sensing               Bibcode     RemS          M  doi         rs          hdl               ISSN                
+
+        Sensing for Drones   Introduction to Robotics and Perception   www roboticsbook org 
+
+        Trajectory Optimization   Introduction to Robotics and Perception   www roboticsbook org 
+
+  Pierre Jean Bristeau  Fran ois Callou  David Vissi re  Nicolas Petit          The Navigation and Control technology inside the AR Drone micro UAV   PDF   IFAC World Congress  Archived  PDF  from the original on    February       Retrieved   February      
+
+   Cellular enables safer drone deployments   Qualcomm  Archived from the original on   May       Retrieved   May      
+
+   Identifying Critical Manned Unmanned Teaming Skills for Unmanned Aircraft System Operators   PDF   U S  Army Research Institute for the Behavioral and Social Sciences  September       Archived  PDF  from the original on   February      
+
+   Minimum requirements related to technical performance for IMT      radio interface s    www itu int  Archived from the original on   August       Retrieved   October      
+
+  Vinogradov  Evgenii  Kumar  A  V  S  Sai Bhargav  Minucci  Franco  Pollin  Sofie  Natalizio  Enrico          Remote ID for separation provision and multi agent navigation        IEEE AIAA   nd Digital Avionics Systems Conference  DASC   pp             arXiv             doi         DASC                     ISBN                        
+
+   Automated Vehicles for Safety   United States  National Highway Traffic Safety Administration  Archived from the original on   October       Retrieved   October      
+
+  Clough  Bruce  August         Metrics  Schmetrics  How The Heck Do You Determine A UAV s Autonomy Anyway    US Air Force Research Laboratory  Archived from the original on    September      
+
+  Davenport  Christian     April         Watch a step in Navy history  an autonomous drone gets refueled mid air   The Washington Post  ISSN                 Archived from the original on    January       Retrieved   February      
+
+  Tahir  Anam  B ling  Jari  Haghbayan  Mohammad Hashem  Toivonen  Hannu T   Plosila  Juha          Swarms of Unmanned Aerial Vehicles   A Survey   Journal of Industrial Information Integration              doi         j jii             
+
+   Teaching tiny drones how to fly themselves   Ars Technica     November       Archived from the original on   February       Retrieved   February      
+
+   Biomimetics and Dextrous Manipulation Lab   MultiModalRobots   bdml stanford edu  Archived from the original on    March       Retrieved    March      
+
+  D Andrea  Raffaello     June         The astounding athletic power of quadcopters   www ted com  Archived from the original on   February       Retrieved   February      
+
+  Yanguo  Song  Huanjin  Wang    June         Design of Flight Control System for a Small Unmanned Tilt Rotor Aircraft   Chinese Journal of Aeronautics                   Bibcode     ChJAn         Y  doi         S                     
+
+   The device  designed for landing UAV helicopter type on a flat vertical surface   patents google com  Archived from the original on   March       Retrieved   November      
+
+   The Importance of Proper Cooling and Airflow for Optimal Drone Performance   Pelonis Technologies  Archived from the original on    June       Retrieved    June      
+
+   Flying on Hydrogen  Georgia Tech Researchers Use Fuel Cells to Power Unmanned Aerial Vehicle   Georgia Tech Research Institute   www gtri gatech edu  Archived from the original on   February       Retrieved   February      
+
+   Hydrogen powered Hycopter quadcopter could fly for   hours at a time   www gizmag com     May       Archived from the original on   February       Retrieved   February      
+
+  Gibbs  Yvonne     March         NASA Armstrong Fact Sheet  Beamed Laser Power for UAVs   NASA  Archived from the original on   April       Retrieved    June      
+
+  Vertical Challenge   Monsters of the sky   PDF   archived from the original  PDF  on    September     
+
+   General Atomics Gnat   Designation systems net  Archived from the original on    December       Retrieved   January      
+
+   UAV Notes   Archived from the original on    July      
+
+   Trans atlantic Model   Tam plannet   com  Archived from the original on    May       Retrieved   January      
+
+   QinetiQ s Zephyr UAV exceeds official world record for longest duration unmanned flight   Press release   QinetiQ     September       Archived from the original on    April      
+
+  Simonite  Tom   New Scientist Technology Blog  Solar plane en route to everlasting flight   New Scientist  Archived from the original on   April       Retrieved   January      
+
+   Northrop Grumman s Global Hawk Unmanned Aircraft Sets    Hour Flight Endurance Record   Spacewar com  Archived from the original on   July       Retrieved    August      
+
+   QinetiQ s Zephyr UAV flies for three and a half days to set unofficial world record for longest duration unmanned flight   Press release   QinetiQ     August       Archived from the original on    May      
+
+   QinetiQ files for three world records for its Zephyr Solar powered UAV   QinetiQ  Press release      August       Archived from the original on    September      
+
+  MacDonald  Alistair     July         Drones Reach Stratospheric Heights in Race to Fly Higher  Longer   Wall Street Journal         via www wsj com 
+
+  Boniol  December         Towards Modular and Certified Avionics for UAV   PDF   Aerospacelab Journal  Archived  PDF  from the original on   February       Retrieved   February      
+
+  D  Boskovic and Knoebel          A Comparison Study of Several Adaptive Control Strategies for Resilient Flight Control   PDF   AIAA Guidance  Navigation andControl Conference  Archived from the original  PDF  on   February      
+
+  Atkins   Certifiable Autonomous Flight Management for Unmanned Aircraft Systems   University of Michigan  Archived from the original on   March       Retrieved   February      
+
+  Subhav Pradhan  William Otte  Abhishek Dubey  Aniruddha Gokhale  Gabor Karsai          Key Considerations for a Resilient and Autonomous Deployment and Configuration Infrastructure for Cyber Physical Systems   PDF   Dept  of Electrical Engineering and Computer Science Vanderbilt University  Nashville  Archived  PDF  from the original on   February       Retrieved   February      
+
+   How Autonomous Drone Flights Will Go Beyond Line of Sight   Nanalyze     December       Archived from the original on    May       Retrieved    April      
+
+  McNabb  Miriam     February         Drones Get the Lights Back on Faster for Florida Communities   DRONELIFE  Archived from the original on    March       Retrieved    April      
+
+  Peck  Abe     March         Coronavirus Spurs Percepto s Drone in a Box Surveillance Solution   Inside Unmanned Systems  Archived from the original on    March       Retrieved    April      
+
+  Valle  Roberto G   January         Rapid drone semi automated counts of wintering Greater Flamingos   Phoenicopterus roseus   as a tool for amateur researchers   Ibis                    doi         ibi        ISSN                 S CID                 Archived from the original on    October       Retrieved    October      
+
+  a b Mademlis  Ioannis  Nikolaidis  Nikos  Tefas  Anastasios  Pitas  Ioannis  Wagner  Tilman  Messina  Alberto          Autonomous UAV Cinematography  A Tutorial and a Formalized Shot Type Taxonomy   ACM Computing Surveys          Association for Computing Machinery  doi                  S CID                 Archived from the original on   November       Retrieved   November      
+
+  Horowitz  Michael C           Do Emerging Military Technologies Matter for International Politics    Annual Review of Political Science                   doi         annurev polisci               
+
+  a b  Strengthening Turkish Policy on Drone Exports   Carnegie Endowment for International  Archived from the original on    March       Retrieved    March      
+
+  a b c  Turkey s defense industry targets more than    billion in exports this year  Official   H rriyet Daily News    March       Archived from the original on    March       Retrieved    March      
+
+   Combat drones in China are coming to a conflict near you   www intelligent aerospace com     March       Archived from the original on   June       Retrieved   June      
+
+  a b c d e  Market for Military Drones will Surge      October       Archived from the original on    February       Retrieved    February      
+
+  a b  Turkish defence industry grows as Akinci UCAV signs first export deal   TRTWORLD     January       Archived from the original on    January       Retrieved    March      
+
+  a b Arnett  George     March         The numbers behind the worldwide trade in UAVs   The Guardian  Archived from the original on    December       Retrieved    December      
+
+   Pentagon Plans for Cuts to Drone Budgets   DoD Buzz    January       Archived from the original on   January       Retrieved    March      
+
+   Is China at the Forefront of Drone Technology    Center for Strategic and Internation Studies     May      
+
+  Seong Hyeon Choi     November         Drone tech gives China an edge in Middle East arms sales  but Israel Gaza war brings risks  analysts   South China Morning Post 
+
+  a b Somerville  Heather    November         Chinese  American It Doesn t Matter  Israel Wants Inexpensive Drones   The Wall Street Journal 
+
+  Skove  Sam    May         UK eyes Chinese drone parts for Ukraine   Defense One 
+
+  Joe  Rick    February         China s Military Advancements in the     s  Air and Ground   The Diplomat 
+
+  Bateman  Joshua    September         China drone maker DJI  Alone atop the unmanned skies   News Ledge  Archived from the original on    February       Retrieved    February      
+
+  Anwar  Nessa    February         World s largest drone maker is unfazed   even if it s blacklisted by the U S   CNBC 
+
+  Friedman  Lisa  McCabe  David     January         Interior Dept  Grounds Its Drones Over Chinese Spying Fears   The New York Times  ISSN                 Archived from the original on    January       Retrieved    November      
+
+  Miller  Maggie    October         DOJ bans use of grant funds for certain foreign made drones   The Hill  Archived from the original on    November       Retrieved    November      
+
+   DJI market share  here s exactly how rapidly it has grown in just a few years   Emberify Blog     September       Archived from the original on    September       Retrieved    September      
+
+  Daly  David            Major Drone Manufacturers Powering the Industry   Consortiq 
+
+   UAS by the Numbers   www faa gov  Archived from the original on    May       Retrieved    May      
+
+   Consumer Drones By the Numbers in      and Beyond   News Ledge   News Ledge    April       Archived from the original on    October       Retrieved    October      
+
+   Skylark Drones set to raise its first round of funding to boost expansion      September       Archived from the original on    September       Retrieved    August      
+
+  Peterson  Andrea     August         States are competing to be the Silicon Valley of drones   The Washington Post  ISSN                 Archived from the original on    February       Retrieved   February      
+
+   Drone Training Courses   The Complete List   Drone Business Marketer  Archived from the original on    November       Retrieved   December      
+
+   IDF buying mass market DJI drones   Jane s      Archived from the original on    December      
+
+  Greenwood  Faine     August         The U S  Military Shouldn t Use Commercial Drones   Slate  ISSN                 Archived from the original on    April       Retrieved   June      
+
+   DJI Won the Drone Wars  and Now It s Paying the Price   Bloomberg     March       Archived from the original on    November       Retrieved    November      
+
+                                YouUAV com     December       Archived from the original on    December       Retrieved    November      
+
+   The Next Frontier of Police Surveillance Is Drones   Slate    June       Archived from the original on    December       Retrieved    December      
+
+   These Police Drones are Watching You   Project On Government Oversight     September       Archived from the original on    December       Retrieved    December      
+
+  Sangma  Mike     December         Ukraine has an unlikely ally in fight against Russia  DJI drones   East Mojo  Archived from the original on    February       Retrieved    December      
+
+  Greenwood  Faine     February         The Drone War in Ukraine Is Cheap  Deadly  and Made in China   Archived from the original on    September       Retrieved   March      
+
+   Drone Light Shows Powered by Intel   Intel  Archived from the original on    June       Retrieved    June      
+
+  Hirsch  Lauren    July         Fireworks Have a New Competitor  Drones   The New York Times  Retrieved    August      
+
+   Fireworks and Drones Combine to Create Amazing Long Exposure Images   Moss and Fog    May       Retrieved    August      
+
+   AERIGON cinema drone  UAV  pioneering in film production   Archived from the original on    August       Retrieved    August      
+
+  Eltner  Anette  Hoffmeister  Dirk  Kaiser  Andreas  Karrasch  Pierre  Klingbeil  Lasse  St cker  Claudia  Rovere  Alessio  eds          UAVs for the environmental sciences  methods and applications  Darmstadt  wbg Academic  ISBN                        
+
+  Ferreira  Edgar  Chandler  Jim  Wackrow  Rene  Shiono  Koji  April         Automated extraction of free surface topography using SfM MVS photogrammetry   Flow Measurement and Instrumentation               Bibcode     FloMI         F  doi         j flowmeasinst              S CID               
+
+  Reddy  C  Sudhakar  Kurian  Ayushi  Srivastava  Gaurav  Singhal  Jayant  Varghese  A  O   Padalia  Hitendra  Ayyappan  N   Rajashekar  G   Jha  C  S   Rao  P  V  N   January         Remote sensing enabled essential biodiversity variables for biodiversity assessment and monitoring  technological advancement and potentials   Biodiversity and Conservation                Bibcode     BiCon         R  doi         s                   ISSN                 S CID                 Archived from the original on    February       Retrieved    January      
+
+  Gon alves  Jo o  Henriques  Renato  Alves  Paulo  Sousa Silva  Rita  Monteiro  Ant nio T   Lomba   ngela  Marcos  Bruno  Honrado  Jo o  January        Rocchini  Duccio  ed     Evaluating an unmanned aerial vehicle based approach for assessing habitat extent and condition in fine scale early successional mountain mosaics   Applied Vegetation Science                   Bibcode     AppVS         G  doi         avsc        Archived from the original on    January       Retrieved    January      
+
+  Barbizan S hs  R   Ziller  S  R   Dechoum  M           Is the use of drones cost effective and efficient in detecting invasive alien trees  A case study from a subtropical coastal ecosystem   Biological Invasions                   doi         s                   S CID                
+
+  Zhang  Chunhua  Kovacs  John M   December         The application of small unmanned aerial systems for precision agriculture  a review   Precision Agriculture                   Bibcode     PrAgr         Z  doi         s                  ISSN                 S CID                 Archived from the original on    February       Retrieved    January      
+
+  Perks  Matthew T   Russell  Andrew J   Large  Andrew R  G     October         Technical Note  Advances in flash flood monitoring using unmanned aerial vehicles  UAVs    Hydrology and Earth System Sciences                      Bibcode     HESS          P  doi         hess               ISSN                 Archived from the original on    January       Retrieved    January      
+
+  Zhou  Jianguo  He  Linshu  Luo  Haitao     March         Real Time Positioning Method for UAVs in Complex Structural Health Monitoring Scenarios   Drones              Bibcode     Drone         Z  doi         drones         ISSN              X 
+
+  Jackisch  Robert  Lorenz  Sandra  Zimmermann  Robert  M ckel  Robert  Gloaguen  Richard          Drone Borne Hyperspectral Monitoring of Acid Mine Drainage  An Example from the Sokolov Lignite District   Remote Sensing               doi         rs          ISSN                
+
+  Flores  Hernan  Lorenz  Sandra  Jackisch  Robert  Tusa  Laura  Contreras  I  Cecilia  Zimmermann  Robert  Gloaguen  Richard          UAS Based Hyperspectral Environmental Monitoring of Acid Mine Drainage Affected Waters   Minerals               Bibcode     Mine          F  doi         min          ISSN              X 
+
+  Sun  Jianwei  Yuan  Guoqin  Song  Laiyun  Zhang  Hongwen  January         Unmanned Aerial Vehicles  UAVs  in Landslide Investigation and Monitoring  A Review   Drones             Bibcode     Drone         S  doi         drones         ISSN              X 
+
+  Dai  Keren  Li  Zhiyu  Xu  Qiang  Tomas  Roberto  Li  Tao  Jiang  Liming  Zhang  Jianyong  Yin  Tao  Wang  Hao    July         Identification and evaluation of the high mountain upper slope potential landslide based on multi source remote sensing  the Aniangzhai landslide case study   Landslides                     Bibcode     Lands         D  doi         s                   hdl               ISSN                
+
+  Yang  Yuchuan  Wang  Xiaobo  Jin  Wei  Cao  Jiayun  Cheng  Baogen  MaosenXiong  Zhou  Shunwen  ChaoZhang    October         Characteristics analysis of the reservoir landslides base on unmanned aerial vehicle  UAV  scanning technology at the Maoergai Hydropower Station  Southwest China   IOP Conference Series  Earth and Environmental Science                   Bibcode     E     ES     a    Y  doi                                 ISSN                
+
+  Tom s  Roberto  Pinheiro  Marisa  Pinto  Pedro  Pereira  Eduardo  Miranda  Tiago     May         Preliminary analysis of the mechanisms  characteristics  and causes of a recent catastrophic structurally controlled rock planar slide in Esposende  northern Portugal    Landslides                     Bibcode     Lands         T  doi         s                y  hdl             ISSN              X 
+
+  Zhou  Jiawen  Jiang  Nan  Li  Congjiang  Li  Haibo    February         A landslide monitoring method using data from unmanned aerial vehicle and terrestrial laser scanning with insufficient and inaccurate ground control points   Journal of Rock Mechanics and Geotechnical Engineering                      Bibcode     JRMGE         Z  doi         j jrmge              ISSN                
+
+  Peterman  V      August         Landslide Activity Monitoring with the Help of Unmanned Aerial Vehicle   The International Archives of the Photogrammetry  Remote Sensing and Spatial Information Sciences  XL     W            Bibcode     ISPAr XL      P  doi         isprsarchives XL   W            ISSN                
+
+  Heincke  Bj rn  Jackisch  Robert  Saartenoja  Ari  Salmirinne  Heikki  Rapp  S nke  Zimmermann  Robert  Pirttij rvi  Markku  Vest S rensen  Erik  Gloaguen  Richard  Ek  Lisa  Bergstr m  Johan  Karinen  Arto  Salehi  Sara  Madriz  Yuleika  Middleton  Maarit     July         Developing multi sensor drones for geological mapping and mineral exploration  setup and first results from the MULSEDRO project   Geological Survey of Denmark and Greenland Bulletin      doi          GEUSB               ISSN                
+
+    lek  Ond ej  Matol n  Milan  Gryc  Lubom r    February         Mapping of radiation anomalies using UAV mini airborne gamma ray spectrometry   Journal of Environmental Radioactivity                Bibcode     JEnvR         S  doi         j jenvrad              ISSN              X  PMID               
+
+  Jackisch  Robert          Drone based surveys of mineral deposits   Nature Reviews Earth  amp  Environment              Bibcode     NRvEE         J  doi         s                  ISSN              X 
+
+  Jackisch  Robert  Heincke  Bj rn H   Zimmermann  Robert  S rensen  Erik V   Pirttij rvi  Markku  Kirsch  Moritz  Salmirinne  Heikki  Lode  Stefanie  Kuronen  Urpo  Gloaguen  Richard    April         Drone based magnetic and multispectral surveys to develop a  D model for mineral exploration at Qullissat  Disko Island  Greenland   Solid Earth                   Bibcode     SolE          J  doi         se              hdl                ISSN                
+
+   Global Agriculture Drones and Robots Market Analysis  amp  Forecast              ResearchAndMarkets com   finance yahoo com  Archived from the original on   July       Retrieved    May      
+
+   Africa Farming Problems Aided With Drone Technology   Drone Addicts     March       Archived from the original on    June       Retrieved    May      
+
+   Drones That Launch Flaming Balls Are Being Tested To Help Fight Wildfires   NPR org  Archived from the original on    April       Retrieved   April      
+
+  Old JM  Lin S H  Franklin MJM         Mapping out bare nosed wombat  Vombatus ursinus  burrows with the use of a drone  BMC Ecology         DOI          s                
+
+  Faust  Daniel R          Police Drones         ed    New York  The Rosen Publishing Group  Inc  ISBN                     Archived from the original on    February       Retrieved    February      
+
+  Sindi  amp  Zarei     September         Drones in humanitarian aid   Can they be a game changer   
+
+  Dent  Steve     October         Drone hits a commercial plane for the first time in Canada   Engadget  Archived from the original on    October       Retrieved    October      
+
+  Tellman  Julie     September         First ever recorded drone hot air balloon collision prompts safety conversation   Teton Valley News  Boise  Idaho  United States  Boise Post Register  Archived from the original on   October       Retrieved   October      
+
+   Drones need to be encouraged  and people protected   The Economist     January       ProQuest                  Archived from the original on    June       Retrieved    June      
+
+  Halon  Eytan     December         Israeli anti drone technology brings an end to Gatwick Airport chaos   International news   Jerusalem Post   jpost com  Archived from the original on    December       Retrieved    December      
+
+  Matthew Weaver  Damien Gayle  Patrick Greenfield  Frances Perraudin     December         Military called in to help with Gatwick drone crisis   The Guardian  Archived from the original on    December       Retrieved    December      
+
+   In The Heat of the Moment  Drones Are Getting in the Way of Firefighters   NPR org  Archived from the original on   March       Retrieved   April      
+
+  Michael Martinez  Paul Vercammen  Ben Brumfield     July         Drones visit California wildfire  angering firefighters   CNN  Archived from the original on   November       Retrieved    August      
+
+  Medina  Jennifer     July         Chasing Video With Drones  Hobbyists Imperil California Firefighting Efforts   The New York Times  Archived from the original on    July              via NYTimes com 
+
+  Rocha  Veronica     July         Attack on the drones  Legislation could allow California firefighters to take them down   Archived from the original on    August       Retrieved    August              via LA Times 
+
+   Prisons Work To Keep Out Drug Smuggling Drones   NPR org  Archived from the original on    January       Retrieved    January      
+
+  Mike Mount  Elaine Quijano   Iraqi insurgents hacked Predator drone feeds  U S  official indicates   CNN com  Archived from the original on   March       Retrieved   December      
+
+  Walters  Sander     October         How Can Drones Be Hacked  The updated list of vulnerable drones  amp  attack tools   Medium  Archived from the original on    July       Retrieved   December      
+
+  Glaser  April    January         The U S  government showed just how easy it is to hack drones made by Parrot  DBPower and Cheerson   Recode  Archived from the original on   January       Retrieved   January      
+
+   Anti drone technology to be test flown on UK base amid terror fears     March       Archived from the original on   May       Retrieved   May      
+
+  Isaac Medina  Brian K  S   Poyser  Matthew  Organisciak  Daniel  Willcocks  Chris G   Breckon  Toby P   Shum  Hubert P  H          Unmanned Aerial Vehicle Visual Detection and Tracking using Deep Neural Networks  A Performance Benchmark  pp                  arXiv            
+
+  Organisciak  Daniel  Poyser  Matthew  Alsehaim  Aishah  Hu  Shanfeng  Isaac Medina  Brian K  S   Breckon  Toby P   Shum  Hubert P  H           UAV ReID  A Benchmark on Unmanned Aerial Vehicle Re identification in Video Imagery   Proceedings of the   th International Joint Conference on Computer Vision  Imaging and Computer Graphics Theory and Applications  SciTePress  pp                arXiv             doi                           ISBN                        
+
+   Heathrow picks C UAS to combat drone disruption   Archived from the original on   November       Retrieved    March      
+
+   Muscat International Airport to install USD   million Aaronia counter UAS system      January       Archived from the original on   November       Retrieved    January      
+
+  Grand Cl ment  Sarah  Bajon  The      October         Uncrewed Aerial Systems  A Primer   United Nations Institute for Disarmament Research  Archived from the original on   January       Retrieved   January        cite journal     CS  maint  bot  original URL status unknown  link 
+
+  Hartley  John  Shum  Hubert P  H   Ho  Edmond S  L   Wang  He  Ramamoorthy  Subramanian          Formation Control for UAVs Using a Flux Guided Approach   Expert Systems with Applications       Elsevier          arXiv             doi         j eswa              ISSN                 S CID                
+
+   What is unmanned traffic management    Airbus  Archived from the original on   February       Retrieved    January      
+
+  Cary  Leslie  Coyne  James   ICAO Unmanned Aircraft Systems  UAS   Circular                 UAS Yearbook   UAS  The Global Perspective  PDF   Blyenburgh  amp  Co  pp                Archived from the original  PDF  on   March       Retrieved    February      
+
+  Boedecker  Hendrik   The      Drone Regulation   What is new  What is planned    Drone Industry Insights  Archived from the original on    May       Retrieved    May      
+
+   UAS Remote Identification Overview   www faa gov  Archived from the original on    May       Retrieved    May      
+
+   FAA Legal Battle   Challenging Remote ID   RaceDayQuads  Archived from the original on    May       Retrieved    May      
+
+   UAS Class Label   www eudronport com  August       Archived from the original on   October       Retrieved    February      
+
+  Consolidated text  Commission Delegated Regulation  EU           of    March      on unmanned aircraft systems and on third country operators of unmanned aircraft systems
+
+
+Bibliography edit 
+Axe  David         Drone War Vietnam  Yorkshire  Pen  amp  Sword Military  ISBN                    
+Sayler  Kelley  June         A world of proliferated drones  a technology primer   PDF   Center for a New American Security  Archived from the original  PDF  on   March      
+Wagner  William         Lightning Bugs and other Reconnaissance Drones  The can do story of Ryan s unmanned spy planes  Armed Forces Journal International        Aero Publishers  ISBN                         citation     CS  maint  publisher location  link 
+Further reading edit 
+Cahill  Bill  April         Lightning Bugs  amp  Buffalo Hunters  The Ryan Model     Drone in Vietnam   The Aviation Historian              ISSN                
+Hill  John  Rogers  Ann         The rise of the drones  From The Great War to Gaza  Arts  amp  Humanities Colloquium Series  Vancouver Island University  hdl            
+Garcia Bernardoa  Javier  Dodds  Peter Sheridan  Johnson  Neil F           Quantitative patterns in drone wars   PDF   Science direct  Archived from the original  PDF  on   February      
+Rogers  Ann  Hill  John         Unmanned  Drone warfare and global security  Between the Lines  ISBN                    
+External links edit 
+
+
+
+Wikimedia Commons has media related to Unmanned aerial vehicles 
+
+
+
+
+Wikiquote has quotations related to Drones 
+
+How Intelligent Drones Are Shaping the Future of Warfare Archived   May      at the Wayback Machine  Rolling Stone Magazine
+vteLists of aircraftBy name
+pre     
+  Ah
+Ai Am
+An Az
+B Be
+Bf Bo
+Br Bz
+C Cc
+Cd Cn
+Co Cz
+D
+E
+F
+G Gn
+Go Gz
+H
+I
+J
+K
+La Lh
+Li Lz
+M
+N
+O
+P
+Q
+R
+S
+T
+U
+V
+W
+X
+Y
+Z
+Gliders
+List of human powered aircraft
+List of unmanned aerial vehicle
+Civil aircraftBy characteristicType
+Aerobatic
+Bush planes
+Electric aircraft
+Flying wings
+Gliders
+Human powered
+Prone pilot
+Rocket powered
+Flying boats and floatplanes
+STOL
+Supersonic
+Trimotors
+Triplanes
+Unmanned
+VTOL
+Fuselage
+Double deck
+Narrow body
+Wide body
+WeightSize
+Maximum takeoff weight
+Light aircraft
+very light jets
+Large aircraft
+Manufacturer
+      Airbus
+      Antonov
+      Boeing
+      Bombardier
+      Comac
+      Douglas            McDonnell Douglas
+      Embraer
+      Ilyushin
+      Tupolev
+Engine number
+Twinjets
+Trijets
+Trimotors
+Four engined jet aircraft
+Range
+Jet airliners
+Regional airliners
+Use
+Racers
+Regional airliner
+regional jet
+Research
+Early flying machines
+Experimental
+X planes
+Rotor powered
+Rotorcraft
+utility
+Tiltrotors
+ExecutivePrivate
+Business jets
+Light sport aircraft
+Flying car
+Other lists
+By date and usage
+By tail number
+Most produced
+Military aircraftRole
+AEW
+Attack
+Bomber
+Torpedo
+Carrier based
+Fighter
+Maritime patrol
+Submarine borne
+Tanker
+Nation
+Afghanistan
+Albania
+Argentina
+Australia
+Bangladesh
+Belize
+Brazil
+Bulgaria
+Canada
+Chile
+China
+Czech Republic
+Denmark
+Egypt
+Finland
+France
+Germany
+Greece
+India
+Indonesia
+Iran
+Ireland
+Israel
+Italy
+Japan
+Malaysia
+Morocco
+New Zealand
+Norway
+Pakistan
+Philippines
+Poland
+Portugal
+Romania
+Russia
+South Africa
+Spain
+Sri Lanka
+Sweden
+Switzerland
+Thailand
+Turkey
+United Kingdom
+United States
+Era
+WWI Entente
+WWI Central Powers
+Interwar
+World War II
+World War II jets
+
+vteCountries producing stealth aircraftStealth technologyUnitedStatesExperimental
+Boeing Model        Quiet Bird
+Boeing Sikorsky RAH    Comanche
+Boeing Bird of Prey
+Boeing X   
+Boeing X   
+F   
+Lockheed Have Blue
+Lockheed YF   
+Lockheed Martin FB   
+Lockheed Martin X   
+Lockheed Martin X    MANTA
+McDonnell Douglas A    Avenger II
+Northrop Tacit Blue
+Northrop Grumman X   B
+Northrop YF   
+Fighters
+Boeing F   
+Lockheed Martin F    Raptor
+Lockheed Martin F    Lightning II
+Attack
+Lockheed F     Nighthawk
+Bombers
+Northrop B   Spirit
+Northrop Grumman B    Raider
+UAVs
+General Atomics MQ    Avenger
+Boeing MQ    Stingray
+Boeing Phantom Ray
+Lockheed Martin Sea Ghost
+Lockheed Martin RQ     Sentinel
+Northrop Grumman RQ    
+Kratos XQ    Valkyrie
+General Atomics XQ   A
+AustraliaUAVs
+Boeing MQ    Ghost Bat
+ChinaFighters
+Chengdu J   
+Shenyang J   
+Bombers
+Xi an H   
+Experimental
+JH XX
+Chengdu J   
+Shenyang J XD
+UAVs
+Hongdu GJ   
+AVIC Dark Sword
+CAIG Wing Loong   
+CASC Rainbow  
+FL   
+RussiaExperimental
+Yakovlev Yak   
+Sukhoi Su   
+Mikoyan Project     
+Fighters
+Mikoyan LMFS
+Mikoyan PAK DP
+Sukhoi Su   
+Sukhoi Su    Checkmate
+Sukhoi HAL FGFA
+Bombers
+Tupolev PAK DA
+UAVs
+Mikoyan Skat
+Sukhoi S    Okhotnik B
+UnitedKingdomExperimental
+British Aerospace P    
+BAE Systems Replica
+UAVs
+BAE Systems Taranis
+JapanExperimental
+Mitsubishi X   Shinshin
+ItalyUAVs
+Dassault nEUROn
+FranceUAVs
+Dassault nEUROn
+SpainUAVs
+Dassault nEUROn
+TurkeyFighters
+TAI TF Kaan
+UAVs
+Bayraktar K z lelma
+TAI Anka  
+South KoreaFighters
+KAI KF    Boramae
+IndiaUAVs
+DRDO Ghatak
+
+Authority control databases NationalGermany United StatesFranceBnF dataCzech Republic  IsraelOtherNARA
+
+
+
+
+
+Retrieved from  https   en wikipedia org w index php title Unmanned aerial vehicle amp oldid
