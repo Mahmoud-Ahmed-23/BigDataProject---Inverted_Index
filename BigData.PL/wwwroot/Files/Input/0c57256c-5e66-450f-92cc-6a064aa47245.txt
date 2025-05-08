@@ -1,0 +1,171 @@
+Stack Data Structure
+                                        
+                                                                                    
+                                                
+                                                    Last Updated   
+                                                       Mar      
+                                                
+
+                                                 
+                                                 
+                                                                                                            
+                                                                                                                    
+                                                            
+                                                            
+                                                              
+                                                
+                                                    
+                                                        
+                                                    
+                                                
+                                            
+                                                                                                                                                                                        
+                                                                    Comments
+                                                                    
+                                                                        
+                                                                        
+                                                                        
+                                                                    
+                                                                
+                                                                
+                                                                Improve
+                                                                
+                                                                    
+                                                                    
+                                                                    
+                                                                
+                                                             
+                                                                                                                        
+                                                                                                                    
+                                                        
+                                                            
+                                                                                                                            
+                                                            
+                                                            
+                                                        
+                                                    
+                                                 
+                                            
+                                                                            
+                                                            
+                            
+                            
+                            
+                                            
+                                            
+                                             
+                                                
+                                                    
+                                                        
+                                                        Suggest changes
+                                                    
+                                                
+                                                                                                                                      
+                                            
+                                                     
+                                                        Like Article
+                                                    
+                                                    
+                                                        
+                                                        Like
+                                                    
+                                                
+
+                                            
+                                            
+                                            
+
+                                            
+                                            
+                                                
+                                                    
+                                                        
+                                                        Report
+                                                    
+                                                
+
+                                            
+                                            
+                                            
+                                        
+                                    
+                            
+                                                                A Stack is a linear data structure that follows a particular order in which the operations are performed  The order may be LIFO Last In First Out  or FILO First In Last Out   LIFO implies that the element that is inserted last  comes out first and FILO implies that the element that is inserted first  comes out last It behaves like a stack of plates  where the last plate added is the first one to be removed  Think of it this way Pushing an element onto the stack is like adding a new plate on top Popping an element removes the top plate from the stack Basics of Stack Data StructureIntroduction to StackStack Array ImplementationStack Linked List Implementation Stack Implementation using DequeApplications of StackImplementations of Stack in Different LanguagesStack in C   STLStack in JavaStack in PythonStack in C Stack in JavaScriptEasy Problems on Stack Data StructuresThe Celebrity ProblemImplement Queue using StacksImplement two stacks in an arrayImplement Stack using QueuesStack using priority queue or heapStack using single queueInfix to PostfixPrefix to InfixPrefix to PostfixPostfix to PrefixPostfix to InfixInfix To Prefix Check for balanced parenthesesArithmetic Expression EvalutionEvaluation of Postfix ExpressionReverse a stack using recursionReverse WordsReverse a string using stackReversing a QueueReversing the first K of a QueueA Data Structure with O    OperationsMedium Problems on Stack Data Structuresk Stacks in an ArrayMergable StackPrevious Smaller ElementNext Greater Element Stock Span Problem Buildings Facing SunNext Smaller of next Greater in an arrayNext Greater Frequency ElementMax product of indexes of greater on left and rightIterative Tower of HanoiSort a stack using a temporary stackReverse a stack without using extra space in O n Delete middle of a stackCheck if a queue can be sorted into another queueCheck if an array is stack sortableIterative Postorder Traversal   Set    Using Two Stacks Index of closing bracket for a given opening bracketMax Diff between nearest left and right smaller elementsDelete consecutive same words in a sequenceHard Problems on Stack Data StructuresLargest Rectangular Area in a Histogram Sum of Max of all SubarraysMax of Mins of every window sizeDesign a stack that supports getMin   Design a stack with max frequency operationsPrint next greater number of Q queriesLength of the longest valid substringIterative Postorder Traversal   Set    Using One Stack Print ancestors of a given binary tree node without recursionExpression contains redundant bracket or notFind if an expression has duplicate parenthesisIterative method to find ancestors in a binary treeStack Permutations Remove brackets from an algebraic string containing   and   operatorsRange Queries for Longest Correct Bracket SubsequenceQuick Links   Practice Problems  on Stack Videos  on Stack Quizzes  on StackRecommended Learn Data Structure and Algorithms   DSA TutorialStack in Scala
+                            
+                            
+                        
+                                                                              
+                                        
+                                                                                
+                                                                
+                            
+    
+        
+        
+        Comment
+    More infoAdvertise with us                                
+                                
+                                        Next Article
+                                        
+                                    
+                                    
+                                    
+                                        What is Stack Data Structure  A Complete Tutorial
+                                    
+                                
+                                                        
+                        
+                            
+                                        
+                                            
+                                                
+                                                
+                                                    H
+        
+            
+        
+        
+                                                
+                                                
+                                                    harendrakumar                                                   
+                                                
+                                                
+            
+            
+
+ Follow                                            
+                                            
+                                        
+                                        
+                                            
+                                            
+                                                
+                                                
+                                                    
+                                                    
+                                                
+                                            
+                                            
+                                                                            
+                                    Improve
+                                    
+                                
+                            
+                                        
+                        
+                        
+                                                            
+                                    Article Tags   
+                                    
+                                        
+            
+                Stack
+            
+            
+                DSA
+                                                
+                                                                    
+                                                                                        
+                                    Practice Tags   
+                                    
+                                        Stack

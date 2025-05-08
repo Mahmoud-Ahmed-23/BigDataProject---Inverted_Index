@@ -1,0 +1,198 @@
+Bootstrap Tutorial
+                                        
+                                                                                    
+                                                
+                                                    Last Updated   
+                                                       Dec      
+                                                
+
+                                                 
+                                                 
+                                                                                                            
+                                                                                                                    
+                                                            
+                                                            
+                                                              
+                                                
+                                                    
+                                                        
+                                                    
+                                                
+                                            
+                                                                                                                                                                                        
+                                                                    Comments
+                                                                    
+                                                                        
+                                                                        
+                                                                        
+                                                                    
+                                                                
+                                                                
+                                                                Improve
+                                                                
+                                                                    
+                                                                    
+                                                                    
+                                                                
+                                                             
+                                                                                                                        
+                                                                                                                    
+                                                        
+                                                            
+                                                                                                                            
+                                                            
+                                                            
+                                                        
+                                                    
+                                                 
+                                            
+                                                                            
+                                                            
+                            
+                            
+                            
+                                            
+                                            
+                                             
+                                                
+                                                    
+                                                        
+                                                        Suggest changes
+                                                    
+                                                
+                                                                                                                                      
+                                            
+                                                     
+                                                        Like Article
+                                                    
+                                                    
+                                                        
+                                                        Like
+                                                    
+                                                
+
+                                            
+                                            
+                                            
+
+                                            
+                                            
+                                                
+                                                    
+                                                        
+                                                        Report
+                                                    
+                                                
+
+                                            
+                                            
+                                            
+                                        
+                                    
+                            
+                                                                Bootstrap is a popular front end framework for building responsive and mobile first websites  It provides pre designed CSS  JavaScript components  and utility classes to quickly create modern and consistent user interfaces It Includes pre built responsive grid systems for mobile first design Offers a wide range of UI components like buttons  modals  and navbars Provides built in support for responsive typography  spacing  and utilities Extensively customizable via Sass variables and Bootstrap s configuration To start with Bootstrap  you need to install it on your project or use the CDN link  Follow these articles to install depending on your system How to install Bootstrap   How to Add Bootstrap in a Project Let us now take a look at our first code example 
+            HTML
+
+     lt html gt 
+
+ lt head gt 
+     lt link href  quot https   cdn jsdelivr net npm bootstrap       dist css bootstrap min css quot  
+    rel  quot stylesheet quot 
+        integrity  quot sha    QWTKZyjpPEjISv WaRU OFeRpok YctnYmDr pNlyT bRjXh JMhjY hW ALEwIH quot 
+        crossorigin  quot anonymous quot  gt 
+     lt script src  quot https   cdn jsdelivr net npm bootstrap       dist js bootstrap bundle min js quot 
+        integrity  quot sha    YvpcrYf tY lHB  NNkmXc s fDVZLESaAA  NDzOxhy GkcIdslK eN N jIeHz quot 
+        crossorigin  quot anonymous quot  gt  lt  script gt 
+ lt  head gt 
+
+ lt body gt 
+     lt div class  quot container text center quot  gt 
+         lt h  class  quot text success quot  gt 
+            Welcome to GeeksforGeeks
+         lt  h  gt 
+
+         lt p gt A Simple Example of Bootstrap lt  p gt 
+     lt  div gt 
+ lt  body gt 
+
+ lt  html gt 
+
+OutputFIrst Bootstrap ExampleIn this example Bootstrap CSS and JavaScript files are included via CDNs with integrity attributes for security The container class ensures the content is responsive and aligned The text center class centers the text within the div The text success class adds a green color to the heading  using Bootstrap s built in color utilities Why Learn Bootstrap Accelerates the development of modern web pages Ensures consistent design across devices and browsers Reduces the need for writing custom CSS Ideal for both beginners and professionals in web development Bootstrap TutorialBootstrap LayoutBootstrap layout is built on a flexible grid layout that adjusts seamlessly to different screen sizes  It uses a    column grid system to create responsive designs  You can control the width and positioning of columns by combining classes for different screen sizes  e g    col md   for medium devices  BreakpointsContainersGridColumnsGuttersUtilitiesZ indexBootstrap ContentBootstrap provides a range of classes to enhance and structure content  It includes typography classes for headings  paragraphs  and text alignment  as well as helper classes for spacing and text colors RebootTypographyImagesTablesFiguresBootstrap FormsBootstrap simplifies form creation with pre styled components and layouts  It includes classes for form controls like text inputs  select menus  and checkboxes FormsForm ControlsSelectChecks and RadiosRangeInput groupFloating labelsForm LayoutForm GridHorizontal FormValidationBootstrap ComponentsBootstrap offers a rich set of pre designed components to streamline UI development  These include buttons  cards  modals  navbars  and more AccordionAlertsBadgesBreadcrumbButtonsButton GroupCardCarouselClose ButtonCollapseDropdownsList GroupModalNavbarOffcanvasPopoversPaginationProgressScrollspySpinnersToastsTooltipsBootstrap HelpersBootstrap helpers are utility classes that simplify common tasks and improve readability  They include classes for text alignment  visibility  display properties  and more ClearfixColored linksRatiosPositionVisually HiddenStretched linkText truncationBootstrap UtilitiesBootstrap utilities are small  reusable classes that provide additional functionality and control  They include classes for spacing  alignment  borders  and background colors BackgroundBordersColorsDisplayFlexFloatInteractionsOverflowPositionShadowsSizingSpacingTextVertical alignVisibilityBootstrap For Interview Bootstrap Interview Questions And AnswersBootstrap Exercises  Practice Questions and SolutionsBootstrap Quiz   Set  Bootstrap Quiz   Set  Bootstrap Quiz   Set  Features of BootstrapGrid System  Easily create responsive layouts with a flexible grid system that adjusts seamlessly to various screen sizes Forms  Build user friendly forms with diverse styles and functionalities  including validation Buttons  Add customizable buttons of all shapes and sizes to enhance your website s interactivity Navigation  Implement intuitive navigation menus  from simple dropdowns to advanced mega menus Alerts  Effectively communicate with dismissible alerts  warnings  and success notifications Images  Improve your website s visual appeal with responsive image handling JavaScript Plugins  Integrate interactive features like modals  tooltips  and carousels using Bootstrap s JavaScript plugins Applications of BootstrapCreating Responsive WebsitesPrototyping Web ApplicationsDeveloping Admin DashboardsBuilding Landing PagesDesigning E commerce FrontendsBootstrap vs Other CSS FrameworksFeatureBootstrapTailwind CSSFoundationDesign PhilosophyPre designed ComponentsUtility firstPre designed ComponentsLearning CurveEasyModerateModerateCustomizationModerateHighModerateResponsivenessBuilt inBuilt inBuilt inUse CaseQuick PrototypesTailored DesignsEnterprise Websites
+                            
+                            
+                        
+                                                                              
+                                        
+                                                                                
+                                                                
+                            
+    
+        
+        
+        Comment
+    More infoAdvertise with us                                
+                                
+                                        Next Article
+                                        
+                                    
+                                    
+                                    
+                                        Bootstrap   Tutorial
+                                    
+                                
+                                                        
+                        
+                            
+                                        
+                                            
+                                                
+                                                
+                                                    D
+        
+            
+        
+        
+                                                
+                                                
+                                                    dharmendra kumar                                                
+                                                
+                                                
+            
+            
+
+ Follow                                            
+                                            
+                                        
+                                        
+                                            
+                                            
+                                                
+                                                
+                                                    
+                                                    
+                                                
+                                            
+                                            
+                                                                            
+                                    Improve
+                                    
+                                
+                            
+                                        
+                        
+                        
+                                                            
+                                    Article Tags   
+                                    
+                                        
+            
+                Web Technologies
+            
+            
+                Bootstrap
+            
+            
+                Tutorials
+            
+            
+                Web Tech Tutorials

@@ -1,0 +1,171 @@
+Array Data Structure  Guide
+                                        
+                                                                                    
+                                                
+                                                    Last Updated   
+                                                       Apr      
+                                                
+
+                                                 
+                                                 
+                                                                                                            
+                                                                                                                    
+                                                            
+                                                            
+                                                              
+                                                
+                                                    
+                                                        
+                                                    
+                                                
+                                            
+                                                                                                                                                                                        
+                                                                    Comments
+                                                                    
+                                                                        
+                                                                        
+                                                                        
+                                                                    
+                                                                
+                                                                
+                                                                Improve
+                                                                
+                                                                    
+                                                                    
+                                                                    
+                                                                
+                                                             
+                                                                                                                        
+                                                                                                                    
+                                                        
+                                                            
+                                                                                                                            
+                                                            
+                                                            
+                                                        
+                                                    
+                                                 
+                                            
+                                                                            
+                                                            
+                            
+                            
+                            
+                                            
+                                            
+                                             
+                                                
+                                                    
+                                                        
+                                                        Suggest changes
+                                                    
+                                                
+                                                                                                                                      
+                                            
+                                                     
+                                                        Like Article
+                                                    
+                                                    
+                                                        
+                                                        Like
+                                                    
+                                                
+
+                                            
+                                            
+                                            
+
+                                            
+                                            
+                                                
+                                                    
+                                                        
+                                                        Report
+                                                    
+                                                
+
+                                            
+                                            
+                                            
+                                        
+                                    
+                            
+                                                                In this article  we introduce array  implementation in different popular languages  its basic operations and commonly seen problems   interview questions   An array stores items  in case of C C   and Java Primitive Arrays  or their references  in case of Python  JS  Java Non Primitive  at contiguous locations  It offers mainly the following advantages over other data structures Random Access    i th item can be accessed in O    Time as we have the base address and every item or reference is of same size Cache Friendliness   Since items   references are stored at contiguous locations  we get the advantage of locality of reference It is not useful in places where we have operations like insert in the middle  delete from middle and search in a unsorted data It is a fundamental and linear data structure using which we build other data structures like Stack Queue  Deque  Graph  Hash Table  etc    Learn Basics of Array   Introduction to Arrays  Applications of Array  Array in Different Language   Arrays in C Vector in C   STL  Arrays in Java  ArrayList in Java List in Python Arrays in C   Arrays in JavaScript   Basic Problems on Array  Print AlternatesLinear Search Largest ElementSecond Largest Largest Three  Leaders in an array Check if SortedRemove Duplicates from Sorted Generate all Subarrays Reverse an Array Rotate an Array Zeroes to End  Min Increments to Make Equal  Min Cost to Make Size   Prerequisite for the Remaining ProblemsBinary SearchSelection Sort  Insertion Sort  Binary Search  QuickSort  MergeSort  CycleSort  and HeapSortSort in C       Sort in Java   Sort in Python   Sort in JavaScriptTwo Pointers Technique Prefix Sum TechniqueBasics of Hashing Window Sliding Technique Easy Problems on Array  Distinct Elements  Duplicate within K DistanceMake Even Positioned GreaterSum of all SubarraysStock Buy and Sell   Multiple TransactionsSingle Among DoublesMissing NumberMissing and RepeatingOnly Repeating from   to n  Sorted Subsequence of Size  Binary SortStable Binary SortStable Binary Sort with O    SpaceSort in Wave Form Max Subarray SumK Concatenation Max Subarray SumMax Subarray ProductEquilibrium index Two Sum   Find if there is a PairTwo Sum   Closest Pair  More problems on   Sum in Medium Section Chocolate Distribution ProblemUnion of two arraysIntersection of two arraysUnion of two sorted arraysIntersection of two sorted arrays Medium Problems on Array  Make arr i    i   Sort an array of   to nReorder according to given indexes Minimum Swaps to SortMin in a Sorted RotatedMax in a Sorted RotatedRotation Count in Rotated Sorted  Search in a Sorted  Rotated Nearly Sorted  or K sorted   Product Except SelfK th Largest Sum Subarray Smallest missing number Smallest subarray with sum greater than x Inversion count Merge Overlapping IntervalsSort an array of  s   s and  s Merge with O    extra space Majority Element Peak element Count possible triangles     Sub array with given sum  Longest Subarray with Equal  s and  sLongest Common Span in Two Binary Arrays   Construct an array from its pair sum array     Sum   All Pairs  Sum   Distinct Pairs  Sum   Find Any  Sum   Closest Triplet  Sum   Find Any   More problems on   Sum in Hard Section  Hard Problems on Array  Surpasser Count   Trapping Rain Water Top K Frequent Elements Kth Missing Positive Number in a Sorted ArrayStock Buy and Sell   At Most K TransactionsStock Buy and Sell   At Most   TransactionsMedian in a StreamSmallest Difference Triplet from   arrays Max occurred in n ranges  Sum   Distinct Triplets   Sum   All Triplets  Sum   Distinct Quadruples   Sum   All Quadruples  Sum   Closest QuadrupleExpert Problems for Competitive Programmers MO s Algorithm  Square Root  Sqrt  Decomposition Algorithm  Sparse Table  Range sum query using Sparse Table  Range Minimum Query  Square Root Decomposition and Sparse Table   Range LCM Queries  Merge Sort Tree for Range Order Statistics  Minimum number of jumps to reach end  Space optimization using bit manipulations  Max value of Sum  i arr i   with only rotations allowed  Quick Links     Practice Problems  on Arrays    Top Array Interview Questions  Quizzes  on Arrays  
+                            
+                            
+                        
+                                                                              
+                                        
+                                                                                
+                                                                
+                            
+    
+        
+        
+        Comment
+    More infoAdvertise with us                                
+                                
+                                        Next Article
+                                        
+                                    
+                                    
+                                    
+                                        String in Data Structure
+                                    
+                                
+                                                        
+                        
+                            
+                                        
+                                            
+                                                
+                                                
+                                                    H
+        
+            
+        
+        
+                                                
+                                                
+                                                    harendrakumar                                                   
+                                                
+                                                
+            
+            
+
+ Follow                                            
+                                            
+                                        
+                                        
+                                            
+                                            
+                                                
+                                                
+                                                    
+                                                    
+                                                
+                                            
+                                            
+                                                                            
+                                    Improve
+                                    
+                                
+                            
+                                        
+                        
+                        
+                                                            
+                                    Article Tags   
+                                    
+                                        
+            
+                Arrays
+            
+            
+                DSA
+                                                
+                                                                    
+                                                                                        
+                                    Practice Tags   
+                                    
+                                        Arrays

@@ -1,4 +1,5 @@
-﻿@{
+﻿@using BigData.BLL.Services.Helpers
+@{
     ViewData["Title"] = "Search Engine";
     var query = ViewData["Query"] as string;
     var results = ViewData["Results"] as List<string>;
@@ -6,7 +7,7 @@
 
 <div class="search-engine-container">
     <div class="search-engine-wrapper">
-        <!-- Header Section -->
+
         <div class="search-engine-header">
             <div class="logo-animation">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -18,7 +19,6 @@
             <p class="subtitle">Intelligent search for the modern web</p>
         </div>
 
-        <!-- Search Form -->
         <form method="get" action="@Url.Action("Search", "Pages")" class="search-engine-form">
             <div class="search-input-container">
                 <input type="text" id="query" name="query"
@@ -37,18 +37,16 @@
             </div>
         </form>
 
-        <!-- Quick Suggestions -->
         <div class="quick-suggestions">
             <span>Try searching for:</span>
             <div class="suggestion-tags">
-                <a href="@Url.Action("Search", "Pages", new { query = "free" })" class="tag">free</a>
-                <a href="@Url.Action("Search", "Pages", new { query = "web development" })" class="tag">web development</a>
-                <a href="@Url.Action("Search", "Pages", new { query = "data science" })" class="tag">data science</a>
+                <a href="@Url.Action("Search", "Pages", new { query = "ACCOUNT" })" class="tag">ACCOUNT</a>
+                <a href="@Url.Action("Search", "Pages", new { query = "ADDRESS" })" class="tag">ADDRESS</a>
+                <a href="@Url.Action("Search", "Pages", new { query = "AJAXjQuery" })" class="tag">AJAXjQuery</a>
                 <a href="@Url.Action("Search", "Pages", new { query = "AI" })" class="tag">AI</a>
             </div>
         </div>
 
-        <!-- Results Section -->
         @if (results != null)
         {
             <div class="search-results-container">
@@ -63,9 +61,9 @@
                         @foreach (var url in results)
                         {
                             <div class="result-item">
-                                <a href="@Url.Action("ShowPageContent", "Pages", new { url = url, word = query })" target="_blank" class="result-link">
-                                    <div class="result-url">@url</div>
-                                    <h3 class="result-title">@System.IO.Path.GetFileNameWithoutExtension(url)</h3>
+                                <a href="@Url.Action("ShowPageContent", "Pages", new { url = UrlHelper.DecodeUrl(url), word = query })" target="_blank" class="result-link">
+                                    <div class="result-url">@UrlHelper.DecodeUrl(url)</div>
+                                    <h3 class="result-title">@System.IO.Path.GetFileNameWithoutExtension(UrlHelper.DecodeUrl(url))</h3>
                                     <p class="result-snippet">Relevant content about @query from this source...</p>
                                 </a>
                             </div>
@@ -406,7 +404,6 @@
         }
     }
 
-    /* Responsive Design */
     @@media (max-width: 768px) {
         .search-engine-wrapper {
             padding: 2rem 1.5rem;

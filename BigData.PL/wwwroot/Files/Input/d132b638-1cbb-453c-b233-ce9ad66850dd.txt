@@ -1,0 +1,168 @@
+Kubernetes Tutorial
+                                        
+                                                                                    
+                                                
+                                                    Last Updated   
+                                                       Apr      
+                                                
+
+                                                 
+                                                 
+                                                                                                            
+                                                                                                                    
+                                                            
+                                                            
+                                                              
+                                                
+                                                    
+                                                        
+                                                    
+                                                
+                                            
+                                                                                                                                                                                        
+                                                                    Comments
+                                                                    
+                                                                        
+                                                                        
+                                                                        
+                                                                    
+                                                                
+                                                                
+                                                                Improve
+                                                                
+                                                                    
+                                                                    
+                                                                    
+                                                                
+                                                             
+                                                                                                                        
+                                                                                                                    
+                                                        
+                                                            
+                                                                                                                            
+                                                            
+                                                            
+                                                        
+                                                    
+                                                 
+                                            
+                                                                            
+                                                            
+                            
+                            
+                            
+                                            
+                                            
+                                             
+                                                
+                                                    
+                                                        
+                                                        Suggest changes
+                                                    
+                                                
+                                                                                                                                      
+                                            
+                                                     
+                                                        Like Article
+                                                    
+                                                    
+                                                        
+                                                        Like
+                                                    
+                                                
+
+                                            
+                                            
+                                            
+
+                                            
+                                            
+                                                
+                                                    
+                                                        
+                                                        Report
+                                                    
+                                                
+
+                                            
+                                            
+                                            
+                                        
+                                    
+                            
+                                                                Kubernetes is an open source container management platform that automates the deployment  management  and scaling of container based applications in different kinds of environments like physical  virtual  and cloud native computing foundations   In this Kubernetes Tutorial  you are going to learn all the basics to advanced concepts of Kubernetes like Kubernetes service  Kubernetes cluster construction  Kubernetes deployment  Kubernetes Architecture  etc   For those aiming to deepen their expertise in managing containerized applications and orchestration  consider exploring our  AWS Solutions Architect Certification Training Program    This expert led training complements the knowledge acquired in this tutorial by providing practical  hands on experience with Kubernetes  Containers are isolated from each other so that multiple containers can run on the same machine without interrupting anyone else  It allows us to deploy and manage container based applications across a Kubernetes cluster of machines  Table of ContentPrerequisites for this Kubernetes Tutorial Basics of Kubernetes Advanced Kubernetes Why do we need Kubernetes  Kubernetes Architecture Features of Kubernetes Prerequisites for this Kubernetes Tutorial Before start learning Kubernetes  it is important to have a solid understanding of certain concepts and technologies  Here are some prerequisites   Have good understanding of Container concept  amp  Container Management Tool like Docker or Podman   Understanding of distributed system   Understanding of REST API  Basic understanding of YAML Basics of Kubernetes Kubernetes Basics will teach you how to manage these  containers  effectively  Kubernetes is like a ship captain for these containers  organizing and placing them on multiple computers  like a ship carrying many containers   This introduction will explain key Kubernetes ideas like Pods  Services  and Deployments  You ll learn how Kubernetes keeps your containerized applications running smoothly and efficiently  Introduction to Kubernetes  Kubernetes   Installation Methods  Installation of Kubernetes on Ubuntu  Kubernetes   Architecture  Kubernetes   Monolithic Architecture of Kubernetes  Kubernetes vs Docker  Kubernetes   Concept of Containers  Kubernetes   Introduction to Container Orchestration  Kubernetes   Images  Kubernetes   Jobs  Kubernetes   Labels  amp  Selectors  Kubernetes   Namespace  Kubernetes   Node  Kubernetes   Node Port Service  Kubernetes   Cluster IP vs Node Port  Kubernetes   Service  Kubernetes   Service DNS  Kubernetes   Pod  Kubernetes   Run a Command in Pod s Containers  Kubernetes   Create Multiple Container in a Pod  Kubernetes   Replication Controller  Kubernetes   Difference Between Replicaset and Replication Controller  Kubernetes   Deployments  Kubernetes   Volumes  Kubernetes   Secrets  Kubernetes   Working with Secrets  How to set up a Kubernetes cluster on a local machine using minikube   Kubernetes   Physical Servers vs Virtual Machines vs Containers Advanced Kubernetes In this Advanced Kubernetes section we will understand how to manage complex containerized applications  If started learning this section it means you are familiar with Kubernetes basics and explores powerful features for scaling  security  and automation  Here we will start advanced concepts like deployments with rollbacks and health checks  advanced networking configurations for service communication  and tools for managing storage and persistent data for your containerized applications   Kubernetes   API  Kubernetes   Taint and Toleration  Kubernetes   Kubectl  Kubernetes   Kubectl Commands  Kubernetes   Kubectl Delete  Kubernetes   Load Balancing Service  Kubernetes   Kubectl Create and Kubectl Apply  Kubernetes   ConfigMap  Kubernetes   Create Config Map From Files  Kubernetes   Create ConfigMap from YAML  Kubernetes   ConfigMap from Directories  Kubernetes   Injecting ConfigMap as Files  Kubernetes   Injecting ConfigMap in Pods  Kubernetes Resource Model  KRM  and How to Make Use of YAML   Installing Private Git Server on K s Cluster with Gitea and AKS  Enable Remote Debugging For Java Application Deployed in Kubernetes Environment  How to Enable JMX For Java Applications Running in the Kubernetes Cluster  Why do we need Kubernetes  There are several reasons to learn Kubernetes like easy scaling of applications  self healing  portability  and automation  It is very helpful for running microservices and distributed systems  For example   You have a couple of applications to deploy so  you can package it into a container and run it on a server containing a Docker engine or any other container engine  You package the application into a container using a Docker file and host it on a port for the external world to access it  But there is a drawback is that it is only running on a single server so  if at that point any failure occurs it becomes an application failure  to handle the single point of failure google introduced Kubernetes to scale applications  Kubernetes Architecture Below you will find the image that describe the architecture of Kubernetes   Features of Kubernetes Kubernetes has many useful features that help run and manage containers on different machines  It makes it easier to control Kubernetes  K s  clusters  and helps use computer resources more efficiently  Some important features include    Persistent StorageKubernetes enables persistent storage means your data is saved even if you stops or restarts your container  It enables dynamic storage which means you can add storage automatically when needed  For example  If you are working on an application and your application needs more space then Kubernetes can connect it to extra storage without stopping your application    Load BalancingKubernetes use load balancing to manage high demand traffic because of this your applications runs smoothly  Kubernetes provides both internal and external load balancing  This avoid overloading and make sure that users always reach a working application    Efficient Resource UtilizationKubernetes helps you to use hardware resources like CPU  memory and storage in a smart manner  It places containers on different machines so that no single machine gets overloaded which improves performance and saves money by using resource more effectively    Resilience and Self HealingKubernetes helps keep your application running even if something goes wrong  It can automatically place containers on healthy machines  restart them if they crash  make copies  replication  to handle more users  and adjust the number of containers based on demand  scaling   All of this helps your app fix itself and stay available without needing manual help    Auto ScalingKubernetes automatically scale up or down your resources according to your demand  This means that you can adjust the number of containers according to your need  This ensures that your applications always have the resources they need without manual intervention    Consistency Across EnvironmentsKubernetes lets you describe your application using code  so it works the same in every environment like development  testing  and production  This reduces problems when moving apps between stages and makes the software delivery process faster and smoother Advantages of Kubernetes Kubernetes offers numerous advantages  some of the key benefits include    Container OrchestrationKubernetes helps you to manage containerized applications automatically  It takes care of starting  stopping  and updating containers without any need from your end to do everything manually  This makes it easy to run applications smoothly and update them without downtime     ScalabilityKubernetes works on horizontal scaling means it can grow or shrink your application based on how much traffic it gets  For example  if more people use your application  it can automatically add more containers to handle the load  When traffic is low  it can remove the extra containers to save resources and costs     High AvailabilityKubernetes checks your apps regularly to make sure they are working  If one part of your app stops  Kubernetes can fix it or replace it  This keeps your app running and reduces the chances of downtime     Fault ToleranceIf any fault come in your production and container fails Kubernetes automatically restarts the app or moves it to a working machine  This helps your application continue running even if something breaks    FlexibilityKubernetes works in different environments  You can run your apps easily on public clouds like AWS  Google Cloud  or Azure  as well as on your own private cloud or data center  Kubernetes also makes it simple to switch between these providers  so you are not stuck using only one    Resource EfficiencyKubernetes uses system resources like CPU and memory wisely  It places containers in a way that makes the best use of your hardware  This helps reduce costs by not wasting any resources    Automated OperationsKubernetes makes your complex tasks simple like setting up networks  connecting storage  and balancing traffic between services  It uses automation and simple code instructions  called declarative APIs  to make operations faster and easier Conclusion This tutorial gives a clear and complete introduction to Kubernetes  It explains what Kubernetes is  how it started  its main features  and how it helps run container based applications  We also talked about how to install Kubernetes  use its APIs  and build a cluster  Whether you are a beginner or have some experience  this tutorial will help you understand how to use Kubernetes  It is a very popular tool in the tech world and is widely used to manage apps in real life  production  systems Keep learning and trying things out with Kubernetes to see how much it can do 
+                            
+                            
+                        
+                                                                              
+                                        
+                                                                                
+                                                                
+                            
+    
+        
+        
+        Comment
+    More infoAdvertise with us                                
+                                
+                                        Next Article
+                                        
+                                    
+                                    
+                                    
+                                        Introduction to Kubernetes  K S 
+                                    
+                                
+                                                        
+                        
+                            
+                                        
+                                            
+                                                
+                                                
+                                                    A
+        
+            
+        
+        
+                                                
+                                                
+                                                    amanchopra                                                
+                                                
+                                                
+            
+            
+
+ Follow                                            
+                                            
+                                        
+                                        
+                                            
+                                            
+                                                
+                                                
+                                                    
+                                                    
+                                                
+                                            
+                                            
+                                                                            
+                                    Improve
+                                    
+                                
+                            
+                                        
+                        
+                        
+                                                            
+                                    Article Tags   
+                                    
+                                        
+            
+                Kubernetes
+            
+            
+                DevOps
+            
+            
+                Tutorials

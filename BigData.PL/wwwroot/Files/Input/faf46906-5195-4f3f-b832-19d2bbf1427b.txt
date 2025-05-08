@@ -1,0 +1,174 @@
+Dynamic Programming or DP
+                                        
+                                                                                    
+                                                
+                                                    Last Updated   
+                                                       Mar      
+                                                
+
+                                                 
+                                                 
+                                                                                                            
+                                                                                                                    
+                                                            
+                                                            
+                                                              
+                                                
+                                                    
+                                                        
+                                                    
+                                                
+                                            
+                                                                                                                                                                                        
+                                                                    Comments
+                                                                    
+                                                                        
+                                                                        
+                                                                        
+                                                                    
+                                                                
+                                                                
+                                                                Improve
+                                                                
+                                                                    
+                                                                    
+                                                                    
+                                                                
+                                                             
+                                                                                                                        
+                                                                                                                    
+                                                        
+                                                            
+                                                                                                                            
+                                                            
+                                                            
+                                                        
+                                                    
+                                                 
+                                            
+                                                                            
+                                                            
+                            
+                            
+                            
+                                            
+                                            
+                                             
+                                                
+                                                    
+                                                        
+                                                        Suggest changes
+                                                    
+                                                
+                                                                                                                                      
+                                            
+                                                     
+                                                        Like Article
+                                                    
+                                                    
+                                                        
+                                                        Like
+                                                    
+                                                
+
+                                            
+                                            
+                                            
+
+                                            
+                                            
+                                                
+                                                    
+                                                        
+                                                        Report
+                                                    
+                                                
+
+                                            
+                                            
+                                            
+                                        
+                                    
+                            
+                                                                Dynamic Programming is an algorithmic technique with the following properties It is mainly an optimization over plain recursion  Wherever we see a recursive solution that has repeated calls for the same inputs  we can optimize it using Dynamic Programming  The idea is to simply store the results of subproblems so that we do not have to re compute them when needed later  This simple optimization typically reduces time complexities from exponential to polynomial  Some popular problems solved using Dynamic Programming are Fibonacci Numbers  Diff Utility  Longest Common Subsequence   Bellman Ford Shortest Path  Floyd Warshall  Edit Distance and Matrix Chain Multiplication Basic of DPIntroduction to DP Tabulation vs MemoizationSteps to solve a DP ProblemBasic ProblemsFibonacci numbersTribonacci NumbersLucas NumbersClimbing StairsClimbing Stairs with   MovesWeighted Climbing Stairs Maximum Segments nth Catalan NumberCount Unique BSTsCount Valid ParenthesisWays to Triangulate a PolygonMin Sum in a TriangleMinimum Perfect SquaresWays to Partition a SetBinomial CoefficientPascal s TriangleNth Row of Pascal TriangleMin Sum in a TriangleEasy Problems House RobberMin Cost PathDecode WaysSubset Sum ProblemCoin change problem   Count Ways Coin Change   Minimum Coins to Make SumPainting Fence AlgorithmCutting a RodJump GameLongest Common SubstringCount all paths in a GridPaths in a Grid with ObstaclesPermutations with K Inversions Max A s using Special KeyboardMedium Problems Water Overflow Longest Common Subsequence Longest Increasing SubsequenceEdit DistanceLargest Divisible SubsetWeighted Job Schedulling    Knapsack ProblemPrinting Items in     KnapsackUnbounded KnapsackWord Break ProblemTile Stacking ProblemBox Stacking ProblemPartition ProblemLongest Palindromic SubsequenceLongest Common Increasing Subsequence  LCS   LIS All distinct subset  or subsequence  sumsCount DerangementsMinimum insertions for palindromeWildcard Pattern MatchingRegular Expression MatchingArrange Balls with adjacent of different typesLongest Subsequence with   adjacent differenceMaximum size square sub matrix with all  sBellman Ford AlgorithmFloyd Warshall Algorithm Maximum Tip CalculatorHard Problems Largest X Bordered SquareEgg Dropping ProblemPalindrome PartitioningPalindromic Substring CountWord Wrap ProblemOptimal Strategy for a GameThe painter s partition problemProgram for Bridge and Torch problemMatrix Chain MultiplicationPrinting Matrix Chain MultiplicationMaximum sum rectangleStock Buy and Sell   At Most k TimesStock Buy and Sell   At Most   TimesMin cost to sort strings using ReversalsCount of AP SubsequencesDP on TreesMax Height of Tree when any Node can be RootLongest repeating and non overlapping substringPalindrome Substrings CountDP Problems Sorted by Topic   Dimensions   Standard ProblemsDP Standard Problems and Variations DP Problems Dimension Wise   D   D and  D DP Problems Topic WiseAdvanced Concepts in Dynamic Programming  DP Bitmasking and Dynamic Programming   Set  Bitmasking and Dynamic Programming   Set    TSP Digit DP   IntroductionSum over Subsets   Dynamic ProgrammingQuick Links Learn Data Structure and Algorithms   DSA TutorialTop    Dynamic Programming Interview Questions Practice Problems  on Dynamic Programming Quiz  on Dynamic Programming
+                            
+                            
+                        
+                                                                              
+                                        
+                                                                                
+                                                                
+                            
+    
+        
+        
+        Comment
+    More infoAdvertise with us                                
+                                
+                                        Next Article
+                                        
+                                    
+                                    
+                                    
+                                        Divide and Conquer Algorithm
+                                    
+                                
+                                                        
+                        
+                            
+                                        
+                                            
+                                                
+                                                
+                                                    H
+        
+            
+        
+        
+                                                
+                                                
+                                                    harendrakumar                                                   
+                                                
+                                                
+            
+            
+
+ Follow                                            
+                                            
+                                        
+                                        
+                                            
+                                            
+                                                
+                                                
+                                                    
+                                                    
+                                                
+                                            
+                                            
+                                                                            
+                                    Improve
+                                    
+                                
+                            
+                                        
+                        
+                        
+                                                            
+                                    Article Tags   
+                                    
+                                        
+            
+                Algorithms
+            
+            
+                Dynamic Programming
+            
+            
+                DSA
+                                                
+                                                                    
+                                                                                        
+                                    Practice Tags   
+                                    
+                                        AlgorithmsDynamic Programming

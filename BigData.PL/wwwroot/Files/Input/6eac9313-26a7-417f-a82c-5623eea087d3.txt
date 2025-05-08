@@ -1,0 +1,171 @@
+Queue Data Structure
+                                        
+                                                                                    
+                                                
+                                                    Last Updated   
+                                                       Apr      
+                                                
+
+                                                 
+                                                 
+                                                                                                            
+                                                                                                                    
+                                                            
+                                                            
+                                                              
+                                                
+                                                    
+                                                        
+                                                    
+                                                
+                                            
+                                                                                                                                                                                        
+                                                                    Comments
+                                                                    
+                                                                        
+                                                                        
+                                                                        
+                                                                    
+                                                                
+                                                                
+                                                                Improve
+                                                                
+                                                                    
+                                                                    
+                                                                    
+                                                                
+                                                             
+                                                                                                                        
+                                                                                                                    
+                                                        
+                                                            
+                                                                                                                            
+                                                            
+                                                            
+                                                        
+                                                    
+                                                 
+                                            
+                                                                            
+                                                            
+                            
+                            
+                            
+                                            
+                                            
+                                             
+                                                
+                                                    
+                                                        
+                                                        Suggest changes
+                                                    
+                                                
+                                                                                                                                      
+                                            
+                                                     
+                                                        Like Article
+                                                    
+                                                    
+                                                        
+                                                        Like
+                                                    
+                                                
+
+                                            
+                                            
+                                            
+
+                                            
+                                            
+                                                
+                                                    
+                                                        
+                                                        Report
+                                                    
+                                                
+
+                                            
+                                            
+                                            
+                                        
+                                    
+                            
+                                                                A Queue Data Structure is a fundamental concept in computer science used for storing and managing data in a specific order  It follows the principle of  First in  First out   FIFO   where the first element added to the queue is the first one to be removed  It is used as a buffer in computer systems where we have speed mismatch between two devices that communicate with each other  For example  CPU and keyboard and two devices in a networkQueue is also used in Operating System algorithms like CPU Scheduling and Memory Management  and many standard algorithms like Breadth First Search of Graph  Level Order Traversal of a Tree BasicsIntroduction to QueueBasic Operations of QueueArray Implementations of QueueLinked List Implementation of QueueApplications of QueueImplementations in various Programming LanguagesQueue in C   STLQueue In JavaQueue In PythonQueue In C Queue in JavaScriptImplementing Other Data Structures Using QueueImplement a stack using single queueImplement Queue using StacksImplement k Queues in a single arrayLRU Cache ImplementationEasy Problems on QueueImplement Stack using QueuesMinimum Depth of a Binary TreeBFS for a GraphDetect cycle in an undirected graph using BFSRight View of a Binary TreeCheck whether a graph is Bipartite or notMedium Problems on QueueFlatten a multilevel linked listLevel with maximum number of nodesFind if there is a path between two vertices in a directed graphPrint all nodes between two given levels in Binary TreeFind next right node of a given keyMinimum steps to reach target by a KnightIslands in a graph using BFSFind the first non repeating in a streamHard Problems on QueueSliding Window Maximum  Maximum of all subarrays of size K Flood Fill AlgorithmMinimum time required to rot all orangesShortest path in a Binary MazeAn Interesting Method to Generate Binary Numbers from   to nMaximum cost path from source node to destinationShortest distance between two cells in a matrix or gridSnake and Ladder ProblemFind shortest safe route in a path with landminesCount all possible walks from a source to a destination with exactly K edgesMinimum Cost of Simple Path between two nodes in a directed and weighted graphMinimum Cost Path in a directed graph via given set of intermediate nodesFind the first circular tour that visits all petrol pumpsQuick Links  Practice Problems  on Queue Videos  on Queue Quizzes  on QueueRecommended Learn Data Structure and Algorithms   DSA TutorialQueue in Go LanguageQueue in Scala
+                            
+                            
+                        
+                                                                              
+                                        
+                                                                                
+                                                                
+                            
+    
+        
+        
+        Comment
+    More infoAdvertise with us                                
+                                
+                                        Next Article
+                                        
+                                    
+                                    
+                                    
+                                        Introduction to Queue Data Structure
+                                    
+                                
+                                                        
+                        
+                            
+                                        
+                                            
+                                                
+                                                
+                                                    H
+        
+            
+        
+        
+                                                
+                                                
+                                                    harendrakumar                                                   
+                                                
+                                                
+            
+            
+
+ Follow                                            
+                                            
+                                        
+                                        
+                                            
+                                            
+                                                
+                                                
+                                                    
+                                                    
+                                                
+                                            
+                                            
+                                                                            
+                                    Improve
+                                    
+                                
+                            
+                                        
+                        
+                        
+                                                            
+                                    Article Tags   
+                                    
+                                        
+            
+                Queue
+            
+            
+                DSA
+                                                
+                                                                    
+                                                                                        
+                                    Practice Tags   
+                                    
+                                        Queue

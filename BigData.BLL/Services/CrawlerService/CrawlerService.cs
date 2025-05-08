@@ -8,6 +8,7 @@ using System.IO;
 using System.Linq;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
+using System.Web; // إضافة الـ namespace لتشفير وفك تشفير الروابط
 
 namespace BigData.BLL.Services.CrawlerService
 {
@@ -20,6 +21,8 @@ namespace BigData.BLL.Services.CrawlerService
 		private readonly Queue<string> _queue;
 		private readonly List<HashSet<int>> _neighbors;
 
+		private readonly List<string> _startingUrls;
+
 		public WebCrawlerService(ApplicationDbContext context, int maxLinks = 1000)
 		{
 			_context = context;
@@ -28,6 +31,12 @@ namespace BigData.BLL.Services.CrawlerService
 			_visited = new HashSet<string>();
 			_queue = new Queue<string>();
 			_neighbors = new List<HashSet<int>>();
+
+			_startingUrls = new List<string>
+			{
+				"https://www.dailynewsegypt.com/",
+				"https://www.geeksforgeeks.org/"
+			};
 
 			Directory.CreateDirectory(_saveDirectory);
 		}
@@ -40,18 +49,13 @@ namespace BigData.BLL.Services.CrawlerService
 				return;
 			}
 
-			// Initialize with seed URLs
-			_queue.Enqueue("https://en.wikipedia.org/wiki/Artificial_intelligence");
-			_queue.Enqueue("https://en.wikipedia.org/wiki/Machine_learning");
+			foreach (var url in _startingUrls)
+			{
+				_queue.Enqueue(url);
+			}
 
-			// Step 1: Crawl all pages and collect links
 			await CrawlPages();
-
-			// Step 2: Parse pages into cleaned text
 			await ParsePages();
-
-			// Step 3: Build neighbor relationships
-			await BuildNeighborRelationships();
 
 			Console.WriteLine($"Crawling complete. Total pages saved: {_visited.Count}");
 		}
@@ -67,19 +71,22 @@ namespace BigData.BLL.Services.CrawlerService
 				{
 					var web = new HtmlWeb();
 					var doc = await web.LoadFromWebAsync(currentUrl);
-
 					_visited.Add(currentUrl);
 					Console.WriteLine($"Visited: {currentUrl}");
 
 					// Extract and enqueue new links
-					var links = ExtractLinks(doc);
+					var links = ExtractLinks(doc, currentUrl);
 					foreach (var link in links)
 					{
-						if (!_visited.Contains(link) && !_queue.Contains(link))
+						var decodedLink = HttpUtility.UrlDecode(link); // فك التشفير قبل إضافته
+						if (!_visited.Contains(decodedLink) && !_queue.Contains(link))
 						{
 							_queue.Enqueue(link);
 						}
 					}
+
+					// Delay to avoid overloading the server
+					await Task.Delay(2000); // Delay 2 seconds between requests
 				}
 				catch (Exception ex)
 				{
@@ -100,8 +107,13 @@ namespace BigData.BLL.Services.CrawlerService
 					var doc = await web.LoadFromWebAsync(url);
 
 					// Extract main content
-					var mainContent = doc.DocumentNode.SelectSingleNode("//div[@id='mw-content-text']");
+					// Extract main content (more generic)
+					var mainContent = doc.DocumentNode.SelectSingleNode("//article")
+								   ?? doc.DocumentNode.SelectSingleNode("//main")
+								   ?? doc.DocumentNode.SelectSingleNode("//body");
+
 					var rawText = mainContent?.InnerText ?? string.Empty;
+
 
 					// Clean text
 					string cleanedText = Regex.Replace(rawText, @"[^a-zA-Z\s]", " ");
@@ -116,7 +128,7 @@ namespace BigData.BLL.Services.CrawlerService
 					{
 						Url = url,
 						Content = cleanedText,
-						FileName = fileName // ⬅️ نحفظ اسم الملف مع الصفحة
+						FileName = fileName
 					};
 
 					_context.Pages.Add(page);
@@ -133,48 +145,7 @@ namespace BigData.BLL.Services.CrawlerService
 			await _context.SaveChangesAsync();
 		}
 
-
-		private async Task BuildNeighborRelationships()
-		{
-			var visitedList = _visited.ToList();
-
-			// Initialize neighbors list
-			for (int i = 0; i < visitedList.Count; i++)
-			{
-				_neighbors.Add(new HashSet<int>());
-			}
-
-			// Build neighbor relationships
-			for (int i = 0; i < visitedList.Count; i++)
-			{
-				var currentUrl = visitedList[i];
-
-				try
-				{
-					var web = new HtmlWeb();
-					var doc = await web.LoadFromWebAsync(currentUrl);
-
-					var links = ExtractLinks(doc);
-					foreach (var link in links)
-					{
-						if (_visited.Contains(link))
-						{
-							int neighborIndex = visitedList.IndexOf(link);
-							_neighbors[i].Add(neighborIndex);
-						}
-					}
-				}
-				catch (Exception ex)
-				{
-					Console.WriteLine($"Error processing neighbors for {currentUrl}: {ex.Message}");
-				}
-			}
-
-			// Save neighbors to file
-			await SaveNeighborsToFile(visitedList);
-		}
-
-		private List<string> ExtractLinks(HtmlDocument doc)
+		private List<string> ExtractLinks(HtmlDocument doc, string baseUrl)
 		{
 			var links = new List<string>();
 			var linkNodes = doc.DocumentNode.SelectNodes("//a[@href]");
@@ -184,16 +155,13 @@ namespace BigData.BLL.Services.CrawlerService
 				foreach (var linkNode in linkNodes)
 				{
 					var href = linkNode.GetAttributeValue("href", string.Empty);
-					if (!string.IsNullOrWhiteSpace(href)
-						&& (href.StartsWith("https://") || href.StartsWith("http://")))
-
+					if (!string.IsNullOrWhiteSpace(href))
 					{
-						links.Add(href);
-					}
-					else if (href.StartsWith("/wiki/") && !href.Contains(":"))
-					{
-						string fullUrl = "https://en.wikipedia.org" + href;
-						links.Add(fullUrl);
+						var fullUrl = BuildFullUrl(href, baseUrl);
+						if (!string.IsNullOrEmpty(fullUrl))
+						{
+							links.Add(fullUrl);
+						}
 					}
 				}
 			}
@@ -201,20 +169,24 @@ namespace BigData.BLL.Services.CrawlerService
 			return links.Distinct().ToList();
 		}
 
-		private async Task SaveNeighborsToFile(List<string> visitedList)
+		private string BuildFullUrl(string href, string baseUrl)
 		{
-			var neighborsFilePath = Path.Combine(_saveDirectory, "neighbors.txt");
-
-			using (var writer = new StreamWriter(neighborsFilePath))
+			// إذا كان الرابط يبدأ بـ http أو https نتركه كما هو
+			if (href.StartsWith("https://") || href.StartsWith("http://"))
 			{
-				for (int i = 0; i < _neighbors.Count; i++)
-				{
-					var neighborsStr = string.Join(", ", _neighbors[i]);
-					await writer.WriteLineAsync($"{i}: {neighborsStr}");
-				}
+				return HttpUtility.UrlDecode(href); // فك التشفير هنا
 			}
-
-			Console.WriteLine("Neighbors file saved successfully.");
+			else if (href.StartsWith("www."))
+			{
+				var fullUrl = "https://" + href;
+				return HttpUtility.UrlDecode(fullUrl); // فك التشفير هنا
+			}
+			else if (href.StartsWith("/"))
+			{
+				var fullUrl = baseUrl.TrimEnd('/') + href;
+				return HttpUtility.UrlDecode(fullUrl); // فك التشفير هنا
+			}
+			return string.Empty;
 		}
 	}
 }

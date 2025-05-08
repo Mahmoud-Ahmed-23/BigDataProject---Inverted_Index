@@ -2,24 +2,65 @@
 @model Page
 
 @{
-	ViewData["Title"] = "Page Content";
+    ViewData["Title"] = "Page Content";
 }
 
-<h1>Page: @Model.Url</h1>
+@* Title and Page Information *@
+<h1 class="page-title">Page: @Model.Url</h1>
 
 @if (!string.IsNullOrEmpty(Model.Content))
 {
-	<div>
-		<h3>Content:</h3>
-		<div>
-			<!-- عرض المحتوى مع التمييز للكلمة -->
-			@Html.Raw(Model.Content)
-		</div>
-	</div>
+        <div class="page-content">
+            <h3>Content:</h3>
+            <div>
+            @Html.Raw(Model.Content) @* عرض المحتوى بـ HTML خام *@
+            </div>
+        </div>
+
+        <div class="page-url">
+            <p><strong>Page URL:</strong> @ViewData["DecodedUrl"]</p>
+        </div>
 }
 else
 {
-	<p>No content available for this page.</p>
+        <p class="no-content">No content available for this page.</p>
 }
 
-<a href="@Url.Action("Index", "Pages")" class="btn btn-secondary">Back to Home</a>
+<a href="@Url.Action("Index", "Pages")" class="btn btn-secondary back-btn">Back to Home</a>
+
+@* Custom CSS Styling *@
+<style>
+    .page-title {
+        font-size: 2rem;
+        color: #333;
+        margin-bottom: 20px;
+    }
+
+    .page-content {
+        margin-bottom: 30px;
+    }
+
+    .page-url p {
+        font-style: italic;
+        color: #555;
+    }
+
+    .no-content {
+        color: #f44336;
+        font-weight: bold;
+    }
+
+    .back-btn {
+        margin-top: 20px;
+        padding: 10px 20px;
+        font-size: 1rem;
+        background-color: #007bff;
+        color: white;
+        text-decoration: none;
+        border-radius: 5px;
+    }
+
+    .back-btn:hover {
+        background-color: #0056b3;
+    }
+</style>

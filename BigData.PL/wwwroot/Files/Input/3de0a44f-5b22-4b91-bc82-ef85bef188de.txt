@@ -1,0 +1,177 @@
+Machine Learning Tutorial
+                                        
+                                                                                    
+                                                
+                                                    Last Updated   
+                                                       May      
+                                                
+
+                                                 
+                                                 
+                                                                                                            
+                                                                                                                    
+                                                            
+                                                            
+                                                              
+                                                
+                                                    
+                                                        
+                                                    
+                                                
+                                            
+                                                                                                                                                                                        
+                                                                    Comments
+                                                                    
+                                                                        
+                                                                        
+                                                                        
+                                                                    
+                                                                
+                                                                
+                                                                Improve
+                                                                
+                                                                    
+                                                                    
+                                                                    
+                                                                
+                                                             
+                                                                                                                        
+                                                                                                                    
+                                                        
+                                                            
+                                                                                                                            
+                                                            
+                                                            
+                                                        
+                                                    
+                                                 
+                                            
+                                                                            
+                                                            
+                            
+                            
+                            
+                                            
+                                            
+                                             
+                                                
+                                                    
+                                                        
+                                                        Suggest changes
+                                                    
+                                                
+                                                                                                                                      
+                                            
+                                                     
+                                                        Like Article
+                                                    
+                                                    
+                                                        
+                                                        Like
+                                                    
+                                                
+
+                                            
+                                            
+                                            
+
+                                            
+                                            
+                                                
+                                                    
+                                                        
+                                                        Report
+                                                    
+                                                
+
+                                            
+                                            
+                                            
+                                        
+                                    
+                            
+                                                                Machine learning is a branch of nbsp Artificial Intelligence nbsp that focuses on developing models and algorithms that let computers learn from data without being explicitly programmed for every task  In simple words  ML teaches the systems to think and understand like humans by learning from the data It can be broadly categorized into four types Types of Machine LearningSupervised Learning  Trains models on labeled data to predict or classify new  unseen data Unsupervised Learning  Finds patterns or groups in unlabeled data  like clustering or dimensionality reduction Reinforcement Learning  Learns through trial and error to maximize rewards  ideal for decision making tasks Note  Self supervised learning is not one of the original three  but it has become a major category in deep learning and fields like NLP and computer vision Semi Supervised Learning  The model generates its own labels from the data  so we don t need human annotated labels Module    Machine Learning PipelineIn order to make predictions there are some steps through which data passes in order to produce a machine learning model that can make predictions  ML workflowData CleaningFeature ScalingData Preprocessing in PythonModule    Supervised Learning Supervised learning nbsp algorithms are generally categorized into nbsp two main types  nbsp Classification   where the goal is to predict discrete labels or categories nbsp Regression   where the aim is to predict continuous numerical values  Supervised LearningThere are many algorithms used in supervised learning each suited to different types of problems  Some of the most commonly used supervised learning algorithms are    Linear RegressionThis is one of the simplest ways to predict numbers using a straight line  It helps find the relationship between input and output Introduction to Linear RegressionGradient Descent in Linear RegressionMultiple Linear RegressionRidge RegressionLasso regressionElastic net Regression   Logistic RegressionUsed when the output is a  yes or no  type answer  It helps in predicting categories like pass fail or spam not spam Understanding Logistic RegressionCost function in Logistic Regression   Decision TreesA model that makes decisions by asking a series of simple questions  like a flowchart  Easy to understand and use Decision Tree in Machine LearningTypes of Decision tree algorithmsDecision Tree   Regression  Implementation Decision tree   Classification  Implementation    Support Vector Machines  SVM A bit more advanced it tries to draw the best line  or boundary  to separate different categories of data Understanding SVMsSVM Hyperparameter Tuning   GridSearchCVNon Linear SVM   k Nearest Neighbors  k NN This model looks at the closest data points  neighbors  to make predictions  Super simple and based on similarity Introduction to KNNDecision Boundaries in K Nearest Neighbors  KNN    Na ve BayesA quick and smart way to classify things based on probability  It works well for text and spam detection Introduction to Naive BayesGaussian Naive BayesMultinomial Naive BayesBernoulli Naive BayesComplement Naive Bayes   Random Forest  Bagging Algorithm A powerful model that builds lots of decision trees and combines them for better accuracy and stability Introduction to Random forestRandom Forest ClassifierRandom Forest RegressionHyperparameter Tuning in Random ForestIntroduction to Ensemble LearningEnsemble learning combines multiple simple models to create a stronger  smarter model  There are mainly two types of ensemble learning Bagging that combines multiple models trained independently Boosting that builds models sequentially each correcting the errors of the previous one Module    Unsupervised learningUnsupervised learning are again divided into three main categories based on their purpose  nbsp Clustering nbsp Association Rule MiningDimensionality Reduction Unsupervised Learning   ClusteringClustering algorithms group data points into clusters based on their similarities or differences  Types of clustering algorithms are Centroid based Methods K Means clusteringElbow Method for optimal value of k in KMeansK Means   clusteringK Mode clusteringFuzzy C Means  FCM  ClusteringDistribution based Methods  Gaussian mixture modelsExpectation Maximization AlgorithmDirichlet process mixture models  DPMMs Connectivity based methods  Hierarchical clustering Agglomerative ClusteringDivisive clusteringAffinity propagationDensity Based methods  DBSCAN  Density Based Spatial Clustering of Applications with Noise  OPTICS  Ordering Points To Identify the Clustering Structure    Dimensionality ReductionDimensionality reduction is used to simplify datasets by reducing the number of features while retaining the most important information Principal Component Analysis  PCA t distributed Stochastic Neighbor Embedding  t SNE Non negative Matrix Factorization  NMF Independent Component Analysis  ICA IsomapLocally Linear Embedding  LLE    Association Rule Find patterns between items in large datasets typically in market basket analysis Apriori algorithmImplementing apriori algorithmFP Growth  Frequent Pattern Growth ECLAT  Equivalence Class Clustering and bottom up Lattice Traversal Module    Reinforcement LearningReinforcement learning interacts with environment and learn from them based on rewards Reinforcement Learning   Model Based MethodsThese methods use a model of the environment to predict outcomes and help the agent plan actions by simulating potential results Markov decision processes  MDPs Bellman equationValue iteration algorithmMonte Carlo Tree Search   Model Free MethodsThe agent learns directly from experience by interacting with the environment and adjusting its actions based on feedback Q LearningSARSAMonte Carlo MethodsReinforce AlgorithmActor Critic AlgorithmAsynchronous Advantage Actor Critic  A C Module    Semi Supervised LearningIt uses a mix of labeled and unlabeled data making it helpful when labeling data is costly or it is very limited Semi Supervised LearningSemi Supervised ClassificationSelf Training in Semi Supervised LearningFew shot learning in Machine LearningModule    Deployment of ML ModelsThe trained ML model must be integrated into an application or service to make its predictions accessible  Machine learning deployementDeploy ML Model using Streamlit LibraryDeploy ML web app on HerokuCreate UIs for prototyping Machine Learning model with GradioAPIs allow other applications or systems to access the ML model s functionality and integrate them into larger workflows  Deploy Machine Learning Model using FlaskDeploying ML Models as API using FastAPIMLOps ensure they are deployed  monitored and maintained efficiently in real world production systems MLOpsContinuous Integration and Continuous Deployment  CI CD  in MLOpsEnd to End MLOpsFor project ideas refer to       Machine Learning Projects with Source Code        for hands on implementation on projects
+                            
+                            
+                        
+                                                                              
+                                        
+                                                                                
+                                                                
+                            
+    
+        
+        
+        Comment
+    More infoAdvertise with us                                
+                                
+                                        Next Article
+                                        
+                                    
+                                    
+                                    
+                                        Python for Machine Learning
+                                    
+                                
+                                                        
+                        
+                            
+                                        
+                                            
+                                                
+                                                
+                                                    
+        
+            
+        
+        
+                                                
+                                                
+                                                    kartik                                                
+                                                
+                                                
+            
+            
+
+ Follow                                            
+                                            
+                                        
+                                        
+                                            
+                                            
+                                                
+                                                
+                                                    
+                                                    
+                                                
+                                            
+                                            
+                                                                            
+                                    Improve
+                                    
+                                
+                            
+                                        
+                        
+                        
+                                                            
+                                    Article Tags   
+                                    
+                                        
+            
+                Machine Learning
+            
+            
+                AI ML DS
+            
+            
+                Tutorials
+            
+            
+                Machine Learning
+                                                
+                                                                    
+                                                                                        
+                                    Practice Tags   
+                                    
+                                        Machine LearningMachine Learning

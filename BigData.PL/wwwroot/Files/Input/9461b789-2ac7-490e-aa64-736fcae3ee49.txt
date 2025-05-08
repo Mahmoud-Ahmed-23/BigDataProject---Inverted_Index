@@ -1,0 +1,122 @@
+Complete DevOps Roadmap   Beginner to Advanced
+                                        
+                                                                            
+                                                            
+                            
+                            
+                            
+                                            
+                                            
+                                             
+                                                
+                                                    
+                                                        
+                                                        Suggest changes
+                                                    
+                                                
+                                                                                                                                      
+                                            
+                                                     
+                                                        Like Article
+                                                    
+                                                    
+                                                        
+                                                        Like
+                                                    
+                                                
+
+                                            
+                                            
+                                            
+
+                                            
+                                            
+                                                
+                                                    
+                                                        
+                                                        Report
+                                                    
+                                                
+
+                                            
+                                            
+                                            
+                                        
+                                    
+                            
+                                                                DevOps is considered a set of practices that combines the abilities of Software Development i e Dev and IT Operations i e Ops together  which results in delivering top notch quality software fastly and more efficiently  Its focus is to encourage communication  collaboration  and integration between the software development team and IT operations to maintain the software development lifecycle  Learn DevOps from industry experts to enhance your workflow efficiency and master the rapid release of high quality software  Checkout  DevOps Engineering   Planning to ProductionNow  you understand DevOp s meaning but the question arises Is there any particular designation for this type of work Yes  there is a specific job designation i e DevOps Engineer  A DevOps Engineer is a person who manages DevOps practices and ensures the streamlined flow of the deployment process  Its key responsibilities may vary from organization to organization but here are some key roles and responsibilities of a DevOps Engineer Implementing CI CD operations Automating the Infrastructure Collaborating with different teams mainly SDE teams and IT operations teams Managing the availability and performance of the Software applications Troubleshooting and resolving the issues of the organization You would be wondering How much a DevOps Engineer could earn by doing this job  Let me tell you the stats  Average salary of a DevOps engineer is      LPA and it goes up to    LPA as well as the average salary of a senior DevOps Engineer ranges between        LPA and can go up to more than    Lakhs per year In this article  we would be learning a full proof roadmap of How to become a DevOps Engineer or DevOps Roadmap  So  let s begin the journeyRoadmap To DevOps   Select a Programming Language  Week     Selecting a language may be a difficult task for a developer but for starting a career in the IT industry it is recommended to select any programming language as your primary language so that you can pursue a further career in the software industry  In this journey of learning DevOps  we will be proceeding further by choosing any one of the two languages i e Python OR Go lang programming language  As both Python and Go lang are easy to learn languages  they both have easy to understand syntax and have a large scope in the future So let s see what are the most important topic which you need to look around to have good knowledge of a programming language Python GoLangIntroduction to PythonInput OutputOperatorsData TypesControl FlowConditionalsLoopsFunctionsModulesPython OOPException HandlingFile handling Python RegexPython Collections Python AdvanceIdentifiers and KeywordsData TypesVariablesConstantsOperatorsif else Statementfor loopLoop Control StatementsSwitch StatementArraysSlicesFunctionsStructuresPackagesPointersMethodsMethods vs FunctionsInterfacesConcurrency   GoroutinesNote  We suggest you to chose any one programming language of the two     OS Concepts  Week   Moving ahead in the journey  it becomes necessary to have your fundamentals strong  as you are going to work directly with the software systems you need to have a solid understanding of Operating Systems and their basic concepts  There are several reasons why you need to learn OS concepts To understand the system architecture To automate and configure management To troubleshoot and debug To apply the best security measures Below we have divided this section into three different domains  Operating Systems  Virtualisation  and Networking Protocols  So  without wasting much time let s take a look    A   Operating SystemsOS BasicsProcess  amp  ThreadsCPU SchedulingProcess SynchronizationDeadlockMemory ManagementDisk ManagementDisk Scheduling  B   VirtualizationApplication VirtualizationNetwork VirtualizationDesktop VirtualizationStorage VirtualizationServer VirtualizationData virtualization  C   Networking ProtocolsHTTPHTTPSTCP IPFTP   SFTPDNSSMTPSSL   TLSSSHPort Forwarding   Linux  Week       If you are going into DevOps  you need to live in the terminal  for the same  it becomes necessary to have a keen knowledge of command line based Operating Systems  and when it comes to the command line the only thing that comes to mind is Linux Linux is an open source operating system that would be needed for collaboration  automation  and continuous improvement of Software Development and IT Operations  The key reasons why you need to learn Linux are  It is widely used in DevOps environments Mainly used for Scripting  and  Automation    Below are listed some of the key concepts regarding Linux Command LineBash and Shell ScriptingPackage ManagementNetworking ToolsSecurity Concepts   SCM  Week     It s time to learn more about the functioning of DevOps in detail  this learning can t be completed without the inclusion of SCM which stands for Source Code Management in DevOps  In DevOps workflow  SCM plays a critical role as it gives the ability to control and track changes through VCS i e Version Control Systems  In this journey  we would suggest you get hands on with  Git and Github as VCS Git  amp  GitHubIntroduction to GitInstallation of GitGit FeaturesGit   Life CycleGit Staging EnvironmentGit vs GitHubGit Command Line and Basic CommandCreating a Repository on GitHubGit InitGit AddGit CommitGit PushGit CloneGit BranchGit Branching Merge and Merge ConflictGit LogGit DiffGit StatusGit  gitignoreGit Fork and Git CloneGit Pull RequestsGit RebaseGit Cherry PickGit StashGit IgnoreGit ForkGit RepositoryGit IndexGit HeadGit Cheatsheet   Cloud Computing  Week       Now  when you are well versed with your basics and have covered most of the topics it s time to get familiar with your working environment or you can say the workspace for DevOps Engineers  Cloud Computing has an inevitable role in the journey of learning DevOps and DevOps often relies on Cloud Computing Platforms such as AWS Amazon Web Services   Microsoft Azure with DevOps  GCP Google Cloud Platform   etc  Further  we would be learning the most popular Cloud Computing Platforms in detail AWSIntroduction to AWSIAM in AWSEC EBS Elastic Bean Stalk EBS Elastic Block Store EFS Elastic File Storage S AMI E Load BalancerCloud WatchAuto ScalingSQSSNSOther Elastic Computes ECS EKS ECR Storage Application ServicesDatabase ServicesAzureIntroduction to AzureCompute Virtual MachinesStorageAzure NetworkAzure Compute FunctionsCompute MonitoringAzure ServicesResourcesCognitive ServicesDashboardsDatabasesDevOps with AzureGCPIntroductionCompute ServicesStorage and Database ServicesSecurity ServicesNetworking ServicesData Integration and AnalyticsServices Management Tools and Monitoring ServicesDevOps with GCP   Docker  Week       From scratch  you have learned many things so far  Now  it s time to learn the most famous tool for DevOps developers i e  Docker  It is an open source containerization platform that helps developers in packaging software applications and their dependencies into small size containers  It has become an integral tool for the DevOps ecosystem due to its various benefits such as  It is portable and more flexible It is highly scalable and has efficient resources It allows collaborative development It maintains consistency Below mentioned are A Z topics that you can visit and learn about Docker in detail Docker IntroductionDocker InstallationDocker CommandsDockerfileDocker ImagesDocker Engine  StorageDocker ComposeDocker Containers and Managing ContainersDocker RegistryDocker Swarm   Kubernetes  Week         Kubernetes  popularly known as  K s   is another open source platform that automates the whole deployment and management of large applications  It plays an important role in the journey of becoming a DevOps engineer  It makes the application more scalable as well as helps to automate the whole process from start to end  It basically follows the IaC   Infrastructure as a Code  principle to define and manage the infrastructure resources We have listed all the important topics related to Kubernetes below Introduction to KubernetesKubernetes   Installation MethodsInstallation of Kubernetes on UbuntuKubernetes   ArchitectureKubernetes   Monolithic Architecture of KubernetesKubernetes vs DockerKubernetes   Concept of ContainersKubernetes   Introduction to Container OrchestrationKubernetes   NamespaceKubernetes   ImagesKubernetes   JobsKubernetes   Labels  amp  SelectorsKubernetes   NodeKubernetes   Node Port ServiceKubernetes   Cluster IP vs Node PortKubernetes   ServiceKubernetes   Service DNSKubernetes   PodKubernetes   Run a Command in Pod s ContainersKubernetes   Create Multiple Containers in a PodKubernetes   Replication ControllerKubernetes   Difference Between Replicaset and Replication ControllerKubernetes   DeploymentsKubernetes   VolumesKubernetes   SecretsKubernetes   Working with Secrets   Miscellaneous  Week      If you reached this part of the article then you definitely have achieved something  Congrats on completing this roadmap this far  But there is always something left to learn we can t deny that  So  here are some miscellaneous topics that you should keep an eye on TerraformPrometheus and GrafanaChef  amp  PuppetYou can also learn about different tools used for DevOps and for this  you can refer to the article   Top    DevOps Tools That You Can Try  ConclusionLearning new things may be challenging for an individual but once a wise man said    Develop a passion for learning  If you do you will never cease to grow   we also believe the same  and for that cause only we have incubated all the necessary resources related to DevOps for you in this article  We believe that you would be learning all the topics properly and will try your best to become a successful DevOps engineer Then too If you are confused and want to learn DevOps solemnly you can visit our course   DevOps Engineering   Planning to Production   What is the DevOps lifecycle The DevOps lifecycle is known as a continuous software development process that includes DevOps best practices to plan  build  integrate  deploy  monitor  operate  and offer continuous feedback throughout the software s lifecycle    What is the Future Scope of DevOps The future scope of DevOps contains many areas in which it can be collaborated and used in an efficient manner It can be used incloud native and containerizationIt can be used inAutomation using AI ML It can be used inSite Reliability Engineering It can be used asDataOps In conclusion  the future growth of DevOps is bright and consistently evolving 
+                            
+                            
+                        
+                                                                              
+                                        
+                                                                                
+                                                                
+                            
+    
+        
+        
+        Comment
+    More infoAdvertise with us                                
+                                
+                                        Next Article
+                                        
+                                    
+                                    
+                                    
+                                           Days of Azure  A Complete Guide For Beginners
+                                    
+                                
+                                                        
+                        
+                            
+                                        
+                                            
+                                                
+                                                
+                                                    
+        
+            
+        
+        
+                                                
+                                                
+                                                    achal  sp                                                
+                                                
+                                                
+            
+            
+
+ Follow                                            
+                                            
+                                        
+                                        
+                                            
+                                            
+                                                
+                                                
+                                                    
+                                                    
+                                                
+                                            
+                                            
+                                                                            
+                                    Improve
+                                    
+                                
+                            
+                                        
+                        
+                        
+                                                            
+                                    Article Tags   
+                                    
+                                        
+            
+                GBlog
+            
+            
+                DevOps
+            
+            
+                Roadmap

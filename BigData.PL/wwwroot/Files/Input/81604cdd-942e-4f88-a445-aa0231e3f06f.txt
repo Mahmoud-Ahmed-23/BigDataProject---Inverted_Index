@@ -1,0 +1,230 @@
+CSS Tutorial
+                                        
+                                                                                    
+                                                
+                                                    Last Updated   
+                                                       Feb      
+                                                
+
+                                                 
+                                                 
+                                                                                                            
+                                                                                                                    
+                                                            
+                                                            
+                                                              
+                                                
+                                                    
+                                                        
+                                                    
+                                                
+                                            
+                                                                                                                                                                                        
+                                                                    Comments
+                                                                    
+                                                                        
+                                                                        
+                                                                        
+                                                                    
+                                                                
+                                                                
+                                                                Improve
+                                                                
+                                                                    
+                                                                    
+                                                                    
+                                                                
+                                                             
+                                                                                                                        
+                                                                                                                    
+                                                        
+                                                            
+                                                                                                                            
+                                                            
+                                                            
+                                                        
+                                                    
+                                                 
+                                            
+                                                                            
+                                                            
+                            
+                            
+                            
+                                            
+                                            
+                                             
+                                                
+                                                    
+                                                        
+                                                        Suggest changes
+                                                    
+                                                
+                                                                                                                                      
+                                            
+                                                     
+                                                        Like Article
+                                                    
+                                                    
+                                                        
+                                                        Like
+                                                    
+                                                
+
+                                            
+                                            
+                                            
+
+                                            
+                                            
+                                                
+                                                    
+                                                        
+                                                        Report
+                                                    
+                                                
+
+                                            
+                                            
+                                            
+                                        
+                                    
+                            
+                                                                CSS stands for nbsp Cascading Style Sheets  nbsp It is a stylesheet language used to style and enhance website presentation CSS is one of the main three components of a webpage along with HTML and JavaScript HTML nbsp adds Structure to a web page JavaScript nbsp adds logic to it and CSS makes it visually appealing or stylish  It controls the layout of a web page i e  how HTML elements will be displayed on a webpage CSS was released  in          years after HTML  in        The main idea behind its use is  it allows the separation of content  HTML  from presentation  CSS   This makes websites easier to maintain and more flexible How to Add CSS to HTML There are three different ways to add CSS styles to an HTML document    Inline CSSUse the style attribute on the HTML element to add styles to the web page  It is used for small projects 
+            HTML
+
+     lt     File name  index html    gt 
+ lt html gt 
+ lt body gt   
+     lt     Using Inline CSS    gt 
+     lt h  style  quot text align  center  quot  gt 
+      	Welcome To GFG
+ 	 lt  h  gt 
+  
+     lt p gt CSS Tutorial   GeeksforGeeks lt  p gt 
+ lt  body gt 
+ lt  html gt 
+
+   Internal CSSPlace the CSS styles within a  lt style gt  tag inside the HTML file  usually inside the  lt head gt  section 
+            HTML
+
+     lt     File name  index html    gt 
+ lt html gt 
+ lt head gt     
+  	 lt     Using Internal CSS    gt 
+     lt style gt 
+        h   
+        	color  green 
+         
+     lt  style gt 
+ lt  head gt 
+ lt body gt   
+     lt     CSS is applied here    gt 
+     lt h  gt Welcome To GFG lt  h  gt 
+  
+     lt p gt CSS Tutorial   GeeksforGeeks lt  p gt 
+ lt  body gt 
+ lt  html gt 
+
+   External CSSCreate a separate CSS file with a  css extension and link this file to your HTML file using the  lt link gt  tag  It consider the best practice to add CSS into HTML File 
+            HTML
+
+     lt     File name  index html    gt 
+ lt html gt 
+ lt head gt 
+  	 lt     Importing External CSS    gt 
+     lt link rel  quot stylesheet quot  href  quot style css quot    gt  
+ lt  head gt 
+ lt body gt 
+     lt p gt CSS Tutorial   GeeksforGeeks lt  p gt 
+ lt  body gt 
+ lt  html gt 
+
+
+            CSS
+
+       Write CSS Here      External CSS   
+   File name  style css   
+p  
+  	text align  center 
+ 
+
+CSS FundamentalsThis section covers the fundamental topics of CSS Introduction to CSSCSS SyntaxCSS CommentsCSS RulesetCSS SelectorsCSS CombinatorsCSS Measurement UnitsCSS PropertiesCSS DisplayCSS BackgroundsCSS BordersCSS FontCSS ColorsCSS MarginsCSS PaddingCSS PositionCSS White SpaceCSS Height and WidthCSS OverFlowCSS ShadowStyling HTML Elements with CSSThis Section contains all the information about various styling techniques in CSS CSS TextCSS ImagesCSS ListsCSS TablesCSS FormsCSS linksCSS MediaCSS Projects for BeginnersNow you have a basic understanding of CSS  So start with some beginner level projects to clear your concept and to implement in real world applications Design Geeks for Geeks logoMeet the Team Page DesignTribute Page DesignDesign a web pageContact Us Page DesignCreate Browsers WindowDesign Email NewsletterCSS Responsive DesignThis Section contains all the designing techniques in CSS used for various use casesCSS Website LayoutCSS Box ModelResponsive DesignCSS PositioningCSS Nesting style rulesLogic Implementations in CSSThis Section Covers all the mathematical logic that can be applied in CSS CSS CountersCSS ColumnsCSS Conditional RulesCSS Logical PropertiesCSS Math functionsInteresting Facts in CSSThis section covers all the interesting facts and features that make CSS a powerful and versatile tool for web design  CSS Image StylingCSS Text StylingCSS GridCSS Box ModelCSS FlexboxComplete CSSAdvanced CSS TopicsThis Section contains various information about advanced topics in CSSCSS SpecificityCSS VariablesCSS InheritanceCSS TransformsCSS TransitionsCSS AnimationsCSS VariablesCSS FunctionCSS Shadow DOMCSS Online QuizzesTo achieve a solid understanding of CSS  it s essential to engage with CSS quizzes and MCQs  These CSS quizzes can enhance your ability to solve similar questions and improve your problem solving skills Here are some quiz articles related to CSS   Basic CSS QuizIntermediate CSS QuizAdvanced CSS QuizCSS Interview QuestionsDon t miss our CSS Interview Questions and Answers before going for your interview CSS Interview Questions and Answers        For BeginnersAdvance CSS Interview Questions and Answers        For ExperiencedBonus Resource  CSS Cheat Sheet for Beginners          A Basic Guide to CSS CSS FrameworksCSS Frameworks are a collection of pre written CSS files  and sometimes JavaScript components  that offer reusable code for common tasks such as buttons  grids  forms  and navigation menus These CSS frameworks provide a set of standardized  reusable components and a predefined structure  allowing developers to create responsive and aesthetically pleasing websites with reduced effort Other Useful CSS ResourcesCSS Complete Guide   A to Z CSS ConceptsLearn CSS  Free CSS Course For BeginnersCSS VersionsCSS    nbsp The foundation  released in       introduced basic styling capabilities for fonts  colors  and margins CSS    nbsp Expanded in       adding positioning elements  pseudo classes  and improved layout options CSS      nbsp Further refinements in       including improvements to inheritance and box model properties CSS    nbsp Introduced from      onwards  CSS  isn t a single version but a collection of modules adding features like animations  media queries  and web fonts  It s constantly evolving CSS Preprocessors This section contains information about the preprocessors used in CSS CSS Preprocessor SASSCSS Preprocessor LESSCSS Preprocessors LESS vs SASSWhy learn CSS CSS is essential for modern web development  Here s why you should learn it    nbsp Enhance Visual AppealCSS allows you to style your web pages  making them visually appealing and engaging  Here s why it matters User Experience  UX   Well designed websites attract and retain users  CSS enables you to create beautiful layouts  choose fonts  and apply colors that resonate with your audience    nbsp Responsive Design In today s mobile first world  responsive design is crucial  CSS empowers you to Media Queries  Adapt your layout based on screen size  desktop  tablet  mobile  Flexbox and Grid  Create flexible  adaptive designs that look great on any device    nbsp Improve Website Performance and SEOCSS indirectly impacts your site s SEO  Here s how Page Load Speed  Well organized CSS files load faster  improving user experience  Google considers page speed as a ranking factor Structured Content  Properly styled HTML  thanks to CSS  enhances readability for search engines and users Mobile Friendliness  Responsive CSS ensures your site performs well on mobile devices  positively affecting rankings    nbsp Efficient MaintenanceCSS promotes clean code and separation of concerns Modularity  Separate CSS files allow easy updates without affecting other parts of your site Consistency  Apply styles consistently across your site using classes and IDs    nbsp Career OpportunitiesLearning CSS opens doors to various roles Front End Developer  Mastering CSS is essential for front end development Web Designer  CSS skills are fundamental for creating stunning web layouts Full Stack Developer  Understanding CSS complements back end skills 
+                            
+                            
+                        
+                                                                              
+                                        
+                                                                                
+                                                                
+                            
+    
+        
+        
+        Comment
+    More infoAdvertise with us                                
+                                
+                                        Next Article
+                                        
+                                    
+                                    
+                                    
+                                        CSS Introduction
+                                    
+                                
+                                                        
+                        
+                            
+                                        
+                                            
+                                                
+                                                
+                                                    
+        
+            
+        
+        
+                                                
+                                                
+                                                    kartik                                                
+                                                
+                                                
+            
+            
+
+ Follow                                            
+                                            
+                                        
+                                        
+                                            
+                                            
+                                                
+                                                
+                                                    
+                                                    
+                                                
+                                            
+                                            
+                                                                            
+                                    Improve
+                                    
+                                
+                            
+                                        
+                        
+                        
+                                                            
+                                    Article Tags   
+                                    
+                                        
+            
+                Web Technologies
+            
+            
+                CSS
+            
+            
+                Tutorials
+            
+            
+                Web Tech Tutorials

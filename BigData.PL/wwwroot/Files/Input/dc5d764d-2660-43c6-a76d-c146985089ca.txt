@@ -1,0 +1,168 @@
+Go Tutorial
+                                        
+                                                                                    
+                                                
+                                                    Last Updated   
+                                                       Feb      
+                                                
+
+                                                 
+                                                 
+                                                                                                            
+                                                                                                                    
+                                                            
+                                                            
+                                                              
+                                                
+                                                    
+                                                        
+                                                    
+                                                
+                                            
+                                                                                                                                                                                        
+                                                                    Comments
+                                                                    
+                                                                        
+                                                                        
+                                                                        
+                                                                    
+                                                                
+                                                                
+                                                                Improve
+                                                                
+                                                                    
+                                                                    
+                                                                    
+                                                                
+                                                             
+                                                                                                                        
+                                                                                                                    
+                                                        
+                                                            
+                                                                                                                            
+                                                            
+                                                            
+                                                        
+                                                    
+                                                 
+                                            
+                                                                            
+                                                            
+                            
+                            
+                            
+                                            
+                                            
+                                             
+                                                
+                                                    
+                                                        
+                                                        Suggest changes
+                                                    
+                                                
+                                                                                                                                      
+                                            
+                                                     
+                                                        Like Article
+                                                    
+                                                    
+                                                        
+                                                        Like
+                                                    
+                                                
+
+                                            
+                                            
+                                            
+
+                                            
+                                            
+                                                
+                                                    
+                                                        
+                                                        Report
+                                                    
+                                                
+
+                                            
+                                            
+                                            
+                                        
+                                    
+                            
+                                                                Go or you say Golang is a procedural and statically typed programming language having the syntax similar to nbsp C nbsp programming language  It was developed in      by Robert Griesemer  Rob Pike  and Ken Thompson at Google but launched in      as an open source programming language and mainly used in Google s production systems  Golang is one of the most trending programming languages among developers   It provides a rich standard library  garbage collection  and dynamic typing capability OverviewIntroduction to GolangInstalling Golang on WindowsInstalling Golang on MacOSHello World  in GolangGolang vs C  Golang vs JavaGolang vs PythonFundamentalsIdentifiers in GolangKeywords in GolangData TypesVariablesConstantsRune in GolangOperators in GolangScope of VariablesType Castingvar Keyword in GolangShort Declaration Operator    var keyword vs short declaration operatorControl StatementsDecision Making StatementsLoops in GolangLoop Control StatementsSwitch Statement in GoDeadlock and Default Case in Select StatementFunctions  amp  MethodsWhat are the Functions Variadic FunctionAnonymous Functionmain and init functionFunction ArgumentsFunction Returning Multiple ValuesNamed Return ValuesBlank IdentifierDeferMethodsMethods With Same NameStructureStructuresStructure EqualityNested StructureAnonymous Structure and FieldsPromoted Fields in StructurePromoted Methods in StructureFunction as a Field in StructureArrays  amp  SlicesArrays in GolangCopying an Array into Another Array in GolangPassing an Array to a Function in GolangSlices in GolangSlice Composite LiteralCopying one Slice into another SlicePassing a Slice to FunctionComparing two Slices in GolangChecking the Equality of Slices in GolangSorting a Slice in GolangTrimming a Slice in GolangSplitting a Slice in GolangStringStrings in GolangDifferent ways to compare StringsDifferent ways to concatenate two stringsTrimming a String in GolangSplitting a String in GolangCheck if the given characters are present in StringRepeating a String for Specific Number of TimesFinding the index value of specified stringCounting the Number of Repeated Characters in StringPointersPointersPointer to Pointer  Double Pointer Pointers to a FunctionReturning Pointer from a FunctionPointer to an Array as Function ArgumentPointer to StructComparing PointersFinding the Capacity of the PointerFinding the Length of the Pointer InterfacesInterfacesMultiple InterfacesEmbedding InterfacesPolymorphism Using InterfacesConcurrencyGoroutines   ConcurrencySelect StatementMultiple GoroutinesGoroutine vs ThreadChannel in GolangUnidirectional Channel in Golang
+                            
+                            
+                        
+                                                                              
+                                        
+                                                                                
+                                                                
+                            
+    
+        
+        
+        Comment
+    More infoAdvertise with us                                
+                                
+                                        Next Article
+                                        
+                                    
+                                    
+                                    
+                                        Go Programming Language  Introduction 
+                                    
+                                
+                                                        
+                        
+                            
+                                        
+                                            
+                                                
+                                                
+                                                    
+        
+            
+        
+        
+                                                
+                                                
+                                                    kartik                                                
+                                                
+                                                
+            
+            
+
+ Follow                                            
+                                            
+                                        
+                                        
+                                            
+                                            
+                                                
+                                                
+                                                    
+                                                    
+                                                
+                                            
+                                            
+                                                                            
+                                    Improve
+                                    
+                                
+                            
+                                        
+                        
+                        
+                                                            
+                                    Article Tags   
+                                    
+                                        
+            
+                Go Language
+            
+            
+                Programming Language
+            
+            
+                Golang

@@ -1,0 +1,797 @@
+Android Tutorial
+                                        
+                                                                                    
+                                                
+                                                    Last Updated   
+                                                       Jan      
+                                                
+
+                                                 
+                                                 
+                                                                                                            
+                                                                                                                    
+                                                            
+                                                            
+                                                              
+                                                
+                                                    
+                                                        
+                                                    
+                                                
+                                            
+                                                                                                                                                                                        
+                                                                    Comments
+                                                                    
+                                                                        
+                                                                        
+                                                                        
+                                                                    
+                                                                
+                                                                
+                                                                Improve
+                                                                
+                                                                    
+                                                                    
+                                                                    
+                                                                
+                                                             
+                                                                                                                        
+                                                                                                                    
+                                                        
+                                                            
+                                                                                                                            
+                                                            
+                                                            
+                                                        
+                                                    
+                                                 
+                                            
+                                                                            
+                                                            
+                            
+                            
+                            
+                                            
+                                            
+                                             
+                                                
+                                                    
+                                                        
+                                                        Suggest changes
+                                                    
+                                                
+                                                                                                                                      
+                                            
+                                                     
+                                                        Like Article
+                                                    
+                                                    
+                                                        
+                                                        Like
+                                                    
+                                                
+
+                                            
+                                            
+                                            
+
+                                            
+                                            
+                                                
+                                                    
+                                                        
+                                                        Report
+                                                    
+                                                
+
+                                            
+                                            
+                                            
+                                        
+                                    
+                            
+                                                                In this Android Tutorial  we cover both basic and advanced concepts  So whether you are a fresher  graduate  or an experienced candidate with several years of Android Development experience  you can follow this Android tutorial to kick start your journey in Android app development  Our Android Tutorial is designed to take you from zero to hero level  Beginners can follow this Android tutorial in a sequential order to grasp the basics of Android development 
+Android is the best selling open source Linux based operating system among various mobile platforms across the globe  Hundreds of millions of mobile devices are powered by Android in more than     countries of the world  It conquered around     of the global market share by the end of       and this trend is growing bigger every other day 
+
+Prerequisites to Learn Android 
+
+Basic Programming Skills  Understand variables  loops  if statements  functions  and data structures 
+Object Oriented Programming  OOP   Know about classes  objects  inheritance  polymorphism  and encapsulation 
+Java or Kotlin  Learn either Java or Kotlin  Kotlin being the preferred language 
+XML Basics  Get familiar with XML for designing app layouts 
+
+Basics
+
+Introduction to Android Development
+History of Android
+Best Way to Become Android Developer   A Complete Roadmap
+Basic Prerequisites for Learning Android App Development
+Android App Development Fundamentals for Beginners
+Android Architecture and Framework
+Android System Architecture
+Android Boot Process
+Java vs Kotlin in Android with Examples
+Interesting Facts About Android
+
+Software Setup and Configuration
+
+Download and Install Java Development Kit  JDK  on Windows  Mac  and Linux
+Guide to Install and Set up Android Studio
+Guide to Install and Setup IntelliJ IDEA for Android App Development
+Guide to Install and Setup Visual Studio for Android App Development
+Running Your First Android App
+How to Run the Android App on a Real Device 
+Resolving Frequently Occurring Errors in Android Development
+
+Android Studio
+
+Android Studio Main Window
+Different Types of Activities in Android Studio
+How to Create Start a New Project in Android Studio 
+How to Clone Android Project from GitHub in Android Studio 
+How to install Android Virtual Device AVD 
+How to Install Genymotion Emulator and Add its Plugin to Android Studio 
+How to Convert Kotlin Code to Java Code in Android Studio 
+How to Convert Java Code to Kotlin Code in Android Studio 
+How to Upload Project on GitHub from Android Studio 
+How to Request Permissions in Android Application 
+How to Create Classes in Android Studio 
+How to Install and Uninstall Plugins in Android Studio 
+How to Generate Signed Apk in Android Studio 
+How to Generate Unsigned  Shareable  Apk in Android Studio 
+How to Generate SHA   MD   and SHA     Keys in Android Studio 
+
+File Structure
+
+Android Project folder Structure
+Android Application File Structure
+The Application Manifest File
+res values folder in Android Studio
+build gradle file in Android Studio
+Assets Folder in Android Studio
+Resource Raw Folder in Android Studio
+
+Components
+
+Components of an Android Application
+Introduction to Activities in Android
+Services in Android with Example
+Content Providers in Android with Example
+Broadcast Receiver in Android With Example
+
+Core Topics
+
+How Does Android App Work 
+Activity Lifecycle in Android with Demo App
+Introduction to Gradle
+What is Context in Android 
+Bundle in Android with Example
+Activity State Changes In Android with Example
+Processes and Application Lifecycle in Android
+Desugaring in Android
+Difference Between AndroidX and Android Support Libraries
+Memory Leaks in Android
+How to Restore Data on Configuration Changed in Android using Bundles 
+Deep Linking in Android with Example
+Easy Runtime Permissions in Android with Dexter
+Debugging with Stetho nbsp 
+Logcat Window in Android Studio
+
+Layout
+
+Layouts in Android UI Design
+Android UI Layouts
+LinearLayout and its Important Attributes with Examples in Android
+Android LinearLayout in Kotlin
+Android RelativeLayout in Kotlin
+ConstraintLayout in Android
+ShimmerLayout in Android with Examples
+Navigation Drawer in Android
+Curve Navigation Drawer in Android using ArcNavigationView
+Align the Navigation Drawer and its Elements towards the Left or Right of the Screen
+How to Create Landscape Layout in Android Studio 
+Absolute Layout in Android with Example
+Android FrameLayout in Kotlin
+Android TableLayout in Kotlin
+Android Motion Layout in Kotlin
+Difference Between LinearLayout and RelativeLayout in Android
+
+View
+
+TextView
+
+TextView widget in Android using Java with Examples
+TextView in Kotlin
+Working With the TextView in Android
+Autosizing TextView in Android
+What is the Difference Between  px    dip    dp  and  sp  in Android 
+Clipboard in Android
+How to Add a TextView with Rounded Corner in Android 
+
+
+EditText
+
+EditText widget in Android using Java with Examples
+Android EditText in Kotlin
+Working With the EditText in Android
+How to add Mask to an EditText in Android
+
+
+ImageView
+
+ImageView in Kotlin
+How to create a Circular image view in Android without using any library 
+How to Create Circular ImageView in Android using CardView 
+How to Create a CircularImageView in Android using hdodenhof Library 
+
+
+ListView
+
+Android Listview in Java with Example
+Android ListView in Kotlin
+
+
+ScrollView
+
+ScrollView in Android
+HorizontalScrollView in Kotlin
+NestedScrollView in Android with Example
+
+
+CardView
+
+CardView in Android With Example
+How to create an Expandable CardView in Android
+CardView using RecyclerView in Android with Example
+
+
+GridView
+
+GridView in Android with Example
+GridView Using Custom ArrayAdapter in Android with Example
+GridView Using BaseAdapter in Android with Example
+Staggered GridView in Android with Example
+
+
+Other Views
+
+WebView in Android
+VideoView in Kotlin
+YoutubePlayerView in Android
+SearchView with Example
+SearchView in Android with RecyclerView
+BottomNavigationView in Android
+Scratch Card View in Android with Example
+PhotoView in Android
+PopView in Android
+GalleryView in Android with Example
+WheelView in Android
+Elastic View in Android
+ProtractorView in Android
+WaveLineView in Android
+TreeView in Android with Example
+DropDownView in Android
+Zigzag View in Android
+ViewAnimator in Android with Example
+ViewSwitcher in Android with Example
+ViewStub in Android with Example
+SlidingDrawer in Android with Example
+
+
+
+Button
+
+Button in Kotlin
+How to add Radio Buttons in an Android Application 
+RadioButton in Kotlin
+How to add a Toggle Button in an Android Application
+ToggleButton in Kotlin
+RadioGroup in Kotlin
+How to use CheckBox on Android
+CheckBox in Kotlin
+ImageButton in Kotlin
+LoadingButton in Android
+Floating Action Button  FAB  in Android with Example
+Theming Floating Action Buttons in Android with Example
+Ripple Effect on Android Button
+How to create customized Buttons in Android with different shapes and colors
+Double Tap on a Button in Android
+
+Intent and Intent Filters
+
+What is Intent in Android 
+Implicit and Explicit Intents with Examples
+How to send data from one activity to the second activity
+How to open the dialer in Android through Intent 
+Creating multiple Screen app
+How to open Camera through Intent and display captured image
+How to send an Email from your Android App 
+How to make a phone call from your Android App 
+How to share a captured Image to another App on Android
+How to send messages on WhatsApp on Android
+How to send messages on WhatsApp on Android using Kotlin
+
+Toast
+
+Toasts for Android Studio
+What is Toast and How to use it with Examples
+Android Toast in Kotlin
+How to Change Toast font 
+How to add a custom styled Toast in Android
+How to add a custom styled Toast in Android using Kotlin
+
+RecyclerView
+
+RecyclerView in Android with Example
+Horizontal RecyclerView with Examples
+How to create a nested RecyclerView in Android
+How to Create RecyclerView with Multiple ViewType in Android 
+RecyclerView using ListView in Android With Example
+Pull to Refresh with RecyclerView in Android with Example
+RecyclerView as Staggered Grid in Android With Example
+RecyclerView using GridLayoutManager in Android With Example
+How to add a Bullet list in a RecyclerView in Android 
+How to insert Slide From Bottom animation in RecyclerView in Android
+How to Access any Component Outside RecyclerView from RecyclerView in Android 
+How to Improve RecyclerView Scrolling Performance in Android 
+How to Build a Facebook Like Custom RecyclerView in Android 
+How to Build an Instagram Like Custom RecyclerView in Android 
+
+Fragments
+
+Introduction to Fragments   Android
+Fragment Lifecycle in Android
+How to Create a New Fragment in Android Studio 
+How to create Swipe Navigation in an Android App
+ViewPager Using Fragments in Android with Example
+TabHost in Android with Example
+
+Adapters
+
+ArrayAdapter in Android with Example
+SimpleAdapter in Android with Example
+SimpleExpandableListAdapter in Android with Example
+AdapterViewFlipper in Android with Example
+BaseExpandableListAdapter in Android with Example
+CustomArrayAdapter in Android with Example
+Custom ArrayAdapter with ListView in Android
+Custom SimpleAdapter in Android with Example
+
+Other UI Component
+
+Spinner
+
+Spinner in Android with Example
+Spinner in Kotlin
+Dynamic Spinner in Kotlin
+How to add Custom Spinner in android 
+
+
+Alert Dialog
+
+Alert Dialog Box and How to create it
+How to create a custom AlertDialog in Android
+How to Create AlertDialog Box Using SweetAlert Dialog Library 
+Alert Dialog with SingleItemSelection in Android
+Alert Dialog with MultipleItemSelection in Android
+How to Change the Position of AlertDialog in Android 
+
+
+Switcher
+
+Switch in Kotlin
+Dynamic Switch in Kotlin
+TextSwitcher in Kotlin
+Dynamic TextSwitcher in Kotlin
+ImageSwitcher in Kotlin
+Dynamic ImageSwitcher in Kotlin
+How to add Custom Switch using IconSwitch Library in android 
+Google Launcher Style Implementation of Switch Icon in Android
+
+
+Android Notification
+
+Notifications in Android with Example
+How to Push Notification in Android 
+Notifications in Android Oreo     
+Create an Expandable Notification Containing Some Text in Android
+Create an Expandable Notification Containing a Picture in Android
+Android progress notifications in Kotlin
+Push Notifications in Android Using OneSignal
+
+
+Android Menu
+
+Android Menus
+How to implement Options Menu in Android
+Context Menu in Android with Example
+Popup Menu in Android With Example
+
+
+
+Image Loading Libraries
+
+Top   Image Loading Libraries in Android
+How to Use Picasso Image Loader Library in Android 
+How to Use Glide Image Loader Library in Android Apps 
+Fresco Image Loading Library in Android with Example
+How to Use Universal Image Loader Library in Android 
+How to Use COIL Image Loader Library in Android Apps 
+
+Date and Time
+
+DatePicker in Kotlin
+TimePicker in Kotlin
+How to display an Analog clock and a Digital clock
+Creating a Calendar View app
+PulseCountDown in Android with Example
+Implement customized TimePicker in Android using SnapTimePicker
+CountDownTimer in Android with Example
+DatePickerDialog in Android
+TextClock in Kotlin
+Chronometer in Kotlin
+Date and Time Formatting in Android
+Slider Date Picker in Android
+
+Material Design
+
+Introduction to Material Design in Android
+Responsive UI Design in Android
+Material Design EditText in Android with Examples
+Theming of Material Design EditText in Android with Example
+Key Properties of Material Design EditText in Android
+How to Use Material Text Input Layout in Android 
+Material Design Buttons in Android with Example
+Theming Material Design Buttons in Android with Examples
+Material Design Date Picker in Android
+More Functionalities of Material Design Date Picker in Android
+Snackbar Material Design Components in Android
+Theming Material Design Snackbars in Android with Example
+Material Design Components Chips in Android with Example
+
+Bars
+
+What Are the Different Types of Bars Available on Android 
+ActionBar in Android with Example
+ToolBar in Android with Example
+Difference Between ActionBar and Toolbar in Android
+Difference Between AppBar  ActionBar  and Toolbar in Android
+Creating a SeekBar
+Discrete SeekBar in Kotlin
+Bottom Navigation Bar in Android
+ProgressBar in Kotlin
+Croller in Android
+Creating a RatingBar
+Snackbar in Android
+Custom Snackbars in Android
+ColorSeekBar in Android
+RangeSeekbar in Android Using Kotlin
+ExpandableBottomBar in Android
+State ProgressBar in Android
+
+Working with Google Maps
+
+How to Generate API Key for Using Google Maps in Android 
+How to Add Custom Marker to Google Maps in Android 
+How to Add Multiple Markers on Google Maps in Android 
+How to Use Different Types of Google Maps in Android 
+How to Add SearchView in Google Maps on Android 
+How to Add OnClickListner to Marker on Google Maps in Android 
+How to Draw Polyline in Google Maps in Android 
+How to Calculate Distance Between two Locations in Android 
+How to Draw a Track on Google Maps in Android 
+How to Add Dynamic Markers in Google Maps with Firebase Firstore 
+
+Chart
+
+How to add a Pie Chart into an Android Application
+Point Graph Series in Android
+How to Create Group BarChart in Android 
+How to Create a BarChart in Android 
+Line Graph View in Android with Example
+How to Create a Scatter Chart in Android to Represent Data 
+
+Animation
+
+Animation in Android with Example
+Android Animations using Java
+Android Animations in Kotlin
+How to add fading TextView animation in Android
+How to add Lottie Animation in an Android app
+Android Rotate animations in Kotlin
+TextWriter in Android with Example
+LineAnimationView in Android with Example
+BubbleEmitter animation in Android with Examples
+Create an Instagram Twitter Heart Like Animation in Android
+Implement Zoom In or Zoom Out in Android
+BungeeAnimation in Android with Example
+ParticleView in Android with Examples
+Bounce Animation in Android
+How to Create an Animated Splash Screen in Android 
+Interpolator in Android with Example
+Android Fade In Out in Kotlin
+Android Slide Up Down in Kotlin
+Shimmer Effect on Image in Android
+How to Create Shine Effect in Android 
+Wave Animation in Android
+Circular Reveal Animation in Android
+
+Database
+
+Firebase
+
+Firebase   Introduction
+Adding Firebase to Android App
+How to use Firebase UI Authentication Library in Android 
+User authentication using Firebase in Android
+Firebase Authentication with Phone Number OTP in Android
+How to Use Firebase Firestore as a Realtime Database in Android 
+How to Add Firebase Analytics to Android App in Android Studio 
+How to Create Dynamic Auto Image Slider in Android with Firebase 
+How to Create Dynamic WebView in Android with Firebase 
+How to Create Dynamic PDF Viewer in Android with Firebase 
+Operation with Firebase Realtime Database
+
+Firebase RealTime Database with Operations in Android with Examples
+How to Save Data to the Firebase Realtime Database in Android 
+How to Retrieve Data from the Firebase Realtime Database in Android 
+How to Retrieve Data from Firebase Realtime Database in Android ListView 
+How to Create a Dynamic Audio Player in Android with Firebase Realtime Database 
+How to Create a Dynamic Video Player in Android with Firebase Realtime Database 
+
+
+Operation with Firebase Firestore
+
+How to Create and Add Data to Firebase Firestore in Android 
+How to Read Data from Firebase Firestore in Android 
+How to Update Data in Firebase Firestore in Android 
+How to Delete Data from Firebase Firestore in Android 
+How to Create Dynamic Intro Slider in Android using Firebase Firestore 
+How to Create Dynamic Bottom Sheet Dialog in Android using Firebase Firestore 
+How to Display Dynamic AlertDialog in Android using Firebase Firestore 
+How to Create Dynamic ListView in Android using Firebase Firestore 
+How to Create Dynamic Horizontal RecyclerView in Android using Firebase Firestore 
+How to Create Dynamic GridView in Android using Firebase Firestore 
+
+
+
+
+SQLite
+
+How to pre populate database in Android using SQLite Database
+
+
+Room DB
+
+How to Perform CRUD Operations in Room Database in Android 
+
+
+
+Advance Android
+
+Storage
+
+Shared Preferences in Android with Examples
+Internal Storage in Android with Example
+External Storage in Android with Example
+How to Save ArrayList to SharedPreferences in Android 
+Preferences DataStore in Android
+How to Add Views Dynamically and Store Data in Arraylist in Android 
+
+
+JSON and Volley
+
+Volley Library in Android
+JSON Parsing in Android
+JSON Parsing in Android using Volley Library
+How to Extract Data from JSON Array in Android using Volley Library 
+
+
+Threading and Multithreading
+
+Thread Priority in Kotlin and Android
+MultiThreading in Android with Examples
+Running User Interface Thread in Android using Kotlin
+
+
+Kotlin Coroutine
+
+Kotlin Coroutines on Android
+Scopes in Kotlin Coroutines
+Dispatchers in Kotlin Coroutines
+Launch vs Async in Kotlin Coroutines
+Suspend Function In Kotlin Coroutines
+Singleton Class in Kotlin
+withContext in Kotlin Coroutines
+runBlocking in Kotlin Coroutines with Example
+Jobs  Waiting  Cancellation in Kotlin Coroutines
+Getting Started with Paging Library v  in Android using Kotlin Coroutines
+
+
+Dependency Injection
+
+Dependency Injection with Dagger   in Android
+Dagger   Android Example using Retrofit
+
+
+
+Jetpack
+
+Introduction to Android Jetpack
+Foundation Components of Android Jetpack
+Architecture Components in Android
+Behavior Components of Android Jetpack
+UI Components of Android Jetpack
+How to Install Android Studio Canary Version 
+View Binding in Android Jetpack
+View Binding with Fragments in Android Jetpack
+JetPack Compose
+
+Basics of Jetpack Compose in Android
+How to Create a New Project in Android Studio Canary Version with Jetpack Compose 
+TextView in Android using Jetpack Compose
+ImageView in Android using Jetpack Compose
+RadioButtons in Android using Jetpack Compose
+ProressBar in Android using Jetpack Compose
+AlertDialog in Android using Jetpack Compose
+TopAppBar in Android using Jetpack Compose
+Circular ImageView in Android using Jetpack Compose
+Checkbox in Android using Jetpack Compose
+Button in Android using Jetpack Compose
+EditText in Android using Jetpack Compose
+
+
+
+Architecture
+
+Android Architecture Patterns
+MVC  Model View Controller  Architecture Pattern in Android with Example
+MVP  Model View Presenter  Architecture Pattern in Android with Example
+MVVM  Model View ViewModel  Architecture Pattern in Android
+Difference Between MVC and MVVM Architecture Pattern in Android
+Difference Between MVC and MVP Architecture Pattern in Android
+Difference Between MVP and MVVM Architecture Pattern in Android
+Difference Between MVC  MVP  and MVVM Architecture Pattern in Android
+
+App Publish
+
+How to Publish Your Android App on Google Play Store 
+How to Publish Your Android App on Amazon App Store for Free 
+
+App Monetization
+
+Overview of Google Admob
+AdMob Banner Ads for Android Studio
+AdMob Interstitial Ads for Android Studio
+How to Integrate Google Admob Rewarded Video Ads in Android 
+Overview of Facebook Audience Network
+How to Integrate Facebook Audience Network  FAN  Banner Ads in Android 
+How to Integrate Facebook Audience Network  FAN  Native Ads in Android 
+How to Integrate Facebook Audience Network  FAN  Interstitial Ads in Android 
+How to Integrate Facebook Audience Network  FAN  Rewarded Video Ads in Android 
+
+Projects
+
+How to build a simple Calculator app using Android Studio 
+How to create a Stopwatch App using Android Studio
+How to Build a Simple Flashlight TorchLight Android App 
+How to Build a Simple Notes App in Android 
+How to Build Spin the Bottle Game Application in Android 
+How to create a COVID    Tracker Android App
+How to Build a Tic Tac Toe Game in Android 
+How to create a Face Detection Android App using Machine Learning KIT on Firebase
+How to Build a Simple Augmented Reality Android App 
+How to Build a Grocery Android App 
+How to Build a Video Calling Android App with Jitsi Meet SDK 
+
+Tips and Tricks
+
+How to install Android Applications on Mobile Phones without USB Cables using Android Studio
+Tips to Prepare Your Android App For Launch in Google Play Store
+Top   Google Play Store Tips That You Should Try
+Top   Tips to Get Your Android App Featured on Google Play Store
+  Tips to Improve Your Android Development Skills
+Top   Books For Android App Development
+  Best Android Libraries That Every Android Developer Should Know
+How to Reduce APK Size in Android 
+  Most Useful Android Studio Plugins
+  Must Have Skills for Becoming an Android App Developer
+  Major Reasons Why Your Android App is Performing Slow   Must Read For Developers 
+
+Miscellaneous
+
+How to create a Facebook login using an Android App 
+Screen Orientations in Android with Examples
+How to change Input Method Action Button in Android 
+Introduction to Retrofit   in android
+How to Display the List of Sensors Present in an Android Device Programmatically 
+How to Check the Battery Level in Android Programmatically 
+How to Determine the Current Dock Type in Android 
+How to Check if the Android Device is in Dock State 
+How to Vibrate a Device Programmatically in Android 
+Input Events in Android with Example
+Android Gestures with Examples
+Session Management in Android with Example
+Include and Merge Tags in Android with Example
+How to Use Proguard to Reduce APK Size in Android 
+How to use R  to Reduce APK Size in Android 
+Difference Between Proguard and R  in Android
+Welcome to The Modern Android App Development
+
+Conclusion 
+In conclusion  this Android tutorial serves as a comprehensive resource for beginners and experienced developers alike  By following the step by step instructions and leveraging the power of Android Studio  learners can acquire a solid foundation in Android app development  From understanding the fundamentals to exploring advanced concepts  this tutorial equips individuals with the necessary knowledge and skills to embark on their journey in the world of Android development  With continuous practice  staying updated with the latest trends  and actively engaging with the Android community  readers can unlock endless possibilities to create innovative and impactful mobile applications  Start your Android development journey today and embrace the opportunities that this dynamic platform offers  
+Top    Android Interview Questions  amp  Answers   SDE I to SDE III
+
+
+                            
+                            
+                        
+                                                                              
+                                        
+                                                                                
+                                                                
+                            
+    
+        
+        
+        Comment
+    More infoAdvertise with us                                
+                                
+                                        Next Article
+                                        
+                                    
+                                    
+                                    
+                                        Introduction to Android Development
+                                    
+                                
+                                                        
+                        
+                            
+                                        
+                                            
+                                                
+                                                
+                                                    
+        
+            
+        
+        
+                                                
+                                                
+                                                    abhishek                                                 
+                                                
+                                                
+            
+            
+
+ Follow                                            
+                                            
+                                        
+                                        
+                                            
+                                            
+                                                
+                                                
+                                                    
+                                                    
+                                                
+                                            
+                                            
+                                                                            
+                                    Improve
+                                    
+                                
+                            
+                                        
+                        
+                        
+                                                            
+                                    Article Tags   
+                                    
+                                        
+            
+                Android
+            
+            
+                Tutorials

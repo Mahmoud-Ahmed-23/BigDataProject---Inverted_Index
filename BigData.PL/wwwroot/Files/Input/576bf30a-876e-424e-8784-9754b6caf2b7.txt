@@ -1,0 +1,171 @@
+Sorting Algorithms
+                                        
+                                                                                    
+                                                
+                                                    Last Updated   
+                                                       Apr      
+                                                
+
+                                                 
+                                                 
+                                                                                                            
+                                                                                                                    
+                                                            
+                                                            
+                                                              
+                                                
+                                                    
+                                                        
+                                                    
+                                                
+                                            
+                                                                                                                                                                                        
+                                                                    Comments
+                                                                    
+                                                                        
+                                                                        
+                                                                        
+                                                                    
+                                                                
+                                                                
+                                                                Improve
+                                                                
+                                                                    
+                                                                    
+                                                                    
+                                                                
+                                                             
+                                                                                                                        
+                                                                                                                    
+                                                        
+                                                            
+                                                                                                                            
+                                                            
+                                                            
+                                                        
+                                                    
+                                                 
+                                            
+                                                                            
+                                                            
+                            
+                            
+                            
+                                            
+                                            
+                                             
+                                                
+                                                    
+                                                        
+                                                        Suggest changes
+                                                    
+                                                
+                                                                                                                                      
+                                            
+                                                     
+                                                        Like Article
+                                                    
+                                                    
+                                                        
+                                                        Like
+                                                    
+                                                
+
+                                            
+                                            
+                                            
+
+                                            
+                                            
+                                                
+                                                    
+                                                        
+                                                        Report
+                                                    
+                                                
+
+                                            
+                                            
+                                            
+                                        
+                                    
+                            
+                                                                A Sorting Algorithm is used to rearrange a given array or list of elements in an order   For example  a given array                becomes                after sorting in increasing order and becomes                after sorting in decreasing order  There exist different sorting algorithms for different different types of inputs  for example a binary array  a character array  an array with a large range of values or an array with many duplicates or a small vs large array The algorithms may also differ according to output requirements  For example  stable sorting  or maintains original order of equal elements  or not stable  Sorting is provided in library implementation of most of the programming languages   These sorting functions typically are general purpose functions with flexibility of providing the expected sorting order  increasing or decreasing or by a specific key in case of objects  Basics of Sorting Algorithms Introduction to Sorting Applications of Sorting Sorting Algorithms Comparison Based   Selection Sort   Bubble Sort   Insertion Sort   Merge Sort   Quick Sort   Heap Sort  Cycle Sort    way Merge SortNon Comparison Based    Counting Sort  Radix Sort  Bucket Sort   TimSort  Comb Sort  Pigeonhole SortHybrid Sorting Algorithms   IntroSort  Tim SortLibrary Implementations qsort   in Csort   in C   STLArrays sort   in Java with examplesCollections sort   in Java with ExamplesSort a List in PythonSorting in JavaScriptEasy Problems on Sorting Check if an array is SortedSort an array of two typesSort a StringSort Each Row of a MatrixSort a MatrixSort a Linked ListSort in Wave FormSort by FrequencySort from Different MachinesCheck if any two intervals overlapMissing elements of a rangeSort by set bits countsSort even and odd placed in different orders Sorting Big IntegersSort strings by lengthsMerge Two Sorted ArraysSort when two halves are sorted  Sum   Pair in a Sorted ArrayIntersection of two sorted arrays Union of two sorted arraysMeeting RoomsMedium Problems on Sorting Minimum Increments to Make UniqueMerge Overlapping IntervalsMinimum PlatformsClosest Pair of ElementsClosest Pair of PointsChocolate Distribution ProblemMin and Max Amount to Buy AllThree Way PartitioningSort an array of  s   s and  sSort a linked list of  s   s and  sInversion count K th Smallest ElementK Smallest Elements  Sum   Find Any  Sum   Closest TripletSmallest Difference Triplet from Three arraysMerge K Sorted ArraysMerge K Sorted Linked ListsMin Unsorted Subarray to make array sortedSort a nearly sorted arraySort n numbers in range from   to n       Sort an array of   to nSort according to order defined by anotherMaximum intervals overlapPermutation with worst Case of Merge SortMinimum swaps to make two arrays identicalPermute two arrays such that all pair suns are greater than KBucket Sort To Sort an Array with Negative NumbersConvert an Array to reduced form using Vector of pairsCheck if array can be sorted with conditional swapping of adjacent  Sum   Find Any   More problems an   Sum are in Hard Section Hard Problems on Sorting Merge Without Extra SpaceTop K Frequent Elements  Sum   Distinct Triplets   Sum   Distinct Quadruples   Sum   All Quadruples  Sum   Closest QuadrupleSurpasser Counts in an ArrayCount distinct occurrences as a subsequenceMinimum consecutive number subsetsMinimum swaps for Binary Tree to BSTK th smallest element after removing some integers from natural numbersMax frequency diff such greater freq item is also is also greaterMin swaps to reach permuted array with at most   positions left swaps allowedMaking Array Elements SameSort an array after applying an equationArray of strings in sorted order without copying stringsQuick Links   Practice Problems  on Sorting  Top Sorting Interview Questions Quizzes  on SortingRecommended Learn Data Structure and Algorithms   DSA Tutorial
+                            
+                            
+                        
+                                                                              
+                                        
+                                                                                
+                                                                
+                            
+    
+        
+        
+        Comment
+    More infoAdvertise with us                                
+                                
+                                        Next Article
+                                        
+                                    
+                                    
+                                    
+                                        Introduction to Sorting Techniques   Data Structure and Algorithm Tutorials
+                                    
+                                
+                                                        
+                        
+                            
+                                        
+                                            
+                                                
+                                                
+                                                    H
+        
+            
+        
+        
+                                                
+                                                
+                                                    harendrakumar                                                   
+                                                
+                                                
+            
+            
+
+ Follow                                            
+                                            
+                                        
+                                        
+                                            
+                                            
+                                                
+                                                
+                                                    
+                                                    
+                                                
+                                            
+                                            
+                                                                            
+                                    Improve
+                                    
+                                
+                            
+                                        
+                        
+                        
+                                                            
+                                    Article Tags   
+                                    
+                                        
+            
+                Sorting
+            
+            
+                DSA
+                                                
+                                                                    
+                                                                                        
+                                    Practice Tags   
+                                    
+                                        Sorting

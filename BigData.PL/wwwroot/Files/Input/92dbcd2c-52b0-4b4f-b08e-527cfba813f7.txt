@@ -1,0 +1,166 @@
+System Design Interview Questions and Answers       
+                                        
+                                                                                    
+                                                
+                                                    Last Updated   
+                                                       Apr      
+                                                
+
+                                                 
+                                                 
+                                                                                                            
+                                                                                                                                                                                    
+                                                                    Comments
+                                                                    
+                                                                        
+                                                                        
+                                                                        
+                                                                    
+                                                                
+                                                                
+                                                                Improve
+                                                                
+                                                                    
+                                                                    
+                                                                    
+                                                                
+                                                             
+                                                                                                                        
+                                                                                                                    
+                                                        
+                                                            
+                                                                                                                            
+                                                            
+                                                            
+                                                        
+                                                    
+                                                 
+                                            
+                                                                            
+                                                            
+                            
+                            
+                            
+                                            
+                                            
+                                             
+                                                
+                                                    
+                                                        
+                                                        Suggest changes
+                                                    
+                                                
+                                                                                                                                      
+                                            
+                                                     
+                                                        Like Article
+                                                    
+                                                    
+                                                        
+                                                        Like
+                                                    
+                                                
+
+                                            
+                                            
+                                            
+
+                                            
+                                            
+                                                
+                                                    
+                                                        
+                                                        Report
+                                                    
+                                                
+
+                                            
+                                            
+                                            
+                                        
+                                    
+                            
+                                                                In the hiring procedure  system design interviews play a significant role for many tech businesses  particularly those that develop large  reliable software systems  In order to satisfy requirements like scalability  reliability  performance  and maintainability  an extensive plan for the system s architecture  components  and interactions must be developed We will discuss some common design interview questions asked by the interviewers frequently in big tech companies  We will also discuss some key points  that you should consider while designing the system and explaining the answer to the interviewer System Design Interview Questions and Answers       If you are preparing yourself for this round then we recommend you to read the blog How to crack system design round in interviews  Along with this  if you also want to crack Architect  SDM  SDE  and SSE jobs  then you can check out Mastering System Design Course and optimize your approach towards getting an amazing job Table of ContentDesign a URL Shortening Service  TinyURL Design YouTube Netflix  A Global Live Video Streaming Service Design Facebook Messenger or WhatsApp  A Global Chat Service Design Quora Reddit HackerNews  A Social Network   Message Board nbsp Service Design Search Typeahead Autocomplete Design Dropbox Google Drive Google Photos  A Global File Storage and Sharing nbsp Service Design a Web CrawlerDesign Facebook  Twitter  or Instagram Design Uber or Lyft  A Ride Sharing Service Design an API Rate Limiter Github Design a Notification System  Push Notifications    Design a URL Shortening Service  TinyURL URL shortening service allows users to enter a long URL  and then it returns a shorter  unique URL  These services generate a short URL if the user gives a long URL and if the user gives a short URL then it returns the original long URL Things to discuss and analyze Given a long URL  the service should generate a shorter and unique alias for it When the user hits a short link  the service should redirect to the original link Consider scalability if      s URL shortening requests come every second Service handle redirects Support for custom short URLs Track click stats Delete expired URLs The system should be highly available You need to consider three things while designing this service  nbsp API REST API    Discuss how the client will follow an approach to communicate with the service along with the load balancer which is the front end of the service Application Layer   Discuss how the worker thread or hosts that will take the long URL  generate the tiny URL and how it will store both of the URLs in the database Persistence Layer   Database   Design YouTube Netflix  A Global Live Video Streaming Service Design a video streaming service like Youtube Netflix where users can upload view search videos  The service should be scalable where a large number of users can watch and share the videos simultaneously  It will be storing and transmitting petabytes and petabytes of data  nbsp Things to discuss and analyze  nbsp Approach to record stats about videos e g  the total number of views  up votes down votes  etc Adding comments on videos in real time    Design Facebook Messenger or WhatsApp  A Global Chat Service To design a global chat service like Facebook Messenger or WhatsApp  you need to focus on real time communication  scalability  and reliability  Start with user management for registration and login  then implement messaging using technologies like WebSockets for real time data transfer  For message storage  use distributed databases to handle large amounts of data across different regions  Ensure reliability with features like delivery receipts and read acknowledgments Things to discuss and analyze  nbsp Approach for one on one text messaging between users Approach for extending the design to support group chats Delivered and read statusWhat action needs to be taken if the user is not connected to the internet Push notificationsSending media like images or other documentsApproach for providing end to end message encryption    Design Quora Reddit HackerNews  A Social Network   Message Board nbsp Service These services allow users to post questions  share links and answer the questions of other users  Users can also comment on questions or shared links  nbsp Things to discuss and analyze Approach to record stats of each answer such as the number of views  up votes down votes  etc Follow options should be there for users to follow other users or topics News feed generation which means users can see the list of top questions from all the users and topics they follow on their timeline    Design Search Typeahead  Autocomplete Typeahead service allows users to type some query and based on that it suggests top searched items starting with whatever the user has typed Things to discuss and analyze Approach to storing previous search queriesReal time requirement of the systemApproach to keep the data fresh Approach to find the best matches to the already typed stringQueries per second are to be handled by the system Criteria for choosing the suggestions A total number of data to be stored Approach to find the best matches to the already typed string   Design Dropbox Google Drive Google Photos  A Global File Storage and Sharing nbsp Service Design a file or image hosting service that allows users to upload  store  share  delete  and download files or images on their servers and provides synchronization across various devices Things to discuss and analyze Approach to upload view search share download files or photos from any device Service should support automatic synchronization between devices  i e   after updating a file on one device  it should get synchronized on all devices ACID  Atomicity  Consistency  Isolation  and Durability  properties should be present in the system Approach to track permission for file sharing Allowing multiple users to edit the same document The system should support storing large files up to a GB    Design a Web CrawlerDesign a Web Crawler scalable service that collects information  crawls  from the entire web and fetches hundreds of millions of web documents Things to discuss and analyze Approach to finding new web pages Approach to prioritize web pages that change dynamically Ensure that the crawler is not unbounded on the same domain     nbsp Design Facebook  Twitter  or Instagram You need to design a social media service for billions of users  Most of the interviewers spend time discussing news feed generation services in these apps Features to be considered Some of the specific Twitter Facebook Instagram features are to be supported Privacy controls around each tweet or post Users should be able to post tweets also the system should support replies to tweets grouping tweets by conversations Users should be able to see trending tweets posts Direct messagingMentions Tagging The user should be able to follow another user Things to analyze The system should be able to handle the huge amount of traffic for billions of users Number of followersThe number of times the tweet has been favored     nbsp Design Uber or Lyft  A Ride Sharing Service Design a service where a user requests a ride from the app  and a driver arrives to take them to their destination  A frequently asked interview question in the system design round of interviews  nbsp Things to analyze and discuss The backend is primarily serving mobile phone traffic  uber app talks to the backend over mobile data How dispatch system works  GPS  location data is what drives the dispatch system   How efficiently can the user match request with nearby drivers How do maps and routing work in Uber  How ETAs are calculated An efficient approach to store millions of geographical locations for drivers riders who are always on the move Approach to handle millions of updates to driver location Dispatch is mostly built using Node jsServices  Business logic services are mostly written in Python Databases  Postgres  Redis  MySQL     Design an API Rate Limiter Github Design a service or tool that monitors the number of requests per window of time a service agrees to allow  If the number of requests exceeds the rate limit blocks all the excess calls Things to analyze and discuss Limiting the number of requests an entity can send to an API within a time window  for example  twenty requests per second Rate limiting should work for a distributed setup  as the APIs are available through a group of servers How to handle throttling  soft and hard throttling etc       Design a Notification System  Push Notifications Design a Notification System that monitors the number of requests a service receives and blocking excess calls when the limit is exceeded Things to analyze and discuss Facilitate real time user engagement through timely notifications Implement user registration with customizable preferences Define events triggering notifications from external systems Generate dynamic and personalized notification content Integrate with push notification services for cross platform delivery Optimize delivery through batch processing and user feedback Prioritize secure communication and token management for data protection Implement throttling mechanisms to control notification volume Ensure scalability with horizontal scaling and redundancy Utilize logging and auditing for monitoring  troubleshooting  and performance optimization ConclusionIn conclusion  mastering system design interviews requires understanding key principles like scalability  performance  reliability  data management  and security  Practice with common questions on distributed systems  load balancers  databases  caching  and microservices is crucial  Familiarity with trade offs and best practices  combined with regular practice and feedback  will enhance your performance and confidence in these interviews 
+                            
+                            
+                        
+                                                                              
+                                        
+                                                                                
+                                                                
+                            
+    
+        
+        
+        Comment
+    More infoAdvertise with us                                
+                                
+                                        Next Article
+                                        
+                                    
+                                    
+                                    
+                                          Common System Design Concepts for Interview Preparation
+                                    
+                                
+                                                        
+                        
+                            
+                                        
+                                            
+                                                
+                                                
+                                                    
+        
+            
+        
+        
+                                                
+                                                
+                                                    anuupadhyay                                                
+                                                
+                                                
+            
+            
+
+ Follow                                            
+                                            
+                                        
+                                        
+                                            
+                                            
+                                                
+                                                
+                                                    
+                                                    
+                                                
+                                            
+                                            
+                                                                            
+                                    Improve
+                                    
+                                
+                            
+                                        
+                        
+                        
+                                                            
+                                    Article Tags   
+                                    
+                                        
+            
+                GBlog
+            
+            
+                System Design
+            
+            
+                Interview Questions
+            
+            
+                System Design
+            
+            
+                Interview Questions
+                                                
+                                                                               More

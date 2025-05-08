@@ -1,0 +1,165 @@
+Operating System Tutorial
+                                        
+                                                                                    
+                                                
+                                                    Last Updated   
+                                                       Jan      
+                                                
+
+                                                 
+                                                 
+                                                                                                            
+                                                                                                                    
+                                                            
+                                                            
+                                                              
+                                                
+                                                    
+                                                        
+                                                    
+                                                
+                                            
+                                                                                                                                                                                        
+                                                                    Comments
+                                                                    
+                                                                        
+                                                                        
+                                                                        
+                                                                    
+                                                                
+                                                                
+                                                                Improve
+                                                                
+                                                                    
+                                                                    
+                                                                    
+                                                                
+                                                             
+                                                                                                                        
+                                                                                                                    
+                                                        
+                                                            
+                                                                                                                            
+                                                            
+                                                            
+                                                        
+                                                    
+                                                 
+                                            
+                                                                            
+                                                            
+                            
+                            
+                            
+                                            
+                                            
+                                             
+                                                
+                                                    
+                                                        
+                                                        Suggest changes
+                                                    
+                                                
+                                                                                                                                      
+                                            
+                                                     
+                                                        Like Article
+                                                    
+                                                    
+                                                        
+                                                        Like
+                                                    
+                                                
+
+                                            
+                                            
+                                            
+
+                                            
+                                            
+                                                
+                                                    
+                                                        
+                                                        Report
+                                                    
+                                                
+
+                                            
+                                            
+                                            
+                                        
+                                    
+                            
+                                                                 An Operating System OS  is a software that manages and handles hardware and software resources of a computing device  Responsible for managing and controlling all the activities and sharing of computer resources among different running applications A low level Software that includes all the basic functions like processor management  memory management  file management  etc It mainly acts a government for your system that has different departments to manage different resources Examples are Linux  Unix  Windows     MS DOS  Android  macOS and iOS    Basics   IntroductionTypes of OSFunctions of OS System Initialization Kernel in OSSystem Call Privileged Instructions Process Scheduling    Process Introduction  Process Creation and DeletionStates of a Process Process Table and Control BlockTypes of Processes in Process TableProcess Management Introduction  Process SchedulerCPU Scheduling AlgorithmsPreemptive vs Non PreemptiveTime spent in Context SwitchDispatcher vs schedulerStarvation and Aging in Operating Systems  gt  gt  Quiz on CPU Scheduling  Process SynchronizationInter Process CommunicationIntroduction to Process Synchronization Critical SectionPeterson s Algorithm in Process SynchronizationLock variable synchronization mechanismSemaphores in operating systemClassical IPC Problems nbsp Communication using signals in CMutex vs  SemaphoreMonitors for Process Synchronization Dekker s algorithmBakery AlgorithmMutex lock for Linux Thread SynchronizationPriority Inversion   gt  gt  Quiz on Process Management in OS  Deadlock   Deadlock IntroductionDeadlock Prevention And AvoidanceDeadlock Detection And RecoveryBanker s AlgorithmDeadlock  Starvation  and LivelockResource Allocation Graph  RAG Methods of resource allocation to processes by operating systemProgram for Deadlock free condition in Operating SystemDeadlock detection in Distributed systemsTechniques used in centralized approach of deadlock detection in distributed systems  gt  gt  Quiz on Deadlock  Multithreading  Operating System   ThreadThreads and its typesOperating System   User Level thread Vs Kernel Level threadProcess based and Thread based MultitaskingMulti threading modelsBenefits of MultithreadingOperating System   Remote Procedure call  RPC  Memory Management   Introduction to memory and memory unitsMemory Management in Operating SystemBuddy System  Memory allocation techniquePagingSegmentationVirtual MemoryMemory InterleavingOperating system based VirtualizationSwap SpacePage Fault HandlingMemory Segmentation in      MicroprocessorProgram for Next Fit algorithm in Memory ManagementOverlays in Memory ManagementBelady s AnomalyPage Replacement Algorithms Second Chance  or Clock  Page Replacement PolicyAllocating kernel memory  buddy system and slab system Static and Dynamic Libraries   Set  Working with Shared Libraries   Set  Named Pipe or FIFO with example C programTracing memory usage in Linux  gt  gt  Quiz on Memory Management  Disk Management  File SystemsUnix File SystemImplementing Directory Management using Shell ScriptFile Directory   Path NameStructures of DirectoryFile Allocation MethodsFile Access MethodsSecondary memorySecondary memory   Hard disk driveDisk Scheduling AlgorithmsProgram for SSTF disk scheduling algorithmWhat exactly Spooling is all about Difference between Spooling and BufferingFree space management  gt  gt  Quiz on Input Output Systems  Misc Computer Memory Introduction to UNIX System MicrokernelKernel I O Subsystem  I O System Important Linux Commands  leave  diff  cal  ncal  locate and ln Process states and Transitions in a UNIX ProcessIntroduction to Linux Shell and Shell Scripting crontab  in Linux with Examplesindepth and maxdepth in Linux find   command for limiting search to a specific directory Real time systemsTasks in Real Time systemsMonolithic Kernel and key differences from Microkernel Get Set process resource limits in CDual Mode operations in OS Types of Operating System Batch OS  e g  Transactions Process  Payroll System  etc  Multi programmed OS e g  Windows  UNIX  macOS  etc  Timesharing OS e g  Multics  Linux  etc  Real Time OS e g  PSOS  VRTX  etc  Distributed OS e g  LOCUS  Solaris  etc   Operating System Functions Memory and processor ManagementNetwork ManagementSecurity ManagementFile ManagementError DetectionJob AccountingLast Minute Notes  LMNs     Operating SystemsCommonly Asked Operating Systems Interview Questions Quizzes  on Operating Systems   Practice Problems  on Operating Systems  
+                            
+                            
+                        
+                                                                              
+                                        
+                                                                                
+                                                                
+                            
+    
+        
+        
+        Comment
+    More infoAdvertise with us                                
+                                
+                                        Next Article
+                                        
+                                    
+                                    
+                                    
+                                        What is an Operating System 
+                                    
+                                
+                                                        
+                        
+                            
+                                        
+                                            
+                                                
+                                                
+                                                    
+        
+            
+        
+        
+                                                
+                                                
+                                                    kartik                                                
+                                                
+                                                
+            
+            
+
+ Follow                                            
+                                            
+                                        
+                                        
+                                            
+                                            
+                                                
+                                                
+                                                    
+                                                    
+                                                
+                                            
+                                            
+                                                                            
+                                    Improve
+                                    
+                                
+                            
+                                        
+                        
+                        
+                                                            
+                                    Article Tags   
+                                    
+                                        
+            
+                Operating Systems
+            
+            
+                GATE CS

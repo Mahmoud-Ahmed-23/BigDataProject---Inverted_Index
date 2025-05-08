@@ -1,0 +1,258 @@
+Google Cloud Platform Tutorial
+                                        
+                                                                                    
+                                                
+                                                    Last Updated   
+                                                       Jan      
+                                                
+
+                                                 
+                                                 
+                                                                                                            
+                                                                                                                    
+                                                            
+                                                            
+                                                              
+                                                
+                                                    
+                                                        
+                                                    
+                                                
+                                            
+                                                                                                                                                                                        
+                                                                    Comments
+                                                                    
+                                                                        
+                                                                        
+                                                                        
+                                                                    
+                                                                
+                                                                
+                                                                Improve
+                                                                
+                                                                    
+                                                                    
+                                                                    
+                                                                
+                                                             
+                                                                                                                        
+                                                                                                                    
+                                                        
+                                                            
+                                                                                                                            
+                                                            
+                                                            
+                                                        
+                                                    
+                                                 
+                                            
+                                                                            
+                                                            
+                            
+                            
+                            
+                                            
+                                            
+                                             
+                                                
+                                                    
+                                                        
+                                                        Suggest changes
+                                                    
+                                                
+                                                                                                                                      
+                                            
+                                                     
+                                                        Like Article
+                                                    
+                                                    
+                                                        
+                                                        Like
+                                                    
+                                                
+
+                                            
+                                            
+                                            
+
+                                            
+                                            
+                                                
+                                                    
+                                                        
+                                                        Report
+                                                    
+                                                
+
+                                            
+                                            
+                                            
+                                        
+                                    
+                            
+                                                                Google Cloud Platform is a set of cloud computing services provided by Google that allow you to store  manage  and analyze data  It is also used for developing  deploying  and scaling applications on Google       s environment  It was announced as the leading cloud platform in Gartner       s IaaS Magic Quadrant in       
+Likewise  it provides tools for developers to build and deploy applications securely and reliably  with access to advanced security features  Services of Google Cloud Platform can be accessed by developers  cloud administrators  and other enterprise IT professionals through the public internet or a dedicated network connection  
+
+In this Google Cloud Platform tutorial you       ll learn all the basic to advanced concepts like Google Cloud  Google Cloud Storage  Google Cloud console  google cloud services  google cloud servers  google cloud hosting  etc  This tutorial is designed to help beginners and professionals  
+The tutorial provides learners with a complete guide to using the Google Cloud platform as a service  Whether you are new to cloud computing or looking to expand your knowledge and skills  this tutorial will provide you with the necessary information and resources to effectively use GCP 
+What is Cloud Computing 
+Cloud computing is the distribution of computing resources on demand via the internet  including servers  storage  databases  software  and more  It lowers costs and boosts efficiency by enabling individuals and organizations to access and utilize these resources without requiring on site infrastructure or upkeep  
+Due to its improved manageability  quick speed  and low maintenance requirements  cloud computing is advancing  It aids businesses in reducing their use of resources and total infrastructure expenditures  Instead of keeping data on a local server or their devices  users can save  change  or process it on the internet or a cloud based platform with the help of a remote server 
+Introduction
+In this section we will discussed all about GCP and its features  so explore this Google Cloud Platform introductory section and get all details of GCP 
+
+What is Google Cloud Platform  GCP  
+Introduction to Google Cloud Platform
+Cloud Storage in Google Cloud Platform  GCP 
+Features of GCP
+Google Cloud Platform   Introduction to Qwiklabs
+
+Compute Services
+
+Key GCP Compute Services
+Google Compute Engine
+Cloud Functions in GCP
+How to Use Google Cloud Function with Python 
+Difference Between Google Cloud Compute Engine and App Engine
+Google Cloud Platform   Automatic Vs User Managed Replication Policy
+
+Storage and Database Services
+
+Google Cloud Storage
+Google File System
+Introduction to Google Cloud Bigtable
+
+Networking Services
+
+Google Cloud Platform Networking Services
+
+Security Services
+
+What is GCP Google Cloud Platform  Security 
+Access Control for Disaster Avoidance in Google Cloud IoT Core using IAM Policy
+
+Data Integration and Analytics Services
+
+Introduction to Databricks
+Google Cloud Platform   Introduction to BigQuery
+Google Cloud Platform   Introduction to BigQuery Sandbox
+Google Cloud Platform   Tables in BigQuery
+Google Cloud Platform   Running Queries in BigQuery
+Google Cloud Platform   User Defined Functions in BigQuery
+Google Cloud Platform   Working with External Data in BigQuery
+Google Cloud Platform   Loading Data to BigQuery
+Google Cloud Platform   Implementing Authorized View in BigQuery
+Google Cloud Platform   Query History vs Saved Query vs Shared Query in BigQuery
+Google Cloud Platform   Managing Access using IAM in BigQuery
+Google Cloud Platform   Data Visualization in BigQuery
+Google Cloud Platform   Data Security in BigQuery
+
+Management tools and Monitoring Services
+
+Google Cloud Platform   High Level Overview of Migrate for Anthos
+
+GCP DevOps
+
+Google Cloud Platform   Using Config Sync for Managing Kubernetes
+Google Cloud Platform   Deploying Django  amp  its Content Management Systems
+
+Miscellaneous
+
+Difference Between Google Cloud and AWS
+How To Share Files From Host Machine Windows  To Guest Machine Linux 
+Deployment Models in OpenStack
+How to Build G Suite Add ons with Google Apps script 
+Google Cloud Platform   Introduction to PhoneInfoga an OSINT Reconnaissance Tool
+Generating API Keys For Using Any Google APIs
+Google Cloud Platform   Understanding Federated Learning on Cloud
+
+Why we use Google Cloud Platform 
+Google Cloud Platform is one of the famous cloud providers in the IT industry  Google provides a scalable and reliable platform for building  testing  and deploying applications in a real time environment 
+Features of Google Cloud Platform
+
+Affordability  The price model of GCP is awesome it allows you to pay only for what you use 
+Speed  Reduce the serving cost and Accelerate content delivery to users through Google Cloud CDN 
+Consulting Services  To build your cloud strategies google provides its own Google experts 
+Cloud Data Transfer  By simple drag and drop method you can transfer your data to Google Cloud easily 
+Admin Control  Create or remove users        accounts  and add additional security options 
+Fast Development  GCP provides some tools and libraries which make development on GCP faster 
+
+Conclusion
+Google Cloud Platform  GCP  is a powerful and flexible cloud computing platform that offers a wide range of services for businesses and individuals  This tutorial provided an overview of GCP and its key features  as well as a detailed look at some of the most popular services offered by the platform  Both beginners and experts will easily understand this tutorial  With the ever growing demand for cloud computing services  GCP is a valuable addition to any IT professional or developer       s skill set 
+
+
+                            
+                            
+                        
+                                                                              
+                                        
+                                                                                
+                                                                
+                            
+    
+        
+        
+        Comment
+    More infoAdvertise with us                                
+                                
+                                        Next Article
+                                        
+                                    
+                                    
+                                    
+                                        What is Google Cloud Platform  GCP  
+                                    
+                                
+                                                        
+                        
+                            
+                                        
+                                            
+                                                
+                                                
+                                                    
+        
+            
+        
+        
+                                                
+                                                
+                                                    abhishek                                                 
+                                                
+                                                
+            
+            
+
+ Follow                                            
+                                            
+                                        
+                                        
+                                            
+                                            
+                                                
+                                                
+                                                    
+                                                    
+                                                
+                                            
+                                            
+                                                                            
+                                    Improve
+                                    
+                                
+                            
+                                        
+                        
+                        
+                                                            
+                                    Article Tags   
+                                    
+                                        
+            
+                DevOps
+            
+            
+                Google Cloud Platform
+            
+            
+                Tutorials

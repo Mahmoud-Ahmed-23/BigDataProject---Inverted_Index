@@ -1,0 +1,168 @@
+Amazon Web Services  AWS  Tutorial
+                                        
+                                                                                    
+                                                
+                                                    Last Updated   
+                                                       Apr      
+                                                
+
+                                                 
+                                                 
+                                                                                                            
+                                                                                                                    
+                                                            
+                                                            
+                                                              
+                                                
+                                                    
+                                                        
+                                                    
+                                                
+                                            
+                                                                                                                                                                                        
+                                                                    Comments
+                                                                    
+                                                                        
+                                                                        
+                                                                        
+                                                                    
+                                                                
+                                                                
+                                                                Improve
+                                                                
+                                                                    
+                                                                    
+                                                                    
+                                                                
+                                                             
+                                                                                                                        
+                                                                                                                    
+                                                        
+                                                            
+                                                                                                                            
+                                                            
+                                                            
+                                                        
+                                                    
+                                                 
+                                            
+                                                                            
+                                                            
+                            
+                            
+                            
+                                            
+                                            
+                                             
+                                                
+                                                    
+                                                        
+                                                        Suggest changes
+                                                    
+                                                
+                                                                                                                                      
+                                            
+                                                     
+                                                        Like Article
+                                                    
+                                                    
+                                                        
+                                                        Like
+                                                    
+                                                
+
+                                            
+                                            
+                                            
+
+                                            
+                                            
+                                                
+                                                    
+                                                        
+                                                        Report
+                                                    
+                                                
+
+                                            
+                                            
+                                            
+                                        
+                                    
+                            
+                                                                Amazon Web Services AWS  is one of the world s most adopted cloud computing platform that offers Infrastructure as a Service IaaS  and Platform as a Service PaaS   AWS offers on demand computing services  such as virtual servers and storage  that can be used to build and run applications and websites  AWS is known for its security  reliability  and flexibility  which makes it a popular choice for organizations that need to store and process sensitive data  This  AWS tutorial is designed for beginners and professionals to learn AWS s basic and advanced concepts  Learn about the various topics of AWS  such as introduction  history of AWS  global infrastructure  features of AWS  IAM  storage services  database services  application Services  etc   and other AWS products such as S   EC   Lambda  and more  By the end of this tutorial  readers will have a basic understanding of what AWS is and how it can be used to support their computing needs  What is Amazon Web Service  Amazon Web Services  AWS  is a cloud computing platform offered by Amazon  It provides a wide range of on demand services like computing power  storage  and databases  allowing businesses to scale and manage their IT resources efficiently  AWS offers services such as EC  for virtual servers  S  for scalable storage  RDS for managed databases  and Lambda for serverless computing  By using AWS  companies can reduce infrastructure costs  improve flexibility  and deploy applications globally with ease  Prerequisites to Learn AWS Before jumping to the  AWS Tutorial   it s recommended to have a basic foundational understanding of operating systems  computer networking  basic coding commands in Linux terminals  and some prior knowledge of cloud computing   AWS Tutorial   Table of Content  Introduction to AWS  AWS IAM   Identity and Access Management  Computing in AWS  Section     AWS EC    Backbone of AWS  Section     AWS EBS   Elastic Bean Stalk  Section     AWS EBS   Elastic Block Store  Section    AWS AMI  Section     AWS Load Balancer  Section     AWS Lambda  Section     AWS CloudWatch  Section     AWS AutoScaling  Section     Other Elastic Computes  ECS  EKS  ECR   AWS Storage Services  AWS Application Services  AWS Database Services  AWS VPC   Virtual Private Cloud  AWS Billing and Management  Machine Learning and IoT  Advantages of AWS  Application of AWS Introduction to AWS In this section  we are going to describe all about the AWS basics for the beginners  like its definition  AWS setup for business account and how to setup free tier account in AWS  So  explore this section to get an introduction of Amazon Web Service   Definition of AWS  Setup AWS Business Account  Setup Free Tier Account AWS IAM   Identity and Access Management AWS Identity and Access Management  IAM  is a crucial component of the Amazon Web Services  AWS  ecosystem  providing centralized control over user access to AWS resources  With IAM  administrators can securely manage user identities  assign permissions  and control privileges across the AWS environment   AWS IAM  AWS SAML  Creating IAM roles for EC   Denying Access using IAM policy for EC  and EBS Instance Computing in AWS Computing in AWS refers to the use of Amazon Web Services  AWS  to run various scripts  programs  websites etc on the AWS cloud rather than using it in your local servers  Here in this section we have listed all the topics of Computing in AWS   Section     AWS EC    Backbone of AWS  What is EC   How to create an Instance in EC   Types of EC   Price Model for EC   Introduction to EC  Spot Instances  Create a Windows EC  Instance and Connect Using RDP  Create an EC  Instance User Data Script  Flexibility in EC  Spot Instances  Rules for Spot Instances  Installation of Python  on AWS EC    Installation of GO on EC    Connecting EC  using Bastion Host  Section      AWS EBS   Elastic Bean Stalk  What is EBS  elastic Bean Stalk   How to Attach EBS Volume in EC   Replacing Unhealthy EC  Instances in EBS  Launching an Application on AWS Beanstalk  Add Security Group in EBS  Section     AWS EBS   Elastic Block Store  Introduction to EBS  EBS Snapshot  Change EBS Encryption Key  Section    AWS AMI  Definition of AMI  Creation of AMI  Section     AWS Load Balancer  Definition of AWS Load Balancer  Creation of Load Balancer  Section     AWS Lambda  AWS Lambda  Create an AWS Lambda Function  Insert data in DynamoDB using Lambda  Section     AWS CloudWatch  AWS CloudWatch  AWS Cloudwatch synthetics  Difference between CloudWatch and CloudTrail  Bash Scripting  Section     AWS AutoScaling  AutoScaling in EC   Create AutoScaling Group in EC   Section     Other Elastic Computes  ECS  EKS  ECR   What is ECS  What is EKS  Generating Log Bundle for EKS Instance  What is ECR  Difference between EBS and EFS  AWS Storage Services  AWS S   AWS S  Storage types classes  AWS S  versioning  Creation of AWS S  bucket  Difference between Amazon S  and Box  Difference between Amazon S  and TitanFile  Difference between Amazon S  and SecureSafe  AWS S  Lifecycle Management  Cross Region Replication  Creation of Cross Region Replication  AWS Glacier  How to setup AWS Backup  Disaster Recovery Strategies  AWS EBS  elastic block Store   AWS EFS  Difference between EBS and EFS  Difference between S  and EBS  Cross Region Replication  Cloud Front CDN  Creating Cloud Front CDN  Storage Gateway  AWS Snowball  AWS Application Services  AWS SQS  AWS SWF  AWS SNS  Installation of AWS SNS  Elastic Transcoder  API Gateway  AWS Kinesis  AWS Fargate  AWS Database Services  Difference between Relational and Non Relational Database  AWS DynamoDB  Working with DynamoDB Tables  Introduction to NoSQL Workbench  Creating a table in AWS DynamoDB  Querying in a table in AWS DynamoDB  Working with Queries  Working with backups  Web based Setup  AWS Aurora  Difference between Aurora and Redshift  Working with Third Party Data in Redshift  Copy an Amazon Redshift Cluster to a Different AWS Account  Introduction to AWS RDS  Creating RDS Instance  What is ElasticCache  AWS VPC   Virtual Private Cloud  AWS VPC  Security in VPC  VPC Peering  Creating your own custom VPC  VPC Networking Components  How to check metadata about VPC  Working with VPC and subnets  Direct Connect  NAT Gateways  How VPC interacts with Direct Connect Services  AWS VPC Endpoints  AWS VPC FlowLogs  AWS Bastion Host  Connect an EC  of Private Subnet using Bastion Host  NACL vs Security Group  AWS Lightsail  Launch a WordPress using lightsail  Resolve Domain verification using SES  AWS CloudFormation  Unregistered Function Error in Athena  What is AWS Amplify  Creating a User Pool in AWS Cognito  What is DNS  What is Route    Removing Restrictions from Port    in EC   AWS Data Pipeline  AWS Billing and Management  Introduction to Cost Explorer and Cost Management  AWS Budget Setup  Cost Usage and Report  Machine Learning and IoT  AWS Sagemaker  Using Custom UI in Sagemaker  IoT Products  AWS Interview Questions     AWS Interview Questions and Answers        Advantages of AWS  Here are some advantages of Amazon Web Services  Cost Efficient   AWS gives you a variety of cost effective pricing options so you can choose an appropriate instances and resources according to your workload and safe cost  Flexibility  AWS offers Effortless hosting of Applications and it provides instant availability of new features and technology   Scalability   AWS offer Features like AutoScaling and Elastic Load Balancing and their scale Increase and Decrease according to demand or traffic on the application   Security   AWS provides end to end encryption technology and privacy to its customers  AWS CertificationsAWS certification is important because it proves you know how to use Amazon s cloud services  It helps you get better job opportunities  a higher salary  and stand out from other candidates  Many companies prefer certified professionals since AWS is widely used in tech  It also boosts your skills and career growth AWS Certification Path   Levels  Exam  CostTry our  AWS Certified Cloud Practitioner Exam  Certification Course This nbsp AWS Cloud Practitioner Certification Course nbsp is designed to help beginners understand the basics of cloud computing and get familiar with Amazon Web Services  AWS   nbsp This AWS Certified Cloud Practitioner Exam   Certification Course is perfect if youre looking to start a career in cloud computing or just want to learn about AWS to enhance your current job skills  Here you will learn a clear introduction to what AWS is and how its main services like computing  storage  and databases work Application of AWS Amazon Web Services  AWS  is being increasingly adopted by many large enterprises such as Netflix  McDonald s  Airbnb  NASA  and Samsung to expand their businesses  AWS offers a variety of applications  some of which include   Storage and Backup  Social Networking  Mobile Apps  Websites  Gaming Conclusion Amazon Web Services is a powerful cloud computing platform that offers a wide range of on demand computing services such as virtual servers and storage  This tutorial has provided a brief introduction to cloud computing and given an overview of the various AWS products and services that are available  By the end of this tutorial  readers will have a solid understanding of AWS  
+                            
+                            
+                        
+                                                                              
+                                        
+                                                                                
+                                                                
+                            
+    
+        
+        
+        Comment
+    More infoAdvertise with us                                
+                                
+                                        Next Article
+                                        
+                                    
+                                    
+                                    
+                                        Introduction to Amazon Web Services
+                                    
+                                
+                                                        
+                        
+                            
+                                        
+                                            
+                                                
+                                                
+                                                    A
+        
+            
+        
+        
+                                                
+                                                
+                                                    amanchopra                                                
+                                                
+                                                
+            
+            
+
+ Follow                                            
+                                            
+                                        
+                                        
+                                            
+                                            
+                                                
+                                                
+                                                    
+                                                    
+                                                
+                                            
+                                            
+                                                                            
+                                    Improve
+                                    
+                                
+                            
+                                        
+                        
+                        
+                                                            
+                                    Article Tags   
+                                    
+                                        
+            
+                Amazon Web Services
+            
+            
+                DevOps
+            
+            
+                Tutorials

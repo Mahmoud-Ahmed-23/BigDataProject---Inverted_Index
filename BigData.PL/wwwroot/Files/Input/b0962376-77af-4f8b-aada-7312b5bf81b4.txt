@@ -1,0 +1,168 @@
+Compiler Design Tutorial
+                                        
+                                                                                    
+                                                
+                                                    Last Updated   
+                                                       Feb      
+                                                
+
+                                                 
+                                                 
+                                                                                                            
+                                                                                                                    
+                                                            
+                                                            
+                                                              
+                                                
+                                                    
+                                                        
+                                                    
+                                                
+                                            
+                                                                                                                                                                                        
+                                                                    Comments
+                                                                    
+                                                                        
+                                                                        
+                                                                        
+                                                                    
+                                                                
+                                                                
+                                                                Improve
+                                                                
+                                                                    
+                                                                    
+                                                                    
+                                                                
+                                                             
+                                                                                                                        
+                                                                                                                    
+                                                        
+                                                            
+                                                                                                                            
+                                                            
+                                                            
+                                                        
+                                                    
+                                                 
+                                            
+                                                                            
+                                                            
+                            
+                            
+                            
+                                            
+                                            
+                                             
+                                                
+                                                    
+                                                        
+                                                        Suggest changes
+                                                    
+                                                
+                                                                                                                                      
+                                            
+                                                     
+                                                        Like Article
+                                                    
+                                                    
+                                                        
+                                                        Like
+                                                    
+                                                
+
+                                            
+                                            
+                                            
+
+                                            
+                                            
+                                                
+                                                    
+                                                        
+                                                        Report
+                                                    
+                                                
+
+                                            
+                                            
+                                            
+                                        
+                                    
+                            
+                                                                A nbsp compiler nbsp is software that translates or converts a program written in a high level language  Source Language  into a low level language  Machine Language or Assembly Language   Compiler design is the process of developing a compiler It involves many stages like lexical analysis  syntax analysis  parsing   semantic analysis  code generation  optimization  etc  The Key objectives of compiler design are to automate the translation process  check correctness of input code  and reporting errors in source code  It acts as the  translator  of the programming world  bridging the gap between human readable code and machine understandable instructions Most of the early high level languages like C and C   were compiled  However modern languages like Java and Python use both interpreter and compiler  Please note that compiler only translates but interpreter runs as well  Introduction  Introduction of Compiler designCompiler construction toolsPhases of a CompilerSymbol Table in CompilerError detection and Recovery in CompilerError Handling in Compiler DesignLanguage Processors  Assembler  Compiler and InterpreterGeneration of Programming LanguagesLexical Analysis  Lexical AnalysisC program to detect tokens in a C programFlex  Fast Lexical Analyzer Generator   Quiz on Lexical AnalysisSyntax Analysis  Introduction to Syntax AnalysisFIRST and FOLLOWClassification of Context Free Grammars CFG Ambiguous GrammarIntroduction to ParsersClassification of top down parsersBottom Up ParserShift Reduce Parser in CompilerSLR  CLR and LALR ParsersTheory of Computation   Operator grammar and precedence parserSyntax Directed Translation  Syntax Directed TranslationS   attributed and L   attributed SDTs in Syntax directed translationQuiz on Parsing and Syntax Directed TranslationCode Generation and Optimization  Code OptimizationIntermediate Code GenerationIssues in the design of a code generatorThree address code in CompilerCompiler Design   Detection of a Loop in Three Address CodeIntroduction of Object CodeData flow analysis in CompilerQuiz on Code Generation and OptimizationRuntime Environments  Static and Dynamic ScopingCompiler Design   Runtime EnvironmentsCompiler Design   LinkerLoader in C C  Developing a Linux based shellConclusionMastering compiler design is essential for anyone delving into programming languages and software development  Throughout this compiler design tutorial  we ve covered crucial concepts such as lexical analysis  syntax analysis  semantic analysis  optimization techniques  and code generation  By understanding these foundations  you re equipped to build efficient compilers that transform source code into executable programs seamlessly  GATE   Previous Years Questions   Set       Set    Quiz on Compiler DesignPlease write comments if you find anything incorrect  or if you want to share more information about the topic discussed above 
+                            
+                            
+                        
+                                                                              
+                                        
+                                                                                
+                                                                
+                            
+    
+        
+        
+        Comment
+    More infoAdvertise with us                                
+                                
+                                        Next Article
+                                        
+                                    
+                                    
+                                    
+                                        Introduction of Compiler Design
+                                    
+                                
+                                                        
+                        
+                            
+                                        
+                                            
+                                                
+                                                
+                                                    
+        
+            
+        
+        
+                                                
+                                                
+                                                    kartik                                                
+                                                
+                                                
+            
+            
+
+ Follow                                            
+                                            
+                                        
+                                        
+                                            
+                                            
+                                                
+                                                
+                                                    
+                                                    
+                                                
+                                            
+                                            
+                                                                            
+                                    Improve
+                                    
+                                
+                            
+                                        
+                        
+                        
+                                                            
+                                    Article Tags   
+                                    
+                                        
+            
+                Compiler Design
+            
+            
+                GATE CS
+            
+            
+                GateCS

@@ -1,0 +1,168 @@
+Web Development
+                                        
+                                                                                    
+                                                
+                                                    Last Updated   
+                                                       Apr      
+                                                
+
+                                                 
+                                                 
+                                                                                                            
+                                                                                                                    
+                                                            
+                                                            
+                                                              
+                                                
+                                                    
+                                                        
+                                                    
+                                                
+                                            
+                                                                                                                                                                                        
+                                                                    Comments
+                                                                    
+                                                                        
+                                                                        
+                                                                        
+                                                                    
+                                                                
+                                                                
+                                                                Improve
+                                                                
+                                                                    
+                                                                    
+                                                                    
+                                                                
+                                                             
+                                                                                                                        
+                                                                                                                    
+                                                        
+                                                            
+                                                                                                                            
+                                                            
+                                                            
+                                                        
+                                                    
+                                                 
+                                            
+                                                                            
+                                                            
+                            
+                            
+                            
+                                            
+                                            
+                                             
+                                                
+                                                    
+                                                        
+                                                        Suggest changes
+                                                    
+                                                
+                                                                                                                                      
+                                            
+                                                     
+                                                        Like Article
+                                                    
+                                                    
+                                                        
+                                                        Like
+                                                    
+                                                
+
+                                            
+                                            
+                                            
+
+                                            
+                                            
+                                                
+                                                    
+                                                        
+                                                        Report
+                                                    
+                                                
+
+                                            
+                                            
+                                            
+                                        
+                                    
+                            
+                                                                Web development is the process of creating  building  and maintaining websites and web applications  It involves everything from web design to programming and database management  Web development is generally divided into three core areas  Frontend Development  Backend Development  and Full Stack Development Frontend Development Frontend development refers to everything that users see and interact with on the website  It involves the design  structure  and layout of the website and is often referred to as the  client side  of an application Frontend Technologies HTML  HTML stands for HyperText Markup Language  It is the standard markup language used to create and design web pages  defining their structure and layout  CSS  Cascading Style Sheets fondly referred to as CSS is a simply designed language intended to simplify the process of making web pages presentable  It is used to style our website  JavaScript  JavaScript is a scripting language used to provide a dynamic behavior to our website  Frontend Frameworks LibrariesReact js   A popular JavaScript library for building dynamic  component based user interfaces  Angular   A full fledged framework for building single page applications  SPAs   with features like two way data binding and dependency injection  Vue js   A progressive JavaScript framework that is flexible and can be used for building both simple and complex user interfaces  Backend DevelopmentBackend development refers to the server side of a website  where the logic and data are processed and stored  Users do not directly interact with this part  but it ensures that the website works properly Server side Programming Languages and FrameworksPHP  PHP is a server side scripting language designed specifically for web development  Java  Java is one of the most popular and widely used programming languages  It is highly scalable  Python  Python is a programming language that lets you work quickly and integrate systems more efficiently  Node js  Node js is an open source and cross platform runtime environment for executing JavaScript code outside a browser  Ruby  Ruby is a dynamic  reflective  object oriented  general purpose programming language  C     C  is a high level  general purpose programming language developed by Microsoft  Backend Languages Backend FrameworksPHPLaravel  WordpressJavaSpring  HibernatePythonDjango  Flask  Python PIPNode jsExpressRubyRuby on RailsC  NETDatabasesMySQLPostgreSQLMongoDBMariaDBSQLiteAPIs  Application Programming Interfaces RESTful API sGraphQLFull Stack DevelopmentFull stack development refers to the practice of developing both the frontend and backend of a website or web application  Full stack developers have a deep understanding of both areas and can build end to end solutions  Full Stack Technologies MERN Stack   MongoDB  Express js  React  Node js MEAN Stack   MongoDB  Express js  Angular  Node js JAMstack   JavaScript  APIs  Markup Django Stack    Django  MySQL PostgreSQL  HTML CSS JavaScript Spring Boot Stack    Spring Boot  MySQL PostgreSQL  Java LAMP Stack    Linux  Apache  MySQL  PHP LEMP Stack   Linux  Engine X  MySQL  PHP  DatabasesIn web technology  a database is a structured collection of data that is stored electronically and accessed via a web application  It serves as the backend component where data is stored  managed  and retrieved  Databases can be relational  like MySQL  PostgreSQL  using structured tables and SQL for queries  or non relational  like MongoDB  CouchDB  which store data in flexible  document oriented formats  They enable web applications to handle dynamic content  user data  transactions  and more by providing efficient storage  retrieval  and manipulation capabilities  Database management systems  DBMS  are used to interact with the database  ensuring data integrity  security  and performance    Relational DatabasesA relational database stores data in tables  similar to a spreadsheet  where each table has rows and columns  The rows hold individual records  and the columns define the data attributes  Tables can be linked to each other through special keys  allowing related data to be connected Postgre SQL   PostgreSQL is a powerful  open source relational database that supports advanced SQL features and complex queries  It handles structured data  ensures ACID compliance  and is known for its reliability and extensibility  MariaDB   MariaDB is an open source relational database that evolved from MySQL  offering improved performance  security  and features  It supports SQL queries  ACID compliance  and is highly compatible with MySQL  MySQL   MySQL is an open source relational database management system that uses SQL for managing structured data  It s known for its reliability  ease of use  and performance  widely used in web applications     NoSQL DatabasesA NoSQL database stores data in a flexible  non tabular format  unlike traditional relational databases  Instead of using tables with rows and columns  NoSQL databases might use documents  key value pairs  wide columns  or graphs to store data  This allows them to handle large amounts of unstructured or semi structured data efficiently  They are designed to scale easily and manage big data applications  Mongodb   MongoDB is a NoSQL database storing data in JSON like documents  It handles unstructured data  supports powerful queries  and scales easily across servers  making it popular for flexible  scalable applications  Cassandra   Apache Cassandra is an open source NoSQL database that is used for handling big data  It has the capability to handle structure  semi structured  and unstructured data  Redis   Redis is an in memory NoSQL database known for its speed  It supports various data structures like strings  hashes  and lists  making it ideal for caching  real time analytics  and messaging  Must Read  Top    Frameworks for Web Applications   Best Languages for Web Development 
+                            
+                            
+                        
+                                                                              
+                                        
+                                                                                
+                                                                
+                            
+    
+        
+        
+        Comment
+    More infoAdvertise with us                                
+                                
+                                        Next Article
+                                        
+                                    
+                                    
+                                    
+                                        HTML Tutorial
+                                    
+                                
+                                                        
+                        
+                            
+                                        
+                                            
+                                                
+                                                
+                                                    
+        
+            
+        
+        
+                                                
+                                                
+                                                    kartik                                                
+                                                
+                                                
+            
+            
+
+ Follow                                            
+                                            
+                                        
+                                        
+                                            
+                                            
+                                                
+                                                
+                                                    
+                                                    
+                                                
+                                            
+                                            
+                                                                            
+                                    Improve
+                                    
+                                
+                            
+                                        
+                        
+                        
+                                                            
+                                    Article Tags   
+                                    
+                                        
+            
+                Web Technologies
+            
+            
+                Tutorials
+            
+            
+                GBlog

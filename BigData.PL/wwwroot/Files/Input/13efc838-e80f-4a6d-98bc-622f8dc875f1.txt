@@ -1,0 +1,162 @@
+School Programming
+                                        
+                                                                                    
+                                                
+                                                    Last Updated   
+                                                       Mar      
+                                                
+
+                                                 
+                                                 
+                                                                                                            
+                                                                                                                    
+                                                            
+                                                            
+                                                              
+                                                
+                                                    
+                                                        
+                                                    
+                                                
+                                            
+                                                                                                                                                                                        
+                                                                    Comments
+                                                                    
+                                                                        
+                                                                        
+                                                                        
+                                                                    
+                                                                
+                                                                
+                                                                Improve
+                                                                
+                                                                    
+                                                                    
+                                                                    
+                                                                
+                                                             
+                                                                                                                        
+                                                                                                                    
+                                                        
+                                                            
+                                                                                                                            
+                                                            
+                                                            
+                                                        
+                                                    
+                                                 
+                                            
+                                                                            
+                                                            
+                            
+                            
+                            
+                                            
+                                            
+                                             
+                                                
+                                                    
+                                                        
+                                                        Suggest changes
+                                                    
+                                                
+                                                                                                                                      
+                                            
+                                                     
+                                                        Like Article
+                                                    
+                                                    
+                                                        
+                                                        Like
+                                                    
+                                                
+
+                                            
+                                            
+                                            
+
+                                            
+                                            
+                                                
+                                                    
+                                                        
+                                                        Report
+                                                    
+                                                
+
+                                            
+                                            
+                                            
+                                        
+                                    
+                            
+                                                                This page is designed for beginners in programming language  especially school students  It has the following sections  Introduction to Programming LanguagesLearning a Programming LanguageProgramming Problems and SolutionsPractice ProblemsRecent School Coding ArticlesRecent School Coding Practice Problems Multiple Choice Questions   C  C    Java  PythonLearning a Programming Language Learn CPPGetting Started  Setting up C   EnvironmentWriting first C   ProgramBasic  Data TypesVariables and KeywordsOperatorsDecision Making and Flow of Control  Decision MakingLoopsSwitch Functions  Introduction inline  FunctionsDefault Arguments ceil  and  floor  FunctionsPointers and References  PointersDangling   NULL   void   Wild PointersReferencesDifferences between Pointers and References new  and  delete  OperatorQuiz on ReferencesQuiz on  new  and  delete  operatorArray and Strings  ArraysStringsArray of StringsOOPs  Object Oriented Programming   Introduction Class and ObjectsAccess Modifiers friend  class and  friend  functionInheritancePolymorphism this  PointerQuiz on Class and ObjectQuiz on  this  PointerConstructors and Destructors  ConstrtuctorsDefault ConstructorsCopy ConstructorDestructorsQuiz on ConstructorsQuiz on DestructorsInheritance  What is Inherirtance What all is Inherited Multiple InheritanceQuiz on InheritancePolymorphism  Function OverloadingOperator OverloadingOperators that can not be overloadedQuiz on Function OverloadingQuiz on operator OverloadingVirtual Functions and Abstract Class  Virtual FunctionsPure Virtual Functions and Abstract ClassQuiz on Virtual FunctionsException Handling  Exception handlingcatch block and type conversionQuiz on Exception handlingQuick Links  More Articles on  C    gt  gt Practice Problems on  C     Quizzes on  C     Learn JAVAGetting Started  Setting up Java EnvironmentBeginning with JavaJava Naming ConventionsJVMBasics  IdentifiersData TypesVariablesScope of VariablesOperatorsComments in JavaQuiz on Data TypesQuiz on OperatorsInput and Output  Reading Input From ConsoleScanner Class in JavaDecision Making and Flow Of ControlIf   if else   if else if   Nested if   break   continueSwitch Case String in switch case in JavaLoopsArray  Arrays in JavaDefault Array ValuesArray IndexOutOfBounds ExceptionComparing ArraysQuiz on ArraysStrings  StringInitializing a StringStringTokenizer Class String  StringBuilder  StringBuffer charAT   indexOf and its versions   substring Reversing a String Integer to String String to Integer OOPs  Object Oriented Programming   Classes and ObjectsAccess ModifiersEncapsulationInheritanceOverloading in JavaQuiz on Classes and ObjectsMethods  Parameter PassingPassing and Returning ObjectsReturning Multiple ValuesPrivate and Finals MethodsQuiz on FunctionsConstructors  Constructor and its TypesDefault ConstructorCopy ConstructorConstructor ChainingQuiz on ConstructorsInheritance  Inheritance in JavaMultiple InheritanceInheritance and ConstructorsQuiz on InheritancePolymorphism  OverloadingMethod OverloadingDifferent Ways Of Method OverloadingMethod OverridingRun Time PolymorphismConstructor OverloadingKeywords in JavathissuperfinalabstractInterfaces and Abstract Clases  Abstract ClassesInterfacesAccess Specifiers of Methods in InterfacesDifference Between Abstract Class and InterfaceQuiz on Abstract Class And InterfaceException Handling  ExceptionsTypes Of ExceptionsTry Catch in JavaMultiCatch throw and throwsUser Defined ExceptionsQuiz on Exception HandlingFile Handling  File Class File Permissions Reading a Text FileCopying a FileDeleting a FileQuick Links  More Articles On  Java   gt  gt Practice Problems on  Java   Quizzes on  Java   Learn PythonGetting Started  IntroductionPython   The New Generation LanguageVariables   Expressions   FunctionsGlobal and Local VariablesOperators  Division OperatorAny and All OperatorIncrement and Decrement OperatorsOperator Functions Ternary OperatorQuiz on OperatorsData Types  IntroductionStrings   Strings   Set  Strings   Set  String Methods   Set  String Methods   Set  List   Comprehension and SlicingList Methods   Set  List Methods   Set  Tuples Arrays   Set  Arrays   Set  Quiz on Data TypesDictionary  IntroductionDictionary Methods Flow of Control  Loops and Control StatementsCountersFunctions  Mathematical Functions   Set   Mathematical Functions   Set  Calender FunctionsenumOOPs Object Oriented Programming Class   ObjectsData Hiding and Object PrintingInheritance Exception Handling  IntroductionUser Defined ExceptionsQuick Links  More Articles On  Python  gt  gt Practice Problems on  Python   Quizzes on  Python   Solved Programming Problems and SolutionsBasic   Program to swap two numbersProgram to check if given year is leap year or notProgram to print Floyd s triangleMathematical   Program to find Area of CircleProgram to find Area of a TriangleProgram to find factorial of a numberProgram to find GCD   HCF of two numberProgramto find LCM of two numberProgram to find all angles of a triangleSolving f n                           n using RecursionProgram to print first n Fibonacci numbers Multiply the given number by   such that it is divisible by   Program to find greater value between a n and b nMaximum number of pieces in N cutsProgram to find Sum of the series               Program to find Length of Bridge using Speed and Length of TrainPattern Printing  C Programs to print interesting PatternsC Programs to Diamond ShapeC   Program for printing Pyramid PatternsJava Programs for printing Pyramid PatternsProgram to print Inverse Diamond patternPython Programs for printing Pyramid Patterns   Set   Python Programs for printing Pyramid Patterns   Set   Program to print a given patternArray  Program to find largest element in an arrayProgram to find the sum of elements of arrayProgram for Multiplication of Array elementsProgram to cyclically rotate an array by oneProgram to print Sum Triangle of an arrayRecursive program to find an element in an array linearlyProgram for printing array in Pendulum ArrangementMatrix  Program to add two matrices Program for subtraction of matricesProgram to check if two matrices are identical or notProgram to multiply two matricesProgram to find transpose of matrixProgram to print a given matrix in Spiral FormProgram to print a matrix in Diagonal PatternStrings  Program for converting Alternate characters of a string to Upper CaseProgram to find missing characters to make a string PangramProgram to check if a string is palindrome or notDate and Time  Program for converting given time to wordsProgram to convert time from    hour format to    hour formatProgram to check if given Date is valid or not Practice ProblemsBasic  Print Hello WorldDecision MakingPerforming Arithmetic operationsPrint a string n timesSwap two numbersReversing digits of a numberDecimal to any base conversionConversion from any base to DecimalConversion from Celsius to FahrenheitPrint numbers from   to n without using loopsMiddle of threeTo check if a number is Palindrome or notBinary representation of a numberMathematical  Small factorialOdd or EvenCalculating abGreatest of three numbers Check if a number is a perfect squareAll divisors of a natural numberCalculating nPr  Permutations Sum of APSum of GPCalculating Surface area and volume of cuboidCalculating Compound InterestCalculating Simple InterestPrinting TablesArea of Rectangle Right Angled Triangle and CircleNumber of Open DoorsNumber of integer solutionsMaximum possible sum of productsRemainder SolutionTo check if given four points form a square or notOverlapping rectanglesSum of all prime numbers between   to nTo check if a number is power of another numberCommon divisors Composite seriesCalculating MeanMatching Pair Perfect NumberNumber of DivisorsParallel or PerpendicularMaximum DistanceDistance between two pointsTidy numberProper divisors and XOR operationSum PalindromePatterns  Number PatternPattern printingTriangle shrinking downwardsTriangle growing downwardsPattren of stringsY shaped patternInverted triangle of starsArray  Print elements of arraySum of array elementsMultiplying elements of an arraySearch an element in arrayAlone in coupleFinding second largest element in arrayBinary array sortingImmediate smaller elementReversing an array by  d  elementsEqual to ProductTo check if an array is sorted or notFinding roots of quadratic equationNumber of smaller and larger elementsMissing numberReverse array in groupsFinding mean at every pointPrint the left most elementCompete the skillsForm largest number from digitsFind duplicates in an arrayMatrix  Diagonal SumSum of elements in a matrixMaximum sum of Hour GlassStrings  Converting string from LOWER case to UPPER caseRemove characters from alphanumeric stringCount of Camel case charactersCount number of alphabetsTo check if a character is vowel or notFinding substring in a stringSorting a stringPerfect Reversible StringFinding longer of the string and concatenatingDisplay longest nameReverse a stringReversing vowelsSplit the stringSort the festCheck if a string is rotated by two placesDate and Time  Numebr of days between two given datesCheck if date is valid or not   hour clock multiplication   hour clock subtraction   hour clock additionMisc  Max min conversionJumping FrogProfessor and PartiesCombinational LogicThe Lazy Caterer s ProblemIf you like GeeksforGeeks and would like to contribute  you can also write an article and mail your article to review team geeksforgeeks org  See your article appearing on the GeeksforGeeks main page and help other Geeks  Please write comments if you find anything incorrect  or you want to share more information about the topic discussed above 
+                            
+                            
+                        
+                                                                              
+                                        
+                                                                                
+                                                                
+                            
+    
+        
+        
+        Comment
+    More infoAdvertise with us                                
+                                
+                                        Next Article
+                                        
+                                    
+                                    
+                                    
+                                          Best Programming Languages For School Students In     
+                                    
+                                
+                                                        
+                        
+                            
+                                        
+                                            
+                                                
+                                                
+                                                    
+        
+            
+        
+        
+                                                
+                                                
+                                                    kartik                                                
+                                                
+                                                
+            
+            
+
+ Follow                                            
+                                            
+                                        
+                                        
+                                            
+                                            
+                                                
+                                                
+                                                    
+                                                    
+                                                
+                                            
+                                            
+                                                                            
+                                    Improve
+                                    
+                                
+                            
+                                        
+                        
+                        
+                                                            
+                                    Article Tags   
+                                    
+                                        
+            
+                School Programming
